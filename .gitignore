@@ -1,3 +1,9 @@
 # PDFs grandes (excedem o limite de 100MB do GitHub)
 gurps-3e-fantasy-biblioteca-elfica.pdf
 gurps-3e-magia-biblioteca-elfica.pdf
+
+# Material bruto da transcricao (~931 MB: scans de pagina, PDFs fatiados e
+# extracoes intermediarias). Fica so no disco local; livros/ ja tem o resultado.
+backup/
+
+__pycache__/

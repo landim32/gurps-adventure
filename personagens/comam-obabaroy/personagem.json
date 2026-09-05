@@ -1,0 +1,319 @@
+{
+  "nome": "Comam Obabaroy",
+  "jogador": "IA (GURPS)",
+  "arquetipo": "Mercenário (Fantasy)",
+  "raca": null,
+  "foto": "foto.png",
+  "aparencia": "Meia-idade, entradas e rabo de cavalo, cavanhaque, zarolho de tapa-olho, sorriso constante, traços árabes",
+  "historia": "Mercenário zoeiro de um país islâmico; perdeu um olho em combate e ri disso até hoje",
+  "data_criacao": "06/09/2026",
+  "sequencia": "2",
+  "pontos_gastar": 150,
+  "pontos_total": 150,
+  "atributos": {
+    "ST": {
+      "valor": 13,
+      "custo": 30
+    },
+    "DX": {
+      "valor": 14,
+      "custo": 45
+    },
+    "IQ": {
+      "valor": 9,
+      "custo": -10
+    },
+    "HT": {
+      "valor": 12,
+      "custo": 20
+    }
+  },
+  "fadiga": 13,
+  "pontos_vida": 12,
+  "dano_basico": {
+    "gdp": "1D",
+    "bal": "2D-1"
+  },
+  "velocidade_basica": 6.5,
+  "deslocamento": 5,
+  "carga": {
+    "nenhuma": 13,
+    "leve": 26,
+    "media": 39,
+    "pesada": 78,
+    "muito_pesada": 130
+  },
+  "defesa_passiva": {
+    "armadura": 2,
+    "escudo": 0,
+    "total": 2
+  },
+  "defesas_ativas": {
+    "esquiva": 5,
+    "aparar": 9,
+    "bloqueio": 0
+  },
+  "reacao": "-3",
+  "vantagens_desvantagens": [
+    {
+      "nome": "Reflexos em Combate",
+      "custo": 15
+    },
+    {
+      "nome": "Hipoalgia (limiar de dor)",
+      "custo": 10
+    },
+    {
+      "nome": "Riqueza (Confortável)",
+      "custo": 10
+    },
+    {
+      "nome": "Zarolho",
+      "custo": -15
+    },
+    {
+      "nome": "Excesso de Confiança",
+      "custo": -10
+    },
+    {
+      "nome": "Fanfarronice",
+      "custo": -10
+    },
+    {
+      "nome": "Hábito Detestável (risada)",
+      "custo": -5
+    }
+  ],
+  "peculiaridades": [
+    "Sorri sempre, até em perigo",
+    "Piadas sobre o olho perdido",
+    "Dá nome às suas armas",
+    "Cospe no chão antes de atirar",
+    "Nunca paga a própria bebida"
+  ],
+  "armas_objetos": [
+    {
+      "item": "Cimitarra",
+      "dano": "2D/1D+1",
+      "tipo": "corte/cont",
+      "qtd": 1,
+      "peso": 2.5,
+      "categoria": "Armas"
+    },
+    {
+      "item": "Picareta",
+      "dano": "2D",
+      "tipo": "perf",
+      "qtd": 2,
+      "peso": 1.5,
+      "categoria": "Armas"
+    },
+    {
+      "item": "Besta ST17",
+      "dano": "1D+6",
+      "tipo": "perf",
+      "qtd": 1,
+      "peso": 3.0,
+      "categoria": "Armas"
+    },
+    {
+      "item": "Pé-de-cabra",
+      "dano": "-",
+      "tipo": "arma besta",
+      "qtd": 1,
+      "peso": 1.0,
+      "categoria": "Munição"
+    },
+    {
+      "item": "Aljava + 10 virotes",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 0.55,
+      "categoria": "Munição"
+    },
+    {
+      "item": "Capacete couro (cabeça)",
+      "dano": "-",
+      "tipo": "DP2/RD2",
+      "qtd": 1,
+      "peso": 0.0,
+      "categoria": "Armadura"
+    },
+    {
+      "item": "Loriga couro (tronco)",
+      "dano": "-",
+      "tipo": "DP2/RD2",
+      "qtd": 1,
+      "peso": 4.5,
+      "categoria": "Armadura"
+    },
+    {
+      "item": "Loriga couro (braços)",
+      "dano": "-",
+      "tipo": "DP2/RD2",
+      "qtd": 1,
+      "peso": 1.0,
+      "categoria": "Armadura"
+    },
+    {
+      "item": "Manopla couro (mãos)",
+      "dano": "-",
+      "tipo": "DP2/RD2",
+      "qtd": 1,
+      "peso": 0.0,
+      "categoria": "Armadura"
+    },
+    {
+      "item": "Loriga couro (pernas)",
+      "dano": "-",
+      "tipo": "DP2/RD2",
+      "qtd": 1,
+      "peso": 2.0,
+      "categoria": "Armadura"
+    },
+    {
+      "item": "Coturnos (pés)",
+      "dano": "-",
+      "tipo": "DP2/RD2",
+      "qtd": 1,
+      "peso": 1.5,
+      "categoria": "Armadura"
+    },
+    {
+      "item": "Rações (5 dias)",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 1.25,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Moringa (1 litro)",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 1.0,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Manta de lã",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 2.5,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Equip. básico pessoal",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 0.0,
+      "categoria": "Equipamento"
+    }
+  ],
+  "peso_total": 23.8,
+  "custo_total": 1398,
+  "pericias": [
+    {
+      "nome": "Espadas de Lâmina Larga",
+      "nh": 18,
+      "tipo": "DX/M",
+      "custo": 24,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Machado/Maça",
+      "nh": 16,
+      "tipo": "DX/M",
+      "custo": 8,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Besta",
+      "nh": 16,
+      "tipo": "DX/F",
+      "custo": 4,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Sacar Rápido (Flecha)",
+      "nh": 16,
+      "tipo": "DX/F",
+      "custo": 4,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Sacar Rápido (Espada)",
+      "nh": 15,
+      "tipo": "DX/F",
+      "custo": 2,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Acrobacia",
+      "nh": 15,
+      "tipo": "DX/D",
+      "custo": 8,
+      "categoria": "Físicas"
+    },
+    {
+      "nome": "Cavalgar",
+      "nh": 15,
+      "tipo": "DX/M",
+      "custo": 4,
+      "categoria": "Físicas"
+    },
+    {
+      "nome": "Armeiro",
+      "nh": 10,
+      "tipo": "IQ/M",
+      "custo": 4,
+      "categoria": "Profissionais"
+    },
+    {
+      "nome": "Sobrevivência (Deserto)",
+      "nh": 10,
+      "tipo": "IQ/M",
+      "custo": 4,
+      "categoria": "Profissionais"
+    },
+    {
+      "nome": "Tática",
+      "nh": 9,
+      "tipo": "IQ/D",
+      "custo": 4,
+      "categoria": "Profissionais"
+    },
+    {
+      "nome": "Primeiros Socorros",
+      "nh": 11,
+      "tipo": "IQ/F",
+      "custo": 4,
+      "categoria": "Profissionais"
+    },
+    {
+      "nome": "Manha",
+      "nh": 10,
+      "tipo": "IQ/M",
+      "custo": 4,
+      "categoria": "Sociais"
+    },
+    {
+      "nome": "Jogo",
+      "nh": 8,
+      "tipo": "IQ/M",
+      "custo": 1,
+      "categoria": "Sociais"
+    }
+  ],
+  "resumo": {
+    "atributos": 85,
+    "vantagens": 35,
+    "desvantagens": -40,
+    "peculiaridades": -5,
+    "pericias": 75,
+    "total": 150
+  }
+}

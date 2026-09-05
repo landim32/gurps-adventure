@@ -1,0 +1,54 @@
+# 17. Vôo
+
+Este capítulo discutirá regras especiais para movimento e combate aéreo. PCs podem voar por si próprios, usando poderes psíquicos ou magia que não são discutidos neste Módulo Básico. Campanhas no espaço podem incluir cintos de gravidade pessoais e raças alienígenas voadoras.
+
+## Movimento
+
+Se o Teto for alto o suficiente, seres capazes de voar poderão passar sobre os outros. Seres humanos normalmente voam na posição horizontal (de modo a poderem ver o que se passa no solo e para onde estão indo), o que faz com que ocupem dois hexágonos.
+
+**Mudança de Altura.** Movimentos na vertical têm o mesmo custo que na horizontal. Um metro de movimento diagonal (45 graus) custa a mesma coisa que 1,5 m de movimento horizontal.
+
+## Raio de Giração
+
+Quanto mais rápido alguma coisa se move no ar ou no solo, mais espaço necessitará para mudar de direção. Uma curva fechada pode fazer o veículo (ou criatura) perder sustentação/aderência e cair/rodopiar fora de controle.
+
+A segurança de uma curva depende da velocidade e do raio de giração. Em termos de jogo, o raio de giração é igual ao número de hexágonos que a figura percorre entre uma mudança de direção de 60 graus (um lado do hexágono) e a seguinte. Veja a ilustração.
+
+Se, por exemplo, o raio de giração for igual a 1, você percorre 1 hexágono entre mudanças de lado (descrevendo um círculo cujo raio é 1). Se seu raio de giração for 2, você se moverá 2 hexágonos entre as mudanças de lado, e assim por diante.
+
+Para descobrir o raio de giração, eleve ao quadrado a velocidade atual da figura e divida por (10×G), onde G é a força-G da curva. Arredonde para baixo se o movimento for em terra ou na água e para cima se o movimento for no ar. Use G=1 para a maioria dos casos. Mais do que isso é inverossímil para homens, animais e a maioria dos automóveis. É inverossímil também para uma figura alada sem propulsão mecânica. Faça um teste de Controle (DX, Perícia Vôo, Levitação, etc.) com um redutor igual a -4, se quiser tentar fazer uma curva mais fechada do que um hexágono. Uma falha significa que você caiu, perdeu o controle do veículo ou perdeu o controle no ar, conforme o caso. (Por questões de simplicidade, pode-se ignorar esta regra no caso de seres humanos correndo, a menos que eles estejam se deslocando com super-velocidade.)
+
+**Exemplo:** A velocidade de vôo de um grifo é 15; com uma Carga Leve (veja a seguir) ela se torna 11. O quadrado de 11 é 121, que dividido por 10 dá 13 (arredondado para cima). Em sua velocidade máxima, esta criatura pode percorrer 13 hexes para executar uma mudança de direção igual a 60 graus (1 lado de hex). Se ele for bem sucedido em um teste de DX com um redutor igual a -4, percorrerá apenas 12 hexes ao invés de 13. Uma falha o faria dar uma cambalhota no ar. Neste caso, o GM deverá fazer um teste de Cavalgar para ver se o cavaleiro consegue se manter sobre a montaria.
+
+Considerando que virar em alta velocidade obriga a percorrer um grande círculo, muitas vezes é mais rápido diminuir a velocidade, virar e acelerar novamente.
+
+## Carga
+
+Use as seguintes regras para carga em animais alados:
+
+| Carga | Limite | Efeito |
+|---|---|---|
+| Nenhuma Carga | até ST | o Deslocamento não é afetado |
+| Carga Leve | até 3×ST | reduza o Deslocamento em 4 |
+| Carga Média | até 5×ST | reduza o Deslocamento em 8 |
+| Carga Pesada | até 8×ST | reduza o Deslocamento em 12 |
+
+A maioria das criaturas não consegue voar se estiver com uma Carga Pesada; algumas delas não são capazes de fazê-lo nem com Carga Média.
+
+## Teto de Vôo
+
+Na Terra, um ser humano sem proteção terá dificuldade para respirar se passar dos 3.000 m de altura. Dobre os custos de fadiga para qualquer exercício entre 3.000 e 4.500 m. Além disso, será necessário a proteção de uma máscara de oxigênio (ou auxílio de magia). Alguns seres não-humanos são capazes de voar muito mais alto. Em planetas com uma pressão atmosférica muito maior será possível o vôo em altitudes maiores. Em planetas com pouca atmosfera, o inverso será verdadeiro.
+
+## Manobras de Combate
+
+As manobras de combate para personagens que voam são as mesmas que para os outros personagens.
+
+A Mudança de Posição é uma ação independente em vôo. Apontar é tratada da mesma maneira que para um homem a cavalo (pág. 137). As Manobras do tipo Avançar e ... permitem um “avanço” de 3 m em vôo. Concentrar pode ser feita durante um vôo a toda velocidade, se estiver voando em linha reta. Ataque Total: o personagem voador pode percorrer até metade de seu Deslocamento e fazer um ataque total.
+
+## Ataques e Defesas
+
+O uso de arma durante um vôo é difícil. O redutor para este caso é igual a (NH-15). Se seu nível de habilidade for maior ou igual a 15, não haverá redutor. A penalidade para o uso de uma arma de longo alcance durante um vôo é (NH-17). Note também que, para um ataque com armas de longo alcance, a velocidade do atacante deve ser levada em conta no cálculo do seu parâmetro velocidade/distância.
+
+Quando personagens voadores usarem armas de mão contra oponentes que estão no chão, o GM deverá usar os modificadores para altura relativa (pág. 123). O alcance da arma se torna muito importante neste caso. Não se preocupe com a altura relativa no caso de dois combatentes voadores.
+
+Seres humanos voadores têm um bônus igual a +2 em Esquiva e um redutor igual a -2 no caso de Aparar e Bloqueio, a menos que o nível de habilidade na perícia (ou mágica) usada para voar seja maior ou igual a 15.

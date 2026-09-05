@@ -1,0 +1,303 @@
+# Índice
+
+**INTRODUÇÃO** — 4
+- Suporte e Apoio ao Sistema — 4
+- Sobre os Autores — 5
+
+**1. HISTÓRIA** — 6
+- O Cataclismo — 6
+- A Disseminação da Humanidade — 7
+- A Ascenção de Mégalos — 7
+- Cronologia — 7-9
+
+**2. CULTURA** — 10
+- Tecnologia e Magia — 11
+- A Sociedade Feudal — 11
+- Línguas — 11
+- Pronúncia — 11
+- Lealdade, Homenagem e Propriedade de Terras — 12
+- A Vida numa Sociedade Feudal — 12
+- Cavalaria — 14
+- A Economia Feudal — 15
+- Para se Tornar um Cavaleiro — 15
+- O Governo das Cidades — 16
+- Guildas — 16
+- Armas e Dívisas Heráldicas — 16
+- Tipos de Guildas — 17
+- A Organização das Guildas — 17
+- A Guarda da Cidade — 17
+- Escravidão — 17
+- Santos Padroeiros, Mistérios e Organizações Secretas — 18
+- Aventuras com Guildas — 19
+- Os Miquelitas — 20
+- Cristianismo — 21
+- Os Sacramentos — 21
+- O Culto da Virgem Maria — 21
+- A Lei Canônica — 22
+- Casamento, Divórcio e Dotes — 22
+- Crime e Castigo — 22
+- Morte, Testamentos e Herança — 23
+- Juramentos e Perjúrio — 23
+- Santos — 23
+- Usura — 24
+- Venda de Indultos — 24
+- Escravidão — 24
+- Relíquias e Peregrinação — 24
+- A Hierarquia da Igreja e as Ordens Religiosas — 25
+- A Regra de São Bento — 25
+- Os Olibrianos — 25
+- Os Cavaleiros Hospitalários — 26
+- A Chegada dos Templários — 26
+- Os Cavaleiros Templários — 27
+- Os Jesuítas — 27
+- Os Tomistas — 28
+- As Ordens Monásticas — 28
+- O Islamismo — 29
+- Os sufistas — 29
+- Os Kharidjitas — 30
+- Os Cinco Pilares do Islã — 31
+- Predestinação e Livre Arbítrio — 31
+- Os Assassinos — 31
+- Ordens Islamísticas de Cavaleiros — 32
+- Casamento, Divórcio e Dotes — 33
+- Herança — 33
+- Álcool, Usura e Escravidão — 33
+- Hinduísmo e Budismo — 33
+- Seitas Islamíticas — 34
+- Xiismo — 34
+- Sunna — 34
+- Balikitas — 34
+- Judaísmo — 35
+- Cerimônias Judaicas — 35
+- Os Rabinos — 36
+- Raças não-humanas — 36
+- Cultos Greco-Romanos — 36
+- O Culto dos Elfos Negros — 37
+- Pesquisando — 37
+- Os Recém-Chegados — 38
+- Paganismo - A Religião Ancestral — 38
+
+**3. REINOS** — 40
+- Mégalos — 41
+- Controle de Armas — 43
+- A Arena — 44
+- As Legiões — 45
+- A Lei — 45
+- Escravidão — 45
+- As Fronteiras Setentrionais — 45
+- A Guarda do Imperador — 45
+- Teridar — 46
+- Myrgran — 46
+- Kethalos — 46
+- Azer — 47
+- A Região Central — 47
+- Mégalos — 47
+- Hidelban — 49
+- Mehan — 49
+- Claudius Maskill — 49
+- A Torre de Caça — 50
+- A Região Sul — 50
+- Ekhans — 50
+- Dekamera — 51
+- Serrun — 51
+- Min — 52
+- Sho'joor e Zehan — 52
+- A Região Oeste — 53
+- Yibyorak — 53
+- Hyrnan — 53
+- Bannock — 54
+- Quartedec — 54
+- Loucura na Floresta — 54
+- Arvey — 55
+- Craine — 55
+- Raphael — 55
+- Intriga na Fronteira — 55
+- Ouro Negro — 55
+- Nova Jerusalém — 56
+- Araterre — 57
+- Tecnologia — 58
+- Os Atóis Gêmeos — 58
+- Sauvons — 59
+- Abadia de Drift — 59
+- Aventuras nos Atóis — 59
+- Ansonne — 60
+- Regras Opicionais: Esgrima — 60
+- A Ilha Bilit — 60
+- Caithness — 64
+- Os Nomes em Caithness — 64
+- O Grande Deserto — 64
+- A Grande Floresta — 65
+- As Mulheres em Caithness — 66
+- Ascensão Social — 67
+- Não-Humanos — 68
+- A Ordem da Cantaria — 68
+- A Região Norte — 69
+- Carrik — 69
+- Mershall — 70
+- A Ordem de São Jorge do Dragão — 70
+- A Região Central — 71
+- Durham — 71
+- Photius — 71
+- Sterling — 71
+- O Oeste — 72
+- Wallace, Ferrier e Blythe — 72
+- A Região Sul — 72
+- Denton — 72
+- Simonton — 72
+- Al-Haz — 73
+
+- Aventuras em al-Haz — 75
+- Por trás da Muralha do Altíssimo — 76
+- O Mäelstrom — 77
+- A Costa — 78
+- Al-Ab'ra — 78
+- Al-Abyad — 78
+- As Montanhas — 79
+- Gebel al-Hikmah — 79
+- Geb'al-Din — 79
+- Firuz — 80
+- As Planícies — 80
+- Os Vizires — 80
+- As Tribos Nômades — 81
+- Alhallabad — 81
+- Tredroy Ocidental — 81
+- Al-Wazif — 82
+- Sunitas Versus Xiitas — 82
+- A Peste — 83
+- Al-Siyassi — 84
+- Aventuras em al-Wazif — 84
+- Qazr al-Sawh — 85
+- Os Grandes Jogos — 85
+- Shaniyabad — 86
+- Tredroy Setentrional — 87
+- Sa'Azrag — 87
+- Gebel Thamad — 87
+- Os Pilares do Céu — 88
+- A Cidade Perdida de Autheuil — 88
+- Cardiel — 89
+- Aventuras em Cardiel — 89
+- Embarcações a Vela — 90
+- O Conselho dos Nobres — 92
+- Calder — 93
+- Tredroy Oriental — 93
+- Hadaton — 94
+- Aliar — 94
+- Alimar — 95
+- Minder — 96
+- Ten-Tiri — 96
+- Sahud — 97
+- As Mulheres em Sahud — 97
+- Aventuras em Sahud — 98
+- A Religião Sahudense — 99
+- Kinkaku — 100
+- Uulinn — 100
+- Tsushuo — 100
+- O Rei Celestial — 100
+- O Território dos Nômades — 101
+- Aventuras no Território dos Nômades — 101
+- A Religião dos Nômades — 102
+- Heolford — 103
+- Bardos — 103
+- Zarak — 104
+- Não-Anões — 105
+- O Povo de Thulin — 106
+- Os Elfos — 107
+- A Morte de uma Nação — 107
+- As Ruínas Élficas — 108
+- Os Elfos Negros — 109
+- As Terras dos Orcs — 110
+- As Tribos — 110
+- O Castelo Defiant — 110
+
+**4. PERSONAGENS** — 111
+- Vantagens — 112
+- Desvantagens — 112
+- Perícias — 113
+- Novas Perícias — 113
+- Tabela de Empregos — 115
+- Tipos de Personagens — 116
+- Personagens Não-humanos — 119
+- Centauros — 119
+- Anões — 120
+- Elfos — 120
+- Elfos Negros — 120
+- Meio-Elfos — 120
+- Gigantes — 120
+- Gnomos — 121
+- Goblins — 121
+- Hobgoblins — 121
+- Halfilings — 121
+- Kobolds — 121
+- Minotauros — 122
+- Ogros — 122
+- Orcs — 122
+- Meio-Orcs — 122
+- Reptantes — 122
+- Vampiros — 123
+- Licantropos — 124
+- Criando Novas Raças — 124
+
+**5. CRIATURAS** — 126
+- Dragões — 126
+- Animais Selvagens e Fantásticos — 127
+- Animais Domésticos — 131
+
+**6. CAMPANHAS DE FANTASIA** — 132
+- Cenário — 133
+- A História que não Consta dos Anais — 133
+- Terra Histórica — 133
+- Universos Paralelos — 133
+- Terras Alternativas — 133
+- Campanhas Interligadas — 133
+- Mundos do Futuro — 134
+- Ficção Científica — 134
+- Magia — 134
+- O Nível de Mana — 134
+- Mana Seletivo — 135
+- Fundamento Científico — 135
+- Aptidão Mágica — 135
+- Freqüência de Manifestação — 135
+- Pontos de Personagem — 135
+- Nível de Habilidade com uma Mágica — 136
+- Dons Mágicos — 136
+- Tipos de Magia — 136
+- Magia "Comum" — 136
+- Magia Cerimonial — 136
+- Magia Intrínseca (Dons Mágicos) — 136
+- Comandos — 136
+- Magia de Improviso — 137
+- Magia de Runas — 137
+- Cantrips — 137
+- Magia Clerical — 137
+- "Magia" Psíquica — 137
+- Objetos Encantados — 137
+- A Magia como uma Forma Alternativa de Tecnologia — 137
+- Predestinação — 137
+- Saúde Pública — 138
+- Alimentando as Massas — 138
+- O Dia-a-Dia — 138
+- Magia de Combate — 138
+- Há Algum Deus em Casa? — 138
+- Sociedade — 139
+- Nível Tecnológico — 139
+- Como um Peixe fora D'água — 139
+- Magia e Tecnologia — 140
+- Magia e Sociedade — 140
+- Raças — 140
+- Quais Raças Existem? — 140
+- Aonde Você Vai Por Este Dragão? — 140
+- PCs Não-humanos — 141
+- Sociedades Não-humanas — 141
+- Campanhas — 141
+- Estilo da Campanha — 141
+- Campanha Séria — 141
+- Campanha Cinematográfica — 141
+- Campanhas Absurdas — 141
+- Aprendendo com os Fatos Históricos — 141
+- Leitura Recomendada — 141
+- Campo de Ação da Campanha — 142
+- O Objetivo Final — 142
+- O Dinheiro num Mundo de Fantasia — 142
+
+**ÍNDICE REMISSIVO** — 143
+**MAPA**
