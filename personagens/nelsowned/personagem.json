@@ -1,0 +1,79 @@
+{
+  "nome": "NelsOwned",
+  "jogador": "André",
+  "arquetipo": "Trovador (Fantasy)",
+  "raca": "Anão (Fantasy)",
+  "aparencia": "Anão baixo, presença de palco colossal, veludos berrantes, barba impecável, voz grave e dramática",
+  "historia": "Trocou os hinos de guerra anões por baladas de amor impossível; humilha inimigos cantando, não só no machado",
+  "data_criacao": "05/09/2026",
+  "sequencia": "1",
+  "pontos_gastar": 150,
+  "pontos_total": 150,
+  "atributos": {
+    "ST": {"valor": 13, "custo": 10},
+    "DX": {"valor": 12, "custo": 20},
+    "IQ": {"valor": 13, "custo": 30},
+    "HT": {"valor": 12, "custo": 20}
+  },
+  "fadiga": 15,
+  "pontos_vida": 12,
+  "dano_basico": {"gdp": "1D", "bal": "2D-1"},
+  "velocidade_basica": 6.0,
+  "deslocamento": 5,
+  "carga": {"nenhuma": 13, "leve": 32.5, "media": 65, "pesada": 130, "muito_pesada": 195},
+  "defesa_passiva": {"armadura": 1, "escudo": 0, "total": 1},
+  "defesas_ativas": {"esquiva": 5, "aparar": 7, "bloqueio": 0},
+  "reacao": "+2",
+  "vantagens_desvantagens": [
+    {"nome": "Raça: Anão (Fantasy)", "custo": 30},
+    {"nome": "Voz Melodiosa", "custo": 10},
+    {"nome": "Carisma +2", "custo": 10},
+    {"nome": "Reflexos em Combate", "custo": 15},
+    {"nome": "Talento Musical +2", "custo": 2},
+    {"nome": "Fanfarronice", "custo": -10},
+    {"nome": "Excesso de Confiança", "custo": -10},
+    {"nome": "Luxúria", "custo": -15},
+    {"nome": "Hábito Detestável (trocadilhos)", "custo": -5}
+  ],
+  "peculiaridades": [
+    "Solta um \"Aaaah\" antes de qualquer fala séria",
+    "Alinha a barba antes de entrar em cena",
+    "Termina frases tensas com rima involuntária",
+    "Carrega lenço de veludo para \"lágrimas do público\"",
+    "Exige ser chamado de \"Pequeno Gigante da Canção\""
+  ],
+  "armas_objetos": [
+    {"item": "Machado grande (2 mãos)", "dano": "2D+2", "tipo": "corte", "qtd": 1, "peso": 4.0, "categoria": "Armas"},
+    {"item": "Alaúde", "dano": "-", "tipo": "-", "qtd": 1, "peso": 1.0, "categoria": "Equipamento"},
+    {"item": "Traje de veludo cênico", "dano": "-", "tipo": "-", "qtd": 1, "peso": 2.0, "categoria": "Equipamento"},
+    {"item": "Cancioneiro de baladas", "dano": "-", "tipo": "-", "qtd": 1, "peso": 0.3, "categoria": "Equipamento"},
+    {"item": "Rações (5 dias)", "dano": "-", "tipo": "-", "qtd": 1, "peso": 1.25, "categoria": "Equipamento"},
+    {"item": "Moringa (1 litro)", "dano": "-", "tipo": "-", "qtd": 1, "peso": 1.0, "categoria": "Equipamento"},
+    {"item": "Manta de viagem", "dano": "-", "tipo": "-", "qtd": 1, "peso": 2.5, "categoria": "Equipamento"},
+    {"item": "Equip. básico pessoal", "dano": "-", "tipo": "-", "qtd": 1, "peso": 0.5, "categoria": "Equipamento"}
+  ],
+  "peso_total": 12.55,
+  "custo_total": 418,
+  "pericias": [
+    {"nome": "Machado/Maça", "nh": 14, "tipo": "DX/M", "custo": 6, "categoria": "Combate"},
+    {"nome": "Trovador", "nh": 20, "tipo": "IQ/M", "custo": 8, "categoria": "Sociais"},
+    {"nome": "Canto", "nh": 18, "tipo": "HT/F", "custo": 4, "categoria": "Sociais"},
+    {"nome": "Instrumento Musical (Alaúde)", "nh": 16, "tipo": "IQ/D", "custo": 6, "categoria": "Sociais"},
+    {"nome": "Trato Social", "nh": 16, "tipo": "IQ/F", "custo": 2, "categoria": "Sociais"},
+    {"nome": "Sex-Appeal", "nh": 14, "tipo": "HT/M", "custo": 2, "categoria": "Sociais"},
+    {"nome": "Poesia", "nh": 14, "tipo": "IQ/M", "custo": 4, "categoria": "Sociais"},
+    {"nome": "Detecção de Mentiras", "nh": 13, "tipo": "IQ/M", "custo": 2, "categoria": "Ladinas"},
+    {"nome": "Manha", "nh": 13, "tipo": "IQ/M", "custo": 2, "categoria": "Ladinas"},
+    {"nome": "Lábia", "nh": 14, "tipo": "IQ/M", "custo": 4, "categoria": "Ladinas"},
+    {"nome": "Dança", "nh": 13, "tipo": "DX/M", "custo": 4, "categoria": "Físicas"},
+    {"nome": "Comércio", "nh": 14, "tipo": "IQ/M", "custo": 4, "categoria": "Profissionais"}
+  ],
+  "resumo": {
+    "atributos": 80,
+    "vantagens": 67,
+    "desvantagens": -40,
+    "peculiaridades": -5,
+    "pericias": 48,
+    "total": 150
+  }
+}
