@@ -1,0 +1,156 @@
+Perícias Sociais
+
+Comércio (Mental/Média)
+
+Pré-definido como IQ-5
+
+Esta é a perícia no trato comercial, comprando e vendendo mercado-
+
+rias. Ela envolve um talento para vendas, compreensão das práticas
+
+comerciais e psicologia. No caso de um sucesso em um teste de
+
+habilidade, um Comerciante será capaz (entre outras coisas) de, em
+
+termos de sua cultura, avaliar um bem, descobrir onde um determinado
+
+artigo é comprado ou vendido, descobrir o valor local de mercado de
+
+qualquer artigo, etc. Modificadores: -3 se o artigo for ilegal, a menos que
+
+ele tenha Manha num nível 12+, ou seja especializado neste tipo de
+
+material.
+
+Um comerciante em uma região estranha estará sob um redutor (-2
+
+a -6 conforme a vontade do GM) até ter tempo de se familiarizar com os
+
+preços e costumes do lugar.
+
+Um comerciante pode se especializar (v. pág. 43) em algum tipo de
+
+mercadoria. Neste caso, ele terá um bônus de +5 quando estiver
+
+negociando com este tipo de mercadoria e um redutor de -1 quando não.
+
+Quando dois comerciantes estiverem barganhando, o GM poderá
+
+resolver a situação rapidamente, fazendo uma Disputa de Habilidades
+
+entre os dois. O vencedor somará ou diminuirá 10% do preço de
+
+mercado, dependendo se ele estava tentando vender ou comprar.
+
+Um personagem que tenha esta perícia em qualquer nível, recebe um
+
+bônus de +1 em todos os testes de reação quando estiver negociando. Um
+
+personagem que tenha esta perícia num nível maior ou igual a 20, tem
+
+um bônus de +2.
+
+Atuação (Mental/Média)
+
+Pré-definido como IQ-5,
+
+Dissimulação-2 ou Trovador-2
+
+Esta é a habilidade de atuar num palco ou na tela. Ela é diferente de
+
+Dissimulação pelo fato de você estar tentando entreter as pessoas, mas
+
+não necessariamente enganá-las. Se esta perícia for estudada, ela
+
+incluirá também o conhecimento profissional do tipo de atuação apropri-
+
+ado para o período (direção de cena, relação entre ator/agente/produtor,
+
+tipos de câmera, etc...).
+
+Política (Mental/Média)
+
+Pré-definido como IQ-5
+
+ou Diplomacia-5
+
+Esta é a habilidade de subir ao poder e se dar bem com outros
+
+políticos. Ela não tem nada a ver com Administração. Esta perícia é
+
+aprendida num partido político ou trabalhando para alguém que está no
+
+poder. Um sucesso em um teste de Política dar-lhe-á um bônus de +2 a
+
+ser aplicado às reações de outros políticos. Faça uma Disputa de
+
+Habilidades quando estiver se candidatando a um cargo público. Modi-
+
+ficador: +2 se tiver a vantagem da Voz Melodiosa. Em algumas
+
+jurisdições, o dinheiro é outro modificador de reação importante.
+
+Oratória
+
+Veja Trovador, pág. 47
+
+Trato Social (Mental/Fácil) Pré-definido como IQ-4
+Esta é a perícia das “boas maneiras” (seja lá o que elas forem em sua cultura). Será necessário um sucesso num teste de habilidade para se dar bem na alta sociedade (faça um teste para cada festa ou encontro). Um sucesso poderá também detectar alguém que esteja fingindo ter um bom berço ou uma boa posição social.
+Em qualquer situação envolvendo “Alta Sociedade” que exija um teste de reação, poderemos substituí-lo por um teste de Trato Social; todos os modificadores de reação, deverão ser aplicados. Um sucesso significará uma reação “Boa”, enquanto que uma falha dará uma reação “Ruim”. Modificadores: +2 se você tiver uma posição social mais alta do que o NPC que está tentando impressionar; -2 se seu Status social for menor; +2 se parecer que você tem amigos importantes; -2 ou pior se a cultura for muito diferente da sua (-6 seria adequado no caso de uma cultura alienígena).
+Pode vir a ser difícil, também, tentar fazer-se passar por alguém que
+
+pertença a uma classe social muito distanciada da sua. Um príncipe teria um bocado de trabalho para se caracterizar como um plebeu pobretão, e vice-versa. Em geral, é necessário fazer um teste de Trato Social a cada vez que se pretender personificar alguém que esteja a 3 níveis sociais acima ou abaixo do seu. Além disso, se seu nível social "inato" for negativo, e você estriver tentado se fazer passar por alguém de nível maior ou igual a 1, ou vice-versa, o teste de Trato Social estará submetido a um redutor de -2.
+
+Sex-Appeal (Mental/Média) Pré-definido como HT-3
+Baseada em HT e não IQ. Esta é a capacidade de impressionar o sexo oposto. Ela pode ser estudada somente nas horas de folga (um máximo de 3 horas por dia), a menos que você faça parte de um harém ou coisa parecida. O Sex Appeal tem tanto a ver com suas atitudes, quanto com a aparência. Se não desejar “seduzir” alguém para obter o que quer, você não terá, nem desejará, este talento. Modificador: +2 se tiver a Vantagem da Voz Melodiosa. Dobre todas as Desvantagens relacionadas com a aparência física.
+Se for necessário um teste de reação em qualquer encontro com o sexo oposto, você poderá substituí-lo por um teste de Sex-Appeal. Veja Testes de Influência, na pág. 93. Um sucesso significará uma reação “Muito Boa”. Uma falha indicará uma reação “Ruim” ou pior. Normalmente, permite-se apenas uma tentativa por “vítima”, apesar de que o GM poderia permitir-lhe uma nova tentativa depois de algumas semanas.
+
+Estratégia (Mental/Difícil) Pré-definido como IQ-6, Tática-6 ou outro tipo de Estratégia-4
+Esta é a habilidade de planejar ações militares e prever as do inimigo. Normalmente é ensinada apenas por militares. Um sucesso em um teste de habilidade lhe permitirá deduzir os planos militares do inimigo, a menos que eles sejam liderados por alguém que tenha esta perícia. Neste caso, o GM deverá fazer uma Disputa de Habilidades entre os 2 estrategistas. Se o personagem do jogador perder, ele fará uma conjectura errada (i.e., o GM lhe dará informações erradas) acerca dos planos inimigos. A quantidade de informação conseguida dependerá de quão bom foi o seu resultado no teste, mas não da qualidade dos planos do inimigo. Uma malta uivante usa estratégia — apenas não o sabe e por isso é fácil de prever.
+Um estrategista deve se especializar (pág. 43) em um tipo de estratégia. Os tipos importantes são: terrestre, naval e espacial. As unidades específicas que estão sendo comandadas são menos importantes; na pior das hipóteses, um estrategista planejando o uso de unidades de um outro país ou NT poderá ter um redutor de -1 ou -2, se ele tiver informações precisas acerca de suas aptidões.
+
+Tática (Mental/Difícil)
+
+Pré-definido como IQ-6
+
+ou Estratégia-6
+
+Esta é a habilidade de adivinhar as intenções do inimigo quando a
+
+luta for homem-a-homem ou em pequenos grupos. Normalmente é
+
+ensinada apenas por militares. Um sucesso em um teste de Tática poderá
+
+dar (a critério do GM) informações sobre os planos imediatos do inimigo.
+
+Se você tiver estudado esta perícia, terá um bônus de +1 em testes de
+
+iniciativa. Se seu NH em Tática for maior ou igual a 20, você terá um
+
+bônus de +2 nos testes de iniciativa.
+
+Pedagogia (Mental/Média)
+
+Pré-definido como IQ-5
+
+É a habilidade em ensinar outras pessoas. Para poder ensinar alguém,
+
+você precisa conhecer a perícia que está sendo estudada num nível maior
+
+do que o de seu aluno. Para fins de jogo, qualquer um com um nível maior
+
+ou igual a 12 deveria poder agir como um professor na maioria das
+
+situações. Se for vital para a aventura que um assunto difícil seja
+
+ensinado a alguém, deverá ser exigido um teste. Se houver alguma
+
+barreira de língua, o GM também deverá fazer testes para verificar se o
+
+professor e o aluno estão se comunicando convenientemente.
+
+Perícias
+
+- 64 -
+
+

@@ -1,0 +1,85 @@
+ Custo de Fabricação                               composição poderá mudar. Portanto, um círculo pode manter uma mágica indefinidamente.
+de Objetos Encantados                                  Como os rituais de magia cerimonial não podem ser apressados, nem o nível de habilidade do
+
+   A Economia da Magia pode ser tão elementar      operador, nem o de mais ninguém, será capaz de reduzir seu custo ou tempo. A vantagem Sorte não pode
+ou detalhada quanto você queira. O GM tem          ser usada para aumentar as chances do operador com magia cerimonial.
+toda a liberdade para ignorar tudo o que vem a
+seguir e definir os preços da magia como julgar    Objetos Encantados
+mais apropriado para ele. No entanto, para
+aqueles que gostam de realismo econômico exis-         É possível transferir poderes mágicos para determinados objetos usando-se Encantamentos. Usar um
+tem aqui alguns números “dados”. O valor de        objeto encantado é a única maneira de se fazer uma mágica que não se conhece. A maioria desses objetos
+um objeto é o que ele trará, conforme discutido    pode ser usada por qualquer pessoa. Alguns podem ser usados apenas por magos. Se um objeto contiver
+na próxima página, mas o custo real para se        alguma mágica que só possa ser usada por magos, então todo o objeto só poderá ser usado por magos.
+fazer um objeto encantado pode ser calculado.
+Os cálculos abaixo assumem que:                        Objetos encantados duram para sempre. Os encantamentos podem ser removidos pela mágica
+                                                   Remoção de Encantamento (pág. 160). Um Encantamento também será removido se o objeto se quebrar,
+   (1) Magos encantadores normalmente gas-         desgastar, etc... O conserto de um objeto anteriormente encantado não lhe devolverá a magia.
+tam uma média de 10 pontos de energia (ST
+apenas) em cada encantamento do tipo “Rápido           Um objeto pode conter qualquer número de mágicas, cada uma delas requerendo um encantamento
+e Sujo”.                                           independente. A presença de uma mágica em um objeto não afeta os encantamentos subseqüentes. Mas,
+                                                   se um objeto desses se quebrar, todas as mágicas estarão perdidas.
+   (2) Quando Gemas de Energias são usadas, o
+retorno para o proprietário da pedra é de 36% ao   Encantamento: A Criação de um Objeto Encantado
+ano, logo o custo de um ponto de energia de uma
+pedra é um milésimo do custo da pedra.                 Objetos mágicos devem ser criados através de magia cerimonial (normalmente, mas não sempre, em
+                                                   grupo). Um encantamento pode ser "rápido e sujo" ou "lento e seguro" (veja a seguir). Alguns objetos
+   (3) A maioria dos magos encantadores rece-      encantados exigem um item ou material para se começar (ex.: uma pedra preciosa). Outros exigem uma
+be mais ou menos $25 por dia. Muito poucos têm     certa quantidade de dinheiro para a compra de suprimentos mágicos "genéricos". Outros ainda não exigem
+um nível de habilidade maior do que 20, por isso   nenhum material em especial, apenas tempo e energia. Para criar um objeto encantado, o operador (e todos
+o maior círculo possível será 6.                   os seus assistentes) deve conhecer a mágica Encantar e a mágica a ser incorporada no objeto em um nível
+                                                   maior ou igual a 15 (20 em uma área de baixa intensidade de mana). Exemplo: Para criar um bastão com
+   (4) A maioria dos objetos encantados é feita    a mágica Projétil de Pedra, o operador precisa conhecer as mágicas Projétil de Pedra e Encantar.
+com poder igual a 15.
+                                                   O Poder de um Objeto Encantado
+   Como uma conseqüência de (1) e (3), a
+energia devida à ST dos magos custa aproxima-          Todo objeto encantado tem o seu "poder" estabelecido quando ele é criado. Normalmente, o Poder de
+damente $1 por ponto usado. Como uma conse-        um objeto é igual ao menor nível de habilidade do operador em uma das seguintes mágicas: (a) com a
+qüência de (2), a energia de Gemas de Energia      mágica Encantar ou (b) aquela contida no objeto. Este valor deveria ser anotado toda vez que um objeto
+menores do que 5 pontos é mais barata do que       encantado for encontrado ou criado (o poder de um objeto encontrado será de conhecimento apenas do GM
+usar um mago. Mas se uma Gema de Energia for       até a operação Analisar Mágica ser usada nele). Um objeto pode conter várias mágicas; cada uma delas
+maior do que 35 pontos, sua energia custará        resultado de um encantamento diferente. Neste caso, o Poder de cada mágica deverá ser anotado
+mais de $25 por ponto, o que torna os encanta-     separadamente.
+mentos Lentos e Seguros mais baratos do que
+usar uma Gema de Energia.                              Se um personagem for atacado com um objeto encantado e tentar resistir, a disputa será feita contra
+                                                   seu Poder. Obviamente, um objeto criado por um mago altamente habilitado será melhor do que um criado
+   Isto significa que: Um ítem cujo custo total    por um operador de menor habilidade. O Poder de um objeto precisa ser maior ou igual a 15 ou ele não
+em energia é 100 ou menos, feito com uma única     funcionará. O Poder de qualquer objeto em uma área de baixa intensidade de mana estará temporariamente
+mágica, custará uma média de apenas $1 por         reduzido em 5. Portanto, objetos com Poder menor do que 20 não funcionarão em áreas de baixa
+ponto para produzir, pois toda a energia pode ser  intensidade de mana. Nenhum objeto encantado funciona numa área de intensidade zero.
+fornecida por gemas de energia pequenas e
+baratas. Para objetos que exigem mais energia,     Testes de Habilidade na Criação de Objetos Encantados
+o preço sobe rapidamente quando é necessário
+usar pedras maiores e menos econômicas.                O GM faz o teste de habilidade quando o PC tenta criar um objeto encantado. Um sucesso significa
+                                                   que a mágica funciona e que o objeto fica encantado. Os resultados de uma falha dependem do método
+Custo em energia  Custo para fazer                 que está sendo usado para encantar o objeto (veja a seguir).
+        105              $180
+        110              $205                          No caso de um sucesso decisivo o encantamento funciona magnificamente e o Poder do objeto criado
+        120              $235                      é maior. O acréscimo de Poder será igual a 2D. Se for igual a 3, o objeto poderá, ainda ser “melhorado”
+        130              $320                      de alguma maneira (de acordo com a vontade do GM). O operador saberá que sua mágica surtiu efeito,
+        140              $435                      mas ele terá que usar Análise de Mágica para saber quão bem.
+        150              $505
+        160              $685                          Uma falha crítica destruirá o objeto e os materiais usados.
+        170              $915
+        180                                        Encantamento Rápido e Sujo
+        190           $1.055
+        200           $1.385                           Este método é usado quando há necessidade de um objeto encantado para já. Ele leva uma hora para
+        210           $1.790                       cada 100 pontos de energia requerida (arredonde para cima). No fim deste período, toda a energia terá sido
+        220           $2.065                       gasta e o teste será feito. Desta maneira, um operador solitário estará limitado à energia fornecida por sua
+        230           $2.615                       própria HT e ST e uma Gema de Energia (veja pág. 161).
+        240           $3.275
+        250           $3.650                           O operador poderá ter assistentes. Cada um deles poderá usar uma Gema de Energia (desse modo, os
+        260           $4.510                       assistentes podem aumentar dramaticamente a energia disponível). O inconveniente é o seguinte: seu nível
+        270           $5.520                       de habilidade efetivo estará diminuído em 1 ponto para cada um dos assistentes. O número máximo de
+                      $6.090                       assistentes permitido é aquele que reduzirá o nível de habilidade efetivo do operador a 15. Com mais
+                                                   assistentes, o encantamento não funcionará. Se houver alguém presente além do operador e seus
+   Qualquer objeto com um custo em energia         assistentes (num raio de 10 metros ou capaaz de ver o operador), a mágica estará submetida a mais um
+maior do que 270 deveria ser feito pelo método     redutor igual a -1. Por este motivo, ter guardas para prevenir contra um “choque de retorno” aumenta o
+Lento e Seguro. Ele custará apenas $25 por         perigo de ele ocorrer.
+ponto de energia mais o custo dos elementos
+necessários e do objeto que será encantado.                        - 152 -
+
+   Para valores intermediários, faça uma média
+ponderada dos valores acima e abaixo.
+
+Magia
+

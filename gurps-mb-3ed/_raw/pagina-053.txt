@@ -1,0 +1,72 @@
+    Qualquer uma destas perícias pode ser aprendida através do auto-                               Perícias Artesanais
+estudo, com ou sem livros. No entanto, muitas técnicas artesanais, apesar
+de simples, não são óbvias. Todas as perícias Artesanais, com exceção           Note que em NT 5+, as perícias de Armeiro especializado em
+da Carpintaria e Trabalhos em Couro, devem ser aprendidas a 1/4 da          Armaduras e Armeiro especializado em qualquer tipo de arma não são
+velocidade (i.e., 4 vezes o custo em pontos), se não houver nenhum          condicionadas uma à outra, pois elas são totalmente diferentes. A
+instrutor disponível.                                                       exceção seria a especialização em Traje de Combate, que cobriria todos
+                                                                            os seus sistemas e sua própria armadura.
+
+                                                                            Ferreiro/NT (Mental/Média) Pré-definido como IQ-5
+                                                                                                                                 ou Joalheiro-4
+
+                                                                                Esta é a habilidade de trabalhar manualmente com ferro e outros me-
+                                                                            tais não-preciosos. Para este trabalho é necessário uma forja, mas dispon-
+                                                                            do do material adequado, um ferreiro é capaz de construir uma em mais
+                                                                            ou menos 30 dias. Modificador: -1 para cada ponto de ST abaixo de 13.
+
+Armeiro/NT (Mental/Média) Pré-definido como IQ-5,                           Carpintaria (Mental/Fácil) Pré-definido como IQ-4
+                                                                                                                                        ou DX-4
+                                        (NH com armas) -6 ou
+                                                                                Esta é a perícia na fabricação de objetos de madeira. Um sucesso em
+                Ferreiro-3 (para armas em NT 4 e abaixo)                    uma jogada de teste permite a realização de uma hora de trabalho
+                                                                            competente de carpintaria. Uma falha significa que o resultado do
+Esta é a habilidade na construção e conserto de armas e armaduras           trabalho foi ruim. Modificadores: +5 se você estiver sendo supervisiona-
+                                                                            do ou assistido por alguém com NH 15+; -5 se não tiver boas ferramentas.
+no nível tecnológico apropriado. É necessário um sucesso em um teste
+
+para descobrir qual o problema com a arma (a menos que ele seja óbvio).     Culinária (Mental/Fácil)       Pré-definido como IQ-4
+
+Um segundo sucesso permitirá que o personagem a conserte. O GM deve
+
+determinar um período de tempo razoável para cada tentativa de              Esta é a habilidade no preparo de uma refeição agradável, a partir da
+
+conserto. Modificadores: -4 se a arma não for familiar; -4 se não tiver as  matéria prima (não apenas água, calor e lataria). Em qualquer sociedade
+
+ferramentas apropriadas (-5 em NT 9+).                                      “ao ar livre”, esta perícia incluirá a habilidade de limpar a caça, ou seja,
+
+Um armeiro vivendo em uma cultura com NT menor ou igual a 5                 preparar um animal recém abatido para o cozimento.
+
+pode se especializar (veja pág 43) em um ou mais dos seguintes campos:
+
+Armas de mão de pólvora                 Armaduras                           Joalheiro/NT (Mental/Difícil)      Pré-definido como
+
+Armas de Mão (facas, espadas,           Armas para cerco                                                       IQ-6 ou Ferreiro-4
+
+maças, etc...)                          Arcos e Flechas                     Esta é a habilidade no trabalho com metais preciosos de todos os
+
+Armas de Fogo (ex. canhão)                                                  tipos, fabricação de jóias, decoração de armas e assim por diante. É
+
+Um armeiro num NT acima de 5 tem que se especializar (veja pág.             necessário uma forja (veja Ferreiro, acima) para trabalhar o metal. Um
+
+43) em uma ou mais das áreas acima, e/ou qualquer um dos campos             joalheiro é capaz de identificar qualquer metal precioso, ou determinar
+
+abaixo:                                                                     o valor de qualquer bugiganga preciosa, se conseguir um sucesso em um
+
+Fuzis e revólveres                      Blindagem individual                teste de habilidade.
+
+Armas de Feixe                          Revólver de dardos
+
+Armas de Veículos (tanque, etc.)        Armas em aviões                     Trabalhos em Couro (Mental/Fácil)                   Pré-definido
+
+                                        Armas Psíquicas                                                        como IQ-4 ou DX-5
+
+Armas de Astronaves                     Trajes Espaciais                    Esta é a perícia em se trabalhar com couro para fazer cintos, selas,
+
+Artilharia (inclui canhões navais)      Qualquer outra                      armaduras, etc... Alguém que tenha esta perícia será capaz de fabricar
+
+                                        especialidade.                      objetos novos ou consertar usados. Com um sucesso em um teste de
+
+                                                                            habilidade, ele é capaz de determinar o valor de um objeto de couro.
+
+                                                              - 53 -                                                            Perícias
+

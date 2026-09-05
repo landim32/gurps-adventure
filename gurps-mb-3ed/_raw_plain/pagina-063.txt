@@ -1,0 +1,122 @@
+Algumas Centenas de Hectares: Conhecimento de fazendeiros ou membros da tribo, trilhas, regatos, esconderijos, pontos de emboscada, flora e fauna.
+Aldeia, Vila ou Cidade Pequena: Todas as lojas e cidadãos importantes e a maioria dos sem importância; todos os edifícios públicos e a maioria das casas.
+Cidade: Todas as lojas, ruas, cidadãos, líderes importantes, etc. Baronato, Condado, Ducado ou País Pequeno: O tipo geral de seus povoamentos e cidades, alianças políticas, líderes e a maioria dos cidadãos com Status maior ou igual a 5. País Grande: Localização das maiores cidades e lugares importantes, consciência dos principais costumes, raças e línguas (mas não necessariamente autoridade), nomes das pessoas com Status 6+ e uma compreensão da situação política e econômica. Planeta: O mesmo que um grande país, mas mais geral; conhecimento de pessoas com Status 7+ apenas. Federação Interplanetária: Localização dos maiores planetas; consciência das raças mais importantes (mas não necessariamente autoridade); conhecimento de pessoas com Status 7+; entendimento geral da situação político-econômica.
+
+O GM pode impor um redutor quando for necessário o conhecimento de um lugar distante de sua área base. Ex.: Se sua área base for uma cidade pequena, os fatos acerca de fazendas vizinhas poderiam ser testados com um redutor de -1. A cidade mais próxima (a 2 km de distância) teria um redutor de -2; a cidade grande, a 80 km, teria um redutor de -5. A capital de um país vizinho teria -7 e um país distante -10. Os modificadores para grandes distâncias existentes na coluna lateral da pág. 151 podem ser usados no caso de se precisar de regras específicas.
+
+Trovador (Mental/Média) Veja Perícias Artísticas, pág. 47
+
+Boemia (Física/Média)
+
+Pré-definido como HT-2
+
+Esta perícia é “comprada” com base no seu atributo HT e não DX. É
+
+a habilidade em participar de atividades sociais, festas, etc... Um sucesso
+
+em um teste de Boemia, feito sob as circunstâncias adequadas, lhe dará
+
+um bônus de +2 num pedido de ajuda ou informação, ou apenas numa
+
+reação geral. Uma falha significa que, de alguma maneira, você fez papel
+
+de bobo; há um redutor de -2 para qualquer teste de reação daquelas
+
+pessoas com quem você já farreou. Se você bebe em lugares impróprios,
+
+uma falha pode acarretar noutros perigos. Modificadores: de acordo com
+
+o GM, mas até +3 por pagar bebida ou outras diversões para seus
+
+companheiros de farra.
+
+Perícias Sociais
+escolas; ela é aprendida enquanto se trabalha como vendedor, vigarista, advogado, etc. Se seu NH em Lábia for maior ou igual a 20 (especialista), você receberá um bônus de +2 em todos os testes de reação em que conseguir falar. O GM pode exigir que o jogador dê detalhes da história que ele está contando, ao invés de simplesmente permitir que diga “Estou usando minha Lábia”.
+Lábia não é a mesma coisa que Dissimulação. A Lábia geralmente é usada para conseguir que alguém tome uma decisão repentina em seu favor, enquanto que a Dissimulação é usada em tramas mais duradouras. No entanto, existem situações nas quais o GM poderia permitir um teste com qualquer uma das duas perícias.
+Você pode usar um teste de Lábia em qualquer situação que exija um teste de reação. Todos os modificadores de reação devem ser usados. Um sucesso significa que a reação foi “Boa”, enquanto que uma falha significará uma reação “Ruim”.
+
+Jogo (Mental/Média)
+
+Pré-definido como IQ-5
+
+ou Matemática-5
+
+Esta é a habilidade com jogos de azar. Um sucesso em um teste de
+
+Jogo poderá lhe dizer, entre outras coisas, se o jogo é limpo ou não,
+
+identificar um jogador em meio a um grupo de estranhos, ou avaliar as
+
+chances em uma situação complicada. Quando estiver jogando contra a
+
+casa, faça somente seu teste de habilidade (com um modificador, se o GM
+
+disser que a chance é pequena). Se você estiver jogando com uma outra
+
+pessoa, ambos deverão fazer seus testes de Jogo (v. Disputa de Habili-
+
+dades, pág. 87) até que um consiga vencer. Modificadores: +1 a +5 por
+
+estar familiarizado com o tipo de jogo; -1 a -5 se o jogo for manipulado
+
+contra os jogadores. A perícia “Prestidigitação” (pág. 67) poderá ser útil
+
+se você quiser trapacear.
+
+Faça uma Disputa de Habilidades para tentar descobrir uma trapaça:
+
+seu NH em Jogo (ou apenas um teste de Visão) contra a Prestidigitação
+
+do oponente (no caso de truques com cartas ou dados), ou sua IQ (no caso
+
+de outros tipos de trapaça).
+
+Diplomacia (Mental/Difícil) Pré-definido como IQ-6
+Esta é a habilidade em negociar, fazer acordos e conviver com os outros. Um teste de Diplomacia pode ser substituído por qualquer teste de reação numa situação em que não haja iminência de combate (v. Testes de Influência, pág. 93). Um teste bem sucedido lhe permitirá predizer os possíveis resultados de um curso de ação enquanto está negociando, ou escolher a melhor abordagem a fazer. Se você tiver um NH maior ou igual a 20 (especialista) em Diplomacia, receberá um bônus de +2 em todos os testes de reação. Modificadores: +2 se tiver a vantagem de Voz Melodiosa.
+Diferentemente das outras perícias de Influência, a Diplomacia nunca dará um resultado pior do que o que você obteria se tivesse tentado um teste de reação normal. Uma falha num teste de Lábia ou Sex-Appeal deixa-lo-á malquisto com o seu alvo, mas a Diplomacia é segura.
+
+Lábia (Mental/Média)
+
+Pré-definido como IQ-5
+
+ou Dissimulação-5
+
+Esta é a capacidade de persuadir os outros a fazerem coisas contra seu
+
+bom-senso. Ela não é ensinada (pelo menos intencionalmente) nas
+
+Liderança (Mental/Média)
+
+Pré-definido como ST-5
+
+Esta é a perícia na coordenação de um grupo de pessoas em uma
+
+situação de tensão ou perigo. É necessário algum nível de liderança para
+
+conseguir um posto numa organização militar ou paramilitar. É preciso
+
+um sucesso em um teste de Liderança para conduzir os NPCs a uma
+
+situação de perigo (os jogadores poderão decidir por seus personagens,
+
+se eles o seguirão ou não). Modificadores: Carisma (se você tiver); -5 se
+
+o NPC nunca tiver estado em ação com você; -5 se os estiver enviando
+
+em uma missão perigosa, mas não estiver indo junto; + 5 se a lealdade
+
+deles para com você for “Boa”; +10 se a Lealdade for “Muito Boa”. Não
+
+será necessário teste se a Lealdade for “Excelente”! (O nível pré-definido
+
+desta perícia está baseado em ST porque num grupo qualquer, se
+
+ninguém tiver treinamento em liderança, o mais forte normalmente a
+
+exercerá.)
+
+- 63 -
+
+Perícias
+
+

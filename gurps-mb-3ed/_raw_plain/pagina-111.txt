@@ -1,0 +1,35 @@
+COMBATE DE PERTO
+Pode-se entrar no hexágono ocupado por um inimigo usando-se as manobras Deslocamento, Avançar e Atacar e Ataque Total, se ele estiver a seu alcance. Quando alguém se desloca para o hexágono de um inimigo poderá atacá-lo de várias maneiras. Atacar um inimigo no mesmo hexágono é um combate de perto.
+Você pode também tentar desviar e se esgueirar sem entrar em contato com o inimigo. Você deverá tentar se desviar ou dar um encontrão no adversário, se usar uma manobra Deslocamento para entrar em seu hexágono.
+Quando você entra no hexágono de um oponente, ocupa metade dele (veja diagrama). Você tem a metade do hexágono por onde entrou e ele tem a outra metade. Para entrar em qualquer um dos seus hexágonos frontais, cujas interfaces estão na parte ocupada por seu inimigo, você precisará evadir-se dele e “ultrapassá-lo”.
+Manobras do Combate de Perto
+Manobra Avançar e Atacar
+Pode-se entrar no hexágono do adversário e atacá-lo. Se você já estiver dentro do hexágono, poderá sair e atacar com uma arma de 1-hex; ou ficar no hexágono, fazer um ataque de perto e sair (a menos que ele o tenha Segurado). Se ele o estiver prendendo, você ainda poderá escolher uma manobra em cada turno, mas não poderá sair do hexágono enquanto não se Desvencilhar. Os ataques possíveis são:
+Segurar: Você agarra o oponente. Para fazê-lo você deve vencer uma Disputa Rápida de DX (v. pág. 87); você tem um bônus de +3 e deve estar com pelo menos uma das mãos livre para agarrar. O ato de segurar não provoca dano, mas impede o inimigo de sair do hexágono até ele se Desvencilhar ou você deixar que ele se afaste. (Note que você não será capaz de impedir um oponente que tenha uma ST pelo menos duas vezes maior do que a sua de abandonar o hex se o Segurar. Quando muito, você será um incômodo. Um homem pode segurar um urso, mas não será capaz de evitar que ele se afaste.)
+É possível Segurar com as duas mãos ou com apenas uma. Se você estiver Segurando seu adversário com ambas as mãos, o único ataque adicional possível será tentar estrangulá-lo, derrubá-lo ou imobilizá-lo.
+Se seu oponente estiver ajoelhado, deitado, etc., você receberá um bônus de +6 em seus testes de DX, mas você precisará se ajoelhar ou deitar para poder agarrá-lo. É possível fazêlo como parte do ataque Segurar — simplesmente atire-se sobre ele!
+Agarrar a arma do oponente: Você deve ter uma das mãos livre e vencer uma Disputa Rápida de DX. Nas rodadas seguintes você pode arrebatá-la; cada tentativa tem um segundo de duração e exige que você vença uma Disputa de ST. Caso você perca, ele a terá recuperado.
+Agarrar o braço armado do oponente: Como acima, para o caso de uma arma que não pode ser agarrada (ex.: adaga). Se você vencer a Disputa de DX, terá agarrado o braço ou a mão do oponente que empunha a arma. Este ataque conta como a manobra “Segurar”. Você não tem como arrebatar a arma do oponente, mas sempre é possível forçá-lo a soltála, vencendo-o numa Disputa de ST. Depois disso poderia tentar apanhar a arma para si.
+Ataque com uma arma: Se tiver na mão uma arma legal em um combate de perto (veja coluna lateral da pág. 112), você poderá usá-la. Os ataques com armas em combate de perto estão submetidos a um redutor de -2.
+Ataque de mãos limpas: Este tipo de ataque pode se constituir num soco (GDP-2, dano por contusão); numa tentativa de morder (1D-4, dano por contusão no caso de atacantes humanos. É possível que o dano seja maior no caso de outras criaturas); num soco usando as perícias Briga ou Caratê (págs. 50 e 51) ou um chute de Caratê provocando 1D-1 pontos de dano.
+Derrubar o Oponente: É possível tentar este ataque somente se seu oponente estiver em pé e você já o tiver segurado. Faça uma Disputa Rápida
+
+Golpes Visando a Arma do Oponente
+(continuação)
+Secionando uma Arma Para secionar um cabo de madeira (e conse-
+qüentemente destruir a arma) é necessário atingilo com uma arma cortante. Só o dano básico conta (não há nenhum bônus de 50%, quando você corta um objeto inanimado). Um machado e uma lança típicos teriam um cabo com uns 5 cm de diâmetro, o que significaria uma RD de 3 e 8 “pontos de vida”. Uma arma de haste bem feita teria uma haste de 5 cm de diâmetro, protegida por um revestimento de metal; sua RD seria 4 e teria 12 “pontos de vida”. Acompanhe o número de pontos de vida perdidos por sua arma. Veja a pág. 125 para maiores informações sobre a quantidade de dano que uma arma (e outros objetos) podem sofrer.
+Quebrando uma Espada Para quebrar uma espada, rapieira, faca ou
+outra arma de lâmina de um oponente é preciso atingi-la com um golpe cortante ou contundente. São necessários 4 pontos de dano em um único golpe para quebrar uma adaga, espadim ou rapieira; 6 para quebrar uma faca, terçado ou sabre; 8 para quebrar um montante; 10 para quebrar uma espada maior. Se sua arma for de qualidade melhor (v. pág. 74) será preciso apenas metade do dano exposto acima para quebrar a arma do inimigo. Se a arma dele for de melhor qualidade, precisaremos do dobro do dano para quebrá-la.
+Qualquer arma pode se quebrar ao aparar uma outra mais pesada. Se você aparar uma arma pelo menos 3 vezes mais pesada que a sua, existe uma probabilidade igual a 1/3 de sua arma se quebrar. Este número muda para 1/6 se sua arma for de qualidade superior ou 2/3 se ela for barata.
+Jogue um dado para decidir. 1/6 de chance corresponde a um resultado igual a 1; uma chance igual a 1/3 com um resultado igual a 1 ou 2 e assim por diante.
+Defesa Contra Ataques Visando Armas Você pode se esquivar de um ataque visando
+sua arma. Pode aparar, se sua arma estiver preparada (na verdade você está desviando sua arma de modo que o golpe do inimigo erre o alvo ou resvale sem causar dano). Não é possível bloquear com sua arma. Sua defesa passiva não será levada em conta neste caso.
+Jogando uma Arma Longe Use uma manobra Ataque para arremessar
+longe a arma de seu inimigo, mas declare que está atacando para desarmá-lo. Faça uma Disputa Rápida de habilidades com armas ao invés das jogadas de ataque e defesa usuais. Se você estiver visando uma arma de projétil que está na mão do inimigo, ele usará sua DX ao invés da perícia com a arma. Há um redutor (veja acima), que depende do tamanho da arma, a ser aplicado em sua jogada de ataque. Armas que não sejam de esgrimir têm um redutor adicional de -2 no caso de uma tentativa de desarme. O defensor tem um bônus de +1 se a arma dele for mais pesada, +2 se ela for duas vezes mais pesada e assim por diante.
+Se você vencer, seu oponente deixará sua arma cair naquele hex; se você sofrer uma falha crítica, será desarmado. Qualquer outro resultado não tem efeito.
+
+- 111 -
+
+Sistema Avançado de Combate
+
+

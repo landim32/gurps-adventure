@@ -1,0 +1,84 @@
+                                                  INTRODUÇÃO
+
+     Como Aprender o GURPS                           GURPS é a abreviação de “Generic Universal RolePlaying System *”. Ela era na verdade
+                                                  uma brincadeira... uma palavra em código para descrever o jogo enquanto procurávamos um
+   Alguns dos leitores já têm alguma experiên-    nome de verdade. Os anos passaram - literalmente -, enquanto o jogo era desenvolvido e nós
+cia com roleplaying games. Para estes, o GURPS    nunca encontramos um nome melhor. Pode ser que GURPS soe estranho, mas ele se encaixa
+deverá ser um jogo fácil de compreender. Se       perfeitamente.
+este for seu primeiro RPG, você terá um pouco
+mais a aprender. Relaxe, se você chegou até          "Generic". Algumas pessoas gostam de jogos ágeis e rápidos, onde muitas das decisões a
+aqui, o resto será fácil.                         serem tomadas durante o seu transcurso são deixadas a cargo do árbitro. Outros preferem um
+                                                  grande nível de detalhamento, com regras definidas para cada uma das possibilidades. A maioria
+    Não se assuste com a grossura do livro. Ele   de nós se situa em algum ponto entre estes dois extremos. O GURPS começa com regras simples
+tem um bocado de informação. Mais de 300.000      às quais se pode incorporar a quantidade de detalhes opcionais que se desejar, especialmente no
+palavras. Mas nós fizemos o possível para que     que se refere ao sistema de combate.
+ele fosse fácil de usar. Os índices sinóptico e
+remissivo são tão detalhados quanto nos foi          O jogo pode ser usado de maneiras diferentes, mas continua o mesmo, o que significa que as
+possível fazê-los.                                campanhas geradas serão todas compatíveis.
+
+    O livro tem várias seções que foram escritas     “Universal”. O sistema básico de regras enfatiza o realismo. Por isso ele se encaixa em
+especialmente para facilitar o aprendizado das    qualquer cenário, seja ele histórico ou de fantasia, esteja situado no passado, presente ou futuro.
+regras. Entre elas temos:                         Eu sempre achei uma bobagem as companhias publicarem um conjunto de regras para fantasia,
+                                                  outro para faroeste, mais um para ficção científica e um outro para super-poderes. O GURPS
+    A seção Para Começar a Jogar Rapida-          é um conjunto de regras amplo o suficiente para lhe permitir usá-lo com qualquer cenário.
+mente (pág. 9). Esta, é uma descrição, em uma     Existem livros de referência e suplementos que fazem o ajuste fino deste sistema genérico para
+página, dos mecanismos de jogo básicos do         qualquer tipo de mundo que você deseje. Mas eles continuam sendo compatíveis. Se você desejar
+GURPS.                                            juntar seu pistoleiro do velho oeste a um comando da segunda guerra mundial para tentar fazer
+                                                  fortuna na Itália renascentista, não haverá problema. Vá em frente.
+    O Glossário (pág. 250). Esta, é uma lista
+dos termos usados no jogo com referências às         “Roleplaying” Este não é apenas um jogo de matar-e-trucidar. As regras foram projetadas
+páginas onde são explicados.                      com o objetivo de possibilitar que se jogasse Roleplaying de verdade. O GURPS é um jogo no
+                                                  qual você assume a identidade de uma outra pessoa e finge sê-la por algum tempo.
+    “Uma Noite de Trabalho”. Uma aventura
+solo introdutória que começa na pág. 218. Esta       “System”. É o que ele é na verdade. A maioria dos outros RPGs não são sistemas. Eles
+aventura foi escrita para ser usada por um único  começaram como um conjunto simples de regras, que foi sendo progressivamente remendado e
+jogador (sem a necessidade de um Mestre).         modificado. Isto os torna difíceis de jogar. O GURPS é um todo unificado. Nós fizemos um
+Você pode jogá-la usando um dos personagens       grande esforço para que ele funcionasse desta maneira.
+descritos nas págs. 214 a 217, mesmo que não
+esteja familiarizado com as regras. Ela foi          O GURPS lhe permitirá criar qualquer personagem que você for capaz de imaginar e fazer
+projetada para ajudá-lo a aprendê-las enquanto    com ele qualquer coisa que lhe venha à mente.
+joga. Ela pode também ser usada por um Mestre
+experiente para ensinar aos amigos.                  Eu desejava já há muito tempo trabalhar neste jogo. Alguns anos atrás eu escrevi meu
+                                                  primeiro sistema de ROLEPLAYING** de fantasia. Ele era bom, mas tinha falhas. Como outros
+    Uma sugestão de roteiro para aprender o       RPGs, ele começou como um conjunto simples de regras que foi sendo alterado com o passar
+GURPS:                                            do tempo e, conseqüentemente, tinha várias inconsistências. Apesar de ter potencial para ser um
+                                                  sistema universal, ele nunca passou de um mundo de fantasia básico. Quando a editora faliu, o
+    Comece folheando o livro, apenas para         jogo saiu de catálogo. Eu fiquei desapontado, mas o fato me motivou a começar a trabalhar num
+sentir o jogo. Não se preocupe com os detalhes    sistema novo e melhor.
+por enquanto.
+                                                     Eu não tenho a pretensão de ter começado da “estaca zero”. Afinal, todo novo jogo tem como
+    Depois leia a seção “Para Começar a Jo-       base os que vieram antes e nós aprendemos, tanto com os nosso sucessos, como com os dos
+gar Rapidamente”, para entender o mecanis-        outros. Eu acho que os melhores jogos são aqueles simples, claros e fáceis, por isso coloquei
+mo básico do jogo. E, a seguir, a seção de        muito empenho em tornar o GURPS o mais inteligível possível. O jogo Champions da Hero
+“Criação de Personagens”, só para ter uma         Games teve uma influência importante, devido à flexibilidade de seu sistema de criação de
+idéia das diferentes coisas que um personagem     personagens. Também o Tunnel & Trolls da Flying Buffalo, por seu apelo aos jogadores
+pode fazer.                                       solitários. Por fim, o Empire of the Petal Throne de M.A.R. Barker é digno de nota pela riqueza
+                                                  de detalhes e imaginação de seu mundo alienígena.
+    Em seguida jogue Uma Noite de Trabalho.
+Sempre que alguma coisa não estiver clara,           Mas o GURPS não é só uma tentativa de repetir os sucessos do passado. As falhas dos jogos
+você poderá usar o índice ou o glossário para     anteriores também são importantes. Tentei alcançar com o GURPS vários objetivos que, eu
+descobrir os parágrafos com as regras de que      acredito, não foram conseguidos nos jogos anteriores.
+precisa.
+                                                     * Sistema Genérico Universal de Roleplaying.
+    Tente então criar seu próprio personagem e       ** O Fantasy Trip (Metagaming) incluindo vários produtos editados entre 1977 e 1980.
+jogue novamente, com ele, a aventura. Tente
+criar um personagem de 100 pontos que tenha
+uma chance maior de sobreviver à aventura.
+
+    Aí você pode ler o resto das regras em
+detalhe, incluindo o capítulo sobre a condução
+de um jogo (O Mestre). Encontre alguns ami-
+gos que queiram jogar. Ajude-os a criar seus
+personagens e os conduza através da segunda
+aventura “Caravana para Ein Arris” (pág.
+232). Você descobrirá que já sabe o suficiente
+para se sair bem. Estas regras foram criadas
+para se incorporarem gradualmente à sua expe-
+riência e lhe permitirem jogar como desejar.
+
+    Divirta-se!
+( O leitor iniciante encontrará mais suges-
+tões na pág. V)
+
+Introdução                                        -6-
+

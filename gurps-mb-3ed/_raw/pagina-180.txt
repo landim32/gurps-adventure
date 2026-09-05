@@ -1,0 +1,75 @@
+    Reações Pré-determinadas                    Atuando como Adversário
+
+   Pode ser que existam modificadores (ge-         Sempre que o Mestre representar um NPC que é um inimigo dos personagens dos
+ralmente para pior) preparados de antemão       jogadores, ele deverá limitar seu conhecimento àquelas coisas de que o NPC realmente
+para determinados NPCs. A reação provo-         estaria ciente. O GM sabe tudo acerca das virtudes e fraquezas do grupo mas os inimigos
+cada por uma gangue de rua, por exemplo,        não. Uma boa maneira de resolver este problema é encontrar uma outra pessoa para
+poderia estar sempre submetida a um redu-       representar os adversários.
+tor igual a -5. Um montanhês poderia ser do
+tipo eremita com um redutor igual a -3 na          O GM deverá dizer ao Adversário tudo o que for possível acerca do personagem que
+avaliação da reação a qualquer estranho,        ele irá representar, mas nada além do que seria "realista" o Adversário saber sobre a situa-
+sem a possibilidade de um resultado melhor      ção geral. Ele deveria saber muito pouco acerca dos PCs e suas habilidades, especialmente
+do que “neutra”. No caso de uma reação          no início de uma aventura. Para aumentar o realismo poderíamos até mesmo ter duas
+melhor do que “neutra”, ela deverá ser          pessoas fazendo o papel de Adversários, um para os inimigos instruídos que estão fami-
+tratada como tal. Não faça uma nova joga-       liarizados com o grupo e outro para representar os personagens tipo “bucha de canhão”.
+da.
+                                                   O Adversário é um tipo de “assistente” do GM. Sua função é representar os oponentes
+     Testes de Reação em uma                    da melhor maneira possível e não como máquinas assassinas estúpidas (a menos que eles
+         Segunda Tentativa                      o sejam realmente). Se a coisa adequada para aqueles inimigos fazerem for atacar, eles
+                                                deverão atacar. Mas eles deveriam também preparar emboscadas, insultar os personagens
+   Se os jogadores obtiverem uma reação da      e até fugir.
+qual eles não gostaram, eles poderão mudar
+sua abordagem e tentar uma segunda vez, a          No caso de haver um desacordo entre o GM e o Adversário, a palavra do Mestre é a lei.
+menos que a primeira tentativa tenha resul-     No entanto, um bom GM dará ao Adversário tanta liberdade de movimento quanto for
+tado em uma luta.                               possível e levará todas as discussões para uma outra sala, evitando assim distrair os
+                                                jogadores.
+   Algumas maneiras de modificar a abor-
+dagem são: (1) Oferecer algum tipo de              Fazer o papel de Adversário é uma boa maneira de conseguir experiência para alguém
+suborno. (2) Fazer uma oferta melhor. (3)       que tenha a intenção de um dia se tornar um Mestre.
+Perguntar alguma outra coisa. (4) Apresen-
+tar uma informação diferente. (5) Usar uma      Testes de Reação
+perícia específica (veja abaixo). Se o NPC,
+representado pelo GM, sentir que os perso-         Quando os jogadores encontrarem um NPC cuja reação a eles não está pré-determinada
+nagens estão se tornando incômodos, sub-        o GM deverá fazer um Teste de Reação com 3 dados. Quanto maior o resultado, melhor
+traia 2 do segundo resultado, 4 do terceiro     a reação. O GM então representa o NPC de acordo com as instruções existentes na Tabela
+e assim por diante. Esta penalidade pode ser    de Reações (pág. 204).
+evitada por uma espera conveniente entre
+as tentativas. O significado de “convenien-        Esta jogada deveria ser feita sem que os jogadores tenham conhecimento de seu
+te” fica completamente por conta do GM.         resultado. Eles não sabem, por exemplo, se aquele velho fazendeiro de aparência amistosa
+                                                está lhes dando um conselho sincero ou enviando-os para uma armadilha.
+          Perícias Especiais
+                                                   Muitos fatores podem influenciar um teste de reação. Um bônus é um modificador que
+   Em determinadas situações é possível         tornará os NPCs mais amistosos e um redutor é alguma coisa que irá predispor os NPCs
+usar um teste de certas perícias no lugar da    contra os personagens. Alguns modificadores mais comuns são:
+jogada normal. Estas perícias são: Lábia,
+Sex-appeal e Manha. Se você tiver uma des-         Aparência pessoal e comportamento dos personagens, principalmente daquele que
+tas perícias, ela poderá ser usada ao invés de  estiver fazendo o contato. Uma boa aparência pessoal melhorará a reação. A mesma coisa
+depender do resultado de uma jogada nor-        com relação ao Carisma e, na maioria das situações, a aparência de um bom status social.
+mal. O GM aplicará os modificadores apro-
+priados como se você estivesse fazendo um          Perícias Adequadas para a ocasião. Exemplo: Manha numa situação envolvendo o
+teste de reação normal, mas eles serão tra-     submundo, Burocracia quando se estiver lidando com um funcionário público. Se o nível
+tados como modificadores da perícia que         de habilidade do personagem for o de um especialista (maior ou igual a 20), existe uma
+você está usando. Veja a descrição destas       chance maior da Perícia ser de alguma valia. Exemplo: Alta Diplomacia, garante um bônus
+perícias para maiores detalhes.
+                                                     igual a +2 em qualquer teste de reação.
+                                                         Preconceitos Raciais e de Nacionalidade entre os NPCs e os personagens do
+
+                                                     grupo são normalmente redutores. Elfos têm aversão aos anões, franceses não gostam
+                                                     de alemães e assim por diante. Os modificadores mais comuns podem ser encontrados
+                                                     nos suplementos que descrevem os cenários. No caso dos incomuns (o que os alemães
+                                                     acham dos elfos, por exemplo), a decisão fica por conta do GM.
+
+                                                         O Comportamento correto dos jogadores. Esta é uma boa chance de recompensar
+                                                     um bom desempenho no jogo. Uma abordagem adequada deveria valer, no mínimo,
+                                                     um bônus de +1. Um comportamento completamente inadequado, que antagoniza os
+                                                     NPCs, deveria impor ao grupo um redutor igual a -1 ou -2 no teste de reação. Neste
+                                                     caso, não diga aos jogadores “Vocês complicaram tudo”. Represente o NPC ofendido
+                                                     e deixe que eles o percebam.
+
+                                                         Lembre-se que permitir que a sorte decida o resultado dos testes de reação é
+                                                     ótimo quando isto acrescentar uma nota de imprevisibilidade ao jogo e for mais
+                                                     divertido para o GM. No entanto, estes resultados aleatórios não deveriam nunca
+                                                     substituir a lógica e a razão.
+
+O Mestre                                        - 180 -
+

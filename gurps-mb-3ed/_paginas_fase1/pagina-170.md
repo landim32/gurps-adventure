@@ -1,0 +1,68 @@
+# Página 170
+
+> Nota de transcrição: conteúdo bruto extraído automaticamente do PDF (`pdftotext -layout`), preservado em bloco de código para manter o alinhamento original de colunas e tabelas. Será reformatado em Markdown estruturado na Fase 2 (organização).
+
+```
+         Psiquismo e Magia                       8 ou menos: Interfere com todos os usos de Telepatia, amistosos ou hostis, contra ou
+                                              a favor do objetivo. Em outras palavras, quando o escudo estiver erguido, ele interferirá
+   Magia e Psiquismo são duas coisas dife-    com suas próprias habilidades telepáticas!
+rentes. Muitos dos resultados podem ser
+alcançados pelas duas disciplinas indistin-      9 a 11: Interfere com todos os usos de Telepatia, amistosos ou hostis, quando o agente
+tamente. Exemplo: Um mago usando mági-        do Escudo for o objetivo, mas não com a Telepatia do próprio dono do Escudo.
+cas de fogo e um pirocinético podem ambos
+atear fogo a suas vestes.                        12 a 14: Interfere com todos os usos de Telepatia quando o agente do Escudo for o
+                                              objetivo, a menos que ele conscientemente escolha um uso como “amistoso”. Aquele uso
+   No entanto, as técnicas são diferentes.    sofrerá então apenas a metade da interferência (arredondado para cima).
+Uma mágica anti-magia não afetará em
+nada os ataques psíquicos.                       15 a 17: O Escudo consegue diferenciar automaticamente os contatos hostis dos
+                                              amistosos. Os contatos amistosos são detectados, mas podem atravessar o escudo sem
+   Da mesma maneira, uma mágica de lei-       oposição. O agente pode decidir a qualquer momento se os contatos “neutros” serão
+tura da mente de um feiticeiro não será mais  tratados como hostis ou amistosos.
+(ou menos) bem sucedida se seu objetivo for
+um telepata.                                     18 a 20: Como acima, acrescido do fato de que se um contato “amistoso” se tornar hostil,
+                                              o atacante precisará fazer um novo teste contra o escudo.
+   Seja como for, os efeitos puramente físi-
+cos das duas disciplinas podem interagir,        Mais de 20: Como o anterior, mas qualquer psi que entre em contato com o escudo
+ou até se anular. Se um pirocinético acende   deverá vencer uma Disputa de Habilidades (Recepção Telepática vs Escudo), para
+um fogo, ele será como qualquer outro fogo    perceber que o agente tem poderes psíquicos. Caso contrário, ele perceberá apenas
+e mágicas de água poderão apagá-lo nor-       pensamentos superficiais adequados a alguém sem poderes psíquicos. Isto é chamado
+malmente.                                     “disfarce”. (Um sucesso em um teste de Controle Telepático e Metaideomorfose será
+                                              capaz de penetrar o escudo, provavelmente deixando surpreso o psi invadido.)
+   Nas raras ocasiões em que magia e
+psiquismo interagirem fisicamente, faça       “Saia de Minha Mente!”
+uma Disputa de Habilidades entre o nível de
+habilidade na mágica e a perícia psíquica.       Pode acontecer de aquele psi hostil conseguir ultrapassar seus escudos com o uso de
+                                              Recepção Telepática e você perceber sua presença mais tarde (por ex., porque ele falhou
+          E Qual o Melhor?                    em um teste de Controle Telepático ou Metaideomorfose). Ou ele pode ter entrado em sua
+                                              mente enquanto seu escudo estava abaixado. Em qualquer um dos casos, você pode tentar
+   Nem um nem outro (de novo, as discipli-    mantê-lo fora de sua mente. Faça uma disputa entre sua Potência Telepática + nível de
+nas são muito diferentes).                    habilidade com o Escudo contra a Potência Telepática + o nível de habilidade em Re-
+                                              cepção Telepática dele. Se vencer, você empurrará o intruso para fora de sua mente e ele
+   A magia é mais diversificada. Existem      estará submetido a um redutor de -2 (tentativa repetida) se tentar de novo.
+muito mais mágicas do que poderes psíqui-
+cos. Além disso, um mago, normalmente            Mas, se perder, o psi inimigo ficará dentro de sua mente o tempo que quiser e você terá
+conhece mais mágicas do que um psi co-        que ser bem sucedido em um teste de IQ (com um bônus de +4) para controlar seus
+nhece perícias psíquicas.                     pensamentos, ou passará imediatamente a pensar em qualquer que seja o assunto que você
+                                              tenha medo que ele esteja tentando saber (o que poderia revelar seus segredos até mesmo
+   No entanto, a magia (exceto para um        para um atacante inábil).
+mago muito experiente) consome muita
+energia. A maioria dos poderes psíquicos      Sono                            Pré-requisito: Diapsiquia com NH 12+
+não exige nenhum esforço (eles são tão
+simples quanto pensar).                       Depois de fazer um contato normal como se fosse enviar pensamentos, o agente faz uma
+
+   A magia pode trazer resultados impre-      Disputa de Habilidades entre seu nível de habilidade em Sono e a Vontade do objetivo. Se
+visíveis ou até mesmo choques de retorno.
+O Psiquismo nem sempre funciona, mas          o atacante vencer, o objetivo cairá num sono normal que durará 1D horas, a menos que ele
+não irá explodir em sua cara ou convocar
+um demônio inesperadamente.                   seja acordado. No caso de uma falha, o objetivo tem direito a um teste de IQ para perceber
+
+   Ambos, magia e psiquismo, podem ser        que está sendo atacado. (Exceções: Todos os telepatas fazem jogadas com sua melhor
+mortais, mas nenhum deles imuniza contra
+balas...                                      perícia telepática. Num mundo onde nem a magia nem o psiquismo são conhecidos
+
+                                              universalmente, a maioria das vítimas não terá experiência com ataques de Sono e pensará
+
+                                              simplesmente que está doente.)
+
+Psiquismo                                           - 170 -
+```

@@ -1,0 +1,86 @@
+   Cada armadura “real” inclui um conjunto de roupas leves comuns para serem usadas                 Efeitos das Armas
+por baixo; você não tem que comprar a roupa separadamente e somar seu peso. Um
+conjunto de cota de malha inclui um tecido acolchoado debaixo da cota.                       Armas diferentes produzem quantidades e
+                                                                                          tipos de dano diferentes, por serem usadas de
+A Escolha das Armas                                                                       maneiras diferentes.
+
+   As armas que você carrega deveriam ser determinadas primeiramente por suas                Cada arma é descrita por dois fatores: tipo de
+perícias e depois pela sua Força e orçamento. Se você não puder usar alguma coisa, não    dano (contusão, corte ou perfuração) e quanti-
+a compre. Note, também, que muitos lugares têm leis ou costumes que determinam o          dade de dano (definida pela maneira como a
+tipo de arma e armadura que você pode usar nas ruas sem chamar a atenção. Uma             arma é usada), que diz quão duro é um golpe
+armadura de placas numa vila medieval seria tão marcante (e ameaçadora) quanto uma        dado com ela.
+metralhadora na mercearia da esquina!
+                                                                                          Golpes de Ponta
+   Armas de alto nível tecnológico (como as de fogo) funcionarão para qualquer um            Estes golpes atingem somente com a força
+que saiba como usá-las. Armas de NT baixo, como clavas e espadas, provocam um dano
+maior se forem empunhadas por uma pessoa forte, e você normalmente desejará               muscular por trás deles. (Algumas armas, como
+carregar a arma mais pesada que sua força e habilidade o permitirem.                      as bestas, adicionam um efeito “alavanca” ao
+                                                                                          golpe, que equivalem a bônus a serem somados
+   As regras de combate estão descritas nos capítulos 13 e 14. Este capítulo contém ape-  ao dano produzido.)
+nas informações que lhe permitirão se equipar inteligentemente. Se seu personagem for
+do tipo completamente pacifista, você pode ler este parágrafo superficialmente.              Armas do tipo golpe de ponta/contusão (pu-
+                                                                                          nho, flecha de ponta rombuda, ponta de um
+Dano Básico de uma Arma                                                                   bastão) são as menos mortais.
+
+   O “Dano Básico” é o dano provocado pelo impacto da arma, antes de sua ponta ou            Armas do tipo GDP/perfurante (lança, fle-
+corte ser levado em conta. A tabela na pág. 74 é usada para calcular quanto dano cada     cha, faca) são muito mais perigosas. Elas provo-
+arma provoca, com base em dois fatores: o tipo de ataque e a força do atacante.           cam sempre pelo menos 1 ponto de dano básico
+Algumas armas provocam mais ou menos dano (as armas largas, em especial, provocam         (outros ataques podem não produzir dano al-
+um dano extra), por isso verifique na Tabela de Armas as características que              gum) e todo o dano que não for interceptado pela
+correspondem à sua.                                                                       armadura da vítima será duplicado.
+
+   O dano é expresso na forma “dados + adicionais”. Ex. “2D” significa que você deve         Note que, com a mesma força, uma flecha
+jogar 2 dados para obter o dano provocado. “2D+1” significa que você deve jogar 2         provoca um dano de perfuração igual ao provo-
+dados e somar 1 ao resultado. Portanto, um resultado igual a 7 significaria 8 pontos de   cado por uma espada ou lança. Isto é intencio-
+dano; “2D-1” significa que você deve jogar 2 dados e subtrair 1 do resultado, e assim     nal! Uma flecha provoca um ferimento menor,
+por diante.                                                                               mas mais profundo. O dano global é mais ou
+                                                                                          menos equivalente.
+   Se você atingir o adversário com uma arma cortante ou perfurante, ou uma bala,
+provocará pelo menos 1 ponto de dano básico. Logo, se você atacar com uma adaga que       Ataques em Balanço
+produz “1D-4” pontos de dano e tirar um 2, não provocará -2 pontos de dano, nem              As armas normalmente usadas em ataques
+mesmo 0. Toda vez que o dano produzido for menor ou igual a zero, conte como 1.
+(Lembre-se de que isto é antes do efeito da armadura. É possível provocar um dano         em balanço, como as armas de haste e as espa-
+igual a zero depois que a armadura for levada em conta.)                                  das, são alavancas que aumentam sua força
+                                                                                          quando você golpeia. Por isso, o dano básico
+   No entanto, se você atingir o inimigo com uma arma que provoca dano por contusão,      provocado com uma arma em um ataque em
+poderá provocar 0 pontos de dano. Se seu punho provoca “1D-4” pontos de dano e você       balanço é maior do que aquele que é provocado
+tira um 2, não terá provocado dano algum.                                                 com um golpe de ponta com a mesma arma. É
+                                                                                          claro que um golpe em balanço com uma arma
+Tipos de Ataque                                                                           pesada produz um dano ainda maior e terá
+                                                                                          alguns pontos de bônus (v. Tabelas de Armas).
+   Existem dois tipos principais de ataque: Golpe de Ponta e Golpe em Balanço. Um
+Golpe em Balanço provoca um dano maior, porque a arma age como um braço de                   Armas do tipo balanço/contusão, como a
+alavanca, multiplicando sua ST. A tabela a seguir mostra qual o dano básico que cada      clava ou a marreta, podem produzir uma grande
+tipo de arma provoca, de acordo com a Força de quem a usa.                                quantidade de dano básico se forem pesadas,
+                                                                                          podendo até projetar seu adversário para trás (v.
+   As colunas mostram o número de dados a serem jogados para determinar o dano.           pág. 106), se você o atingir com um golpe
+Ex.: Se sua ST for 10, você provocará 1D-2 pontos de dano básico com qualquer golpe       suficientemente violento. Mas elas não têm
+de ponta, ou 1D de dano básico com um golpe em balanço. Logo: Se você atacar com          bônus de dano.
+uma espada e tirar um 6, você provocará 6 pontos de dano básico se você balançou a
+espada, ou apenas 4 se golpeou com a ponta.                                                  Armas do tipo balanço/cortante, como a
+                                                                                          espada, terão 50% de bônus de dano se conse-
+                                                                                          guirem ultrapassar a armadura do inimigo.
+
+                                                                                             Armas do tipo balanço/perfurante, como a
+                                                                                          picareta, a alabarda ou o martelo de combate,
+                                                                                          estão entre as mais perigosas. Elas produzirão
+                                                                                          um dano básico grande, o que lhes permite
+                                                                                          ultrapassar a armadura e o dano que penetrar na
+                                                                                          armadura será dobrado, da mesma forma que
+                                                                                          para uma arma perfurante. O inconveniente
+                                                                                          destas armas é que elas podem ficar presas
+                                                                                          quando você atinge seu inimigo. (V. pág. 96.)
+
+                                                                                          Ataques Alternativos
+                                                                                             Alguns tipos de armas podem ser usados de
+
+                                                                                          várias maneiras. Ex.: algumas espadas podem
+                                                                                          ser usadas em golpes em balanço para provocar
+                                                                                          dano por corte, ou em golpes de ponta para
+                                                                                          provocar dano por perfuração. Estas variações
+                                                                                          estão mostradas na Tabela de Armas. Antes de
+                                                                                          atacar com uma arma deste tipo, você deverá
+                                                                                          especificar que tipo de ataque fará.
+
+- 73 -                                                                                    Equipamento e Carga
+

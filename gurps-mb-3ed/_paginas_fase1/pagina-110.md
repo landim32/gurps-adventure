@@ -1,0 +1,82 @@
+# Página 110
+
+> Nota de transcrição: conteúdo bruto extraído automaticamente do PDF (`pdftotext -layout`), preservado em bloco de código para manter o alinhamento original de colunas e tabelas. Será reformatado em Markdown estruturado na Fase 2 (organização).
+
+```
+         Regras Avançadas                          fulminante para qualquer um) e Pierre não tem direito a uma jogada de defesa. O golpe
+              para Lesões                          o atinge sem apelação.
+
+   Os diversos tipos de armas afetam partes           Um golpe fulminante é a única maneira de um personagem inábil ferir um adversário
+diferentes do corpo de modos diferentes. Uma       superior numa luta justa. É também a única maneira de atravessar uma armadura pesada
+flecha atravessada na cabeça, por exemplo, é um    com uma arma leve. Todo mundo dá uma sorte de vez em quando. Note, no entanto, que
+problema grave, mas a mesma flecha atraves-        o resultado mais provável da tabela é “nenhum dano extra”. Mesmo que você dê sorte e
+sando o pé é pouco mais do que um incômodo.        atinja um adversário superior, seu golpe poderá não ser particularmente duro...
+
+Balas e Armas Perfurantes                          Atordoamento
+   As balas e armas perfurantes podem provo-
+                                                      Golpes fulminantes, além de várias outras coisas, podem atordoar a vítima. Isto será
+car um dano extraordinário quando se escolhe       discutido em detalhe na pág. 127. Um personagem aturdido se defende com um redutor
+uma parte específica do corpo como alvo.           igual a -4 e não pode fazer nada.
+
+   Se você atingir os órgãos vitais do oponente       Esta regra é realista mas pode ser mortal. Sinta-se à vontade, se quiser ignorá-la.
+com uma bala ou arma perfurante, o dano que
+atravessar a armadura será triplicado. É impos-    Erros Críticos
+sível alcançar os órgãos vitais a não ser em um
+ataque com arma perfurante (exceção: um soco          O oposto de um “Golpe Fulminante” é o “Erro Crítico”. Você comete um erro crítico
+ou pontapé no plexo solar ou virilha pode ser      toda vez que tira um resultado muito ruim em sua jogada de ataque. Um resultado igual
+interpretado como um golpe contundente contra      a 18 é sempre um erro crítico. Um resultado igual a 17 será um erro crítico, a menos que
+os órgãos vitais).                                 seu nível de habilidade seja maior do que 16 (neste caso ele será uma falha normal). Um
+                                                   resultado cuja margem de erro seja maior ou igual a 10 também é um erro crítico. Ex.: Você
+   Se você atingir os braços, pernas, mãos ou      precisa de 6 ou menos para acertar. Um resultado maior ou igual a 16 será um erro crítico.
+pés do oponente com uma bala ou arma perfu-        Você poderá quebrar a arma, atirá-la longe ou mesmo acertar a si próprio.
+rante, não haverá bônus de dano. Um ferimento
+de flecha num membro é completamente trivial,         Toda vez que você cometer um erro crítico, deverá jogar 3 dados e consultar
+enquanto que uma flecha na cabeça pode matar.      imediatamente a Tabela de Erros Críticos apropriada (pág. 202). Aplique imediatamente
+                                                   o resultado. Alguns resultados pedem um segundo sorteio, para “confirmar” uma trapa-
+Lesões Incapacitantes                              lhada altamente improvável.
+   Se o alvo for um membro e o golpe provocar
+                                                      Obviamente, se seu nível de habilidade for maior do que 6, você só cometerá um erro
+dano suficiente, o membro ficará incapacita-       crítico se tirar 17 ou 18. Logo, lutadores habilidosos não cometerão erros críticos com
+do... esmagado, mutilado ou com queimaduras        muita freqüência ... a menos que tentem um golpe muito difícil, ou ataquem sob condições
+graves, conforme o caso.                           adversas.
+
+   Um combatente perde imediatamente o uso         Erros Críticos em Jogadas de Defesa
+do membro incapacitado. Isto pode fazer com
+que ele caia, derrube a arma, etc... Veja o           Um resultado igual a 17 ou 18 é sempre uma falha desastrosa. Você terá perdido o
+capítulo sobre Ferimentos, Doenças e Fadiga,       equilíbrio e caído se tentou se esquivar. Se tentou bloquear, você perdeu o controle do
+pág. 126, para maiores detalhes. Uma lesão         escudo e precisará de um turno para prepará-lo antes de poder bloquear novamente (sua
+incapacitante atordoa a vítima automaticamen-      defesa passiva ainda conta). No caso de aparar, você deverá consultar a Tabela de Erros
+te (v. pág. 127).                                  Críticos.
+
+          Golpes Visando a                            No entanto, se você tentar qualquer defesa e tirar 3 ou 4, seu adversário terá que
+         Arma do Oponente                          consultar imediatamente a Tabela de Erros Críticos. Você o terá “iludido”, derrubado a
+                                                   arma de sua mão ou se defendido muito bem de alguma outra maneira. Exceção: Um
+   Pode-se visar uma arma porque se quer agar-     resultado igual a 3 ou 4 não tem nenhum efeito especial contra um ataque à distância.
+rar seu dono vivo, ou porque (no caso de uma
+arma de haste) a arma é a única coisa que está a
+seu alcance.
+
+   Uma arma “curta” está no hex de quem a usa.     A Escolha de sua Armadura — Regras Avançadas
+Uma arma de 1-hex está no hex de quem a usa
+e no diretamente à frente (v. fig.) e uma arma de     Você pode comprar armadura para 6 partes diferentes do corpo (cabeça, tronco, mãos,
+2-hexes está nos 2 hexes diretamente à frente de   pés, braços e pernas — veja o diagrama na pág. 211) quando está usando o Sistema Avan-
+quem a usa. No entanto, sempre é possível          çado de Combate. Os valores para custo e peso para mãos, pés, braços e pernas, sempre
+golpear uma arma de 2 ou 3-hexes no turno          assumem que se está comprando um par, já que é raro alguém querer um tipo de proteção
+seguinte àquele em que ela foi usada para fintar   diferente em cada membro. No entanto, é perfeitamente legal fazê-lo se você quiser.
+ou desferir um golpe contra você.
+                                                      As Tabelas de Armaduras (págs. 210-211) dão o peso, custo, defesa passiva e RD para
+   Existe um redutor de -5 se a arma que você      várias peças diferentes de armadura, desde a roupa até plásticos futuristas, e mostra que
+está visando for uma faca, pistola ou outra arma   proteção cada um dos itens oferece.
+pequena; -3 no caso de uma lança, arma de
+haste, rifle ou espadão e -4 para qualquer outra      Se isto for complicado a ponto de estragar a diversão, sempre é possível voltar ao
+arma. Um golpe contra uma arma pode seccionar      Sistema Básico de Combate e assumir que a defesa passiva e a resistência a dano de uma
+o cabo de um machado ou arma de haste e            armadura se aplicam igualmente a todas as suas partes.
+derrubar, ou partir, uma arma de metal.
+                                                      O custo e peso nos dois sistemas são equivalentes. No entanto, as regras básicas para
+         Continua na próxima página ...            armadura são mais vantajosas para personagens usando regras que levam em conta o ponto
+                                                   de impacto pois (por exemplo) alguém com manoplas tem RD igual a 4 em suas mãos
+                                                   enquanto que alguém com uma armadura reforçada “genérica”, se for atingido em uma das
+                                                   mãos, terá uma RD “genérica” igual a 7.
+
+Sistema Avançado de Combate                        - 110 -
+```

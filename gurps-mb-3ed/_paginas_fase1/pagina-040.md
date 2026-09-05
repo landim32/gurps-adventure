@@ -1,0 +1,84 @@
+# Página 040
+
+> Nota de transcrição: conteúdo bruto extraído automaticamente do PDF (`pdftotext -layout`), preservado em bloco de código para manter o alinhamento original de colunas e tabelas. Será reformatado em Markdown estruturado na Fase 2 (organização).
+
+```
+Inimigos                                                                      (3) Certifique-se de que a desvantagem não é na verdade apenas um
+                                                                          novo tipo de Hábito Detestável, coberto com facilidade pelo redutor de
+tempo, a aventura como um todo pode ser modificada.                       reação.
+    Se adotar um inimigo muito poderoso, há uma grande chance de você
+                                                                          Exemplo de
+acabar preso ou morto em pouco tempo. É possível conseguir 60 pontos
+ao adotar o FBI como um inimigo “muito freqüente”, mas todas as suas      Seleção de Desvantagens
+aventuras serão semelhantes à vida de um criminoso perseguido e,
+mesmo com os 60 pontos extras, sua carreira pode vir a ser curta.             Sabemos que Dai Blackthorn precisará de algumas desvantagens.
+                                                                          Quando o deixamos na pág. 25, depois de escolher suas vantagens, ele
+    Por outro lado, se você começar com um inimigo fraco ou atuar com     tinha -5 pontos de personagem para gastar. Ele precisará adotar algumas
+inteligência, pode ser que consiga matar ou eliminar seu inimigo, ou      desvantagens... pois ele ainda necessita pontos de personagem para
+mudar permanentemente a atitude dele com relação à sua pessoa. Mas        adquirir algumas perícias.
+nada é de graça neste jogo. Quando um inimigo é eliminado desta
+maneira, o jogador tem três opções:                                           Estamos limitados em 40 pontos de desvantagens. (Poderíamos
+                                                                          adotar uma única grande desvantagem valendo mais do que 40 pontos,
+    (a) Pagar os pontos de personagem que recebeu como bônus pelo         mas não desejamos fazê-lo pois isto tornaria Dai muito incomum.)
+inimigo.                                                                  Nossas peculiaridades não são computadas neste limite.
+
+    (b) Adotar uma desvantagem mental ou física que perfaça os pontos         A Pobreza é uma desvantagem social natural para um ladrão ou
+recebidos como bônus. O personagem poderia ter recebido um golpe na       trapaceiro. Nós já nos decidimos a adotar a “pobreza” na pág. 18; ela
+cabeça durante a batalha final, que o deixou meio surdo. Ou poderia ter   vale uns bons -15 pontos, que já foram computados em nosso total de
+sido atacado por uma aranha gigante, deixando-o com uma fobia por         pontos.
+insetos. A nova desvantagem deverá valer o mesmo número de pontos
+que o inimigo (ou menos, se você quiser recomprar apenas uma parte            A maioria das desvantagens físicas parecem mutilatórias e nós
+da desvantagem). Se você não conseguir imaginar uma boa desvanta-         imaginamos Dai como uma pessoa saudável e de aparência igual à da
+gem substituta, o GM poderá fornecer uma.                                 média. Por isso, nossa segunda desvantagem será outra vez social... um
+                                                                          inimigo. Já decidimos que Dai será um ladrão. Digamos que ele é um
+    (c) Adotar um novo inimigo do mesmo tipo e começar de novo. Você      ladrão independente que não faz parte da Associação dos Ladrões.
+pode ter destruído o diabólico Dr. Scorpion, mas seu irmão continuará     Obviamente, eles o desaprovam. A Associação é uma organização
+sua obra maligna.                                                         muito poderosa, normalmente um inimigo de 30 pontos. Mas Dai é um
+                                                                          inconveniente trivial segundo seus padrões, e eles não se preocupam
+    Como inimigos em excesso podem desintegrar um jogo, nenhum            muito com ele. Ela aparecerá numa aventura somente com um resultado
+personagem pode ter mais do que 2 inimigos ou receber mais do que 60      menor ou igual a 6. Isto reduz seu valor pela metade, tornando-o igual
+pontos de bônus devidos a inimigos. (Se todo o governo dos EUA estiver    a -15 pontos.
+à sua procura, o fato de seu antigo professor de faculdade ter perdido o
+juízo e também o estar perseguindo beirará a insignificância.)                Desvantagens mentais são muito divertidas; há muito potencial para
+                                                                          atuação nelas. Cobiça? Muito óbvia. Honestidade? Contraditória.
+    O GM tem sempre o direito de vetar a escolha do inimigo feita por     Covardia? Não combina com a concepção do personagem. Que tal
+um jogador, se ela parecer tola ou muito difícil de acomodar na           Excesso de Confiança? Esta vai bem com a idéia que fazemos de Dai.
+campanha.                                                                 E vale outros -10 pontos.
+
+Notas sobre Desvantagens                                                      Isto completa nosso limite de 40 pontos em “bônus”. Nós já havía-
+                                                                          mos contado 15 deles. Os outros 25 somados ao nosso valor atual, que
+    Desvantagens Contraditórias. Os GMs nunca deveriam permitir           é -5, fazem com que Dai disponha agora de 20 pontos.
+que os jogadores adotassem uma desvantagem (ou peculiaridade) que
+seja compensada por uma vantagem. Exemplo: Duro de Ouvido e
+Ouvido Aguçado.
+
+    Vilões Dramáticos. Algumas desvantagens, Sadismo por exemplo,
+não são apropriadas para um personagem “heróico”. Elas são, por outro
+lado, encontradas nos vilões mais perversos da ficção de aventura. Elas
+foram incluídas no interesse da criação de bons NPCs.
+
+    Heróis Trágicos. Muitos dos maiores heróis da história e da
+literatura tinham um “defeito terrível”. Alcoolismo, feiúra muito grande
+e até mesmo vício em drogas são encontrados nos heróis da realidade e
+de ficção. Por isso, não pense que seus heróis têm que ser perfeitos...
+tente dar-lhes um problema significativo para resolver.
+
+Novas Desvantagens
+
+    Os GMs (e os jogadores com a aprovação do GM) têm toda a
+liberdade para desenvolver novas desvantagens. Os únicos vínculos
+são:
+
+    (1) Se o personagem não for penalizado de alguma maneira, ela não
+será uma desvantagem.
+
+    (2) Tenha certeza de que o número de pontos recebidos como bônus
+é justo com relação às desvantagens existentes. Suponhamos que você
+queira introduzir “alergias” como uma nova desvantagem física. Seria
+ridículo estabelecer uma alergia como uma desvantagem valendo -20
+pontos. O nível exato da desvantagem dependeria do efeito físico
+provocado por uma alergia, mas seria mais razoável algo como 5 ou 10
+pontos por uma alergia incapacitante.
+
+Desvantagens  - 40 -
+```

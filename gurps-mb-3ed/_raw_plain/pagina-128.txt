@@ -1,0 +1,157 @@
+Inanição e Desidatração
+O grupo não deverá esquecer da comida quando for comprar equipamento. As rações para viajantes relacionadas na lista de equipamentos são o mínimo necessário para mantê-lo saudável durante a jornada. Deixar de fazer uma única refeição irá enfraquecê-lo.
+O personagem perderá um ponto de ST para cada refeição que não fizer. O problema deverá ser tratado exatamente como Fadiga, com a exceção de que a fadiga decorrente de “inanição” só pode ser recuperada com um dia de descanso — sem viagens ou lutas, e 3 refeições completas. Cada dia de descanso recuperará 3 das refeições perdidas.
+Quando sua ST chega a 3 devido à Fadiga decorrente de inanição, o personagem passa a perder Vitalidade na mesma velocidade. Esta HT perdida poderá ser recuperada da maneira usual.
+Água: Em áreas temperadas, onde é fácil obtêla pode-se assumir que as provisões serão renovadas sempre que necessário. Mas, se a água for difícil de conseguir, cuidado! Uma pessoa (humano, elfo, anão, etc...) necessita de 2 litros de água por dia — 3 em climas quentes e 5 no calor do deserto. Se você beber menos do que o necessário, perderá um ponto de fadiga e um ponto de vida por dia. Se você ingerir menos de um litro por dia, perderá 2 pontos de fadiga e de vida por dia. Se o valor de HT ou ST chegar a zero devido à falta de água (mesmo que esta não seja a única causa), o personagem passará a delirar e — se estiver no deserto — morrerá depois de um dia se não conseguir ajuda. A Fadiga devida à falta de água será curada com um dia de repouso e um suprimento adequado de água. A HT perdida será recuperada da maneira normal.
+Coleta: Em terreno hospitaleiro, é possível complementar as provisões através da coleta de alimentos. Qualquer personagem é capaz de fazer esta coleta enquanto o grupo viaja. Um sucesso conseguido em um teste de Sobrevivência ou Naturalista significará a coleta de uma quantidade de plantas comestíveis suficiente para uma refeição. (Um resultado igual a 17 significa que você se envenenou. Faça um teste de HT. Você perderá um ponto de vida em caso de sucesso ou 1D pontos em caso de fracasso. Se o resultado for igual a 18, você compartilhou as plantas venenosas com seus companheiros e todo o grupo enfrentará o mesmo problema.)
+Num terreno favorável, um sucesso num teste de habilidade com armas de projétil (com um redutor de - 4) significará a captura de um coelho, que fornecerá carne suficiente para 2 refeições. Cada personagem tem direito a um teste de Sobrevivência/Naturalista e outro com armas de projétil por dia.
+O grupo pode também se decidir a interromper a viagem para uma coleta séria. Cada personagem terá direito a 5 testes de Sobrevivência/Naturalismo e 5 contra sua habilidade com armas de projétil a cada dia. A carne conseguida pode ser defumada e anexada às provisões do grupo.
+Mestres: Se vocês acharem que fazer um acompanhamento das refeições do grupo não parece ser divertido, sintam-se livres para ignorar toda esta seção. Uma viagem é muito mais arriscada se você tiver que se preocupar com comida e água!
+
+Tabela de Primeiros Socorros
+
+Nível Tecnológico
+
+Tempo/Vítima Pontos de vida restaurados
+
+0 (Idade da Pedra) Nenhuma solução por Primeiros Socorros, exceto bandagem
+
+1 (Idade do Bronze)
+
+30 min.
+
+1D - 4
+
+2,3 (Roma, Idade Média)
+
+30 min.
+
+1D - 3
+
+4 (até a Guerra Civil Americana)
+
+30 min.
+
+1D - 2
+
+5 (Guerra Civil até II Guerra)
+
+20 min.
+
+1D - 2
+
+6,7 (II Guerra — Era Moderna)
+
+20 min.
+
+1D - 1
+
+8 (futuro próximo)
+
+10 min.
+
+1D
+
+9 ou superior — Igual a 8 com a adição das várias drogas e dispositivos curativos. Veja
+
+livros com a descrição de mundos de ficção científica.
+
+Primeiro Socorros. Um sucesso num teste de Primeiros Socorros, ou seu NH prédefinido, restaurará um número variável de pontos de vida, dependendo do nível tecnológico da perícia e da extensão do sucesso. No (mínimo) um ponto de vida é sempre recuperado. Isto não pode ser adicionado ao já conseguido com ataduras — i.e., algumas vezes o primeiro socorro não é mais eficiente do que o uso de ataduras simples.
+Sucesso ou fracasso total. No caso de sucesso decisivo, a vítima recupera toda a sua Vitalidade. Numa falha crítica, a vítima perde 2 pontos de vida e as ataduras não terão nenhuma serventia.
+
+Cura Natural
+A recuperação gradual curará qualquer número de pontos de vida, a menos que a vítima adoeça (veja Doenças). A vítima pode fazer um teste de HT ao fim de cada dia de repouso e boa alimentação. O sucesso significa a recuperação de um ponto de vida. O GM pode modificar o resultado para menos se as condições forem ruins, ou para mais se as condições forem excepcionalmente boas.
+
+Cuidados Médicos
+Se a vítima estiver sob os cuidados de um Médico competente (NH maior ou igual a 12 em Medicina), ela recebe um bônus de +1 nos testes de Cura. O “curandeiro” pode também jogar contra seu NH em Medicina para curar o paciente. A freqüência desta jogada depende do nível tecnológico de sua habilidade (veja tabela abaixo). Médicos da Idade Média, por exemplo, têm direito a um teste por semana. Um sucesso permite ao paciente recuperar um ponto de vida extra, um sucesso decisivo 2. Uma falha crítica custa ao paciente um ponto de vida. Em alguns mundos existem métodos exóticos de cura.
+
+NT da
+
+Freqüência
+
+Medicina de testes
+
+Pacientes/ Médico
+
+NT da Freqüência Medicina de testes
+
+Pacientes/ Médico
+
+0
+
+Não existem médicos. Cure-se você mesmo
+
+1-3
+
+Semanal
+
+10
+
+4
+
+Cada 3 dias
+
+10
+
+10
+
+Três vezes ao dia 50
+
+5
+
+Cada 2 dias
+
+15
+
+11
+
+Quatro vezes ao dia 100
+
+6
+
+Diariamente
+
+20
+
+12
+
+Cinco vezes ao dia 100
+
+7
+
+Diariamente
+
+25
+
+13
+
+Seis vezes ao dia 100
+
+8
+
+Diariamente
+
+50
+
+14
+
+Oito vezes ao dia 200
+
+9
+
+Duas vezes ao dia
+
+50
+
+15+
+
+Dez vezes ao dia 200
+
+Médicos de NTs elevados são profundamente dependentes de equipamentos, mas ainda existe um bom treinamento básico nas escolas. Portanto, um médico de NT maior do que 6, que não disponha da aparelhagem com a qual está acostumado a trabalhar, atuará como se fosse de NT 6, desde que o ambiente esteja limpo.
+Os testes só podem ser feitos à razão de um médico/paciente (não existe a possibilidade de 20 médicos curarem um personagem em um dia). No entanto, um clínico pode ser responsável por até 200 pacientes simultaneamente, dependendo do NT de seu treinamento e de ele ter, ou não, assistência.
+
+Ferimentos, Doenças e Fadiga
+
+- 128 -
+
+

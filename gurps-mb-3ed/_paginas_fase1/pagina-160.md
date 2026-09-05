@@ -1,0 +1,144 @@
+# Página 160
+
+> Nota de transcrição: conteúdo bruto extraído automaticamente do PDF (`pdftotext -layout`), preservado em bloco de código para manter o alinhamento original de colunas e tabelas. Será reformatado em Markdown estruturado na Fase 2 (organização).
+
+```
+Esfera de Gelo                                                    Projétil             Objeto: Cajado ou vara de condão (a bola é disparada da extremidade do
+                                                                                   objeto). Custo em energia: 400. Deve ter na ponta uma safira no valor de $500.
+Permite ao operador arremessar uma bola de gelo. Ela provoca dano por              Utilizável apenas por magos.
+
+contusão quando atinge o alvo e se desfaz numa poça d’água. Uma esfera que
+
+produza 1D de dano será também capaz de apagar 1 hexágono de fogo se for           Chuva                                                              Área
+
+apontada com precisão. Seus dados são TR 13, Prec +2, ½D 40, Max 80.                   Relacionada entre as mágicas de Ar, pág. 157.
+
+Custo: Qualquer valor entre 1 e 3; produz um dano igual a 1D para cada ponto
+
+de energia utilizado, ou o dobro do dano em criaturas de fogo.
+
+Tempo de Operação: 1 a 3 segundos.                                                    Convocar Elemental da Água, Controlar Elemental da Água
+                                                                                   e Criar Elemental da Água, veja págs. 156-157.
+Pré-requisitos: Moldar Água.
+
+Encantamentos                                                                          Pré-requisito: Aptidão Mágica, Alfabetização. Um mago não poderá escre-
+                                                                                   ver um pergaminho para uma mágica que ele não sabe.
+    Estas são mágicas usadas para fazer e desfazer objetos encantados. Só
+podem ser feitas através de Magia Cerimonial (v. pág. 151).
+
+Encantar (MD)                                          Encantamento                Remoção de Encantamento                            Encantamento
+
+Este é o mais básico de todos os encantamentos. Para colocar uma mágica            Retira uma mágica de um objeto encantado. Não afeta os outros encantamen-
+
+em um objeto, o operador precisa também saber esta. Ela é também um pré-           tos existentes no mesmo objeto. Exceção: Uma falha numa tentativa de remover
+
+requisito para todos os encantamentos com exceção de Pergaminho Mágico.            um encantamento “limitante” (v. GURPS Magia, pág. 41) removerá todos os
+
+Quando um objeto é encantado, o teste de habilidade do mago é determinada          encantamentos do objeto.
+
+pelo valor mais baixo entre seu NH na mágica Encantar e seu NH na mágica que       Modificadores: -3 se o operador não souber como fazer a mágica que ele está
+
+está sendo colocada no objeto. Se o mago tiver assistentes, o nível de habilidade  tentando remover. -3 se ele não souber exatamente o que é a mágica. -3 para cada
+
+deles nas duas mágicas deverá ser maior ou igual a 15, mas o teste será baseado    uma das outras mágicas existentes no objeto. Estes modificadores são cumula-
+
+no nível do operador.                                                              tivos.
+
+Duração: Todos os objetos encantados são permanentes a menos que eles              Duração: A Remoção é permanente.
+
+sejam destruídos ou o encantamento seja removido. Veja a seguir.                   Custo: 100 ou 1/10 da energia usada originalmente para colocar o encanta-
+
+Custo e Tempo de Operação: Veja págs 152-153.                                      mento, o que for maior.
+
+Pré-requisitos: Aptidão Mágica 2, e no mínimo uma mágica de cada uma das           Tempo de Operação: O mesmo que para a mágica Encantamento (v. págs.
+
+outras 10 escolas.                                                                 152-153).
+
+                                                                                   Pré-requisito: Encantar.
+
+Pergaminho Mágico                                      Encantamento
+
+Permite ao operador escrever um pergaminho mágico, incluindo qualquer              Energização                                        Encantamento
+
+mágica das outras escolas. Lido em voz alta por um mago que entenda sua            Produz um objeto mágico total ou parcialmente “auto-energizado”, ou seja
+
+linguagem, este pergaminho fará a mágica uma vez. Seu poder estará então           um objeto que exige uma quantidade menor de energia para ser usado. A energia
+
+perdido e a escrita desaparecerá. A leitura de um pergaminho exige o dobro do      extra é drenada diretamente do mana ambiente. Estes objetos têm grande
+
+tempo normalmente necessário para realizar a mágica. O mago que lê o               procura, pois eles não fatigam seus usuários.
+
+pergaminho pagará o custo normal de energia. Não será necessário nenhum teste      Se um objeto tiver 1 ponto de “energia própria” o usuário daquele objeto
+
+de habilidade quando a mágica for lida, a menos que haja alguma resistência        gastará 1 ponto a menos de energia para fazer ou manter a mágica. Exemplo: A
+
+contra ela. Neste caso, faça uma disputa usando o nível de habilidade do mago      mágica Vôo (v. GURPS Magia, pág. 62) normalmente exige 5 pontos de energia
+
+que escreveu o pergaminho.                                                         para ser feita e 3 por minuto para ser mantida. Com um anel auto-energizado,
+
+Um pergaminho pode ser lido em silêncio para ver o que ele diz. Qualquer           que tenha 1 ponto de energia própria, seriam necessários apenas 4 para fazê-la
+
+mago que entenda a língua saberá o que a mágica faz. Esta leitura não fará com     e 2 por minuto para mantê-la.
+
+que ela se realize.                                                                Este resultado pode ser conseguido em uma área com intensidade normal de
+
+As mágicas podem ser escritas em qualquer material, o pergaminho é                 mana. Numa área de intensidade baixa de mana, apenas metade desta energia
+
+bastante comum. O dano infligido a um Pergaminho Mágico não afeta sua              é produzida (arredondado para baixo). Numa área de intensidade de mana alta
+
+eficácia, enquanto o texto da mágica estiver legível.                              ou muito alta, a energia extra fornecida será o dobro, mas nunca mais do que isso.
+
+Tempo de Operação: O número de dias necessários para se escrever um                Se um objeto tiver energia própria suficiente para o custo de manutenção da
+
+pergaminho é igual à energia necessária para se fazer a mágica original (custo     mágica ser zero, ele poderá ser tratado como “permanentemente ativo” depois
+
+básico para mágicas de área), sem levar em conta nenhum bônus devido ao nível      que a energia para fazer a mágica tiver sido despendida (mas o usuário ainda
+
+de habilidade. Multiplique este número por $25 para obter o valor de mercado       precisa permanecer acordado, etc., para manter a mágica normalmente). Mas,
+
+do pergaminho mágico. Exemplo: Um pergaminho mágico com a mágica                   se um objeto tiver energia própria suficiente para a energia necessária para fazer
+
+Retrovisão (v. GURPS Magia, pág 60) levaria 3 dias completos para ser escrito      a mágica ser igual a zero, o ítem será para todos os propósitos “permanentemente
+
+e iria custar normalmente $ 75. No fim deste período, o GM fará um teste da        ativo” e não exigirá nenhum tipo de manutenção consciente. O usuário poderá
+
+habilidade do mago com o encantamento Pergaminho Mágico ou com a mágica            até desligá-lo se quiser.
+
+que está sendo escrita (o que for mais baixo). Uma falha significa que o           Custo em energia: 500 para o primeiro e segundo pontos de energia própria,
+
+pergaminho mágico não funcionará. Uma falha crítica significa que ele fará uma     1.000 para o terceiro e o dobro para cada ponto adicional. Pode ser refeito em
+
+mágica defeituosa.                                                                 um nível maior como em Precisão (a seguir).
+
+Duração: Tanto quanto a mágica duraria normalmente. Se a mágica for do             Pré-requisitos: Encantar, Recuperar Força.
+
+tipo que poder ser mantida, isto poderá ser feito pelo mago que ler o Pergaminho.
+
+Encantamentos de Armas                                                             em energia para esta nova mágica é a diferença entre os 2 níveis.
+                                                                                       Pré-requisitos: Encantar e pelo menos 5 mágicas de Ar.
+    A menos que alguma coisa seja especificada em contrário, o alvo de qualquer
+uma destas mágicas deve ser uma arma. O último a apanhar o objeto é seu
+“dono”. Todas são permanentes e não exigem que o usuário despenda energia.
+
+Precisão                                               Encantamento                Pujança                                            Encantamento
+
+                                                                                   Faz com que a arma produza um dano maior quando atinge o alvo. A mágica
+
+Melhora a chance de um golpe desferido com a arma atingir seu alvo,                aumenta o dano básico. As armas encantadas têm mais possibilidade de penetrar
+
+aumentando o nível de habilidade efetivo de quem a usa. Esta mágica pode           em uma armadura.
+
+acrescentar de 1 a 3 pontos ao NH.                                                 Custo em energia: Depende do bônus. +1: 250. +2:1.000. +3:5.000. O custo
+
+Custo em energia: Depende do bônus. +1: 250. +2: 1.000. +3:5.000. Divida           será dobrado se for uma arma de projétil. Divida o custo por 10 se tratar de um
+
+o custo por 10 se o objeto da mágica for um projétil (ex.: uma flecha com um       projétil (ex.: uma flecha). Note que esta mágica pode ser refeita em um nível
+
+bônus igual a +3 exigiria apenas 500 de energia).                                  mais alto como no caso de Precisão (anterior).
+
+Se uma arma já tiver esta mágica em um nível baixo, o operador poderá              Pré-requisitos: Encantar e pelo menos 5 mágicas de Terra.
+
+incorporar a mágica num nível mais alto (tornando a arma mais precisa). O custo
+
+Magia                                                             - 160 -
+```

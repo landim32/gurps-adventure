@@ -1,0 +1,89 @@
+# Página 200
+
+> Nota de transcrição: conteúdo bruto extraído automaticamente do PDF (`pdftotext -layout`), preservado em bloco de código para manter o alinhamento original de colunas e tabelas. Será reformatado em Markdown estruturado na Fase 2 (organização).
+
+```
+      Construção de Cenários                          Uma grande campanha pode ter dúzias de personagens (nunca jogando simultaneamente),
+                                                   vários GMs trabalhando em conjunto, planetas dignos de mapeamento e centenas de NPCs
+   A construção de um cenário é a definição        significativos, variando desde reis e papas até ladrões e mendigos.
+completa de todo um ambiente para o jogo. Ele
+inclui tudo o que foi descrito anteriormente para     NÃO FIQUE APAVORADO. Você não precisa fazer isto tudo de uma só vez. A maioria
+aventuras e algumas coisas mais. Criar um          das campanhas simplesmente “cresce” um pouco por vez. Uma aventura leva à próxima e antes
+mundo original, interessante e crível é um ver-    que você perceba o grupo estará jogando há um ano e terá uma campanha em andamento.
+dadeiro desafio. A construção de um cenário        Grande parte do encanto de uma campanha é criado pelos próprios jogadores. Os patronos,
+pode ser o início de uma campanha, mas com         dependentes e inimigos dos PCs tornar-se-ão NPCs permanentes. Velhos inimigos reaparece-
+mais freqüência ele é o resultado de uma longa     rão quando menos se espera e os mapas ficarão cada vez mais detalhados com o passar do
+e bem sucedida campanha. A planificação de         tempo. Jogadores aparecerão e desaparecerão, mas a campanha continuará. E ninguém
+todo um mundo é complexa e exige muito tem-        aprende a dirigir uma campanha lendo o livro de regras. A experiência é o melhor professor.
+po. A maioria dos melhores cenários começa-
+ram como fantasias individuais que se desenvol-       Uma campanha é composta de uma série de aventuras. Cada aventura pode ter uma ou mais
+veram ao longo de um bom período de tempo.         sessões de jogo. O GM decide o que acontece no mundo no intervalo entre as sessões e,
+Um exemplo perfeito é Tekumel, a criação           principalmente, entre aventuras. Os NPCs importantes cuidarão de suas vidas. Guerras,
+ficcional do Professor M.A.R. Barker (Empire       clima, política e comércio continuarão nos bastidores da campanha dando origem a novas
+of the Petal Throne).                              aventuras. Seus jogadores serão uma boa fonte de sugestões e eles ficarão muito satisfeitos se
+                                                   suas aventuras afetarem o mundo de alguma maneira, não importa se eles evitaram uma guerra
+   A construção de um cenário histórico exigirá    catastrófica ou simplesmente conseguiram eliminar a verruga da rainha.
+muitas horas de pesquisa. Cenários baseados
+em ficção (romances ou séries de TV, por exem-     Viagens entre Cenários
+plo) também exigem muita pesquisa, para ter
+certeza de que todos os detalhes estão de acordo      Um dos principais objetivos do GURPS é permitir que os jogadores se movimentem
+com a fonte e para ser capaz de fazer inserções    livremente entre cenários diferentes sem ter que aprender todo um novo conjunto de regras a
+lógicas naqueles pontos para os quais a história   cada vez. Um jogador pode participar de várias campanhas, cada uma em um lugar e/ou época
+original não fornece nenhuma informação.           diferente, com um personagem diferente em cada campanha. Cada personagem fica em seu
+                                                   próprio mundo. Mas os personagens podem também se transferir de um cenário para outro.
+   Veja a seguir uma lista de coisas que devem     Isto pode acontecer de duas maneiras diferentes:
+ser levadas em consideração quando se está
+desenvolvendo um cenário:                             (1) Um jogador pode desenvolver um personagem em um cenário e depois levar aquele
+                                                   personagem para um outro cenário. Como exemplo, poderíamos citar um feiticeiro medieval,
+   Culturas e Costumes                             projetado centenas de anos no futuro por um encantamento, que participa de uma aventura na
+   Estrutura das Aventuras                         segunda guerra mundial.
+   Perícias, Empregos e Profissões
+   Monstros e Animais                                 (2) Uma campanha inteira pode se mudar de um cenário para outro. Suponhamos, por
+   Transporte                                      exemplo, que todo o grupo faz parte da tripulação de uma nave interestelar obrigada a uma
+   Medicina                                        aterrissagem forçada em um planeta primitivo. Até conseguir voltar ao espaçoporto do outro
+   Tecnologia e Comunicações                       lado do mundo, eles estarão efetivamente vivendo no século XII.
+   Armas e Combate
+   Vantagens e Desvantagens Especiais              Diferenças entre Cenários
+   Mapas
+   Política e Religião                                Como uma regra geral, quanto maior a diferença entre dois mundos, mais difícil deveria ser
+                                                   para os PCs se movimentarem deliberadamente entre eles. Vejamos algumas das diferenças
+   Veja os vários cenários já publicados pela      significativas:
+Steve Jackson (Horror, Autoduel, Space, Humax,
+Horseclans, Japan, Swashbucklers), se desejar         Mundos com uma grande intensidade de mana (Magia) vs. mundos com baixa intensidade
+alguns exemplos.                                   de mana (Tecnologia).
+
+      E o Trabalho de Vocês?                          Mundos com baixíssimo nível de tecnologia vs. mundos com nível elevado de tecnologia,
+                                                   independente da magia.
+   Você pode criar seu próprio mundo para
+aventuras em GURPS. Existe inclusive possibi-         Mundos total ou quase totalmente humanos vs. mundos com muitas raças.
+lidade de ele vir a ser publicado tanto aqui          Mundos destruídos por uma guerra ou assolados por uma praga vs. mundos pacíficos e
+quanto nos EUA.                                    decadentes.
+                                                      Cenários de fantasia vs. Cenários “reais”, estritamente históricos.
+   Se você estiver interessado em submeter            Com certeza qualquer uma destas diferenças poderia existir em um único planeta, mas elas
+material à nossa apreciação para verificação da    não estariam tão próximas uma da outra. Da mesma maneira, os GMs deveriam dificultar a
+viabilidade de publicação agora ou no futuro,      viagem entre cenários incompatíveis. Isto produz um efeito que é muito raro no mundo dos
+escreva-nos solicitando o guia Devir para auto-    jogos: melhorar tanto o realismo, quanto a fluência do jogo. Os jogadores apreciarão o fato de
+res de aventuras e suplementos. Ele é um roteiro   “as mudanças nas regras” virem sempre precedidas de um aviso.
+de como você deve submeter seu trabalho.              Entre os obstáculos possíveis para a movimentação entre cenários podemos citar todas as
+                                                   barreiras geográficas normais como cadeias de montanhas, vastos oceanos, desertos extensos
+   Nós temos o defeito, relativamente grave, de    ou voçorocas, florestas pantanosas, etc... Barreiras mágicas também são uma possibilidade.
+tentar fazer tudo da melhor maneira possível e     Os Mestres podem, também, ter seus cenários diferentes localizados em mundos diferentes.
+se você nos enviar um trabalho pode ter certeza    O problema de viagens interplanetárias em mundos de baixo nível tecnológico não deve ser
+de que nós o esmiuçaremos completamente.           tratado com leviandade, mas magia poderosa pode realizar praticamente qualquer coisa. É
+                                                   claro que uma magia tão poderosa não estaria sob o controle dos PCs...
+   A publicação de qualquer trabalho depende-
+rá fundamentalmente de três fatores:
+
+   1) Ele ser realmente de boa qualidade e
+divertido
+
+   2) Ele ser aprovado nos EUA pelo próprio
+Steve Jackson
+
+   3) O Roleplaying Game se difundir como
+forma de entretenimento para que tenhamos um
+número suficiente de jogadores que possam
+efetivamente apreciar material deste gênero.
+
+Escrevendo Suas Próprias Aventuras                 - 200 -
+```

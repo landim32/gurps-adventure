@@ -1,0 +1,76 @@
+   (g) O tesouro não é material e sim informação, uma pista para o tesouro verdadeiro.               Transferência de Dinheiro
+   A despeito do melhor planejamento, os jogadores irão ocasionalmente encontrar “despojos”                  entre Mundos
+que você não tinha prognosticado. Exemplo: Os traficante de escravos os mantinham presos
+em jaulas de ferro e quando eles escaparam levaram as jaulas com eles para vender como              Quando os personagens se movimenta-
+sucata. É aí que você improvisa. Se você não tiver uma idéia clara de quanto vale o material,    rem entre mundos (v. pág 200), eles deseja-
+apenas torne a história interessante. Se você quer que o grupo tenha dinheiro, então haverá uma  rão naturalmente levar algum dinheiro consi-
+procura muito grande por sucata na cidade mais próxima. Se não, ninguém está interessado.        go, mas o que é “moeda corrente” em um
+Simples.                                                                                         mundo pode não ser no outro. Existem dois
+                                                                                                 princípios neste caso que o Mestre deve ter
+Nível Social e Custo de Vida.                                                                    em mente:
+
+   Todos os personagens são considerados “classe média” a menos que a aventura ou o cenário         Primeiro: O Dinheiro do mundo moderno
+especifiquem algo em contrário, ou porque eles tem uma vantagem ou desvantagem própria           não é “moeda corrente”. Ele é na verdade uma
+que muda seu nível social. Na maioria dos cenários, o nível social está diretamente relacionado  comodidade. Se o personagem trouxer moe-
+com riqueza. Em algumas sociedades, é possível ser um nobre completamente falido, ou rico        das de ouro da Idade Média para o século XX,
+mas desprezado. Por isso, Riqueza e Status são vantagens distintas embora relacionadas; v.       ele as venderá como antiguidades, ou como
+pág. 16.                                                                                         ouro, provavelmente a $400/onça-troy. Se
+                                                                                                 ele levar o papel moeda americano ao século
+   Todos os que tiverem um nível social acima de “escravo” terão um custo de vida associado      X, ele não terá nenhum valor. Seria preferível
+à sua classe social. Este custo de vida é subtraído da renda do personagem para determinar a     levar alguns capacetes de plástico e talvez um
+quantia que ele tem para seu próprio uso. Os personagens devem gastar a quantia associada        gravador cassete (“Quanto vocês me dão por
+com sua classe social. Uma falha em fazê-lo deveria acarretar em penalidades apropriadas por     esta orquestra milagrosa dentro de uma cai-
+parte do GM. Sempre é possível gastar mais do que a quantia requerida; algumas vezes (opção      xa?”).
+do GM) isto pode lhe trazer benefícios gerais em testes de reação ou até ajudá-lo a galgar um
+outro nível social.                                                                                 Segundo: Uma operação comercial entre
+                                                                                                 mundos pode enriquecer seus donos muito
+   Os níveis sociais serão definidos nos livros de referência. Uma tabela genérica de custo de   rapidamente. Se um GM permitir a viagem
+vida segundo o nível social para culturas medievais e ocidentais modernas é dada a seguir. Note  entre mundos, caberá a ele preservar o equi-
+que o status é consideravelmente mais obscuro para as culturas modernas.                         líbrio, limitando a quantidade e/ou tipo de
+                                                                                                 bens que podem ser transportados entre
+Nível Exemplo Medieval/Fantasia Exemplo Ociental Moderna                                         mundos. Uma sugestão de limite: apenas o
+                                                                                                 que os viajantes forem capazes de transpor-
+Custo de Vida Mensal             Custo de Vida Mensal                                            tar eles próprios. Além disso, as viagens não
+                                                                                                 deveriam ser freqüentes.
+8 Governante Divino: $50.000+            Sem equivalente
+                                                                                                      Fabricando seus Próprios
+7 Rei, Papa: $20.000+                    Presidente: $20.000+                                                   Pertences
+
+6 Príncipe, Duque, Arcebispo: $10.000    Governador, Senador: $10.000                               Personagens que tenham as perícias ade-
+                                                                                                 quadas provavelmente desejarão fazer seu
+5 Barão, Conde, Bispo: $5.000            Diretor de Corporação: $8.000                           próprio equipamento para economizar. Isto
+                                                                                                 é legal, desde que o GM queira acompanhar
+4 Dono de terras: $2.500                 Quem é quem: $ 6.000                                    este processo.
+
+3 Proprietário menor: $1.500             Prefeito de cidade grande: $4.000                          Em geral, isto funciona melhor, em cená-
+                                                                                                 rios com nível tecnológico baixo. Qualquer
+2 Cavaleiro, Prefeito, grande comerciante: $ 800 Prefeito: $2.400                                caçador indígena teria que ser capaz de fabri-
+                                                                                                 car seu próprio arco; um ferreiro na Idade
+1 Escudeiro, capitão, comerciante: $400  Médico, vereador: $1.200                                Média seria capaz de fabricar sua própria
+                                                                                                 armadura. Mas, embora um armeiro de NT6
+0 Cidadão: $200                          Cidadão: $600                                           pudesse com certeza, fabricar sua própria
+                                                                                                 espingarda de pederneira, ele gastaria um
+-1 Servo feudal ou criado: $100          Pobre: $300                                             bom tempo neste serviço, e um armeiro em
+                                                                                                 NT8 com certeza acharia muito mais fácil
+-2 Forasteiro, Submundo: $50             Mendigo de rua                                          comprar uma .45 automática do que ir à
+                                                                                                 oficina e construir uma. A disponibilidade
+-3 Mendigo de rua: $50                   Sem equivalente                                         de bens produzidos em massa faz muita
+                                                                                                 diferença.
+-4 Servo ou escravo: $50                 Sem equivalente
+                                                                                                    Coisas a considerar:
+   Numa campanha que não faça uso de empregos, é possível: (a) subtrair o custo de vida dos         (a) Que matéria prima será necessária e
+valores obtidos pelo personagem em suas aventuras ou (b) ignorar inteiramente esta regra.        qual o seu custo?
+                                                                                                    (b) Quanto tempo será necessário para
+   Em geral, um nível social elevado é mais caro para se manter mas garante, em contrapartida,   realizar o trabalho?
+bônus de reação e outros benefícios. Dependendo do cenário e do GM, sua classe social pode          (c) Existe alguma chance de o trabalho
+lhe trazer vários benefícios especiais.                                                          ter sido em vão quando chegar ao fim? Ex.
+                                                                                                 Forjar uma espada de alta qualidade é um
+                                                                                                 trabalho complicado e exigiria uma série de
+                                                                                                 testes de Ferreiro.
+                                                                                                    As listas de todos os itens possíveis, ma-
+                                                                                                 téria prima necessária, perícias e tempo ne-
+                                                                                                 cessário preencheriam vários livros. Por isso,
+                                                                                                 esta tarefa é deixada a cargo do GM.
+
+                                         - 191 -                                                 Cenários
+

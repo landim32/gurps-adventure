@@ -1,0 +1,74 @@
+metade da velocidade, e com pás improvisadas (mãos nuas, utensílios
+de cozinha, etc...) a velocidade é no máximo 1/4.
+
+   Cavar é um trabalho duro. Uma hora cavando em terra fofa custa
+1 ponto de Fadiga; 2 para terreno normal; 3 para terra dura e 4 para
+pedra.
+
+Natação                                                                                          Cavar: Comparação de Buracos
+
+   O nível de habilidade em Natação (pág. 49) tem valor pré-definido                               Assuma em todos os casos que há apenas
+igual a ST-5 ou DX-4. Um teste de Natação é feito no momento em                                 um homem com ST 10 trabalhando em um
+que se entra na água (num local onde não dá pé) e mais um a cada 5                              terreno normal e ignore as paradas para des-
+minutos. No caso de uma falha você engolirá água, perderá 1 ponto                               canso.
+de fadiga e fará um novo teste dentro de 5 segundos e assim por
+diante, até você: (a) se afogar, (b) ser salvo ou (c) obter um sucesso                             1,15 m3: Uma trincheira individual. 0,9 m
+em um teste e conseguir tirar a cabeça para fora d’água. Se você se                             x 0,9 m x 1,42 m de profundidade, deixando a
+recuperar, faça um novo teste depois de 1 minuto. Em caso de sucesso volte a fazer os testes    terra solta numa berma de 30 cm de altura em
+de 5 em 5 minutos.                                                                              frente à trincheira: 2 horas.
+
+   No caso de cair na água, você poderá tentar se livrar da armadura, etc., depois do primeiro     3 m3: Uma sepultura. 1,8 m x 0,9 m x 1,8 m
+teste de Natação em que for bem sucedido. Faça um teste de DX para cada item de que você        de profundidade: 5 horas e 20 minutos.
+tenta se livrar. Os testes para o escudo, elmo e couraça têm um redutor de -4. Uma falha
+significa que você engoliu água, com os problemas decorrentes explicados anteriormente. Sim,       6,15 m3: Uma armadilha para javalis. 1,8 m
+você pode pedir socorro!                                                                        x 1,8 m x 1,9 m de profundidade: 10 horas e 40
+                                                                                                minutos.
+   Se sua ST chegar a 0 devido ao afogamento, você perderá os sentidos e morrerá em 4
+minutos (água muito fria prolongará significativamente este período), a menos que seja             42 m3: Uma armadilha para tigres. 3,6 m x
+removido da água e um teste bem sucedido de Primeiros Socorros seja feito. Veja as regras para  3,6 m x 3,3 m de profundidade. 73 horas e 20
+prender a respiração e se recuperar de falta de ar descritas na coluna lateral.                 minutos, mais o tempo que for necessário para
+                                                                                                camuflá-la, colocar estacas se for o caso, etc...
+   Modificadores para os testes de Natação: +3 se você entrou na água intencionalmente;
+menos duas vezes seu nível de Carga. Logo, um guerreiro com uma armadura de placas, cujo                Prender a Respiração
+nível de Carga é “Pesado”, terá um redutor igual a -6 em seu teste de Natação. Personagens
+com a desvantagem Obesidade terão um bônus de +5 em todos os testes de Natação, e a Carga          Estas regras não se aplicam somente para a
+devido à gordura não agirá contra eles neste caso.                                              natação. Personagens no vácuo, enfrentando
+                                                                                                um gás venenoso ou sendo estrangulados tam-
+   Velocidade de Nado: Se você conseguir nadar, seu Deslocamento para pequenas distâncias       bém terão que prender a respiração.
+será 1/10 de seu NH em Natação (arredondado para baixo). Isto significa que somente os
+nadadores mais velozes, totalmente sem Carga, serão capazes de nadar a 2 m/s. A maioria das        É possível prender a respiração durante HT
+pessoas terá um Deslocamento igual a 1, nadando. (Se você for capaz de boiar, será capaz de     x 10 segundos quando não se está fazendo
+nadar a 1m/s.)                                                                                  esforço. Com esforço suave (nadando devagar
+                                                                                                ou andando, por exemplo) é possível prender
+   Para longas distâncias, use uma escala de tempo de 10. O número de metros que você é         a respiração por HT x 4 segundos. Fazendo um
+capaz de nadar em 10 segundos é igual a seu NH em Natação menos o dobro de sua Carga.           esforço pesado, como num combate, você será
+                                                                                                capaz de prender sua respiração durante HT
+   Nadar longas distâncias tem um custo em fadiga igual ao da Corrida. Faça um teste de HT      segundos. Dobre este tempo se você promover
+a cada 100 metros de nado a toda velocidade. Cada falha custará um ponto de fadiga. Quando      uma super oxigenação de seu sangue antes.
+sua ST chegar a 3, sua velocidade cairá à metade. Faça um teste a cada 30 minutos se você       Quadruplique se ela for feita com oxigênio
+estiver nadando devagar ou apenas boiando.                                                      puro. Divida o tempo ao meio se você não tiver
+                                                                                                tido tempo de respirar fundo antes.
+   Combate na, e sob a, água: Isto é muito cansativo. Faça um teste de Natação a cada 5
+segundos. Cada falha custa 1 ponto de fadiga. Faça o teste a cada dois segundos se estiver         O personagem perderá 1 ponto de Fadiga
+lutando completamente submerso.                                                                 por turno, a partir do momento em que ficar
+                                                                                                sem fôlego. Quando sua ST chegar a zero ele
+   O dano provocado pelas armas fica reduzido pela resistência da água. O redutor a ser         desmaiará. Ele morrerá em 4 minutos a não ser
+aplicado ao NH com a arma debaixo d’água é determinado pelo seu alcance. Qualquer arma          que receba ar. Se a vítima estava se afogando
+de perto (incluindo os punhos) tem um redutor de -2 aplicado a seu uso. O redutor para armas    (i.e., tinha água em seus pulmões), será neces-
+de 1-hex é -4. Subtraia outros 4 para cada hex de alcance. Além disso existe um redutor         sário também um sucesso em um teste de
+adicional igual a seu nível de Carga.                                                           Primeiros Socorros para salvá-la. Nos outros
+                                                                                                casos só ar puro será suficiente para curar a
+   O dano (mesmo o dano máximo automático) é dividido ao meio.                                  vítima. A vítima recupera 1 ponto de ST ime-
+   Divida ao meio os redutores descritos acima se você estiver lutando dentro, mas não          diatamente, mas deverá recuperar o resto de
+debaixo d’água. Reduza os danos a 2/3 (arredondando o resultado para baixo).                    sua Fadiga normalmente.
+
+Salvando Vidas                                                                                     Se a vítima ficar mais de 2 minutos sem ar
+                                                                                                ela estará sujeita a sofrer seqüelas cerebrais
+   A perícia Natação pode ser usada para salvar alguém que está se afogando. Faça um teste      (perda permanente de 1 ponto de IQ);faça um
+de Natação, com um redutor de -5, mais ou menos a diferença entre sua ST e a da pessoa que      teste de HT, para ver se isto ocorreu.
+você está salvando. Uma falha significa que você engoliu água: -1 ST. Uma falha crítica
+significa que a vítima quase o afogou (-6 ST) e você desistiu da tentativa de salvamento. Este
+teste será mais fácil se os jogadores pensarem em boas técnicas de salvamento.
+
+- 91 -                                                                                          Testes de Habilidade
+

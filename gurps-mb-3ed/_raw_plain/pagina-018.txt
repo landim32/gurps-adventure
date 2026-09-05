@@ -1,0 +1,30 @@
+Status
+O Status é muito parecido com a Reputação, com a diferença de que ele reflete sua posição social ao invés de sua popularidade. Qualquer um pode determinar seu Status simplesmente olhando para você, observando suas roupas e seu comportamento. Se você tiver um Status muito elevado, seu rosto será facilmente reconhecido — ou, talvez, o bando de criados que o cerca denuncie sua posição. (Se você conseguir um bom disfarce, poderá ser capaz de mudar seu Status aparente. Mas isto pode ser uma boa maneira de arranjar encrenca!)
+O Status é medido em “níveis sociais”, variando de -4 (escória social) a 8 (você é literalmente considerado divino). Veja na pág. 191 uma amostra de uma tabela de níveis sociais. Cada nível de Status “custa” 5 pontos. Logo, um Status de nível 5 custa 25 pontos e um de nível igual a -3 é uma desvantagem que vale -15 pontos.
+A manutenção do Status custa dinheiro. Para maiores detalhes sobre o assunto veja o parágrafo Nível Social e Custo de Vida na pág. 191.
+
+Exemplo de Criação de Personagem
+Voltemos a Dai Blackthorn, cuja descrição começamos na pág. 14, e acrescentemos mais alguns dados à sua Planilha. Por enquanto, ele tem 15 pontos disponíveis.
+Riqueza : Nós o faremos um personagem “Pobre”. Portanto ele vai iniciar com recursos equivalentes a 1/5 da média de seu mundo. Isto significa que, em um cenário de “Fantasia”, onde a média corresponde a $1.000 (i.e., 1000 moedas de cobre), ele começará com $200. Só vamos equipá-lo mais adiante, quando soubermos mais a seu respeito. (As Tabelas de Preços de Equipamento encontram-se nas págs. 206 a 213).
+“Pobreza” é uma Desvantagem que “vale” -15 pontos, de modo que agora, Dai dispõe de 30 pontos para “gastar”.
+Reputação: Para desgosto do personagem, muito poucas pessoas fora de seu círculo de convivência já ouviram falar nele. Ele não tem nenhuma Reputação.
+Status : Dai é indiscutivelmente do tipo “suspeito”, de modo que poderíamos lhe dar o Status de criminoso (-1 ponto), se o desejássemos. Neste caso em particular, optamos por não fazê-lo. Nossa justificativa para o fato é que em sua vizinhança todos andam meio maltrapilhos e não há maneira de identificá-lo como um membro do submundo do crime apenas por sua aparência. Assim seu Status será igual a 0 — um cidadão comum.
+Instrução: Dai não sabe ler, mas como ele vive em um mundo de fantasia de baixo nível tecnológico, isto não é uma desvantagem. Saber ler custar-lhe-ia 10 pontos. Esperamos que ele seja capaz de sobreviver sem isso!
+
+Status Elevado Status elevado significa que você faz parte da classe governante em sua civilização de
+origem. Sua família pode fazer parte da nobreza (por ex.: Windsor, Orleans e Bragança), ter empresários e/ou políticos de sucesso (Rockefeller, Kennedy, Matarazzo), ou algum outro tipo de gente importante. Ou você pode ter conseguido este Status por seu próprio esforço. Como conseqüência, os outros membros de sua cultura (e somente eles) irão tratá-lo com deferência, dando-lhe um bônus em todos os testes de reação. Sua habilidade no Trato Social é, por definição, igual a IQ+2 para sua própria cultura; para outras culturas ela é igual a IQ.
+Status elevado traz consigo vários privilégios que variam de cenário para cenário. Se você não estiver usando nenhum cenário específico descrito em um livro de referência, estes privilégios serão definidos pelo GM. Devido à relação estreita que existe entre Status e Riqueza, o fato de seu nível econômico ser maior ou igual a Rico fará com que você tenha que pagar 5 pontos a menos pelo Status Social Elevado. Na prática, você está ganhando um nível de Status “de graça”. Lembre-se, no entanto, que pessoas de nível social alto costumam ser alvo de seqüestradores e de alguns criminosos do tipo que odeia as “classes dominantes”.
+Status Social Baixo Você é um criado, um criminoso ou um escravo. Note que isto não é a mesma coisa que a
+Desvantagem “Estigma Social” (veja pág. 27). No Japão medieval, por exemplo, uma mulher poderia ter um Status Social bastante elevado (e o custo de vida associado) e mesmo assim estar submetida a um redutor igual a -1 devido ao Estigma Social de ser mulher.
+A interação destes elementos (Status, Estigma Social e Reputação), pode dar resultados interessantes. Como, por exemplo, o caso de uma pessoa que, pertencendo obviamente a uma classe social baixa ou mesmo a um grupo minoritário desprezado, pode angariar uma reputação tão boa como herói, que outros poderiam vir a ter uma reação favorável diante dela.
+Status como um Modificador de Reação Quando um Teste de Reação (pág. 180) é feito, o Status relativo dos personagens
+envolvidos pode afetar a reação. Naturalmente, o GM pode interpretar seus NPCs como desejar, mas descreveremos abaixo algumas regras gerais que poderiam ser seguidas:
+O Status elevado normalmente garante um bônus em testes de reação. Se você tiver um Status igual a 3, por exemplo, todos aqueles que tem Status igual a 1 reagirão levando em consideração um bônus de +2 e, aqueles com Status igual a 0, com um bônus igual a +3 (exceto, é claro, aqueles criminosos que se ressentem do Status).
+Valores negativos para o Status normalmente implicam em uma penalidade. Se o seu Status for tão baixo a ponto de ser negativo, ele provocará uma reação negativa com relação a você por parte de pessoas que têm um status maior. Use a diferença entre o seu Status e o do NPC (com um valor mínimo de -4) como redutor.
+Valores menores de Status podem implicar numa penalidade. Se você estiver lidando com um NPC que é essencialmente amistoso, seu Status não fará diferença (enquanto ele for positivo). Afinal de contas, um rei tem um nível de Status muito maior que seus cavaleiros, mas tem uma reação favorável com relação aos mesmos... pelo menos na maior parte do tempo. Porém, se o NPC for neutro ou já estiver zangado, um Status mais baixo piora ainda mais a situação: “ Como é que você, um mero cavaleiro, se atreve a dizer que meu plano de batalha é insensato?”
+
+Riqueza e Status
+
+- 18 -
+
+

@@ -1,0 +1,47 @@
+REAÇÕES DOS NPCs
+
+Quando os jogadores encontrarem um NPC cuja reação a eles não estiver prédeterminada, o GM fará um “teste de reação” com três dados. Quanto maior for o resultado, melhor será a reação. O GM deve então seguir as instruções existentes na Tabela de Reações. Veja a pág. 180 para maiores detalhes sobre testes de reação.
+Vários fatores podem influenciar o resultado de uma jogada deste tipo. Um bônus de reação torna o NPC mais amigável e um redutor de reação é alguma coisa que fará o NPC menos amigável. Vejamos a seguir alguns modificadores comuns:
+O Comportamento e a Aparência Pessoal dos personagens — especialmente daquele que se encarrega de apresentar o grupo ao NPC! Uma boa aparência pessoal melhorará o resultado do sorteio. A mesma coisa acontece com o Carisma e na maioria das situações com um nível aparentemente alto de status.
+Perícias apropriadas para a ocasião — ex.: Manha, num contato com o submundo. Se o personagem for um “especialista” na perícia (NH maior ou igual a 20), haverá uma chance melhor de ela ser de alguma valia. Ser um especialista em Diplomacia, por exemplo, vale um bônus de +2 em qualquer teste de reação.
+Preconceitos raciais ou nacionais entre os NPCs e os personagens do grupo. Normalmente são redutores e podem ser encontrados nos livros de referência que descrevem os mundos ou cenários específicos.
+O comportamento adequado dos jogadores Uma boa abordagem deveria ser digna de um bônus igual a +1 ou mais! Uma abordagem completamente inadequada deveria custar ao grupo uma penalidade igual a -1 ou -2 em seu teste de reação.
+Lembre-se que os testes de reação têm como propósito dramatizar uma situação e NÃO controlá-la. Se um encontro tiver importância vital para o desenvolvimento da aventura o GM deverá decidir previamente qual será a reação dos NPCs. Os testes de reação deveriam ser usados apenas nas situações menos importantes ou naqueles casos onde os jogadores precisam usar sua perspicácia para negociar. No entanto, o GM pode fingir que está sempre fazendo as jogadas de modo que os jogadores nunca saibam com certeza o que está acontecendo.
+Reações em Geral
+Este tipo de jogada deve ser feito, normalmente, para saber como o NPC se sente com relação aos personagens. Faça um teste de reação geral quando não houver nada mais adequado. O GM pode usar o modificador que julgar apropriado, especialmente aqueles relacionados com a aparência pessoal.
+Situações de Combate Iminente (e Verificação do Moral)
+Faça jogadas deste tipo em todos os encontros nos quais o combate for possível, mas não certo. Não é necessário no caso de um encontro com um inimigo numa batalha campal. Um teste de reação será adequado para um grupo de estranhos armados encontrados em uma trilha deserta, a menos que o GM tenha pré-determinado suas ações.
+Um teste de reação em combate pode ser feito sempre que os NPCs estiverem perdendo uma batalha para “verificar seu moral”. Resultados entre “Bom” e “Excelente” indicam uma fuga ou rendição dos NPCs e nunca uma amizade repentina.
+Modificadores Especiais para Testes de Reação em Combate
++1 a +5 se o grupo parecer consideravelmente mais forte que o grupo de NPCs. -1 a -5 se o grupo parecer consideravelmente mais fraco que o grupo de NPCs. -2 se não houver um membro no grupo que domine pelo menos uma língua falada por algum dos membros do grupo de NPCs. -2 se os personagens estiverem invadido terras pertencentes ao grupo de NPCs.
+Transações Comerciais
+Faça este tipo de jogada toda vez que os PCs tentarem comprar ou vender alguma coisa, conseguir um emprego, ou contratar alguém. Não será necessário nenhuma jogada caso não haja regateio ou exista alguma chance de o mercador não querer negociar com os PCs.
+Preço justo significa o preço normal para os bens e serviços em questão em uma determinada época e local. Os PCs podem tentar conseguir um preço melhor jogando com um redutor igual a -1 para cada 10% de diferença . Da mesma maneira, oferecer mais (ou pedir menos) do que o preço justo, dará um bônus igual a +1 para cada 10% de diferença. Se os jogadores variarem seu preço, determine a contraproposta do NPC com base no preço proposto ao invés do preço justo se isto for menos favorável para o PC. Se ele estiver pedindo 120% do preço justo e conseguir uma reação “ruim”, o NPC oferecerá a metade disso, ou seja 60%
+Regatear nunca conseguirá reduzir o preço a menos do que 50% do preço “justo” a menos que o NPC tenha algum motivo oculto.
+
+Modificadores Especiais para Transações Comerciais
+-1 para cada 10% de variação no preço com relação ao preço justo que favorece o PC.
++1 para cada 10% de variação no preço com relação ao preço justo que favorece o NPC.
++1 se o PC tiver a perícia Comércio em qualquer nível. +2 se o PC for um especialista em Comércio (NH maior ou igual a 20).
+Pedidos de Ajuda
+Faça este tipo de jogada toda vez que os PCs pedirem qualquer tipo de ajuda. (Caso seja apropriado deve-se fazer um teste de reação para verificar a “iminência de um combate”.) Entre os exemplos incluem-se uma entrevista com um burocrata, uma tentativa de fazer com que o editor de um jornal ou o delegado de polícia acreditem em sua história sobre os planos do cientista maluco ou os pedidos de socorro para os circunstantes que observam enquanto você é “trombado”.
+Modificadores Especiais para Pedidos de Ajuda
++1 se o pedido for muito simples. -1 a -3 (ou mais) se o pedido for muito complicado ou desarrazoado. -1 se o pedido for incomodar o NPC ou custar-lhe algum dinheiro. -2 ou mais se o emprego ou Status social do NPC for colocado em risco pelo pedido. -1 ou mais se o pedido for colocar o NPC fisicamente em perigo. Isto dependerá do tamanho do risco e da coragem do NPC.
+Pedidos de Informação
+Faça este tipo de jogada quando os PCs pedirem informações ou conselhos. “Você conhece este homem?” etc... Lembre-se que se o NPC for um informante profissional, isto se transformará em uma transação comercial. Se o NPC estiver sendo interrogado, os personagens deverão usar sua perícia Interrogatório.
+Note que um NPC não pode dizer mais do que ele sabe. Algumas vezes os NPCs contarão a verdade da maneira que eles a conhecem, mas estarão completamente enganados! E certos NPCs podem fingir saber mais do que realmente sabem para conseguir algum dinheiro dos PCs ou impressioná-los.
+Se houver alguma dúvida sobre se um determinado NPC (ou PC) tem conhecimento de algum fato específico, faça um teste contra sua Inteligência ou contra o NH que ele tenha na perícia adequada.
+Modificadores Especiais para Pedidos de Informação
+-1 para uma pergunta complexa; -2 para uma pergunta muito complexa. -3 se o NPC achar que ele não tem nada a ver com isso. -3 ou mais se a resposta colocar o NPC em perigo. +1 a +3 se um suborno for oferecido. Para ter efeito, o suborno deverá ser discreto e de boa monta. Nem todo mundo aceitará receber o pagamento em dinheiro. Não se oferece uma nota de R$ 20 para um repórter (ele se sentiria insultado), mas pode-se pagar um jantar que ele apreciará. Os GMs deveriam valorizar o uso de “subornos” disfarçados. +2 a +4 se o NPC for um bibliotecário, historiador, escriba, professor, etc... Este tipo de pessoa está sempre naturalmente inclinado, a ajudar qualquer um em busca de conhecimento.
+Lealdade
+Quando os PCs contratam alguém, o GM deveria determinar sua lealdade. Isto definirá somente a atitude do NPC, não a sua competência. Se o NPC for importante, o cenário (ou o GM) pré-determinará sua atitude e habilidades. Em qualquer outro caso, um sorteio aleatório será suficiente.
+Quando os PCs contratam um empregado, o GM deveria definir também (aleatoriamente ou não) qual é o sentimento do empregado com relação aos PCs.
+O resultado desta definição é conhecido do GM, mas não dos PCs (a menos que se consiga um sucesso num teste de Empatia). O GM deveria registrar secretamente a lealdade de cada NPC e deixar-se guiar por ela na determinação de todo o comportamento posterior do NPC. Lembre-se que a lealdade pode mudar. Veja pág. 195.
+Modificadores Especiais para Lealdade
++1 para cada 10% acima do salário médio de mercado que o PC oferecer. -1 para cada 10% a menos. +2 ou mais se os PCs estiverem servindo a uma causa na qual o NPC acredita, ou um líder ao qual os NPCs são muito leais. + ou - conforme for apropriado para a reputação local dos PCs (se houver).
+
+Quadros e Tabelas
+
+- 204 -
+
+

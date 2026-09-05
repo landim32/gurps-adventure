@@ -1,0 +1,83 @@
+# Página 106
+
+> Nota de transcrição: conteúdo bruto extraído automaticamente do PDF (`pdftotext -layout`), preservado em bloco de código para manter o alinhamento original de colunas e tabelas. Será reformatado em Markdown estruturado na Fase 2 (organização).
+
+```
+                Projetar                             Fintas com Escudo: Depois que você atacou seu inimigo com o escudo uma vez (pág.
+                                                  123), poderá fintar também com seu escudo, fazendo Testes contra seu NH em Escudo.
+   Toda vez que você golpear alguém com
+muita violência, poderá projetá-lo para trás.     Avançar e se Concentrar
+Seu oponente será deslocado um hexágono
+para cada 8 pontos completos de dano provo-          Esta manobra lhe permite avançar um hexágono em qualquer direção (normalmente)
+cados por uma bala, ou golpe com uma arma         e depois se concentrar em uma tarefa mental que pode ser uma mágica ou o uso de um
+cortante ou contundente, desferido por você.      poder psíquico ou alguma ação similar.
+Calcule este impulso antes de descontar a
+Resistência a Dano da armadura de seu inimi-         É possível defender normalmente, mas isto provavelmente atrapalhará sua concentra-
+go. Ela pode protegê-lo da lesão, mas não         ção. Faça um teste de IQ com um redutor de -3, para tentar manter a concentração enquanto
+impedirá que ele sinta o golpe.                   se defende. Uma falha significa que você perdeu a concentração e deve começar de novo.
+
+   Qualquer um que seja Projetado para trás,      Avançar e Aguardar
+precisará de um sucesso em um teste de DX
+para não cair. Se seu golpe projetar o adversá-      Esta manobra lhe permite se deslocar um hexágono em qualquer direção, mudar de
+rio contra alguma coisa grande, ele parará        direção ou ficar parado e aguardar que um inimigo se aproxime. Você poderá atacar a
+quando atingi-la. Os resultados (incluindo o      qualquer momento antes de seu próximo turno, se algum inimigo estiver próximo o
+possível dano provocado no que quer que ele       suficiente. Se você ficou parado durante todo seu turno, poderá avançar um hexágono e
+tenha atingido) serão avaliados como se você      depois atacar. Se o inimigo estiver se deslocando para atacar você, a arma mais longa
+o tivesse arremessado contra o objeto. (V.        golpeará primeiro. Faça uma Disputa de Habilidades com as armas se elas forem do mesmo
+Arrmessando Objetos, pág. 90)                     tamanho. No caso de se ter um NH alto, será possível a estratégia de “parar-e-espetar”.
+
+Projetar para Trás com um Encontrão                  Não é obrigatório atacar o primeiro inimigo que fique a seu alcance; você pode ignorar
+   Quando um combatente derruba outro com         um inimigo e esperar por outro. Não há obrigação de atacar.
+
+um Encontrão, existe uma chance deste ser            Se mais de um combatente estiver Aguardando e um deles anunciar um ataque, aquele
+também projetado para trás. Isto acontece         ataque (e a reação do alvo, se for a vez dele) serão ambos terminados antes que outro
+apenas quando um dos combatentes permane-         combatente que esteja Aguardando possa atacar.
+ce em pé e o outro cai.
+                                                     Se nenhum inimigo chegar a uma distância em que possa ser alcançado com uma
+   Faça uma Disputa Rápida de ST. No caso         manobra Avançar e Atacar, ou se você tiver preferido não atacar, seu turno terá sido
+de empate ou vitória do combatente caído, ele     perdido: você ficou lá esperando e não fez nada.
+não será projetado para trás. Se ele perder, ele
+será projetado 1 hex para trás para cada 2           Você pode escolher qualquer defesa legal na rodada em que Aguardou.
+pontos na margem pela qual ele perdeu a              Esta manobra também é usada para Tiro de Tocaia com uma arma de longo alcance
+disputa (arredondado para baixo), mas sempre      (veja coluna lateral na pág. 118).
+pelo menos um hex. Qualquer tipo de obstru-
+ção (combatente, muro, etc...) irá pará-lo. Se    Defesa Total
+ele atingir um outro guerreiro, irá parar no hex
+em que este se encontrava, o qual deverá fazer       Esta é a manobra a ser escolhida quando se está cercado de inimigos (principalmente
+um teste (ST+3 ou DX+3, o que for melhor)         inimigos que gostam de ataque total). Você pode se deslocar 1 hexágono em qualquer
+para ver se consegue se manter em pé.             direção e não pode fazer mais nada a não ser se defender.
+
+   O combatente que provocar o Encontrão             Se você falhar em sua jogada de defesa contra qualquer ataque, poderá tentar uma outra
+não poderá “ricochetear” para trás mais do que    defesa diferente (em outras palavras, você tem duas jogadas de defesa, usando duas defesas
+2 hexes.                                          ativas diferentes, para cada ataque feito durante a rodada). Você está limitado a dois
+                                                  bloqueios e dois movimentos de aparar por rodada quando escolhe a Defesa Total (se você
+          Estratégias com a                       tiver duas armas, cada uma delas poderá aparar duas vezes). Se terminar o número de
+       Manobra “Aguardar”                         bloqueios e movimentos de aparar permitidos, você poderá se esquivar apenas uma vez de
+                                                  cada um dos ataques seguintes (ninguém se esquiva duas vezes do mesmo ataque).
+   A manobra Aguardar pode ser muito útil
+numa situação tática onde você deseja bloque-     Ação Demorada
+ar o caminho de um inimigo em fuga (ou
+proteger alguém que se encontre atrás de você).      Muitas ações levam mais de um segundo para serem completadas. Numa situação de
+                                                  combate, use a manobra genérica “Ação Demorada” até terminar o que estava fazendo. O
+   O fato de você se decidir a Aguardar, signi-   GM lhe dirá quanto ela demorará. Em alguns casos ele usará dados para determinar sua
+fica que você pode atacar a qualquer momento      duração.
+(mesmo no meio do movimento de alguma
+outra pessoa). Se você não estiver se movi-
+mentado na sua vez, poderá avançar um hex e
+atacar. Se seu oponente ainda estiver em pé
+depois de seu golpe, ele poderá continuar seu
+movimento.
+
+   Este é o melhor meio (e quase que o único)
+de evitar que um adversário mais rápido passe
+correndo por você em um campo aberto. Se
+você fizer uma manobra comum (lutar com
+alguma outra pessoa), estará distraído e, num
+período de um segundo, ele poderia passar
+correndo por você. Mas, se você estiver espe-
+rando por ele, terá uma chance de atingi-lo, ou
+interceptá-lo, no momento em que ele tentar
+passar por você.
+
+Sistema Avançado de Combate                       - 106 -
+```

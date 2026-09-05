@@ -1,0 +1,124 @@
+Níveis de Habilidade em Línguas
+Esta tabela dá uma idéia de que tipo de sucesso esperar em cada nível de habilidade em uma língua:
+4 ou menor: Reconhecer algumas palavras importantes. 5-6: Normalmente entende sentenças simples, ditas lentamente. 7-8: Vocabulário adequado para leitura e diálogo. Os estrangeiros conservarão um sotaque marcante e divertido aos ouvidos dos habitantes locais. 9-10: Comando da língua igual à média daqueles para quem esta é a língua-mãe. Os estrangeiros terão um ligeiro sotaque. 11-12: Comando da língua equivalente a uma pessoa educada. Os estrangeiros terão um ligeiro sotaque. 13-14: Domínio completo da língua, incluindo expressões idiomáticas. Nenhum sotaque. Pode adotar um sotaque regional se desejar. 15 ou mais: Fluência total. Será capaz de pensar na língua, mesmo que seja estrangeiro.
+
+Alfabetização
+Esta perícia varia bastante em disponibilidade e importância, conforme o cenário do jogo. Além disso, ela é adquirida quando o personagem é muito jovem, ou não será jamais. Portanto, ela é tratada como uma vantagem (veja págs. 17 e 21) em culturas onde a capacidade de ler não é comum. Em culturas onde a maioria das pessoas é capaz de ler, presume-se que o personagem é alfabetizado, a menos que ele tenha assumido a desvantagem de ser analfabeto (veja pág. 33).
+Se você nunca tiver a chance (ou dedicar o tempo) para aprender a escrever o básico, você poderá ter experiência em várias línguas sem ser capaz de ler ou escrever nelas. Isto significa que não há um nível de habilidade em leitura ou escrita; ou você é alfabetizado ou não. Se for, seu grau de alfabetização em cada língua será medido pelo seu nível de habilidade correspondente.
+
+Mímica/Pantomima (Mental/Fácil)
+
+Pré-definido
+
+como IQ-4 ou Linguagem de Sinais
+
+Esta é a habilidade de se comunicar através de simples sinais
+
+improvisados com as mãos. Indivíduos surdos e/ou mudos têm um
+
+bônus de +3 no uso desta perícia. Um sucesso em um teste de Mímica/
+
+Pantomima permitir-lhe-á comunicar uma idéia simples para uma
+
+outra pessoa, ou entender uma comunicada por outrem. Para “conver-
+
+sas” mais longas, use as regras de comunicação descritas em Línguas.
+
+Gestos simples não são apropriados para mensagens complexas.
+
+Culturas diferentes desenvolvem vocabulários de gestos diferentes;
+
+ocidentais tentando se comunicar com japoneses, por exemplo, estarão
+
+Perícias com Línguas
+submetidos a um redutor de -4. No caso de seres humanos tentando se comunicar com alienígenas ou espécies não-humanas, a linguagem dos gestos é quase impossível, mas os jogadores podem tentar.
+
+Linguagem de Sinais (Mental/Média)
+
+Sem nível
+
+pré-definido
+
+Esta é qualquer uma das verdadeiras linguagens de gestos. Uma das
+
+mais conhecidas é a American Sign Language (Ameslan). Outros
+
+exemplos poderiam ser a língua de uma raça alienígena sem fala, um
+
+código de sinais usado por espiões ou revolucionários, etc. Uma
+
+linguagem de sinais é complexa, estilizada e pode comunicar pratica-
+
+mente qualquer conceito. O conhecimento de uma linguagem de sinais
+
+não implica no entendimento das outras, mas você será capaz de
+
+perceber que algum tipo de linguagem está sendo usado, se for bem
+
+sucedido em um teste de IQ. Indivíduos mudos e/ou surdos receberão
+
+um bônus de +3 em testes de Linguagem de Sinais.
+
+Telegrafia (Mental/Fácil)
+
+Sem nível pré-definido
+
+Esta é a habilidade de enviar e receber em código Morse, realizar
+
+pequenos reparos em sistemas de telegrafia e reconhecer outros
+
+operadores de telégrafo pela sua “caligrafia”, i.e., a sua maneira
+
+característica de enviar uma mensagem. Esta perícia é encontrada
+
+normalmente entre os níveis tecnológicos 5 e 7. A partir do nível 8, os
+
+seres humanos raramente enviam (eles mesmos) mensagens em códi-
+
+go. Eles usam um computador para isto.
+
+Em NT5, um telegrafista é capaz de enviar ou receber 2 palavras
+
+por minuto para cada ponto de seu nível de habilidade. Em NT 6+, com
+
+um manipulador semi-automático, a velocidade cresce para 3 pal/min,
+
+por ponto de habilidade. No entanto, esta perícia se desenvolve
+
+vagarosamente, mesmo para pessoas inteligentes, e a taxa efetiva com
+
+que você está recebendo ou transmitindo não pode exceder o número
+
+de semanas que se passaram desde o momento em que você adquiriu
+
+a perícia.
+
+Um operador pode tentar enviar ou receber mensagens numa ve-
+
+locidade maior do que seu NH permitiria normalmente, submeten-
+
+do-se a um redutor de -2 para cada 2 pal/min adicionais (NT5) ou
+
+3 pal/min (NT6+). A taxa máxima em NT5 é 25 pal/min,enquan-
+
+to que em NT6+ é 75.
+
+O envio e recepção de mensagens em código, ao invés de português
+
+(ou outra língua conhecida), está submetido a um redutor de - 4. O envio
+
+e recepção de mensagens em outras línguas está submetido a um
+
+redutor de -1, para cada ponto de diferença entre o NH do operador com
+
+a língua e 10, até um redutor máximo de - 4.
+
+Cada operação mágica é considerada uma perícia independente. É melhor aprender magia tendo um mago como professor, mas isto pode ser feito através de auto-estudo (na metade da velocidade), usando um bom “grimoire” como referência. A Magia é coberta no capítulo 19.
+
+Perícias Mágicas
+
+- 55 -
+
+Perícias
+
+

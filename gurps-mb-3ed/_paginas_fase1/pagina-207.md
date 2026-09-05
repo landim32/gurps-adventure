@@ -1,0 +1,122 @@
+# Página 207
+
+> Nota de transcrição: conteúdo bruto extraído automaticamente do PDF (`pdftotext -layout`), preservado em bloco de código para manter o alinhamento original de colunas e tabelas. Será reformatado em Markdown estruturado na Fase 2 (organização).
+
+```
+Arma                           Tipo         Dano      Alcance Custo              Peso                    ST Mín Observações
+
+ESPADAS DE DUAS MÃOS (DX-5 ou Espadas de Luz-3) Exige as 2 mãos.
+
+Cimitarra                      corte        BAL+2         1,2 $650            2,5 kg                     10  Idêntico ao Montante, mas usado c/ 2 mãos.
+                                                                              2,5 kg
+                               cont         GDP+2         2                   3,5 kg
+                                                                              3,5 kg
+“               em GDP         corte        BAL+2         1,2 $750                                       10  Idem acima, com ponta aguda.
+                                                                                2 kg
+                               perf         GDP+3         2
+
+Espadão                        corte        BAL+3         1,2        $800                                12  Geralmente com ponta romba.
+
+                               cont         GDP+2         2
+
+“               em GDP         corte        BAL+3         1,2 $900                                       12  Idem acima, com ponta aguda.
+
+                               perf         GDP+3         2
+
+Bastão                         cont         BAL+2         1,2        $10                                 9   Manejo do Bastão com a técnica para espadas.
+
+                               cont         GDP+1         2
+
+CHICOTE (Sem nível pré-definido)
+
+Chicote                        cont         BAL-2         1-7* $20/m 1 kg/m 10                               Dano máximo: 1D-1; v.pág.52.
+
+    * Deve ser preparada durante 1 turno para mudar o alcance de longo para curto ou vice-versa.
+   † Fica “despreparada” se usada para aparar.
+
+TABELA DE ARMAS DE LONGO ALCANCE ANTIGAS/MEDIEVAIS
+
+     As armas estão agrupadas de acordo com a perícia necessária para usá-las, juntamente com os respectivos níveis pré-definidos.
+
+Arma                    Tipo          Dano                     Parâmetros                                    Custo*    Peso† ST Mín Observações
+
+                                                  TR           Prec        ½Dano Máx
+
+ARREMESSO DE MACHADO (DX-4)
+
+Machadinha              corte         BAL         11           1           STx1,5      STx2,5                $40       1 kg 7
+                                                                           ST          STx1,5
+Machado de arremesso    corte         BAL+2 10                 2                                             $60       2 kg 11
+
+ZARABATANA (DX-6)       Esp (p.49) -              10           1           -           STx4                  $30 500 g          -          V.pág.49
+ Zarabatana
+
+BOLEADEIRA (sem nível pré-definido)
+
+Boleadeira              Esp (p.49) -              12           0           -           STx3                  $20       1 kg -              V.pág.49.
+
+ARCO (DX-6) 2 mãos para disparar 2 turnos para preparar.
+
+Arco curto              perf          GDP         12           1           STx10       STx15                  $50/$2      1 kg  7          Dano máx. 1D+3.
+                                                                           STx15       STx20                 $100/$2      1 kg
+Arco médio              perf          GDP+1 13                 2           STx15       STx20                 $200/$2   1,5 kg   10 Dano máx. 1D+4.
+                                                                           STx20       STx25                 $900/$2      2 kg
+Arco longo              perf          GDP+2 15                 3                                                       250 g    11 Dano máx. 1D+4.
+                                                                                                                  $10
+Arco composto           perf          GDP+3 14                 3                                                                10 Dano máx. 1D+4.
+
+Aljava                                                                                                                          Comporta 10 flechas/virotes.
+
+BESTA (DX-4) 2 mãos para disparar, 4 turnos para preparar (8, se a ST for maior que a sua).
+
+Besta                   perf          GDP+4 12                 4           STx20       STx25 $150/$2                   3 kg 7              Dano máx. 3D.
+                                                                                                                       3 kg 7              Dispara bolinhas de
+Besta de bala           cont          GDP+4 12                 2           STx20       STx25 $150/$0,1                                     chumbo
+                                                                                                                       1 kg 7              V.pág.114.
+Pé-de-cabra             -             -           Usado p/ armar besta                                       $50
+
+AREMESSO DE FACA (DX-4)
+
+Facão                   perf          GDP         12           0           ST-2        ST+5                  $40 500 g          -          Dano máx. 1D+2.
+
+Faca pequena            perf          GDP-1 11                 0           ST-5        ST                    $30 250 g          -          Dano máx. 1D+1.
+
+Adaga                   perf          GDP-1 12                 0           ST-5        ST                    $20 100 g          -          Dano máx. 1D.
+
+LAÇO (sem nível pré-definido)
+
+Laço                    Especial      Especial 16              0           -           -                     $40 1,5 kg -                  V.pág.51.
+
+REDE (sem nível pré-definido)
+
+Rede grande             Esp (p.51) -              13           1           -           ST/2+NH/5 $40                   10 kg -             V.pág.51.
+
+Rede de combate         Esp (p.51) -              12           1           -           ST+NH/5               $20 2,5 kg -                  V.pág.51.
+
+FUNDA (DX-6) 2 mãos para municiar, 1 para disparar, 2 turnos para preparar.
+
+Funda                   cont          BAL         12           0           STx6        STx10                 $10 250 g          -          Lança pedras.
+                                                                                       STx15                                               Lança pedras.
+Fustíbalo               cont          BAL+1 14                 1           STx10                             $20       1 kg -
+
+ARREMESSADOR P/LANÇA (DX-4 ou Arremesso de Lança -4) Aumenta a ST efetiva do usuário em 5, quando arremessando uma lança.
+
+                                                                                                             $20       1 kg -              V.pág.52.
+
+ARREMESSO DE LANÇA (DX-4 ou Arremessador de Lança -4)
+
+Dardo                   perf          GDP+1 10                 3           STx1,5      STx2,5                $30       1 kg 7
+                                                                           ST          STx1,5
+Lança                   perf          GDP+3 11                 2                                             $40       2 kg 9
+
+DX-3 ou PERÍCIA ARREMESSO (V.pág.90)
+
+Pedra                   cont          GDP-1 12                 0           STx2        STx3,5                - 500 g            -
+                                                                           -           STx3,5
+Frasco de óleo          fogo          v.pág.121 13             0                                             $50‡ 500 g         -
+
+* Custo: O número após a barra é o custo/disparo (flecha ou outro projétil), para uma arma de projétil.                ‡ Fantasia ou NT4; em NT6+ custa $1.
+† Uma flecha pesa 60 g; um virote, pedra de funda ou bolinha de chumbo pesa 30 g.
+
+                                                                                                                                Quadros e Tabelas
+```

@@ -1,0 +1,89 @@
+# Página 028
+
+> Nota de transcrição: conteúdo bruto extraído automaticamente do PDF (`pdftotext -layout`), preservado em bloco de código para manter o alinhamento original de colunas e tabelas. Será reformatado em Markdown estruturado na Fase 2 (organização).
+
+```
+Desvantagens Físicas
+
+Daltonismo            -10 pontos                                                seduzir outros. Qualquer pessoa ciente de sua condição estará submetida a
+                                                                                um redutor de -1 nos testes de reação.
+    O personagem não é capaz de distinguir nenhuma cor (i.e. acromatopsia).
+No dia-a-dia, esta anomalia não é mais do que um transtorno. No entanto, em     Obesidade       -10/-20 pontos
+situações que exijam a identificação das cores (compra de pedras preciosas,
+identificação de um uniforme ou apertar o botão vermelho para dar a partida         O personagem será extraordinariamente gordo para sua raça. (Um
+num motor), o GM deverá lhe impor as dificuldades adequadas ao caso.            personagem pode ser simplesmente “gordo”, situação descrita separadamen-
+                                                                                te mais adiante.)
+    Certas perícias serão sempre mais difíceis para um daltônico. Ele estará
+submetido automaticamente a um redutor de -1 nos testes de Condução,                Para uma obesidade equivalente a -10 pontos, determine seu peso
+Pilotagem, Química, Rastreamento e Comércio.                                    normalmente a partir de sua Força (pág. 15) e depois aumente-o em 50%. Isto
+                                                                                resultará em um redutor de -1 em todos os testes de reação e sua HT nunca
+Surdez                -20 pontos                                                poderá ser maior do que 15. Para o caso de -20 pontos, o peso deve ser
+                                                                                determinado normalmente e depois dobrado. Isto resultará em um redutor de
+    Você não é capaz de ouvir nada. Qualquer informação deve lhe ser            -2 em todos testes de reação e a HT nunca poderá ser maior do que 13. Em
+transmitida através da escrita (se você for alfabetizado) ou linguagem de       qualquer um dos casos, o peso extra contará como uma Carga (v. pág. 76) a
+sinais. Estará também submetido a um redutor de -3 em seu atributo IQ           mais, da qual ele não pode se livrar. (Exceção: A Carga devido à gordura não
+quando estiver aprendendo qualquer língua que não seja a sua. No entanto,       conta contra o personagem quando ele está nadando).
+receberá um bônus de +3 em todos os testes de Mímica/Pantomima, Lingua-
+gem de Sinais (pág. 55) ou Leitura Labial (pág. 66).                                Roupas e armaduras normais não servirão no personagem. Ele estará
+                                                                                submetido a um redutor de -3 em testes de Disfarce e Sombra, se estiver
+    Opcionalmente, o jogador que representa um personagem surdo poderia         tentando seguir alguém numa multidão.
+jogar usando protetores de ouvido para forçar os outros a escrever o que
+desejam lhe dizer ou usar linguagem de sinais. Esta opção não é muito prática       Como regra, pessoas obesas têm pequenos problemas que o GM deveria
+(protetores de ouvido de boa qualidade são difíceis de encontrar), mas pode     interpretar criativamente. No entanto, existem algumas poucas vantagens.
+ser interessante. Note que o GM pode falar com o jogador sempre que quiser.     Por exemplo, pessoas obesas recebem um bônus de +5 em seus testes de
+                                                                                Natação e são muito difíceis de desalojar, se decidirem a prender alguém
+Nanismo               -15 pontos                                                sentando-se em cima. Um personagem obeso recebe também um bônus de +2
+                                                                                quando dá (ou tenta resistir a) um Encontrão.
+
+    O personagem é um anão por motivos genéticos, anormalmente baixo            Gigantismo      -10 pontos
+para a sua espécie. Determine sua altura normalmente (pág. 15), e depois
+reduza-a a 60%. Ele também não poderá ter uma Aparência Física igual à              O personagem é um gigante por questões genéticas, anormalmente
+média e será considerado “atraente e charmoso” ou particularmente desagra-      grande para a sua espécie. Determine sua altura normalmente (pág. 15) e
+dável. Qualquer oponente que o ataque com uma arma de arremesso ou de           depois aumente-a em 20%. Se ele ainda tiver menos do que 2,10 m de altura
+projétil estará submetido a um redutor de -1 (ele é um alvo difícil). Em        (para os humanos), aumente-a para este mínimo. O tamanho mínimo para
+combate, ele estará sempre meio metro abaixo de qualquer adversário             gigantes de outras raças é deixado a cargo do GM. O peso deve ser
+humano normal. Devido à sua estatura, certas coisas são impossíveis para um     determinado em proporção à altura. Força e Vitalidade não são afetadas. Ele
+anão, outras muito mais fáceis. O GM deve usar a imaginação aqui.               estará submetido a um redutor de -2 em todos os testes de reação, com exceção
+                                                                                das situações de combate iminente, onde ele receberá um bônus de +1 por
+    Nanismo é uma condição encontrada em todas as espécies. Um anão             parte de seus inimigos ou aliados. Ele deve ser considerado automaticamente
+neste caso não é a mesma coisa que um membro da raça dos Anões (apesar          como pelo menos 30 cm mais alto do que seus oponentes normais.
+de ser possível existir um Anão anão).
+                                                                                    Como os gigantes vivem em um mundo proporcionalmente menor, eles
+    A Força e Vitalidade de um anão são determinadas normalmente e muitos       têm uma série de pequenos problemas como roupas, cadeiras, etc., que
+deles são fortes para o tamanho que têm. No entanto, seu atributo Desloca-      simplesmente não lhes servem. No entanto, esta não é uma desvantagem
+mento está submetido a um redutor de -1, e saltam como se sua ST fosse 4        desastrosa.
+pontos menor.
+
+                                                                                Duro de Ouvido  -10 pontos
+
+Epilepsia             -30 pontos                                                    O personagem não é surdo, mas perdeu uma parte da audição. Ele estará
+                                                                                submetido a um redutor de - 4 em todos os testes de Audição e nos de perí-
+    O personagem está sujeito a crises, durante as quais seus membros ficam     cias com línguas (nas situações em que ele precisa entender o que alguém es-
+imobilizados e ele é incapaz de falar ou pensar claramente. (Esta é uma         ta dizendo). Isso significa que as jogadas acima serão feitas contra IQ-4. Es-
+doença grave.) Sempre que ele estiver numa situação de tensão (principal-       ta desvantagem não o afeta, quando é ele quem está falando.
+mente se sua vida, ou a de um companheiro, estiver em perigo), deverá fazer
+um teste de HT. Uma falha causará a crise que terá 1D minutos de duração.       Hemofilia       -30 pontos
+É desnecessário dizer que o personagem não é capaz de fazer nada durante
+a crise, além de receber 1D pontos de Fadiga. Se o personagem tiver algum           O personagem é um hemofílico. Um ferimento, por menor que seja, não
+tipo de fobia, a exposição ao objeto de sua fobia se constitui automaticamente  cicatrizará, a menos que seja enfaixado, e o personagem sangrará até morrer.
+em uma situação de tensão. Faça um teste de HT a cada 10 minutos.               Qualquer ferimento não tratado sangrará numa taxa igual ao número de
+                                                                                pontos de dano original por minuto. Exemplo: um ferimento que provoque a
+    É possível tentar induzir uma crise através da auto-hipnose. Isto exige um  perda de 3 pontos de vida não tratado provocará a perda de outros 3 pontos
+minuto e um sucesso em um teste de IQ. Uma crise em uma região com um           de vida depois do primeiro minuto e assim por diante até ser estancado. Um
+nível de alta intensidade de mana provocará visões as quais, dependendo da      hemofílico não pode ter uma HT básica maior do que 10.
+vontade do GM, poderão ser verdadeiras ou até mesmo proféticas.
+
+    Por não entenderem sua causa, raças primitivas podem ser atemorizadas           Primeiros Socorros serão satisfatórios para cuidar da maioria dos feri-
+por uma crise e achar que se trata de uma mensagem dos deuses. Faça um teste    mentos. No entanto, qualquer ferimento perfurante no tronco provocará uma
+de reação com um bônus de +1. Resultados muito bons significarão adoração       lenta hemorragia interna. Um ferimento deste tipo causará dano como
+enquanto resultados ruins farão com que os primitivo fujam — nunca que          explicado no parágrafo anterior, até ser tratado com Primeiros Socorros. Ele
+ataquem.                                                                        continuará a produzir um dano igual ao original uma vez por dia, até ser
+                                                                                tratado convenientemente. Somente um Cirurgião ou um curandeiro mágico/
+Eunuco                -5 pontos                                                 psíquico será capaz de curar este tipo de ferimento ou restaurar a HT perdida
+                                                                                devido à hemorragia interna. O personagem morrerá se não houver tratamen-
+O personagem (homens apenas) perdeu sua masculinidade através de um             to adequado à disposição.
+
+acidente ou de uma ação hostil. Ele estará imune à sedução e será incapaz de
+
+Desvantagens          - 28 -
+```

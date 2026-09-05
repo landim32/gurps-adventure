@@ -1,0 +1,57 @@
+Tabela de Distância de Arremesso
+Arredonde para baixo o peso do objeto e multiplique a distância encontrada na tabela pela Força do personagem. (Se você tiver a perícia Arremesso, adicione 1/6 de seu nível de habilidade à ST, antes da mutiliplicação.) O resultado será a distância, em metros, que o personagem é capaz de arremessar o objeto.
+
+Peso 500 g ou menos 750 g 1,0 kg 1,5 kg 2,0 kg 2,5 kg 3,75 kg 5,0 kg 7,5 kg 10,0 kg 12,5 kg 15,0 kg 20,0 kg 25,0 kg 30,0 kg 40,0 kg 50,0 kg 100,0 kg
+
+Distância (m) 3,5 3,0 2,5 1,9 1,5 1,2 1,0 0,8 0,7 0,6 0,5 0,4 0,3 0,25 0,2 0,15 0,1 0,05
+
+Um personagem não conseguirá lançar objetos muito leves, ou com um formato que os torne difíceis de arremessar, a uma distância tão grande quanto os objetos “normais”. O Mestre poderá permitir que isto aconteça, se o desejar.
+Esqueça esta fórmula se o objeto a ser lançado pesar mais do que 13 vezes a ST do personagem. Ele mal conseguirá carregar o objeto, quanto mais levantá-lo ou atirá-lo.
+Esta tabela assume que a gravidade é normal. Num lugar com gravidade igual à metade da nossa, tudo pesará a metade do que pesa aqui. Neste caso, o peso deve ser modificado da mesma maneira, para depois usar a tabela normalmente. Veja o GURPS Space para mais detalhes sobre diferentes forças de gravidade.
+
+Exemplos de Cálculo de Distância de Arremesso
+Suponha que sua Força é igual a 12 e você tem uma granada que pesa 1 kg. A distância para este peso é 2,5 m, que multiplicados pela sua Força (12) dão um resultado igual a 30, o que significa que você seria capaz de lançar a granada até uma distância igual a 30 metros.
+Suponha que sua ST seja 16 e você tenha um saco de farinha pesando 25 kg. A distância para 25 kg é 0,25 m; 16 x 0,25 = 4, logo, você seria capaz de arremessar aquele saco a uma distância de 4 m.
+Suponha que sua ST é igual a 14 e você está segurando um companheiro inconsciente que pesa 60 kg e precisa atravessar uma fenda com 2 m de largura. O maior valor menor do que 60 kg é 50 cuja distância na tabela é 0,1. 14 x 0,1 = 1,4 m. Se você tentar jogar seu amigo por sobre a fenda, ele acabará caindo dentro dela! Por isso, é melhor nem tentar. (Naturalmente o GM não permitirá que faça todos estes cálculos antes de decidir. Por isso tente fazer uma avaliação correta.)
+
+Testes de Habilidade
+
+Apanhar objetos em Combate: Um objeto leve é apanhado em combate com a manobra Preparar que dura um segundo. São necessários 2 segundos para apanhar um objeto pesado (peso em quilos maior do que a metade de sua ST).
+
+Arremessando Objetos
+Tudo que você for capaz de erguer, i.e., qualquer coisa com um peso menor ou igual a 13 x sua ST, pode ser arremessado. Para tentar atingir um alvo, faça um teste de DX (redutor de -3) ou de Arremesso (pág. 49). Faça um teste de DX ou Arremesso para lançar alguma coisa para dentro de uma área. O GM deveria permitir qualquer tentativa razoável de arremessar alguma coisa e só deverá parar para fazer cálculos quando for necessário uma resposta precisa. Mas neste caso...
+A distância a que você consegue arremessar um objeto depende de seu peso e de sua ST. Arredonde o peso para baixo. Consulte a tabela na coluna lateral e multiplique a distância dada pela sua ST. O resultado será a distância em metros.
+Se você tiver a perícia Arremesso, divida seu nível por 6 (arredonde para baixo) e some o resultado a sua ST para determinar quão distante você é capaz de arremessar um objeto. Isto se aplica somente à Perícia Arremesso em geral e não para Perícias com “Armas Arremessadas”.
+
+Arremessando Objetos em Combate Para arremessar um objeto durante um combate (seja para atacar, ou não) será necessário
+realizar a manobra Avançar e Atacar, depois de tê-lo apanhado, como descrito acima.
+
+O Dano Provocado por Objetos Arremessados Se você for atingido por um objeto rombudo arremessado, o dano que ele provocará
+dependerá de seu peso e da força com que foi arremessado. Esta tabela não leva em conta quinas afiadas e não deve ser usada para armas.
+
+ST 5-6 7-8
+9-10 11-12 13-14 15-16 17-18 19-20
+
+1/4 a 5 kg 1D-5 1D-4 1D-3 1D-2 1D-1 1D 1D+1 1D+2
+
+5+ a 25 kg 1D-4 1D-3 1D-2 1D-1 1D 1D+1 1D+2 2D-2
+
+25+ a 50 kg 1D-5 1D-3 1D-2 1D-1 1D 1D+2 2D-2 2D-1
+
+Mais de 50 kg -
+1D-3 1D-2 1D 1D+2 2D-1 2D
+
+Note que, principalmente para os valores mais baixos de ST, o fato de um projétil ser mais pesado não implica necessariamente num dano maior, já que ele não pode ser arremessado com muita força.
+Um projétil frágil (ou um personagem arremessado) sofrerá o mesmo dano que ele provoca. Determine o dano sofrido pelo objeto arremessado e pelo alvo em jogadas diferentes.
+O dano produzido por objetos que caem (por ex.: o matacão que você rolou contra seu inimigo) está descrito na página 131.
+
+Cavar
+O ritmo de escavação é determinado pela ST do escavador, a qualidade do seu equipamento e o tipo do solo. Um homem é capaz de cavar 0,053 x ST m3/h em solo normal com uma pá de ferro. Um homem com uma picareta de ferro é capaz de transformar 0,23 x ST m3/h de solo duro em terra fofa, que é mais fácil de remover. A maneira mais eficiente de cavar é um homem com uma picareta e dois outros com pás, tirando a terra.
+A velocidade com que se remove terra fofa (areia, etc...), usando uma pá é igual a 0,11 x ST m3/h.
+Terra dura, argila, etc... tem que ser escavada antes com uma picareta, trabalhando a meia velocidade, e depois retirada com uma pá a 0,11 x ST m3/h. Um homem trabalhando só, ora com a picareta, ora com a pá é capaz de remover 0,038 x ST m3/h (ele perde tempo na troca de ferramentas).
+Pedras duras têm que ser quebradas com uma picareta a 1/4 da velocidade (ou menos, se a pedra for muito dura) e removidas com pás na metade da velocidade.
+O trabalho com ferramentas de madeira (comuns em NT5 ou inferior) se desenvolve na
+
+- 90 -
+
+

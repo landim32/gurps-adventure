@@ -1,0 +1,34 @@
+Justa: Dano por Perfuração para ST entre 21 e 50
+
+Dano ST provocado 21,22 ....... 2D 23,24 ....... 2D+1 25,26 ....... 2D+2 27,28 ....... 3D-1 29,30 ....... 3D 31,32 ....... 3D+1 33,34 ....... 3D+2 35,36 ....... 4D-1
+
+Dano ST provocado 37,38 ........4D 39,40 ........ 4D+1 41,42 ........ 4D+2 43,44 ........5D-1 45,46 ........5D 47,48 ........ 5D+1 49,50 ........ 5D+2
+
+Uma lança de justa provoca um dano igual a GDP+3 tomando como base a ST do cavalo. Ex: Axehoof, o cavalo de batalha de Sir Actys, tem ST 45. Cavalo e cavaleiro provocam um dano igual a GDP+3 (ou 1D+2) com uma lança de justa, baseado em uma ST igual a 11 (1/4 da de Axehoof) quando arremetem a 5 ou menos hexágonos/s. Se a velocidade estiver entre 6 e 10 hex/s, o dano provocado será GDP+3, baseado em uma ST igual a 22 (metade da ST de Axehoof) ou seja 2D+3. Para velocidades acima de 11 hex/s, o dano provocado será GDP+3, baseado na Força total de Axehoof, ou seja 5D+3.
+
+Armas Disparadas de um Veículo em Movimento ou Howdah
+Use estes modificadores toda vez que uma arma for disparada de cima de uma plataforma em movimento, seja a arma de Tommy disparada de um carro em fuga, ou dardos de um dos elefantes de Haníbal. Todos os modificadores normais devido ao parâmetro velocidade/distância devem ser aplicados. É importante levar em conta a velocidade relativa aparente no caso de combates em veículos. Se dois carros estiverem se lançando um na direção do outro pela I-35, a velocidade relativa entre eles poderá ser maior que 200 km/h, mas a velocidade relativa aparente será quase zero.
+Ataque com arma de mão feito pelo condutor: - 4
+Ataque com arma de mão feito por passageiro: -2
+Trepidação do veículo: Um carro em uma boa estrada, ou um caça da segunda guerra: 0 Um avião da primeira guerra mundial: -1 Uma moto na estrada ou um elefante: -2 Um carro numa estrada ruim: -3 Carro, tanque ou camioneta fora da estrada: -4 Cavalo: Depende do NH em Cavalgar. V. pág. 137 Disparar através da fumaça, tinta, etc...: até -10
+
+Uma montaria pode desacelerar duas vezes mais rápido, se conseguir um sucesso em um teste de DX com um bônus de +2 e o cavaleiro conseguir um sucesso em um teste de Cavalgar com um redutor igual a -2.
+Mudança de Direção
+Um cavalo se deslocando a menos de 4 hexágonos por rodada deve se mover pelo menos um hexágono em linha reta depois de cada mudança de um lado de hexágono na direção. Um cavalo se deslocando a 4 ou mais hexágonos por rodada deve se mover pelo menos 2 hexágonos em linha reta depois de cada mudança de um lado de hexágono na direção do movimento, e assim por diante. V. Raio de Giração pág. 139.
+Manobras
+As manobras disponíveis para uma montaria são Deslocamento, Avançar e Atacar e Ataque Total. Os cavaleiros podem escolher qualquer manobra, mas não podem se Deslocar a não ser para deixar o cavalo.
+Susto
+O resultado usual de uma falha em um teste de Cavalgar durante um combate é um cavalo “assustado”. Quando um cavalo se encontra neste estado, ele refuga e corcoveia; o cavaleiro precisa fazer um teste de Cavalgar por segundo. Um sucesso decisivo acalmará o animal imediatamente; três sucessos consecutivos terão o mesmo resultado. Três falhas consecutivas ou uma falha crítica significarão a perda total de controle (veja a coluna lateral). Uma longa alternância de sucessos e fracassos significa que você passou seu tempo lutando com seu cavalo e não com o inimigo. (Felizmente, um cavalo corcoveando e seu cavaleiro impõem um redutor igual a -2 a quem tenta atingi-los, devido ao movimento imprevisível do animal).
+Normalmente, um cavalo de batalha pode ser comandado pela voz ou pela pressão do pé, deixando as duas mãos livres para o uso das armas. No entanto, todos os testes de Cavalgar terão um redutor igual a -3 para o caso “sem as mãos” e -1 se o cavaleiro tiver apenas uma das mãos segurando as rédeas. Cavaleiros que precisam das duas mãos para controlar a montaria podem vir a largar o que estão segurando. É necessário um sucesso em um teste de DX com um redutor de -3, para ser capaz de colocar a arma de volta na bainha enquanto o cavalo está corcoveando (uma tentativa por segundo). Uma falha crítica significa que a arma caiu.
+Armas de Cavalaria
+Um cavaleiro usa armas de mão com seu nível de habilidade com a arma ou seu nível de habilidade em Cavalgar, o que for menor. Ou seja, um cavaleiro treinado não sofre nenhuma penalidade por estar usando armas de mão sobre um cavalo.
+A perícia com a Lança de Justa está descrita na pág 51. Ela é capaz de perfurar facilmente a mais pesada das armaduras quando impelida com a força com que um cavalo de batalha investe. Uma lança de justa requer uma ST de no mínimo 12, exigindo um turno para ser preparada depois de um erro e 2 turnos para ser preparada depois de atingir o alvo. Pode-se usar uma lança com mais de 5 m para aumentar o alcance, mas para cada 30 cm a mais de lança o lanceiro recebe um redutor de -1 em seu nível de habilidade. Uma lança de justa pesa 1 kg a mais para cada 30 cm de comprimento acima dos 5m.
+A lança provoca um dano por perfuração igual a GDP+3, com base na ST e na velocidade do cavalo (veja a coluna lateral). Se o cavalo estiver se deslocando a menos do que 5 hexágonos por turno, ela provocará GDP+3 pontos de dano com base em 1/4 da ST do cavalo, arredondado para baixo. Se estiver se deslocando entre 6 e 10 hex/turno, o dano provocado pela lança estará baseado em ½ da ST do cavalo. Se ele estiver se deslocando a 11 ou mais hex/turno, o dano provocado pela lança estará baseado na ST do cavalo. O cavaleiro deve ter uma sela e estribos para poder usar uma lança de justa.
+Em um Torneio, as justas são disputadas com lanças rombudas de madeira, feitas especialmente para quebrarem se golpearem com muita força. Elas provocam um dano por contusão igual a GDP+3. Se o resultado obtido na jogada for maior do que 15, a lança se partirá provocando um dano igual a 15.
+Espadas, machados, lanças, etc..., podem ser usados por um cavaleiro para golpear. Se a velocidade da montaria com relação ao inimigo for maior ou igual a 6, imponha um redutor de -2 à jogada de ataque e um bônus de +2 no dano provocado. Um cavalariano está, efetivamente, 1 metro acima da infantaria (v. pág. 123).
+
+Combate Montado ou Sobre Veículo
+
+- 136 -
+
+

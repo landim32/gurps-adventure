@@ -1,0 +1,80 @@
+      Mapas desenhados pelos                           Mapas de Viagem
+         próprios jogadores
+                                                          Estes mapas podem ser desenhados em qualquer escala. Poderíamos citar, como exemplos,
+   Sempre que os jogadores entrarem em uma             mapas de continentes, estradas ou cidades. Eles devem ser usados somente como informação
+área para a qual eles não têm um mapa, seja ele        e não como “tabuleiro” de jogo. Numa aventura ambientada nos dias de hoje os jogadores terão
+um laboratório, um subterrâneo ou uma rede de          acesso a mapas de viagem. Em campanhas ambientadas no passado longínquo ou num futuro
+trilhas dentro da selva, eles tentarão desenhar        remoto, o mapa de viagem poderia ser um segredo do Mestre. (A obtenção de um mapa pode
+um mapa. (Isto é, se eles forem espertos.)             ser o objetivo de uma grande aventura).
+
+   No entanto, fazer um mapa não é uma tarefa          Mapa de uma Região
+tão simples. O Mestre nunca deveria dizer —
+“Vocês seguem 12 metros adiante e viram para              Eles são normalmente desenhados na seguinte escala: 1 polegada = 6 m ou 6 hexágonos por
+o norte. O túnel tem 2,10 m de altura e 2,70 m         polegada. Cada hexágono ainda representa 1 metro. Ele apenas está desenhado numa escala
+de largura. Ele segue na direção norte por 120 m       menor. Existe um mapa em branco nesta escala no folheto Personagens Instantâneos. Este tipo
+e depois se inclina para noroeste. Vinte metros        de escala pode ser usado para mapear edifícios inteiros, subterrâneos, arenas etc. Use uma
+adiante ele termina numa sala medindo 10x6m",          folha para cada andar ou nível, indicando a posição das escadas e poço de elevador. Designe
+a menos que o grupo carregue uma trena e gaste         cada aposento (ou outros pontos de interesse) com uma letra ou número para ser usado com
+um bom tempo usando-a. Este é o tipo de                uma legenda.
+informação que uma equipe de agrimensores
+conseguiria, mas não um grupo de pessoas atra-            Este mapa deve ser mantido em segredo, apesar de que os jogadores normalmente tentarão
+vessando um túnel.                                     fazer seus próprios mapas. O GM poderá usar uma peça para indicar em seu mapa onde o grupo
+                                                       está em um determinado momento.
+   Ao invés disso, o GM deveria fornecer-lhes
+informações do tipo “Vocês descem as escadas.          Mapas de Aposento
+O número de degraus é um pouco maior do que
+o existente em um lance de escadas normal. No             Estes mapas podem ser desenhados em qualquer escala que seja conveniente. Uma boa é:
+fim da escadaria existe um túnel, à direita. Ele       1 polegada = 2 metros que é a metade do tamanho dos mapas de combate. Eles são usados
+é largo o suficiente para duas pessoas andarem         quando o GM necessita esboçar um aposento com algum detalhamento, mas não deseja
+lado a lado e tão alto que é difícil tocar o teto com  desenhar um mapa de combate para o aposento.
+a espada”.
+                                                          A legenda do mapa deverá ter uma descrição para cada aposento com as seguintes
+   - “Qual o seu comprimento?”, pergunta um            informações:
+jogador”.
+                                                          (a) Seu tamanho (apesar de que isto poder ser obtido do mapa da região).
+   - “Alguém está medindo a distância em pas-             (b) Uma descrição geral do aposento.
+sos? Ok, mais ou menos 128 passos. Depois                 (c) Uma descrição das pessoas ou criaturas que se encontram dentro do aposento. Ela pode
+disso ele se inclina um pouco para a direita ...”      ser bastante simples: “Dois lobos” ou complexa: “Este aposento está sempre vazio com
+                                                       exceção do período compreendido entre a meia noite e as 9 horas da manhã, quando dois
+   - “Quanto?”                                         guardas se encontram ali. Existe uma chance em duas, de cada um deles estar dormindo. Eles
+   - “Vocês trouxeram um transferidor? Instru-         são personagens comuns da lista apresentada em algum outro lugar desta aventura, mas um
+mentos de agrimensura? Alguém tem Senso de             deles tem um anel de ouro que vale $ 200. Eles se renderão se atacados por um número de
+Direção? Não? Bom, imaginemos que ao chegar            pessoas maior do que dois para cada um deles, mas não cooperarão mesmo que ameaçados de
+à intersecção, o túnel pelo qual vocês vinham          morte”.
+caminhando aponta para as 6 horas, o novo túnel           (d) Algumas notas especiais sobre o aposento e uma descrição do que poderia ser
+parece dobrar para a direção entre 1 e 2 horas.        encontrado lá caso se procurasse com cuidado (se necessário).
+Entenderam? Ele segue em frente por mais 19               (e) Um mapa em escala maior do aposento para mostrar a localização precisa da mobília,
+ou 20 passos e termina numa sala grande. A             personagens, etc...
+entrada se encontra bem no meio da parede
+maior de uma sala aproximadamente retangu-             Mapas de Combate
+lar. De onde você está, ela deve ter 10 metros de
+comprimento por 6 ou 7 de largura.”                       O uso de mapas de combate não é necessário no Sistema Básico (apesar de serem úteis para
+   Muito diferente? Sim, mas também, muito             ajudar os jogadores a visualizar a ação). Eles devem ser usados no Sistema Avançado de
+mais realista. Os jogadores recebem apenas as          Combate.
+informações que eles conseguiriam com seus
+sentidos. No exemplo acima, o GM camuflou                 Os mapas de Combate são desenhados numa escala de 1 polegada = 1 metro. Quando os
+um pouco as distâncias assumindo que, quem             personagens entrarem em um aposento, um túnel, ou outra área qualquer onde pode ocorrer
+quer que estivesse fazendo a medida, tinha um          um combate, trace um mapa e faça os jogadores colocarem marcadores sobre ele para indicar
+passo um pouco menor do que 1 m. Se você atuar         exatamente onde eles estão. Se um combate irromper, ele será jogado no mapa.
+deste modo os jogadores inventarão maneiras
+engenhosas de medir as distâncias e o tempo.              Qualquer parte de hexágono será considerada como um hexágono inteiro. Isto permite uma
+Dê-lhes esta oportunidade.                             representação realista tanto de uma sala de formato hexagonal, quanto de uma caverna
+   É importante lembrar que, se fazer um mapa          irregular.
+é uma tarefa difícil em condições normais, ela é
+quase impossível se o grupo estiver com pressa.                        - 178 -
+Suponha que o grupo estivesse sendo persegui-
+do na região descrita acima. Neste caso o GM
+diria:
+   - “Vocês estão correndo? Ok. Parem de fazer
+o mapa. Eis para onde vocês vão. Descem as
+escadas, viram à direita, correm por alguns
+segundos e o túnel dobra para a direita. Correm
+um pouco mais e chegam a uma sala grande.”
+   E assim por diante. Quando o grupo parar de
+correr, eles poderão sentar e tentar lembrar qual
+foi o caminho que eles fizeram (naturalmente a
+Memória Eidética seria de muita valia neste
+caso).
+
+O Mestre
+

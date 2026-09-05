@@ -1,0 +1,45 @@
+Vantagens
+A Criação de um Aliado
+Um Aliado é criado do mesmo modo que um PC. Um Aliado NPC pode ter até 40 pontos em desvantagens ou uma única desvantagem de qualquer valor. O GM pode abrir exceções ocasionais a esta regra, como o faria para um PC.
+Aliados NPC devem pagar os pontos para ter o PC como um Aliado. Para um PC normal, com 100 pontos, o custo seria 5.
+Lembre-se, enquanto estiver escolhendo as vantagens e desvantagens para seu Aliado, que a maioria dos aliados tem uma história em comum com seus PCs. Soldados normalmente terão lutadores como aliados, ladrões terão outros tipos do submundo, sacerdotes terão clérigos ou cavaleiros virtuosos, etc. Um jogador precisará apresentar excelentes motivos, se ele quiser que seu PC tenha um Aliado com um passado totalmente diferente do seu.
+Nem o Aliado nem o PC podem receber pontos por desvantagens do tipo Senso de Dever ou Voto para com seu companheiro. O custo em pontos de um Aliado já leva esta ligação em conta.
+A Representação do Aliado pelo GM
+O Aliado é um NPC e deverá ser representado como tal. Apesar de os Aliados estarem normalmente de acordo com as propostas do PC, eles não são marionetes. Eles discordarão de seus amigos de quando em vez.
+
+Um Aliado pode tentar dissuadir um PC de um plano que lhe pareça insensato. Se ele não conseguir convencer seu amigo a abandonar o plano, poderá se recusar a cooperar. Um Aliado poderá eventualmente trazer problemas para seu PC, metendo-se em brigas, sendo preso, insultando um nobre... É claro que o Aliado tentará ajudar seu amigo quando ele se meter em encrencas similares.
+Um PC não deveria receber nenhum ponto de personagem como prêmio em uma sessão na qual ele traiu, atacou ou colocou seu Aliado NPC em perigo desnecessariamente. Se a traição for gritante, prolongada ou grave, a confiança existente entre o PC e seu Aliado deixará de existir. O Aliado estará perdido, mas os pontos não serão recuperados.
+Se, por outro lado, um Aliado morrer sem ser por culpa de seu amigo, o PC não deveria ser penalizado. Permita que ele crie um novo Aliado. Este relacionamento deverá se desenvolver gradualmente. Ninguém consegue um verdadeiro Aliado da noite para o dia.
+Como os aliados são NPCs, eles não recebem pontos automaticamente. No entanto, o GM pode decidir dar a eles alguns pontos a mais, depois de um período de tempo, conforme eles forem ganhando experiência. O GM, e não o jogador, deve decidir como estes pontos serão gastos. (Se o aliado aumenta seu número de pontos, por exemplo, de 100 para 101, o PC deverá pagar pelos pontos devidos por ter agora um Aliado mais poderoso.)
+
+Patronos
+Um patrono é um NPC, criado inicialmente pelo jogador mas controlado pelo GM. Um patrono pode ser de grande ajuda como amigo, conselheiro, protetor ou patrão. (Um personagem pode ter um emprego sem ter um patrono — veja Empregos, pág 192. Um patrono é mais do que um chefe comum.)
+O GM pode limitar ou proibir os Patronos se eles ameaçarem romper o equilíbrio de uma campanha.
+O custo em pontos de um Patrono é determinado: (a) por seu poder e (b) pela freqüência com que ele aparece para ajudá-lo. O poder é determinado pelo GM. As escalas abaixo são exemplos e alguns Patronos não se encaixarão facilmente nelas.
+Poder do Patrono
+Se o Patrono for um único indivíduo poderoso (criado com no mínimo 150 pontos) e/ou um grupo com bens disponíveis no mínimo 1000 vezes a quantidade inicial de recursos daquele mundo: 10 pontos.
+Se o Patrono for um indivíduo extremamente poderoso (criado com no mínimo 200 pontos) ou uma organização razoavelmente poderosa (bens disponíveis equivalentes a no mínimo 10.000 vezes a quantidade inicial de bens): 15 pontos. Exemplo: O departamento de Polícia de Los Angeles.
+Se o Patrono for uma organização muito poderosa (bens disponíveis equivalentes a no mínimo um milhão de vezes a quantidade inicial de recursos): 25 pontos. Exemplo: Uma grande corporação ou uma nação muito pequena.
+Se o Patrono for um governo nacional ou uma organização multinacional gigantesca (quantidade de bens incalculável): 30 pontos.
+Equipamento e Patronos
+Se o Patrono fornecer equipamento útil, seu valor em pontos crescerá somente se o personagem puder usar o equipamento para seus próprios fins, enquanto outros personagens na mesma campanha têm de comprálo. Em uma campanha no Illuminati, a Rede é um Patrono tão caro justamente por fornecer o equipamento de computação. Mas um soldado em uma campanha militar não paga pontos de personagem por suas armas. Se ele sair de licença, não poderá levá-las consigo.
+Na maioria dos casos, isto adiciona 5 pontos ao custo de um Patrono. Se o equipamento tiver um valor maior do que a quantidade inicial de
+
+recursos da campanha, o número de pontos adicionais será 10.
+Qualidades Especiais de um Patrono
+Os Mestres podem adaptar os valores em pontos se necessário. Exemplo: se o patrono de um jogador for uma criatura extra-dimensional com poderes demoníacos, ou alguém com super poderes ou o governador de Nova York, ele deveria custar 20 a 25 pontos pois, apesar de o Patrono ser um indivíduo, ele detém muito poder.
+Habilidades muito especiais deveriam adicionar 5 ou 10 pontos, de acordo com a vontade do GM. Alguns exemplos:
+O Patrono é capaz de usar magia em um mundo onde a magia não existe.
+O Patrono domina uma tecnologia muito superior à norma do mundo.
+O Patrono tem um alcance fora do comum no tempo ou no espaço.
+Freqüência de Participação do Patrono
+O custo em pontos de um Patrono é modificado pela freqüência com que ele aparece. Use os modificadores de Freqüência de Participação descritos anteriormente para os Aliados.
+O GM faz uma jogada no início de cada aventura. Se o resultado estiver dentro do âmbito do Patrono, o GM poderá replanejar a aventura para incluir uma atribuição, ou apenas uma ajuda, do Patrono. Ele pode também preferir deixá-lo de fora. No entanto, se o GM tiver determinado que o Patrono poderá aparecer e você tentar entrar em contato com ele durante a aventura (à procura de ajuda, conselho ou outra coisa qualquer), é provável que o contato seja bem sucedido e a ajuda poderá ser oferecida. (Seja razoável. Se você estiver trancado em uma masmorra sem um rádio ou outro meio qualquer de comunicação, não haverá muita chance de entrar em contato com ninguém). Você não saberá se seu Patrono está “disponível” em uma determinada aventura até tentar entrar em contato com ele e, como regra, você só deveria ser capaz de entrar em contato com seu Patrono em busca de auxílio uma vez em cada aventura.
+Alguns relacionamentos possíveis entre Patrono e Personagem em uma campanha contínua:
+Um poderoso feiticeiro como Patrono de guerreiros (ou jovens feiticeiros) que ele envia à procura de objetos encantados ou para matar inimigos.
+
+Vantagens
+
+- 24 -
+
+

@@ -1,0 +1,28 @@
+Caracterização do Personagem
+A criação de um personagem começa com quatro atributos básicos - Força, Destreza, Inteligência e Vitalidade. Estes quatro atributos básicos são muito importantes, apesar de bastante “genéricos”, e serão explicados na próxima página.
+Muitas outras coisas fazem de seu personagem um indivíduo: Aparência Física, Riqueza e Status, Vantagens, Desvantagens e Perícias. A ordem em que você as definirá não tem importância. Comece com aquela que considerar mais importante e trabalhe a partir daí. Perícias e Vantagens custam pontos. Desvantagens, se você se decidir a assumir alguma delas, renderão alguns pontos extra que poderão ser usados em algum outro lugar. A Aparência Física não afeta seu total de pontos, a menos que ela seja particularmente boa ou ruim. É apenas uma questão de se decidir sobre qual é a aparência que deseja para seu personagem.
+Na próxima página encontraremos a Planilha de um personagem, que usaremos para exemplificar a criação de personagens. Cada campo do formulário tem uma indicação do capítulo que explica sua função.
+Há uma coisa que deve ser entendida antes de continuarmos. Este processo de criação de personagens foi projetado para fornecer como resultado indivíduos equilibrados, com virtudes e fraquezas que mais ou menos se contrabalançam. Na vida real, no entanto, ter muita força não significa necessariamente que se tenha de abrir mão de alguma outra coisa. E, ser fraco fisicamente (como no caso de Dai Blackthorn. V. pág. 214), não significa que você será automaticamente bom em alguma outra coisa.
+Um sistema totalmente realista, seria aquele no qual a força de um personagem, por exemplo, fosse determinada aleatoriamente (sem nenhuma relação com qualquer outra coisa)... e assim por diante com todas as outras características e facetas de sua personalidade. Na verdade, um sistema deste tipo será exposto mais adiante, neste conjunto de regras. (V. Personagens Aleatórios na pág. 84.)
+No entanto, pode acontecer destas escolhas aleatórias não serem satisfatórias para a definição de seu personagem. A sorte nos dados pode lhe trazer tanto um superhomem, quanto um fracote chato e apalermado. Você evita gente deste tipo na vida real; por que haveria de se tornar um, mesmo que por um instante, em um jogo?
+O sistema GURPS é balanceado. Todos os personagens de 100 pontos nascem “equivalentes”, apesar de diferentes. Você pode escolher o tipo de personagem que desejar, deixando espaço para seu crescimento e aperfeiçoamento.
+
+Níveis Iniciais de Pontos
+Em geral, quando criamos um personagem, começamos com um número determinado de pontos que podem ser usados para dar-lhe perícias e habilidades específicas. Sugerimos, para a maioria das campanhas,que os personagens sejam criados com 100 pontos iniciais. O objetivo disto é permitir que eles sejam indivíduos acima da média humana... o estofo de que são feitos os heróis.
+Com 100 pontos eles podem ter um número interessante de perícias, sem serem poderosos o suficiente para vencerem seus oponentes sem esforço.
+Se você faz questão de começar com um personagem igual à “média” das pessoas pegue 25 pontos e vá em frente... mas, lembre-se que pessoas normais costumam morrer rapidamente em situações perigosas.
+Vemos abaixo, uma tabela com o total de pontos para diversos tipos de pessoas, que pode servir como um guia para a criação de NPCs ou para GMs que desejem produzir algum tipo diferente de jogo:
+Abaixo da média ............... 15 pontos ou menos Média ............................................. 25 pontos Acima da média ............................... 50 pontos Experiente ....................................... 75 pontos Herói ............................................. 100 pontos Herói pleno .................................... 150 pontos Alguém muito especial ................... 200 pontos Super-humano ................... 300 pontos ou mais
+Adaptações para Universos Específicos e
+Personagens Não-Humanos
+A informação para criação de personagens aqui existente é genérica. Na maioria dos casos, ela se aplica a qualquer personagem em qualquer lugar, apesar de nem todas as perícias existirem em todos os ambientes de jogo. Cada mundo em particular tem perícias específicas para serem adquiridas, vantagens próprias para personagens nascidos ali, etc. Se o seu ambiente de jogo estiver descrito em algum suplemento para o GURPS, toda esta informação estará contida nele. Se você estiver inventando seu próprio mundo, reflita sobre as coisas que tornam seus habitantes diferentes.
+Outras raças, isto é, personagens não-humanos, também podem ser criados. Aqui incluir-se-iam os elfos, ogros, anões, etc... (descritos em nossos suplementos para mundos de fantasia), seres alienígenas de seu livro de ficção científica favorito, ou qualquer outra criatura que você seja capaz de imaginar.
+A maioria dos personagens não-humanos é “construída” da mesma maneira que os humanos, com modificações que refletem as características específicas de sua raça. Vejamos, como exemplo:
+Elfos Para criar um personagem que é um elfo,
+devemos adicionar um ponto aos atributos DX e IQ e subtrarir um ponto do atributo ST. Um elfo pesa cerca de 7 kg a menos que a média dos seres humanos. Todos os elfos têm, automaticamente, a vantagem de Reflexos em Combate e um nível de Aptidão Mágica. O custo, em pontos, para ser um elfo é 40.
+
+- 11 -
+
+Criação de um Personagem
+
+

@@ -1,0 +1,79 @@
+Metaideomorfose
+
+Pré-requisito: Recepção e Transmissão
+
+Telepática com NH 12+
+
+Esta é a habilidade em alterar ou suprimir partes da, ou toda a, memória de um objetivo. Para
+
+usar esta perícia é preciso primeiro fazer contato com o objetivo usando a Percepção Telepática
+
+e passar por suas barreiras, se houver. Depois, tente sua perícia Metaideomorfose (uma vez por
+
+hora para processos longos). Uma falha numa jogada de teste alertará o objetivo de que sua mente
+
+está sendo adulterada. Se você conseguir vários sucessos e depois falhar, o objetivo perderá a
+
+memória, mas ela voltará em 3D dias.
+
+O tempo necessário para fazer (ou desfazer) uma alteração na memória, ou descobrir traços
+
+de uma mudança na mente do objetivo varia conforme a complexidade da alteração. Quanto mais
+
+sutil a mudança, mais difícil será fazê-la, desfazê-la ou descobrir que ela foi feita:
+
+Suprimir toda a memória do objetivo (transformando-o num idiota balbuciante): 2 horas. Eliminar toda a memória do objetivo permanentemente: 1 hora. Suprimir uma grande quantidade de lembranças (ex.: várias semanas): 3 horas. Substituir uma grande quantidade de memória por lembranças falsas: 5 horas. Suprimir uma lembrança: 1 hora (10 minutos para a lembrança de um fato ocorrido nas últimas 24 horas). Modificar uma lembrança: 2 horas (20 minutos para a lembrança de um fato ocorrido nas últimas 24 horas). Implantar uma compulsão (uma ordem que o objetivo terá que obedecer num momento apropriado): 4 horas.
+
+A Detecção de Metaideomorfose
+A eliminação total da memória é óbvia. É possível detectar adulterações menores quando se está em contato mental com a vítima. Faça um teste de Metaideomorfose, ou Recepção Telepática com redutor de -5 se você não tiver a perícia Metaideomorfose. Você só terá direito a um teste “passivo” (a primeira vez que contatar a pessoa depois que a adulteração aconteceu). Haverá um redutor de -2 no caso de estar tentando detectar uma compulsão e de -4 para descobrir que uma lembrança foi modificada. Haverá um redutor adicional de -1 para cada semana que se passar depois da operação, até um máximo de 6 semanas.
+Se você estiver deliberadamente procurando por uma alteração mental e tiver falhado no teste “passivo”, será necessário fazer contato usando a Recepção Telepática e depois a jogada de teste descrita acima. Esta operação leva uma hora e qualquer verificação adicional dentro de um dia será um “esforço repetido”.
+
+Anulação de uma Metaideomorfose
+Qualquer alteração da memória, exceto uma Metaideomorfose permanente, pode ser desfeita. Para esta operação será necessário um número de semanas igual ao número de horas utilizadas para fazer a alteração original. O psi que estiver tentando reconstruir a memória deverá fazer um teste de Metaideomorfose por dia. Uma falha significa que aquele dia de trabalho foi infrutífero e não deverá ser contado, e uma falha crítica significa que o processo deverá ser recomeçado. Um sucesso decisivo conta como uma semana inteira de sucessos. Um psi terá um bônus de +4 para desfazer seu próprio trabalho.
+
+O Uso do Psiquismo Contra Outras Perícias
+As perícias psíquicas podem ser usadas de muitas maneiras criativas. Em geral, o GM deveria permitir que um sucesso em um teste de psi implicasse em um bônus em um teste de habilidade apropriado. O que é “apropriado”, é deixado por conta da criatividade dos jogadores; como sempre, o GM tem a palavra final.
+Em geral, o teste de psi deve ser tentado antes. Se ele for um sucesso, a meta original ficará mais fácil. Uma falha não afeta o objetivo, mas uma falha crítica implicará em um redutor igual ao bônus que seria ganho. Alguns exemplos:
+Um sucesso em um teste de Telecinese dá um bônus de +4 em um teste de Arrombamento com qualquer tipo de fechadura com tambor ou combinação.
+Um sucesso em um teste de Clarividência também dá um bônus de +4 (desta vez por ver os tambores). Se o arrombador tiver conseguido um sucesso nas duas jogadas, receberá os 2 bônus. Um ladrão com poderes psíquicos seria respeitável...
+Ler a mente de um inimigo deveria valer um bônus de +2, ou mais, em um teste de Estratégia (quanto mais astucioso for o plano, maior o bônus).
+A Levitação poderia dar um bônus de +2 em qualquer teste de Acrobacia (se você quiser esconder seu poder), ou +6 (se você não se importar que saibam de seus poderes).
+E assim por diante.
+
+Telecontrole
+
+Pré-requisito: Recepção e Transmissão
+
+Telepática com NH 15+
+
+Esta é a habilidade em assumir o controle da mente da vítima e operá-la à distância como a
+
+um marionete. Esta operação exige muita concentração: um psi terá um redutor igual a -4 se
+
+estiver usando Telecontrole enquanto faz alguma outra coisa. É possível controlar mais de uma
+
+vítima por vez. Há um redutor extra de -4 para cada nova pessoa, e os marionetes terão uma fala
+
+indistinta e sua DX diminuída em 4 pontos.
+
+Para usar esta perícia é necessário fazer contato com a vítima, usando antes a Recepção
+
+Telepática e atravessando as barreiras que ela apresente, para depois fazer seu teste de
+
+Telecontrole. Um sucesso colocará a vítima sob seu controle e você será capaz de usar todas as
+
+perícias físicas e psíquicas que ela tiver, mas não terá acesso à sua memória. Uma falha alertará
+
+a vítima de sua tentativa; ela sentirá sua presença na mente dela.
+
+Depois de estabelecido, o Telecontrole pode ser mantido indefinidamente desde que você se
+
+concentre. Quando ele terminar, a vítima não se lembrará de nada. Depois que tiver controlado
+
+uma vítima uma vez, você terá um bônus de +2 em qualquer tentativa futura com a mesma vítima.
+
+- 171 -
+
+Psiquismo
+
+

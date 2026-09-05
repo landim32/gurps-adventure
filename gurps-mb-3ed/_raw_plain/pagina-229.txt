@@ -1,0 +1,41 @@
+147 Não! É uma COISA HORRÍVEL! E ela tocou em você, que entrou em pânico e soltou um grito. Você corre cegamente para a saída e vai de encontro ao batente da porta. Vá para 141.
+148 Você sai correndo pela porta da frente e entra numa viela, diminuindo a marcha para uma caminhada quando encontra uma outra rua. Você cumprimenta o guarda ainda grogue, quando passa pelos portões fortificados do bairro em direção a sua modesta habitação
+Vá para 27.
+149 Você passa pela porta, entra num quarto e vê um homem imenso, com uns 2 m de altura, e a barba por fazer, dormindo em uma esteira. Ele está vestido apenas com uma tanga e ronca alto. No chão a seu lado, há uma cimitarra.
+Vá para 132, se você deseja procurar alguma coisa de valor aqui. Vá para 86, se deseja tentar roubar a espada. Vá para 160, se você preferir atacar o vigia. Vá para 59, se você quer sair do quarto.
+150 Estes papéis estão misturados; antigas cartas de amor, o pedigree de um canário, uma coleção de poemas satíricos, um diploma de bom cidadão, etc... Algumas destas coisas poderiam ser embaraçosas para seu proprietário, mas nenhuma delas parece ter importância. Você pode levá-las, se desejar. Elas pesam aproximadamente 3,5 kg.
+Se você ainda não abriu a bolsa e deseja fazê-lo, desvie para o parágrafo 69. Caso contrário, deixe-a e volte para 16.
+151 Você diz a Fatso “Diga-lhe para se afastar da porta!”. Faça um teste de Reação. Esta é uma situação de Combate Iminente e nestas circunstâncias todos os seus modificadores de reação devem ser aplicados. Você pode inclusive usar sua Diplomacia (veja pág. 63), se a possuir.
+Joque 3 dados e adicione ou subtraia os modificadores de reação, existentes debaixo do desenho de seu personagem em sua Planilha, e depois consulte a Tabela de Reações na seção Quadros e Tabelas.
+Se a reação resultante for Neutra ou melhor (maior ou igual a 10), vá para 96.
+Se ela for Fraca (7 a 9), vá para 50. Se ela for Ruim ou pior (abaixo de 6), vá para 135.
+152 O vigia não acreditou em uma só palavra do que você disse. Desvie para 76, se ele estava prestes a atacá-lo ou para 146, se ele já tinha segurado seu pulso.
+153 Você entra novamente na cozinha com todo o cuidado. O vigia se foi, apesar de cismado. Todos os seus testes de Furtividade durante o resto da aventura estarão submetidos a um redutor igual a -2. (Isto é cumulativo e deve ser adicionado a qualquer outra penalidade que você já tenha ou venha a ter.)
+Vá para 128.
+154 Este parece ser o lugar onde o dono da casa coloca tudo aquilo que ele não quer mais. Faça um teste de IQ. Vá para 103 em caso de sucesso, ou para 57 em caso de falha.
+155 Obviamente este não é um homem rico. Se ele tem qualquer coisa de valor além da cimitarra, você não foi capaz de achá-la.
+Volte para 149 e faça uma outra escolha.
+
+156 Você decide contar uma história para o vigia: Que apesar de ser um campeão de arremesso de punhal de classe internacional, tem sete filhos morrendo de fome, ou qualquer outra coisa que lhe venha a mente.
+Faça um Disputa de Habilidades. O vigia joga contra seu IQ que é igual a 10. Você pode jogar contra sua Lábia ou seu Sex-appeal (se for uma mulher). Se não tiver nenhuma destas perícias, deverá usar IQ-5 como o valor pré-definido para a Lábia ou HT-3 para o Sex-Appeal. Você tem apenas uma chance! (Jogue uma segunda vez em caso de empate).
+Se for bem-sucedido, você terá convencido o guarda a deixá-lo. Neste caso, vá para 4.
+Em caso de falha, o guarda rirá de você. Vá para 152. Veja a pág. 63 para maiores informações sobre Lábia e a pág. 64 sobre Sex-appeal.
+157 Você está num grande salão, e o vigia vem no seu encalço. Não há tempo para estudar o ambiente. Vá para 161, se tiver Senso de Direção. Se não, você pode entrar em um pequeno aposento ao lado (vá para 109), ou correr para a despensa (vá para 58), ou pode passar pela porta que fica defronte ao quarto do vigia (vá para 133).
+158 Você tenta alcançar a tampa da panela. Faça um teste de IQ. Em caso de sucesso, você terá se lembrado de proteger a mão com uma toalha. Neste caso, você deve ir para 168.
+No caso de falha, você se esqueceu de cobrir a mão e deve ir para 92.
+159 Você está dentro de uma despensa. Existem prateleiras e prateleiras de mercadorias aqui. Faça um teste de Visão (IQ mais Visão Aguçada e Prontidão, se você as tiver).
+Vá para 98, em caso de sucesso. No caso de fracasso, você não terá encontrado nada de valor e deverá voltar ao vestíbulo para continuar sua busca em outro lugar. Vá para 111.
+160 Atacar uma pessoa deste tamanho, mesmo estando adormecida é arriscado. Se você sofre de Excesso de Confiança, esta seria a atitude adequada para o personagem. Caso contrário, você pode pensar de novo.
+Se você deseja reconsiderar, volte para 149. Se deseja matar o gigante (será necessário uma arma), vá para 15. Se preferir tentar nocautear o gigante, vá para 83.
+161 Você é capaz de perceber que a porta que se opõe ao quarto do vigia dá para a rua. Vá para 133, se você quiser sair agora. Caso contrário, volte para 157.
+162 Você conseguiu agarrar o braço de Fatso antes que ele alcançasse o cordão do sino, e ainda está com o punhal em seu pescoço. Você tem três opções :
+(a) Cortar o pescoço de Fatso, vá para 112; (b) Ameaçar cortar-lhe o pescoço, para obrigá-lo a contar onde escondeu o dinheiro — siga para 7, ou (c) Fugir — vá para 22.
+163 Você nota algo estranho quando olha embaixo da cama de Fatso. Batendo com o nó dos dedos no tapete perto da cama, você descobre uma região ôca. Levantando o tapete, encontra um alçapão.
+Faça um teste de Mecânica (NH pré-definido como IQ-5) ou Armadilhas (NH pré-definido como IQ-5, DX-5 ou Arrombamento-3).
+Vá para 39 em caso de sucesso, ou 136 se não for bem sucedido. No caso de uma “falha crítica” (um resultado igual a 17 ou 18; ou ainda, um resultado no mínimo 10 pontos superior ao maior resultado que garante o sucesso), vá para 31. As Falhas Críticas estão explicadas na pág. 86.
+
+- 229 -
+
+Uma Noite de Trabalho
+
+

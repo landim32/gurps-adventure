@@ -1,0 +1,75 @@
+Espionando o Acampamento dos Bandoleiros                                                                    O Acampamento
+
+    O acampamento dos bandoleiros (veja a coluna lateral) está a mais ou menos 1 km a                        dos Bandoleiros
+nordeste da ponte. Se os personagens quiserem procurar por ele por conta própria, faça com
+que eles especifiquem onde eles estão procurando. Um sucesso em um teste de Rastreamento             Use esta informação se os PCs quiserem
+com um redutor igual a -5 (caçadores, mas à noite) revelará uma trilha, construída por seres      explorar o acampamento. Eles poderão até ata-
+humanos, saindo do riacho na direção nordeste. Se o personagem especificar que ele está           car, se forem imprudentes. Caso eles propo-
+usando sua Furtividade para evitar ser visto, e for bem sucedido, ele conseguirá se aproximar     nham uma tática inteligente que aumente a
+do acampamento. Caso contrário, ele será visto por um sentinela. Se ele conseguir derrotar o      chance de sucesso, deixe-os tentar, mas obri-
+sentinela (Guerreiro I) em 30 segundos, e obtiver um sucesso em um teste de Furtividade,          gue-os a fazer todos os testes de habilidade que
+conseguirá se afastar. Caso contrário, ele será apanhado, seus bens lhe serão tomados e ele será  forem necessários.
+mantido prisioneiro até a troca ser feita.
+                                                                                                     O bando é composto por 42 salteadores, mas
+    Depois que o acampamento dos bandoleiros for localizado, os PCs não precisarão se             no momento em que os PCs chegaram, 10 deles
+manter na trilha que seu batedor descobriu. Eles poderão tentar se esgueirar por onde os          estavam montando guarda em pontos afastados
+sentinelas não os verão. Será necessário um sucesso em um teste de Furtividade, com um            e 13 dormindo. Isto os deixa com Karhan (o
+bônus igual a +3, para conseguir fazê-lo sem ser visto e capturado.                               líder) e mais 18 bandoleiros no acampamento.
+                                                                                                  Destes, 6 são Guerreiros I, 6 são Guerreiros II
+    Se eles tiverem um bom plano, deixe-os tentar executá-lo. Se não tiverem, deixe-os fazer      e os restantes são Guerreiros III. Todos têm
+um teste de Estratégia ou Tática e, no caso de serem bem sucedidos dê-lhes um plano. Um           armas de acordo com suas perícias. Escolha-os
+plano possível: Construam duas pilhas de galhos na colina; deixem velas acesas no meio de         aleatoriamente, a menos que alguma coisa em
+cada um deles para servir como pavios. Vão para o outro lado do acampamento, e estejam            contrário seja especificada.
+prontos para entrar quandos as fogueiras se acenderem e chamarem a atenção dos salteadores.
+Este plano deveria tirar pelo menos 5 salteadores (incluindo o chefe) do acampamento. Veja           A tenda de Kira está no centro do acampa-
+maiores detalhes sobre o acampamento na coluna lateral.                                           mento, de frente para uma fogueira. Dois salte-
+                                                                                                  adores (um Guerreiro I e outro II), estão guar-
+12. A Troca                                                                                       dando a tenda de Kira, um na frente e outro
+                                                                                                  atrás. Dois outros circulam pelo perímetro do
+    Se os personagens encontrarem os salteadores na ponte ao amanhecer, o chefe do bando          acampamento.
+terá Kira com ele. Ela estará bem, apesar de ferida e furiosa. Um sucesso em um teste de Visão
+ou Noção do Perigo revelará vários bandoleiros (na verdade 8) escondidos nas vizinhanças.            Os outros 15 membros do bando estão reu-
+Neste ponto, os personagens têm 3 opções:                                                         nidos em volta da fogueira, cozinhando uma
+                                                                                                  refeição e cantando. Karhan, o chefe, estará
+    1. Eles podem atacar os bandoleiros. Todos os que tiverem a vantagem do Bom Senso ou          entre eles. Existem oito tendas formando um
+perícia em Estratégia ou Tática deveriam fazer uma jogada. Em caso de sucesso, aluda ao fato      círculo em volta da fogueira e da tenda de Kira.
+de eles estarem em território inimigo e provavelmente em menor número. Se eles lutarem assim      Os PCs ouvirão roncos na tenda exatamente
+mesmo, continue representando. Haverá um Guerreiro I com uma espada em cada esconderijo           atrás da tenda de Kira;há dois homens lá. (Se
+e dois Guerreiros III com arco e flecha prontos, na ruína. Se os personagens vencerem, eles       os PCs verificarem as tendas ou os guardas
+apanharão Kira e tudo o que os bandoleiros tiverem com eles. Em caso de derrota, eles             forem alertados, há dois homens em cada uma
+morrerão.                                                                                         das tendas próximas à de Kira.)
+
+    Se os PCs fugirem, os bandoleiros os perseguirão. Trate esta perseguição como a dos falsos       Todos os salteadores têm sono leve. Se acon-
+coletores de impostos. Todos os bandoleiros têm nível de habilidade variando entre 16 e 21 em     tecer alguma coisa que os acorde, espere 10
+Cavalgar (1D+15) e lutarão até a morte, se conseguirem alcançar os PCs.                           segundos e comece a fazer testes de IQ para
+                                                                                                  cada um dos bandidos. Um sucesso significa
+    2. Eles podem tentar enganar os bandoleiros com um resgate falso. Se eles o fizerem, será     que, quatro segundos mais tarde, aquele ban-
+melhor terem uma boa falsificação pois o chefe do bando contará o dinheiro para ter certeza       doleiro sairá da tenda, de arma na mão, à pro-
+de que há $ 50.000 lá. O GM fará uma jogada para verificar o que acontece. A jogada exata         cura de encrenca.
+dependerá do que os personagem tentaram e de quão inteligente a idéia era. Se perceberem a
+fraude, eles atacarão. Veja o parágrafo acima. Se eles aceitarem o dinheiro falso, libertarão        Os cavalos do bando estão amarrados ao
+Kira.                                                                                             norte do acampamento e existem dois homens
+                                                                                                  de guarda ali, junto a uma pequena fogueira.
+    3. Eles podem concordar em entregar o resgate. O chefe do bando lhes diz para encontrá-       Os dois são Guerreiros III armados com espa-
+lo na ponte dentro de uma semana. Quando eles voltarem para contar a Halmaro o que                das e arcos. Eles estão lá principalemente para
+descobriram, ele enviará Tsorvano com uma dúzia de guardas escolhidos. Tsorvano terá              defender os cavalos dos lobos. Eles serão ouvi-
+$50.000 em um cofre trancado em seu alforje. Os PCs não deveriam nem pensar em tentar             dos no acampamento se gritarem por socorro,
+roubar o dinheiro do resgate. Tsorvano é muito cauteloso. Na viagem de volta eles encontram       mas a distância é de 200 m.
+os verdadeiros coletores de impostos (indo nas duas direções) e não os falsos. Fora isso as
+viagens serão tranqüilas.                                                                            Há pelo menos 50 cavalos lá; todos pôneis
+
+    O chefe dos bandidos os encontrará na ponte conforme o combinado. Uma vez que ele             de andar seguro e rápido, valendo $ 1.500 cada.
+esteja satisfeito com o pagamento, ele cortará as cordas em torno dos pulsos de Kira, jogará
+a espada e a faca dela a seu lado e partirá. Nem Karhan, nem Tsorvano começará uma luta; os
+dois lados estão muito equilibrados. Se algum dos PCs fizer alguma coisa que alarme Karhan,
+ele mergulhará por baixo do parapeito da ponte. Este é um sinal para os bandoleiros atacarem.
+Veja o parágrafo número 1 acima. (GMs: se vocês não desejam iniciar uma batalha, deixem
+Karhan rir da ameaça. Se vocês desejarem uma grande luta, vocês provavelmente deveriam
+usar o Sistema Básico de Combate para fazer com que ela fosse rápida.)
+
+    Se o batalhão de Tsorvano vencer, eles voltarão com Kira e não serão perseguidos. Se eles
+forem derrotados, os bandidos provavelmente os chacinarão e desaparecerão com o dinheiro,
+terminando a aventura.
+
+- 243 -                                                                                           Caravana para Ein Arris
+

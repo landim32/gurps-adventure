@@ -1,0 +1,31 @@
+# Glossário, Índice Remissivo e Nota da Edição Brasileira
+
+*(Livro, págs. 250-257 — resumo parafraseado e condensado)*
+
+## Glossário (págs. 250-251)
+
+O livro fecha com um glossário de termos técnicos do sistema, cada um remetendo à página onde é explicado em detalhe (há também glossários específicos para Magia, na pág. 148, e Psiquismo, na pág. 168). Por serem definições curtas e factuais, o resumo abaixo as reagrupa por tema em vez de listá-las em ordem alfabética como no original.
+
+**Estrutura de jogo:** *Roleplaying Game* é o jogo em que cada participante interpreta um personagem fictício; uma *Campanha* é uma série contínua de *Aventuras* com o mesmo elenco e normalmente o mesmo Mestre; um *Cenário* é o mundo/época onde tudo se passa; um *Encontro* é uma cena isolada dentro de uma aventura. *Aventura Solo* (ou *Aventura Programada*) é aquela jogada sozinho a partir de parágrafos numerados, sem precisar de Mestre — como "Uma Noite de Trabalho".
+
+**Papéis à mesa:** o *Mestre (GM)* arbitra o jogo e distribui pontos; um *Adversário* é um segundo Mestre auxiliar que controla os inimigos sem ter acesso a informações privilegiadas sobre os PCs; *NPC* (ou *Figurante*) é qualquer personagem controlado pelo Mestre, e *PC* é um personagem de jogador; um *Empregado* é um NPC contratado pelo grupo, mas que continua sendo controlado pelo GM.
+
+**O personagem:** os quatro *Atributos* básicos são Força (ST), Destreza (DX), Inteligência (IQ) e Vitalidade (HT), sendo 10 a "média humana"; *Vantagens* e *Desvantagens* são traços inatos (ou adquiridos durante o jogo) que custam ou rendem pontos; uma *Peculiaridade* é uma mini-desvantagem de sabor, valendo só 1 ponto; *Patrono*, *Dependente* e *Inimigo* são NPCs ligados ao personagem por vantagem/desvantagem correspondente; *Nível de Habilidade (NH)* mede a competência numa perícia, com um *Nível Pré-definido* servindo de substituto quando a perícia não foi aprendida; um *Pré-requisito* é a perícia/mágica prévia exigida (normalmente em NH≥12) para aprender algo novo; *Pontos de Personagem* compram tudo isso na criação e são ganhos como prêmio durante o jogo, podendo ser usados depois para *Recomprar* uma desvantagem.
+
+**Resolução de ações:** um *Teste de Habilidade* é a rolagem de 3D contra o NH; uma *Disputa de Habilidade* opõe dois personagens no mesmo tipo de teste; um *Sucesso Decisivo* e uma *Falha Crítica* são os extremos de sorte num teste (bom ou desastroso); um *Teste de Sentido* verifica percepção (visão, audição etc.) e um *Teste de Vontade* mede força de vontade mental; um *Teste de Influência* verifica se alguém se deixa persuadir por perícias sociais; um *Teste de Reação* (com seu *Modificador de Reação*) define como um NPC reage a uma proposta; um *Modificador* genérico é qualquer bônus/penalidade aplicado a um teste.
+
+**Combate:** *Iniciativa* decide quem age primeiro; uma *Manobra* é a ação escolhida num turno; *Jogada de Ataque* e *Jogada de Defesa* resolvem se um golpe acerta e se é evitado; as *Defesas Ativas* (Esquiva, Aparar, Bloqueio) exigem uma ação específica, enquanto a *Defesa Passiva* (de uma armadura) protege sem esforço — e não deve ser confundida com *Resistência a Dano (RD)*, que reduz o dano de um golpe já sofrido; *Golpe Fulminante* e *Erro Crítico* são os extremos de sorte num ataque; *Atordoamento* e *Incapacitar* descrevem efeitos de ferimentos graves; *Combate de Perto* é o combate corpo a corpo dentro do mesmo hexágono; *Alcance*, *Arma de Mão* e *Arma de Longo Alcance* distinguem os tipos de arma pelo modo de uso; *Quantidade de Dano* e *Tipo de Dano* descrevem a lesão causada, calculada numa *Avaliação de Dano*; *Verificação do Moral* é um teste de reação para ver se NPCs continuam lutando.
+
+**Cenário e mundo:** *Hex* é a unidade espacial dos mapas de combate (1 metro); *Mapa de Área Interna*/*Mapa de Combate* são os tabuleiros táticos; *NT (Nível Tecnológico)* mede o desenvolvimento de uma cultura, de 0 a patamares de ficção científica; *Deslocamento* e *Velocidade* medem quão rápido um personagem se move, e *Carga* é o peso total carregado, que os reduz; *Tempo de Jogo* e *Tempo Real* distinguem o relógio do mundo fictício do relógio da mesa de jogo; *Suplemento* e *Livro de Referência* nomeiam publicações adicionais ao Módulo Básico.
+
+## Índice Remissivo (págs. 252-256)
+
+O livro encerra com um índice remissivo alfabético completo — termos e conceitos de todo o volume, cada um remetendo às páginas originais onde aparece (por exemplo, entradas detalhadas para cada perícia, vantagem, desvantagem, tipo de arma e mágica). Por ser puramente uma lista de termos com números de página do livro original — sem valor de prosa a preservar ou condensar — ele não foi reproduzido nesta documentação; a navegação por assunto nesta versão é feita pelos arquivos temáticos da pasta `capitulos/`, listados no [00-indice.md](00-indice.md).
+
+## Das Peculiaridades da Versão Brasileira (pág. 257)
+
+A nota final é da própria editora (Devir), explicando decisões de tradução. Dois pontos principais:
+
+- **Terminologia:** a palavra inglesa "skill" foi desdobrada em dois termos em português — "perícia" para a área de conhecimento em si, e "habilidade" para o grau de proficiência do personagem nela — entre outras escolhas voltadas a encaixar o sistema no vocabulário de RPG já em uso no Brasil.
+- **Paginação:** o Módulo Básico do GURPS é fortemente interligado por referências cruzadas a outros suplementos, sempre citadas por número de página (padrão "B,nº"). Como uma tradução para o português tende a "crescer" perto de 30% em volume de texto, a editora optou por aumentar o tamanho físico da página (e variar o tamanho da fonte por capítulo, como o próprio Steve Jackson já fazia nas edições americanas) para manter a paginação idêntica à edição original — preservando a validade das referências cruzadas entre o Módulo Básico e outros suplementos em inglês. Esse ajuste também forçou o abandono da ordem alfabética original em três capítulos (Vantagens, Desvantagens e Perícias), compensado por um índice remissivo completo e por uma lista alfabética no encarte "Personagens Instantâneos".
+- Unidades de peso e medida foram convertidas para o sistema métrico (milhas → quilômetros, libras → quilos etc.), com ajuste correspondente nos multiplicadores usados para calcular Carga.

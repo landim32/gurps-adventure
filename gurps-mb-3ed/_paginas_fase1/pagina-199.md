@@ -1,0 +1,83 @@
+# Página 199
+
+> Nota de transcrição: conteúdo bruto extraído automaticamente do PDF (`pdftotext -layout`), preservado em bloco de código para manter o alinhamento original de colunas e tabelas. Será reformatado em Markdown estruturado na Fase 2 (organização).
+
+```
+conforme o planejado. O “encontro improvisado” mais simples é o velhinho (muito                Campanhas Compartilhadas e o
+parecido com o que os personagens encontraram na taverna), que aparece no caminho e
+diz:                                                                                               Tráfego entre Campanhas
+
+   — “Voltem, vocês estão indo na direção errada.” Os encontros improvisados podem ser           Dois ou mais GMs podem concordar em
+usados para fornecer pistas extras, insinuações com relação ao caminho correto, etc... Um     permitir que seus jogadores viagem entre suas
+encontro improvisado pode também ser utilizado quando os jogadores estiverem pensando         campanhas. Em geral, isto significa simples-
+em alguma coisa diferente para fazer. Exemplo: Digamos que os PCs estão à caça de um          mente que em um lugar ou momento pré-estabe-
+tesouro enterrado por um velho pão-duro 50 anos atrás. Antes de morrer, o velho sovina        lecido, um GM substituirá o outro. O GM ante-
+dotou uma universidade (o único ato generoso de sua vida). Agora, a universidade não tem      rior se retirará completamente ou introduzirá
+nada a ver com o tesouro por isso não há nenhum encontro planejado nela. No entanto, os       um personagem seu e continuará como um joga-
+PCs se decidem a visitá-la para procurar pistas. O Mestre poderia simplesmente dar pouca      dor.
+importância para a essa busca e dizer: -”OK, vocês foram à universidade e perderam
+tempo. O pessoal de lá foi muito prestativo mas não sabiam nada de útil.” No entanto seria       Quanto mais similares forem as campanhas
+muito mais interessante, se o Mestre estiver disposto a improvisar e representar o encontro,  dos GMs, mais intimamente elas poderão estar
+fazendo o papel do velho e trêmulo reitor já meio surdo. - “Nós estamos procurando um         conectadas. Se as duas campanhas se passarem
+tesouro enterrado.” - “Uma tesoura emperrada? Mas de que ela lhes serviria?” Se os            no mesmo mundo, os GMs interpretarem as
+jogadores forem educados e persistentes e o Mestre estiver se sentindo generoso, ele poderá   regras da mesma forma e tiverem o mesmo estilo
+premiá-los com alguma informação depois deste encontro.                                       de jogo, a fronteira entre suas jurisdições pode-
+                                                                                              ria ser tão trivial quanto um rio ou os limites de
+   Os encontros aleatórios são prescritos por uma tabela de acasos. Enquanto os PCs           uma cidade. Isto também pode ser considerado
+viajam ao longo de uma estrada, o GM poderia jogar os dados uma vez por hora (v. a coluna     uma campanha “compartilhada”.
+lateral na pág 198), para ver quem eles encontram. Claro que esta é uma tabela muito
+simplificada. Algumas das “aventuras” vendidas comercialmente são constituídas princi-           Um bom sistema para cooperação entre GMs
+palmente de tabelas de acasos com vários itens em cada uma delas, permitindo que se jogue     é o que envolve (por exemplo) cidades. Um GM
+durante horas sem nenhum planejamento anterior. Isto é ótimo para um jogo rápido, mas         “principal” está encarregado da manutenção
+não pode ser colocado na mesma categoria de uma aventura “de verdade”.                        geral do mundo. Alguns dos jogadores envolvi-
+                                                                                              dos na campanha têm também suas responsabi-
+   Os encontros casuais poderão proporcionar uma certa diversidade e poupá-lo do              lidades como Mestre. Cada um destes jogadores
+trabalho de planejar todos os encontros de uma aventura, desde que não sejam usados como      cria e controla uma cidade. Todas as aventuras
+uma muleta. Alguns Mestres gostam de inventar um personagem “de estalo”, quando os            dentro de uma cidade são arbitradas pelo joga-
+dados dizem que devem fazê-lo. No entanto, os jogadores não devem saber que eles estão        dor que a controla. Seria desnecessário dizer
+participando de um encontro aleatório, pois eles agirão de maneira diferente se perceberem    que os personagens deste jogador deveriam
+que o encontro não faz parte do enredo.                                                       participar pouco das ações envolvendo sua cida-
+                                                                                              de, mesmo como NPCs. Mesmo o melhor dos
+Final                                                                                         GMs pode acabar de certa maneira envolvido
+                                                                                              emocionalmente com os personagens que ele
+   Este é o clímax da aventura. A maioria das aventuras tem apenas um final (a menos que      desenvolveu. Aventuras que se desenvolvem
+o grupo sucumba ao longo dela). Como Mestre você deveria guiá-los, tão sutilmente             fora das cidades são controladas pelo GM “prin-
+quanto possível, em direção ao “gran finale”.                                                 cipal”. Desta maneira, vários jogadores poderão
+                                                                                              se divertir, jogando e atuando como GM ocasi-
+   As ações anteriores dos jogadores afetam os detalhes do final, mas sua natureza básica     onalmente, sem a necessidade de realizar um
+permanece a mesma. Os jogadores demorarão mais para chegar ao final, e deveriam ter           trabalho de suporte ou desenvolvimento de ce-
+mais dificuldade para consegui-lo, se tomarem as decisões erradas ao longo do caminho,        nário maior do que ele desejaria.
+mas cedo ou tarde deveriam chegar lá. A exceção deveria ser o caso onde eles cometeram
+erros tão crassos, que o encontro final certamente os mataria. Neste caso um Mestre              O mesmo esquema funcionaria numa campa-
+indulgente sugeriria, sutilmente, que eles estão seriamente ameaçados e os deixaria desistir  nha espacial, com a diferença de que cada
+e voltar para casa.                                                                           jogador controlaria um sistema solar.
+
+   Uma aventura mais sofisticada terá vários finais possíveis e o seu desfecho dependerá         Para que este tipo de campanha funcione, os
+das decisões tomadas pelos jogadores durante seu desenrolar. Este tipo de aventura é mais     GMs precisam conferenciar regularmente. Pe-
+difícil de planejar, mas às vezes mais fácil para o GM dirigir pois ela exige menos           quenas diferenças “culturais” entre as cidades
+improvisação.                                                                                 ou planetas são aceitáveis (na verdade elas
+                                                                                              podem ser divertidas), mas os GMs deverão
+                                                                                              estar de acordo com relação aos objetivos e
+                                                                                              natureza geral da campanha, quando os jogado-
+                                                                                              res tiverem permissão para ir e vir livremente.
+                                                                                              Se dois ou mais GMs desejarem compartilhar
+                                                                                              jogadores e personagens apesar de manter dife-
+                                                                                              renças significativas entre seus cenários, será
+                                                                                              necessário um procedimento diferente.
+
+A Organização de uma Campanha Contínua                            Escrevendo Suas Próprias Aventuras
+
+   Mais interessante (e mais
+complexa) do que uma aven-
+tura completa é uma série de
+aventuras envolvendo os mes-
+mos personagens. Isto é cha-
+mado de campanha. Se uma
+aventura é equivalente a um
+romance, uma campanha seria
+uma trilogia (do tipo que ainda
+está em andamento depois de
+sete volumes).
+
+                                                         - 199 -
+```

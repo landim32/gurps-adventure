@@ -1,0 +1,90 @@
+# Página 144
+
+> Nota de transcrição: conteúdo bruto extraído automaticamente do PDF (`pdftotext -layout`), preservado em bloco de código para manter o alinhamento original de colunas e tabelas. Será reformatado em Markdown estruturado na Fase 2 (organização).
+
+```
+       Descrições de Animais                       IQ 6: Macaco. Tudo o que foi dito para os
+           ( continuação )                      anteriores, com um nível de complexidade maior.
+                                                Os GMs podem permitir qualquer coisa que eles
+Tigre                                           tenham visto um animal amestrado fazer no
+                                                cinema...
+    Felino, normalmente encontrado nas sel-
+vas, que costuma caçar só. ST 35-40, DX 14,        O tempo de treinamento depende da Inteligência
+IQ 4, HT 15/20-25. Velocidade 10 em arranca-    do animal e do nível de adestramento que se quer
+das curtas. Sua pele tem DP 1 e RD 1. Peso 230  atingir. Um treinador pode trabalhar até 4 horas por
+a 300 kg; tamanho 2 hexágonos. Ataca mor-       dia com uma criatura, divididas em duas sessões
+dendo e agadanhando (combate de perto) pro-     de duas horas (embora isto seja uma generalização).
+vocando 2D-1 pontos de dano por corte.
+                                                                          Nível do Treinamento
+Lobo
+                                                IQ do Animal     3        4                           5                 6
+    Animal selvagem e carnívoro que caça em            3      60 dias                                             Impossível
+bando. Pode ser (mais ou menos) domestica-             4      30 dias     Impossível Impossível                   Impossível
+do, mas nunca como um cão. Um lobo típico              5       7 dias                                             Impossível
+teria ST 8-10, DX 14, IQ 5, HT 11-13. Velo-            6       2 dias     360 dias                    Impossível
+cidade 9. Sua pele apresenta DP 1 e RD 1. Pesa                                                                     720 dias
+entre 30 e 80 kg; tamanho 1 hexágono. Ataca                               180 dias                    360 dias
+mordendo (combate de perto ) provocando
+1D-2 pontos de dano por corte.                                            90 dias                     180 dias
+
+Porco do Mato                                      Este é o tempo necessário para dar a um animal um treino geral no nível descrito acima.
+                                                Pode-se ensinar truques específicos para um animal, se o GM o permitir. Neste caso, o
+    O porco selvagem é caçado para ser usado    adestramento tomará 14 dias para uma criatura de nível 6, 30 dias para uma criatura de nível
+como alimento (este pode vir a ser um esporte   5 e 90 dias para um animal de nível 4.
+perigoso). São espertos, mal humorados e têm
+boa chance de atacar mesmo quando encontra-     O Valor dos Animais Adestrados
+dos por acidente. As girondas são menores e
+menos agressivas (dê-lhes peso e ST corres-        O adestramento altera o valor dos animais da seguinte maneira:
+pondentes aos menores especificados.)              Criaturas de IQ igual a 3 são capazes de aprender tão pouca coisa que o treinamento não
+                                                altera seu valor.
+    Javali: ST 20-24, DX 14, IQ 6, HT 15/20-       Criaturas com IQ igual a 4 têm pouca utilidade a menos que tenham sido amestradas.
+25, velocidade 8. Sua pele apresenta DP 1 e     Diminua o valor de um animal com IQ igual a 4 em 1/3 se não for amestrado. Filhotes são
+RD 2. Peso maior que 180 kg; tamanho 2          automaticamente indomados e, portanto, mais baratos.
+hexágonos. Ataca com suas defesas, que pro-        Presume-se que um animal de IQ=5 já tenha sido treinado até o nível 4 quando é
+vocam cortes profundos (1D+1 pontos de dano     comprado. Caso isto não seja verdade, seu valor deve ser reduzido em 1/3. Uma criatura de
+por corte), ou atropelando (1D-1 pontos de      IQ igual a 5 terá seu valor aumentado em 50% quando tiver sido completamente treinada
+dano por contusão). Tentará derrubar os seres   até o nível 5.
+humanos com um Encontrão (que também               As criaturas de IQ igual a 6 seguem as mesmas regras que as de nível 5, com a ressalva
+inclui um ataque com as defesas) e sangrá-los   de que seu valor será dobrado quando ela tiver sido completamente treinada até o nível 6.
+enquanto estiverem indefesos.                      Se um animal doméstico tiver uma inteligência muito maior que o normal para a sua
+                                                espécie, ele valerá muito mais quando tiver sido completamente amestrado. Como regra
+    Caititu: ST 8, DX 14, IQ 6, HT 12. Velo-    geral, multiplique por quatro o valor do animal se ele for 1 ponto mais inteligente que o
+cidade 7. Ataca do modo descrito acima: o       normal e por 10 se ele for 2 pontos mais inteligente. Desta maneira, um cavalo com IQ igual
+corte produzido pelas defesas provoca dano      a 6 valeria 10 vezes seu preço normal.
+igual a 1D-2; o atropelamento não provoca          Se um animal selvagem for capturado e amestrado, seu valor crescerá significativamente,
+dano real. Peso 18 a 23 kg. Tamanho 1 hexá-     principalmente se a criatura for inteligente e/ou feroz. Os detalhes dependem do cenário
+gono.                                           e do GM.
+
+                                                Animais de Montaria e Tração
+
+                                                   Estas criaturas são treinadas como descrito acima. Veja a pág. 135 para regras sobre
+                                                combate em montaria. Entre os animais de montaria e tração estão incluídos os seguintes:
+
+                                                Tipo          ST DX       IQ HT Desloc Custo          Peso(kg)  Obs.
+                                                                          4 13 8 $1.000                  230    2 hexágonos
+                                                Asno          25 10       4 14 8 $1.000                  370    Peq. demais p/montar
+                                                                          4 14 9 $2.000                  640
+                                                Mula peq.     30 10       4 13 13 $1.500                 370    Alguns são mais rápidos
+                                                                          4 13 8 $4.000+                 510    Animal comum de montaria
+                                                Mula gde.     40 10       4 14 12 $1.200                 550    Um cavalo de batalha leve
+                                                                          4 15 16 $4.000                 640    Normalmente feroz
+                                                Pônei         30 10       4 6 15 $5.000                  870
+                                                                          4 16 12 $2.000                 920    Temperamental; bebe pouco
+                                                Cavalo de Corrida 32 9    4 17 8 $1.500                         10 hexes DP1, RD2
+                                                                          4 15 10 $1.400               1.150+
+                                                Cavalo de Sela 35 9       6 17/50 8 $10.000             640
+
+                                                Cavalo de Cavalaria 40 9                              5.520
+
+                                                Cavalo de Batalha 50 9
+
+                                                Cavalo de Tração 60 9
+
+                                                Boi           80 8
+
+                                                Camelo        40 9
+
+                                                Elefante      300 12
+
+Animais                                                       - 144 -
+```

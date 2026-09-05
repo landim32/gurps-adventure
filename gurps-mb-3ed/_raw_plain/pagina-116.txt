@@ -1,0 +1,38 @@
+Ataque Relâmpago
+Um ataque relâmpago é uma manobra especial na qual você sai do esconderijo, se desloca um hex ou menos, arremessa a arma e volta a se esconder, no intervalo de um turno. É possível também realizar esta operação com a maioria das armas de projétil, mas não com um arco (exceto a besta). Os ataques Relâmpago incluem esconder-se, rapidamente, atrás de uma árvore, uma esquina, numa trincheira e coisas semelhantes.
+Em um ataque relâmpago é impossível apontar e haverá sempre um redutor de - 4 devido a Tiro Rápido. Existe também mais um redutor de -2 na manobra relâmpago porque não é possível ver o alvo no começo do turno.
+Enquanto estiver a descoberto você poderá ser atacado por qualquer pessoa que esteja visando seu hex com um Tiro de Tocaia. Sua única defesa será a Esquiva.
+Apontando
+Sua manobra Apontar é usada para alvejar um único inimigo quando você tiver uma arma de arremesso ou projétil, ou para visar um único hex quando estiver planejando um tiro de tocaia. Apontar diminui sua cadência de tiro, mas torna-o mais preciso. Apontar durante um turno elimina o redutor devido ao Tiro Rápido e lhe dá o bônus de Precisão da arma (embora não se possa receber um bônus de Precisão maior do que o nível de habilidade básico com a arma). Você pode manter sua pontaria por quanto tempo quiser. Cada turno apontando, além do primeiro, dá um bônus de +1 para acertar, até um máximo de +3.
+Ficar parado para apontar também elimina o redutor de -2 por disparar de um hex obstruído, ou com piso ruim.
+Se você estiver numa posição conveniente para “apoiar” sua arma de projétil, o uso mesmo que de um único turno para apontar lhe dará um bônus extra de +1.
+Se o alvo se deslocar enquanto você estiver apontado, sua pontaria não será afetada. No entanto, todos os bônus estarão cancelados se você o perder de vista. Você precisará de um sucesso em um teste de Vontade, se for ferido enquanto aponta ou perderá a pontaria.
+A Pontaria Durante um Deslocamento Um atirador pode apontar enquanto ca-
+minha se a velocidade não for maior do que 2 m/s (ou metade de seu Deslocamento, o que for menor). O valor máximo do bônus devido à pontaria conseguido enquanto se caminha é +1. Arqueiros não podem apontar enquanto caminham; besteiros sim.
+Armas de Arremesso
+Entre as armas arremessáveis incluem-se as facas, machados e lanças. Cada uma delas exige uma perícia diferente.
+Estas perícias são na verdade consideradas como fáceis, entre as “perícias de combate”. Elas se desenvolvem rapidamente com a prática. Só são consideradas difíceis no mundo de hoje, porque poucas pessoas as praticam!
+
+Ataques Com Armas de Longo Alcance
+O valor efetivo de seu ataque é calculado do seguinte modo. Quando você está usando uma arma de longo alcance, o valor efetivo de seu ataque é calculado do seguinte modo:
+(1) Tome seu nível de habilidade básico com a arma. (2) Aplique o modificador devido ao tamanho do alvo como mostrado na tabela da pág. 201. (3) Aplique a modificação devida à distância e à velocidade do alvo (transformados em um único modificador), também na tabela da pág. 201. (4) Aplique o modificador devido à precisão da arma, se você usou pelo menos um turno para apontar. Seu bônus devido à precisão não pode exceder seu nível de habilidade básico. (5) Aplique os modificadores devidos às condições (Tiro Rápido ou turnos extras apontando, apoio, escuridão e assim por diante), incluindo as condições especiais determinadas pelo GM. O resultado será seu nível de habilidade efetivo. Um resultado menor ou igual a este número significará que você atingiu o alvo.
+Tamanho do Alvo
+Quanto maior o alvo, mais fácil será acertá-lo. A tabela mostra faixas de tamanho. Escolha o menor valor da tabela maior do que o tamanho real de seu alvo e veja o modificador na segunda coluna da tabela. Objetos maiores do que um homem dão um bônus; objetos menores têm um redutor.
+Velocidade e Distância do Alvo
+A velocidade e a distância do alvo fornecem um único modificador. A soma da distância (em metros) e da velocidade (em m/s) dá um número que deve ser encontrado na tabela. Isto significa que se o alvo for muito rápido, sua distância se tornará menos importante ou, se ele estiver muito distante, sua velocidade se tornará menos importante.
+A tabela tem colunas auxiliares em km e km/s para alvos muito grandes ou muito distantes. Use sempre km/s para a velocidade se estiver usando km para a distância.
+Os Sistemas de Rastreamento modificarão a velocidade efetiva do alvo em campanhas de alto nível tecnológico. Ver capítulo 16.
+Ex.: Um alvo a 50 m de distância, com uma velocidade de 30 m/s (110 km/h) tem um parâmetro velocidade/distância igual a 80 m. Modificador: -10. Um alvo a 5 m de distância, movendo-se a 1.000 m/s tem um parâmetro velocidade/distância de 1005 m. Modificador: -17. Um alvo a 60 metros, deslocando-se a 2 m/s tem um parâmetro igual a 62. Modificador: -9.
+Este sistema usa a mesma progressão geométrica para o tamanho (geralmente um modificador positivo) e para a combinação velocidade/distância (geralmente um modificador negativo), e dá resultados satisfatórios tanto para uma mosca como para um planeta, a um metro ou 150.000 km de distância, estacionário ou movendo-se à metade da velocidade da luz.
+A velocidade e a distância são combinadas de modo que quando uma delas for relativamente pequena e a outra for relativamente grande, apenas o fator relativamente grande terá algum efeito no resultado. Velocidade (ou distância) pequena torna-se desprezível quando se está disparando contra um alvo a uma distância (ou velocidade) muito grande.
+Se um foguete viaja a 1.000 m/s, não fará muita diferença se ele está a 50 ou 100 metros de distância. Se um elefante estiver a 1.000 m de distância, dificilmente fará alguma diferença se ele está andando a 1 hex/s ou 2 hex/s.
+Se um alvo dobrar seu tamanho, sua velocidade e sua distância, a dificuldade para atingilo continuará a mesma. (Duas vezes mais longe cancela o dobro do tamanho; o dobro da distância cancela o dobro da velocidade, já que a velocidade angular não mudou).
+Exemplos de Cálculo de Alcance
+Ex.: O alvo é um carro, com 5 m de comprimento (bônus +3). Ele está a 40 m de distância e se desloca a 48 km/h. 48 km/h é equivalente a 15 m/s. 40 + 15 = 55; na tabela da pág. 201, o menor número maior do que 55 é 70, o que dá um modificador igual a -9. O modificador acumulado é -6 antes de uma arma em particular ser levada em conta.
+Ex.: Você está arremessando um machado contra um tonel com 30 cm de diâmetro. Seu NH no Arremesso de Machado é 16. O tamanho do tonel impõe um redutor de -5. Ele está rolando devagar a 5 m de distância, com uma velocidade igual a 1 m/s. O parâmetro velocidade/
+
+Sistema Avançado de Combate
+
+- 116 -
+
+

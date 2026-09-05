@@ -1,0 +1,158 @@
+Uma falha no teste significa que o encantamento foi pervertido de alguma maneira ou se transformou em uma mágica completamente diferente (a escolha é do GM). O operador não saberá que sua mágica não deu certo a menos que ele experimente o objeto ou use Analisar Mágica.
+Encantamento Lento e Seguro
+Este método é usado quando o “rápido e sujo” não é capaz de gerar energia suficiente ou quando o mago deseja ter certeza de que tudo correu bem. O processo precisa de um dia-mago para cada ponto de energia exigido. Logo, se um objeto tem um custo em energia igual a 100, ele poderá ser criado por 1 mago em 100 dias ou, 2 magos em 50 dias, 3 magos em 34 dias e assim por diante. Mais uma vez, serão exigidos dias de trabalho de 8 horas. Da mesma maneira que para os outros tipos de magia cerimonial, todos os assistentes do operador deverão estar presentes todos os dias. Espectadores não ajudam em nada.
+Exemplo: Quatro magos estão preparando um bastão Projétil de Pedra (veja pág. 156). Isto exige 400 pontos de energia, logo a operação levará 400/4, ou 100 dias.
+Todos os magos do circulo precisarão estar presentes todos os dias. Se um dia de trabalho for perdido ou pulado, serão necessários 2 dias para compensar cada dia pulado. A perda de um mago encerra o projeto. O teste de habilidade final é feito no último dia. Não há necessidade de dispêndio de energia. Ela foi aplicada gradualmente com o progresso da operação.
+Uma falha significa que o encantamento simplesmente não funcionou. O tempo, a energia e os materiais usados estão simplesmente perdidos. (Exceção: Se o objeto já era encantado, ele estará ileso, mas o material extra estará perdido.) Note que, do mesmo modo que toda a magia cerimonial, um resultado igual a 16 significa uma falha automática.
+Este método pode ser combinado com a troca “energia por habilidade” (pág. 151) para permitir que um mago possa criar um objeto com um grande Poder ao longo de um período bastante extenso.
+O Uso de um Objeto Encantado
+Os objetos encantados seguem as regras dadas para a(s) mágica(s) que eles contêm (veja a Lista de Mágicas). A maioria dos objetos dá ao usuário o poder de fazer aquela mágica. Alguns permitem que ele faça a mágica nele mesmo; outros permitem que a mágica seja feita sobre qualquer objetivo. Se uma mágica puder ser colocada em um objeto encantado, este fato estará especificado no fim de sua descrição. A menos que haja algo especificado em contrário:
+O Tempo de realização é o descrito para a mágica. Um Poder alto não afeta este tempo. Nenhum ritual é exigido, a menos que seja especificado para um objeto em particular. Em geral, o usuário apenas deseja e ele funciona. O Custo em energia é o mesmo que para a realização normal de uma mágica e não é afetado pelo Poder do objeto (um objeto pode ser “auto-energizado”, para reduzir a energia necessária para seu uso, v. pág. 160). O sucesso é determinado normalmente, usando o Poder do objeto como nível de habilidade básico do operador e aplicando os modificadores normais. O Poder está submetido a um redutor igual a -5 em áreas de baixa intensidade de mana. O objeto pode ser usado indefinidamente; a mágica não se “desgasta”. Todos os outros efeitos são como descritos para o uso normal da mágica. Apenas uma pessoa de cada vez pode controlar um objeto encantado. Se duas pessoas estiverem tocando um objeto encantado (lutando pelo controle de um bastão, por exemplo), apenas o primeiro a tocálo poderá usá-lo. Se um deles não puder usá-lo (por ex., pelo fato de o objeto ser apenas para magos), seu toque não contará. Resistência e Poder. Se for possível resistir a uma mágica quando ela é feita normalmente, será possível resistir -lhe quando ela for feita através de um objeto encantado. Faça uma disputa de habilidades entre o Poder do objeto (v. pág. 152) e a resistência do objetivo àquela mágica. Por isso, objetos encantados de Poder maior serão mais difíceis de resistir. Além disso é mais fácil resistir a objetos encantados em áreas de baixa intensidade de mana; seu Poder fica reduzido em 5 pontos.
+Objetos “Permanentemente Ativos”
+Certos objetos mágicos são descritos como “permanentemente ativos”. Eles devem ser vestidos ou transportados para funcionar. Estes objetos não permitem que a pessoa que o usa faça a mágica; eles fazem a mágica sobre quem os carrega automaticamente, sem dispêndio de energia. Se a mágica é do tipo a que se pode resistir, o teste de resistência pode ser feito normalmente.
+Apanhar um objeto por um momento para examiná-lo não é “usá-lo”. Mas levá-lo em sua mão, ou vesti-lo sim. Como regra, um objeto benéfico deve fazer parte de seu vestuário ou ser levado para funcionar, mas um maléfico irá afetá-lo mesmo que esteja sendo carregado em seu bolso.
+Se uma flecha ou dardo estiver encantado com magia hostil, ele poderá ser transportado sem nenhum problema. Ele afetará apenas a pessoa em quem for cravado. Aquela pessoa o estará “usando”, até que ele seja removido por um sucesso em um teste de Medicina ou Primeiros Socorros (exige um minuto) ou pela força bruta (provoca o mesmo dano que o projétil provocou inicialmente). O novo dono de um objeto encantado pode não aprender imediatamente seus poderes. Alguns efeitos (ex. aumento de ST ou DX) serão óbvios imediatamente. Outros (ex.: respirar água), não serão notados até que ocorra uma situação
+
+Custo de Gemas de Energia
+Gemas de Energia (veja pág. 161) são um caso especial, porque uma Gema de Energia é feita com uma série de pequenas mágicas, cada uma exigindo 20 pontos de energia. O tamanho de uma pedra preciosa em quilates dá a força máxima que ela poderá ter como Gema de Energia (uma pedra de 20 quilates, pode se tornar uma Gema de Energia com ST igual a 20, mas não mais).
+Partimos dos seguintes pressupostos: O custo de cada mágica Gema de Energia: $ 20. Custo de uma pedra preciosa que é adequada para fazer uma Gema de Energia de força P: $10 x P² + $40 x P. O pagamento diário médio para um mago encantador é $ 25. A taxa de retorno do dinheiro investido em Gemas de Energia: 0,1% por dia (36% ao ano). O custo médio de Gemas de Energia, principalmente as grandes, é aumentado por um fator cumulativo, que representa a chance de que uma das operações resulte numa falha crítica que destruirá a pedra. Para uma Gema de Energia com ST igual a 60, as chances são maiores do que 2 em 3 de que a pedra será destruida antes de ela alcancar o tamanho desejado. Por isso, o custo esperado para fazer uma gema de energia com ST 60 é mais do que o triplo do custo total da pedra acrescido do custo de fazer a mágica 60 vezes. Sempre existe procura por boas Gemas de Energia sem peculiaridades (v. pag 161), por isso os comerciantes de magia sempre aumentam os preços. A segunda coluna da tabela a seguir mostra os preços típicos de venda de Gemas de Energia no varejo.
+
+Tamanho
+
+Custo para fazer Preço no Varejo
+
+1
+
+80
+
+150
+
+2
+
+175
+
+300
+
+3
+
+300
+
+500
+
+4
+
+450
+
+900
+
+5
+
+620
+
+1.200
+
+6
+
+850
+
+1.600
+
+7
+
+1.050
+
+2.000
+
+8
+
+1.350
+
+2.500
+
+9
+
+1.650
+
+3.100
+
+10
+
+2.000
+
+4.000
+
+12
+
+2.750
+
+5.500
+
+15
+
+4.250
+
+8.200
+
+20
+
+7.700
+
+15.000
+
+25
+
+12.500
+
+24.000
+
+30
+
+19.000
+
+40.000
+
+35
+
+28.000
+
+58.000
+
+40
+
+39.000
+
+80.000
+
+45
+
+54.000 110.000
+
+50
+
+72.000 150.000
+
+60
+
+120.000 250.000
+
+70
+
+195.000 500.000
+
+80
+
+305.000 850.000
+
+90
+
+460.000 1.200.000
+
+100
+
+680.000 2.000.000
+
+- 153 -
+
+Magia
+
+

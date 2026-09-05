@@ -1,0 +1,37 @@
+Depois que o “estupor” inicial passar, cada defensor deverá fazer um teste de IQ básico no início de cada turno, para ver se ele se recupera. Um sucesso significa que o personagem será capaz de se movimentar e agir normalmente durante todo o resto do combate. Uma falha significa que o personagem continua mentalmente “atordoado”. Um personagem completamente lento de raciocínio, apanhado totalmente de surpresa, poderia perder todo o combate.
+Surpresa Parcial
+Ela pode ocorrer quando os defensores estão esperando problemas (ou quando cada um dos grupos surpreende o outro). O GM poderia exigir que cada um dos lados fizesse um teste de iniciativa.
+Para determinar quem tem a iniciativa, o líder de cada lado joga um dado. O líder que tiver Reflexos em Combate ganha um bônus de +2, ou +1 se algum outro membro do grupo tiver Reflexos em Combate (não cumulativo). O líder mais inteligente recebe um bônus de +1. Perícias táticas também dão um bônus de +1 em testes de iniciativa; um nível de habilidade maior ou igual a 20 numa destas perícias dá um bônus de +2. O GM poderá adicionar outros bônus ou redutores que achar conveniente (ex.: se ele achar que um dos lados estava mais alerta do que o outro). O lado cujo líder conseguir o maior resultado ganhará a iniciativa.
+O GM será o responsável pela jogada de qualquer grupo que não tenha um líder. Eles recebem automaticamente um redutor de -2 no teste de iniciativa. (Isto não se aplica a animais.)
+O lado que ganhar a iniciativa poderá se movimentar e agir normalmente. Cada personagem do outro lado estará mentalmente atordoado e deverá fazer testes de IQ em cada turno, como descrito anteriormente, para tentar sair deste estado. No entanto, num caso de surpresa parcial, todos os personagens receberão um bônus de +1 no teste de IQ do segundo turno, +2 no terceiro e assim por diante (de modo que mesmo os parvos perceberão o que se passa depois de alguns segundos).
+Se o teste de iniciativa empatar, ninguém terá sido pego de surpresa.
+Ataque com um Escudo
+Um escudo é uma excelente defesa contra armas de baixo nível tecnológico. No entanto, ele pode ser usado também ofensivamente. Faça um teste de habilidade em Escudo para atacar com um.
+Golpe com o Escudo
+Golpear com o escudo é um ataque. Ele pode ser usado apenas contra um inimigo que esteja em seu hex frontal ou hexes laterais esquerdos. Faça um teste de Escudo para ver se atingiu o alvo. O oponente pode se esquivar ou bloquear normalmente, mas terá um redutor de -2 se tentar aparar. Armas pesando menos de 1 kg não poderão ser usadas para aparar. Um golpe com o escudo produz dano por GDP/contusão.
+Alguns escudos são providos de espigões e provocam +1 ponto de dano quando usados num ataque. No entanto, este ataque não é tratado como perfurante, porque os espigões são normalmente curtos e rombudos. Como regra, os escudos “de cavalheiros” não possuem espigões, mas um escudo viking ou bárbaro poderia ter. Um espigão acrescenta 2,5 kg ao peso do escudo e $ 20 ao custo.
+Arremetidas com o Escudo
+Uma “arremetida com o Escudo” é uma tentativa de derrubar seu oponente dando um Encontrão nele com um escudo pesado. É necessário ter um escudo médio ou grande. Uma arremetida bem sucedida derrubará o oponente. Veja a pág. 112 para maiores detalhes.
+Combates em Níveis Diferentes
+Suponhamos que você queira pular para cima de uma mesa e atacar seu oponente que está no chão. Ou abrir caminho escada acima lutando. Se você e seu oponente estiverem em níveis diferentes, a distância vertical afetará o combate. Esta regra é válida para armas de mão. Para armas de longo alcance, veja o parágrafo Atirando para Cima e para Baixo, na pág. 117.
+Uma arma longa (alcance maior do que 1 metro) aproxima o oponente. Se um combatente tiver uma arma com um alcance de 2 metros, ele atacará como se o oponente estivesse 1 metro mais próximo, mas o oponente com uma arma com alcance de 1 metro não terá uma vantagem correspondente quando responder ao ataque. Ex.: Um atacante com um espadão, que esteja 2 metros abaixo de seu oponente ataca como se o inimigo estivesse a apenas 1 metro acima.
+
+Combate em Massa
+Uma batalha muito grande (envolvendo mais de 20 combatentes) pode durar muito tempo. Se isto não for o que mais lhe agrada, é possível que você queira se limitar ao Sistema Básico de Combate para economizar tempo, no caso de grandes batalhas.
+Em especial, a seqüência (quem joga em que ordem) pode tornar uma combate em massa muito lento. Este é um bom momento para usar a regra do sentido horário. Nota: Se o combate começar com os oponentes muito próximos uns dos outros, o primeiro lado a atacar levará vantagem... logo, seja realista e permita que os combatentes comecem a uma certa distância um do outro.
+Como alternativa, você pode usar o sistema de combate em massa existente em vários suplementos (ex.: GURPS Horseclans, GURPS Japan) para decidir grandes batalhas e determinar seu efeito sobre os PCs.
+Truques Sujos
+Os jogadores criativos estarão constantemente inventando novos ardis em combate (ex.: lançar areia nos olhos do oponente para cegá-lo). Isto impõe um problema ao GM. Por um lado, a criatividade deveria ser encorajada para tornar o jogo mais interessante. Por outro lado, os truques funcionam enquanto eles são novos e originais. Se jogar areia nos olhos funcionasse sempre, os guerreiros bárbaros deixariam suas espadas em casa e levariam sacos de areia consigo.
+A melhor solução é deixar os truques funcionarem uma vez (talvez duas) e depois assumir que a notícia se espalhou. Se você, como GM, achar que a idéia do jogador é boa, deveria dar-lhe uma oportunidade justa de funcionar. Mas lembre-se que truques complicados podem falhar meticulosamente... e a notícia se espalhará. O primeiro Cavalo de Tróia foi um sucesso e não funcionou mais depois disso.
+IQ e Truques Sujos Freqüentemente, o GM achará adequa-
+do exigir um teste de IQ quando um truque inteligente for tentado. Dependendo das circunstâncias, o GM poderá:
+(a) obrigar o trapaceiro a fazer um teste de IQ para ver se ele consegue realizar o truque adequadamente;
+(b) levar a vítima a fazer um teste de IQ para verificar se ela não se deixa enganar pelo truque;
+(c) fazer uma disputa de IQ para ver quem passa a perna em quem.
+Não existe nenhuma regra rápida e rígida. Lembre-se apenas de que ninguém que use um combatente com IQ igual a 8 deveria ser autorizado a representá-lo como se fosse um gênio.
+
+- 123 -
+
+Sistema Avançado de Combate
+
+

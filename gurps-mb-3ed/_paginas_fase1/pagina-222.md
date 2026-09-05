@@ -1,0 +1,79 @@
+# Página 222
+
+> Nota de transcrição: conteúdo bruto extraído automaticamente do PDF (`pdftotext -layout`), preservado em bloco de código para manter o alinhamento original de colunas e tabelas. Será reformatado em Markdown estruturado na Fase 2 (organização).
+
+```
+40 A tampa cai novamente sobre a panela fazendo muito ba-                    o vão da porta. Ele tem uma cimitarra na mão e parece estar furioso. O
+              rulho. E agora? Você é capaz de ver algum lugar para se        que você faz?
+esconder? Faça um teste de Furtividade com um redutor igual a -2. Se
+você não tiver esta perícia, use seu valor pré-definido (IQ -5 ou DX-5).         Vá para 89 se você gira o corpo e esfaqueia Fatso; 76 se preferir lutar
+Neste caso, portanto, você estará jogando contra IQ-7 ou DX -7.              com o vigia; 78 se puxar o cordão do sino; 151 se escolher ameaçar Fatso
+                                                                             ou 63, se você decidir a tentar sair do quarto.
+    Vá para 100 no caso de sucesso ou 93 no caso de fracasso.
+                                                                             50 Fatso alcança o cordão do sino num movimento desespera-
+41 Você consegue retirar e enrolar a tapeçaria com facilidade.                             do, e o puxa antes que você possa fugir. O chão se abre sob
+              Pode ficar com ela se quiser. Seu peso é 2,5 kg. Volte para    seus pés e você rola para baixo na escuridão. Vá para 78.
+171.
+                                                                             51 Existem cinco peças de tapeçaria. Quatro delas são enormes,
+42 Você pode levar tantos frascos quantos desejar (existem 36).                            mas a quinta parece ser pequena o suficiente para ser
+               Anote o número de frascos que está levando. Cada um deles     carregada. Vá para 36 se você deseja tentar. Caso contrário, volte para
+pesa aproximadamente 250 gramas. Eles têm boas tampas e não se               171.
+abrirão dentro de sua sacola.
+                                                                             52 Fatso está usando alguns anéis e braceletes, mas eles estão
+    Desvie para o parágrafo 68, se quiser examinar os frascos sem rótulo;                  tão comprimidos contra a sua pele que você não será capaz
+ou para 176, se preferir examinar melhor a despensa.                         de retirá-los sem amputar seus dedos, o que não é uma boa idéia.
+                                                                             Enquanto examina, ele rola na cama e geme alto. Você dá um salto, mas
+43 Faça um teste de Visão, ou seja, faça uma jogada contra seu               ele continua adormecido.
+              atributo IQ acrescido do valor de sua Prontidão e/ou Visão
+Aguçada, se você possuir estas vantagens. Veja a pág. 92, se desejar uma         Vá para 180 se deseja continuar a sua pesquisa, ou para 18, se preferir
+explicação mais extensa sobre Testes de Sentidos.                            abandonar o quarto.
+
+    Vá para 28 em caso de sucesso.                                           53 Você abusou demais de sua sorte! O gordo acordou e fez o
+    Em caso de falha, você chegou à conclusão que não há muito o que                       que qualquer pessoa normal faria ao acordar com uma faca
+olhar por aqui. Você pode sair por onde entrou (neste caso vá para 18);      no pescoço. Ele gritou. E depois tentou alcançar o cordão do sino.
+ou pode dar uma olhada em Fatso (vá para 52).
+                                                                                 Devemos fazer uma disputa de DX (sua DX contra a dele, que é igual
+44 Os tonéis rolam em sua direção! Tente um teste de Destre-                 a 11), para ver se você foi capaz de impedi-lo de alcançar o cordão. Vá
+              za. Se falhar, você está imprensado debaixo de uma pilha de    para 162, se você vencer a disputa. Se perder ou ocorrer um empate, vá
+barris. Pode ser que você sempre tenha sonhado morrer afogado em             para 144.
+cerveja, mas com certeza não era bem isso o que você tinha em mente.
+Neste caso, sua aventura está encerrada.                                         Para maiores informaçãoes sobre Disputas de Habilidades, veja a
+                                                                             pág. 87.
+    Em caso de sucesso, você foi capaz de sair da frente dos barris e subir
+alguns degraus. No entanto, os barris fizeram um bocado de barulho. Vá       54 Você afasta rapidamente sua mão da aranha. Faça um teste
+para 117.                                                                                  de DX. Vá para 170 em caso de sucesso. Vá para 9, se falhar.
+
+45 Este vinho é muito bom, mas tudo tem seu preço. Seus atri-                55 Você serra o cordão suavemente. No entanto, ele parece
+              butos IQ e DX (e qualquer outra habilidade baseada neles)                    estar resistindo a sua arma.
+terão seus valores diminuídos em 1 ponto durante todo o resto da                 Se deseja usar mais força, vá para 91, ou para 110, no caso de
+aventura. Volte para 16 e escolha novamente.                                 abandonar a idéia de cortar o cordão.
+
+46 Se você tem a vantagem do Bom-Senso, faça uma jogada                      56 Esta porta dá para o lado de fora. Você dá uma olhada rápida.
+              contra o seu atributo IQ. Em caso de sucesso, vá para 60.                    Não há ninguém vigiando. Se você deseja sair e ir para casa,
+Caso contrário, dê uma olhada nas 3 almofadas e decida qual delas deseja     vá para 27. Se preferir voltar para dentro, vá para 59.
+cortar. Vá para 130 se você escolher a almofada vermelha; 106 se preferir
+a almofada amarela, ou 87 se decidir pela almofada azul. Volte para 171      57 Você não achou nada de interessante na pilha de sucata.
+quando tiver terminado.                                                                    Volte para 16.
+
+47 O serviço de chá de porcelana é muito bonito e, muito frá-
+              gil. A marca do artista na base do bule mostra que ele tem
+pelo menos 120 anos de idade e deve valer um bom dinheiro, se você
+conseguir levá-lo para casa intacto.
+
+    Faça um teste de IQ. No caso de sucesso, desvie para 73.
+    Em caso de falha, você pode colocar a porcelana em sua sacola, caso
+queira. Seu peso é praticamente desprezível e sua RD é igual a 0.
+Qualquer coisa que atinja seu corpo enquanto você a estiver carregando
+irá quebrá-la.
+    Se você desejar examinar os narguilés que estão em cima da mesa, vá
+para 66. Se quiser olhar outras coisa na sala, vá para 171.
+
+48 Você presta atenção durante vários minutos, mas não ouve
+              nada. Parece que você entrou na casa de dorminhocos. Vá
+para 128.
+
+49 Você está com a faca encostada à garganta de Fatso. A porta
+              se abre. Você se volta e vê um homem imenso preenchendo
+
+Uma Noite de Trabalho  - 222 -
+```

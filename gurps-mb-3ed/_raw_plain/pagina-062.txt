@@ -1,0 +1,134 @@
+Perícias Científicas
+Prospecção (Mental/Média) Pré-definido como IQ-5 ou Geologia-4
+Esta é a geologia aplicada: a habilidade de descobrir minerais valiosos através da inspeção local. A prospecção à distância, com o uso de mapas e instrumentos, exige o conhecimento de Geologia. Um prospector estará submetido a um redutor de -1 em uma área nova de tipo familiar, e -2 ou mais em uma área de um tipo com o qual ele não está familiarizado, até que ele fique ali por tempo suficiente (um mês de trabalho).
+Um sucesso em um teste de Prospecção poderá indicar a presença de minério em uma amostra e julgar seu valor comercial.
+Um prospector poderia usar seu “olho clínico” para encontrar água no campo da mesma maneira que na perícia Sobrevivência (pág.57).
+
+Psicologia (Mental/Difícil)
+
+Pré-definido como IQ-6
+
+Este é o estudo do comportamento. Um psicólogo lida com a mente
+
+humana (e possivelmente com outros tipos também). Um sucesso em um
+
+teste de Psicologia pode predizer, em termos gerais, o comportamento de
+
+um indivíduo ou grupo pequeno em uma situação definida, principal-
+
+mente em uma situação de tensão. Modificadores: +3 se o psicólogo
+
+conhecer bem o paciente; +3 se o psicólogo tiver a vantagem da Empatia
+
+e se encontrar com o paciente; +3 se o paciente sofrer de um desvio bem
+
+conhecido, i.e., sofrer de uma fobia ou outro problema mental.
+
+Pesquisa (Mental/Média)
+
+Pré-definido como IQ-5
+
+ou Escrita-3
+
+Esta perícia pode também ter seu nível pré-definido por qualquer
+
+perícia científica (submetida a um redutor de -2), se você estiver
+
+Perícias Sociais
+
+Dissimulação (Mental/Média)
+
+Pré-definido como
+
+IQ-5, Trovador-5 ou Atuação-2
+
+Esta é a habilidade de simular estados de ânimo, emoções e vozes e
+
+de mentir convincentemente por um período de tempo. Não é a mesma
+
+coisa que Disfarce e Atuação. Um sucesso em um teste de habilidade lhe
+
+permitirá fingir que pensa ou
+
+sente alguma coisa que você não
+
+sente. Modificadores: +1 para
+
+cada ponto de IQ que você tem a
+
+mais do que a pessoa que está
+
+tentando enganar (ou o mais in-
+
+teligente do grupo) e -1 para
+
+cada ponto de IQ que a vítima
+
+tiver a mais do que você.
+
+A Personificação de uma
+
+pessoa em particular é um tipo
+
+especial de Dissimulação. Para
+
+imitar uma pessoa em particular
+
+é preciso em primeiro lugar se
+
+disfarçar (v. Disfarce, pág. 65), a
+
+menos que suas vítimas não pos-
+
+sam vê-lo. Modificadores para qualquer imitação: -5 se você não estiver
+
+bem familiarizado com a pessoa que imitará; -5 se a pessoa que você quer
+
+enganar conhecer o original e -10 se eles tiverem intimidade.
+
+Administração (Mental/Média)
+
+Pré-definido como
+
+IQ-6 ou Comércio-3
+
+Esta é a habilidade de dirigir uma grande organização. Ela é útil
+
+principalmente para ganhar dinheiro ou se qualificar para ocupar altos
+
+postos. Um administrador treinado (nível maior ou igual a 15) receberá
+
+um bônus de +2 quando estiver lidando com um burocrata e, no caso de
+
+um sucesso em um teste de habilidade, será capaz de prognosticar qual
+
+a melhor forma de lidar com uma burocracia.
+
+pesquisando material relacionado com ela. Pesquisa é a capacidade geral de fazer uma investigação em uma biblioteca ou arquivo. Um sucesso em um teste de Pesquisa num lugar apropriado permitirá que você descubra algum fragmento de informação útil, se for algo para ser descoberto.
+
+Teologia (Mental/Difícil)
+
+Pré-definido como IQ-6
+
+Este é o estudo da religião. Um teólogo tem conhecimentos sobre
+
+credos religiosos antigos e modernos, história das religiões, etc. Você
+
+deveria considerar a hipótese de ter esta perícia, com especialização em
+
+sua própria religião, se seu personagem for um sacerdote ou santo.
+
+Zoologia (Mental/Difícil) Pré-definido como IQ-6 ou qualquer Perícia com Animais-6
+Esta é o estudo dos animais. Um zoólogo é capaz de identificar animais, ter uma boa idéia sobre sua dieta natural, seus hábitos e habitat, e prever seu comportamento.
+Conhecimento do Terreno (Mental/Fácil) Pré-definido como IQ-4*
+*Será permitido usar o nível pré-definido desta perícia no caso de um teste de habilidade relacionado com a área onde você vive ou já viveu alguma vez. Veja o último parágrafo.
+Esta é a familiaridade com o povo, política e geografia de uma determinada área. Normalmente um personagem terá Conhecimento do Terreno apenas da área que ele considera sua “base”, seja isto uma simples fazenda ou todo um sistema solar. O GM poderá permitir que os personagens estudem Conhecimento do Terreno para outros lugares, se houver informação disponível. Os espiões, por exemplo, tentarão adquirir um Conhecimento do Terreno detalhado dos lugares onde irão operar.
+O GM não deve exigir testes da perícia para coisas simples como descobrir o ferreiro, a taverna ou sua própria casa. Mas ele poderia fazer um teste para ver se você consegue encontrar um ferreiro para colocar ferraduras em seu cavalo às 3 da madrugada, ou descobrir o melhor lugar para uma emboscada ao longo de um trecho de estrada. Informações “secretas” ou muito obscuras carregarão uma penalidade, ou poderão simplesmente não estar disponíveis através desta perícia. Ex.: O Conhecimento do Terreno de Washington lhe daria a localização da embaixada da Rússia, mas não a localização atual da sede da KGB.
+As informações que podem ser conseguidas com esta perícia coincidem, em parte, com as conseguidas com Manha, Navegação, Naturalista, Política e outras. A diferença é que o Conhecimento do Terreno funciona para uma única região; você conhece os hábitos deste arruaceiro ou chefe de gangue, mas isto não lhe dá uma compreensão geral da espécie.
+Esta perícia pode ser comprada para qualquer tipo de área. Quanto maior a área, menos pessoal e mais geral se torna seu conhecimento. Quase todos os personagens terão algum tipo de Conhecimento do Terreno. Alguns exemplos (o GM pode acrescentar outros em suas campanhas):
+
+Perícias
+
+- 62 -
+
+

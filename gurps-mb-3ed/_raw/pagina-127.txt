@@ -1,0 +1,79 @@
+em 3 pontos no próximo turno. As defesas ativas não são perícias baseadas em sua Destreza           Efeitos de Lesões Incapacitantes
+(DX).
+                                                                                                      Mãos: Qualquer coisa que estiver sendo
+   Esta redução, normalmente afetará ataques com armas e tentativas de realização de mágicas       segurada cairá. Você não será capaz de segurar
+— assim como qualquer uso de IQ, DX ou perícias. Portanto, depois de ter sido ferido seriamente    nada (incluindo armas) com aquela mão, mas
+pode ser uma boa idéia tentar uma defesa total, ou mesmo fugir, ao invés de contra-atacar.         será capaz de segurar um escudo com o braço e
+                                                                                                   mesmo se defender com ele, mas nunca atacar.
+   Este é um efeito temporário devido ao choque causado pelo ferimento sofrido. No turno           A vítima ficará com a desvantagem de ser Ma-
+seguinte suas perícias terão voltado ao normal.                                                    neta até que o ferimento seja curado. Veja pág.
+                                                                                                   29.
+Nocaute
+                                                                                                      Braço: O mesmo que para as mãos, com a
+   Qualquer golpe na cabeça ou cérebro, assim como o esmagamento de órgãos vitais, pode pôr        diferença de que um personagem que perdeu
+a vítima a nocaute, mesmo que o número de pontos de dano seja exatamente igual à RD da vítima      uma das mãos ainda pode carregar alguma coisa
+(ou seja, 1 ponto de dano a mais teria causado lesão). A vítima deve fazer um teste de HT. Caso    com o que sobrou do braço, enquanto aquele que
+o resultado seja uma falha, ela cai inconsciente.                                                  tiver perdido o braço não poderá carregar nada.
+                                                                                                   A menos que o braço tenha sido amputado de
+   Um golpe na área do “cérebro”, que provoque a perda de mais do que HT/2 pontos de vida,         imediato (que é uma decisão do GM), o escudo
+implica em nocaute automático.                                                                     não caiu e continua em frente da vítima. Ela não
+                                                                                                   será capaz de bloquear nenhum golpe com o
+Prostração                                                                                         escudo, mas ele continua oferecendo sua antiga
+                                                                                                   DP, menos 2 pontos. A vítima terá a desvanta-
+   Qualquer um que perca um número de pontos de vida maior do que HT/2 de um só golpe              gem Maneta (um braço) — v. pág. 29 — até que
+deverá fazer, imediatamente, um teste de HT. Se falhar no teste, o personagem cai e fica           seu membro ferido seja curado.
+atordoado (veja abaixo). Em caso de sucesso, ele se mantém em pé, mas ainda assim fica
+atordoado.                                                                                            Pé: A vítima vai ao chão. Ela não será capaz
+                                                                                                   de andar ou ficar em pé sem a ajuda de uma
+   Note que isto não é o mesmo que “projetar para trás” (pág. 106), no qual um golpe pode          muleta ou alguma coisa em que se apoiar. Um
+empurrá-lo para trás sem necessariamente fazê-lo cair.                                             personagem que tenha perdido um pé ainda será
+                                                                                                   capaz de lutar, se ele puder se apoiar contra uma
+Atordoamento                                                                                       parede. Se não houver nada em que se apoiar, a
+                                                                                                   vítima poderá sentar ou ajoelhar (veja págs. 103
+   Um personagem pode ficar “atordoado” se perder, de um só golpe, um número de pontos de          e 203). O valor máximo de seu parâmetro Des-
+vida maior do que HT/2, ou se for atingido por um golpe fulminante, ou se sofrer um golpe no       locamento será, a partir de agora, igual a 3 e terá
+cérebro que provoque um dano maior do que HT/3. Uma lesão cegante ou incapacitante também          a desvantagem de ter uma “perna mutilada”
+provocará atordoamento.                                                                            (pág. 29) até que o ferimento seja curado.
+
+   No caso de você estar atordoado, todas as suas defesas ativas estarão sob penalidade de -4         Perna: A vítima vai ao chão, e para continuar
+até o turno seguinte. No início do próximo turno faça um teste de HT básico para ver se conseguiu  lutando deverá estar sentada ou deitada. Depen-
+se recuperar. Um sucesso significa que você poderá agir normalmente naquele turno. Uma falha       dendo do tipo de ferimento (opção do GM), a
+significa que você ainda está atordoado e permanecerá desatento ... Este estado de “atordoamen-    vítima terá a desvantagem de “perna mutilada”
+to” continuará até que você consiga um sucesso num teste de HT e desperte. Você pode atuar         ou “perneta” (pág. 29), até que o ferimento seja
+novamente no turno em que teve sucesso e livrar-se do entorpecimento.                              curado.
+
+   Um personagem pego de surpresa, ou submetido a um choque, pode estar também mental-                Olhos: Um Golpe Fulminante na cabeça, ou
+mente “atordoado” — isto é o que acontece quando o adversário toma a iniciativa (veja pág.         um ataque direcionado aos olhos da vítima,
+122). Os efeitos deste tipo de aturdimento são exatamente os mesmos, mas você deve fazer um        poderá cegá-la. A partir daí, ela passará a lutar
+teste de IQ, ao invés de HT, para sair dele. Você não está ferido, e sim confuso.                  com uma desvantagem de -10 pontos (aplicando
+                                                                                                   golpes “Molinete”), a menos que ela tenha
+Lesões Incapacitantes                                                                              algum substituto mágico ou tecnológico para
+                                                                                                   seus olhos.
+   No Sistema Avançado de Combate, não se sofre dano “generalizado”; cada ferimento atinge
+uma parte específica do corpo. Um único golpe que produza dano suficiente a um pé, mão ou             Os efeitos de uma lesão incapacitante sem-
+membro do corpo, aleijá-lo-á. Mãos e pés ficam incapacitados se sofrerem um ferimento que          pre duram até o fim de uma luta. Se a vítima
+provoque a perda de um número de pontos de vida maior ou igual a 1/3 da HT do personagem.          falhar em seu teste de HT, os efeitos serão
+Braços e pernas ficam incapacitados se sofrerem um ferimento que provoque a perda de um            duradouros ou mesmo permanentes (veja pág.
+número de pontos de vida maior ou igual a 1/2 de sua HT. Qualquer dano além do necessário          129). Caso contrário, eles desaparecerão assim
+para incapacitar um membro, seja num único golpe ou numa série deles, não afetará a vítima e       que os pontos de HT forem recuperados.
+por isso deve ser ignorado.
+                                                                                                      Note que, apesar de os efeitos de uma lesão
+   Uma lesão deste tipo pode ou não amputar o braço, pé ou membro. Isto dependerá do tipo          incapacitante poderem lhe trazer uma desvanta-
+e extensão do dano (decisão a cargo do Mestre). Para simplificar, qualquer parte do corpo que      gem, seu personagem não ganhará nenhum pon-
+tenha sido inutilizada será considerada “incapacitada”. Os efeitos destas lesões estão descritos   to extra por ela (personagens não ganham pontos
+na coluna ao lado. Veja a pág. 129 para detalhes sobre recuperação.                                por desvantagens conseguidas durante um jogo).
+                                                                                                   Ao invés disso, o número total de pontos de seu
+                                                                                                   personagem será diminuído.
+
+Primeiros Socorros
+
+   A maior parte da Vitalidade perdida em função de uma lesão é devida ao choque e não a danos
+físicos reais. Portanto, um tratamento feito imediatamente após uma luta pode restaurar alguns
+dos pontos perdidos. Um estojo médico (v. Lista de Equipamentos) ajudará.
+
+   Ataduras simples, etc., mesmo que feitas por uma pessoa totalmente inexperiente, restitui-
+rão um ponto de vida perdido numa batalha — mas nunca mais do que isso, não importa a
+extensão de seus ferimentos. Este procedimento toma 30 minutos por vítima.
+
+- 127 -                                                                                            Ferimentos, Doenças e Fadiga
+

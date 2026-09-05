@@ -1,0 +1,86 @@
+    Suporte e Apoio ao Sistema                               O QUE É
+
+    Mais do que um jogo, o RPG é uma forma de           ROLEPLAYING?
+lazer que dá aos participantes a possibilidade de
+criarem histórias, de forma integral ou parcial,       Um roleplaying game é um jogo onde cada participante faz o papel de um
+e viverem papéis dentro das mesmas.                 personagem, tomando parte em uma aventura imaginária. O tipo da aventura é
+                                                    definido por um árbitro chamado Mestre (GAME MASTER ou, abreviadamente,
+    Como o mais bem sucedido sistema genéri-        GM). O Mestre define o cenário e faz o papel dos “personagens incidentais” (“NPCs”
+co de RPG já produzido, o GURPS permite a           — veja Glossário à pág. 250) que os personagens encontrarão durante sua aventura.
+criação de aventuras nos mais diversos tipos de
+mundos ficcionais; da fantasia medieval ao es-         Não há necessidade de tabuleiro para os roleplaying games (apesar de alguns
+paço, da magia à ciência, tudo vale e funciona de   sistemas, entre eles o GURPS, incluírem regras opcionais de combate em tabuleiro).
+forma a permitir que a criatividade seja a chave.   O RPG é jogado verbalmente. O Mestre descreve a situação e diz aos jogadores o que
+                                                    seus personagens vêem e ouvem. Os jogadores então descrevem o que eles estão
+    As regras constantes deste manual incluem       fazendo para vencer o desafio. O Mestre descreve o resultado conseguido com estas
+todas as informações necessárias para “jogar”       ações... e assim por diante. Dependendo da situação, o Mestre pode decidir arbitra-
+G.U.R.P.S., e devem ser utilizadas ou não           riamente o que acontece (com o objetivo de conseguir a melhor aventura), fazendo
+sempre que possam contribuir para o objetivo        referência a uma regra específica do jogo (para decidir o que é possível), ou jogando
+máximo do jogo que é ser sempre o mais diver-       dados (para conseguir um resultado aleatório, o que, vez por outra, pode ser
+tido, interessante e vívido possível.               interessante).
+
+     Com o intuito de auxiliar os jogadores,           Parte do objetivo do roleplaying game é fazer com que o jogador enfrente a situação
+foram criados nos E.U.A. vários tipos de Suple-     como seu personagem o faria. Um RPG permite que o jogador faça o papel de um
+mentos para o GURPS, cada um deles elaborado        implacável samurai japonês, um padre sensato ou um garoto de rua fazendo clandes-
+com o objetivo de levar os participantes a viver    tinamente sua primeira viagem espacial... ou qualquer outra pessoa. Numa dada
+novas aventuras e conhecer novos Universos.         situação, cada uma destas pessoas reagiria de maneira diferente, e é este o objetivo do
+Comentários, Questões e Erratas                     roleplaying game.
+
+    Se ao utilizar este manual você tiver ques-        Portanto, um roleplaying game bem jogado ensina cooperação entre os jogadores
+tões ou dúvidas, sinta-se livre para nos escrever.  e amplia seus horizontes. No entanto, ele não é uma coisa puramente educacional. É
+Seus comentários e sugestões serão sempre           também uma das mais criativas formas de entretenimento. A maior diferença entre o
+muito bem-vindos e poderão orientar e influen-      RPG e as outras formas de diversão é que a maioria delas é passiva, i.e., a audiência
+ciar nossos próximos lançamentos além de futu-      senta e assiste sem tomar parte no processo criativo. No RPG a audiência participa do
+ras revisões. Faremos todo o possível para res-     processo de criação. Enquanto o GM é o principal contador de histórias, os jogadores
+ponder a cada dúvida individualmente. Para          são responsáveis pela criação de seus personagens. Portanto, se eles quiserem que
+facilitar este trabalho, sugerimos que suas ques-   alguma coisa aconteça na história, então farão com que aconteça, porque são parte
+tões sejam colocadas sempre de forma clara e        integrante dela.
+concisa.
+                                                       Enquanto os outros tipos de diversão são produzidos em série para agradar a maior
+    A melhor maneira de solucionar dúvidas de       audiência possível, cada aventura de Roleplaying é uma jóia distinta, lapidada por
+RPG é participar de um grupo ou poder se            aqueles que tomaram parte nela. O GM (ou autor original da aventura) fornece o
+encontrar com mestres mais experientes. Neste       material bruto, mas o polimento é dado pelos próprios jogadores.
+sentido, estaremos incentivando a formação de
+núcleos-GURPS em todo o país. Se você tem um           A outra coisa importante com relação ao RPG é que ele não precisa ser competitivo.
+grupo, certa experiência na área e vontade de       Na maioria das situações o grupo terá, ou não, conseguido realizar seu intento
+apoiar jogadores novos, escreva-nos. Procurare-     conjuntamente, dependendo do quanto eles cooperaram entre si. E, como na vida real,
+mos fornecer-lhe elementos que possam auxiliá-      a maior recompensa por ter jogado bem vem na forma de desenvolvimento do
+lo nesta tarefa. Se você precisa de ajuda, tenta-   personagem. Quanto melhor um jogador representar seu personagem (o julgamento
+remos encontrar um grupo perto de você que          cabe ao GM), mais o personagem ganhará em habilidade.
+possa socorrê-lo.
+                                                       Uma aventura pode ter um objetivo definido: salvar a princesa, encontrar um
+     Não somos perfeitos e, embora tenhamos         tesouro, deter uma invasão; ou pode ser uma história sem fim, onde os personagens
+trabalhado com afinco na tentativa de tornar este   passam de uma travessura a outra. A escolha cabe ao Mestre e aos jogadores. Uma
+livro o melhor e mais acurado possível, certa-      campanha pode durar anos e, nesse tempo, ver a chegada e partida de personagens (e
+mente existirão algumas falhas. Para receber em     jogadores).
+sua residência uma errata atualizada corrigindo
+os erros que já tenhamos descoberto ou nos             No fim de tudo o GM e os jogadores terão criado uma história: como os
+tenham sido apontados por leitores, escreva-        personagens se conheceram, aprenderam a trabalhar em conjunto, encontraram um
+nos.                                                desafio e (esperamos) o superaram!
+
+    Onde nos encontrar:                                                -8-
+   1. Para descobrir o grupo de Apoio GURPS
+ou a loja representante DEVIR (onde podem ser
+obtidos os suplementos) mais perto de sua casa,
+telefone para (011) 242-8200.
+   2. Para ser incluído no Cadastro Nacional de
+Jogadores, receber listas atualizadas de suple-
+mentos nacionais e importados, erratas, enviar
+comentários e sujestões, ou obter suplementos
+pelo correio, escreva para :
+   Devir Livraria Ltda.
+   Caixa Postal 15239
+   CEP 01599-970
+   São Paulo - SP
+   3. Para tirar dúvidas pessoalmente, visite a
+Devir onde, com o objetivo de auxiliá-lo, procu-
+raremos manter uma equipe de mestres de plan-
+tão aos sábados. Nosso endereço é:
+    Rua Augusto de Toledo, nº 83
+    Aclimação - São Paulo.
+    (A dez minutos da Praça da Sé através do
+Ônibus Elétrico - linha Gentil de Moura, que
+pára em nossa porta. )
+
+Introdução
+

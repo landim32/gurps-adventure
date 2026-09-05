@@ -1,0 +1,122 @@
+Limitações
+
+(Continuação)
+
+Limitação Especial
+
+O poder funciona apenas sob certas condi-
+
+ções. O GM define o custo; quanto maior a
+limitação, mais barato o poder. Exemplos:
+O poder funciona apenas quando você não está sob tensão: 1/3 do custo.
+O poder afeta apenas pessoas do mesmo
+sexo, ou apenas do sexo oposto: 1/3 do custo. Em geral, adequado apenas para poderes de Cura
+
+Psíquica, Telepatia ou Antipsi. O poder funciona apenas sob transe hipnóti-
+co ou influência de drogas incapacitadoras: 1/3do custo.
+O poder afeta apenas psis (ou apenas não psis): ½ do custo.
+
+Num caso de Desdobramento de Personali-
+
+dade, o poder só poderá ser usado por uma delas:
+
+2/ do custo. 3 Se o poder funcionar com metade da Potência
+
+em condições normais, mas com Potência total
+
+quando uma determinada condição for satisfei-
+
+ta, o custo será mais alto. Veja a seguir:
+
+2/3 do custo se torna 3/4.
+
+1/ do custo se torna 2/ .
+
+2
+
+3
+
+1/3 do custo se torna 1/2.
+
+1/ do custo se torna 1/ .
+
+4
+
+3
+
+Teste para Ativação De vez em quando sua perícia funciona, de
+vez em quando não. Você nunca conseguiu identificar a razão (ela simplesmente vem e vai). Jogue 3 dados toda vez que quiser usar a perícia. O resultado deve ser menor ou igual ao número de Ativação ou o poder não funcionará. Depois que você conseguiu fazê-lo funcionar, ele continuará normalmente até que você termine aquela operação em particular. Você terá que “ativálo” novamente na próxima vez que tentar usá-lo.
+Se você não conseguir ativar seu poder, poderá tentar no próximo turno, e assim por diante. Mas, cada tentativa consecutiva custar-lhe-á um ponto de Fadiga e o número de ativação será reduzido de 1. Se seu número for 8 e você falhar na primeira tentativa, sua segunda tentativa custará um ponto de Fadiga e será feita contra um número de ativação igual a 7.
+Se você continuar falhando por muito tempo, ou sua fadiga reduzirá sua ST a 3 ou seu número de ativação ficará menor do que 3 (tornando um sucesso impossível). Em qualquer um dos casos, seu poder o terá abandonado e você precisará esperar até conseguir recuperar todos os pontos de Fadiga perdidos antes de tentar de novo.
+Uma tentativa falha de ativar seu poder será notada por aqueles que têm a perícia Percepção Psíquica caso eles viessem a notar um uso bem sucedido.
+Os modificadores de custo para esta limitação são:
+Quando a Ativação do poder ocorrer com um resultado menor ou igual a:
+5 - possibilidade de ativação 7% - 1/ custo do 4
+poder; 7 - possibilidade de ativação 29% - 1/3 custo
+do poder; 9 - possibilidade de ativação 67% - ½ custo
+do poder; 11 - possibilidade de ativação 94% - 2/ custo
+3
+do poder.
+
+O agente precisa estar em contato físico com o objetivo. No caso de um sucesso em um teste de Cura Psíquica ele poderá restaurar HT perdida até o valor de sua Potência. Falhas custam 1D pontos de fadiga. Uma falha crítica custa ao objetivo 1D pontos de vida! O custo em Fadiga da cura bem sucedida é o triplo do número de pontos de vida restaurados.
+Há um redutor igual a -2 quando a vítima está inconsciente e -2 ou mais para curar uma doença. Não é possível restaurar um membro perdido e há um redutor igual a -6 para restaurar um membro incapacitado mas inteiro (cada agente tem direito a apenas uma tentativa em cada um dos membros). É impossível ressuscitar os mortos usando este poder.
+Limitações Especiais: (1) Em adição ao custo em fadiga, o psi perde um número de pontos de vida igual à metade dos pontos curados (arredondado para cima): ½ do custo.
+(2) O psi só é capaz de usar o poder em outras pessoas: ½ do custo. (3) O psi pode usar o poder somente nele: 2/3 do custo.
+
+Antipsi
+Este é o poder psíquico de interferir com o uso de psi. Limitações Especiais: Metade do valor se ele afetar somente o poder psíquico de um outro psi.
+
+Resistência Psíquica
+
+v. pág . 22
+
+A Resistência Psíquica é considerada uma vantagem e não uma perícia psíquica. Veja
+
+descrição completa na pág 22.
+
+Estática Psíquica
+
+*2
+
+Aqueles que têm esta perícia são muitas vezes chamados de “Cigarras”. Uns poucos
+
+cigarras têm controle absoluto sobre sua habilidade, mas a maioria permanece sem
+
+desenvolvê-la. Por este motivo, poucos psis querem contato com um Cigarra.
+
+Um Cigarra pode ativar seu poder “globalmente”, interferindo com todo o psiquismo
+
+em uso na área coberta pela sua Potência (calcula-se o alcance como para a Telepatia, pág.
+
+167). Isto não exige nenhuma jogada de teste. Enquanto a Estática Psíquica estiver ativada,
+
+qualquer utilização de psiquismo (exceto para poderes Antipsíquicos) exige uma Disputa
+
+de Habilidades (o NH em Estática Psíquica do Cigarra contra o NH na perícia que se está
+
+tentando). Custará também ao outro psi (não ao Cigarra) 1 ponto de Fadiga por tentativa,
+
+além dos outros custos. Se o Cigarra vencer a disputa, o psi terá falhado. Se o outro psi
+
+vencer, ele poderá tentar usar seu poder psíquico normalmente.
+
+É possível para um Cigarra interferir especificamente com o uso de psiquismo feito por
+
+qualquer indivíduo que ele seja capaz de ver (através de seus próprios olhos ou de outrem).
+
+Para isto, ele terá que ser bem sucedido em um teste de Estática Psíquica (com um bônus
+
+de +2 se o Cigarra estiver tocando a vítima).
+
+Valor pré-definido: É possível usar este poder sem treino, com um NH igual a IQ-4.
+
+Limitações
+Pode-se assumir uma limitação em qualquer poder psíquico, o que o tornará mais barato mas menos confiável. Uma limitação diminui o custo daquele poder mas afetará todas as perícias sob seu domínio. O custo para estudar perícias particulares não é afetado.
+Pode-se assumir mais de uma limitação no mesmo poder. No entanto, o modificador total de custo não poderá ser menor do que 1/4.
+O modificador de custo será aplicado ao custo total do Poder e depois arredondado para cima. Exemplo: Você tem um modificador de custo de ½. Você está comprando Telepatia (5 pontos por nível). Seu primeiro nível custa 3 (metade de 5 arredondado para cima). Seu segundo nível custará mais 2 (perfazendo um total de 5, metade de 10). Seu terceiro nível custará mais 3, o quarto mais 2 e assim por diante.
+
+Psiquismo
+
+- 176 -
+
+

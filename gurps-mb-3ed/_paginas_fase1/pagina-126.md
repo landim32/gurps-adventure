@@ -1,0 +1,78 @@
+# Página 126
+
+> Nota de transcrição: conteúdo bruto extraído automaticamente do PDF (`pdftotext -layout`), preservado em bloco de código para manter o alinhamento original de colunas e tabelas. Será reformatado em Markdown estruturado na Fase 2 (organização).
+
+```
+15 FERIMENTOS,
+            DOENÇAS E FADIGA
+
+        Exemplo de Registro                            A vida de um aventureiro não é feita só de poesia e glória. Ele também suja a roupa, pode se
+          de Pontos de Vida                         ferir e até morrer. Felizmente, todos estes problemas podem ser resolvidos. Inclusive a morte.
+                                                    Continue a ler ...
+   O diabólico Friedrick tem seu atributo HT
+básico igual a 14 e teve o azar de se ver encur-    Ferimentos
+ralado em um beco sem saída, por um bando
+imenso de orcs. Ele luta valentemente, mas os          Ferimentos e outras lesões causam dano ao corpo, ou seja, “perda de pontos de vida”. O valor
+orcs continuam chegando e Friedrick sofre mais      de seu atributo Vitalidade (HT) diz qual é a quantidade de pontos de vida que você pode perder.
+e mais ferimentos.                                  Um personagem cuja Vitalidade caia a zero desmaiará rapidamente. No entanto, é possível
+                                                    sobreviver com um nível negativo de Vitalidade.
+   Quando o valor de seu atributo Vitalidade é
+reduzido até 3, seus movimentos se tornam mais         Um personagem médio tem de 10 a 12 pontos de vida. Uma olhada na tabela Dano Básico
+lentos e vacilantes. Logo ele sofre um novo         Provocado pelas Armas (pág. 74) mostrará que esta quantidade de pontos pode freqüentemente
+ferimento, que reduz sua HT a zero. No início do    ser perdida, com apenas um ou dois ferimentos. Esta tabela é realista. Lembre-se que a maior
+turno seguinte ele tenta seu teste de HT e é bem    parte das armas são basicamente alavancas (que aumentam drasticamente a força de quem as
+sucedido. Ele se agarra ferozmente a seu estado     usa), ou instrumentos perfurantes com o objetivo de alcançar os órgãos vitais de seu oponente.
+consciente, enquanto mata outro orc. Nos dois       Na realidade, um homem mediano é capaz de matar um outro com um bom golpe de clava na
+próximos turnos ele é bem sucedido em seu teste     cabeça ... sem falar de uma espada, lança ou arma de fogo. Armaduras ajudam ... mas os combates
+de HT (com uma Vitalidade igual a 14 é difícil      são mortais. Tente evitá-los.
+falhar) e permanece consciente. No próximo ele
+fracassa e desmaia logo em seguida.                 Danos gerais (Pontos de Vida Perdidos)
+
+   Os orcs continuam retalhando-o. Quando sua          Alguém que seja ferido várias vezes acabará por enfraquecer e sucumbir, mesmo que nenhum
+HT chegar a -14, ele precisará conseguir um         dos ferimentos isoladamente seja grande. Anote os pontos de vida perdidos em sua PP. Os
+resultado menor ou igual a 14 numa jogada com       personagens que perderem um número de pontos de vida maior do que o valor de seu atributo
+3 dados — caso contrário morrerá. Ele é bem         Vitalidade serão afetados da seguinte maneira:
+sucedido e os orcs continuam massacrando-o
+(eles são muito estúpidos para se lembrarem de         3, 2 ou 1 pontos de vida remanescentes: seu Deslocamento é reduzido à metade (você está
+cortar a garganta de Friedrick). Novos testes de    cambaleando devido aos ferimentos).
+HT são necessários quando sua Vitalidade che-
+ga a -19 e -24. Em cada um deles, ele consegue         Vitalidade menor ou igual a zero: Você corre o risco de desmaiar imediatamente. No início
+um resultado menor do que 14 e agarra-se à vida.    de cada turno, faça um teste de sua HT, mais ou menos o valor de sua vantagem/desvantagem
+Os orcs, no entanto, continuam seu massacre até     Força de Vontade/Vontade Fraca. Obter sucesso nesta jogada significa que o turno seguirá
+que a HT de Friedrick chegue a -70 ou ele           normalmente para você. Um fracasso significa desmaio.
+fracasse em um teste de Vitalidade, o que decre-
+tará sua morte. Somente uma mágica muito               Vitalidade igual a - HT pontos: Você deve ser bem sucedido em um teste de HT (use o valor
+poderosa seria capaz de ajudá-lo agora, e se os     básico) ou morrerá. Se você não morrer, ainda será capaz de falar e lutar. Um novo teste será
+orcs continuarem seu trabalho até que sua HT        necessário a cada 5 pontos de vida perdidos subseqüentemente. Se você perder 6 ou mais pontos
+chegue a -140 (o que pode levar algum tempo),       de vida de um só golpe, deverá ser bem sucedido em dois testes de HT por ter cruzado duas
+não existirá nem mesmo um corpo para reviver        barreiras de 5 pontos. (Se, por exemplo, sua Vitalidade for igual a 8, então -HT significará -8.
+— somente um Friedrickburger.                       Quando sua vitalidade chegar a -8, você deverá ser bem sucedido em seu teste contra HT ou terá
+                                                    morrido. No caso de ter sobrevivido, deverá fazer um novo teste quando sua vitalidade chegar
+         Morte Instantânea                          a -13, e assim por diante.)
+
+   Qualquer personagem pode ser morto por              Vitalidade igual -5 x HT: Morte automática. Isto significa que você perdeu um número de
+decapitação, um corte na garganta, etc., inde-      pontos de vida igual a 6 vezes o valor de sua HT básica. Ninguém é capaz de resistir a uma
+pendentemente do valor de sua HT. Se uma            quantidade de lesão corporal tão grande.
+pessoa indefesa ou inconsciente for atacada de
+uma maneira claramente letal, ela estará morta.        É possível que você queira continuar registrando os danos sofridos pelo seu personagem
+Não se preocupe em fazer uma jogada para            mesmo depois de sua morte, pois em alguns universos ficcionais de magia ou de alta tecnologia,
+averiguar o dano provocado ou calcular pontos       um personagem morto pode ser ressuscitado se seu corpo, ou uma parte dele, for recuperado. É
+de vida remanescentes, etc.                         claro que existe um limite para isso. Se o valor da vitalidade de um personagem for menor ou
+                                                    igual a -10 x HT, seu corpo poderá ter sido completamente destruído. Dependendo do meio de
+   O exposto não se aplica a uma vítima sim-        destruição utilizado, alguma parte dele poderá estar intacta. Duzentos pontos de vida perdidos
+plesmente desprevenida. Se alguém se aproxi-        por ferimentos com flecha resultarão num corpo horrivelmente mutilado, mas ainda reconhecí-
+ma sorrateiramente de uma sentinela, não pode-      vel. Duzentos pontos de vida perdidos devido ao fogo resultarão num punhado de cinzas.
+rá matá-la automaticamente. Ao invés disso, ele
+deve visar um órgão vital e atacar. Se a sentinela  Choque
+estiver simplesmente parada, ela poderá ser
+atacada como um objeto inanimado (pág. 125) e          Toda vez que um personagem for ferido, seus atributos IQ e DX terão seus valores reduzidos
+o atacante ganhará um bônus de + 4 pontos em        em um número de pontos igual ao dano sofrido, apenas no turno seguinte. Exemplo: Se você
+sua jogada de ataque, que certamente será bem       perde 3 pontos de vida, os valores de seus atributos IQ e DX e de suas perícias serão diminuídos
+sucedida. A vítima não terá defesa ativa e o
+atacante provavelmente provocará um dano gra-
+ve o suficiente para incapacitar ou matar a
+sentinela. No entanto, a morte não foi automá-
+tica.
+
+Ferimentos, Doenças e Fadiga                        - 126 -
+```

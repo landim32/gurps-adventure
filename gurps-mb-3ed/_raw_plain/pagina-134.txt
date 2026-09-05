@@ -1,0 +1,40 @@
+Cálculo da Fadiga
+Participando de uma Batalha Qualquer luta que dure mais do que 10
+segundos terá seu preço em pontos de fadiga, a ser cobrado ao fim, da maneira que se segue:
+Sem nenhuma Carga: 1 ponto Carga Leve: 2 pontos Carga Média: 3 pontos Carga Pesada: 4 pontos Carga Muito Pesada: 5 pontos
+Este é o custo por luta, e não por 10 segundos de luta! O GM, ou o autor da aventura, pode imaginar que uma batalha mais longa provoque uma fadiga maior. No entanto, uma luta deveria durar no mínimo 2 ou 3 minutos (120 a 180 turnos) para que um número maior de pontos de Fadiga seja realista.
+Adicione um ponto extra se o dia estiver quente, ou 2 pontos para personagens usando Armaduras de Placas ou um sobretudo. Em níveis tecnólogicos maiores ou iguais a 8, as armaduras completas têm sistema de refrigeração.
+Marcha Exatamente como acima, para cada hora
+de estrada. Uma hora de marcha com uma Carga leve custará 2 pontos de Fadiga (3 num clima quente), e assim por diante. Se o grupo entrar em combate enquanto estiver viajando, assuma (salvo especificação em contrário) que ele já vinha caminhando há uma hora, e cobre as penalidades de Fadiga previstas.
+Corrida ou Natação Faça um teste de HT a cada 100 m de
+corrida ou nado. Um fracasso significa que o personagem perde 1 ponto de Fadiga. Este número não é afetado pela Carga apesar de que uma Carga muito pesada obriga a uma velocidade menor (veja pág. 76).
+Estafa Carregar mais do que uma Carga muito
+pesada ou puxar/empurrar uma carga muito pesada provoca a perda de 1 ponto de fadiga por turno (veja pág. 89). Esforço extra enquanto erguendo peso, pulando, etc., (veja pág. 88), também custa 1 ponto de Fadiga por tentativa
+Sono Uma noite sem dormir custa 5 pontos de
+Fadiga. Perder meia noite de sono custará 2 pontos de Fadiga.
+Operações Mágicas e Poderes Psíquicos O uso da maioria das mágicas (veja cap.
+19) e de algumas habilidades psíquicas (veja cap. 20) também tem seu custo em pontos de Fadiga.
+
+Infecção
+Uma “infecção” é causada por um microrganismo que penetra o corpo através de feridas abertas. É possível apanhar uma infecção em qualquer lugar. No entanto, certas áreas (especialmente selvas) podem abrigar formas bastante agressivas de infecção.
+O GM pode exigir um teste para infecção se: (a) as circunstâncias de uma batalha assegurarem que um ferimento permanecerá sujo, ou (b) algum tipo especial de infecção estiver presente na área. Deve-se fazer um único teste de HT. Os detalhes ficarão por conta do Mestre.
+Se estas condições não se verificarem, uma infecção será curada da mesma maneira que uma doença. Alguns exemplos de resultados de testes:
+Para evitar uma infecção resultante de sujeira em um ferimento: .......................... HT +3 Idem, numa área com um tipo especial de infecção: ........................................ HT Para evitar uma infecção decorrente de um espeto contaminado com esterco: ......... HT +1 Idem numa área com um tipo especial de infecção: ........................................ HT -2 Se o ferimento infectado estiver localizado na cabeça ou no tronco, toda a perda de HT será “genérica”. Se o ferimento estiver em uma mão, pé ou membro e progredir até o ponto onde ela custou à vítima mais da metade de sua HT, o membro afetado deverá ser amputado para salvar a vida da vítima. A infecção será então considerada curada.
+Fadiga
+A Fadiga resulta em perda de Força, da mesma forma que os ferimentos resultam em perda de Vitalidade. Se sua ST for igual a 10, você poderá perder 10 “pontos de Fadiga” antes de desmaiar devido à exaustão. Quando um personagem sofrer de fadiga, mantenha uma anotação própria em sua PP, no espaço próximo à sua ST. A Fadiga não afeta a HT.
+Pode-se ficar fatigado devido a um esforço excessivo, correr longas distâncias, falta de ar, uso de poderes psíquicos, uso de magia, etc... Você também está sujeito à fadiga depois de uma batalha que dure mais de 10 segundos (você gasta energia rapidamente quando luta pela vida). A Fadiga resultante de uma luta é igual ao seu nível de Carga +1, i.e., um guerreiro sem Carga sofre 1 ponto de fadiga.
+Um guerreiro submetido a Carga muito pesada sofre 5 pontos de fadiga! Os operadores mágicos não “cruzam espadas” com seus adversários e, por isso, não terão sua ST drenada por fadiga. Porém, o uso de sua mágica lhes custará pontos de Fadiga.
+Enquanto sua ST estiver reduzida devido à Fadiga, todos os “testes de habilidade” feitos durante uma tentativa de erguer ou arremessar um objeto, ou qualquer outro uso de força, serão feitos com um valor de ST reduzido. Da mesma maneira, o NH em perícias baseadas em sua ST sofrerá uma redução igual ao valor de sua fadiga. Exemplo: Se sua ST for igual a 10 e você tiver perdido 4 pontos de Fadiga, tudo se passará como se sua ST fosse igual a 6!
+No entanto, o dano básico que você provoca com as armas permanecerá inalterado. O motivo desta simplificação é evitar o constante recálculo dos efeitos das armas, e garantir a fluência do jogo.
+Do mesmo modo, seu parâmetro Deslocamento não será afetado pela fadiga até que o valor de sua ST chegue a 3. A partir deste ponto, reduza seu Deslocamento à metade (arredondado para baixo).
+Se a fadiga reduzir sua ST a 1, você desfalecerá e não conseguirá realizar nenhuma atividade física enquanto não tiver descansado o suficiente para recuperar pelo menos 1 ponto de ST. Você será capaz de continuar a falar, fazer mágicas, usar poderes psíquicos, etc. Você poderá continuar lutando, se estiver se afogando.
+Se a fadiga reduzir sua ST a zero, você desmaiará e, automaticamente, descansará até sua ST voltar a 1 e você despertar. É impossível ter uma Fadiga “negativa”.
+Recuperação da Fadiga
+Qualquer um que esteja fatigado poderá recuperar seus pontos de ST simplesmente descansando tranqüilamente. Pode-se falar e pensar, mas passear ou qualquer outra atividade mais enérgica não. Cada 10 minutos de descanso curarão 1 ponto de fadiga. O GM pode permitir que 1 ponto extra de fadiga seja recuperado, se o personagem tiver uma refeição decente enquanto descansa.
+A Fadiga causada por falta de sono será automaticamente suprimida por uma boa noite de sono, mas somente quando ela acontecer. Certas drogas eliminam a fadiga. Num mundo onde exista magia, existirão também encantamentos e poções para eliminar a fadiga, curar ferimentos e doenças, etc...
+
+Ferimentos, Doenças e Fadiga
+
+- 134 -
+
+

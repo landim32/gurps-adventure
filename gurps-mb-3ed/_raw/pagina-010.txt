@@ -1,0 +1,89 @@
+        Tipos de Personagens                              CRIAÇÃO DE UM
+                                                            PERSONAGEM
+   Não existem “classes de personagens” no
+GURPS. Todo personagem é potencialmente capaz             Esta é a primeira parte do jogo, e uma das mais importantes. A idéia de Roleplaying
+de adquirir qualquer perícia ou conjunto de perícias.  é justamente a de fazer o papel de uma outra pessoa, um personagem criado por você
+As únicas restrições existentes são ditadas pelo       mesmo. O GURPS lhe permite decidir com exatidão em que tipo de herói você vai se
+realismo e total de pontos.                            transformar.
+
+    No entanto, os personagens comumente encon-           Existem duas maneiras de se criar um personagem. A maneira mais rápida envolve
+trados em literatura de gênero podem ser divididos     o uso de dados e está explicada na pág. 84. O outro modo (o mais usual) é inventar
+em várias categorias. Se você sentir necessidade de    o personagem como se ele fizesse parte de uma história que você está escrevendo.
+inspiração quando estiver criando seu personagem,
+leve em consideração algumas destas:                      Primeiro é preciso decidir-se sobre o tipo de personagem que você deseja ser:
+                                                       guerreiro, espião, aventureiro ou trapaceiro?
+    Guerreiro. Independente da época ou universo
+em que se joga, ele (ou ela) conhece várias técnicas      Você pode se inspirar em um herói ficcional ou criar seu novo “eu” a partir do nada.
+marciais com armas e pelo menos uma sem. As            De qualquer maneira, comece com alguma idéia do tipo de pessoa que você deseja
+perícias Tática e/ou Estratégia também podem aju-      representar.
+dar. ST e DX são os atributos mais importantes,
+apesar de que um valor alto de HT sempre ajuda.           Quando criamos um personagem, temos 100 pontos para “gastar” com suas
+Entre as vantagens úteis incluem-se Rijeza,            aptidões. Quanto maior for a força que você deseja que ele tenha, maior será o número
+Hipoalgia, Reflexos em Combate, Ambidestria,           de pontos que isto lhe custará.
+Visão Periférica e Recuperação Alígera.
+                                                          É possível também “comprar” habilidades especiais para seu personagem, chama-
+    Ladrão ou Espião. Precisa de valores altos de      das vantagens. Se você desejar que seu personagem tenha mais do que 100 pontos de
+IQ e DX. Qualquer uma das perícias encontradas na      habilidades, pode obter alguns extras, dando-lhe uma capacidade menor que a média
+seção que começa na página 65 pode ser útil -          em alguns de seus atributos básicos, ou seja, assumindo desvantagens - deficiências
+principalmente Furtividade. Espiões geralmente         específicas como miopia ou acrofobia (medo de lugares altos).
+falam mais de uma língua.
+                                                          Comece com a Planilha de Personagem (veja pág. 12). Você encontrará algumas
+    Mago. Aptidão Mágica e/ou IQ são vitais. DX        em branco no livreto que acompanha esta edição. Preencha-a enquanto cria o
+é útil. Certamente este tipo de personagem é mais      personagem e anote os pontos gastos. Você pode fazer quantas cópias quiser desta
+comum em mundos onde existe magia. No entanto,         planilha, desde que seja para seu uso pessoal.
+em mundos com nível de mana baixo, onde a magia
+é rara, o efeito surpresa provocado pela aparição de      Existem quatro personagens com suas respectivas planilhas (PP) nas págs. 214 a
+um mago pode compensar seu alto custo ou eficiên-      217, que podem servir como exemplo ou ser usados em qualquer uma das aventuras
+cia diminuída. A Aptidão Mágica pode ser combina-      incluídas neste volume.
+da com qualquer outro tipo de personagem. Você
+pode ser um mago-guerreiro, um ladrão mágico,             O personagem Dai Blackthorn (pág. 214) foi usado nos exemplos constantes deste
+etc...                                                 capítulo e sua planilha pode ser usada como referência, enquanto o lê.
+
+   Clérigo. Este tipo de personagem é mais efetivo
+em mundos onde os deuses são uma força real e a
+magia funciona. Um clérigo pode fazer uso de
+Teologia, Diplomacia e todos os tipos de Perícias
+Médicas. Escolhas óbvias de desvantagens para
+este tipo de personagem são Honestidade e Pacifis-
+mo, apesar de alguns clérigos serem também guer-
+reiros. Religiões específicas podem exigir perícias
+específicas. Druidas, por exemplo, devem ser Na-
+turalistas.
+
+    Assoldado. Os atributos mais importantes para
+um assoldado são DX e IQ. Além disso, perícia com
+armas, o conhecimento de artes marciais e outros
+talentos especializados (Sex-appeal e Acrobacia
+por exemplo) podem ser úteis. Ele pode ser um
+mercenário, um piloto de táxi aéreo que voa para
+lugares remotos, um repórter ou mesmo um comer-
+ciante (neste caso, Comércio é uma perícia desejá-
+vel).
+
+    Mecânico. Um especialista em máquinas de
+qualquer tipo, desde que compatíveis com o nível
+tecnológico de seu mundo. Neste caso, IQ é o
+atributo mais importante e DX é muito útil. Todas as
+perícias relacionadas com manufatura e engenharia
+são convenientes para um personagem deste tipo.
+
+    Ranger. É um mateiro. Todos os atributos são
+igualmente importantes. A Empatia com Animais
+pode ser uma vantagem útil. Entre as perícias mais
+significativas se incluem: Sobrevivência, Naturalis-
+ta, Rastreamento e todas aquelas relacionadas com
+animais.
+
+    Especialista. Um cientista, naturalista ou pro-
+fessor. Este personagem será muito mais útil se tiver
+várias perícias científicas, sendo uma ou duas delas
+num nível de especialização muito elevado. O atri-
+buto mais importante é IQ. Ter Memória Eidética
+também ajuda.
+
+    Você pode criar o seu personagem com qual-
+quer combinação de perícias - estes são apenas
+alguns dos tipos mais comuns.
+
+Criação de um Personagem                               - 10 -
+

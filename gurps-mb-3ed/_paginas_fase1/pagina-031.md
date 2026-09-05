@@ -1,0 +1,130 @@
+# Página 031
+
+> Nota de transcrição: conteúdo bruto extraído automaticamente do PDF (`pdftotext -layout`), preservado em bloco de código para manter o alinhamento original de colunas e tabelas. Será reformatado em Markdown estruturado na Fase 2 (organização).
+
+```
+                                                                                               Desvantagens Mentais
+
+Mau Humor                                            -10 pontos             Fanfarronice                                                -10 pontos
+
+    O personagem não tem um controle total de suas emoções. Ele deverá          Você gosta de intimidar as pessoas sempre que é possível fazê-lo
+fazer um teste de Vontade em qualquer situação de tensão. Uma falha         impunemente. Dependendo de sua personalidade e de sua posição, isto
+significa que ele perdeu a paciência e deve insultar, atacar ou agir de     pode tomar a forma de agressões físicas, hostilidade intelectual ou “gelo”
+alguma maneira contra a causa de sua explosão.                              social. Faça um teste de Vontade para tentar evitar uma bravata grosseira
+                                                                            quando você sabe que não deveria, mas para representar seu personagem
+Fúria                                                -15 pontos             de maneira apropriada você precisa provocar a tantas pessoas, quantas
+                                                                            puder. Como ninguém gosta de um fanfarrão, seus testes de reação estarão
+Como o Mau Humor, só que pior. O personagem tende a perder o                submetidos a um redutor de -2.
+
+controle de si próprio quando submetido a alguma tensão, passando a
+
+atacar freneticamente quem ou o que quer que creia ser a causa de seu
+
+problema. (Não se pode assumir as duas desvantagens, Fúria e Mau            Código de Honra                         -5 a -15 pontos
+
+Humor.)                                                                     O personagem tem orgulho de um conjunto de princípios que ele segue
+
+Sempre que ele for atingido por mais de 3 vezes numa rodada, deverá         todo o tempo. Os Códigos de Honra diferem entre si, mas todos eles exigem
+
+fazer um teste de Vontade. Uma falha significa que ele ficou enfurecido.    um comportamento (segundo seus próprios padrões) “viril”, “corajoso” e
+
+Outras situações de extrema tensão (opção do GM) podem, também,             “honrado”. Um código de honra pode também ser chamado de “orgulho”,
+
+requerer este tipo de teste, para evitar o enfurecimento. Um personagem     “machismo” ou “fachada”. Não importa o nome, ele significa a disposição
+
+com esta desvantagem pode se enfurecer deliberadamente, fazendo uma         de arriscar a vida ao invés de ser considerado desonrado... seja lá o que isso
+
+manobra de “Concentração”, e obtendo sucesso num teste de Vontade.          signifique.
+
+Enquanto ele estiver enfurecido, deverá fazer um Ataque Total sempre        Em qualquer cultura existem aqueles que fingem respeitar, mas não
+
+que um oponente estiver ao alcance, ou então uma manobra de Desloca-        têm nenhum, e outros que realmente tentam seguir um código mas não
+
+mento para aproximar-se ao máximo de um oponente, quando não houver         conseguem viver todo o tempo segundo seus princípios. Mas só alguém
+
+nenhum por perto. No caso do inimigo estar a mais de 20 m de distância, o   que realmente siga um código de honra pode receber os pontos relativos a
+
+“enfurecido” pode atacar com armas de longo alcance, sem gastar tempo       esta desvantagem.
+
+para mirar o alvo.                                                          Um Código de Honra é uma desvantagem porque ele exigirá, com
+
+Fúria Tecnológica. Se um atirador experiente ficar enfurecido, ele vai      freqüência, um comportamento perigoso (se não imprudente). Além disso,
+
+disparar tantos tiros quantos puder em cada turno, até descarregar sua      uma pessoa honrada pode ser forçada a situações desfavoráveis, porque
+
+arma. Ele não irá recarregá-la, a menos que tenha as perícias Sacar Rápido  seus inimigos sabem que ela tem honra.
+
+e Rapidez de Recarga, que lhe permitirão fazê-lo “sem pensar”. Quando       Não é o mesmo que Dever ou Senso de Dever, que levariam um
+
+sua arma estiver descarregada, ele atacará com as próprias mãos ou com      samurai ou um granadeiro inglês, por exemplo, a se lançarem em batalha
+
+outra arma, e nunca perderá tempo fazendo pontaria.                         contra inimigos terríveis por um questão de obrigação, e não por honra
+
+Enquanto estiver enfurecido, ele não sofrerá atordoamento e os feri-        pessoal (embora seja evidente que eles ficariam desonrados, se fugissem).
+
+mento não acarretarão penalidades ao seu Deslocamento nem às jogadas de     Os riscos que uma pessoa enfrenta por sua honra só dizem respeito a ela
+
+ataque. Todo os testes para mantê-lo vivo ou consciente são feitos contra   mesma.
+
+HT+4. Se ele for bem sucedido em todos, permanecerá vivo e atacando         O valor de um Código específico, em pontos, varia em função da
+
+desvairadamente até que sua HT fique reduzida a (-5xHT). Então, ele cairá   quantidade de problemas que acarreta a seus seguidores, e de quão
+
+morto!                                                                      arbitrárias e irracionais sejam suas exigências. Exemplos:
+
+Quando um personagem enfurecido derrota seu oponente, ele pode (se          Código de Honra dos Piratas: Sempre se vingar de um insulto,
+
+o jogador quiser) fazer um teste de Vontade, para sair do estado de Fúria.  independente do perigo que isto possa acarretar; o inimigo de um compa-
+
+Se ele falhar (ou não fizer a jogada), continuará enfurecido e atacará o    nheiro é seu inimigo; nunca atacar um companheiro de tripulação ou amigo,
+
+próximo oponente. Qualquer amigo que tente pará-lo será encarado como       a não ser em um duelo justo. Este código de honra pode ser usado também
+
+um inimigo! O “furioso” faz um teste de Vontade para cada adversário        por bandoleiros, gangues de motociclistas e assim por diante. -5 pontos.
+
+derrotado, e uma jogada extra ao vencer o último oponente. Se falhar,
+
+significa que passará a atacar os amigos...
+
+Ao sair do estado de Fúria, todos os ferimentos sofridos irão afetá-lo
+
+imediatamente. Faça um teste de HT, para saber se ele continuará vivo e
+
+consciente.
+
+Sanguinolência                                       -10 pontos
+
+O personagem deseja ver seus oponentes mortos. Em uma batalha ele               Código de Honra dos Cavalheiros: Nunca faltar com a palavra. Nunca
+                                                                            ignorar um insulto dirigido à sua pessoa, a uma dama ou à sua bandeira; os
+preferirá os golpes mortais, dará um tiro a mais para ter certeza de ter    insultos só podem ser apagados com um pedido de desculpas ou um duelo
+                                                                            (não necessariamente até a morte). Nunca tirar vantagem de qualquer
+matado um oponente vencido, atacará guardas quando isto poderia ser         maneira de um oponente; armas e circunstâncias devem ser equivalentes
+                                                                            (exceto é claro em uma guerra). Este código de honra é adequado principal-
+evitado, etc. Ele precisará ser bem sucedido em um teste de Vontade para    mente para os espadachins ingleses, europeus ou das colônias. Note que ele
+                                                                            se aplica somente entre cavalheiros; uma descortesia de alguém de status
+aceitar a rendição de um inimigo ou mesmo fazer um prisioneiro quando       social menor que 0 é digna de uma surra de chicote e não de um duelo. -10
+                                                                            pontos.
+isto lhe for ordenado. Ele nunca esquecerá que um inimigo é um inimigo,
+                                                                                Código de Honra dos Cavaleiros: Igual ao anterior, exceto que as
+mesmo que não estejam em um combate.                                        bandeiras não haviam ainda sido inventadas; o personagem deve se ofender
+                                                                            com qualquer insulto a seu senhor feudal ou à sua fé. Adicionalmente, um
+Esta pode ser uma característica realmente maligna, mas a maioria dos       seguidor deveria proteger qualquer dama ou pessoa mais fraca do que ele;
+                                                                            aceitar um desafio de qualquer pessoa de posição igual ou superior à sua.
+heróis ficcionais sofre dela. O personagem não é fanático nem sádico; sua   Mesmo em guerra, as forças e armas devem ser equivalentes se o oponente
+                                                                            também for um cavaleiro. -15 pontos.
+animosidade se limita aos inimigos “legítimos”, sejam eles criminosos,
+
+soldados inimigos, membros de uma família tradicionalmente inimiga ou
+
+um bêbado em uma taverna.
+
+Freqüentemente, ele tem uma boa razão para se sentir desta maneira e
+
+numa briga comum em uma taverna ele usará os punhos como todo mundo.
+
+Por outro lado, um gladiador ou duelista com esta desvantagem seria
+
+extremamente impopular. Um policial logo estaria enrascado.
+
+                                                                    - 31 -                                          Desvantagens
+```

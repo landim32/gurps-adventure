@@ -1,0 +1,41 @@
+3 Você acende a vela com as brasas. Se desejar, pode levar a vela e o castiçal consigo. Eles pesam mais ou menos 0.5 kg. Volte ao parágrafo 128 e faça uma nova escolha.
+4 O vigia ri. “Muito bem, meu amigo, vou deixá-lo viver”. Ele coloca a lâmina em sua garganta e o leva de volta para a sala de estar. Ele o revista e toma tudo o que você tem de valor — incluindo o que era originalmente seu. Aí, ele o escolta até a porta de entrada e sua aventura está encerrada.
+5 Você percebe que uma das tábuas do assoalho da despensa parece estar fora do lugar. Empurra um barril para investigar e descobre um alçapão no assoalho, que depois de aberto revela uma escada.
+Se você deseja descê-la, vá para o parágrafo 71. Se preferir estudar melhor o aposento desvie para 111. Em qualquer um dos casos, você sabe que este alçapão existe. Faça uma anotação deste fato. Sempre que estiver em 111, poderá voltar aqui.
+6 Cuidadosamente, você alcança o cordão do sino e tenta cortá-lo sem que o sino soe. Faça um teste contra DX + 3. Em outras palavras, apenas para esta tentativa, o valor de seu atributo DX será considerado 3 pontos maior que o normal ... afinal, cortar um cordão não é uma tarefa tão difícil.
+Se você foi bem sucedido, desvie para 55. Caso contrário, você tocou o sino enquanto tentava cortar o cordão. Vá para o parágrafo 139.
+7 Fatso está mais interessado em salvar sua vida do que seu dinheiro. Ele apanha uma bolsa debaixo de seu colchão. Ela é pequena e seu peso é desprezível, mas o seu tilintar é muito atraente. Você poderá levá-la consigo se desejar, já que agora não tem tempo para descobrir o que há dentro dela, pois alguém vem subindo pela escada.
+Se deseja tocar a campainha, desvie para o parágrafo 78. Se deseja esperar e ver quem entra no quarto, vá para o parágrafo 49.
+8 A chave que você tirou do cordão que estava em volta do pescoço de Fatso serviu como uma luva. Vá para 97.
+9 Você não foi rápido o suficiente. A aranha pica-o e a dor é intensa. Seu atributo DX será diminuído em 1 ponto durante todo o resto da aventura e sua mão ficará inchada e sensível por vários dias.
+Se você ainda deseja examinar o frasco, desvie para 118. Se prefere examinar outra coisa qualquer, vá para 68.
+10 Você está no quarto do vigia e ele está no seu encalço. Não há tempo para estudar a situação. O quarto tem uma passagem para o salão. Vá para 157.
+11 A única coisa que você conseguiu com seu golpe desajeitado foi acordar o gigante, que agarra a cimitarra (ou o punhal, se você estiver de posse da cimitarra) e rola para o lado. Surpreso, você permite que ele se levante. No entanto, a iniciativa ainda é sua e você o ataca novamente com a arma que usara da primeira vez.
+Desvie para 76.
+12 Até onde você consegue discernir, estes tonéis de cerveja estão aqui há muito tempo. Isto é tudo. Volte para 16 e escolha novamente.
+13 Este frasco está cheio com algum tipo de pó vermelho. Faça um teste de Paladar para tentar identificá-lo. Este é um Teste de Sentido; jogue 3 dados contra seu atributo IQ somado a algum bônus, se houver, devido à vantagem de Paladar/Olfato Apurado.
+Vá para 29, se você for bem sucedido. Caso contrário, desvie para 137.
+Se você tiver a desvantagem da Anosmia (ausência de olfato e paladar), não precisará nem se preocupar em tentar cheirar o pó. Neste
+
+caso, volte para o parágrafo 68.
+14 Você começa a subir as escadas de volta à despensa. Faça um teste de sua Furtividade. Em caso de sucesso, vá para o parágrafo 111. Caso contrário, vá para 117.
+15 Esta é a voz da sua consciência. Você é um ladrão, não um assassino. Você realmente deseja fazer isso? Mesmo que você esteja desejando matar alguém a sangue-frio, lembre-se que a Guarda da Cidade e mesmo a Associação dos Ladrões prestará muito mais atenção a um assassinato do que a um roubo comum.
+Se você ainda deseja tentar matar o gigante, vá para o parágrafo 21. (Não poderá fazê-lo se tiver a desvantagem do Pacifismo.)
+Vá para 83, se você vai tentar apenas nocauteá-lo. Se escolheu simplesmente não atacá-lo, vá para 149.
+16 Você está em um depósito debaixo da despensa. Há uma prateleira cheia de garrafas de vinho ao longo de uma das paredes. Existem mais ou menos duas dúzias de tonéis empilhados próximo a uma outra parede. Uma terceira tem um monte de sucata: caixas, estátuas, barricas, etc...
+Você tem várias alternativas neste aposento. Lembre-se, quando voltar aqui, que cada uma das opções pode ser escolhida apenas uma vez.
+Se você tem a desvantagem do alcoolismo, vá imediatamente para 116 — não leia ainda as outras alternativas.
+Se quiser examinar a prateleira de vinho, vá para o parágrafo 125. Vá para 94, se você quiser examinar os tonéis. Vá para 154, se preferir examinar a sucata próxima à parede. Vá para 14, se você se decidir a sair da sala.
+17 As estatuetas pareciam não ter valor, mas examinando a última delas, você descobriu uma abertura e dentro dela um amuleto em uma corrente. Eles parecem ser de ouro puro. Pesam pouco, mas são ricamente trabalhados. Você pode levá-los consigo, se o desejar.
+Se você deseja examinar o próprio Fatso, vá para o parágrafo 52. Se desejar voltar para baixo, vá para 111.
+18 Você está no topo de um lance de escadas. Existe apenas uma porta aqui. Vá para 64, se você desejar verificar a porta, ou para 111, se desejar voltar a descer as escadas.
+19 Você rompe o selo e abre a bolsa. Ela comeca a soltar fumaça, muita fumaça. Você tenta fechá-la apressadamente, mas é tarde. A fumaça se solidifica e o ataca ...
+Este é o fim de sua aventura.
+20 Você olha em redor por alguns minutos e ergue uma ou duas das estátuas para testá-las, mas não encontra nada que pareça valioso e ao mesmo tempo possa ser carregado. Enquanto procura, você ouve o homem corpulento gemer e resmungar. Você fica imóvel e, logo depois, ele está ressonando novamente.
+Vá para o parágrafo 43, se você desejar fazer uma busca cuidadosa. Se preferir sair do quarto pela mesma porta que entrou, vá para 18.
+
+Uma Noite de Trabalho
+
+- 220 -
+
+

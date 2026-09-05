@@ -1,0 +1,38 @@
+aliados não podem tirar vantagem de sua finta; o redutor de defesa se aplica apenas para seu ataque).
+Se ambos forem bem sucedidos, mas você tiver conseguido o sucesso por uma margem maior, a diferença entre as margens será subtraída da defesa de seu oponente. Exemplo: Seu nível de habilidade é 15 e você conseguiu um 10. Sua margem foi igual a 5. O nível de habilidade de seu oponente é 14 e ele conseguiu um 12. A margem dele foi igual a 2. A diferença, 3, será subtraída de sua defesa em seu próximo turno.
+Esta manobra pode ser um salva-vidas ou uma perda total de tempo. Use-a com sensatez.
+Aguardar
+Você não faz nada a menos que o oponente entre em seu raio de ação antes de seu próximo turno. Se isto ocorrer, você poderá atacá-lo (um ataque normal, não total). Como no Sistema Básico o movimento é completamente abstrato, você terá pouca necessidade desta manobra. É possível usar qualquer defesa no turno em que se Aguarda.
+Defesa Total
+Defender a si mesmo e não fazer mais nada durante aquele turno. Se você falhar em sua jogada de Defesa contra qualquer ataque, poderá tentar uma outra defesa (diferente). Em outras palavras, você tem duas jogadas de defesa, usando duas defesas ativas diferentes contra o mesmo ataque. Você está limitado a dois bloqueios e dois movimentos de Aparar por turno quando escolhe a Defesa Total, e não pode aparar duas vezes com uma arma que precisa ser preparada depois de um movimento de Aparar.
+Concentrar
+Fazer uma mágica ou alguma outra coisa que exija concentração mental. Você pode usar qualquer defesa enquanto está se concentrando, mas uma defesa durante a concentração desviará a atenção, a menos que se consiga um sucesso em um teste de Vontade.
+Ação Demorada
+Esta não é uma manobra específica; ela é uma escolha “genérica”, que permite realizar um segundo de uma operação que dura mais de um. O GM decide quantos segundos cada “ação demorada” levará; v. na pág. 107, uma tabela com algumas das ações demoradas mais comuns. Como regra, nenhuma defesa com exceção da esquiva é possível durante uma ação demorada, mas o GM pode mudar isto conforme ele achar necessário. Qualquer tipo de defesa pode interferir com o que se está tentando fazer.
+Ações Independentes
+Estas são coisas que se pode fazer durante qualquer manobra. Elas incluem falar, deixar cair armas ou outros objetos, manter mágicas (se você estiver usando magia), etc. Veja a pág. 107 para mais detalhes.
+Fazendo um Ataque
+Cada ataque é resolvido com 3 lançamentos de dados. Primeiro sua Jogada de Ataque. Se ela for bem sucedida, seu ataque foi bom. Agora seu oponente deve fazer uma Jogada de Defesa para ver se consegue se defender de seu golpe. Se ele for bem sucedido, não terá sido atingido. Se ele falhar em sua jogada de defesa, seu golpe o terá atingido e você faz uma Avaliação de Dano.
+Se você escolheu a manobra Ataque, Ataque Total ou Aguardar, você poderá tentar atingir o oponente. No Sistema Básico de Combate você não precisa se preocupar com a localização exata de seu inimigo. Você pode atacar qualquer adversário, a menos que o GM decrete que aquele ataque é impossível por alguma razão.
+Você não pode atacar se sua arma não estiver preparada. Uma espada ou faca está sempre preparada. Uma arma desbalanceada, como um machado, fica despreparada quando você a usa, por isso ela só pode ser usada em turnos alternados. V. pág. 104.
+Fazendo uma Jogada de Ataque
+Sua “Jogada de Ataque” é um Teste de Habilidade normal. Calcule seu nível de habilidade efetivo (seu nível de habilidade básico mais ou menos os modificadores apropriados) com a
+
+Exemplo de Combate
+Louis LeBlanc é o atacante. Sua arma é um machete que é considerado como uma espada curta. Seu nível de habilidade com este tipo de espada é 15, e não há condições adversas a serem subtraídas do resultado de sua jogada. Logo, ele precisa tirar um número menor ou igual a 15 para atingir seu adversário. Ele brande a espada, joga os dados e tira 13, o que significa que ele acertou.
+Seu oponente, Pierre, o Sujo, tem um Deslocamento igual a 4 (o que lhe dá uma Esquiva igual a 4). Seu NH com o escudo é 14 (o que significa que sua defesa Bloqueio com o escudo será igual a 7), e seu NH com Espadas Curtas é igual a 13 (o que lhe garante um Aparar igual a 6). Seu Bloqueio é sua melhor defesa, por isso ele vai usá-lo sempre que puder.
+O pequeno escudo de Pierre é também uma boa defesa passiva valendo 2 (veja Tipos de Escudos na pág. 76).
+Pierre está vestindo um Laudel, que confere uma defesa passiva igual a 1 (veja Armaduras, pág. 72).
+Portanto, as defesas de Pierre são 7+2+1= 10. Se ele bloquear e conseguir um resultado menor ou igual a 10, ele será capaz de se defender do golpe preciso que Louis acabou de desferir. Ele joga e tira 11. Azar, ele foi atingido.
+Apesar de os cálculos de um combate parecerem complexos à primeira vista, eles são simples de se jogar. O atacante faz um teste contra sua perícia, mostrada na planilha. O defensor soma suas defesas, também mostradas em sua planilha, e faz uma jogada contra o total. É isso!
+Continuando nosso exemplo: Louis está atacando Pierre. Seu golpe foi bom e Pierre não conseguiu se defender, tendo sido atingido.
+Agora Louis faz uma jogada de avaliação de dano. O jogador de Louis já calculou quanto dano ele provoca com uma espada curta e anotou este dado em sua planilha ... Sua força é 11, o que significa que seu balanço provoca 1D+1 pontos de dano. Ele joga um dado e tira 4. Somando 1 ponto, temos 5. Logo, Pierre foi atingido por 5 pontos de dano básico.
+No entanto, Pierre está vestindo um Laudel (RD igual a 1). Isto lhe dá 1 ponto de proteção, o que significa que apenas 4 pontos de dano ultrapassaram a armadura.
+Mas a espada é uma arma cortante. O dano que ultrapassa a armadura deve ser aumentado em 50%, para 6. Portanto, Pierre perdeu 6 pontos de vida. Este golpe poderia nocautear um homem mais fraco. Triste, mas verdadeiro; um bom golpe de espada é capaz de decidir uma luta.
+O jogador de Pierre subtrai 6 pontos de sua HT. Por sorte, este valor não é mais do que a metade de sua HT básica de 12. Pierre não está atordoado e não tem que jogar para ver se foi nocauteado. No entanto, se ele atacar na próxima rodada, deverá subtrair 6 de seu nível de habilidade. E a luta continua...
+
+- 97 -
+
+Sistema Básico de Combate
+
+

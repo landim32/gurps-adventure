@@ -1,0 +1,124 @@
+Dano Provocado em Escudos:
+Uma Regra Opcional
+Esta regra permite que os escudos sejam danificados e/ou inutilizados em combate. Não use esta regra a não ser que você esteja disposto a tolerar um pouco de contabilidade a fim de obter um combate mais realista.
+Toda vez que a margem de sucesso de sua jogada de defesa for menor ou igual à DP de seu escudo, ele terá sido atingido pelo golpe. Ex.: Você tem um Escudo grande (DP 4) e o total de sua defesa é 12. Qualquer resultado entre 9 e 12 em sua jogada de defesa significará que o golpe não o atingiu, mas apanhou o escudo. Qualquer golpe que atinja seu escudo poderá danificá-lo.
+Os escudos de madeira têm uma Resistência a Dano inerente igual a 3 (equivalente a 2,5 cm de madeira ou menos, com um revestimento de metal de 3 mm). Subtraia 3 pontos de qualquer golpe que atinja seu escudo antes de avaliar o dano sofrido por ele.
+
+Tabela de Danos Sofridos pelo Escudo
+
+Tipo de Escudo Improvisado Broquel Pequeno Médio Grande
+
+DP 1 ou 2
+1 2 3 4
+
+Dano varia 5/20 5/30 7/40 9/60
+
+DP: A Defesa Passiva do Escudo Dano: Descrito por dois números separados por uma barra. O primeiro mostra a quantidade de dano em um só golpe que seria capaz de penetrar no escudo. Ex.: Um golpe com 5 pontos penetrará em um broquel ou num escudo pequeno. Se uma arma cortante ou contundente penetrar em um escudo, você não será atingido, mas ele estará inutilizado. Se uma arma perfurante penetrar o escudo, você será atingido por um golpe enfraquecido pelo número de pontos de dano sofridos pelo escudo, mais 3 devido à sua RD. A não ser por este dano, o escudo permanece intacto. O segundo número mostra a quantidade total de dano que seu escudo é capaz de suportar. A maioria dos escudos medievais era feita de madeira ou de madeira com um revestimento de metal. Depois de uma boa batalha o escudo ficava imprestável. Anote o número total de pontos de dano sofridos por seu escudo; quando ele ultrapassar o segundo número, o escudo terá sido destruído. Existiam escudos de metal (normalmente bronze) disponíveis em NT 2 a 4 apesar de serem incomuns. Quadruplique o custo, triplique o peso e duplique a quantidade de dano que um escudo de bronze com 12 mm de espessura pode sofrer antes de ser destruído. Sua RD é 6 (ele desviará a maioria das flechas e algumas balas). A DP continua a mesma (este é o motivo pelo qual estes escudos eram raros). Os escudos usados pelas tropas de choque em NT7 (Lexan, etc...) têm os mesmos parâmetros de dano que um escudo de madeira, mas pesam a metade. Certamente é possível a existência de escudos feitos com materiais mais avançados. Os escudos de Força podem existir a partir de NT11; veja a pág. 76. Eles não sofrem nenhum dano quando são atingidos.
+
+Cadência de Tiro
+A Cadência de Tiro (CdT) de uma arma automática é o número de tiros que ela dispara por turno. Se uma arma de fogo começar a disparar no início de um turno e o gatilho for mantido apertado durante todo o turno, ela disparará CdT tiros.
+Se o atirador realizar qualquer outra ação (como se deslocar, mudar de direção ou se esquivar) antes de começar a atirar, parte do tempo que ele poderia ter usado para atirar terá sido gasto. Qualquer ação que use menos que ½ Deslocamento permite uma rajada com CdT tiros; uma ação que exige ½ Deslocamento ou mais permite ½ CdT. No caso de qualquer dúvida, o GM decide.
+
+Número de Tiros Certeiros em uma Rajada
+É muito incomum todos os tiros de uma rajada atingirem o alvo. Para representar o fato no jogo, a rajada será dividida em grupos de não mais do que 4 tiros. Deve-se fazer um teste para cada grupo disparado. O atirador usa sua Perícia Armas de Fogo, modificada segundo o Recuo da arma.
+A tabela abaixo mostra o número de tiros que atinge o alvo, dependendo do sucesso no teste. Note que se foram disparados 3 ou 4 tiros, um teste que falhe por um ponto significará que 1 dos tiros atingiu o alvo. Uma falha por 2 ou mais pontos significa que nenhum dos tiros atingiu o alvo.
+Um golpe fulminante com um grupo de tiros significa que todos os tiros acertaram o alvo. Um tiro provoca um dano igual ao da Tabela de Golpes Fulminantes. Do mesmo modo um erro crítico com um grupo significa que devemos fazer uma jogada na Tabela de Erros Críticos.
+
+Teste bem sucedido por
+
+Tiros no
+
+Grupo
+
+-1 0
+
+1
+
+2
+
+3
+
+4
+
+5+
+
+1
+
+0
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+2
+
+0
+
+1
+
+1
+
+1
+
+1
+
+1
+
+2
+
+3
+
+1
+
+1
+
+1
+
+1
+
+2
+
+2
+
+3
+
+4
+
+1
+
+2
+
+2
+
+3
+
+3
+
+3
+
+4
+
+Dano Provocado por uma Rajada
+Cada tiro de uma rajada tem uma chance de danificar o alvo independentemente. O dano é independente para cada tiro, não cumulativo. Isto afeta a penetração em armaduras. A DP e a RD do alvo devem ser aplicadas separadamente a cada tiro que o atinge.
+Exceção: No caso de lasers com disparo automático, você deverá somar o dano de todos os tiros que atingirem o alvo em cada rajada de um segundo. Se forem disparados 8 tiros de 2D e 5 deles atingirem o alvo, concentre-os em um único ataque de 10D contra a armadura.
+
+Recuo Devido a uma Rajada
+É mais difícil controlar o disparo de uma rajada do que de um tiro simples. Cada tiro da rajada provoca o mesmo recuo que ele provocaria se tivesse sido disparado isoladamente; por este motivo, uma rajada longa é mais difícil de controlar do que uma rajada curta. Entre os fatores que determinam o recuo estão a relação contra-pesos/recuo, modelo da coronha, compensadores e cadência de tiro.
+Quando uma arma é disparada no “automático”, a variável RCO é um redutor que deve ser aplicado ao NH efetivo no teste de habilidade para o primeiro grupo. Esta penalidade é somada novamente para cada grupo de 4 tiros, ou grupo parcial, depois do primeiro (-1 se torna -2, depois -3; -2 se torna -4 e depois -6; e assim por diante). Este redutor continuará a ser somado enquanto durar a rajada, mesmo nos turnos subseqüentes.
+Em NT menor ou igual a 7, todas as armas automáticas têm um recuo significativo, o melhor RCO é -1. Em NT 8 e 9 algumas armas automáticas tem RCO 0 (elas são efetivamente sem recuo). Em NT maior ou igual a 10, quase todas as armas tem um RCO igual a 0.
+O RCO é dobrado para um nível de habilidade menor do que 12. O RCO também é dobrado para um a ST menor do que a exigida pela arma. ST abaixo da lista e NH abaixo de 12 quadruplicam o RCO.
+Remover ou rebater a coronha de uma arma automática impõe um redutor adicional de -1 ao RCO, a menos que ele seja igual a 0. Disparar qualquer arma automática com uma das mãos e sem apoio, duplica o redutor de RCO.
+
+Sistema Avançado de Combate
+
+- 120 -
+
+

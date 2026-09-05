@@ -1,0 +1,173 @@
+Técnicas Judiciais/NT (Mental/Difícil) Pré-definido como Criminologia-4
+Esta é a ciência geral da criminologia “laboratorial”: cálculo da trajetória de balas, análise química ou microscópica de pistas, etc. Dependendo da situação o GM poderá permitir o uso de Química ou outro campo de estudo apropriado como nível pré-definido para Técnicas Judiciais em uma investigação particular.
+Genética/NT (Mental/Muito Difícil) Pré-definido como Bioquímica-5 ou Fisiologia -5
+Este é o estudo da hereditariedade. Um geneticista seria capaz de identificar doenças genéticas, saberia como cruzar os animais a fim de desenvolver determinadas características além de impedir que as moscasdas-frutas devastem seu laboratório. A especialidade Engenharia Genética passa a existir em NT9+.
+Geologia/NT (Mental/Difícil) Pré-definido como IQ-6 ou Prospecção-4
+Esta é a ciência que estuda a Terra. Um geólogo estuda os minérios, rochas, petróleo, conhece terremotos, vulcões e fósseis. Em Campanha, ele seria capaz de achar água usando sua “sensibilidade para o campo” como na Perícia Sobrevivência (pág. 57).
+História (Mental/Difícil) Pré-definido como IQ-6 ou Arqueologia-6
+Este é o estudo do passado registrado (em oposição à arqueologia que estuda o passado pré-histórico). Um historiador seria capaz de dirimir dúvidas sobre história e poderia ter permissão para (a critério do GM) fazer um teste para ver se lembra de um paralelo histórico útil: - “Bom, Aníbal enfrentou uma situação parecida com esta uma vez e fez o seguinte...”.
+
+Perícias Científicas
+
+Metereologia/NT (Mental/Média)
+
+Pré-definido
+
+como IQ-5
+
+Este é o estudo do clima e a possibilidade de predizê-lo. O GM sempre
+
+faz testes de habilidade em Metereologia para o jogador. Um bom resultado
+
+significa que ele dirá a verdade, enquanto uma falha implicará em uma
+
+resposta aleatória ou uma mentira.
+
+Em sociedades com nível tecnológico baixo, esta perícia pode ser
+
+chamada “Sentido do Clima”. Qualquer um que viva em um mundo com NT
+
+menor ou igual a 4 recebe um bônus de +2 quando estiver usando este
+
+sentido no lugar onde vive.
+
+Em sociedades com nível tecnológico alto, esta perícia inclui a habili-
+
+dade de ler instrumentos, interpretar informações fornecidas por satélites,
+
+etc... No entanto, um meteorologista oriundo de uma sociedade com nível
+
+tecnológico alto é capaz de trabalhar sem seus instrumentos. Do contrário,
+
+ele não será um meteorologista e sim um “ledor” de instrumentos. A
+
+instrumentação ganha utilidade a partir de NT5 (Barômetro). Adicione
+
+NT - 4 ao seu nível efetivo de habilidade, se houver disponibilidade de
+
+instrumentos. Esta regra vale somente para meteorologistas treinados e não
+
+para testes com níveis pré-definidos.
+
+Um teste de habilidade simples servirá para fazer uma previsão de
+
+tempo para o dia seguinte. Devemos usar um redutor de -1 se tentarmos a
+
+previsão para daqui a 2 dias, -2 para 3 dias, -4 para 4 dias, -6 para 5 dias.
+
+Some -2 para cada dia a mais. Note que é necessário um teste para cada um
+
+dos dias. Uma previsão válida para 3 dias exige 3 testes: o primeiro para o
+
+dia seguinte e mais um para cada um dos subseqüentes. Se houver uma fa-
+
+lha em um dos dias, os seguintes não poderão ser bem sucedidos.
+
+No caso de sucesso, o meteorologista saberá em termos gerais que tipo
+
+de clima esperar para qualquer área que ele esteja visitando ou de que tenha
+
+ouvido falar.
+
+Lingüística (Mental/Muito Difícil)
+
+Sem nível
+
+pré-definido
+
+Este é o estudo dos princípios nos quais as línguas estão baseadas. Um
+
+lingüista seria capaz de identificar um idioma pouco conhecido a partir de
+
+um fragmento de um texto escrito ou falado, se for bem sucedido em seu teste
+
+de habilidade. Adicione 1/10 de seu NH nesta perícia (arredondado para
+
+baixo), se você a tiver estudado, ao seu nível de habilidade em qualquer
+
+língua que porventura venha a aprender.
+
+Literatura (Mental/Difícil)
+
+Pré-definido como IQ-6
+
+Este é o estudo das grandes obras literárias. Um estudante de literatura
+
+teria conhecimento dos domínios da poesia antiga, volumes empoeirados,
+
+filosofia, crítica, etc. Isto pode ser útil para achar pistas de tesouros
+
+escondidos, continentes submersos, segredos para os quais os homens não
+
+estão preparados e coisas similares. O trabalho em questão deve estar
+
+escrito em uma língua conhecida pelo personagem. Modificadores: -5 se ele
+
+for analfabeto (tradição oral).
+
+Matemática (Mental/Difícil) Pré-definido como IQ-6
+Isto representa o conhecimento geral de matemática. Apesar de existirem dezenas de especialidades, é pouco provável que a diferença entre elas afete o jogo. Um matemático pode fazer testes de habilidade para responder qualquer tipo de problema relacionado com matemática. Se o problema for simplesmente um cálculo ou avaliação, o GM poderá estipular um modificador devido aos recursos de computação disponíveis.
+
+Metalografia/NT (Mental/Difícil)
+
+Pré-definido
+
+como Ferreiro-8, Joalheiro-8, Armeiro-8 ou Química-5
+
+Este é o estudo dos metais e suas propriedades. Um metalógrafo seria
+
+capaz de identificar metais ou ligas e resolver problemas relacionados aos
+
+metais, sua mineração e refino.
+
+Naturalista
+
+Veja Perícias Externas, na pág. 57
+
+Física Nuclear/NT (Mental/Muito Difícil) Sem nível pré-definido
+Pré-requisitos: Física 15+ e Matemática 15+
+Este é o estudo dos processos nucleares. Um físico nuclear seria capaz de responder perguntas sobre o interior do sol, armas e/ou usinas nucleares.
+
+Ocultismo (Mental/Média)
+
+Pré-definido como IQ-6
+
+Este é o estudo do inexplicável e/ou sobrenatural. Um ocultista tem um
+
+conhecimento muito intenso de misticismo, doutrinas mágicas primitivas,
+
+rituais antigos, obsessões, etc... Lembre-se que um ocultista não tem que
+
+necessariamente acreditar no material que ele estuda. Em mundos onde a
+
+magia é comum, o “ocultismo” deverá ser substituído pelo conhecimento
+
+profissional dos magos.
+
+Física/NT (Mental/Difícil)
+
+Pré-definido como IQ-6
+
+Esta é a ciência da força e do movimento. Um físico seria capaz de
+
+responder a questões sobre o mecanismo básico do universo, o comporta-
+
+mento dos corpos em movimento e a matéria e energia.
+
+Fisiologia/NT (Mental/Muito Difícil)
+
+Pré-definido
+
+como IQ-7 ou qualquer perícia Médica-5*
+
+Este é o estudo do corpo humano e suas funções. Um fisiologista sabe
+
+onde estão localizados e como funcionam os músculos, ossos e órgãos.
+
+*Observe que esta perícia não pode ser condicionada ao Hipinotismo.
+
+- 61 -
+
+Perícias
+
+

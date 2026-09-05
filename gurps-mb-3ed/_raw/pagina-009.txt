@@ -1,0 +1,66 @@
+   PARA COMEÇAR A
+JOGAR RAPIDAMENTE
+
+Comece a ler por aqui!                                                       2) Testes de Reação.
+                                                                             Um Teste de Reação é uma jogada feita pelo Mestre (GM) para
+    Esta seção é um guia de uma página para todo o sistema de jogo       determinar qual será a reação de um NPC (veja “Figurante”, pág.250)
+do GURPS. Apesar deste Módulo Básico ter mais de 250 páginas, o          diante do personagem de um dos jogadores. Esta jogada será sempre
+sistema de jogo é, na verdade, muito fácil. A maior parte do livro é     opcional, pois o GM pode pré-determinar as reações. No entanto,
+composta de detalhes e casos especiais.                                  pelo menos de vez em quando, será mais divertido deixar que os
+                                                                         dados decidam.
+    O GURPS foi projetado para ser facilmente entendido, tanto pelo          Para verificar uma reação, o GM joga 3 dados e consulta a Tabela
+jogador, como pelo mestre. Na pág. 250 existe um glossário com           de Reações (pág. 205). Quanto maior o resultado, melhor a reação do
+termos importantes. O livro de regras tem um bocado de detalhes,         NPC e o tratamento que ele dará ao personagem.
+mas contém um sistema de índices e referências cruzadas para tornar          Alguns personagens terão Modificadores de Reação que devem
+as coisas mais fáceis de serem encontradas. Além disso, todo esse        ser adicionados ao (ou subtraídos do) resultado da jogada. Se você
+detalhamento é opcional. Use-o apenas quando isto tornar o jogo          tem um modificador igual a +2 devido à sua boa aparência, o GM
+mais divertido.                                                          adicionará 2 ao resultado de qualquer jogada feita para um NPC que
+                                                                         venha a encontrá-lo. Isto provavelmente melhorará a maneira como
+    Existem apenas 3 mecanismos básicos de jogo no GURPS.                eles se comportarão com relação ao personagem.
+Aprendidas estas três regras você pode começar a jogar. As três              Para maiores detalhes sobre Testes de Reação veja a pág. 180 e
+regras básicas são:                                                      a Tabela de Reações nas págs. 204-205.
+
+    1) Testes de Habilidade. Um “Teste de Habilidade” é um lance             3) Avaliação de Dano. Este tipo de jogada é feito quando se
+de dados feito quando você precisa “testar” uma de suas aptidões ou      deseja saber qual a extensão do dano que conseguimos causar a um
+perícias. Por exemplo, você pode testar, ou “jogar contra” sua Força     adversário em uma luta. Usa-se a notação “dados+acréscimos” Por
+para ver se é capaz de evitar que uma porta pesada se feche, ou          exemplo: “3D” significa que devemos jogar 3 dados e o adversário
+“contra” seu talento Naturalista para identificar um animal estranho     irá sofrer um número de pontos de dano igual ao resultado da jogada;
+apenas ouvindo sua voz.                                                  “3D + 1” significa que você deve jogar 3 dados e adicionar 1 ao
+                                                                         resultado; “2D - 2” significaria o lançamento de 2 dados e a subtração
+    O GURPS usa apenas dados de 6 faces. Uma jogada de Teste é           de 2 do resultado.
+feita com 3 dados. Se o resultado dos dados for menor ou igual ao
+nível de habilidade na perícia que se está testando, você terá sido bem      Várias coisas podem afetar a intensidade do dano provocado por
+sucedido. Caso contrário, fracassou. Se, por exemplo, você estiver       um golpe. A armadura protege quem a usa; armas cortantes e alguns
+“testando” sua Força e o valor deste seu atributo for 12, um resultado   tipos de bala podem provocar uma dano maior se conseguirem
+menor ou igual a 12 garantirá seu sucesso.                               ultrapassar a armadura. “Golpes Fulminantes” podem provocar
+                                                                         danos extras.
+    De vez em quando, uma jogada terá redutores. Se, por exemplo,
+você estiver tentando evitar que uma porta pesada se feche, poderia          Tudo isto está explicado nas regras de combate, a partir da pág.
+ter que jogar com sua Força diminuída de 2 pontos (ou,abreviadamente,    95. No entanto, o sistema de combate é modular, ou seja, você pode
+ST-2). Neste caso, com um atributo Força igual a 12, você precisaria     usar todas as regras se desejar uma simulação complexa, detalhada
+conseguir um resultado menor ou igual a 10 nos dados para ser bem        e realista de uma luta, ou somente o Sistema Básico de Combate se
+sucedido. Tirar 10 ou menos nos dados é mais difícil que 12 ou           desejar um jogo rápido.
+menos, da mesma maneira que segurar uma porta pesada é mais
+difícil do que fazer o mesmo com uma porta normal.                           Existe ainda um outro sistema importante que você não precisa
+                                                                         necessariamente conhecer para começar a jogar, que é o sistema de
+    Você ganha um bônus no caso de estar tentando realizar uma           criação de personagens. Cada personagem começa com 100 pontos
+tarefa excepcionalmente fácil. Você poderia fazer um teste de sua        para gastar. Valores altos para os atributos Força, Destreza etc.
+perícia “Adestramento de Animais + 4”, para verificar se é capaz de      custam pontos. O mesmo acontece com Vantangens Especiais.
+fazer amizade com um cachorro. Se seu nível de habilidade nesta          “Desvantagens” como Cobiça ou Fúria, também são possíveis e
+perícia era igual a 12, qualquer resultado menor ou igual a 16 indicará  darão pontos extras para serem gastos na construção do personagem.
+um sucesso. Conseguir um resultado menor ou igual a 16 é mais fácil
+que tirar um número menor ou igual a 12.                                     Tudo isto está descrito no capítulo sobre personagens, que
+                                                                         começa na próxima página. Estas regras permitem que você faça
+    Veja maiores detalhes sobre Testes de Habilidade na página 86.       todos os cálculos necessários e anote os resultados na Planilha do
+                                                                         Personagem (pág. 12) antes do jogo começar. Desta maneira, você
+                                                                         não precisará se preocupar com cálculos no decorrer do jogo.
+
+                                                                             Mas, não é preciso saber tudo isto para começar a jogar; você
+                                                                         pode escolher um dos personagens existentes nas págs. 214 a 217,
+                                                                         para usar em suas primeiras aventuras.
+
+                                                                             Entendeu tudo? Bom. Agora você já pode jogar GURPS. O resto
+                                                                         é só detalhe. Divirta-se.
+
+-9-                                                                      Introdução
+

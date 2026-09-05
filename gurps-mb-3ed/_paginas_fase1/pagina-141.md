@@ -1,0 +1,93 @@
+# Página 141
+
+> Nota de transcrição: conteúdo bruto extraído automaticamente do PDF (`pdftotext -layout`), preservado em bloco de código para manter o alinhamento original de colunas e tabelas. Será reformatado em Markdown estruturado na Fase 2 (organização).
+
+```
+HT: Vitalidade e Pontos de Vida                                                                           Descrições de Animais
+
+   Para uma criatura mais ou menos do tamanho de um ser humano, o atributo HT representa           Macacos
+tanto sua Vitalidade, o estado geral da criatura, quanto o seu número de pontos de vida — a
+quantidade de dano que ela é capaz de suportar. Isto não é verdade para criaturas muito grandes        Macacos são animais inteligentes — tão inteli-
+ou muito pequenas.                                                                                 gentes que chegam a ser previsíveis. Todos os testes
+                                                                                                   de Adestramento de Animais estão submetidos a um
+   Um elefante, por exemplo, pode receber muito mais ferimentos que um homem, mas a                redutor igual a -1 com estes animais. Os macacos
+probabilidade de ele se recuperar de um atordoamento não é muito diferente da de um homem          são muito fortes, mas atacam somente em combate
+saudável.                                                                                          de perto, mordendo e usando a manobra Segurar ao
+                                                                                                   invés de socar ou chutar. Todos os símios são
+   Por este motivo, algumas criaturas terão dois valores para o atributo HT. O primeiro,           criaturas de 1 hexágono ou menos.
+variando entre 3 e 18, é a Vitalidade contra a qual se faz os testes. O segundo indicará o número
+de “pontos de vida” cuja perda ela é capaz de suportar. Desta maneira, o valor da HT de um              Chimpanzé: ST 14-18, DX 14, IQ 6, HT 12-
+elefante poderia ser 17/50, enquanto que a de um rato seria 17/2. Todos os dois são animais        14, Velocidade 7, DP 0, RD 0, peso 45 a 80 kg (os
+vigorosos, no entanto o elefante é capaz de suportar uma quantidade maior de ferimentos antes      machos são maiores do que as fêmeas). Sua mordi-
+de morrer.                                                                                         da provoca 1D-1, pontos de dano por corte
+
+Realismo                                                                                                 Gorila: Um vegetariano pacífico, que não
+                                                                                                   lutará a menos que ele ou um de seus filhotes esteja
+   Se você deseja compor seus animais com realismo, lembre-se que:                                 sendo ameaçado. ST 20-24, DX 13, IQ 6, HT 14/16-
+   A maioria dos animais teme o homem e fugirá ao invés de atacar. Entre as exceções incluem-      20, velocidade 7. Sua pele tem DP 1, RD 1. Peso 90
+se uma mãe defendendo seus filhotes, um enxame de insetos defendendo seu ninho, um                 a 270 kg (os machos são maiores do que as fêmeas)
+predador antropófago velho ou ferido, uma criatura estúpida a ponto de não perceber que seres      As mordidas provocam 1D pontos de dano por
+humanos são perigosos ou um grande animal herbívoro (bisão, rinoceronte, triceratops) que          corte.
+poderiam vir a atacar qualquer coisa devido à sua irascibilidade.
+   Num sistema ecologicamente balanceado, as espécies predadoras serão relativamente               Urso
+raras, enquanto que as presas serão comuns.
+                                                                                                       A maioria dos ursos é onívora, comendo tanto
+Criaturas que Ocupam Mais de um Hexágono                                                           vegetais quanto animais. Faça um teste de reação
+                                                                                                   para determinar se um urso está faminto/agressivo,
+   Alguns animais e monstros ocupam mais de um hexágono. Isto é importante, principalmen-          ou simplesmente saia de seu caminho. Os ursos
+te se você estiver jogando com um mapa de combate e usando o Sistema Avançado. O uso de            cinzentos e o urso-branco são, em sua maioria,
+miniaturas pode ajudar nestes casos.                                                               carnívoros e sua reação tem um redutor de -3. As
+                                                                                                   fêmeas com filhotes são quase sempre agressivas.
+Movimento
+                                                                                                       Um urso andando ou correndo sobre quatro
+   O movimento de uma criatura que ocupa mais de um hex é controlado por sua cabeça.               patas é uma criatura de 2 hexágonos. Quando fica
+Determine a distância percorrida e movimente a criatura para a frente (veja pág. 103), como        em pé sobre as patas traseiras para lutar, o urso
+se sua cabeça fosse uma figura normal de 1 hex. O resto do corpo segue a cabeça. Isto pode         ocupa um hexágono.
+significar, por exemplo, que a cabeça de um dragão se movimenta 3 hexes enquanto sua cauda
+varre 10. Não há problema com relação a isso, além de ser uma boa maneira de o dragão atingir           Urso Pardo: ST 14-17, DX 13, IQ 5, HT 14/
+seus adversários.                                                                                  14-18, Velocidade 7. Sua pele tem DP 1 e RD 1.
+                                                                                                   Peso entre 90 e 180 kg. Sua mordida provoca 1D de
+   Uma figura que ocupa mais de um hex não poderá passar por um espaço mais estreito do            dano por corte; ataca com as garras (combate de
+que sua maior seção. Os mestres, no entanto, deveriam ser complacentes e permitir que              perto apenas), provocando 1D pontos de dano por
+criaturas grandes compartilhassem um hexágono onde existe uma parede. Lembre-se que,               contusão.
+quando um hexágono é cortado por uma parede, etc., uma parte de hexágono é contada como
+se ele estivesse completo.                                                                              Urso Cinzento: ST 22-28, DX 13, IQ 5, HT 14/
+                                                                                                   18-22, Velocidade 8, sua pele tem DP 1 e RD 2.
+Ângulo de Visão                                                                                    Peso entre 180 e 450 kg. Sua mordida provoca
+                                                                                                   1D+1 pontos de dano por corte; ataca com as garras
+   O ângulo de visão de uma criatura que ocupa mais de um hexágono é controlado por sua            (alcance 1 hexágono), provocando 1D+2 pontos de
+cabeça. Note que a maioria dos animais tem os olhos nas laterais de suas cabeças, o que faz        dano por contusão. Pode usar a manobra Segurar
+com que tenham um campo de visão maior do que o dos seres humanos.                                 (abraço de urso) quando em combate de perto e
+                                                                                                   morder enquanto Segura.
+
+                                                                                                        Urso Branco: ST 27-33, DX 13, IQ 5, HT 15/
+                                                                                                   18-24. Velocidade 7 ou 3 (quando nadando). Sua
+                                                                                                   pele tem DP 1 e RD 2. Peso entre 270 e 630 kg. Sua
+                                                                                                   mordida provoca 1D+2 pontos de dano por corte;
+                                                                                                   ataca com as garras (alcance 1 hex), provocando
+                                                                                                   1D+2 pontos de dano por contusão. Pode abraçar
+                                                                                                   como um urso cinzento.
+
+                                                                                                        Urso das Cavernas: Criatura pré-histórica. ST
+                                                                                                   27-33, DX 12, IQ 5, HT 14/30, Velocidade 7, Sua
+                                                                                                   pele tem DP 1 e RD 2. Peso entre 540 e 720 kg. Sua
+                                                                                                   mordida provoca 2D-2 pontos de dano por corte;
+                                                                                                   ataca com as garras (alcance 1 hex), provocando
+                                                                                                   2D-2 pontos por contusão. Pode abraçar como um
+                                                                                                   urso cinzento.
+
+                                                                                                   Camelo
+
+                                                                                                       Criatura de regiões secas domesticado para ser
+                                                                                                   usado como animal de tração. Veja as característi-
+                                                                                                   cas na tabela Animais de Tração e Montaria da
+                                                                                                   pág. 144.
+
+                                                                                                       Como um cavalo, com a diferença que pode
+                                                                                                   ficar 4 dias sem beber. Todos os testes de Adestra-
+                                                                                                   mento de Animais terão um redutor igual a -4,
+                                                                                                   porque o camelo é um animal muito teimoso e
+                                                                                                   irritante.
+
+- 141 -                                                                                            Animais
+```

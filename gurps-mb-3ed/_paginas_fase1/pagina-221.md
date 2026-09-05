@@ -1,0 +1,82 @@
+# Página 221
+
+> Nota de transcrição: conteúdo bruto extraído automaticamente do PDF (`pdftotext -layout`), preservado em bloco de código para manter o alinhamento original de colunas e tabelas. Será reformatado em Markdown estruturado na Fase 2 (organização).
+
+```
+21 É fácil matar um homem adormecido. Pegue uma arma e
+              faça um teste de DX. Somente uma falha crítica (v. pág.
+86) frustrará sua intenção. Caso isto aconteça, o gigante perderá 2 pontos
+de vida e você deverá se dirigir ao parágrafo 11. Em qualquer outro
+caso o gigante estará morto e você deverá ir para o parágrafo 134.
+
+22 Você se volta e corre, na esperança de se esquivar do gi-
+              gantesco vigia. Faça um de teste de DX — mas você terá
+que ser rápido, por isso jogue contra DX-5. Em outras palavras, com
+um atributo DX igual a 14, você precisaria de um resultado menor ou
+igual a 9 para ser bem sucedido. Neste caso, você deve ir para o pa-
+rágrafo 63. Em caso de falha, vá para 50.
+
+23 Você está na cozinha, com o vigia em seu encalço. Se dese-
+              ja atravessar a despensa, vá para 58. Se deseja mergulhar
+pela janela, vá para 113.
+
+    Se quiser ficar e lutar, vá para 95.
+
+24 Você não pôde conter um grito lancinante quando sentiu a                 33 Você saiu pela janela bem a tempo! Ouve o ruído de passos
+              dor inesperada. Logo em seguida você ouve passos em um                      atrás de si e vê um homem olhando para fora. Ele não o vê
+dos outros aposentos. Vá para 58.                                           e fecha a janela novamente.
+
+25 Os passos estão se aproximando, mas você tem uma van-                        Se você deseja tentar novamente daqui a meia hora, vá para 153.
+              tagem. Você poderá pegar de surpresa quem quer que es-            Se você desistiu e deseja ir para casa, vá para 27.
+teja se aproximando. Então você o vê — um imenso vigia com uma
+cimitarra, ocupando todo o vão da porta.                                    34 Se você ainda não tinha percebido, alguém vai lhe dizer
+                                                                                          quando tentar passá-la adiante: Isto é pomada para quei-
+    Você terá a iniciativa, se desejar lutar. Neste caso vá para 76.        madura. Existem dez doses e cada uma delas é suficiente para curar um
+    Se pretende tentar dissuadi-lo da luta, vá para 156.                    ponto de dano por queimadura. É possível curar um máximo de até 3
+                                                                            pontos de dano de qualquer um que tenha se queimado. Volte para 185.
+26 Você abre a tampa e descobre dentro um creme branco oleo-
+              so. Você pode levá-lo se desejar. Se você deseja experimen-   35 Desvie para 115, se você for alfabetizado. Se não for, tudo
+tar uma porção para ver o que acontece, vá para o parágrafo 114. Caso                     o que você será capaz de perceber, é que os frascos com
+contrário, volte para 68.                                                   rótulos contêm vários tipos de especiarias e ervas aromáticas. E eles
+                                                                            estão quase cheios! Vá para 42.
+27 Você abre caminho para sua casa por entre ruas e vielas de-
+              sertas. Se não tiver roubado nada, sua aventura estará ter-   36 A tapeçaria pode ser facilmente removida da parede. No
+minada. Vá para 185, se tiver alguma coisa consigo.                                       momento em que está pronto para começar a enrolá-la, você
+                                                                            nota um sinal fora do comum no canto inferior direito.
+28 Jogue um dado apenas. Se o resultado estiver entre 1 e 4,
+              vá para 17; se for 5 ou 6,vá para 163.                            Faça um teste de Comércio com um bônus de +4. Se você não tiver
+                                                                            esta perícia, você deverá somar 4 à sua IQ (devido ao bônus) e subtrair
+29 Foi uma sorte você não ter experimentado muito disto.                    5 (devido ao valor pré-definido). Em caso de sucesso, vá para 120. Caso
+              Trata-se de pimenta que é rara e valiosa. Você pode levar     contrário, vá para 41.
+o frasco se desejar. Volte para 68.
+                                                                            37 Você nota um movimento detrás do frasco quando vai apa-
+30 Você ergue a cimitarra cuidadosamente; ela é muito pesa-                               nhá-lo. É uma aranha cabeluda, gigantesca. E ela está bem
+              da (2,5 kg), mas você consegue evitar que ela arraste no      próxima de sua mão direita.
+chão. Você agora tem uma cimitarra. Mais importante do que isso: o
+vigia não tem nenhuma. Se você o encontrar mais tarde, ele estará               Se você sofre de alguma espécie de fobia por insetos, aranhas
+armado somente com um punhal. (Ele é valente e o atacará de qualquer        (aracnofobia) ou coisas cabeludas, vá para 173. Caso contrário, vá para
+maneira.)                                                                   54.
+
+    Se você se decidir a usar a cimitarra, deverá fazê-lo como se fosse         Para maiores informações sobre fobias, veja a pág. 35.
+um montante (grande espada antiga que se brandia com ambas as mãos).
+Se você não tem habilidade, o valor deste seu atributo será, por defini-    38 Você corta o cordão com cuidado e o retira suavemente de-
+ção, DX-5, ou Espadas Curtas-2.                                                           baixo do pescoço do homem que dorme. Agora você tem
+                                                                            uma chave. O que será que ela abre? Nào há nada neste aposento, você
+    Vá para 59, se você desejar deixar o aposento; 132, se preferir         já examinou tudo e não encontrou nenhuma fechadura. A chave é muito
+examiná-lo melhor ou 160, se quiser atacar o vigia.                         pequena para a fechadura da porta. Ela mais parece a chave de uma
+                                                                            gaveta ou cofre. Você a guarda no bolso. Fatso se vira e resmunga em
+31 Uma falha crítica! Você se atrapalhou feio. O alçapão tinha              seu sono novamente.
+              duas folhas, e você estava em cima de uma delas enquanto
+mexia com a outra. O alçapão se abriu fazendo-o cair. Vá para 139.              Se você tem intenção de examinar mais detalhadamente o gordo, vá
+                                                                            para 53.
+32 Faça uma jogada contra IQ-4. Em outras palavras, se o valor
+              de seu atributo IQ for igual a 12, você só será bem sucedido      Se você vai abandonar o aposento, desvie para 18.
+se o resultado do sorteio for menor ou igual a 8. Em caso de falha, sua
+idéia, qualquer que tenha sido, não terá funcionado. Volte para 67 e        39 Depois de examinar o alçapão, você percebe que o cordão
+faça uma outra escolha.                                                                   do sino que existe sobre a cama de Fatso é o seu mecanismo
+                                                                            de disparo. Vá para 136, se você deseja observar melhor o dispositivo,
+    Em caso de sucesso, você teve uma idéia brilhante. Vá para 127.         ou para 139, se preferir puxar o cordão para ver o que acontece. Se você
+                                                                            quiser cortar o cordão, vá para 6.
+
+- 221 -                                                                     Uma Noite de Trabalho
+```

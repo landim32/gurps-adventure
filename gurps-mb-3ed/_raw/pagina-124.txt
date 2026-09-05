@@ -1,0 +1,60 @@
+         Tochas e Lanternas                       Desníveis de até 30 cm: Ignore-os.
+                                                  Desníveis de até 60 cm: Ignore-os, a menos que esteja utilizando as regras de pontos de
+   Uma tocha ou uma lanterna diminuem a        impacto. Neste caso, o combatente que está em nível mais elevado terá um redutor de -2 em
+penalidade devido à escuridão. Em caver-       suas tentativas de atingir os pés ou as pernas, e um bônus de +1 contra a cabeça do oponente.
+nas, masmorras, etc., uma iluminação des-      O lutador em nível mais baixo tem um bônus de +2 numa tentativa de atingir os pés e pernas,
+tas, dentro da linha de visão diminui a        e um redutor de -2 numa tentativa contra a cabeça de seu oponente.
+penalidade de -10 (escuridão total) para -3.      Desníveis de até 1 m: Como acima, mas o combatente situado mais baixo deverá subtrair
+                                               1 de sua jogada de defesa e o mais acima deverá somar 1.
+   Uma tocha pode ser usada como uma              Desníveis de até 1,30 m: Como acima, mas subtraia 2 pontos da defesa do combatente de
+arma (trate-a como um bastão) e acrescida      baixo e some 2 à defesa do de cima. O combatente superior não poderá atingir os pés ou as
+de 1 ponto de dano devido à chama. Além        pernas do combatente inferior.
+disso, a tocha pode ser usada para atear fogo     Desníveis de até 1,60 m: O lutador que está abaixo não será capaz de atingir a cabeça do
+em outras coisas (dado o devido tempo). A      combatente que está acima e este não poderá atingir as pernas e os pés do outro. Subtraia 3
+maioria do óleo que você encontrará na         da defesa do combatente de baixo e some 3 à defesa do combatente de cima.
+Idade Média leva 3 segundos para pegar            Desníveis de até 2 m: O combatente superior poderá atingir apenas a cabeça do combatente
+fogo depois de entrar em contato com uma       inferior; nenhum bônus ou redutor especial. O combatente inferior poderá atingir somente os
+chama; gravetos precisarão de 10 segundos      pés e pernas do combatente superior; nenhum bônus ou redutor especial. Subtraia 3 da defesa
+para se incendiarem. Outros tipos de obje-     do combatente inferior e some 3 à do superior.
+tos terão tempos diferentes (a cargo do           Desníveis superiores a 2 m: O combate é impossível a menos que os combatentes adotem
+GM).                                           alguma posição estranha (ex.: o combatente que está acima se debruça sobre a borda). Neste
+                                               caso em particular, ele estaria, de fato, se aproximando 1 m de seu oponente, o qual poderá
+   É possível carregar uma luz em sua mão      golpeá-lo na cabeça e no braço. O GM poderá aplicar os bônus e redutores que achar adequado
+inábil, deixando a mão da arma livre para o    para qualquer tática estranha que os jogadores venham a empregar.
+combate. É até possível aparar com ela            As distâncias são definidas pelo bom-senso e acordo mútuo (antecipado se possível).
+(adicionando-se os redutores adequados se      Alguns exemplos: As escadas comuns têm degraus com 20 cm. O assento de uma cadeira está
+ela estiver sendo carregada com a mão          a mais ou menos 50 cm do solo. Uma mesa comum tem menos de 1 m de altura. O balcão em
+inábil). Tenha em mente que uma tocha ou       uma loja tem mais ou menos 1,20 m de altura. O capô de um carro ou o piso de um carroção
+uma lanterna comum serão esmagadas no          estão a mais ou menos 1 m de altura. A capota de um carro ou a boléia de um caminhão estão
+primeiro golpe se tiverem que aparar uma       acima de 1,20 m.
+arma de peso significativo.
+                                               Ataque de Cima
+   Em NT7, estão disponíveis as “lanternas
+policiais” (v. a lista de Equipamento Mo-         Uma emboscada de um ponto mais elevado é uma boa tática de ataque surpresa; faça uma
+derno, pág. 213). Estas lanternas funcio-      Disputa de Habilidades (Furtividade vs. Visão) para ver se a surpresa funciona. Se alguém
+nam, para todos os propósitos, como uma        estiver caminhando ao longo de uma trilha, viela, etc., estará submetido a um redutor de -2 em
+pequena clava.                                 seu teste de Visão para perceber alguém de tocaia acima, a menos que ele diga especificamente
+                                               que está olhando para as árvores, janelas, etc... (neste caso ele recebe um bônus de +2). A Visão
+                                               Periférica não ajuda a localizar a posição de um inimigo acima de você.
+
+                                                  Um ataque vindo de cima pode paralisar a vítima devido à surpresa (pág. 122), se o GM
+                                               assim o decidir. Se a vítima sabia que estava sendo atacada (pouco provável numa emboscada),
+                                               sua defesa ativa terá um redutor de -2. Se ele não sabia que estava sendo atacado, não terá
+                                               defesa ativa. Um ataque contra um inimigo que está num plano mais alto sofrerá as mesmas
+                                               penalidades já vistas anteriormente. Se se der conta de que um atacante está pulando sobre
+                                               você, poderá tentar uma estratégia do tipo “parar-e-espetar” (v. pág. 106).
+
+                                                  Alguns tocaieiros (animais em particular) podem emboscá-lo e se atirar sobre você. Como
+                                               regra, este ataque produz um dano igual ao atacante e à vítima (v. pág. 131). Lembre-se de que
+                                               a vítima é uma coisa macia para se aterrisar. Deste modo: 1D-5 pontos de dano por metro para
+                                               um salto de 1 a 2 metros, 1D-4 por metro para um salto entre 3 e 4 metros e assim por diante.
+                                               Os animais que usam normalmente este tipo de estratégia (ex.: o jaguar) são feitos para saltar,
+                                               por isso têm uma redução de 2 pontos por metro saltado no dano sofrido (de modo que somente
+                                               um felino muito azarado se machucará)
+
+                                                  Mestres, usem o bom-senso nos casos especiais. Um atacante calçando botas pesadas
+                                               provocaria 1 ponto a mais de dano por metro, um homem vestindo armadura não é um alvo
+                                               macio, etc...
+
+Sistema Avançado de Combate                    - 124 -
+

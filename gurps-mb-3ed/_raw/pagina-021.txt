@@ -1,0 +1,128 @@
+                                                                                                                                  Vantagens
+
+Poderes Legais                                     5, 10 ou 15 pontos         Aptidão Mágica               15 pontos para o primeiro nível
+
+Você é um oficial da lei, com todos os direitos, poderes e restrições que                                  10 pontos/nível a partir daí
+
+acompanham o cargo. Em algumas épocas e lugares isto equivale a uma           Você tem um bônus no aprendizado de todas as operaçães mágicas.
+
+licença para matar, em outros, é pouco mais que o direito de carregar um      Naturalmente, se você pertencer a uma cultura sem magia, começará sem
+
+distintivo e lavrar multas por estacionamento proibido.                       nenhum conhecimento sobre mágicas, mas poderá aprendê-las com mais
+
+O custo em pontos é determinado pelos direitos e privilégios inerentes        facilidade se encontrar uma oportunidade. Quando entrar em um mundo
+
+à posição ocupada pelo personagem. Geralmente, para um policial com           mágico, todos aqueles que puderem detetar sua aura (pág. 162) o reconhe-
+
+jurisdição local, a habilidade de prender criminosos suspeitos, o direito de  cerão como um usuário de magia potencialmente poderoso, apesar de
+
+realizar buscas com o devido mandado e possivelmente o direito de carregar    inexperiente. Eles podem querer ensiná-lo ou matá-lo.
+
+uma arma escondida, vale 5 pontos de Poderes Legais. Exemplos deste caso      Quando aprender qualquer operação mágica, você o fará como se sua
+
+seriam um policial da Era Vitoriana ou um atual.                              Inteligência fosse igual a (IQ + Aptidão). Exemplo: Você tem IQ igual a 14
+
+Alguém com jurisdição nacional ou internacional, ou não obrigado a            e uma Aptidão Mágica igual a 3. Você aprende operaçães mágicas como se
+
+respeitar os direitos civis dos outros, ou com liberdade para envolver-se em  sua IQ fosse 17.
+
+uma investigação secreta, ou capaz de matar com relativa impunidade, deve     Além disso, o GM fará testes contra seu (IQ + Aptidão) quando você vir
+
+pagar 10 pontos por seus poderes. Exemplos seriam um agente do FBI ou         um objeto encantado pela primeira vez, e outro quando você o tocar pela
+
+um membro da Guarda Real na Idade Média.                                      primeira vez. No caso de sucesso, você saberá intuitivamente que ele é
+
+Um oficial com 3 ou mais das habilidades descritas acima tem 15 pontos        encantado. Um resultado igual a 3 ou 4 dirá também, se a magia é salutar ou
+
+de Poderes Legais. Um exemplo poderia ser um agente graduado da CIA,          perigosa e qual a sua intensidade. Exemplo: se tiver IQ igual a 13 e 3 níveis
+
+KGB ou MI-5.                                                                  de Aptidão, você reconhecerá um objeto encantado com um resultado
+
+Os Poderes Legais normalmente andam de mãos dadas com a desvan-               menor ou igual a 16. Se a jogada falhar, o GM simplesmente não lhe dirá
+
+tagem do Dever e com uma Reputação, o que pode ser uma vantagem, uma          nada. Note que o uso desta vantagem poderá ser complicado para um
+
+desvantagem, ou ambos.                                                        personagem de um cenário sem magia, como a Terra do século XX. Tal
+
+                                                                              personagem ainda terá a habilidade para detetar magia, mas até ele ganhar
+
+Cálculos Instantâneos                                      5 pontos           experiência com magia o GM não deverá dizer “Aquele ídolo é mágico”, e
+
+O personagem é capaz de realizar operaçães matemáticas de cabeça              sim “Aquele ídolo tem uma aparência muito estranha para você, muito
+
+instantaneamente. Se seu personagem tiver esta aptidão, você (jogador)        sinistra. Você sente que há alguma coisa especial com relação a ele”.
+
+poderá usar uma calculadora a qualquer momento, para calcular o que           Personagens sem Aptidão Mágica não têm direito a nenhum teste para
+
+desejar — mesmo que seu personagem esteja correndo para salvar sua vida       detetar objetos encantados.
+
+na hora. Alternativamente, o GM pode simplesmente dizer que o persona-        Custo: 15 pontos no primeiro nível de Aptidão; 10 pontos para cada
+
+gem sabe a resposta de um problema simples de matemática.                     nível subseqüente até um máximo de 3 níveis.
+
+Alfabetização                                      0 ou 10 pontos
+
+Apesar de isto ser uma perícia na vida real, ela será tratada como uma
+
+vantagem por razões já explicadas anteriormente (pág. 17). Em geral,
+
+presume-se que o personagem é alfabetizado se a maioria da população de
+
+seu mundo o for, e analfabeto se a maioria das pessoas também for (NT4 ou
+
+menor). Ser alfabetizado em um mundo onde a maioria das pessoas não sabe
+
+ler é uma vantagem que vale 10 pontos. Ser analfabeto num mundo onde a
+
+maioria das pessoas sabe ler é uma desvantagem que vale -10 pontos.
+
+Longevidade                                                5 pontos
+
+Seu tempo de vida é naturalmente longo. Você falhará em testes de
+
+envelhecimento (veja pág. 83), somente se obtiver um resultado igual a 17
+
+ou 18. Um personagem com esta vantagem não receberá nenhum ponto ao
+
+assumir a desvantagem da Idade.
+
+Sorte                                              15 ou 30 pontos
+
+Algumas pessoas simplesmente nasceram com sorte. Uma vez a cada
+
+hora de jogo, você pode fazer até três testes de alguma coisa e escolher o
+
+melhor resultado. Se o GM estiver fazendo a jogada (ex.: para ver se um       Abascanto (Resistência à Magia)                        2 pontos/nível
+
+certo NPC chega, ou para verificar se você nota alguma coisa), você lhe diz   Você tem mais chance de não ser afetado pela maioria dos tipos de
+
+que está usando sua sorte e ele deverá jogar três vezes e lhe dar o melhor    magia. Note que esta vantagem não pode ser combinada com Aptidão
+
+resultado. Custo: 15 pontos.                                                  Mágica. Não é possível ter aptidão para magia e ao mesmo tempo, ser
+
+A Sorte Extraordinária funciona da mesma maneira, mas pode ser                resistente a ela. Na verdade, se você tiver Resistência à Magia, você não será
+
+usada a cada 30 minutos ao invés de uma hora. Custo: 30 pontos.               capaz de realizar nenhuma Mágica (apesar de ainda poder usar armas
+
+Sua sorte se aplica somente a jogadas feitas pelo seu personagem como         mágicas). Também não é possível “desligar” esta vantagem para permitir
+
+uma tentativa de fazer alguma coisa, OU em eventos externos que o afetam      que uma mágica benéfica seja realizada sobre você.
+
+ou a todo o grupo, OU quando você está sendo atacado (neste caso você         O Abascanto, e seu nível preciso, podem ser reconhecidos por qualquer
+
+pode fazer o atacante jogar três vezes e assumir o pior resultado).           mago que olhe para sua aura ou por qualquer um que realize uma mágica
+
+A sorte não pode ser compartilhada. Se Sam, o Forte, está tentando abrir      contra sua pessoa. O seu nível de Resistência à Magia é subtraído do nível
+
+uma porta, Lou, o Sortudo, não poderá ficar atrás dele e lhe transferir sua   de habilidade de quem realiza a operação. Se sua Resistência à Magia for
+
+sorte. Ele terá que abrir a porta por si próprio.                             igual a 3 e o nível de habilidade do operador for igual a 15, seu nível efetivo
+
+Note também que a Sorte não pode ser economizada. Você não pode               será 12.
+
+jogar durante horas sem usar a Sorte e, depois, usá-la várias vezes em        Se você optar por resistir, o seu Abascanto também aumenta sua
+
+seguida!                                                                      capacidade de resistir a mágicas que podem ser bloqueadas.
+
+                                                                     - 21 -                                                          Vantagens
+

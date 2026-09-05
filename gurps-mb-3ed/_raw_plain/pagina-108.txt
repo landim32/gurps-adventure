@@ -1,0 +1,39 @@
+Custos em Pontos de Movimento (Continuação)
+Carreira Se você correr para a frente durante dois ou
+mais turnos seguidos, seus deslocamentos, a partir do segundo, terão um bônus adicional de “curta distância” , igual a 1 m/turno. Você não poderá se beneficiar deste bônus a não ser que o terreno seja bom, e você esteja correndo (mais ou menos) em linha reta numa dada direção. Qualquer desvio o obrigará a correr na velocidade normal por um turno antes de obter novamente o bônus.
+Exemplo: Seu Deslocamento é 4. Você pode correr 4 metros para frente. Mas, a partir do segundo turno correndo, você recebe o bônus de curta distância e poderá se deslocar a 5 m/turno.
+Combates mais Rápidos
+Esta é uma regra alternativa, que pode ser usada se os combates estiverem demorando muito. Note que com esta regra será muito mais fácil para um lutador bem treinado trucidar um principiante. Ela não afetará muito o equilíbrio do combate se os lutadores tiverem níveis de habilidade equivalentes.
+Trate cada ataque/defesa como uma Disputa Rápida de Habilidades (pág. 87). Se o atacante acertar o golpe, o defensor precisará obter um sucesso com uma margem igual ou maior. Esta mudança tornará as jogadas de defesa mais difíceis e por isso acelerará os combates.
+Defesas Passivas no Sistema Avançado de Combate
+Suas Defesas Passivas (armadura e escudo) são adicionadas à sua jogada de defesa quando o adversário o ataca, da mesma maneira que no Sistema Básico de Combate. A armadura e a Rijeza funcionam exatamente do mesmo modo (apesar de que uma armadura pode ter DPs diferentes para cada parte do corpo — veja a Tabela de Armas).
+No entanto, seu escudo só o protege de ataques vindos de sua frente ou do lado do escudo. Ele o protegerá contra todos os ataques enquanto estiver deitado, a menos que, por alguma razão insana, você declare estar em cima do escudo.
+Se você trouxer o escudo pendurado às costas, ele oferecerá uma defesa passiva pequena. Subtraia 1 ponto da DP normal do escudo e aplique o resultado somente a ataques vindos de trás. Você poderia carregar um escudo extra preso às suas costas mas isto adicionaria peso.
+Atacar Rodeando o Oponente
+Um personagem muito veloz poderia começar em frente a um oponente e correr para trás dele para atacá-lo de seu hex posterior. Nenhuma defesa ativa é possível contra um verdadeiro ataque pelas costas, pois a vítima não sabe que o ataque está para acontecer. Se o atacante está inicialmente na frente da vítima e corre para trás dela (vencendo o adversário simplesmente pela velocidade), a vítima saberá que está sendo atacada. Trate este caso como se fosse um ataque lateral (redutor de -2 na defesa ativa).
+
+Ataques
+Os ataques geralmente são executados exatamente como no Sistema Básico de Combate. Dois tipos especiais de ataque serão cobertos em detalhe mais adiante: Combate de Perto, no mesmo hexágono com o seu inimigo (pág. 111), e Combate à Distância, com armas de projétil e arremesso (pág. 114).
+Defesa
+As regras para defesa são essencialmente as mesmas do Sistema Básico de Combate, apenas com mais detalhes para levar em conta sua posição com relação ao inimigo.
+Defesas Ativas
+Existem três defesas ativas que podem protegê-lo de um ataque. Cada uma destas defesas é calculada de antemão. Quando você é atacado, pode escolher uma defesa ativa como parte de sua jogada de defesa. (Se você tiver escolhido a Defesa Total, poderá fazer duas jogadas de defesa independentes para cada ataque.)
+A defesa ativa que você escolhe depende de sua situação (principalmente da manobra escolhida em seu último turno). Algumas manobras restringem as defesas ativas que podemos adotar. Ex.: Você não terá defesa ativa, se acabou de fazer um Ataque Total.
+Todas suas defesas ativas sofrerão um redutor de -4 se você estiver atordoado. Em alguns casos não haverá defesa ativa. Uma punhalada nas costas, um tiro numa emboscada ou uma mina são ataques contra os quais não há nenhuma defesa ativa possível. Da mesma maneira, uma pessoa inconsciente não tem defesa ativa. Mas sempre existe a defesa passiva. Veja a coluna lateral.
+A vantagem Reflexos em Combate dá um bônus de +1 em qualquer defesa ativa.
+Esquiva
+Sua defesa Esquiva é igual a seu Deslocamento. A Esquiva de um animal é igual à metade de seu Deslocamento ou de sua DX, o que for melhor (até um máximo de 10). Esquivar-se é a melhor defesa quando não se tem habilidade com a arma.
+É impossível se esquivar de um ataque feito do hexágono posterior, i.e, do hexágono exatamente atrás de você. Subtraia 2 de sua Esquiva quando estiver se esquivando de um ataque feito de um hexágono lateral. Ex.: Se sua Esquiva for igual a 5, ela será igual a 3 contra um ataque lateral. É impossível se esquivar de um ataque feito com uma arma de longo alcance disparada por um inimigo fora de seu campo de visão.
+Não existe limite para o número de vezes que você pode se esquivar em uma rodada. Esquiva Acrobática: Se você tiver a perícia Acrobacia, poderá tentar uma Esquiva “cinematográfica” por rodada. Ela pode ser descrita como pular por cima de um golpe de espada, dar um salto mortal ou qualquer outra coisa que você deseje. Tente seu teste de Acrobacia (sem valor pré-definido). No caso de sucesso, você terá um bônus de +1 em seu teste de Esquiva. No caso de falha, terá um redutor de -2. Esta manobra pode ser combinada com a manobra Recuar (v. a seguir).
+Bloqueio
+Sua defesa “Bloqueio” é igual à metade de seu nível de habilidade com o Escudo, arredondado para baixo. É necessário estar com o Escudo preparado. Esta manobra segue as regras do Sistema Básico de Combate com os seguintes acréscimos:
+Você pode bloquear somente os ataques feitos a partir de seus hexágonos frontais ou do hexágono do lateral esquerdo ( a menos que você seja canhoto). Um bloqueio contra um ataque lateral está submetido a um redutor de -2. É possível bloquear armas de arremesso vindas de um hexágono lateral, mas não projéteis.
+Pode-se bloquear apenas um ataque por rodada, a menos que se tenha escolhido a manobra Defesa Total. Neste caso, será possível bloquear dois ataques numa rodada.
+Aparar
+Sua defesa Aparar é igual a ½ de seu nível de habilidade com arma de mão ou 2/3 de seu NH em Esgrima ou Bastão (arredondada para baixo). Aparar segue as regras do Sistema Básico de Combate (pág. 99) com os seguinte acréscimos:
+
+Sistema Avançado de Combate
+
+- 108 -
+
+

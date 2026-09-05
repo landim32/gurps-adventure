@@ -1,0 +1,75 @@
+Perícias de Ladrões e Espiões
+
+Ocultamento (Mental/Média)
+
+Pré-definido como
+
+IQ-5 ou Prestidigitação-3
+
+Esta é a habilidade de esconder objetos em seu corpo ou no de outras
+
+pessoas (normalmente com a cooperação delas). É também a habilidade de
+
+encontrar estes objetos escondidos por outrem.
+
+Detecção
+Encontrar um objeto escondido em uma pessoa é uma Disputa de Habilidades; o resultado do teste de Visão (ou perícia Ocultamento +/modificadores de Visão) daquele que procura vs. a perícia Ocultamento de quem escondeu. O GM deverá impor modificadores conforme as circunstâncias. Exemplo: o “procurador” estará submetido a um redutor de -5 se ele não estiver especificamente à procura do objeto escondido, ou de -2 se ele estiver olhando rapidamente para uma quantidade grande de pessoas conforme elas passam. As disputas deveriam ser realizadas em segredo e uma resposta do tipo “Você não vê a arma que ele tem debaixo do paletó”, acabaria por invalidá-la.
+Faça um teste em separado para cada objeto escondido. “Procuradores” que venham porventura a encontrar um objeto, normalmente não desconfiarão da existência de outros.
+Todas as partes do corpo humano podem ser usadas para esconder armas (incluindo a parte interna. Esta é a razão pela qual os prisioneiros são submetidos a uma RCC quando chegam a um presídio). Uma revista do tipo “mãos-para-o-alto-e-apalpação-da-pessoa-revistada” leva um minuto. Num caso destes há um bônus de +1 para o procurador. Uma revista minuciosa das roupas e cabelos de uma pessoa exige 3 minutos e dá um bônus de +3. Uma revista completa, incluindo cavidades corporais, leva 5 minutos e dá um bônus igual a +5. Um aparelho de raio-X (ou similar) dá um bônus adicional de +5 numa tentativa de detectar objetos contendo algum tipo de metal. Se houver mais de uma pessoa fazendo a revista, o GM deverá fazer uma disputa de habilidades para cada um dos revistadores.
+O GM tem toda a liberdade para omitir os testes desnecessários; nenhum ser humano é capaz de fazer uma espingarda passar por uma revista. Do mesmo modo, é praticamente impossível encontrar uma faca ou uma jóia em uma pessoa vestida normalmente sem um teste de raio-X ou uma revista completa. Em geral, se o bônus líquido no teste for maior ou igual a +3, será necessário uma revista completa. Se o redutor devido ao tamanho for igual a -2 (ou pior), uma revista completa automaticamente achará o objeto escondido.
+
+Ocultação
+O tamanho e a forma do objeto determinam a possibilidade de ocultá-lo. Alguns exemplos:
++6: Uma pedra preciosa do tamanho de uma ervilha; um selo.
++5: Uma gazua; uma jóia grande; uma moeda pequena. Em NT8+: um disco de computador; uma carta.
++4: Um conjunto de gazuas; uma adaga; uma moeda grande. +3: Um disquete do séc. XX ou CD sem o estojo. +2: Uma faca pequena, um revólver comum pequeno (ex. Baby Browning). +1: Uma faca grande; um estilingue. 0: Uma pistola média (ex.: Luger). -1: Uma arma grande (ex.: Colt). -2: Uma pistola grande; uma espada pequena. -3: Uma granada de mão. -4: Um montante. -5: Uma submetralhadora Thompson; uma cimitarra. As roupas também afetam o nível de habilidade efetivo. Uma freira
+
+Carmelita vestindo um hábito completo (bônus de +5) seria capaz de passar uma bazuca ou um machado em uma revista visual. Uma corista de Las Vegas em trajes de trabalho (redutor de -5) teria problemas em esconder até mesmo uma adaga. É claro que a corista poderia escapar à revista (a menos que a guarda estivesse completamente entediada) porque ela obviamente não poderia esconder nada naquela roupa. A nudez completa impõe um redutor de -7 e roupas desenhadas especialmente para esconder objetos podem ter um bônus de até +4.
+Um coldre executado de maneira adequada pode ajudar a esconder uma arma. Um coldre feito sob medida custa aproximadamente $200 e dá um bônus de +2 no NH de Ocultamento para a arma que ele contém. Um bom coldre axilar fabricado comercialmente custará $100 e dará um bônus de +1. Um coldre axilar de qualidade razoável custa mais ou menos $50 e não dá bônus algum. Um coldre barato, um não axilar, ou a falta de um coldre impõe um redutor de -1 à tentativa de esconder uma arma de fogo. Objetos que se movem ou fazem barulho impõem um redutor de, no mínimo, -1.
+
+Serviço Secreto (Mental/Difícil)
+
+Pré-definido
+
+como IQ-6
+
+A capacidade de analisar e interpretar informações secretas (normal-
+
+mente militares) a fim de avaliar os planos e recursos do inimigo.
+
+Interrogatório (Mental/Média) Pré-definido como IQ-5
+Esta é a capacidade de interrogar um prisioneiro. Só é ensinada nos serviços secretos, polícias, penitenciárias, unidades militares e submundo.
+Para interrogar um prisioneiro é necessário vencer uma Disputa de Habilidades: sua perícia Interrogatório vs. a IQ do prisioneiro. O GM representará o prisioneiro (ou o interrogador, se você for o prisioneiro) e fará todas as jogadas em segredo. Cada teste cobrirá 5 minutos de interrogatório e um sucesso significará uma resposta correta a uma pergunta. No caso de uma falha, a vítima permanecerá em silêncio ou mentirá. No caso de uma falha ruim (margem maior ou igual a 5) significa que uma mentira convincente e bem construída será dita. Modificadores: +2 para interrogatórios longos (mais de duas horas); -5 se o nível de lealdade do prisioneiro para com seu líder for Muito Bom ou Excelente; +3 se forem feitas ameaças cruéis; +6 se for usada tortura.
+Note que “tortura” não significa necessariamente o uso de “pau-de-arara” ou “anjinhos”. Expor um prisioneiro ao objeto de sua fobia (v. pág. 35) será um método de tortura bastante eficaz, se a vítima falhar em seu teste de Vontade com o objetivo de suportar o medo. Uma ameaça à integridade de um ente querido também é um método de tortura. Lembre-se que torturar um prisioneiro é normalmente considerado um comportamento vil e poderá gerar represálias.
+
+Leitura Labial (Mental/Média)
+
+Pré-definido
+
+como Visão-10
+
+Esta é a habilidade de ver o que os outros estão dizendo. Para realizá-
+
+la é necessário estar a uma distância menor do que 6 metros, ou usar magia
+
+ou binóculos para fazer uma aproximação visual. Cada teste bem sucedido
+
+permitirá que você capte uma frase da conversa (presumindo, é claro, que
+
+você entende o idioma que está sendo falado). Se os observados suspeitarem
+
+que você é capaz de ler lábios, poderão ocultar a boca ou murmurar de modo
+
+a impossibilitar a leitura. Uma falha crítica num teste destes (se você estiver
+
+em algum lugar onde as vítimas podem vê-lo) significará que você os
+
+encarou demais e eles perceberam. Modificadores: Todos os de Visão (pág.
+
+92).
+
+Perícias
+
+- 66 -
+
+

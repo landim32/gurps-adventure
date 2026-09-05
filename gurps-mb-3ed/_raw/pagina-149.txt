@@ -1,0 +1,85 @@
+ção". Se ele for distraído, será necessário um teste de Vontade com um redutor igual a -3 em cada turno. Uma             O Toque do Mago
+falha não encerrará a mágica, mas o alvo não fará nada até que o operador possa se concentrar novamente.
+Uma falha crítica quebrará o encanto. Fazer outra mágica não interromperá a concentração, mas o operador          Tocar um objeto cancela todas as penalidades
+fica submetido a um redutor no seu NH por estar fazendo duas coisas ao mesmo tempo. Veja a seguir.             devido à distância; o mago pode usar um cajado ou
+                                                                                                               uma vara de condão com esta finalidade. Algumas
+    Custo Reduzido. Se você souber uma mágica tão bem, que o custo em energia para fazê-la fica reduzido,      mágicas exigem que o operador toque o objetivo.
+então o custo para mantê-la ficará reduzido na mesma proporção. Se você realiza uma mágica com um nível        Este é o “Toque do Mago”. Primeiro o mago faz a
+de habilidade maior ou igual a 15, custará um ponto a menos para mantê-la. Isto pode vir a ser muito           mágica. Sua próxima ação (supondo que a mágica
+importante. Exemplo: Se o "custo de manutenção" de uma mágica é um ponto e ela foi feita com um nível          tenha sido bem sucedida), será tentar atingir o
+de habilidade maior ou igual a 15, você poderá mantê-la indefinidamente sem usar nenhuma energia.              oponente com sua mão, cajado ou vara de condão.
+
+    Cancelamento de Mágicas. Um operador pode querer terminar uma mágica antes de seu período de                  Em caso de combate, faça as jogadas como se
+duração normal. Ex.: Ele poderia querer que um fogo criado (que dura normalmente um minuto) terminasse         fosse um outro ataque qualquer. Se um toque for
+depois de 30 segundos. Se ele o especificar no momento em que a mágica estiver sendo feita, ela durará         conseguido (o mago golpeia e a defesa do adversá-
+exatamente o tempo desejado. Mas, se de repente ele se decidir a "cancelar" uma mágica antes de seu término    rio falha) a mágica será bem sucedida. Se o mago
+normal, haverá um custo adicional de 1 ponto de energia, independente da mágica.                               errar ou o inimigo se defender, a mágica estará
+                                                                                                               perdida. A DP da armadura e do escudo normal-
+Fazer Mágica Enquanto se Mantém Outras                                                                         mente não ajudarão contra o “toque do mago”, e
+                                                                                                               aparar com uma arma não salvará o oponente. Um
+    Um personagem só pode fazer uma mágica por vez. No entanto, um operador pode fazer uma segunda             ataque com o cajado ou com as mãos nuas provoca
+mágica antes que as anteriores terminem. Isto é relativamente fácil, se as mágicas em andamento não            o dano físico normal (se o mago o desejar) além do
+exigirem concentração, i.e., controle ativo. Se as mágicas em andamento exigirem controle, torna-se muito      dano provocado pela mágica. O toque de uma vara
+mais difícil fazer mais uma. Estes modificadores se aplicam a realização de mágicas em todas as condições.     de condão não provoca dano. Lembre-se que uma
+                                                                                                               vara de condão é muito leve e tem 1/3 de chance de
+    -3 para cada uma das outras mágicas nas quais o operador mantém sua concentração no momento. A             se quebrar se for aparada com alguma coisa mais
+lista de mágicas especifica quais exigem concentração.                                                         pesada do que uma mão ou faca.
+
+    -1 para cada mágica que o operador tem em andamento no momento. As mágicas que duram para sempre              Um mágico que entre num Combate de Perto e
+(ex. Acalmar Animais, Purificação de Água, Encantar) não impõem um redutor.                                    tente um toque no mesmo turno, deverá fazer seu
+                                                                                                               teste como se fosse um ataque normal; o oponente
+Diferentes Tipos de Magia                                                                                      poderá usar qualquer defesa ativa.
+
+    Existem vários tipos diferentes de magia. As mágicas estão divididas em "escolas", de acordo com o            Um mágico que já esteja num Combate de
+tipo do objetivo, e "classes" de acordo com o modo como elas funcionam.                                        Perto no início de um turno poderá “tocar” o
+                                                                                                               objetivo, a menos que suas mãos estejam imobili-
+Escolas de Magia                                                                                               zadas. Mas, como é impossível se concentrar quan-
+                                                                                                               do se está num Combate de Perto apenas mágicas
+    As mágicas ligadas pelo mesmo tipo de objetivo pertencem à mesma "escola". Na Lista de Mágicas estão       dominadas podem ser usadas deste modo.
+representadas 12 escolas de Magia, mas existem outras. As mágicas básicas de uma escola são pré-requisito
+para as mais difíceis. A maioria dos magos se especializa em apenas algumas escolas (tornando com isso              Cajado e Vara de Condão
+possível aprender algumas mágicas avançadas), mas é possível aprender mágicas de todas as escolas.
+Algumas mágicas se enquadram em mais de uma escola. Ex.: Terra para Ar é tanto uma mágica de Terra                Cajados e varas de condão são objetos encanta-
+quanto de Ar. Isto é importante apenas quando for necessário verificar os pré-requisitos.                      dos feitos com a mágica Cajado (pág. 161). Muitas
+                                                                                                               varas de condão são encantadas de modo a só
+Classes de Mágicas                                                                                             poderem ser usadas por seus donos; algumas con-
+                                                                                                               têm, também, outras mágicas poderosas. Apenas
+    Cada mágica pertence a uma ou mais classes: Comum, Área, Projétil, Informação, Resistível,                 materiais orgânicos (madeira, osso, marfim, coral,
+Encantamento e Especial.                                                                                       etc...) podem ser usados para se fazer uma vara de
+                                                                                                               condão.
+Mágicas Comuns
+                                                                                                                  Tocar um objeto com uma vara de condão, em
+    A maioria das mágicas pertence a esta categoria. Uma mágica comum afeta apenas um objetivo por vez.        termos de magia, é a mesma coisa que tocar o
+Para um objetivo maior do que um hexágono (ex.: um pedaço de terra com 3 hexágonos, ou um elefante)            objeto com um dedo. Por isso, o uso básico de uma
+multiplique o custo em energia pelo tamanho do objetivo em hexágonos. Aplique um redutor igual à               vara de condão ou de um cajado é aumentar o
+distância em hexágonos entre o operador e o objetivo, se o operador não puder tocá-lo. Se a mágica exigir      alcance do toque do mago. Uma vara de condão ou
+um período de tempo para ser feita, a distância entre o operador e o objetivo deverá ser calculada no momento  um cajado não podem aumentar o alcance de uma
+em que a mágica for lançada.                                                                                   mágica de projétil, a menos que tenham sido en-
+                                                                                                               cantados especificamente para ter esta capacidade.
+    Se o operador não puder tocar nem ver o objetivo, haverá um redutor adicional igual a -5. Não há
+necessidade de ver através de seus próprios olhos; qualquer mágica que o permita ver será o suficiente.                  Magia no Sistema
+                                                                                                                        Básico de Combate
+    Existem duas maneiras de dirigir uma mágica.
+    "O hexágono atrás desta porta". Você apanhará quem quer que esteja naquele hexágono. Se não houver            Estas regras contêm descrições precisas de al-
+ninguém lá, a mágica terá sido desperdiçada.                                                                   cance e área afetada, na suposição de que a maioria
+    "A pessoa mais próxima na sala ao lado" ou "George, que eu sei que está em algum lugar por aqui". O        das campanhas usará algumas ou todas as regras
+GM calcula a distância real entre o operador e o objetivo. (Isto é arriscado. O operador esta se sujeitando    do sistema avançado de combate. Mas se você
+a uma falha ou mesmo uma falha crítica. Se o objetivo estiver mais longe do que ele pensa, ou não estiver      estiver jogando sem um mapa, use as seguintes
+lá, ele poderá ser vítima de um "choque de retorno").                                                          instruções para os modificadores de habilidade
+    Ademais, nenhuma barreira física afetará uma mágica comum. Uma mágica comum nunca atinge o alvo            devido à distância:
+errado, a menos que ocorra um "choque de retorno".
+                                                                                                                  As Mágicas de Projétil são sempre feitas com o
+Mágicas de Área                                                                                                nível de habilidade básico do operador. Outras
+                                                                                                               mágicas de combate serão feitas no nível de habi-
+    Estas mágicas podem afetar uma área de vários hexágonos. Se a mágica afeta seres vivos, ela afetará        lidade básico se o GM decidir que o objetivo está
+todos os que estiverem dentro da área. No mais, elas funcionam exatamente como as mágicas comuns.              “ao alcance de um golpe” do operador. Caso con-
+                                                                                                               trário, subtraia 3 do nível de habilidade efetivo do
+    O tamanho da área governa o custo em energia, mas não a dificuldade da jogada. O custo destas mágicas      operador.
+é dado como Custo Básico. Este é o custo para afetar apenas um hexágono. Para afetar um círculo com 2
+hexágonos de raio (ex.: um hexágono e todos os adjacentes), o custo será o dobro do custo básico e assim          Para outras mágicas: Numa ocasião rara em
+                                                                                                               que um GM atuando sem mapa precisar de uma
+                                                                                                               distância ou alcance com precisão, use aquelas
+                                                                                                               dadas. Caso contrário, apenas divirta-se.
+
+- 149 -                                                                                                        Magia
+

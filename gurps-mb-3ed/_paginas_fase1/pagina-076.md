@@ -1,0 +1,96 @@
+# Página 076
+
+> Nota de transcrição: conteúdo bruto extraído automaticamente do PDF (`pdftotext -layout`), preservado em bloco de código para manter o alinhamento original de colunas e tabelas. Será reformatado em Markdown estruturado na Fase 2 (organização).
+
+```
+                                               Tipos de Escudo
+                                                  Os escudos podem ser divididos em seis tipos gerais:
+
+       Anotando seu Escudo                     Tipo            Defesa Passiva Custo                     Peso   Dano
+           em sua Planilha                                                                                     varia
+                                               Improvisado             1 ou 2  -                        varia  5/20
+   Faça uma anotação para seu escudo na                                                                        5/30
+última linha do espaço reservado para as       Broquel                 1       $ 25                     1 kg   7/40
+“Armas e Objetos Pessoais”. Copie seu peso                                                                     9/60
+e custo da tabela ao lado. Se você estiver     Pequeno                 2       $ 40                     4 kg
+usando as regras opcionais para ataque com                                                                       -
+escudo (v. pág. 123), deverá anotar as infor-  Médio                   3       $ 60                     7 kg
+mações relacionadas com a perícia e o dano
+provocado. Caso contrário, eles não têm        Grande                  4       $ 90                     12 kg
+importância.
+                                               de Força (NT 11+)       4       $ 1.500 200 g
+   Você deve preencher também a linha
+destinada ao “Escudo” no campo “Defesa             (usado no pulso esquerdo deixando livre a mão direita)
+Passiva”. Quanto maior o escudo, maior
+será a defesa passiva que ele oferecerá.          Tipo. O tipo do escudo. “Improvisado” significa qualquer coisa que você venha a
+                                               usar para se defender numa emergência. O GM decidirá qual a efetividade dele.
+    Não Permita que as Regras
+             sobre Carga                          Defesa Passiva. Este valor contribui na sua jogada de defesa (mesmo que você não
+                                               tenha idéia de como usar o escudo).
+       Diminuam seu Ritmo
+                                                  Peso. Peso em kg para um escudo de madeira com moldura metálica. O escudo
+   O GURPS contém regras muito detalha-        plástico usado no século XX para controlar manifestações pesa a metade disto.
+das para a avaliação do efeito do peso e
+Carga, para aqueles que apreciam uma boa          Custo. Num cenário medieval; dobre este valor para um escudo plástico do século
+dose de realismo em suas aventuras. Se for     XX.
+o seu caso, você poderá calcular o peso
+exato que seu personagem está carregando,         Dano. Esta coluna é usada apenas para a regra opcional Dano sofrido pelo Escudo
+incluindo as moedas que ele tem no bolso.      (pág. 120). Ela mostra a quantidade de dano que um escudo pode sofrer antes de ser
+                                               destruído.
+   No entanto, a maiorias das campanhas
+não exige este nível de realismo. Além         Carga
+disso, detalhes adicionais podem diminuir
+a fluência do jogo. Para a maioria das            Sua Carga é o peso total que você está carregando, em relação à sua ST. Os objetos
+campanhas, seria ridículo levar em conta o     que você não está carregando não contam como Carga.
+peso das moedas. Além disso, você pode
+preferir ignorar o peso de qualquer ítem          A Carga diminui seu ritmo de movimentação em um combate e a distância que você
+menor do que, digamos, 2 kg. Mas, se você      é capaz de caminhar num dia. Faz também com que a natação e a escalada fiquem mais
+apanha uma acha d’arma ou uma arca de          difíceis.
+moedas de cobre pesando 25 quilos, vá em
+frente e adicione aquele peso à sua Carga...      Uma pessoa forte pode carregar mais do que uma fraca. Portanto, a razão entre o
+                                               peso e a Força determina a Carga, como a seguir:
+   Regras detalhadas para a Carga são mais
+importantes nas situações de combate, tor-        Peso até o valor de ST: Nenhuma Carga. Nenhuma penalidade.
+neios com o uso de mapas, etc... As regras        Peso até 2 x ST: Carga Leve. Diminuição de 1 ponto de Movimento.
+de Carga foram criadas para acrescentar           Peso até 3 x ST: Carga Média. Diminuição de 2 pontos de Movimento.
+detalhes se você os desejar. Não se deixe         Peso até 6 x ST: Carga Pesada. Diminuição de 3 pontos de Movimento.
+envolver por uma complexidade maior do            Peso até 10 x ST: Carga muito Pesada. Diminuição de 4 pontos de Movimento. É
+que a que lhe agrada.                          impossível carregar um peso maior do que 10 vezes sua ST por mais do que um metro
+                                               ou dois de cada vez. 15 x ST é o maior peso que se pode carregar.
+   A maneira mais fácil de simplificar a
+Carga é usar as regras para “armadura                                          Níveis de Carga
+genérica” (pág. 72), ao invés de calcular o
+custo e peso de cada parte. Note que todos     ST Nenhuma (0)          Leve (1) Média (2) Pesada (3)           Muito Pesada (4)
+os quatro personagens fornecidos como                                                                                 60 kg
+exemplo (págs. 214 a 217) foram construídos    6        6 kg           12 kg   18 kg            36 kg                 70 kg
+usando as regras para “armadura genéri-                                                                               80 kg
+ca”. Se você quiser usar as regras mais        7        7 kg           14 kg   21 kg            42 kg                 90 kg
+complexas, poderá adaptar sua armadura                                                                              100 kg
+de modo a ficar compatível com a figura.       8        8 kg           16 kg   24 kg            48 kg               110 kg
+Isto provocará uma ligeira alteração no                                                                             120 kg
+peso.                                          9        9 kg           18 kg   27 kg            54 kg               130 kg
+                                                                                                                    140 kg
+                                               10       10 kg          20 kg   30 kg            60 kg               150 kg
+                                                                                                                    160 kg
+                                               11       11 kg          22 kg   33 kg            66 kg               170 kg
+                                                                                                                    180 kg
+                                               12       12 kg          24 kg   36 kg            72 kg               190 kg
+                                                                                                                    200 kg
+                                               13       13 kg          26 kg   39 kg            78 kg
+
+                                               14       14 kg          28 kg   42 kg            84 kg
+
+                                               15       15 kg          30 kg   45 kg            90 kg
+
+                                               16       16 kg          32 kg   48 kg            96 kg
+
+                                               17       17 kg          34 kg   51 kg            102 kg
+
+                                               18       18 kg          36 kg   54 kg            108 kg
+
+                                               19       19 kg          38 kg   57 kg            114 kg
+
+                                               20       20 kg          40 kg   60 kg            120 kg
+
+Equipamento e Carga                                            - 76 -
+```

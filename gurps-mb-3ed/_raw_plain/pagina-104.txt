@@ -1,0 +1,39 @@
+Quando uma Arma está Preparada?
+Uma arma está “preparada” se ela estiver em sua mão e pronta para atacar. É necessário um turno para desembainhar uma arma (v. Sacar Rápido, pág. 105).
+Espadas e facas não precisam ser preparadas novamente depois de serem usadas em um ataque, por serem balanceadas e fáceis de manipular.
+Armas de mão desbalanceadas (como o machado) precisam ser preparadas novamente depois de usadas para atacar ou aparar. Sua inércia as leva para longe, e é preciso um turno para prepará-las novamente.
+Armas de mão com 3 metros de alcance (ex.: armas de haste como a alabarda) exigem dois turnos para serem preparadas ou um turno para serem repreparadas depois de um golpe de ponta. Um golpe em balanço de uma arma de haste carrega-a para baixo exigindo um tempo mais longo para preparála de novo. Mas uma arma de haste não precisa ser preparada novamente depois de aparar, porque você apara com o fuste.
+Mudança de Empunhadura: Ela exige um turno a mais para mudar o alcance de 1 para 2 metros ou 2 para 3 metros, ou vice versa, para a maioria das armas. Uma arma pode ser preparada novamente para qualquer alcance independente de como ela foi usada anteriormente.
+Queda: Se você cair, perder o equilíbrio ou ficar atordoado e sua arma for do tipo que precisa ser preparada depois de ter sido usada, ela precisará ser preparada de novo.
+Embainhar: São necessários dois turnos para devolver uma arma para a bainha.
+Preparação Rápida Devido a um Alto Valor de ST
+Se uma arma precisa ser preparada novamente depois de usada é por causa de seu peso desbalanceado. Portanto, STs maiores permitirão que se prepare a arma mais rapidamente.
+Se sua ST for 5 pontos maior do que a ST mínima requerida para uma arma “desbalanceada”, será necessário um turno a menos para prepará-la depois de cada ataque. Logo, seria possível atacar em todas as rodadas com um machado, ou em turnos alternados com uma arma de haste. Seria possível aparar e atacar com um machado no mesmo turno.
+Isto também se aplica a bestas: Com uma ST 5 pontos acima da ST mínima da besta, você será capaz de engatilhá-la em 1 segundo ao invés de 2.
+Se sua ST for 10 pontos maior do que o mínimo exigido para uma arma de mão desbalanceada, você poderá atacar com ela em todos os turnos. Isto não se aplica a bestas.
+Aparar e Preparar Só é possível aparar com uma arma preparada.
+A maioria das armas não precisa ser preparada novamente depois de aparar. Você pode atacar com uma espada, aparar o contra-ataque de seu oponente e atacar de novo em seu próximo turno. No entanto, se um ataque obriga a uma nova preparação de um determinado tipo de arma, o aparar também obrigará. Exceção: Armas de Haste.
+Exemplo: John Falcon está lutando com Fiendish Fredrick. John é mais rápido; ele ataca com uma espada. O machado de Fredrick está preparado e ele apara. Fredrick agora não pode golpear, seu machado não está preparado. Em seu próximo turno, ele preparará o machado.
+Continua na próxima página ...
+
+Avançar e Preparar
+Esta é a manobra para apanhar ou sacar qualquer arma e prepará-la para ser usada. É possível se deslocar um hexágono antes ou depois de sacar a arma. Use esta manobra para desembainhar uma espada ou sacar um revólver do coldre.
+É possível também preparar uma arma se você ficar parado e a apanhar de cima de uma mesa, prateleira, etc. Ela deve estar em seu próprio hexágono ou em um adjacente.
+Você pode ficar parado e apanhar uma arma que alguém lhe oferece. A pessoa deverá estar no mesmo hexágono ou em um adjacente. É possível usar a mesma manobra para oferecer uma arma para alguma outra pessoa. Dois objetos não podem ser trocados simultaneamente (lembre-se que estes turnos duram 1 segundo).
+Você pode se esquivar normalmente depois desta manobra. Pode bloquear se seu escudo já estiver preparado quando for atacado e poderá aparar normalmente se sua arma estiver totalmente preparada quando o ataque ocorrer. Se sua arma exigir mais de um turno para ser preparada, você não poderá aparar com ela enquanto ela não estiver inteiramente preparada. Veja a seguir.
+Preparando uma arma: Não é possível usar uma arma que não está “preparada”, i.e., em sua mão, pronta para ser usada. Algumas armas devem ser preparadas depois de cada ataque. Um machado, por exemplo, precisa ser preparado depois de cada golpe, porque seu impulso o carrega para longe. Uma arma de haste precisa de 2 segundos para ser preparada depois de cada golpe, ou quando ela é apanhada do solo (porque ela é longa e pesada). A Tabela de Armas indica quais armas devem ser re-preparadas depois de usadas.
+Recarregar uma arma exige várias manobras de preparar. Ex.: para disparar um arco longo (assumindo que o arco em si está preparado em sua mão) é necessário: (1) tirar a flecha da aljava; (2) preparar o arco colocando a flecha na corda. Este processo toma dois turnos. No terceiro você pode apontar ou atirar. Uma besta exigiria as mesmas duas manobras Preparar além de pelo menos duas para engatilhar. V. a coluna lateral na pág. 96.
+Quando uma arma requer mais de uma manobra preparar, o jogador deverá dizer “engatilhando a besta, um segundo ... engatilhando a besta 2 segundos ... preparando o virote ... preparando a besta.” O processo levou 4 segundos, no quinto a arma pode ser disparada. Os tempos para recarregar as diferentes armas estão mostrados na Tabela de Armas. Veja também a coluna lateral na pág. 96.
+Você pode usar qualquer defesa enquanto estiver preparando um arma de mão; é possível se esquivar, aparar ou bloquear com outra arma. Não é possível bloquear ou aparar enquanto se está carregando uma arma de projétil. Você pode se esquivar, mas não pode usar aquele turno para recarregar a arma. Se estiver engatilhando uma besta ou fazendo alguma outra coisa complexa, você terá que começar de novo se se esquivar de um golpe.
+Preparar um escudo: Se o escudo estiver no chão ou preso às suas costas, o número de turnos necessário para prepará-lo será igual à sua defesa passiva. O mesmo tempo será necessário para prendê-lo novamente às suas costas. É necessário um turno para tirar o escudo do braço.
+Apanhar alguma coisa do chão: Isto exige dois turnos. No primeiro, você se ajoelha e no segundo apanha a arma e se levanta de novo. Uma espada, faca, etc., estará automaticamente preparada quando você levantar. Uma arma desbalanceada precisa ser preparada. São necessários dois turnos para preparar uma arma de haste depois de apanhá-la.
+Avançar e Atacar
+Esta manobra é usada para atacar com qualquer arma preparada. Avance um hexágono em qualquer direção (ou fique parado) e use sua arma. A manobra é a mesma se você golpear com uma arma de mão, disparar uma arma de fogo ou arremessar uma arma. Você pode atacar primeiro e depois se deslocar. Se você estava apontando uma arma, deslocar-se antes de atacar limitará o bônus que você pode receber por ter apontado (veja pág. 103).
+As regras para atacar um oponente estão explicadas no Sistema Básico de Combate (pág. 97). O inimigo que você atacar deverá estar dentro do alcance de sua arma (v. pág. 102). Ele deverá estar também à sua frente, a menos que você esteja aplicando golpes Molinete (veja a coluna lateral nesta página).
+É possível se defender normalmente na rodada em que se ataca. Você pode se esquivar, bloquear ou aparar se sua arma ainda estiver preparada. Um machado ou outra arma similar deixa de estar preparada depois de um golpe. Logo, ele não poderá ser usado para aparar até ser preparada novamente (um ou mais turnos depois).
+
+Sistema Avançado de Combate
+
+- 104 -
+
+

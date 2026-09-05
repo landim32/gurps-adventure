@@ -1,0 +1,161 @@
+# Página 9
+
+## Índice (continuação)
+
+- Aventuras em al-Haz — 75
+- Por trás da Muralha do Altíssimo — 76
+- O Mäelstrom — 77
+- A Costa — 78
+- Al-Ab'ra — 78
+- Al-Abyad — 78
+- As Montanhas — 79
+- Gebel al-Hikmah — 79
+- Geb'al-Din — 79
+- Firuz — 80
+- As Planícies — 80
+- Os Vizires — 80
+- As Tribos Nômades — 81
+- Alhallabad — 81
+- Tredroy Ocidental — 81
+- Al-Wazif — 82
+- Sunitas Versus Xiitas — 82
+- A Peste — 83
+- Al-Siyassi — 84
+- Aventuras em al-Wazif — 84
+- Qazr al-Sawh — 85
+- Os Grandes Jogos — 85
+- Shaniyabad — 86
+- Tredroy Setentrional — 87
+- Sa'Azrag — 87
+- Gebel Thamad — 87
+- Os Pilares do Céu — 88
+- A Cidade Perdida de Autheuil — 88
+- Cardiel — 89
+- Aventuras em Cardiel — 89
+- Embarcações a Vela — 90
+- O Conselho dos Nobres — 92
+- Calder — 93
+- Tredroy Oriental — 93
+- Hadaton — 94
+- Aliar — 94
+- Alimar — 95
+- Minder — 96
+- Ten-Tiri — 96
+- Sahud — 97
+- As Mulheres em Sahud — 97
+- Aventuras em Sahud — 98
+- A Religião Sahudense — 99
+- Kinkaku — 100
+- Uulinn — 100
+- Tsushuo — 100
+- O Rei Celestial — 100
+- O Território dos Nômades — 101
+- Aventuras no Território dos Nômades — 101
+- A Religião dos Nômades — 102
+- Heolford — 103
+- Bardos — 103
+- Zarak — 104
+- Não-Anões — 105
+- O Povo de Thulin — 106
+- Os Elfos — 107
+- A Morte de uma Nação — 107
+- As Ruínas Élficas — 108
+- Os Elfos Negros — 109
+- As Terras dos Orcs — 110
+- As Tribos — 110
+- O Castelo Defiant — 110
+
+**4. PERSONAGENS** — 111
+- Vantagens — 112
+- Desvantagens — 112
+- Perícias — 113
+- Novas Perícias — 113
+- Tabela de Empregos — 115
+- Tipos de Personagens — 116
+- Personagens Não-humanos — 119
+- Centauros — 119
+- Anões — 120
+- Elfos — 120
+- Elfos Negros — 120
+- Meio-Elfos — 120
+- Gigantes — 120
+- Gnomos — 121
+- Goblins — 121
+- Hobgoblins — 121
+- Halfilings — 121
+- Kobolds — 121
+- Minotauros — 122
+- Ogros — 122
+- Orcs — 122
+- Meio-Orcs — 122
+- Reptantes — 122
+- Vampiros — 123
+- Licantropos — 124
+- Criando Novas Raças — 124
+
+**5. CRIATURAS** — 126
+- Dragões — 126
+- Animais Selvagens e Fantásticos — 127
+- Animais Domésticos — 131
+
+**6. CAMPANHAS DE FANTASIA** — 132
+- Cenário — 133
+- A História que não Consta dos Anais — 133
+- Terra Histórica — 133
+- Universos Paralelos — 133
+- Terras Alternativas — 133
+- Campanhas Interligadas — 133
+- Mundos do Futuro — 134
+- Ficção Científica — 134
+- Magia — 134
+- O Nível de Mana — 134
+- Mana Seletivo — 135
+- Fundamento Científico — 135
+- Aptidão Mágica — 135
+- Freqüência de Manifestação — 135
+- Pontos de Personagem — 135
+- Nível de Habilidade com uma Mágica — 136
+- Dons Mágicos — 136
+- Tipos de Magia — 136
+- Magia "Comum" — 136
+- Magia Cerimonial — 136
+- Magia Intrínseca (Dons Mágicos) — 136
+- Comandos — 136
+- Magia de Improviso — 137
+- Magia de Runas — 137
+- Cantrips — 137
+- Magia Clerical — 137
+- "Magia" Psíquica — 137
+- Objetos Encantados — 137
+- A Magia como uma Forma Alternativa de Tecnologia — 137
+- Predestinação — 137
+- Saúde Pública — 138
+- Alimentando as Massas — 138
+- O Dia-a-Dia — 138
+- Magia de Combate — 138
+- Há Algum Deus em Casa? — 138
+- Sociedade — 139
+- Nível Tecnológico — 139
+- Como um Peixe fora D'água — 139
+- Magia e Tecnologia — 140
+- Magia e Sociedade — 140
+- Raças — 140
+- Quais Raças Existem? — 140
+- Aonde Você Vai Por Este Dragão? — 140
+- PCs Não-humanos — 141
+- Sociedades Não-humanas — 141
+- Campanhas — 141
+- Estilo da Campanha — 141
+- Campanha Séria — 141
+- Campanha Cinematográfica — 141
+- Campanhas Absurdas — 141
+- Aprendendo com os Fatos Históricos — 141
+- Leitura Recomendada — 141
+- Campo de Ação da Campanha — 142
+- O Objetivo Final — 142
+- O Dinheiro num Mundo de Fantasia — 142
+
+**ÍNDICE REMISSIVO** — 143
+**MAPA**
+
+[Numeração de página: -3-]

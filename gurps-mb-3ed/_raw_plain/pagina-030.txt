@@ -1,0 +1,161 @@
+Desvantagens Mentais
+Nota para o GM: Algumas desvantagens mentais permitem que o personagem afetado faça testes de IQ ou de Vontade (pág. 93), para tentar evitar os efeitos adversos de seu problema. Neste caso, qualquer resultado maior ou igual a 14 significará uma falha. Se não fosse assim, qualquer personagem com uma inteligência, ou força de vontade, muito grande seria quase que completamente imune a seus maus hábitos e não é assim que as coisas funcionam na vida real.
+
+Distração
+
+-15 pontos
+
+A desvantagem clássica dos gênios excêntricos. O personagem tem
+
+dificuldade em prestar atenção a qualquer coisa que não seja de interesse
+
+imediato. Um personagem distraído estará submetido a um redutor de
+
+-5 em qualquer teste de IQ, com exceção daqueles ligados ao trabalho no
+
+qual ele está concentrado no momento. Se não aparecer nenhum assunto
+
+ou tarefa que o atraia, sua atenção se desviará para assuntos mais
+
+interessantes em 5 minutos. Ele ignorará tudo o que está à sua volta, até
+
+que alguma coisa chame sua atenção e o traga de volta. Uma vez absorto
+
+em seus próprios pensamentos, um personagem Distraído precisa con-
+
+seguir um sucesso em um teste contra IQ-5 para reparar em qualquer
+
+evento que não lhe cause dano físico.
+
+Um personagem distraído pode tentar concentrar sua atenção em um
+
+assunto maçante, usando toda sua força de vontade. Para consegui-lo, ele
+
+precisa de um sucesso em um teste de Vontade com um redutor de -5, a
+
+cada 5 minutos. Entre os “assuntos enfadonhos” incluem-se turno de
+
+guarda, conversa fiada, trabalhos manuais repetitivos, dirigir em uma
+
+estrada vazia, etc...
+
+As pessoas distraídas têm, também, uma tendência a se esquecer de
+
+objetos (como as chaves do carro e o talão de cheques) e tarefas triviais
+
+(como pagar contas). Sempre que a realização de uma destas tarefas tiver
+
+alguma relevância, o GM poderá exigir um teste contra IQ-2. No caso
+
+de uma falha, o detalhe terá escapado de sua atenção. Exemplo: Um
+
+detetive distraído está envolvido em um tiroteio. Pela manhã ele usou 4
+
+de suas balas durante uma troca de tiros com alguns bandidos. O GM
+
+pede que ele faça um teste de IQ com um redutor igual -2. O detetive
+
+falha, descobrindo tarde demais que ele esqueceu de recarregar sua arma,
+
+que agora tem somente duas balas.
+
+Vício
+
+Variável
+
+O personagem é viciado em alguma droga que ele precisa ingerir
+
+diariamente ou sofrer as penalidades de Regeneração (veja a seguir). O
+
+bônus para esta desvantagem depende do tipo de droga em que se está
+
+viciado:
+
+Se a dose diária custa $20 ou menos: -5 pontos.
+
+Se a dose diária custa de $21 a $100: -10 pontos.
+
+Se a dose diária custa mais de $100: -20 pontos.
+
+Se a droga for alucinógena ou incapacitante: -10 pontos.
+
+Se a droga for altamente viciadora (-5 em testes de Regeneração):
+
+-5 pontos.
+
+Se a droga for totalmente viciadora (-10 em testes de Regeneração):
+
+-10 pontos.
+
+Se a droga for legal em seu mundo original: + 5 pontos
+
+Exemplos: O tabaco é barato, altamente viciador e legal. Um fumante inveterado tem um vício que vale -5 pontos. A heroína é muito cara, ilegal, totalmente viciadora e incapacita o usuário. Um viciado em heroína tem uma desvantagem que vale -40 pontos.
+
+Efeitos das Drogas. Uma droga incapacitante deixará quem a usa inconsciente (ou alegre e inutilmente sonolento) por mais ou menos duas horas (quatro horas para personagens com ST menor do que 10, uma hora para aqueles com ST maior do que 15). Uma droga estimulante afetará quem a usa pelo mesmo período de tempo: o usuário acredita estar mais inteligente, mas na verdade seu IQ estará temporariamente diminuído de 1 ponto. No entanto, ele recebe +1 de bônus em sua Velocidade. Uma droga alucinógena torna seus usuários inúteis para o trabalho ou
+
+combate, apesar de eles poderem estar ativos e falantes. Algumas drogas (como o tabaco) não apresentam nenhum destes efeitos, enquanto que outras têm um efeito próprio. Também é possível a existência de efeitos colaterais. Os GMs têm toda a liberdade para pesquisar ou inventar efeitos colaterais para drogas reais ou imaginárias.
+Regeneração. Algumas vezes, um viciado em drogas tenta, voluntariamente ou não, deixar o vício. Isto pode acontecer se ele estiver aprisionado, viajar para um lugar onde não existe a droga à disposição ou simplesmente porque ele não é capaz de sustentar o vício financeiramente. A Regeneração é um processo doloroso, que exige duas semanas (14 dias) de testes de HT bem sucedidos (o GM poderá mudar este tempo, conforme ele achar apropriado, para uma droga específica).
+Todo dia o viciado faz um teste de HT, + ou - Vontade. Cada sucesso o aproxima um dia do momento em que ele conseguirá se livrar do vício. Uma falha significa que o viciado deve ceder à ânsia (se a droga estiver disponível) e tomar uma dose. Se isto acontecer, ele deverá começar todo o processo novamente (se ele ainda estiver disposto a fazê-lo). Se a droga não estiver disponível, o viciado perderá um ponto de vida e poderá tentar continuar o processo de Regeneração, mas aquele dia não deverá ser contado como um dos 14 necessários para sua cura. A HT perdida durante a Regeneração não pode ser recuperada (pelo menos por algum meio “normal”) até que ela seja concluída ou abandonada.
+Lembre-se que você deverá “recomprar” a desvantagem do Vício antes de começar o processo voluntariamente, ou imediatamente após a Regeneração forçada. Veja pág. 82.
+
+Alcoolismo
+
+-15 ou -20 pontos
+
+O personagem é um viciado em álcool. O alcoolismo é tratado como
+
+um vício (veja acima). Ele é barato, incapacitante e (normalmente) legal.
+
+Por isso vale -10 pontos. Mas o álcool é traiçoeiro, por ser diferente da
+
+maioria dos outros vícios. Por isso ele vale -15 pontos, ou -20 se for ilegal.
+
+Um alcoólatra pode, em circunstâncias normais, limitar o uso do
+
+álcool ao período noturno e, desta maneira, ser capaz de (pelo menos do
+
+ponto de vista do jogo) agir normalmente. No entanto, toda vez que um
+
+alcoólatra se vir frente a frente com o álcool, ele deverá obter um sucesso
+
+em um teste de Vontade, para evitar participar. Uma falha significa que
+
+ele tomará um porre que durará 2D horas, seguido de uma ressaca
+
+durando o dobro, durante as quais todos os seus atributos e perícias
+
+estarão submetidos a um redutor de -3. Alcoólatras numa bebedeira
+
+caracterizam-se pela oscilação súbita de seu humor (da cordialidade à
+
+hostilidade extremas) e podem vir a atacar seus amigos, falar demais ou
+
+cometer outros erros do gênero.
+
+O outro inconveniente do alcoolismo é que é difícil se libertar dele.
+
+Quando um personagem alcoólatra se “regenerar”, ele não precisará
+
+mais ingerir álcool diariamente, mas terá que fazer um teste de Vontade,
+
+com um bônus de +4, sempre que estiver em presença de álcool. Uma
+
+falha não significa que ele voltará ao vício, mas indica uma bebedeira.
+
+(Três porres em uma semana trarão o vício de volta). Isto significa que
+
+não há nenhuma maneira normal de “recomprar” esta desvantagem.
+
+Um alcoólatra deve fazer todo ano um teste contra HT+2, até
+
+abandonar o vício. Uma falha significa que ele deve perder um ponto de
+
+um de seus quatro atributos básicos. Determine qual deles aleatoriamen-
+
+te.
+
+Desvantagens
+
+- 30 -
+
+

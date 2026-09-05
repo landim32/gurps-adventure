@@ -1,0 +1,125 @@
+# Página 209
+
+> Nota de transcrição: conteúdo bruto extraído automaticamente do PDF (`pdftotext -layout`), preservado em bloco de código para manter o alinhamento original de colunas e tabelas. Será reformatado em Markdown estruturado na Fase 2 (organização).
+
+```
+Arma                                 Tipo Dano TR Prec ½D                Max           Ps CdT Tiros ST Rco Custo NT
+
+Espingardas
+
+Blunderbuss 8G, séc.XVIII, RU, (AF) Cont 5D         14 3        15         100         6 1/15       1 13 -4 15 5
+
+Ithaca 10G, 1900, US                 Cont 5D        12 5        25         150         5   2~       2 13 -4 45 6
+
+Rem M870, 12G, 1950, US              Cont 4D        12 5        25         150         4   3~       5 12 -3 235 7
+
+Fuzis
+
+Canhão de Mão, .90, séc.XVI (AF) Cont 2D 20              1 100             600 2.5 1/60             1 10 -3 300 4
+                                                         2 100
+Mosquere de Mecha, .80, séc.XVII (AF) Cont 4D 18         5 100             600         10 1/60      1 12 -2 400 5
+                                                         7 400
+Brown Bess, .75, 1720, RU (AF)       Cont 3D 15          7 400           1.500 6.5 1/15             1 11 -3 10 5
+                                                         7 300
+Fuzil Kentucky, .45, 1750, US (AF) Cont 4D 15            8 700           3.700 3.38 1/20            1 10 -2 40 5
+                                                         7 600
+Fuzil Ferguson, .60, 1777, RU (AF) Cont 4D 14            8 700           3.700 3.5 1/10             1 10 -2 60 5
+                                                         8 700
+Fuzil Baker, .625, 1790, RU (AF)     Cont 4D 15          7 300           2.500 4.63 1/20            1 12 -3 20 5
+                                                        10 1.000
+E ’53, .577 Br, 1853, RU (AF)        Cont 3D 15          7 600           2.100 4.25 1/15            1 10 -2 15 5
+                                                         8 450
+MH ’71, .45 Br, 1871 RU              Cont 4D        15  11 1.000         2.030 3.25 1/4             1 10 -2 20 5
+                                                        10 1.000
+Fuzil Rem, .45 C, 1871, US           Cont 4D 15         11 1.000         2.100 4.63 1/4             1 10 -2 55 5
+                                                         7 1.500
+Spr ’73, .45-70, 1873, US            Cont 4D        15  11 1.000         2.100 4.5 1/4              1 11 -2 20 5
+                                                         7 400
+Win ’73, .44-40 Win, 1873 US         Cont 3D 13         11 1.000         2.200 3.55        2~       6 10 -2 40 5
+                                                        10 1.000
+Lebel ’86, 8mm L, 1886, FR           Cont 6D+1 15       11 500           3.900         5 1/2        8 12 -3 125 5
+                                                        10 500
+Sharps 50, .50-90, 1890, US          Cont 6D        15  13 1.200         3.300 5.5 1/4              1 12 -3 150 5
+                                                         9 300
+Win ’94, .30-30 Win, 1894, US        Cont 5D 13         13 900           3.011 3.5         2~       6 10 -1 475 5
+                                                        15 1.500
+Msr ’98k, 8mm Msr, 1898, AL          Cont 7D        14  11 500           3.972 4.75 1/2             5 12 -3 170 6
+                                                        13 400
+LE Mk3#1, .303 Br, 1903, RU          Cont 6D+1 14       10 500           3.800 5.1         1        10 12 -2 130 6
+                                                        10 300
+M1903A1, .30-06, 1906, US            Cont 7D+1 14                        3.710 4.75 1/2             5 12 -3 135 6
+
+H&H Express, .600 N, 1923, RU        Cont 10D 16                         5.063         8   2        2 13 -6 200 6
+
+M1 Garand, .30-06, 1936, US          Cont 7D+1 14                        3.710         5   3~       8 12 -3 590 6
+
+AK-47, 7.62mm R, 1949, URSS          Cont 5D+1 12                        3.011 5.25 10* 30 10 -1 290 7
+
+FN-FAL, .308 Win, 1950, BE           Cont 7D        14                   4.655 5.5 11* 20 11 -2 900 7
+
+H&K G3, .308 Win, 1959, AL           Cont 7D        14                   4.655 5.5 10* 20 11 -2 550 7
+
+M16, .223 Rem, 1964, US              Cont 5D 12                          3.843         4 12* 20 9 -1 540 7
+
+AUG, .223 Rem, 1978, AU              Cont 5D 11                          3.843 4.5 11* 30 9 -1 540 7
+
+H&K PSG1, .308 Win, 1982, AL         Cont 7D        15                   4.655 5.5         3~ 20 12 -2 4.500 7
+
+Fuzil de Agulhas, .02 Ag, FC         Perf 2D        13                     800 2.5         3~ 100 8 -1 1.200 8
+
+Fuzil Laser, FC (AR)                 Perf 2D        15                   1.200 2.5         3~ 12/C - 0 2.000 8
+
+Fuzil Laser Militar, FC (AR)         Perf 2D        12                   2.000 4.5         8* 140/D - 0 4.000 8
+
+Fuzil Lança Agulhas Mag.,.02 AM, FC Perf 2D+1 14                         1.000         3 20* 100/B 9 -1 2.500 8
+
+Fuzil Iônico, FC (AR)                Perf 4D+4 14                          800         5   3~ 12/C 9 -1 3.000 9
+
+Disruptor, FC (AR)                   Perf 2D+6 13                        1.000 4.5         3~ 20/C - 0 2.500 9
+
+Fuzil Atordoador, FC (AR) v.pág.119 Atord Atord 12                       1.000         2   3~ 20/C - 0 1.000 9
+
+Metralhadoras de Mão                 Cont 2D+1 11 7 190                  1.750         6   20* 30 11 -3 120 6
+                                     Cont 3D-1 10 6 160
+Thompson, .45 ACP, 1922, US          Cont 3D-1 10 6 160                  1.900 5.25        8        32 10 -1 70 6
+MP40, 9mm P, 1940, AL                Cont 3D-1 10 7 160
+PPSh41, 7.62 RP, 1941, URSS          Cont 3D-1 10 8 160                  1.900         6   16       71 10 -1 65 6
+IMI Uzi, 9mm P, 1952, IS
+H&K MP5, 9mm P, 1966, AL                                                 1.900 4.75        10* 32 10 -1 150 7
+
+                                                                         1.900 3.63        10* 30 10 -1 340 7
+
+Granadas                                                        Munição
+
+Arma                     Tipo Dano Ps               Ignição NT  Nome                       Dano Mod. Dano  Custo
+                                                      3-5 6
+US Mk 2 Defensiva Cont 2D-1 0.75                      4-5 7     NT5 e abaixo                    x1 x1,5    $2 (1850)
+
+US Mk 67 Defensiva Cont 5D+2 0.50                   impacto 7   Maioria das pistolas de NT6+ x1     x1     $20 (1988)
+                                                      1-2 7
+US Mk 68 Defensiva Cont 5D+2 0.50                               Pistolas calibre .40+           x1 x1,5    $40 (1988)
+                                                    impacto 7
+US AN-M8 Fumaça -                 -  0.75             3-5 6     RL .22 - Séc.XX                 x1  x1     $2 (1988)
+                                                      0-8 6
+US M59 Ofensiva          Cont 5D+2 0.75               2-4 6     Fuzis militares - séc.XX        x1  x1     $10 (1988)
+                                                      3-4 7
+RU No. 36 Defensiva Cont 2D-1 0.75                              Outros fuzis - séc.XX           x1  x1     $30 (1988)
+
+RU “jam tin”             Cont 5D     0.75                       Perfurante                      x2  x½     x3
+
+AL “Potato masher” Cont 2D-2 0.65                               Ponta ôca                  x½       x2     x1,5
+
+URSS RGD-5 Defensiva Cont 3D-1 0.30                             Agulhas                         x1  x1     $15 (NT8)
+
+                                                                Agulhas magnéticas              x1  x1     $25 (NT8)
+
+              V. regras para granadas na pág. 121.              Obs.: São as balas, e não a arma, que determinam o dano causado. A
+
+                                                                mudança do tipo de bala pode alterar o dano básico produzido pela
+
+                                                                arma. O Modificador de Dano é aplicado à quantidade de dano que
+
+                                                                ultrapassar a RD do alvo.
+
+                                                        - 209 -                                     Quadros e Tabelas
+```

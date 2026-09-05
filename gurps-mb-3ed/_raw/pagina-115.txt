@@ -1,0 +1,63 @@
+Parâmetros das Armas de Longo Alcance                                                             Ângulo de Visão
+
+   Para cada arma de longo alcance são usados 4 números, que descrevem suas               Com uma arma de longo alcance é possível
+características particulares:                                                          atacar qualquer um dos hexágonos brancos à
+                                                                                       sua frente, conforme mostrado na figura abai-
+   Tiro Rápido (TR): Se o resultado de sua jogada de ataque ajustada para “acertar”    xo. Este é seu ângulo de visão. Um persona-
+for maior ou igual a este valor, você poderá disparar sem apontar, sem estar sujeito   gem com Visão Periférica pode disparar con-
+ao redutor de -4 devido ao Tiro Rápido, desde que o alvo esteja à vista no início de   tra qualquer hex dentro de seu ângulo de visão,
+seu turno. O Tiro Rápido é relativamente fácil com algumas armas e muito difícil com   mostrado pelos hexágonos brancos e cinza da
+outras. Quanto maior, mais próximo e mais lento for o alvo, mais fácil será acertá-lo  figura.
+com um Tiro Rápido. Além disso, alguém acostumado a este tipo de tiro poderá ser
+bem sucedido num caso onde alguém sem treino teria pouca chance.                          Sacar Rápido para Arqueiros
+
+   Modificador de Precisão (Prec): Este é o bônus que um combatente recebe se ele         Se você desenvolver esta perícia para fle-
+usar pelo menos um turno para apontar. Ex.: Se seu NH com a pistola for 15 e sua       chas (ou virotes, a perícia é a mesma), poderá
+.45 tiver um modificador de precisão igual a +2, você terá um NH efetivo igual a 17    preparar uma flecha em tempo zero se conse-
+depois de um turno apontando. O uso de lunetas aumenta o modificador de precisão       guir um sucesso em um teste de habilidade.
+da arma. Acrescente metade do poder de ampliação à Prec da arma (ex.: uma luneta       Isto eliminará um segundo do tempo total
+que aumenta 4 vezes soma 2 pontos). As lunetas impõem um redutor de -1 no caso de      necessário parar preparar o arco.
+tiro rápido (elas são desajeitadas).
+                                                                                          No entanto, a penalidade por falhar em um
+   Algumas armas têm uma Prec muito alta, mas você nunca poderá receber um bônus       teste de habilidade é maior para um arqueiro.
+maior do que sua habilidade com a arma. Ex.: Se seu NH com Armas de Feixe for          Se você falhar no teste, deixará o arco cair, e
+apenas 8 e você tiver um Fuzil Laser (Prec 15), o bônus que você receberá será apenas  no caso de uma falha crítica, todo o conteúdo
++8.                                                                                    de sua aljava. A partir daí, cada flecha que
+                                                                                       tiver que ser apanhada do chão será uma
+   Meio Dano (½D): A distância (em metros) na qual a potência de uma arma caiu         manobra “Preparar” e é impossível sacar rápi-
+tanto que ela provoca apenas a metade do dano usual (jogue normalmente e reduza o      do uma flecha que esteja caída no chão.
+resultado à metade, arredondando para baixo). Na realidade, a maioria das armas
+perde potência gradualmente devido à resistência do ar, mas um cálculo detalhado                   Atirar às Cegas
+deste efeito seria impraticável durante um jogo. Ignore o modificador de precisão da
+arma quando o alvo estiver a uma distância maior do que ½D; variáveis aleatórias          Você pode atacar alguém fora de seu ângu-
+cancelaram qualquer precisão que a arma pudesse ter intrinsecamente ligada a ela..     lo de visão com uma arma de longo alcance, se
+                                                                                       disparar “às cegas”. Neste caso existem duas
+   Alcance Máximo (Max): É impossível atacar qualquer alvo a uma distância maior       possibilidades: a) sua jogada de ataque estará
+do que esta, pois a arma não conseguirá atirar seu projétil tão longe (ou, no caso de  submetida a um redutor de -10, ou b) o resul-
+uma arma de arremesso, porque ela não estará mais viajando de ponta).                  tado a ser conseguido com os dados deve ser
+                                                                                       menor ou igual a 9. Você deve usar a pior
+   Alguns exemplos de parâmetros de armas de projétil:                                 delas. (Como prevê a lei de Murphy, com
+                                                                                       freqüência você terá menos chance de acertar
+Arma                       TR  Prec  D        Max                                      seu alvo do que qualquer outra pessoa nas
+                                                                                       redondezas). É desnecessário dizer que você
+Faca Pequena               11  0     ST-5     ST                                       não receberá nenhum bônus por apontar. Veja
+                                                                                       Atingindo o Alvo Errado, pág. 117.
+Pedra ou bola de Baseball  12  0     STx2     STx3,5
+                                                                                           Ataques à Longa Distância
+Lança                      11  +2    ST       STx1,5                                         Contra Alvos Humanos
+
+Arco Longo                 15  +3    STx15 STx20                                          É possível simplificar os cálculos, quando
+                                                                                       se está usando uma arma de longo alcance
+Besta                      12  +4    STx20 STx25                                       contra um alvo humano, se for usado somente
+                                                                                       o modificador de Distância. O modificador
+Pistola calibre .45        10  +2    175      1.700                                    para um alvo do tamanho de um ser humano é
+                                                                                       zero. A velocidade deve ser desprezada (a
+Fuzil Laser                15  +13   900      1.200                                    menos que o alvo esteja voando ou se deslo-
+                                                                                       cando de maneira similar), porque o alvo terá
+   Existem observações específicas para algumas armas. Ex.: Um fuzil calibre .50, do   uma defesa ativa.
+tipo usado por franco atiradores, terá um redutor extra de -3 no caso de Tiro Rápido.
+Seu recuo é tão forte que serão necessários dois turnos para você se recuperar, se o
+disparar com uma força menor do que a ST mínima.
+
+                                     - 115 -                                           Sistema Avançado de Combate
+

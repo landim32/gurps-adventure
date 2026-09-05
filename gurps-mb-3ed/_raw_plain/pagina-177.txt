@@ -1,0 +1,38 @@
+O MESTRE
+
+21
+
+Poderíamos dizer que o Mestre ou, GM(*), é quem faz o papel do juiz em um Roleplaying Game, mas isto seria simplificar demais a situação. Na realidade, ele funciona como um escritor de romances policiais, um contador de histórias, um guarda-livros cósmico, “a casa” em um cassino e, para os personagens, uma divindade menor.
+O Mestre é a autoridade final. As regras são apenas princípios pelos quais ele deve se guiar... a opinião do autor sobre como as coisas deveriam ser. No entanto, o Mestre pode modificar qualquer número, custo ou regra, desde que a modificação seja imparcial e consistente. Sua palavra é lei!
+Muitas coisas são deixadas para o Mestre decidir. Um Role-playing Game ganha realismo a partir de seu aperfeiçoamento. O GM acrescenta todos os pequenos detalhes que transformam o cenário de seu jogo em realidade. Com um bom GM, mesmo um conjunto de regras ruim, pode ser divertido. Com um bom conjunto de regras, o céu é o limite. Nós acreditamos, semimodestamente, que o GURPS é um bom conjunto de regras. Mas sem um bom Mestre, as regras não valem nada.
+O Início do Jogo
+Existem algumas providências que o Mestre deve tomar antes do jogo começar, para tornar as coisas mais fáceis para ele e para os jogadores.
+Apresentação dos personagens: Se você estiver no meio de uma campanha em andamento, esta etapa pode ser omitida. Mas se você estiver começando, os jogadores deverão ter a oportunidade de “se” descreverem. Se houver algum artista no grupo, ele poderá ajudar, desenhando os personagens conforme eles forem sendo descritos.
+Uma verificação das perícias desenvolvidas desde o último jogo: Numa campanha em andamento, os jogadores ganharão pontos que poderão ser usados para aumentar suas habilidades. Em algumas campanhas, os PCs podem estudar, trabalhar em seus empregos ou ter outra atividade qualquer entre aventuras (v. a Planilha de Uso do Tempo no livreto anexo). Isto significa que alguns personagens poderão ter, em uma sessão de jogo, algumas de suas perícias melhor desenvolvidas do que as tinham na sessão anterior. Caso isto aconteça, este é o momento em que os jogadores devem comunicar o fato ao GM.
+Preenchimento da Planilha de Controle do GM: Enquanto os jogadores (ou os personagens dos jogadores) estiverem se apresentando uns aos outros, o Mestre deverá verificar as planilhas dos personagens para ter certeza de que tudo está em ordem e copiar as informações necessárias para sua própria Planilha de Controle. Esta é uma planilha de referência onde constam os atributos ST, DX, IQ e HT e algumas outras informações básicas sobre cada um dos personagens. Quando o GM precisar, por exemplo, determinar quem viu o que, quem compreendeu o significado de alguma coisa que todos viram, quem foi afetado por um determinado encantamento ou com quem foi que aquele anão mau humorado antipatizou, esta planilha será muito útil. Existe um modelo de uma planilha destas no folheto Personagens Instantâneos.
+Descrição Geral: Diga aos jogadores o que está acontecendo e dê uma idéia rápida do contexto da aventura. Existem várias maneiras de fazê-lo. Você poderia simplesmente dizerlhes, mas é muito mais divertido começar a jogar para depois montar o cenário. Faça com que os personagens achem um mapa ou um livro antigo, encontrem alguém que lhes conta um boato interessante, ajudem alguém que precise, ou qualquer coisa do gênero.
+Comece o jogo!
+Mapas
+A maioria dos cenários comprados prontos inclui mapas. O Mestre pode preparar de antemão os seus próprios mapas (em escalas diferentes), para facilitar o planejamento e acompanhar o curso dos acontecimentos. Ele pode também dar mapas aos jogadores como pistas. Além disso os próprios jogadores podem querer manter uma anotação de seu percurso, seja ele através de florestas, cavernas ou o subterrâneo de Nova York para ter certeza de que serão capazes de achar o caminho de volta.
+Os mapas no GURPS usam hexágonos (veja pág. 178) para regulamentar toda a movimentação e o combate. Cada hexágono tem seis outros adjacentes.
+(*) Game Master
+
+Preparação
+Há uma série de coisas que o GM deve fazer, bem antes da chegada dos jogadores.
+Prepare a aventura. Se vocês estiverem usando uma aventura comprada, provavelmente, tudo o que você terá que fazer será lêla e preencher algumas planilhas de personagem. No entanto, é possível que você se veja diante de semanas de trabalho, se estiver criando uma aventura própria, antes de ela estar pronta para os jogadores. Em qualquer um destes casos é importante estar completamente familiarizado com a aventura antes dos jogadores aparecerem.
+Faça um resumo da aventura para os jogadores. Se os jogadores já estiverem familiarizados com o sistema a ser usado, seria interessante dizer-lhes (antes de eles chegarem para o jogo) que tipos de personagem serão permitidos, quanto dinheiro e equipamento eles poderão ter e, talvez, uma sugestão de quais perícias seriam úteis. Se todos tiverem seu personagem pronto de antemão, será possível ir direto à ação quando os jogadores chegarem.
+Prepare a área de jogo. Vocês precisarão de lápis, papel e dados; mapas e miniaturas, se as estiverem usando (e uma mesa para colocar tudo em cima), e um bom suprimento de salgadinhos.
+Estilo da Campanha
+Você deverá discutir o estilo da aventura a ser vivida com os jogadores, antes de atuar como Mestre com um determinado grupo pela primeira vez. Existem várias alternativas:
+Uma campanha onde se seguem estritamente as regras existentes no manual, em oposição àquela onde o GM usa muitas de suas próprias interpretações dessas regras.
+Uma campanha onde a morte é comum e permanente vs. uma onde os PCs raramente morrem ou os mortos são facilmente ressucitados.
+Uma campanha do tipo “enigma e mistério” ou uma campanha de aventura e combate.
+Uma campanha bem humorada onde tudo tem como objetivo a galhofa, em oposição a uma campanha muito séria com situações realistas e atuações dramáticas.
+Uma campanha realista vs. uma campanha cinematográfica (v. pág. 183).
+Todas estas são abordagens válidas do gênero Roleplaying, mas se os jogadores e o GM tiverem uma visão diferente entre si de como o jogo deveria ser conduzido, haverá boa chance de alguém se desapontar. O jogo deveria ser uma história que se desenvolve enquanto é jogado e não uma batalha entre Mestre e jogadores e, para consegui-lo, é necessário um pouco de entendimento mútuo. Uns poucos minutos de conversa antes do jogo começar podem aumentar muito a diversão de todos.
+
+- 177 -
+
+O Mestre
+
+

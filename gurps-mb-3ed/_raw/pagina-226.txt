@@ -1,0 +1,80 @@
+96 Dadas as circunstâncias, Fatso concorda rapidamente. O                      105 Vocêconseguiuescapardamãodeseuadversárioenquanto
+               vigia é rude, mas obediente e se afasta. Você percebe que sua                       ele tentava apanhar a cimitarra. Vá para 104.
+noite de trabalho terminou e caminha lentamente em direção à saída usando
+o dono da casa como refém. Quando chegam à porta de entrada você liberta       106 Você abriu a almofada e voou pena para todo lado. No
+Fatso e desaparece na noite depois de uma vênia zombeteira.                                        entanto, não há nada de valor dentro dela. A almofada está
+                                                                               completamente inutilizada.
+    Vá para 185.
+                                                                                   Volte para 46.
+97 A tampa do barril se abre revelando uma pilha de livros e pa-
+               péis, e uma pequena bolsa que parece oleosa ao tato e está      107 Argh!! Isso tem um sabor horrível e provoca náuseas!
+selada com um lacre de chumbo. Dá para sentir que existem algumas                                  Subtraia um ponto de sua HT.
+bolotas e alguma coisa que estala dentro da bolsa.                                 Volte para 114.
+
+    Vá para 172, se você quiser examinar os papéis; 69, se preferir abrir a    108 Você segura a chave com cuidado e prepara o punhal para
+bolsa ou 16, se nenhum dos dois lhe interessa.                                                     cortar o cordão. Faça um teste de Punga. Se você nunca
+                                                                               estudou esta arte, use o valor pré-definido que é DX-6.
+    Faça uma anotação em sua planilha, no caso de levar a bolsa sem abri-
+la. Vá para 172 (para examinar os papéis) ou para 16 (para continuar sua           Vá para 38, em caso de sucesso e para 53, em caso de falha.
+busca).
+                                                                               109 Você está no quarto do vigia. Não há nenhuma mobília, a
+98 Você vê alguns frascos (destes usados em farmácias), em uma                                     não ser pela esteira grosseira no chão e um armário sob o vão
+               das prateleiras. A maioria deles tem rótulo.                    da escada. Existe uma única saída do quarto e o vigia está parado bem alí.
+    Se você for alfabetizado desvie para 101 para ver o que eles dizem.
+    Restam ainda várias opções se você não for alfabetizado:                       Vá para 76, se você pretende enfrentar o vigia ou para 81, se preferir
+    Pode deixar os frascos quietos. Vá para 176.                               tentar se esquivar.
+    Pode apanhar alguns aleatoriamente. Vá para 42.
+    Pode parar e abrir alguns deles. Vá para 35.                               110 Você está no quarto do proprietário da casa. Há uma única
+                                                                                                   pessoa aqui: um homem atacarracado de barbas brancas,
+99 Faça um teste de Visão. O valor básico é o do seu atributo IQ.              usando um espalhafatoso pijama de seda. Ele ronca alto. O quarto é enfeitado
+               Bônus por ter Visão Aguçada ou Prontidão certamente ajuda-      com várias estatuetas e objetos de arte. Há uma sineta pendente do forro ao
+rão neste caso.                                                                lado da cama.
+
+    Desvie para 126 em caso de sucesso, ou para 128, se houver falha.              Se você deseja procurar alguma coisa para roubar, vá para 20.
+                                                                                   Se preferir sair por onde entrou, vá para 18.
+100 Você consegue achar um canto escuro para se esconder.                          Se tiver alguma outra idéia brilhante que gostaria de tentar, faça um teste
+                    Foi uma sorte, pois um homem gigantesco entra no apo-      de IQ e desvie para 2 em caso de sucesso, ou escolha entre procurar algo para
+sento para ver o que está acontecendo. Ele olha em volta mas não o vê.         roubar ou deixar o quarto, no caso de falha.
+Depois de alguns momentos ele vai embora.
+                                                                               111 Você está em um pequeno vestíbulo que dá passagem para
+    Daqui por diante, sua Furtividade estará diminuída em 2 pontos em                              várias partes da casa. De frente para a escada e no sentido
+todas as jogadas qua a envolverem, por ter alertado o vigia. (Esta penalidade  horário temos: escadas que sobem e dobram à esquerda, um grande salão, a
+é cumulativa.)                                                                 cozinha e uma despensa.
+
+    Vá para 128.                                                                   Se você deseja examinar a despensa, desvie para o parágrafo 159.
+                                                                                   Se quiser ir a cozinha, vá para 128.
+101 Os rótulos da maioria dos frascos indicam que eles contêm                      Se preferir ver onde vai dar a escada, vá para o parágrafo 18.
+                    especiarias e ervas aromáticas. Doze deles têm o nome de       Se optar ir ao salão, vá para 59.
+especiarias comuns. Vinte deles têm nomes de ervas aromáticas moderada-
+mente raras. Quatro têm o nome de ervas realmente difíceis de se obter. Cinco  112 Alô! Aqui é sua consciência... Você REALMENTE deseja
+não têm rótulo.                                                                                    matar este homem? Você pode se meter em encrenca, se
+                                                                               roubar alguma coisa; mas pode acabar morto, se cometer assassinato. A
+    Se desejar levar algum dos frascos, desvie para 142.                       Associação dos Ladrões e a Guarda da Cidade ficarão muito interessadas em
+    Se desejar abrir algum dos frascos, vá para 135.                           você. Pense rápido, pois alguém vem subindo a escada.
+    Se preferir ignorá-los, vá para 176.
+                                                                                   Você ainda tem tempo para matá-lo, se é o que deseja fazer — a menos
+102 Você se desequilibrou por um instante enquanto escalava a                  que tenha a desvantagem do Pacifismo.
+                    janela. Na queda seu pé sofreu uma pancada bastante forte
+contra o solo, provocando um som surdo, mas audível. Você imagina ter
+ouvido alguma coisa se movendo pela casa. Pode ser apenas sua imaginação,
+ou pode ser alguém se movimentando. O que você fará?
+
+    Vá para 85, se você deseja ignorar o ruído e continuar de onde havia
+parado ou para 48, se você deseja ficar quieto por alguns instantes para ver
+se o barulho pára.
+
+103 Após observar por alguns instantes, você percebe que a
+                    sucata não passa de sucata mesmo. Não há absolutamente
+nada de valor aqui, a menos que você volte pela manhã e cobre o dono da
+casa por ter levado tudo isto embora — mas isto é um trabalho honesto
+demais para você.
+
+    Volte para 16.
+
+104 Você tem três possibilidades, pense rápido! Vá para 156,
+                    se pretende escapar desta situação usando sua Lábia.
+    Se preferir ficar e lutar, desvie para 76.
+    Vá para 81, se você quiser tentar fugir.
+
+Uma Noite de Trabalho  - 226 -
+

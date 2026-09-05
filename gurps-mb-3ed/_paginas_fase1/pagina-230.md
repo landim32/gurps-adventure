@@ -1,0 +1,88 @@
+# Página 230
+
+> Nota de transcrição: conteúdo bruto extraído automaticamente do PDF (`pdftotext -layout`), preservado em bloco de código para manter o alinhamento original de colunas e tabelas. Será reformatado em Markdown estruturado na Fase 2 (organização).
+
+```
+164 Qualquer pancada na cabeça tem chance de nocautear a                          fizer lá estará submetido a um redutor igual a -2.
+                    vítima.                                                           Vá para 147, em caso de fracasso.
+    Faça uma jogada contra a HT do gigante que é igual a 12.
+    Em caso de fracasso, ele ficará inconsciente e você deve ir para o            174 As marcas são símbolos da Associação dos Farmacêuti-
+parágrafo 134.                                                                                        cos para indicar “ungüentos” e “queimadura”.
+                                                                                      Vá para 26.
+    Se for bem-sucedido, sua pancada aturdiu o gigante, mas ele está se
+recuperando rapidamente.                                                          175 Um dos rótulos da prateleira de vinho se destaca. Ele está
+                                                                                                      esmaecido, mas você consegue ler o nome da vinícola em
+    Se você deseja atingi-lo novamente, volte para 83.                            letras douradas. Apenas vinhos valiosos têm seu nome escrito desta manei-
+    Se você deseja fugir da casa, poderá fazê-lo antes de ele conseguir se        ra. A garrafa deve valer pelo menos $ 100. Você pode levá-la se quiser, mas
+levantar. Neste caso, vá para 27.                                                 ela adicionará 1,5 kg à sua carga. Nenhuma das outras garrafas parece ter
+                                                                                  alguma coisa de incomum.
+165 Um verdadeiro prêmio! As pedras são valiosas, fáceis de
+                    carregar e anônimas — a muamba perfeita. O receptador             Vá para 45, se você desejar tomar um pouco de vinho (roubar é um
+lhe dá $3.000 e lhe sugere umas férias.                                           trabalho duro).
+
+    Volte para 185.                                                                   Caso contrário, desvie para 16 e faça uma nova escolha.
+
+166 “Você sabe o que é isto?” diz o receptador. É claro que                       176 Tente outro teste de Visão, agora subtraindo 2 pontos de
+                    você não sabe. Ele sorri: “O pedigree de um canário...                            seu atributo IQ (redutor igual a -2). Se normalmente 13
+algumas cartas de amor antigas ... e os registros de dez anos do serviço de       significaria um sucesso, você precisará agora de um resultado menor ou
+limpeza de fossas”. Ele joga os pápeis no chão.                                   igual a 11.
+
+    Volte para 185.                                                                   Vá para 5, em caso de sucesso.
+                                                                                      Em caso de fracasso, você volta ao vestíbulo para continuar sua pesqui-
+167 O serviço de chá é composto de 4 xícaras, um bule de                          sa em algum outro lugar. Vá para 111.
+                    porcelana e 4 colheres de prata. Você estuda as colheres.
+    Faça um teste de Comércio (NH pré-definido como IQ-5) ou de Joalhei-          177 Você percebe que o lacre em um das rolhas da fila de
+ro (IQ-6). Se você tiver as duas perícias, use aquela em que for melhor.                              baixo não está muito “firme”. Você puxa a rolha e ela sai
+                                                                                  facilmente, deixando ver uma fechadura.
+    Vá para 181, se você for bem sucedido em sua jogada para as colheres.
+Caso contrário, vá para 119.                                                          Se você tiver pego uma chave em algum lugar da casa, você poderá
+                                                                                  tentar usá-la agora (vá para o parágrafo 8).
+168 É um bom guisado! Pode comer quanto quiser. Na verda-
+                    de, você pode acabar comendo mais do que devia.                   Vá para 122, se quiser tentar forçar a fechadura.
+    Faça um teste de IQ, se você tiver a desvantagem da Gula. Qualquer                No caso de você preferir esquecer os barris, deverá voltar para 16 e fazer
+resultado acima de 13 significa, automaticamente, um fracasso. Neste caso,        uma nova escolha.
+vá para 178. Caso contrário, continue lendo.
+                                                                                  178 O guisado está delicioso e você se serve várias vezes. A
+    Comer uma porção de guisado reduzirá sua Fadiga em um ponto (mas                                  quantidade existente na panela é grande demais para você,
+não mais que 1), se você estiver Fatigado.                                        o que não o impede de tentar comê-lo todo. Até que, empanturrado, você
+                                                                                  desiste.
+    Quando terminar de comer, você deverá ir para 128 se quiser continuar
+olhando a cozinha, ou para 111 se preferir sair.                                      Seus atributos IQ e HT estarão reduzidos em 2 pontos durante todo o
+                                                                                  resto da aventura e seu Deslocamento ficará reduzido em 1.
+169 Você deve se dirigir para a janela da cozinha (por onde
+                    entrou), ou para a porta da frente (que sai do salão princi-      Volte para 128.
+pal).
+                                                                                  179 Vá para 155.
+    Vá para 148, se escolher a porta.
+    Se você tiver escolhido a janela e o vigia estiver mais de um turno de        180 Durante o exame, você percebe que existe uma chave
+movimentação para trás, vá para 148. Caso contrário, vá para 113.                                     dourada, pendurada em um cordão de seda, em volta do
+                                                                                  pescoço do gordo.
+170 Você deu um safanão na aranha, que caiu da prateleira.
+                    Ela corre para trás de uma pilha de caixas e desaparece.          Vá para 108, se você quer tentar remover a chave ou 18, se preferir sair
+    Vá para 118, se você deseja olhar o conteúdo do frasco ou 68, se quiser       do jeito que entrou.
+olhar alguma outra coisa.
+                                                                                  181 As colheres têm marca de autenticidade, o que indica que
+171 O que é que você vai fazer?                                                                       elas são feitas de prata e trabalho de um mestre artesão.
+                    Vá para 184, se desejar examinar as estátuas; 124, se         Elas pesam pouco e valem $ 20 cada.
+quiser dar uma olhada nas almofadas; 51, se preferir avaliar a tapeçaria;
+129, se sua opção for olhar o resto da mobília ou 59, se não houver mais              Vá para 119.
+nada aqui que lhe interesse.
+                                                                                  182 Este frasco parece estar vazio, e está! Pode levar o frasco
+172 Se você for Alfabetizado, vá imediatamente para o pará-                                           se quiser. Volte para 68.
+                    grafo 150.
+    Caso não o seja, os papéis não terão nenhum significado para você, mas        183 O proprietário da casa, quem quer que seja, parece ter
+pode levá-los consigo da mesma maneira. Eles pesam mais ou menos 3,5                                  muito dinheiro. Estas panelas e caldeirões devem ter cus-
+kg.                                                                               tado uma boa grana. Infelizmente eles são, também, muito grandes para
+                                                                                  serem carregados em sua sacola.
+    Vá para 69, se você deseja abrir a bolsa.
+    Caso contrário, vá para 16.                                                       Vá para 99, se você deseja examiná-los melhor.
+                                                                                      Caso contrário, vá para 128 e escolha novamente.
+173 Faça um teste de IQ (submetido a um redutor igual a -4 se
+                    sua Planilha definir sua fobia como “grave”). Lembre-se       184 As estátuas são em tamanho natural, feitas de mármore e
+de que com uma desvantagem mental, qualquer resultado maior ou igual a                                muito pesadas. Não há como levá-las.
+13 é um fracasso automático.                                                          Volte para 171.
+
+    Vá para 54, em caso de sucesso, mas qualquer teste de DX que você
+
+Uma Noite de Trabalho  - 230 -
+```

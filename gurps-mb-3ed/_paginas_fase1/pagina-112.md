@@ -1,0 +1,85 @@
+# Página 112
+
+> Nota de transcrição: conteúdo bruto extraído automaticamente do PDF (`pdftotext -layout`), preservado em bloco de código para manter o alinhamento original de colunas e tabelas. Será reformatado em Markdown estruturado na Fase 2 (organização).
+
+```
+  Armas para Combate de Perto                 de Habilidades: o melhor entre sua ST, DX ou NH em Judô (com um redutor igual a -5 se você
+                                              já estiver no chão) contra a ST de seu oponente. Caso você vença, seu oponente cairá no mesmo
+   A maioria das armas não pode ser usada     hex e qualquer outro adjacente (à sua escolha. Lembre-se que um homem deitado ocupa 2 hexes).
+em combate de perto. As exceções ficam por    Se ele o estava segurando, será obrigado a soltá-lo. Se você perder a disputa, sofrerá estes
+conta das facas e adagas; pistolas (de balas  mesmos efeitos. No caso de empate, nada acontecerá.
+e feixes); certos objetos mágicos; soco in-
+glês e objetos similares e qualquer coisa         Imobilizar. Pode ser tentado apenas se seu oponente já estiver no chão. Faça uma Disputa
+pequena e de fácil manuseio. Todos os         de ST. O combatente mais pesado receberá em sua jogada de teste um bônus igual a +1 para cada
+ataques com armas (com exceção dos pu-        5kg de diferença no peso. Se você vencer, seu adversário ficará imobilizado, mas você precisará
+nhos) têm um redutor de -2 num combate de     permanecer ali para mantê-lo nesta posição, apesar de poder usar uma das mãos para realizar
+perto.                                        outras ações. No caso de um empate ou derrota do atacante, nada acontecerá.
+
+   As pistolas podem ser usadas, mas não          Sufocar ou Estrangular: É preciso já ter agarrado o oponente pela garganta com ambas as
+apontadas, em combate de perto. Ignore os     mãos para se tentar este ataque. O atacante não poderá fazer mais nada com as mãos até seu
+modificadores de velocidade/distância.        próximo turno.
+
+   O soco inglês adicionará 2 pontos ao           Faça uma Disputa Rápida (sua ST vs. a HT do oponente). Se você vencer, ele terá perdido
+dano que você provoca com seus punhos.        um número de pontos de vida igual à margem pela qual você venceu a disputa, além de sofrer
+Um par de soco inglês custa $ 30 e pesa       dano por sufocação como decrito na coluna lateral da pág. 122. No caso de empate ou derrota
+meio quilo. São necessários 2 segundos        do atacante, nada acontece.
+para calçar um soco inglês. Eles não podem
+ser agarrados pelo inimigo ou derrubados          Desvencilhar-se: Em termos de manobra, esta ação é um “ataque” apesar de não infligir dano
+acidentalmente, mas impõem um redutor         algum. Se você estiver sendo segurado, não poderá se afastar de seu adversário se não vencer
+de -2 para qualquer arma que você venha a     uma Disputa Rápida de ST. Seu inimigo terá um bônus de +5 se ele o tiver imobilizado e estiver
+usar com aquela mão.                          usando apenas uma das mãos para mantê-lo nesta posição. Se ele o tiver imobilizado e estiver
+                                              usando as duas mãos para mantê-lo assim, o bônus será de +10. Neste caso, você pode fazer
+   Um “blackjack” pode ser usado apenas       apenas uma tentativa de Desvencilhar-se a cada 10 segundos.
+em combate de perto ou quando você está
+próximo a um inimigo que não espera o             Se você for bem sucedido em sua tentativa de Desvencilhar-se ,poderá se deslocar um hex em
+ataque. Um “blackjack” provoca dano do        qualquer direção logo a seguir. Nota: Se seu oponente perder a consciência por qualquer motivo,
+tipo GDP/contusão.                            você estará livre.
+
+                                                  Encontrão. Este ataque está descrito junto com a manobra Deslocamento.
+
+   Se você estiver montando sua armadura      Manobra Avançar e Preparar
+peça por peça, poderá representar o fato
+em sua planilha como no desenho abaixo.           Sacar uma arma. Esta deverá ser uma arma que possa ser usada em combate de perto (veja
+                                              a coluna lateral). Use esta manobra (mesmo que você não possa avançar) para sacar uma arma
+                                              de seu coldre ou bainha, ou para apanhá-la do chão no mesmo hex em que você se encontra, ou
+                                              em um adjacente. Faça um teste de DX para ver se consegue sacá-la com sucesso. Uma falha
+                                              crítica (resultado igual a 17 ou 18) significa que você deixou a arma cair enquanto tentava sacá-
+                                              la.
+
+                                                  Se você tiver a perícia Sacar Rápido, poderá usá-la no Combate de Perto, mas deverá fazer
+                                              duas jogadas de teste: primeiro, vs. DX para sacar a arma; depois, um teste de habilidade para
+                                              fazê-lo rapidamente. No caso de uma falha no segundo teste, a arma terá sido sacada
+                                              normalmente.
+
+                                              Manobra Mudar de Posição
+
+                                                  Num combate de perto, você pode mudar de posição à vontade. Exceção: Não será possível
+                                              mudar de posição se você estiver imobilizado no chão a menos que consiga antes Desvenciliar-
+                                              se como descrito acima.
+
+                                              Manobra Deslocamento
+
+                                                  Encontrão: Pode-se tentar dar um Encontrão no adversário no momento em que se entra em
+                                              seu hex. Você estará tentando se chocar com ele a fim de derrubá-lo. Um escudo ajuda neste caso.
+                                              Não é possível fazer um ataque deste tipo quando já se está no mesmo hex que o oponente.
+
+                                                  Faça uma Disputa Rápida de DX para ver se você consegue atingir o inimigo. Ele estará
+                                              submetido a um redutor de -2 se você tiver entrado por um hex lateral ou se ele não estiver em
+                                              pé. Você vencerá a disputa automaticamente se tiver atacado pelas costas. Se você vencer ou
+                                              (empatar), terá conseguido se chocar com o adversário. Se ele vencer, terá conseguido evitar seu
+                                              ataque e você terá que se deslocar no mínimo mais 2 hexágonos se ainda tiver aquele número de
+                                              pontos de movimento não utilizados. Faça uma Disputa Rápida de ST com os seguintes
+                                              modificadores, se você tiver conseguido se chocar com seu oponente, para ver se ele cai:
+
+                                                 +2 se você tiver se deslocado mais de um hex antes de atingi-lo, ou se você estava correndo
+                                              em seu último turno e se deslocou um hex neste.
+
+                                                  -2 se seu oponente se deslocou mais de 1 hex em sua direção, ou estava correndo em seu
+                                              último turno e se deslocou um hex neste.
+
+                                                 +2 se você tiver um escudo médio ou grande.
+                                                  -2 se seu oponente tiver um destes escudos.
+                                                 +2 se você o atingir pelas costas.
+
+Sistema Avançado de Combate                   - 112 -
+```

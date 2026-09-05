@@ -1,0 +1,79 @@
+# Página 186
+
+> Nota de transcrição: conteúdo bruto extraído automaticamente do PDF (`pdftotext -layout`), preservado em bloco de código para manter o alinhamento original de colunas e tabelas. Será reformatado em Markdown estruturado na Fase 2 (organização).
+
+```
+        Armas e Armaduras                           repará-lo utilizando somente o equipamento de teste existente em 1800. (Um pouco de
+                                                    criatividade do GM ajudaria neste caso em particular; mesmo que você descubra qual é o
+0. Punhos e armas de pedra.                         problema, levaria semanas para conseguir uma peça de reposição, já que não pode simplesmente
+1. Lanças e flechas com ponta de metal; espadas     ir a uma loja e comprá-la.)
+de bronze; armaduras de couro.
+2. Espadas de ferro; escudos.                       Desenvolvendo a Tecnologia Local
+3. Armas de aço; lança; mangual; besta; armadu-        Podem existir situações nas quais você necessita melhorar o nível tecnológico da região. Um
+ras de placa e cota de malha; castelos.
+4. Mosquetão de pólvora; canhão; belonaves a        grupo de náufragos poderia ter conhecimento de uma tecnologia de alto nível, mas pouco ou
+vela.                                               nenhum equipamento com que trabalhar. Neste caso, eles teriam que construir “as ferramentas
+5. Navios encouraçados; dinamite; armas de          necessárias” para o fabrico das ferramentas de que eles necessitam para poder utilizar seu
+fogo de repetição.                                  conhecimento tecnológico. Em casos extremos, os náufragos poderiam ter de voltar até a
+6. Encouraçados; tanque; metralhadora; aviões       mineração primitiva do ferro para conseguir o minério necessário para refinar o metal para
+de guerra; bomba atômica; fogo antiaéreo.           construir as ferramentas que serão usadas na fabricação das ferramentas ... Ou um viajante
+7. Míssil nuclear; submarino atômico; caça;         solitário pode querer partilhar seu conhecimento de alta tecnologia com o povo que ele está
+kevlar.                                             visitando. (Deve-se presumir neste caso, que ele conta com a colaboração de seus anfitriões.
+8. Tanque cibernético; laser orbital; armas bio-    Caso contrário, ele não teria a mínima chance.)
+químicas; reflec; lança-agulhas magnético; ar-
+maduras e trajes de combate em BPC.                    Qualquer uma destas situações dependerá muito da vontade do GM. Mas isto pode ser feito.
+9. Astronaves; armas de feixe iônicos; atordoa-     Algumas das melhores histórias de todos os tempos giram em torno de uma destas premissas:
+dores (armas sônicas); lança-chamas.                Um Ianque na corte do rei Arthur, A Família do Robinson Suíço, Lord Kalvan de Otherwhen,
+10. Disruptores neurais.                            a série Riverworld e muitas outras.
+11. Campos de força; escudos de força; feixes
+tratores; míssil antimaréria.                          Instruções Gerais: Uma “ciência” é uma das categorias descritas nas colunas laterais das
+12. Tanques anti-grativitacionais; campos de        páginas 185 e 186. São necessários dois anos de trabalho para avançar um nível tecnológico em
+força pessoais.                                     cada uma destas áreas assumindo que: a)Existe uma grande quantidade de mão de obra à
+13. Mísseis planetários.                            disposição. b)Existe uma grande quantidade de matéria prima à disposição. c) O personagem
+14+. Puff! Você está morto.                         está completamente familiarizado com o nível tecnológico inferior (tem nível maior ou igual a
+                                                    12 em todas as perícias relevantes) e d) Ele sabe para onde está indo e está completamente
+                Energia                             familiarizado com o nível tecnológico mais alto (nível maior ou igual a 12 em todas as perícias
+                                                    relevantes).
+0. Escravos.
+1. Cavalos e mulas; roda d’água.                       NOTA IMPORTANTE: Esta regra não se aplica a invenções. Ela deve ser usada apenas para
+2. Moinho de vento.                                 o caso de personagens de nível tecnológico mais alto quando estão reinventando, ou introduzindo
+3. Cavalos com cabresto.                            tecnologia numa situação ou sociedade de nível tecnológico mais baixo.
+4. (Nenhum progresso significativo).
+5. Máquina a vapor; corrente contínua.              Novas Invenções
+6. Usina hidroelétrica; corrente alternada.            Apesar de elas serem raras no mundo real, a ficção está repleta de inventores que se sentam
+7. Fissão nuclear e fusão a quente; energia solar.
+8. Fissão/eletricidade; energia solar coletada      ao lado de um bule de café e inventam máquinas maravilhosas para resolver os problemas do dia-
+em órbita.                                          a-dia. O objetivo desta regra é simular este tipo incrível de inventividade. Ela tem mais utilidade
+9. Fusão fria/eletricidade.                         nas aventuras em cenários de Ficção Científica, mas os GMs tem toda a liberdade para ignorá-
+10-12. Antimatéria.                                 la totalmente se assim o desejarem. Ela deixa boa parte das decisões a cargo do Mestre.
+13. Antimatéria “de bolso”.
+14. Conversão total.                                   Para inventar um novo dispositivo, o jogador precisa ter uma idéia exata do que ele deseja
+15. Energia cósmica.                                inventar e de como isto funcionará. Ele deve descrever a invenção para o GM. Uma descrição
+                                                    bastante clara, ou uma idéia engenhosa na abordagem do problema deveriam ser merecedoras
+               Medicina                             de um bônus numa eventual jogada de dados. Da mesma maneira, uma idéia obscura levará a uma
+                                                    penalidade. O novo dispositivo deveria estar, no máximo, um nível tecnológico acima da perícia
+0. Nenhuma.                                         do personagem. A invenção de um novo dispositivo exige perícia no tipo certo de engenharia.
+1. Ervas; tratamento primário.                      Ela pode exigir também habilidade em algum outro assunto. Por exemplo, a invenção de um
+2. Sangria; remédios químicos.                      telescópio novo e aperfeiçoado exige conhecimento de Astronomia para que se possa entender
+3. Amputação e próteses toscas.                     o problema. A exigência de outras perícias está a cargo do GM.
+4. Experiências que matavam os pacientes.
+5. Teoria da doença provocada por micróbios;           São exigidos dois sucessos em testes de habilidade para desenvolver uma invenção. Eles são
+anestesia, vacinas.                                 feitos contra o nível de habilidade em Engenharia ou na “área do problema”, aquele que for mais
+7. Transplantes de órgãos.                          baixo. As jogadas são feitas pelo GM de modo que o personagem nunca saberá com certeza se
+8. Clones, implantes simples, biônica; plastipele   está na pista certa ou não.
+(esparadrapo de pele artificial.
+9. Longevidade, imunização geral; fita de me-          A primeira jogada é um teste de “concepção”. Faça-o contra NH-15. Não há necessidade de
+mória; implantes; complexos; animação sus-          nenhum equipamento especial a não ser, talvez, uma toalha de mesa e alguns litros de café. Cada
+pensa, automedicina.                                inventor tem direito a uma jogada por dia. Um sucesso em um teste de concepção dá como
+10. Genericilina; Torpina.                          resultado uma teoria que pode ser testada em laboratório. Uma falha crítica dá como resultado
+11. Sensa-skin (pele artificial com sensibilida-    uma teoria inválida que parece ser correta, mas nunca funcionará.
+de).
+12. Imunização total; regeneração.                     A segunda jogada representa o trabalho de laboratório. Esta é o teste de “protótipo”. Neste
+16+ Puff! Você está curado.                         caso, serão exigidas instalações apropriadas — isto fica inteiramente por conta do GM mas
+                                                    deveria incluir instalações e recursos de computação os mais avançados para o nível tecnológico
+Obs.: Todos os recursos tecnológicos de NT8+        do mundo da aventura! Qualquer coisa aquém disso resulta num redutor (novamente a cargo do
+estão descritos em detalhes nos GURPS               Mestre) no teste de protótipo.
+Ultratech e GURPS Space.
+
+Cenários                                            - 186 -
+```

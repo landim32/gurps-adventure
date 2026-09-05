@@ -1,0 +1,229 @@
+Jogue um dado se a mágica convocatória for repetida. No caso de um resultado entre 1 e 3, um novo elemental aparecerá. Se o resultado for 4 ou 5, o mesmo elemental aparecerá. No caso de um 6, não haverá elementais disponíveis. Se o mesmo elemental for convocado novamente num prazo de uma semana, sua reação estará submetida a um redutor igual a -4.
+Duração: Uma hora. Não pode ser mantida. Custo: 4. Tempo necessário: 30 segundos. O elemental aparecerá depois de 2D minutos. Pré-requisitos: Aptidão Mágica; pelo menos mais 8 mágicas do elemento apropriado ou 4 mágicas do elemento e outra mágica convocatória de elementais Objeto: Cajado, vara de condão ou jóias decoradas com imagens adequadas do elemental (é necessário um encantamento diferente para cada um dos elementos). Custo: 800 em energia e $1.300 em ouro e platina.
+
+Controle de um Elemental (Terra)
+
+Comum;
+
+Resistível/IQ ou ST maior
+
+Permite ao operador controlar todas as ações de um determinado elemental enquanto durar a mágica. Para controle direto, o elemental deve se manter ao alcance
+
+dos olhos do operador. O elemental se retirará se assim lhe for dito. Se ele for enviado para realizar uma tarefa, ao invés de ficar sob o controle direto do operador, seu IQ deverá ser grande o suficiente (decisão a cargo do GM) para entender as instruções.
+
+Esta mágica pode também ser usada como uma mágica de informação, para avaliar os 4 atributos daquele tipo de elemental (a uma distância máxima de 5 m).
+
+Será necessário um sucesso em um teste, mas não haverá dispêndio de energia.
+
+Duração: Um minuto.
+
+Custo: 1/8 do total do valor dos 4 atributos do elemental para começar e metade
+
+Mágicas do Ar
+
+Estas são mágicas que lidam com o elemento Ar. Um hexágono de ar deve ser entendido como um volume de um hexágono de base por 2 metros de altura, preenchido com ar respirável a uma atmosfera de pressão.
+
+Purificação do Ar
+
+Área
+
+Esta é a mágica básica do ar. Ela remove todas as impurezas no hexágono alvo.
+
+Ela é usada com freqüência para neutralizar os efeitos de gases ou vapores
+
+venenosos. Note que um aposento cheio de fumaça pode ser purificado com
+
+segurança uma parte por vez (mas vapores realmente mortais devem ser removidos
+
+de uma só vez, ou uma parte deles poderia escapar). Esta mágica é capaz também de
+
+transformar o ar viciado em ar puro e respirável. Um hexágono de ar, se não for
+
+renovado, durará 45 minutos para uma pessoa em repouso. Este tempo será menor
+
+se houver várias pessoas ou alguém fazendo exercícios puxados (decisão do GM).
+
+Duração: Funciona instantaneamente. A Purificação é permanente.
+
+Custo Básico: 1. Não pode ser mantida, deve ser feita de novo.
+
+Objeto: Cajado, vara de condão ou jóia. Custo em energia: 50.
+
+Criar Ar
+
+Área
+
+Esta mágica produz ar onde ele não existe. Se feita em um lugar onde existe ar,
+
+ela produzirá uma brisa que durará 5 segundos. Feita no vácuo, ela criará instanta-
+
+neamente ar respirável. Feita dentro da terra, pedra ou outro material ela preencherá
+
+qualquer espaço vazio com ar, mas não rebentará a pedra. Se realizada debaixo da
+
+água, produzirá bolhas.
+
+Duração: 5 segundos. O ar criado é permanente.
+
+Custo Básico: 1 (para cada hexágono de ar sob pressão normal).
+
+Pré-requisito: Purificação do Ar.
+
+Objeto: Cajado, vara de condão ou jóia. Custo em energia para criar: 200
+
+Semear Ventos
+
+Comum
+
+Permite ao operador criar movimentos de ar sobre uma área pequena. O vento
+
+começa no hexágono alvo e sopra numa torrente com um hexágono de largura que
+
+percorre uma distância igual a 5 vezes a energia aplicada e depois se dissipa. Esta
+
+torrente pode Projetar para Trás (v.pág. 106) em alguém que ela atinja, por um
+
+número de hexágonos calculado do seguinte modo: jogue 1 dado para cada 2 pontos
+
+de energia despendidos na mágica e divida o resultado por 8 (arrendondando para
+
+baixo). Isto ocorrerá em todos os turnos enquanto o vento durar.
+
+Duração: 1 minuto.
+
+Custo: 1 a 10. 1 produz uma brisa suave; 4 um vento; 6 uma ventania; 8 ou mais
+
+um pé-de-vento violento. O custo para manutenção é o mesmo que para realização.
+
+Pré-requisito: Criar Ar.
+
+Objeto: Cajado, vara de condão ou jóia. Custo para criar: 200.
+
+Previsão do tempo
+
+Informação
+
+Permite ao operador prever o tempo com precisão para uma localidade determi-
+
+nada, por um período de tempo definido. Esta previsão não leva em conta possíveis
+
+deste valor (arredondado para cima) por minuto a partir daí. Tempo necessário: 2 segundos. Pré-requisitos: Convocação de Elemental do elemento apropriado. Objeto: Cajado, vara de condão ou jóia decorada com imagens apropriadas do
+elemental. É necessário um encantamento diferente para cada um dos 4 elementos. Não permite que o usuário faça mágicas; dá um bônus igual a +2 em qualquer tentativa de fazer a mágica. Não cumulativo. Custo: 1.000 em energia e $ 1.300 em ouro e platina.
+
+Criar Elemental (Terra)
+
+Especial
+
+Permite ao operador criar um espírito do elemento apropriado. O valor máximo
+
+de seus atributos IQ e DX é 12. Não há limite para os atributos HT e ST. Não há
+
+mínimo para nenhum dos 4 atributos, apesar de que um elemental muito estúpido
+
+não entenderá ordens complexas. Um elemental recém-criado servirá obediente-
+
+mente o operador por uma hora. No fim deste período, faça uma disputa entre o nível
+
+de habilidade do operador com esta mágica e os atributos IQ e ST do elemental
+
+combinados. Se o operador vencer, o elemental o servirá por mais uma hora. Quando
+
+o operador perder, o elemental escapará de seu controle e fugirá (ou atacará, no caso
+
+de uma reação muito ruim).
+
+Custo: 1/4 do total do valor dos 4 atributos do elemental. O dobro deste valor se
+
+for feita em um lugar inadequado para o elemento que está sendo invocado (ex.: criar
+
+um elemental da água próximo a um vulcão).
+
+Tempo de Operação: Um número de segundos igual ao total dos atributos do
+
+elemental.
+
+Pré-requisitos: Aptidão Mágica 2, Controle de Elemental apropriada.
+
+intervenções mágicas, nem prevê a ação de outros operadores. Custo: 2 vezes a duração do período em dias coberto pela previsão. Dobre o custo
+para uma localidade fora da área geral (digamos além do horizonte). O Quádruplo do custo para uma localidade em um outro continente. O tempo em outros planetas ou planos não pode ser previsto com esta mágica.
+Tempo de Operação: 5 segundos por dia de previsão Pré-requisito: No mínimo 4 mágicas de Ar.
+
+Caminhar no Ar
+
+Comum
+
+O ar se comporta como se fosse sólido sob os pés do objetivo, fazendo com que
+
+ele possa caminhar (ou correr) sobre abismos ou subir e descer “escadas” imaginá-
+
+rias. Se o objetivo cair por alguma razão (ex:. ferimento), a mágica cessará. Se ela for
+
+refeita imediatamente, ele cairá durante apenas 1 segundo (aproximadamente 5 m)
+
+e “aterrisará” no ar (recebendo 1D de dano), a menos que alcance o chão antes. Será
+
+uma pena se você estiver 3m acima de um poço de lava!
+
+Duração: 1 minuto.
+
+Custo: 3 para fazer; 2 para manter.
+
+Pré-requisito: Semear Ventos.
+
+Objeto: Cajado, vara de condão, jóias ou sapatos. Funciona apenas para quem
+
+usa o objeto. Custo: 500 em energia, $ 1.000.
+
+Respirar Água
+
+Comum
+
+Permite ao operador respirar água como se fosse ar. O alvo não perde a
+
+capacidade de respirar ar comum.
+
+Duração: 1 minuto.
+
+Custo: 4 para realizar e 2 para manter.
+
+Pré-requisito: Criar Ar; Destruir Água (pág. 159).
+
+Objeto: Roupas ou jóias. Custo em energia para criar: 400.
+
+Nuvens
+
+Área
+
+Cria ou dispersa uma cobertura externa de nuvens, de acordo com a vontade do
+
+operador.
+
+Duração: 10 minutos, depois dos quais nuvens normais partirão/voltarão, a
+
+menos que a mágica seja mantida.
+
+Custo Básico: 1/20. O mesmo para manter.
+
+Tempo de Operação: 10 segundos.
+
+Pré-requisito: No mínimo 4 mágicas de Água e 4 de Ar.
+
+Objeto: Cajado, vara de condão ou jóia. Custo em energia: 300.
+
+Chuva
+
+Área
+
+Cria (ou evita) 2,5 cm de chuva, num ambiente externo normal.
+
+Duração: 1 hora.
+
+Custo Básico: 1/10. O custo para manter é o mesmo por hora. O custo para fazer
+
+chover no deserto ou noutra área (determinação do GM), onde a chuva não é natural,
+
+- 157 -
+
+Magia
+
+

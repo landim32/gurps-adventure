@@ -1,0 +1,93 @@
+APARÊNCIA FÍSICA                                                                                        2
+
+   Você tem liberdade para dar a seu personagem a aparência que desejar. Pode                    Tabela de Altura/Peso
+também escolher as cores do cabelo, da pele, etc... aleatoriamente (v. pág. 84). No
+entanto, uma aparência muito boa (ou ruim) é considerada uma vantagem (desvanta-             ST         Altura           Peso
+gem). Boa aparência custa pontos, enquanto que uma aparência ruim dá ao personagem                                       54,5 kg
+alguns pontos extras para serem gastos em alguma outra característica.                       1-         1,57 m ou menos  59,0 kg
+                                                                                                                         59,0 kg
+   Hediondo: Pode ser qualquer coisa especificada pelo jogador que cause aversão:            1-         1,60 m           61,3 kg
+corcunda, doença grave de pele, estrabismo, etc... De preferência várias coisas juntas.                                  61,3 kg
+O personagem estará submetido a um redutor igual a -4 em qualquer Teste de Reação,           15 ou menos 1,63 m          63,6 kg
+com exceção daqueles relativos a criaturas alienígenas ou a pessoas que não o(a)                                         65,8 kg
+podem ver (que ficarão muito surpresas quando, finalmente, o encontrarem. O GM               16         1,65 m           68,1 kg
+poderá exigir um novo Teste de Reação quando isto acontecer). - 20 pontos.                                               70,4 kg
+                                                                                             17         1,68 m           72,6 kg
+   Feio: Idem só que não tão intensamente. Talvez cabelos oleosos ou dentes                                              74,9 kg
+encavalados ou cariados. Redutor igual a -2 em Testes de Reação, com as mesmas               18         1,70 m           77,2 kg
+exceções expostas no parágrafo anterior. -10 pontos.                                                                     81,7 kg
+                                                                                             19         1,73 m           82,3 kg
+   Desagradável: Nada que se possa precisar com exatidão. O personagem tem algo
+indefinido, que provoca antipatia. Deve ser submetido a um redutor de -1 em Testes           10         1,75 m
+de Reação com membros de sua própria raça, mas não existe penalidade para membros
+de outras raças (o problema é muito sutil para que eles o percebam). -5 pontos.              11         1,78 m
+
+   Aparência Comum: Nenhum bônus ou penalidade; o personagem é capaz de se                   12         1,80 m
+misturar facilmente em uma multidão. A impressão que um observador terá dele
+dependerá, exclusivamente, de seu comportamento. Uma pessoa “comum” que sorria               13         1,83 m
+e aja cortesmente terá uma aparência agradável. Aqueles que tiverem a cara fechada e
+resmungarem serão lembrados como desagradáveis. Nenhum bônus ou custo em                     14         1,85 m
+pontos.
+                                                                                             15         1,88 m
+   Atraente: Esta pessoa não entra em concursos de beleza mas tem uma aparência
+definitivamente atraente. Bônus de +1 em todos os Teste de Reação frente a persona-          16 ou mais 1,90 m
+gens de sua própria raça. Tem um custo de 5 pontos.
+                                                                                                  Adicione 1,8 kg para cada centímetro de
+   Elegante (ou Bonito): Esta é uma pessoa que pode entrar em concursos de beleza.           altura acima de 1,90 m.
+Recebe um bônus de +2 em Testes de Reação feitos com pessoas do mesmo sexo; +4,
+com pessoas do sexo oposto — desde que com pessoas da mesma raça ou raça                     Modificações
+semelhante. 15 pontos.                                                                            Se você não desejar um personagem com
+
+   Muito Elegante (ou Bonito): Entra em concursos de beleza e ganha com regulari-            altura e peso exatamente iguais à média, existe
+dade. Bônus de +2 em Testes de Reação com pessoas do mesmo sexo. Bônus de +6 (!)             a alternativa de se jogar 3 dados e consultar a
+em Testes de Reação com pessoas do sexo oposto. Exceção: Pessoas do mesmo sexo               tabela abaixo. Determine a altura modificada
+que já tenham algum motivo para não gostar do personagem (mais de 4 pontos devido            (i.e., verdadeira) e depois o peso normal, com
+a modificadores de reação negativos, independentemente dos bônus de reação positi-           base na altura conseguida e use a tabela de
+vos). Neste caso, eles se sentirão melindrados por sua aparência e, ao invés de um bônus     modificação novamente, para determinar o peso
+de +2, o personagem estará submetido a um redutor de -2 pontos. Este problema                modificado.
+aparecerá a critério do GM. Uma dificuldade adicional: Dependendo do lugar onde
+estiver, poderá vir a ser importunado por caçadores de talentos, bêbados amigáveis,               Note que, mesmo com esta tabela, a maio-
+mercadores de escravos e outros inconvenientes. 25 pontos.                                   ria dos personagens terá uma silhueta relativa-
+                                                                                             mente próxima à da média, mas poderia aconte-
+Peso e Altura                                                                                cer (por exemplo) de se conseguir alguém bas-
+                                                                                             tante alto e magro. Qualquer um com uma
+   Os jogadores podem escolher livremente o peso e a altura de seus personagens,             aparência melhor que a média deveria ter um
+desde que a escolha esteja dentro de limites razoáveis (segundo o critério dos próprios      peso que não divergisse em mais do que 20%
+jogadores). Isto pode ser importante por várias razões. Além de ser bom ter uma idéia        desta.
+da aparência de seu personagem, o peso e a altura podem determinar se ele será ou não
+capaz de fazer-se passar por um inimigo, se aquela armadura que ele achou serve ou           Resultado         Modificações
+não, se é capaz de passar por aquele túnel estreito ou alcançar o batente daquela janela...  dos dados  -15 cm ou -18,2 kg
+                                                                                                        -13 cm ou -13,6 kg
+   As tabelas ao lado podem ser usadas para determinar a altura e peso “médios” e                 3     -10 cm ou -9,1 kg
+incluir uma pequena variação aleatória caso se deseje. A altura média é baseada no valor          4
+de seu atributo Força (ST). O peso, por sua vez, está baseado na sua altura.                      5       -8 cm ou -4,5 kg
+                                                                                                  6       -5 cm ou -2,2 kg
+                                                            - 15 -                                7       -2 cm ou -2,2 kg
+                                                                                                  8
+                                                                                              9,10,11        sem modificação
+                                                                                                 12      +2 cm ou +2,2 kg
+                                                                                                 13      +5 cm ou +2,2 kg
+                                                                                                 14      +8 cm ou +4,5 kg
+                                                                                                 15     +10 cm ou +9,1 kg
+                                                                                                 16     +13 cm ou +13,6 kg
+                                                                                                 17     +15 cm ou +18,2 kg
+                                                                                                 18     +15 cm ou +22,7 kg
+
+                                                                                                  Estas tabelas supõem que o personagem é
+                                                                                             um homem do século XX. Subtraia 5 cm ou 4,5
+                                                                                             kg destes valores para personagens do sexo
+                                                                                             feminino. Para a criação de um personagem do
+                                                                                             século XIX, historicamente acurado, subtraia
+                                                                                             7,5 cm da altura média. O peso deve sempre ser
+                                                                                             determinado a partir da altura.
+
+                                                                                             A Aparência de Dai Blackthorn
+                                                                                                  Para que Dai seja capaz de se misturar
+
+                                                                                             numa multidão, nós lhe daremos uma aparência
+                                                                                             comum. Nós queremos que ele seja pequeno; ao
+                                                                                             invés de jogar dados, escolhemos a aparência
+                                                                                             descrita em sua planilha.
+
+                                                                                                        Aparência Física
+

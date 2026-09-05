@@ -1,0 +1,75 @@
+# Página 185
+
+> Nota de transcrição: conteúdo bruto extraído automaticamente do PDF (`pdftotext -layout`), preservado em bloco de código para manter o alinhamento original de colunas e tabelas. Será reformatado em Markdown estruturado na Fase 2 (organização).
+
+```
+CENÁRIOS                                                                                              22
+
+    Este capítulo focalizará algumas das coisas mais importantes que um Mestre deveria ter em                 Níveis Tecnológicos
+mente quando descreve o mundo onde se desenrolará sua campanha. (Você encontrará mais
+informações sobre a criação de cenários para jogo no próximo capítulo). Não é por coincidência           Comparação Histórica Geral
+que estas são também as coisas que um PC deve saber para viajar e viver suas aventuras com
+sucesso. Boa sorte...                                                                                 0. Idade da Pedra: fogo, alavanca, linguagem.
+                                                                                                      1. Idade do Bronze (Atenas): roda, escrita,
+Níveis Tecnológicos                                                                                   agricultura.
+                                                                                                      2. Idade do Ferro (Roma): Arco de meio-ponto
+    O nível tecnológico é uma descrição geral da maior realização tecnológica (ou de um certo tipo    3. Idade Média (antes 1450): armas de aço,
+de tecnologia) de uma cultura. Se um soldado da Segunda Guerra Mundial (NT 6) fosse enviado           matemática com zero.
+de volta ao tempo do Rei Arthur (NT 3), as coisas poderiam ficar interessantes. Obviamente, não       4. Renascença/Colonial (1450-1700): pólvora,
+há necessidade de se fazer uma viagem no tempo. Mesmo nos dias de hoje, para se recuar 3 ou 4         imprensa.
+níveis tecnológicos basta visitar a parte certa do mundo.                                             5. Revolução Industrial (1701-1900): produção
+                                                                                                      em massa, máquina a vapor, telégrafo.
+    Também é possível, para um lugar, país ou mundo haver uma grande variação de nível                6. Guerras Mundiais (1901-1950): carros, avi-
+tecnológico em assuntos diferentes. Armamentos e medicina, por exemplo, poderiam estar bem            ões, rádio.
+avançados, enquanto que transporte e comunicações poderiam estar atrasados um nível ou dois.          7. Moderna (1951-2000): energia nuclear, com-
+                                                                                                      putador, laser, foguetes.
+    A escala de níveis tecnológicos começa em 0. Níveis altos de tecnologia provavelmente             8. Era Espacial (2001-2050?): viagem espacial
+parecerão magia para pessoas originárias de um meio com nível tecnológico significativamente          velocidade menor que a da luz, energia de fusão,
+inferior.                                                                                             transplantes.
+                                                                                                      9. Era Estelar: viagem estelar em velocidade
+    Lembre-se que, um grupo que exibe o resultado de um nível tecnológico superior ao que estão       Mais Rápida que a da Luz, computadores sensí-
+familiarizados os habitantes de uma região, sempre chamará a atenção. Esta atenção poderá variar      veis, longevidade, frombotzer deterônico.
+da mera curiosidade até a admiração e adoração ou ódio. Quanto maior for a disparidade entre o        10. Antimatéria: energia de antimatéria, gravi-
+nível tecnológico do grupo e o do local, maior será a excitação.                                      dade artificial, comunicação lenta - Mais rápida
+                                                                                                      que a Luz (*).
+    Naturalmente, os habitantes de um lugar podem estar familiarizados com um nível tecnológico       11. Força: escudo de força, feixes propulso-
+que eles próprios não dominam. Uma vila que vive na idade do ferro (NT 2) poderia muito bem           res, comunicação rápida - Mais Rápida do que a
+conhecer armas de aço (NT 3) transportadas por viajantes. Os moradores mais abastados do lugar        Luz (*).
+poderiam possuir algumas delas, apesar de os ferreiros locais não serem capazes de reproduzi-las      12. Gravítica: antigravidade, compensação
+nem consertá-las. Este tipo de situação é indicado por um par de parênteses. A vila teria o seguinte  gravitacional, escudos de força pessoais.
+nível tecnológico: NT2(3).                                                                            13. Adaptação Planetária: modificação comple-
+                                                                                                      ta de planetas.
+Níveis Tecnológicos e Perícias                                                                        14. Dysoniana: construção de planetas, satéli-
+                                                                                                      tes, etc...
+    Várias perícias mudam conforme o nível tecnológico. Elas são indicadas pelo par /NT na lista      15. TM: transmissão de matéria, energia cósmi-
+de perícias. Quando seu personagem incorpora uma destas perícias, o NT deve ser substituído pelo      ca.
+nível tecnológico no qual o personagem foi treinado. Um engenheiro oriundo de um mundo                16+ O que você quiser...
+medieval, por exemplo, aprenderia Engenharia em NT 3.                                                 (*) v. GURPS SPACE, pág 27.
+
+    Se você planeja manter seus personagens em um único mundo e, deste modo evitar que eles se                      Transporte
+defrontem com outros níveis tecnológicos, nada disto tem importância. Uma campanha na Idade
+Média não tem necessidade de nível tecnológico exceto (no início) para definir o equipamento          0. Pés; canoas; trenó.
+disponível; basicamente, seria completamente desnecessário definir níveis tecnológicos para as        1. Cavalo sem sela; carroças puxadas a cavalo;
+perícias. Contudo, para uma campanha de ficção científica ou de viagem no tempo, eles serão           jangadas e pequenas galeras.
+necessários. Toda vez que o personagem muda de mundo ele entra em um nível tecnológico                2. Cavalo com sela; galeras de alto mar.
+diferente e suas perícias se alteram de acordo com esta mudança. Somos sempre mais eficientes         3. Cavalo com sela e estribo; veleiros.
+quando lidamos com equipamentos e técnicas de nosso próprio nível tecnológico. Níveis tecnológicos    4. Navios completamente equipados; balões de
+mais altos oferecerão avanços aos quais não estamos familiarizados. Níveis tecnológicos mais          ar quente.
+baixos o desafiarão a trabalhar com equipamento “obsoleto”. Quanto mais distante de seu nível         5. Navio a vapor; transporte ferroviário; zeppelin.
+tecnológico “original” você estiver, maior será a penalidade a ser aplicada quando você tentar usar   6. Automóvel; aeronaves; transatlânticos; sub-
+sua perícia. As modificações são as seguintes:                                                        marinos.
+                                                                                                      7. Avião a jato; trem espacial; monotrilho mag-
+4 (ou mais) níveis acima do seu: Impossível  1 nível abaixo do seu: -1                                nético; hovercraft.
+3 níveis acima do seu: -15                   2 níveis abaixo do seu: -3                               8. Espaçonave; estação orbital; aviões teleguia-
+2 níveis acima do seu: -10                   3 níveis abaixo do seu: -5                               dos.
+1 nível acima do seu: -5                     4 níveis abaixo do seu: -7                               9-11. Viagem interestelar mais rápida que a luz;
+Seu próprio nível : Nenhuma penalidade       e assim por diante...                                    veleiro espacial.
+                                                                                                      12. Nave antigravidade e cinto propulsor indivi-
+    Note que estes redutores se aplicam somente quando o personagem tenta usar tecnologia com         dual.
+a qual não está familiarizado. Seu walkie-talkie de nível tecnológico 7 funcionará tão bem em 1800    15. Transmissão de matéria.
+(NT 5) como ele o faz hoje. Todavia, se ele deixar de funcionar, os técnicos locais estarão           16+ Puff! Você está lá.
+submetidos a um redutor igual a -10 quando tentarem consertá-lo (e provavelmente o danificarão
+para sempre se fuçarem muito nele). Você estará submetido a um redutor igual a -3, se tentar
+
+                                             - 185 -                                                  Cenários
+```

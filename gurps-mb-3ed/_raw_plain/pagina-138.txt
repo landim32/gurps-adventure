@@ -1,0 +1,34 @@
+O Alvo Humano
+Era considerado anti-esportivo na Primeira Guerra Mundial, um piloto atirar no outro. O piloto cavalheiresco tentava danificar o avião do inimigo, deixando seu piloto ileso. Nem todos os pilotos tinham pára-quedas.
+No entanto, eliminar o piloto (ou motorista, ou cornaca) é o modo mais rápido de tirar uma unidade inimiga de combate. Mas este nem sempre é um alvo fácil. Imponha os modificadores devido ao parâmetro distância/velocidade. Imponha o redutor devido à cobertura do inimigo (pág. 118). Se você estiver atirando no motorista de um automóvel, ele dependerá da arma que você está usando. Com uma calibre .22 você terá que atirar pela janela e somente sua cabeça estará exposta. Com um fuzil de assalto, você atira diretamente contra a lateral do carro e, neste caso, o motorista não tem nenhuma cobertura.
+
+Combate em Veículos
+Existem dois tipos principais de combates em veículos. O primeiro é com armas pessoais (ex: atirando de um carro em fuga). Ele tem possibilidade de ocorrer de vez em quando em muitas campanhas; estas regras cobrem este caso adequadamente.
+O segundo usa armas montadas no próprio veículo (tanques, aviões, etc.). Os condutores devem usar sua própria perícia em Artilharia, ou levar artilheiros como passageiros. Este tipo de combate é complexo e diferente para cada tipo de veículo. Ele deverá ser deixado, em sua maior parte, para os livros de referência específicos.
+Manobras e Movimento
+Represente os veículos com peças multi-hex, numa escala igual a uma pol/m. Calcule a escala da velocidade com base na realidade. Uma velocidade de 100 km/h, por exemplo é equivalente a um Deslocamento de 30. Use as regras de raio de giração da pág. 139 para carros e aviões. Em geral, os veículos se movimentam de acordo com seu Deslocamento (os mais rápidos primeiro). Nos casos de empate, os condutores que têm um nível de habilidade maior vão primeiro.
+Um guerreiro em um veículo não tem manobras especiais como tal. Se ele estiver controlando o veículo, deverá fazer os testes de “controle” apropriados (Condução, Barco a Motor, Pilotagem, etc.), conforme a necessidade. Se estiver usando uma arma, ele atacará fazendo as jogadas de ataque apropriadas (normalmente Armas de Fogo e Artilharia). Os detalhes do movimento do veículo devem ser deixados para um livro de referência específico como Autoduel.
+Toda vez que o veículo for danificado ou tentar uma manobra arriscada, será necessário um teste de Controle. Uma falha suprime todos os bônus acumulados durante o processo de apontar; qualquer ataque na rodada seguinte terá uma penalidade igual à margem pela qual o teste falhou. Uma falha crítica significa uma perda de controle. Os resultados dependerão do veículo; um biplano cairá, enquanto que um tanque continuará em frente.
+
+Tiros Penetrando em um Automóvel
+Jogue 2 dados para cada tiro que penetre em um carro de NT6 ou 7. Lembre-se que parte do dano que o tiro provoca foi usada para atravessar a carroceria do automóvel. Esta tabela assume que o carro era o alvo e que os tiros não foram disparados especificamente contra (por exemplo) o motorista.
+2- Acerta o motorista. Se sobreviver, ele precisará de um sucesso em um teste de Condução com um redutor de -4 para conseguir manter o controle. Se ficar atordoado, ele automaticamente perderá o controle.
+3,4- Atinge um passageiro. Escolha um deles aleatoriamente.
+5- O projétil quebra o pára-brisas. Até que ele seja trocado, todos os teste de Condução estarão submetidos a um redutor de -3.
+6-8 As balas saem sem atingir ninguém. 9- O tiro atinge um pneu; reduz a velocidade em 15 km/h. 10,11- A carga foi danificada (O GM fornece os detalhes). 12- O motor foi danificado. O carro desliza até parar. Deve-se jogar 1 dado toda vez que alguém conseguir um sucesso decisivo num ataque contra um automóvel. Se o resultado estiver entre 1 e 3, o condutor terá sido atingido; entre 4 e 6, o motor foi inutilizado.
+
+Ataques
+Se o condutor de um veículo tentar usar uma arma pessoal (forçando-o a dividir sua atenção entre a condução do veículo e a arma), ele terá um redutor extra de -4 em sua jogada de ataque. Esta penalidade não se aplica se ele estiver usando uma arma montada no veículo.
+Para usar armas mais pesadas é necessário ter perícia em Artilharia. As armas montadas em veículos são usualmente respeitáveis; a mais leve seria uma metralhadora calibre .30, com TR 16, Prec. 8, ½D 1.000, Max 4.700, uma CdT de 20 e provocando um dano igual a 7D+2 por tiro! Um tanque em NT7 dispararia projéteis que provocam no mínimo 25D pontos de dano por disparo.
+Pontaria: Com armas de um tiro, a pontaria funciona do mesmo modo que a cavalo. Com uma arma montada no veículo ou uma arma automática você pode apontar enquanto atira, com um bônus de no máximo igual a +3.
+Sistemas de Mira: Muitos veículos têm sistema de mira em NT maior ou igual a 7 (radar, computadores, etc.). Um sistema destes reduz o valor efetivo do parâmetro velocidade/ distância do alvo. Um sistema /2, por exemplo, diminui este parâmetro à metade.
+Defesa
+Aqui a variação é muito grande. Alguns veículos (ex: um caça) poderiam fazer um teste de Esquiva frente ao fogo do inimigo. Um tanque não teria esta possibilidade, mas sua blindagem inclinada oferece uma defesa passiva bastante alta.
+Um tiro, quando atinge o alvo, deve ser tratado como nos outros combates, i.e., compare o dano provocado pela arma com a blindagem do veículo atingido. De novo, isto varia. Um avião antigo não tem proteção. Um automóvel de NT 6 ou 7 tem uma carroceria feita de aço com DP 3, RD 5. Um tanque de guerra grande em NT 7 tem uma RD maior ou igual a 100. (Mesmo assim, sua sobrevivência depende de ele não ser atingido).
+Os disparos que penetram em um veículo podem afetar a tripulação. No caso de um automóvel, faça uma jogada escolhendo uma das linhas da tabela existente na coluna lateral. GMs que estejam conduzindo outros tipos de combate podem construir tabelas semelhantes.
+
+Combate Montado ou Sobre Veículo
+
+- 138 -
+
+

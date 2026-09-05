@@ -1,0 +1,118 @@
+Efeitos Colaterais
+As perícias psíquicas podem ter “efeitos colaterais”, que serão exclusivos para um personagem em particular. Ou seja, sua Transmissão Telepática (por exemplo) provoca um efeito colateral especial quando você a usa. Os efeitos colaterais são opcionais e devem ser definidos quando o personagem é criado. Existem duas categorias gerais:
+Efeitos Especiais Um efeito especial é um efeito colateral
+essencialmente sem importância mas que pode vir a incomodar ocasionalmente. Ex.: Sua perícia Telecinese provoca um zumbido baixo, que será notado por todos que estejam próximos (e aqueles que o conhecem saberão que você está usando sua Telecinese). Um efeito especial vale 1 ponto como uma desvantagem trivial ou 2 se o GM achar que ele pode ser um pouco mais inconveniente. Você pode assumir até 5 pontos de efeitos especiais para todas as suas perícias psíquicas combinadas.
+Inconvenientes Inconvenientes são efeitos colaterais que
+provocam problemas reais aos agentes ou àqueles que estão a sua volta. Ex.: Se sua Transmissão Telepática causar uma dor de cabeça suave em todos os que estiverem a uma distância de 6 metros, isto será um problema.
+Um inconveniente vale pontos como uma desvantagem (mas somente se ele causar problemas reais para o personagem). O número máximo de pontos que se pode receber por estes efeitos especiais danosos é 15. O efeito descrito acima, por exemplo, poderia valer 5 pontos, (principalmente por que ele impede o psi de usar seu poder sem ser notado).
+Um efeito colateral realmente detestável valerá um redutor em testes de reação. Este caso valerá 5 pontos por -1 de redutor se ele afetar os outros sempre (o que é raro). 5 pontos por -2 se for possível notá-lo apenas parte do tempo e 5 pontos por -3 se ele for relativamente raro.
+Pontos de Personagem Os pontos devido a efeitos especiais não
+são levados em conta quando se calcula o limite (sugerido) de pontos em desvantagens. Portanto, um psi pode ter até 20 pontos a mais de desvantagens (5 devido a efeitos especiais e 15 devido a inconvenientes).
+Efeitos Colaterais Ilegais Nenhum personagem poderá adotar efei-
+tos colaterais que sejam obviamente úteis como uma arma ou vantagem controlável. Se um jogador encontra uma maneira inteligente para transformar um efeito colateral aparentemente inútil em algo ocasionalmente útil, tudo bem.
+Psiquismo
+
+Escudo Psicocinético
+
+*2
+
+Para desenvolver esta perícia, o PK deve ter também pelo menos um ponto de potência
+
+em PES para sentir o ar próximo a seu corpo. Esta perícia permite ao psi “congelar” o ar
+
+e mantê-lo no lugar como um escudo. Este escudo confere +1 a DP e RD igual a ½ da
+
+potência de seu poder PK, apenas contra objetos sólidos (nenhum efeito contra ataques
+
+sônicos, feixes etc...).
+
+É necessário uma jogada de teste a cada segundo para manter o escudo ativo. Falhas
+
+críticas depois da primeira jogada são tratadas como falhas comuns. Ativar esta perícia
+
+custa 1 ponto de fadiga, mais 1 para cada minuto completo em que o escudo for mantido.
+
+PES
+O poder de “Percepção-Extra-Sensorial” (PES) abrange as várias perícias de “sexto sentido” (ver coisas ocultas para as pessoas comuns). Toda vez que uma perícia PES for usada, o GM fará um teste de sua habilidade. Quanto melhor o resultado mais precisa e útil será a informação obtida. No caso de uma falha, o GM dirá “Você não descobriu nada”, mas se um teste de Psicometria ou Precognição falhar por uma margem maior ou igual a 5, ele “mentirá”. Tentativas repetidas custam 2 pontos de Fadiga, com um redutor de -2 para cada tentativa.
+
+Clarividência
+
+*2
+
+Esta é a habilidade de enxergar através de paredes e outros objetos sólidos. Seu alcance
+
+é fortemente limitado pela potência, mas não pelo que se encontra no caminho. Você não
+
+verá, por acidente, "através" do objeto que está procurando. Toda vez que o psi olhar para
+
+uma coisa diferente, será necessário fazer um novo teste.
+
+O alcance da Clarividência, em centímetros, é igual ao produto de sua Potência elevada
+
+ao quadrado por 2,5. Portanto, mesmo uma Potência igual a 1 lhe permitirá ver o interior
+
+de um envelope em sua mão. Uma potência igual a 20 permitirá que você veja 1000 cm
+
+(10 metros).
+
+Clariaudiência (Ideofonia)
+
+*2
+
+Como acima, exceto que ela lhe permite escutar o que está sendo dito atrás das portas,
+
+etc., e ouvir indefinidamente qualquer conversa de interesse.
+
+Psicometria
+
+*1
+
+Este talento permite ao psi aprender alguma coisa acerca da história de um lugar ou
+
+objeto inanimado: impressões gerais, uso, personalidade do dono, etc... A extensão da
+
+história percebida, expressa em anos é igual ao quadrado da Potência.
+
+Normalmente, é necessário um esforço deliberado, mas “vibrações” muito fortes
+
+podem ser sentidas passivamente; o GM faz a jogada em segredo. A Psicometria não é
+
+capaz de detectar magia. No entanto, um objeto sagrado (por exemplo) teria “boas
+
+vibrações” por ter sido manuseado por um homem santo, e um altar maligno teria uma
+
+nuvem em torno dele devido aos sacrifícios ali realizados. A Psicometria detectaria
+
+também uma atmosfera antinatural em um artefato de uma outra dimensão.
+
+Precognição
+
+*2
+
+Esta é a habilidade de ver o futuro. É a mais incerta e menos compreendida de todas as
+
+perícias psíquicas conhecidas. Uma visão precognitiva pode ser uma imagem, som ou
+
+apenas um lampejo de conhecimento. Lembre-se que nada acerca do futuro é certo; mesmo
+
+que o GM tenha se decidido, ele sempre pode mudar de idéia...
+
+Uma tentativa ativa de Precognição exige 10 minutos e custa 2 pontos de Fadiga. Ela
+
+está submetida a um redutor igual a -10!
+
+Um teste de Pregonição passiva pode ser feito segundo a veneta do GM. A Precognição
+
+está normalmente associada com uma pessoa ou coisa. Ex: Se você encontrar uma pessoa
+
+que tem algum evento muito importante em seu futuro, o GM lhe permitirá uma jogada
+
+(que ele fará) para detectar a possibilidade daquele evento. Ou, ver uma foto de um lugar
+
+poderia provocar uma visão tendo a ver com aquele lugar.
+
+O alcance precognitivo está baseado na Potência. A distância física é calculada do
+
+- 174 -
+
+

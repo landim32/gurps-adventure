@@ -1,0 +1,203 @@
+VANTAGENS
+
+4
+
+Estas são habilidades inatas do personagem. Com poucas exceções, só podemos dar uma vantagem a um personagem no momento em que ele é criado. Depois disso não há nenhum meio de consegui-las. (Note, no entanto, que tanto a magia como a tecnologia avançada poderiam dar a um personagem o equivalente a uma destas aptidões como, por exemplo, um Ouvido Aguçado). Cada vantagem tem um custo em pontos e um personagem pode ter tantas vantagens quantas ele for capaz de “comprar”.
+Para algumas vantagens o custo é fixo. Outras (por ex., Visão Aguçada) podem ser compradas em vários níveis, a um certo custo em cada nível. Por exemplo, Visão Aguçada custa 2 pontos por ponto adicional de bônus. Se você deseja um bônus igual a +6 isto lhe custará 12 pontos.
+Existe uma lista de todas as Vantagens no folheto que acompanha este manual.
+
+Senso de Direção
+
+5 pontos
+
+O personagem sempre sabe para onde fica o Norte e é sempre capaz
+
+de refazer um trajeto realizado durante os últimos 30 dias, não importa
+
+quão confuso ou tortuoso ele tenha sido. Esta aptidão não funciona em
+
+ambientes como o espaço interestelar, o limbo do plano astral, etc. Mas
+
+ela funciona em ambientes subterrâneos, debaixo d’água e em outros
+
+planetas. Esta vantagem dá um bônus de +3 para a perícia Navegação
+
+do personagem.
+
+Noção Exata do Tempo
+
+5 pontos
+
+Você tem um relógio mental acurado. A menos que tenha sido
+
+nocauteado, hipnotizado ou sofrido algum outro tipo de interferência,
+
+você sempre sabe a hora exata. Você também é capaz de medir com
+
+precisão qualquer lapso de tempo. O sono não interfere com esta sua
+
+capacidade (e você pode, inclusive, acordar numa hora pré-determina-
+
+da). Mudanças de fuso horário também não o afetam. As viagens no
+
+tempo irão confundi-lo até que descubra qual é o “novo” horário.
+
+Ouvido Aguçado
+
+2 pontos/nível
+
+O personagem recebe um bônus toda vez que tiver que fazer um teste
+
+de Audição (v. pág. 92), para verificar se é capaz de ouvir alguma coisa,
+
+ou quando o GM faz uma jogada contra seu atributo IQ para ver se ele
+
+notou algum ruído. Custo: 2 pontos por ponto de bônus em sua jogada.
+
+Olfato/Paladar Apurado
+
+2 pontos/nível
+
+O personagem recebe um bônus em todas as seus testes de Olfato ou
+
+Paladar (v. pág. 92). O GM poderia jogar para ver se você percebeu o
+
+cheiro ou o sabor de um veneno em sua bebida. Custo: 2 pontos por
+
+ponto de bônus em sua jogada.
+
+Visão Aguçada
+
+2 pontos/nível
+
+O personagem recebe um bônus em todos os testes de Visão, quando
+
+ele está procurando alguma coisa, e sempre que o GM fizer um teste
+
+contra seu atributo IQ para verificar se ele percebeu alguma coisa.
+
+Custo: 2 pontos por ponto de bônus na jogada.
+
+Prontidão
+
+5 pontos/nível
+
+Este é um bônus geral que o personagem recebe em testes de
+
+qualquer um dos Sentidos ou quando o GM faz um teste de IQ para
+
+verificar se ele percebeu alguma coisa. Esta vantagem pode ser combi-
+
+nada com qualquer uma (ou todas) as vantagens relacionadas com
+
+agudeza dos sentidos. Custo: 5 pontos por ponto de bônus em sua
+
+jogada.
+
+Ambidestria
+
+10 pontos
+
+O personagem é capaz de usar as duas mãos com a mesma habilida-
+
+de. Ele não está sujeito ao redutor de -4 sobre seu atributo Destreza por
+
+estar usando a mão ambiesquerda (veja Destreza Manual na pág. 13)
+
+e pode lutar (ou agir) com qualquer uma das mãos indistintamente, ou
+
+com ambas de uma vez (em um Ataque Total). Se acontecer algum
+
+acidente com um(a) de seus (suas) braços (mãos), assuma que foi com
+
+o(a) esquerdo(a).
+
+Empatia com Animais
+
+5 pontos
+
+O personagem entende e gosta de animais, e eles gostam do perso-
+
+nagem. Ele recebe um bônus de +2 em qualquer teste de reação com um
+
+animal selvagem, e de +4 em testes que envolvam perícias com animais
+
+(Adestramento de Animais, Cavalgar, Veterinária, etc...). No entanto,
+
+você nunca poderá matar um animal sem uma razão muito boa, e deverá
+
+tentar evitar que outros o façam. Note que matar para se alimentar é
+
+perfeitamente aceitável e, numa caçada o personagem receberia um
+
+bônus igual a +3 na sua tentativa de encontrar caça.
+
+Atratividade
+
+Variável (veja pág.15)
+
+Carisma
+
+5 pontos/nível
+
+Esta é a aptidão natural para impressionar e liderar outras pessoas.
+
+Qualquer um pode conseguir um carisma ilusório através da boa
+
+aparência, boas maneiras e inteligência, mas o carisma real funciona
+
+independente da presença destes fatores. Ele afeta qualquer teste de
+
+reação feito por uma criatura inteligente. Custo: 5 pontos para cada
+
+ponto de bônus.
+
+Clericato
+
+5 pontos ou mais, a critério do GM
+
+O personagem foi ordenado como ministro de alguma religião. Um
+
+clérigo tem alguns poderes e privilégios que um leigo não tem, incluindo
+
+um bônus de +1 em testes de reação com correligionários ou pessoas que
+
+respeitam sua fé. Os outros personagens dirigir-se-ão a ele (ou ela)
+
+usando um título: Padre, Irmã, Reverendo, Shaman, etc. Um clérigo
+
+poderá realizar cerimônias como Confirmação, Casamento e Exorcis-
+
+mo.
+
+Lembre-se que nem todos os clérigos são rabinos ou monjas.
+
+Aka’Ar, alto sacerdote da seita profana de Set, é também um clérigo
+
+paramentado e as bençãos e casamentos que realizar serão tão signifi-
+
+cativos para seu rebanho, como o seriam para sua paróquia os realizados
+
+por um vigário. E, se Set assim o desejar, Aka’Ar será capaz de
+
+exorcismos tão poderosos quanto os realizados por um sacerdote
+
+cristão, se não mais. Afinal, Aka’Ar terá uma experiência mais ativa
+
+com demônios...
+
+O GM deve decidir se, em sua campanha, os clérigos serão capazes
+
+de invocar ajuda ativa do Além. Se assim for e, se os clérigos forem
+
+conhecidos por serem capazes de conseguir esta ajuda, o Clericato
+
+“valerá” 10 pontos ou mais. Se o Clericato for (até onde os jogadores
+
+sabem) apenas uma vantagem “social”, ele custará 5 pontos.
+
+- 19 -
+
+Vantagens
+
+

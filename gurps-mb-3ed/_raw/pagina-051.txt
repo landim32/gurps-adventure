@@ -1,0 +1,121 @@
+                                                                                  Perícias com Armas e Combate
+
+Armas de Fogo/NT (Física/Fácil) Pré-definido como                                 Lança de Justa (Física/Média)  Pré-definido como
+                DX-4 ou outra perícia com Arma de Fogo-4
+                                                                                  Lança-3 para aqueles que têm Cavalgar em nível 12+
+    Esta é a perícia no uso de qualquer tipo de arma de cartucho do séc. XX.
+Some 1 a seu nível de habilidade, se tiver IQ igual a 10 ou 11, e 2 para IQ 12+.                                 e DX-6 para os outros.
+Modificadores: Veja Familiaridade, (pág. 43). -2 para uma arma de um tipo
+conhecido com a qual não se está familiarizado (ex.: calibre . 22 quando se                                      Pré-requisito: Cavalgar
+está acostumado com calibre 38); - 4 ou mais para uma arma em más
+condições; - 4 ou mais para uma arma de tipo desconhecido (ex.: um fuzil
+quando se está acostumado a atirar com pistolas). Todos os modificadores
+descritos para armas de projétil, devem ser aplicados.
+
+Judô (Física/Difícil)             Sem nível pré-definido
+
+Esta perícia representa uma habilidade geral em tombos e chaves e não
+
+uma escola específica de combate desarmado. Não é possível usar Judô se
+
+tiver alguma coisa nas mãos ou se sua Carga for maior do que Leve. Usando
+
+Judô, será possível aparar com qualquer uma das mãos como se ela fosse uma
+
+arma, usando 2/3 de seu NH em Judô como seu Aparar. A chance de se                    Esta é a perícia no uso da lança de justa, uma arma parecida com uma
+                                                                                  lança normal, com um comprimento maior ou igual a 3,5 m, usada a cavalo.
+machucar ao aparar uma arma com as mãos também é menor (v. pág. 101).             Não é comum aparar em um combate com lanças de justa; é preciso Bloquear
+                                                                                  ou se Esquivar dos ataques do inimigo.
+Se conseguir aparar com sucesso, você poderá tentar derrubar aquele
+
+adversário em seu próximo turno, se ele estiver em um hexágono adjacente
+
+ao seu; isto é um ataque. Faça seu teste de Judô. Seu oponente poderá usar
+
+qualquer defesa ativa (ele pode aparar sua mão com uma espada), mas a DP          Laço (Reata) (Física/Média) Sem nível pré-definido
+
+de sua armadura não conta. Se ele falhar em sua defesa, terá sido derrubado.          Esta é a perícia no arremesso do laço ou reata. Ela é usada principalmente
+                                                                                  para laçar animais. Pode-se tentar laçar uma parte específica do corpo, ou
+Um resultado igual a 17 ou 18 em sua jogada de ataque significa que você foi      escolher uma aleatoriamente na Tabela de Partes do Corpo. Faça uma
+                                                                                  Disputa Rápida de ST, se o laço tiver prendido um braço ou o tronco do
+derrubado. Note que num ataque total você não pode tentar 2 tombos, mas           adversário. Se o laçador vencer, a vítima estará imobilizada, mas se ele
+                                                                                  perder, terá perdido a corda. Se a cabeça tiver sido laçada, a vítima estará
+pode fazer uma tentativa com um bônus de +4. É possível também usar esta          submetida a um redutor de -5 na Disputa de ST. Se um pé tiver sido laçado,
+                                                                                  a vítima terá que ser bem sucedida em um teste de DX para permanecer em
+perícia para derrubar seu oponente se você o estiver Segurando (Combate de        pé (DX - 4 se a vítima estava correndo quando foi laçada) e não haverá
+                                                                                  necessidade de disputa de ST. Se o teste de DX resultar em falha, a vítima
+Perto, pág. 111); -5 se você estiver deitado no chão.                             sofrerá 1D - 4 pontos de dano devido à queda (1D-2 se a vítima estava
+                                                                                  correndo).
+Quando derrubar um adversário, ele cairá onde você desejar, num raio de
+                                                                                      Para manter a vítima imobilizada, é preciso que o laço fique sempre
+2 hexágonos a seu redor. Um destes hexágonos deverá ser o que ele ocupava         esticado. Você pode fazê-lo com as mãos, mas enquanto estiver ocupado com
+                                                                                  isto, não poderá fazer mais nada. Se um cavalo tiver sido treinado para manter
+antes, seu hexágono, ou qualquer hexágono adjacente a um destes. Ele deve         o laço esticado (pág. 143), sua ST substituirá a do laçador na disputa.
+
+fazer um teste de HT; uma falha significará que ele está atordoado. Se você           Um laço em redor do pescoço (redutor de -5 em um ser humano e -2 na
+                                                                                  maioria do gado), impedirá a vítima de respirar enquanto estiver esticado.
+o atirar contra alguém, aquela pessoa deverá conseguir um sucesso em uma          Trate este caso como asfixia (pág. 122).
+
+jogada contra DX+3 ou ST+3 (o que for maior), para evitar ser derrubada.              Ninguém é capaz de escapar de um laço esticado sem cortar a corda.
+                                                                                  Escapar de uma laço bambo é o mesmo que de uma boleadeira.
+É possível também usar seu nível de habilidade em Judô ao invés de DX
+
+em qualquer teste de DX feito num Combate de Perto, exceto para sacar uma
+
+arma ou largar um escudo.
+
+Caratê (Física/Difícil)           Sem nível pré-definido
+
+Esta perícia não representa nenhuma escola específica de combate
+
+desarmado e sim uma habilidade geral com socos e chutes.
+
+Não existe penalidade para o uso da mão esquerda. Qualquer mão que
+
+venha a ser usada deverá estar vazia, e sua Carga deve ser Leve ou menos.
+
+É possível aparar com qualquer uma das mãos como se ela fosse uma
+
+arma, usando 2/3 de seu NH em Caratê como seu Aparar.                             Rede (Física/Difícil)          Sem nível pré-definido
+
+Se for usado ofensivamente, o Caratê aumentará a quantidade de dano               Esta é a perícia no uso da rede como uma arma em uma luta. É possível
+
+que você é capaz de provocar quando ataca sem armas. Faça um teste de             se esquivar de uma rede, mas não bloquear nem aparar. No caso de um
+
+Caratê para ver se o golpe atinge o alvo. (No caso de um chute, use um redutor    arremesso bem sucedido, a vítima estará envolvida e incapaz de se mover ou
+
+de -2. Se errar o chute deverá fazer um teste de DX para ver se cai.) Deve-se     atacar até a rede ser removida. Para remover uma rede você precisa de três
+
+adicionar 1/5 de seu NH em Caratê, arredondado para baixo, ao dano básico         sucessos, não necessariamente consecutivos, em testes de DX. Modificado-
+
+que você provoca com suas mãos ou pés. Aparar com as mãos vazias ainda            res: - 4 quando se tem as duas mãos livres; -6 quando se tem uma só mão livre,
+
+lhe causará dano se você falhar (v. pág. 101).                                    ou no caso de animais. Se ocorrerem três falhas consecutivas, a vítima estará
+
+Nota : Apesar de ser capaz de quebrar tijolos em uma demonstração, você           tão embaraçada, que será necessário cortar a rede para libertá-la. Uma rede
+
+não será capaz de atravessar uma armadura com um soco e sair ileso. Faça um       para animais pesa 9 kg e pode ser arremessada a uma distância de (ST/2)
+
+teste de HT toda vez que atingir um alvo com RD igual a 3 ou mais. Uma falha      metros mais 1/5 do NH com a rede (arredondado para baixo).
+
+significa que sua mão ou pé recebeu um dano igual a 1D-2. A Rijeza de seu         Uma rede pequena pode ser usada como uma arma de combate com um
+
+oponente não conta como RD neste caso. Sua própria Rijeza (ou botas, etc...)      alcance de 1 ou 2 hexágonos. Trate como um laço (acima), mas a vítima pode
+
+o protegerá neste caso.                                                           tentar se libertar como se fosse de boleadeira (acima). Uma rede de combate
+
+Faca (Física/Fácil)        Pré-definido como DX-4                                 pesa 1,5 kg e pode ser arremessada a uma distância de (ST) metros mais 1/5
+                                                                                  do nível de habilidade (arredondado para baixo). Todos os testes para se
+A perícia no uso, mas não no arremesso, de qualquer tipo de faca, adaga
+                                                                                  libertar de uma rede de combate têm um bônus de +3.
+
+ou estilete.
+
+Arremesso de Faca (Física/Fácil)                       Pré-definido               Armas de Haste (Física/Média) Pré-definido como DX-5
+
+                                                          como DX-4                   Perícia no uso de armas de haste muito longas e desbalanceadas,
+                                                                                  incluindo a acha d’armas, a alabarda, a bisarma e as centenas de variações
+A habilidade de arremessar qualquer espécie de faca.                              do tipo.
+
+                                                          - 51 -                                                                              Perícias
+

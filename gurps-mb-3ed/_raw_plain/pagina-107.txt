@@ -1,0 +1,36 @@
+Algumas coisas (como empilhar pedras para ficar em cima) podem ser interrompidas no meio se for necessário, para realizar qualquer outra manobra ou ação. Outras coisas (discar um número de telefone) não podem ser interrompidas; se você parar no meio, terá que começar de novo. Alguns exemplos:
+Apanhar um objeto pesado (peso maior do que sua ST) ........................................ 2 s Abrir uma caixa, livro, pasta, arca, etc. ................................................................... 1 s Achar um objeto perdido em uma caixa, pasta, etc. (se ele não estiver escondido). ......................................................................... 2D s Encontrar alguma coisa no bolso ........................................................................ 1D s Escrever um bilhete curto ................................................................... 5 s por sentença Ler um bilhete curto ........................................................................... 2 s por sentença Engolir um comprimido ou uma poção ................................................................ 2 s Acender um fósforo, cigarro, pavio, vela, tocha, etc ............................................... 2 s Substituir uma arma em sua bainha, colocar alguma coisa no bolso ....................... 2 s Mudar de roupa ........................................................................... 1 min Revistar uma pessoa minuciosamente .................................................... 1 min Vestir um traje de combate moderno ...................................................... 5 min Vestir uma armadura completa ou um traje de combate ultra moderno ............... 10 min
+Enquanto estiver realizando uma ação demorada, você deveria contar os segundos toda vez que anuncia a manobra. Ex.: Para substituir uma arma, você deveria dizer “Substituindo minha arma — um segundo” no primeiro turno, e “Substituindo minha arma — dois segundos e fim” no segundo turno. Deste modo, o GM e os outros jogadores podem acompanhar o que você está fazendo.
+O GM determina as defesas que você pode usar enquanto está realizando uma ação demorada. Como regra, a Esquiva é a única defesa legal, e se esquivar normalmente o forçará a começar a ação novamente. O GM pode mudar isto toda vez que a alteração parecer realista.
+Deslocamento
+Esta é uma manobra para ser usada quando tudo o que você precisa fazer é se deslocar. É possível se deslocar quase que em qualquer posição, mas é somente em pé que se consegue desenvolver a velocidade máxima. Outras posições diminuirão a velocidade, como pode ser visto na coluna lateral.
+Ex.: Se você desejar, por alguma razão (como vigiar um inimigo), se deslocar para trás, cada hexágono custará o dobro. Logo, alguém com um Deslocamento igual a 6 seria capaz de andar para trás apenas 3 hexágonos em cada turno, sem se virar. Movendo-se na posição agachado, você seria mais lento, mas mais difícil de acertar.
+Pode-se usar qualquer defesa ativa legal em um turno em que se escolheu a manobra Deslocamento.
+Pode-se usar uma arma de mão durante um Deslocamento, antes, durante ou depois de seu movimento, mas será um golpe Molinete (pág. 105).
+Você pode apontar ou disparar uma arma de longo alcance enquanto se desloca, mas haverá uma redução considerável na precisão de seu disparo. Veja pág. 117.
+Ações Independentes
+Algumas ações podem ser realizadas durante uma manobra. Exemplos.: Falar. Sempre se pode falar. (O GM deveria permitir apenas uma sentença de comunicação por segundo, se ele deseja ser realista. Normalmente, é mais divertido quando ignoramos esta limitação.) Manter Mágica (quando a magia estiver sendo usada). Desde que o operador não tenha sido ferido ou nocauteado, ele poderá manter uma mágica, não importa o que ele faça. Negar uma alucinação: Mas somente se você não estiver simultaneamente lutando com ela ou fazendo qualquer outra coisa que a trate como real! Largar um objeto. Qualquer objeto “preparado” pode ser largado a qualquer momento durante qualquer manobra. Ele pode ser largado em qualquer hexágono por onde você passa, ou num adjacente. Agachar. Você pode se agachar (para se desviar de projéteis) no início de qualquer turno, mas o custo em pontos de movimento será aumentado em 50%. Não é possível se agachar e correr. Você pode se levantar a qualquer momento.
+
+Custos em Pontos de Movimento
+Use os custos a seguir somente quando você tiver escolhido a manobra Deslocamento. O “custo” não faz diferença nas outras manobras.
+Se você tiver (por ex.) um Deslocamento igual a 6, terá 6 “pontos de Movimento” por turno. Um hex de movimento para a frente custa 1 ponto; movimentos laterais e retrocessivos custam 2.
+As penalidades devidas a obstruções, etc., são acrescentadas a este valor. Se você se deslocar lateralmente (custo 2) para dentro de um hex obstruído (custo 1), o custo total para entrar no hex terá sido 3. Contudo, você sempre pode se deslocar 1 hex por turno. A Visão Periférica não afeta o custo dos deslocamentos laterais e retrocessivos.
+Direção do Movimento Para Frente: 1 Lateral ou retrocessivo: 2
+Posições Agachado: + 1/2 Ajoelhado: +2 Rastejando: +2 Deitado: Desloca-se apenas um hex por turno
+(rastejando de bruços ou rolando) Sentado: Não consegue se deslocar!
+Mudança de Direção Se você quiser mudar de direção antes ou
+durante o deslocamento, cada lado de hexágono de mudança de direção custa 1 ponto. Você poderá mudar de direção sem ônus, se a mudança ocorrer no fim de seu deslocamento e você tiver usado a metade (ou menos) de seus pontos de Movimento. Se você tiver usado mais da metade de seu parâmetro Deslocamento, no fim do movimento será possível mudar sua direção em apenas um lado de hexágono.
+Obstruções Pequenas obstruções (ex.: um corpo, ou outro
+personagem no hexágono): +1 por corpo ou pessoa. Não é possível passar pelo hex de um inimigo, a não ser que você tente se Evadir (pág. 113).
+Grandes obstruções (vários corpos): é necessário se desviar do hexágono ou até mesmo escalá-lo.
+Piso Ruim Em terreno traiçoeiro, o custo para se entrar em
+um hex pode ser aumentado em 1, 2 ou mais pontos. Isto dependerá da visão realista que o GM terá da situação (lama, cascalho, assoalho encerado, etc...). O deslocamento em escadas (para cima ou para baixo) custa o dobro.
+O deslocamento na água (30 cm) custa o dobro. No caso de uma profundidade maior, o deslocamento fica reduzido a 1 hex/turno. Faça um teste de DX (menos sua Carga) por turno se a correnteza for forte. Uma falha significará que você caiu e deverá conseguir um sucesso em um teste de Natação para conseguir se levantar novamente. Cada falha no teste de Natação arrastá-lo-á 3 metros rio abaixo e terá os efeitos normais de afogamento (v. pág. 91).
+Qualquer pessoa que esteja em um hex obstruído ou com piso ruim terá também um redutor de -2 em qualquer ataque que venha a fazer. A Defesa não será afetada. Exceção: A manobra Apontar eliminará esta penalidade se você estiver disparando uma arma de projétil.
+Continua na próxima página ...
+
+- 107 -
+
+Sistema Avançado de Combate
+
+

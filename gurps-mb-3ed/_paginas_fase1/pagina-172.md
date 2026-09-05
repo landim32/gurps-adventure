@@ -1,0 +1,83 @@
+# Página 172
+
+> Nota de transcrição: conteúdo bruto extraído automaticamente do PDF (`pdftotext -layout`), preservado em bloco de código para manter o alinhamento original de colunas e tabelas. Será reformatado em Markdown estruturado na Fase 2 (organização).
+
+```
+                                                Psicocinese
+
+                                                   Este poder compreende a movimentação de objetos à distância, seu resfriamento ou
+                                                aquecimento, etc. Um PK tem que visualizar seu objetivo. Normalmente, isto significa que
+                                                ele deve vê-lo ou tocá-lo. Um objetivo familiar (uma pessoa bem conhecida do psi ou um
+                                                objeto que ele tenha manuseado repetidamente) pode ser afetado à distância, mesmo que
+                                                não esteja sendo visto: redutor de -1 a ser aplicado à perícia para uma distância de um metro
+                                                e um extra de -1 toda vez que a distância dobrar. Todos os testes de PK terão um bônus
+                                                de +1 se o agente estiver tocando o objetivo.
+
+                                                Telecinese                                                         *4
+
+                                                Esta é a perícia em deslocar objetos com o poder da mente. Sua potência Psicocinética
+
+                                                controla o peso que você é capaz de deslocar mentalmente.
+
+                                                1                    7g     12                             14 kg
+
+                                                2                    15 g   13                             28 kg
+
+                                                3                    30 g   14                             60 kg
+
+                                                4                    60 g   15                             125 kg
+
+                                                5                    125 g  16                             250 kg
+
+                                                6                    250 g  17                             375 kg
+
+                                                7                    500 g  18                             500 kg
+
+                                                8                    1 kg   19                             625 kg
+
+                                                9                    2 kg   20                             750 kg
+
+                                                10                   4 kg   21                             875 kg
+
+                                                11                   7 kg   22                             1 ton
+
+       Ataques Telecinéticos                       Novos aumentos de potência continuarão a acrescentar 125 kg por nível.
+
+   A Telecinese pode ser usada para atacar      Disputas Telecinéticas
+o corpo da vítima (comprimindo os vasos
+sangüíneos, etc...). O dano provocado é            Quando dois psis estiverem tentando deslocar o mesmo objetivo, deve-se fazer uma
+calculado consultando a coluna BAL da           Disputa de Habilidades. O psi que vencer a disputa ganhará o controle durante um segundo,
+tabela Dano Básico Provocado pelas armas        mas o outro ainda ”manterá uma ligação” com o objetivo. No entanto, se um psi vencer por
+(pág. 74), usando a Potência do poder Psico-    uma margem maior ou igual a 5, ele romperá a ligação mental que o outro mantinha e terá
+cinético como base. Ex.: Um PK com Po-          controle total sobre o objetivo, até deixá-lo espontaneamente.
+tência 6 provocaria um dano igual a 1D-4
+por segundo, e uma Potência 10 provocaria          É óbvio que cada um dos psis deverá ter potência suficiente para mover o objetivo. O
+1D de dano por segundo.                         psi com potência maior terá, ainda, um bônus de +1 a ser aplicado a seu nível de habilidade
+                                                efetivo para cada dois pontos de diferença entre sua potência e a do seu oponente. Numa
+   Para iniciar o ataque, o psi precisa ver     disputa deste tipo, a força bruta é menos importante do que o controle.
+(ou tocar) a vítima e visualizar o interior de
+seu corpo. Isto exige um sucesso em um          Complicando a Vida
+teste de IQ, ou Cirurgia (com um bônus de
++3) se ele tiver esta perícia. Isto requer 1       Toda vez que a telecinese for usada para alguma coisa diferente de um movimento em
+segundo de concentração (e é permitida          linha reta, será necessário uma jogada de teste para direcionar “o objetivo”. Uma falha
+apenas uma tentativa).                          significa que o objetivo não atingiu o alvo (ou se desorientou de alguma maneira. Os GMs
+                                                podem ser criativos neste caso). O Mestre define os redutores baseado no seguinte:
+   Se o resultado for um sucesso, o psi
+poderá começar seu ataque telecinético,            Pontaria precisa, deslocamento lento (guiar uma moeda até uma fenda): -2.
+que requer um teste de habilidade com os           Pontaria precisa, deslocamento rápido (arremessar uma bola através de um aro): -4.
+seguintes modificadores:                           Pontaria precisa, deslocamento rápido como o de uma bala: -6.
+                                                   Orientação precisa (manter uma flecha se deslocando com a ponta para a frente): -3.
+   -1 para cada metro de distância.             Este redutor deve ser adicionado aos redutores de pontaria acima.
+   -3 para provocar Fadiga ao invés de             Movimento Complexo (escrever seu nome com um giz de cera): -2 ou pior.
+perda de pontos de vida.                           O alvo está se movendo quando você tenta controlá-lo: -1 para cada m/s de velocidade,
+   Se o resultado desta jogada for um suces-    até um máximo de -10 (flechas e armas de arremesso se enquadram nesta categoria). É
+so, a vítima sofrerá dano todos os segundos,    impossível aparar uma bala, porque você não é capaz de vê-la se aproximando.
+como descrito acima. Nenhum teste adicio-          Você pode tentar desviar um projétil que seja capaz de ver se aproximar. A jogada de
+nal é necessário, a menos que a vítima saia     teste para desviar alguma coisa é 4 pontos mais fácil do que a jogada de teste para controlar
+do campo de visão do agressor. Neste caso,      esta mesma coisa (6 pontos mais fácil para objetos longos como lanças e flechas). Logo,
+será preciso um novo teste (levando em          o bônus para uma tentativa de desviar um objeto é +4. Um sucesso tirará o objeto de seu
+conta a nova distância) para manter o con-      curso (ele automaticamente errará o alvo).
+tato.
+
+Psiquismo                                                   - 172 -
+```

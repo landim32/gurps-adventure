@@ -1,0 +1,75 @@
+Tabela de Verificação de Pânico                                      23 — Adquire uma Fobia Suave (pág. 35) ou alguma outra
+                                                                  desvantagem mental que valha 10 pontos.
+   Jogue 3 dados toda vez que um personagem falhar numa
+Verificação de Pânico. Acrescente ao resultado a margem pela         24 — Uma grande conseqüência física definida pelo GM: o
+qual a Verificação falhou e consulte a tabela abaixo.             cabelo encanece, envelhece cinco anos numa noite, fica parcial-
+                                                                  mente surdo. Em termos de jogo, adquire 15 pontos de desvan-
+   Muitos destes resultados darão ao personagem uma nova          tagens físicas (para este fim, cada ano de idade conta como 3
+Peculiaridade, Fobia, Fantasia ou outra Desvantagem Mental. O     pontos).
+GM determina a Desvantagem e ela deve estar relacionada com
+o evento que a causou. Deveria também, se possível, estar            25 — Se ele já tinha uma Fobia Suave que poderia estar ligada
+relacionada com alguma Peculiaridade, Fantasia ou Fobia já        logicamente ao incidente ela se tornará Grave. Se não, adquire
+existente.                                                        uma nova Fobia Suave ou uma Desvantagem Mental valendo 10
+                                                                  pontos.
+   As Desvantagens adquiridas desta maneira reduzem o valor
+em pontos do personagem.                                             26 — Desmaia durante 1D minutos como no # 18 e adquire
+                                                                  uma nova Fantasia valendo 10 pontos como no # 22.
+   4,5 — Atordoado por um turno; depois se recupera automa-
+ticamente.                                                           27 — Desmaia durante 1D minutos como no # 18 e adquire
+                                                                  uma nova Desvantagem Mental valendo 10 pontos como no # 23.
+   6,7 — Atordoado por um turno; faça um teste de IQ em cada
+turno depois deste, para ver se ele se recupera.                     28 — Coma leve. O personagem fica inconsciente, fazendo
+                                                                  testes de IQ a cada 30 minutos para ver se ele se recupera. Todos
+   8,9 — Atordoado por um turno; faça um teste de Vontade,        os testes de habilidade e atributos terão um redutor igual a -2
+com todos os modificadores que ele tinha no teste original, em    durante 6 horas depois de ele ter recuperado os sentidos.
+cada turno depois deste, para ver se ele se recupera.
+                                                                     29 — Coma. A mesma coisa que o parágrafo anterior, mas o
+   10 — Atordoado por 1D turnos; faça um teste de Vontade         personagem fica inconsciente durante 1D horas. Depois ele faz
+como o acima em cada turno depois do 1D-ésimo, para ver se ele    um teste de HT.
+se recupera.
+                                                                     No caso de uma falha, permanece em coma por mais 1D horas
+   11 — Atordoado por 2D turnos. Faça um teste de Vontade         e assim por diante.
+como o acima em todos os turnos depois do 2D-ésimo, para ver
+se ele se recupera.                                                  30 — Catatonia. Fica olhando para o vazio por 1D dias.
+                                                                  Depois disso faz um teste de IQ. Em caso de falha permanece
+   12 — Acesso de vômito. Trate isto como um atordoamento         catatônico por mais 1D dias e assim por diante. Se não receber
+que dura 15 turnos. Depois disso, faça um teste de HT em cada     cuidados médicos, perderá 1 ponto de vida no primeiro dia, 2 no
+turno, para ver se ele se recupera. Dependendo das circunstânci-  segundo e assim por diante. Se ele sobreviver e acordar, todos os
+as, isto poderá ser meramente um inconveniente humilhante.        testes de habilidade e atributos terão um redutor igual a -2
+                                                                  durante um número de dias igual à duração do estado catatônico.
+   13 — Adquire uma nova Peculiaridade (pág. 41). Este é o
+único meio de um personagem adquirir mais de 5 Peculiaridades.       31 — Crise. O personagem perde o controle do corpo e cai no
+                                                                  chão, sofrendo uma convulsão que dura 1D minutos e custa 2D
+   14,15 — Sofre 1D pontos de Fadiga e 1D turnos de atordo-       pontos de fadiga. Faça também um teste de HT. No caso de uma
+amento como no caso 10.                                           falha, ele sofrerá também 1D pontos de dano. No caso de uma
+                                                                  falha crítica, ele perderá 1 ponto de HT permanentemente.
+   16 — Atordoado durante 1D turnos, como no caso 10 e
+adquire uma nova Peculiaridade como no caso 13.                      32 — Uma pontada de dor. O personagem cai e sofre 2D
+                                                                  pontos de dano na forma de um colapso cardíaco ou derrame.
+   17 — Desmaia por 1D minutos. Depois disso faça um teste de
+HT por minuto para ver se ele se recupera.                           33 — Pânico total. O personagem perde totalmente o controle
+                                                                  e não pode fazer nada. (O GM joga 3 dados: quanto maior o
+   18 — Desmaia, como acima, mas faz o teste de HT imedia-        resultado, mais inútil será sua reação). Ex.: Ele poderia pular de
+tamente. No caso de uma falha, terá perdido 1 ponto de vida ao    um penhasco para fugir do monstro. Se ele sobreviver à sua
+desmaiar.                                                         primeira reação, deverá fazer um teste de IQ para ver se supera
+                                                                  o pânico. Em caso de falha, o GM joga novamente para determi-
+   19 — Desmaio grave que dura 2D minutos. Depois disso, faça     nar uma nova reação de pânico e assim por diante.
+um teste de HT por minuto para ver se ele se recupera. Perde 1
+ponto de vida.                                                       34 — Adquire uma Fantasia Grave. Pág. 32
+                                                                     35 — Adquire uma Fobia Grave (pág. 35) ou outra Desvan-
+   20 — Desmaio beirando um estado de choque que durará 4D        tagem Mental que valha 15 pontos.
+minutos. Sofre, também, 1 ponto de Fadiga.                           36 — Conseqüências físicas graves como no # 24, mas
+                                                                  equivalente a 20 pontos de Desvantagens Físicas.
+   21 — Pânico. A vítima corre em círculos gritando, senta e         37 — Conseqüências físicas graves como no # 24, mas
+chora ou faz alguma outra coisa igualmente sem sentido durante    equivalente a 30 pontos de Desvantagens Físicas.
+1D minutos. No fim daquele período, faça um teste de IQ por          38 — Coma, como no # 29 e uma Fantasia Grave como no #
+minuto, para ver se ele se recupera.                              34.
+                                                                     39 — Coma, como no # 29 e uma Fobia Grave ou uma
+   22 — Adquire uma Grande Fantasia (pág. 32).                    Desvantagem Mental no valor de 30 pontos como no # 35.
+                                                                     40+ — Como em # 39, mas a vítima perde também 1
+                                                                  ponto de IQ permanentemente. Isto reduzirá, automaticamen-
+                                                                  te, 1 ponto no nível de habilidade de todas as perícias basea-
+                                                                  das em IQ, incluindo as perícias mágicas e psíquicas.
+
+Testes de Habilidade  - 94 -
+

@@ -1,0 +1,24 @@
+Anotando a Carga em Sua Planilha
+Copie os níveis de Carga para sua Força nos espaços em branco do campo “Carga” (lado esquerdo). Ex.: Se sua ST for 15, você deverá marcar “15” no espaço que diz “Nenhuma Carga”. Isto significa qualquer peso de até 15 kg não afeta sua Carga.
+Você pode consultar este campo toda vez que for necessário fazer uma verificação de sua Carga e descobrir exatamente quanto você pode carregar. (Você poderá transportar um peso maior se tiver uma carroça ou carroção. V. pág. 89.)
+Seu Parâmetro Deslocamento
+Seu “Deslocamento” é a distância (em metros) que você é realmente capaz de correr em um segundo. Para obter seu Deslocamento basta calcular o peso total dos itens existentes no campo “Armas e Objetos Pessoais”. Compare o valor apurado com os níveis de Carga que você já anotou.
+Se você tiver a perícia Corrida, adicione 1/8 de seu nível de habilidade ao parâmetro Velocidade para efeito deste cálculo apenas. A perícia Corrida não afeta seu parâmetro Velocidade (ela não faz com que seus reflexos fiquem mais rápidos), mas ajuda em seu Deslocamento.
+Agora subtraia o valor da penalidade correspondente ao seu nível de Carga de seu parâmetro Velocidade e arredonde o resultado para baixo. O resultado (sempre um número inteiro) será seu parâmetro Deslocamento. Se seu nível de Carga for igual a 0, seu Deslocamento será igual a seu parâmetro Velocidade Básica, arredondado para baixo. Se você tiver um nível de Carga leve, seu parâmetro Deslocamento será 1 ponto menor que sua Velocidade Básica e assim por diante.
+
+Exemplo de Equipamento e Carga
+Dai Blackthorn tem a Desvantagem da Pobreza. Por isso ele tem apenas $200 para gastar, ao invés dos $ 1.000, e pode gastálos em qualquer coisa existente nas listas de equipamento de NT baixo. Ele se decidiu pelo seguinte:
+Roupas - baixa categoria - 0,5 kg - $ 10 Sapatos - 1 par, de couro - 1 kg - $ 40 Jaqueta de Couro - 2 kg - $ 50 Faca (presa ao cinto) - 250 g - $ 30 Jogo de Gazuas - peso desprezível - $ 20 Adaga (presa à perna) - 100 g - $ 20 O custo deste equipamento é $ 170. Os outros $30 representam o total das economias de Dai atualmente. $ 20 deles estão empregados em um anel de ouro que ele usa e os outros $10 ele carrega consigo (o lugar mais seguro para guardá-los). Todos os bens e dinheiro de Dai estão anotados em sua planilha. As características protetoras (Defesa Passiva e Resistência a Dano) de sua armadura foram copiadas diretamente do livro para sua planilha.
+
+Seu Deslocamento controla: (1) quão rapidamente você se desloca. (2) quando você se desloca, no caso de estar usando a opção “realista” de seqüência em combate. (pág. 95). (3) sua Esquiva. Esta Defesa ativa é igual a seu parâmetro Deslocamento. Quanto menos peso você carregar, mais rápido poderá se esquivar!
+Anote seu Deslocamento na planilha, ao lado do parâmetro Velocidade Básica. Se seu nível de Carga mudar, você deverá mudar seu Deslocamento também. Isto pode acontecer se você apanhar um objeto pesado (ou se largar seu escudo para fugir). Os níveis mostrados no campo “Carga” facilitarão a determinação de quando você se desloca mais rápida ou mais lentamente.
+Seu Deslocamento não poderá nunca ser reduzido a zero, a menos que você esteja inconsciente, incapaz de usar as pernas, ou tentando erguer um peso maior do que 15 vezes sua ST (v. Erguendo e Movendo Objetos, pág. 89).
+
+É possível que Dai compre um terçado, se conseguir mais algum dinheiro (já que ele é uma arma muito mais efetiva que uma faca e Dai sabe como usá-lo). Mas, mesmo uma espada de má qualidade custa $ 160 e uma boa estaria em torno de $400. Uma armadura leve seria também muito útil, se ele espera se envolver em algum combate mais sério do que uma briga ocasional na taverna. Mas sua jaqueta de couro é o traje ideal para quem está acostumado a roubar e se esgueirar.
+O peso total de seu equipamento é 3,8 kg. Mesmo com o valor baixo de seu atributo ST, Dai é capaz de carregar qualquer coisa com menos de 8 quilos como se não tivesse “Carga”. Ele ainda é capaz de apanhar alguma muamba sem que isto diminua sua velocidade!
+
+- 77 -
+
+Equipamento e Carga
+
+

@@ -1,0 +1,94 @@
+5                     DESVANTAGENS
+
+    Desvantagens são problemas adquiridos pelo personagem antes de        não terá que assumir nenhum defeito na personalidade de um persona-
+ele ser representado pela primeira vez. Como regra, um personagem só      gem que você queira criar totalmente heróico. Você pode conseguir
+pode assumir desvantagens no momento de sua criação.                      pontos extras escolhendo aquelas desvantagens que são, na realidade,
+                                                                          virtudes!
+    É provável que você esteja se perguntando por que cargas d’água
+iria querer dar alguma desvantagem para seu personagem. Existe uma        Limite do Número de Desvantagens
+razão. Cada desvantagem tem um custo negativo em pontos. Quanto
+pior a desvantagem, maior o número de pontos. Ou seja, as desvanta-           Os Mestres deverão tomar cuidado com relação ao número de
+gens dão alguns pontos extras que poderão ser usados para melhorar        desvantagens que eles permitem que os jogadores assumam para seus
+o personagem em outros aspectos. Além disso, uma imperfeição ou           personagens. Este tipo de problema normalmente se corrige por si só.
+duas tornam seu personagem mais realista e interessante, e o jogo mais    Qualquer um que passe duas horas representando um corcunda, surdo
+divertido.                                                                e louco, que enxerga com um olho só acabará por: (a) matar o pobre
+                                                                          coitado para se livrar dele ou (b) se divertir tanto, que ninguém se
+    É possível “recomprar” certas desvantagens e se livrar delas. No      oporá. No entanto, muitas desvantagens podem transformar seu jogo
+entanto, se um personagem elimina uma desvantagem sem gastar os           em um circo.
+pontos de personagem correspondentes para “recomprá-la”, o GM
+pode prescrever uma desvantagem em substituição. Exemplo: você                Limite sugerido: O total de pontos conseguidos com desvantagens
+mata um inimigo mortal. A menos que você gaste os pontos para             não deveria ser maior do que 40. Mas, se uma única desvantagem grave
+recomprar a desvantagem “Inimigo”, o GM lhe dará um novo adver-           (por exemplo Cegueira) for assumida, ela poderá ter qualquer valor.
+sário.                                                                    Pobreza, Feiúra, Má Reputação e atributos básicos com valor menor
+                                                                          do que 7 contam como desvantagens.
+“Boas” Desvantagens
+                                                                              Numa campanha onde todos os personagens, ou pelo menos todos
+    Pode parecer estranho que virtudes como Honestidade e Senso do        os PCs tiverem uma mesma desvantagem, ela será considerada na
+Dever estejam relacionadas como “desvantagens”. Na maioria dos            contagem dos pontos, mas não deverá ser incluída no limite de 40
+sentidos estas características são vantagens. No entanto, estas virtudes  pontos. Exemplo: Numa aventura de espionagem, todos os persona-
+limitam sua liberdade de ação. Uma pessoa Honesta, por exemplo, terá      gens poderiam assumir 40 pontos em desvantagens, além da desvan-
+problemas em mentir, mesmo que por uma boa causa.                         tagem “obrigatória” de Lealdade à Agência.
+
+    Por este motivo, várias virtudes são tratadas como desvantagens           Os Mestres devem definir limites e diretrizes próprios para cada
+dentro da estrutura do jogo. Esta é uma característica importante. Você   campanha.
+
+Desvantagens Sociais
+
+Hábitos Detestáveis   -5, -10, -15 pontos                                 não-humanos. Um camarada que fique babando irritaria outras pesso-
+                                                                          as, mas um marciano nem notaria e um troll poderia achar atraente. O
+O personagem se comporta parte do (ou todo o) tempo de maneira            redutor devido a um hábito detestável deve ser usado com membros da
+                                                                          raça do personagem e o Mestre deverá cuidar das diferentes reações de
+repugnante aos outros. Quanto pior o seu comportamento, maior o           outras raças.
+
+número de pontos. Pode-se especificar o comportamento no momento
+
+em que o personagem é criado e estimar o bônus junto com o Mestre.
+
+Alguns exemplos: Odor de suor, coceira crônica e cantarolar o tempo
+
+todo fora de tom poderiam valer -5 pontos cada. Fazer trocadilhos de      Pobreza                                              Variável
+
+                                                                          O personagem nasceu pobre, em relação à média de sua cultura, ou
+
+                                                                          perdeu seu dinheiro de algum modo. Ele começará com apenas uma
+
+                                                                          fração do dinheiro que um personagem recebe normalmente quando é
+
+                                                                          criado, e sua renda é limitada. Os vários graus de pobreza são
+
+                                                                          discutidos no capítulo Riqueza e Status na pág. 16.
+
+                                                                          Primitivismo          -5 pontos por nível Tecnológico
+
+                                                                          Você pertence a uma cultura com NT mais baixo que o da campanha
+
+                                                                          e, por isso, não tem nenhum conhecimento (ou nível pré-definido para
+
+                                                                          testes de habilidade) relacionado com equipamentos de nível tecnoló-
+
+                                                                          gico maior do que o seu. Só lhe é permitido começar com perícias ou
+
+                                                                          equipamentos de sua cultura. (Para representar um personagem de uma
+
+mau gosto ou cuspir no chão poderiam valer -10 pontos cada. Hábitos       raça primitiva sem esta desvantagem, assuma que ele vem de uma área
+dignos de um bônus de -15 pontos são possíveis, mas serão deixados
+a cargo da imaginação daqueles que são depravados o suficiente para       quase “civilizada”.)
+desejá-los. Subtraia 1 ponto de todos os testes de reação feitos por
+pessoas capazes de observar seu hábito para cada -5 pontos de bônus       O valor desta desvantagem é 5 pontos para cada ponto de diferença
+conseguidos com ele. Exemplo: Ragnar Foulbreath, que recebeu -10
+pontos devido a seu mau hálito, está submetido automaticamente a um       entre o seu nível tecnológico original e o da campanha. Se a raça ou
+redutor de -2 em testes de reação de qualquer pessoa que fique cara a
+cara com ele.                                                             cultura dominante tratar sua raça com desprezo, isto será uma desvan-
+
+    Lembre-se que certos hábitos repugnantes não incomodarão aos          tagem diferente (Estigma Social).
+
+                                                                          Você não poderá desenvolver habilidade em Perícias Mentais
+
+                                                                          relacionadas com equipamentos de NT elevado enquanto não recomprar
+
+                                                                          esta desvantagem. Se você conseguir encontrar um professor, as
+
+                                                                          Perícias Físicas poderão ser adquiridas sem nenhuma penalidade.
+
+Desvantagens          - 26 -
+

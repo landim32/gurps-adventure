@@ -1,0 +1,100 @@
+Tabela de Reações                                                                        Numa situação de combate iminente, os NPCs estarão inclinados a seguir seu
+                                                                                     caminho e deixar os PCs seguirem o deles (se uma luta já estiver em curso, os NPCs
+Jogue 3 dados e aplique os modificadores descritos                                   tentarão recuar).
+na pág. 204.
+                                                                                         As Transações Comerciais seguirão de modo rotineiro. O comerciante compra-
+0 ou menos: Desastrosa                                                               rá e venderá pelo preço de mercado.
+
+    Reação Geral: O NPC odeia os personagens e procurará prejudicá-los o mais            Os Pedidos de Ajuda serão respondidos (se forem simples). Pedidos complexos
+possível.                                                                            serão negados, mas os PCs poderão tentar novamente com um redutor igual a -2.
+
+    Numa situação de combate iminente, o NPC atacará violentamente sem pedir             Os Pedidos de Informação serão bem sucedidos. O NPC dará a informação
+nem oferecer clemência.                                                              pedida se ela for simples. Se a pergunta for complexa, a resposta será vaga.
+
+    As Transações Comerciais estão condenadas: O mercador não terá nada a tratar         Lealdade: O NPC acha que você é simplesmente mais um patrão e este não
+com você. Faça um teste para verificar a “eminência de combate” com um redutor       passa de mais um emprego. Ele trabalhará o suficiente para mantê-lo satisfeito, nada
+igual a -2.                                                                          mais. Ele não deixará o emprego, a não ser que tenha certeza de ter encontrado um
+                                                                                     melhor, e não o trairá, a menos que a tentação seja muito grande.
+    Os Pedidos de Ajuda serão totalmente negados. Faça um teste para verificar a
+“iminência de combate” com um redutor de -4. Se a situação demandar um combate,      13 a 15: Boa
+mas houver algo que o impeça, o NPC trabalhará contra os PCs de todas as maneiras
+possíveis.                                                                               Reação Geral: O NPC gosta dos personagens e será prestativo dentro do
+                                                                                     razoável, limitado pelo seu cotidiano.
+    Os Pedidos de Informação serão recebidos com irritação. Faça um teste para
+verificar a “iminência de combate” com um redutor de -2.                                 Numa situação de combate iminente os NPCs acharão os personagens dignos
+                                                                                     de estima ou muito fortes para serem atacados. Os PCs podem pedir ajuda ou
+    Lealdade: O NPC odeia o patrão ou está a serviço de seus inimigos e aproveitará  informação (bônus de +1 num segundo teste). Se houver uma luta em curso os NPCs
+a primeira chance que aparecer para traí-lo.                                         fugirão.
+
+1 a 3: Muito Ruim                                                                        As Transações Comerciais serão agradáveis. O comerciante comprará e vende-
+                                                                                     rá pelo preço de mercado e oferecerá, voluntariamente, algumas informações úteis
+    Reação Geral: O NPC antipatiza com os PCs e agirá contra eles se isto lhe for    ou ajuda se possível.
+conveniente.
+                                                                                         Os Pedidos de Ajuda serão atendidos se forem razoáveis. A atitude do NPC será
+    Numa situação de combate iminente, os NPCs atacarão e fugirão somente se         prestativa. Eles oferecerão conselhos úteis mesmo que o pedido seja disparatado e
+perceberem que não têm nenhuma chance (uma luta já em curso continuará).             deva ser negado.
+
+    As Transações Comerciais são quase impossíveis. O comerciante pede o triplo          Os Pedidos de Informação serão bem sucedidos. A pergunta será respondida
+do preço de mercado ou oferece 1/3.                                                  com precisão.
+
+    Os Pedidos de Ajuda serão negados. Faça um teste de “iminência de combate”.          Lealdade: O NPC gosta de você e/ou do emprego. Ele será leal, trabalhará duro
+Será impossível qualquer reação melhor do que neutra.                                e correrá qualquer risco que você correr também.
+
+    Os Pedidos de Informação serão respondidos com mentiras maliciosas.              16 a 18: Muito Bom
+    Lealdade: O NPC antipatiza com você e abandonará o emprego (provavelmente
+levando consigo tudo o que puder carregar), ou o trairá na primeira oportunidade.        Reação Geral: O NPC tem os personagens em alta conta e será muito gentil e
+                                                                                     prestativo.
+4 a 6: Ruim
+                                                                                         Numa situação de combate iminente os NPCs serão amistosos. Os PCs poderão
+    Reação Geral: O NPC não se importa com os PCs e agirá contra eles se isto lhe    pedir ajuda ou informação (+3 num teste de reação). Mesmo inimigos jurados
+trouxer algum benefício.                                                             acharão uma desculpa para deixar os PCs em paz ... por enquanto. (Se houver uma
+                                                                                     luta em curso, os NPCs fugirão se forem capazes, ou se renderão.)
+    Numa situação de combate iminente, os NPCs atacarão, a não ser que estejam
+em número menor. Se estiverem em menor número, eles fugirão provavelmente                As Transações Comerciais serão muito boas. O comerciante aceitará sua oferta
+para tentar uma emboscada mais tarde (uma luta já em curso continuará).              a menos que ela seja menor do que 80% do valor de mercado ou comprará por 150%.
+                                                                                     Neste caso ele oferecerá este valor. Ele oferecerá também ajuda e conselhos.
+    As Transações Comerciais vão mal. O comerciante pede o dobro do preço de
+mercado ou oferece a metade.                                                             Os Pedidos de Ajuda serão atendidos, a menos que eles sejam completamente
+                                                                                     desarrazoados. O NPC oferecerá voluntariamente qualquer informação útil que ele
+    Os Pedidos de Ajuda serão negados. Os NPCs cuidarão de sua própria vida          tenha.
+ignorando os PCs.
+                                                                                         Os Pedidos de Informação serão bem sucedidos. O NPC responderá com
+    Os Pedidos de Informação serão negados. Os NPCs mentirão malevolamente           detalhes e se oferecerá para dar as informações relacionadas que ele tiver.
+ou pedirão uma recompensa pela informação. Se forem pagos darão uma informação
+correta, mas incompleta.                                                                 Lealdade: O NPC trabalhará muito e arriscará sua vida se for necessário. Na
+                                                                                     maioria das circunstâncias ele colocará seus interesses acima dos dele.
+    Lealdade: O NPC não terá respeito por você. Ele o abandonará ou trairá, mesmo
+que a tentação seja pequena, e será um funcionário preguiçoso.                       Maior ou igual a 19: Excelente
+
+7 a 9: Fraca                                                                             Reação Geral: O NPC ficará extremamente impressionado com os personagens
+                                                                                     e agirá sempre no melhor de seu interesse, dentro dos limites de sua própria
+    Reação Geral: O NPC não se deixará impressionar. Ele poderá se tornar hostil     capacidade. Comerciantes farão ofertas muito boas.
+se isto lhe der um lucro muito grande ou houver pouco perigo.
+                                                                                         Numa situação de combate iminente os NPCs serão extremamente amistosos
+    Em situações de combate iminente os NPCs desafiarão e insultarão os PCs,         e poderão até mesmo se juntar ao grupo temporariamente. Os PCs poderão pedir
+exigindo que eles saiam da região. Se os PCs permanecerem, os NPCs atacarão a        ajuda ou informação: bônus de +5 neste teste de reação (se a luta já tiver começado,
+menos que estejam em número menor, caso em que eles fugirão. (Se houver uma          os NPCs se renderão).
+luta em curso, ela continuará.)
+                                                                                         As Transações Comerciais serão muito boas. O comerciante aceitará sua
+    As Transações Comerciais serão improfícuas. O comerciante pede 120% do           proposta, a menos que você tenha oferecido menos do que 50% do valor de mercado
+preço de mercado ou oferece 75%.                                                     ou tentado vender a um preço maior do que 200%. Neste caso ele oferecerá estes
+                                                                                     valores. Ele também oferecerá ajuda e conselhos.
+    Os Pedidos de Ajuda serão negados mas subornos, apelos e ameaças poderão
+funcionar. Os PCs devem fazer um novo teste com um redutor igual a -2.                   Os Pedidos de Ajuda serão atendidos. Os NPCs ajudarão de todas as maneiras
+                                                                                     que puderem, inclusive oferecendo ajuda extra.
+    Os Pedidos de Informação serão improdutivos. O NPC alegará não saber ou
+dará informação incompleta. Um suborno poderá refrescar sua memória; faça um             Os Pedidos de Informação serão extremamente bem sucedidos. A pergunta
+novo teste se um suborno for oferecido.                                              será totalmente respondida. Se o NPC não souber tudo o que você precisa, ele se
+                                                                                     empenhará em descobrir. Ele poderá até se oferecer para ajudar; faça um teste de
+    Lealdade: O NPC não está muito impressionado com a sua pessoa e/ou tem           reação (pedido de ajuda) com um bônus de +2, sendo impossível um resultado pior
+antipatia pelo trabalho; ele acha que trabalha demais ou ganha de menos. Ele         do que “Fraca”.
+provavelmente o trairá se a oferta for boa e certamente trocará de emprego se achar
+que encontrou um “melhor”.                                                               Lealdade: O NPC adora você (ou sua causa) e trabalhará com uma disposi-
+                                                                                     ção incrível, colocando seus interesses acima dos dele em todas as ocasiões, sendo
+10 a 12: Neutra                                                                      capaz inclusive de morrer por você.
+
+    Reação Geral: O NPC ignora os personagens tanto quanto possível. Ele está
+totalmente desinteressado.
+
+- 205 -                                                                              Quadros e Tabelas
+

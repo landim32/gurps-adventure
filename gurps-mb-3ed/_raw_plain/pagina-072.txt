@@ -1,0 +1,216 @@
+Relacionando a Armadura na Planilha do Personagem
+A armadura, com seus respectivos custo e peso, deverá constar da lista “Armas e Objetos Pessoais” (na coluna central).
+A Defesa Passiva de sua armadura deverá ficar na linha “Armadura” do campo “Defesa Passiva (coluna esquerda - ao centro).
+A Resistência a Dano de sua armadura deverá ficar na linha “Armadura” do campo “Resistência a Dano” (na metade inferior da coluna esquerda).
+Armaduras Sobrepostas
+Normalmente, você só pode usar uma armadura por vez. Mas, existem exceções:
+Se você estiver usando uma cota de malha, deverá vestir um laudel por baixo. O custo deste “acolchoamento” já está incluído no preço de uma armadura de cota completa.
+Caso você use uma cota de malha sem o laudel, sua DP e sua RD serão iguais a 3 (mas a DP será igual a 0 e a RD igual a 1 contra o ataque de um objeto perfurante).
+Se você estiver usando uma armadura de placas, uma loriga de couro ou um colete de campanha, poderá usar um laudel ou uma coura por baixo. Isto adicionará peso, mas não aumentará sua DP (no entanto, sua RD aumentará em 1 ponto).
+O uso de cota de malha debaixo de uma armadura de placas aumentará sua RD em 2 pontos, mas o peso adicional será proibitivo para todos, exceto os personagens mais fortes.
+Numa campanha de alto nível tecnológico pode-se usar uma armadura de “Reflec” para proteger contra ataques com lasers. O “Reflec” é usado sobre todas as outras roupas e armaduras. Qualquer ataque deverá atavessar o “Reflec” antes de afetar a armadura que está por baixo.
+Em geral, a camada mais interna de qualquer conjunto de armaduras sobrepostas aumenta a Resistência a Dano, mas não a Defesa Passiva. O bom-senso do GM será a palavra final em questões relativas a armaduras sobrepostas.
+
+os policiais ainda desejarão seus coletes à prova de balas). Em alguns cenários de Ficção Científica as armaduras podem ser valiosas; em outros, os lasers podem cortar qualquer coisa, e a esquiva é a melhor defesa.
+Uma armadura protege de duas maneiras. Sua Defesa Passiva, ou DP (1 a 6), é levada em conta em sua jogada de defesa quando você a está usando. Sua Resistência a Dano, ou RD, protege-o quando você é atingido.
+
+Tipos de Armadura
+As seguintes informações serão fornecidas para cada tipo de roupa e armadura: Descrição Geral. O nome do item e como ele é usado. Defesa Passiva (DP). Armaduras lisas e duras (metal, plástico ou couro endurecido) têm grande chance de desviar um golpe. Podem até mesmo desviar uma flecha, descarga elétrica ou raio laser. Isto aumenta sua defesa passiva; sua jogada de defesa será melhor porque alguns golpes serão desviados. A DP de uma armadura varia normalmente de 1 a 6. Resistência a Dano (RD). Esta é a proteção que o item oferece em termos de pontos subtraídos de um golpe que atinja quem a usa. Ex.: Se você for atingido no peito enquanto estiver vestindo uma couraça com RD 6 e o atacante produzir 8 pontos de dano, apenas 2 o afetarão. Alguns tipos de armadura têm 2 RDs diferentes, dependendo do tipo de arma que a atinge. Alguns valores típicos de RD estão mostrados abaixo. Peso. É fornecido em quilos e deve ser adicionado à sua Carga. Custo. Traduza “$” para a moeda de seu mundo. Como no caso de outros custos, assume-se aqui uma venda normal, feita por um mercador comum numa área onde o item é normalmente encontrado quando ele não é nem mais comum, nem mais escasso que o normal.
+
+Armaduras
+No Sistema Básico de Combate você só pode comprar armaduras completas. (O Sistema Avançado de Combate lhe dá a opção de formar sua armadura a partir de suas partes componentes, usando a Tabela de Armaduras no capítulo Quadros e Tabelas.) Entre os tipos de armadura comuns encontramos:
+
+Tipo
+
+NT
+
+DP RD Custo Peso
+
+Roupa de verão
+
+qualquer 0
+
+0
+
+$ 20
+
+1
+
+Roupa de inverno
+
+qualquer 0
+
+1
+
+$ 60
+
+2.5
+
+Laudel
+
+1-4
+
+1
+
+1
+
+$ 180
+
+7
+
+Coura
+
+1-4
+
+1
+
+1
+
+$ 210
+
+5
+
+Loriga de couro
+
+1-4
+
+2
+
+2
+
+$ 350
+
+10
+
+Cota de malha
+
+3-4
+
+31
+
+42
+
+$ 550
+
+22.5
+
+Loriga de escamas
+
+2-4
+
+3
+
+4
+
+$ 750
+
+25
+
+Armadura mista placa/cota3
+
+2-4
+
+4
+
+5
+
+$2.000 35
+
+Armadura de placas 3
+
+3-4
+
+4
+
+6
+
+$4.000 45
+
+Armadura de placas reforçada3
+
+3-4
+
+4
+
+7
+
+$6.000 55
+
+Colete de campanha 4
+
+6
+
+2
+
+3
+
+$ 220
+
+8.5
+
+Kevlar(leve)4
+
+7
+
+21
+
+42
+
+$ 220
+
+2.5
+
+Kevlar(pesado)4
+
+7
+
+21
+
+122 $ 420
+
+4.5
+
+Colete à prova de balas
+
+7+
+
+4
+
+15 $ 270
+
+11
+
+Reflec5
+
+8-9
+
+6
+
+2
+
+$ 320
+
+2
+
+Blindagem individual
+
+8+
+
+6
+
+25 $1.520 16
+
+Armadura de combate reforçada
+
+9+
+
+6
+
+50 $2.520 36
+
+Equipamento e Carga
+
+1 DP 1 vs perfuração. 2 RD 2 vs perfuração. 3 todas as perícias de combate com redutor de -1, devido ao elmo; Visão e Audição com redutor de -3. 4 protege apenas o tronco. V.pág. 211. 5 protege apenas contra lasers; DP 3 RD 0 contra armas sônicas; nenhuma proteção contra outros tipos de armas.
+- 72 -
+
+

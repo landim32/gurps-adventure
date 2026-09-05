@@ -1,0 +1,35 @@
+2. Contratação
+Parece que todo mundo em Khedris está se candidatando a um emprego na caravana de Halmaro, mas é claro que nem todos serão aceitos. Halmaro deseja contratar gente competente e programou uma série de testes práticos para os candidatos, ao invés de se se fiar apenas em entrevistas verbais (os Khedrianos são famosos por sua lábia).
+Os PCs não têm nenhuma dificuldade em encontrar os recrutadores de Halmaro; eles estão usando faixas vermelho e branco na cintura e estão sempre cercados de candidatos esperançosos. Os recrutadores dão as mesmas instruções para todos os PCs: Todos devem comparecer à Praça das Caravanas no dia seguinte. Haverá um dia inteiro de provas antes de a caravana se pôr a caminho. Aqueles que se sobressaírem no teste receberão os melhores postos. Haverá comida e bebida à vontade.
+Os recrutadores não saberão muito mais do que isso. No entanto, se um PC conseguir um resultado muito bom num teste de reação com um recrutador, ele poderá vir a obter mais um pequeno fragmento de informação. Jogue um dado e veja o resultado para decidir qual a informação adicional que ele consegue:
+(1) A esposa número 1 de Halmaro também estará lá. Halmaro é um homem forte mas ela não fica atrás. E ela joga p’ra valer. Não se oponha a ela ou você terá um inimigo para a vida toda.
+(2) Halmaro acredita no valor de saber receber. Os recrutadores estarão á procura de gente que quer trabalhar e que se mostrem leais a Halmaro. A comida e a bebida serão grátis para os candidatos, mas todos aqueles que se excederem verão suas chances de contratação diminuídas.
+(3) Halmaro está a procura de bons combatentes e batedores. O grupo que ele pretendia usar está atrasado em uma missão em Ajir.
+(4) Quase todo mundo que é bom o suficiente deverá conseguir um lugar nesta caravana. Ela é tão grande que os indigentes e as pessoas em trânsito, que normalmente acampam na Praça das Caravanas, estão sendo desalojados. Uma coisa que ninguém se lembra de ter visto acontecer antes!
+(5) Todo mundo se refere a Halmaro como o “Ruivo” — mas não na cara dele. Se você fizer parte do Sindicato dos Mercadores, você o tratará por “Mestre”. Caso contrário, você o chamará “Senhor”.*
+(6) Halmaro é famoso por sua probidade. Se você fizer seu trabalho e não se meter em encrenca, ele cuidará de você. Se você se opuser a ele, será a última vez.*
+* Os membros do Sindicato dos Mercadores já terão conhecimento dos itens 5 e 6. Se um membro do Sindicato tirar um destes dois números em seu sorteio, jogue novamente.
+Os PCs ouvirão o barulho antes de chegar à Praça das Caravanas; na verdade eles já o ouvirão no meio do caminho. A Praça das Caravanas é normalmente um lugar calmo, onde de vez em quando há uma caravana em formação. Agora ela está formigando de gente e animais.
+Cada personagem deverá se decidir a que tipo de emprego ele, ou ela, deseja se candidatar. Há muitos ajudantes com faixas vermelho e branco, que serão capazes de encaminhar os candidatos aos lugares apropriados. Eles serão divididos em grupos: artistas de um lado (alguns deles atuarão na festa do casamento), boiadeiros do outro, vigias num terceiro canto e assim por diante. (Os jogadores podem se candidatar a mais de um cargo. Na verdade Halmaro preferiria que sim, pois quanto menos pessoas ele levar consigo, menores serão suas despesas.)
+O GM pode transformar os Testes em uma verdadeira aventura, ou simplesmente passar por eles com algumas jogadas de dados. Eles estão descritos na coluna lateral da pág. 235.
+Após o término dos testes os PCs serão aceitos na caravana. Eles ficarão sabendo qual será o salário (que dependerá da performance de cada um nos testes — veja a coluna lateral na pág. 235) e receberão ordens para se apresentarem no dia seguinte pela manhã. Eles serão também convidados para uma festa, já em andamento, em uma taverna chamada “As Barbas do Usurpador”, em um dos lados da Praça das Caravanas. Ela será gratuita para todos os que estiverem trabalhando para Halmaro nesta empreitada.
+
+Criação de Personagens
+Esta aventura foi projetada para 3 a 6 personagens de 100 pontos. A seguir existe uma lista de Perícias que poderiam ser úteis. As habilidades marcadas com um * (asterisco) serão muito úteis. Os jogadores podem perceber isto depois de ouvirem a introdução. Caso isto não aconteça, você poderá dar a eles algumas dicas.
+Perícias em Combate * Sobrevivência no Deserto * Cavalgar Cavalgar Camelos * Adestramento de Animais Perícias de Ladrões Comércio Trovador Diplomacia Lábia Detecção de Mentira
+Cavalgar e Cavalgar Camelos são perícias condicionadas uma à outra; portanto, o nível prédefinido de uma , é igual ao NH da outra submetido a um redutor de -3.
+Línguas A língua local é chamada Lantranês, e é o
+idioma oficial do império.Outros idiomas que poderiam ser úteis nesta jornada são o Nômico (relacionado com o Lantranês mais ou menos do mesmo modo que o Sueco está relacionado com o Norueguês), o Yat Ayunês (falado em um reino situado em uma ilha ao sul do país), o Shandassês (a língua de Mashanda, falada em Ein Arris) e o Ayunês simplificado falado pelos mercadores. Um personagem que fale o Lantranês de Khedris terá, por definição, um nível de compreensão do Nômico igual a Lantranês -3, e o do Jargão Ayunês usado pelos mercadores igual a Lantranês -5. Falar este Ayunês simplificado é uma Perícia Mental/Fácil; o domínio de todas as outras línguas é uma Perícia Mental/Média.
+Note que o nível do Jargão Ayunês não pode ser maior do que 6, pois não importa quão inteligente a pessoa seja, ela nunca será capaz de traduzir Shakespeare (ou seu equivalente Lantranês) para o Ayunês simplificado, ou fazer muito mais do que comerciar e farrear. Esta língua poderia ser escrita usando-se o alfabeto Ayunês, mas ninguém nunca se incomodaria com isto. Ela só tem utilidade como língua falada. Veja a coluna lateral na pág. 245.
+Patronos As seguintes Organizações podem ser úteis,
+como patronos para os personagens da região. O Sindicato dos Mercadores é uma organiza-
+ção poderosa em Khedris. Já por duas vezes, no passado, as greves declaradas pelo Sindicato provocaram a queda do imperador, e a ameaça de uma terceira quase provocou uma guerra civil.
+O sindicato tem escritórios em todas as cidades de Lantara, independentemente de seu tamanho, e mantém relações diplomáticas com organizações similares de outros países. Trate-a como uma organização poderosa que é forte o suficiente para dar ordens, mas que raramente aparece. Esta é uma vantagem que custa 10 pontos.
+Um membro do sindicato têm um bônus de +2 em qualquer teste de reação frente a Tsorvano ou Halmaro, caso isto venha a ser necessário.
+Continua na próxima página ...
+
+- 233 -
+
+Caravana para Ein Arris
+
+

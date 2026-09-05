@@ -1,0 +1,40 @@
+18
+
+ANIMAIS
+
+Dano Provocado por Mordidas
+A mordida de um animal carnívoro deve ser tratada como um ataque que provoca dano por corte, a menos que exista alguma especificação em contrário. Presas e garras são muito mais efetivas contra carne do que contra armaduras. A mordida de um animal herbívoro, como o cavalo deve ser tratada como um ataque contundente e normalmente provoca um dano mais ou menos igual à metade de sua Força (ST).
+A mordida de um animal, mesmo carnívoro, pode provocar zero pontos de dano. Um cachorrinho, por exemplo, não provocará uma injúria significativa toda vez que morder.
+Em geral, o dano provocado pela mordida de um animal depende de sua Força (ST). Mas, sempre existem exceções. Um tigre de dente de sabre (maquerodonte), por exemplo, provocaria um dano muito maior!
+
+Dano Provocado
+
+ST
+
+Pela Mordida
+
+1-2 3-5 6-8 9-11 12-15 16-20 21-25 26-30 31-35 36-40 41-45 46-50 51-55
+
+1D - 5 1D - 4 1D - 3 1D - 2 1D - 1 1D 1D + 1 1D + 2 2D - 1 2D 2D + 1 2D + 2 3D - 1 e assim por diante ....
+
+Cada livro de referência descrevendo um universo ficcional terá uma lista de animais, monstros, etc., próprios daquele ambiente. Existe também o GURPS Bestiary que contém a descrição completa de mais de 200 criaturas. Algumas das mais comuns serão descritas aqui.
+Todos os animais e monstros serão controlados pelo GM. Como estas criaturas não são PCs, elas não são construídas levando-se em conta o sistema de pontos e serão descritas em termos simples. Para cada animal serão fornecidas a seguintes informações:
+Descrição geral, incluindo tamanho, peso e hábitos. Valor para o caso de animais domésticos. Não será atribuído nenhum valor aos animais selvagens, apesar de isto poder acontecer em uma determinada campanha. Atributos. Quando forem fornecidos dois números para o atributo HT, o segundo será Pontos de Vida. Note que os GMs podem modificar o valor dos atributos de animais. Veja a coluna lateral nesta página. Velocidade básica. Este valor será sempre igual ao atributo Deslocamento da criatura, exceto nos casos de animais de carga ou montarias carregadas. O parâmetro Esquiva (única defesa ativa de um animal) é igual ao maior valor entre ½ DX ou ½ Deslocamento, até um máximo de 10. DP e RD, se houver, devido à pele ou couraça da criatura. Ataques, se houver chance da criatura se envolver em combates. Habilidades especiais e outras informações relevantes para o jogo.
+Perícias e Habilidades
+A maioria das criaturas que vivem na natureza possui sentidos aguçados. A jogada genérica para verificar se um animal percebe algo (visão, audição, olfato, etc...), deve ser feita contra o valor 14, independente de seu atributo IQ. Como mencionamos anteriormente, isto pode mudar para criaturas específicas.
+Alguns animais têm também perícias equivalentes às humanas. Considera-se, por exemplo, que um sabujo tem um NH igual a 18 em Rastreamento.
+Tamanho
+Criaturas pequenas ocupam menos do que um hexágono, onde é possível acomodar várias. Veja Ataques de Enxames na pág. 143.
+Se for necessário calcular (por exemplo) uma dose de veneno para uma criatura nãohumana, compare seu peso com a média humana de 70 kg. Seria necessário, por exemplo, duas vezes mais veneno para afetar um animal pesando 140 kg do que um ser humano.
+Combate
+Em geral, deve-se usar para animais as mesmas regras que usaríamos para seres humanos. Alguns casos especiais, como por exemplo ser atropelado por uma criatura pesada,estão comentados nos capítulos sobre combate, no início deste volume. Algumas observações:
+Ataques: Para atingir seu alvo, um animal deve ser bem sucedido em um teste de DX, submetido aos mesmos modificadores que seriam usados se o ataque estivesse sendo feito por um ser humano.
+Alcance: A maioria dos animais procura um combate de perto — usando as manobras Segurar e Encontrão, seguidos de uma tentativa de esmagar ou despedaçar o adversário. Devemos assumir que o Alcance da criatura é igual a C (Curto), a menos que sua descrição diga algo em contrário.
+Defesa: Animais não bloqueiam nem aparam golpes, mas podem se defender se esquivando. O valor do parâmetro Esquiva de uma criatura é igual ao maior valor entre a metade de seu parâmetro Deslocamento e a metade de sua DX, até um máximo de 10. (Alguns animais não são capazes de correr tão rapidamente como um ser humano, mas se esquivam muito melhor.)
+Armadura: Algumas criaturas têm DP e/ou RD devido ao fato de serem providos de couro, casco, etc...
+
+Animais
+
+- 140 -
+
+

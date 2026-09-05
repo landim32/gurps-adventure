@@ -1,0 +1,87 @@
+# Página 097
+
+> Nota de transcrição: conteúdo bruto extraído automaticamente do PDF (`pdftotext -layout`), preservado em bloco de código para manter o alinhamento original de colunas e tabelas. Será reformatado em Markdown estruturado na Fase 2 (organização).
+
+```
+aliados não podem tirar vantagem de sua finta; o redutor de defesa se aplica apenas para seu              Exemplo de Combate
+ataque).
+                                                                                                     Louis LeBlanc é o atacante. Sua arma é um
+   Se ambos forem bem sucedidos, mas você tiver conseguido o sucesso por uma margem               machete que é considerado como uma espada
+maior, a diferença entre as margens será subtraída da defesa de seu oponente. Exemplo: Seu        curta. Seu nível de habilidade com este tipo de
+nível de habilidade é 15 e você conseguiu um 10. Sua margem foi igual a 5. O nível de habilidade  espada é 15, e não há condições adversas a
+de seu oponente é 14 e ele conseguiu um 12. A margem dele foi igual a 2. A diferença, 3, será     serem subtraídas do resultado de sua jogada.
+subtraída de sua defesa em seu próximo turno.                                                     Logo, ele precisa tirar um número menor ou
+                                                                                                  igual a 15 para atingir seu adversário. Ele
+   Esta manobra pode ser um salva-vidas ou uma perda total de tempo. Use-a com sensatez.          brande a espada, joga os dados e tira 13, o que
+                                                                                                  significa que ele acertou.
+Aguardar
+                                                                                                     Seu oponente, Pierre, o Sujo, tem um Des-
+   Você não faz nada a menos que o oponente entre em seu raio de ação antes de seu próximo        locamento igual a 4 (o que lhe dá uma Esquiva
+turno. Se isto ocorrer, você poderá atacá-lo (um ataque normal, não total). Como no Sistema       igual a 4). Seu NH com o escudo é 14 (o que
+Básico o movimento é completamente abstrato, você terá pouca necessidade desta manobra.           significa que sua defesa Bloqueio com o escu-
+É possível usar qualquer defesa no turno em que se Aguarda.                                       do será igual a 7), e seu NH com Espadas
+                                                                                                  Curtas é igual a 13 (o que lhe garante um
+Defesa Total                                                                                      Aparar igual a 6). Seu Bloqueio é sua melhor
+                                                                                                  defesa, por isso ele vai usá-lo sempre que
+   Defender a si mesmo e não fazer mais nada durante aquele turno. Se você falhar em sua          puder.
+jogada de Defesa contra qualquer ataque, poderá tentar uma outra defesa (diferente). Em
+outras palavras, você tem duas jogadas de defesa, usando duas defesas ativas diferentes contra       O pequeno escudo de Pierre é também uma
+o mesmo ataque. Você está limitado a dois bloqueios e dois movimentos de Aparar por turno         boa defesa passiva valendo 2 (veja Tipos de
+quando escolhe a Defesa Total, e não pode aparar duas vezes com uma arma que precisa ser          Escudos na pág. 76).
+preparada depois de um movimento de Aparar.
+                                                                                                     Pierre está vestindo um Laudel, que confere
+Concentrar                                                                                        uma defesa passiva igual a 1 (veja Armadu-
+                                                                                                  ras, pág. 72).
+   Fazer uma mágica ou alguma outra coisa que exija concentração mental. Você pode usar
+qualquer defesa enquanto está se concentrando, mas uma defesa durante a concentração                 Portanto, as defesas de Pierre são 7+2+1=
+desviará a atenção, a menos que se consiga um sucesso em um teste de Vontade.                     10. Se ele bloquear e conseguir um resultado
+                                                                                                  menor ou igual a 10, ele será capaz de se
+Ação Demorada                                                                                     defender do golpe preciso que Louis acabou
+                                                                                                  de desferir. Ele joga e tira 11. Azar, ele foi
+   Esta não é uma manobra específica; ela é uma escolha “genérica”, que permite realizar um       atingido.
+segundo de uma operação que dura mais de um. O GM decide quantos segundos cada “ação
+demorada” levará; v. na pág. 107, uma tabela com algumas das ações demoradas mais comuns.            Apesar de os cálculos de um combate pare-
+Como regra, nenhuma defesa com exceção da esquiva é possível durante uma ação demorada,           cerem complexos à primeira vista, eles são
+mas o GM pode mudar isto conforme ele achar necessário. Qualquer tipo de defesa pode              simples de se jogar. O atacante faz um teste
+interferir com o que se está tentando fazer.                                                      contra sua perícia, mostrada na planilha. O
+                                                                                                  defensor soma suas defesas, também mostra-
+Ações Independentes                                                                               das em sua planilha, e faz uma jogada contra
+                                                                                                  o total. É isso!
+   Estas são coisas que se pode fazer durante qualquer manobra. Elas incluem falar, deixar
+cair armas ou outros objetos, manter mágicas (se você estiver usando magia), etc. Veja a pág.        Continuando nosso exemplo: Louis está
+107 para mais detalhes.                                                                           atacando Pierre. Seu golpe foi bom e Pierre
+                                                                                                  não conseguiu se defender, tendo sido atin-
+Fazendo um Ataque                                                                                 gido.
+
+   Cada ataque é resolvido com 3 lançamentos de dados. Primeiro sua Jogada de Ataque. Se             Agora Louis faz uma jogada de avaliação
+ela for bem sucedida, seu ataque foi bom. Agora seu oponente deve fazer uma Jogada de             de dano. O jogador de Louis já calculou quanto
+Defesa para ver se consegue se defender de seu golpe. Se ele for bem sucedido, não terá sido      dano ele provoca com uma espada curta e
+atingido. Se ele falhar em sua jogada de defesa, seu golpe o terá atingido e você faz uma         anotou este dado em sua planilha ... Sua força
+Avaliação de Dano.                                                                                é 11, o que significa que seu balanço provoca
+                                                                                                  1D+1 pontos de dano. Ele joga um dado e tira
+   Se você escolheu a manobra Ataque, Ataque Total ou Aguardar, você poderá tentar atingir        4. Somando 1 ponto, temos 5. Logo, Pierre foi
+o oponente. No Sistema Básico de Combate você não precisa se preocupar com a localização          atingido por 5 pontos de dano básico.
+exata de seu inimigo. Você pode atacar qualquer adversário, a menos que o GM decrete que
+aquele ataque é impossível por alguma razão.                                                         No entanto, Pierre está vestindo um Laudel
+                                                                                                  (RD igual a 1). Isto lhe dá 1 ponto de proteção,
+   Você não pode atacar se sua arma não estiver preparada. Uma espada ou faca está sempre         o que significa que apenas 4 pontos de dano
+preparada. Uma arma desbalanceada, como um machado, fica despreparada quando você a               ultrapassaram a armadura.
+usa, por isso ela só pode ser usada em turnos alternados. V. pág. 104.
+                                                                                                     Mas a espada é uma arma cortante. O dano
+Fazendo uma Jogada de Ataque                                                                      que ultrapassa a armadura deve ser aumenta-
+                                                                                                  do em 50%, para 6. Portanto, Pierre perdeu 6
+   Sua “Jogada de Ataque” é um Teste de Habilidade normal. Calcule seu nível de habilidade        pontos de vida. Este golpe poderia nocautear
+efetivo (seu nível de habilidade básico mais ou menos os modificadores apropriados) com a         um homem mais fraco. Triste, mas verdadeiro;
+                                                                                                  um bom golpe de espada é capaz de decidir
+                                                                                                  uma luta.
+
+                                                                                                     O jogador de Pierre subtrai 6 pontos de sua
+                                                                                                  HT. Por sorte, este valor não é mais do que a
+                                                                                                  metade de sua HT básica de 12. Pierre não está
+                                                                                                  atordoado e não tem que jogar para ver se foi
+                                                                                                  nocauteado. No entanto, se ele atacar na pró-
+                                                                                                  xima rodada, deverá subtrair 6 de seu nível de
+                                                                                                  habilidade. E a luta continua...
+
+- 97 -                                                                                            Sistema Básico de Combate
+```

@@ -1,0 +1,77 @@
+  Índice                                         Armadilhas, 197; perícia, 68.                        102; fintas, 105; sistema avançado de
+Remissivo                                        Armaduras, 71-73, 210-211; animais, 140;             combate, 105; sistema básico de combate,
+                                                                                                      113; vôo, 139.
+Acalmar Animais, Mágica, 155.                       antigas/medievais, 210; componentes, 112;      Ataques, 96-98; a armas, 110; a cavalo, 137; à
+Ações Demoradas, 97, 106-107.                       dano a, 211; encantamentos, 161; escolha,         distância, 100, 114-121, 201; alternativas
+Ações Independentes, 97, 107-108, 113.              110; limites à proteção/encantamentos, 150;       de, 73; animais, 140; apontando, 116;
+Acrobacia, 48; Esquiva Acrobática, 108, 48;         manobras, 103; modernas, 211; níveis              Apontar (manobra), 103; armas de projétil,
+                                                    tecnológicos, 186; planilha do personagem,        101; atropelar, 113, 142; cobertura &
+   queda, 131.                                      112; proteção p/ cabeça, 210-211; “reflec”,       ocultamento, 118; combate de perto, 111; de
+Administração, Perícia, 62.                         72; resistência a dano, 71, 72; resistência       cavalos, 137; de cima, 124; de mãos limpas,
+Adversário, 181, 198.                               passiva, 71, 72; sobrepostas, 72; tabela, 72;     111; defesa durante, 105; derrubar o
+Afogamento, v. Natação.                             ultra-modernas, 211; v. tb. Escudos.              oponente, 111-112; direção, 102; disparan-
+Agachar, 103; ação independente, 107.            Armas, 208-209; alcance, 102, 105; arma              do às cegas, 115; em balanço, 73;
+Agarrar a arma do oponente, 111.                    preparada, 104, 113; armas de longo               Encontrão, 112-113; escolha do ponto de
+Agronomia, Perícia, 59.                             alcance, 75, 100; 114-122; arremessadas,          impacto, 109; finta, 96, 105; golpes mentais,
+Aguardar, ações de tocaia, 119; estratégia,         100, 114; atacando armas, 110-111;                196; hexes ocupados, 105, 117; manobras,
+                                                    atirando às cegas, 115; atordoadores, 119;        95-97; objetos inanimados, 125;
+   106; manobra, 97, 106, 113; tiro de tocaia,      automáticas, 119-121; cadência de tiro,           perfurantes, 73; pontos deimpacto, 203,
+   118.                                             120; combate de perto, 112; contando os           211; relâmpago, 116; rodeando, 108;
+Albinismo, Desvantagem, 27.                         tiros, 119; coquetéis Molotov, 121; coro-         telecinéticos, 172; tipos, 73-75; tiro de
+Alcance, 102; armas, 102; ataque através de         nhas (remoção), 120; custo de vida, 191;          tocaia, 118; total, 96, 105, 113; veículos,
+   hex, 105; curto, 102; montado, 135-136.          dano total, 75; de mão, 206-207; derruba-         135, 137, 138; voadora, 113; vôo, 139.
+Alcoolismo, 30.                                     das, 113; área de efeito, 121; encantamen-     Ataques Perfurantes, 74.
+Alfabetização, 17, 18, 21, 55; dislexia, 33.        tos, 160-161; espingardas, 119; explosões,     Ataques Relâmpago, 116.
+Aliados, 23-24.                                     121-122; fogo, 121, 130; fontes de energia,    Atear Fogo, Mágica, 158.
+Alquimia, Perícia, 59.                              119; gases venenosos, 132; jogando uma         Atordoamento, 99, 127; Fúria, 31; recuperação
+Altura, 15; Gigantismo, 18; Nanismo, 28;            arma longe, 111; lençol, 119; longas, 102;        rápida, 22.
+   tabelas, 15.                                     mangual, 95; montadas, 135-136; mudança        Atratividade, Vantagem, 15.
+Ambidestria, Vantagem, 19; v. tb. Destreza          de empunhadura, 104; níveis tecnológicos,      Atributos, 13; aumento, 14, 42; básicos, 11;
+   Manual.                                          186; óleo, 121; presas, 96; qualidade, 74;        crianças, 14; escala de variação, 13;
+Analfabetismo, Desvantagem, 33.                     quebradas, 113; rajadas, 120; Rapidez de          escolha aleatória, 84; melhoria, 81; v. tb.
+Analisar Mágica, Mágica, 163.                       Recarga, 52; recarga, 96, 104; recuo, 120;        Destreza, Vitalidade, Inteligência e Força.
+Ângulo de Visão, 22, 115; Visão Periférica, 22;     remoção da coronha, 120-121; Tabela de         Atropelamento, 142.
+   v. tb. Visão.                                    Dano Básico das Armas, 74; tabelas de          Atuação, Perícia, 64.
+Animais, 140-145; Adestramento de Animais,          armas de longo alcance, 207-209; tabelas       Audição, 92; Duro de Ouvido (desvantagem),
+   46; ataques de enxames, 140-141;                 de armas, 206-209; tabelas, 208-209; tipos        28; efeito da armadura, 71, 72; Ouvido
+   boleadeiras, 49; carga & movimentação,           de dano, 72-73; tiro-a-tiro, 199; transporte,     Aguçado (vantagem), 99.
+   135, 139, 145; combate; 101, 140, 142;           101; veículos, 135-138; v. Erros/Falhas        Aura, Mágica, 163.
+   dano/mordida, 140; Empatia com Animais,          Críticos, Sucesso Decisivo, Ataques, Dano,     Auto-psicoteleporte, Perícia, 175.
+   (vantagem), 19; Esquiva, (manobra), 98;          Jogadas de Dados.                              Avareza, Desvantagem, 34.
+   exemplos de, 141-145; falcões no ninho, 46;   Armas Arremessadas, 114; lençol, 119; perícia,    Aversões, 36; v. tb. Peculiaridades.
+   gambás, 237; lobos do deserto, 236;              52.                                            Azar, Desvantagem, 37.
+   mágicas sobre, 155; montar em, 135;           Armas Improvisadas, 101.                          Balanço, ataques em, 74; dano, 73.
+   treinados, 135, 143; vôo, 139.                Armas Presas, 96.                                 Balas, 74, 110, 209.
+Antecedentes Incomuns, Vantagem, 23.             Armas Quebradas, 113.                             Bastão, encantamento, 161; perícia, 52.
+Anti-psi, 176.                                   Armas de Feixes, Perícia, 49.                     Bens, em outros lugares, 80; v. Equipamento,
+Antropologia, Perícia, 59.                       Armas de Fogo, atordoadores, 119; automáti-          Riqueza.
+Apanhar algo do chão, manobra, 104.                 cas, 119-121; efeito área, 121; escolha da     Besta, 114; engatilhar, 104; força, 104, 114;
+Aparar, 99, 108; armas preparadas, 104, 113;        armadura, 71-72; espingardas, 119; fontes         pé-de-cabra, 114; perícia, 50; preparar,
+   bastão, 52; briga, 50; Caratê, 51, 114;          de energia, 119; perícia, 51; rajadas, 120-       104, 113.
+   chicote, 52; combate de perto, 114; de mãos      121; recuo, 120-121; Tabela de Erros           Bioquímica, Perícia, 60.
+   limpas, 50, 51, 101, 114; defesa total, 106;     Críticos, 202; tabelas, 208-209; tiro-a-tiro,  “Blackjack”, Perícia, 53.
+   escudos, 75; Esgrima, 50, 99, 110; mangual,      119.                                           Bloqueio, 98-99, 108; defesa total, 106;
+   50; vôo, 139.                                 Armas de Haste, perícia, 51; quebradas, 113.         escudo, 104; vôo, 139.
+Aparência, 15; escolha aleatória, 84; magreza,   Armas de Longo Alcance, 75, 100; a cavalo,        Boemia, Perícia, 63.
+   29; melhoria, 81.                                137; alcance máximo, 115; ataques, 201;        Boleadeira, Perícia, 49.
+Aparência Física, 11, 15; aleatória, 84; tabela     dados, 115; modificadores de vôo, 139;         Bom-Senso, Vantagem, 20.
+   de altura/peso, 15.                              Tabela-Tamanho e Velocidade/Distância,         Bônus em Pontos de Personagem, 184.
+Apoiar, 116.                                        201; veículos, 136-138.                        Botânica, Perícia, 60.
+Apontando, 116; grupos sucessivos, 121;          Armas de Pólvora Negra, Perícia, 49.              Bravura, Mágica, 164.
+   montado, 137; veículos, 136-138; vôo, 139;    Armeiro, Perícia, 53.                             Briga, combate de perto, 114; perícia, 50.
+   v. tb. Modificadores.                         Arqueologia, Perícia, 59.                         Broquel, 50; v. tb. Escudo.
+Apontar, manobra, combate de perto, 113; piso    Arquitetura, Perícia, 59.                         Buscas, 66.
+   ruim, 107; sistema avançado de combate,       Arrastar objetos, 89.                             Caça, 57.
+   106; sistema básico de combate, 95-96;        Arremesso, 90, 114; armas, 100; lençol, 119;      Calculos Instantâneos, Vantagem, 21.
+   veículos, 138; vôo, 139.                         perícia, 49; tabela de distância de, 90;       Caligrafia, Perícia, 47.
+Arco, perícia, 50; Sacar Rápido, 115; v. Armas      telecinético, 173.                             Calor, mágica, 158; psíquismo, 173; tempera-
+   de Projétil, Combate à Distância.             Arrombamento, ferramentas, 213; perícia, 67.         tura, 130, 188.
+Arma Preparada, 104-105; armas de haste, 104;    Artilharia, perícia, 50; veículos, 137.           Caminhar na Água, Mágica, 159.
+   derrubada, 113.                               Artista, Perícia, 47.                             Caminhar no Ar, Mágica, 157.
+                                                 Asfixia, 112.                                     Camuflagem, Perícia, 65.
+Índice Remissivo                                 Astronavegação, Perícia, 59.                      Canto, Perícia, 48.
+                                                 Astronomia, Perícia, 60.                          Captação, Perícia, 67.
+                                                 Ataque Total, combate de perto, 113; direção,
+
+                                                              - 252 -
+

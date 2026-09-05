@@ -1,0 +1,211 @@
+Mágicas Elementais
+Existem quatro escolas diferentes de magia Elemental: Terra, Ar, Fogo e Água.
+
+Mágicas de Terra
+Estas mágicas estão relacionadas com o elemento Terra. Elas são tipicamente muito poderosas, mas também muito fatigantes. A Terra é o mais duro e obstinado dos elementos. Em todas estas mágicas, considera-se que um hexágono de terra, onde isto fizer alguma diferença, tenha 2 m de profundidade. Nenhuma destas mágicas afetará rocha ou metal, a menos que a descrição o diga explicitamente.
+
+Localizar Terra
+
+Informação
+
+Esta é a mágica básica de Terra. Ela diz ao operador a direção e distância
+
+aproximada da quantidade significativa de terra, rocha ou metal mais próxima. Use
+
+os modificadores para longas distâncias (pág. 151). Qualquer fonte conhecida
+
+daquele material poderá ser excluída se o operador mencioná-la especificamente
+
+antes de começar.
+
+Custo: 3.
+
+Tempo de Operação: 10 segundos.
+
+Objeto: um bastão aforquilhado com 30g do material desejado (metal/terra/
+
+rocha) preso na extremidade; cada bastão encontrará somente aquele tipo de terra.
+
+Custo em energia para criar 50 e dinheiro para comprar 30g do material procurado.
+
+Moldar Terra
+
+Comum
+
+Permite ao operador mover terra de um lugar para outro e dar-lhe qualquer
+
+forma. Se a forma for estável (ex.: uma colina), ela subsistirá. Uma forma instável
+
+(ex.: uma coluna ou parede), durará apenas enquanto a mágica durar (nenhuma
+
+concentração especial é exigida) e depois desmoronará.
+
+A terra movida através desta mágica viaja apenas 2 hexágonos por turno. Ela não
+
+provocará danos a não ser que se amontoe sobre alguém imóvel e o enterre. Se a terra
+
+for movida para o hexágono onde há alguém (ou para fora do hexágono onde há
+
+alguém, para criar um buraco), aquela pessoa poderá se movimentar normalmente
+
+em seu próximo turno, para escapar. Somente se não o fizer, ele será enterrado.
+
+Qualquer pessoa que venha a ser enterrada por esta mágica pode tentar cavar
+
+uma saída através da terra fofa. Será permitido um teste de ST com um redutor igual
+
+a -4 em cada rodada. O GM pode dificultar esta jogada se o personagem estiver
+
+enterrado sob mais de um hexágono de terra. Veja Prender a Respiração, pág. 91.
+
+Duração: 1 minuto.
+
+Custo: 2 por hexágono de terra moldado, 1 por hexágono para manter.
+
+Pré-requisito: Localizar Terra.
+
+Objeto: Cajado, vara de condão, jóias ou ferramenta de escavação. Custo em
+
+energia: 200.
+
+Terra para Pedra
+
+Comum
+
+Transforma um objeto de terra ou argila em rocha dura (mas não pedra preciosa).
+
+Duração: Permanente.
+
+Custo: 3 para um objeto até 10 kg; 5 para objetos maiores, até 1 hexágono, mais
+
+5 para cada hexágono adicional.
+
+Pré-requisitos: Aptidão Mágica, Moldar Terra.
+
+Objeto: Cajado, vara de condão ou jóias. Custo em energia para criar: 300.
+
+Pedra para Terra
+
+Comum
+
+Transforma qualquer tipo de pedra (incluindo pedras preciosas) em terra. Deve
+
+ser usada numa pedra ou bloco inteiros, nunca em uma parte. Duração: Permanente. Custo: Dobro de Terra para Pedra. Pré-requisito: Terra para Pedra ou qualquer outra mágica de Terra. Objeto: Cajado, vara de condão ou jóias. Custo para criar: 400.
+
+Criar Terra
+
+Comum
+
+Permite ao operador criar terra sólida e boa onde antes não havia nada. Esta terra
+
+deve ser criada em contato com a Terra (não flutuando no ar ou boiando no oceano).
+
+Duração: Permanente.
+
+Custo: 4 por hexágono para criar terra do nada (para encher um poço, por ex.),
+
+ou 2 para solidificar lama transformando-a em terra.
+
+Pré-requisito: Terra para Pedra.
+
+Objeto: Cajado ou vara de condão. Custo em energia para criar: 500.
+
+Projétil de Pedra
+
+Projétil
+
+Permite ao operador criar uma bola de pedra e arremessá-la com sua mão.
+
+Quando a bola atinge o alvo, provoca dano por contusão e desaparece. Esta mágica
+
+tem TR 13, Prec +2, ½D 40 Max 80.
+
+Custo: De 1 a 3; o projétil provoca 1D+1 de dano por ponto de energia.
+
+Pré-requisito: Criar Terra.
+
+Objeto: Cajado, Vara de Condão (o projétil é disparado da extremidade do
+
+objeto). Pode ser usado apenas por magos. Custo em energia para criar: 400.
+
+Terra em Ar
+
+Comum
+
+Esta mágica transforma terra ou pedra em ar; pode ser bastante útil para alguém preso debaixo da terra. Ela é também considerada uma mágica de Ar.
+Duração: Permanente. Custo: 1 para transformar 0,03 metros cúbicos de terra/pedra em ar, fornecendo
+
+ar suficiente para uma pessoa respirar durante 1 minuto (isto é equivalente a cerca
+de 1 1/3 hexágonos com 2 m de profundidade por hora). Para transformar grandes quantidades de terra ou pedra de uma vez, o custo é 8 por hexágono.
+
+Tempo: 2 segundos. Pré-requisito: Criar Ar (pág. 157), Moldar Terra.
+
+Objeto: Cajado, vara de condão, jóias. Utilizável apenas por magos. A pedra a ser transformada precisa ser tocada pelo objeto. Custo em energia 750 e $1.000 em
+
+jóias.
+
+Geo-Visão
+
+Comum
+
+Esta mágica permite ao alvo ver através da terra (para encontrar cavernas, jazidas
+
+de minério, tesouros enterrados, vítimas enterradas, etc). Terra e pedras intatas (até
+
+50 m de profundidade) são transparentes para o alvo, não importa para onde ele olhe.
+
+O Metal não é transparente; pedras cortadas, tijolos, etc. também não são transpa-
+
+rentes. Portanto, esta mágica não lhe permitirá olhar através dos muros de um
+
+castelo.
+
+Duração: 30 segundos.
+
+Custo: 2 para cada 10 metros de profundidade a atingir; o mesmo para manter.
+
+Pré-requisito: Moldar Terra.
+
+Objeto: Qualquer um. Custo para criar: 400.
+
+Mágicas com Elementais
+
+A descrição a seguir, para mágicas com os espíritos Elementais de Terra, é, válida
+
+também para as mágicas correspondentes com os espíritos elementais de Ar, Fogo
+
+e Água. Veja na pág. 154 uma descrição da natureza e poderes dos quatro tipos de
+
+elementais.
+
+Convocar um Elemental de Terra
+
+Especial
+
+Esta é uma mágica diferente para cada um dos quatro elementos. Ela permite ao
+
+operador chamar um elemental próximo (se existir um). Elementais de Ar e Água
+
+podem viajar vários quilômetros dentro de seu elemento, para atender a uma
+
+convocação, mas elementais de Terra se deslocarão apenas 1,5 km e elementais do
+
+Fogo viajarão apenas 100 m a partir de um lugar ígneo. Em geral, o GM deverá
+
+assumir que o elemental está disponível se o local for apropriado, a menos que o
+
+cenário ou a situação requeiram que os elementais estejam oportunamente ausentes.
+
+O GM é quem determina os atributos do elemental (jogando 2 dados para cada
+
+atributo, se o enredo da história não exigir algum tipo específico de elemental). Uma
+
+convocação muito bem sucedida poderá chamar vários elementais (no caso de um sucesso decisivo, o número de elementais chamado será 1D+1 e seus atributos ST e HT serão definidos por 3D).
+O elemental convocado não estará sob o controle do operador, mas deverá permanecer por uma hora, a menos que ele seja dispensado (ou destrua o operador). Note que uma liberação não garante que o elemental irá embora; ele poderá preferir ficar, se for hostil ou simplesmente curioso.
+O operador pode fazer perguntas ao elemental convocado, pedir ajuda, etc... Um teste de reação será feito para ver como o(s) elemental(is) se sente(m) com relação ao mago. As reações dos elementais do Fogo estão sempre submetidas a um redutor igual a -2. No caso de uma reação boa, o elemental cooperará durante uma hora (não mais), e depois desaparecerá. (Lembre-se, quando convocar um elemental, que é possível negociar com ele se você for inteligente o suficiente para saber o que um elemental poderia desejar.)
+
+Magia
+
+- 156 -
+
+

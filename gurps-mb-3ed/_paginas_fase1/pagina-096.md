@@ -1,0 +1,98 @@
+# Página 096
+
+> Nota de transcrição: conteúdo bruto extraído automaticamente do PDF (`pdftotext -layout`), preservado em bloco de código para manter o alinhamento original de colunas e tabelas. Será reformatado em Markdown estruturado na Fase 2 (organização).
+
+```
+         Tempo de Recarga                            Recarregar
+
+   Funda: 2 segundos para recarregar — pode             Use a manobra “Preparar” para recarregar uma arma de projétil. Isto exigirá vários turnos.
+ser usada a cada 3 segundos.                         Com uma funda, por exemplo, você precisa de um segundo para “preparar” a pedra e outro
+                                                     segundo para colocá-la na funda. Se você não apontar, poderá atirar no terceiro segundo.
+   Arco: 2 segundos para recarregar — pode ser       Bestas exigem muito mais tempo. Primeiro você precisa engatilhar o arco. Isto leva 2 segundos
+disparado a cada 3 segundos.                         para um arco que precise de uma força igual a seu atributo ST, ou mais para um arco mais
+                                                     pesado. Aí você precisa preparar a flecha (um turno) e carregar o arco (um turno).
+   Besta (Menor ou igual a seu atributo ST): 4
+segundos para recarregar — pode ser disparada           O tempo necessário para recarregar uma arma de projétil é mostrado abaixo. Note que a
+a cada 5 segundos. Se a ST for até 2 pontos maior    perícia Sacar Rápido (pág. 50) pode acelerar o processo para um arqueiro (sacar as flechas)
+do que seu atributo Força: 8 segundos para           ou pistoleiro (apanhar o pente ou remuniciador rápido). Veja a coluna lateral para mais
+engatilhar e recarregar — pode ser disparada a       informações.
+cada 9 segundos.
+                                                     Apontar
+   Armas de fogo: As armas de repetição estão
+divididas em 3 grupos: Armas de pente removível,        Significa apontar uma arma de longo alcance já preparada para um alvo específico . Seu
+de carregador alimentável e revólveres.              ataque estará submetido a um redutor de -4 se você estiver usando uma arma de longo alcance
+                                                     sem apontar, a menos que seu nível de habilidade efetivo seja no mínimo igual ao parâmetro
+   Armas de carregador alimentável exigem 3          de Tiro Rápido da arma. Se você usar um turno para apontar, seu ataque será feito conforme
+segundos de preparação, mais um segundo por          seu nível de habilidade normal, mais o modificador de Precisão da arma (pág. 115). Pode-se
+tiro.                                                usar até mais 3 turnos para apontar, cada um deles dando um bônus igual a +1.
+
+   A troca de pentes em uma arma de pente               Pode-se usar qualquer defesa enquanto se está apontando, mas ao fazê-lo estragará sua mira
+removível (ou introdução de um pente numa arma       e você perderá todas as vantagens acumuladas. Você deverá conseguir um sucesso em um teste
+tipo mauser) leva 3 segundos (um para preparar       de Vontade se for ferido enquanto aponta, ou isto lhe estragará a mira.
+arma, um para apanhar o pente e o último para
+inseri-lo).                                          Ataque
+
+   Revólveres: Para os modelos com vareta de            Significa atacar qualquer oponente com sua arma preparada. O GM tem sempre a opção
+extração, é necessário 1 segundo para preparar a     de decretar (por alguma razão pertinente à situação) que determinados personagens não podem
+arma e mais 1 segundo para retirar cada uma das      atacar certos inimigos. Exemplo: Dez personagens não poderiam golpear ao mesmo tempo um
+cápsulas vazias. Para recarregar, gasta-se 1 segun-  oponente do tamanho de um homem. (Seria inverosímil mesmo três ou quatro atacantes, a
+do no preparo da arma e mais 2 segundos para a       menos que a vítima não tivesse aliados). Note também que se a batalha for de perto, só se deverá
+introdução de cada uma das balas, mais 1 segundo     permitir um único disparo com cada arco, ou arma de projétil similar, após o que a luta passará
+para preparar a arma. Os modelos com extrator em     para armas de mão. Você pode aparar (com uma arma preparada), bloquear (com um escudo
+forma de estrela precisam de 3 segundos para a       preparado) ou se esquivar no mesmo turno em que ataca.
+preparação, mais 1 segundo para a introdução de
+cada uma das balas.                                  Ataque Total
+
+   Veja também a perícia Rapidez de Recarga             Significa atacar qualquer oponente com mãos, pés ou uma arma de mão preparada. Existem
+(pág. 52).                                           quatro possibildades:
+
+   “Minha Arma está Presa!” —                           (a) Fazer dois ataques contra o mesmo oponente, se você tiver duas armas preparadas, ou
+     O Problema das Picaretas                        uma arma que não precisa ser preparada depois de ser usada.
+
+   Armas de balanço, que produzem dano por              (b) Fazer uma Finta (v. a seguir) e depois um ataque.
+perfuração (picaretas e semelhantes), provocam          (c) Fazer um único ataque, com um bônus igual a +4 para seu nível de habilidade.
+um estrago bastante grande. O inconveniente é           (d) Fazer um único ataque, com nível de habilidade normal, produzindo 2 pontos a mais de
+que elas podem ficar cravadas no inimigo.            dano se conseguir atingir o oponente.
+                                                        Se você escolher esta manobra, não poderá fazer nenhuma defesa ativa até seu próximo
+   Toda vez que uma arma destas penetra na           turno.
+armadura do adversário, ela pode ficar presa. Faça
+um teste de ST, em seu próximo turno. Um sucesso     Finta
+significa que sua arma não está presa e você pode
+prepará-la novamente no próximo turno.                  “Simular” um ataque com uma arma de mão. Você não pode fintar alguém a menos que
+                                                     pudesse tê-lo atingido com um ataque ou ataque total.
+   Uma falha significa que ela está presa. Você
+não pode usá-la nem prepará-la. Você pode fazer         Faça uma Disputa de Habilidades (v. pág 87) quando fizer uma finta: sua perícia com a
+uma nova jogada no início de cada turno para tentar  arma contra a perícia de seu oponente com o escudo ou arma. (Se ele não tiver escudo ou arma
+soltá-la, mas não pode fazer mais nada até ser bem   de mão, ou seu atributo DX for maior do que sua perícia com o escudo ou a arma, ele jogará
+sucedido. Uma falha crítica (17 ou 18) significa     contra sua DX.) Uma finta não deixa nenhuma arma despreparada.
+que não há como soltar a arma agora. Você pode
+largá-la e tentar recuperá-la depois do combate, se     Se você falhar em sua jogada, sua finta terá falhado. Do mesmo modo, se você obtiver um
+sobreviver.                                          sucesso, mas seu oponente tiver sido bem sucedido por uma margem maior ou igual à sua, a
+                                                     finta terá falhado.
+   Quando uma picareta é solta, ela provoca um
+dano adicional igual à metade do dano original. Por     Se você for bem sucedido e seu oponente falhar, a margem pela qual obteve seu sucesso
+exemplo: Se o dano final provocado pelo ferimento    será subtraída da defesa ativa de seu oponente se você o atacar em seu próximo turno. Exemplo:
+original foi de 4 ou 5 pontos, ela provocará mais 2  Se seu nível de habilidade for 15 e seu resultado na jogada foi 12, sua finta foi um sucesso e
+quando for liberada.                                 a defesa de seu oponente estará submetida a um redutor igual a -3 em seu próximo turno. (Seus
+
+   Se você não conseguir soltar sua picareta du-                        - 96 -
+rante o combate, suas tentativas não provocarão
+um dano extra no inimigo (para fins de jogo).
+Depois do combate, você será capaz de recuperar
+a picareta se seu oponente estiver caído no campo
+de batalha.
+
+   Se sua arma ficar presa em um inimigo e ele
+tentar se afastar, faça uma Disputa Rápida de ST.
+Se ele vencer, terá arrancado a arma de sua mão. Se
+você vencer, seu oponente não poderá se mover.
+No caso de empate, a arma terá se soltado e
+provocado o dano explicado anteriormente.
+
+   Entre as armas que apresentam este inconveni-
+ente encontram-se a picareta, os martelos de com-
+bate e as alabardas (quando brandidas para
+empalar).
+
+Sistema Básico de Combate
+```

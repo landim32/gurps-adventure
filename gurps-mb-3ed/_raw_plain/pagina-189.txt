@@ -1,0 +1,33 @@
+Violar um costume gerará apenas um redutor (provavelmente grande) em seus testes de reação, sempre que você tentar tratar com uma pessoa do lugar. E as pessoas ofendidas podem nem lhe dizer o que você está fazendo errado.
+Poderes Legais e Cadeia
+Se você infringir a lei, será dever de alguma pessoa do lugar fazer alguma coisa com relação a isso. Isto pode ser qualquer coisa variando entre um pedido educado para retificar sua atitude até detenção e cadeia enquanto aguarda julgamento. Em alguns lugares, a polícia é também o juiz, júri e executor, com poderes para chegar a uma sentença instantaneamente e agir segundo ela.
+Do mesmo modo, as cadeias variam entre o “sistema de honra” até os calabouços com correntes. Muitos mundos têm tipos bastante distintos de prisão, dependendo do tipo de crime cometido, do acusador, do status social do prisioneiro e de subornos no momento oportuno.
+Julgamentos
+Um julgamento pode ser completamente justo e honesto ou apenas uma farsa com resultado pré-determinado. Ele pode ser rigorosamente formal, ou barulhento e informal.
+Um mecanismo de jogo simples para um julgamento: O GM representa o juiz e o júri. Num processo criminal, ele faz um teste de reação, com os modificadores apropriados, e decide a culpa ou a inocência baseado na reação geral com respeito aos personagens. Se a reação tiver sido ruim e os personagens forem culpados, a severidade da pena será ditada por quão ruim tiver sido o resultado da jogada.
+Numa ação judicial por danos, o juiz faz um teste de reação para cada litigante. Aquele que conseguir a melhor reação será o vencedor. Quanto maior a diferença entre o resultado das jogadas, maior a quantia (ou outra reparação) recebida pelo vencedor.
+Juízo de Deus (Ordálio)
+Este é um julgamento onde o Destino deverá tomar a decisão. Exemplo: Alguém acusado de feitiçaria é atirado em um lago. Qualquer um que flutue é um feiticeiro que será retirado e queimado vivo. Se ele afundar, certamente era inocente.
+Num ordálio, o GM deve determinar quais os testes de habilidade necessários para a sobrevivência. (No exemplo acima, seria difícil sobreviver.) Alguns outros exemplos: Atravessar um desfiladeiro sobre uma trave (faça um teste de DX com um redutor de -4 para cada 3 metros de trave); segurar um pedaço de ferro quente (faça um teste de ST e Vontade ambos com redutor igual a -3); achar a saída de um labirinto (testes de IQ).
+Julgamento por Combate Um Julgamento por Combate é como um ordálio, no qual o Destino deverá determinar a
+culpa ou inocência. Como regra, um Julgamento por Combate se encarrega também da punição. O litigante culpado morre.
+Um Julgamento por Combate pode ser justo (campeões equilibrados), ou faccioso (campeões desequilibrados), ou totalmente injusto (joga-se o prisioneiro em um poço onde há um monstro).
+Economia
+A situação econômica é diferente em cada cenário. No entanto o dinheiro, de uma forma ou de outra, é importante em quase todas as campanhas.
+O dinheiro é qualquer coisa que possa ser trocada por aquilo que você deseja. Ele varia de cenário para cenário. Num mundo de nível tecnológico alto, tudo pode ser feito com cartões de crédito. Num mundo de nível tecnológico baixo, o ouro e a prata podem ser soberanos.
+Todos os preços no GURPS (não importa o cenário) são indicados por um caractere cifrão ($), para facilitar a vida dos que escrevem e fazem a composição do texto. Os GMs têm liberdade para traduzir estes valores para créditos, moedas de cobre, foomphra marciano ou o que eles acharem mais indicado para a aventura.
+Num mundo de nível tecnológico baixo, anéis e jóias também são dinheiro. Eles podem não ter um valor impresso em si, mas são pequenos e portáteis e facilmente trocáveis por moedas ou trocáveis diretamente pelos bens de que se necessita. Na realidade, muitas sociedades vivem de trocas, o que pode vir a ser um teste para a engenhosidade dos jogadores.
+
+O Comportamento do Viajante
+Um viajante inteligente evitará chamar muita atenção. Viajantes sempre chamarão a atenção, se mostrarem um nível tecnológico superior ao que os habitantes do local estão familiarizados (veja Níveis Tecnológicos, pág. 185). Eles atrairão uma atenção indesejável se infringirem as leis ou costumes locais. (v. abaixo.) Em geral, qualquer comportamento turbulento ou violação da ordem pública deveria ter conseqüências interessantes.
+Os viajantes devem também se lembrar que a cortesia para com os dignitários locais é sempre prudente, e estranhos encontrados por acaso podem ser mais do que parecem...
+Castigo aos Criminosos
+O rigor do castigo dependerá do crime praticado, da vítima, do acusado e do resultado do teste de reação do juiz. As penas podem ser um bom recurso de enredo para uma aventura. Alguns tipos de castigo:
+Injúria Física: ex.: açoite, apedrejamento, sova.
+Mutilação, temporária ou permanente. Marcar a ferro (induz um redutor em testes de reação quando os outros vêem a marca). Condenação à cadeia, algumas vezes a trabalhos forçados. Multas e/ou restituição. Escravidão, ao governo ou à vítima do crime. Humilhação pública: ex.: Tronco (induz um redutor em testes de reação das pessoas que testemunharam o castigo). Exílio, temporário ou permanente. Perda dos direitos (ex.: perda da cidadania, perda do direito de carregar armas, redução do status social formal). Imposição de uma tarefa ou jornada específica, possivelmente através de meios mágicos. Imposição de alguma mágica inconveniente. Combate na arena (quanto pior o crime pior o adversário). Tortura (não muito útil em termos de jogo). Imposição de uma ligação psíquica ou mágica para impedir a repetição da ofensa. Execução (novamente, não muito útil em termos de jogo, exceto como um desafio à força do grupo para entrar em ação imediatamente e resgatar o prisioneiro) Se um personagem se comportar de uma maneira que mereça verdadeiramente um castigo, o GM não deveria se sentir obrigado a deixá-lo escapar à punição, mesmo que ela seja grave.
+
+- 189 -
+
+Cenários
+
+

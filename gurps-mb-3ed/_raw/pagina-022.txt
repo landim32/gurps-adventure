@@ -1,0 +1,128 @@
+Vantagens                                                                       Em muitos lugares, o Posto Militar traz associado consigo algum
+                                                                            Status Social que não precisa ser pago separadamente e não tem
+    Portanto, esta vantagem o protege de uma mágica feita diretamente       nenhum custo em dinheiro para ser mantido. O “NH pré-definido” aqui
+contra você. Ela não o defende contra (a) mágicas de projétil; (b) ataques  é 1 nível de Status para cada 3 níveis na Hierarquia Militar, arredondan-
+com armas mágicas; (c) mágicas realizadas com o intuito de colher           do para o número mais próximo. Nos lugares onde esta relação for
+informaçães, que não são realizadas diretamente sobre você (como uma        diferente, ela será mencionada nos livros de referência.
+profecia ou uma bola de cristal).
+                                                                                Os Postos Militares são quase sempre acompanhados de uma carga
+    O Abascanto não tem efeito sobre ataques psíquicos.                     significativa de Dever (v. pág. 39).
+
+Talento para Matemática                                  10 pontos
+
+Esta vantagem garante um bônus de +3 em qualquer teste de
+
+habilidade com perícias matemáticas ou ligadas à computação ( exceto        Talento Musical                      1 ponto/nível
+
+Operação de Computadores) e um bônus de +2 nas relativas à Engenha-         Você tem um talendo natural para música e instrumentos musicais.
+
+ria em NT6+.                                                                Seu nível de habilidade musical deve ser adicionado a seu atributo IQ
+
+                                                                            quando você está estudando Canto ou algum instrumento musical, isto
+
+Hierarquia Militar                 5 pontos/nível hierárquico               é, quando estiver estudando uma perícia musical, você a aprenderá como
+
+Da mesma maneira que o Status (pág. 16) reflete sua posição na              se sua IQ fosse igual a (IQ + Talento Musical). Custo: 1 ponto para cada
+
+sociedade, o Posto Militar (também chamado “graduação”) reflete sua         ponto de bônus.
+
+posição numa organização militar ou paramilitar. Todos os postos têm
+
+autoridade sobre os inferiores, independente da capacidade pessoal.         Visão Noturna (Ciópitica)            10 pontos
+
+Custo: 5 pontos por nível, até o máximo de 8 níveis.                        Seus olhos se adaptam rapidamente à escuridão. Você não é capaz de
+
+O título dos postos varia de organização para organização. Exemplos         enxergar numa escuridão total, mas se houver alguma luz, você será
+
+típicos:                                                                    capaz de enxergar muito bem. Sempre que o GM exigir uma penalidade
+
+Nível 8: Comando de Unidade ou mais (General de Exército, Gene-             devido à escuridão, exceto no caso de escuridão total, esta penalidade
+
+ral de Divisão ou Almirante)                                                não se aplicará a você.
+
+Nível 7: Comando de Divisão (Brigadeiro ou General de Brigada)
+
+Nível 6: Comando de Brigada/Grupo/Regimento (Coronel ou Capi-               Visão Periférica                     15 pontos
+
+tão de um encouraçado ou porta-aviães)                                      O personagem tem um campo de visão extraordinariamente amplo.
+
+Nível 5: Comando de Batalhão (Tenente-Coronel)                              Sempre que alguma coisa perigosa ou interessante acontecer “às suas
+
+Nível 4: Comando de Companhia (Capitão ou Major)                            costas”, o GM fará um teste de IQ. Um sucesso significará que ele viu
+
+Nível 3: Comando de Pelotão (Tenente ou Subtenente)                         tudo o que aconteceu, ou o suficiente para alertá-lo do perigo no caso de
+
+Nível 2: Oficial subalterno associado ao comando de um pelotão,             um ataque.
+
+companhia ou batalhão (Primeiro Sargento ou Sargento- Ajudante)             Se o jogo estiver sendo realizado com um mapa, o personagem será
+
+Nível 1: Oficial subalterno associado ao comando de um pelotão              capaz de atacar tanto os hexágonos à direita e à esquerda, como os que
+
+(Sargento ou Segundo-Sargento)                                              estão à sua frente. (Lembre-se de que um ataque à esquerda com uma
+
+Nível 0: Militar sem patente (Praça, Piloto-Aviador ou Marinhei-            arma empunhada com uma só mão é desajeitado e por isso considerado
+
+ro).                                                                        um “golpe molinete” - v. pág. 105).
+
+Em bons exércitos profissionais, os Oficiais Superiores (nível 5 ou 6)      Se for atacado pela direita ou pela esquerda, ele será capaz de se
+
+têm que ter um NH em Liderança maior ou igual a 12. Oficiais-Generais       defender sem sofrer nenhuma penalidade. Sua defesa ativa estará
+
+(nível maior ou igual a 7) devem ter Liderança no mínimo igual a 13. Este   submetida a um redutor igual a -2 para ataques pelas costas. Ninguém
+
+pré-requisito pode ser satisfeito pelo seu NH pré-definido, que é ST-5.     é capaz de atacar um oponente que está exatamente atrás de si (sem
+
+A incompetência nos níveis mais altos não é tolerada de nenhuma forma.      aplicar um “golpe molinete”).
+
+(Mas os oficiais incompetentes são comuns em forças menos profissio-        Além disso, ele terá um ângulo de visão maior para ataques à
+
+nais ou dominadas politicamente.)                                           distância. A figura abaixo mostra o ângulo de visão para um personagem
+
+Recomenda-se, com veemência, que o GM não permita que nenhum                normal (o branco) e para alguém com visão periférica (o cinza mais o
+
+PC seja criado com um nível maior do que 5 na Hierarquia Militar, já que    branco).
+
+postos altos são concedidos normalmente apenas para líderes de capaci-
+
+dade comprovada.
+
+Um posto militar, ao contrário do Status Social, não é mantido com
+
+dinheiro. No entanto, a insubordinação, covardia muito grande ou
+
+estupidez podem provocar a perda temporária ou permanente de um
+
+posto militar, dependendo da reação do superior (representado pelo
+
+GM).
+
+As Patentes são conferidas por oficiais superiores (normalmente de
+
+nível maior ou igual a 6) para aumentar temporariamente seu nível
+
+hierárquico por um período de tempo pré-determinado (até o fim de uma
+
+batalha, campanha ou algo semelhante). Para manter o posto, o perso-
+
+nagem deve satisfazer as exigências daquele posto e pagar os pontos de      Resistência Pisíquica                2 pontos/nível
+
+personagem (v. pág. 81).                                                    A Resistência Pisíquica interfere com todos os usos de poderes
+
+Em alguns exércitos, os postos militares podem ser comprados com            pisíquicos feitos contra você, ou seja, sejam eles amistosos ou hostis,
+
+dinheiro. Num caso destes, o PC que for Rico, Muito Rico ou Podre de        contra ou a favor do objetivo. Ela nunca pode ser desligada.
+
+Rico receberá o nível 3 automaticamente, se desejar. Níveis ainda mais      Se você tiver essa vantagem, o nível de sua resistência será subtraído
+
+altos custam pontos de personagem além do dinheiro. Um nível de             do NH efetivo de qualquer tentativa pisíquica em que você é o objetivo
+
+Riqueza menor ou igual a Médio exige o dobro de pontos para começar         (até mesmo Psiconese e Clarividência). Ela também é subtraída do seu
+
+com um Posto Militar entre 1 e 6. Depois que o personagem foi criado,       NH em qualquer poder psíquico. Por isso, se você tiver uma Resistência
+
+o posto militar poderá ser conseguido com o número normal de pontos,        Pisíquica alta, ser-lhe-á difícil desenvolver quaisquer habilidades signi-
+
+se a quantia de dinheiro necessária estiver disponível.                     ficativas suas.
+
+Vantagens                                                        - 22 -
+

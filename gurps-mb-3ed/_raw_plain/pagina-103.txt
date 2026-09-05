@@ -1,0 +1,39 @@
+movimento, você poderá ficar de frente para qualquer direção, a menos que tenha feito um ataque total. Se tiver usado mais da metade de seu parâmetro Deslocamento, você poderá mudar sua direção em apenas um lado de hexágono (veja o diagrama).
+É possível também mudar a direção antes de começar a manobra Deslocamento ou durante o movimento (mas isto custa pontos de movimento). Uma mudança de direção custa 1 ponto para cada lado de hexágono (logo, virar 180 graus custa 3 pontos).
+Manobras
+As dez manobras introduzidas no Sistema Básico de Combate são ainda usadas. No entanto, cada manobra tem agora um componente de movimento adicionado. Alguns dos nomes foram mudados para refletir este acréscimo.
+Quando chega sua vez de agir, você pode escolher qualquer manobra da lista a seguir. Se a manobra tiver duas ou mais partes (i.e., movimento e ataque), elas poderão ser feitas em qualquer ordem a menos que a manobra especifique o contrário.
+Sempre que o movimento for parte de uma manobra, você poderá decidir se mover uma distância menor do que a especificada, mas nunca maior. É possível também ficar parado e/ou mudar de direção. Quando uma manobra determinar movimento “para frente”, cada deslocamento poderá levá-lo somente para 1 dos 3 hexágonos frontais.
+Mudança de Posição
+Esta manobra é usada para mudar de uma posição para outra, incluindo em pé, sentado, ajoelhado, deitado de bruços e deitado de costas.
+Você não pode se deslocar num turno em que usou esta manobra. Note que se sua mudança de posição for de ajoelhado para em pé ou vice-versa, você poderá realizá-la como parte de qualquer manobra do tipo “Avançar e ...” que veremos mais à frente.
+Se você estiver deitado, ocupará 2 hexágonos. É impossível passar diretamente para a posição em pé. É necessário ajoelhar-se primeiro (em qualquer um dos hexágonos) e depois se levantar. Isto exige dois turnos.
+Você pode se deslocar em praticamente qualquer posição, mas apenas em pé será possível correr a toda velocidade. As restrições ao movimento nas outras posições estão relacionadas a seguir.
+Agachar não exige uma manobra Mudança de Posição. Se estiver na posição em pé, você pode escolher se agachar no início de cada turno, sem usar uma manobra para isso. Se você não se deslocar, poderá se agachar no fim do movimento. No entanto, é impossível se deslocar e se agachar no fim do movimento para evitar um golpe (não em um segundo!). Se você estiver agachado, poderá ficar em pé a qualquer momento sem precisar de uma manobra para isso.
+Pode-se usar qualquer defesa no turno em que se mudou de posição, apesar de que algumas posições imporão um redutor à sua defesa. Cada posição apresenta vantagens e desvantagens para fazer um ataque, defesa ou movimento, conforme o resumo apresentado na tabela Posições (pág. 203).
+
+O Movimento para a Frente e a Direção
+Esta regra governa a direção quando você se desloca para a frente. Ela é importante apenas nas manobras Deslocamento, Aguardar e Ataque Total. As outras manobras não restringem a direção quando você se desloca.
+Um deslocamento para a frente é um movimento para um de seus hexágonos frontais. É necessário virar-se na direção do hexágono enquanto entra nele. (V. a ilustração). Se você se deslocar em linha reta, sua direção não mudará; caso contrário, ela mudará de um lado de hexágono (v. a ilustração).
+Isto significa que é possível mudar de direção durante um deslocamento “para a frente”. Com três deslocamentos “para a frente” é possível descrever um semi-círculo e terminar de frente para a direção oposta (v. abaixo).
+Se você não quiser se deslocar para a frente, é possível se deslocar para trás (A) e de lado (B), mantendo a mesma direção. O deslocamento para trás ou de lado não é permitido em um ataque total. Numa manobra Deslocamento cada hexágono custa o dobro, ou seja, 2 pontos de movimento em terreno bom.
+Pode-se também dar um passo lateral para um hexágono frontal (C), mantendo a direção. Isto é permitido em um ataque total, do mesmo modo que uma manobra Deslocamento normal. Ela também conta em dobro.
+
+Apontar
+Esta é a manobra usada para apontar uma arma de arremesso ou projétil. Sua arma deve estar preparada para poder ser disparada.
+Você deve escolher um alvo específico para apontar e pode mudar de direção antes de mirar, mas pode se deslocar apenas 2 metros ou 1/2 de seu parâmetro Deslocamento, o que for menor.
+Seu ataque terá um redutor de -4 se usar uma arma de longo alcance sem apontar, a menos que seu NH efetivo seja no mínimo igual ao número de TR. Se você apontar durante um turno, seu ataque será feito com seu NH básico mais o modificador de Precisão da arma (pág. 115), embora seu ataque não possa receber um bônus de precisão maior do que seu nível de habilidade.
+É possível apontar durante até mais 3 turnos, recebendo um bônus igual a +1 para cada turno mirando, até um máximo de +3. Veja a pág. 115 para maiores detalhes sobre mira.
+Pode-se usar qualquer defesa enquanto se aponta, mas isto estragará sua pontaria e você perderá todos os bônus acumulados. Se for ferido enquanto aponta, você deverá conseguir um sucesso em um teste de Vontade para não perder a mira.
+Se estiver deitado de bruços, ou sentado perto ou atrás de uma parede, ou em alguma outra posição apropriada para apoiar uma arma de projétil, você receberá um bônus extra igual a +1 se você mirar. Você não recebe este bônus no caso de Tiro Rápido ou se estiver se deslocando.
+
+Mudança de Posição
+com Armadura:
+Uma Regra Opcional
+Se você quiser ser mais realista, poderá permitir que seu nível de Carga afete o tempo necessário para uma manobra de mudança de posição. Com um nível de carga igual a 0 ou 1 ainda será necessário 1 segundo para mudar de posição. Com um nível igual a 2 (médio) serão necessários 2 segundos para mudar de posição, e assim por diante. Enquanto você estiver no meio de uma mudança de posição, será considerado como se estivesse na posição anterior. Não há nenhuma dúvida de que esta regra diminui o ritmo do jogo, mas significa também que cair enquanto se está vestindo uma armadura pesada pode ser fatal.
+
+- 103 -
+
+Sistema Avançado de Combate
+
+

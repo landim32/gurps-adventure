@@ -1,0 +1,43 @@
+Vocabulário de Magia
+Abortar: Interromper o processo de fazer mágica antes de seu término.
+Aptidão Mágica: É a vantagem de se estar “sintonizado” com as forças da magia.; v. pág. 21.
+Cancelar: Descontinuar uma mágica feita por você mesmo, antes que seus efeitos cessem normalmente.
+Choque de Retorno: Uma falha crítica durante a execução de uma operação mágica. O mesmo que “Fiasco”.
+Energia: O “custo” para se fazer uma mágica. O custo em energia pode ser pago tanto em pontos de ST (fadiga) quanto de HT (vida). A energia (de qualquer um dos dois tipos) será recobrada da forma usual.
+Grimoire: Um livro de mágicas. Mais especificamente, uma lista das mágicas conhecidas por um personagem e seus respectivos custos.
+Mágica Básica: Uma mágica que não tem nenhuma outra como pré-requisito.
+Mágica de Projétil: Uma mágica que é primeiro feita e depois “arremessada” contra o objetivo. Exige dois testes: um teste de habilidade para fazer a mágica e um teste de Arremesso (ou DX-3) para ver se atinge o alvo.
+Mágica Dominada: Uma mágica tão bem conhecida (Nível de Habilidade tão alto) pelo personagem que ele não tem necessidade de se concentrar para realizá-la.
+Mágico: Qualquer usuário de magia, seja ele um mago ou não.
+Mago: Qualquer pessoa que tenha a vantagem Aptidão Mágica.
+Mana: A energia que impulsiona a magia. Áreas (ou mundos) diferentes têm níveis de intensidade de mana diferentes (v. a coluna lateral na pág. 147).
+Manter: Sustentar os efeitos de uma mágica por um intervalo de tempo maior do que sua duração normal.
+Nível de Habilidade Básico: É o nível de habilidade em uma operação mágica que um personagem pode conseguir gastando 1 ponto (para uma mágica do tipo Mental/Difícil), ou 2 pontos (para uma operação do tipo Mental/MD).
+Nível de Habilidade Efetivo: Seu nível de habilidade real, acrescido dos modificadores (bônus ou redutores) devido à distância, circunstâncias etc... Os testes de habilidade são feitos levando em conta o NH efetivo.
+Objetivo: A pessoa, coisa ou lugar sobre a qual a mágica será feita.
+Operador: A pessoa que faz a mágica. Pré-requisito: Uma condição que deve ser satisfeita para se aprender uma mágica. Resistível: Qualquer mágica contra a qual o objetivo pode oferecer resistência.
+
+Nível de habilidade entre 18 e 20: O feiticeiro precisa dizer uma palavra ou duas, ou fazer um pequeno gesto, mas não necessariamente os dois. A partir do nível 20, o custo em energia da mágica é reduzido em 2 pontos.
+Nível de habilidade entre 21 e 24: Nenhum ritual é necessário. O feiticeiro parece olhar fixamente para o vazio enquanto se concentra. O tempo necessário se reduz à metade (arredondado para cima). Uma mágica que levaria um segundo agora pode ser feita sem concentração, até mesmo quando se realiza uma outra manobra (lutando, falando, etc.). Não se pode fazer duas mágicas simultaneamente.
+Nível de habilidade maior do que 25: Mesmo que acima, só que agora o tempo está reduzido a 1/4 (arredondado para cima). A partir do nível 25 o custo em energia fica reduzido em 3 pontos. A cada acréscimo de 5 pontos no NH o tempo necessário para executar a mágica fica novamente dividido ao meio e o custo em energia será reduzido em 1 ponto.
+Algumas mágicas exigem sempre um ritual ou objeto. Isto estará indicado nas listas de mágicas e esta especificação se sobreporá às regras gerais.
+Distração e Ferimentos
+Se o operador for ferido, nocauteado, forçado a usar alguma defesa ativa ou distraído de alguma outra maneira durante o período de concentração, ele deverá ser bem sucedido num teste de Vontade com um redutor igual a -3 para conseguir manter a operação. Uma falha nesta jogada significa que ele deve começar novamente. Se ele for ferido enquanto estiver se concentrando, seu nível de habilidade efetivo para aquela mágica ficará reduzido em um número de pontos igual ao número de pontos de vida perdidos.
+Custo em Energia para a Realização de Mágicas
+Cada mágica tem seu custo em energia. Quando um personagem faz uma mágica, ele gasta energia (ST ou HT). Quanto melhor ele conhecer uma determinada mágica, menos energia será despendida para realizála. Se o personagem conhecer a mágica bem o suficiente, ele será capaz de fazê-la sem gastar nenhuma energia. A intensidade de mana da área (v. coluna lateral na pág. 147) afeta o nível de habilidade efetivo do feiticeiro. A intensidade baixa de mana também impede o uso da mágica Recuperação de Força (pág. 162), reduzindo a freqüência com que qualquer outra mágica pode ser realizada.
+Se seu nível de habilidade básico em uma mágica (modificado pelo nível de intensidade de mana) for maior ou igual a 15, o custo em energia para aquela mágica será reduzido em um ponto. Se o nível de habilidade for maior ou igual a 20, o dispêndio de energia será reduzido em 2 pontos e assim por diante. A energia continua sendo canalizada para a mágica, mas sua habilidade lhe permite supri-la a partir do mana ambiente, ao invés de usar a sua própria. Portanto, com um nível de habilidade igual a 20, numa área de nível de intensidade de mana normal seria possível fazer uma mágica para produzir uma bola de fogo de 2D (que exige 2 pontos de energia) sem despender nenhuma energia. Para produzir uma bola de fogo de 3D, você precisaria gastar 1 ponto de sua própria energia.
+O total de energia a ser dispêndido em uma mágica é calculado antes de qualquer subtração devido a um nível alto de habilidade. Um mago capaz de criar pequenas bolas de fogo repetidamente, sem nenhum dispêndio de energia, poderia ficar exausto ao criar uma única em uma área de mais de um hexágono. Um nível de habilidade elevado também diminui o dispêndio de energia para manter uma mágica (veja abaixo).
+Normalmente, a energia gasta para executar uma mágica é considerada "Fadiga" (v. pág. 134). A "fadiga" pode ser recuperada com descanso. Um mago que conheça a mágica "Recuperação de Força" (v. pág. 162) poderá recuperar a ST mais rápido do que o usual. Um operador pode retirar energia de sua força vital ao invés de sua Força. Neste caso, ele retira todos os pontos de energia gastos de sua HT ao invés de ST. Em outras palavras, a mágica está provocando um dano real ao operador. Isto é perigoso, mas pode vir a ser necessário se o operador estiver muito fatigado e tiver necessidade de realizar mais uma mágica. A HT perdida desta maneira deve ser tratada como outro ferimento qualquer.
+O nível de habilidade de um mago fica reduzido em um ponto para cada ponto de HT usados para fazer mágicas.
+Um mago é capaz de "queimar" HT até cair inconsciente. Quando um teste de HT falhar, indicando a morte do mago, a Vitalidade destinada àquela mágica não terá sido realmente gasta e ele desmaiará ao invés de morrer, interrompendo desta maneira a drenagem de energia.
+Duração dos Efeitos de uma Mágica e sua Manutenção
+O efeito de algumas mágicas é instantâneo e não pode ser mantido. Outras duram algum tempo (veja a Lista de Mágicas) e depois se desfazem, a menos que sejam mantidas.
+Se uma mágica puder ser mantida ativa, ela continuará por um período de tempo igual à sua duração original. Uma mágica poderá ser mantida sempre que o operador o desejar, desde que ele continue despendendo a energia necessária. Ninguém consegue manter uma mágica enquanto dorme; o operador é o único capaz de manter sua mágica ativa. Não há necessidade de um novo teste de habilidade.
+No entanto, será necessário gastar mais energia. Se uma mágica puder ser mantida, seu custo em energia estará indicado na Lista de Mágicas. Exemplo: Luz tem um minuto de duração e sua manutenção custa 1 por minuto. Portanto, os efeitos da mágica desaparecem depois de 1 minuto, a menos que no fim daquele minuto o mágico gaste mais um ponto de energia para mantê-la. Se um operador estiver consciente, ele saberá quando uma de suas mágicas precisa ser renovada. A distância não é um fator importante na manutenção do efeito de uma mágica.
+Concentração: A maioria das mágicas pode ser mantida sem "concentração" do operador mas, qualquer mágica que requeira mudança ou manipulação constante (ex.: controle de um ser vivo) exigirá naturalmente uma concentração constante do operador. Isto obriga o operador a fazer somente a manobra de "Concentra-
+
+Magia
+
+- 148 -
+
+

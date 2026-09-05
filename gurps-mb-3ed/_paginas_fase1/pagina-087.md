@@ -1,0 +1,88 @@
+# Página 087
+
+> Nota de transcrição: conteúdo bruto extraído automaticamente do PDF (`pdftotext -layout`), preservado em bloco de código para manter o alinhamento original de colunas e tabelas. Será reformatado em Markdown estruturado na Fase 2 (organização).
+
+```
+tenha treino.                                                                                        Situações em que o Mestre
+   Existem vários casos onde uma perícia pode ter mais de um valor pré-definido. Você pode                    joga os dados
+
+usar qualquer um deles (e deve escolher o melhor). Escalada, por exemplo, tem dois níveis pré-      A maioria dos testes de habilidade deve ser
+definidos: ST-5 e DX-5. Em outras palavras, se você nunca recebeu treinamento como               feita pelos próprios jogadores. No entanto, exis-
+escalador, tanto sua Força quanto sua Destreza poderão ajudá-lo. Você deverá usar o melhor       tem dois tipos importantes de situação, nos
+dos dois. Se tiver o atributo Força igual a 16 e DX igual a 8, use sua Força para a escalada.    quais o GM deve fazer a jogada e não deixar que
+16 menos 5 é igual a 11, o que lhe dá uma chance razoável numa jogada com 3 dados.               o jogador veja o resultado.
+
+   Um teste contra um nível “pré-definido” é feito exatamente da mesma maneira que um teste         O primeiro tipo é qualquer situação na qual
+normal de habilidade. Você encontrará todos os níveis pré-definidos possíveis na Lista de        o personagem não deveria saber se ele foi bem
+Perícias. Escolha o que for melhor para o seu personagem, some ou subtraia os modificadores      sucedido ou não — especialmente quando ele
+que porventura existam na situação em particular e jogue 3 dados. Boa Sorte!                     está tentando conseguir alguma informação.
+                                                                                                 Este tipo de situação ocorre, por exemplo, com
+   Lembre-se, no entanto, que algumas Perícias não têm nível pré-definido. Se você não tiver     jogadas envolvendo Detecção de Mentiras, Me-
+sido treinado especificamente naquela perícia, nunca poderá tentar usá-la. Não importa quão      teorologia e outras perícias científicas, e a van-
+inteligente ou ágil você seja, não será capaz de colocar sua voz corretamente, construir uma     tagem da Empatia.
+bomba atômica ou falar egípcio antigo, se não receber o treinamento adequado.
+                                                                                                    Quando o jogador diz que deseja usar uma
+   Note, também, que mesmo que seu personagem tenha um atributo básico sobre-humano,             destas perícias, o GM deve fazer a jogada em
+seu valor será considerado igual a 20, sempre que se tratar da determinação do nível de uma      segredo. Se o resultado for um sucesso, o Mestre
+perícia condicionada. Exemplo: Punho de Ferro tem o atributo DX igual a 25. Seu nível pré-       dá ao jogador a informação correta. Mas se o
+definido para Natação (DX-4) será 16, e não 21.                                                  resultado for uma falha, o GM deverá escolher
+                                                                                                 o que parecer mais apropriado entre mentir ou
+Sucesso Automático                                                                               não dar nenhuma informação. Quanto pior a
+                                                                                                 falha, maior a mentira.
+   Algumas situações são completamente triviais. Nenhuma jogada é exigida quando o bom
+senso nos diz que tanto uma falha crítica como um sucesso decisivo são impossíveis. No              O segundo tipo é qualquer situação onde o
+entanto, se houver alguma chance de falha, um teste deve ser feito. Achar a loja da esquina não  jogador simplesmente não deve saber o que está
+exige um teste. Acertar um alvo à queima-roupa, mesmo para um guerreiro experiente, exige,       acontecendo. Neste tipo de situação está inclu-
+visto que sua arma poderia se quebrar ou ele poderia escorregar numa casca de banana.            ída a maior parte dos testes que envolvam os
+                                                                                                 Sentidos, Noção do Perigo e coisas similares.
+Disputa de Habilidades                                                                           Suponha que o grupo está viajando por uma
+                                                                                                 trilha dentro da selva e existe um jaguar escon-
+   De vez em quando aparecerá uma situação onde dois personagens precisam comparar suas          dido adiante. O GM não deveria dizer — “Há
+habilidades, para decidir uma batalha ou competição. Aquele que tem o maior nível de             um jaguar um pouco adiante. Faça um teste para
+habilidade nem sempre vence, mas é nele que se deve apostar. Como Mestre, você descobrirá        decidir se vocês o verão ou não”. Nem tampouco
+que uma Disputa de Habilidades é, freqüentemente, uma maneira rápida de decidir uma              o seguinte: — “Façam todos um teste de Visão.
+situação competitiva sem ter que simulá-la em detalhes. Defina as regras de cada disputa da      Algum de vocês tem Noção do Perigo?” Qual-
+maneira que você achar mais conveniente e deixe os personagens jogarem.                          quer uma destas abordagens fornece mais infor-
+                                                                                                 mações do que deveria.
+   Sempre que uma Disputa de Habilidades for necessária, cada um dos personagens fará um
+teste das habilidades em questão. Todos os modificadores pertinentes serão aplicados.               Ao invés disso, o GM deveria consultar as
+                                                                                                 informações sobre os personagens existentes
+   Existem dois tipos de disputa. Uma Disputa Rápida normalmente se decide em um turno.          em suas anotações, fazer a jogada e, no caso de
+Exemplos: duas pessoas lutando para se apossar de uma arma; dois atiradores de faca              alguém ser bem sucedido, dizer: — “Harry!
+disputando para ver quem consegue atingir a mosca. Cada personagem faz seu teste de              Você viu um jaguar em cima de uma árvore 20
+habilidade. Se um for bem sucedido e o outro falhar, o vencedor será óbvio. Se os dois forem     metros adiante!” Se ninguém for bem-sucedido,
+bem sucedidos (ou falharem), o vencedor será aquele que foi bem sucedido pela maior margem,      o grupo será pego de surpresa.
+ou falhou pela menor. Um empate significa que ninguém venceu (os dois agarraram a arma
+simultaneamente, ou as facas atingiram o alvo à mesma distância da mosca).                              Exemplos de Situações
+                                                                                                           adequadas a uma
+   Uma Disputa Normal pode durar vários turnos. Exemplos: braço de ferro, corrida a pé.
+Cada um dos personagens faz seu teste habilidade. Se um for bem sucedido e o outro falhar,             Disputa de Habilidades
+o vencedor será óbvio. Se ambos forem bem sucedidos ou falharem, a posição relativa dos dois
+personagens não terá mudado e eles poderão tentar novamente.                                        O combate de perto (pág. 111) abrange uma
+                                                                                                 série de situações que exigem uma disputa de
+   O tempo de jogo gasto em cada tentativa depende do tipo de atividade, e sua duração será      força e/ou destreza. Uma Disputa de Habilida-
+determinada pelo GM. Em um combate, cada tentativa toma um segundo. Numa disputa onde            des será adequada sempre que dois personagens
+os personagens devem fazer uma pesquisa em uma biblioteca, com o destino do mundo                (especialmente dois PCs) estiverem lutando entre
+dependendo de quem encontrará primeiro uma determinada nota obscura, cada tentativa              si. Geralmente (mas nem sempre), os dois per-
+poderia representar dias de pesquisa.                                                            sonagens farão testes da mesma perícia. Alguns
+                                                                                                 exemplos:
+   Se os dois personagens tiverem um nível de habilidade muito alto, a disputa poderia
+continuar indefinidamente. Ela pode ser encurtada do seguinte modo: Se os níveis dos dois           Braço de Ferro: ST.
+forem maiores do que 14, reduza o maior para 14 e subtraia a mesma diferença do menor.              Debate ou discussão particular: IQ vs IQ ou
+Exemplo: para uma disputa entre 19 vs. 16, subtraia 5 de cada um, de modo a ter 14 vs. 11.       Lábia, Diplomacia, etc...
+                                                                                                    Jogo de dados: Jogo.
+   Desta maneira, um dos personagens acabará sendo bem sucedido em um lance, enquanto               Batalhas Mentais: Telepatia.
+o outro falhará. Neste caso, aquele que tiver sido bem sucedido será o vencedor.                    Debate público: Trovador, modificada por
+                                                                                                 todos os bônus normais de reação (da audiência
+                                                                                                 e não do oponente).
+                                                                                                    Sedução: Sex-Appeal.
+                                                                                                    Concursos de Maratona de dança: ST vs. ST.
+                                                                                                    Eleição: Política, modificada por todos os
+                                                                                                 bônus normais de reação.
+                                                                                                    Regatear: Comércio.
+                                                                                                    Beber: Boemia; redutor de -2 se o persona-
+                                                                                                 gem não estiver habituado com o tipo da bebida
+                                                                                                 que está sendo entornada.
+
+- 87 -                                                                                           Testes de Habilidade
+```

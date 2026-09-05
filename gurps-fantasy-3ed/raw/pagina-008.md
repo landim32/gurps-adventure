@@ -1,0 +1,151 @@
+# Página 8
+
+## Índice
+
+**INTRODUÇÃO** — 4
+- Suporte e Apoio ao Sistema — 4
+- Sobre os Autores — 5
+
+**1. HISTÓRIA** — 6
+- O Cataclismo — 6
+- A Disseminação da Humanidade — 7
+- A Ascenção de Mégalos — 7
+- Cronologia — 7-9
+
+**2. CULTURA** — 10
+- Tecnologia e Magia — 11
+- A Sociedade Feudal — 11
+- Línguas — 11
+- Pronúncia — 11
+- Lealdade, Homenagem e Propriedade de Terras — 12
+- A Vida numa Sociedade Feudal — 12
+- Cavalaria — 14
+- A Economia Feudal — 15
+- Para se Tornar um Cavaleiro — 15
+- O Governo das Cidades — 16
+- Guildas — 16
+- Armas e Dívisas Heráldicas — 16
+- Tipos de Guildas — 17
+- A Organização das Guildas — 17
+- A Guarda da Cidade — 17
+- Escravidão — 17
+- Santos Padroeiros, Mistérios e Organizações Secretas — 18
+- Aventuras com Guildas — 19
+- Os Miquelitas — 20
+- Cristianismo — 21
+- Os Sacramentos — 21
+- O Culto da Virgem Maria — 21
+- A Lei Canônica — 22
+- Casamento, Divórcio e Dotes — 22
+- Crime e Castigo — 22
+- Morte, Testamentos e Herança — 23
+- Juramentos e Perjúrio — 23
+- Santos — 23
+- Usura — 24
+- Venda de Indultos — 24
+- Escravidão — 24
+- Relíquias e Peregrinação — 24
+- A Hierarquia da Igreja e as Ordens Religiosas — 25
+- A Regra de São Bento — 25
+- Os Olibrianos — 25
+- Os Cavaleiros Hospitalários — 26
+- A Chegada dos Templários — 26
+- Os Cavaleiros Templários — 27
+- Os Jesuítas — 27
+- Os Tomistas — 28
+- As Ordens Monásticas — 28
+- O Islamismo — 29
+- Os sufistas — 29
+- Os Kharidjitas — 30
+- Os Cinco Pilares do Islã — 31
+- Predestinação e Livre Arbítrio — 31
+- Os Assassinos — 31
+- Ordens Islamísticas de Cavaleiros — 32
+- Casamento, Divórcio e Dotes — 33
+- Herança — 33
+- Álcool, Usura e Escravidão — 33
+- Hinduísmo e Budismo — 33
+- Seitas Islamíticas — 34
+- Xiismo — 34
+- Sunna — 34
+- Balikitas — 34
+- Judaísmo — 35
+- Cerimônias Judaicas — 35
+- Os Rabinos — 36
+- Raças não-humanas — 36
+- Cultos Greco-Romanos — 36
+- O Culto dos Elfos Negros — 37
+- Pesquisando — 37
+- Os Recém-Chegados — 38
+- Paganismo - A Religião Ancestral — 38
+
+**3. REINOS** — 40
+- Mégalos — 41
+- Controle de Armas — 43
+- A Arena — 44
+- As Legiões — 45
+- A Lei — 45
+- Escravidão — 45
+- As Fronteiras Setentrionais — 45
+- A Guarda do Imperador — 45
+- Teridar — 46
+- Myrgran — 46
+- Kethalos — 46
+- Azer — 47
+- A Região Central — 47
+- Mégalos — 47
+- Hidelban — 49
+- Mehan — 49
+- Claudius Maskill — 49
+- A Torre de Caça — 50
+- A Região Sul — 50
+- Ekhans — 50
+- Dekamera — 51
+- Serrun — 51
+- Min — 52
+- Sho'joor e Zehan — 52
+- A Região Oeste — 53
+- Yibyorak — 53
+- Hyrnan — 53
+- Bannock — 54
+- Quartedec — 54
+- Loucura na Floresta — 54
+- Arvey — 55
+- Craine — 55
+- Raphael — 55
+- Intriga na Fronteira — 55
+- Ouro Negro — 55
+- Nova Jerusalém — 56
+- Araterre — 57
+- Tecnologia — 58
+- Os Atóis Gêmeos — 58
+- Sauvons — 59
+- Abadia de Drift — 59
+- Aventuras nos Atóis — 59
+- Ansonne — 60
+- Regras Opicionais: Esgrima — 60
+- A Ilha Bilit — 60
+- Caithness — 64
+- Os Nomes em Caithness — 64
+- O Grande Deserto — 64
+- A Grande Floresta — 65
+- As Mulheres em Caithness — 66
+- Ascensão Social — 67
+- Não-Humanos — 68
+- A Ordem da Cantaria — 68
+- A Região Norte — 69
+- Carrik — 69
+- Mershall — 70
+- A Ordem de São Jorge do Dragão — 70
+- A Região Central — 71
+- Durham — 71
+- Photius — 71
+- Sterling — 71
+- O Oeste — 72
+- Wallace, Ferrier e Blythe — 72
+- A Região Sul — 72
+- Denton — 72
+- Simonton — 72
+- Al-Haz — 73
+
+[Numeração de página: -2-]
