@@ -376,6 +376,17 @@ def main():
             pericias.append(None)  # linha em branco entre categorias
         pericias.append(per)
         cat_anterior = cat
+    # Magicas sao pericias, mas moram no grimorio: aqui entra so a linha de remissao.
+    magias = data.get("magias") or []
+    if magias:
+        if pericias:
+            pericias.append(None)
+        pericias.append({
+            "nome": f"Mágicas: {len(magias)} (ver grimório)",
+            "nh": "—",
+            "tipo": None,   # cada magica tem a sua dificuldade; nao cabe um tipo unico
+            "custo": sum(m.get("custo") or 0 for m in magias),
+        })
     for i, per in enumerate(pericias[: PERICIAS["max_rows"]]):
         if per is None:
             continue

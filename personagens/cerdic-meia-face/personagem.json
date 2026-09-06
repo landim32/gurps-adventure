@@ -1,0 +1,570 @@
+{
+  "nome": "Cerdic Meia-Face",
+  "jogador": "Rodrigo",
+  "arquetipo": "Mago de Combate (Magia)",
+  "foto": "foto.png",
+  "raca": null,
+  "aparencia": "Magro, esquelético; metade do rosto e do couro cabeludo queimados; olhar fixo, sorriso torto",
+  "historia": "Gênio do fogo criado nos cortiços de Mégalos; a magia lhe queimou o rosto e torceu o juízo",
+  "data_criacao": "05/09/2026",
+  "sequencia": "1",
+  "pontos_gastar": 150,
+  "pontos_total": 150,
+  "atributos": {
+    "ST": {
+      "valor": 8,
+      "custo": -15
+    },
+    "DX": {
+      "valor": 10,
+      "custo": 0
+    },
+    "IQ": {
+      "valor": 16,
+      "custo": 80
+    },
+    "HT": {
+      "valor": 10,
+      "custo": 0
+    }
+  },
+  "fadiga": 8,
+  "pontos_vida": 10,
+  "dano_basico": {
+    "gdp": "1D-3",
+    "bal": "1D-2"
+  },
+  "velocidade_basica": 5.0,
+  "deslocamento": 4,
+  "carga": {
+    "nenhuma": 8,
+    "leve": 16,
+    "media": 24,
+    "pesada": 48,
+    "muito_pesada": 80
+  },
+  "defesa_passiva": {
+    "armadura": 1,
+    "escudo": 0,
+    "total": 1
+  },
+  "defesas_ativas": {
+    "esquiva": 4,
+    "aparar": 5,
+    "bloqueio": 0
+  },
+  "reacao": "-5 (Hediondo -4, Fantasia -1)",
+  "vantagens_desvantagens": [
+    {
+      "nome": "Aptidão Mágica 3 (só Fogo)",
+      "custo": 22
+    },
+    {
+      "nome": "Alfabetização",
+      "custo": 10
+    },
+    {
+      "nome": "Hediondo (rosto queimado)",
+      "custo": -20
+    },
+    {
+      "nome": "Magreza",
+      "custo": -5
+    },
+    {
+      "nome": "Piromania",
+      "custo": -5
+    },
+    {
+      "nome": "Fantasias menores (o fogo fala)",
+      "custo": -5
+    },
+    {
+      "nome": "Compulsão (queimar oferenda)",
+      "custo": -5
+    }
+  ],
+  "peculiaridades": [
+    "Não entra na água nem por asseio",
+    "Dá nome a cada fogo que acende",
+    "Nunca apaga vela soprando",
+    "Cheira tudo antes de queimar",
+    "Esfrega a cicatriz ao pensar"
+  ],
+  "armas_objetos": [
+    {
+      "item": "Faca",
+      "dano": "1D-5/1D-4",
+      "tipo": "cort/perf",
+      "qtd": 1,
+      "peso": 0.25,
+      "categoria": "Armas"
+    },
+    {
+      "item": "Frasco de óleo",
+      "dano": "fogo",
+      "tipo": "arremesso",
+      "qtd": 3,
+      "peso": 0.5,
+      "categoria": "Armas"
+    },
+    {
+      "item": "Barrete (cabeça)",
+      "dano": "-",
+      "tipo": "DP1/RD1",
+      "qtd": 1,
+      "peso": 0.0,
+      "categoria": "Armadura"
+    },
+    {
+      "item": "Coura (tronco/braços)",
+      "dano": "-",
+      "tipo": "DP1/RD1",
+      "qtd": 1,
+      "peso": 2.0,
+      "categoria": "Armadura"
+    },
+    {
+      "item": "Gema de Energia (3 pts)",
+      "dano": "-",
+      "tipo": "+3 energia",
+      "qtd": 1,
+      "peso": 0.0,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Grimório encadernado",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 1.0,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Manto e roupas simples",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 0.5,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Tocha",
+      "dano": "-",
+      "tipo": "1 hora",
+      "qtd": 2,
+      "peso": 0.5,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Moringa de vinho (1 l)",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 1.0,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Rações (5 dias)",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 1.25,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Manta de lã",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 2.5,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Sacola pequena",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 0.0,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Equip. básico pessoal",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 0.0,
+      "categoria": "Equipamento"
+    }
+  ],
+  "peso_total": 11.0,
+  "custo_total": 701,
+  "pericias": [
+    {
+      "nome": "Arremesso de Bola de Fogo",
+      "nh": 13,
+      "tipo": "DX/F",
+      "custo": 8,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Jato Mágico",
+      "nh": 12,
+      "tipo": "DX/F",
+      "custo": 4,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Sopro Mágico",
+      "nh": 11,
+      "tipo": "DX/F",
+      "custo": 2,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Faca",
+      "nh": 11,
+      "tipo": "DX/F",
+      "custo": 2,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Furtividade",
+      "nh": 10,
+      "tipo": "DX/M",
+      "custo": 2,
+      "categoria": "Físicas"
+    },
+    {
+      "nome": "Ocultismo",
+      "nh": 16,
+      "tipo": "IQ/M",
+      "custo": 2,
+      "categoria": "Profissionais"
+    },
+    {
+      "nome": "Alquimia",
+      "nh": 15,
+      "tipo": "IQ/MD",
+      "custo": 4,
+      "categoria": "Profissionais"
+    },
+    {
+      "nome": "Manha",
+      "nh": 15,
+      "tipo": "IQ/M",
+      "custo": 1,
+      "categoria": "Sociais"
+    },
+    {
+      "nome": "Ânglico (nativa)",
+      "nh": 16,
+      "tipo": "IQ/M",
+      "custo": 0,
+      "categoria": "Línguas"
+    },
+    {
+      "nome": "Latim",
+      "nh": 15,
+      "tipo": "IQ/M",
+      "custo": 1,
+      "categoria": "Línguas"
+    }
+  ],
+  "magias": [
+    {
+      "nome": "Atear Fogo",
+      "classe": "R",
+      "nh": 21,
+      "tempo": "1 seg",
+      "duracao": "1 seg",
+      "custo_fazer": "1 a 4",
+      "custo_manter": "igual",
+      "obs": "Sem ritual; custo -2",
+      "pag": "M",
+      "custo": 8,
+      "categoria": "Fogo"
+    },
+    {
+      "nome": "Criar Fogo",
+      "classe": "A",
+      "nh": 20,
+      "tempo": "1 seg",
+      "duracao": "1 min",
+      "custo_fazer": "2/hex",
+      "custo_manter": "metade",
+      "obs": "Custo -2 (NH 20+)",
+      "pag": "M",
+      "custo": 6,
+      "categoria": "Fogo"
+    },
+    {
+      "nome": "Moldar Fogo",
+      "classe": "A",
+      "nh": 20,
+      "tempo": "1 seg",
+      "duracao": "1 min",
+      "custo_fazer": "2/hex",
+      "custo_manter": "metade",
+      "obs": "Custo -2 (NH 20+)",
+      "pag": "M",
+      "custo": 6,
+      "categoria": "Fogo"
+    },
+    {
+      "nome": "Extinguir Fogo",
+      "classe": "R",
+      "nh": 17,
+      "tempo": "1 seg",
+      "duracao": "perman.",
+      "custo_fazer": "3/hex",
+      "custo_manter": "—",
+      "obs": "Apaga fogo mágico tb",
+      "pag": "M",
+      "custo": 1,
+      "categoria": "Fogo"
+    },
+    {
+      "nome": "Resistência ao Fogo",
+      "classe": "A",
+      "nh": 17,
+      "tempo": "5 min",
+      "duracao": "1 dia",
+      "custo_fazer": "3/hex",
+      "custo_manter": "—",
+      "obs": "Dobro: -10 em ignição",
+      "pag": "M",
+      "custo": 1,
+      "categoria": "Fogo"
+    },
+    {
+      "nome": "Calor",
+      "classe": "R",
+      "nh": 17,
+      "tempo": "1 min",
+      "duracao": "1 min",
+      "custo_fazer": "1 a 3",
+      "custo_manter": "igual",
+      "obs": "+10°C por minuto",
+      "pag": "M",
+      "custo": 1,
+      "categoria": "Fogo"
+    },
+    {
+      "nome": "Frio",
+      "classe": "R",
+      "nh": 17,
+      "tempo": "1 min",
+      "duracao": "1 min",
+      "custo_fazer": "1 a 3",
+      "custo_manter": "igual",
+      "obs": "-10°C por minuto",
+      "pag": "M",
+      "custo": 1,
+      "categoria": "Fogo"
+    },
+    {
+      "nome": "Imunidade ao Frio",
+      "classe": "R",
+      "nh": 17,
+      "tempo": "1 seg",
+      "duracao": "1 min",
+      "custo_fazer": "2",
+      "custo_manter": "1",
+      "obs": "Pré-req. de Imun. Fogo",
+      "pag": "M",
+      "custo": 1,
+      "categoria": "Fogo"
+    },
+    {
+      "nome": "Imunidade ao Fogo",
+      "classe": "R",
+      "nh": 21,
+      "tempo": "1 seg",
+      "duracao": "1 min",
+      "custo_fazer": "2",
+      "custo_manter": "1",
+      "obs": "Sem ritual; custo -2",
+      "pag": "M",
+      "custo": 8,
+      "categoria": "Fogo"
+    },
+    {
+      "nome": "Fogo Fantasmagórico",
+      "classe": "A",
+      "nh": 17,
+      "tempo": "1 seg",
+      "duracao": "1 min",
+      "custo_fazer": "1/hex",
+      "custo_manter": "1/hex",
+      "obs": "Ilusão; não causa dano",
+      "pag": "M",
+      "custo": 1,
+      "categoria": "Fogo"
+    },
+    {
+      "nome": "Arma Flamejante",
+      "classe": "R",
+      "nh": 17,
+      "tempo": "2 seg",
+      "duracao": "1 min",
+      "custo_fazer": "4",
+      "custo_manter": "1/min",
+      "obs": "+2 dano em inflamável",
+      "pag": "M",
+      "custo": 1,
+      "categoria": "Fogo"
+    },
+    {
+      "nome": "Projéteis Flamejantes",
+      "classe": "R",
+      "nh": 17,
+      "tempo": "3 seg",
+      "duracao": "1 min",
+      "custo_fazer": "4",
+      "custo_manter": "2",
+      "obs": "Dobro se pedra/metal",
+      "pag": "M",
+      "custo": 1,
+      "categoria": "Fogo"
+    },
+    {
+      "nome": "Chama Essencial",
+      "classe": "A",
+      "nh": 17,
+      "tempo": "3 seg",
+      "duracao": "1 min",
+      "custo_fazer": "3/hex",
+      "custo_manter": "2/hex",
+      "obs": "Água não apaga; +1 dano",
+      "pag": "M",
+      "custo": 1,
+      "categoria": "Fogo"
+    },
+    {
+      "nome": "Jato de Chamas",
+      "classe": "R",
+      "nh": 21,
+      "tempo": "1 seg",
+      "duracao": "1 seg",
+      "custo_fazer": "1 a 3",
+      "custo_manter": "igual",
+      "obs": "1D/ponto; Jato Mágico",
+      "pag": "M",
+      "custo": 8,
+      "categoria": "Fogo"
+    },
+    {
+      "nome": "Bola de Fogo",
+      "classe": "M",
+      "nh": 21,
+      "tempo": "1-3 seg",
+      "duracao": "instant.",
+      "custo_fazer": "1 a 3",
+      "custo_manter": "—",
+      "obs": "1D/ponto; Prec+1; 50 m",
+      "pag": "M",
+      "custo": 8,
+      "categoria": "Fogo"
+    },
+    {
+      "nome": "Bola de Fogo Explosiva",
+      "classe": "M",
+      "nh": 19,
+      "tempo": "1-3 seg",
+      "duracao": "instant.",
+      "custo_fazer": "2 a 6",
+      "custo_manter": "—",
+      "obs": "1D/2 pts + explosão",
+      "pag": "M",
+      "custo": 4,
+      "categoria": "Fogo"
+    },
+    {
+      "nome": "Sopro de Fogo",
+      "classe": "R",
+      "nh": 18,
+      "tempo": "2 seg",
+      "duracao": "1 seg",
+      "custo_fazer": "1 a 4",
+      "custo_manter": "—",
+      "obs": "1D+1/ponto; Muito Difícil",
+      "pag": "M",
+      "custo": 4,
+      "categoria": "Fogo"
+    },
+    {
+      "nome": "Convocar Elemental do Fogo",
+      "classe": "E",
+      "nh": 18,
+      "tempo": "30 seg",
+      "duracao": "1 hora",
+      "custo_fazer": "4",
+      "custo_manter": "—",
+      "obs": "Reação -2, +1 seletivo",
+      "pag": "M",
+      "custo": 2,
+      "categoria": "Elementais"
+    },
+    {
+      "nome": "Controle de Elemental do Fogo",
+      "classe": "R",
+      "nh": 17,
+      "tempo": "2 seg",
+      "duracao": "1 min",
+      "custo_fazer": "⅛ atrib.",
+      "custo_manter": "metade",
+      "obs": "Resistida por IQ ou ST",
+      "pag": "M",
+      "custo": 1,
+      "categoria": "Elementais"
+    },
+    {
+      "nome": "Criar Elemental do Fogo",
+      "classe": "E",
+      "nh": 17,
+      "tempo": "variável",
+      "duracao": "1 hora",
+      "custo_fazer": "¼ atrib.",
+      "custo_manter": "disputa",
+      "obs": "Exige Aptidão Mágica 2",
+      "pag": "M",
+      "custo": 1,
+      "categoria": "Elementais"
+    },
+    {
+      "nome": "Dar Força",
+      "classe": "R",
+      "nh": 14,
+      "tempo": "1 seg",
+      "duracao": "perman.",
+      "custo_fazer": "variável",
+      "custo_manter": "—",
+      "obs": "Só pré-req.; não conjura",
+      "pag": "M",
+      "custo": 1,
+      "categoria": "Fora da escola"
+    },
+    {
+      "nome": "Recuperação de Força",
+      "classe": "E",
+      "nh": 20,
+      "tempo": "—",
+      "duracao": "—",
+      "custo_fazer": "nenhum",
+      "custo_manter": "—",
+      "obs": "1 Fadiga a cada 2 min",
+      "pag": "M",
+      "custo": 6,
+      "categoria": "Fora da escola"
+    }
+  ],
+  "resumo": {
+    "atributos": 65,
+    "vantagens": 32,
+    "desvantagens": -40,
+    "peculiaridades": -5,
+    "pericias": 98,
+    "total": 150
+  }
+}

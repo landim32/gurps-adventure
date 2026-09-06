@@ -124,6 +124,13 @@ Cada personagem vive em `personagens/<nome-em-kebab-case>/` com quatro arquivos:
 Se você colocar uma imagem (`foto.png`) na pasta do personagem, ela é encaixada
 automaticamente no quadro de retrato da ficha.
 
+**Quem usa magia ganha um grimório.** Personagens com Aptidão Mágica e mágicas compradas
+recebem mais dois arquivos na mesma pasta: `grimorio.md` (a lista de mágicas em texto) e
+`grimorio.jpg` — a Ficha para Grimório oficial preenchida com nome e classe da mágica, NH,
+tempo de execução, duração, custo para fazer e para manter. Na planilha do personagem, a
+lista de perícias traz só uma linha remetendo ao grimório, com a contagem e o total de
+pontos, para não estourar o espaço da coluna.
+
 A criação é feita pela skill `criar-personagem-gurps` (em `.claude/skills/`), que segue as
 regras dos livros: monta a armadura peça por peça pelo Sistema Avançado de Combate, respeita
 o limite de -40 pontos em desvantagens e, quando você cita um arquétipo ("um mercenário", "um
@@ -136,7 +143,7 @@ crie um personagem: mercenário anão de 150 pontos, especialista em machados, v
 edite o Comam: troque as picaretas por um machado de guerra e suba Tática
 ```
 
-### Regerar a imagem da ficha
+### Regerar as imagens
 
 Requer Python 3 com [Pillow](https://python-pillow.org/):
 
@@ -145,11 +152,18 @@ python .claude/skills/criar-personagem-gurps/scripts/preencher_ficha.py \
   --data personagens/<slug>/personagem.json \
   --template ficha-de-personagem.jpg \
   --output personagens/<slug>/ficha.jpg
+
+python .claude/skills/criar-personagem-gurps/scripts/preencher_grimorio.py \
+  --data personagens/<slug>/personagem.json \
+  --template grimorio.jpg \
+  --output personagens/<slug>/grimorio.jpg
 ```
 
-O script escreve sobre `ficha-de-personagem.jpg` imitando escrita à mão, com as coordenadas de
-cada campo calibradas sobre o formulário. Aceita `--foto <caminho>` para escolher o retrato e
-`--sem-foto` para omiti-lo.
+Os scripts escrevem sobre `ficha-de-personagem.jpg` e `grimorio.jpg` imitando escrita à mão,
+com as coordenadas de cada campo calibradas sobre o formulário. O da ficha aceita
+`--foto <caminho>` para escolher o retrato e `--sem-foto` para omiti-lo. O do grimório lê o
+mesmo JSON, não faz nada se o personagem não tiver mágicas e pagina sozinho acima de 45
+(`grimorio-2.jpg`, `grimorio-3.jpg`…).
 
 ## Aventuras
 
@@ -169,9 +183,10 @@ impacto são decididos nos dados.
 ```
 livros/           transcrição dos três livros (base de conhecimento)
 personagens/      um diretório por personagem, com ficha em JSON, Markdown e imagem
-.claude/skills/   a skill de criação de personagens e o script da ficha
+.claude/skills/   as skills de criação e os scripts da ficha e do grimório
 backup/           material bruto da transcrição (histórico)
 screenshots/      referências visuais
 ficha-de-personagem.jpg   planilha oficial em branco, usada como modelo
+grimorio.jpg      ficha para grimório em branco, usada como modelo
 CLAUDE.md         instruções para a IA que opera o repositório
 ```
