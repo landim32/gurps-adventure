@@ -1,0 +1,114 @@
+# Plano de Campanha
+
+
+## GURPS CYBERPUNK: PLANO DE CAMPANHA            GM:________________ __Data:_____________
+
+### Ambiente e Informações Gerais
+
+Nome da Campanha:_________________________Ano de Início da Campanha:_____________ Nível inicial de pontos:_______________
+
+Localização básica da campanha:_________________________________________________________________________________________
+
+Ambiente da campanha:________________________________________________________________________________________________
+
+____________________________________________________________________________________________________________________
+
+____________________________________________________________________________________________________________________
+
+Descrição do estilo e do “clima” gerais:_______________________________________________________________________________
+
+_____________________________________________________________________________________________________________________
+
+_________________________________________________________________________________________________________________________
+
+Leitura obrigatória para esta campanha:__________________________________________________________________________________
+
+**Tecnologia da Campanha**
+
+NT da Campanha:___________ Diferenças deste NT com relação a Ultra-Tech ou ao Módulo Básico:_________________________
+
+Grau de disponibilidade de ciber-tecnologia:_____________________Há reação negativa ou estigma social associados a ela?______
+
+Qual, se houver?____________________________________________________________________________________________________
+
+Qual é o tipo predominante de governo?________________________ Grau de poder das grandes corporações:____________________
+
+Quais são as principais potências mundiais?_____________________________________________________________________________
+
+Que países são líderes em ciber-tecnologia?_________________________________E em modas?_________________________________
+
+Em tecnologia médica?________________________ Em poder militar?_______________________Outros: ________________________
+
+Qual é a base econômica do país inicial?________________________________________________________________________________
+
+Outros países importantes? ___________________________________________________________________________________________
+
+Rede realista ou ciberespacial?_____________________ Tipo mais comum de interface (toldo, ícone ou ambiental)?__________________
+
+Há uma rede global ou muitas pequenas?________________ Se for uma só, quem a controla?_______________________________
+
+Que nível de viagens espaciais existe?_________________________Em que grau é comum?____________________________________
+
+Há colônias fora da Terra?_____________ Onde?________________________________________________________________________
+
+Com que se parecem?__________________________________________________________________________________________________
+
+Há um Número de Registro Geral atribuído a cada pessoa?__________________________ Quem o atribui?_________________________
+
+O que acontece a quem não possui Registro Geral?_____________________________________________________________________________
+
+### Informações sobre os Personagens
+
+Cyberwear custa dinheiro, pontos, ou ambos?____________Pode ser comprado com pontos durante a criação dos personagens?__________
+
+Em caso positivo, quanto vale cada ponto?_______________Qual o número máximo de pontos que pode ser gasto?_______________
+
+Cirurgia Cosmética é facilmente disponível?______________Afeta os testes de reação (veja pg. 19)?___________________________
+
+Custo(s) de Preparo Incomum de cyberwear:_________________________________________________________________________________
+
+Riqueza básica dos PCs:________________________Níveis sociais iniciais permitidos aos PCs:___________________________________
+
+Idioma(s) de que os PCs necessitarão__________________________________________________________________________________
+
+Tipos de personagens especialmente úteis/inúteis:_________________________________________________________________________
+
+Profissões especialmente apropriadas/impróprias:___________________________________________________________________________
+
+Vantagens e perícias que serão especialmente úteis nesta campanha:___________________________________________________________
+
+_______________________________________________________________________________________________________________________
+
+Patronos apropriados (e valor básico):___________________________________________________________________________________
+
+Inimigos apropriados (e valor básico):__________________________________________________________________________________
+
+### Questões Especiais da Campanha
+
+Existe Magia? (nível de Mana, etc.): _______________________________________________________________________________________
+
+_______________________________________________________________________________________________________________________
+
+Existe Psiquismo?_______________________________________ Que regras (Supers ou Módulo Básico)?______________________________
+
+___________________________________________________________________________________________________________________
+
+Há qualquer tecnologia mais avançada? (Que NT? Qual é a fonte? Grau de disponibilidade)__________________________________
+
+___________________________________________________________________________________________________________________
+
+Desvios das regras: Novas perícias, vantagens, desvantagens (resuma)______________________________________________________
+
+____________________________________________________________________________________________________________________
+
+Desvios das regras: Novos equipamentos e cyberwear (resuma)_______________________________________________________________
+
+______________________________________________________________________________________________________________________
+
+Desvios das regras: Regras de combate novas (ou opcionais):___________________________________________________________________
+
+____________________________________________________________________________________________________________________
+
+Permissão de cópias e fotocópias apenas para uso pessoal.
+
+### Plano de Campanha

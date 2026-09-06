@@ -5,6 +5,10 @@ Fonte: `raw/` (já convertido das imagens em `images/`). Os números de
 página do scan **não** aparecem como títulos; referências internas do
 livro (`pág. 15`, `MB pág. 102`) foram mantidas.
 
+![Mapa de Ytarria](banestorm_world.jpg)
+
+*Ytarria, o continente conhecido de Yrth (`banestorm_world.jpg`). Nomes em inglês; o capítulo 3 usa as formas brasileiras (Mégalos, Caithness, al-Haz, al-Wazif, Cardiel, Sahud, Zarak, Terras dos Orcs, Araterre).*
+
 A numeração impressa do livro começa na Introdução (pág. 4). Os arquivos
 de scan 001–007 são frontispício da edição brasileira / da digitalização.
 Scan N ≈ página impressa N−6 (a partir do scan 008 = pág. 2 do índice).
@@ -24,3 +28,4 @@ Scan N ≈ página impressa N−6 (a partir do scan 008 = pág. 2 do índice).
 | `09-criaturas.md` | Cap. 5 Criaturas | 131–137 |
 | `10-campanhas.md` | Cap. 6 Campanhas de Fantasia | 138–148 |
 | `11-indice-e-mapas.md` | Índice remissivo, notas e mapas | 149–154 |
+| `banestorm_world.jpg` | Mapa colorido de Ytarria (continente conhecido de Yrth) | — |

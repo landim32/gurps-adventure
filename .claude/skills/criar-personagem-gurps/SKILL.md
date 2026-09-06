@@ -35,7 +35,7 @@ o personagem depois** — sempre releia esse arquivo antes de aplicar uma ediç�
 
 ## Fontes de regras (`livros/`)
 
-Este repositório contém a documentação (já parafraseada) de três livros de GURPS 3ª Edição
+Este repositório contém a transcrição em Markdown de três livros de GURPS 3ª Edição
 em `livros/`. **Consulte-os sempre que precisar do custo exato, da descrição ou dos
 pré-requisitos de uma vantagem, desvantagem, perícia, mágica ou modelo racial** — não invente
 valores de memória além do que está resumido abaixo nesta skill. Use Grep/Read diretamente
@@ -61,13 +61,16 @@ nos arquivos:
 | Modelos raciais — Yrth | `livros/gurps-fantasy-3ed/08-personagens.md`, seção "Personagens Não-Humanos" |
 | Modelos raciais — lista ampliada (Gnomos, Goblins, Halflings, Orcs, Minotauros, Licantropos…) | `livros/gurps-magia-3ed/13-personagens.md`, seção "Personagens Não-Humanos" |
 | Equipando um mago / empregos de mago | `livros/gurps-magia-3ed/13-personagens.md` (seções "Dinheiro e Equipamentos" e "Empregos para Mágicos") |
+| **Mapa de Ytarria** (continente conhecido de Yrth; situar origem, viagens, fronteiras) | `livros/gurps-fantasy-3ed/banestorm_world.jpg` |
+| **Línguas de Yrth** (quem fala o quê, dificuldade, níveis pré-definidos entre idiomas) | `livros/gurps-fantasy-3ed/03-cultura.md`, seção "Línguas" |
+| Regras de línguas (custo, comunicação, o que cada NH significa) | `livros/gurps-mb-3ed/06-pericias.md`, seção "Perícias com Línguas" |
 | Cultura, reinos, religiões de Yrth (para história/aparência) | `livros/gurps-fantasy-3ed/02-historia.md` a `07-reinos-oriente.md` |
 | Animais e criaturas (para Empatia com Animais, montarias, etc.) | `livros/gurps-mb-3ed/15-animais.md`, `livros/gurps-fantasy-3ed/09-criaturas.md` |
 
 Use `Grep` para procurar o nome de uma vantagem/desvantagem/perícia específica em vez de ler
-o arquivo inteiro (ex.: `Grep "Sorte" livros/gurps-mb-3ed/03-vantagens.md`). Esses arquivos já
-são resumos parafraseados (não o texto literal do livro) — nunca copie o conteúdo de volta
-para fora deste repositório como se fosse o texto original da editora.
+o arquivo inteiro (ex.: `Grep "Sorte" livros/gurps-mb-3ed/03-vantagens.md`). É transcrição de
+obra comercial protegida: use à vontade para arbitrar regras e montar fichas dentro do
+projeto, mas não reproduza trechos longos literalmente para fora dele.
 
 ## Fluxo de trabalho
 
@@ -79,6 +82,8 @@ Extraia do pedido do usuário:
   confirme no resultado final — não precisa perguntar ao usuário).
 - **Orçamento de pontos** (`pontos_gastar`). Se não for informado, use 100 (herói padrão,
   ver tabela de categorias em `02-criacao-de-personagem.md`) e avise isso no resumo final.
+- **Local de origem** (reino, cidade ou povo de Yrth) — define a língua nativa obrigatória e
+  ajuda na história. Se o usuário não disser, escolha algo coerente com o conceito e informe.
 - **Conceito**: raça, profissão/arquétipo, cenário (medieval/fantasia de Yrth por padrão,
   já que é o cenário coberto por `livros/gurps-fantasy-3ed/`; ajuste para NT diferente se o
   usuário pedir algo moderno/sci-fi, usando as tabelas de `21-quadros-e-tabelas.md`).
@@ -177,6 +182,8 @@ Depois de escolher atributos, vantagens, desvantagens, peculiaridades e perícia
 3. Peculiaridades: -1 cada.
 4. Custo de cada perícia pela tabela de dificuldade (abaixo), a partir do atributo base +
    modificadores (Aptidão Mágica para mágicas, bônus raciais, etc.).
+   **Inclua as línguas** — a nativa custa 0 e vem com NH = IQ; as demais seguem a tabela de
+   perícias mentais (ver seção "Línguas").
 5. **Total gasto = Atributos + Vantagens + Desvantagens + Peculiaridades + Perícias.**
    Ajuste perícias/vantagens/atributos iterativamente até `Total gasto == pontos_gastar`
    (ou o mais próximo possível sem ultrapassar; nunca exceda o orçamento). Pontos sobrando
@@ -193,6 +200,58 @@ Depois de escolher atributos, vantagens, desvantagens, peculiaridades e perícia
    `pericias[]` e em `armas_objetos[]`) e ordene cada lista por esse campo — a ficha desenha
    uma linha em branco a cada troca de categoria. Para equipamento, use
    `Armas` → `Munição` → `Armadura` → `Equipamento`.
+
+### Línguas (obrigatório em todo personagem)
+
+**Todo personagem tem pelo menos uma língua na ficha: a do seu local de origem.** Decida de
+onde ele vem antes de montar as perícias e adicione uma segunda língua sempre que o conceito,
+a raça, o arquétipo ou a profissão justificarem.
+
+**Custo (MB, "Perícias com Línguas"):**
+
+- A **língua nativa é grátis** e vem com **NH = IQ**. Subir além disso é barato e linear —
+  IQ+1 custa 1 ponto, IQ+2 custa 2, IQ+3 custa 3 (não use a tabela normal de perícias mentais
+  para a própria língua).
+- **Outras línguas** são perícias mentais comuns: use a tabela de perícias mentais, quase
+  sempre **Mental/Média** (o sahudês é **Mental/Difícil**). Não têm nível pré-definido, salvo
+  entre idiomas aparentados (ver tabela abaixo).
+- A vantagem **Facilidade para Línguas** (2 pontos/nível, `03-vantagens.md`) soma-se à IQ para
+  efeito de aprender qualquer língua — vale a pena em diplomatas, mercadores e espiões.
+- O que cada NH significa: 7-8 = vocabulário funcional com sotaque forte; 9-10 = como um
+  falante nativo médio; 13-14 = domínio completo, sem sotaque. Um NH baixo é ótimo recurso de
+  interpretação, não um defeito a evitar.
+
+**Línguas de Yrth** (`03-cultura.md`) — todas Mental/Média, exceto onde indicado:
+
+| Língua | Quem fala | Observações |
+|---|---|---|
+| **Ânglico** | Nações cristãs (Mégalos, Caithness, Cardiel…) | A língua franca das terras humanas; a maioria dos não-humanos que vive entre humanos também a fala |
+| **Norlandês** | Povos do norte | Aparentado ao ânglico: pré-definido mútuo -3 |
+| **Arlesiano** | Araterre | Dialeto do ânglico misturado com francês; pré-definido -2 a partir de ânglico ou francês. O *Arlesiano Antigo* das ilhas do sul é Arlesiano-2 / ânglico-4 |
+| **Árabe** | Nações islâmicas (al-Haz, al-Wazif, parte de Cardiel) | Árabe clássico; escrita quase idêntica à da Terra |
+| **Latim** | Escolásticos, clérigos cristãos e nobres megalanos | Língua de erudição e liturgia, não do dia a dia |
+| **Ladino** | Comunidades judaicas | Ligado ao espanhol, escrito em caracteres hebraicos; pré-definido Espanhol-3 |
+| **Hebraico** | Judeus (uso litúrgico/erudito) | Estudo dos textos religiosos |
+| **Sahudês** | Sahud | **Mental/Difícil**; tão distante das raízes que ninguém da Terra o entende |
+| **Anão, Élfico** | Raças Ancestrais | Cada uma tem a sua; muitos anões e elfos também falam ânglico |
+| **Goblinês Arcaico** | Goblins (quase extinto) | Sobrevive na *língua dos mercadores goblins*, um jargão usado entre comerciantes da raça |
+
+Halflings e kobolds perderam o idioma próprio e falam a língua humana local.
+
+**Como escolher:**
+
+1. **Língua de origem** — sempre presente, grátis, NH = IQ. Um mercenário de al-Haz fala
+   Árabe; um cavaleiro de Caithness fala Ânglico; um anão de Zarak fala Anão.
+2. **Segunda língua**, quando fizer sentido:
+   - **Não-humano vivendo em terras humanas**: a língua da raça + o ânglico local.
+   - **Quem cruza fronteiras** (mercenário, mercador, espião, diplomata, marinheiro): o
+     ânglico como língua franca, mesmo que num NH baixo e com sotaque.
+   - **Clérigo, monge, escolástico, nobre megalano**: Latim.
+   - **Arquétipos que pedem explicitamente** — Diplomata, Mercador, Administrador, Nobre e
+     Monge listam "qualquer Língua (geralmente várias)" em `08-personagens.md`.
+   - **Judeu de Mégalos ou Tredroy**: Ladino, mais o hebraico se for estudioso.
+3. Registre cada língua como uma perícia na lista, com `"categoria": "Línguas"` — elas ganham
+   seu próprio bloco na ficha. Marque a nativa no nome: `"Árabe (nativa)"`.
 
 ### Armadura peça por peça (Sistema Avançado de Combate)
 
@@ -462,7 +521,9 @@ ex.: `DX/F`, `IQ/M`, `DX/D`, `IQ/MD`.
   "peso_total": 0.0,
   "custo_total": 1000,
   "pericias": [
-    {"nome": "string", "nh": 12, "tipo": "DX/F", "custo": 1, "categoria": "Combate"}
+    {"nome": "string", "nh": 12, "tipo": "DX/F", "custo": 1, "categoria": "Combate"},
+    {"nome": "Ânglico (nativa)", "nh": 10, "tipo": "IQ/M", "custo": 0, "categoria": "Línguas"},
+    {"nome": "Latim", "nh": 9, "tipo": "IQ/M", "custo": 1, "categoria": "Línguas"}
   ],
   "resumo": {
     "atributos": 0, "vantagens": 0, "desvantagens": 0,

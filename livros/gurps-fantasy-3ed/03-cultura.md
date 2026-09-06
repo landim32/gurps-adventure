@@ -1,5 +1,9 @@
 # 2. Cultura
 
+![Mapa de Ytarria](banestorm_world.jpg)
+
+*Ytarria: nações cristãs a leste e no centro, islâmicas ao sul, Sahud e nômades ao norte, Zarak e Terras dos Orcs a oeste.*
+
 Este capítulo descreve a sociedade feudal e as culturas dominantes (tanto humanas quanto não-humanas) de Yrth. É importante lembrar que numa sociedade medieval humana, a cultura e a religião andam de mãos dadas. Praticamente não existe distinção entre o espiritual e o secular. Os reis governam por direito divino e os dogmas da fé dominante são os alicerces das leis e costumes.
 
 No capítulo 4 (pág. 119), há toda uma seção dedicada à descrição de personagens não-humanos, suas sociedades, crenças e número de pontos de personagem necessários para sua criação.

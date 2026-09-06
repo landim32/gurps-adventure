@@ -18,13 +18,17 @@ necessidade do momento:
 Ao criar lugares, reinos, culturas, religiões ou criaturas, use o que já existe em Yrth antes
 de inventar; ao inventar, mantenha coerência com o material dos livros.
 
+![Mapa de Ytarria](livros/gurps-fantasy-3ed/banestorm_world.jpg)
+
+*Ytarria (`livros/gurps-fantasy-3ed/banestorm_world.jpg`). Consulte o mapa ao situar cidades, viagens e fronteiras.*
+
 **Todo conteúdo é em português (pt-BR)**, usando a terminologia da edição brasileira: perícia,
 NH (nível de habilidade), Vantagem/Desvantagem, Peculiaridade, DP/RD, Fadiga, Deslocamento,
 Carga, GDP/Balanço, Teste de Reação.
 
 ## Base de conhecimento: `livros/`
 
-Transcrição em Markdown dos três livros. **É a fonte da verdade para qualquer regra** —
+Transcrição em Markdown dos livros. **É a fonte da verdade para qualquer regra** —
 consulte antes de responder, não confie na memória para custos, NHs, pré-requisitos ou tabelas.
 
 | Livro | Pasta | Use para |
@@ -32,6 +36,7 @@ consulte antes de responder, não confie na memória para custos, NHs, pré-requ
 | Módulo Básico | `livros/gurps-mb-3ed/` | Criação de personagem, atributos, vantagens/desvantagens/perícias, combate (básico e avançado), equipamento, ferimentos, o Mestre, cenários, quadros e tabelas |
 | Magia | `livros/gurps-magia-3ed/` | Princípios de magia, ~420 mágicas por escola, objetos encantados, alquimia, tipos de mago, raças ampliadas |
 | Fantasy — Yrth | `livros/gurps-fantasy-3ed/` | História e cultura de Yrth, reinos, religiões, raças, **arquétipos ("Tipos de Personagem")**, criaturas, campanhas |
+| Cyberpunk | `livros/gurps-cyberpunk-3ed/` | Cyberwear, netrunning, equipamento NT8, mundo e campanha de alta tecnologia |
 
 `livros/README.md` é o índice mestre com a tabela arquivo→capítulo de cada volume.
 

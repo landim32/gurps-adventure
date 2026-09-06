@@ -1,5 +1,9 @@
 # GURPS Magia 3ª Edição (capítulos em Markdown)
 
+O cenário padrão da mesa é Yrth; o mapa de Ytarria está em [`../gurps-fantasy-3ed/banestorm_world.jpg`](../gurps-fantasy-3ed/banestorm_world.jpg).
+
+![Mapa de Ytarria](../gurps-fantasy-3ed/banestorm_world.jpg)
+
 Transcrição **literal** das **113 páginas** do PDF, a partir de `images/` e `raw/`.
 `pagina-NNN` no scan = `pagina-NNN.md` no raw. Os números de página **não**
 aparecem como títulos de seção; referências internas (`pág. 8`, `MB pág. 21`)

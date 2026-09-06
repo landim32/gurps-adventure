@@ -654,6 +654,10 @@ Webster, Noah. Webster's New Twentieth Century Dictionary - 2nd edition.: Collin
 
 ## Mapas
 
+![Mapa de Ytarria](banestorm_world.jpg)
+
+*Ytarria em cores (`banestorm_world.jpg`). Abaixo, a transcrição dos dois mapas em página inteira do volume impresso (3ª edição), com nomenclatura bilingue.*
+
 [Mapa em página inteira, com moldura ornamentada em estilo medieval, do continente/reino de "Ytarria" (Yrth), em inglês, com legendas de tradução na parte inferior. Círculos decorativos no canto superior direito (relevo de montanhas) e inferior direito (ondas do mar).]
 
 ### Elementos do mapa (nomes conforme aparecem, em inglês, com localização aproximada de cima para baixo/esquerda para direita)

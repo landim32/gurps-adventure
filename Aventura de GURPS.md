@@ -1,5 +1,9 @@
 # Aventura de GURPS
 
+![Mapa de Ytarria](livros/gurps-fantasy-3ed/banestorm_world.jpg)
+
+*Ytarria. Esta aventura começa em Wallace (Caithness), segue pelo Grande Deserto e chega a Zarak.*
+
 ## Regras Gerais
 
 * Os combates serão autônomos, funcionaram com regras pré-estabelecidas. As regras são as seguintes:  

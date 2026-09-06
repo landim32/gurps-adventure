@@ -1,5 +1,9 @@
 # 5. Criaturas
 
+![Mapa de Ytarria](banestorm_world.jpg)
+
+*Ytarria: habitat das criaturas deste capítulo (florestas, deserto, montanhas, ilhas).*
+
 [Ilustração de página inteira: um cavaleiro montado com armadura completa, empunhando uma espada e enfrentando um enorme dragão alado que se aproxima voando baixo sobre um terreno rochoso; o dragão tem pescoço longo, garras grandes e chifres na cabeça]
 
 Monstros vorazes a serem mortos ... presas para nobres caçadores ... corcéis e companheiros fiéis. Uma campanha de fantasia exige uma grande variedade de animais. Este capítulo apresenta algumas das mais importantes criaturas da fantasia clássica, a começar dos dragões, além de uma série de feras e monstros novos.

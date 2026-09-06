@@ -1,5 +1,9 @@
 # 3. Reinos — al-Haz, al-Wazif e Cardiel
 
+![Mapa de Ytarria](banestorm_world.jpg)
+
+*Al-Haz (sudoeste, com Gebel al-Hikmah), al-Wazif (centro-sul) e Cardiel (sudeste, na costa).*
+
 ## Al-Haz
 
 Al-Haz é a maior das nações islamíticas e vê a si própria como uma rival de Mégalos. Ela se considera também o coração da ortodoxia islamita. Os ulemás ensinam que, algum dia, a Fé conquistará o mundo e o converterá ao Shia Islã ... mas não já.

@@ -1,5 +1,9 @@
 # 3. Reinos — Araterre e Caithness
 
+![Mapa de Ytarria](banestorm_world.jpg)
+
+*Araterre é o arquipélago no canto inferior direito; Caithness fica a oeste, entre o Grande Deserto e a Floresta Negra.*
+
 ## Araterre
 
 As ilhas ao sul das terras continentais de Mégalos permaneceram praticamente desabitadas até o séc. XVI, quando uma recorrência do Cataclismo depositou um grande número de habitantes humanos naquela região. Quando os magos megalanos descobriram o que havia acontecido, o Império enviou expedições para ajudar os recém-chegados a se aclimatarem em Yrth — e para censurar o conjunto de conhecimentos que eles traziam consigo. Depois que todos os traços de tecnologia perigosa foram apagados, os megalanos ajudaram os ilhéus a estabelecerem sua própria aristocracia — subordinada ao Imperador, evidentemente.

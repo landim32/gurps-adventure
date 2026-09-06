@@ -1,5 +1,9 @@
 # 3. Reinos — Sahud, Nômades, Zarak, Elfos e Orcs
 
+![Mapa de Ytarria](banestorm_world.jpg)
+
+*Sahud ao norte; Nomad Lands a nordeste; Zarak nas montanhas centrais; Orclands e Djinn Lands a oeste.*
+
 ## Sahud
 
 O reino de Sahud fica no extremo norte de Ytarria. Apenas uns poucos mercadores megalanos se aventuraram por lá; para as pessoas do extremo sul, talvez até seu nome seja desconhecido. Para os PCs, Sahud deverá ser uma terra de perigos e mistérios exóticos.
