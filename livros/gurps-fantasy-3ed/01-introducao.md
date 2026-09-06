@@ -34,6 +34,10 @@ Os parâmetros e as regras contidos neste suplemento estão descritos em detalhe
 
 ---
 
+![Mapa de Ytarria](banestorm_world.jpg)
+
+*Ytarria, o continente conhecido de Yrth.*
+
 O mundo que você está prestes a penetrar parecer-lhe-á ao mesmo tempo estranho e familiar. Yrth (pronuncia-se "ÍRT") é um mundo muito semelhante à Terra. Seu sol e sua lua são muito parecidos com os nossos, mas suas estrelas são completamente diferentes. O ano tem a mesma duração que o nosso e as estações vem e vão exatamente como na Terra. A flora e a fauna de Yrth são, na sua maior parte, idênticas às da Terra. Até mesmo as culturas humanas de Yrth têm suas raízes em nosso passado (a zona rural está juncada de grandes mesquitas e catedrais com torres altas). Existe muita coisa neste mundo que um terráqueo dos dias de hoje seria capaz de reconhecer.
 
 No entanto Yrth *é diferente*. É um mundo mágico com um alto nível de mana. Suas florestas e desertos são povoados não só por leões, tigres e ursos, mas também por grifos, dragões e outras criaturas mágicas. Espíritos malignos saem de criptas antigas para caçar durante a noite. Os seres humanos, apesar de se constituírem na raça inteligente mais comum em Yrth, não são seus únicos habitantes. Dividem o planeta com Elfos, Anões, Orcs e Goblins e muitas outras raças. Em algumas áreas elas coexistem pacificamente. A história de Yrth foi completamente modificada por um imenso choque de retorno em uma operação mágica, conhecido como Cataclismo (pág. 6), cujos efeitos se espalharam não só pelos continentes de Yrth, mas também por outras dimensões. Foi este evento que levou os seres humanos para Yrth.

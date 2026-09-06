@@ -1,5 +1,9 @@
 # 1. História
 
+![Mapa de Ytarria](banestorm_world.jpg)
+
+*Ytarria após o Cataclismo: o palco da história deste capítulo.*
+
 ## O Cataclismo
 
 Há muito tempo atrás Yrth era a morada das raças ancestrais: os Elfos, os Anões (rivais dos Elfos) e os Orcs (de costumes bárbaros e vida errante).

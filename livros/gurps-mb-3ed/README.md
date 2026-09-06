@@ -1,5 +1,9 @@
 # GURPS 3ª Edição — Módulo Básico (capítulos em Markdown)
 
+O cenário padrão da mesa é Yrth; o mapa de Ytarria está em [`../gurps-fantasy-3ed/banestorm_world.jpg`](../gurps-fantasy-3ed/banestorm_world.jpg).
+
+![Mapa de Ytarria](../gurps-fantasy-3ed/banestorm_world.jpg)
+
 Transcrição **literal** do livro, organizada por capítulo e formatada em Markdown.
 Não é a pasta `capitulos/`, que condensou o texto.
 

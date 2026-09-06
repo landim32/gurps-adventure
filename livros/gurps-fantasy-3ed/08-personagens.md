@@ -1,5 +1,9 @@
 # 4. Personagens
 
+![Mapa de Ytarria](banestorm_world.jpg)
+
+*Ytarria: origem geográfica de personagens e raças deste capítulo.*
+
 Uma campanha em Yrth, aliás qualquer campanha de fantasia, oferece aos jogadores a oportunidade de dar asas à imaginação. Os personagens podem ser inspirados em qualquer figura histórica da Terra, ou por uma criação qualquer de seu autor de fantasia preferido... incluindo feiticeiros e clérigos-magos.
 
 Como regra, os personagens para Yrth (e para a maioria dos mundos de fantasia) devem ser criados como está descrito no *Módulo Básico*. Sugerimos a utilização de personagens de 100 pontos para as campanhas em geral. Eles serão analfabetos, a menos que paguem 10 pontos pela Vantagem de Alfabetização, e todas as Perícias pertinentes a NT 3 ou menos devem ser aprendidas. (Veja no Capítulo 6 uma série de idéias de campanhas alternativas).

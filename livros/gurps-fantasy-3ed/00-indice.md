@@ -301,3 +301,7 @@
 
 **ÍNDICE REMISSIVO** — 143
 **MAPA**
+
+![Mapa de Ytarria](banestorm_world.jpg)
+
+*Ytarria, o continente conhecido de Yrth. Ver também [11-indice-e-mapas.md](11-indice-e-mapas.md).*

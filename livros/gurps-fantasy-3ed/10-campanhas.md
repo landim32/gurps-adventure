@@ -1,5 +1,9 @@
 # 6. Campanhas de Fantasia
 
+![Mapa de Ytarria](banestorm_world.jpg)
+
+*Ytarria: o cenário padrão das campanhas deste suplemento.*
+
 De todos os gêneros de jogo e ficção, o mais amplo é a fantasia. Não existe nenhuma definição simples e precisa de fantasia. Se uma história incluir magia *provavelmente* será de fantasia. Elfos, dragões e cenários pseudo-medievais também são comuns, mas não imprescindíveis. Existem vários sub-gêneros distintos: *Fantasia Heróica* como os trabalhos de J.R.R. Tolkien e Robert E. Howard; *Fantasia Céltica* sobre os habitantes do mundo das fadas; *Fantasia Urbana* ambientada no aqui-agora; *Realismo Fantástico* que não tem necessariamente que ser uma contradição, e muitos outros.
 
 Em última análise, fantasia é aquilo que o escritor cria quando diz: "Isto é fantasia". O número de universos de fantasia existentes é tão grande quanto o número de criadores. E, ao se modificar uma pressuposição simples, como por exemplo, a freqüência de manifestação da magia, acaba-se por criar um mundo novo. Mesmo dentro de um único mundo de fantasia é possível criar vários tipos diferentes de aventura.

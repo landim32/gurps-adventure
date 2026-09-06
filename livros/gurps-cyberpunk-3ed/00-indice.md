@@ -1,0 +1,222 @@
+# Índice
+
+
+- INTRODUÇÃO — 4
+- Que é cyberpunk? — 4
+- Como jogar Cyberpunk — 4
+- Suporte e Apoio ao Sistema — 4
+- Enquanto Isso, no Mundo Real — 5
+- Material relacionado com GURPS — 5
+- Sobre o Autor — 5
+- 1 PERSONAGENS — 6
+- Pontuação dos Personagens — 7
+- Pontos versus Dinheiro — 7
+- Pontos em Desvantagens — 8
+- Tipos de Personagens — 8
+- Gastando Pontos dos Personagens — 8
+- Mudando de Aparência — 9
+- Mudanças de Sexo — 11
+- Patronos — 12
+- “Estilo” em Cyberpunk — 14
+- Aprendizado durante o sono — 15
+- Vício Eletrônico — 16
+- Modificações Não-cibernéticas — 18
+- Vantagens, Desvantagens e Perícias — 19
+- Vantagens — 19
+- Novas Vantagens — 19
+- Desvantagens — 22
+- Novas Desvantagens — 23
+- Perícias — 26
+- Novas Perícias — 26
+- Reputação — 27
+- Riqueza e Status — 27
+- Status — 27
+- Empregos — 27
+- Tabela de Empregos — 28
+- 2 CYBERWEAR — 29
+- Cyberwear na Campanha — 30
+- Instalação e Remoção — 30
+- Dano a Partes Biônicas — 31
+- Consertos em Partes Biônicas — 31
+- Alterações Biônicas — 31
+- Ciber-membros — 32
+- Armas e Acessórios — 32
+- Modificações Corporais — 33
+- Órgãos sensoriais — 35
+- Olhos Biônicos — 35
+- Ouvidos Biônicos — 36
+- Outros Sentidos — 37
+- Comunicações — 37
+- Implantes Mentais — 38
+- Chips de Personalidade — 38
+- Chiips de Controle Físico — 39
+- Chips de Talento — 39
+- Outros Chips — 41
+- Neuro-Tecnologia — 41
+- 3 TECNOLOGIA & EQUIPAMENTO — 42
+- Células de energia — 43
+- Armas Pessoais — 43
+- Lança-projéteis Químicos — 43
+- Lança-agulhas Magnético — 44
+- Armas Girofoguetes — 44
+- Lasers — 45
+- Lança-agulhas — 46
+- Aranhas — 46
+
+## ÍNDICE
+
+- Acessórios para Armas — 46
+- Armas Mistas — 47
+- Armas Pesadas — 48
+- Granadas — 48
+- Armas Bioquímicas — 49
+- Blindagem — 49
+- Equipamentos de Comunicação — 50
+- Equipamentos de Gravação — 51
+- Sensores e Equipamentos Científicos — 51
+- Veículos Pessoais — 51
+- Ferramentas — 52
+- Fechaduras e Sistemas de Segurança — 53
+- Equipamento Policial de Segurança — 54
+- Equipamento de Espionagem/Contra-Espionagem — 54
+- Ciência Médica — 55
+- Equipamento Médico Básico — 55
+- Cópia Cerebral — 55
+- Clonagem — 57
+- Transplantes Cerebrais — 57
+- Drogas — 57
+- Drogas Legais — 57
+- Drogas Ilegais — 58
+- Tabela de Armas — 60
+- 4 NETRUNNING — 61
+- O que é a Rede? — 62
+- Redes Realistas — 62
+- Computadores — 62
+- Nomes de guerra — 62
+- Equipamentos de Tempestade — 62
+- Pistas — 63
+- Criptografia/Decodificação — 63
+- Software — 64
+- ISDN (Integrated Services Digital Network) — 64
+- Jogos Soniais — 66
+- Evolução da Rede — 68
+- Níveis de Acesso — 68
+- Segurança de Computadores — 69
+- Corrupção de Programas e “Portas dos Fundos” — 69
+- Sistemas de Conferências — 69
+- Nomes de Redes — 70
+- Ciberespaço — 72
+- Interfaces Neurais — 72
+- Mantendo as Informações em Segurança — 72
+- Dano Físico aos Sistemas — 72
+- Fases de Comando — 73
+- As Consequências Sociais das Interfaces Neurais — 73
+- Cyberdecks — 74
+- Linhas de Comunicação — 74
+- Formas de Mania — 75
+- Explorando o Ciberespaço — 76
+- Ações — 76
+- Netrunning e o Grupo — 76
+- O Que Você Pode Ver — 77
+- Não Precisamos De Nenhum Desses Padrões Fedorentos! — 77
+- Protocolos Estranhos — 78
+- Confrontos no Ciberespaço — 78
+- Combate — 78
+- Regras mais rápidas para hacking — 78
+- Proteção Contra Cópias — 78
+- Uso e Abuso — 79
+- Tecnologia de Ponta — 79
+- OpSis Enlatado — 80
+- Brincando com a Telesp — 80
+
+- Geração Aleatória de uma Rede — 81
+- Mapeando a Rede — 82
+- Cavalgando outro Deck — 82
+- Inteligência Artificial — 83
+- Disparando Programas — 83
+- Tipos de Sistemas — 84
+- Agora Que Você O Pegou, O Que Pode Fazer Com Ele? — 84
+- Decks Seqüenciais — 84
+- Sinais de Perigo — 85
+- O Valor Do Lixo — 86
+- Acessórios de Computador — 87
+- Software para Cyberdeck — 88
+- Módulos Ambientais — 88
+- Programas de Ataque e defesa — 89
+- Programas Gelo — 92
+- Mapa da Rede — 94
+- Descrições dos Sistemas — 94
+- KarNet — 95
+- Exemplo de Netrunning — 95
+- 5 CRIAÇÃO O MUNDO — 96
+- O Ambiente — 97
+- A Praga Urbana — 97
+- Pesadelos do Futuro Próximo — 97
+- Tecnologia — 97
+- Computadores e a Rede — 97
+- Drogas e Sociedade — 97
+- Medicina — 98
+- Tráfico de Órgãos — 98
+- Cyberurubus — 99
+- Transporte — 100
+- O Que Há Lá em Cima? — 100
+- Eletricidade — 101
+- A Lua e Marte — 101
+- Economia — 102
+- Dinheiro — 102
+- A Casa do Futuro — 103
+- Comunicações Planetárias — 103
+- Corporações — 104
+- Transator — 104
+- Trabanho e Rendimentos — 105
+- O Crime do Cartão de Crédito — 105
+- Alimentação — 106
+- Política — 106
+- Governos — 106
+- Eco-Guerrilheiros — 106
+- Comunidade Internacional — 108
+- A Tirania da Maioria — 108
+- Guerra — 109
+- Sociedade — 109
+- Violência — 109
+- Ecotagem — 109
+- Crime e Castigo — 110
+- Urbanização — 110
+- Grau de Controle (GC) — 110
+- Família — 111
+- Grau de Legalidade — 111
+- Meios de Comunicação — 112
+- Legalidade de Outros Aparelhos — 112
+- Moda — 113
+- Influências Internacionais — 114
+- Objetos de Devoção — 114
+- Misticismo da Rede — 114
+- 6 EM CAMPANHA — 115
+- A campanha — 116
+- Informação — 116
+- Realismo da Campanha — 116
+- O Que Está Realmente Acontecendo? — 117
+- Tecnologia e Mudança — 117
+- Uso de Marcas — 117
+- O Ritmo da Campanha — 118
+- Dinâmica de Grupo — 118
+- Tipos de PCs — 118
+- A Mistura de Gêneros — 118
+- Número de Jogadores — 119
+- Traição — 119
+- Morte — 120
+- A Oposição — 120
+- Grupos e Lobos Solitários — 120
+- Temas para Campanhas — 121
+- A Luta Pelo Poder — 121
+- Temas de Aventuras — 122
+- Flexibilidade do Enredo — 122
+- Trilhas Sonoras Cyberpunk — 122
+- GLOSSÁRIO — 123
+- BIBLIOGRAFIA — 124
+- Livros e Histórias Curtas — 124
+- Quadrinhos e Romances Gráficos — 125
+- Filmes e Televisão — 125
+- Revistas e Boletins Eletrônicos — 125
+- ÍNDICE — 126
+- PLANO DE CAMPANHA CYBERPUNK — 128

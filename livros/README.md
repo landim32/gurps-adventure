@@ -1,12 +1,13 @@
 # GURPS 3ª Edição — Biblioteca Élfica
 
-Índice das transcrições em Markdown da edição brasileira (Devir). Os três livros usam o mesmo sistema; referências **MB** apontam para o Módulo Básico.
+Índice das transcrições em Markdown da edição brasileira (Devir). Os livros usam o mesmo sistema; referências **MB** apontam para o Módulo Básico.
 
 | Livro | Pasta | Conteúdo |
 |---|---|---|
 | [Módulo Básico](gurps-mb-3ed/) | `gurps-mb-3ed/` | Regras, criação de personagem, combate, magia resumida, o Mestre, aventuras |
 | [Magia](gurps-magia-3ed/) | `gurps-magia-3ed/` | Lista completa de mágicas, encantamento, improviso, alquimia, entidades |
 | [Fantasy — Yrth](gurps-fantasy-3ed/) | `gurps-fantasy-3ed/` | Mundo de Yrth: história, cultura, reinos, raças, campanhas |
+| [Cyberpunk](gurps-cyberpunk-3ed/) | `gurps-cyberpunk-3ed/` | Personagens, cyberwear, equipamento NT8, netrunning, mundo e campanha |
 
 Cada pasta tem o sumário original do volume (`00-indice.md`) e um `README.md` com a tabela de arquivos.
 
@@ -77,6 +78,10 @@ Suplemento de magia: regras completas, ~420 mágicas, improviso, runas, alquimia
 
 Cenário de fantasia: Cataclismo, sociedades, reinos de Ytarria, raças e campanhas.
 
+![Mapa de Ytarria](gurps-fantasy-3ed/banestorm_world.jpg)
+
+*Ytarria, o continente conhecido de Yrth. O arquivo está em [`gurps-fantasy-3ed/banestorm_world.jpg`](gurps-fantasy-3ed/banestorm_world.jpg).*
+
 | Arquivo | Capítulo |
 |---|---|
 | [00-frontespicio.md](gurps-fantasy-3ed/00-frontespicio.md) | Capa, créditos, prefácio nacional |
@@ -92,3 +97,24 @@ Cenário de fantasia: Cataclismo, sociedades, reinos de Ytarria, raças e campan
 | [09-criaturas.md](gurps-fantasy-3ed/09-criaturas.md) | 5. Criaturas |
 | [10-campanhas.md](gurps-fantasy-3ed/10-campanhas.md) | 6. Campanhas de Fantasia |
 | [11-indice-e-mapas.md](gurps-fantasy-3ed/11-indice-e-mapas.md) | Índice remissivo, notas e mapas |
+
+---
+
+## 4. Cyberpunk
+
+Roleplaying de alta tecnologia (Loyd Blankenship). 128 páginas, 1:1 com o PDF.
+
+| Arquivo | Capítulo |
+|---|---|
+| [00-frontespicio.md](gurps-cyberpunk-3ed/00-frontespicio.md) | Capa e créditos |
+| [00-indice.md](gurps-cyberpunk-3ed/00-indice.md) | Sumário |
+| [01-introducao.md](gurps-cyberpunk-3ed/01-introducao.md) | Introdução |
+| [02-personagens.md](gurps-cyberpunk-3ed/02-personagens.md) | 1. Personagens |
+| [03-cyberwear.md](gurps-cyberpunk-3ed/03-cyberwear.md) | 2. Cyberwear |
+| [04-tecnologia-e-equipamento.md](gurps-cyberpunk-3ed/04-tecnologia-e-equipamento.md) | 3. Tecnologia & Equipamento |
+| [05-netrunning.md](gurps-cyberpunk-3ed/05-netrunning.md) | 4. Netrunning |
+| [06-criacao-do-mundo.md](gurps-cyberpunk-3ed/06-criacao-do-mundo.md) | 5. Criação do Mundo |
+| [07-a-campanha.md](gurps-cyberpunk-3ed/07-a-campanha.md) | 6. A Campanha |
+| [08-glossario-e-bibliografia.md](gurps-cyberpunk-3ed/08-glossario-e-bibliografia.md) | Glossário e bibliografia |
+| [09-indice-remissivo.md](gurps-cyberpunk-3ed/09-indice-remissivo.md) | Índice remissivo |
+| [10-plano-de-campanha.md](gurps-cyberpunk-3ed/10-plano-de-campanha.md) | Plano de campanha |

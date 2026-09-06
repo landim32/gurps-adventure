@@ -1,6 +1,6 @@
 {
   "nome": "Comam Obabaroy",
-  "jogador": "IA (GURPS)",
+  "jogador": "Rodrigo",
   "arquetipo": "Mercenário (Fantasy)",
   "raca": null,
   "foto": "foto.png",
@@ -301,11 +301,18 @@
       "categoria": "Sociais"
     },
     {
-      "nome": "Jogo",
+      "nome": "Árabe (nativa)",
+      "nh": 9,
+      "tipo": "IQ/M",
+      "custo": 0,
+      "categoria": "Línguas"
+    },
+    {
+      "nome": "Ânglico",
       "nh": 8,
       "tipo": "IQ/M",
       "custo": 1,
-      "categoria": "Sociais"
+      "categoria": "Línguas"
     }
   ],
   "resumo": {

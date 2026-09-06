@@ -23,14 +23,18 @@ Vantagem/Desvantagem, Peculiaridade, DP/RD, Fadiga, Deslocamento, Carga, GDP/Bal
 **Toda aventura se passa em Yrth**, o mundo do suplemento *GURPS Fantasy*. Lugares, reinos,
 culturas, religiões e criaturas saem do que já existe no cenário antes de qualquer invenção.
 
+![Mapa de Ytarria](livros/gurps-fantasy-3ed/banestorm_world.jpg)
+
+*Ytarria, o continente conhecido de Yrth. Mapa em [`livros/gurps-fantasy-3ed/banestorm_world.jpg`](livros/gurps-fantasy-3ed/banestorm_world.jpg).*
+
 ## A pasta `livros/` — a base de conhecimento
 
-O coração do projeto. São **~34.000 linhas de Markdown** com a transcrição literal dos três
+O coração do projeto. São **~43.000 linhas de Markdown** com a transcrição literal dos
 livros, organizada capítulo a capítulo, com um `README.md` em cada pasta mapeando arquivo →
 capítulo. As referências internas dos originais (`pág. 86`, `MB pág. 21`) foram preservadas,
 mas os números de página não viram títulos de seção — a navegação é por capítulo.
 
-`livros/README.md` é o índice mestre dos três volumes.
+`livros/README.md` é o índice mestre dos volumes.
 
 ### `gurps-mb-3ed/` — Módulo Básico (~17.000 linhas, 24 capítulos)
 
@@ -70,16 +74,31 @@ O suplemento completo de magia, muito além do resumo do Módulo Básico.
 
 ### `gurps-fantasy-3ed/` — Fantasy: o mundo de Yrth (~7.600 linhas)
 
-O cenário oficial das aventuras deste repositório.
+O cenário oficial das aventuras deste repositório. O mapa de Ytarria é
+[`livros/gurps-fantasy-3ed/banestorm_world.jpg`](livros/gurps-fantasy-3ed/banestorm_world.jpg).
 
 | Arquivos | Conteúdo |
 |---|---|
+| `banestorm_world.jpg` | Mapa colorido de Ytarria |
 | `02-historia.md` | O Cataclismo e a história de Yrth — como humanos de várias épocas da Terra foram parar lá |
 | `03-cultura.md` | Sociedade, guildas, leis, religiões e vida cotidiana |
 | `04` a `07-reinos-*.md` | Os reinos de Ytarria: Mégalos, Araterre, Caithness, os reinos islâmicos (al-Haz, al-Wazif, Cardiel), Sahud, os nômades, Zarak (anões), as terras élficas e órquicas |
 | `08-personagens.md` | **Os arquétipos de personagem** (Cavaleiro, Mercenário, Ladrão, Clérigo, Trovador, Ranger, Nobre, Espião e mais uma dúzia), empregos e salários, e as raças de Yrth |
 | `09-criaturas.md` | Bestiário do cenário |
 | `10-campanhas.md` | Como estruturar campanhas em Yrth |
+
+### `gurps-cyberpunk-3ed/` — Cyberpunk (~9.500 linhas, 128 páginas)
+
+Suplemento de alta tecnologia (NT8): cyberwear, netrunning, equipamento e campanha.
+
+| Arquivos | Conteúdo |
+|---|---|
+| `02-personagens.md` | Tipos de personagem, vantagens/desvantagens/perícias novas, tabela de empregos |
+| `03-cyberwear.md` | Membros biônicos, implantes, chips, órgãos sensoriais |
+| `04-tecnologia-e-equipamento.md` | Células de energia, armas, blindagem, drogas, tabela de armas |
+| `05-netrunning.md` | Rede, cyberdecks, programas, gelo, combate no ciberespaço |
+| `06-criacao-do-mundo.md` | Corporações, crime, GC, legalidade, sociedade |
+| `07-a-campanha.md` | Como mestrar cyberpunk |
 
 ### Sobre a origem do material
 

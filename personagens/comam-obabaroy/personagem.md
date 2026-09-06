@@ -104,7 +104,13 @@ Notas de regra:
 | Tática | 9 | IQ/D | 4 | Profissionais |
 | Primeiros Socorros | 11 | IQ/F | 4 | Profissionais |
 | Manha | 10 | IQ/M | 4 | Sociais |
-| Jogo | 8 | IQ/M | 1 | Sociais |
+| Árabe (nativa) | 9 | IQ/M | 0 | Línguas |
+| Ânglico | 8 | IQ/M | 1 | Línguas |
+
+**Línguas.** O árabe é a língua nativa (nações islâmicas de Yrth): vem de graça com NH igual
+à IQ. O ânglico, língua franca das terras cristãs, foi comprado em NH 8 — vocabulário
+funcional com sotaque carregado, o suficiente para negociar contrato e xingar em duas línguas,
+mas não para sutilezas. É exatamente o tipo de coisa que rende boa interpretação na mesa.
 
 As duas perícias **Sacar Rápido** atendem à recomendação do arquétipo Mercenário ("uma ou duas
 perícias de armas preferidas, aliadas à respectiva perícia Sacar-Rápido"). A de Flecha cobre
@@ -169,11 +175,12 @@ O alcance e o dano de uma besta são governados pela **ST da arma**, não pela d
 
 Seguido do arquétipo: Reflexos em Combate, Hipoalgia e Riqueza (todas listadas como vantagens
 úteis), Excesso de Confiança (desvantagem típica), o "pequeno aleijão" que o livro cita como
-comum entre mercenários veteranos (Zarolho), as perícias Armeiro, Tática, Cavalgar, Manha e
-Jogo, e o par arma preferida + Sacar Rápido.
+comum entre mercenários veteranos (Zarolho), as perícias Armeiro, Tática, Cavalgar e Manha, e
+o par arma preferida + Sacar Rápido.
 
 Desvios conscientes: **Fanfarronice** e **Hábito Detestável** não constam da lista do
 arquétipo — vêm da personalidade "zoeira" pedida na descrição do personagem, que tem
 prioridade. Ficaram de fora, por falta de pontos: Bom-Senso (que também contradiz o Excesso
-de Confiança), Hierarquia Militar, Recuperação Alígera, Reputação, Estratégia, Liderança e
-Heráldica.
+de Confiança), Hierarquia Militar, Recuperação Alígera, Reputação, Estratégia, Liderança,
+Heráldica e Jogo — este último trocado pelo ânglico, mais útil para um mercenário que aceita
+contrato em terras cristãs.
