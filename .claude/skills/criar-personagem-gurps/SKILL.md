@@ -91,6 +91,9 @@ Extraia do pedido do usuário:
   ver tabela de categorias em `02-criacao-de-personagem.md`) e avise isso no resumo final.
 - **Local de origem** (reino, cidade ou povo de Yrth) — define a língua nativa obrigatória e
   ajuda na história. Se o usuário não disser, escolha algo coerente com o conceito e informe.
+- **Idade** (`idade`, em anos) — **obrigatória**, porque ela limita quantos pontos podem ir
+  para perícias (ver "Idade e o teto de perícias"). Se o usuário não disser, escolha uma idade
+  coerente com o conceito *e* com o repertório que você pretende montar, e informe no resumo.
 - **Conceito**: raça, profissão/arquétipo, cenário (medieval/fantasia de Yrth por padrão,
   já que é o cenário coberto por `livros/gurps-fantasy-3ed/`; ajuste para NT diferente se o
   usuário pedir algo moderno/sci-fi, usando as tabelas de `21-quadros-e-tabelas.md`).
@@ -173,11 +176,51 @@ Limites a respeitar:
 - Desvantagens: até -40 pontos no total (uma única desvantagem grave pode passar disso, ver
   `04-desvantagens.md`).
 - Peculiaridades: até 5, -1 ponto cada.
-- Perícias na criação: máximo 2× a idade do personagem em pontos gastos (irrelevante para a
-  maioria dos adultos, mas vale citar para NPCs jovens).
+- **Perícias na criação: no máximo 2× a idade em pontos** — ver a seção própria logo abaixo.
+  Não é um detalhe de NPC jovem: um personagem com muitas mágicas estoura o teto fácil.
 - Um mago precisa de Aptidão Mágica (vantagem, ver `16-magia.md`) antes de comprar mágicas.
   Mágicas são perícias Mental/Difícil (a maioria) ou Mental/Muito Difícil — use a tabela de
   custo de perícias mentais abaixo.
+
+### Idade e o teto de perícias (obrigatório em todo personagem)
+
+> O número máximo de pontos que um personagem em processo de criação pode usar para comprar
+> Perícias é igual **ao dobro de sua idade**. […] Este limite **não** se aplica às perícias
+> acrescentadas *após* a criação do personagem.
+> — MB, `06-pericias.md`, e a mesma regra em `02-criacao-de-personagem.md`
+
+O raciocínio do livro é que esse número representa todo o treinamento que a pessoa conseguiu
+acumular até entrar em jogo. Portanto:
+
+- **`pontos em perícias + pontos em mágicas ≤ 2 × idade`.** Mágicas *são* perícias e contam no
+  mesmo teto — é justamente aí que o limite costuma estourar, porque um mago com 20 mágicas
+  passa dos 70 pontos sem esforço.
+- Vantagens, desvantagens, peculiaridades e atributos **não** entram nessa conta.
+- Vale o inverso também, e é assim que se usa na prática: depois de fechar a lista de
+  perícias, **a idade mínima do personagem é `ceil(pontos_em_perícias ÷ 2)`**. Se o conceito
+  pedir alguém mais jovem do que isso, corte perícias ou realoque pontos para atributos e
+  vantagens — não "arredonde" a regra.
+
+**Escolha a idade junto com o repertório, não depois.** Um mago de 150 pontos com 98 em
+mágicas e perícias precisa ter no mínimo 49 anos. Um espadachim de 20 anos não passa de 40
+pontos em perícias, por mais que sobre orçamento.
+
+Duas desvantagens ligadas à idade (`04-desvantagens.md`):
+
+- **Idade**: -3 pontos por ano **acima de 50**. Exatamente 50 não custa nada. Acima disso, o
+  personagem precisa fazer as jogadas de envelhecimento (`02-criacao-de-personagem.md`,
+  "Idade e Envelhecimento") arriscando perder atributos — avise o usuário antes de adotar.
+- **Juventude**: -2 pontos por ano abaixo da maioridade (máximo 3 anos, -6). Dá -2 de reação
+  com adultos e precisa ser "recomprada" quando o personagem crescer.
+
+Registre a idade em `idade` no JSON e cite-a no `personagem.md`. O formulário impresso não tem
+campo de idade, então **mencione-a no texto de `aparencia`** ("50 anos, esquelético…") para que
+ela apareça na ficha. Ao **editar** um personagem, reconfira o teto: subir uma perícia ou
+comprar uma mágica nova pode passar do limite da idade dele.
+
+Personagens não-humanos com expectativa de vida diferente (Elfos, Anões) seguem a mesma
+aritmética — o teto é sobre a idade em anos, não sobre a maturidade relativa da raça. Se o
+Mestre quiser flexibilizar isso para um elfo centenário, é decisão dele; a skill não assume.
 
 ### 4. Calcular tudo (ver fórmulas na seção seguinte)
 
@@ -193,19 +236,22 @@ Depois de escolher atributos, vantagens, desvantagens, peculiaridades e perícia
    perícias mentais (ver seção "Línguas").
    **Mágicas também são perícias e contam aqui**, mesmo morando no array `magias` em vez de
    `pericias` (ver seção "Grimório").
-5. **Total gasto = Atributos + Vantagens + Desvantagens + Peculiaridades + Perícias.**
+5. **Confira o teto da idade**: `soma(pericias[].custo) + soma(magias[].custo) ≤ 2 × idade`.
+   Estourou? Ou envelheça o personagem (é quase sempre a saída melhor — mais anos explicam o
+   repertório), ou corte perícias/mágicas. Acima de 50 anos entra a desvantagem Idade.
+6. **Total gasto = Atributos + Vantagens + Desvantagens + Peculiaridades + Perícias.**
    Ajuste perícias/vantagens/atributos iterativamente até `Total gasto == pontos_gastar`
    (ou o mais próximo possível sem ultrapassar; nunca exceda o orçamento). Pontos sobrando
    devem preferencialmente ser investidos em subir o nível de mais uma perícia ou vantagem
-   em vez de ficarem sem uso.
-6. Estatísticas derivadas (Fadiga, Pontos de Vida, Dano Básico, Velocidade Básica,
+   em vez de ficarem sem uso — respeitando o teto do item 5.
+7. Estatísticas derivadas (Fadiga, Pontos de Vida, Dano Básico, Velocidade Básica,
    Deslocamento, Carga, Defesa Passiva, Defesas Ativas) — fórmulas na seção seguinte.
-7. Equipamento: escolha itens condizentes com o conceito e o nível de Riqueza dentro do
+8. Equipamento: escolha itens condizentes com o conceito e o nível de Riqueza dentro do
    dinheiro inicial (`02-criacao-de-personagem.md`, seção Riqueza; preços em
    `21-quadros-e-tabelas.md`). Some o **peso total** (`peso_total`, em kg) e o **custo
    total** (`custo_total`, em $) e recalcule Deslocamento se a Carga mudar de faixa.
    **Armadura sempre montada peça por peça** — ver seção "Armadura peça por peça" abaixo.
-8. Agrupe **perícias**, **equipamento** e **mágicas** por categoria (campo `categoria` em
+9. Agrupe **perícias**, **equipamento** e **mágicas** por categoria (campo `categoria` em
    `pericias[]`, `armas_objetos[]` e `magias[]`) e ordene cada lista por esse campo — a ficha
    e o grimório desenham uma linha em branco a cada troca de categoria. Para equipamento, use
    `Armas` → `Munição` → `Armadura` → `Equipamento`; para mágicas, o **colégio**
@@ -383,6 +429,9 @@ Se o usuário pedir para alterar um personagem já criado:
    uma mudança de atributo, por exemplo, muda Fadiga, Pontos de Vida, Dano Básico,
    Velocidade, Carga e o custo/NH de toda perícia baseada naquele atributo). Para
    conjuradores, uma mudança de IQ ou de Aptidão Mágica muda o NH de **todas** as mágicas.
+   **Reconfira o teto da idade** (`pericias + magias ≤ 2 × idade`): comprar uma mágica nova ou
+   subir uma perícia pode estourá-lo. Se o personagem não tiver `idade` no JSON (fichas
+   antigas), calcule a mínima necessária, escolha uma coerente com a história e grave o campo.
 5. Regrave os quatro arquivos (json, md, jpg, foto-prompt.md) no mesmo lugar, sobrescrevendo.
    Só é preciso reescrever o `foto-prompt.md` se a edição mudou algo visual (aparência,
    raça, equipamento, vantagens/desvantagens físicas) — se for só um ajuste de perícia ou
@@ -545,7 +594,8 @@ ex.: `DX/F`, `IQ/M`, `DX/D`, `IQ/MD`.
   "arquetipo": "string ou null (ex.: 'Cavaleiro (Fantasy)', 'Mago de Combate (Magia)')",
   "foto": "string ou ausente (nome do arquivo de retrato na pasta do personagem)",
   "raca": "string ou null (ex.: 'Anão (Fantasy)')",
-  "aparencia": "string curta",
+  "idade": 30,
+  "aparencia": "string curta (comece pela idade: '30 anos, magro, ...')",
   "historia": "string curta (cabe em 1 linha na ficha; o detalhe completo vai no .md)",
   "data_criacao": "DD/MM/AAAA",
   "sequencia": "string (normalmente '1')",
@@ -617,6 +667,9 @@ Campos que controlam o agrupamento visual na ficha:
   Se o campo for omitido em todos os itens, nenhuma separação é feita.
 - **`custo_total`**: soma em $ do equipamento, escrita na linha "TOTAIS:" ao lado do peso
   total em kg (como no modelo impresso: `TOTAIS: $ 1000    10,5 kg`).
+- **`idade`**: não é desenhada na ficha (o formulário não tem esse campo), mas é o que valida
+  o teto de perícias — `pericias + magias ≤ 2 × idade`. Repita a idade no início de
+  `aparencia` para ela aparecer na imagem.
 - **`magias`**: **omita o array inteiro** se o personagem não conjura. Existindo, ele
   alimenta o grimório (agrupado por `categoria`, o colégio da mágica) e faz o script
   acrescentar a linha `Mágicas (ver grimório)` ao fim das perícias da ficha, com a

@@ -1,16 +1,17 @@
 # Cerdic Meia-Face
 
-**Humano · Mago de Combate (arquétipo do *GURPS Magia*), especialista na Escola do Fogo ·
-150 pontos · Mégalos, Yrth (NT 3)**
+**Humano · 50 anos · Mago de Combate (arquétipo do *GURPS Magia*), especialista na Escola do
+Fogo · 150 pontos · Mégalos, Yrth (NT 3)**
 
 ## Aparência
 
-Homem magro a ponto de parecer doente — os ombros são estreitos, os pulsos finos, e o manto
-sempre sobra nele. Metade do rosto, da têmpora esquerda até o canto da boca, é uma massa de
-tecido cicatricial brilhante que sobe pela cabeça e devora um quarto do couro cabeludo; do
-outro lado o cabelo escuro cresce comprido e sem corte, e ele o penteia para o lado queimado
-sem nunca conseguir esconder nada. A pálpebra esquerda não fecha direito. Quando fala, só
-metade do rosto se move, o que dá ao sorriso um aspecto torto e permanente.
+Homem de cinquenta anos, magro a ponto de parecer doente — os ombros são estreitos, os pulsos
+finos, e o manto sempre sobra nele. Metade do rosto, da têmpora esquerda até o canto da boca,
+é uma massa de tecido cicatricial brilhante que sobe pela cabeça e devora um quarto do couro
+cabeludo; do outro lado o cabelo cresce comprido e sem corte, escuro ainda mas já entremeado
+de cinza, e ele o penteia para o lado queimado sem nunca conseguir esconder nada. A pálpebra
+esquerda não fecha direito. Quando fala, só metade do rosto se move, o que dá ao sorriso um
+aspecto torto e permanente. A cicatriz tem trinta e cinco anos e nunca perdeu o brilho.
 
 Veste um manto e roupas de classe baixa sobre uma coura de couro leve, um barrete puído na
 cabeça e traz o grimório numa sacola a tiracolo. Nos dedos, sempre um pouco de fuligem.
@@ -37,6 +38,12 @@ e nada além dele — o que, segundo a teoria mágica, faz dele um **seletivo** 
 **antagônico** à Água. Cerdic leva isso ao pé da letra e ao extremo: não se lava, não atravessa
 riachos, bebe vinho. As poucas pessoas que o toleram dizem que ele é o mago mais barato de
 contratar em Mégalos, e o único que ninguém contrata duas vezes.
+
+**Foram trinta e cinco anos assim.** Nunca teve mestre, nunca entrou numa guilda, nunca saiu
+dos cortiços por mais de uma estação. O que ele tem hoje — a escola do Fogo inteira, quatro
+mágicas em nível que dispensa gesto e palavra — não é talento precoce: é meia vida de um
+homem sem nada mais para fazer, sentado diante da mesma chama, todo dia, conversando com ela.
+É por isso que ele tem cinquenta anos e não trinta (veja a nota sobre o teto de perícias).
 
 ## Atributos
 
@@ -131,6 +138,14 @@ livro de *representar* o antagonismo à Água.
 | **Mágicas (22, ver grimório)** | — | — | **72** | Mágicas |
 
 **Total em perícias: 98 pontos** (26 em perícias comuns, 72 em mágicas).
+
+**Teto da idade.** O Módulo Básico (`06-pericias.md`) limita os pontos que um personagem pode
+gastar em perícias na criação a **duas vezes a idade dele** — e mágicas contam nesse mesmo
+teto, porque mágicas *são* perícias. Com 98 pontos, Cerdic precisa ter **no mínimo 49 anos**.
+Ele tem **50**: teto de 100, sobram 2 pontos de folga. Cinquenta é também o último ano que não
+custa nada — a desvantagem **Idade** só começa a valer *acima* de 50 (-3 pontos por ano, com
+jogadas de envelhecimento contra os atributos). O limite não vale para perícias compradas
+*depois* da criação: daqui para frente ele evolui normalmente com os pontos de aventura.
 
 **Línguas.** O ânglico é a língua nativa — a língua franca do Império e das terras cristãs —,
 grátis com NH igual à IQ. O latim, NH 15, ele aprendeu sozinho e por necessidade: é a língua
@@ -235,6 +250,8 @@ Na prática:
 | Peculiaridades | -5 |
 | Perícias (26 comuns + 72 em mágicas) | 98 |
 | **Total** | **150** |
+
+Teto de perícias pela idade: 2 × 50 = **100**; gastos **98**. Dentro do limite.
 
 ## Aderência ao arquétipo Mago de Combate (*Magia*, cap. 8)
 
