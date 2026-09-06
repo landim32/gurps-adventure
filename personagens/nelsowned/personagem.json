@@ -36,11 +36,11 @@
     {"nome": "Hábito Detestável (trocadilhos)", "custo": -5}
   ],
   "peculiaridades": [
-    "Solta um \"Aaaah\" antes de qualquer fala séria",
-    "Alinha a barba antes de entrar em cena",
-    "Termina frases tensas com rima involuntária",
-    "Carrega lenço de veludo para \"lágrimas do público\"",
-    "Exige ser chamado de \"Pequeno Gigante da Canção\""
+    "Solta um \"Aaaah\" antes de falar",
+    "Alinha a barba antes de atuar",
+    "Rima frases tensas sem querer",
+    "Lenço de veludo para \"chorar\"",
+    "Só atende por \"Pequeno Gigante\""
   ],
   "armas_objetos": [
     {"item": "Machado grande (2 mãos)", "dano": "2D+2", "tipo": "corte", "qtd": 1, "peso": 4.0, "categoria": "Armas"},

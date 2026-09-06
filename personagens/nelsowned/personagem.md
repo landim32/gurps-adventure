@@ -71,11 +71,11 @@ Notas de arbitragem:
 
 ## Peculiaridades
 
-1. Solta um "Aaaah" dramático antes de qualquer fala séria.
-2. Alinha a barba com cuidado antes de entrar em cena (ou em combate).
-3. Termina frases tensas com uma rima involuntária.
-4. Carrega um lenço de veludo só para "as lágrimas do público".
-5. Exige ser chamado de "Pequeno Gigante da Canção".
+1. Solta um "Aaaah" dramático antes de qualquer fala séria (na ficha: "antes de falar").
+2. Alinha a barba com cuidado antes de entrar em cena ou em combate (na ficha: "antes de atuar").
+3. Termina frases tensas com uma rima involuntária (na ficha: "sem querer").
+4. Carrega um lenço de veludo só para "as lágrimas do público" (na ficha: "para 'chorar'").
+5. Exige ser chamado de "Pequeno Gigante da Canção" (na ficha: "Pequeno Gigante").
 
 **Peculiaridades: -5 pontos**
 
