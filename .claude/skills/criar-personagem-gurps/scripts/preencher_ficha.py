@@ -220,22 +220,25 @@ def achar_foto(pasta: Path, saida: Path):
 
 
 def colar_foto(img, foto_path: Path):
-    """Encaixa a foto no quadro do retrato, preservando a proporcao e centralizando."""
+    """Preenche todo o quadro do retrato, preservando a proporcao e cortando o excesso."""
     x0, y0, x1, y1 = FOTO_BOX
     box_w, box_h = x1 - x0, y1 - y0
     foto = Image.open(foto_path)
     if foto.mode not in ("RGB", "RGBA"):
         foto = foto.convert("RGBA" if "A" in foto.mode else "RGB")
 
-    escala = min(box_w / foto.width, box_h / foto.height)
+    escala = max(box_w / foto.width, box_h / foto.height)
     novo = (max(1, int(foto.width * escala)), max(1, int(foto.height * escala)))
     foto = foto.resize(novo, Image.LANCZOS)
 
-    pos = (x0 + (box_w - foto.width) // 2, y0 + (box_h - foto.height) // 2)
+    esquerda = (foto.width - box_w) // 2
+    topo = (foto.height - box_h) // 2
+    foto = foto.crop((esquerda, topo, esquerda + box_w, topo + box_h))
+
     if foto.mode == "RGBA":
-        img.paste(foto.convert("RGB"), pos, foto.split()[-1])
+        img.paste(foto.convert("RGB"), (x0, y0), foto.split()[-1])
     else:
-        img.paste(foto, pos)
+        img.paste(foto, (x0, y0))
 
 
 def main():
