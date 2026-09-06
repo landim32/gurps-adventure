@@ -7,7 +7,8 @@ description: >
   Mercenário, Ladrão, Clérigo, Trovador, Ranger, Necromante, Mago de Combate, etc.), segue o
   que o livro descreve para aquele arquétipo. Calcula todos os custos e estatísticas
   derivadas, gera a ficha completa em Markdown e uma imagem da Planilha do Personagem
-  preenchida. Use quando o usuário pedir para "criar um personagem de GURPS", "gerar uma
+  preenchida — e, para usuários de magia, também a Ficha para Grimório com as mágicas.
+  Use quando o usuário pedir para "criar um personagem de GURPS", "gerar uma
   ficha", "editar o personagem X", ou algo equivalente, normalmente citando pontos
   (ex.: "100 pontos") e uma descrição do conceito.
 ---
@@ -25,6 +26,12 @@ Ela produz sempre estes artefatos em `personagens/<nome-em-kebab-case>/`:
    na raiz do repositório) preenchida com os dados do personagem.
 3. `foto-prompt.md` — um prompt pronto para gerar um retrato do personagem em um gerador de
    imagens estilo DALL-E (ver seção própria abaixo).
+
+E, **somente quando o personagem for usuário de magia**, mais dois:
+
+4. `grimorio.md` — a lista de mágicas em Markdown, com custo em pontos e notas de regra.
+5. `grimorio.jpg` — a imagem oficial da Ficha para Grimório (`grimorio.jpg`, na raiz do
+   repositório) preenchida — ver "Grimório" abaixo.
 
 Se houver **uma imagem de retrato na pasta do personagem** (ex.: `foto.png`, gerada a partir
 do `foto-prompt.md`), ela é colada automaticamente no quadro de retrato da ficha — ver
@@ -84,6 +91,9 @@ Extraia do pedido do usuário:
   ver tabela de categorias em `02-criacao-de-personagem.md`) e avise isso no resumo final.
 - **Local de origem** (reino, cidade ou povo de Yrth) — define a língua nativa obrigatória e
   ajuda na história. Se o usuário não disser, escolha algo coerente com o conceito e informe.
+- **Idade** (`idade`, em anos) — **obrigatória**, porque ela limita quantos pontos podem ir
+  para perícias (ver "Idade e o teto de perícias"). Se o usuário não disser, escolha uma idade
+  coerente com o conceito *e* com o repertório que você pretende montar, e informe no resumo.
 - **Conceito**: raça, profissão/arquétipo, cenário (medieval/fantasia de Yrth por padrão,
   já que é o cenário coberto por `livros/gurps-fantasy-3ed/`; ajuste para NT diferente se o
   usuário pedir algo moderno/sci-fi, usando as tabelas de `21-quadros-e-tabelas.md`).
@@ -166,11 +176,51 @@ Limites a respeitar:
 - Desvantagens: até -40 pontos no total (uma única desvantagem grave pode passar disso, ver
   `04-desvantagens.md`).
 - Peculiaridades: até 5, -1 ponto cada.
-- Perícias na criação: máximo 2× a idade do personagem em pontos gastos (irrelevante para a
-  maioria dos adultos, mas vale citar para NPCs jovens).
+- **Perícias na criação: no máximo 2× a idade em pontos** — ver a seção própria logo abaixo.
+  Não é um detalhe de NPC jovem: um personagem com muitas mágicas estoura o teto fácil.
 - Um mago precisa de Aptidão Mágica (vantagem, ver `16-magia.md`) antes de comprar mágicas.
   Mágicas são perícias Mental/Difícil (a maioria) ou Mental/Muito Difícil — use a tabela de
   custo de perícias mentais abaixo.
+
+### Idade e o teto de perícias (obrigatório em todo personagem)
+
+> O número máximo de pontos que um personagem em processo de criação pode usar para comprar
+> Perícias é igual **ao dobro de sua idade**. […] Este limite **não** se aplica às perícias
+> acrescentadas *após* a criação do personagem.
+> — MB, `06-pericias.md`, e a mesma regra em `02-criacao-de-personagem.md`
+
+O raciocínio do livro é que esse número representa todo o treinamento que a pessoa conseguiu
+acumular até entrar em jogo. Portanto:
+
+- **`pontos em perícias + pontos em mágicas ≤ 2 × idade`.** Mágicas *são* perícias e contam no
+  mesmo teto — é justamente aí que o limite costuma estourar, porque um mago com 20 mágicas
+  passa dos 70 pontos sem esforço.
+- Vantagens, desvantagens, peculiaridades e atributos **não** entram nessa conta.
+- Vale o inverso também, e é assim que se usa na prática: depois de fechar a lista de
+  perícias, **a idade mínima do personagem é `ceil(pontos_em_perícias ÷ 2)`**. Se o conceito
+  pedir alguém mais jovem do que isso, corte perícias ou realoque pontos para atributos e
+  vantagens — não "arredonde" a regra.
+
+**Escolha a idade junto com o repertório, não depois.** Um mago de 150 pontos com 98 em
+mágicas e perícias precisa ter no mínimo 49 anos. Um espadachim de 20 anos não passa de 40
+pontos em perícias, por mais que sobre orçamento.
+
+Duas desvantagens ligadas à idade (`04-desvantagens.md`):
+
+- **Idade**: -3 pontos por ano **acima de 50**. Exatamente 50 não custa nada. Acima disso, o
+  personagem precisa fazer as jogadas de envelhecimento (`02-criacao-de-personagem.md`,
+  "Idade e Envelhecimento") arriscando perder atributos — avise o usuário antes de adotar.
+- **Juventude**: -2 pontos por ano abaixo da maioridade (máximo 3 anos, -6). Dá -2 de reação
+  com adultos e precisa ser "recomprada" quando o personagem crescer.
+
+Registre a idade em `idade` no JSON e cite-a no `personagem.md`. O formulário impresso não tem
+campo de idade, então **mencione-a no texto de `aparencia`** ("50 anos, esquelético…") para que
+ela apareça na ficha. Ao **editar** um personagem, reconfira o teto: subir uma perícia ou
+comprar uma mágica nova pode passar do limite da idade dele.
+
+Personagens não-humanos com expectativa de vida diferente (Elfos, Anões) seguem a mesma
+aritmética — o teto é sobre a idade em anos, não sobre a maturidade relativa da raça. Se o
+Mestre quiser flexibilizar isso para um elfo centenário, é decisão dele; a skill não assume.
 
 ### 4. Calcular tudo (ver fórmulas na seção seguinte)
 
@@ -184,22 +234,28 @@ Depois de escolher atributos, vantagens, desvantagens, peculiaridades e perícia
    modificadores (Aptidão Mágica para mágicas, bônus raciais, etc.).
    **Inclua as línguas** — a nativa custa 0 e vem com NH = IQ; as demais seguem a tabela de
    perícias mentais (ver seção "Línguas").
-5. **Total gasto = Atributos + Vantagens + Desvantagens + Peculiaridades + Perícias.**
+   **Mágicas também são perícias e contam aqui**, mesmo morando no array `magias` em vez de
+   `pericias` (ver seção "Grimório").
+5. **Confira o teto da idade**: `soma(pericias[].custo) + soma(magias[].custo) ≤ 2 × idade`.
+   Estourou? Ou envelheça o personagem (é quase sempre a saída melhor — mais anos explicam o
+   repertório), ou corte perícias/mágicas. Acima de 50 anos entra a desvantagem Idade.
+6. **Total gasto = Atributos + Vantagens + Desvantagens + Peculiaridades + Perícias.**
    Ajuste perícias/vantagens/atributos iterativamente até `Total gasto == pontos_gastar`
    (ou o mais próximo possível sem ultrapassar; nunca exceda o orçamento). Pontos sobrando
    devem preferencialmente ser investidos em subir o nível de mais uma perícia ou vantagem
-   em vez de ficarem sem uso.
-6. Estatísticas derivadas (Fadiga, Pontos de Vida, Dano Básico, Velocidade Básica,
+   em vez de ficarem sem uso — respeitando o teto do item 5.
+7. Estatísticas derivadas (Fadiga, Pontos de Vida, Dano Básico, Velocidade Básica,
    Deslocamento, Carga, Defesa Passiva, Defesas Ativas) — fórmulas na seção seguinte.
-7. Equipamento: escolha itens condizentes com o conceito e o nível de Riqueza dentro do
+8. Equipamento: escolha itens condizentes com o conceito e o nível de Riqueza dentro do
    dinheiro inicial (`02-criacao-de-personagem.md`, seção Riqueza; preços em
    `21-quadros-e-tabelas.md`). Some o **peso total** (`peso_total`, em kg) e o **custo
    total** (`custo_total`, em $) e recalcule Deslocamento se a Carga mudar de faixa.
    **Armadura sempre montada peça por peça** — ver seção "Armadura peça por peça" abaixo.
-8. Agrupe **perícias** e **equipamento** por categoria (campo `categoria` em
-   `pericias[]` e em `armas_objetos[]`) e ordene cada lista por esse campo — a ficha desenha
-   uma linha em branco a cada troca de categoria. Para equipamento, use
-   `Armas` → `Munição` → `Armadura` → `Equipamento`.
+9. Agrupe **perícias**, **equipamento** e **mágicas** por categoria (campo `categoria` em
+   `pericias[]`, `armas_objetos[]` e `magias[]`) e ordene cada lista por esse campo — a ficha
+   e o grimório desenham uma linha em branco a cada troca de categoria. Para equipamento, use
+   `Armas` → `Munição` → `Armadura` → `Equipamento`; para mágicas, o **colégio**
+   (Fogo, Proteção, Mente…).
 
 ### Línguas (obrigatório em todo personagem)
 
@@ -283,6 +339,42 @@ Ultra-Modernas", conforme o NT do cenário):
 - Some o peso de **todas** as peças (mais armas e demais itens) para `peso_total` e para
   recalcular a faixa de Carga/Deslocamento.
 
+### Grimório (personagens usuários de magia)
+
+**Se o personagem tiver Aptidão Mágica e ao menos uma mágica comprada, ele ganha um
+grimório** — a Ficha para Grimório oficial (`grimorio.jpg`, na raiz do repositório),
+preenchida do mesmo jeito que a Planilha do Personagem. Vale para magos, clérigos com
+mágicas clericais, bardos com magia e qualquer outro conjurador; personagens sem mágicas
+não têm grimório e nada é gerado.
+
+As mágicas ficam no array `magias[]` do `personagem.json` — **não** em `pericias[]`, que
+encheria a lista de perícias da ficha. Mas mecanicamente **elas continuam sendo perícias**:
+
+- Cada mágica é uma perícia Mental/Difícil (a maioria) ou Mental/Muito Difícil — custo pela
+  tabela de perícias mentais, com a **Aptidão Mágica somando ao NH** (não ao custo).
+- O custo em pontos de cada mágica entra no campo `custo` da própria mágica e **soma em
+  `resumo.pericias`** — o formulário impresso não tem uma linha "Mágicas" no Resumo.
+- Na área de Perícias da ficha, o script escreve sozinho uma linha final
+  `Mágicas (ver grimório)` com a quantidade e o total de pontos. Não escreva essa linha à mão.
+- Respeite os **pré-requisitos** (`gurps-magia-3ed/`, entrada de cada mágica): não compre
+  Bola de Fogo sem Criar Fogo. Registre o pré-requisito na coluna `obs`.
+
+Preencha uma coluna do formulário por campo, consultando a entrada da mágica no livro:
+
+| Coluna impressa | Campo | Conteúdo |
+|---|---|---|
+| Nome e Classe da Mágica | `nome` + `classe` | O script escreve `Nome (Classe)`. Abrevie a classe: `R` Regular, `A` Área, `M` Míssil, `B` Bloqueio, `I` Informação, `E` Especial, `Enc` Encantamento |
+| NH | `nh` | Nível de habilidade final (IQ + níveis comprados + Aptidão Mágica) |
+| Tempo op. | `tempo` | Tempo de execução (`1 seg`, `1-3 seg`, `10 seg`…); a maioria é 1 segundo |
+| Duração | `duracao` | `1 min`, `instant.`, `permanente`… |
+| Custo p/fazer | `custo_fazer` | Custo básico em energia (`2`, `1/dado`, `2/hex`) |
+| Custo p/manter | `custo_manter` | Custo de manutenção (`metade`, `1`, `—` quando não se aplica) |
+| Obs. | `obs` | Pré-requisito, resistência (`Resistida por HT`), dano, limites |
+| Pág. | `pag` | Fonte: `M` (livro de Magia) ou `MB` (Módulo Básico) — a coluna é estreita |
+
+Cabem **45 mágicas por página**; havendo mais, o script gera `grimorio-2.jpg` e assim por
+diante sozinho.
+
 ### 5. Gerar os arquivos de saída
 
 1. Escreva `personagens/<slug>/personagem.json` com o esquema descrito abaixo.
@@ -301,9 +393,22 @@ Ultra-Modernas", conforme o NT do cenário):
      --output personagens/<slug>/ficha.jpg
    ```
 
-5. Confirme ao usuário: nome, conceito, **arquétipo e raça usados como base (e de qual
+5. **Só se o personagem tiver mágicas** (ver "Grimório" acima): escreva
+   `personagens/<slug>/grimorio.md` e rode o script do grimório.
+
+   ```
+   python .claude/skills/criar-personagem-gurps/scripts/preencher_grimorio.py \
+     --data personagens/<slug>/personagem.json \
+     --template grimorio.jpg \
+     --output personagens/<slug>/grimorio.jpg
+   ```
+
+   Sem mágicas no JSON o script não gera nada (só avisa) — não é preciso testar antes.
+
+6. Confirme ao usuário: nome, conceito, **arquétipo e raça usados como base (e de qual
    livro)**, pontos gastos vs. orçamento, qualquer desvio consciente do arquétipo, e os
-   caminhos dos arquivos gerados (ficha em Markdown, imagem da ficha e prompt de imagem).
+   caminhos dos arquivos gerados (ficha em Markdown, imagem da ficha, prompt de imagem e,
+   para conjuradores, o grimório em Markdown e em imagem).
 
 ### Nome do arquivo (slug kebab-case)
 
@@ -322,11 +427,18 @@ Se o usuário pedir para alterar um personagem já criado:
    vantagem, trocar equipamento etc.).
 4. **Recalcule tudo do zero** a partir dos dados atualizados (não apenas o campo alterado —
    uma mudança de atributo, por exemplo, muda Fadiga, Pontos de Vida, Dano Básico,
-   Velocidade, Carga e o custo/NH de toda perícia baseada naquele atributo).
+   Velocidade, Carga e o custo/NH de toda perícia baseada naquele atributo). Para
+   conjuradores, uma mudança de IQ ou de Aptidão Mágica muda o NH de **todas** as mágicas.
+   **Reconfira o teto da idade** (`pericias + magias ≤ 2 × idade`): comprar uma mágica nova ou
+   subir uma perícia pode estourá-lo. Se o personagem não tiver `idade` no JSON (fichas
+   antigas), calcule a mínima necessária, escolha uma coerente com a história e grave o campo.
 5. Regrave os quatro arquivos (json, md, jpg, foto-prompt.md) no mesmo lugar, sobrescrevendo.
    Só é preciso reescrever o `foto-prompt.md` se a edição mudou algo visual (aparência,
    raça, equipamento, vantagens/desvantagens físicas) — se for só um ajuste de perícia ou
    ponto, pode deixar o prompt como está.
+   Se o personagem tiver mágicas, regrave também `grimorio.md` e rode de novo o
+   `preencher_grimorio.py`. Um personagem que **passou a ter** mágicas ganha grimório agora;
+   um que perdeu todas deixa de ter — apague os arquivos órfãos.
 6. Informe ao usuário o que mudou e o novo total de pontos.
 
 ## Prompt de imagem do personagem (`foto-prompt.md`)
@@ -482,7 +594,8 @@ ex.: `DX/F`, `IQ/M`, `DX/D`, `IQ/MD`.
   "arquetipo": "string ou null (ex.: 'Cavaleiro (Fantasy)', 'Mago de Combate (Magia)')",
   "foto": "string ou ausente (nome do arquivo de retrato na pasta do personagem)",
   "raca": "string ou null (ex.: 'Anão (Fantasy)')",
-  "aparencia": "string curta",
+  "idade": 30,
+  "aparencia": "string curta (comece pela idade: '30 anos, magro, ...')",
   "historia": "string curta (cabe em 1 linha na ficha; o detalhe completo vai no .md)",
   "data_criacao": "DD/MM/AAAA",
   "sequencia": "string (normalmente '1')",
@@ -525,6 +638,11 @@ ex.: `DX/F`, `IQ/M`, `DX/D`, `IQ/MD`.
     {"nome": "Ânglico (nativa)", "nh": 10, "tipo": "IQ/M", "custo": 0, "categoria": "Línguas"},
     {"nome": "Latim", "nh": 9, "tipo": "IQ/M", "custo": 1, "categoria": "Línguas"}
   ],
+  "magias": [
+    {"nome": "Criar Fogo", "classe": "A", "nh": 14, "tempo": "1 seg", "duracao": "1 min",
+     "custo_fazer": "2/hex", "custo_manter": "1/hex", "obs": "Pré-req.: Atear Fogo",
+     "pag": "M", "custo": 1, "categoria": "Fogo"}
+  ],
   "resumo": {
     "atributos": 0, "vantagens": 0, "desvantagens": 0,
     "peculiaridades": 0, "pericias": 0, "total": 0
@@ -549,6 +667,13 @@ Campos que controlam o agrupamento visual na ficha:
   Se o campo for omitido em todos os itens, nenhuma separação é feita.
 - **`custo_total`**: soma em $ do equipamento, escrita na linha "TOTAIS:" ao lado do peso
   total em kg (como no modelo impresso: `TOTAIS: $ 1000    10,5 kg`).
+- **`idade`**: não é desenhada na ficha (o formulário não tem esse campo), mas é o que valida
+  o teto de perícias — `pericias + magias ≤ 2 × idade`. Repita a idade no início de
+  `aparencia` para ela aparecer na imagem.
+- **`magias`**: **omita o array inteiro** se o personagem não conjura. Existindo, ele
+  alimenta o grimório (agrupado por `categoria`, o colégio da mágica) e faz o script
+  acrescentar a linha `Mágicas (ver grimório)` ao fim das perícias da ficha, com a
+  quantidade e a soma dos `custo`. Esses pontos precisam estar somados em `resumo.pericias`.
 
 Limites físicos do formulário (não exceder, ou o excesso simplesmente não aparecerá na
 imagem — mas pode continuar no `.md`): 15 linhas de Vantagens/Desvantagens **contando as
@@ -556,7 +681,8 @@ linhas em branco de separação**, 5 de Peculiaridades, ~24 de Armas e Objetos P
 ~44 de Perícias (idem, contando os separadores). Como a armadura agora ocupa
 uma linha por peça (até 6: cabeça, tronco, braços, mãos, pernas, pés), um personagem bem
 equipado com várias armas pode somar 8-10 linhas só de equipamento — ainda bem dentro do
-limite, mas vale considerar ao decidir quantas armas extras incluir.
+limite, mas vale considerar ao decidir quantas armas extras incluir. No grimório o limite é
+de 45 mágicas por página, mas ali o excesso não se perde: gera uma página nova.
 
 ## O script `preencher_ficha.py`
 
@@ -596,9 +722,38 @@ imagem** (o texto longo/explicativo fica no `personagem.md`, que não tem essa l
 | `armas_objetos[].item` | ~24 caracteres | `Coura (tronco)`, `Elmo (cabeça)` | `Armadura de couro leve (Coura)` |
 | `pericias[].nome` | ~26 caracteres | `Espadas de Lâmina Larga` | nomes com especialização muito longa |
 | `aparencia` / `historia` | ~95 caracteres | uma linha de descrição | parágrafos inteiros |
+| `magias[].obs` | ~30 caracteres | `Pré-req.: Atear Fogo` | a descrição inteira da mágica |
 
 Para as peças de armadura, o padrão recomendado é `Nome curto (região)` — ex.: `Coura
 (tronco)`, `Laudel (braços)`, `Coturnos (pés)` — com o DP/RD indo na coluna `tipo`.
+
+## O script `preencher_grimorio.py`
+
+Localizado em `scripts/preencher_grimorio.py`, ao lado do outro. Lê o **mesmo**
+`personagem.json` (só o campo `nome` e o array `magias`) e desenha sobre `grimorio.jpg`:
+
+```
+python .claude/skills/criar-personagem-gurps/scripts/preencher_grimorio.py --data <json> --template grimorio.jpg --output <saida.jpg>
+```
+
+Mesma fonte manuscrita, mesmo encolhimento automático e mesma ancoragem por baseline do
+`preencher_ficha.py` (do qual ele importa `draw_field`). As coordenadas foram calibradas por
+análise de pixel sobre `grimorio.jpg` (2481×3508 px): 46 regras horizontais de y=325 a
+y=3306 com passo de ~66,25 px e divisores verticais em x = 676, 842, 1061, 1280, 1499, 1737,
+2217. Constantes ajustáveis: `TITULAR`, `LINHAS`, `COLUNAS`.
+
+Comportamento: sem `magias` no JSON, apenas avisa e não escreve arquivo; com mais de 45
+mágicas, pagina sozinho (`grimorio.jpg`, `grimorio-2.jpg`…), sem começar página com linha
+em branco de separação.
+
+## Estilo do `grimorio.md`
+
+Só para conjuradores. Título (`# Grimório de <Nome>`), uma linha dizendo de onde vem a
+Aptidão Mágica e qual o nível, e a tabela de mágicas com **as mesmas colunas do formulário**
+(Mágica, Classe, NH, Tempo, Duração, Custo p/fazer, Custo p/manter, Custo em pontos,
+Obs.), agrupada por colégio com um subtítulo por escola. Feche com o total de pontos gastos
+em mágicas e, quando fizer sentido, um parágrafo curto de notas táticas — o que ele conjura
+na abertura de um combate, o que exige preparação, quanto de Fadiga o repertório consome.
 
 ## Estilo do `personagem.md`
 

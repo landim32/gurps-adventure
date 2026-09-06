@@ -69,31 +69,43 @@ custo, o esquema do JSON e as regras de formatação da ficha impressa. Pontos e
   `personagem.json` (**fonte da verdade — releia antes de qualquer edição**), `personagem.md`
   (ficha legível), `ficha.jpg` (planilha oficial preenchida) e `foto-prompt.md` (prompt de
   retrato). Uma imagem na pasta (`foto.png`) é colada automaticamente no quadro de retrato.
+  **Conjuradores ganham mais dois**: `grimorio.md` e `grimorio.jpg` — as mágicas ficam no
+  array `magias[]` do JSON, e a lista de perícias da ficha recebe só uma linha de remissão
+  ao grimório.
 - Ao editar um personagem, **recalcule tudo do zero**: mudar um atributo altera Fadiga, Pontos
   de Vida, Dano Básico, Velocidade, Carga e o NH/custo de toda perícia baseada nele.
 - Decisões de projeto já firmadas: **Sistema Avançado de Combate** (armadura montada peça por
   peça, com DP/RD discriminados por região), arquétipos dos livros seguidos como base
   obrigatória quando citados, e limite de -40 pontos em desvantagens.
 
-### Gerar a imagem da ficha
+### Gerar as imagens (ficha e grimório)
 
-Único comando executável do repositório (Python 3 + Pillow; não há build, lint nem testes):
+Os dois únicos comandos executáveis do repositório (Python 3 + Pillow; não há build, lint
+nem testes):
 
 ```bash
 python .claude/skills/criar-personagem-gurps/scripts/preencher_ficha.py \
   --data personagens/<slug>/personagem.json \
   --template ficha-de-personagem.jpg \
   --output personagens/<slug>/ficha.jpg
+
+python .claude/skills/criar-personagem-gurps/scripts/preencher_grimorio.py \
+  --data personagens/<slug>/personagem.json \
+  --template grimorio.jpg \
+  --output personagens/<slug>/grimorio.jpg
 ```
 
-Opcionais: `--foto <caminho>` para escolher o retrato explicitamente, `--sem-foto` para omiti-lo.
+Opcionais da ficha: `--foto <caminho>` para escolher o retrato explicitamente, `--sem-foto`
+para omiti-lo. O do grimório lê o mesmo JSON e não faz nada se não houver `magias[]`; acima
+de 45 mágicas, pagina sozinho (`grimorio-2.jpg`…).
 
-O script escreve sobre `ficha-de-personagem.jpg` (2481×3508 px) imitando escrita à mão. As
-coordenadas foram calibradas por análise de pixel e **cada campo é ancorado pela baseline da
-linha impressa** — por isso trocar fonte ou corpo não desalinha nada. Se precisar reposicionar
-algo, ajuste as constantes no topo do script (`HEADER`, `ATTR_BOXES`, `DERIVED`, `CARGA_LINES`,
-`DEFESA_PASSIVA`, `DEFESAS_ATIVAS`, `REACAO`, `VANTAGENS`, `PECULIARIDADES`, `ARMAS`,
-`PERICIAS`, `RESUMO`, `FOTO_BOX`) e confira o resultado gerando a ficha de um personagem real.
+Os scripts escrevem sobre `ficha-de-personagem.jpg` e `grimorio.jpg` (ambas 2481×3508 px)
+imitando escrita à mão. As coordenadas foram calibradas por análise de pixel e **cada campo é
+ancorado pela baseline da linha impressa** — por isso trocar fonte ou corpo não desalinha
+nada. Se precisar reposicionar algo, ajuste as constantes no topo do script (`HEADER`,
+`ATTR_BOXES`, `DERIVED`, `CARGA_LINES`, `DEFESA_PASSIVA`, `DEFESAS_ATIVAS`, `REACAO`,
+`VANTAGENS`, `PECULIARIDADES`, `ARMAS`, `PERICIAS`, `RESUMO`, `FOTO_BOX`; no grimório,
+`TITULAR`, `LINHAS`, `COLUNAS`) e confira o resultado gerando a ficha de um personagem real.
 
 ## Mestrando e escrevendo aventuras
 
