@@ -346,6 +346,51 @@
   }
   #nota-dados { margin-top: 13px; padding-top: 11px; border-top: 1px solid var(--line-soft); }
 
+  /* ---------- teste do mestre ---------- */
+
+  .teste { border-top: 1px solid var(--line-soft); padding-top: 14px; margin-top: 14px; }
+  .teste:first-of-type { border-top: 0; padding-top: 0; margin-top: 0; }
+  .teste-topo { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+  .teste-quem { font-weight: 700; font-size: 14.5px; }
+  .teste-pericia { color: var(--ink-soft); font-size: 14px; }
+  .teste-nh {
+    font-family: "JetBrains Mono", ui-monospace, monospace;
+    font-weight: 700; font-size: 13px;
+    color: var(--latao);
+    background: var(--latao-bg);
+    border-radius: 4px;
+    padding: 2px 7px;
+    margin-left: auto;
+    white-space: nowrap;
+  }
+  .teste-motivo { font-size: 13.5px; color: var(--ink-soft); margin: 4px 0 0; }
+  .teste-acao { margin-top: 10px; }
+
+  .teste-resultado {
+    display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+    margin-top: 10px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    background: var(--surface-2);
+  }
+  .teste-resultado .dados {
+    font-family: "JetBrains Mono", ui-monospace, monospace;
+    font-size: 13px; color: var(--ink-soft);
+    font-variant-numeric: tabular-nums;
+  }
+  .teste-resultado .total {
+    font-family: "JetBrains Mono", ui-monospace, monospace;
+    font-weight: 700; font-size: 20px;
+    font-variant-numeric: tabular-nums;
+  }
+  .teste-resultado .veredito { font-weight: 700; font-size: 14.5px; }
+  .teste-resultado.sucesso .veredito, .teste-resultado.sucesso .total { color: var(--verdete); }
+  .teste-resultado.falha .veredito, .teste-resultado.falha .total { color: var(--ink-soft); }
+  .teste-resultado.critico-sucesso { background: var(--verdete-bg); }
+  .teste-resultado.critico-sucesso .veredito, .teste-resultado.critico-sucesso .total { color: var(--verdete); }
+  .teste-resultado.critico-falha { box-shadow: inset 0 0 0 1px var(--ferrugem); }
+  .teste-resultado.critico-falha .veredito, .teste-resultado.critico-falha .total { color: var(--ferrugem); }
+
   .rodape {
     margin-top: 30px; padding-top: 16px;
     border-top: 1px solid var(--line-soft);
@@ -408,6 +453,11 @@
         <ul class="presenca" id="lista-presenca"></ul>
       </section>
 
+      <section class="bloco" id="bloco-testes" hidden aria-labelledby="tit-testes">
+        <p class="rotulo" id="tit-testes">Teste do Mestre</p>
+        <div id="lista-testes"></div>
+      </section>
+
       <section class="bloco" aria-labelledby="tit-dados">
         <p class="rotulo" id="tit-dados">Bandeja de dados</p>
         <div class="dados-linha">
@@ -416,7 +466,7 @@
           <button class="btn secundario" type="button" data-dados="2">2d6</button>
         </div>
         <ul class="rolagens" id="lista-rolagens"></ul>
-        <p class="nota-regra" id="nota-dados">As rolagens aqui são abertas, para todo mundo ver. Os testes que valem são os do Mestre.</p>
+        <p class="nota-regra" id="nota-dados">Rolagens livres, sem NH — para curiosidade ou desempate. Os testes que valem contra uma perícia aparecem em "Teste do Mestre", acima.</p>
       </section>
 
       <section class="bloco" aria-labelledby="tit-fichas">
@@ -512,9 +562,35 @@
   var acoes = [];               // ações da rodada corrente
   var pares = [];               // quem está na mesa agora (room)
   var rolagens = [];            // últimas rolagens abertas
+  var testes = {};              // slug -> {pericia, nh, motivo, rodada, resultado} | null
   var meuSlug = null;
   var db = null, room = null;
   var inscricaoAcoes = null;
+
+  // Regras de Sucesso Decisivo / Falha Crítica (livros/gurps-mb-3ed/21-quadros-e-tabelas.md)
+  function classificarTeste(nh, soma) {
+    var critico = null;
+    if (soma <= 4) critico = "sucesso";
+    else if (soma === 5 && nh >= 15) critico = "sucesso";
+    else if (soma === 6 && nh >= 16) critico = "sucesso";
+    else if (soma === 18) critico = "falha";
+    else if (soma === 17) critico = (nh >= 16) ? null : "falha";
+    else if (soma - nh >= 10) critico = "falha";
+
+    var sucesso = critico === "sucesso" ? true : critico === "falha" ? false : soma <= nh;
+    return { sucesso: sucesso, margem: nh - soma, critico: critico };
+  }
+
+  function rolar3d6() {
+    var vals = new Uint8Array(3);
+    if (window.crypto && window.crypto.getRandomValues) window.crypto.getRandomValues(vals);
+    var dados = [];
+    for (var i = 0; i < 3; i++) {
+      var bruto = (window.crypto && window.crypto.getRandomValues) ? vals[i] : Math.floor(Math.random() * 256);
+      dados.push((bruto % 6) + 1);
+    }
+    return dados;
+  }
 
   try { meuSlug = window.localStorage.getItem("mesa-yrth-pj"); } catch (e) { meuSlug = null; }
   if (meuSlug && !acharPJ(meuSlug)) meuSlug = null;
@@ -596,6 +672,7 @@
         } catch (e) { /* sem armazenamento: segue sem lembrar */ }
         renderEscolha();
         renderEnvio();
+        renderTestes();
         anunciarPresenca();
       });
       caixa.appendChild(b);
@@ -794,6 +871,116 @@
     return d;
   }
 
+  // ------------------------------------------------------------------
+  // Render + resolução: teste do Mestre (pericia x NH, com Sucesso
+  // Decisivo/Falha Crítica conforme 21-quadros-e-tabelas.md)
+  // ------------------------------------------------------------------
+  function rotuloVeredito(res) {
+    if (res.critico === "sucesso") return "Sucesso crítico!";
+    if (res.critico === "falha") return "Falha crítica!";
+    return res.sucesso ? "Sucesso" : "Falha";
+  }
+
+  function classeResultado(res) {
+    if (res.critico === "sucesso") return "teste-resultado critico-sucesso";
+    if (res.critico === "falha") return "teste-resultado critico-falha";
+    return "teste-resultado " + (res.sucesso ? "sucesso" : "falha");
+  }
+
+  function renderTestes() {
+    var pendentes = PERSONAGENS.filter(function (pj) { return !!testes[pj.slug]; });
+    $("bloco-testes").hidden = !pendentes.length;
+    if (!pendentes.length) return;
+
+    var caixa = $("lista-testes");
+    caixa.textContent = "";
+
+    pendentes.forEach(function (pj) {
+      var t = testes[pj.slug];
+      var bloco = document.createElement("div");
+      bloco.className = "teste";
+
+      var topo = document.createElement("div");
+      topo.className = "teste-topo";
+      var quem = document.createElement("span");
+      quem.className = "teste-quem";
+      quem.textContent = pj.nome;
+      var pericia = document.createElement("span");
+      pericia.className = "teste-pericia";
+      pericia.textContent = "— " + t.pericia;
+      var nh = document.createElement("span");
+      nh.className = "teste-nh";
+      nh.textContent = "NH " + t.nh;
+      topo.appendChild(quem);
+      topo.appendChild(pericia);
+      topo.appendChild(nh);
+      bloco.appendChild(topo);
+
+      if (t.motivo) {
+        var motivo = document.createElement("p");
+        motivo.className = "teste-motivo";
+        motivo.textContent = t.motivo;
+        bloco.appendChild(motivo);
+      }
+
+      if (t.resultado) {
+        var res = t.resultado;
+        var caixaRes = document.createElement("div");
+        caixaRes.className = classeResultado(res);
+        var dadosEl = document.createElement("span");
+        dadosEl.className = "dados";
+        dadosEl.textContent = res.dados.join(" + ") + " =";
+        var totalEl = document.createElement("span");
+        totalEl.className = "total";
+        totalEl.textContent = String(res.total);
+        var veredito = document.createElement("span");
+        veredito.className = "veredito";
+        veredito.textContent = rotuloVeredito(res);
+        caixaRes.appendChild(dadosEl);
+        caixaRes.appendChild(totalEl);
+        caixaRes.appendChild(veredito);
+        bloco.appendChild(caixaRes);
+      } else if (pj.slug === meuSlug) {
+        var acaoDiv = document.createElement("div");
+        acaoDiv.className = "teste-acao";
+        var botao = document.createElement("button");
+        botao.type = "button";
+        botao.className = "btn";
+        botao.textContent = "Rolar " + t.pericia + " (3d6)";
+        botao.addEventListener("click", function () { resolverTeste(pj.slug, t); });
+        acaoDiv.appendChild(botao);
+        bloco.appendChild(acaoDiv);
+      } else {
+        var espera = document.createElement("p");
+        espera.className = "vazio";
+        espera.textContent = "Esperando " + pj.nome + " rolar.";
+        bloco.appendChild(espera);
+      }
+
+      caixa.appendChild(bloco);
+    });
+  }
+
+  function resolverTeste(slug, t) {
+    var dados = rolar3d6();
+    var total = dados.reduce(function (s, n) { return s + n; }, 0);
+    var res = classificarTeste(t.nh, total);
+    res.dados = dados;
+    res.total = total;
+
+    // aplica na tela já, sem esperar o db confirmar
+    testes[slug] = Object.assign({}, t, { resultado: res });
+    renderTestes();
+
+    if (db) {
+      var campo = {};
+      campo[slug] = { resultado: res };
+      db.doc("mesa/testes").update(campo).catch(function () {
+        // sem confirmação: o resultado local já foi mostrado, o Mestre confere pelo chat se precisar
+      });
+    }
+  }
+
   function renderRolagens() {
     var lista = $("lista-rolagens");
     lista.textContent = "";
@@ -900,6 +1087,7 @@
   renderAcoes();
   renderPresenca();
   renderRolagens();
+  renderTestes();
 
   // ------------------------------------------------------------------
   // db: cena, ações e vitais compartilhados
@@ -951,6 +1139,18 @@
           if (v && typeof v === "object") vitais[pj.slug] = v;
         });
         renderFichas();
+      });
+
+      db.doc("mesa/testes").onSnapshot(function (snap) {
+        var dados = snap.exists ? (snap.data() || {}) : {};
+        testes = {};
+        PERSONAGENS.forEach(function (pj) {
+          var t = dados[pj.slug];
+          if (t && typeof t === "object" && typeof t.pericia === "string" && typeof t.nh === "number") {
+            testes[pj.slug] = t;
+          }
+        });
+        renderTestes();
       });
 
       assinarAcoes(cena.rodada);
