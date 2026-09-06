@@ -1,0 +1,93 @@
+{
+  "nome": "Irmão Kaelric",
+  "jogador": "Henrique",
+  "arquetipo": "Cavaleiro / Palatino — Templário (Fantasy)",
+  "raca": null,
+  "aparencia": "Coloço de ~2,10 m, porte de viking cristão: cabelos e barba castanhos trançados, ombros largos; sobreveste branca com cruz vermelha sobre a malha.",
+  "historia": "Gigante de sangue nórdico, filho caçula de cavaleiros do leste de Mégalos; curado menino por milagre tomista, tomou a cruz templária e vaga provando seu valor.",
+  "data_criacao": "06/09/2026",
+  "sequencia": "4",
+  "pontos_gastar": 150,
+  "pontos_total": 150,
+  "atributos": {
+    "ST": {"valor": 13, "custo": 30},
+    "DX": {"valor": 12, "custo": 20},
+    "IQ": {"valor": 12, "custo": 20},
+    "HT": {"valor": 12, "custo": 20}
+  },
+  "fadiga": 13,
+  "pontos_vida": 12,
+  "dano_basico": {"gdp": "1D", "bal": "2D-1"},
+  "velocidade_basica": 6.0,
+  "deslocamento": 4,
+  "carga": {"nenhuma": 13, "leve": 26, "media": 39, "pesada": 78, "muito_pesada": 130},
+  "defesa_passiva": {"armadura": 3, "escudo": 4, "total": 7},
+  "defesas_ativas": {"esquiva": 4, "aparar": 7, "bloqueio": 7},
+  "reacao": "-2 (porte); +2 cristãos",
+  "vantagens_desvantagens": [
+    {"nome": "Reflexos em Combate", "custo": 15},
+    {"nome": "Aptidão Mágica 1", "custo": 15},
+    {"nome": "Hipoalgia (Limiar de Dor)", "custo": 10},
+    {"nome": "Riqueza (Confortável)", "custo": 10},
+    {"nome": "Patrono: Ordem dos Templários", "custo": 8},
+    {"nome": "Clericato (Templário)", "custo": 5},
+    {"nome": "Código de Honra dos Cavaleiros", "custo": -15},
+    {"nome": "Dever: Ordem dos Templários", "custo": -10},
+    {"nome": "Gigantismo", "custo": -10},
+    {"nome": "Senso de Dever (companheiros)", "custo": -5}
+  ],
+  "peculiaridades": [
+    "Organiza tudo ao redor; odeia desordem",
+    "Questiona a fé em silêncio, mesmo rezando",
+    "Cura inimigo caído, se for seguro",
+    "Argumenta com Deus em voz alta",
+    "Não dorme sem limpar maça e escudo"
+  ],
+  "armas_objetos": [
+    {"item": "Maça", "dano": "2D+2", "tipo": "cont", "qtd": 1, "peso": 2.5, "categoria": "Armas"},
+    {"item": "Escudo grande", "dano": "-", "tipo": "DP4", "qtd": 1, "peso": 12.0, "categoria": "Armas"},
+    {"item": "Camal (cabeça)", "dano": "-", "tipo": "DP3/RD4 (DP1/RD2 perf)", "qtd": 1, "peso": 2.0, "categoria": "Armadura"},
+    {"item": "Cota de malha (tronco)", "dano": "-", "tipo": "DP3/RD4 (DP1/RD2 perf)", "qtd": 1, "peso": 12.0, "categoria": "Armadura"},
+    {"item": "Loriga de couro (braços)", "dano": "-", "tipo": "DP2/RD2", "qtd": 1, "peso": 1.0, "categoria": "Armadura"},
+    {"item": "Cesto de couro (mãos)", "dano": "-", "tipo": "DP2/RD2", "qtd": 1, "peso": 0.0, "categoria": "Armadura"},
+    {"item": "Laudel (pernas)", "dano": "-", "tipo": "DP1/RD1", "qtd": 1, "peso": 1.0, "categoria": "Armadura"},
+    {"item": "Coturnos (pés)", "dano": "-", "tipo": "DP2/RD2", "qtd": 1, "peso": 1.5, "categoria": "Armadura"},
+    {"item": "Sobreveste branca c/ cruz", "dano": "-", "tipo": "-", "qtd": 1, "peso": 0.5, "categoria": "Equipamento"},
+    {"item": "Símbolo sagrado + terço", "dano": "-", "tipo": "-", "qtd": 1, "peso": 0.2, "categoria": "Equipamento"},
+    {"item": "Frasco de óleo santo", "dano": "-", "tipo": "-", "qtd": 1, "peso": 0.3, "categoria": "Equipamento"},
+    {"item": "Kit de primeiros socorros", "dano": "-", "tipo": "-", "qtd": 1, "peso": 1.0, "categoria": "Equipamento"},
+    {"item": "Rações (5 dias)", "dano": "-", "tipo": "-", "qtd": 1, "peso": 1.25, "categoria": "Equipamento"},
+    {"item": "Cantil (1 litro)", "dano": "-", "tipo": "-", "qtd": 1, "peso": 1.0, "categoria": "Equipamento"},
+    {"item": "Manta de lã", "dano": "-", "tipo": "-", "qtd": 1, "peso": 2.5, "categoria": "Equipamento"},
+    {"item": "Cavalo de sela + arreios", "dano": "-", "tipo": "-", "qtd": 1, "peso": 0.0, "categoria": "Equipamento"}
+  ],
+  "peso_total": 38.75,
+  "custo_total": 1760,
+  "pericias": [
+    {"nome": "Machado/Maça", "nh": 14, "tipo": "DX/M", "custo": 8, "categoria": "Combate"},
+    {"nome": "Escudo", "nh": 14, "tipo": "DX/F", "custo": 4, "categoria": "Combate"},
+    {"nome": "Cavalgar (Cavalo)", "nh": 12, "tipo": "DX/M", "custo": 2, "categoria": "Físicas"},
+    {"nome": "Teologia", "nh": 13, "tipo": "IQ/D", "custo": 6, "categoria": "Eruditas"},
+    {"nome": "Filosofia", "nh": 12, "tipo": "IQ/D", "custo": 4, "categoria": "Eruditas"},
+    {"nome": "Diagnose", "nh": 11, "tipo": "IQ/D", "custo": 2, "categoria": "Médicas"},
+    {"nome": "Primeiros Socorros", "nh": 13, "tipo": "IQ/F", "custo": 2, "categoria": "Médicas"},
+    {"nome": "Trato Social", "nh": 13, "tipo": "IQ/F", "custo": 2, "categoria": "Sociais"},
+    {"nome": "Ânglico (nativa)", "nh": 12, "tipo": "IQ/M", "custo": 0, "categoria": "Línguas"},
+    {"nome": "Latim", "nh": 11, "tipo": "IQ/M", "custo": 1, "categoria": "Línguas"}
+  ],
+  "magias": [
+    {"nome": "Dar Força", "classe": "R", "nh": 12, "tempo": "1 seg", "duracao": "permanente", "custo_fazer": "1/PF", "custo_manter": "—", "obs": "Pré-req.: Aptidão Mágica", "pag": "M", "custo": 2, "categoria": "Cura"},
+    {"nome": "Dar Vitalidade", "classe": "R", "nh": 12, "tempo": "1 seg", "duracao": "1 hora", "custo_fazer": "1/HT", "custo_manter": "—", "obs": "Pré-req.: Dar Força", "pag": "M", "custo": 2, "categoria": "Cura"},
+    {"nome": "Cura Superficial", "classe": "R", "nh": 13, "tempo": "1 seg", "duracao": "permanente", "custo_fazer": "1 a 3", "custo_manter": "—", "obs": "Cura 1-3 PV. Pré-req.: Dar Vitalidade", "pag": "M", "custo": 4, "categoria": "Cura"},
+    {"nome": "Cura Profunda", "classe": "R", "nh": 11, "tempo": "1 seg", "duracao": "permanente", "custo_fazer": "1 a 4", "custo_manter": "—", "obs": "MD. Cura até 8 PV. Pré-req.: Cura Superficial", "pag": "M", "custo": 2, "categoria": "Cura"},
+    {"nome": "Despertar", "classe": "A", "nh": 11, "tempo": "1 seg", "duracao": "instant.", "custo_fazer": "1", "custo_manter": "—", "obs": "Anula atordoamento/inconsciência. Pré-req.: Dar Vitalidade", "pag": "M", "custo": 1, "categoria": "Cura"}
+  ],
+  "resumo": {
+    "atributos": 90,
+    "vantagens": 63,
+    "desvantagens": -40,
+    "peculiaridades": -5,
+    "pericias": 42,
+    "total": 150
+  }
+}
