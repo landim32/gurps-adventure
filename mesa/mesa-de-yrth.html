@@ -275,6 +275,18 @@
   .pendentes { margin-top: 13px; font-size: 13.5px; color: var(--ink-soft); }
   .pendentes strong { color: var(--ink); }
 
+  .banner-pronto {
+    margin-top: 13px;
+    padding: 13px 15px;
+    border-radius: 8px;
+    background: var(--verdete-bg);
+    display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
+  }
+  .banner-pronto p {
+    margin: 0; flex: 1 1 auto; min-width: 200px;
+    font-weight: 700; font-size: 14.5px; color: var(--ink);
+  }
+
   /* ---------- trilho ---------- */
 
   .presenca { list-style: none; margin: 0; padding: 0; display: grid; gap: 9px; }
@@ -442,6 +454,10 @@
         <p class="rotulo" id="tit-acoes">Ações enviadas</p>
         <div class="acoes" id="lista-acoes"></div>
         <p class="pendentes" id="pendentes"></p>
+        <div class="banner-pronto" id="banner-pronto" hidden>
+          <p id="banner-pronto-texto">Rodada completa.</p>
+          <button class="btn" id="btn-mestre-inline" type="button" hidden>Enviar rodada ao Mestre</button>
+        </div>
       </section>
 
     </div>
@@ -566,6 +582,7 @@
   var meuSlug = null;
   var db = null, room = null;
   var inscricaoAcoes = null;
+  var podeEnviarAoMestre = false; // canSendToClaudeSession() respondeu "available"
 
   // Regras de Sucesso Decisivo / Falha Crítica (livros/gurps-mb-3ed/21-quadros-e-tabelas.md)
   function classificarTeste(nh, soma) {
@@ -740,18 +757,39 @@
     var faltam = PERSONAGENS.filter(function (pj) {
       return !acoes.some(function (a) { return a.slug === pj.slug; });
     });
+    var testesFaltando = PERSONAGENS.filter(function (pj) {
+      var t = testes[pj.slug];
+      return t && !t.resultado;
+    });
+
     var pend = $("pendentes");
     pend.textContent = "";
-    if (!faltam.length) {
-      var pronto = document.createElement("strong");
-      pronto.textContent = "Todas as ações estão na mesa — a rodada pode ser resolvida.";
-      pend.appendChild(pronto);
-    } else {
-      pend.appendChild(document.createTextNode("Faltam: "));
+    if (faltam.length) {
+      pend.appendChild(document.createTextNode("Faltam ações: "));
       var forte = document.createElement("strong");
       forte.textContent = faltam.map(function (p) { return p.nome; }).join(", ");
       pend.appendChild(forte);
+    } else if (testesFaltando.length) {
+      pend.appendChild(document.createTextNode("Ações completas. Faltam testes rolar: "));
+      var forteT = document.createElement("strong");
+      forteT.textContent = testesFaltando.map(function (p) { return p.nome; }).join(", ");
+      pend.appendChild(forteT);
+    } else {
+      var pronto = document.createElement("strong");
+      pronto.textContent = "Todas as ações e testes estão na mesa.";
+      pend.appendChild(pronto);
     }
+
+    var completa = !faltam.length && !testesFaltando.length;
+    var banner = $("banner-pronto");
+    banner.hidden = !completa;
+    if (completa) {
+      texto($("banner-pronto-texto"), podeEnviarAoMestre
+        ? "Rodada completa — pronta para o Mestre."
+        : "Rodada completa. Peça para quem tiver esta página aberta ao lado do Claude enviar, ou avise o Mestre no chat.");
+      $("btn-mestre-inline").hidden = !podeEnviarAoMestre;
+    }
+
     renderEnvio();
   }
 
@@ -971,6 +1009,7 @@
     // aplica na tela já, sem esperar o db confirmar
     testes[slug] = Object.assign({}, t, { resultado: res });
     renderTestes();
+    renderAcoes();
 
     if (db) {
       var campo = {};
@@ -1151,6 +1190,7 @@
           }
         });
         renderTestes();
+        renderAcoes();
       });
 
       assinarAcoes(cena.rodada);
@@ -1189,7 +1229,11 @@
       anunciarPresenca();
 
       room.canSendToClaudeSession().then(function (estado) {
-        if (estado === "available") $("bloco-mestre").hidden = false;
+        if (estado === "available") {
+          podeEnviarAoMestre = true;
+          $("bloco-mestre").hidden = false;
+          renderAcoes();
+        }
       }).catch(function () { /* plataforma sem o recurso: painel segue escondido */ });
     });
   } else {
@@ -1203,7 +1247,7 @@
     room.presence({ slug: pj ? pj.slug : null, nome: pj ? pj.nome : null }).catch(function () { /* presença é enfeite: some sem quebrar nada */ });
   }
 
-  $("btn-mestre").addEventListener("click", function () {
+  function enviarAoMestre(mostrarStatus) {
     if (!room) return;
     var pacote = {
       label: "Rodada " + (cena.rodada || 1) + " — " + (cena.titulo || "cena"),
@@ -1211,15 +1255,35 @@
       cena: cena.titulo || "",
       acoes: acoes.slice(0, 12).map(function (a) {
         return { personagem: String(a.personagem || a.slug || ""), acao: String(a.texto || "").slice(0, 600) };
+      }),
+      testes: PERSONAGENS.filter(function (pj) { return testes[pj.slug] && testes[pj.slug].resultado; }).map(function (pj) {
+        var t = testes[pj.slug];
+        return {
+          personagem: pj.nome,
+          pericia: t.pericia,
+          nh: t.nh,
+          dados: t.resultado.dados,
+          total: t.resultado.total,
+          sucesso: t.resultado.sucesso,
+          critico: t.resultado.critico || null
+        };
       })
     };
-    var nota = $("bloco-mestre").querySelector(".nota-regra");
     room.sendToClaudeSession(pacote).then(function () {
-      nota.textContent = "Enviado — confira a conversa com o Claude e mande a mensagem para resolver a rodada.";
+      mostrarStatus("Enviado — confira a conversa com o Claude e mande a mensagem para resolver a rodada.");
     }).catch(function (erro) {
-      if (erro && erro.code === "rate_limited") nota.textContent = "Muitos envios seguidos. Espere alguns segundos e tente de novo.";
-      else nota.textContent = "Não foi possível enviar daqui. Abra esta página ao lado de uma conversa com o Claude.";
+      if (erro && erro.code === "rate_limited") mostrarStatus("Muitos envios seguidos. Espere alguns segundos e tente de novo.");
+      else mostrarStatus("Não foi possível enviar daqui. Abra esta página ao lado de uma conversa com o Claude.");
     });
+  }
+
+  $("btn-mestre").addEventListener("click", function () {
+    var nota = $("bloco-mestre").querySelector(".nota-regra");
+    enviarAoMestre(function (msg) { nota.textContent = msg; });
+  });
+
+  $("btn-mestre-inline").addEventListener("click", function () {
+    enviarAoMestre(function (msg) { texto($("banner-pronto-texto"), msg); });
   });
 })();
 </script>
