@@ -149,6 +149,10 @@ def abrir_capitulo(p, pasta_plano):
 _(o que esta cena virou na mesa: quem estava, o que decidiram, onde acabou. O plano fica
 onde está; aqui vai o que de fato houve, mesmo quando os dois não se parecem.)_
 
+## Narração
+
+_(o que foi lido aos jogadores, na ordem em que foi lido — a skill `narrar` grava aqui)_
+
 ## Acontecimentos
 
 {MARCA.format("acontecimentos")}
@@ -452,7 +456,11 @@ def reindexar(p):
             titulo = t.splitlines()[0].lstrip("# ").strip()
             m = re.search(r"^\*\*(?:Quando|Aberto em):\*\*\s*(.+?)\s*$", t, re.M)
             quando = m.group(1) if m else ""
-            n = len(re.findall(r"^- \*\*", t.split(MARCA.format("acontecimentos"))[-1], re.M))
+            # so entre os marcadores: o README tambem guarda a narracao, e prosa
+            # nenhuma pode ser contada como acontecimento
+            miolo = t.split(MARCA.format("acontecimentos"))[-1]
+            miolo = miolo.split(FIM.format("acontecimentos"))[0]
+            n = len(re.findall(r"^- \*\*", miolo, re.M))
         extras = sorted(f.name for f in x.glob("*")
                         if f.is_file() and f.name != "README.md")
         linhas.append(f"- [{titulo}]({x.name}/)" + (f" — {quando}" if quando else "")

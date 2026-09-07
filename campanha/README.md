@@ -49,5 +49,5 @@ travessia do deserto é feita a IQ-5 e vai custar dias.
 ## Histórico
 
 <!-- indice:historico -->
-- [1. Encontro na Taberna — como aconteceu](01-encontro-na-taberna/) — 06/09/2026
+- [1. Encontro na Taberna — como aconteceu](01-encontro-na-taberna/) — 06/09/2026 · 1 acontecimento(s)
 <!-- /indice:historico -->

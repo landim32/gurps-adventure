@@ -114,11 +114,19 @@ plano em `campanha/plano/`, dividido em capítulos no padrão de
 `livros/gurps-mb-3ed/23-caravana-para-ein-arris.md`, e o que de fato aconteceu na mesa em
 `campanha/historico/`. Campanhas encerradas ficam em `historico/campanhas/`.
 
+**Dado se rola pela skill `roll`**, nunca de cabeça:
+`python .claude/skills/roll/scripts/roll.py 1d+1` (aceita `3d`, `2D-1`, `2Dx10`). Relate o
+que o script imprimiu — não invente resultado, não role de novo porque saiu ruim. Skill
+nova que precise de dado importa o `d6()` de lá em vez de chamar `random`.
+
 As **regras de combate autônomo** vieram das duas aventuras originais do dono do projeto
 (hoje só em `backup/`, fora do versionamento; a primeira delas virou a campanha *Gélido
 Lamento*) e valem como padrão ao mestrar:
 
-- teste de reação entre cada jogador e cada NPC;
+- teste de reação entre cada jogador e cada NPC — é a skill `reacao`, que rola todos os
+  pares de uma vez e guarda o resultado em `campanha/NN-.../reacoes.json`; **leia esse
+  arquivo antes de interpretar qualquer NPC**, e nunca role de novo um par que já tem
+  resultado;
 - NPCs atacam primeiro com armas de longo alcance e só partem para o combate de perto quando a
   munição acaba;
 - alvo prioritário: o personagem mais próximo; depois o de pior reação; depois, entre os que já

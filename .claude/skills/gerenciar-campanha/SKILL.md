@@ -52,7 +52,7 @@ campanha/                     a campanha ATIVA (só existe uma)
       npcs.md                 quem aparece nela
 
   01-<capitulo>/              O QUE ESTÁ ACONTECENDO — mexido durante o jogo
-    README.md                 como a cena de fato foi + acontecimentos
+    README.md                 a cena como foi + narração lida + acontecimentos
     <mapa>-mesa.png           o mapa daquele capítulo, com as posições
     <mapa>-movimentos.json    o histórico das movimentações
 
