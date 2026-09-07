@@ -94,7 +94,8 @@ Quem interpreta o número é quem pediu a rolagem, com o livro na mão:
 
 | Precisa de | Onde está |
 |---|---|
-| Sucesso decisivo e falha crítica | `livros/gurps-mb-3ed/09-testes-de-habilidade.md` |
+| Teste de perícia ou atributo, com crítico | a skill **`teste-nh`** — faz tudo isso pronto |
+| A regra crua de sucesso decisivo e falha crítica | `livros/gurps-mb-3ed/09-testes-de-habilidade.md` |
 | Disputa de Habilidades | mesmo arquivo, "Disputa de Habilidades" |
 | Tabela de Reações (as oito faixas) | `livros/gurps-mb-3ed/21-quadros-e-tabelas.md` |
 | Bônus de dano por tipo (corte +50%, perfuração ×2, **depois** da RD) | `livros/gurps-mb-3ed/07-equipamento-e-carga.md` |
