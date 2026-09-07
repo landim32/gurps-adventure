@@ -1,5 +1,8 @@
 # 1. Encontro na Taberna
 
+**Mapa:** `cenarios/taberna3.json`
+**Local:** Taberna do porto, Wallace (Caithness)
+
 A campanha abre no meio de uma noite comum: os personagens estão bebendo numa taberna de
 Wallace. **Não anuncie que é uma campanha de mortos-vivos.** Deixe-os pedir bebida,
 conversar e se apresentar por dois ou três minutos de mesa. Então a porta se abre.
@@ -29,6 +32,7 @@ Personagem surpreso não tem defesa ativa no turno em que é atacado.
 
 Um só. A cena não é para ser difícil: é para estabelecer que os mortos se levantam e que
 **não param quando feridos** — Hipoalgia, que ignora o redutor por choque de ferimento.
+
 Deixe um personagem acertar um bom golpe e o morto-vivo continuar vindo. É esse o momento
 em que a mesa entende o que está acontecendo.
 

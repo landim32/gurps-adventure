@@ -316,8 +316,9 @@ def renderizar(dados, indice, saida, raiz, alpha):
 def main():
     ap = argparse.ArgumentParser(
         description="Poe PJs e NPCs num mapa com grid, com aura azul/vermelha.")
-    ap.add_argument("--indice", required=True,
-                    help="JSON de hexagonos gerado por add-grid-hex")
+    ap.add_argument("--indice", default="",
+                    help="JSON de hexagonos da add-grid-hex. Sem isto, usa o mapa que o "
+                         "capitulo atual declara no plano")
     ap.add_argument("--pj", action="append", default=[],
                     help='"Nome em I5 olhando para H5" (repetivel)')
     ap.add_argument("--npc", action="append", default=[],
@@ -334,12 +335,28 @@ def main():
                     help="Restaura o estado logo depois do passo N")
     args = ap.parse_args()
 
-    indice = Path(args.indice)
+    raiz = Path(args.raiz).resolve()
+
+    if args.indice:
+        indice = Path(args.indice)
+    else:
+        # o plano da cena diz qual cenario ela usa: campanha.py mapa --capitulo N
+        declarado = estado_da_campanha(raiz).get("capitulo_atual_mapa")
+        if not declarado:
+            raise SystemExit(
+                "Nao sei que mapa usar. Passe --indice, ou declare o cenario no plano:\n"
+                "  campanha.py mapa --capitulo N --mapa cenarios/<slug>.json")
+        indice = Path(declarado)
+        if not indice.is_file():
+            indice = raiz / declarado
+        print(f"Mapa     : {declarado} (declarado no plano do capítulo)")
+
+    if not indice.is_file():
+        raise SystemExit(f"Nao achei {indice}.")
     dados = json.loads(indice.read_text(encoding="utf-8"))
     if "hexagonos" not in dados:
         raise SystemExit(f"{indice} nao e um indice de add-grid-hex "
                          "(rode aplicar_grid.py no cenario primeiro).")
-    raiz = Path(args.raiz).resolve()
     hexes = dados["hexagonos"]
     metro_px = dados["metro_px"]
 

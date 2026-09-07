@@ -68,18 +68,94 @@ def ler_meta(p):
     return meta, texto
 
 
-def pasta_do_capitulo(p, numero):
-    """A pasta plano/NN-... do capitulo, pelo numero."""
+def _por_numero(base, numero):
     if numero in (None, "", "—"):
         return None
     try:
         n = int(str(numero).strip())
     except ValueError:
         return None
-    for d in sorted((p / "plano").glob("*")):
+    for d in sorted(base.glob("*")):
         if d.is_dir() and d.name.startswith(f"{n:02d}-"):
             return d
     return None
+
+
+def pasta_do_capitulo(p, numero):
+    """plano/NN-... — o que foi PLANEJADO para o capitulo. Escrito uma vez, na criacao."""
+    return _por_numero(p / "plano", numero)
+
+
+def pasta_de_jogo(p, numero):
+    """campanha/NN-... — o que ESTA ACONTECENDO no capitulo. Mexida enquanto ele e o atual.
+
+    Mesmo nome da pasta do plano, um nivel acima: plano/03-fechem-os-portoes é o que se
+    imaginou; 03-fechem-os-portoes é o que a mesa fez com isso.
+    """
+    return _por_numero(p, numero)
+
+
+def meta_do_capitulo(pasta):
+    """Le os campos '**Campo:** valor' do cabecalho de um capitulo do plano."""
+    rd = pasta / "README.md" if pasta else None
+    if not rd or not rd.is_file():
+        return {}
+    texto = rd.read_text(encoding="utf-8")
+    # so o cabecalho, antes da primeira secao — o corpo tem '**Negrito:**' a rodo
+    cabeca = texto.split("\n## ", 1)[0]
+    return {k: v for k, v in re.findall(r"^\*\*(.+?):\*\*\s*(.+?)\s*$", cabeca, re.M)
+            if v not in ("—", "-")}
+
+
+def definir_campo(pasta, campo, valor):
+    """Grava '**Campo:** valor' no cabecalho do capitulo, criando a linha se faltar."""
+    rd = pasta / "README.md"
+    texto = rd.read_text(encoding="utf-8")
+    linha = f"**{campo}:** {valor}"
+    if re.search(rf"^\*\*{re.escape(campo)}:\*\*.*$", texto, re.M):
+        texto = re.sub(rf"^\*\*{re.escape(campo)}:\*\*.*$", linha, texto, count=1,
+                       flags=re.M)
+    else:
+        # entra no fim do bloco de metadados do topo, nao antes dele
+        linhas = texto.split("\n")
+        i = 1
+        while i < len(linhas) and not linhas[i].strip():
+            i += 1
+        while i < len(linhas) and linhas[i].startswith("**"):
+            i += 1
+        linhas.insert(i, linha)
+        texto = "\n".join(linhas)
+
+    # o bloco de metadados precisa de uma linha em branco antes do corpo
+    texto = re.sub(r"(^\*\*[^\n]+\*\*[^\n]*\n)(?=[^\n*#])", r"\1\n", texto,
+                   count=0, flags=re.M)
+    rd.write_text(texto, encoding="utf-8")
+
+
+def abrir_capitulo(p, pasta_plano):
+    """Cria campanha/NN-... espelhando o nome do capitulo do plano, se ainda nao existe."""
+    destino = p / pasta_plano.name
+    if (destino / "README.md").is_file():
+        return destino, False
+    destino.mkdir(parents=True, exist_ok=True)   # pasta pode existir sem README
+    rd = pasta_plano / "README.md"
+    titulo = (rd.read_text(encoding="utf-8").splitlines()[0].lstrip("# ").strip()
+              if rd.is_file() else pasta_plano.name)
+    (destino / "README.md").write_text(f"""# {titulo} — como aconteceu
+
+**Aberto em:** {hoje()}
+**Planejado em:** [`plano/{pasta_plano.name}/`](plano/{pasta_plano.name}/)
+
+_(o que esta cena virou na mesa: quem estava, o que decidiram, onde acabou. O plano fica
+onde está; aqui vai o que de fato houve, mesmo quando os dois não se parecem.)_
+
+## Acontecimentos
+
+{MARCA.format("acontecimentos")}
+_(nada registrado ainda)_
+{FIM.format("acontecimentos")}
+""", encoding="utf-8")
+    return destino, True
 
 
 def proximo_numero(pasta, padrao="*"):
@@ -108,17 +184,27 @@ def cmd_estado(args):
     if ativa:
         meta, _ = ler_meta(p)
         caps = sorted(x.name for x in (p / "plano").glob("*") if x.is_dir())
-        evs = sorted(x.name for x in (p / "historico").glob("*/") if x.is_dir())
+        evs = sorted(x.name for x in p.glob("*")
+                     if x.is_dir() and x.name != "plano")
         atual = meta.get("Capítulo atual", "").strip()
-        pasta_cap = pasta_do_capitulo(p, atual)
+        plano_cap = pasta_do_capitulo(p, atual)
+        jogo_cap = pasta_de_jogo(p, atual)
         dados.update({"nome": meta.get("Campanha", "?"),
                       "estado": meta.get("Estado", "?"),
                       "mestre": meta.get("Mestre", "?"),
                       "inicio": meta.get("Início", "?"),
                       "capitulo_atual": atual or None,
+                      # o que foi planejado
+                      "capitulo_atual_plano":
+                          plano_cap.as_posix() if plano_cap else None,
+                      # cenario que o plano declara para esta cena
+                      "capitulo_atual_mapa":
+                          (meta_do_capitulo(plano_cap).get("Mapa") or "").strip("`")
+                          or None,
+                      # onde as outras skills gravam o que esta acontecendo
                       "capitulo_atual_pasta":
-                          pasta_cap.as_posix() if pasta_cap else None,
-                      "capitulos": caps, "eventos": evs})
+                          jogo_cap.as_posix() if jogo_cap else None,
+                      "capitulos": caps, "em_jogo": evs})
     arquivadas = sorted(x.name for x in (r / ARQUIVO).glob("*") if x.is_dir()) \
         if (r / ARQUIVO).is_dir() else []
     dados["arquivadas"] = arquivadas
@@ -135,7 +221,7 @@ def cmd_estado(args):
               + (f"   Atual: {dados['capitulo_atual']} "
                  f"({dados['capitulo_atual_pasta'] or 'pasta não encontrada'})"
                  if dados["capitulo_atual"] else "   Atual: nenhum"))
-        print(f"Eventos   : {len(dados['eventos'])}")
+        print(f"Em jogo   : {len(dados['em_jogo'])} capítulo(s) com registro")
     if arquivadas:
         print(f"Arquivadas: {', '.join(arquivadas)}")
 
@@ -150,7 +236,6 @@ def cmd_criar(args):
             "So pode haver uma por vez. Encerre a atual com: campanha.py encerrar")
 
     (p / "plano").mkdir(parents=True, exist_ok=True)
-    (p / "historico").mkdir(parents=True, exist_ok=True)
 
     corpo = f"""# {args.nome}
 
@@ -212,7 +297,6 @@ _(a preencher)_
     print(f"Campanha criada : {args.nome}")
     print(f"  {p/'README.md'}")
     print(f"  {p/'plano'}/ ")
-    print(f"  {p/'historico'}/ ")
     print("Agora escreva a Descrição do Cenário e os capítulos do plano.")
 
 
@@ -244,6 +328,9 @@ _(ficha completa: atributos, vantagens, desvantagens, perícias, armas, equipame
     destino = pasta / "README.md"
     destino.write_text(f"""# {n}. {args.titulo}
 
+**Mapa:** {args.mapa or "—"}
+**Local:** {args.local or "—"}
+
 _(cena no padrão de Caravana para Ein Arris: o que os PJs veem, o que só o Mestre sabe,
 os testes com o NH exigido e a consequência de cada falha — inclusive a falha crítica.)_
 
@@ -267,16 +354,21 @@ Ver [`npcs.md`](npcs.md) desta pasta.
 
 
 def cmd_evento(args):
+    """Abre uma cena de jogo que NAO esta no plano — os jogadores inventaram algo.
+
+    Cena que esta no plano nao precisa disto: `atual --capitulo N` ja abre a pasta dela.
+    """
     r = raiz(args)
     p = exige_campanha(r)
-    hist = p / "historico"
-    n = args.numero or proximo_numero(hist, "[0-9]*-*")
-    pasta = hist / f"{n:02d}-{slug(args.titulo)}"
+    usados = [d for d in list(p.glob("*")) + list((p / "plano").glob("*"))
+              if d.is_dir() and re.match(r"^\d+-", d.name)]
+    n = args.numero or (max((int(d.name.split("-")[0]) for d in usados), default=0) + 1)
+    pasta = p / f"{n:02d}-{slug(args.titulo)}"
     if pasta.exists():
         raise SystemExit(f"{pasta} ja existe. Use 'acontecimento --evento {n}'.")
     pasta.mkdir(parents=True)
     cap = f"**Capítulo do plano:** {args.capitulo}\n" if args.capitulo else ""
-    (pasta / "README.md").write_text(f"""# {n}. {args.titulo}
+    (pasta / "README.md").write_text(f"""# {n}. {args.titulo} — como aconteceu
 
 **Quando:** {hoje()}
 {cap}**Onde:** {args.onde or "_(a preencher)_"}
@@ -290,26 +382,35 @@ def cmd_evento(args):
 _(nada registrado ainda)_
 {FIM.format("acontecimentos")}
 """, encoding="utf-8")
-    print(f"Evento criado: {pasta}")
+    print(f"Cena de jogo aberta: {pasta}")
     reindexar(p)
 
 
 def cmd_acontecimento(args):
     r = raiz(args)
     p = exige_campanha(r)
-    pastas = sorted(x for x in (p / "historico").glob("*") if x.is_dir())
-    if not pastas:
-        raise SystemExit("Nenhum evento ainda. Crie com: campanha.py evento --titulo ...")
-    alvo = None
-    chave = str(args.evento)
-    for x in pastas:
-        if x.name == chave or x.name.startswith(f"{int(chave):02d}-") if chave.isdigit() \
-                else x.name == chave or slug(chave) in x.name:
-            alvo = x
-            break
-    if alvo is None:
-        raise SystemExit(f"Nao achei o evento \"{args.evento}\". "
-                         f"Existem: {', '.join(x.name for x in pastas)}")
+    pastas = sorted(x for x in p.glob("*") if x.is_dir() and x.name != "plano")
+
+    if args.evento:
+        alvo, chave = None, str(args.evento)
+        for x in pastas:
+            if (x.name == chave
+                    or (chave.isdigit() and x.name.startswith(f"{int(chave):02d}-"))
+                    or slug(chave) in x.name):
+                alvo = x
+                break
+        if alvo is None:
+            raise SystemExit(f"Nao achei a cena \"{args.evento}\". "
+                             f"Existem: {', '.join(x.name for x in pastas) or '(nenhuma)'}")
+    else:
+        # sem --evento, escreve no capitulo atual: e o caso normal durante a sessao
+        meta, _ = ler_meta(p)
+        alvo = pasta_de_jogo(p, meta.get("Capítulo atual", "").strip())
+        if alvo is None:
+            raise SystemExit(
+                "Nao ha capitulo atual aberto. Rode:\n"
+                "  campanha.py atual --capitulo N\n"
+                "ou aponte a cena com --evento.")
 
     readme = alvo / "README.md"
     texto = readme.read_text(encoding="utf-8")
@@ -339,7 +440,7 @@ def reindexar(p):
         linhas.append("- [NPCs de toda a campanha](plano/npcs.md)")
     conteudo_plano = "\n".join(linhas) or "_(nenhum capítulo ainda)_"
 
-    eventos = sorted(x for x in (p / "historico").glob("*") if x.is_dir())
+    eventos = sorted(x for x in p.glob("*") if x.is_dir() and x.name != "plano")
     linhas = []
     for x in eventos:
         rd = x / "README.md"
@@ -349,11 +450,14 @@ def reindexar(p):
         if rd.is_file():
             t = rd.read_text(encoding="utf-8")
             titulo = t.splitlines()[0].lstrip("# ").strip()
-            m = re.search(r"^\*\*Quando:\*\*\s*(.+?)\s*$", t, re.M)
+            m = re.search(r"^\*\*(?:Quando|Aberto em):\*\*\s*(.+?)\s*$", t, re.M)
             quando = m.group(1) if m else ""
             n = len(re.findall(r"^- \*\*", t.split(MARCA.format("acontecimentos"))[-1], re.M))
-        linhas.append(f"- [{titulo}](historico/{x.name}/) — {quando}"
-                      + (f" · {n} acontecimento(s)" if n else ""))
+        extras = sorted(f.name for f in x.glob("*")
+                        if f.is_file() and f.name != "README.md")
+        linhas.append(f"- [{titulo}]({x.name}/)" + (f" — {quando}" if quando else "")
+                      + (f" · {n} acontecimento(s)" if n else "")
+                      + (f" · {len(extras)} arquivo(s) de mesa" if extras else ""))
     conteudo_hist = "\n".join(linhas) or "_(nada aconteceu ainda)_"
 
     texto = (p / "README.md").read_text(encoding="utf-8")
@@ -382,8 +486,36 @@ def cmd_atual(args):
         fim = texto.index("\n", i)
         texto = texto[:fim + 1] + linha + "\n" + texto[fim + 1:]
     (p / "README.md").write_text(texto, encoding="utf-8")
+    jogo, criada = abrir_capitulo(p, pasta)
+    reindexar(p)
     print(f"Capítulo atual: {pasta.name}")
-    print(f"  {pasta}")
+    print(f"  planejado em : {pasta}")
+    print(f"  em jogo em   : {jogo}" + ("   (pasta aberta agora)" if criada else ""))
+
+
+def cmd_mapa(args):
+    """Declara no plano qual cenario a cena usa. E informacao de plano, nao de jogo."""
+    r = raiz(args)
+    p = exige_campanha(r)
+    pasta = pasta_do_capitulo(p, args.capitulo)
+    if pasta is None:
+        caps = ", ".join(sorted(x.name for x in (p / "plano").glob("*") if x.is_dir()))
+        raise SystemExit(f"Nao achei o capitulo {args.capitulo}. Existem: {caps}")
+
+    alvo = r / args.mapa
+    if not alvo.is_file():
+        print(f"AVISO: {args.mapa} nao existe ainda — anotei mesmo assim.")
+    elif alvo.suffix.lower() != ".json":
+        print(f"AVISO: {args.mapa} nao e o indice .json de hexagonos da add-grid-hex; "
+              "a atualizar-mapa precisa do .json para colar tokens.")
+
+    definir_campo(pasta, "Mapa", f"`{args.mapa}`")
+    if args.local:
+        definir_campo(pasta, "Local", args.local)
+    print(f"Capítulo {pasta.name}")
+    print(f"  Mapa : {args.mapa}")
+    if args.local:
+        print(f"  Local: {args.local}")
 
 
 def cmd_indexar(args):
@@ -435,6 +567,8 @@ def main():
     s = sub.add_parser("capitulo", help="Novo capítulo no plano")
     s.add_argument("--titulo", required=True)
     s.add_argument("--numero", type=int)
+    s.add_argument("--mapa", default="", help="Índice .json do cenário desta cena")
+    s.add_argument("--local", default="", help="Onde a cena se passa, em uma linha")
     s.set_defaults(func=cmd_capitulo)
 
     s = sub.add_parser("evento", help="Novo evento no histórico")
@@ -447,13 +581,20 @@ def main():
     s.set_defaults(func=cmd_evento)
 
     s = sub.add_parser("acontecimento", help="Anota um fato num evento")
-    s.add_argument("--evento", required=True, help="Número (1) ou nome da pasta")
+    s.add_argument("--evento", default="",
+                   help="Número ou nome da cena. Sem isto, usa o capítulo atual")
     s.add_argument("--texto", required=True)
     s.set_defaults(func=cmd_acontecimento)
 
     s = sub.add_parser("atual", help="Marca em que capítulo a mesa está")
     s.add_argument("--capitulo", required=True, help="Número do capítulo (ex.: 3)")
     s.set_defaults(func=cmd_atual)
+
+    s = sub.add_parser("mapa", help="Declara o cenário de um capítulo do plano")
+    s.add_argument("--capitulo", required=True)
+    s.add_argument("--mapa", required=True, help="Ex.: cenarios/taberna3.json")
+    s.add_argument("--local", default="")
+    s.set_defaults(func=cmd_mapa)
 
     s = sub.add_parser("indexar", help="Regera o índice do README")
     s.set_defaults(func=cmd_indexar)

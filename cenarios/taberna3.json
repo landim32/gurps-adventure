@@ -2609,13 +2609,5 @@
       ]
     }
   },
-  "ocupacao": {
-    "I5": {
-      "tipo": "pj",
-      "quem": "Comam Obabaroy",
-      "token": "personagens/comam-obabaroy/token-hex.png",
-      "frente": "SE",
-      "olhando": "K7"
-    }
-  }
+  "ocupacao": {}
 }

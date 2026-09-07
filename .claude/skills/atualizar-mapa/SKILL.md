@@ -51,6 +51,17 @@ A frase é a mesma que se fala na mesa: **`<quem> em <hex> olhando para <hex>`**
 `olhando para` é opcional; sem ele a figura entra como o arquivo está. Repita `--pj` e
 `--npc` quantas vezes quiser.
 
+**`--indice` também é opcional.** Sem ele, a skill usa o cenário que o **plano do capítulo
+atual declara** no cabeçalho (`**Mapa:** cenarios/taberna3.json`), e imprime qual pegou.
+Isso vem da `gerenciar-campanha`:
+
+```
+campanha.py mapa --capitulo 1 --mapa cenarios/taberna3.json
+```
+
+Com o cenário declarado no plano e o capítulo marcado, montar a cena não precisa de nenhum
+caminho na linha de comando — nem de entrada, nem de saída.
+
 | Opção | Para quê |
 |---|---|
 | `--remover I5` | Tira quem está nesse hexágono (repetível) |
@@ -65,16 +76,22 @@ alguém duas vezes no mesmo hexágono substitui, não empilha.
 
 ## Onde a imagem é gravada
 
-A skill **pergunta à `gerenciar-campanha`** onde estamos, e grava o mapa na pasta do
-**capítulo atual**. O mapa da cena fica junto do texto da cena, em vez de solto em
-`cenarios/`.
+A skill **pergunta à `gerenciar-campanha`** onde estamos e grava o mapa na **pasta de jogo
+do capítulo atual** — `campanha/NN-capitulo/`, não a do plano.
+
+A distinção importa: `campanha/plano/NN-.../` guarda o que foi **imaginado** para a cena e
+não se mexe depois; `campanha/NN-.../` guarda o que a mesa **está fazendo** com isso. Um
+mapa com tokens posicionados é registro de jogo, então é ali que ele vive.
 
 ```
-campanha/plano/03-fechem-os-portoes/
+campanha/plano/03-fechem-os-portoes/   ← planejado, intocado
   README.md
   npcs.md
-  taberna3-mesa.png          ← o mapa da mesa
-  taberna3-movimentos.json   ← o histórico das movimentações
+
+campanha/03-fechem-os-portoes/         ← em jogo, é aqui que gravamos
+  README.md                   como a cena foi + acontecimentos
+  taberna3-mesa.png           ← o mapa da mesa
+  taberna3-movimentos.json    ← o histórico das movimentações
 ```
 
 A ordem de decisão é esta:
@@ -82,9 +99,12 @@ A ordem de decisão é esta:
 | Situação | Onde grava |
 |---|---|
 | `--saida` foi passado | Onde você mandou — sempre vence |
-| Campanha ativa **com** capítulo atual | `campanha/plano/NN-capitulo/` |
+| Campanha ativa **com** capítulo atual | `campanha/NN-capitulo/` (a pasta de jogo) |
 | Campanha ativa **sem** capítulo atual | Ao lado do índice, com aviso para rodar `campanha.py atual` |
 | Sem campanha ativa | Ao lado do índice |
+
+A pasta de jogo é criada pela própria `campanha.py atual --capitulo N`, então basta marcar
+o capítulo antes de montar a cena e ela já existe.
 
 O script **imprime o motivo** da escolha em toda execução (`Destino: capítulo 03 da
 campanha`). Se a imagem não apareceu onde você esperava, é essa linha que explica.
