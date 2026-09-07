@@ -9,6 +9,7 @@ arquiva no fim.
     campanha.py capitulo --titulo "A caravana parte"
     campanha.py evento --titulo "Confusão na taberna" --resumo "..."
     campanha.py acontecimento --evento 1 --texto "Comam derruba a mesa"
+    campanha.py imagem-inicial --arquivo cena.png
     campanha.py indexar
     campanha.py encerrar
 
@@ -18,6 +19,7 @@ e a regra de uma campanha ativa por vez.
 """
 import argparse
 import json
+import os
 import re
 import shutil
 import unicodedata
@@ -334,6 +336,7 @@ _(ficha completa: atributos, vantagens, desvantagens, perícias, armas, equipame
 
 **Mapa:** {args.mapa or "—"}
 **Local:** {args.local or "—"}
+**Imagem inicial:** —
 
 _(cena no padrão de Caravana para Ein Arris: o que os PJs veem, o que só o Mestre sabe,
 os testes com o NH exigido e a consequência de cada falha — inclusive a falha crítica.)_
@@ -354,6 +357,9 @@ Ver [`npcs.md`](npcs.md) desta pasta.
     print(f"Capítulo criado: {pasta}/")
     print(f"  README.md — a cena")
     print(f"  npcs.md   — quem aparece nela")
+    print("Gere a imagem inicial da cena (skill imagine) e rode:")
+    print(f"  campanha.py imagem-inicial --arquivo <png> --capitulo {n}")
+    print("Se nao houver geracao de imagem, rode com --prompt.")
     reindexar(p)
 
 
@@ -377,6 +383,7 @@ def cmd_evento(args):
 **Quando:** {hoje()}
 {cap}**Onde:** {args.onde or "_(a preencher)_"}
 **Quem estava:** {args.quem or "_(a preencher)_"}
+**Imagem inicial:** —
 
 {args.resumo or "_(introdução: o que era a cena quando começou)_"}
 
@@ -387,34 +394,94 @@ _(nada registrado ainda)_
 {FIM.format("acontecimentos")}
 """, encoding="utf-8")
     print(f"Cena de jogo aberta: {pasta}")
+    print("Gere a imagem inicial da cena (skill imagine) e rode:")
+    print("  campanha.py imagem-inicial --arquivo <png>")
+    print("Se nao houver geracao de imagem, rode com --prompt.")
     reindexar(p)
+
+
+def pasta_ilustracoes(p, evento=None, capitulo=None):
+    """Ilustrações da cena planejada: pasta do capítulo em plano/.
+
+    Cena fora do plano (evento de jogo sem correspondente) grava na pasta de jogo.
+    """
+    if capitulo not in (None, ""):
+        plano = pasta_do_capitulo(p, capitulo)
+        if plano is None:
+            caps = ", ".join(sorted(x.name for x in (p / "plano").glob("*") if x.is_dir()))
+            raise SystemExit(f"Nao achei o capitulo {capitulo} no plano. Existem: {caps}")
+        return plano
+    if evento:
+        jogo = pasta_jogo_atual(p, evento)
+        candidato = p / "plano" / jogo.name
+        return candidato if candidato.is_dir() else jogo
+    meta, _ = ler_meta(p)
+    atual = meta.get("Capítulo atual", "").strip()
+    plano = pasta_do_capitulo(p, atual)
+    if plano:
+        return plano
+    return pasta_jogo_atual(p, None)
+
+
+def link_desde(origem_dir, arquivo):
+    """Caminho relativo de origem_dir até arquivo, com barras POSIX."""
+    return Path(os.path.relpath(arquivo, origem_dir)).as_posix()
+
+
+def pasta_jogo_atual(p, evento=None):
+    """Pasta de jogo do --evento, ou a do capítulo atual."""
+    pastas = sorted(x for x in p.glob("*") if x.is_dir() and x.name != "plano")
+    if evento:
+        chave = str(evento)
+        for x in pastas:
+            if (x.name == chave
+                    or (chave.isdigit() and x.name.startswith(f"{int(chave):02d}-"))
+                    or slug(chave) in x.name):
+                return x
+        raise SystemExit(f"Nao achei a cena \"{evento}\". "
+                         f"Existem: {', '.join(x.name for x in pastas) or '(nenhuma)'}")
+    meta, _ = ler_meta(p)
+    alvo = pasta_de_jogo(p, meta.get("Capítulo atual", "").strip())
+    if alvo is None:
+        raise SystemExit(
+            "Nao ha capitulo atual aberto. Rode:\n"
+            "  campanha.py atual --capitulo N\n"
+            "ou aponte a cena com --evento.")
+    return alvo
+
+
+def copiar_para_pasta(origem, pasta, nome):
+    src = Path(origem)
+    if not src.is_file():
+        raise SystemExit(f"Nao achei a imagem {src}")
+    dest = pasta / nome
+    if src.resolve() != dest.resolve():
+        shutil.copy2(src, dest)
+    return dest.name
+
+
+def inserir_apos_cabecalho(texto, linha):
+    """Encaixa `linha` logo depois do bloco **Campo:** do topo, se ainda não estiver."""
+    if linha in texto:
+        return texto
+    linhas = texto.split("\n")
+    i = 1
+    while i < len(linhas) and not linhas[i].strip():
+        i += 1
+    while i < len(linhas) and linhas[i].startswith("**"):
+        i += 1
+    extra = [linha] if linhas[i - 1].strip() == "" else ["", linha]
+    if i < len(linhas) and linhas[i].strip():
+        extra.append("")
+    linhas[i:i] = extra
+    return "\n".join(linhas)
 
 
 def cmd_acontecimento(args):
     r = raiz(args)
     p = exige_campanha(r)
-    pastas = sorted(x for x in p.glob("*") if x.is_dir() and x.name != "plano")
-
-    if args.evento:
-        alvo, chave = None, str(args.evento)
-        for x in pastas:
-            if (x.name == chave
-                    or (chave.isdigit() and x.name.startswith(f"{int(chave):02d}-"))
-                    or slug(chave) in x.name):
-                alvo = x
-                break
-        if alvo is None:
-            raise SystemExit(f"Nao achei a cena \"{args.evento}\". "
-                             f"Existem: {', '.join(x.name for x in pastas) or '(nenhuma)'}")
-    else:
-        # sem --evento, escreve no capitulo atual: e o caso normal durante a sessao
-        meta, _ = ler_meta(p)
-        alvo = pasta_de_jogo(p, meta.get("Capítulo atual", "").strip())
-        if alvo is None:
-            raise SystemExit(
-                "Nao ha capitulo atual aberto. Rode:\n"
-                "  campanha.py atual --capitulo N\n"
-                "ou aponte a cena com --evento.")
+    alvo = pasta_jogo_atual(p, args.evento or None)
+    figs = pasta_ilustracoes(p, args.evento or None)
 
     readme = alvo / "README.md"
     texto = readme.read_text(encoding="utf-8")
@@ -423,9 +490,60 @@ def cmd_acontecimento(args):
     if miolo.startswith("_("):
         miolo = ""
     linha = f"- **{agora()}** — {args.texto}"
+    if args.imagem:
+        ext = Path(args.imagem).suffix.lower() or ".png"
+        base = Path(args.nome).stem if args.nome else slug(args.texto)[:48]
+        nome = (base or "acontecimento") + ext
+        if (figs / nome).exists():
+            stem = Path(nome).stem
+            n = 2
+            while (figs / f"{stem}-{n}{ext}").exists():
+                n += 1
+            nome = f"{stem}-{n}{ext}"
+        gravado = copiar_para_pasta(args.imagem, figs, nome)
+        href = link_desde(alvo, figs / gravado)
+        linha += f"\n  ![]({href})"
+    if args.prompt:
+        linha += f"\n  **Prompt da imagem:** {args.prompt.strip()}"
     novo = (miolo + "\n" + linha).strip()
     readme.write_text(bloco(texto, "acontecimentos", novo), encoding="utf-8")
     print(f"Registrado em {alvo.name}: {args.texto[:70]}")
+    if args.imagem:
+        print(f"  imagem : {figs / gravado}")
+    elif args.prompt:
+        print("  prompt anexado (sem imagem gerada)")
+    reindexar(p)
+
+
+def cmd_imagem_inicial(args):
+    """Grava a ilustração de abertura no capítulo do plano."""
+    r = raiz(args)
+    p = exige_campanha(r)
+    alvo = pasta_ilustracoes(p, args.evento or None, args.capitulo or None)
+    if not args.arquivo and not args.prompt:
+        raise SystemExit("Passe --arquivo (png/jpg gerado) ou --prompt.")
+
+    if args.arquivo:
+        nome = copiar_para_pasta(args.arquivo, alvo, "inicio" + (
+            Path(args.arquivo).suffix.lower() or ".png"))
+        definir_campo(alvo, "Imagem inicial", f"`{nome}`")
+        rd = alvo / "README.md"
+        t = inserir_apos_cabecalho(rd.read_text(encoding="utf-8"), f"![]({nome})")
+        rd.write_text(t, encoding="utf-8")
+        print(f"Imagem inicial: {alvo / nome}")
+    if args.prompt:
+        if not args.arquivo:
+            definir_campo(alvo, "Imagem inicial", "_(prompt — não gerada)_")
+        rd = alvo / "README.md"
+        t = rd.read_text(encoding="utf-8")
+        bloco_p = f"**Prompt da imagem inicial:** {args.prompt.strip()}"
+        if "**Prompt da imagem inicial:**" in t:
+            t = re.sub(r"^\*\*Prompt da imagem inicial:\*\*.*$",
+                       bloco_p, t, count=1, flags=re.M)
+        else:
+            t = inserir_apos_cabecalho(t, bloco_p)
+        rd.write_text(t, encoding="utf-8")
+        print("Prompt da imagem inicial anexado ao README do plano.")
     reindexar(p)
 
 
@@ -592,7 +710,24 @@ def main():
     s.add_argument("--evento", default="",
                    help="Número ou nome da cena. Sem isto, usa o capítulo atual")
     s.add_argument("--texto", required=True)
+    s.add_argument("--imagem", default="",
+                   help="PNG/JPG da ilustração; é copiada para a pasta do plano")
+    s.add_argument("--nome", default="",
+                   help="Nome do arquivo na pasta (kebab-case). Sem isto, deriva do texto")
+    s.add_argument("--prompt", default="",
+                   help="Prompt da imagem, quando nao foi possivel gera-la")
     s.set_defaults(func=cmd_acontecimento)
+
+    s = sub.add_parser("imagem-inicial",
+                       help="Grava a ilustração de abertura no capítulo do plano")
+    s.add_argument("--arquivo", default="", help="PNG/JPG gerado (vira inicio.png)")
+    s.add_argument("--prompt", default="",
+                   help="Prompt, quando nao foi possivel gerar a imagem")
+    s.add_argument("--capitulo", default="",
+                   help="Número do capítulo no plano (padrão: o atual)")
+    s.add_argument("--evento", default="",
+                   help="Cena de jogo sem plano, se nao for o capítulo atual")
+    s.set_defaults(func=cmd_imagem_inicial)
 
     s = sub.add_parser("atual", help="Marca em que capítulo a mesa está")
     s.add_argument("--capitulo", required=True, help="Número do capítulo (ex.: 3)")

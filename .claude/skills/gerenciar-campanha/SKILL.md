@@ -4,9 +4,10 @@ description: >
   Cria e conduz a campanha de GURPS em andamento: escreve o plano dividido em capítulos
   no padrão de Caravana para Ein Arris, mantém tudo em campanha/ com um README.md que
   indexa, e registra o histórico do que de fato aconteceu na mesa (cada acontecimento
-  numa pasta de evento). Só existe uma campanha ativa por vez; ao terminar, ela é
-  arquivada em historico/campanhas/. É por esta skill que as outras registram o que
-  aconteceu. Use when the user asks to "criar uma campanha", "começar campanha",
+  numa pasta de evento, com ilustração). Sempre gera a imagem de abertura do capítulo.
+  Só existe uma campanha ativa por vez; ao terminar, ela é arquivada em
+  historico/campanhas/. É por esta skill que as outras registram o que aconteceu.
+  Use when the user asks to "criar uma campanha", "começar campanha",
   "registrar o que aconteceu", "anotar na campanha", "encerrar a campanha", ou
   /gerenciar-campanha.
 ---
@@ -35,8 +36,9 @@ o que sobrou do plano. E a separação física é o que garante que ninguém "co
 depois do fato — o plano é o registro do que se pretendia, e vale como documento
 justamente por isso.
 
-**Mapas, tabelas e imagens da mesa vão para a pasta de jogo**, nunca para a do plano. É lá
-que a `atualizar-mapa` grava.
+**Mapas com tokens e o que a partida produziu** vão para a pasta de jogo — é lá que a
+`atualizar-mapa` grava. **Ilustrações da cena planejada** (abertura, batidas do capítulo)
+vão para a pasta do **plano**.
 
 ## Estrutura
 
@@ -50,6 +52,8 @@ campanha/                     a campanha ATIVA (só existe uma)
     01-<capitulo>/
       README.md               a cena como foi imaginada
       npcs.md                 quem aparece nela
+      inicio.png              ilustração de abertura (sem PJs)
+      <batida>.png            ilustração de um momento planejado
 
   01-<capitulo>/              O QUE ESTÁ ACONTECENDO — mexido durante o jogo
     README.md                 a cena como foi + narração lida + acontecimentos
@@ -79,7 +83,8 @@ python .claude/skills/gerenciar-campanha/scripts/campanha.py <comando>
 | `mapa --capitulo 1 --mapa ...` | Declara o cenário da cena **no plano** |
 | `atual --capitulo 3` | Marca **em que capítulo a mesa está** — outras skills leem isso |
 | `evento --titulo "..."` | Abre uma cena de jogo **que não está no plano** |
-| `acontecimento --texto "..."` | Anota um fato no **capítulo atual**, com data e hora |
+| `acontecimento --texto "..."` | Anota um fato no **capítulo atual**, com data e hora. `--imagem` grava no plano |
+| `imagem-inicial --arquivo ...` | Grava a ilustração de abertura **no plano** (`inicio.png`). `--prompt` se não houver geração |
 | `indexar` | Regera os índices do README |
 | `encerrar` | Arquiva em `historico/campanhas/`. Aceita `--desfecho` |
 
@@ -115,6 +120,20 @@ O que importa copiar de lá:
 
 Ambiente é **Yrth** (`livros/gurps-fantasy-3ed/`), como manda o CLAUDE.md: ancore reinos,
 cidades e culturas no que já existe antes de inventar.
+
+### O plano não conhece os PJs
+
+**Nenhum personagem de jogador entra no plano** — nem pelo nome, nem pela ficha, nem
+como se a presença dele fosse certa. A lista de quem vai jogar muda no planejamento, e o
+mesmo plano pode ser reusado com outra mesa.
+
+Escreva "os personagens", "um por jogador", "quem tiver Reflexos em Combate". Ordem de
+combate, Deslocamento e Velocidade Básica **saem na mesa**, das fichas de quem sentou —
+não monte tabela de sequência com nomes. Ilustração do plano: o lugar e os NPCs, nunca
+um PJ.
+
+O grupo da *esta* mesa mora no `campanha/README.md` (Personagens), que é da partida, não
+do plano.
 
 ### Cada capítulo é uma pasta
 
@@ -202,12 +221,19 @@ Marcado o capítulo atual, o registro é uma linha:
 
 ```
 campanha.py acontecimento \
-  --texto "Teste de Reação do anão: 6 — muito ruim. Ele parte para cima."
+  --texto "Teste de Reação do anão: 6 — muito ruim. Ele parte para cima." \
+  --imagem caminho/da/ilustracao.png
 ```
+
+A ilustração é copiada para `plano/NN-.../`; o log na pasta de jogo só aponta para ela.
 
 Sem `--evento`, o fato vai para o **capítulo atual** — é o caso normal durante a sessão.
 Passe `--evento` (número ou nome da pasta) só para anotar em outra cena, corrigindo algo
 depois.
+
+**Todo acontecimento relevante sai com ilustração** (seção Imagens, abaixo). Sem ferramenta
+de geração, passe `--prompt` no lugar de `--imagem` — o prompt fica colado na mesma linha
+do fato.
 
 **Cena que os jogadores inventaram**, fora do plano, ganha pasta própria:
 
@@ -232,6 +258,50 @@ descrição de cenário. O histórico é para consultar, não para transcrever.
 Escreva no passado e em terceira pessoa, curto — uma linha por acontecimento. O detalhe
 longo vai no corpo do README da pasta de jogo, acima da lista.
 
+## Imagens do plano
+
+Ilustração da **cena planejada**: o lugar e os NPCs. Mora em `plano/NN-.../`, junto do
+README da cena — é material do plano, reusável. Antes de gerar, leia a skill **imagine**
+(não copie as regras dela).
+
+**Não desenhe personagem de jogador.** A ilustração tem de funcionar com qualquer grupo.
+
+Duas obrigações:
+
+1. **Imagem inicial**, sempre, ao **escrever** o capítulo no plano (`capitulo --titulo`).
+   Estabelecimento: o lugar, a luz, os NPCs **antes** de qualquer fato. Não é o mapa
+   top-down da `cenario-rpg`.
+2. **Cada batida planejada relevante** (o que a seção de acontecimentos já filtra, quando
+   ainda é plano — a porta que abre, o emboscada) ganha a sua.
+
+Se `inicio.png` já existir na pasta do plano, derive a próxima ilustração com
+`image_edit` a partir dela, para o lugar não mudar de cara.
+
+**Prompt:** um parágrafo em inglês, o mesmo estilo da seção 5 da skill `narrar` (não
+reescreva as regras — leia-as). Cena, não retrato; sem PJ, sem texto na imagem, sem grid.
+`aspect_ratio` 16:9.
+
+Grave no plano:
+
+```
+campanha.py imagem-inicial --arquivo <png-gerado> --capitulo N
+campanha.py acontecimento --texto "..." --imagem <png-gerado>
+```
+
+Cena inventada na mesa, sem pasta no plano: a ilustração cai na pasta de jogo, que é o
+único lugar que ela tem.
+
+**Se não houver como gerar imagem** (ferramenta ausente, bloqueio, falha), **não invente
+que a figura existe.** Escreva o prompt e anexe-o ao texto:
+
+```
+campanha.py imagem-inicial --prompt "Digital illustration, ..." --capitulo N
+campanha.py acontecimento --texto "..." --prompt "Digital illustration, ..."
+```
+
+O README do plano fica com o prompt colado, pronto para o Mestre colar num gerador. Mostre
+o prompt também na resposta, em bloco de código.
+
 ## O capítulo atual
 
 `atual --capitulo 3` faz três coisas:
@@ -244,8 +314,8 @@ longo vai no corpo do README da pasta de jogo, acima da lista.
 É assim que **outras skills sabem onde gravar o que produzem**: a `atualizar-mapa`, por
 exemplo, põe a imagem da mesa em `campanha/03-fechem-os-portoes/`.
 
-**Marque o capítulo ao começar a sessão.** É um comando só, e sem ele as outras skills
-gravam num lugar genérico e avisam.
+**Marque o capítulo ao começar a sessão.** A ilustração de abertura já deveria estar no
+plano; sem capítulo marcado, as outras skills gravam num lugar genérico e avisam.
 
 `estado --json` devolve:
 
@@ -269,9 +339,11 @@ Ao escrever uma skill nova que deva alimentar a campanha, inclua isto nela:
 > produziu de relevante:
 > ```
 > python .claude/skills/gerenciar-campanha/scripts/campanha.py acontecimento \
->   --texto "<uma linha, no passado>"
+>   --texto "<uma linha, no passado>" \
+>   --imagem <png>   # ou --prompt "..." se não houver geração
 > ```
-> Não havendo campanha ativa, siga sem registrar — não crie campanha por conta própria.
+> A imagem (ou o prompt) segue a seção **Imagens do plano** desta skill. Não havendo
+> campanha ativa, siga sem registrar — não crie campanha por conta própria.
 
 E, se a skill **produz arquivo** (imagem, mapa, tabela), grave-o na pasta do capítulo
 atual (`campanha/NN-.../`, **não** a do plano), lendo `capitulo_atual_pasta` do mesmo
