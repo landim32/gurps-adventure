@@ -1,0 +1,4 @@
+# Dono do repositório. Vale para tudo, e é o que faz a regra de proteção da main
+# exigir a aprovação dele em qualquer pull request — nenhum colaborador aprova o
+# próprio PR.
+* @landim32
