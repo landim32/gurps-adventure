@@ -167,13 +167,21 @@ mesmo JSON, não faz nada se o personagem não tiver mágicas e pagina sozinho a
 
 ## Aventuras
 
-`Aventura de GURPS.md` e `Gurps Masmorra Aleatória.md` são as aventuras já escritas para esta
-mesa e definem o estilo da casa: uma seção de regras e perícias úteis, seguida da aventura em
-cenas encadeadas, com os testes e as consequências de falha explícitos — inclusive falha
-crítica — para que cada cena possa ser arbitrada sem improviso.
+A campanha em andamento fica em **`campanha/`**, com o `README.md` indexando tudo: as
+informações básicas, os personagens, o **plano** dividido em capítulos e o **histórico** do
+que de fato aconteceu na mesa. Quando termina, ela é arquivada inteira em
+`historico/campanhas/`. Só existe uma campanha ativa por vez, e quem cuida disso é a skill
+`gerenciar-campanha`.
 
-As duas compartilham um conjunto de **regras de combate autônomo** que vale como padrão ao
-mestrar: teste de reação entre cada jogador e cada NPC; NPCs usam armas de longo alcance
+O plano segue o formato de *Caravana para Ein Arris*
+(`livros/gurps-mb-3ed/23-caravana-para-ein-arris.md`): uma Descrição do Cenário que pode ser
+lida aos jogadores, e depois capítulos como cenas encadeadas, com os testes e as
+consequências de falha explícitos — inclusive falha crítica — para que cada cena possa ser
+arbitrada sem improviso.
+
+A campanha atual, **Gélido Lamento**, foi adaptada de uma aventura escrita pelo dono do
+projeto. Dela vem também um conjunto de **regras de combate autônomo** que vale como padrão
+ao mestrar: teste de reação entre cada jogador e cada NPC; NPCs usam armas de longo alcance
 primeiro e só partem para o combate de perto quando a munição acaba; miram no personagem mais
 próximo, depois no de pior reação, depois em quem lhes causou mais dano; e os pontos de
 impacto são decididos nos dados.

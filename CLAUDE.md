@@ -109,9 +109,14 @@ nada. Se precisar reposicionar algo, ajuste as constantes no topo do script (`HE
 
 ## Mestrando e escrevendo aventuras
 
-`Aventura de GURPS.md` e `Gurps Masmorra Aleatória.md` (raiz) são aventuras já escritas pelo
-dono do projeto e definem o estilo da casa. Ambas abrem com as mesmas **regras de combate
-autônomo**, que valem como padrão ao mestrar:
+A campanha ativa vive em `campanha/` e é conduzida pela skill `gerenciar-campanha` — o
+plano em `campanha/plano/`, dividido em capítulos no padrão de
+`livros/gurps-mb-3ed/23-caravana-para-ein-arris.md`, e o que de fato aconteceu na mesa em
+`campanha/historico/`. Campanhas encerradas ficam em `historico/campanhas/`.
+
+As **regras de combate autônomo** vieram das duas aventuras originais do dono do projeto
+(hoje só em `backup/`, fora do versionamento; a primeira delas virou a campanha *Gélido
+Lamento*) e valem como padrão ao mestrar:
 
 - teste de reação entre cada jogador e cada NPC;
 - NPCs atacam primeiro com armas de longo alcance e só partem para o combate de perto quando a
