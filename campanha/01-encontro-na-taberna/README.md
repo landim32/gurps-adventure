@@ -28,4 +28,6 @@ O que vocês fazem?
 
 <!-- indice:acontecimentos -->
 - **06/09/2026 23:16** — [narração 1] Apresentou a taberna e os fregueses: Hoel, Giles e a filha, o guarda no balcão, Donnwulf no braço-de-ferro, a viajante do canto; primeiro presságio (os cães)
+- **07/09/2026 16:17** — A primeira onda pela porta sul passou a ser um Morto-Vivo 1 por jogador.
+  ![](../plano/01-encontro-na-taberna/mortos-vivos-na-porta.jpg)
 <!-- /indice:acontecimentos -->

@@ -7,3 +7,8 @@ gurps-3e-magia-biblioteca-elfica.pdf
 backup/
 
 __pycache__/
+
+# O plano da campanha e material do Mestre: os capitulos por vir, as fichas dos
+# NPCs, o que cada situacao esconde. Fica so no disco local, fora do GitHub.
+# O que a mesa jogou continua versionado em campanha/NN-.../
+campanha/plano/
