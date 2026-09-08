@@ -18,13 +18,20 @@ Wallace, a cidade fronteiriça de Caithness, caiu numa noite. Os mortos levantar
 | Irmão Kaelric | Henrique | Cavaleiro / Palatino — Templário (*Fantasy*) | 150 | [ficha](../personagens/irmao-kaelric/personagem.md) |
 | Jah Kagadu | Ricardo | Ladrão (*Fantasy*) | 150 | [ficha](../personagens/jah-kagadu/personagem.md) |
 | NelsOwned | André | Trovador (*Fantasy*) | 150 | [ficha](../personagens/nelsowned/personagem.md) |
+| Negrum Carneiriums | Bruno | Guerreiro tribal | 150 | [ficha](../personagens/negrum-carneiriums/personagem.md) |
 
 O grupo cobre bem o que a campanha exige: um mercenário para a linha de frente, um
-templário para os mortos-vivos, um ladrão para a Furtividade dos capítulos 2 e 13, e um
-trovador para o teste de reação com Zorah no capítulo 12.
+templário para os mortos-vivos, um ladrão para a Furtividade dos capítulos 2 e 13, um
+trovador para o teste de reação com Zorah no capítulo 12, e um guerreiro tribal de ST 15
+que é o único do grupo com **Sobrevivência (Deserto) 11** — o que muda os capítulos 7 e 8.
 
-**Ninguém tem Navegação (Terra)** — confira antes do capítulo 7, porque sem ela a
-travessia do deserto é feita a IQ-5 e vai custar dias.
+**Ninguém tem Navegação (Terra)** — confira antes do capítulo 7. A Sobrevivência do Negrum
+resolve água e comida no deserto, mas não resolve o rumo: sem Navegação a travessia é feita
+a IQ-5 e vai custar dias.
+
+**Negrum fala Ânglico em NH 8**, com sotaque forte — a língua dele é o Negrai. Em cena de
+negociação, é ele quem entende menos do que os outros, e isso é material de interpretação,
+não defeito de ficha.
 
 ## Plano
 
@@ -48,6 +55,8 @@ travessia do deserto é feita a IQ-5 e vai custar dias.
 
 ## Histórico
 
+Como as coisas **estão agora**: [`mundo.md`](mundo.md) (ferimentos, itens, relações, o que já se sabe), [`saude.md`](saude.md) (PV, Fadiga e ferimentos que ficam) e [`bolsa.md`](bolsa.md) (o dinheiro de cada um) — leia antes de retomar uma cena ou interpretar um NPC.
+
 <!-- indice:historico -->
-- [1. Encontro na Taberna — como aconteceu](01-encontro-na-taberna/) — 07/09/2026
+- [1. Encontro na Taberna — como aconteceu](01-encontro-na-taberna/) — 07/09/2026 · 20 acontecimento(s) · 6 arquivo(s) de mesa
 <!-- /indice:historico -->

@@ -1,0 +1,665 @@
+{
+  "reacoes": [
+    {
+      "npc": "Hoel Meia-Orelha",
+      "pj": "Comam Obabaroy",
+      "dados": [
+        3,
+        6,
+        6
+      ],
+      "mod": -3,
+      "total": 12,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [3, 6, 6] = 15 - 3 = 12",
+      "detalhe": [
+        "-3 ficha de Comam Obabaroy"
+      ],
+      "contexto": "geral",
+      "local": "A Âncora Quebrada, Wallace",
+      "quando": "07/09/2026 17:54"
+    },
+    {
+      "npc": "Hoel Meia-Orelha",
+      "pj": "Irmão Kaelric",
+      "dados": [
+        3,
+        6,
+        3
+      ],
+      "mod": 0,
+      "total": 12,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [3, 6, 3] = 12",
+      "detalhe": [
+        "-2 ficha de Irmão Kaelric",
+        "+2 cristão de Caithness"
+      ],
+      "contexto": "geral",
+      "local": "A Âncora Quebrada, Wallace",
+      "quando": "07/09/2026 17:54",
+      "atencao": "ficha de Irmão Kaelric: «-2 (porte); +2 cristãos» — confira se a parte condicional vale aqui"
+    },
+    {
+      "npc": "Hoel Meia-Orelha",
+      "pj": "Jah Kagadu",
+      "dados": [
+        6,
+        6,
+        6
+      ],
+      "mod": -2,
+      "total": 16,
+      "faixa": "Muito Bom",
+      "peso": "extremo",
+      "texto": "O NPC tem os personagens em alta conta e será muito gentil e prestativo.",
+      "conta": "3d [6, 6, 6] = 18 - 2 = 16",
+      "detalhe": [
+        "-2 ficha de Jah Kagadu"
+      ],
+      "contexto": "geral",
+      "local": "A Âncora Quebrada, Wallace",
+      "quando": "07/09/2026 17:54"
+    },
+    {
+      "npc": "Hoel Meia-Orelha",
+      "pj": "NelsOwned",
+      "dados": [
+        3,
+        6,
+        2
+      ],
+      "mod": 4,
+      "total": 15,
+      "faixa": "Boa",
+      "peso": "nota",
+      "texto": "O NPC gosta dos personagens e será prestativo dentro do razoável.",
+      "conta": "3d [3, 6, 2] = 11 + 4 = 15",
+      "detalhe": [
+        "+2 ficha de NelsOwned",
+        "+2 encheu a casa com a apresentação"
+      ],
+      "contexto": "geral",
+      "local": "A Âncora Quebrada, Wallace",
+      "quando": "07/09/2026 17:54"
+    },
+    {
+      "npc": "Hoel Meia-Orelha",
+      "pj": "Negrum Carneiriums",
+      "dados": [
+        2,
+        1,
+        2
+      ],
+      "mod": 2,
+      "total": 7,
+      "faixa": "Fraca",
+      "peso": "nota",
+      "texto": "O NPC não se deixará impressionar. Pode se tornar hostil se isso lhe der lucro grande ou houver pouco perigo.",
+      "conta": "3d [2, 1, 2] = 5 + 2 = 7",
+      "detalhe": [
+        "+2 Elegante, mesmo sexo"
+      ],
+      "contexto": "geral",
+      "local": "A Âncora Quebrada, Wallace",
+      "quando": "07/09/2026 17:54"
+    },
+    {
+      "npc": "Giles Mão-de-Prata",
+      "pj": "Comam Obabaroy",
+      "dados": [
+        4,
+        5,
+        1
+      ],
+      "mod": -3,
+      "total": 7,
+      "faixa": "Fraca",
+      "peso": "nota",
+      "texto": "O NPC não se deixará impressionar. Pode se tornar hostil se isso lhe der lucro grande ou houver pouco perigo.",
+      "conta": "3d [4, 5, 1] = 10 - 3 = 7",
+      "detalhe": [
+        "-3 ficha de Comam Obabaroy"
+      ],
+      "contexto": "geral",
+      "local": "A Âncora Quebrada, Wallace",
+      "quando": "07/09/2026 17:54"
+    },
+    {
+      "npc": "Giles Mão-de-Prata",
+      "pj": "Irmão Kaelric",
+      "dados": [
+        5,
+        1,
+        3
+      ],
+      "mod": 0,
+      "total": 9,
+      "faixa": "Fraca",
+      "peso": "nota",
+      "texto": "O NPC não se deixará impressionar. Pode se tornar hostil se isso lhe der lucro grande ou houver pouco perigo.",
+      "conta": "3d [5, 1, 3] = 9",
+      "detalhe": [
+        "-2 ficha de Irmão Kaelric",
+        "+2 cristão de Caithness"
+      ],
+      "contexto": "geral",
+      "local": "A Âncora Quebrada, Wallace",
+      "quando": "07/09/2026 17:54",
+      "atencao": "ficha de Irmão Kaelric: «-2 (porte); +2 cristãos» — confira se a parte condicional vale aqui"
+    },
+    {
+      "npc": "Giles Mão-de-Prata",
+      "pj": "Jah Kagadu",
+      "dados": [
+        5,
+        5,
+        2
+      ],
+      "mod": -2,
+      "total": 10,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [5, 5, 2] = 12 - 2 = 10",
+      "detalhe": [
+        "-2 ficha de Jah Kagadu"
+      ],
+      "contexto": "geral",
+      "local": "A Âncora Quebrada, Wallace",
+      "quando": "07/09/2026 17:54"
+    },
+    {
+      "npc": "Giles Mão-de-Prata",
+      "pj": "NelsOwned",
+      "dados": [
+        2,
+        2,
+        6
+      ],
+      "mod": 4,
+      "total": 14,
+      "faixa": "Boa",
+      "peso": "nota",
+      "texto": "O NPC gosta dos personagens e será prestativo dentro do razoável.",
+      "conta": "3d [2, 2, 6] = 10 + 4 = 14",
+      "detalhe": [
+        "+2 ficha de NelsOwned",
+        "+2 encheu a casa com a apresentação"
+      ],
+      "contexto": "geral",
+      "local": "A Âncora Quebrada, Wallace",
+      "quando": "07/09/2026 17:54"
+    },
+    {
+      "npc": "Giles Mão-de-Prata",
+      "pj": "Negrum Carneiriums",
+      "dados": [
+        3,
+        3,
+        4
+      ],
+      "mod": 2,
+      "total": 12,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [3, 3, 4] = 10 + 2 = 12",
+      "detalhe": [
+        "+2 Elegante, mesmo sexo"
+      ],
+      "contexto": "geral",
+      "local": "A Âncora Quebrada, Wallace",
+      "quando": "07/09/2026 17:54"
+    },
+    {
+      "npc": "Bronwyn",
+      "pj": "Comam Obabaroy",
+      "dados": [
+        4,
+        6,
+        5
+      ],
+      "mod": -3,
+      "total": 12,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [4, 6, 5] = 15 - 3 = 12",
+      "detalhe": [
+        "-3 ficha de Comam Obabaroy"
+      ],
+      "contexto": "geral",
+      "local": "A Âncora Quebrada, Wallace",
+      "quando": "07/09/2026 17:54"
+    },
+    {
+      "npc": "Bronwyn",
+      "pj": "Irmão Kaelric",
+      "dados": [
+        3,
+        2,
+        4
+      ],
+      "mod": 0,
+      "total": 9,
+      "faixa": "Fraca",
+      "peso": "nota",
+      "texto": "O NPC não se deixará impressionar. Pode se tornar hostil se isso lhe der lucro grande ou houver pouco perigo.",
+      "conta": "3d [3, 2, 4] = 9",
+      "detalhe": [
+        "-2 ficha de Irmão Kaelric",
+        "+2 cristão de Caithness"
+      ],
+      "contexto": "geral",
+      "local": "A Âncora Quebrada, Wallace",
+      "quando": "07/09/2026 17:54",
+      "atencao": "ficha de Irmão Kaelric: «-2 (porte); +2 cristãos» — confira se a parte condicional vale aqui"
+    },
+    {
+      "npc": "Bronwyn",
+      "pj": "Jah Kagadu",
+      "dados": [
+        6,
+        6,
+        2
+      ],
+      "mod": -2,
+      "total": 12,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [6, 6, 2] = 14 - 2 = 12",
+      "detalhe": [
+        "-2 ficha de Jah Kagadu"
+      ],
+      "contexto": "geral",
+      "local": "A Âncora Quebrada, Wallace",
+      "quando": "07/09/2026 17:54"
+    },
+    {
+      "npc": "Bronwyn",
+      "pj": "NelsOwned",
+      "dados": [
+        2,
+        6,
+        3
+      ],
+      "mod": 4,
+      "total": 15,
+      "faixa": "Boa",
+      "peso": "nota",
+      "texto": "O NPC gosta dos personagens e será prestativo dentro do razoável.",
+      "conta": "3d [2, 6, 3] = 11 + 4 = 15",
+      "detalhe": [
+        "+2 ficha de NelsOwned",
+        "+2 encheu a casa com a apresentação"
+      ],
+      "contexto": "geral",
+      "local": "A Âncora Quebrada, Wallace",
+      "quando": "07/09/2026 17:54"
+    },
+    {
+      "npc": "Bronwyn",
+      "pj": "Negrum Carneiriums",
+      "dados": [
+        3,
+        1,
+        4
+      ],
+      "mod": 4,
+      "total": 12,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [3, 1, 4] = 8 + 4 = 12",
+      "detalhe": [
+        "+4 Elegante, sexo oposto"
+      ],
+      "contexto": "geral",
+      "local": "A Âncora Quebrada, Wallace",
+      "quando": "07/09/2026 17:54"
+    },
+    {
+      "npc": "Donnwulf",
+      "pj": "Comam Obabaroy",
+      "dados": [
+        3,
+        3,
+        4
+      ],
+      "mod": -3,
+      "total": 7,
+      "faixa": "Fraca",
+      "peso": "nota",
+      "texto": "O NPC não se deixará impressionar. Pode se tornar hostil se isso lhe der lucro grande ou houver pouco perigo.",
+      "conta": "3d [3, 3, 4] = 10 - 3 = 7",
+      "detalhe": [
+        "-3 ficha de Comam Obabaroy"
+      ],
+      "contexto": "geral",
+      "local": "A Âncora Quebrada, Wallace",
+      "quando": "07/09/2026 17:54"
+    },
+    {
+      "npc": "Donnwulf",
+      "pj": "Irmão Kaelric",
+      "dados": [
+        1,
+        4,
+        4
+      ],
+      "mod": 0,
+      "total": 9,
+      "faixa": "Fraca",
+      "peso": "nota",
+      "texto": "O NPC não se deixará impressionar. Pode se tornar hostil se isso lhe der lucro grande ou houver pouco perigo.",
+      "conta": "3d [1, 4, 4] = 9",
+      "detalhe": [
+        "-2 ficha de Irmão Kaelric",
+        "+2 cristão de Caithness"
+      ],
+      "contexto": "geral",
+      "local": "A Âncora Quebrada, Wallace",
+      "quando": "07/09/2026 17:54",
+      "atencao": "ficha de Irmão Kaelric: «-2 (porte); +2 cristãos» — confira se a parte condicional vale aqui"
+    },
+    {
+      "npc": "Donnwulf",
+      "pj": "Jah Kagadu",
+      "dados": [
+        2,
+        5,
+        4
+      ],
+      "mod": -2,
+      "total": 9,
+      "faixa": "Fraca",
+      "peso": "nota",
+      "texto": "O NPC não se deixará impressionar. Pode se tornar hostil se isso lhe der lucro grande ou houver pouco perigo.",
+      "conta": "3d [2, 5, 4] = 11 - 2 = 9",
+      "detalhe": [
+        "-2 ficha de Jah Kagadu"
+      ],
+      "contexto": "geral",
+      "local": "A Âncora Quebrada, Wallace",
+      "quando": "07/09/2026 17:54"
+    },
+    {
+      "npc": "Donnwulf",
+      "pj": "NelsOwned",
+      "dados": [
+        3,
+        4,
+        6
+      ],
+      "mod": 4,
+      "total": 17,
+      "faixa": "Muito Bom",
+      "peso": "extremo",
+      "texto": "O NPC tem os personagens em alta conta e será muito gentil e prestativo.",
+      "conta": "3d [3, 4, 6] = 13 + 4 = 17",
+      "detalhe": [
+        "+2 ficha de NelsOwned",
+        "+2 encheu a casa com a apresentação"
+      ],
+      "contexto": "geral",
+      "local": "A Âncora Quebrada, Wallace",
+      "quando": "07/09/2026 17:54"
+    },
+    {
+      "npc": "Donnwulf",
+      "pj": "Negrum Carneiriums",
+      "dados": [
+        4,
+        4,
+        3
+      ],
+      "mod": 2,
+      "total": 13,
+      "faixa": "Boa",
+      "peso": "nota",
+      "texto": "O NPC gosta dos personagens e será prestativo dentro do razoável.",
+      "conta": "3d [4, 4, 3] = 11 + 2 = 13",
+      "detalhe": [
+        "+2 Elegante, mesmo sexo"
+      ],
+      "contexto": "geral",
+      "local": "A Âncora Quebrada, Wallace",
+      "quando": "07/09/2026 17:54"
+    },
+    {
+      "npc": "Osric de Bannock",
+      "pj": "Comam Obabaroy",
+      "dados": [
+        4,
+        3,
+        6
+      ],
+      "mod": -2,
+      "total": 11,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [4, 3, 6] = 13 - 2 = 11",
+      "detalhe": [
+        "-3 ficha de Comam Obabaroy",
+        "-1 Osric de Bannock de saída",
+        "+2 também é homem de armas"
+      ],
+      "contexto": "geral",
+      "local": "A Âncora Quebrada, Wallace",
+      "quando": "07/09/2026 17:54"
+    },
+    {
+      "npc": "Osric de Bannock",
+      "pj": "Irmão Kaelric",
+      "dados": [
+        1,
+        5,
+        6
+      ],
+      "mod": 1,
+      "total": 13,
+      "faixa": "Boa",
+      "peso": "nota",
+      "texto": "O NPC gosta dos personagens e será prestativo dentro do razoável.",
+      "conta": "3d [1, 5, 6] = 12 + 1 = 13",
+      "detalhe": [
+        "-2 ficha de Irmão Kaelric",
+        "-1 Osric de Bannock de saída",
+        "+2 também é homem de armas",
+        "+2 cristão de Caithness"
+      ],
+      "contexto": "geral",
+      "local": "A Âncora Quebrada, Wallace",
+      "quando": "07/09/2026 17:54",
+      "atencao": "ficha de Irmão Kaelric: «-2 (porte); +2 cristãos» — confira se a parte condicional vale aqui"
+    },
+    {
+      "npc": "Osric de Bannock",
+      "pj": "Jah Kagadu",
+      "dados": [
+        6,
+        5,
+        6
+      ],
+      "mod": -3,
+      "total": 14,
+      "faixa": "Boa",
+      "peso": "nota",
+      "texto": "O NPC gosta dos personagens e será prestativo dentro do razoável.",
+      "conta": "3d [6, 5, 6] = 17 - 3 = 14",
+      "detalhe": [
+        "-2 ficha de Jah Kagadu",
+        "-1 Osric de Bannock de saída"
+      ],
+      "contexto": "geral",
+      "local": "A Âncora Quebrada, Wallace",
+      "quando": "07/09/2026 17:54"
+    },
+    {
+      "npc": "Osric de Bannock",
+      "pj": "NelsOwned",
+      "dados": [
+        4,
+        6,
+        5
+      ],
+      "mod": 2,
+      "total": 17,
+      "faixa": "Muito Bom",
+      "peso": "extremo",
+      "texto": "O NPC tem os personagens em alta conta e será muito gentil e prestativo.",
+      "conta": "3d [4, 6, 5] = 15 + 2 = 17",
+      "detalhe": [
+        "+2 ficha de NelsOwned",
+        "-1 Osric de Bannock de saída",
+        "+1 gostou da apresentação"
+      ],
+      "contexto": "geral",
+      "local": "A Âncora Quebrada, Wallace",
+      "quando": "07/09/2026 17:54"
+    },
+    {
+      "npc": "Osric de Bannock",
+      "pj": "Negrum Carneiriums",
+      "dados": [
+        5,
+        3,
+        1
+      ],
+      "mod": 3,
+      "total": 12,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [5, 3, 1] = 9 + 3 = 12",
+      "detalhe": [
+        "-1 Osric de Bannock de saída",
+        "+2 também é homem de armas",
+        "+2 Elegante, mesmo sexo"
+      ],
+      "contexto": "geral",
+      "local": "A Âncora Quebrada, Wallace",
+      "quando": "07/09/2026 17:54"
+    },
+    {
+      "npc": "Teressy",
+      "pj": "Comam Obabaroy",
+      "dados": [
+        2,
+        3,
+        5
+      ],
+      "mod": -5,
+      "total": 5,
+      "faixa": "Ruim",
+      "peso": "nota",
+      "texto": "O NPC não se importa com os PCs e agirá contra eles se isto lhe trouxer algum benefício.",
+      "conta": "3d [2, 3, 5] = 10 - 5 = 5",
+      "detalhe": [
+        "-3 ficha de Comam Obabaroy",
+        "-2 Teressy de saída"
+      ],
+      "contexto": "geral",
+      "local": "A Âncora Quebrada, Wallace",
+      "quando": "07/09/2026 17:54"
+    },
+    {
+      "npc": "Teressy",
+      "pj": "Irmão Kaelric",
+      "dados": [
+        3,
+        6,
+        4
+      ],
+      "mod": -2,
+      "total": 11,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [3, 6, 4] = 13 - 2 = 11",
+      "detalhe": [
+        "-2 ficha de Irmão Kaelric",
+        "-2 Teressy de saída",
+        "+2 cristão de Caithness"
+      ],
+      "contexto": "geral",
+      "local": "A Âncora Quebrada, Wallace",
+      "quando": "07/09/2026 17:54",
+      "atencao": "ficha de Irmão Kaelric: «-2 (porte); +2 cristãos» — confira se a parte condicional vale aqui"
+    },
+    {
+      "npc": "Teressy",
+      "pj": "Jah Kagadu",
+      "dados": [
+        6,
+        4,
+        2
+      ],
+      "mod": -4,
+      "total": 8,
+      "faixa": "Fraca",
+      "peso": "nota",
+      "texto": "O NPC não se deixará impressionar. Pode se tornar hostil se isso lhe der lucro grande ou houver pouco perigo.",
+      "conta": "3d [6, 4, 2] = 12 - 4 = 8",
+      "detalhe": [
+        "-2 ficha de Jah Kagadu",
+        "-2 Teressy de saída"
+      ],
+      "contexto": "geral",
+      "local": "A Âncora Quebrada, Wallace",
+      "quando": "07/09/2026 17:54"
+    },
+    {
+      "npc": "Teressy",
+      "pj": "NelsOwned",
+      "dados": [
+        1,
+        2,
+        1
+      ],
+      "mod": 0,
+      "total": 4,
+      "faixa": "Ruim",
+      "peso": "nota",
+      "texto": "O NPC não se importa com os PCs e agirá contra eles se isto lhe trouxer algum benefício.",
+      "conta": "3d [1, 2, 1] = 4",
+      "detalhe": [
+        "+2 ficha de NelsOwned",
+        "-2 Teressy de saída"
+      ],
+      "contexto": "geral",
+      "local": "A Âncora Quebrada, Wallace",
+      "quando": "07/09/2026 17:54"
+    },
+    {
+      "npc": "Teressy",
+      "pj": "Negrum Carneiriums",
+      "dados": [
+        1,
+        4,
+        5
+      ],
+      "mod": 2,
+      "total": 12,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [1, 4, 5] = 10 + 2 = 12",
+      "detalhe": [
+        "-2 Teressy de saída",
+        "+4 Elegante, sexo oposto"
+      ],
+      "contexto": "geral",
+      "local": "A Âncora Quebrada, Wallace",
+      "quando": "07/09/2026 17:54"
+    }
+  ],
+  "local": "A Âncora Quebrada, Wallace"
+}

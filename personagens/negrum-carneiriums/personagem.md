@@ -34,7 +34,7 @@ Negrum nasceu numa pequena aldeia isolada de descendência centro-africana, uma 
 | Esquiva | 6 |
 | Aparar (Espadas de Lâmina Larga) | 8 |
 | Bloqueio (Escudo) | 7 |
-| Reação | 0 (variável: +2/+6 pela Aparência com quem se agrada dele; -2 com quem sofre sua Teimosia/Fanfarronice de fato) |
+| Reação | **+2** com pessoas do mesmo sexo, **+4** com o sexo oposto — Elegante (Bonito), e só vale com a mesma raça ou raça semelhante |
 
 ## Vantagens e Desvantagens
 
@@ -49,9 +49,18 @@ Negrum nasceu numa pequena aldeia isolada de descendência centro-africana, uma 
 | Sanguinolência | -10 |
 | Código de Honra (Guerreiro Tribal)* | -5 |
 | Teimosia | -5 |
+| Inimigo: guarda de Wallace e Lorde William** | 0 |
+| Má Reputação -4 (assassino do taberneiro), em Wallace** | 0 |
 | **Total** | **10** (Vantagens 50 / Desvantagens -40) |
 
 \* *Código de Honra (Guerreiro Tribal):* sempre vingar um insulto, mesmo com risco; o inimigo de um companheiro de tribo é seu inimigo; nunca atacar um aliado, salvo em duelo justo por alguma ofensa grave.
+
+\*\* *Adquiridas em jogo, sem custo em pontos (decisão do Mestre).* Na noite do capítulo 1 da campanha *Gélido Lamento*, Negrum matou a socos **Hoel Meia-Orelha**, dono d'A Âncora Quebrada, enquanto o homem estava inconsciente, diante de quarenta testemunhas — entre elas um guarda do castelo. Daí saem as duas desvantagens:
+
+- **Inimigo (guarda de Wallace e Lorde William)** — grupo de tamanho médio, do porte do "departamento de polícia de uma cidade" (`04-desvantagens.md`, Inimigos). Vale enquanto houver quem o procure, e viaja com ele.
+- **Má Reputação -4 (assassino do taberneiro), em Wallace e arredores** — redutor de reação com quem o reconhecer. Reputação vale só dentro de uma área limitada (`02-criacao-de-personagem.md`, Reputação): fora de Wallace, não pega.
+
+As duas entraram com **custo 0** por decisão do Mestre: foram adquiridas na mesa, não na criação, e não devolvem pontos. O total do personagem continua **150**.
 
 ## Peculiaridades
 

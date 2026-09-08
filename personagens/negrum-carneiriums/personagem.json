@@ -11,31 +11,96 @@
   "pontos_gastar": 150,
   "pontos_total": 150,
   "atributos": {
-    "ST": {"valor": 15, "custo": 60},
-    "DX": {"valor": 13, "custo": 30},
-    "IQ": {"valor": 9, "custo": -10},
-    "HT": {"valor": 12, "custo": 20}
+    "ST": {
+      "valor": 15,
+      "custo": 60
+    },
+    "DX": {
+      "valor": 13,
+      "custo": 30
+    },
+    "IQ": {
+      "valor": 9,
+      "custo": -10
+    },
+    "HT": {
+      "valor": 12,
+      "custo": 20
+    }
   },
   "fadiga": 15,
   "pontos_vida": 12,
-  "dano_basico": {"gdp": "1D+1", "bal": "2D+1"},
+  "dano_basico": {
+    "gdp": "1D+1",
+    "bal": "2D+1"
+  },
   "velocidade_basica": 6.25,
   "deslocamento": 6,
-  "carga": {"nenhuma": 15, "leve": 30, "media": 45, "pesada": 90, "muito_pesada": 150},
-  "defesa_passiva": {"armadura": 0, "escudo": 3, "total": 3},
-  "defesas_ativas": {"esquiva": 6, "aparar": 8, "bloqueio": 7},
-  "reacao": "0",
+  "carga": {
+    "nenhuma": 15,
+    "leve": 30,
+    "media": 45,
+    "pesada": 90,
+    "muito_pesada": 150
+  },
+  "defesa_passiva": {
+    "armadura": 0,
+    "escudo": 3,
+    "total": 3
+  },
+  "defesas_ativas": {
+    "esquiva": 6,
+    "aparar": 8,
+    "bloqueio": 7
+  },
+  "reacao": "+2 (mesmo sexo); +4 (sexo oposto)",
   "vantagens_desvantagens": [
-    {"nome": "Elegante (Bonito)", "custo": 15},
-    {"nome": "Reflexos em Combate", "custo": 15},
-    {"nome": "Rijeza (RD1)", "custo": 10},
-    {"nome": "Hipoalgia (Alto Limiar de Dor)", "custo": 10},
-
-    {"nome": "Impulsividade", "custo": -10},
-    {"nome": "Excesso de Confiança", "custo": -10},
-    {"nome": "Sanguinolência", "custo": -10},
-    {"nome": "Código de Honra (Guerreiro Tribal)", "custo": -5},
-    {"nome": "Teimosia", "custo": -5}
+    {
+      "nome": "Elegante (Bonito)",
+      "custo": 15
+    },
+    {
+      "nome": "Reflexos em Combate",
+      "custo": 15
+    },
+    {
+      "nome": "Rijeza (RD1)",
+      "custo": 10
+    },
+    {
+      "nome": "Hipoalgia (Alto Limiar de Dor)",
+      "custo": 10
+    },
+    {
+      "nome": "Impulsividade",
+      "custo": -10
+    },
+    {
+      "nome": "Excesso de Confiança",
+      "custo": -10
+    },
+    {
+      "nome": "Sanguinolência",
+      "custo": -10
+    },
+    {
+      "nome": "Código de Honra (Guerreiro Tribal)",
+      "custo": -5
+    },
+    {
+      "nome": "Teimosia",
+      "custo": -5
+    },
+    {
+      "nome": "Inimigo: guarda de Wallace",
+      "custo": 0,
+      "lado": "desvantagem"
+    },
+    {
+      "nome": "Má Reputação -4 em Wallace",
+      "custo": 0,
+      "lado": "desvantagem"
+    }
   ],
   "peculiaridades": [
     "Anda sem camisa mesmo no frio",
@@ -45,30 +110,136 @@
     "Nunca recusa um duelo justo"
   ],
   "armas_objetos": [
-    {"item": "Montante (espada)", "dano": "BAL+1", "tipo": "corte", "qtd": 1, "peso": 1.5, "categoria": "Armas"},
-    {"item": "Maça", "dano": "BAL+3", "tipo": "cont", "qtd": 1, "peso": 2.5, "categoria": "Armas"},
-    {"item": "Faca", "dano": "BAL-3", "tipo": "corte", "qtd": 1, "peso": 0.25, "categoria": "Armas"},
-    {"item": "Escudo médio", "dano": "-", "tipo": "DP3", "qtd": 1, "peso": 7.0, "categoria": "Armadura"},
-    {"item": "Mochila pequena", "dano": "-", "tipo": "-", "qtd": 1, "peso": 1.5, "categoria": "Equipamento"},
-    {"item": "Odre grande (água)", "dano": "-", "tipo": "-", "qtd": 1, "peso": 0.5, "categoria": "Equipamento"},
-    {"item": "Rações de viagem (5)", "dano": "-", "tipo": "-", "qtd": 5, "peso": 1.25, "categoria": "Equipamento"}
+    {
+      "item": "Montante (espada)",
+      "dano": "BAL+1",
+      "tipo": "corte",
+      "qtd": 1,
+      "peso": 1.5,
+      "categoria": "Armas"
+    },
+    {
+      "item": "Maça",
+      "dano": "BAL+3",
+      "tipo": "cont",
+      "qtd": 1,
+      "peso": 2.5,
+      "categoria": "Armas"
+    },
+    {
+      "item": "Faca",
+      "dano": "BAL-3",
+      "tipo": "corte",
+      "qtd": 1,
+      "peso": 0.25,
+      "categoria": "Armas"
+    },
+    {
+      "item": "Escudo médio",
+      "dano": "-",
+      "tipo": "DP3",
+      "qtd": 1,
+      "peso": 7.0,
+      "categoria": "Armadura"
+    },
+    {
+      "item": "Mochila pequena",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 1.5,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Odre grande (água)",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 0.5,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Rações de viagem (5)",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 5,
+      "peso": 1.25,
+      "categoria": "Equipamento"
+    }
   ],
   "peso_total": 14.5,
   "custo_total": 740,
   "pericias": [
-    {"nome": "Espadas de Lâmina Larga", "nh": 16, "tipo": "DX/M", "custo": 16, "categoria": "Combate"},
-    {"nome": "Machado/Maça", "nh": 15, "tipo": "DX/M", "custo": 8, "categoria": "Combate"},
-    {"nome": "Escudo", "nh": 15, "tipo": "DX/F", "custo": 4, "categoria": "Combate"},
-    {"nome": "Sacar Rápido (Espada)", "nh": 15, "tipo": "DX/F", "custo": 4, "categoria": "Combate"},
-    {"nome": "Briga", "nh": 14, "tipo": "DX/F", "custo": 2, "categoria": "Combate"},
-
-    {"nome": "Corrida", "nh": 11, "tipo": "HT/D", "custo": 2, "categoria": "Físicas"},
-
-    {"nome": "Sobrevivência (Deserto)", "nh": 11, "tipo": "IQ/M", "custo": 6, "categoria": "Externas/Profissionais"},
-    {"nome": "Rastreamento", "nh": 9, "tipo": "IQ/M", "custo": 2, "categoria": "Externas/Profissionais"},
-
-    {"nome": "Negrai (nativa)", "nh": 9, "tipo": "IQ/M", "custo": 0, "categoria": "Línguas"},
-    {"nome": "Ânglico", "nh": 8, "tipo": "IQ/M", "custo": 1, "categoria": "Línguas"}
+    {
+      "nome": "Espadas de Lâmina Larga",
+      "nh": 16,
+      "tipo": "DX/M",
+      "custo": 16,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Machado/Maça",
+      "nh": 15,
+      "tipo": "DX/M",
+      "custo": 8,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Escudo",
+      "nh": 15,
+      "tipo": "DX/F",
+      "custo": 4,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Sacar Rápido (Espada)",
+      "nh": 15,
+      "tipo": "DX/F",
+      "custo": 4,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Briga",
+      "nh": 14,
+      "tipo": "DX/F",
+      "custo": 2,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Corrida",
+      "nh": 11,
+      "tipo": "HT/D",
+      "custo": 2,
+      "categoria": "Físicas"
+    },
+    {
+      "nome": "Sobrevivência (Deserto)",
+      "nh": 11,
+      "tipo": "IQ/M",
+      "custo": 6,
+      "categoria": "Externas/Profissionais"
+    },
+    {
+      "nome": "Rastreamento",
+      "nh": 9,
+      "tipo": "IQ/M",
+      "custo": 2,
+      "categoria": "Externas/Profissionais"
+    },
+    {
+      "nome": "Negrai (nativa)",
+      "nh": 9,
+      "tipo": "IQ/M",
+      "custo": 0,
+      "categoria": "Línguas"
+    },
+    {
+      "nome": "Ânglico",
+      "nh": 8,
+      "tipo": "IQ/M",
+      "custo": 1,
+      "categoria": "Línguas"
+    }
   ],
   "resumo": {
     "atributos": 100,
