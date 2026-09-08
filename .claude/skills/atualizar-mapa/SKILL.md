@@ -264,20 +264,47 @@ foram andados** — o caminho mais curto no grid, não a linha reta — e compar
 **Deslocamento** de quem se moveu. Ela não recusa nada: avisa, porque montar a cena e
 jogar o turno são coisas diferentes.
 
-| Quanto andou | O que a skill diz |
+### O que o livro cobra, e o script cobra também
+
+Andar não é só contar hexágonos. O MB, cap. 14, cobra **três** coisas na manobra
+Deslocamento, e a skill soma as três:
+
+| O que | Custo | Onde está |
+|---|---|---|
+| **Virar antes de sair ou durante o caminho** | 1 ponto por lado de hexágono (meia-volta = 3) | *"uma mudança de direção custa 1 ponto para cada lado de hexágono"* |
+| **Cada hexágono para a frente** | 1 ponto | — |
+| Hexágono **de lado ou para trás** | 2 pontos | *"numa manobra Deslocamento cada hexágono custa o dobro"* |
+| **Virar no fim do movimento** | **grátis**, mas limitado | ver abaixo |
+
+A virada final é a parte que se esquece, e ela **não custa ponto**:
+
+> No fim de seu deslocamento, se tiver usado metade (ou menos) de seus pontos de
+> movimento, você poderá ficar de frente para *qualquer* direção. Se tiver usado mais da
+> metade de seu parâmetro Deslocamento, você poderá mudar sua direção em apenas *um lado
+> de hexágono*.
+
+Ou seja: quem correu muito chega olhando quase para onde correu; quem andou pouco chega
+olhando para onde quiser. Se a direção pedida no destino exigir mais lados do que esse
+limite, o excedente **tem** de ser girado durante o caminho, e aí custa 1 por lado — o
+script soma isso sozinho.
+
+**A conta sai por extenso no aviso**, para dar para conferir:
+
+```
+Morto-Vivo 1 gastou 5 pontos de movimento (1 para virar antes de sair +
+4 hexagono(s) andado(s) + a virada final de 1 lado(s) sai de graca) de 5
+```
+
+| Resultado | O que a skill diz |
 |---|---|
-| **1 hexágono** | Nada. Cabe em qualquer manobra |
+| **1 ponto ou menos** | Nada. Cabe em qualquer manobra |
 | **Até o Deslocamento** | Cabe num turno, mas **só com a manobra Deslocamento** — quem anda mais de um hexágono não ataca |
 | **Mais que o Deslocamento** | Não cabe num turno, e diz em quantos caberia |
 
-As duas primeiras linhas saem do MB, cap. 14: *"a maioria das manobras permite que você se
-desloque apenas um hexágono"*, e só a manobra Deslocamento gasta os pontos de movimento
-todos.
-
-**O aviso é um piso, não a conta fechada.** A distância é o caminho mais curto; o custo
-real pode ser maior, porque **hexágono de lado ou para trás custa 2** pontos de movimento e
-**virar custa 1 por lado de hexágono**. Quem arbitra o caminho é o Mestre — o script só
-avisa quando nem o melhor caminho possível caberia.
+**O que o script ainda supõe a seu favor:** que o caminho foi todo para a frente, pelo
+trajeto mais curto e sem obstáculo. Mesa cheia de bancos, hexágono ocupado no meio do
+caminho ou recuo de lado custam mais — quem arbitra o caminho é o Mestre. Por isso o
+número é um **piso**: quando o script diz que não cabe, não cabe mesmo.
 
 ### De onde vem o Deslocamento
 

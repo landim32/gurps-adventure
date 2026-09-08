@@ -228,28 +228,83 @@ def deslocamento_de(quem, tipo, raiz, informado="", token=None):
     return None
 
 
-def conferir_movimento(hexes, quem, de_onde, para, desl):
+# as seis arestas em ordem circular: girar de uma para a vizinha custa 1 ponto
+ORDEM_ARESTAS = ["N", "NE", "SE", "S", "SW", "NW"]
+
+
+def lados_entre(a, b):
+    """Quantos lados de hexagono separam duas direcoes (0 a 3)."""
+    if not a or not b or a not in ORDEM_ARESTAS or b not in ORDEM_ARESTAS:
+        return 0
+    i, j = ORDEM_ARESTAS.index(a), ORDEM_ARESTAS.index(b)
+    d = abs(i - j) % 6
+    return min(d, 6 - d)
+
+
+def custo_movimento(hexes, de_onde, para, frente_antes, frente_depois, desl):
+    """Pontos de movimento gastos, pela manobra Deslocamento (MB, cap. 14).
+
+    O livro cobra tres coisas, e o script contava so a segunda:
+
+    - **virar antes ou durante** custa 1 ponto por lado de hexagono;
+    - **cada hexagono para a frente** custa 1 (de lado ou para tras custaria 2 — o
+      script assume o caminho barato, de frente);
+    - **a virada do fim e de graca**, mas limitada: quem gastou metade ou menos do
+      Deslocamento vira para onde quiser; quem gastou mais vira so um lado. O que
+      passar disso tem de ser pago durante o movimento, a 1 ponto por lado.
+
+    Devolve (custo, passos, detalhe) — `detalhe` e a conta por extenso.
+    """
+    passos = distancia_hex(hexes, de_onde, para)
+    if passos is None:
+        return None, None, ""
+    rumo = aresta_para(hexes, de_onde, para)
+    giro_ida = lados_entre(frente_antes, rumo)
+    custo = giro_ida + passos
+    partes = []
+    if giro_ida:
+        partes.append(f"{giro_ida} para virar antes de sair")
+    partes.append(f"{passos} hexagono(s) andado(s)")
+
+    giro_fim = lados_entre(rumo, frente_depois)
+    if giro_fim:
+        livre = 6 if (desl and custo <= desl / 2) else 1
+        extra = max(0, giro_fim - livre)
+        if extra:
+            custo += extra
+            partes.append(f"{extra} para virar no fim alem do lado que sai de graca")
+        else:
+            partes.append(f"a virada final de {giro_fim} lado(s) sai de graca")
+    return custo, passos, " + ".join(partes)
+
+
+def conferir_movimento(hexes, quem, de_onde, para, desl,
+                       frente_antes=None, frente_depois=None):
     """Avisos sobre o movimento pedido, pelas regras de manobra do MB (cap. 14).
 
     A maioria das manobras deixa andar 1 hexagono; so a manobra Deslocamento gasta o
     Deslocamento inteiro — e ai nao se ataca. O custo real pode ser maior que a
     distancia: hexagono de lado ou para tras custa 2, e virar custa 1 por lado.
     """
-    d = distancia_hex(hexes, de_onde, para)
-    if d is None or d <= 1:
+    custo, passos, detalhe = custo_movimento(
+        hexes, de_onde, para, frente_antes, frente_depois, desl)
+    if custo is None or (passos <= 1 and custo <= 1):
         return []
     if desl is None:
-        return [f"nao sei o Deslocamento de {quem} para conferir os {d} hexagonos "
-                f"andados (ponha `deslocamento` na ficha ou no tokens.json, ou diga "
-                f'"com deslocamento N")']
-    if d > desl:
-        turnos = -(-d // desl)
-        return [f"{quem} andou {d} hexagonos, mas o Deslocamento dele e {desl}: "
-                f"nao cabe em um turno (seriam {turnos}, e so com a manobra "
-                f"Deslocamento, sem atacar)"]
-    return [f"{quem} andou {d} hexagonos (Deslocamento {desl}): cabe em um turno so "
-            f"com a manobra Deslocamento — quem anda mais de 1 hexagono nao ataca. "
-            f"Hexagono de lado ou para tras custa 2, e virar custa 1 por lado"]
+        return [f"nao sei o Deslocamento de {quem} para conferir o movimento "
+                f"({detalhe} = {custo} pontos) — ponha `deslocamento` na ficha ou no "
+                f'tokens.json, ou diga "com deslocamento N"']
+    if custo > desl:
+        turnos = -(-custo // desl)
+        return [f"{quem} gastaria {custo} pontos de movimento ({detalhe}), mas o "
+                f"Deslocamento dele e {desl}: nao cabe em um turno — seriam {turnos}, "
+                f"e so com a manobra Deslocamento, sem atacar"]
+    if passos <= 1 and custo <= desl:
+        return [f"{quem} gastou {custo} pontos ({detalhe}) de {desl}: cabe num Avancar "
+                f"e Atacar so se for 1 hexagono e a virada couber no fim"]
+    return [f"{quem} gastou {custo} pontos de movimento ({detalhe}) de {desl}: cabe em "
+            f"um turno so com a manobra Deslocamento — quem anda mais de 1 hexagono "
+            f"nao ataca. Hexagono de lado ou para tras custaria 2 cada"]
 
 
 def aresta_para(hexes, origem, alvo):
@@ -655,7 +710,8 @@ def main():
                 for aviso in conferir_movimento(
                         hexes, quem, de_onde, rot,
                         deslocamento_de(quem, tipo, raiz, m.group("desl") or "",
-                                        token)):
+                                        token),
+                        (ocup.get(de_onde) or {}).get("frente"), frente):
                     print(f"AVISO: {aviso}")
                     acoes.append(f"aviso: {aviso}")
                 del ocup[de_onde]

@@ -2617,25 +2617,11 @@
       "frente": "SE",
       "olhando": "E3"
     },
-    "N9": {
-      "tipo": "pj",
-      "quem": "Irmão Kaelric",
-      "token": "tokens/cavaleiro-capa-vermelha-escudo-cruz.png",
-      "frente": "SE",
-      "olhando": "O10"
-    },
     "L4": {
       "tipo": "pj",
       "quem": "Jah Kagadu",
       "token": "personagens/jah-kagadu/token-hex.png",
       "frente": "SW",
-      "olhando": "K5"
-    },
-    "J4": {
-      "tipo": "pj",
-      "quem": "Negrum Carneiriums",
-      "token": "personagens/negrum-carneiriums/token-hex.png",
-      "frente": "SE",
       "olhando": "K5"
     },
     "Q2": {
@@ -2657,33 +2643,47 @@
         "L5"
       ]
     },
-    "I11": {
-      "tipo": "npc",
-      "quem": "Morto-Vivo 1",
-      "token": "tokens/zumbi-agachado-camisa-marrom.png",
-      "frente": "N",
-      "olhando": "I5"
+    "L8": {
+      "tipo": "pj",
+      "quem": "Negrum Carneiriums",
+      "token": "personagens/negrum-carneiriums/token-hex.png",
+      "frente": "SW",
+      "olhando": "K9"
     },
-    "J11": {
-      "tipo": "npc",
-      "quem": "Morto-Vivo 2",
-      "token": "tokens/zumbi-agachado-camisa-marrom.png",
-      "frente": "N",
-      "olhando": "J5"
+    "M9": {
+      "tipo": "pj",
+      "quem": "Irmão Kaelric",
+      "token": "tokens/cavaleiro-capa-vermelha-escudo-cruz.png",
+      "frente": "SW",
+      "olhando": "L9"
     },
-    "K11": {
-      "tipo": "npc",
-      "quem": "Morto-Vivo 3",
-      "token": "tokens/zumbi-agachado-camisa-marrom.png",
-      "frente": "N",
-      "olhando": "K5"
-    },
-    "J10": {
+    "K9": {
       "tipo": "npc",
       "quem": "Morto-Vivo 4",
       "token": "tokens/zumbi-agachado-camisa-marrom.png",
-      "frente": "N",
-      "olhando": "J4"
+      "frente": "NE",
+      "olhando": "L8"
+    },
+    "M10": {
+      "tipo": "npc",
+      "quem": "Morto-Vivo 3",
+      "token": "tokens/zumbi-agachado-camisa-marrom.png",
+      "frente": "SW",
+      "olhando": "K10"
+    },
+    "I9": {
+      "tipo": "npc",
+      "quem": "Morto-Vivo 2",
+      "token": "tokens/zumbi-agachado-camisa-marrom.png",
+      "frente": "NE",
+      "olhando": "M9"
+    },
+    "K8": {
+      "tipo": "npc",
+      "quem": "Morto-Vivo 1",
+      "token": "tokens/zumbi-agachado-camisa-marrom.png",
+      "frente": "SE",
+      "olhando": "L8"
     }
   }
 }
