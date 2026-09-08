@@ -210,6 +210,17 @@ def cmd_estado(args):
                       # onde as outras skills gravam o que esta acontecendo
                       "capitulo_atual_pasta":
                           jogo_cap.as_posix() if jogo_cap else None,
+                      # onde mora o que ja mudou no mundo
+                      "mundo": (p / "mundo.md").as_posix()
+                          if (p / "mundo.md").is_file() else None,
+                      "capitulo_atual_estado": {
+                          tipo: (jogo_cap / nome).as_posix()
+                          for tipo, (nome, *_) in ANOTACOES.items()
+                          if jogo_cap and (jogo_cap / nome).is_file()} or None,
+                      "bolsa": (p / BOLSA).as_posix()
+                          if (p / BOLSA).is_file() else None,
+                      "saude": (p / SAUDE).as_posix()
+                          if (p / SAUDE).is_file() else None,
                       "capitulos": caps, "em_jogo": evs})
     arquivadas = sorted(x.name for x in (r / ARQUIVO).glob("*") if x.is_dir()) \
         if (r / ARQUIVO).is_dir() else []
@@ -673,6 +684,437 @@ def cmd_encerrar(args):
     print("Não há mais campanha ativa — o repositório está livre para a próxima.")
 
 
+# ------------------------------------------------- estado do mundo (anotar)
+
+# Onde mora cada tipo de mudanca, dentro da pasta de JOGO do capitulo.
+# arquivo, secao no consolidado, titulo, de quem e, exemplos do que anotar
+ANOTACOES = {
+    "npc": ("npcs.md", "NPCs", "NPCs — {titulo}", "estes NPCs",
+            "ferimento que ficou, morte, item, dívida, promessa, "
+            "o que passaram a saber, relação que mudou"),
+    "pj": ("grupo.md", "Grupo", "Grupo — {titulo}",
+           "os personagens dos jogadores",
+           "ferimento que ficou, dinheiro e item ganho ou perdido, "
+           "dívida, promessa feita, o que descobriram"),
+    "coisa": ("lugares.md", "Lugares e coisas", "Lugares e coisas — {titulo}",
+              "o lugar, os objetos e o que se sabe",
+              "porta arrombada, fogo, item largado no chão, boato que correu, "
+              "o que a cidade já viu"),
+}
+
+
+def titulo_do_readme(pasta):
+    """O `# Titulo` do README de uma pasta."""
+    f = pasta / "README.md"
+    if not f.is_file():
+        return pasta.name
+    for linha in f.read_text(encoding="utf-8").split("\n"):
+        if linha.startswith("# "):
+            # "1. Encontro na Taberna - como aconteceu" -> so o titulo da cena
+            return linha[2:].split(" — ")[0].strip()
+    return pasta.name
+
+
+def criar_arquivo_estado(alvo, p, tipo):
+    """Cria o arquivo de estado na pasta de jogo, com cabecalho e link ao plano."""
+    nome, _, titulo_fmt, sujeito, exemplos = ANOTACOES[tipo]
+    f = alvo / nome
+    if f.is_file():
+        return f
+    plano = p / "plano" / alvo.name
+    ref = ""
+    if (plano / nome).is_file():
+        ref = (" O planejado está em "
+               "[`plano/{0}/{1}`]({2}), e não se mexe.".format(
+                   alvo.name, nome, link_desde(alvo, plano / nome)))
+    elif plano.is_dir():
+        ref = (" A cena planejada está em "
+               "[`plano/{0}/`]({1}), e não se mexe.".format(
+                   alvo.name, link_desde(alvo, plano)))
+    f.write_text(
+        "# {0} — na mesa\n\n".format(titulo_fmt.format(titulo=titulo_do_readme(alvo)))
+        + "_(o que de fato aconteceu com {0} durante o jogo — {1}.{2}\n".format(
+            sujeito, exemplos, ref)
+        + "**Leia isto antes de interpretar a cena de novo.**)_\n",
+        encoding="utf-8")
+    return f
+
+
+def inserir_em_secao(texto, sujeito, linha):
+    """Poe `linha` no fim da secao `## sujeito`, criando a secao se faltar."""
+    linhas = texto.rstrip("\n").split("\n")
+    alvo_slug = slug(sujeito)
+    ini = None
+    for i, l in enumerate(linhas):
+        if l.startswith("## ") and slug(l[3:]) == alvo_slug:
+            ini = i
+            break
+    if ini is None:
+        return "\n".join(linhas) + "\n\n## {0}\n\n{1}\n".format(sujeito, linha)
+    fim = len(linhas)
+    for j in range(ini + 1, len(linhas)):
+        if linhas[j].startswith("## "):
+            fim = j
+            break
+    corte = fim
+    while corte > ini + 1 and not linhas[corte - 1].strip():
+        corte -= 1
+    linhas[corte:corte] = [linha]
+    return "\n".join(linhas) + "\n"
+
+
+def cmd_anotar(args):
+    r = raiz(args)
+    p = exige_campanha(r)
+    escolhidos = [(t, getattr(args, t)) for t in ANOTACOES if getattr(args, t)]
+    if len(escolhidos) != 1:
+        raise SystemExit("Diga de quem é a mudança: --npc, --pj ou --coisa (um só).")
+    tipo, sujeito = escolhidos[0]
+    alvo = pasta_jogo_atual(p, args.evento or None)
+    f = criar_arquivo_estado(alvo, p, tipo)
+    marca = " · _{0}_".format(args.tag) if args.tag else ""
+    linha = "- **{0}**{1} — {2}".format(agora(), marca, args.texto.strip())
+    f.write_text(inserir_em_secao(f.read_text(encoding="utf-8"),
+                                  sujeito.strip(), linha), encoding="utf-8")
+    print("Anotado em {0}/{1} - {2}: {3}".format(
+        alvo.name, f.name, sujeito.strip(), args.texto[:60]))
+    print("  consolidado: {0}".format(regerar_mundo(p).as_posix()))
+
+
+def ler_estado(f):
+    """Le um arquivo de estado: [(sujeito, [linhas])] na ordem do arquivo."""
+    fora = []
+    atual = None
+    for l in f.read_text(encoding="utf-8").split("\n"):
+        if l.startswith("## "):
+            atual = (l[3:].strip(), [])
+            fora.append(atual)
+        elif atual is not None and l.startswith("- **"):
+            atual[1].append(l)
+    return [(s, ls) for s, ls in fora if ls]
+
+
+def regerar_mundo(p):
+    """Consolida o estado de todos os capitulos em campanha/mundo.md."""
+    pastas = sorted(x for x in p.glob("*") if x.is_dir() and x.name != "plano")
+    secoes = {}
+    ordem = ["npc", "pj", "coisa"]
+    for tipo in ordem:
+        nome, secao = ANOTACOES[tipo][0], ANOTACOES[tipo][1]
+        for pasta in pastas:
+            f = pasta / nome
+            if not f.is_file():
+                continue
+            cap = pasta.name.split("-", 1)[0]
+            for sujeito, linhas in ler_estado(f):
+                alvo = secoes.setdefault(secao, {}).setdefault(sujeito, [])
+                for l in linhas:
+                    alvo.append("{0}  _(cap. {1})_".format(l, cap))
+    partes = []
+    for tipo in ordem:
+        secao = ANOTACOES[tipo][1]
+        if secao not in secoes:
+            continue
+        partes.append("## {0}\n".format(secao))
+        for sujeito in sorted(secoes[secao]):
+            partes.append("### {0}\n".format(sujeito))
+            partes.extend(secoes[secao][sujeito])
+            partes.append("")
+    corpo = "\n".join(partes).strip() or "_(nada anotado ainda)_"
+    meta, _ = ler_meta(p)
+    f = p / "mundo.md"
+    cabecalho = (
+        "# O estado do mundo — {0}\n\n".format(meta.get("Campanha", "?"))
+        + "_(consolidado, gerado por `campanha.py anotar` e `campanha.py mundo` a partir\n"
+        + "dos arquivos de estado de cada capítulo. **Não edite entre os marcadores**:\n"
+        + "edite `campanha/NN-.../npcs.md`, `grupo.md` ou `lugares.md`, ou anote pelo\n"
+        + "script, e rode `campanha.py mundo`.)_\n")
+    texto = f.read_text(encoding="utf-8") if f.is_file() else cabecalho
+    if MARCA.format("mundo") not in texto:
+        texto = cabecalho
+    f.write_text(bloco(texto, "mundo", corpo), encoding="utf-8")
+    return f
+
+
+def cmd_mundo(args):
+    r = raiz(args)
+    p = exige_campanha(r)
+    f = regerar_mundo(p)
+    print(f.read_text(encoding="utf-8") if args.mostrar
+          else "Consolidado em {0}".format(f.as_posix()))
+
+
+# ------------------------------------------------------------ bolsa (dinheiro)
+
+BOLSA = "bolsa.md"
+LANCAMENTO = re.compile(r"^- \*\*(?P<quando>[^*]+)\*\*\s+·\s+"
+                        r"(?P<valor>[+-]\s*\d+)\s+—\s+(?P<motivo>.*)$")
+BOLSA_SECOES = [("pj", "Personagens"), ("npc", "NPCs")]
+
+
+def ler_bolsa(f):
+    """[(secao, nome, [(quando, valor, motivo)])] na ordem do arquivo."""
+    if not f.is_file():
+        return []
+    secao, nome, fora = None, None, []
+    for l in f.read_text(encoding="utf-8").split("\n"):
+        if l.startswith("## "):
+            secao, nome = l[3:].strip(), None
+        elif l.startswith("### "):
+            nome = l[4:].strip()
+            fora.append((secao, nome, []))
+        elif nome and (m := LANCAMENTO.match(l.rstrip())):
+            fora[-1][2].append((m.group("quando"),
+                                int(m.group("valor").replace(" ", "")),
+                                m.group("motivo").strip()))
+    return fora
+
+
+def escrever_bolsa(p, lancamentos):
+    """Regera bolsa.md: tabela de saldos + extrato, a partir dos lancamentos."""
+    meta, _ = ler_meta(p)
+    partes, saldos = [], []
+    for _, titulo in BOLSA_SECOES:
+        desta = sorted(((n, ls) for sec, n, ls in lancamentos if sec == titulo),
+                       key=lambda x: slug(x[0]))
+        if not desta:
+            continue
+        partes.append("## {0}\n".format(titulo))
+        for nome, ls in desta:
+            total = sum(v for _, v, _ in ls)
+            saldos.append((titulo, nome, total, len(ls)))
+            partes.append("### {0}\n".format(nome))
+            partes.append("**Saldo: ${0}**\n".format(total))
+            for quando, valor, motivo in ls:
+                partes.append("- **{0}** · {1}{2} — {3}".format(
+                    quando, "+" if valor >= 0 else "-", abs(valor), motivo))
+            partes.append("")
+    corpo = "\n".join(partes).strip() or "_(ninguém tem lançamento ainda)_"
+
+    tabela = ["| Quem | | Saldo | Lançamentos |", "|---|---|---:|---:|"]
+    for titulo, nome, total, n in saldos:
+        cifra = ("-$" + str(-total)) if total < 0 else ("$" + str(total))
+        tabela.append("| {0} | {1} | {2} | {3} |".format(
+            nome, "PJ" if titulo == "Personagens" else "NPC", cifra, n))
+    resumo = "\n".join(tabela) if saldos else "_(sem saldos)_"
+
+    f = p / BOLSA
+    cabecalho = (
+        "# A bolsa — {0}\n\n".format(meta.get("Campanha", "?"))
+        + "_(o dinheiro de cada um **em jogo**. A ficha do personagem não é mexida por\n"
+        + "causa de moeda: o que ele ganhou e gastou na mesa mora aqui. Lance com\n"
+        + "`campanha.py bolsa --pj \"Nome\" --valor +50 --motivo \"...\"`; a tabela de\n"
+        + "saldos e os totais são recalculados a partir dos lançamentos.)_\n\n"
+        + "<!-- indice:saldos -->\n_(sem saldos)_\n<!-- /indice:saldos -->\n")
+    texto = f.read_text(encoding="utf-8") if f.is_file() else cabecalho
+    if MARCA.format("saldos") not in texto:
+        texto = cabecalho
+    texto = bloco(texto, "saldos", resumo)
+    # o extrato vem depois do bloco de saldos e e regerado inteiro
+    corte = texto.index(FIM.format("saldos")) + len(FIM.format("saldos"))
+    f.write_text(texto[:corte] + "\n\n" + corpo + "\n", encoding="utf-8")
+    return f
+
+
+def cmd_bolsa(args):
+    r = raiz(args)
+    p = exige_campanha(r)
+    f = p / BOLSA
+    lancamentos = ler_bolsa(f)
+
+    quem = (args.pj or args.npc or "").strip()
+    if quem and args.valor:
+        titulo = "Personagens" if args.pj else "NPCs"
+        try:
+            valor = int(str(args.valor).replace(" ", "").replace("$", ""))
+        except ValueError:
+            raise SystemExit("--valor e um numero com sinal: +300, -40.")
+        entrada = (agora(), valor, args.motivo.strip() or "sem motivo dado")
+        for sec, nome, ls in lancamentos:
+            if sec == titulo and slug(nome) == slug(quem):
+                # o saldo inicial abre o extrato, mesmo lancado depois
+                ls.insert(0, entrada) if args.inicial else ls.append(entrada)
+                break
+        else:
+            lancamentos.append((titulo, quem, [entrada]))
+        escrever_bolsa(p, lancamentos)
+        total = sum(v for sec, nome, ls in lancamentos
+                    if sec == titulo and slug(nome) == slug(quem)
+                    for _, v, _ in ls)
+        print("Lancado: {0} {1}{2} - saldo ${3}".format(
+            quem, "+" if valor >= 0 else "-", abs(valor), total))
+        return
+    if quem or args.valor:
+        raise SystemExit("Diga os dois: --pj/--npc \"Nome\" e --valor +50.")
+
+    f = escrever_bolsa(p, lancamentos)
+    print(f.read_text(encoding="utf-8") if args.mostrar
+          else "Saldos em {0}".format(f.as_posix()))
+
+
+# ----------------------------------------------------- saude (PV, fadiga, ferimentos)
+
+SAUDE = "saude.md"
+LINHA_SAUDE = re.compile(
+    r"^- \*\*(?P<quando>[^*]+)\*\*\s+·\s+(?P<tipo>PV|FAD|estado|curado)"
+    r"(?:\s+(?P<valor>[+-]\s*\d+))?\s+—\s+(?P<texto>.*)$")
+SAUDE_SECOES = [("pj", "Personagens"), ("npc", "NPCs")]
+
+
+def maximos_da_ficha(r, nome):
+    """PV e Fadiga maximos de um PJ, lidos da ficha. (None, None) se nao houver."""
+    base = r / "personagens"
+    if not base.is_dir():
+        return None, None
+    alvo = slug(nome)
+    for pasta in sorted(x for x in base.glob("*") if x.is_dir()):
+        f = pasta / "personagem.json"
+        if not f.is_file():
+            continue
+        try:
+            d = json.loads(f.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        if slug(d.get("nome") or "") == alvo or slug(pasta.name) == alvo:
+            return d.get("pontos_vida"), d.get("fadiga")
+    return None, None
+
+
+def ler_saude(f):
+    """[(secao, nome, [(quando, tipo, valor, texto)])] na ordem do arquivo."""
+    if not f.is_file():
+        return []
+    secao, nome, fora = None, None, []
+    for l in f.read_text(encoding="utf-8").split("\n"):
+        if l.startswith("## "):
+            secao, nome = l[3:].strip(), None
+        elif l.startswith("### "):
+            nome = l[4:].strip()
+            fora.append((secao, nome, []))
+        elif nome and (m := LINHA_SAUDE.match(l.rstrip())):
+            valor = m.group("valor")
+            fora[-1][2].append((m.group("quando"), m.group("tipo"),
+                                int(valor.replace(" ", "")) if valor else None,
+                                m.group("texto").strip()))
+    return fora
+
+
+def resumo_saude(linhas, pv_max, fad_max):
+    """Devolve (texto do PV, texto da Fadiga, [estados ativos])."""
+    pv = sum(v for _, t, v, _ in linhas if t == "PV" and v is not None)
+    fad = sum(v for _, t, v, _ in linhas if t == "FAD" and v is not None)
+    curados = [txt for _, t, _, txt in linhas if t == "curado"]
+    estados = [txt for _, t, _, txt in linhas if t == "estado"
+               and not any(slug(c) in slug(txt) or slug(txt) in slug(c)
+                           for c in curados)]
+    # sem maximo conhecido (NPC), mostra so o acumulado; sem nada, um travessao
+    pv_txt = f"{pv_max + pv}/{pv_max}" if pv_max else (str(pv) if pv else "—")
+    fad_txt = f"{fad_max + fad}/{fad_max}" if fad_max else (str(fad) if fad else "—")
+    return pv_txt, fad_txt, estados
+
+
+def escrever_saude(r, p, registros):
+    """Regera saude.md: tabela do estado de cada um + o histórico."""
+    meta, _ = ler_meta(p)
+    partes, tabela_linhas = [], []
+    for _, titulo in SAUDE_SECOES:
+        desta = sorted(((n, ls) for sec, n, ls in registros if sec == titulo),
+                       key=lambda x: slug(x[0]))
+        if not desta:
+            continue
+        partes.append("## {0}\n".format(titulo))
+        for nome, ls in desta:
+            pv_max, fad_max = maximos_da_ficha(r, nome) if titulo == "Personagens" \
+                else (None, None)
+            pv_txt, fad_txt, estados = resumo_saude(ls, pv_max, fad_max)
+            tabela_linhas.append("| {0} | {1} | {2} | {3} | {4} |".format(
+                nome, "PJ" if titulo == "Personagens" else "NPC", pv_txt, fad_txt,
+                "; ".join(estados) or "—"))
+            partes.append("### {0}\n".format(nome))
+            partes.append("**PV {0} · Fadiga {1}**{2}\n".format(
+                pv_txt, fad_txt,
+                "  ·  " + "; ".join("**" + e + "**" for e in estados) if estados else ""))
+            for quando, tipo, valor, texto in ls:
+                if valor is not None:
+                    partes.append("- **{0}** · {1} {2}{3} — {4}".format(
+                        quando, tipo, "+" if valor >= 0 else "-", abs(valor), texto))
+                else:
+                    partes.append("- **{0}** · {1} — {2}".format(quando, tipo, texto))
+            partes.append("")
+    corpo = "\n".join(partes).strip() or "_(ninguém se machucou ainda)_"
+
+    if tabela_linhas:
+        resumo = "\n".join(["| Quem | | PV | Fadiga | Estado |",
+                            "|---|---|---:|---:|---|"] + tabela_linhas)
+    else:
+        resumo = "_(todo mundo inteiro)_"
+
+    f = p / SAUDE
+    cabecalho = (
+        "# Saúde — {0}\n\n".format(meta.get("Campanha", "?"))
+        + "_(pontos de vida, Fadiga e ferimentos que ficam, **em jogo**. A ficha do\n"
+        + "personagem não é mexida por causa de dano: ela guarda o PV e a Fadiga máximos,\n"
+        + "e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj \"Nome\"\n"
+        + "--pv -3 --motivo \"...\"`; os totais são recalculados a partir dos lançamentos.)_\n\n"
+        + "<!-- indice:saude -->\n_(todo mundo inteiro)_\n<!-- /indice:saude -->\n")
+    texto = f.read_text(encoding="utf-8") if f.is_file() else cabecalho
+    if MARCA.format("saude") not in texto:
+        texto = cabecalho
+    texto = bloco(texto, "saude", resumo)
+    corte = texto.index(FIM.format("saude")) + len(FIM.format("saude"))
+    f.write_text(texto[:corte] + "\n\n" + corpo + "\n", encoding="utf-8")
+    return f
+
+
+def cmd_saude(args):
+    r = raiz(args)
+    p = exige_campanha(r)
+    registros = ler_saude(p / SAUDE)
+    quem = (args.pj or args.npc or "").strip()
+    titulo = "Personagens" if args.pj else "NPCs"
+    lancamentos = []
+    for campo, tipo in (("pv", "PV"), ("fadiga", "FAD")):
+        valor = getattr(args, campo)
+        if valor:
+            try:
+                lancamentos.append((tipo, int(str(valor).replace(" ", "")), None))
+            except ValueError:
+                raise SystemExit("--{0} e um numero com sinal: -3, +2.".format(campo))
+    if args.estado:
+        lancamentos.append(("estado", None, args.estado.strip()))
+    if args.curar:
+        lancamentos.append(("curado", None, args.curar.strip()))
+
+    if quem and lancamentos:
+        motivo = args.motivo.strip() or "sem motivo dado"
+        entradas = [(agora(), tipo, valor, texto or motivo)
+                    for tipo, valor, texto in lancamentos]
+        for sec, nome, ls in registros:
+            if sec == titulo and slug(nome) == slug(quem):
+                ls.extend(entradas)
+                break
+        else:
+            registros.append((titulo, quem, entradas))
+        f = escrever_saude(r, p, registros)
+        ls = next(ls for sec, nome, ls in registros
+                  if sec == titulo and slug(nome) == slug(quem))
+        pv_max, fad_max = maximos_da_ficha(r, quem) if args.pj else (None, None)
+        pv_txt, fad_txt, estados = resumo_saude(ls, pv_max, fad_max)
+        print("{0}: PV {1}, Fadiga {2}{3}".format(
+            quem, pv_txt, fad_txt,
+            "  [" + "; ".join(estados) + "]" if estados else ""))
+        print("  {0}".format(f.as_posix()))
+        return
+    if quem or lancamentos:
+        raise SystemExit(
+            "Diga quem e o que mudou: --pj/--npc \"Nome\" com --pv, --fadiga, "
+            "--estado ou --curar.")
+
+    f = escrever_saude(r, p, registros)
+    print(f.read_text(encoding="utf-8") if args.mostrar
+          else "Saúde em {0}".format(f.as_posix()))
+
+
 def main():
     ap = argparse.ArgumentParser(description="Gerencia a campanha ativa.")
     ap.add_argument("--raiz", default=".", help="Raiz do projeto")
@@ -738,6 +1180,47 @@ def main():
     s.add_argument("--mapa", required=True, help="Ex.: cenarios/taberna3.json")
     s.add_argument("--local", default="")
     s.set_defaults(func=cmd_mapa)
+
+    s = sub.add_parser("anotar",
+                       help="Anota uma mudança que fica (ferimento, item, relação)")
+    s.add_argument("--npc", default="", help="Nome do NPC que mudou")
+    s.add_argument("--pj", default="", help="Nome do personagem de jogador que mudou")
+    s.add_argument("--coisa", default="", help="Lugar, objeto ou informação que mudou")
+    s.add_argument("--texto", required=True, help="A mudança, em uma linha, no passado")
+    s.add_argument("--tag", default="",
+                   help="ferimento, morte, item, relação, informação, promessa...")
+    s.add_argument("--evento", default="",
+                   help="Número ou nome da cena. Sem isto, usa o capítulo atual")
+    s.set_defaults(func=cmd_anotar)
+
+    s = sub.add_parser("mundo", help="Regera (e mostra) o estado do mundo consolidado")
+    s.add_argument("--mostrar", action="store_true", help="Imprime o arquivo inteiro")
+    s.set_defaults(func=cmd_mundo)
+
+    s = sub.add_parser("bolsa",
+                       help="O dinheiro de cada um, fora da ficha")
+    s.add_argument("--pj", default="", help="Personagem de jogador")
+    s.add_argument("--npc", default="", help="NPC")
+    s.add_argument("--valor", default="", help="Com sinal: +300, -40")
+    s.add_argument("--motivo", default="", help="De onde veio ou para onde foi")
+    s.add_argument("--inicial", action="store_true",
+                   help="Saldo inicial: abre o extrato, mesmo lançado depois")
+    s.add_argument("--mostrar", action="store_true", help="Imprime o arquivo inteiro")
+    s.set_defaults(func=cmd_bolsa)
+
+    s = sub.add_parser("saude",
+                       help="PV, Fadiga e ferimentos que ficam, fora da ficha")
+    s.add_argument("--pj", default="", help="Personagem de jogador")
+    s.add_argument("--npc", default="", help="NPC")
+    s.add_argument("--pv", default="", help="Com sinal: -3 (dano), +2 (cura)")
+    s.add_argument("--fadiga", default="", help="Com sinal: -2, +5")
+    s.add_argument("--estado", default="",
+                   help="Ferimento que fica: \"Braço direito incapacitado (Maneta)\"")
+    s.add_argument("--curar", default="",
+                   help="Encerra um estado: parte do texto dele")
+    s.add_argument("--motivo", default="", help="De onde veio o dano ou a cura")
+    s.add_argument("--mostrar", action="store_true", help="Imprime o arquivo inteiro")
+    s.set_defaults(func=cmd_saude)
 
     s = sub.add_parser("indexar", help="Regera o índice do README")
     s.set_defaults(func=cmd_indexar)

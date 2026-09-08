@@ -19,7 +19,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-CAMPANHA_PY = Path(".claude/skills/gerenciar-campanha/scripts/campanha.py")
+CAMPANHA_PY = Path(".claude/skills/campanha/scripts/campanha.py")
 SKILLS = Path(__file__).resolve().parents[2]
 
 
@@ -117,7 +117,7 @@ def encurta(a, b):
 def registrar(raiz, texto):
     script = raiz / CAMPANHA_PY
     if not script.is_file():
-        return False, "gerenciar-campanha não encontrada"
+        return False, "skill campanha não encontrada"
     env = {**os.environ, "PYTHONIOENCODING": "utf-8"}
     r = subprocess.run([sys.executable, str(script), "--raiz", str(raiz),
                         "acontecimento", "--texto", texto], capture_output=True,

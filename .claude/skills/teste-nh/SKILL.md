@@ -171,7 +171,12 @@ resposta que foi escolhido, não rolado**.
 
 ## Registrar
 
-`--gravar` anota uma linha no capítulo atual pela `gerenciar-campanha`. Use **só quando o
+`--gravar` anota uma linha no capítulo atual pela skill `campanha`. Use **só quando o
 dado mudou o rumo** — a luta inteira não vira histórico. O critério está na
-`gerenciar-campanha`: decisão de jogador, dado que mudou o rumo, dano relevante, informação
+`campanha`: decisão de jogador, dado que mudou o rumo, dano relevante, informação
 descoberta.
+
+**O que o teste mudou no mundo, anote.** Porta arrombada que segue arrombada, segredo que
+o personagem passou a saber, corda que arrebentou: `campanha.py anotar --pj/--npc/--coisa`.
+O log guarda a rolagem; a anotação é o que o Mestre lê da próxima vez. Veja a skill
+`campanha`, seção **O estado do mundo**.

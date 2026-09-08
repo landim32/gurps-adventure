@@ -22,7 +22,7 @@ import sys
 import unicodedata
 from pathlib import Path
 
-CAMPANHA_PY = Path(".claude/skills/gerenciar-campanha/scripts/campanha.py")
+CAMPANHA_PY = Path(".claude/skills/campanha/scripts/campanha.py")
 LIVRO_PERICIAS = Path("livros/gurps-mb-3ed/06-pericias.md")
 
 # Quem rola dado neste repositorio e a skill `roll`, uma so.
@@ -168,7 +168,7 @@ def calcula_predefinido(entrada, atrib):
 def registrar(raiz, texto):
     script = raiz / CAMPANHA_PY
     if not script.is_file():
-        return False, "gerenciar-campanha não encontrada"
+        return False, "skill campanha não encontrada"
     env = {**os.environ, "PYTHONIOENCODING": "utf-8"}
     r = subprocess.run([sys.executable, str(script), "--raiz", str(raiz),
                         "acontecimento", "--texto", texto], capture_output=True,

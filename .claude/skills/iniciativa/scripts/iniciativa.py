@@ -22,7 +22,7 @@ import sys
 import unicodedata
 from pathlib import Path
 
-CAMPANHA_PY = Path(".claude/skills/gerenciar-campanha/scripts/campanha.py")
+CAMPANHA_PY = Path(".claude/skills/campanha/scripts/campanha.py")
 
 # Quem rola dado neste repositorio e a skill `roll`, uma so. Ver .claude/skills/roll/.
 ROLL_PY = Path(__file__).resolve().parents[2] / "roll" / "scripts" / "roll.py"
@@ -130,7 +130,7 @@ def modificadores(lado, outro):
 def registrar(raiz, texto):
     script = raiz / CAMPANHA_PY
     if not script.is_file():
-        return False, "gerenciar-campanha nao encontrada"
+        return False, "skill campanha nao encontrada"
     env = {**os.environ, "PYTHONIOENCODING": "utf-8"}
     r = subprocess.run([sys.executable, str(script), "--raiz", str(raiz),
                         "acontecimento", "--texto", texto],

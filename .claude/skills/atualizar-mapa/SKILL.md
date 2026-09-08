@@ -7,7 +7,7 @@ description: >
   token-hex.png da pasta de cada personagem. Use when the user asks to "atualizar o
   mapa", "colocar o Fulano em I5", "montar a cena", "posicionar os personagens",
   "mover o NPC para K7", "desfazer o movimento", ou /atualizar-mapa. Grava a imagem na
-  pasta do capítulo atual da campanha (skill gerenciar-campanha) e mantém um histórico
+  pasta do capítulo atual da campanha (skill campanha) e mantém um histórico
   de todas as movimentações, que permite voltar atrás.
 ---
 
@@ -27,7 +27,7 @@ Cerdic recua para D8" — e o resultado é uma imagem nova da mesa a cada mudan�
 | A arte do cenário **com grid** e o **índice `.json` de hexágonos** | skill `add-grid-hex` |
 | `personagens/<slug>/token-hex.png` para cada PJ | skill `token-hex-gurps` |
 | `tokens/<slug>.png` para os NPCs | skill `token-organizator` |
-| Saber **em que capítulo a mesa está** | skill `gerenciar-campanha` |
+| Saber **em que capítulo a mesa está** | skill `campanha` |
 
 **O índice de hexágonos é o que torna isso possível**: ele guarda o centro em pixels de
 cada `A1`, `C5`, `I5`, então colar no hexágono certo não envolve medir nada. Se o cenário
@@ -53,7 +53,7 @@ A frase é a mesma que se fala na mesa: **`<quem> em <hex> olhando para <hex>`**
 
 **`--indice` também é opcional.** Sem ele, a skill usa o cenário que o **plano do capítulo
 atual declara** no cabeçalho (`**Mapa:** cenarios/taberna3.json`), e imprime qual pegou.
-Isso vem da `gerenciar-campanha`:
+Isso vem da skill `campanha`:
 
 ```
 campanha.py mapa --capitulo 1 --mapa cenarios/taberna3.json
@@ -61,6 +61,21 @@ campanha.py mapa --capitulo 1 --mapa cenarios/taberna3.json
 
 Com o cenário declarado no plano e o capítulo marcado, montar a cena não precisa de nenhum
 caminho na linha de comando — nem de entrada, nem de saída.
+
+### Vários iguais: `usando`
+
+Quatro mortos-vivos com o mesmo desenho precisam de **nomes distintos**, senão o mapa
+entende que é a mesma criatura se movendo (a identidade é o nome). Acrescente
+`usando <token>` no fim da frase para dar a arte explicitamente:
+
+```
+--npc "Morto-Vivo 1 em I11 olhando para I5 usando tokens/zumbi-agachado.png"
+--npc "Morto-Vivo 2 em J11 olhando para J5 usando tokens/zumbi-agachado.png"
+```
+
+`usando` aceita caminho de arquivo ou o nome no acervo, e serve também para **um token
+provisório**: um PJ que ainda não tem `token-hex.png` entra com arte emprestada do acervo
+e mantém a aura azul.
 
 | Opção | Para quê |
 |---|---|
@@ -76,7 +91,7 @@ alguém duas vezes no mesmo hexágono substitui, não empilha.
 
 ## Onde a imagem é gravada
 
-A skill **pergunta à `gerenciar-campanha`** onde estamos e grava o mapa na **pasta de jogo
+A skill **pergunta à skill `campanha`** onde estamos e grava o mapa na **pasta de jogo
 do capítulo atual** — `campanha/NN-capitulo/`, não a do plano.
 
 A distinção importa: `campanha/plano/NN-.../` guarda o que foi **imaginado** para a cena e
@@ -112,11 +127,11 @@ campanha`). Se a imagem não apareceu onde você esperava, é essa linha que exp
 **Marque o capítulo antes de montar a cena:**
 
 ```
-python .claude/skills/gerenciar-campanha/scripts/campanha.py atual --capitulo 3
+python .claude/skills/campanha/scripts/campanha.py atual --capitulo 3
 ```
 
 **Esta skill nunca cria campanha.** Sem campanha ativa ela grava ao lado do índice e segue
-— é o contrato da `gerenciar-campanha` e vale aqui.
+— é o contrato da skill `campanha` e vale aqui.
 
 ## Histórico de movimentações e rollback
 

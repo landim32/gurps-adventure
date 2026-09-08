@@ -30,7 +30,7 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFilter
 
-CAMPANHA_PY = Path(".claude/skills/gerenciar-campanha/scripts/campanha.py")
+CAMPANHA_PY = Path(".claude/skills/campanha/scripts/campanha.py")
 
 # Token do acervo encara o sul (borda de baixo). PIL rotate e anti-horario.
 GIRO_DESDE_SUL = {"S": 0, "SE": 60, "NE": 120, "N": 180, "NW": 240, "SW": 300}
@@ -43,14 +43,15 @@ COR_NPC = "#DC2626"   # vermelho
 RE_PEDIDO = re.compile(
     r"^\s*(?P<quem>.+?)\s+em\s+(?P<hex>[A-Za-z]{1,3}\d{1,3})"
     r"(?:\s+olhando\s+(?:para\s+)?(?P<alvo>[A-Za-z]{1,3}\d{1,3}))?"
-    r"(?:\s+ocupando\s+(?P<tam>\d+(?:[.,]\d+)?)\s*hex\w*)?\s*$",
+    r"(?:\s+ocupando\s+(?P<tam>\d+(?:[.,]\d+)?)\s*hex\w*)?"
+    r"(?:\s+usando\s+(?P<token>\S+))?\s*$",
     re.I)
 
 OPOSTA = {"N": "S", "S": "N", "NE": "SW", "SW": "NE", "SE": "NW", "NW": "SE"}
 
 
 def estado_da_campanha(raiz):
-    """Pergunta a skill gerenciar-campanha onde estamos. Nunca cria campanha."""
+    """Pergunta a skill campanha onde estamos. Nunca cria campanha."""
     script = raiz / CAMPANHA_PY
     if not script.is_file():
         return {"ativa": False}
@@ -117,8 +118,25 @@ def cor_rgb(txt):
     return tuple(int(t[i:i + 2], 16) for i in (0, 2, 4))
 
 
-def achar_token(quem, tipo, raiz):
-    """PJ: personagens/<slug>/token-hex.png. NPC: tokens/<slug>.png. Ou caminho direto."""
+def achar_token(quem, tipo, raiz, token=""):
+    """PJ: personagens/<slug>/token-hex.png. NPC: tokens/<slug>.png. Ou caminho direto.
+
+    `token` sobrepoe a busca pelo nome — e uma arte so serve a varias criaturas
+    iguais ("Morto-Vivo 1", "Morto-Vivo 2"), que precisam de nomes distintos para
+    o mapa nao entender que e a mesma pessoa se movendo.
+    """
+    if token:
+        alvo = Path(token)
+        # sempre devolver caminho sob a raiz: quem grava o indice faz relative_to(raiz)
+        if (raiz / alvo).is_file():
+            return raiz / alvo
+        if alvo.is_absolute() and alvo.is_file():
+            return alvo
+        s = slug(str(alvo))
+        for cand in (raiz / "tokens" / f"{s}.png", raiz / "npcs" / f"{s}.png"):
+            if cand.is_file():
+                return cand
+        raise SystemExit(f'Nao achei o token "{token}" pedido em "usando".')
     p = Path(quem)
     if p.suffix and p.is_file():
         return p
@@ -420,7 +438,7 @@ def main():
                                  f"Exemplos: {', '.join(list(hexes)[:8])}...")
             if alvo and alvo not in hexes:
                 raise SystemExit(f"O alvo {alvo} nao existe neste grid.")
-            token = achar_token(quem, tipo, raiz)
+            token = achar_token(quem, tipo, raiz, m.group("token") or "")
             frente = aresta_para(hexes, rot, alvo) if alvo else None
             tam = (float(m["tam"].replace(",", ".")) if m["tam"]
                    else tamanho_catalogado(quem, tipo, raiz))

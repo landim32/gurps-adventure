@@ -31,8 +31,8 @@ python .claude/skills/combate/scripts/combate.py \
 |---|---|---|
 | 1 | **NH efetivo** | NH da perícia + bônus da manobra + redutor do local + condições adversas + ferimento da rodada anterior |
 | 2 | **Jogada de ataque** | 3d. Recusa a jogada se o NH efetivo cair a 3 ou menos |
-| 3 | **Golpe fulminante** | 3-4 sempre; 5 com NH 15+; 6 com NH 16+. **Sem jogada de defesa** e sorteio na Tabela de Golpes Fulminantes — ou na **Tabela na Cabeça**, se o alvo era cabeça, cérebro ou olhos |
-| 4 | **Erro crítico** | 18 sempre; 17 com NH abaixo de 16; margem de 10 ou mais. Sorteia na Tabela de Erros Críticos e o golpe acaba ali |
+| 3 | **Golpe fulminante** | 3-4 sempre; 5 com NH 15+; 6 com NH 16+. **Sem jogada de defesa** e sorteio na Tabela de Golpes Fulminantes — ou na **Tabela na Cabeça**, se o alvo era cabeça, cérebro ou olhos. O efeito sorteado sai no bloco da mesa: ver **Explicar o crítico** |
+| 4 | **Erro crítico** | 18 sempre; 17 com NH abaixo de 16; margem de 10 ou mais. Sorteia na Tabela de Erros Críticos e o golpe acaba ali — com o efeito dito por extenso |
 | 5 | **Defesa** | Defesa ativa escolhida + Reflexos em Combate + DP da peça daquele local + DP do escudo + recuar (+3). 3 ou 4 sempre defende; 17 ou 18 é falha desastrosa |
 | 6 | **Dano** | Rola o dano, tira a RD **daquela região**, aplica o bônus do tipo de dano |
 | 7 | **Local** | Multiplicadores e tetos: vitais, cérebro, membros |
@@ -162,6 +162,45 @@ do dano. Não rode de novo porque o jogador levou 24 pontos.
 
 Se a mesa quiser um resultado escolhido para testar uma regra, **diga que foi escolhido**.
 
+## Explicar o crítico
+
+Um `3d = 15` não diz nada a quem está na mesa. **Golpe fulminante e erro crítico só estão
+resolvidos quando a mesa souber o que a tabela mandou acontecer** — e o efeito costuma
+importar mais que o dano: um soco que tira 1 ponto de vida e derruba a espada do oponente
+decidiu a luta, e não foi o ponto de vida.
+
+O script já traz as duas linhas no bloco do WhatsApp:
+
+```
+*GOLPE FULMINANTE!* Sem defesa possível.
+Tabela de Golpes Fulminantes: 3d = *15*
+_A arma do oponente cai, e ele ainda recebe o dano normal._
+```
+
+```
+*ERRO CRÍTICO!* Tabela de Erros Críticos: 3d = *9*
+_Você DERRUBOU a arma. Arma barata teria se quebrado._
+```
+
+**Repasse as duas**, e depois diga na narração o que isso é no mundo: a espada girando na
+serragem, o punho que escorrega, o elmo que sai. Número sem consequência a mesa esquece;
+consequência a mesa lembra a campanha inteira.
+
+### Quando o efeito não se aplica
+
+As tabelas presumem gente armada, e a mesa nem sempre está. **Traduza o efeito para a cena
+e diga que está arbitrando** — é decisão do Mestre, não do livro:
+
+| A tabela diz | O caso | O que fazer |
+|---|---|---|
+| "a arma do oponente cai" | alvo de mãos limpas | Não há arma: fica só o dano. Se ele estivesse **segurando** alguém, perde o agarrão; se carregava tocha ou lampião, é isso que cai |
+| "derrubou a arma" | atacante desarmado | O golpe se perde: ele passa direto e fica desequilibrado |
+| "a armadura é ignorada" | alvo sem armadura | Nada muda; o dano já entrava inteiro |
+| efeito em membro | membro já incapacitado | O excedente se perde, como manda a regra de teto do local |
+
+Nunca invente um efeito **pior** que o da tabela para compensar. O crítico já é o presente
+que o dado deu; o trabalho é só encaixá-lo na cena.
+
 ## Mostrar e gravar
 
 O bloco **PARA O WHATSAPP** sai sempre, com o essencial: quem atacou quem, onde, o que saiu
@@ -170,6 +209,24 @@ e quanto doeu. **Repasse num bloco de código.** Mostrar ou não é decisão do 
 Fora do bloco, uma ou duas linhas ao Mestre: quem está atordoado, quem perdeu a defesa
 ativa até o próximo turno, quem precisa testar HT no começo do turno.
 
-`--gravar` registra no capítulo atual pela `gerenciar-campanha`. Numa luta longa, **não
+`--gravar` registra no capítulo atual pela skill `campanha`. Numa luta longa, **não
 grave golpe a golpe** — grave o que mudou o rumo: o membro que ficou inutilizado, o nocaute,
 a morte, a arma quebrada.
+
+**O corpo vai para `campanha/saude.md`.** O script resolve um golpe por vez e não soma
+nada: quem mantém o placar da luta é você, e o lugar dele não é a ficha.
+
+```
+campanha.py saude --pj "Negrum Carneiriums" --pv -3 --motivo "Machadada do orc (cap. 04)"
+campanha.py saude --npc "Donnwulf" --estado "Braço direito incapacitado (Maneta até curar)"
+```
+
+**A ficha do personagem não é tocada por causa de dano** — ela guarda o PV e a Fadiga
+máximos, e só muda a pedido do usuário. Lance ao fim da luta o que ainda valia: os pontos
+de vida perdidos que não foram curados, a Fadiga que sobrou, e `--estado` para o que dura
+(membro incapacitado, nocaute, osso quebrado).
+
+O que não é corpo continua na anotação (`campanha.py anotar`): arma quebrada, armadura
+arruinada, quem fugiu e para onde, quem morreu. Dano que o alvo cura sozinho até a próxima
+cena não precisa de registro nenhum. Detalhes na skill `campanha`, seções **A saúde** e
+**O estado do mundo**.

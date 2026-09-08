@@ -171,7 +171,21 @@ A campanha em andamento fica em **`campanha/`**, com o `README.md` indexando tud
 informações básicas, os personagens, o **plano** dividido em capítulos e o **histórico** do
 que de fato aconteceu na mesa. Quando termina, ela é arquivada inteira em
 `historico/campanhas/`. Só existe uma campanha ativa por vez, e quem cuida disso é a skill
-`gerenciar-campanha`.
+`campanha`.
+
+Pontos de vida, Fadiga e ferimento que fica moram em **`campanha/saude.md`**; o dinheiro de
+cada um fica em **`campanha/bolsa.md`**, com extrato e saldo: a ficha do
+personagem não é mexida por causa de moeda, nem por nada que a mesa produza — ela só muda
+quando o usuário pede.
+
+O que os jogadores declaram fazer entra pela skill `acao`: ela lê a ficha de quem age e o
+estado da cena, decide o que a ação exige pelas regras, chama quem resolve o dado, narra o
+desfecho e registra o que mudou.
+
+O que a mesa muda no mundo — um NPC ferido, um item que trocou de dono, uma promessa — é
+anotado por `campanha.py anotar` no `npcs.md`, `grupo.md` ou `lugares.md` da pasta de jogo
+do capítulo, e consolidado em **`campanha/mundo.md`**: é ali que se lê como as coisas estão
+agora, sem reler o histórico inteiro.
 
 O plano segue o formato de *Caravana para Ein Arris*
 (`livros/gurps-mb-3ed/23-caravana-para-ein-arris.md`): uma Descrição do Cenário que pode ser

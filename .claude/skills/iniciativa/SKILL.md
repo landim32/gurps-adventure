@@ -111,7 +111,7 @@ Se quiser mais cor, reescreva o texto — mas **mantendo todos os números** que
 imprimiu. A skill `narrar` tem as regras de estilo, e valem aqui: nada de ficha, nada de
 nome de mecânica, e o que só o Mestre sabe fica com o Mestre.
 
-`--gravar` registra uma linha no capítulo atual pela `gerenciar-campanha`, como um
+`--gravar` registra uma linha no capítulo atual pela skill `campanha`, como um
 acontecimento. Use sempre que a rolagem valeu de verdade; deixe de fora quando for teste.
 
 Fora do bloco, cabe uma linha ao Mestre: quem age primeiro, quem está atordoado e o que

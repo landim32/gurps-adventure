@@ -113,6 +113,17 @@ número — dos dois lados, inclusive do que perdeu. Não rode de novo porque o 
 
 ## Registrar
 
-`--gravar` anota uma linha no capítulo atual pela `gerenciar-campanha`. Use quando a disputa
+`--gravar` anota uma linha no capítulo atual pela skill `campanha`. Use quando a disputa
 mudou o rumo — o grupo passou ou não passou pelo portão — e deixe de fora o braço-de-ferro
 de taberna que não decidiu nada.
+
+**A consequência da disputa, anote.** O resultado do dado vira log; o que ele deixou no
+mundo vira anotação — o pedreiro que quebrou o braço, o dinheiro que trocou de mão, o
+guarda que agora sabe que passou alguém:
+
+```
+campanha.py anotar --npc "Donnwulf" --tag ferimento --texto "..."
+campanha.py anotar --pj "Negrum Carneiriums" --tag item --texto "..."
+```
+
+Veja a skill `campanha`, seção **O estado do mundo**.

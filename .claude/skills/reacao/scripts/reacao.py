@@ -26,7 +26,7 @@ import unicodedata
 from datetime import datetime
 from pathlib import Path
 
-CAMPANHA_PY = Path(".claude/skills/gerenciar-campanha/scripts/campanha.py")
+CAMPANHA_PY = Path(".claude/skills/campanha/scripts/campanha.py")
 
 # Quem rola dado neste repositorio e a skill `roll`, uma so.
 ROLL_PY = Path(__file__).resolve().parents[2] / "roll" / "scripts" / "roll.py"
@@ -106,7 +106,7 @@ def estado_campanha(raiz):
 def registrar(raiz, texto):
     script = raiz / CAMPANHA_PY
     if not script.is_file():
-        return False, "gerenciar-campanha não encontrada"
+        return False, "skill campanha não encontrada"
     env = {**os.environ, "PYTHONIOENCODING": "utf-8"}
     r = subprocess.run([sys.executable, str(script), "--raiz", str(raiz),
                         "acontecimento", "--texto", texto], capture_output=True,
@@ -136,7 +136,17 @@ def ficha_pj(nome, raiz):
     """Nome e modificador de reação, direto do campo Reacao da ficha."""
     f = raiz / "personagens" / slug(nome) / "personagem.json"
     if not f.is_file():
-        return {"nome": nome, "mod": 0, "bruto": "", "achou": False}
+        # nome parcial: "Negrum" acha negrum-carneiriums, "Kaelric" acha irmao-kaelric
+        alvo, achado = slug(nome), None
+        for cand in sorted((raiz / "personagens").glob("*/personagem.json")):
+            s = slug(cand.parent.name)
+            peso = 0 if s == alvo else (1 if s.startswith(alvo) else
+                                        (2 if alvo in s.split("-") else None))
+            if peso is not None and (achado is None or peso < achado[0]):
+                achado = (peso, cand)
+        if not achado:
+            return {"nome": nome, "mod": 0, "bruto": "", "achou": False}
+        f = achado[1]
     d = json.loads(f.read_text(encoding="utf-8"))
     bruto = str(d.get("reacao") or "").strip()
     # o campo e texto livre: "-3", "+2", "-2 (porte); +2 cristaos". Vale o primeiro

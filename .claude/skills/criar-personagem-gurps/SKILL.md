@@ -15,6 +15,20 @@ description: >
 
 # Criar/Editar Personagem de GURPS 3ª Edição
 
+> **A ficha só muda quando o usuário pede.** Esta skill edita `personagem.json`,
+> `personagem.md` e `ficha.jpg` a pedido explícito — "crie", "edite o X", "lance
+> isso na ficha". O que a mesa produz durante o jogo (dinheiro, item pegado,
+> ferimento, PV perdido) **não** entra aqui por conta própria: dinheiro mora em
+> `campanha/bolsa.md` e o resto nas anotações da skill `campanha`. Quando o pedido
+> vier, aí sim recalcule tudo do zero, como manda a seção de edição.
+>
+> **Personagem novo abre a bolsa da campanha.** Criado o PJ, lance o dinheiro que sobrou —
+> recursos iniciais da Riqueza dele menos o `custo_total` do equipamento:
+> `campanha.py bolsa --pj "Nome" --valor +690 --inicial --motivo "Saldo inicial: ..."`.
+> Em cenário de fantasia a Riqueza Média dá **$1.000** (o dobro para Confortável, metade
+> para Batalhador, 1/5 para Pobre). Havendo campanha ativa, isso é parte de entregar o
+> personagem; não havendo, diga o saldo na resposta para o Mestre lançar depois.
+
 Esta skill transforma uma descrição em texto ("um ladrão ágil e covarde", "uma maga élfica
 nobre", "um guerreiro anão especialista em machados") mais um orçamento de pontos em uma
 ficha de personagem de GURPS 3ª Edição completa, mecanicamente correta e pronta para jogar.
@@ -654,7 +668,11 @@ Campos que controlam o agrupamento visual na ficha:
 
 - **`vantagens_desvantagens`**: o script separa automaticamente pelo sinal do custo —
   primeiro as **Vantagens** (custo ≥ 0), depois **uma linha em branco**, depois as
-  **Desvantagens** (custo < 0). Basta listá-las na ordem que preferir. As
+  **Desvantagens** (custo < 0). Basta listá-las na ordem que preferir. Um traço de
+  **custo 0** cairia no bloco errado, então nesse caso acrescente
+  `"lado": "desvantagem"` (ou `"vantagem"`) ao item para forçar o grupo — é o caso das
+  desvantagens **adquiridas em jogo**, que o Mestre concede sem devolver pontos
+  (ex.: `{"nome": "Inimigo: guarda de Wallace", "custo": 0, "lado": "desvantagem"}`). As
   **Peculiaridades** já ficam num quadro próprio do formulário, logo abaixo.
 - **`pericias[].categoria`**: agrupa as perícias na coluna da direita — sempre que a
   categoria muda de uma linha para a outra, o script pula **uma linha em branco**. Ordene a

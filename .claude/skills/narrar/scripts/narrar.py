@@ -20,7 +20,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-CAMPANHA_PY = Path(".claude/skills/gerenciar-campanha/scripts/campanha.py")
+CAMPANHA_PY = Path(".claude/skills/campanha/scripts/campanha.py")
 
 # O console do Windows e cp1252 e engasga com acento, seta e travessao.
 for _fluxo in (sys.stdout, sys.stderr):
@@ -57,7 +57,7 @@ def registrar_acontecimento(raiz, texto):
 def exige_capitulo(raiz):
     est = estado(raiz)
     if not est.get("ativa"):
-        raise SystemExit("Nao ha campanha ativa. Crie com gerenciar-campanha.")
+        raise SystemExit("Nao ha campanha ativa. Crie com a skill campanha.")
     if not est.get("capitulo_atual_pasta"):
         raise SystemExit(
             "Nao ha capitulo atual. Marque com:\n"

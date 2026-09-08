@@ -24,7 +24,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-CAMPANHA_PY = Path(".claude/skills/gerenciar-campanha/scripts/campanha.py")
+CAMPANHA_PY = Path(".claude/skills/campanha/scripts/campanha.py")
 SKILLS = Path(__file__).resolve().parents[2]
 AQUI = Path(__file__).resolve().parent
 
@@ -149,7 +149,7 @@ def tipo_dano_chave(txt):
 def registrar(raiz, texto):
     script = raiz / CAMPANHA_PY
     if not script.is_file():
-        return False, "gerenciar-campanha não encontrada"
+        return False, "skill campanha não encontrada"
     env = {**os.environ, "PYTHONIOENCODING": "utf-8"}
     r = subprocess.run([sys.executable, str(script), "--raiz", str(raiz),
                         "acontecimento", "--texto", texto], capture_output=True,
@@ -286,6 +286,8 @@ def main():
 
     acertou = res_ataque in ("sucesso", "sucesso decisivo")
     fulminante = res_ataque == "sucesso decisivo"
+    # o que a tabela de criticos disse, para repetir no bloco da mesa
+    critico_txt, critico_total = "", None
     efeito = {}
     mult_dano, ignora_armadura = 1, False
 
@@ -297,7 +299,9 @@ def main():
         p(f"\n  {T.DESARMADO_ERRO}" if not arma_nome else "")
         p(f"\n{atacante} não acertou nada. O golpe acabou aqui.")
         _fecha(saida, avisos, args, raiz, atacante, args.alvo, local,
-               f"errou feio ({res_ataque})", None)
+               f"errou feio ({res_ataque})", None, nh_ef=nh_ef, ataque=ta,
+               arma=arma_nome, critico_tipo="erro", critico_total=te,
+               critico_txt=T.ERRO_CRITICO[te])
         return
 
     if res_ataque == "falha":
@@ -311,6 +315,7 @@ def main():
         df = _roll.d6(3)
         tf = sum(df)
         efeito = tab[tf]
+        critico_txt, critico_total = efeito["txt"], tf
         nome_tab = "Golpes Fulminantes na Cabeça" if de_cabeca else "Golpes Fulminantes"
         p(f"\nGOLPE FULMINANTE — sem jogada de defesa!")
         p(f"  Tabela de {nome_tab}: 3d [{', '.join(map(str, df))}] = {tf}")
@@ -322,6 +327,8 @@ def main():
             _fecha(saida, avisos, args, raiz, atacante, args.alvo, local,
                    "golpe fulminante na cabeça: morte instantânea", None,
                    fulminante=True, nh_ef=nh_ef, ataque=ta, arma=arma_nome,
+                   critico_tipo="fulminante", critico_total=tf,
+                   critico_txt=efeito["txt"],
                    extra_w=["*O golpe MATA na hora.*"])
             return
 
@@ -545,12 +552,14 @@ def main():
 
     _fecha(saida, avisos, args, raiz, atacante, alvo, local,
            f"acertou {local['nome'].lower()}", ferimento, fulminante=fulminante,
+           critico_tipo="fulminante" if fulminante else "",
+           critico_total=critico_total, critico_txt=critico_txt,
            dano_txt=dano_txt, arma=arma_nome, nh_ef=nh_ef, ataque=ta, tipo=tipo)
 
 
 def _fecha(saida, avisos, args, raiz, atacante, alvo, local, desfecho, ferimento,
            fulminante=False, dano_txt="", arma="", nh_ef=0, ataque=0, tipo="cont",
-           extra_w=None):
+           extra_w=None, critico_tipo="", critico_total=None, critico_txt=""):
     """Imprime tudo, monta o bloco do WhatsApp e registra na campanha."""
     print("\n".join(l for l in saida if l))
     for a in avisos:
@@ -564,10 +573,18 @@ def _fecha(saida, avisos, args, raiz, atacante, alvo, local, desfecho, ferimento
         w.append(f"Ataque: 3d = *{ataque}* contra NH {nh_ef}")
     if fulminante:
         w.append("*GOLPE FULMINANTE!* Sem defesa possível.")
+    if critico_txt:
+        # a mesa precisa saber o que o 15 da tabela quer dizer
+        titulo = ("Tabela de Golpes Fulminantes" if critico_tipo == "fulminante"
+                  else "*ERRO CRÍTICO!* Tabela de Erros Críticos")
+        w.append(f"{titulo}: 3d = *{critico_total}*")
+        w.append(f"_{critico_txt}_")
     for linha in extra_w or []:
         w.append(linha)
-    if ferimento is None and not extra_w:
-        w.append(f"*{desfecho.capitalize()}.*")
+    if ferimento is None:
+        # golpe que nao chegou a causar dano: errou, ou o alvo defendeu
+        if not extra_w:
+            w.append(f"*{desfecho.capitalize()}.*")
     elif ferimento == 0:
         w.append("*A armadura segurou o golpe.* Nenhum dano.")
     else:
@@ -582,6 +599,10 @@ def _fecha(saida, avisos, args, raiz, atacante, alvo, local, desfecho, ferimento
 
     if args.gravar:
         txt = f"{atacante} atacou {alvo} ({local['nome'].lower()}): {desfecho}"
+        if critico_txt:
+            # o efeito da tabela e o que muda o rumo; o log precisa dele
+            rotulo = "golpe fulminante" if critico_tipo == "fulminante" else "erro crítico"
+            txt += f" — {rotulo} ({critico_total}): {critico_txt.rstrip('.')}"
         if ferimento:
             txt += f", {ferimento} pontos de vida"
         ok, msg = registrar(raiz, txt + ".")

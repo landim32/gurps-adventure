@@ -4,8 +4,7 @@ description: >
   Narra a história para os jogadores a partir do que está planejado na campanha: lê o
   plano do capítulo atual, os NPCs e o que já aconteceu, e escreve o texto que o Mestre
   vai ler à mesa. O texto sai formatado para colar no WhatsApp e fica arquivado no
-  capítulo atual da campanha, e junto vem um prompt de imagem da cena narrada, pronto para
-  colar num gerador estilo DALL-E. Use when the user asks to "narre", "narrar a cena",
+  capítulo atual da campanha. Use when the user asks to "narre", "narrar a cena",
   "descreva a taberna", "conta o que eles veem", "texto para os jogadores", ou /narrar.
 ---
 
@@ -177,56 +176,13 @@ vai ser colado, uma mensagem por vez.
 Fora do bloco, e só depois dele, cabe uma linha ou duas ao Mestre: que teste pedir, que
 NPC reage a quê, o que a cena está preparando.
 
-A ordem da resposta é sempre esta: **a narração em bloco(s) de código → o prompt de imagem
-em bloco próprio (seção 5) → as linhas ao Mestre.** Primeiro o que vai para a mesa, depois
-o que é do Mestre.
+A ordem da resposta é sempre esta: **a narração em bloco(s) de código → as linhas ao
+Mestre.** Primeiro o que vai para a mesa, depois o que é do Mestre.
 
-## 5. O prompt de imagem
+**Esta skill não gera imagem nem prompt de imagem.** Ilustração de cena é assunto da skill
+`campanha`, que grava a do capítulo no plano; aqui sai texto, e só.
 
-**Toda narração sai acompanhada de um prompt de imagem** da cena que acabou de ser narrada,
-pronto para colar num gerador estilo DALL-E. Em **bloco de código próprio**, depois do texto
-da narração e claramente rotulado, para o usuário copiar sem misturar com o que vai para a
-mesa.
-
-**Ele não é gravado em lugar nenhum.** Não entra no README do capítulo, não vira arquivo. É
-material de apoio descartável — se o usuário perder, basta pedir de novo. O que fica
-arquivado é a narração, e só.
-
-### Como escrever
-
-Mesmo padrão do `foto-prompt.md` da `criar-personagem-gurps`: **um único parágrafo, em
-inglês**, começando pelo estilo. Menos de **1.000 caracteres** — o gerador ignora o fim de
-prompts longos.
-
-Ordem que funciona:
-
-1. **Estilo primeiro**, sempre o mesmo ao longo da campanha, para as imagens parecerem um
-   conjunto: *"Digital illustration, fantasy RPG scene art, clean linework with warm soft
-   coloring, hand-drawn look"*. Nunca "photo" nem "photorealistic".
-2. **O lugar**, com a luz e a hora: taberna apertada de porto à noite, lareira, fumaça,
-   lamparinas, chuva na janela. A luz é o que mais muda o clima da imagem.
-3. **Duas ou três figuras, não a multidão inteira.** Escolha quem a narração descreveu e
-   repita **os mesmos detalhes físicos** que o texto deu — se na narração o taberneiro tem
-   meia orelha e avental sujo, aqui também. Texto e imagem têm de combinar.
-4. **O que está acontecendo**: o braço-de-ferro no meio do círculo, o guarda sozinho no
-   canto bebendo rápido. Ação concreta vale mais que adjetivo.
-5. **Enquadramento**: *"wide interior shot"*, *"eye-level"*, *"seen from the doorway"*.
-
-### O que não entra
-
-As mesmas regras da seção 2 valem aqui — **o prompt é a cena pelos olhos dos jogadores**:
-
-- **Nada de spoiler visual.** Se os personagens ainda não viram o que vem pela porta, a
-  imagem não mostra. Ilustre o que foi narrado, não o que está no plano.
-- **Nada de texto na imagem** — peça `"no text, no lettering, no signage"`. Todo gerador
-  escreve garatuja.
-- **Nada de ficha nem de mecânica**: sem hexágonos, sem grid, sem números.
-- **Sem nome de artista vivo**; descreva a técnica, não o autor.
-
-O prompt é sempre da **cena**, não retrato de personagem — retrato de PJ já tem lugar
-próprio (`personagens/<slug>/foto-prompt.md`).
-
-## 6. Arquivar
+## 5. Arquivar
 
 ```
 python .claude/skills/narrar/scripts/narrar.py gravar \
@@ -256,6 +212,11 @@ cortar.
 **Arquive sempre.** A seção Narração é o que impede a próxima de repetir o que a mesa já
 ouviu — e, no fim da campanha, é o registro mais fiel do que os jogadores de fato
 souberam, que quase nunca é o que estava no plano.
+
+**O que a narração tornou verdade, anote.** Se o texto estabeleceu um fato que a mesa vai
+cobrar depois — um NPC ferido, um item na mão de alguém, uma porta arrombada, um presságio
+que já caiu —, registre com `campanha.py anotar --npc/--pj/--coisa` além de arquivar a
+narração. Veja a skill `campanha`, seção **O estado do mundo**.
 
 ## Sem campanha ativa
 

@@ -1,5 +1,5 @@
 ---
-name: gerenciar-campanha
+name: campanha
 description: >
   Cria e conduz a campanha de GURPS em andamento: escreve o plano dividido em capítulos
   no padrão de Caravana para Ein Arris, mantém tudo em campanha/ com um README.md que
@@ -9,7 +9,7 @@ description: >
   historico/campanhas/. É por esta skill que as outras registram o que aconteceu.
   Use when the user asks to "criar uma campanha", "começar campanha",
   "registrar o que aconteceu", "anotar na campanha", "encerrar a campanha", ou
-  /gerenciar-campanha.
+  /campanha.
 ---
 
 # Gerenciar a campanha
@@ -72,7 +72,7 @@ skills saibam onde escrever sem perguntar.
 ## O script
 
 ```
-python .claude/skills/gerenciar-campanha/scripts/campanha.py <comando>
+python .claude/skills/campanha/scripts/campanha.py <comando>
 ```
 
 | Comando | O que faz |
@@ -84,6 +84,10 @@ python .claude/skills/gerenciar-campanha/scripts/campanha.py <comando>
 | `atual --capitulo 3` | Marca **em que capítulo a mesa está** — outras skills leem isso |
 | `evento --titulo "..."` | Abre uma cena de jogo **que não está no plano** |
 | `acontecimento --texto "..."` | Anota um fato no **capítulo atual**, com data e hora. `--imagem` grava no plano |
+| `anotar --npc/--pj/--coisa "..." --texto "..."` | Anota uma **mudança que fica**: ferimento, item, relação, informação |
+| `mundo` | Regera `campanha/mundo.md`, o estado consolidado. `--mostrar` imprime |
+| `bolsa --pj/--npc "..." --valor +50` | Lança dinheiro em `campanha/bolsa.md`. Sem argumentos, mostra os saldos |
+| `saude --pj/--npc "..." --pv -3` | Lança dano, Fadiga e ferimento em `campanha/saude.md`. Sem argumentos, mostra o estado |
 | `imagem-inicial --arquivo ...` | Grava a ilustração de abertura **no plano** (`inicio.png`). `--prompt` se não houver geração |
 | `indexar` | Regera os índices do README |
 | `encerrar` | Arquiva em `historico/campanhas/`. Aceita `--desfecho` |
@@ -258,6 +262,145 @@ descrição de cenário. O histórico é para consultar, não para transcrever.
 Escreva no passado e em terceira pessoa, curto — uma linha por acontecimento. O detalhe
 longo vai no corpo do README da pasta de jogo, acima da lista.
 
+## O estado do mundo
+
+O log de acontecimentos responde *o que aconteceu*. Ele **não** responde *como as coisas
+estão agora* — e é essa a pergunta que o Mestre faz toda vez que um NPC volta à cena. Ler
+quarenta linhas de log antes de abrir a boca do taberneiro não funciona.
+
+Por isso **toda mudança que sobrevive à cena é anotada**, além do acontecimento:
+
+```
+campanha.py anotar --npc "Donnwulf" --tag ferimento \
+  --texto "Braço direito quebrado na queda de braço. Maneta até curar; a fratura é
+           permanente por decisão do Mestre."
+```
+
+| Quem mudou | Opção | Vai para |
+|---|---|---|
+| Um NPC | `--npc "Donnwulf"` | `campanha/NN-.../npcs.md` |
+| Um personagem de jogador | `--pj "Negrum Carneiriums"` | `campanha/NN-.../grupo.md` |
+| Um lugar, um objeto, uma informação que correu | `--coisa "A Âncora Quebrada"` | `campanha/NN-.../lugares.md` |
+
+Os três arquivos moram na **pasta de jogo** do capítulo, ao lado do README — nunca no
+plano, que guarda o que foi *imaginado* e não se mexe. Cada sujeito vira uma seção `##`,
+e cada mudança uma linha datada. O script cria o arquivo na primeira anotação, já com o
+link de volta para o `npcs.md` do plano.
+
+`--tag` classifica em uma palavra: `ferimento`, `morte`, `item`, `relação`, `informação`,
+`promessa`, `lugar`. Serve para varrer depois — não é lista fechada.
+
+### O consolidado
+
+Toda anotação regera **`campanha/mundo.md`**, que junta os três arquivos de **todos os
+capítulos**, agrupados por sujeito e marcados com o capítulo de origem. É o arquivo a ler
+para saber em que estado o mundo está — e é ele que resolve o problema de o braço quebrado
+no capítulo 1 continuar quebrado no capítulo 7.
+
+Ele é **gerado**: não edite entre os marcadores. Corrija no arquivo do capítulo e rode
+`campanha.py mundo`. `estado --json` devolve o caminho dele em `mundo`, e os três arquivos
+do capítulo atual em `capitulo_atual_estado`.
+
+### O que anotar, e o que não
+
+**Anote** o que valeria uma correção de ficha se o NPC tivesse ficha: ferimento que fica,
+morte, item que trocou de dono, dinheiro ganho ou perdido, dívida, promessa, segredo
+revelado, relação que mudou de patamar, porta arrombada que segue arrombada, cavalo que
+morreu. Escreva a **consequência mecânica** junto quando houver — *"Maneta (um braço) até
+curar"* vale mais que *"quebrou o braço"*.
+
+**Não anote** o que passa com a cena: quem estava sentado onde, humor de momento, resultado
+de dado sem consequência. Reação já rolada não entra aqui — mora no `reacoes.json` da skill
+`reacao`; anote só quando a atitude **mudou** por algo que aconteceu em jogo.
+
+**Fato e consequência são dois registros.** O `acontecimento` conta a história em uma linha
+e entra no log; o `anotar` deixa o mundo diferente. Quando os dois cabem, rode os dois — a
+duplicação é de propósito, porque servem a leituras diferentes.
+
+### A bolsa
+
+Dinheiro tem arquivo próprio, `campanha/bolsa.md`, porque não é um fato que aconteceu uma
+vez: é um **saldo**, e saldo se consulta.
+
+```
+campanha.py bolsa --pj "Jah Kagadu" --valor +300 --motivo "Bolsa furtada de Giles (cap. 01)"
+campanha.py bolsa --npc "Giles Mão-de-Prata" --valor -300 --motivo "Furtada por Jah Kagadu"
+campanha.py bolsa                # a tabela de saldos; --mostrar imprime o extrato
+```
+
+Cada lançamento é uma linha datada com sinal e motivo; o **saldo de cada um é recalculado
+a partir das linhas**, então dá para corrigir um erro editando o arquivo e rodando
+`bolsa` de novo. Vale para NPC também — o mercador que perdeu a bolsa tem o lado dele.
+
+**Todo PJ abre a bolsa com o saldo inicial**, no momento em que entra na campanha:
+
+```
+campanha.py bolsa --pj "Jah Kagadu" --valor +690 --inicial \
+  --motivo "Saldo inicial: Riqueza Média ($1.000) menos $310 de equipamento da ficha"
+```
+
+A conta é a do livro (`02-criacao-de-personagem.md`, "Quantidade Inicial de Recursos"):
+**recursos iniciais do nível de Riqueza menos o custo do equipamento da ficha**
+(`custo_total` no `personagem.json`).
+
+| Riqueza | Recursos, em cenário de fantasia |
+|---|---|
+| Falido | $0 |
+| Pobre | $200 (1/5) |
+| Batalhador | $500 (1/2) |
+| **Média** (padrão) | **$1.000** |
+| Confortável | $2.000 (2×) |
+| Rico | $5.000 (5×) |
+
+`--inicial` põe o lançamento **no começo do extrato** mesmo que seja registrado depois dos
+outros, para o histórico do dinheiro se ler de cima para baixo. NPC não precisa disso,
+salvo quando o dinheiro dele estiver em jogo — o mercador que carrega $300 no cinto
+merece o lançamento, o resto da taberna não.
+
+**A ficha do personagem não é mexida por causa de moeda.** `personagem.json`,
+`personagem.md` e `ficha.jpg` só mudam quando o usuário pedir; até lá, o que a mesa
+ganhou e gastou mora aqui. Quando o pedido vier, quem edita é a
+`criar-personagem-gurps`, que recalcula peso e Carga.
+
+### A saúde
+
+Pontos de vida e Fadiga mudam a cada rodada de combate, e ferimento sério dura capítulos.
+Os dois moram em **`campanha/saude.md`**, pela mesma razão da bolsa: são **estado**, não
+fato acontecido.
+
+```
+campanha.py saude --pj "Negrum Carneiriums" --pv -3 --motivo "Machadada do orc (cap. 04)"
+campanha.py saude --pj "Irmão Kaelric" --fadiga -2 --motivo "Correu de armadura completa"
+campanha.py saude --npc "Donnwulf" --estado "Braço direito incapacitado (Maneta até curar)"
+campanha.py saude --npc "Donnwulf" --curar "braço direito"     # quando sarar
+campanha.py saude                    # a tabela; --mostrar imprime o histórico
+```
+
+`--pv` e `--fadiga` vão **com sinal**: negativo é dano ou cansaço, positivo é cura ou
+descanso. O total é recalculado a partir dos lançamentos e comparado com o **máximo da
+ficha** — por isso a tabela mostra `11/12`, e não `-1`. NPC sem ficha aparece só com o
+acumulado.
+
+`--estado` é para o que **não passa com a cena**: membro incapacitado, osso quebrado,
+cegueira, doença, veneno em curso. Escreva a **consequência mecânica** junto — *"Maneta
+(um braço) até curar"* vale mais que *"quebrou o braço"*. Quando sarar, `--curar` com
+parte do texto encerra o estado, que sai da tabela mas fica no histórico.
+
+**O que não anotar:** o dano de um golpe que já foi curado na mesma cena, ou Fadiga que
+volta com dez minutos de descanso. Lance o que ainda vale quando a cena acabar.
+
+**A ficha não é mexida por causa de dano.** `personagem.json` guarda o PV e a Fadiga
+**máximos** — o que o personagem tem quando está inteiro. O que a mesa gastou é daqui, e
+some quando a campanha terminar. Ficha só muda a pedido do usuário, pela
+`criar-personagem-gurps`.
+
+### Antes de voltar a uma cena
+
+Leia, nesta ordem: `campanha/mundo.md` (como as coisas estão), o `npcs.md` da pasta de jogo
+do capítulo (o que mudou aqui) e só então o `npcs.md` do plano (como o NPC foi imaginado).
+**O que está anotado ganha do plano** sempre que os dois discordarem — o plano é a intenção,
+a anotação é o que a mesa fez com ela.
+
 ## Imagens do plano
 
 Ilustração da **cena planejada**: o lugar e os NPCs. Mora em `plano/NN-.../`, junto do
@@ -277,9 +420,24 @@ Duas obrigações:
 Se `inicio.png` já existir na pasta do plano, derive a próxima ilustração com
 `image_edit` a partir dela, para o lugar não mudar de cara.
 
-**Prompt:** um parágrafo em inglês, o mesmo estilo da seção 5 da skill `narrar` (não
-reescreva as regras — leia-as). Cena, não retrato; sem PJ, sem texto na imagem, sem grid.
-`aspect_ratio` 16:9.
+**Prompt:** um único parágrafo **em inglês**, menos de 1.000 caracteres — o gerador ignora
+o fim de prompts longos. `aspect_ratio` 16:9. A ordem que funciona:
+
+1. **Estilo primeiro**, sempre o mesmo ao longo da campanha, para as imagens parecerem um
+   conjunto: *"Digital illustration, fantasy RPG scene art, clean linework with warm soft
+   coloring, hand-drawn look"*. Nunca "photo" nem "photorealistic".
+2. **O lugar**, com a luz e a hora: taberna apertada de porto à noite, lareira, fumaça,
+   lamparinas, chuva na janela. A luz é o que mais muda o clima da imagem.
+3. **Duas ou três figuras, não a multidão inteira**, com os mesmos detalhes físicos que o
+   `npcs.md` deu — se o taberneiro tem meia orelha e avental sujo lá, aqui também.
+4. **O que está acontecendo**: o braço-de-ferro no meio do círculo, o guarda sozinho no
+   canto bebendo rápido. Ação concreta vale mais que adjetivo.
+5. **Enquadramento**: *"wide interior shot"*, *"eye-level"*, *"seen from the doorway"*.
+
+Fora: **personagem de jogador**, retrato (a cena é o assunto; retrato de PJ tem lugar
+próprio em `personagens/<slug>/foto-prompt.md`), texto na imagem (peça `"no text, no
+lettering, no signage"` — todo gerador escreve garatuja), grid ou número, e nome de artista
+vivo (descreva a técnica, não o autor).
 
 Grave no plano:
 
@@ -338,12 +496,25 @@ Ao escrever uma skill nova que deva alimentar a campanha, inclua isto nela:
 > (`campanha.py estado --json` devolve `"ativa": true`), registre o que esta skill
 > produziu de relevante:
 > ```
-> python .claude/skills/gerenciar-campanha/scripts/campanha.py acontecimento \
+> python .claude/skills/campanha/scripts/campanha.py acontecimento \
 >   --texto "<uma linha, no passado>" \
 >   --imagem <png>   # ou --prompt "..." se não houver geração
 > ```
 > A imagem (ou o prompt) segue a seção **Imagens do plano** desta skill. Não havendo
 > campanha ativa, siga sem registrar — não crie campanha por conta própria.
+
+E, se a skill **muda o mundo de forma duradoura** (ferimento que fica, morte, item que
+trocou de dono, relação que virou), acrescente também:
+
+> **Anotar a mudança.** Além do acontecimento, registre o que ficou diferente:
+> ```
+> python .claude/skills/campanha/scripts/campanha.py anotar \
+>   --npc "<NPC>"   # ou --pj "<personagem>", ou --coisa "<lugar/objeto>"
+>   --tag ferimento --texto "<o que mudou, com a consequência mecânica>"
+> ```
+> Isso vai para `campanha/NN-.../npcs.md` (ou `grupo.md`/`lugares.md`) e regera
+> `campanha/mundo.md`. O acontecimento conta o fato; a anotação é o que o Mestre lê da
+> próxima vez.
 
 E, se a skill **produz arquivo** (imagem, mapa, tabela), grave-o na pasta do capítulo
 atual (`campanha/NN-.../`, **não** a do plano), lendo `capitulo_atual_pasta` do mesmo

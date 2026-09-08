@@ -117,7 +117,7 @@ conveniente. Passe como `--mod "NPC>Personagem:-2:segunda tentativa"`.
 
 Se a primeira tentativa virou luta, **não há segunda**.
 
-O script também registra um acontecimento no capítulo pela `gerenciar-campanha`, com os
+O script também registra um acontecimento no capítulo pela skill `campanha`, com os
 destaques. Sem campanha ativa, ele avisa e grava em `campanha/reacoes.json`.
 
 ## Quando não rolar

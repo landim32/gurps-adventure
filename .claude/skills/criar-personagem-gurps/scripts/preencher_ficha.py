@@ -318,8 +318,17 @@ def main():
 
     # --- Vantagens / Desvantagens (grupos separados por uma linha em branco) ---
     itens = data.get("vantagens_desvantagens", [])
-    vantagens = [i for i in itens if (i.get("custo") or 0) >= 0]
-    desvantagens = [i for i in itens if (i.get("custo") or 0) < 0]
+    # "lado" resolve o traco de custo 0 (adquirido em jogo), que o sinal nao separa
+    def e_desvantagem(i):
+        lado = (i.get("lado") or "").lower()
+        if lado.startswith("desv"):
+            return True
+        if lado.startswith("vant"):
+            return False
+        return (i.get("custo") or 0) < 0
+
+    vantagens = [i for i in itens if not e_desvantagem(i)]
+    desvantagens = [i for i in itens if e_desvantagem(i)]
     linhas = list(vantagens)
     if vantagens and desvantagens:
         linhas.append(None)  # linha em branco separando os grupos

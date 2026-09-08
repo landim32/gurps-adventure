@@ -109,10 +109,47 @@ nada. Se precisar reposicionar algo, ajuste as constantes no topo do script (`HE
 
 ## Mestrando e escrevendo aventuras
 
-A campanha ativa vive em `campanha/` e é conduzida pela skill `gerenciar-campanha` — o
+A campanha ativa vive em `campanha/` e é conduzida pela skill `campanha` — o
 plano em `campanha/plano/`, dividido em capítulos no padrão de
 `livros/gurps-mb-3ed/23-caravana-para-ein-arris.md`, e o que de fato aconteceu na mesa em
 `campanha/historico/`. Campanhas encerradas ficam em `historico/campanhas/`.
+
+**A ficha do personagem não se mexe sozinha.** `personagem.json`, `personagem.md` e
+`ficha.jpg` só mudam quando o usuário **pedir explicitamente** ("lance na ficha",
+"atualize o inventário do Jah", "ele subiu Furtividade"). O que a mesa produz — dinheiro
+ganho ou gasto, item pegado, PV perdido, ferimento, mágica lançada — fica no registro da
+campanha: **dinheiro em `campanha/bolsa.md`** (`campanha.py bolsa --pj "Nome" --valor
++50 --motivo "..."`), **pontos de vida, Fadiga e ferimento que fica em
+`campanha/saude.md`** (`campanha.py saude --pj "Nome" --pv -3 --motivo "..."`, e
+`--estado "Braço direito incapacitado (Maneta)"` para o que não passa com a cena), o
+resto nas anotações. A ficha guarda o que o personagem **é**; a
+campanha guarda como ele **está** e o que ele **tem agora**.
+
+**Todo personagem de jogador abre a bolsa com o que sobrou da criação:** os recursos
+iniciais do nível de Riqueza dele — em cenário de fantasia, **$1.000** para Riqueza Média,
+o dobro para Confortável, metade para Batalhador, um quinto para Pobre
+(`livros/gurps-mb-3ed/02-criacao-de-personagem.md`, "Quantidade Inicial de Recursos") —
+**menos o custo do equipamento que está na ficha**. É um lançamento só, com `--inicial`,
+feito quando o personagem entra na campanha. Sem ele os saldos mentem: ninguém chega à
+primeira taberna sem um vintém no bolso.
+
+**Como o grupo está agora** — dinheiro, PV, Fadiga, ferimentos — sai pela skill
+`status-atual`, num bloco pronto para o WhatsApp.
+
+**Declaração de jogador entra pela skill `acao`** — "Ricardo: vou tentar furtar o Giles".
+Ela lê a ficha de quem age e o estado da cena, decide o que a ação exige, chama quem
+resolve (`teste-nh`, `disputa-nh`, `combate`, `reacao`, `roll`), narra o desfecho e
+registra as três camadas: o acontecimento, a anotação do que ficou diferente e a ficha,
+quando a ficha mudou.
+
+**O que a mesa muda no mundo fica gravado.** Fato acontecido vira uma linha no log
+(`campanha.py acontecimento`); **consequência que sobrevive à cena vira anotação**
+(`campanha.py anotar --npc/--pj/--coisa ... --texto "..."`), que cai no `npcs.md`,
+`grupo.md` ou `lugares.md` da pasta de jogo do capítulo e regera `campanha/mundo.md`.
+Ferimento que fica, morte, item que trocou de dono, dinheiro, dívida, promessa, segredo
+revelado, relação que mudou: anote na hora, com a consequência mecânica junto. **Antes de
+voltar a uma cena ou interpretar um NPC, leia `campanha/mundo.md`** — o que está anotado
+ganha do plano quando os dois discordarem.
 
 **Dado se rola pela skill `roll`**, nunca de cabeça:
 `python .claude/skills/roll/scripts/roll.py 1d+1` (aceita `3d`, `2D-1`, `2Dx10`). Relate o
