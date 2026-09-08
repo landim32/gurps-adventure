@@ -34,7 +34,8 @@
     {"nome": "Código de Honra dos Cavaleiros", "custo": -15},
     {"nome": "Dever: Ordem dos Templários", "custo": -10},
     {"nome": "Gigantismo", "custo": -10},
-    {"nome": "Senso de Dever (companheiros)", "custo": -5}
+    {"nome": "Senso de Dever (companheiros)", "custo": -5},
+    {"nome": "Voto de Castidade (obrigatório — teto de -40 em desvantagens já atingido, não rende pontos)", "custo": 0}
   ],
   "peculiaridades": [
     "Organiza tudo ao redor; odeia desordem",
