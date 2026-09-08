@@ -28,7 +28,7 @@ import unicodedata
 from datetime import datetime
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFilter
+from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 CAMPANHA_PY = Path(".claude/skills/campanha/scripts/campanha.py")
 
@@ -355,7 +355,98 @@ def preparar_token(caminho, metro_px, frente, tamanho=1.0):
     return img
 
 
-def renderizar(dados, indice, saida, raiz, alpha):
+# titulos que sozinhos nao identificam ninguem: "Irmao Kaelric" vira "Irmao Kaelric"
+TITULOS = {"irmao", "irma", "sir", "dom", "dona", "frei", "padre", "mestre",
+           "lorde", "lady", "capitao", "sargento", "rei", "rainha", "conde"}
+
+FONTES = ("segoeuib.ttf", "arialbd.ttf", "seguisb.ttf", "segoeui.ttf", "arial.ttf",
+          "DejaVuSans-Bold.ttf")
+
+
+def primeiro_nome(quem):
+    """O nome curto que vai no mapa: a primeira palavra, com o que a desambigua.
+
+    "Comam Obabaroy" -> "Comam"; "Irmao Kaelric" -> "Irmao Kaelric" (titulo sozinho
+    nao diz quem e); "Morto-Vivo 2" -> "Morto-Vivo 2" (o numero distingue os quatro).
+    """
+    limpo = re.sub(r"\([^)]*\)", "", quem).strip()
+    partes = limpo.split()
+    if not partes:
+        return quem
+    nome = partes[0]
+    if len(partes) > 1 and (slug(partes[0]) in TITULOS or partes[1].isdigit()):
+        nome += " " + partes[1]
+    return nome
+
+
+def carregar_fonte(tamanho):
+    for nome in FONTES:
+        try:
+            return ImageFont.truetype(nome, tamanho)
+        except Exception:
+            continue
+    return ImageFont.load_default()
+
+
+def abreviar(texto):
+    """"Morto-Vivo 2" -> "M-V 2": iniciais, guardando o numero que distingue."""
+    partes = texto.split()
+    num = partes[-1] if partes and partes[-1].isdigit() else ""
+    palavras = partes[:-1] if num else partes
+    curto = " ".join("-".join(p[0].upper() for p in w.split("-")) for w in palavras)
+    return (curto + (" " + num if num else "")).strip() or texto
+
+
+def escrever_nome(base, cx, cy, metro_px, texto, cor, alpha, ocupadas=None):
+    """Escreve o nome sob a figura, meio transparente e com contorno para ler.
+
+    O nome nao pode invadir o hexagono do vizinho nem sair do mapa: encolhe a fonte,
+    depois abrevia, e por fim e preso dentro da imagem.
+    """
+    largura_max = metro_px * 2.4
+    fonte = carregar_fonte(max(11, int(metro_px * 0.38)))
+    d0 = ImageDraw.Draw(base)
+    if d0.textlength(texto, font=fonte) > largura_max:
+        fonte = carregar_fonte(max(10, int(metro_px * 0.30)))
+    if d0.textlength(texto, font=fonte) > largura_max:
+        texto = abreviar(texto)
+    camada = Image.new("RGBA", base.size, (0, 0, 0, 0))
+    d = ImageDraw.Draw(camada)
+    y = cy + metro_px * 0.62
+    meia = d.textlength(texto, font=fonte) / 2 + 4
+    cx = min(max(cx, meia), base.width - meia)
+    y = min(y, base.height - metro_px * 0.35)
+
+    # vizinho colado escreve por cima: tenta abaixo, acima, e vai afastando
+    alt = metro_px * 0.42
+    if ocupadas is not None:
+        base_y = cy + metro_px * 0.62
+        acima_y = cy - metro_px * 0.62
+        candidatos = [base_y, acima_y] + [
+            base_y + alt * i for i in range(1, 4)] + [
+            acima_y - alt * i for i in range(1, 4)]
+        limite_baixo = base.height - metro_px * 0.35
+        limite_alto = metro_px * 0.35
+        for cand in candidatos:
+            if not (limite_alto < cand < limite_baixo):
+                continue
+            caixa = (cx - meia, cand - alt / 2, cx + meia, cand + alt / 2)
+            if not any(not (caixa[2] < o[0] or caixa[0] > o[2]
+                            or caixa[3] < o[1] or caixa[1] > o[3])
+                       for o in ocupadas):
+                y = cand
+                break
+        else:
+            y = min(max(base_y, limite_alto), limite_baixo)
+        ocupadas.append((cx - meia, y - alt / 2, cx + meia, y + alt / 2))
+    # contorno escuro por baixo, mais transparente que o texto
+    d.text((cx, y), texto, font=fonte, anchor="mm", fill=(0, 0, 0, int(alpha * 0.7)),
+           stroke_width=max(2, int(metro_px * 0.06)), stroke_fill=(0, 0, 0, int(alpha * 0.7)))
+    d.text((cx, y), texto, font=fonte, anchor="mm", fill=cor + (alpha,))
+    return Image.alpha_composite(base, camada)
+
+
+def renderizar(dados, indice, saida, raiz, alpha, alpha_nome=190, nomes=True):
     mapa = Path(dados["mapa"])
     if not mapa.is_file():
         mapa = indice.parent / dados["mapa"]
@@ -391,6 +482,21 @@ def renderizar(dados, indice, saida, raiz, alpha):
         base = Image.alpha_composite(base, camada)
         n += 1
 
+    # os nomes vem depois de todas as figuras, para nenhum ficar escondido
+    if nomes:
+        caixas = []
+        for rot, o in ocup.items():
+            if rot not in hexes:
+                continue
+            ocupados = [r for r in (o.get("hexes_ocupados") or [rot]) if r in hexes]
+            cx = sum(hexes[r]["cx"] for r in ocupados) / len(ocupados)
+            cy = max(hexes[r]["cy"] for r in ocupados)
+            cor = cor_rgb(o.get("cor")
+                          or (COR_PJ if o.get("tipo") == "pj" else COR_NPC))
+            base = escrever_nome(base, cx, cy, metro_px,
+                                 primeiro_nome(o.get("quem") or rot), cor, alpha_nome,
+                                 caixas)
+
     saida.parent.mkdir(parents=True, exist_ok=True)
     if saida.suffix.lower() in (".jpg", ".jpeg"):
         base.convert("RGB").save(saida, quality=92)
@@ -414,6 +520,10 @@ def main():
     ap.add_argument("--saida", default="", help="Padrao: <mapa>-mesa.png")
     ap.add_argument("--raiz", default=".", help="Raiz do projeto")
     ap.add_argument("--alpha-aura", type=int, default=110, help="0-255 (padrao 110)")
+    ap.add_argument("--alpha-nome", type=int, default=190,
+                    help="Opacidade do nome escrito no mapa, 0-255 (padrao 190)")
+    ap.add_argument("--sem-nomes", action="store_true",
+                    help="Nao escrever os nomes no mapa")
     ap.add_argument("--movimentos", action="store_true",
                     help="Lista o historico de movimentacoes e sai")
     ap.add_argument("--desfazer", action="store_true", help="Volta um passo")
@@ -474,7 +584,8 @@ def main():
             hist_path, dados,
             [f"voltou ao estado do passo {alvo}" if alvo else "voltou ao mapa vazio"],
             dados["ocupacao"])
-        total = renderizar(dados, indice, saida, raiz, args.alpha_aura)
+        total = renderizar(dados, indice, saida, raiz, args.alpha_aura,
+                           args.alpha_nome, not args.sem_nomes)
         print(f"Restaurado o estado do passo {alvo} (registrado como passo {n}).")
         print(f"Ocupados : {total} hex(es)")
         print(f"Mesa gerada em: {saida}")
@@ -564,7 +675,8 @@ def main():
     indice.write_text(json.dumps(dados, ensure_ascii=False, indent=2) + "\n",
                       encoding="utf-8")
 
-    n = renderizar(dados, indice, saida, raiz, args.alpha_aura)
+    n = renderizar(dados, indice, saida, raiz, args.alpha_aura,
+                           args.alpha_nome, not args.sem_nomes)
     passo = registrar_movimento(hist_path, dados, acoes or ["redesenhou"], ocup)
 
     print(f"Ocupados : {n} hex(es)")

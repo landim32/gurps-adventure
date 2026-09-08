@@ -318,6 +318,31 @@ Alpha padrão 110 (≈43%): dá para ler a cor e ainda ver o piso por baixo. Sub
 específico (um PJ enfeitiçado, um NPC aliado), acrescente `"cor": "#RRGGBB"` na entrada
 dele dentro de `ocupacao` no índice e redesenhe.
 
+## Os nomes no mapa
+
+Cada figura sai com o **nome escrito abaixo dela**, na cor da aura: **azul** para
+personagem de jogador, **vermelho** para NPC. Meio transparente, com contorno escuro por
+baixo — dá para ler sobre madeira clara e sobre pedra, sem cobrir a arte.
+
+Só o **primeiro nome**, porque o hexágono tem um metro:
+
+| O nome completo | No mapa | Por quê |
+|---|---|---|
+| Comam Obabaroy | Comam | a primeira palavra basta |
+| Irmão Kaelric | Irmão Kaelric | título sozinho não identifica ninguém |
+| Morto-Vivo 2 | Morto-Vivo 2 | o número é o que distingue os quatro |
+| Hoel Meia-Orelha (morto) | Hoel | o que está entre parênteses cai fora |
+
+**Nome que não cabe encolhe, depois abrevia** ("Morto-Vivo 2" vira "M-V 2" em hexágono
+apertado), e **nome que bateria no vizinho procura lugar**: tenta abaixo, tenta acima, e
+vai afastando linha por linha até achar espaço livre dentro do mapa. Quatro criaturas em
+hexágonos colados saem em quatro linhas legíveis, não num borrão.
+
+| Opção | Para quê |
+|---|---|
+| `--alpha-nome` | Opacidade do nome, 0-255 (padrão 190) |
+| `--sem-nomes` | Mapa limpo, só as figuras e as auras |
+
 ## O que fica gravado
 
 A ocupação vive no próprio índice de hexágonos, o que permite redesenhar a mesa a
