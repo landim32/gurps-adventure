@@ -44,7 +44,8 @@ RE_PEDIDO = re.compile(
     r"^\s*(?P<quem>.+?)\s+em\s+(?P<hex>[A-Za-z]{1,3}\d{1,3})"
     r"(?:\s+olhando\s+(?:para\s+)?(?P<alvo>[A-Za-z]{1,3}\d{1,3}))?"
     r"(?:\s+ocupando\s+(?P<tam>\d+(?:[.,]\d+)?)\s*hex\w*)?"
-    r"(?:\s+usando\s+(?P<token>\S+))?\s*$",
+    r"(?:\s+usando\s+(?P<token>\S+))?"
+    r"(?:\s+com\s+deslocamento\s+(?P<desl>\d+))?\s*$",
     re.I)
 
 OPOSTA = {"N": "S", "S": "N", "NE": "SW", "SW": "NE", "SE": "NW", "NW": "SE"}
@@ -182,6 +183,71 @@ def tamanho_catalogado(quem, tipo, raiz):
         if Path(t.get("arquivo", "")).stem == s:
             return float(t.get("hexes") or 1)
     return 1.0
+
+
+def _cubo(hexes, rot):
+    """Coordenada cubica do hexagono, a partir de coluna/linha (layout odd-q)."""
+    h = hexes[rot]
+    col, lin = h["coluna"], h["linha"]
+    z = lin - (col - (col & 1)) // 2
+    return col, -col - z, z
+
+
+def distancia_hex(hexes, a, b):
+    """Quantos hexagonos separam a de b — o caminho mais curto, nao a linha reta."""
+    if a not in hexes or b not in hexes:
+        return None
+    ca, cb = _cubo(hexes, a), _cubo(hexes, b)
+    return max(abs(ca[i] - cb[i]) for i in range(3))
+
+
+def deslocamento_de(quem, tipo, raiz, informado=""):
+    """Deslocamento em hexagonos/turno: da ficha (PJ), do catalogo (NPC) ou informado."""
+    if informado:
+        return int(informado)
+    if tipo == "pj":
+        f = raiz / "personagens" / slug(quem) / "personagem.json"
+        if f.is_file():
+            try:
+                return int(json.loads(f.read_text(encoding="utf-8")).get("deslocamento") or 0)
+            except Exception:
+                return None
+        return None
+    cat = raiz / "tokens" / "tokens.json"
+    if not cat.is_file():
+        return None
+    try:
+        dados = json.loads(cat.read_text(encoding="utf-8"))
+    except Exception:
+        return None
+    for t in dados.get("tokens", []):
+        if Path(t.get("arquivo", "")).stem == slug(quem) and t.get("deslocamento"):
+            return int(t["deslocamento"])
+    return None
+
+
+def conferir_movimento(hexes, quem, de_onde, para, desl):
+    """Avisos sobre o movimento pedido, pelas regras de manobra do MB (cap. 14).
+
+    A maioria das manobras deixa andar 1 hexagono; so a manobra Deslocamento gasta o
+    Deslocamento inteiro — e ai nao se ataca. O custo real pode ser maior que a
+    distancia: hexagono de lado ou para tras custa 2, e virar custa 1 por lado.
+    """
+    d = distancia_hex(hexes, de_onde, para)
+    if d is None or d <= 1:
+        return []
+    if desl is None:
+        return [f"nao sei o Deslocamento de {quem} para conferir os {d} hexagonos "
+                f"andados (ponha `deslocamento` na ficha ou no tokens.json, ou diga "
+                f'"com deslocamento N")']
+    if d > desl:
+        turnos = -(-d // desl)
+        return [f"{quem} andou {d} hexagonos, mas o Deslocamento dele e {desl}: "
+                f"nao cabe em um turno (seriam {turnos}, e so com a manobra "
+                f"Deslocamento, sem atacar)"]
+    return [f"{quem} andou {d} hexagonos (Deslocamento {desl}): cabe em um turno so "
+            f"com a manobra Deslocamento — quem anda mais de 1 hexagono nao ataca. "
+            f"Hexagono de lado ou para tras custa 2, e virar custa 1 por lado"]
 
 
 def aresta_para(hexes, origem, alvo):
@@ -473,6 +539,11 @@ def main():
             de_onde = next((r for r, o in ocup.items()
                             if r != rot and o.get("quem") == quem), None)
             if de_onde:
+                for aviso in conferir_movimento(
+                        hexes, quem, de_onde, rot,
+                        deslocamento_de(quem, tipo, raiz, m.group("desl") or "")):
+                    print(f"AVISO: {aviso}")
+                    acoes.append(f"aviso: {aviso}")
                 del ocup[de_onde]
             ocup[rot] = entrada
             cor = "azul" if tipo == "pj" else "vermelha"

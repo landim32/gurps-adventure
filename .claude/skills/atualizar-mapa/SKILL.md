@@ -257,6 +257,48 @@ que importa para arbitrar movimento, alcance e linha de tiro.
   Derrubar e Atropelar (MB, `15-animais.md`) para resolver — mas avisa para não passar
   batido.
 
+## O movimento é conferido contra o Deslocamento
+
+Quando alguém que já estava no mapa muda de hexágono, a skill mede **quantos hexágonos
+foram andados** — o caminho mais curto no grid, não a linha reta — e compara com o
+**Deslocamento** de quem se moveu. Ela não recusa nada: avisa, porque montar a cena e
+jogar o turno são coisas diferentes.
+
+| Quanto andou | O que a skill diz |
+|---|---|
+| **1 hexágono** | Nada. Cabe em qualquer manobra |
+| **Até o Deslocamento** | Cabe num turno, mas **só com a manobra Deslocamento** — quem anda mais de um hexágono não ataca |
+| **Mais que o Deslocamento** | Não cabe num turno, e diz em quantos caberia |
+
+As duas primeiras linhas saem do MB, cap. 14: *"a maioria das manobras permite que você se
+desloque apenas um hexágono"*, e só a manobra Deslocamento gasta os pontos de movimento
+todos.
+
+**O aviso é um piso, não a conta fechada.** A distância é o caminho mais curto; o custo
+real pode ser maior, porque **hexágono de lado ou para trás custa 2** pontos de movimento e
+**virar custa 1 por lado de hexágono**. Quem arbitra o caminho é o Mestre — o script só
+avisa quando nem o melhor caminho possível caberia.
+
+### De onde vem o Deslocamento
+
+| Quem | Onde a skill procura |
+|---|---|
+| PJ | `deslocamento` no `personagem.json` da ficha |
+| NPC | `deslocamento` na entrada dele em `tokens/tokens.json` |
+| Qualquer um | `com deslocamento N` no fim da frase, que vence os dois |
+
+```
+--npc "Morto-Vivo 2 em J8 olhando para J5 com deslocamento 5"
+```
+
+Não sabendo o Deslocamento, a skill diz isso em vez de calar — e a saída é pôr o campo no
+catálogo, que é onde ele pertence: Deslocamento é propriedade da criatura, como o número
+de hexágonos que ela ocupa.
+
+**Carga muda o Deslocamento**, e a ficha já guarda o valor com a carga que o personagem
+carrega. Se ele largar a mochila no meio da luta, o número da ficha passa a mentir — use
+`com deslocamento N` nesse turno.
+
 ## As auras
 
 A aura é um **hexágono translúcido alinhado ao grid**, desenhado sob a figura e com a
