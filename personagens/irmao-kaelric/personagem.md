@@ -67,11 +67,16 @@ choque por dor: ele continua lutando e conjurando como se não sentisse o ferime
 | Dever: Ordem dos Templários (errante) | -10 |
 | Gigantismo | -10 |
 | Senso de Dever (companheiros) | -5 |
+| Voto de Castidade (obrigatório) | 0 |
 | **Subtotal** | **+63 / -40** |
 
 **Gigantismo:** ~2,10 m de altura; -2 em testes de reação (exceto combate iminente, quando
 recebe +1); conta como pelo menos 30 cm mais alto que oponentes normais (vantagem de alcance no
 corpo a corpo, mas alvo mais fácil à distância); roupas e mobília comuns não lhe servem.
+
+**Voto de Castidade:** obrigatório para todo cavaleiro templário. Pelo livro é um "voto menos
+importante" (-5 pontos), mas Kaelric já está no teto de -40 pontos em desvantagens, então este
+voto não rende pontos adicionais — é levado a sério mesmo assim, por exigência da Ordem.
 
 ## Peculiaridades (-5)
 
