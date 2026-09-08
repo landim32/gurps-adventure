@@ -126,6 +126,26 @@ Nenhum dos quatro se defende. Nenhum desvia. Cada um escolheu alguém neste sal�
 
 O que vocês fazem?
 
+### Narração 7 — 08/09/2026 09:58
+
+_Hoel Meia-Orelha começa a se reanimar no chão, ao lado do Jah, que está paralisado pela surpresa e não consegue reagir — ainda deitado, olhos abertos, tentando sentar_
+
+*Jah*, você continua sem conseguir se mexer. O corpo não obedece, e é por isso que você vê tudo.
+
+A mão do taberneiro fecha.
+
+Não é o espasmo de quem ainda está morrendo — é uma mão fechando devagar, com vontade, apalpando o assoalho até achar apoio entre as moedas da banca. E de onde ele está caído sobe um som que não é gemido nem respiração: é o ar entrando por conta própria num peito que ninguém está mandando encher.
+
+Os olhos dele estão abertos. Estavam fechados até agora.
+
+*Hoel* ainda está no chão, mas não está mais parado. O ombro empurra contra a madeira. O quadril gira meio dedo. O que sobrou do rosto se arrasta pela serragem, virando devagar, procurando alguma coisa — e o corpo inteiro tenta lembrar como se senta, tentando de novo, e de novo, sem pressa nenhuma, como quem tem a noite toda.
+
+Vinte anos de porto, meia orelha, o homem que servia a sua cerveja sem você pedir. Ele está a um passo dos seus pés.
+
+E os seus braços não respondem.
+
+O que vocês fazem?
+
 ## Acontecimentos
 
 <!-- indice:acontecimentos -->
@@ -150,4 +170,6 @@ O que vocês fazem?
 - **07/09/2026 22:50** — Irmão Kaelric tentou contemporizar com Osric de Bannock: Teste de Influência com Trato Social 13-4 (+1 Clericato, +1 reação Boa prévia, +1 pela proposta concreta, -5 pelo assassinato que o guarda presenciou, -2 pela omissão de que a briga acabou quando Hoel caiu), tirou 13 contra 5 do guarda — perdeu por 9. Osric recusou, disse que quarenta pessoas viram, e saiu para levar o caso ao castelo. A oferta de serviço da Ordem dos Templários ao Lorde William foi ouvida e vai junto com a denúncia.
 - **07/09/2026 23:12** — Mapa da mesa montado no capítulo 01: corpo de Hoel em K5-L5, Negrum em J4 e Jah em L4 ao lado do corpo, Comam (bêbado) em D2, Kaelric em N9, NelsOwned em Q2 — e quatro Mortos-Vivos entrando pela porta sul em I11, J11, K11 e J10, todos voltados para o salão.
 - **07/09/2026 23:15** — [narração 6] Os gritos do mercado e a porta: quatro mortos entram na Âncora Quebrada — um estivador, um apostador, um vulto e Wat, o menino do estábulo. Cada um avança contra alguém do salão
+- **08/09/2026 09:58** — [narração 7] Hoel Meia-Orelha começa a se reanimar no chão ao lado do Jah, ainda deitado e tentando sentar; o Jah, paralisado pela surpresa, vê tudo sem poder reagir
+- **08/09/2026 11:59** — Negrum sacou o montante e decepou a perna do morto-vivo em K9 no mesmo turno: Sacar Rápido (Espada) 15+1 de Reflexos, tirou 14 — sucesso, a arma sai sem custar a manobra. Ataque com Espadas de Lâmina Larga 16-2 (perna), tirou 11; o morto não se defende. Dano 2d+2 = 11, corte vira 16, mas o teto do membro (HT/2 = 5) trunca: perna incapacitada, 5 PV, e ele fica atordoado. A Hipoalgia anula o redutor por ferimento.
 <!-- /indice:acontecimentos -->

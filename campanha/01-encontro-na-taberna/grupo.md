@@ -17,6 +17,7 @@ _(o que de fato aconteceu com os personagens dos jogadores durante o jogo — fe
 - **07/09/2026 19:51** · _item_ — **Está com a bolsa de couro de Giles Mão-de-Prata, com cerca de $300 em moedas.** Furtada na comoção; ninguém viu, nem Bronwyn, que estava ao lado do pai. Lançada em `campanha/bolsa.md` (+$300); a ficha não é mexida por causa de moeda.
 - **07/09/2026 20:37** · _item_ — **Tem $50 apostados no Hoel**, em cima da mesa, contra o Negrum (cap. 01). Se o taberneiro ganhar, recebe conforme a banca; se perder, o dinheiro fica com quem apostou no Negrum. Sacou da própria bolsa, não da bolsa furtada de Giles — que continua escondida e é reconhecível.
 - **07/09/2026 20:42** · _item_ — **Está com $39 de terceiros na banca de apostas** da briga (cap. 01), além dos $50 próprios já apostados no Hoel. Esse dinheiro NÃO é dele: é dos fregueses, e por exigência da casa está em cima da mesa, à vista. Se o Hoel ganhar, ele paga os apostadores; se o Negrum ganhar, a banca muda de mão. Sumir com a bolsa é possível — e seria o fim do crédito dele em Wallace.
+- **08/09/2026 09:59** · _informação_ — Viu Hoel Meia-Orelha voltar a se mexer a um passo dele, paralisado pela Surpresa Total e sem poder reagir (cap. 01). É o primeiro do grupo a ver de perto que os mortos voltam — e voltou justamente o homem que gostava dele.
 
 ## NelsOwned
 

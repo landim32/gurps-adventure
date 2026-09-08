@@ -182,9 +182,9 @@ _A arma do oponente cai, e ele ainda recebe o dano normal._
 _Você DERRUBOU a arma. Arma barata teria se quebrado._
 ```
 
-**Repasse as duas**, e depois diga na narração o que isso é no mundo: a espada girando na
-serragem, o punho que escorrega, o elmo que sai. Número sem consequência a mesa esquece;
-consequência a mesa lembra a campanha inteira.
+**Repasse as duas.** O texto da tabela já diz o que aconteceu — a arma que cai, a armadura
+ignorada, o membro atingido —, e é isso que a mesa precisa saber. Número sem consequência a
+mesa esquece; a consequência ela lembra a campanha inteira.
 
 ### Quando o efeito não se aplica
 
@@ -199,15 +199,28 @@ e diga que está arbitrando** — é decisão do Mestre, não do livro:
 | efeito em membro | membro já incapacitado | O excedente se perde, como manda a regra de teto do local |
 
 Nunca invente um efeito **pior** que o da tabela para compensar. O crítico já é o presente
-que o dado deu; o trabalho é só encaixá-lo na cena.
+que o dado deu; o trabalho é só dizer o que ele significa em regra.
+
+## Esta skill não narra
+
+**Entregue o resultado mecânico e pare.** Nada de prosa, nada de descrever a espada girando
+na serragem, nada de "o morto cambaleia e volta a vir". A resposta desta skill é:
+
+1. o **bloco do WhatsApp** que o script imprimiu, num bloco de código;
+2. **uma ou duas linhas ao Mestre**, sobre o que mudou na regra.
+
+Quem escreve o texto que vai para a mesa é a skill **`narrar`**, e só quando o Mestre pedir.
+São trabalhos diferentes: aqui se resolve o golpe, lá se conta a cena. Misturar os dois faz
+a mesa esperar por prosa a cada rolagem e enche o capítulo de narração que ninguém pediu.
+
+O que **é** desta skill dizer, fora do bloco: quem ficou atordoado, quem perdeu a defesa
+ativa até o próximo turno, quem precisa testar HT no começo do turno, que membro ficou
+inutilizado, quanto de dano ainda dá para aguentar.
 
 ## Mostrar e gravar
 
 O bloco **PARA O WHATSAPP** sai sempre, com o essencial: quem atacou quem, onde, o que saiu
 e quanto doeu. **Repasse num bloco de código.** Mostrar ou não é decisão do Mestre.
-
-Fora do bloco, uma ou duas linhas ao Mestre: quem está atordoado, quem perdeu a defesa
-ativa até o próximo turno, quem precisa testar HT no começo do turno.
 
 `--gravar` registra no capítulo atual pela skill `campanha`. Numa luta longa, **não
 grave golpe a golpe** — grave o que mudou o rumo: o membro que ficou inutilizado, o nocaute,

@@ -2654,24 +2654,29 @@
       "tipo": "pj",
       "quem": "Irmão Kaelric",
       "token": "tokens/cavaleiro-capa-vermelha-escudo-cruz.png",
-      "frente": "SW",
-      "olhando": "L9"
+      "frente": "S",
+      "olhando": "M10"
     },
     "K9": {
       "tipo": "npc",
       "quem": "Morto-Vivo 4",
-      "token": "tokens/zumbi-agachado-camisa-marrom.png",
+      "token": "tokens/marcador-corpo-caido.png",
       "frente": "NE",
-      "olhando": "L8"
+      "olhando": "L8",
+      "tamanho_hex": 2.0,
+      "hexes_ocupados": [
+        "K9",
+        "J9"
+      ]
     },
     "M10": {
       "tipo": "npc",
       "quem": "Morto-Vivo 3",
       "token": "tokens/zumbi-agachado-camisa-marrom.png",
-      "frente": "SW",
-      "olhando": "K10"
+      "frente": "N",
+      "olhando": "M9"
     },
-    "I9": {
+    "L9": {
       "tipo": "npc",
       "quem": "Morto-Vivo 2",
       "token": "tokens/zumbi-agachado-camisa-marrom.png",

@@ -105,6 +105,11 @@ ou intenção de NPC que não dê para ver.
 texto pronto delas; repasse-o e depois narre. Mostrar a rolagem à mesa é decisão do Mestre,
 mas ela existe.
 
+**Violência é a exceção:** quando a ação vira troca de golpes, quem resolve é a skill
+`combate`, e ela **não narra** — entrega o resultado mecânico e as linhas ao Mestre. Não
+escreva a prosa do golpe por conta própria; se a mesa quiser o texto, é a skill `narrar`
+que o escreve.
+
 Se o desfecho abriu uma cena inteira — a taberna virou briga, o grupo saiu para a rua —
 chame a skill `narrar` em vez de escrever um parágrafo aqui, e arquive por lá.
 
