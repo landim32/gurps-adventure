@@ -161,7 +161,7 @@ def achar_token(quem, tipo, raiz, token=""):
         f"No acervo: {', '.join(disponiveis[:12])}{'...' if len(disponiveis) > 12 else ''}")
 
 
-def tamanho_catalogado(quem, tipo, raiz):
+def tamanho_catalogado(quem, tipo, raiz, token=None):
     """Quantos hexagonos a criatura ocupa, segundo tokens.json. Padrao 1.
 
     Tamanho e propriedade da criatura, nao da colocacao — por isso mora no catalogo
@@ -178,7 +178,8 @@ def tamanho_catalogado(quem, tipo, raiz):
         dados = json.loads(cat.read_text(encoding="utf-8"))
     except Exception:
         return 1.0
-    s = slug(quem)
+    # com `usando`, o nome ("Morto-Vivo 2") nao e o do arquivo: casa pelo token
+    s = Path(token).stem if token else slug(quem)
     for t in dados.get("tokens", []):
         if Path(t.get("arquivo", "")).stem == s:
             return float(t.get("hexes") or 1)
@@ -201,7 +202,7 @@ def distancia_hex(hexes, a, b):
     return max(abs(ca[i] - cb[i]) for i in range(3))
 
 
-def deslocamento_de(quem, tipo, raiz, informado=""):
+def deslocamento_de(quem, tipo, raiz, informado="", token=None):
     """Deslocamento em hexagonos/turno: da ficha (PJ), do catalogo (NPC) ou informado."""
     if informado:
         return int(informado)
@@ -220,8 +221,9 @@ def deslocamento_de(quem, tipo, raiz, informado=""):
         dados = json.loads(cat.read_text(encoding="utf-8"))
     except Exception:
         return None
+    s = Path(token).stem if token else slug(quem)
     for t in dados.get("tokens", []):
-        if Path(t.get("arquivo", "")).stem == slug(quem) and t.get("deslocamento"):
+        if Path(t.get("arquivo", "")).stem == s and t.get("deslocamento"):
             return int(t["deslocamento"])
     return None
 
@@ -507,7 +509,7 @@ def main():
             token = achar_token(quem, tipo, raiz, m.group("token") or "")
             frente = aresta_para(hexes, rot, alvo) if alvo else None
             tam = (float(m["tam"].replace(",", ".")) if m["tam"]
-                   else tamanho_catalogado(quem, tipo, raiz))
+                   else tamanho_catalogado(quem, tipo, raiz, token))
 
             corpo, faltando = corpo_de(hexes, rot, frente, tam, metro_px)
             frac = proporcao_ok(token, tam)
@@ -541,7 +543,8 @@ def main():
             if de_onde:
                 for aviso in conferir_movimento(
                         hexes, quem, de_onde, rot,
-                        deslocamento_de(quem, tipo, raiz, m.group("desl") or "")):
+                        deslocamento_de(quem, tipo, raiz, m.group("desl") or "",
+                                        token)):
                     print(f"AVISO: {aviso}")
                     acoes.append(f"aviso: {aviso}")
                 del ocup[de_onde]
