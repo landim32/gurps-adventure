@@ -193,7 +193,7 @@ lida aos jogadores, e depois capítulos como cenas encadeadas, com os testes e a
 consequências de falha explícitos — inclusive falha crítica — para que cada cena possa ser
 arbitrada sem improviso.
 
-A campanha atual, **Gélido Lamento**, foi adaptada de uma aventura escrita pelo dono do
+A campanha atual, **Tormento Vil**, foi adaptada de uma aventura escrita pelo dono do
 projeto. Dela vem também um conjunto de **regras de combate autônomo** que vale como padrão
 ao mestrar: teste de reação entre cada jogador e cada NPC; NPCs usam armas de longo alcance
 primeiro e só partem para o combate de perto quando a munição acaba; miram no personagem mais

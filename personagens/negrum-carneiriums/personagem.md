@@ -55,7 +55,7 @@ Negrum nasceu numa pequena aldeia isolada de descendência centro-africana, uma 
 
 \* *Código de Honra (Guerreiro Tribal):* sempre vingar um insulto, mesmo com risco; o inimigo de um companheiro de tribo é seu inimigo; nunca atacar um aliado, salvo em duelo justo por alguma ofensa grave.
 
-\*\* *Adquiridas em jogo, sem custo em pontos (decisão do Mestre).* Na noite do capítulo 1 da campanha *Gélido Lamento*, Negrum matou a socos **Hoel Meia-Orelha**, dono d'A Âncora Quebrada, enquanto o homem estava inconsciente, diante de quarenta testemunhas — entre elas um guarda do castelo. Daí saem as duas desvantagens:
+\*\* *Adquiridas em jogo, sem custo em pontos (decisão do Mestre).* Na noite do capítulo 1 da campanha *Tormento Vil*, Negrum matou a socos **Hoel Meia-Orelha**, dono d'A Âncora Quebrada, enquanto o homem estava inconsciente, diante de quarenta testemunhas — entre elas um guarda do castelo. Daí saem as duas desvantagens:
 
 - **Inimigo (guarda de Wallace e Lorde William)** — grupo de tamanho médio, do porte do "departamento de polícia de uma cidade" (`04-desvantagens.md`, Inimigos). Vale enquanto houver quem o procure, e viaja com ele.
 - **Má Reputação -4 (assassino do taberneiro), em Wallace e arredores** — redutor de reação com quem o reconhecer. Reputação vale só dentro de uma área limitada (`02-criacao-de-personagem.md`, Reputação): fora de Wallace, não pega.

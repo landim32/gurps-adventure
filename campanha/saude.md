@@ -1,4 +1,4 @@
-# Saúde — Gélido Lamento
+# Saúde — Tormento Vil
 
 _(pontos de vida, Fadiga e ferimentos que ficam, **em jogo**. A ficha do
 personagem não é mexida por causa de dano: ela guarda o PV e a Fadiga máximos,

@@ -157,8 +157,8 @@ que o script imprimiu — não invente resultado, não role de novo porque saiu 
 nova que precise de dado importa o `d6()` de lá em vez de chamar `random`.
 
 As **regras de combate autônomo** vieram das duas aventuras originais do dono do projeto
-(hoje só em `backup/`, fora do versionamento; a primeira delas virou a campanha *Gélido
-Lamento*) e valem como padrão ao mestrar:
+(hoje só em `backup/`, fora do versionamento; a primeira delas virou a campanha
+*Tormento Vil*) e valem como padrão ao mestrar:
 
 - teste de reação entre cada jogador e cada NPC — é a skill `reacao`, que rola todos os
   pares de uma vez e guarda o resultado em `campanha/NN-.../reacoes.json`; **leia esse

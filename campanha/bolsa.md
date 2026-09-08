@@ -1,4 +1,4 @@
-# A bolsa — Gélido Lamento
+# A bolsa — Tormento Vil
 
 _(o dinheiro de cada um **em jogo**. A ficha do personagem não é mexida por
 causa de moeda: o que ele ganhou e gastou na mesa mora aqui. Lance com

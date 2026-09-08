@@ -1,6 +1,6 @@
-# Gélido Lamento
+# Tormento Vil
 
-**Campanha:** Gélido Lamento
+**Campanha:** Tormento Vil
 **Estado:** ativa
 **Mestre:** IA (Mestre)
 **Início:** 06/09/2026
@@ -58,5 +58,5 @@ não defeito de ficha.
 Como as coisas **estão agora**: [`mundo.md`](mundo.md) (ferimentos, itens, relações, o que já se sabe), [`saude.md`](saude.md) (PV, Fadiga e ferimentos que ficam) e [`bolsa.md`](bolsa.md) (o dinheiro de cada um) — leia antes de retomar uma cena ou interpretar um NPC.
 
 <!-- indice:historico -->
-- [1. Encontro na Taberna — como aconteceu](01-encontro-na-taberna/) — 07/09/2026 · 20 acontecimento(s) · 6 arquivo(s) de mesa
+- [1. Encontro na Taberna — como aconteceu](01-encontro-na-taberna/) — 07/09/2026 · 20 acontecimento(s) · 7 arquivo(s) de mesa
 <!-- /indice:historico -->

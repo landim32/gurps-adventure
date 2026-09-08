@@ -22,7 +22,7 @@ python .claude/skills/status-atual/scripts/status_atual.py
 Sai assim:
 
 ```
-*STATUS DO GRUPO* — Gélido Lamento
+*STATUS DO GRUPO* — Tormento Vil
 _1. Encontro na Taberna · Taberna do porto, Wallace (Caithness)_
 
 *Negrum Carneiriums* (Bruno)

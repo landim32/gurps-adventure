@@ -1,4 +1,4 @@
-# O estado do mundo — Gélido Lamento
+# O estado do mundo — Tormento Vil
 
 _(consolidado, gerado por `campanha.py anotar` e `campanha.py mundo` a partir
 dos arquivos de estado de cada capítulo. **Não edite entre os marcadores**:
