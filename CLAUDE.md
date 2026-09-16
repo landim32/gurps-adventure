@@ -114,6 +114,33 @@ plano em `campanha/plano/`, dividido em capítulos no padrão de
 `livros/gurps-mb-3ed/23-caravana-para-ein-arris.md`, e o que de fato aconteceu na mesa em
 `campanha/historico/`. Campanhas encerradas ficam em `historico/campanhas/`.
 
+### A mesa acontece no WhatsApp: `campanha/whatsapp/`
+
+O jogo é jogado no grupo de WhatsApp, de forma assíncrona, e o dono do projeto exporta a
+conversa de tempos em tempos para `campanha/whatsapp/`. **Essa exportação é a fonte da
+verdade sobre o que aconteceu na mesa** — acima do que já estiver escrito no histórico da
+campanha, que é sempre uma reconstrução.
+
+Arquivo novo chega solto na pasta, no padrão `AAAA-MM-DD.txt`; depois de incorporado ao
+histórico, vai para `campanha/whatsapp/processados/` e ganha uma linha na tabela do
+`campanha/whatsapp/README.md`, que explica o fluxo por inteiro. **As exportações são
+cumulativas** — cada uma traz a conversa inteira desde o início do grupo, então compare com
+a última processada e trabalhe do ponto em que divergem.
+
+**A regra de precedência: o WhatsApp manda, salvo erro de cenário ou de regra.** Decisão de
+jogador, jogada, resultado e fala vêm da exportação, mesmo contradizendo o repositório — se
+os dois discordam sobre o que a mesa fez, o repositório está errado e se corrige. A exceção
+são enganos do próprio Mestre contra os livros ou contra Yrth: esses se corrigem no sentido
+inverso, e a correção fica registrada como **errata** numa anotação, para que o texto
+arquivado não siga ensinando o erro. Qualquer divergência que não seja claramente uma
+dessas duas coisas: **pergunte ao usuário antes de mexer em arquivo.**
+
+Ao processar uma exportação, **leia o arquivo inteiro antes de escrever qualquer coisa** —
+uma correção do Mestre solta no meio da madrugada desmente blocos publicados na véspera — e
+**junte todas as divergências para perguntar de uma vez só**, em vez de interromper a cada
+achado. As mensagens `<Mídia oculta>` são imagens que não vieram na exportação; o que elas
+mostravam costuma estar descrito no texto em volta.
+
 **A ficha do personagem não se mexe sozinha.** `personagem.json`, `personagem.md` e
 `ficha.jpg` só mudam quando o usuário **pedir explicitamente** ("lance na ficha",
 "atualize o inventário do Jah", "ele subiu Furtividade"). O que a mesa produz — dinheiro
