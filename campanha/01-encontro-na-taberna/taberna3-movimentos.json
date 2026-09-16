@@ -2060,6 +2060,1294 @@
           "olhando": "L8"
         }
       }
+    },
+    {
+      "n": 26,
+      "quando": "08/09/2026 14:49:09",
+      "acoes": [
+        "colocou Irmão Kaelric -> M9, olhando M10 (aresta S), aura azul",
+        "aviso: NelsOwned gastou 5 pontos de movimento (5 hexagono(s) andado(s)) de 5: cabe em um turno so com a manobra Deslocamento — quem anda mais de 1 hexagono nao ataca. Hexagono de lado ou para tras custaria 2 cada",
+        "moveu NelsOwned Q2 -> M5, olhando K5 (aresta SW), aura azul",
+        "colocou Morto-Vivo 3 -> M10, olhando M9 (aresta N), corpo em M10+M11, 2 hex, aura vermelha"
+      ],
+      "ocupacao": {
+        "D2": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "SE",
+          "olhando": "E3"
+        },
+        "L4": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "SW",
+          "olhando": "K5"
+        },
+        "K5": {
+          "tipo": "npc",
+          "quem": "Hoel Meia-Orelha (morto)",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "NW",
+          "olhando": "J4",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "K5",
+            "L5"
+          ]
+        },
+        "L8": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "SW",
+          "olhando": "K9"
+        },
+        "M9": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "tokens/cavaleiro-capa-vermelha-escudo-cruz.png",
+          "frente": "S",
+          "olhando": "M10"
+        },
+        "K9": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 4",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "NE",
+          "olhando": "L8",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "K9",
+            "J9"
+          ]
+        },
+        "M10": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 3",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "N",
+          "olhando": "M9",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "M10",
+            "M11"
+          ]
+        },
+        "L9": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 2",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "NE",
+          "olhando": "M9"
+        },
+        "K8": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 1",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "SE",
+          "olhando": "L8"
+        },
+        "M5": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "SW",
+          "olhando": "K5"
+        }
+      }
+    },
+    {
+      "n": 27,
+      "quando": "08/09/2026 15:18:27",
+      "acoes": [
+        "redesenhou"
+      ],
+      "ocupacao": {
+        "D2": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "SE",
+          "olhando": "E3"
+        },
+        "L4": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "SW",
+          "olhando": "K5"
+        },
+        "K5": {
+          "tipo": "npc",
+          "quem": "Hoel Meia-Orelha (morto)",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "NW",
+          "olhando": "J4",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "K5",
+            "L5"
+          ]
+        },
+        "L8": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "SW",
+          "olhando": "K9"
+        },
+        "M9": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "tokens/cavaleiro-capa-vermelha-escudo-cruz.png",
+          "frente": "S",
+          "olhando": "M10"
+        },
+        "K9": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 4",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "NE",
+          "olhando": "L8",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "K9",
+            "J9"
+          ]
+        },
+        "M10": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 3",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "N",
+          "olhando": "M9",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "M10",
+            "M11"
+          ]
+        },
+        "L9": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 2",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "NE",
+          "olhando": "M9"
+        },
+        "M5": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "SW",
+          "olhando": "K5"
+        },
+        "K8": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 1 (decapitado)",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "SE",
+          "olhando": "L8",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "K8",
+            "J7"
+          ]
+        }
+      }
+    },
+    {
+      "n": 28,
+      "quando": "08/09/2026 15:20:05",
+      "acoes": [
+        "colocou Morto-Vivo 4 -> K9, olhando L8 (aresta NE), corpo em K9+J9, 2 hex, aura vermelha"
+      ],
+      "ocupacao": {
+        "D2": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "SE",
+          "olhando": "E3"
+        },
+        "L4": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "SW",
+          "olhando": "K5"
+        },
+        "K5": {
+          "tipo": "npc",
+          "quem": "Hoel Meia-Orelha (morto)",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "NW",
+          "olhando": "J4",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "K5",
+            "L5"
+          ]
+        },
+        "L8": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "SW",
+          "olhando": "K9"
+        },
+        "M9": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "tokens/cavaleiro-capa-vermelha-escudo-cruz.png",
+          "frente": "S",
+          "olhando": "M10"
+        },
+        "K9": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 4",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "NE",
+          "olhando": "L8",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "K9",
+            "J9"
+          ]
+        },
+        "M10": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 3",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "N",
+          "olhando": "M9",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "M10",
+            "M11"
+          ]
+        },
+        "L9": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 2",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "NE",
+          "olhando": "M9"
+        },
+        "M5": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "SW",
+          "olhando": "K5"
+        },
+        "K8": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 1 (decapitado)",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "SE",
+          "olhando": "L8",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "K8",
+            "J7"
+          ]
+        }
+      }
+    },
+    {
+      "n": 29,
+      "quando": "09/09/2026 09:18:03",
+      "acoes": [
+        "colocou Negrum Carneiriums -> L8, olhando L9 (aresta S), aura azul",
+        "aviso: nao sei o Deslocamento de Morto-Vivo 2 para conferir o movimento (2 para virar antes de sair + 1 hexagono(s) andado(s) = 3 pontos) — ponha `deslocamento` na ficha ou no tokens.json, ou diga \"com deslocamento N\"",
+        "moveu Morto-Vivo 2 L9 -> L10, olhando L11 (aresta S), corpo em L10+L9, 2 hex, aura vermelha"
+      ],
+      "ocupacao": {
+        "D2": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "SE",
+          "olhando": "E3"
+        },
+        "L4": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "SW",
+          "olhando": "K5"
+        },
+        "K5": {
+          "tipo": "npc",
+          "quem": "Hoel Meia-Orelha (morto)",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "NW",
+          "olhando": "J4",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "K5",
+            "L5"
+          ]
+        },
+        "L8": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "L9"
+        },
+        "M9": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "tokens/cavaleiro-capa-vermelha-escudo-cruz.png",
+          "frente": "S",
+          "olhando": "M10"
+        },
+        "K9": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 4",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "NE",
+          "olhando": "L8",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "K9",
+            "J9"
+          ]
+        },
+        "M10": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 3",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "N",
+          "olhando": "M9",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "M10",
+            "M11"
+          ]
+        },
+        "M5": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "SW",
+          "olhando": "K5"
+        },
+        "K8": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 1 (decapitado)",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "SE",
+          "olhando": "L8",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "K8",
+            "J7"
+          ]
+        },
+        "L10": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 2",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "S",
+          "olhando": "L11",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "L10",
+            "L9"
+          ]
+        }
+      }
+    },
+    {
+      "n": 30,
+      "quando": "09/09/2026 09:18:16",
+      "acoes": [
+        "colocou Morto-Vivo 2 -> L10, olhando L9 (aresta N), corpo em L10+L11, 2 hex, aura vermelha"
+      ],
+      "ocupacao": {
+        "D2": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "SE",
+          "olhando": "E3"
+        },
+        "L4": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "SW",
+          "olhando": "K5"
+        },
+        "K5": {
+          "tipo": "npc",
+          "quem": "Hoel Meia-Orelha (morto)",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "NW",
+          "olhando": "J4",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "K5",
+            "L5"
+          ]
+        },
+        "L8": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "L9"
+        },
+        "M9": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "tokens/cavaleiro-capa-vermelha-escudo-cruz.png",
+          "frente": "S",
+          "olhando": "M10"
+        },
+        "K9": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 4",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "NE",
+          "olhando": "L8",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "K9",
+            "J9"
+          ]
+        },
+        "M10": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 3",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "N",
+          "olhando": "M9",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "M10",
+            "M11"
+          ]
+        },
+        "M5": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "SW",
+          "olhando": "K5"
+        },
+        "K8": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 1 (decapitado)",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "SE",
+          "olhando": "L8",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "K8",
+            "J7"
+          ]
+        },
+        "L10": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 2",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "N",
+          "olhando": "L9",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "L10",
+            "L11"
+          ]
+        }
+      }
+    },
+    {
+      "n": 31,
+      "quando": "09/09/2026 09:47:19",
+      "acoes": [
+        "aviso: Irmão Kaelric gastou 2 pontos (1 para virar antes de sair + 1 hexagono(s) andado(s) + a virada final de 1 lado(s) sai de graca) de 4: cabe num Avancar e Atacar so se for 1 hexagono e a virada couber no fim",
+        "moveu Irmão Kaelric M9 -> L9, olhando L10 (aresta S), aura azul"
+      ],
+      "ocupacao": {
+        "D2": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "SE",
+          "olhando": "E3"
+        },
+        "L4": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "SW",
+          "olhando": "K5"
+        },
+        "K5": {
+          "tipo": "npc",
+          "quem": "Hoel Meia-Orelha (morto)",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "NW",
+          "olhando": "J4",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "K5",
+            "L5"
+          ]
+        },
+        "L8": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "L9"
+        },
+        "K9": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 4",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "NE",
+          "olhando": "L8",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "K9",
+            "J9"
+          ]
+        },
+        "M10": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 3",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "N",
+          "olhando": "M9",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "M10",
+            "M11"
+          ]
+        },
+        "M5": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "SW",
+          "olhando": "K5"
+        },
+        "K8": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 1 (decapitado)",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "SE",
+          "olhando": "L8",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "K8",
+            "J7"
+          ]
+        },
+        "L10": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 2",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "N",
+          "olhando": "L9",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "L10",
+            "L11"
+          ]
+        },
+        "L9": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "tokens/cavaleiro-capa-vermelha-escudo-cruz.png",
+          "frente": "S",
+          "olhando": "L10"
+        }
+      }
+    },
+    {
+      "n": 32,
+      "quando": "09/09/2026 09:53:04",
+      "acoes": [
+        "aviso: Hoel Meia-Orelha (morto) gastou 4 pontos (3 para virar antes de sair + 1 hexagono(s) andado(s) + a virada final de 1 lado(s) sai de graca) de 5: cabe num Avancar e Atacar so se for 1 hexagono e a virada couber no fim",
+        "moveu Hoel Meia-Orelha (morto) K5 -> L5, olhando M5 (aresta NE), aura vermelha"
+      ],
+      "ocupacao": {
+        "D2": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "SE",
+          "olhando": "E3"
+        },
+        "L4": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "SW",
+          "olhando": "K5"
+        },
+        "L8": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "L9"
+        },
+        "K9": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 4",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "NE",
+          "olhando": "L8",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "K9",
+            "J9"
+          ]
+        },
+        "M10": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 3",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "N",
+          "olhando": "M9",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "M10",
+            "M11"
+          ]
+        },
+        "M5": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "SW",
+          "olhando": "K5"
+        },
+        "K8": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 1 (decapitado)",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "SE",
+          "olhando": "L8",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "K8",
+            "J7"
+          ]
+        },
+        "L10": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 2",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "N",
+          "olhando": "L9",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "L10",
+            "L11"
+          ]
+        },
+        "L9": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "tokens/cavaleiro-capa-vermelha-escudo-cruz.png",
+          "frente": "S",
+          "olhando": "L10"
+        },
+        "L5": {
+          "tipo": "npc",
+          "quem": "Hoel Meia-Orelha (morto)",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "NE",
+          "olhando": "M5"
+        }
+      }
+    },
+    {
+      "n": 33,
+      "quando": "09/09/2026 09:56:14",
+      "acoes": [
+        "removeu quem estava em L10"
+      ],
+      "ocupacao": {
+        "D2": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "SE",
+          "olhando": "E3"
+        },
+        "L4": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "SW",
+          "olhando": "K5"
+        },
+        "L8": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "L9"
+        },
+        "K9": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 4",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "NE",
+          "olhando": "L8",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "K9",
+            "J9"
+          ]
+        },
+        "M10": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 3",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "N",
+          "olhando": "M9",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "M10",
+            "M11"
+          ]
+        },
+        "M5": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "SW",
+          "olhando": "K5"
+        },
+        "K8": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 1 (decapitado)",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "SE",
+          "olhando": "L8",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "K8",
+            "J7"
+          ]
+        },
+        "L9": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "tokens/cavaleiro-capa-vermelha-escudo-cruz.png",
+          "frente": "S",
+          "olhando": "L10"
+        },
+        "L5": {
+          "tipo": "npc",
+          "quem": "Hoel Meia-Orelha (morto)",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "NE",
+          "olhando": "M5"
+        }
+      }
+    },
+    {
+      "n": 34,
+      "quando": "09/09/2026 09:56:15",
+      "acoes": [
+        "colocou Morto-Vivo 2 (destruído) -> L10, olhando L9 (aresta N), corpo em L10+L11, 2 hex, aura vermelha"
+      ],
+      "ocupacao": {
+        "D2": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "SE",
+          "olhando": "E3"
+        },
+        "L4": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "SW",
+          "olhando": "K5"
+        },
+        "L8": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "L9"
+        },
+        "K9": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 4",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "NE",
+          "olhando": "L8",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "K9",
+            "J9"
+          ]
+        },
+        "M10": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 3",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "N",
+          "olhando": "M9",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "M10",
+            "M11"
+          ]
+        },
+        "M5": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "SW",
+          "olhando": "K5"
+        },
+        "K8": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 1 (decapitado)",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "SE",
+          "olhando": "L8",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "K8",
+            "J7"
+          ]
+        },
+        "L9": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "tokens/cavaleiro-capa-vermelha-escudo-cruz.png",
+          "frente": "S",
+          "olhando": "L10"
+        },
+        "L5": {
+          "tipo": "npc",
+          "quem": "Hoel Meia-Orelha (morto)",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "NE",
+          "olhando": "M5"
+        },
+        "L10": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 2 (destruído)",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "N",
+          "olhando": "L9",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "L10",
+            "L11"
+          ]
+        }
+      }
+    },
+    {
+      "n": 35,
+      "quando": "09/09/2026 12:00:32",
+      "acoes": [
+        "removeu quem estava em L5"
+      ],
+      "ocupacao": {
+        "D2": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "SE",
+          "olhando": "E3"
+        },
+        "L4": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "SW",
+          "olhando": "K5"
+        },
+        "L8": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "L9"
+        },
+        "K9": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 4",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "NE",
+          "olhando": "L8",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "K9",
+            "J9"
+          ]
+        },
+        "M10": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 3",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "N",
+          "olhando": "M9",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "M10",
+            "M11"
+          ]
+        },
+        "M5": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "SW",
+          "olhando": "K5"
+        },
+        "K8": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 1 (decapitado)",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "SE",
+          "olhando": "L8",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "K8",
+            "J7"
+          ]
+        },
+        "L9": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "tokens/cavaleiro-capa-vermelha-escudo-cruz.png",
+          "frente": "S",
+          "olhando": "L10"
+        },
+        "L10": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 2 (destruído)",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "N",
+          "olhando": "L9",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "L10",
+            "L11"
+          ]
+        }
+      }
+    },
+    {
+      "n": 36,
+      "quando": "09/09/2026 12:00:33",
+      "acoes": [
+        "colocou Hoel Meia-Orelha (decapitado) -> L5, olhando M5 (aresta NE), corpo em L5+K6, 2 hex, aura vermelha"
+      ],
+      "ocupacao": {
+        "D2": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "SE",
+          "olhando": "E3"
+        },
+        "L4": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "SW",
+          "olhando": "K5"
+        },
+        "L8": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "L9"
+        },
+        "K9": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 4",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "NE",
+          "olhando": "L8",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "K9",
+            "J9"
+          ]
+        },
+        "M10": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 3",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "N",
+          "olhando": "M9",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "M10",
+            "M11"
+          ]
+        },
+        "M5": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "SW",
+          "olhando": "K5"
+        },
+        "K8": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 1 (decapitado)",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "SE",
+          "olhando": "L8",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "K8",
+            "J7"
+          ]
+        },
+        "L9": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "tokens/cavaleiro-capa-vermelha-escudo-cruz.png",
+          "frente": "S",
+          "olhando": "L10"
+        },
+        "L10": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 2 (destruído)",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "N",
+          "olhando": "L9",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "L10",
+            "L11"
+          ]
+        },
+        "L5": {
+          "tipo": "npc",
+          "quem": "Hoel Meia-Orelha (decapitado)",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "NE",
+          "olhando": "M5",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "L5",
+            "K6"
+          ]
+        }
+      }
+    },
+    {
+      "n": 37,
+      "quando": "09/09/2026 12:14:21",
+      "acoes": [
+        "removeu quem estava em K9"
+      ],
+      "ocupacao": {
+        "D2": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "SE",
+          "olhando": "E3"
+        },
+        "L4": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "SW",
+          "olhando": "K5"
+        },
+        "L8": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "L9"
+        },
+        "M10": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 3",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "N",
+          "olhando": "M9",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "M10",
+            "M11"
+          ]
+        },
+        "M5": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "SW",
+          "olhando": "K5"
+        },
+        "K8": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 1 (decapitado)",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "SE",
+          "olhando": "L8",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "K8",
+            "J7"
+          ]
+        },
+        "L9": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "tokens/cavaleiro-capa-vermelha-escudo-cruz.png",
+          "frente": "S",
+          "olhando": "L10"
+        },
+        "L10": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 2 (destruído)",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "N",
+          "olhando": "L9",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "L10",
+            "L11"
+          ]
+        },
+        "L5": {
+          "tipo": "npc",
+          "quem": "Hoel Meia-Orelha (decapitado)",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "NE",
+          "olhando": "M5",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "L5",
+            "K6"
+          ]
+        }
+      }
+    },
+    {
+      "n": 38,
+      "quando": "09/09/2026 12:14:21",
+      "acoes": [
+        "colocou Morto-Vivo 4 (destruído) -> K9, olhando L8 (aresta NE), corpo em K9+J9, 2 hex, aura vermelha"
+      ],
+      "ocupacao": {
+        "D2": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "SE",
+          "olhando": "E3"
+        },
+        "L4": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "SW",
+          "olhando": "K5"
+        },
+        "L8": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "L9"
+        },
+        "M10": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 3",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "N",
+          "olhando": "M9",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "M10",
+            "M11"
+          ]
+        },
+        "M5": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "SW",
+          "olhando": "K5"
+        },
+        "K8": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 1 (decapitado)",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "SE",
+          "olhando": "L8",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "K8",
+            "J7"
+          ]
+        },
+        "L9": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "tokens/cavaleiro-capa-vermelha-escudo-cruz.png",
+          "frente": "S",
+          "olhando": "L10"
+        },
+        "L10": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 2 (destruído)",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "N",
+          "olhando": "L9",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "L10",
+            "L11"
+          ]
+        },
+        "L5": {
+          "tipo": "npc",
+          "quem": "Hoel Meia-Orelha (decapitado)",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "NE",
+          "olhando": "M5",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "L5",
+            "K6"
+          ]
+        },
+        "K9": {
+          "tipo": "npc",
+          "quem": "Morto-Vivo 4 (destruído)",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "NE",
+          "olhando": "L8",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "K9",
+            "J9"
+          ]
+        }
+      }
     }
   ]
 }

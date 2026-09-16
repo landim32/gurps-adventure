@@ -2624,42 +2624,78 @@
       "frente": "SW",
       "olhando": "K5"
     },
-    "Q2": {
-      "tipo": "pj",
-      "quem": "NelsOwned",
-      "token": "personagens/nelsowned/token-hex.png",
-      "frente": "SW",
-      "olhando": "P2"
-    },
-    "K5": {
-      "tipo": "npc",
-      "quem": "Hoel Meia-Orelha (morto)",
-      "token": "tokens/marcador-corpo-caido.png",
-      "frente": "NW",
-      "olhando": "J4",
-      "tamanho_hex": 2.0,
-      "hexes_ocupados": [
-        "K5",
-        "L5"
-      ]
-    },
     "L8": {
       "tipo": "pj",
       "quem": "Negrum Carneiriums",
       "token": "personagens/negrum-carneiriums/token-hex.png",
-      "frente": "SW",
-      "olhando": "K9"
+      "frente": "S",
+      "olhando": "L9"
     },
-    "M9": {
+    "M10": {
+      "tipo": "npc",
+      "quem": "Morto-Vivo 3",
+      "token": "tokens/marcador-corpo-caido.png",
+      "frente": "N",
+      "olhando": "M9",
+      "tamanho_hex": 2.0,
+      "hexes_ocupados": [
+        "M10",
+        "M11"
+      ]
+    },
+    "M5": {
+      "tipo": "pj",
+      "quem": "NelsOwned",
+      "token": "personagens/nelsowned/token-hex.png",
+      "frente": "SW",
+      "olhando": "K5"
+    },
+    "K8": {
+      "tipo": "npc",
+      "quem": "Morto-Vivo 1 (decapitado)",
+      "token": "tokens/marcador-corpo-caido.png",
+      "frente": "SE",
+      "olhando": "L8",
+      "tamanho_hex": 2.0,
+      "hexes_ocupados": [
+        "K8",
+        "J7"
+      ]
+    },
+    "L9": {
       "tipo": "pj",
       "quem": "Irmão Kaelric",
       "token": "tokens/cavaleiro-capa-vermelha-escudo-cruz.png",
       "frente": "S",
-      "olhando": "M10"
+      "olhando": "L10"
+    },
+    "L10": {
+      "tipo": "npc",
+      "quem": "Morto-Vivo 2 (destruído)",
+      "token": "tokens/marcador-corpo-caido.png",
+      "frente": "N",
+      "olhando": "L9",
+      "tamanho_hex": 2.0,
+      "hexes_ocupados": [
+        "L10",
+        "L11"
+      ]
+    },
+    "L5": {
+      "tipo": "npc",
+      "quem": "Hoel Meia-Orelha (decapitado)",
+      "token": "tokens/marcador-corpo-caido.png",
+      "frente": "NE",
+      "olhando": "M5",
+      "tamanho_hex": 2.0,
+      "hexes_ocupados": [
+        "L5",
+        "K6"
+      ]
     },
     "K9": {
       "tipo": "npc",
-      "quem": "Morto-Vivo 4",
+      "quem": "Morto-Vivo 4 (destruído)",
       "token": "tokens/marcador-corpo-caido.png",
       "frente": "NE",
       "olhando": "L8",
@@ -2668,27 +2704,6 @@
         "K9",
         "J9"
       ]
-    },
-    "M10": {
-      "tipo": "npc",
-      "quem": "Morto-Vivo 3",
-      "token": "tokens/zumbi-agachado-camisa-marrom.png",
-      "frente": "N",
-      "olhando": "M9"
-    },
-    "L9": {
-      "tipo": "npc",
-      "quem": "Morto-Vivo 2",
-      "token": "tokens/zumbi-agachado-camisa-marrom.png",
-      "frente": "NE",
-      "olhando": "M9"
-    },
-    "K8": {
-      "tipo": "npc",
-      "quem": "Morto-Vivo 1",
-      "token": "tokens/zumbi-agachado-camisa-marrom.png",
-      "frente": "SE",
-      "olhando": "L8"
     }
   }
 }
