@@ -204,3 +204,16 @@ falha crítica) para que a cena possa ser arbitrada sem improviso.
 Para tabelas de encontros, criaturas, empregos, preços e níveis sociais, puxe de
 `livros/gurps-mb-3ed/21-quadros-e-tabelas.md`, `15-animais.md`, `19-cenarios.md` e
 `livros/gurps-fantasy-3ed/09-criaturas.md`.
+
+## Versionamento
+
+Repositório pessoal da mesa, trabalhado por uma pessoa só: **commite e faça push direto na
+`main`**, sem criar branch nem PR. Separe em **commits temáticos** — skill mexida, sessão
+jogada, tokens, correção de histórico — em vez de um commit único que junta tudo.
+
+A `main` no GitHub tem uma regra de proteção exigindo pull request, e ela **está correta e
+é intencional**: existe para que ninguém além do dono do repositório empurre para lá. O
+push dele passa por cima da regra por ser administrador, e o servidor responde com
+`Bypassed rule violations for refs/heads/main`. **Isso é o comportamento esperado, não um
+problema** — não trate como falha, não sugira ajustar a proteção e não mencione o aviso ao
+relatar que o push foi feito.
