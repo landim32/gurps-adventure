@@ -5,7 +5,7 @@
 **Mestre:** IA (Mestre)
 **Início:** 06/09/2026
 **Cenário:** Yrth — Caithness, o Grande Deserto e Zarak
-**Capítulo atual:** 01
+**Capítulo atual:** 02
 **Pontos dos personagens:** 150
 
 Wallace, a cidade fronteiriça de Caithness, caiu numa noite. Os mortos levantaram-se e o orc Arzog os comanda com uma espada de brilho azul. A única terra onde nenhum encantamento funciona — e portanto nenhum morto-vivo entra — é o Grande Deserto. É para lá que os sobreviventes correm.
@@ -58,5 +58,6 @@ não defeito de ficha.
 Como as coisas **estão agora**: [`mundo.md`](mundo.md) (ferimentos, itens, relações, o que já se sabe), [`saude.md`](saude.md) (PV, Fadiga e ferimentos que ficam) e [`bolsa.md`](bolsa.md) (o dinheiro de cada um) — leia antes de retomar uma cena ou interpretar um NPC.
 
 <!-- indice:historico -->
-- [1. Encontro na Taberna — como aconteceu](01-encontro-na-taberna/) — 07/09/2026 · 22 acontecimento(s) · 7 arquivo(s) de mesa
+- [1. Encontro na Taberna — como aconteceu](01-encontro-na-taberna/) — 07/09/2026 · 36 acontecimento(s) · 7 arquivo(s) de mesa
+- [2. A Fuga para o Castelo — como aconteceu](02-a-fuga-para-o-castelo/) — 10/09/2026 · 23 acontecimento(s) · 3 arquivo(s) de mesa
 <!-- /indice:historico -->
