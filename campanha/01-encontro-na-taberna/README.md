@@ -112,7 +112,7 @@ _Os gritos do mercado e a porta: quatro mortos entram na Âncora Quebrada — um
 
 Primeiro vêm os gritos. Longe, na direção do mercado, muitos ao mesmo tempo — e não é grito de briga, é o som que as pessoas fazem quando correm sem saber para onde.
 
-A porta da frente continua entreaberta desde que o guarda saiu. Ninguém a fechou. Agora ela se abre de vez, com o ombro de alguém, e entra pela soleira um cheiro que não é de chuva nem de peixe: é doce, parado, errado.
+A porta da frente continua entreaberta desde que o guarda saiu. Ninguém a fechou. Agora ela se abre de vez, com o ombro de alguém, e entra pela soleira um cheiro que não é de chuva nem de estrume: é doce, parado, errado.
 
 São quatro. Entram juntos e depressa, sem tropeçar em nada, e não dizem palavra nenhuma — e é o silêncio deles, no meio de todo aquele barulho lá fora, que faz a taberna inteira recuar um passo.
 
