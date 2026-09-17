@@ -45,7 +45,8 @@ RE_PEDIDO = re.compile(
     r"(?:\s+olhando\s+(?:para\s+)?(?P<alvo>[A-Za-z]{1,3}\d{1,3}))?"
     r"(?:\s+ocupando\s+(?P<tam>\d+(?:[.,]\d+)?)\s*hex\w*)?"
     r"(?:\s+usando\s+(?P<token>\S+))?"
-    r"(?:\s+com\s+deslocamento\s+(?P<desl>\d+))?\s*$",
+    r"(?:\s+com\s+deslocamento\s+(?P<desl>\d+))?"
+    r"(?P<sem_nome>\s+sem\s+nome)?\s*$",
     re.I)
 
 OPOSTA = {"N": "S", "S": "N", "NE": "SW", "SW": "NE", "SE": "NW", "NW": "SE"}
@@ -541,7 +542,7 @@ def renderizar(dados, indice, saida, raiz, alpha, alpha_nome=190, nomes=True):
     if nomes:
         caixas = []
         for rot, o in ocup.items():
-            if rot not in hexes:
+            if rot not in hexes or o.get("sem_nome"):
                 continue
             ocupados = [r for r in (o.get("hexes_ocupados") or [rot]) if r in hexes]
             cx = sum(hexes[r]["cx"] for r in ocupados) / len(ocupados)
@@ -704,6 +705,8 @@ def main():
                 entrada["tamanho_hex"] = tam
             if len(corpo) > 1:
                 entrada["hexes_ocupados"] = corpo
+            if m.group("sem_nome"):
+                entrada["sem_nome"] = True
             de_onde = next((r for r, o in ocup.items()
                             if r != rot and o.get("quem") == quem), None)
             if de_onde:
