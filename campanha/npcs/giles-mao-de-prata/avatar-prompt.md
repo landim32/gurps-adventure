@@ -1,0 +1,7 @@
+# Prompt — avatar.png
+
+**Escrito em:** 16/09/2026 14:49
+
+```
+Digital illustration, fantasy RPG comic book art, clean bold linework, warm soft coloring, hand-drawn look, medieval realism, tech level 3, no gunpowder. Setting: Wallace, a pastoral frontier town of Caithness on the edge of the Great Desert in Yrth — sheep pens, wool, dust and stone. THIS TOWN IS LANDLOCKED: no sea, no harbour, no docks, no ships, no boats, no fishing gear anywhere in any panel; the iron anchor over the tavern door is an old joke, not a sign of the sea. Night, fine cold rain outside; tavern interior lit by a stone hearth, hanging oil lanterns and table candles. Character portrait reference sheet of a single character for a comic book: Giles Silver-Hand, a wool merchant of forty-five. Fat and florid, with a loud laugh and a voice that fills a room. Thin hair combed back, cheeks red with drink, a heavy jowl. RINGS ON FOUR FINGERS, all of broad silver — that is where the name comes from. A dyed wool doublet of good cloth, a wide leather belt with a metal buckle, boots far too clean for the street he is standing in. A good leather purse tied with a simple knot hangs at his belt, heavy with silver.. Waist-up, neutral standing pose, facing the viewer, neutral plain background, even lighting, full clothing and visible gear. no text, no lettering, no speech balloons, no captions, no signage, no watermark, no panel borders, no frame.
+```

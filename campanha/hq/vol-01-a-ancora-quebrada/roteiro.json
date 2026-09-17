@@ -1,0 +1,6148 @@
+{
+  "volume": "Tormento Vil — Vol. 1: A Âncora Quebrada",
+  "campanha": "Tormento Vil",
+  "capitulos": [
+    1
+  ],
+  "estilo": "Hand-drawn comic art in pencil and ink on warm buff toned paper: firm dark ink contour lines, fine graphite hatching and crosshatching for all modelling and shadow, over a restrained wash of sepia and warm grey with only a slight flesh tint. The buff paper tone is the lightest value in every panel and shows through everywhere; highlights are bare paper, never white paint. Muted, almost monochrome warm palette — no flat digital colour, no vivid saturation, no glossy rendering. FIRELIGHT IS RENDERED AS VALUE, NOT AS HUE: the nearer the fire, the more paper is left bare and the sparser the hatching; the further from it, the denser and blacker the ink, until the far corners are solid shadow. Medieval realism, tech level 3, no gunpowder. Setting: Wallace, a pastoral frontier town of Caithness on the edge of the Great Desert in Yrth — sheep pens, wool, dust and stone. THIS TOWN IS LANDLOCKED: no sea, no harbour, no docks, no ships, no boats, no masts, no rigging, no ship's wheel, no nets, no fishing gear anywhere in any panel; the iron anchor over the tavern door is an old joke, not a sign of the sea. Night, fine cold rain outside; tavern interior lit by a stone hearth, hanging oil lanterns and table candles.",
+  "paginas": [
+    {
+      "n": 1,
+      "titulo": "A âncora numa terra sem mar",
+      "cena": "1 · A âncora numa terra sem mar",
+      "quadros": [
+        {
+          "n": 1,
+          "caixa": [
+            0,
+            0,
+            100,
+            30
+          ],
+          "enquadramento": "plano geral, câmera baixa na estrada, leve contra-plongée",
+          "luz": "crepúsculo azul frio contra tochas amarelas na muralha",
+          "o_que_se_ve": "A caravana entrando por Wallace pouco antes do anoitecer: quatro carroças cobertas, bois, a muralha de pedra crescendo à frente e o castelo do Lorde William lá em cima, na ladeira, já com luz nas seteiras. Chove fininho.",
+          "visual": "Wide establishing shot at dusk, low camera on a muddy road: a small ox-drawn wagon caravan passing through the stone gate of a walled frontier town, sheep pens and low stone houses inside, a lit castle on the hill above with torchlight in the arrow slits, fine cold drizzle, grey-blue twilight sky.",
+          "elenco": [],
+          "figuras": [
+            {
+              "quem": "carroça",
+              "em": [
+                30,
+                88
+              ],
+              "altura": 30,
+              "pose": "objeto",
+              "olhando": "direita"
+            },
+            {
+              "quem": "carroça",
+              "em": [
+                58,
+                84
+              ],
+              "altura": 26,
+              "pose": "objeto",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                26,
+                16
+              ],
+              "largura": 40,
+              "texto": "WALLACE. Fronteira oeste de Caithness, na orla do Grande Deserto."
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "caixa": [
+            0,
+            30,
+            50,
+            24
+          ],
+          "enquadramento": "plano médio, na altura do peito",
+          "luz": "lanterna de carroça, luz baixa e quente",
+          "o_que_se_ve": "Os cinco descendo das carroças na rua dos currais: lama até o tornozelo, capuzes, poeira de quatro dias de estrada na roupa. Os carroceiros ficam, enrolados nas mantas.",
+          "visual": "Medium shot, eye level: five travellers climbing down from a wagon into an ankle-deep muddy livestock street at night, hooded against drizzle, road dust on their clothes; wagoneers stay behind rolled in blankets under the wagon.",
+          "elenco": [
+            "comam-obabaroy",
+            "irmao-kaelric",
+            "jah-kagadu",
+            "negrum-carneiriums",
+            "nelsowned"
+          ],
+          "figuras": [
+            {
+              "quem": "Kaelric",
+              "em": [
+                30,
+                92
+              ],
+              "altura": 78,
+              "pose": "de pé",
+              "olhando": "frente"
+            },
+            {
+              "quem": "Negrum",
+              "em": [
+                48,
+                92
+              ],
+              "altura": 70,
+              "pose": "de pé",
+              "olhando": "frente"
+            },
+            {
+              "quem": "Jah",
+              "em": [
+                62,
+                90
+              ],
+              "altura": 58,
+              "pose": "de pé",
+              "olhando": "frente"
+            },
+            {
+              "quem": "Comam",
+              "em": [
+                76,
+                90
+              ],
+              "altura": 56,
+              "pose": "de pé",
+              "olhando": "frente"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                50,
+                13
+              ],
+              "largura": 52,
+              "texto": "Quatro dias de estrada, poeira até nos dentes. Os carroceiros ficaram dormindo junto às carroças."
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "caixa": [
+            50,
+            30,
+            50,
+            24
+          ],
+          "enquadramento": "plano fechado, câmera dentro do curral",
+          "luz": "escuro azulado, um facho amarelo vindo da porta da taberna",
+          "o_que_se_ve": "Os currais na chuva: cães presos às estacas, todos uivando ao mesmo tempo, os focinhos apontados para o mesmo lado — o oeste. As ovelhas amontoadas no canto oposto.",
+          "visual": "Tight shot inside a rainy livestock pen at night: chained dogs all howling at once, every muzzle pointed the same way toward the west, sheep packed into the far corner, wet straw, wooden posts.",
+          "elenco": [],
+          "figuras": [
+            {
+              "quem": "cães",
+              "em": [
+                40,
+                80
+              ],
+              "altura": 22,
+              "pose": "multidão",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                52,
+                15
+              ],
+              "largura": 46,
+              "texto": "Os cães dos currais uivam faz um tempo. Ninguém reparou ainda."
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "caixa": [
+            0,
+            54,
+            55,
+            46
+          ],
+          "enquadramento": "plano médio baixo, de fora para dentro",
+          "luz": "a luz amarela da porta contra a chuva escura",
+          "o_que_se_ve": "A porta da taberna vista da rua: madeira grossa, uma fresta de luz amarela por baixo, fumaça saindo pela chaminé, e o Irmão Kaelric abaixando a cabeça para caber na soleira.",
+          "visual": "Low medium shot from the street: a heavy timber tavern door with warm yellow light spilling under it, chimney smoke, a towering knight in a white red-crossed surcoat ducking his head low to fit through the doorway, the others crowding behind him.",
+          "elenco": [
+            "irmao-kaelric",
+            "negrum-carneiriums",
+            "nelsowned"
+          ],
+          "figuras": [
+            {
+              "quem": "Kaelric",
+              "em": [
+                42,
+                96
+              ],
+              "altura": 88,
+              "pose": "de pé",
+              "olhando": "costas"
+            },
+            {
+              "quem": "Negrum",
+              "em": [
+                66,
+                94
+              ],
+              "altura": 72,
+              "pose": "de pé",
+              "olhando": "costas"
+            }
+          ],
+          "baloes": []
+        },
+        {
+          "n": 5,
+          "caixa": [
+            55,
+            54,
+            45,
+            46
+          ],
+          "enquadramento": "contra-plongée forte, quase de baixo",
+          "luz": "contraluz: a âncora escura contra o brilho da porta",
+          "o_que_se_ve": "A âncora de ferro pendurada sobre a porta, enorme e enferrujada, a chuva escorrendo dela; atrás, o céu preto. Lá de dentro vem música.",
+          "visual": "Strong low angle looking up: a huge rusted iron ship's anchor hanging from a chain over a tavern door in a landlocked town, rain running off it, black night sky behind, warm light glowing from the doorway below.",
+          "elenco": [],
+          "figuras": [
+            {
+              "quem": "âncora",
+              "em": [
+                50,
+                55
+              ],
+              "altura": 55,
+              "pose": "objeto",
+              "olhando": "frente"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                30,
+                14
+              ],
+              "largura": 44,
+              "texto": "A Âncora Quebrada. A semanas de viagem de qualquer água navegável."
+            },
+            {
+              "tipo": "canto",
+              "em": [
+                62,
+                80
+              ],
+              "largura": 18,
+              "texto": "♪  ♪  ♪"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "titulo": "Quem está na casa",
+      "cena": "1 · A âncora numa terra sem mar",
+      "quadros": [
+        {
+          "n": 1,
+          "caixa": [
+            0,
+            0,
+            100,
+            42
+          ],
+          "enquadramento": "plano geral do salão, câmera na altura dos ombros, profundidade",
+          "luz": "lareira grande da parede oeste, à esquerda do quadro; lanternas de óleo penduradas; âmbar quente",
+          "o_que_se_ve": "O salão cheio: NelsOwned de pé em cima de um banco perto da lareira, cantando de braços abertos; quarenta gargantas errando o refrão alto e felizes, canecos batendo na mesa no tempo certo, moedas de cobre chovendo no assoalho de serragem.",
+          "visual": "Wide interior of a packed medieval tavern at night, shoulder-height camera with deep focus: a short stocky dwarf bard in garish crimson and purple velvet standing on a bench by the big stone hearth on the west wall, arms wide, singing; forty patrons bellowing the chorus, tankards banging on tables, copper coins raining onto a sawdust floor, oil lanterns and firelight.",
+          "elenco": [
+            "nelsowned"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "NelsOwned",
+              "em": [
+                34,
+                62
+              ],
+              "altura": 46,
+              "pose": "de pé",
+              "olhando": "frente"
+            },
+            {
+              "quem": "multidão",
+              "em": [
+                62,
+                78
+              ],
+              "altura": 26,
+              "pose": "multidão",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                27,
+                17
+              ],
+              "largura": 40,
+              "texto": "Está cheia, quente, e cheira a caldo de carneiro, lenha molhada e cerveja derramada."
+            },
+            {
+              "tipo": "canto",
+              "em": [
+                66,
+                30
+              ],
+              "apontando": [
+                36,
+                48
+              ],
+              "quem": "NelsOwned",
+              "largura": 16,
+              "texto": "♪  ♪  ♪"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "caixa": [
+            0,
+            42,
+            33,
+            19
+          ],
+          "enquadramento": "close, três quartos",
+          "luz": "lanterna do balcão, por cima",
+          "o_que_se_ve": "Hoel Meia-Orelha atrás do balcão, enchendo canecos sem olhar para eles; cinquenta anos, corpulento, o pano de secar no ombro esquerdo, e o olhar de quem não se impressiona com nada.",
+          "visual": "Close three-quarter portrait: a heavy-set fifty-year-old tavern keeper behind a bar, filling tankards without looking at them, a drying cloth over his left shoulder, an apron, thick forearms, a level unimpressed stare.",
+          "elenco": [
+            "hoel-meia-orelha"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Hoel",
+              "em": [
+                48,
+                90
+              ],
+              "altura": 84,
+              "pose": "close",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                52,
+                16
+              ],
+              "largura": 40,
+              "texto": "O dono. Hoel Meia-Orelha."
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "caixa": [
+            33,
+            42,
+            34,
+            19
+          ],
+          "enquadramento": "plano médio",
+          "luz": "velas da mesa, por baixo",
+          "o_que_se_ve": "Giles Mão-de-Prata de pé na mesa comprida do tapete vermelho, caneco erguido, anéis em quatro dedos, contando pela terceira vez que a filha vai casar. Bronwyn, ao lado, não levantou os olhos do prato.",
+          "visual": "Medium shot: a fat forty-five-year-old wool merchant standing at a long table on a red carpet, raising a tankard, rings on four fingers, loud laugh; beside him an eighteen-year-old girl keeps her eyes down on her plate.",
+          "elenco": [
+            "giles-mao-de-prata",
+            "bronwyn"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Giles",
+              "em": [
+                38,
+                94
+              ],
+              "altura": 80,
+              "pose": "de pé",
+              "olhando": "frente"
+            },
+            {
+              "quem": "Bronwyn",
+              "em": [
+                70,
+                96
+              ],
+              "altura": 58,
+              "pose": "sentado",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "fala",
+              "em": [
+                52,
+                18
+              ],
+              "apontando": [
+                40,
+                48
+              ],
+              "quem": "Giles",
+              "largura": 42,
+              "texto": "...E A MINHA FILHA CASA EM CARRICK!"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "caixa": [
+            67,
+            42,
+            33,
+            19
+          ],
+          "enquadramento": "plano médio, de cima do círculo",
+          "luz": "lareira oeste atrás, silhuetas quentes",
+          "o_que_se_ve": "Donnwulf derrubando mais um braço contra a mesa redonda e gritando o próprio nome; o círculo de apostadores berrando junto, umas quarenta moedas de prata na madeira.",
+          "visual": "Medium shot from above a round table: a broad-shouldered stonemason slamming another man's arm down in an arm-wrestling match and roaring his own name, a ring of shouting gamblers around him, about forty silver coins on the wood.",
+          "elenco": [
+            "donnwulf"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Donnwulf",
+              "em": [
+                40,
+                92
+              ],
+              "altura": 70,
+              "pose": "sentado",
+              "olhando": "direita"
+            },
+            {
+              "quem": "apostadores",
+              "em": [
+                70,
+                78
+              ],
+              "altura": 30,
+              "pose": "multidão",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "grito",
+              "em": [
+                46,
+                20
+              ],
+              "apontando": [
+                40,
+                52
+              ],
+              "quem": "Donnwulf",
+              "largura": 32,
+              "texto": "DONNWULF!"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "caixa": [
+            0,
+            61,
+            50,
+            20
+          ],
+          "enquadramento": "close lateral, perfil",
+          "luz": "meia-luz, o rosto metade na sombra",
+          "o_que_se_ve": "Osric de Bannock no balcão, a poucos banquetos do grupo: capa ainda nos ombros, a cota de malha aparecendo por baixo, bebendo rápido e olhando o copo.",
+          "visual": "Side close-up profile: an off-duty castle guard in his thirties at a bar, cloak still on, chain mail showing under it, drinking fast and staring into his cup, tired eyes, big hands, no helmet, no shield.",
+          "elenco": [
+            "osric-de-bannock"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Osric",
+              "em": [
+                42,
+                90
+              ],
+              "altura": 80,
+              "pose": "close",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                58,
+                16
+              ],
+              "largura": 44,
+              "texto": "Um guarda do castelo. Não falou com ninguém a noite toda."
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "caixa": [
+            50,
+            61,
+            50,
+            20
+          ],
+          "enquadramento": "plano médio, da mesa do canto",
+          "luz": "uma vela só, sombra atrás dela",
+          "o_que_se_ve": "Teressy na mesa do canto, de costas para a parede, capa boa e botas gastas de estrada, bebendo devagar, com uma bolsa de couro entre os pés. Ao fundo, o Comam no terceiro caneco.",
+          "visual": "Medium shot of a corner table: a thirty-year-old woman with her back to the wall, good travelling cloak, worn boots, drinking slowly, a leather satchel clamped between her feet; in the background a one-eyed mercenary with an eyepatch on his third tankard.",
+          "elenco": [
+            "comam-obabaroy"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Teressy",
+              "em": [
+                34,
+                92
+              ],
+              "altura": 66,
+              "pose": "sentado",
+              "olhando": "direita"
+            },
+            {
+              "quem": "Comam",
+              "em": [
+                76,
+                84
+              ],
+              "altura": 44,
+              "pose": "sentado",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                58,
+                17
+              ],
+              "largura": 38,
+              "texto": "Não largou a bolsa nem para aplaudir."
+            }
+          ]
+        },
+        {
+          "n": 7,
+          "caixa": [
+            0,
+            81,
+            100,
+            19
+          ],
+          "enquadramento": "faixa larga, plano médio de costas",
+          "luz": "lareira oeste à frente dele",
+          "o_que_se_ve": "O Negrum levantando da mesa e indo na direção do círculo do braço-de-ferro, de costas para a câmera, ombros enormes, a cabeça raspada; o círculo ao fundo abrindo para ele.",
+          "visual": "Wide panel, medium shot from behind: a huge young bare-chested tribal warrior with a shaved head and hoop earrings walking away from camera toward an arm-wrestling circle, the crowd parting ahead of him, broadsword at his hip.",
+          "elenco": [
+            "negrum-carneiriums",
+            "donnwulf"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Negrum",
+              "em": [
+                30,
+                94
+              ],
+              "altura": 88,
+              "pose": "de pé",
+              "olhando": "costas"
+            },
+            {
+              "quem": "Donnwulf",
+              "em": [
+                72,
+                88
+              ],
+              "altura": 50,
+              "pose": "sentado",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "fala",
+              "em": [
+                62,
+                26
+              ],
+              "apontando": [
+                36,
+                38
+              ],
+              "quem": "Negrum",
+              "largura": 30,
+              "texto": "TU. BRAÇO. EU E TU."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "titulo": "Dois minutos de nada",
+      "cena": "2 · O braço-de-ferro",
+      "quadros": [
+        {
+          "n": 1,
+          "caixa": [
+            0,
+            0,
+            100,
+            26
+          ],
+          "enquadramento": "plano médio largo",
+          "luz": "lareira oeste lateral, quente",
+          "o_que_se_ve": "O círculo abrindo para deixar o Negrum passar; bancos arrastados, canecos batendo. Donnwulf mede os ombros dele de cima a baixo, ri alto, cospe na palma da mão e estende o braço.",
+          "visual": "Wide medium shot: a tavern crowd shoving benches aside to open a circle; a burly stonemason sizes up a huge young warrior head to toe, laughs, spits into his own palm and holds out his arm across a round table.",
+          "elenco": [
+            "donnwulf",
+            "negrum-carneiriums"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Donnwulf",
+              "em": [
+                34,
+                90
+              ],
+              "altura": 62,
+              "pose": "sentado",
+              "olhando": "direita"
+            },
+            {
+              "quem": "Negrum",
+              "em": [
+                66,
+                90
+              ],
+              "altura": 70,
+              "pose": "de pé",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "fala",
+              "em": [
+                46,
+                20
+              ],
+              "apontando": [
+                36,
+                46
+              ],
+              "quem": "Donnwulf",
+              "largura": 28,
+              "texto": "SENTA AÍ, ENTÃO."
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "caixa": [
+            0,
+            26,
+            50,
+            22
+          ],
+          "enquadramento": "close extremo nas mãos",
+          "luz": "luz rasante da lareira oeste, contraste alto",
+          "o_que_se_ve": "As duas mãos se agarrando em cima da madeira: a do pedreiro calejada e quadrada, a do Negrum quase o dobro do tamanho.",
+          "visual": "Extreme close-up of two hands gripping over a table top: a callused square mason's hand swallowed by a much larger dark-skinned hand, knuckles white, wood grain and spilled beer under them.",
+          "elenco": [
+            "donnwulf",
+            "negrum-carneiriums"
+          ],
+          "figuras": [
+            {
+              "quem": "mãos",
+              "em": [
+                50,
+                70
+              ],
+              "altura": 40,
+              "pose": "objeto",
+              "olhando": "frente"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "onomatopeia",
+              "em": [
+                70,
+                24
+              ],
+              "corpo": 70,
+              "texto": "TUM"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "caixa": [
+            50,
+            26,
+            50,
+            22
+          ],
+          "enquadramento": "plano médio do círculo",
+          "luz": "âmbar, fumaça da lareira oeste no ar",
+          "o_que_se_ve": "Um freguês conta até três com a mão no ar; o círculo berra; as moedas de prata em cima da mesa. Ao fundo, o Comam de costas, bebendo, sem olhar.",
+          "visual": "Medium shot of the gambling ring: a patron counting to three with a raised hand, the circle roaring, silver coins piled on the table; in the far background a one-eyed mercenary with his back turned, drinking, ignoring everything.",
+          "elenco": [
+            "comam-obabaroy"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "apostadores",
+              "em": [
+                44,
+                74
+              ],
+              "altura": 34,
+              "pose": "multidão",
+              "olhando": "frente"
+            },
+            {
+              "quem": "Comam",
+              "em": [
+                84,
+                86
+              ],
+              "altura": 40,
+              "pose": "sentado",
+              "olhando": "costas"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "grito",
+              "em": [
+                34,
+                20
+              ],
+              "largura": 22,
+              "texto": "TRÊS!"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "caixa": [
+            0,
+            48,
+            100,
+            30
+          ],
+          "enquadramento": "plano médio frontal, simétrico",
+          "luz": "contraluz da lareira oeste atrás dos dois, rostos em meia-sombra",
+          "o_que_se_ve": "Os dois braços travados no meio, verticais, e nada acontecendo. O suor na madeira, a veia no pescoço do pedreiro subindo, as moedas de prata tremendo em cima da mesa.",
+          "visual": "Symmetrical frontal medium shot: two locked arms standing vertical over a table, neither moving, sweat on the wood, a vein swelling in the mason's neck, silver coins visibly trembling on the table surface, the crowd leaning in and holding its breath.",
+          "elenco": [
+            "donnwulf",
+            "negrum-carneiriums"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Donnwulf",
+              "em": [
+                32,
+                88
+              ],
+              "altura": 68,
+              "pose": "sentado",
+              "olhando": "direita"
+            },
+            {
+              "quem": "Negrum",
+              "em": [
+                68,
+                88
+              ],
+              "altura": 74,
+              "pose": "sentado",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                50,
+                12
+              ],
+              "largura": 46,
+              "texto": "Um minuto. Dois. Os dois braços travam no meio e ficam ali."
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "caixa": [
+            0,
+            78,
+            100,
+            22
+          ],
+          "enquadramento": "duplo close no mesmo quadro",
+          "luz": "dura, de cima",
+          "o_que_se_ve": "À esquerda, o rosto de Donnwulf indo do vermelho ao roxo, o sorriso de deboche virando careta. À direita, o cotovelo dele escorregando no suor da madeira.",
+          "visual": "Split composition in one panel: on the left a close-up of the mason's face going from red to purple, his mocking grin twisting into a grimace; on the right an extreme close-up of his elbow slipping on sweat-slick wood.",
+          "elenco": [
+            "donnwulf"
+          ],
+          "figuras": [
+            {
+              "quem": "Donnwulf",
+              "em": [
+                26,
+                80
+              ],
+              "altura": 70,
+              "pose": "close",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                70,
+                22
+              ],
+              "largura": 36,
+              "texto": "E então o cotovelo dele escorrega no suor da madeira."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "titulo": "O estalo",
+      "cena": "2 · O braço-de-ferro",
+      "quadros": [
+        {
+          "n": 1,
+          "caixa": [
+            0,
+            0,
+            100,
+            30
+          ],
+          "enquadramento": "close extremo, ângulo baixo",
+          "luz": "clarão da lareira oeste, sombra dura",
+          "o_que_se_ve": "O braço cai contra a madeira num ângulo que braço nenhum faz, e fica ali, torto. A prata rola da mesa para o assoalho.",
+          "visual": "Extreme close-up at low angle: a forearm slammed against a table at an angle no arm can make, bone visibly broken under the skin, left lying crooked; silver coins rolling off the table edge toward the sawdust floor.",
+          "elenco": [
+            "donnwulf"
+          ],
+          "figuras": [
+            {
+              "quem": "braço",
+              "em": [
+                42,
+                68
+              ],
+              "altura": 36,
+              "pose": "objeto",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "onomatopeia",
+              "em": [
+                70,
+                30
+              ],
+              "corpo": 150,
+              "texto": "CRAC"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "caixa": [
+            0,
+            30,
+            50,
+            22
+          ],
+          "enquadramento": "plano geral do salão, plongée leve",
+          "luz": "âmbar, mas os rostos endurecidos",
+          "o_que_se_ve": "Quarenta rostos virando ao mesmo tempo; os canecos param no ar. O berro do pedreiro apaga o resto do salão.",
+          "visual": "Slightly high wide shot of the tavern: forty faces turning at once, tankards frozen halfway to mouths, a scream cutting through the room, benches half-risen.",
+          "elenco": [
+            "donnwulf"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "multidão",
+              "em": [
+                50,
+                76
+              ],
+              "altura": 32,
+              "pose": "multidão",
+              "olhando": "frente"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "grito",
+              "em": [
+                46,
+                26
+              ],
+              "apontando": [
+                40,
+                62
+              ],
+              "quem": "Donnwulf",
+              "largura": 30,
+              "texto": "AAAAARGH!"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "caixa": [
+            50,
+            30,
+            50,
+            22
+          ],
+          "enquadramento": "plano médio, do balcão",
+          "luz": "lanterna do balcão atrás dele",
+          "o_que_se_ve": "Hoel larga o pano de secar, sai de trás do balcão empurrando gente e grita para o menino do estábulo.",
+          "visual": "Medium shot: the tavern keeper drops his drying cloth, shoves out from behind the bar through the crowd and shouts toward a doorway at the back, arm outstretched.",
+          "elenco": [
+            "hoel-meia-orelha"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Hoel",
+              "em": [
+                44,
+                92
+              ],
+              "altura": 80,
+              "pose": "de pé",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "grito",
+              "em": [
+                60,
+                22
+              ],
+              "apontando": [
+                46,
+                48
+              ],
+              "quem": "Hoel",
+              "largura": 36,
+              "texto": "WAT! O BARBEIRO! CORRE!"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "caixa": [
+            0,
+            52,
+            50,
+            22
+          ],
+          "enquadramento": "plano médio",
+          "luz": "lareira oeste, mas o quadro mais frio que os anteriores",
+          "o_que_se_ve": "Donnwulf branco, dobrado sobre o próprio braço, a mão boa procurando onde segurar e sem achar lugar que não doa. O círculo de apostadores virou um semicírculo de gente calada.",
+          "visual": "Medium shot: the mason white-faced and doubled over his own arm, his good hand hovering, finding nowhere to hold that does not hurt; the gambling ring has become a silent half-circle of people, coins still where they fell.",
+          "elenco": [
+            "donnwulf"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Donnwulf",
+              "em": [
+                40,
+                92
+              ],
+              "altura": 66,
+              "pose": "sentado",
+              "olhando": "frente"
+            },
+            {
+              "quem": "multidão",
+              "em": [
+                78,
+                78
+              ],
+              "altura": 26,
+              "pose": "multidão",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                70,
+                18
+              ],
+              "largura": 26,
+              "texto": "Ninguém ri."
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "caixa": [
+            50,
+            52,
+            50,
+            22
+          ],
+          "enquadramento": "close, de baixo para cima",
+          "luz": "quente, chapada",
+          "o_que_se_ve": "Donnwulf procurando o Negrum por cima do ombro estragado, os olhos molhados, a voz rouca e sem raiva nenhuma.",
+          "visual": "Low close-up: the mason twisting to find the huge warrior over his ruined shoulder, eyes wet, mouth open in a hoarse, angerless line.",
+          "elenco": [
+            "donnwulf",
+            "negrum-carneiriums"
+          ],
+          "figuras": [
+            {
+              "quem": "Donnwulf",
+              "em": [
+                38,
+                86
+              ],
+              "altura": 78,
+              "pose": "close",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "fala",
+              "em": [
+                58,
+                22
+              ],
+              "apontando": [
+                40,
+                62
+              ],
+              "quem": "Donnwulf",
+              "largura": 40,
+              "texto": "NÃO FOI TUA CULPA, GRANDÃO. ESSE BRAÇO JÁ VINHA AVISANDO."
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "caixa": [
+            0,
+            74,
+            100,
+            26
+          ],
+          "enquadramento": "plano geral de fora, à chuva",
+          "luz": "azul escuro da chuva contra o amarelo das janelas",
+          "o_que_se_ve": "Do lado de fora, na rua dos currais: os cães todos uivando ao mesmo tempo, focinhos para o mesmo lado, e a taberna iluminada ao fundo, ruidosa, indiferente.",
+          "visual": "Wide exterior shot in the rain: chained dogs in a livestock pen all howling at once, muzzles pointed the same way, the lit and noisy tavern glowing behind them, wet mud and black sky.",
+          "elenco": [],
+          "figuras": [
+            {
+              "quem": "cães",
+              "em": [
+                36,
+                82
+              ],
+              "altura": 24,
+              "pose": "multidão",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                62,
+                20
+              ],
+              "largura": 42,
+              "texto": "Estão uivando faz um tempo. Ninguém aqui dentro reparou."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "titulo": "O furto e o bis",
+      "cena": "3 · O furto e o bis",
+      "quadros": [
+        {
+          "n": 1,
+          "caixa": [
+            0,
+            0,
+            50,
+            26
+          ],
+          "enquadramento": "por cima do ombro do Jah",
+          "luz": "todos contra a luz da lareira oeste",
+          "o_que_se_ve": "O salão inteiro de pé e virado para a mesa redonda. Giles está entre eles, meio levantado, o caneco esquecido na mão, o corpo virado para a frente — e o cinto, portanto, virado para o Jah.",
+          "visual": "Over-the-shoulder shot from behind a lean thief: the whole tavern standing and facing away toward a round table, the fat wool merchant among them half-risen, forgotten tankard in hand, his body turned forward and his belt purse exposed to camera.",
+          "elenco": [
+            "jah-kagadu",
+            "giles-mao-de-prata"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Jah",
+              "em": [
+                22,
+                96
+              ],
+              "altura": 84,
+              "pose": "de pé",
+              "olhando": "costas"
+            },
+            {
+              "quem": "Giles",
+              "em": [
+                62,
+                90
+              ],
+              "altura": 62,
+              "pose": "de pé",
+              "olhando": "costas"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                58,
+                15
+              ],
+              "largura": 44,
+              "texto": "Por três segundos ninguém na casa está olhando para outra coisa."
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "caixa": [
+            50,
+            0,
+            50,
+            26
+          ],
+          "enquadramento": "close extremo nas mãos",
+          "luz": "dura e lateral, quase sem cor",
+          "o_que_se_ve": "Os dedos do Jah no nó simples da bolsa de couro presa ao cinto de Giles. A bolsa sai do laço com o peso morno de quem tem muita prata dentro.",
+          "visual": "Extreme close-up of hands: long thin fingers slipping a simple knot on a good leather purse tied to a fat man's belt, the purse coming free, heavy with silver, no faces in frame.",
+          "elenco": [
+            "jah-kagadu",
+            "giles-mao-de-prata"
+          ],
+          "figuras": [
+            {
+              "quem": "mãos",
+              "em": [
+                50,
+                66
+              ],
+              "altura": 44,
+              "pose": "objeto",
+              "olhando": "frente"
+            }
+          ],
+          "baloes": []
+        },
+        {
+          "n": 3,
+          "caixa": [
+            0,
+            26,
+            50,
+            24
+          ],
+          "enquadramento": "plano médio, dois planos de profundidade",
+          "luz": "âmbar de novo, a casa relaxando",
+          "o_que_se_ve": "Em primeiro plano o Jah já a dois passos, indo na direção do balcão, a bolsa sumindo debaixo da capa. Ao fundo, Giles tornando a sentar e levando a mão à cintura sem pensar, franzindo a testa.",
+          "visual": "Medium shot with two depth planes: in front, the thief already two steps away toward the bar, the purse vanishing under his cloak; behind him the merchant sitting back down, hand going to his belt without thinking, brow furrowed.",
+          "elenco": [
+            "jah-kagadu",
+            "giles-mao-de-prata"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Jah",
+              "em": [
+                30,
+                92
+              ],
+              "altura": 74,
+              "pose": "de pé",
+              "olhando": "esquerda"
+            },
+            {
+              "quem": "Giles",
+              "em": [
+                72,
+                86
+              ],
+              "altura": 50,
+              "pose": "sentado",
+              "olhando": "frente"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                62,
+                17
+              ],
+              "largura": 44,
+              "texto": "Alguém lhe enche o caneco. Ele não chega a entender o que sentiu."
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "caixa": [
+            50,
+            26,
+            50,
+            24
+          ],
+          "enquadramento": "plano médio, contra-plongée leve",
+          "luz": "penumbra alta, a luz vindo de baixo",
+          "o_que_se_ve": "O Irmão Kaelric encostado numa coluna do salão com o caneco na mão, altíssimo, a cabeça quase nas vigas, olhando a bagunça toda de cima.",
+          "visual": "Slightly low medium shot: a towering knight-monk in a white red-crossed surcoat over mail leaning against a tavern post with a tankard, head nearly at the ceiling beams, watching the whole noisy room with a tired, thoughtful face.",
+          "elenco": [
+            "irmao-kaelric"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Kaelric",
+              "em": [
+                42,
+                96
+              ],
+              "altura": 92,
+              "pose": "de pé",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "pensamento",
+              "em": [
+                66,
+                22
+              ],
+              "apontando": [
+                44,
+                30
+              ],
+              "quem": "Kaelric",
+              "largura": 40,
+              "texto": "QUANTA AÇÃO VÃ E MUNDANA NESTE LUGAR. INCLUSIVE EU."
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "caixa": [
+            0,
+            50,
+            100,
+            28
+          ],
+          "enquadramento": "plano médio largo, câmera na plateia",
+          "luz": "lareira oeste e lanternas, o quadro mais claro da página",
+          "o_que_se_ve": "NelsOwned de pé no banco, pedindo silêncio com a mão erguida; a casa protesta, ri, bate o pé no assoalho. Hoel grita do balcão. Ao fundo, o Comam bebendo, imune a tudo.",
+          "visual": "Wide medium shot from within the audience: the dwarf bard back up on his bench, one hand raised for silence, the house protesting and laughing and stamping the floorboards; the tavern keeper shouting from behind the bar; a one-eyed mercenary drinking in the background, immune to all of it.",
+          "elenco": [
+            "nelsowned",
+            "hoel-meia-orelha",
+            "comam-obabaroy"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "NelsOwned",
+              "em": [
+                30,
+                64
+              ],
+              "altura": 44,
+              "pose": "de pé",
+              "olhando": "frente"
+            },
+            {
+              "quem": "Hoel",
+              "em": [
+                72,
+                82
+              ],
+              "altura": 46,
+              "pose": "de pé",
+              "olhando": "esquerda"
+            },
+            {
+              "quem": "Comam",
+              "em": [
+                88,
+                88
+              ],
+              "altura": 34,
+              "pose": "sentado",
+              "olhando": "costas"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "fala",
+              "em": [
+                22,
+                16
+              ],
+              "apontando": [
+                31,
+                44
+              ],
+              "quem": "NelsOwned",
+              "largura": 20,
+              "texto": "A ÚLTIMA!"
+            },
+            {
+              "tipo": "fala",
+              "em": [
+                68,
+                20
+              ],
+              "apontando": [
+                72,
+                64
+              ],
+              "quem": "Hoel",
+              "largura": 36,
+              "texto": "CANTA AQUELA QUE TODO MUNDO SABE E A RODADA É MINHA!"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "caixa": [
+            0,
+            78,
+            100,
+            22
+          ],
+          "enquadramento": "plano médio, panorâmico",
+          "luz": "quente no centro, frio no canto da porta",
+          "o_que_se_ve": "O chapéu passando de mão em mão e voltando leve; tapas nas costas do trovador. E no canto do quadro, sem ninguém reparar, Wat saindo pela porta dos fundos com um saco na cabeça contra a chuva.",
+          "visual": "Panoramic medium shot: a hat passing hand to hand and coming back light, patrons slapping the bard's back; in the corner of frame, unnoticed, a skinny twelve-year-old stable boy slipping out through a back doorway with a sack over his head against the rain.",
+          "elenco": [
+            "nelsowned",
+            "wat"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "NelsOwned",
+              "em": [
+                30,
+                90
+              ],
+              "altura": 48,
+              "pose": "de pé",
+              "olhando": "frente"
+            },
+            {
+              "quem": "Wat",
+              "em": [
+                86,
+                88
+              ],
+              "altura": 40,
+              "pose": "correndo",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                46,
+                18
+              ],
+              "largura": 44,
+              "texto": "O chapéu volta pesando pouco. Wat sai pelos fundos atrás do barbeiro."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "titulo": "A xavecada",
+      "cena": "4 · A xavecada",
+      "quadros": [
+        {
+          "n": 1,
+          "caixa": [
+            0,
+            0,
+            100,
+            26
+          ],
+          "enquadramento": "plano médio, lateral à mesa",
+          "luz": "velas da mesa, quentes",
+          "o_que_se_ve": "NelsOwned chega pelo lado da mesa boa com dois canecos que ninguém pediu e faz a mesura de palco inteira: chapéu, joelho, o braço aberto.",
+          "visual": "Medium side shot at a long table: the dwarf bard arriving with two tankards nobody ordered, performing a full stage bow — hat swept off, knee bent, arm wide — toward a seated young woman.",
+          "elenco": [
+            "nelsowned",
+            "bronwyn"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "NelsOwned",
+              "em": [
+                34,
+                92
+              ],
+              "altura": 48,
+              "pose": "de pé",
+              "olhando": "frente"
+            },
+            {
+              "quem": "Bronwyn",
+              "em": [
+                70,
+                92
+              ],
+              "altura": 56,
+              "pose": "sentado",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "fala",
+              "em": [
+                50,
+                20
+              ],
+              "apontando": [
+                36,
+                60
+              ],
+              "quem": "NelsOwned",
+              "largura": 32,
+              "texto": "AAAAH... MINHA SENHORA."
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "caixa": [
+            0,
+            26,
+            50,
+            24
+          ],
+          "enquadramento": "close",
+          "luz": "vela por baixo, o pai em silhueta",
+          "o_que_se_ve": "Bronwyn olha primeiro para o pai, que está de costas, contando a história do noivado pela quarta vez para quem já ouviu três.",
+          "visual": "Close-up: the young woman glancing first at her father, who is turned away telling the betrothal story for the fourth time to people who have heard it three times, his back and gesturing arm blurred behind her.",
+          "elenco": [
+            "bronwyn",
+            "giles-mao-de-prata"
+          ],
+          "figuras": [
+            {
+              "quem": "Bronwyn",
+              "em": [
+                38,
+                86
+              ],
+              "altura": 74,
+              "pose": "close",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": []
+        },
+        {
+          "n": 3,
+          "caixa": [
+            50,
+            26,
+            50,
+            24
+          ],
+          "enquadramento": "close frontal",
+          "luz": "a luz mais macia da página",
+          "o_que_se_ve": "Bronwyn rindo. Uma risada curta, de quem foi pega desprevenida.",
+          "visual": "Frontal close-up: the young woman laughing, a short surprised laugh, caught off guard, her eyes actually up for the first time, warm candlelight on her face.",
+          "elenco": [
+            "bronwyn"
+          ],
+          "figuras": [
+            {
+              "quem": "Bronwyn",
+              "em": [
+                50,
+                88
+              ],
+              "altura": 78,
+              "pose": "close",
+              "olhando": "frente"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                40,
+                18
+              ],
+              "largura": 36,
+              "texto": "É a primeira vez que ela ri esta noite."
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "caixa": [
+            0,
+            50,
+            100,
+            28
+          ],
+          "enquadramento": "plano médio, os dois de cotovelo na mesa",
+          "luz": "íntima, um círculo de vela",
+          "o_que_se_ve": "Os dois de cotovelo na mesa, conversa baixa; ele fazendo rima com o nome dela, ela dizendo que é péssimo. Ao fundo, o Comam com a cabeça apoiada no braço, quase dormindo.",
+          "visual": "Medium shot, two figures with elbows on the table leaning close in quiet conversation, the bard grinning mid-rhyme, the girl shaking her head; far behind them a one-eyed mercenary with his head propped on his arm, nearly asleep.",
+          "elenco": [
+            "nelsowned",
+            "bronwyn",
+            "comam-obabaroy"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "NelsOwned",
+              "em": [
+                34,
+                90
+              ],
+              "altura": 50,
+              "pose": "sentado",
+              "olhando": "direita"
+            },
+            {
+              "quem": "Bronwyn",
+              "em": [
+                62,
+                90
+              ],
+              "altura": 56,
+              "pose": "sentado",
+              "olhando": "esquerda"
+            },
+            {
+              "quem": "Comam",
+              "em": [
+                88,
+                84
+              ],
+              "altura": 30,
+              "pose": "sentado",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "fala",
+              "em": [
+                58,
+                20
+              ],
+              "apontando": [
+                62,
+                58
+              ],
+              "quem": "Bronwyn",
+              "largura": 30,
+              "texto": "É HORRÍVEL. FAÇA OUTRA."
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "caixa": [
+            0,
+            78,
+            100,
+            22
+          ],
+          "enquadramento": "plano médio com profundidade",
+          "luz": "a vela dela acesa, o pai na penumbra",
+          "o_que_se_ve": "Ela para de sorrir e pergunta, sem rodeio nenhum. Atrás dela, no fundo do quadro, Giles vira a cabeça na direção dos dois. Uma vez só.",
+          "visual": "Medium shot with depth: the young woman stops smiling and asks a direct question; deep in the background her father turns his head toward them exactly once, expression unreadable, and says nothing.",
+          "elenco": [
+            "bronwyn",
+            "nelsowned",
+            "giles-mao-de-prata"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Bronwyn",
+              "em": [
+                32,
+                90
+              ],
+              "altura": 62,
+              "pose": "sentado",
+              "olhando": "direita"
+            },
+            {
+              "quem": "Giles",
+              "em": [
+                80,
+                76
+              ],
+              "altura": 34,
+              "pose": "de pé",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "fala",
+              "em": [
+                42,
+                20
+              ],
+              "apontando": [
+                34,
+                58
+              ],
+              "quem": "Bronwyn",
+              "largura": 40,
+              "texto": "QUANTO TEMPO UM TROVADOR FICA NUMA CIDADE ANTES DE SEGUIR VIAGEM?"
+            },
+            {
+              "tipo": "narracao",
+              "em": [
+                86,
+                20
+              ],
+              "largura": 16,
+              "texto": "Só uma."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "titulo": "O desafio",
+      "cena": "5 · O desafio",
+      "quadros": [
+        {
+          "n": 1,
+          "caixa": [
+            0,
+            0,
+            100,
+            24
+          ],
+          "enquadramento": "contra-plongée, de baixo do banco",
+          "luz": "lareira oeste atrás, ele quase em silhueta",
+          "o_que_se_ve": "O Negrum em cima do banco onde o trovador cantou, braço aberto, gritando a vitória para o salão inteiro. A taberna ri com ele.",
+          "visual": "Low angle from below a bench: the huge bare-chested warrior standing on it, one arm thrown wide, roaring his victory to the whole room; the tavern laughing along with him, tankards raised.",
+          "elenco": [
+            "negrum-carneiriums"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Negrum",
+              "em": [
+                44,
+                94
+              ],
+              "altura": 90,
+              "pose": "de pé",
+              "olhando": "frente"
+            },
+            {
+              "quem": "multidão",
+              "em": [
+                78,
+                84
+              ],
+              "altura": 26,
+              "pose": "multidão",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "grito",
+              "em": [
+                64,
+                22
+              ],
+              "apontando": [
+                46,
+                34
+              ],
+              "quem": "Negrum",
+              "largura": 36,
+              "texto": "NINGUÉM AQUI TEM FORÇA! NINGUÉM!"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "caixa": [
+            0,
+            24,
+            50,
+            22
+          ],
+          "enquadramento": "plano médio, close no rosto gritando",
+          "luz": "dura, de baixo",
+          "o_que_se_ve": "Ele escolhendo mal as palavras, alto demais, no ânglico arranhado dele.",
+          "visual": "Medium close on the shouting warrior's face and raised fist, mouth wide, veins in his neck, saying something badly in a language that is not his own.",
+          "elenco": [
+            "negrum-carneiriums"
+          ],
+          "figuras": [
+            {
+              "quem": "Negrum",
+              "em": [
+                44,
+                92
+              ],
+              "altura": 82,
+              "pose": "close",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "grito",
+              "em": [
+                60,
+                26
+              ],
+              "apontando": [
+                46,
+                44
+              ],
+              "quem": "Negrum",
+              "largura": 40,
+              "texto": "HOMEM DA CASA SE ACHA BOM? VEM! VEM ATÉ A MORTE!"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "caixa": [
+            50,
+            24,
+            50,
+            22
+          ],
+          "enquadramento": "três closes em fileira dentro do mesmo quadro",
+          "luz": "cada rosto um pouco mais escuro que o anterior",
+          "o_que_se_ve": "Três rostos em fileira deixando de rir, um depois do outro: um perto do banco, um na mesa comprida, um no fundo do salão.",
+          "visual": "One panel divided by depth into three faces in a row, each further back: three tavern patrons stopping laughing one after another, the smile leaving each face in turn, the furthest already stone cold.",
+          "elenco": [],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "freguês",
+              "em": [
+                22,
+                84
+              ],
+              "altura": 66,
+              "pose": "close",
+              "olhando": "direita"
+            },
+            {
+              "quem": "freguês",
+              "em": [
+                52,
+                80
+              ],
+              "altura": 52,
+              "pose": "close",
+              "olhando": "frente"
+            },
+            {
+              "quem": "freguês",
+              "em": [
+                80,
+                76
+              ],
+              "altura": 40,
+              "pose": "close",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                50,
+                16
+              ],
+              "largura": 44,
+              "texto": "O riso morre por partes. Perto do banco. Na mesa comprida. No fundo."
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "caixa": [
+            0,
+            46,
+            50,
+            24
+          ],
+          "enquadramento": "close extremo nas mãos",
+          "luz": "lanterna do balcão, luz de cima",
+          "o_que_se_ve": "As mãos de Hoel dobrando o pano de secar devagar, como quem tem todo o tempo do mundo, e deixando-o em cima da madeira do balcão.",
+          "visual": "Extreme close-up of a pair of thick fifty-year-old hands slowly, deliberately folding a bar cloth and laying it flat on the bar top, as if there were all the time in the world.",
+          "elenco": [
+            "hoel-meia-orelha"
+          ],
+          "figuras": [
+            {
+              "quem": "mãos",
+              "em": [
+                50,
+                66
+              ],
+              "altura": 40,
+              "pose": "objeto",
+              "olhando": "frente"
+            }
+          ],
+          "baloes": []
+        },
+        {
+          "n": 5,
+          "caixa": [
+            50,
+            46,
+            50,
+            24
+          ],
+          "enquadramento": "plano médio, seguindo o movimento",
+          "luz": "ele entrando na luz da lareira oeste",
+          "o_que_se_ve": "Hoel contorna o balcão sem pressa nenhuma e para a dois passos do banco, de frente para o salão.",
+          "visual": "Medium tracking shot: the tavern keeper coming out from behind his bar without any hurry, stopping two paces from the bench, facing the room, chin up.",
+          "elenco": [
+            "hoel-meia-orelha"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Hoel",
+              "em": [
+                46,
+                94
+              ],
+              "altura": 80,
+              "pose": "de pé",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "fala",
+              "em": [
+                62,
+                22
+              ],
+              "apontando": [
+                48,
+                52
+              ],
+              "quem": "Hoel",
+              "largura": 32,
+              "texto": "NA MINHA CASA NINGUÉM MORRE."
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "caixa": [
+            0,
+            70,
+            100,
+            30
+          ],
+          "enquadramento": "contra-plongée desde o chão, o banco à direita",
+          "luz": "a lareira oeste forte de um lado, os dois meio pretos contra ela",
+          "o_que_se_ve": "Hoel arregaçando as mangas: antebraços de quem carrega barril há vinte anos. O Negrum olha de cima, do banco. A roda já se abre em volta dos dois.",
+          "visual": "Strong low angle from the floor: the tavern keeper rolling up his sleeves to show twenty years of barrel-hauling forearms; the huge warrior looks down at him from the bench; the crowd is already opening a ring around them, benches scraping back.",
+          "elenco": [
+            "hoel-meia-orelha",
+            "negrum-carneiriums"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Hoel",
+              "em": [
+                34,
+                94
+              ],
+              "altura": 76,
+              "pose": "de pé",
+              "olhando": "frente"
+            },
+            {
+              "quem": "Negrum",
+              "em": [
+                70,
+                88
+              ],
+              "altura": 88,
+              "pose": "de pé",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "fala",
+              "em": [
+                46,
+                18
+              ],
+              "apontando": [
+                36,
+                52
+              ],
+              "quem": "Hoel",
+              "largura": 42,
+              "texto": "MAS SE O FORASTEIRO QUER APRENDER ALGUMA COISA, EU ENSINO AGORA. DE GRAÇA."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "titulo": "A aposta e a banca",
+      "cena": "6 · A aposta e a banca",
+      "quadros": [
+        {
+          "n": 1,
+          "caixa": [
+            0,
+            0,
+            100,
+            24
+          ],
+          "enquadramento": "plano geral, plongée média",
+          "luz": "lanternas altas, o chão de serragem à mostra",
+          "o_que_se_ve": "A roda se abre sozinha: bancos arrastados, canecos recolhidos, alguém tirando as moedas de cima da mesa. Ninguém está segurando ninguém.",
+          "visual": "Medium-high wide shot: a tavern crowd clearing a fighting ring on its own — benches dragged back, tankards gathered up, a man sweeping coins off a table — nobody holding anybody back.",
+          "elenco": [],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "multidão",
+              "em": [
+                50,
+                80
+              ],
+              "altura": 30,
+              "pose": "multidão",
+              "olhando": "frente"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                26,
+                16
+              ],
+              "largura": 36,
+              "texto": "Ninguém está segurando ninguém."
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "caixa": [
+            0,
+            24,
+            50,
+            22
+          ],
+          "enquadramento": "plano médio",
+          "luz": "quente, ele suado",
+          "o_que_se_ve": "Donnwulf sentado num banco, o braço direito já entalado numa tala de madeira e amarrado ao peito por gente da casa, rindo e gritando a aposta dele.",
+          "visual": "Medium shot: the stonemason sitting on a bench, his right arm already splinted with wooden slats and strapped across his chest by other patrons, laughing through the pain and shouting a bet.",
+          "elenco": [
+            "donnwulf"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Donnwulf",
+              "em": [
+                40,
+                92
+              ],
+              "altura": 68,
+              "pose": "sentado",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "grito",
+              "em": [
+                62,
+                22
+              ],
+              "apontando": [
+                42,
+                58
+              ],
+              "quem": "Donnwulf",
+              "largura": 32,
+              "texto": "APOSTO NO TABERNEIRO!"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "caixa": [
+            50,
+            24,
+            50,
+            22
+          ],
+          "enquadramento": "plano médio, câmera baixa",
+          "luz": "lanterna acima dele, foco de palco",
+          "o_que_se_ve": "O Jah de pé em cima de um banco, a mão erguida com as moedas, gritando para a casa inteira ouvir.",
+          "visual": "Low medium shot: the lean thief standing up on a bench, one hand raised full of silver coins, shouting for the whole house to hear, his samurai-style topknot and arched eyebrows catching the light.",
+          "elenco": [
+            "jah-kagadu"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Jah",
+              "em": [
+                44,
+                92
+              ],
+              "altura": 82,
+              "pose": "de pé",
+              "olhando": "frente"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "grito",
+              "em": [
+                64,
+                22
+              ],
+              "apontando": [
+                46,
+                40
+              ],
+              "quem": "Jah",
+              "largura": 34,
+              "texto": "APOSTO CINQUENTA NO HOEL!"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "caixa": [
+            0,
+            46,
+            50,
+            24
+          ],
+          "enquadramento": "close nas moedas, fundo desfocado",
+          "luz": "brilho metálico contra fundo escuro",
+          "o_que_se_ve": "As moedas caindo na madeira. Atrás, fora de foco, o rosto do Negrum virando na direção do grito.",
+          "visual": "Close-up of silver coins hitting a table top; far behind and out of focus, the huge warrior's head turning toward the sound of the shout, expression unreadable.",
+          "elenco": [
+            "negrum-carneiriums"
+          ],
+          "figuras": [
+            {
+              "quem": "moedas",
+              "em": [
+                40,
+                70
+              ],
+              "altura": 26,
+              "pose": "objeto",
+              "olhando": "frente"
+            },
+            {
+              "quem": "Negrum",
+              "em": [
+                78,
+                74
+              ],
+              "altura": 44,
+              "pose": "close",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "onomatopeia",
+              "em": [
+                62,
+                40
+              ],
+              "corpo": 60,
+              "texto": "CLINC"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "caixa": [
+            50,
+            46,
+            50,
+            24
+          ],
+          "enquadramento": "plano médio, de frente para a plateia",
+          "luz": "âmbar, plateia em meia-sombra",
+          "o_que_se_ve": "O Jah com meio corpo em cima do banco, chamando nome por nome, apontando para os fregueses, prometendo pagar em dobro.",
+          "visual": "Medium shot facing the crowd: the thief half up on a bench, pointing at patron after patron by name, promising double, coins stacking on the wood in front of him.",
+          "elenco": [
+            "jah-kagadu"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Jah",
+              "em": [
+                38,
+                92
+              ],
+              "altura": 76,
+              "pose": "de pé",
+              "olhando": "direita"
+            },
+            {
+              "quem": "multidão",
+              "em": [
+                78,
+                82
+              ],
+              "altura": 26,
+              "pose": "multidão",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "fala",
+              "em": [
+                58,
+                20
+              ],
+              "apontando": [
+                40,
+                54
+              ],
+              "quem": "Jah",
+              "largura": 42,
+              "texto": "PAGO EM DOBRO! ALGUÉM TEM CORAGEM DE DIZER O CONTRÁRIO COM DINHEIRO NA MÃO?"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "caixa": [
+            0,
+            70,
+            100,
+            30
+          ],
+          "enquadramento": "plano médio baixo, quase à altura da mesa",
+          "luz": "lanterna baixa sobre as moedas",
+          "o_que_se_ve": "Um tropeiro de mão grande põe o dedo na mesa, em cima do bolo de moedas, e diz o que metade da casa estava pensando. Ao fundo, na roda, alguém já está contando até três.",
+          "visual": "Low medium shot almost at table height: a big-handed drover plants his finger on the table beside a pile of mixed coins, saying out loud what half the room was thinking; behind him, in the ring, a man is already counting to three on raised fingers.",
+          "elenco": [
+            "jah-kagadu"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "tropeiro",
+              "em": [
+                34,
+                92
+              ],
+              "altura": 70,
+              "pose": "de pé",
+              "olhando": "direita"
+            },
+            {
+              "quem": "Jah",
+              "em": [
+                64,
+                92
+              ],
+              "altura": 62,
+              "pose": "de pé",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "fala",
+              "em": [
+                40,
+                18
+              ],
+              "apontando": [
+                36,
+                52
+              ],
+              "quem": "tropeiro",
+              "largura": 40,
+              "texto": "O DINHEIRO FICA AQUI. NA MADEIRA. À VISTA DE TODO MUNDO."
+            },
+            {
+              "tipo": "narracao",
+              "em": [
+                82,
+                22
+              ],
+              "largura": 30,
+              "texto": "Na roda, alguém já conta até três."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "titulo": "O corredor dos fundos",
+      "cena": "7 · O corredor dos fundos",
+      "quadros": [
+        {
+          "n": 1,
+          "caixa": [
+            0,
+            0,
+            100,
+            26
+          ],
+          "enquadramento": "plano médio, o corredor em perspectiva",
+          "luz": "uma lamparina só, o resto em penumbra azulada",
+          "o_que_se_ve": "O corredor dos fundos: parede de tábua, uma lamparina pendurada, a porta do estábulo no fim, cheiro de palha, chuva fina entrando pela fresta. Os dois chegando.",
+          "visual": "Medium shot down a narrow plank-walled back corridor of a tavern: a single hanging oil lamp, a stable door at the far end, straw on the floor, fine rain coming through a gap; a dwarf bard and a young woman arriving into frame.",
+          "elenco": [
+            "nelsowned",
+            "bronwyn"
+          ],
+          "figuras": [
+            {
+              "quem": "NelsOwned",
+              "em": [
+                36,
+                92
+              ],
+              "altura": 44,
+              "pose": "de pé",
+              "olhando": "frente"
+            },
+            {
+              "quem": "Bronwyn",
+              "em": [
+                56,
+                92
+              ],
+              "altura": 62,
+              "pose": "de pé",
+              "olhando": "frente"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                70,
+                16
+              ],
+              "largura": 44,
+              "texto": "Foi ela quem escolheu o lugar. Nem a rua, nem o quarto de cima."
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "caixa": [
+            0,
+            26,
+            50,
+            24
+          ],
+          "enquadramento": "plano médio, os dois no degrau",
+          "luz": "lamparina lateral, sombras compridas",
+          "o_que_se_ve": "Bronwyn senta no degrau da porta do estábulo e fala sem parar; ele senta ao lado, escutando, pela primeira vez calado.",
+          "visual": "Medium shot: the young woman sitting on the stable doorstep talking without stopping, hands moving; the bard sitting beside her, for once quiet, listening, hat in his lap.",
+          "elenco": [
+            "bronwyn",
+            "nelsowned"
+          ],
+          "figuras": [
+            {
+              "quem": "Bronwyn",
+              "em": [
+                38,
+                92
+              ],
+              "altura": 62,
+              "pose": "sentado",
+              "olhando": "direita"
+            },
+            {
+              "quem": "NelsOwned",
+              "em": [
+                64,
+                94
+              ],
+              "altura": 46,
+              "pose": "sentado",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "fala",
+              "em": [
+                56,
+                20
+              ],
+              "apontando": [
+                40,
+                62
+              ],
+              "quem": "Bronwyn",
+              "largura": 38,
+              "texto": "MINHA MÃE MORREU QUANDO EU TINHA NOVE ANOS."
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "caixa": [
+            50,
+            26,
+            50,
+            24
+          ],
+          "enquadramento": "close na nuca e na mão",
+          "luz": "o ouro pegando a única luz do corredor",
+          "o_que_se_ve": "A mão dela subindo ao pescoço e tocando o colar de ouro por baixo da gola: trabalho antigo, pesado, bom demais para a filha de um mercador de lã usar num dia comum.",
+          "visual": "Close-up of a hand rising to a throat and touching a heavy antique gold necklace under a collar — old, finely worked, far too good for a wool merchant's daughter on an ordinary day.",
+          "elenco": [
+            "bronwyn"
+          ],
+          "figuras": [
+            {
+              "quem": "Bronwyn",
+              "em": [
+                46,
+                84
+              ],
+              "altura": 76,
+              "pose": "close",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "fala",
+              "em": [
+                66,
+                22
+              ],
+              "apontando": [
+                48,
+                54
+              ],
+              "quem": "Bronwyn",
+              "largura": 28,
+              "texto": "GUARDO O COLAR DELA."
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "caixa": [
+            0,
+            50,
+            100,
+            26
+          ],
+          "enquadramento": "plano médio largo, os dois sentados",
+          "luz": "quente e pequena, o corredor todo escuro em volta",
+          "o_que_se_ve": "Os dois no degrau. Ela fala da égua que ela mesma domou e que o pai vendeu, e do homem de Carrick de quem ela sabe o nome, a idade e mais nada.",
+          "visual": "Wide medium shot of the two on the doorstep, the stable door behind them, straw and lamplight; the young woman talking with a flat, tired steadiness, the bard listening with his chin on his fist.",
+          "elenco": [
+            "bronwyn",
+            "nelsowned"
+          ],
+          "figuras": [
+            {
+              "quem": "Bronwyn",
+              "em": [
+                38,
+                92
+              ],
+              "altura": 58,
+              "pose": "sentado",
+              "olhando": "direita"
+            },
+            {
+              "quem": "NelsOwned",
+              "em": [
+                60,
+                94
+              ],
+              "altura": 44,
+              "pose": "sentado",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "fala",
+              "em": [
+                58,
+                18
+              ],
+              "apontando": [
+                40,
+                62
+              ],
+              "quem": "Bronwyn",
+              "largura": 42,
+              "texto": "DO HOMEM DE CARRICK EU SEI O NOME E A IDADE. MAIS NADA."
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "caixa": [
+            0,
+            76,
+            100,
+            24
+          ],
+          "enquadramento": "close baixo, ela olhando as próprias mãos",
+          "luz": "a lamparina tremendo",
+          "o_que_se_ve": "Ela para, olha para as próprias mãos e pergunta. Ao fundo, fora de foco, a porta do estábulo, fechada. E lá dentro, longe, o salão inteiro grita ao mesmo tempo.",
+          "visual": "Low close-up: the young woman stops talking and looks down at her own hands, then asks a question; behind her, out of focus, the closed stable door; from far inside the building a roar of forty voices at once.",
+          "elenco": [
+            "bronwyn"
+          ],
+          "figuras": [
+            {
+              "quem": "Bronwyn",
+              "em": [
+                34,
+                90
+              ],
+              "altura": 72,
+              "pose": "close",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "fala",
+              "em": [
+                46,
+                22
+              ],
+              "apontando": [
+                36,
+                58
+              ],
+              "quem": "Bronwyn",
+              "largura": 40,
+              "texto": "É VERDADE QUE TROVADOR CONHECE AS ESTRADAS TODAS?"
+            },
+            {
+              "tipo": "off",
+              "em": [
+                84,
+                20
+              ],
+              "largura": 18,
+              "texto": "UUUUH!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "titulo": "A briga",
+      "cena": "8 · A briga",
+      "quadros": [
+        {
+          "n": 1,
+          "caixa": [
+            0,
+            0,
+            100,
+            22
+          ],
+          "enquadramento": "plano geral da roda, plongée",
+          "luz": "lanternas altas, sombras curtas",
+          "o_que_se_ve": "Os dois no meio da roda, a casa em volta em duas fileiras; Hoel de mangas arregaçadas e punhos baixos, o Negrum com o peito nu e o queixo erguido.",
+          "visual": "High wide shot of a cleared fighting ring in a tavern: a fifty-year-old tavern keeper with rolled sleeves and low fists facing a huge bare-chested young warrior, two rings of shouting patrons around them, sawdust floor.",
+          "elenco": [
+            "hoel-meia-orelha",
+            "negrum-carneiriums"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Hoel",
+              "em": [
+                36,
+                86
+              ],
+              "altura": 56,
+              "pose": "de pé",
+              "olhando": "frente"
+            },
+            {
+              "quem": "Negrum",
+              "em": [
+                62,
+                86
+              ],
+              "altura": 66,
+              "pose": "de pé",
+              "olhando": "esquerda"
+            },
+            {
+              "quem": "multidão",
+              "em": [
+                84,
+                78
+              ],
+              "altura": 24,
+              "pose": "multidão",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": []
+        },
+        {
+          "n": 2,
+          "caixa": [
+            0,
+            22,
+            50,
+            20
+          ],
+          "enquadramento": "close, o punho passando",
+          "luz": "rasante, muito contraste",
+          "o_que_se_ve": "O soco do Negrum passando a um palmo da cara do taberneiro, que jogou a cabeça para trás no último instante.",
+          "visual": "Close-up: a huge fist passing a hand's width from a man's face, the tavern keeper having thrown his head back at the last instant, motion lines, spit in the air.",
+          "elenco": [
+            "negrum-carneiriums",
+            "hoel-meia-orelha"
+          ],
+          "figuras": [
+            {
+              "quem": "Negrum",
+              "em": [
+                30,
+                84
+              ],
+              "altura": 78,
+              "pose": "close",
+              "olhando": "direita"
+            },
+            {
+              "quem": "Hoel",
+              "em": [
+                72,
+                82
+              ],
+              "altura": 66,
+              "pose": "close",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "onomatopeia",
+              "em": [
+                60,
+                26
+              ],
+              "corpo": 62,
+              "texto": "FVUM"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "caixa": [
+            50,
+            22,
+            50,
+            20
+          ],
+          "enquadramento": "plano médio",
+          "luz": "lareira oeste lateral",
+          "o_que_se_ve": "Hoel revida com um direto de velho brigão; o Negrum apara com o antebraço.",
+          "visual": "Medium shot: the older man throws a straight punch with the economy of a lifetime of bar fights; the young warrior blocks it with a raised forearm, both braced.",
+          "elenco": [
+            "hoel-meia-orelha",
+            "negrum-carneiriums"
+          ],
+          "figuras": [
+            {
+              "quem": "Hoel",
+              "em": [
+                34,
+                90
+              ],
+              "altura": 72,
+              "pose": "de pé",
+              "olhando": "direita"
+            },
+            {
+              "quem": "Negrum",
+              "em": [
+                66,
+                90
+              ],
+              "altura": 80,
+              "pose": "de pé",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "onomatopeia",
+              "em": [
+                50,
+                26
+              ],
+              "corpo": 58,
+              "texto": "TAP!"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "caixa": [
+            0,
+            42,
+            50,
+            22
+          ],
+          "enquadramento": "plano médio, os dois travados",
+          "luz": "quente, poeira de serragem no ar",
+          "o_que_se_ve": "O encontrão: o Negrum joga o ombro no peito do taberneiro; os dois ficam travados, sapateando na serragem. Nenhum cai.",
+          "visual": "Medium shot: the warrior drives his shoulder into the tavern keeper's chest; the two lock up and scuffle for footing in the sawdust, neither going down, the crowd leaning in.",
+          "elenco": [
+            "negrum-carneiriums",
+            "hoel-meia-orelha"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Negrum",
+              "em": [
+                38,
+                92
+              ],
+              "altura": 84,
+              "pose": "de pé",
+              "olhando": "direita"
+            },
+            {
+              "quem": "Hoel",
+              "em": [
+                62,
+                92
+              ],
+              "altura": 70,
+              "pose": "de pé",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                78,
+                18
+              ],
+              "largura": 22,
+              "texto": "Ninguém cai."
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "caixa": [
+            50,
+            42,
+            50,
+            22
+          ],
+          "enquadramento": "close",
+          "luz": "dura, o suor brilhando",
+          "o_que_se_ve": "O punho do velho entrando limpo no tronco do gigante — e o gigante quase sem sentir. A casa berra mesmo assim.",
+          "visual": "Close-up: the older man's fist landing clean on the huge warrior's bare torso, and the warrior barely registering it; the crowd behind them roaring anyway.",
+          "elenco": [
+            "hoel-meia-orelha",
+            "negrum-carneiriums"
+          ],
+          "figuras": [
+            {
+              "quem": "Negrum",
+              "em": [
+                42,
+                88
+              ],
+              "altura": 86,
+              "pose": "close",
+              "olhando": "esquerda"
+            },
+            {
+              "quem": "Hoel",
+              "em": [
+                76,
+                86
+              ],
+              "altura": 60,
+              "pose": "close",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "off",
+              "em": [
+                24,
+                22
+              ],
+              "largura": 18,
+              "texto": "UUUUH!"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "caixa": [
+            0,
+            64,
+            100,
+            36
+          ],
+          "enquadramento": "contra-plongée forte, quadro grande",
+          "luz": "clarão da lareira oeste por trás, os dois quase em silhueta",
+          "o_que_se_ve": "O punho do Negrum subindo por dentro, curto, em cheio na cara do taberneiro. A cabeça de Hoel vai para trás; os joelhos somem debaixo do corpo.",
+          "visual": "Large dramatic low-angle panel: the warrior's fist comes up short and inside, landing square on the tavern keeper's face; the man's head snapping back, knees folding under him, sweat and spit flying, the crowd blurred behind.",
+          "elenco": [
+            "negrum-carneiriums",
+            "hoel-meia-orelha"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Negrum",
+              "em": [
+                34,
+                96
+              ],
+              "altura": 92,
+              "pose": "de pé",
+              "olhando": "frente"
+            },
+            {
+              "quem": "Hoel",
+              "em": [
+                68,
+                92
+              ],
+              "altura": 74,
+              "pose": "de pé",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "onomatopeia",
+              "em": [
+                62,
+                34
+              ],
+              "corpo": 140,
+              "texto": "CROC!"
+            },
+            {
+              "tipo": "narracao",
+              "em": [
+                18,
+                14
+              ],
+              "largura": 26,
+              "texto": "A briga acabou aqui."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "titulo": "O assassinato",
+      "cena": "9 · O assassinato",
+      "quadros": [
+        {
+          "n": 1,
+          "caixa": [
+            0,
+            0,
+            100,
+            24
+          ],
+          "enquadramento": "plano geral rasante, câmera quase no chão",
+          "luz": "lanternas altas, o chão em sombra",
+          "o_que_se_ve": "Hoel desaba de lado na serragem, entre um banco virado e a pilha de moedas da banca, e não se mexe. Por dois segundos ninguém grita.",
+          "visual": "Wide shot with the camera almost on the floor: the tavern keeper collapsing sideways into the sawdust between an overturned bench and a pile of betting coins, not moving; a room full of legs and stunned faces beyond him.",
+          "elenco": [
+            "hoel-meia-orelha"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Hoel",
+              "em": [
+                38,
+                84
+              ],
+              "altura": 44,
+              "pose": "caído",
+              "olhando": "direita"
+            },
+            {
+              "quem": "multidão",
+              "em": [
+                80,
+                72
+              ],
+              "altura": 32,
+              "pose": "multidão",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                26,
+                16
+              ],
+              "largura": 40,
+              "texto": "Por dois segundos ninguém grita. É a taberna dele."
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "caixa": [
+            0,
+            24,
+            50,
+            22
+          ],
+          "enquadramento": "plano médio",
+          "luz": "quente, mas o rosto duro",
+          "o_que_se_ve": "Donnwulf é o primeiro a se levantar, o braço entalado colado ao peito, começando a dizer alguma coisa que ninguém escuta.",
+          "visual": "Medium shot: the splinted-armed stonemason is the first one up off his bench, arm strapped to his chest, mouth opening to say something nobody is listening to, alarm on his face.",
+          "elenco": [
+            "donnwulf"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Donnwulf",
+              "em": [
+                44,
+                92
+              ],
+              "altura": 78,
+              "pose": "de pé",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "fala",
+              "em": [
+                69,
+                18
+              ],
+              "apontando": [
+                46,
+                48
+              ],
+              "quem": "Donnwulf",
+              "largura": 32,
+              "texto": "EI... EI, GRANDÃO, ACABOU—"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "caixa": [
+            50,
+            24,
+            50,
+            22
+          ],
+          "enquadramento": "plano médio de costas",
+          "luz": "ele entrando na sombra",
+          "o_que_se_ve": "O Negrum andando na direção do corpo caído, visto de costas, os punhos ainda fechados, os ombros subindo e descendo.",
+          "visual": "Medium shot from behind: the huge warrior walking toward the fallen body, fists still clenched, shoulders rising and falling with his breath, the crowd frozen in front of him.",
+          "elenco": [
+            "negrum-carneiriums",
+            "hoel-meia-orelha"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Negrum",
+              "em": [
+                40,
+                94
+              ],
+              "altura": 84,
+              "pose": "de pé",
+              "olhando": "costas"
+            },
+            {
+              "quem": "Hoel",
+              "em": [
+                76,
+                84
+              ],
+              "altura": 22,
+              "pose": "caído",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                70,
+                18
+              ],
+              "largura": 40,
+              "texto": "E não está com cara de quem vai ajudar a levantar."
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "caixa": [
+            0,
+            46,
+            100,
+            26
+          ],
+          "enquadramento": "plano médio; o golpe cortado pela borda do quadro",
+          "luz": "o chão claro, os rostos em meia-sombra",
+          "o_que_se_ve": "O Negrum ajoelhado ao lado do corpo. O golpe está fora de campo, cortado pela borda do quadro — o que se vê é a roda de gente parada, e os tropeiros a três passos que não chegam.",
+          "visual": "Medium shot composed so that the kneeling warrior and his raised arm are cut off by the panel edge, the blow itself out of frame: what the panel shows is the ring of standing people, drovers three paces away who do not come, all faces lit from below.",
+          "elenco": [
+            "negrum-carneiriums"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Negrum",
+              "em": [
+                16,
+                88
+              ],
+              "altura": 46,
+              "pose": "sentado",
+              "olhando": "direita"
+            },
+            {
+              "quem": "multidão",
+              "em": [
+                62,
+                74
+              ],
+              "altura": 34,
+              "pose": "multidão",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "onomatopeia",
+              "em": [
+                30,
+                22
+              ],
+              "corpo": 120,
+              "texto": "TUM"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "caixa": [
+            0,
+            72,
+            50,
+            28
+          ],
+          "enquadramento": "três closes no mesmo quadro",
+          "luz": "cada rosto com sua própria luz baixa",
+          "o_que_se_ve": "Três rostos: Osric levantando devagar, a mão indo para o cinto onde não há espada e parando no meio do caminho; uma mulher levando a mão à boca; o Jah parado, sem ar.",
+          "visual": "One panel holding three close-ups: an off-duty guard rising slowly, his hand going to a belt where there is no sword and stopping halfway; a woman's hand going to her mouth; a lean thief standing perfectly still, breathless.",
+          "elenco": [
+            "osric-de-bannock",
+            "jah-kagadu"
+          ],
+          "figuras": [
+            {
+              "quem": "Osric",
+              "em": [
+                22,
+                88
+              ],
+              "altura": 70,
+              "pose": "close",
+              "olhando": "direita"
+            },
+            {
+              "quem": "Jah",
+              "em": [
+                76,
+                86
+              ],
+              "altura": 66,
+              "pose": "close",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "onomatopeia",
+              "em": [
+                50,
+                22
+              ],
+              "corpo": 84,
+              "texto": "TUM"
+            },
+            {
+              "tipo": "off",
+              "em": [
+                50,
+                78
+              ],
+              "largura": 20,
+              "texto": "HOEL!"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "caixa": [
+            50,
+            72,
+            50,
+            28
+          ],
+          "enquadramento": "close, o fundo desfocado",
+          "luz": "uma vela perto dele, o fundo sumindo no escuro",
+          "o_que_se_ve": "O Irmão Kaelric de cabeça baixa, o rosário enrolado nas mãos enormes, rezando. Atrás dele, desfocada, a casa emudecendo. Ele não está vendo.",
+          "visual": "Close-up: the towering knight-monk with his head bowed, a rosary wound through his huge hands, praying; behind him, out of focus, the whole tavern falling silent. He is not looking at it.",
+          "elenco": [
+            "irmao-kaelric"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Kaelric",
+              "em": [
+                40,
+                94
+              ],
+              "altura": 88,
+              "pose": "close",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "onomatopeia",
+              "em": [
+                76,
+                24
+              ],
+              "corpo": 58,
+              "texto": "TUM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "titulo": "Quarenta pessoas viram",
+      "cena": "9 · O assassinato",
+      "quadros": [
+        {
+          "n": 1,
+          "caixa": [
+            0,
+            0,
+            100,
+            30
+          ],
+          "enquadramento": "plano médio baixo, câmera no nível do corpo",
+          "luz": "fria pela primeira vez na noite; a lareira oeste ficou para trás",
+          "o_que_se_ve": "O Negrum enfim se levanta. As mãos dele. O corpo no assoalho, imóvel, e a serragem em volta.",
+          "visual": "Low medium shot at body level: the huge warrior finally standing up from beside a body, his hands hanging, breathing hard; the tavern keeper motionless on the sawdust floor, apron twisted, coins scattered near his head.",
+          "elenco": [
+            "negrum-carneiriums",
+            "hoel-meia-orelha"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Negrum",
+              "em": [
+                38,
+                94
+              ],
+              "altura": 86,
+              "pose": "de pé",
+              "olhando": "frente"
+            },
+            {
+              "quem": "Hoel",
+              "em": [
+                72,
+                88
+              ],
+              "altura": 22,
+              "pose": "caído",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "onomatopeia",
+              "em": [
+                80,
+                26
+              ],
+              "corpo": 34,
+              "texto": "tum."
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "caixa": [
+            0,
+            30,
+            50,
+            22
+          ],
+          "enquadramento": "plano geral, plongée",
+          "luz": "lanternas altas, todos os rostos iguais de pálidos",
+          "o_que_se_ve": "Quarenta pessoas em silêncio, de pé, olhando. Ninguém grita. Ninguém corre. Ninguém sai.",
+          "visual": "High wide shot: forty people standing in complete silence, staring in the same direction, nobody screaming, nobody running, nobody leaving; overturned benches and abandoned tankards between them.",
+          "elenco": [],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "multidão",
+              "em": [
+                50,
+                76
+              ],
+              "altura": 34,
+              "pose": "multidão",
+              "olhando": "frente"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                40,
+                16
+              ],
+              "largura": 34,
+              "texto": "Ninguém grita. Ninguém corre."
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "caixa": [
+            50,
+            30,
+            50,
+            22
+          ],
+          "enquadramento": "close frontal",
+          "luz": "chapada, sem sombra para se esconder",
+          "o_que_se_ve": "O rosto do Negrum: sem triunfo nenhum. Ele está entendendo onde está e o que acabou de fazer.",
+          "visual": "Frontal close-up of the young warrior's face: no triumph in it at all, the jaw slack, the eyes moving as he understands where he is and what he has just done.",
+          "elenco": [
+            "negrum-carneiriums"
+          ],
+          "figuras": [
+            {
+              "quem": "Negrum",
+              "em": [
+                50,
+                90
+              ],
+              "altura": 82,
+              "pose": "close",
+              "olhando": "frente"
+            }
+          ],
+          "baloes": []
+        },
+        {
+          "n": 4,
+          "caixa": [
+            0,
+            52,
+            100,
+            24
+          ],
+          "enquadramento": "plongée alta, quase do teto",
+          "luz": "de cima, o corpo no centro do foco",
+          "o_que_se_ve": "O salão visto de cima: o corpo no meio do assoalho, a roda aberta em volta, as moedas da banca espalhadas ao lado da cabeça do homem — e ninguém olhando para elas.",
+          "visual": "High overhead shot of the tavern floor: the body in the middle of the open circle, people ringed around it at a distance, the betting coins scattered beside the dead man's head, and nobody looking at the money.",
+          "elenco": [
+            "hoel-meia-orelha"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Hoel",
+              "em": [
+                50,
+                60
+              ],
+              "altura": 20,
+              "pose": "caído",
+              "olhando": "direita"
+            },
+            {
+              "quem": "multidão",
+              "em": [
+                50,
+                84
+              ],
+              "altura": 26,
+              "pose": "multidão",
+              "olhando": "frente"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                26,
+                16
+              ],
+              "largura": 44,
+              "texto": "O dono d'A Âncora Quebrada está morto no assoalho da própria casa. Quarenta pessoas viram."
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "caixa": [
+            0,
+            76,
+            100,
+            24
+          ],
+          "enquadramento": "plano geral de fora, na chuva",
+          "luz": "azul de chuva, nenhuma luz quente",
+          "o_que_se_ve": "Os currais, lá fora: os cães calados. Todos. Orelhas em pé, focinhos ainda virados para o mesmo lado, e nenhum som.",
+          "visual": "Wide exterior in the rain: the livestock pens, every dog silent at once, ears up, muzzles still pointed the same way, mouths shut; the tavern windows glowing behind them, not a sound in the panel.",
+          "elenco": [],
+          "figuras": [
+            {
+              "quem": "cães",
+              "em": [
+                42,
+                80
+              ],
+              "altura": 24,
+              "pose": "multidão",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                66,
+                20
+              ],
+              "largura": 40,
+              "texto": "Os cães pararam de uivar. Todos. Ao mesmo tempo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "titulo": "O colar",
+      "cena": "10 · O colar",
+      "quadros": [
+        {
+          "n": 1,
+          "caixa": [
+            0,
+            0,
+            100,
+            24
+          ],
+          "enquadramento": "plano médio, corredor",
+          "luz": "lamparina única, muito quente contra o azul da fresta",
+          "o_que_se_ve": "No corredor dos fundos o barulho do salão chega abafado. Os dois de pé, muito perto um do outro, entre a parede de tábua e a porta do estábulo.",
+          "visual": "Medium shot in the plank-walled back corridor: the noise of the tavern arriving muffled through the wall; the dwarf bard and the young woman standing very close together between the wall and the stable door, lamplight low.",
+          "elenco": [
+            "nelsowned",
+            "bronwyn"
+          ],
+          "figuras": [
+            {
+              "quem": "NelsOwned",
+              "em": [
+                42,
+                92
+              ],
+              "altura": 46,
+              "pose": "de pé",
+              "olhando": "frente"
+            },
+            {
+              "quem": "Bronwyn",
+              "em": [
+                58,
+                92
+              ],
+              "altura": 62,
+              "pose": "de pé",
+              "olhando": "frente"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                24,
+                16
+              ],
+              "largura": 38,
+              "texto": "Ali atrás, o barulho do salão chega abafado."
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "caixa": [
+            0,
+            24,
+            50,
+            22
+          ],
+          "enquadramento": "close",
+          "luz": "metade do rosto na luz da lamparina",
+          "o_que_se_ve": "Bronwyn levanta a cabeça e olha para o corredor: o coro do salão mudou de som.",
+          "visual": "Close-up: the young woman lifting her head and looking off down the corridor, alert, the sound of the room having changed; the bard's shoulder in the foreground.",
+          "elenco": [
+            "bronwyn"
+          ],
+          "figuras": [
+            {
+              "quem": "Bronwyn",
+              "em": [
+                44,
+                88
+              ],
+              "altura": 76,
+              "pose": "close",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "off",
+              "em": [
+                76,
+                22
+              ],
+              "largura": 18,
+              "texto": "UUUUH!"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "caixa": [
+            50,
+            24,
+            50,
+            22
+          ],
+          "enquadramento": "close na parede e na lamparina",
+          "luz": "a chama tremendo, sombras balançando",
+          "o_que_se_ve": "Pancada do outro lado da tábua, madeira arrastando, mais grito. A lamparina do corredor treme no gancho.",
+          "visual": "Close-up of the plank wall and the hanging oil lamp: an impact on the far side, dragging wood, more shouting; the lamp shivering on its hook, dust falling from the board seams.",
+          "elenco": [],
+          "figuras": [
+            {
+              "quem": "lamparina",
+              "em": [
+                50,
+                44
+              ],
+              "altura": 34,
+              "pose": "objeto",
+              "olhando": "frente"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "onomatopeia",
+              "em": [
+                30,
+                62
+              ],
+              "corpo": 76,
+              "texto": "TRUM!"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "caixa": [
+            0,
+            46,
+            100,
+            24
+          ],
+          "enquadramento": "plano médio, os dois já de pé",
+          "luz": "a lamparina firme outra vez, e o corredor muito quieto",
+          "o_que_se_ve": "E então acaba. Não devagar: de uma vez. Ele já está de pé; ela também, com a mão no braço dele.",
+          "visual": "Medium shot: both already standing and facing the corridor, the sudden absence of sound rendered by empty space in the panel, her hand on his arm, both looking toward the unseen room.",
+          "elenco": [
+            "nelsowned",
+            "bronwyn"
+          ],
+          "figuras": [
+            {
+              "quem": "NelsOwned",
+              "em": [
+                38,
+                92
+              ],
+              "altura": 48,
+              "pose": "de pé",
+              "olhando": "direita"
+            },
+            {
+              "quem": "Bronwyn",
+              "em": [
+                58,
+                92
+              ],
+              "altura": 64,
+              "pose": "de pé",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                78,
+                18
+              ],
+              "largura": 34,
+              "texto": "E então acaba. Não devagar: de uma vez."
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "caixa": [
+            0,
+            70,
+            60,
+            30
+          ],
+          "enquadramento": "close dos dois, mãos no centro do quadro",
+          "luz": "o ouro como única coisa clara do quadro",
+          "o_que_se_ve": "Ela leva a mão à nuca, desafivela o colar e põe no peito dele, fechando os dedos dele por cima. É ouro pesado, trabalho antigo.",
+          "visual": "Close two-shot with the hands at the centre of the panel: the young woman reaching behind her neck, unclasping a heavy antique gold necklace and pressing it into the bard's chest, closing his fingers over it with both her hands.",
+          "elenco": [
+            "bronwyn",
+            "nelsowned"
+          ],
+          "figuras": [
+            {
+              "quem": "Bronwyn",
+              "em": [
+                36,
+                94
+              ],
+              "altura": 82,
+              "pose": "de pé",
+              "olhando": "direita"
+            },
+            {
+              "quem": "NelsOwned",
+              "em": [
+                68,
+                96
+              ],
+              "altura": 62,
+              "pose": "de pé",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "fala",
+              "em": [
+                58,
+                18
+              ],
+              "apontando": [
+                38,
+                56
+              ],
+              "quem": "Bronwyn",
+              "largura": 44,
+              "texto": "ERA DA MINHA MÃE. FICA COM ELE. NÃO É PAGAMENTO DE NADA — EU SÓ QUERO QUE VOCÊ TENHA."
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "caixa": [
+            60,
+            70,
+            40,
+            30
+          ],
+          "enquadramento": "plano fechado no corredor vazio",
+          "luz": "contraluz: o corredor preto e a porta clara",
+          "o_que_se_ve": "O corredor vazio na direção do salão, a luz da porta lá no fim — e lá dentro alguém finalmente grita.",
+          "visual": "Tight shot down the empty corridor toward the doorway to the main room, light spilling at the far end, nobody in frame; a scream finally coming from inside.",
+          "elenco": [],
+          "figuras": [],
+          "baloes": [
+            {
+              "tipo": "grito",
+              "em": [
+                50,
+                30
+              ],
+              "largura": 26,
+              "texto": "AAAAH!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "titulo": "O guarda",
+      "cena": "11 · O guarda",
+      "quadros": [
+        {
+          "n": 1,
+          "caixa": [
+            0,
+            0,
+            100,
+            24
+          ],
+          "enquadramento": "plano médio, balcão de perfil",
+          "luz": "lanterna do balcão; o resto do salão em sombra e silêncio",
+          "o_que_se_ve": "O Kaelric de pé ao lado do banquinho de Osric, falando baixo; o guarda sentado, sem interromper, olhando o caneco.",
+          "visual": "Medium side shot at a bar: the towering knight-monk standing beside the seated off-duty guard's stool, talking quietly with one hand open; the guard does not interrupt, looking into his cup.",
+          "elenco": [
+            "irmao-kaelric",
+            "osric-de-bannock"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Kaelric",
+              "em": [
+                34,
+                94
+              ],
+              "altura": 90,
+              "pose": "de pé",
+              "olhando": "direita"
+            },
+            {
+              "quem": "Osric",
+              "em": [
+                66,
+                92
+              ],
+              "altura": 62,
+              "pose": "sentado",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "fala",
+              "em": [
+                54,
+                18
+              ],
+              "apontando": [
+                36,
+                40
+              ],
+              "quem": "Kaelric",
+              "largura": 42,
+              "texto": "O TABERNEIRO CHAMOU PRA BRIGA. MEU COMPANHEIRO ACEITOU, POR HONRA DE GUERREIRO."
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "caixa": [
+            0,
+            24,
+            50,
+            22
+          ],
+          "enquadramento": "plano médio",
+          "luz": "quente de um lado só",
+          "o_que_se_ve": "O templário oferecendo a Ordem, a mão no peito, sobre a cruz vermelha.",
+          "visual": "Medium shot: the knight-monk with one hand flat on the red cross on his chest, offering something formally, his face earnest and tired.",
+          "elenco": [
+            "irmao-kaelric"
+          ],
+          "figuras": [
+            {
+              "quem": "Kaelric",
+              "em": [
+                40,
+                96
+              ],
+              "altura": 92,
+              "pose": "de pé",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "fala",
+              "em": [
+                64,
+                22
+              ],
+              "apontando": [
+                42,
+                40
+              ],
+              "quem": "Kaelric",
+              "largura": 40,
+              "texto": "A ORDEM SE PÕE À DISPOSIÇÃO DO LORDE WILLIAM. NÃO FICAREMOS NO CAMINHO DELE."
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "caixa": [
+            50,
+            24,
+            50,
+            22
+          ],
+          "enquadramento": "close, o olhar percorrendo",
+          "luz": "meia-luz, os olhos na sombra",
+          "o_que_se_ve": "Osric olha para o hábito no peito do templário, e depois para o corpo no assoalho. Não interrompeu uma vez sequer.",
+          "visual": "Close-up: the guard's eyes going from the red cross on the knight's surcoat down to the body on the floor, his expression flat and sober; he has not interrupted once.",
+          "elenco": [
+            "osric-de-bannock"
+          ],
+          "figuras": [
+            {
+              "quem": "Osric",
+              "em": [
+                44,
+                88
+              ],
+              "altura": 76,
+              "pose": "close",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                72,
+                20
+              ],
+              "largura": 38,
+              "texto": "Ele não interrompe uma vez sequer. É por isso que dói mais."
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "caixa": [
+            0,
+            46,
+            100,
+            24
+          ],
+          "enquadramento": "close frontal de Osric",
+          "luz": "frontal e dura",
+          "o_que_se_ve": "Osric de frente, a voz baixa e sem raiva nenhuma — o que é pior.",
+          "visual": "Frontal close-up of the guard speaking, voice low and without any anger, eyes level with camera, the ruined tavern out of focus behind him.",
+          "elenco": [
+            "osric-de-bannock"
+          ],
+          "figuras": [
+            {
+              "quem": "Osric",
+              "em": [
+                40,
+                90
+              ],
+              "altura": 80,
+              "pose": "close",
+              "olhando": "frente"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "fala",
+              "em": [
+                66,
+                20
+              ],
+              "apontando": [
+                44,
+                56
+              ],
+              "quem": "Osric",
+              "largura": 44,
+              "texto": "O TABERNEIRO CHAMOU PRA BRIGA, É VERDADE. E A BRIGA ACABOU QUANDO ELE CAIU."
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "caixa": [
+            0,
+            70,
+            50,
+            30
+          ],
+          "enquadramento": "plano médio",
+          "luz": "ele saindo da luz do balcão",
+          "o_que_se_ve": "Osric empurra o caneco para o meio do balcão sem beber e pega a capa do gancho.",
+          "visual": "Medium shot: the guard pushes his untouched cup into the middle of the bar and takes his cloak down from a hook, already half turned away.",
+          "elenco": [
+            "osric-de-bannock",
+            "irmao-kaelric"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Osric",
+              "em": [
+                40,
+                94
+              ],
+              "altura": 78,
+              "pose": "de pé",
+              "olhando": "direita"
+            },
+            {
+              "quem": "Kaelric",
+              "em": [
+                76,
+                92
+              ],
+              "altura": 88,
+              "pose": "de pé",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "fala",
+              "em": [
+                56,
+                20
+              ],
+              "apontando": [
+                42,
+                52
+              ],
+              "quem": "Osric",
+              "largura": 42,
+              "texto": "O SENHOR É HOMEM DE DEUS, IRMÃO. SABE O NOME DAQUILO MELHOR DO QUE EU."
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "caixa": [
+            50,
+            70,
+            50,
+            30
+          ],
+          "enquadramento": "plano fechado na porta da frente",
+          "luz": "a fresta preta contra a madeira quente",
+          "o_que_se_ve": "A porta da frente batendo e ficando entreaberta. A chuva lá fora, a fresta escura, e ninguém a fecha.",
+          "visual": "Tight shot of a heavy tavern front door swinging shut and not latching, left standing ajar with a strip of black rainy night showing through the gap; nobody in the panel moves to close it.",
+          "elenco": [],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "porta",
+              "em": [
+                50,
+                70
+              ],
+              "altura": 66,
+              "pose": "objeto",
+              "olhando": "frente"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "off",
+              "em": [
+                50,
+                20
+              ],
+              "quem": "Osric",
+              "largura": 40,
+              "texto": "DIGA AO SEU COMPANHEIRO QUE EU VOU AO CASTELO AGORA."
+            },
+            {
+              "tipo": "narracao",
+              "em": [
+                78,
+                78
+              ],
+              "largura": 24,
+              "texto": "Ninguém a fechou."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "titulo": "A porta",
+      "cena": "12 · A porta",
+      "quadros": [
+        {
+          "n": 1,
+          "caixa": [
+            0,
+            0,
+            100,
+            24
+          ],
+          "enquadramento": "plano geral do salão, silêncio",
+          "luz": "lanternas baixas, a lareira oeste já morrendo",
+          "o_que_se_ve": "O salão ainda em silêncio, o corpo no chão, as pessoas sem saber o que fazer com as mãos. E de fora, longe, na direção do mercado, muitos gritos ao mesmo tempo.",
+          "visual": "Wide interior: the tavern still silent, the body on the floor, people not knowing what to do with their hands; heads beginning to turn toward the front door as distant screaming reaches them from outside.",
+          "elenco": [
+            "hoel-meia-orelha"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "multidão",
+              "em": [
+                44,
+                76
+              ],
+              "altura": 38,
+              "pose": "multidão",
+              "olhando": "direita"
+            },
+            {
+              "quem": "Hoel",
+              "em": [
+                82,
+                86
+              ],
+              "altura": 34,
+              "pose": "caído",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                26,
+                16
+              ],
+              "largura": 42,
+              "texto": "Gritos longe, na direção do mercado. Não é grito de briga."
+            },
+            {
+              "tipo": "off",
+              "em": [
+                80,
+                18
+              ],
+              "largura": 20,
+              "texto": "AAAAAH!"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "caixa": [
+            0,
+            24,
+            50,
+            22
+          ],
+          "enquadramento": "close na porta",
+          "luz": "o preto da rua invadindo o quadro",
+          "o_que_se_ve": "A porta entreaberta desde que o guarda saiu se abre de vez, empurrada pelo ombro de alguém.",
+          "visual": "Close-up on the ajar front door being shoved fully open by a shoulder from outside, rain and blackness beyond, the latch swinging loose.",
+          "elenco": [],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "porta",
+              "em": [
+                46,
+                70
+              ],
+              "altura": 70,
+              "pose": "objeto",
+              "olhando": "frente"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "onomatopeia",
+              "em": [
+                72,
+                30
+              ],
+              "corpo": 96,
+              "texto": "BRAM!"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "caixa": [
+            50,
+            24,
+            50,
+            22
+          ],
+          "enquadramento": "plano médio em contraluz",
+          "luz": "contraluz total: quatro formas pretas",
+          "o_que_se_ve": "Quatro silhuetas na soleira, a chuva atrás delas, entrando juntas e depressa, sem tropeçar em nada.",
+          "visual": "Backlit medium shot: four silhouettes in a doorway against rain, walking in together and fast, not stumbling on anything, no faces visible yet, wet floor reflecting them.",
+          "elenco": [
+            "morto-vivo-tropeiro",
+            "morto-vivo-apostador",
+            "morto-vivo-vulto",
+            "wat"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "mortos",
+              "em": [
+                50,
+                88
+              ],
+              "altura": 60,
+              "pose": "multidão",
+              "olhando": "frente"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                42,
+                20
+              ],
+              "largura": 42,
+              "texto": "Entra um cheiro que não é de chuva nem de estrume. Doce, parado, errado."
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "caixa": [
+            0,
+            46,
+            100,
+            26
+          ],
+          "enquadramento": "plano médio, dois na luz e um quarto na sombra",
+          "luz": "eles saindo do escuro para a luz das lanternas",
+          "o_que_se_ve": "O da frente é um tropeiro que bebia ali até uma hora atrás — ainda tem o caneco preso na mão. Atrás dele vem um dos apostadores do círculo do braço-de-ferro. São esses dois que a luz da lanterna pega. O quarto fica para trás, na escuridão da soleira, sem rosto e sem nome.",
+          "visual": "Medium shot: TWO figures advancing into lantern light, clearly lit and clearly recognisable — a drover with a tankard still gripped in his dead hand, and behind him one of the gamblers from the arm-wrestling ring; both silent, wounds visible, eyes open and empty. A FOURTH figure hangs back in the blackness of the doorway behind them, a shape only, its face never visible and never counted.",
+          "elenco": [
+            "morto-vivo-tropeiro",
+            "morto-vivo-apostador",
+            "morto-vivo-vulto"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "tropeiro morto",
+              "em": [
+                28,
+                92
+              ],
+              "altura": 78,
+              "pose": "de pé",
+              "olhando": "frente"
+            },
+            {
+              "quem": "apostador morto",
+              "em": [
+                56,
+                88
+              ],
+              "altura": 66,
+              "pose": "de pé",
+              "olhando": "frente"
+            },
+            {
+              "quem": "vulto",
+              "em": [
+                86,
+                78
+              ],
+              "altura": 40,
+              "pose": "de pé",
+              "olhando": "frente"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                61,
+                13
+              ],
+              "largura": 40,
+              "texto": "Não dizem palavra nenhuma. É o silêncio deles que faz a casa recuar um passo."
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "caixa": [
+            0,
+            72,
+            100,
+            28
+          ],
+          "enquadramento": "close baixo, à altura dos olhos de uma criança",
+          "luz": "a luz das lanternas nele, e tudo em volta apagando",
+          "o_que_se_ve": "Wat, o menino do estábulo, o mesmo que saiu correndo para buscar o barbeiro. A camisa dele está aberta do ombro à cintura. Ele olha para o grupo com uma cara que ainda é a cara dele, e vem andando.",
+          "visual": "Low close-up at a child's eye height: a twelve-year-old stable boy walking forward, his shirt torn open from shoulder to waist over a terrible wound, face still entirely recognisable as the boy's, looking straight at camera, coming on.",
+          "elenco": [
+            "wat"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Wat",
+              "em": [
+                46,
+                92
+              ],
+              "altura": 86,
+              "pose": "close",
+              "olhando": "frente"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                78,
+                18
+              ],
+              "largura": 28,
+              "texto": "E o terceiro é pequeno."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "titulo": "A paralisia",
+      "cena": "12 · A porta",
+      "quadros": [
+        {
+          "n": 1,
+          "caixa": [
+            0,
+            0,
+            100,
+            22
+          ],
+          "enquadramento": "plano geral, plongée",
+          "luz": "lanternas, mas a cor já mais fria que nas páginas anteriores",
+          "o_que_se_ve": "O salão inteiro parado. Os quatro avançam pelo meio das mesas, e cada um foi escolhendo alguém: não se defendem, não desviam, não param.",
+          "visual": "High wide shot: the entire tavern frozen in place, four dead figures advancing between the tables, each one already angled toward a different living target; nobody defending, nobody swerving.",
+          "elenco": [
+            "morto-vivo-tropeiro",
+            "morto-vivo-apostador",
+            "morto-vivo-vulto",
+            "wat"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "mortos",
+              "em": [
+                40,
+                74
+              ],
+              "altura": 26,
+              "pose": "multidão",
+              "olhando": "direita"
+            },
+            {
+              "quem": "multidão",
+              "em": [
+                76,
+                78
+              ],
+              "altura": 26,
+              "pose": "multidão",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                26,
+                16
+              ],
+              "largura": 44,
+              "texto": "Nenhum se defende. Nenhum desvia. Cada um escolheu alguém neste salão."
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "caixa": [
+            0,
+            22,
+            50,
+            22
+          ],
+          "enquadramento": "close extremo nos olhos",
+          "luz": "dura e fria, sem sombra macia",
+          "o_que_se_ve": "O Jah: os olhos abertos, o corpo que não obedece. Ele vê tudo e não consegue mexer nada.",
+          "visual": "Extreme close-up of the thief's face: eyes wide open, pupils moving, the rest of him rigid; sweat on his temple, the room out of focus and tilted behind him.",
+          "elenco": [
+            "jah-kagadu"
+          ],
+          "figuras": [
+            {
+              "quem": "Jah",
+              "em": [
+                46,
+                88
+              ],
+              "altura": 84,
+              "pose": "close",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "sussurro",
+              "em": [
+                72,
+                24
+              ],
+              "apontando": [
+                50,
+                58
+              ],
+              "quem": "Jah",
+              "largura": 30,
+              "texto": "QUE PORRA... É ESSA?..."
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "caixa": [
+            50,
+            22,
+            50,
+            22
+          ],
+          "enquadramento": "plano médio, contra-plongée",
+          "luz": "a luz vindo de trás dos mortos, nele por reflexo",
+          "o_que_se_ve": "O Irmão Kaelric dá um passo à frente com o escudo grande erguido, estupefato, a boca aberta.",
+          "visual": "Low medium shot: the towering knight-monk taking one step forward with his big heater shield already up, mouth open in astonishment rather than courage, mace still at his belt.",
+          "elenco": [
+            "irmao-kaelric"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Kaelric",
+              "em": [
+                44,
+                96
+              ],
+              "altura": 92,
+              "pose": "de pé",
+              "olhando": "frente"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "grito",
+              "em": [
+                70,
+                22
+              ],
+              "apontando": [
+                46,
+                40
+              ],
+              "quem": "Kaelric",
+              "largura": 30,
+              "texto": "QUE DEUS NOS AJUDE!"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "caixa": [
+            0,
+            44,
+            50,
+            22
+          ],
+          "enquadramento": "close nas costas e na mão",
+          "luz": "rasante, os músculos das costas em relevo",
+          "o_que_se_ve": "A mão do Negrum subindo às costas, para o punho do montante. Ele não está paralisado.",
+          "visual": "Close-up from behind: the warrior's hand rising to the hilt of the broadsword slung across his bare back, fingers closing; his head turned toward the door, jaw set.",
+          "elenco": [
+            "negrum-carneiriums"
+          ],
+          "figuras": [
+            {
+              "quem": "Negrum",
+              "em": [
+                46,
+                92
+              ],
+              "altura": 86,
+              "pose": "de pé",
+              "olhando": "costas"
+            }
+          ],
+          "baloes": []
+        },
+        {
+          "n": 5,
+          "caixa": [
+            50,
+            44,
+            50,
+            22
+          ],
+          "enquadramento": "plano médio, da quina do corredor",
+          "luz": "ele na sombra do corredor, o salão claro à frente",
+          "o_que_se_ve": "O NelsOwned voltando ao salão pela boca do corredor dos fundos, o machado grande ainda nas costas, e parando na quina da parede ao ver o que está acontecendo.",
+          "visual": "Medium shot from a corner: the dwarf bard stepping back into the main room out of the back corridor, great two-handed axe still slung on his back, stopping dead at the wall corner as he sees what is in the room.",
+          "elenco": [
+            "nelsowned"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "NelsOwned",
+              "em": [
+                36,
+                94
+              ],
+              "altura": 54,
+              "pose": "de pé",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": []
+        },
+        {
+          "n": 6,
+          "caixa": [
+            0,
+            66,
+            100,
+            34
+          ],
+          "enquadramento": "plano médio, cômico e cruel",
+          "luz": "quente em cima dele, fria atrás",
+          "o_que_se_ve": "O Comam de cara na mesa, roncando, um caneco virado ao lado e uma poça de cerveja molhando a manga dele. Ao fundo, desfocados, os mortos andando entre as mesas.",
+          "visual": "Medium shot, comic and cruel: the one-eyed mercenary face down asleep on a table, an overturned tankard beside him and spilled beer soaking his sleeve; far behind him, out of focus, the dead walking between the tables.",
+          "elenco": [
+            "comam-obabaroy"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Comam",
+              "em": [
+                36,
+                88
+              ],
+              "altura": 52,
+              "pose": "sentado",
+              "olhando": "esquerda"
+            },
+            {
+              "quem": "mortos",
+              "em": [
+                80,
+                72
+              ],
+              "altura": 22,
+              "pose": "multidão",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "onomatopeia",
+              "em": [
+                62,
+                26
+              ],
+              "corpo": 64,
+              "texto": "ZZZZZZ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "titulo": "A melê (1)",
+      "cena": "13 · A melê",
+      "quadros": [
+        {
+          "n": 1,
+          "caixa": [
+            0,
+            0,
+            100,
+            24
+          ],
+          "enquadramento": "plano médio, movimento diagonal",
+          "luz": "as brasas do braseiro sudeste, a lâmina pegando o brilho",
+          "o_que_se_ve": "O Negrum saca o montante das costas no mesmo movimento em que avança — a lâmina saindo por cima do ombro.",
+          "visual": "Medium shot with a strong diagonal: the huge warrior drawing a broadsword from his back in the same motion as his step forward, the blade coming up over his shoulder, sawdust kicking from his heel.",
+          "elenco": [
+            "negrum-carneiriums"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Negrum",
+              "em": [
+                42,
+                94
+              ],
+              "altura": 88,
+              "pose": "de pé",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "onomatopeia",
+              "em": [
+                72,
+                26
+              ],
+              "corpo": 72,
+              "texto": "SHIIING"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "caixa": [
+            0,
+            24,
+            55,
+            24
+          ],
+          "enquadramento": "plano médio baixo",
+          "luz": "dura, a lâmina clara no escuro",
+          "o_que_se_ve": "O corte na perna do morto que vinha por cima dele: a perna sai.",
+          "visual": "Low medium shot: the broadsword cutting clean through a dead man's leg above the knee, the limb coming away, the body already tipping, no blood spray — old blood, not new.",
+          "elenco": [
+            "negrum-carneiriums",
+            "morto-vivo-vulto"
+          ],
+          "figuras": [
+            {
+              "quem": "Negrum",
+              "em": [
+                30,
+                94
+              ],
+              "altura": 84,
+              "pose": "de pé",
+              "olhando": "direita"
+            },
+            {
+              "quem": "morto",
+              "em": [
+                72,
+                90
+              ],
+              "altura": 66,
+              "pose": "de pé",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "onomatopeia",
+              "em": [
+                56,
+                30
+              ],
+              "corpo": 100,
+              "texto": "TCHAC!"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "caixa": [
+            55,
+            24,
+            45,
+            24
+          ],
+          "enquadramento": "close no chão",
+          "luz": "chão claro, o resto preto",
+          "o_que_se_ve": "O morto caído sem a perna — e continuando a vir, se arrastando pelo assoalho na direção das botas do Negrum, sem pressa e sem parar.",
+          "visual": "Close-up at floor level: the one-legged dead man fallen but still coming, dragging himself across the sawdust toward a pair of bare feet, hands pulling at the boards, face without any expression at all.",
+          "elenco": [
+            "morto-vivo-vulto"
+          ],
+          "figuras": [
+            {
+              "quem": "morto",
+              "em": [
+                42,
+                76
+              ],
+              "altura": 30,
+              "pose": "caído",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                70,
+                22
+              ],
+              "largura": 30,
+              "texto": "Ele cai. E continua vindo."
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "caixa": [
+            0,
+            48,
+            50,
+            24
+          ],
+          "enquadramento": "plano médio, contra-plongée",
+          "luz": "fogo do braseiro sudeste à direita, já visível",
+          "o_que_se_ve": "O Irmão Kaelric erguendo o escudo grande com as duas mãos e gritando, o corpo inteiro atrás dele.",
+          "visual": "Low medium shot: the towering knight-monk hauling his big heater shield up with both hands and shouting, his whole body loaded behind it, the red cross catching the firelight.",
+          "elenco": [
+            "irmao-kaelric"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Kaelric",
+              "em": [
+                44,
+                96
+              ],
+              "altura": 92,
+              "pose": "de pé",
+              "olhando": "frente"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "grito",
+              "em": [
+                70,
+                22
+              ],
+              "apontando": [
+                46,
+                40
+              ],
+              "quem": "Kaelric",
+              "largura": 30,
+              "texto": "PAI, DÊ-ME FORÇAS!"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "caixa": [
+            50,
+            48,
+            50,
+            24
+          ],
+          "enquadramento": "plano médio lateral",
+          "luz": "brasas laranja do braseiro sudeste",
+          "o_que_se_ve": "O encontrão: o escudo no peito do morto, empurrando-o para trás, na direção do braseiro aceso do canto sudeste.",
+          "visual": "Side medium shot: the shield slamming into a dead man's chest and driving him backward across the floor toward a lit iron brazier in the southeast corner, sparks already rising from the coals.",
+          "elenco": [
+            "irmao-kaelric",
+            "morto-vivo-apostador"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "nota": "GATILHO DO CANTO SUDESTE — leia antes de gerar este quadro. O cenario-salao.png NÃO tem o braseiro de ferro nem a segunda lareira: o gerador trocou o braseiro por um caldeirão duas vezes, com prompts diferentes, e a lareira menor não saiu. Este é o PRIMEIRO quadro do volume que se passa naquele canto. Se ele sair errado — sem braseiro, ou com um caldeirão no lugar —, a decisão já tomada é gerar UMA referência de detalhe só do canto sudeste (lareira menor + braseiro de brasas vivas + a porta ao lado) e usá-la como `cenario` nos ~18 quadros das páginas 17, 18 e 21. 1 chamada. Não regerar o salão inteiro: ele acertou dez outros itens.",
+          "figuras": [
+            {
+              "quem": "Kaelric",
+              "em": [
+                30,
+                94
+              ],
+              "altura": 88,
+              "pose": "de pé",
+              "olhando": "direita"
+            },
+            {
+              "quem": "morto",
+              "em": [
+                70,
+                92
+              ],
+              "altura": 66,
+              "pose": "de pé",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "onomatopeia",
+              "em": [
+                52,
+                28
+              ],
+              "corpo": 90,
+              "texto": "TUMP!"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "caixa": [
+            0,
+            72,
+            100,
+            28
+          ],
+          "enquadramento": "plano médio, o braseiro no centro",
+          "luz": "a primeira luz de incêndio do volume",
+          "o_que_se_ve": "O morto caído atravessado em cima das brasas, a roupa seca pegando fogo. Não grita. Não se debate. Não sai de lá.",
+          "visual": "Medium shot centred on the brazier: the dead man fallen across the hot coals, his dry clothes catching fire, and he does not scream, does not thrash, does not get off; the firelight climbing the wall behind him.",
+          "elenco": [
+            "morto-vivo-apostador"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "morto",
+              "em": [
+                46,
+                82
+              ],
+              "altura": 34,
+              "pose": "caído",
+              "olhando": "direita"
+            },
+            {
+              "quem": "braseiro",
+              "em": [
+                70,
+                80
+              ],
+              "altura": 26,
+              "pose": "objeto",
+              "olhando": "frente"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                24,
+                20
+              ],
+              "largura": 32,
+              "texto": "Ele não grita. E não sai de lá."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "titulo": "A melê (2)",
+      "cena": "13 · A melê",
+      "quadros": [
+        {
+          "n": 1,
+          "caixa": [
+            0,
+            0,
+            50,
+            24
+          ],
+          "enquadramento": "plano médio, o chute em diagonal",
+          "luz": "lareira sudeste atrás, silhuetas quentes",
+          "o_que_se_ve": "O Negrum gira e crava o pé no peito de outro morto.",
+          "visual": "Medium shot on a diagonal: the huge warrior pivoting and driving a bare heel into another dead man's chest, the body already leaving the floor, motion lines behind the kick.",
+          "elenco": [
+            "negrum-carneiriums",
+            "morto-vivo-tropeiro"
+          ],
+          "figuras": [
+            {
+              "quem": "Negrum",
+              "em": [
+                32,
+                94
+              ],
+              "altura": 86,
+              "pose": "de pé",
+              "olhando": "direita"
+            },
+            {
+              "quem": "morto",
+              "em": [
+                72,
+                88
+              ],
+              "altura": 62,
+              "pose": "de pé",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "onomatopeia",
+              "em": [
+                56,
+                26
+              ],
+              "corpo": 92,
+              "texto": "TUM!"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "caixa": [
+            50,
+            0,
+            50,
+            24
+          ],
+          "enquadramento": "plano geral baixo",
+          "luz": "fogo da lareira sudeste bem atrás do impacto",
+          "o_que_se_ve": "O corpo voando para trás e batendo na alvenaria da lareira, que o para no meio do caminho.",
+          "visual": "Low wide shot: the body flung backward across the room and stopping hard against the stone masonry of the southeast hearth, dust and mortar puffing from the impact, limbs going loose.",
+          "elenco": [
+            "morto-vivo-tropeiro"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "morto",
+              "em": [
+                52,
+                84
+              ],
+              "altura": 56,
+              "pose": "caído",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "onomatopeia",
+              "em": [
+                74,
+                30
+              ],
+              "corpo": 100,
+              "texto": "CRAC!"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "caixa": [
+            0,
+            24,
+            50,
+            24
+          ],
+          "enquadramento": "plongée, de cima do golpe",
+          "luz": "fogo da lareira sudeste por baixo, o golpe em sombra",
+          "o_que_se_ve": "A maça do Kaelric descendo no peito afundado do morto caído entre a lareira e o chão.",
+          "visual": "High angle looking down the swing: the knight-monk's flanged mace coming down onto the caved-in chest of the dead man lying against the hearth, both hands on the haft, shield hanging.",
+          "elenco": [
+            "irmao-kaelric",
+            "morto-vivo-tropeiro"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Kaelric",
+              "em": [
+                34,
+                92
+              ],
+              "altura": 84,
+              "pose": "de pé",
+              "olhando": "direita"
+            },
+            {
+              "quem": "morto",
+              "em": [
+                70,
+                86
+              ],
+              "altura": 28,
+              "pose": "caído",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "onomatopeia",
+              "em": [
+                56,
+                28
+              ],
+              "corpo": 94,
+              "texto": "TROC!"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "caixa": [
+            50,
+            24,
+            50,
+            24
+          ],
+          "enquadramento": "close, o corte horizontal",
+          "luz": "lâmina clara, fundo preto",
+          "o_que_se_ve": "O montante do Negrum decepando o primeiro morto de vez: a cabeça sai.",
+          "visual": "Close-up of a horizontal cut: the broadsword taking a dead man's head clean off, the head leaving frame, the body still standing for one more instant, the sword's arc drawn through the panel.",
+          "elenco": [
+            "negrum-carneiriums"
+          ],
+          "figuras": [
+            {
+              "quem": "Negrum",
+              "em": [
+                30,
+                92
+              ],
+              "altura": 82,
+              "pose": "de pé",
+              "olhando": "direita"
+            },
+            {
+              "quem": "morto",
+              "em": [
+                72,
+                88
+              ],
+              "altura": 64,
+              "pose": "de pé",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "onomatopeia",
+              "em": [
+                52,
+                26
+              ],
+              "corpo": 110,
+              "texto": "SHRAC!"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "caixa": [
+            0,
+            48,
+            100,
+            26
+          ],
+          "enquadramento": "plano geral do canto sudeste",
+          "luz": "laranja de incêndio começando a dominar o quadro",
+          "o_que_se_ve": "O canto sudeste: três corpos parados no chão, um deles queimando em cima do braseiro. O Kaelric e o Negrum ofegando no meio da fumaça, sem baixar as armas.",
+          "visual": "Wide shot of the southeast corner: three bodies down on the floor, one of them burning on the brazier, smoke gathering at the ceiling; the knight-monk and the warrior standing among them breathing hard, weapons still up.",
+          "elenco": [
+            "irmao-kaelric",
+            "negrum-carneiriums"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Kaelric",
+              "em": [
+                34,
+                92
+              ],
+              "altura": 76,
+              "pose": "de pé",
+              "olhando": "frente"
+            },
+            {
+              "quem": "Negrum",
+              "em": [
+                58,
+                92
+              ],
+              "altura": 72,
+              "pose": "de pé",
+              "olhando": "esquerda"
+            },
+            {
+              "quem": "corpos",
+              "em": [
+                82,
+                84
+              ],
+              "altura": 20,
+              "pose": "multidão",
+              "olhando": "frente"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                26,
+                18
+              ],
+              "largura": 42,
+              "texto": "Não param quando feridos. Param quando são desmontados."
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "caixa": [
+            0,
+            74,
+            100,
+            26
+          ],
+          "enquadramento": "close extremo, no outro canto do salão",
+          "luz": "fria, azulada, longe dos dois fogos",
+          "o_que_se_ve": "Longe da luta, no meio do salão: uma mão no assoalho fechando devagar entre as moedas da banca.",
+          "visual": "Extreme close-up far from the fight, in the middle of the main floor: a dead man's hand on the floorboards closing slowly and deliberately among scattered betting coins, fingers finding purchase, sawdust between them.",
+          "elenco": [
+            "hoel-meia-orelha"
+          ],
+          "figuras": [
+            {
+              "quem": "mão",
+              "em": [
+                46,
+                70
+              ],
+              "altura": 30,
+              "pose": "objeto",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": []
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "titulo": "Hoel se levanta",
+      "cena": "14 · Hoel se levanta",
+      "quadros": [
+        {
+          "n": 1,
+          "caixa": [
+            0,
+            0,
+            100,
+            30
+          ],
+          "enquadramento": "plano subjetivo, do chão, deitado",
+          "luz": "baixa e deitada, sombras compridas pelo assoalho",
+          "o_que_se_ve": "O ponto de vista do Jah, caído e travado: o assoalho de serragem rente aos olhos, os pés das pessoas ao longe — e o corpo do taberneiro a um passo dele.",
+          "visual": "Subjective shot from the floor, lying down: sawdust boards right at eye level, distant legs and overturned benches beyond, and the tavern keeper's body lying one pace away, filling the near half of the frame.",
+          "elenco": [
+            "jah-kagadu",
+            "hoel-meia-orelha"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Hoel",
+              "em": [
+                58,
+                84
+              ],
+              "altura": 64,
+              "pose": "caído",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                24,
+                16
+              ],
+              "largura": 44,
+              "texto": "Jah, você continua sem conseguir se mexer. É por isso que você vê tudo."
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "caixa": [
+            0,
+            30,
+            50,
+            22
+          ],
+          "enquadramento": "close extremo na mão",
+          "luz": "rasante, quase sem cor",
+          "o_que_se_ve": "A mão do taberneiro fecha. Não é o espasmo de quem ainda está morrendo: é uma mão fechando devagar, com vontade, apalpando o assoalho até achar apoio entre as moedas.",
+          "visual": "Extreme close-up of a hand closing on floorboards: not the twitch of something still dying but a slow, deliberate grip, the palm patting the wood until it finds purchase among scattered coins.",
+          "elenco": [
+            "hoel-meia-orelha"
+          ],
+          "figuras": [
+            {
+              "quem": "mão",
+              "em": [
+                48,
+                68
+              ],
+              "altura": 34,
+              "pose": "objeto",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                72,
+                22
+              ],
+              "largura": 34,
+              "texto": "Não é o espasmo de quem ainda está morrendo."
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "caixa": [
+            50,
+            30,
+            50,
+            22
+          ],
+          "enquadramento": "close no peito",
+          "luz": "uma faixa de luz atravessando o peito",
+          "o_que_se_ve": "O peito do taberneiro enchendo sozinho, o avental subindo.",
+          "visual": "Close-up of a dead man's chest filling with air on its own, the apron rising, ribs moving under the shirt, no one commanding it.",
+          "elenco": [
+            "hoel-meia-orelha"
+          ],
+          "figuras": [
+            {
+              "quem": "Hoel",
+              "em": [
+                50,
+                74
+              ],
+              "altura": 34,
+              "pose": "caído",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                50,
+                22
+              ],
+              "largura": 42,
+              "texto": "É o ar entrando por conta própria num peito que ninguém está mandando encher."
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "caixa": [
+            0,
+            52,
+            50,
+            24
+          ],
+          "enquadramento": "close extremo nos olhos",
+          "luz": "dura, o branco dos olhos como único claro",
+          "o_que_se_ve": "Os olhos de Hoel, abertos. Estavam fechados até agora.",
+          "visual": "Extreme close-up of a dead man's eyes, open and unfocused, sawdust stuck to the lashes; they were closed until this moment.",
+          "elenco": [
+            "hoel-meia-orelha"
+          ],
+          "figuras": [
+            {
+              "quem": "Hoel",
+              "em": [
+                50,
+                82
+              ],
+              "altura": 72,
+              "pose": "close",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                74,
+                15
+              ],
+              "largura": 32,
+              "texto": "Estavam fechados até agora."
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "caixa": [
+            50,
+            52,
+            50,
+            24
+          ],
+          "enquadramento": "plano médio, o corpo em esforço",
+          "luz": "baixa, sombra comprida do corpo",
+          "o_que_se_ve": "O corpo tentando lembrar como se senta: o ombro empurrando a madeira, o quadril girando meio dedo, o que sobrou do rosto arrastando pela serragem.",
+          "visual": "Medium shot of a body trying to remember how to sit up: shoulder pushing at the floorboards, hip turning half a finger's width, the ruined face dragging through sawdust, again and without any hurry.",
+          "elenco": [
+            "hoel-meia-orelha"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Hoel",
+              "em": [
+                48,
+                82
+              ],
+              "altura": 40,
+              "pose": "caído",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                56,
+                20
+              ],
+              "largura": 42,
+              "texto": "De novo. E de novo. Sem pressa nenhuma, como quem tem a noite toda."
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "caixa": [
+            0,
+            76,
+            100,
+            24
+          ],
+          "enquadramento": "plano médio baixo, os dois no mesmo quadro",
+          "luz": "fria à esquerda, o incêndio laranja bem ao longe",
+          "o_que_se_ve": "O rosto estragado do taberneiro virando na direção dos pés do Jah — e o Jah, caído a um passo, com os olhos abertos e os braços que não respondem.",
+          "visual": "Low medium shot with both in frame: the tavern keeper's ruined face turning toward a man's feet, and that man lying one pace away with his eyes open and his arms refusing to answer him.",
+          "elenco": [
+            "hoel-meia-orelha",
+            "jah-kagadu"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Hoel",
+              "em": [
+                32,
+                86
+              ],
+              "altura": 50,
+              "pose": "caído",
+              "olhando": "direita"
+            },
+            {
+              "quem": "Jah",
+              "em": [
+                76,
+                88
+              ],
+              "altura": 44,
+              "pose": "caído",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                26,
+                18
+              ],
+              "largura": 44,
+              "texto": "Vinte anos de estrada. Meia orelha. O homem que servia a sua cerveja sem você pedir."
+            },
+            {
+              "tipo": "narracao",
+              "em": [
+                80,
+                20
+              ],
+              "largura": 28,
+              "texto": "E os seus braços não respondem."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "titulo": "O machado",
+      "cena": "15 · O machado",
+      "quadros": [
+        {
+          "n": 1,
+          "caixa": [
+            0,
+            0,
+            100,
+            24
+          ],
+          "enquadramento": "plano médio, contra-plongée",
+          "luz": "o incêndio ao fundo dando a única cor quente",
+          "o_que_se_ve": "Hoel de pé no meio do salão, gritando — e o som que sai dele não é voz de gente. Do outro lado, o NelsOwned chegando pelo corredor.",
+          "visual": "Low medium shot: the tavern keeper standing up in the middle of the room and screaming, head back, and the sound coming out of him is not a human voice; across the room the dwarf bard entering from the corridor.",
+          "elenco": [
+            "hoel-meia-orelha",
+            "nelsowned"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Hoel",
+              "em": [
+                38,
+                92
+              ],
+              "altura": 82,
+              "pose": "de pé",
+              "olhando": "frente"
+            },
+            {
+              "quem": "NelsOwned",
+              "em": [
+                78,
+                94
+              ],
+              "altura": 50,
+              "pose": "de pé",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "eletronico",
+              "em": [
+                58,
+                22
+              ],
+              "apontando": [
+                40,
+                44
+              ],
+              "quem": "Hoel",
+              "largura": 34,
+              "texto": "AAAAAAAAH"
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "caixa": [
+            0,
+            24,
+            50,
+            22
+          ],
+          "enquadramento": "plano médio lateral",
+          "luz": "dura, poeira no ar",
+          "o_que_se_ve": "O chute do taberneiro morto acertando o peito do anão, que recua dois passos escorregando na serragem.",
+          "visual": "Side medium shot: the dead tavern keeper's kick landing on the dwarf's chest, the dwarf skidding back two steps in the sawdust, arms flung wide for balance.",
+          "elenco": [
+            "hoel-meia-orelha",
+            "nelsowned"
+          ],
+          "figuras": [
+            {
+              "quem": "Hoel",
+              "em": [
+                32,
+                92
+              ],
+              "altura": 78,
+              "pose": "de pé",
+              "olhando": "direita"
+            },
+            {
+              "quem": "NelsOwned",
+              "em": [
+                70,
+                94
+              ],
+              "altura": 52,
+              "pose": "de pé",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "onomatopeia",
+              "em": [
+                52,
+                28
+              ],
+              "corpo": 88,
+              "texto": "TUMP!"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "caixa": [
+            50,
+            24,
+            50,
+            22
+          ],
+          "enquadramento": "close",
+          "luz": "o incêndio à direita, o metal alaranjado",
+          "o_que_se_ve": "O NelsOwned firma os pés e puxa o machado grande das costas.",
+          "visual": "Close-up: the dwarf plants his feet, jaw set, and hauls the great two-handed battle-axe off his back, the haft crossing the frame, his velvet sleeve torn.",
+          "elenco": [
+            "nelsowned"
+          ],
+          "figuras": [
+            {
+              "quem": "NelsOwned",
+              "em": [
+                46,
+                94
+              ],
+              "altura": 76,
+              "pose": "de pé",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "onomatopeia",
+              "em": [
+                74,
+                26
+              ],
+              "corpo": 64,
+              "texto": "SHING"
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "caixa": [
+            0,
+            46,
+            100,
+            26
+          ],
+          "enquadramento": "plano médio, os dois frente a frente",
+          "luz": "incêndio atrás, os dois em contraluz",
+          "o_que_se_ve": "O trovador com o machado erguido, gritando para o homem à frente dele — que ele viu servindo cerveja duas horas atrás.",
+          "visual": "Medium two-shot: the dwarf with the axe raised in both hands shouting at the man in front of him — the same man he saw pouring beer two hours ago — the dead keeper standing slack, smoke gathering above them.",
+          "elenco": [
+            "nelsowned",
+            "hoel-meia-orelha"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "NelsOwned",
+              "em": [
+                30,
+                94
+              ],
+              "altura": 58,
+              "pose": "de pé",
+              "olhando": "direita"
+            },
+            {
+              "quem": "Hoel",
+              "em": [
+                68,
+                92
+              ],
+              "altura": 82,
+              "pose": "de pé",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "grito",
+              "em": [
+                46,
+                18
+              ],
+              "apontando": [
+                32,
+                62
+              ],
+              "quem": "NelsOwned",
+              "largura": 46,
+              "texto": "HOEL! DIGA ALGO QUE NÃO ME FAÇA ACHAR QUE É UM ZUMBI, SENÃO ARRANCO SUA CABEÇA!"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "caixa": [
+            0,
+            72,
+            45,
+            28
+          ],
+          "enquadramento": "close frontal",
+          "luz": "frontal e chapada, sem sombra que ajude",
+          "o_que_se_ve": "O taberneiro. Sem resposta. Sem cara nenhuma: a boca aberta, os olhos sem foco, serragem na barba.",
+          "visual": "Frontal close-up of the dead tavern keeper: no answer, no expression at all, mouth slack, eyes unfocused, sawdust in his beard and hair.",
+          "elenco": [
+            "hoel-meia-orelha"
+          ],
+          "figuras": [
+            {
+              "quem": "Hoel",
+              "em": [
+                50,
+                88
+              ],
+              "altura": 80,
+              "pose": "close",
+              "olhando": "frente"
+            }
+          ],
+          "baloes": []
+        },
+        {
+          "n": 6,
+          "caixa": [
+            45,
+            72,
+            55,
+            28
+          ],
+          "enquadramento": "plano médio, o golpe descendo",
+          "luz": "clarão do incêndio, sombras violentas",
+          "o_que_se_ve": "O machado desce. A cabeça sai. O corpo cai em cima da própria serragem.",
+          "visual": "Medium shot of the axe coming down and taking the head off, the body dropping into its own sawdust, the arc of the swing cutting the panel diagonally, firelight behind.",
+          "elenco": [
+            "nelsowned",
+            "hoel-meia-orelha"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "NelsOwned",
+              "em": [
+                32,
+                94
+              ],
+              "altura": 62,
+              "pose": "de pé",
+              "olhando": "direita"
+            },
+            {
+              "quem": "Hoel",
+              "em": [
+                70,
+                90
+              ],
+              "altura": 74,
+              "pose": "caído",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "onomatopeia",
+              "em": [
+                52,
+                24
+              ],
+              "corpo": 120,
+              "texto": "SHRAC!"
+            },
+            {
+              "tipo": "narracao",
+              "em": [
+                78,
+                78
+              ],
+              "largura": 38,
+              "texto": "E o anão não sabe que este homem já tinha sido morto uma vez esta noite."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "titulo": "O fogo",
+      "cena": "16 · O fogo",
+      "quadros": [
+        {
+          "n": 1,
+          "caixa": [
+            0,
+            0,
+            100,
+            24
+          ],
+          "enquadramento": "plano geral, plongée",
+          "luz": "fumaça cinza no alto, laranja no canto sudeste",
+          "o_que_se_ve": "Nenhum morto de pé. Cinco corpos no assoalho, o dinheiro da banca espalhado, a porta da frente aberta para os gritos do mercado.",
+          "visual": "High wide shot: not a single dead thing standing, five bodies on the tavern floor, betting coins scattered among them, the front door standing open onto a screaming street, smoke beginning to layer under the beams.",
+          "elenco": [],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "corpos",
+              "em": [
+                46,
+                76
+              ],
+              "altura": 22,
+              "pose": "multidão",
+              "olhando": "frente"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                26,
+                16
+              ],
+              "largura": 40,
+              "texto": "Nenhum morto de pé. Cinco corpos no assoalho."
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "caixa": [
+            0,
+            24,
+            50,
+            22
+          ],
+          "enquadramento": "close no braseiro",
+          "luz": "laranja violento, tudo em volta preto",
+          "o_que_se_ve": "O corpo em cima do braseiro pegando fogo de vez, e do corpo o fogo passando para a serragem do assoalho.",
+          "visual": "Close-up on the brazier: the body across it fully alight now, and the fire stepping from the body down into the sawdust on the floorboards, a bright line of flame beginning to run.",
+          "elenco": [],
+          "figuras": [
+            {
+              "quem": "braseiro",
+              "em": [
+                44,
+                74
+              ],
+              "altura": 40,
+              "pose": "objeto",
+              "olhando": "frente"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "onomatopeia",
+              "em": [
+                74,
+                30
+              ],
+              "corpo": 86,
+              "texto": "FUUUM"
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "caixa": [
+            50,
+            24,
+            50,
+            22
+          ],
+          "enquadramento": "plano médio, o fogo correndo",
+          "luz": "incêndio como fonte principal",
+          "o_que_se_ve": "As chamas correndo pelo assoalho: serragem, bancos virados, mesas de madeira seca. Combustível por todo lado.",
+          "visual": "Medium shot: flame running along the floor through sawdust, catching overturned benches and dry wooden tables, the whole room revealed as fuel, smoke rolling along the ceiling.",
+          "elenco": [],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "fogo",
+              "em": [
+                50,
+                78
+              ],
+              "altura": 30,
+              "pose": "objeto",
+              "olhando": "frente"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                26,
+                20
+              ],
+              "largura": 42,
+              "texto": "Serragem, bancos virados, madeira seca. Combustível por todo lado."
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "caixa": [
+            0,
+            46,
+            50,
+            24
+          ],
+          "enquadramento": "plano médio, ele agachado",
+          "luz": "o incêndio à direita, fumaça cinza em cima",
+          "o_que_se_ve": "O Irmão Kaelric abaixando-se para ficar debaixo da fumaça, o escudo nas costas, chamando o grupo.",
+          "visual": "Medium shot: the huge knight-monk crouching low to stay under the smoke layer, shield slung on his back, one arm waving the others toward him, smoke curling above his head.",
+          "elenco": [
+            "irmao-kaelric"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Kaelric",
+              "em": [
+                42,
+                94
+              ],
+              "altura": 70,
+              "pose": "sentado",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "fala",
+              "em": [
+                66,
+                22
+              ],
+              "apontando": [
+                44,
+                52
+              ],
+              "quem": "Kaelric",
+              "largura": 42,
+              "texto": "ESTE LUGAR VIROU UM VERDADEIRO INFERNO! VAMOS SAIR ANTES QUE SE ALASTRE!"
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "caixa": [
+            50,
+            46,
+            50,
+            24
+          ],
+          "enquadramento": "plano médio",
+          "luz": "o incêndio atrás dos dois",
+          "o_que_se_ve": "O Jah sacudindo o Comam pelos ombros e gritando na orelha dele.",
+          "visual": "Medium shot: the lean thief shaking the sleeping mercenary by both shoulders and shouting directly into his ear, the table rocking, smoke behind them.",
+          "elenco": [
+            "jah-kagadu",
+            "comam-obabaroy"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Jah",
+              "em": [
+                34,
+                94
+              ],
+              "altura": 78,
+              "pose": "de pé",
+              "olhando": "direita"
+            },
+            {
+              "quem": "Comam",
+              "em": [
+                68,
+                94
+              ],
+              "altura": 56,
+              "pose": "sentado",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "grito",
+              "em": [
+                52,
+                20
+              ],
+              "apontando": [
+                36,
+                54
+              ],
+              "quem": "Jah",
+              "largura": 38,
+              "texto": "ACORDA, SEU BÊBADO MALDITO! TÁ PEGANDO FOGO!"
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "caixa": [
+            0,
+            70,
+            100,
+            30
+          ],
+          "enquadramento": "close, o rosto amassado",
+          "luz": "laranja no rosto dele, o incêndio refletido",
+          "o_que_se_ve": "O Comam abrindo o olho bom: a cara amassada da mesa, a marca da madeira no rosto, o tapa-olho torto — e o incêndio refletido no olho dele.",
+          "visual": "Close-up: the one-eyed mercenary opening his good eye, his face creased from the table, the grain of the wood printed on his cheek, eyepatch askew, the burning room reflected in his pupil.",
+          "elenco": [
+            "comam-obabaroy"
+          ],
+          "figuras": [
+            {
+              "quem": "Comam",
+              "em": [
+                44,
+                90
+              ],
+              "altura": 84,
+              "pose": "close",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                78,
+                20
+              ],
+              "largura": 36,
+              "texto": "Ele dormiu o braço-de-ferro, o furto, o assassinato e a luta inteira."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "titulo": "A porta dos fundos",
+      "cena": "17 · A porta dos fundos",
+      "quadros": [
+        {
+          "n": 1,
+          "caixa": [
+            0,
+            0,
+            100,
+            24
+          ],
+          "enquadramento": "plano geral, travessia da esquerda para a direita",
+          "luz": "incêndio atrás, o corredor escuro à frente",
+          "o_que_se_ve": "O grupo atravessando o salão pela fumaça, encurvado, na direção do corredor dos fundos. Atrás deles, a casa em chamas.",
+          "visual": "Wide shot reading left to right: the five travellers crossing the smoke-filled tavern hunched low toward the back corridor, the burning room behind them, beams glowing, bodies on the floor they are stepping around.",
+          "elenco": [
+            "irmao-kaelric",
+            "jah-kagadu",
+            "negrum-carneiriums",
+            "nelsowned",
+            "comam-obabaroy"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Negrum",
+              "em": [
+                30,
+                90
+              ],
+              "altura": 60,
+              "pose": "correndo",
+              "olhando": "direita"
+            },
+            {
+              "quem": "Kaelric",
+              "em": [
+                50,
+                90
+              ],
+              "altura": 66,
+              "pose": "correndo",
+              "olhando": "direita"
+            },
+            {
+              "quem": "Jah",
+              "em": [
+                68,
+                90
+              ],
+              "altura": 52,
+              "pose": "correndo",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                26,
+                16
+              ],
+              "largura": 46,
+              "texto": "A casa que os hospedava está queimando, e não há mais quem responda por ela."
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "caixa": [
+            0,
+            24,
+            50,
+            22
+          ],
+          "enquadramento": "plano médio baixo",
+          "luz": "o incêndio lateral, as moedas brilhando",
+          "o_que_se_ve": "O Jah abaixado na fumaça, juntando do assoalho as moedas da banca — as que eram dos fregueses — e enfiando no bolso.",
+          "visual": "Low medium shot: the thief crouched in the smoke sweeping scattered coins off the floorboards with the side of his hand and pushing them into his pocket, fire light on the metal.",
+          "elenco": [
+            "jah-kagadu"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Jah",
+              "em": [
+                46,
+                92
+              ],
+              "altura": 62,
+              "pose": "sentado",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                74,
+                20
+              ],
+              "largura": 30,
+              "texto": "O dinheiro era dos fregueses."
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "caixa": [
+            50,
+            24,
+            50,
+            22
+          ],
+          "enquadramento": "plano médio",
+          "luz": "fumaça densa, tudo cinza e laranja",
+          "o_que_se_ve": "O Negrum levando o Comam, que mal se aguenta em pé, o braço dele por cima do próprio ombro.",
+          "visual": "Medium shot: the huge warrior hauling the barely-standing mercenary along with one of the drunk man's arms over his shoulders, both coughing, smoke around their heads.",
+          "elenco": [
+            "negrum-carneiriums",
+            "comam-obabaroy"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Negrum",
+              "em": [
+                38,
+                94
+              ],
+              "altura": 86,
+              "pose": "de pé",
+              "olhando": "direita"
+            },
+            {
+              "quem": "Comam",
+              "em": [
+                62,
+                94
+              ],
+              "altura": 64,
+              "pose": "de pé",
+              "olhando": "direita"
+            }
+          ],
+          "baloes": []
+        },
+        {
+          "n": 4,
+          "caixa": [
+            0,
+            46,
+            50,
+            24
+          ],
+          "enquadramento": "close, ele parando",
+          "luz": "fumaça entre ele e tudo o mais",
+          "o_que_se_ve": "O NelsOwned para um instante e procura um rosto no salão cheio de fumaça e de gente saindo.",
+          "visual": "Close-up: the dwarf bard stopping for one beat, turning his head, searching a smoke-filled room full of people pushing for the doors, the axe hanging from his hand.",
+          "elenco": [
+            "nelsowned"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "NelsOwned",
+              "em": [
+                48,
+                90
+              ],
+              "altura": 80,
+              "pose": "close",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": []
+        },
+        {
+          "n": 5,
+          "caixa": [
+            50,
+            46,
+            50,
+            24
+          ],
+          "enquadramento": "plano médio, do outro lado do salão",
+          "luz": "a chuva azul da rua contra o incêndio",
+          "o_que_se_ve": "Do outro lado do salão, na porta da frente: Giles arrastando a filha para fora pelo pulso. Bronwyn olha para trás.",
+          "visual": "Medium shot across the room at the front door: the wool merchant dragging his daughter out by the wrist into the rain, and the young woman looking back over her shoulder into the smoke.",
+          "elenco": [
+            "giles-mao-de-prata",
+            "bronwyn"
+          ],
+          "cenario": "campanha/hq/vol-01-a-ancora-quebrada/cenario-salao.png",
+          "figuras": [
+            {
+              "quem": "Giles",
+              "em": [
+                36,
+                92
+              ],
+              "altura": 70,
+              "pose": "correndo",
+              "olhando": "esquerda"
+            },
+            {
+              "quem": "Bronwyn",
+              "em": [
+                62,
+                92
+              ],
+              "altura": 64,
+              "pose": "correndo",
+              "olhando": "esquerda"
+            }
+          ],
+          "baloes": [
+            {
+              "tipo": "narracao",
+              "em": [
+                44,
+                18
+              ],
+              "largura": 44,
+              "texto": "Ele não a acha. O colar continua no bolso dele, e ele não diz nada a ninguém."
+            }
+          ]
+        },
+        {
+          "n": 6,
+          "caixa": [
+            0,
+            70,
+            100,
+            30
+          ],
+          "enquadramento": "plano médio, de dentro para fora, sem balão",
+          "luz": "contraluz total: fumaça clara, figuras pretas, e nada do lado de fora",
+          "o_que_se_ve": "A porta dos fundos entreaberta, vista de dentro: a fumaça do salão sendo puxada para fora por ela, e cinco silhuetas contra o escuro.",
+          "visual": "Medium shot from inside looking out: a back door standing half open, smoke from the burning room being sucked out through the gap, five silhouettes stepping through it into the black, no light beyond them yet.",
+          "elenco": [
+            "comam-obabaroy",
+            "irmao-kaelric",
+            "jah-kagadu",
+            "negrum-carneiriums",
+            "nelsowned"
+          ],
+          "figuras": [
+            {
+              "quem": "porta dos fundos",
+              "em": [
+                50,
+                98
+              ],
+              "altura": 78,
+              "pose": "objeto",
+              "olhando": "frente"
+            },
+            {
+              "quem": "grupo",
+              "em": [
+                50,
+                84
+              ],
+              "altura": 34,
+              "pose": "multidão",
+              "olhando": "costas"
+            }
+          ],
+          "baloes": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+# Prompt — avatar.png
+
+**Escrito em:** 16/09/2026 14:49
+
+```
+Digital illustration, fantasy RPG comic book art, clean bold linework, warm soft coloring, hand-drawn look, medieval realism, tech level 3, no gunpowder. Setting: Wallace, a pastoral frontier town of Caithness on the edge of the Great Desert in Yrth — sheep pens, wool, dust and stone. THIS TOWN IS LANDLOCKED: no sea, no harbour, no docks, no ships, no boats, no fishing gear anywhere in any panel; the iron anchor over the tavern door is an old joke, not a sign of the sea. Night, fine cold rain outside; tavern interior lit by a stone hearth, hanging oil lanterns and table candles. Character portrait reference sheet of a single character for a comic book: A newly risen dead man: a drover between thirty and forty, weathered by sun and road, thin beard, hair tied in a short tail. Thick dirty leather jerkin over a wool shirt, riding trousers reinforced on the inner thigh, tall mud-caked drover's boots. HE HAS BEEN DEAD LESS THAN AN HOUR: grey skin wet with rain, an open wound at the neck and shoulder, old dark stopped blood on the clothing, eyes open and unfocused. A PEWTER TANKARD IS STILL GRIPPED IN HIS RIGHT HAND — his fingers never let go of it.. Waist-up, neutral standing pose, facing the viewer, neutral plain background, even lighting, full clothing and visible gear. no text, no lettering, no speech balloons, no captions, no signage, no watermark, no panel borders, no frame.
+```
