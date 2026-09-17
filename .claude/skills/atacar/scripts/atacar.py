@@ -3,7 +3,7 @@
 """
 Resolve uma troca de golpes pelo Sistema Avancado de Combate — MB, cap. 14.
 
-    combate.py --atacante "Comam" --pericia "Espadas de Lâmina Larga" \
+    atacar.py --atacante "Comam" --pericia "Espadas de Lâmina Larga" \
                --arma "Cimitarra" --modo balanco \
                --manobra ataque-total-bonus --local pescoco \
                --alvo "Morto-Vivo 1" --alvo-ht 11 --alvo-esquiva 5 --alvo-rd 1 \
@@ -194,6 +194,9 @@ def main():
     ap.add_argument("--alvo-hipoalgia", action="store_true",
                     help="O alvo tem Hipoalgia: sem redutor por ferimento")
     ap.add_argument("--recuar", action="store_true", help="O alvo recua: +3 na defesa")
+    ap.add_argument("--sem-escudo", action="store_true",
+                    help="O escudo da ficha NÃO vale nesta troca: está às costas, o alvo "
+                         "empunha arma de duas mãos, o golpe vem por trás")
     ap.add_argument("--gravar", action="store_true")
     args = ap.parse_args()
 
@@ -352,7 +355,8 @@ def main():
             if md.get("obs"):
                 p(f"  {md['obs']}")
             defendeu = False
-            dp_escudo, nome_escudo = (escudo_dp(fd) if fd else (0, None))
+            dp_escudo, nome_escudo = (escudo_dp(fd)
+                                      if (fd and not args.sem_escudo) else (0, None))
             dp_total = dp_local + (dp_escudo if local.get("armadura") else 0)
             if dp_total:
                 dd = _roll.d6(3)
@@ -378,7 +382,8 @@ def main():
                                  f"--alvo-{args.alvo_defesa} ou --alvo-defesa-valor.")
 
             reflexos = bool(fd) and tn.nivel_vantagem(fd, "reflexos-em-combate") is not None
-            dp_escudo, nome_escudo = (escudo_dp(fd) if fd else (0, None))
+            dp_escudo, nome_escudo = (escudo_dp(fd)
+                                      if (fd and not args.sem_escudo) else (0, None))
             dp_total = dp_local + (dp_escudo if local.get("armadura") else 0)
 
             comp, total_def = [f"{args.alvo_defesa} {base} ({fonte})"], base

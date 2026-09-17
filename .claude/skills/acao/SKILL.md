@@ -4,7 +4,7 @@ description: >
   Resolve a ação que um jogador declarou em texto livre — "vou tentar furtar a bolsa do
   mercador na confusão", "subo no telhado", "peço a bebida do guarda e puxo conversa".
   Lê a ficha de quem age e o estado da cena, decide o que a ação exige pelas regras de
-  GURPS 3ª Edição, chama as skills que resolvem (teste-nh, disputa-nh, combate, reacao,
+  GURPS 3ª Edição, chama as skills que resolvem (teste-nh, disputa-nh, atacar, reacao,
   roll), narra o desfecho para a mesa e registra tudo: acontecimento no capítulo,
   mudança anotada nos NPCs, no grupo e no lugar, e o dinheiro lançado na bolsa da
   campanha. Não mexe na ficha do personagem — só quando o usuário pedir.
@@ -55,7 +55,7 @@ Esta é a parte que a skill não pode automatizar, e é o trabalho de verdade. A
 | Nada de difícil, nada em jogo — pedir cerveja, olhar em volta, atravessar o salão | **Nada.** Narre e devolva o turno | — |
 | Algo difícil contra o mundo, sem ninguém resistindo — escalar, saltar, decorar, lembrar | Teste de perícia ou atributo | `teste-nh` |
 | Alguém do outro lado resiste, percebe ou disputa — furtar, esconder-se, enganar, braço-de-ferro | **Disputa**, dos dois lados | `disputa-nh` |
-| Violência declarada | Troca de golpes inteira | `combate` |
+| Violência declarada | Troca de golpes inteira | `atacar` (ou `atacar-distancia`, se for tiro) |
 | Primeira impressão com um NPC que ainda não tem reação rolada | Teste de reação | `reacao` |
 | Começou luta e ninguém sabe quem age primeiro | Surpresa e ordem | `iniciativa` |
 | Alguém se move no mapa da cena | Posição nova | `atualizar-mapa` |
@@ -105,8 +105,14 @@ ou intenção de NPC que não dê para ver.
 texto pronto delas; repasse-o e depois narre. Mostrar a rolagem à mesa é decisão do Mestre,
 mas ela existe.
 
+**Em combate isso muda: o bloco sai uma vez por rodada, não a cada jogada.** Enquanto a
+rodada corre, entregue só o resultado mecânico em texto corrido; o bloco formatado sai
+quando **todos já jogaram** — personagens e NPCs — ou quando o **Mestre disser** que acabou,
+e vai num bloco só, com a rodada inteira. Fora de combate, uma ação declarada isolada sai no
+bloco na hora. A regra está no `CLAUDE.md`, em *O bloco do WhatsApp sai uma vez por rodada*.
+
 **Violência é a exceção:** quando a ação vira troca de golpes, quem resolve é a skill
-`combate`, e ela **não narra** — entrega o resultado mecânico e as linhas ao Mestre. Não
+`atacar`, e ela **não narra** — entrega o resultado mecânico e as linhas ao Mestre. Não
 escreva a prosa do golpe por conta própria; se a mesa quiser o texto, é a skill `narrar`
 que o escreve.
 

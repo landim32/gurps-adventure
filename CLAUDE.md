@@ -165,7 +165,8 @@ primeira taberna sem um vintém no bolso.
 
 **Declaração de jogador entra pela skill `acao`** — "Ricardo: vou tentar furtar o Giles".
 Ela lê a ficha de quem age e o estado da cena, decide o que a ação exige, chama quem
-resolve (`teste-nh`, `disputa-nh`, `combate`, `reacao`, `roll`), narra o desfecho e
+resolve (`teste-nh`, `disputa-nh`, `atacar`, `atacar-distancia`, `reacao`, `roll`),
+narra o desfecho e
 registra as três camadas: o acontecimento, a anotação do que ficou diferente e a ficha,
 quando a ficha mudou.
 
@@ -197,6 +198,29 @@ As **regras de combate autônomo** vieram das duas aventuras originais do dono d
   acertaram alguém, o que causou mais dano;
 - pontos de impacto decididos nos dados.
 
+### O bloco do WhatsApp sai uma vez por rodada, não a cada jogada
+
+**Durante um combate, não exiba o texto no formato do WhatsApp a cada golpe.** Uma luta tem
+muitas rolagens e a mesa não lê quinze blocos seguidos — ela lê um, no fim, com a rodada
+inteira.
+
+Enquanto a rodada corre, entregue só **o resultado mecânico em texto corrido**: quem acertou
+quem, onde, o que a defesa fez, quanto doeu, quem ficou atordoado, quem perdeu a defesa ativa
+até o próximo turno. É informação para o Mestre arbitrar o golpe seguinte, não texto para
+colar no grupo.
+
+**O bloco formatado sai em dois momentos, e só neles:**
+
+- quando **todos já jogaram** — personagens *e* NPCs —, e a rodada se fechou;
+- quando o **Mestre disser** que acabou (a cena, a rodada, o combate).
+
+Aí sim: **um bloco só**, com a rodada inteira na ordem em que aconteceu, e o fecho da cena
+junto. As skills `atacar`, `atacar-distancia`, `teste-nh`, `disputa-nh` e `reacao` imprimem
+um bloco cada uma — **guarde-os e junte no fim**, em vez de repassar um por vez.
+
+Fora de combate a regra não vale: uma ação declarada isolada, um teste solto, uma reação —
+esses saem no bloco na hora, porque a mesa está esperando aquele resultado.
+
 Estruture aventuras novas no mesmo formato: uma seção de regras/perícias úteis seguida da
 aventura em cenas encadeadas, com os testes e as consequências de falha explícitos (incluindo
 falha crítica) para que a cena possa ser arbitrada sem improviso.
@@ -204,6 +228,36 @@ falha crítica) para que a cena possa ser arbitrada sem improviso.
 Para tabelas de encontros, criaturas, empregos, preços e níveis sociais, puxe de
 `livros/gurps-mb-3ed/21-quadros-e-tabelas.md`, `15-animais.md`, `19-cenarios.md` e
 `livros/gurps-fantasy-3ed/09-criaturas.md`.
+
+## A HQ da campanha: o agente `comic-artist`
+
+O que a mesa jogou vira história em quadrinhos pelo agente **`comic-artist`**
+(`.claude/agents/comic-artist.md`), em volumes de **20 a 24 páginas**, guardados em
+`campanha/hq/vol-NN-<slug>/`. Ele conduz o fluxo inteiro e **para para aprovação** em
+cada etapa: recorte e sinopse (`00-recorte.md`), lista de cenas (`01-cenas.md`), roteiro
+por página e quadro (`roteiro.md` + `roteiro.json`), fixação do modelo visual do elenco,
+esboços. Só depois é que se gasta imagem.
+
+Três skills fazem o trabalho, e a divisão entre elas é a ideia toda:
+
+| Skill | Faz | Com quê |
+|---|---|---|
+| `quadro-hq` | a arte de cada quadro, **sem balão**, e o avatar/folha de modelo do elenco | IA externa (OpenAI `gpt-image-1`, chave em `OPENAI_API_KEY`) |
+| `baloes-hq` | os balões — fala, grito, sussurro, pensamento, recordatório, off, voz sobrenatural, canto, onomatopeia | Pillow, sem IA nenhuma |
+| `pagina-hq` | o esboço em figuras geométricas, a montagem da página A4/300 dpi e o PDF | Pillow, sem IA nenhuma |
+
+**Letreiramento nunca sai de gerador de imagem** — toda IA escreve garatuja e erra
+acento. E o balão é aplicado *na página montada*, não no quadro solto: assim a letra sai
+do mesmo tamanho em todos os quadros e a arte em `quadros/` fica limpa para ser regerada
+sem perder o texto.
+
+**Avatares de NPC moram em `campanha/npcs/<slug>/`** (`npc.md`, `avatar.png`,
+`modelo-hq.png`) — não dentro da pasta da HQ, porque o NPC serve a campanha inteira. Os
+PJs usam o retrato que já existe em `personagens/<slug>/foto.png` mais a folha
+`modelo-hq.png`. É a folha de modelo que segura a semelhança de um quadro para o outro.
+
+A HQ **não altera nada do jogo**: não mexe em ficha, não inventa acontecimento, não rola
+dado. Ela ilustra o que já está registrado — e, onde o registro for omisso, pergunta.
 
 ## Versionamento
 

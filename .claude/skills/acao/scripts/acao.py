@@ -11,7 +11,7 @@ o script cuida do que da errado a mao: achar de quem e o personagem, as pericias
 que ele de fato tem, a reacao que cada NPC ja teve com ele, e os arquivos do capitulo.
 
 Nao rola dado e nao escreve nada: a resolucao e das skills roll/teste-nh/disputa-nh/
-combate, e o registro e da skill campanha.
+atacar, e o registro e da skill campanha.
 """
 import argparse
 import json

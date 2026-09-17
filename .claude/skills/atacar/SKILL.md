@@ -1,5 +1,5 @@
 ---
-name: combate
+name: atacar
 description: >
   Resolve uma troca de golpes inteira pelo Sistema Avançado de Combate de GURPS 3ª Edição:
   jogada de ataque com o redutor do ponto de impacto e o bônus da manobra, golpe fulminante
@@ -7,7 +7,7 @@ description: >
   bônus por tipo de dano, tetos do local e testes de queda e atordoamento. Entrega o texto
   para o WhatsApp e grava no capítulo. Use when the user asks "ataque total no pescoço do
   morto-vivo", "ele ataca com a espada", "o orc golpeia o Kaelric", "aparar", "esquiva",
-  ou /combate.
+  ou /atacar.
 ---
 
 # Combate
@@ -18,7 +18,7 @@ casa: armadura peça por peça, DP e RD por região, ponto de impacto escolhido.
 Uma execução do script resolve **uma troca de golpes**, do ataque às consequências.
 
 ```
-python .claude/skills/combate/scripts/combate.py \
+python .claude/skills/atacar/scripts/atacar.py \
   --atacante "Comam" --pericia "Espadas de Lâmina Larga" --arma "Cimitarra" \
   --manobra ataque-total-bonus --local pescoco \
   --alvo "Morto-Vivo 1" --alvo-ht 11 --alvo-esquiva 5 --alvo-rd 1 --alvo-dp 1 \
@@ -95,6 +95,7 @@ sua cena o escudo não deveria valer — golpe pelas costas, alvo deitado sobre 
 | `--alvo-defesa-mod` | Ataque lateral (-2), finta, o que for |
 | `--alvo-manobra` | `defesa-total`, `ataque-total` (sem defesa), `atordoado` (-4), `surpreendido` |
 | `--recuar` | **+3** em qualquer defesa, uma vez por rodada |
+| `--sem-escudo` | O escudo da ficha **não vale nesta troca**: está às costas, o alvo empunha arma de duas mãos, ou o golpe vem por trás |
 | `--alvo-hipoalgia` | Sem redutor por ferimento — é o caso dos mortos-vivos desta campanha |
 
 ## Manobras
@@ -147,7 +148,8 @@ Ela resolve **o golpe**, não o combate inteiro. Continua com você, ou com outr
 | Finta | skill **`disputa-nh`** — a margem vira `--alvo-defesa-mod` negativo |
 | Onde cada um está, alcance, hexágono frontal ou lateral | skill **`atualizar-mapa`** |
 | Um teste solto no meio da luta | skill **`teste-nh`** |
-| Armas de longo alcance, combate de perto, agarrar, desarmar | MB, cap. 14 — arbitre e use `--mod` |
+| **Tiro, arremesso, qualquer arma de longo alcance** | skill **`atacar-distancia`** |
+| Combate de perto, agarrar, desarmar | MB, cap. 14 — arbitre e use `--mod` |
 | Somar os pontos de vida perdidos ao longo da luta | você; o script resolve um golpe por vez |
 
 **Alcance e direção não são conferidos pelo script.** Confira no mapa antes: ataque pelo
@@ -206,8 +208,11 @@ que o dado deu; o trabalho é só dizer o que ele significa em regra.
 **Entregue o resultado mecânico e pare.** Nada de prosa, nada de descrever a espada girando
 na serragem, nada de "o morto cambaleia e volta a vir". A resposta desta skill é:
 
-1. o **bloco do WhatsApp** que o script imprimiu, num bloco de código;
+1. o **resultado mecânico**, em texto corrido — quem acertou quem, onde, o que a defesa
+   fez, quanto doeu;
 2. **uma ou duas linhas ao Mestre**, sobre o que mudou na regra.
+
+**O bloco do WhatsApp não sai a cada golpe** — ver *Mostrar e gravar*, abaixo.
 
 Quem escreve o texto que vai para a mesa é a skill **`narrar`**, e só quando o Mestre pedir.
 São trabalhos diferentes: aqui se resolve o golpe, lá se conta a cena. Misturar os dois faz
@@ -219,8 +224,20 @@ inutilizado, quanto de dano ainda dá para aguentar.
 
 ## Mostrar e gravar
 
-O bloco **PARA O WHATSAPP** sai sempre, com o essencial: quem atacou quem, onde, o que saiu
-e quanto doeu. **Repasse num bloco de código.** Mostrar ou não é decisão do Mestre.
+O script imprime o bloco **PARA O WHATSAPP** a cada execução — mas **você não o repassa a
+cada execução**. Numa luta isso vira quinze blocos seguidos e a mesa não lê nenhum.
+
+**Guarde os blocos e junte no fim da rodada.** O bloco formatado sai em dois momentos:
+
+- quando **todos já jogaram**, personagens *e* NPCs, e a rodada se fechou;
+- quando o **Mestre disser** que a cena ou o combate acabou.
+
+Aí vai **um bloco só**, com a rodada inteira na ordem em que aconteceu. Até lá, entregue o
+resultado em texto corrido, que é o que o Mestre precisa para arbitrar o golpe seguinte.
+
+Fora de combate — um golpe avulso, um teste solto — o bloco sai na hora, porque a mesa está
+esperando aquele resultado. A regra está no `CLAUDE.md`, em *O bloco do WhatsApp sai uma vez
+por rodada*.
 
 `--gravar` registra no capítulo atual pela skill `campanha`. Numa luta longa, **não
 grave golpe a golpe** — grave o que mudou o rumo: o membro que ficou inutilizado, o nocaute,
