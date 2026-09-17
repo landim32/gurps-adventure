@@ -5,10 +5,10 @@
 **Mestre:** IA (Mestre)
 **Início:** 06/09/2026
 **Cenário:** Yrth — Caithness, o Grande Deserto e Zarak
-**Capítulo atual:** 02
+**Capítulo atual:** 03
 **Pontos dos personagens:** 150
 
-Wallace, a cidade fronteiriça de Caithness, caiu numa noite. Os mortos levantaram-se e o orc Arzog os comanda com uma espada de brilho azul. A única terra onde nenhum encantamento funciona — e portanto nenhum morto-vivo entra — é o Grande Deserto. É para lá que os sobreviventes correm.
+Wallace, a cidade fronteiriça de Caithness, caiu numa noite. Os mortos levantaram-se e **Vurkash, o Que Não Enterra**, os comanda com uma espada de brilho azul. A única terra onde nenhum encantamento funciona — e portanto nenhum morto-vivo entra — é o Grande Deserto. É para lá que os sobreviventes correm.
 
 ## Personagens
 
@@ -39,7 +39,7 @@ não defeito de ficha.
 - [1. Encontro na Taberna](plano/01-encontro-na-taberna/) · [NPCs](plano/01-encontro-na-taberna/npcs.md)
 - [2. A Fuga para o Castelo](plano/02-a-fuga-para-o-castelo/) · [NPCs](plano/02-a-fuga-para-o-castelo/npcs.md)
 - [3. Fechem os Portões](plano/03-fechem-os-portoes/) · [NPCs](plano/03-fechem-os-portoes/npcs.md)
-- [4. O Cavaleiro da Morte](plano/04-o-cavaleiro-da-morte/) · [NPCs](plano/04-o-cavaleiro-da-morte/npcs.md)
+- [4. O Que Não Enterra](plano/04-o-que-nao-enterra/) · [NPCs](plano/04-o-que-nao-enterra/npcs.md)
 - [5. O Lorde William](plano/05-o-lorde-william/) · [NPCs](plano/05-o-lorde-william/npcs.md)
 - [6. A Fuga para o Deserto](plano/06-a-fuga-para-o-deserto/) · [NPCs](plano/06-a-fuga-para-o-deserto/npcs.md)
 - [7. A Travessia do Grande Deserto](plano/07-a-travessia-do-grande-deserto/) · [NPCs](plano/07-a-travessia-do-grande-deserto/npcs.md)
@@ -59,5 +59,9 @@ Como as coisas **estão agora**: [`mundo.md`](mundo.md) (ferimentos, itens, rela
 
 <!-- indice:historico -->
 - [1. Encontro na Taberna — como aconteceu](01-encontro-na-taberna/) — 07/09/2026 · 36 acontecimento(s) · 7 arquivo(s) de mesa
-- [2. A Fuga para o Castelo — como aconteceu](02-a-fuga-para-o-castelo/) — 10/09/2026 · 23 acontecimento(s) · 3 arquivo(s) de mesa
+- [2. A Fuga para o Castelo — como aconteceu](02-a-fuga-para-o-castelo/) — 10/09/2026 · 44 acontecimento(s) · 3 arquivo(s) de mesa
+- [3. Fechem os Portões — como aconteceu](03-fechem-os-portoes/) — 16/09/2026 · 23 acontecimento(s) · 5 arquivo(s) de mesa
+- [HQ da campanha](hq/) · 1 acontecimento(s)
+- [Avatares dos NPCs](npcs/)
+- [Exportações do grupo de WhatsApp](whatsapp/)
 <!-- /indice:historico -->

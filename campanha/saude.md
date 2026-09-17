@@ -8,30 +8,34 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 <!-- indice:saude -->
 | Quem | | PV | Fadiga | Estado |
 |---|---|---:|---:|---|
-| Comam Obabaroy | PJ | 12/12 | 7/13 | Bêbado e dormindo sobre a mesa — -3 em todos os atributos e perícias enquanto durar o porre (parâmetro do MB pág. 32, Alcoolismo); alvo fácil e sem defesa ativa até acordar |
+| Comam Obabaroy | PJ | 12/12 | 7/13 | De ressaca e ainda embriagado — **-3 em todos os atributos e perícias** enquanto durar o porre (MB pág. 32, Alcoolismo). Está acordado, de pé e lutando desde o cap. 01: já matou dois mortos-vivos nesse estado e tirou o melhor número da mesa em um deles |
 | Irmão Kaelric | PJ | 12/12 | 5/13 | — |
-| Jah Kagadu | PJ | 12/12 | 5/9 | — |
+| Jah Kagadu | PJ | 6/12 | 5/9 | — |
 | Negrum Carneiriums | PJ | 11/12 | 8/15 | — |
-| NelsOwned | PJ | 10/12 | 10/15 | — |
+| NelsOwned | PJ | 12/12 | 10/15 | — |
 | Donnwulf | NPC | — | — | Braço direito quebrado — Maneta (um braço) até curar; por decisão do Mestre a fratura é permanente e ele não volta a fazer queda de braço |
 | Hoel Meia-Orelha | NPC | -21 | — | MORTO — espancado até a morte pelo Negrum enquanto estava inconsciente (MB pág. 128: pessoa indefesa atacada de maneira letal morre sem jogada); **DECAPITADO** em L5 pelo machado grande de NelsOwned (cap. 01), no turno seguinte ao em que se levantou. Mesmo critério do Morto-Vivo 1: 15 pontos, 1,5 x HT, numa criatura de HT 10. Destruído de vez: não se levanta, não volta |
+| Lanceiro | NPC | -5 | — | **PERNA ESQUERDA INCAPACITADA** por golpe de espada curta vindo de baixo da grade (cap. 03). Não anda nem sustenta o próprio peso; combate deitado ou escorado, -4 no ataque e -3 nas defesas ativas. **Caiu da linha**, e o ponto de trava dele está aberto |
 | Morto-Vivo 1 | NPC | -15 | — | **DECAPITADO** pelo montante do Negrum (cap. 01). Destruído de vez: não se levanta, não volta |
 | Morto-Vivo 2 | NPC | -18 | — | **DESTRUÍDO** (decisão do Mestre, cap. 01). Parou de se mexer entre L10 e L11, contra a pedra da lareira, com o tórax afundado pela maça do Irmão Kaelric — 18 pontos acumulados num corpo de 11 PV. Não se levanta, não volta |
 | Morto-Vivo 3 | NPC | -13 | — | **DESTRUÍDO** (decisão do Mestre, cap. 01). Parou de se mexer entre M10 e M11, em cima do braseiro, com o peito afundado pela maça do Irmão Kaelric e o corpo queimando — 13 pontos acumulados num corpo de 10 PV. Não se levanta, não volta. **É o corpo dele que está pegando fogo e espalhando o incêndio pelo salão** |
 | Morto-Vivo 4 | NPC | -12 | — | **DESTRUÍDO** pelo montante do Negrum Carneiriums (decisão do Mestre, cap. 01), caído entre K9 e J9. Não foi decapitado: o corpo está inteiro, com a perna já decepada antes, e simplesmente parou de se mexer. Não se levanta, não volta |
+| Osric de Bannock | NPC | -4 | — | DESARMADO — a espada curta caiu no golpe fulminante (Tabela 15). Apanhá-la do chão exige DOIS turnos (MB pág. 104). Até lá: sem Aparar e sem ataque; restam Bloqueio 10 com o escudo e Esquiva 7 |
 <!-- /indice:saude -->
 
 ## Personagens
 
 ### Comam Obabaroy
 
-**PV 12/12 · Fadiga 7/13**  ·  **Bêbado e dormindo sobre a mesa — -3 em todos os atributos e perícias enquanto durar o porre (parâmetro do MB pág. 32, Alcoolismo); alvo fácil e sem defesa ativa até acordar**
+**PV 12/12 · Fadiga 7/13**  ·  **De ressaca e ainda embriagado — **-3 em todos os atributos e perícias** enquanto durar o porre (MB pág. 32, Alcoolismo). Está acordado, de pé e lutando desde o cap. 01: já matou dois mortos-vivos nesse estado e tirou o melhor número da mesa em um deles**
 
 - **07/09/2026 22:31** · estado — Bêbado e dormindo sobre a mesa — -3 em todos os atributos e perícias enquanto durar o porre (parâmetro do MB pág. 32, Alcoolismo); alvo fácil e sem defesa ativa até acordar
 - **15/09/2026 20:16** · FAD -1 — Falha no teste de ST para erguer a carroça tombada, com -3 do porre (MB pág. 89)
 - **15/09/2026 21:14** · FAD -2 — Fadiga de batalha — combate rápido no cruzamento da carroça: Carga Leve (23,8 kg para ST 13), nível 1 +1 (MB pág. 134)
 - **15/09/2026 21:19** · FAD -1 — Segunda falha no teste de ST para erguer a carroça (MB pág. 89: falha em teste de esforço custa 1 ponto de ST por Fadiga)
 - **15/09/2026 22:46** · FAD -2 — Fadiga de batalha — segundo combate rápido no cruzamento da carroça: Carga Leve, nível 1 +1 (MB pág. 134)
+- **16/09/2026 21:54** · curado — Bêbado e dormindo sobre a mesa
+- **16/09/2026 21:54** · estado — De ressaca e ainda embriagado — **-3 em todos os atributos e perícias** enquanto durar o porre (MB pág. 32, Alcoolismo). Está acordado, de pé e lutando desde o cap. 01: já matou dois mortos-vivos nesse estado e tirou o melhor número da mesa em um deles
 
 ### Irmão Kaelric
 
@@ -44,12 +48,13 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 
 ### Jah Kagadu
 
-**PV 12/12 · Fadiga 5/9**
+**PV 6/12 · Fadiga 5/9**
 
 - **15/09/2026 20:19** · FAD -1 — Falha no teste de ST para erguer a carroça tombada (MB pág. 89: falha em teste de esforço custa 1 ponto de ST por Fadiga)
 - **15/09/2026 21:14** · FAD -1 — Fadiga de batalha — combate rápido no cruzamento da carroça: Carga nenhuma (9 kg para ST 9), nível 0 +1 (MB pág. 134)
 - **15/09/2026 21:19** · FAD -1 — Segunda falha no teste de ST para erguer a carroça (MB pág. 89: falha em teste de esforço custa 1 ponto de ST por Fadiga)
 - **15/09/2026 22:46** · FAD -1 — Fadiga de batalha — segundo combate rápido no cruzamento da carroça: Carga nenhuma, nível 0 +1 (MB pág. 134)
+- **17/09/2026 15:29** · PV -6 — Estocada de espada curta pela fresta da grade, no tronco (cap. 03, turno 2)
 
 ### Negrum Carneiriums
 
@@ -63,10 +68,12 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **15/09/2026 21:14** · FAD -1 — Fadiga de batalha — combate rápido contra os mortos-vivos no cruzamento da carroça: Carga nenhuma, nível 0 +1 (MB pág. 134)
 - **15/09/2026 21:19** · FAD -1 — Segunda falha no teste de ST para erguer a carroça (MB pág. 89: falha em teste de esforço custa 1 ponto de ST por Fadiga)
 - **15/09/2026 22:46** · FAD -1 — Fadiga de batalha — segundo combate rápido no cruzamento da carroça: Carga nenhuma, nível 0 +1 (MB pág. 134)
+- **17/09/2026 15:29** · PV -1 — Corte de espada curta na perna, vindo de sob a grade (cap. 03, turno 2)
+- **17/09/2026 17:26** · PV +1 — ERRATA: o Montante é arma de UMA mão (Espadas de Lâmina Larga, MB pág. 206) — o escudo valia, as duas defesas do turno 2 tinham passado e o ponto de vida não foi perdido
 
 ### NelsOwned
 
-**PV 10/12 · Fadiga 10/15**
+**PV 12/12 · Fadiga 10/15**
 
 - **09/09/2026 09:52** · PV -2 — Chute do Hoel Meia-Orelha reanimado, ataque total no tronco (cap. 01)
 - **09/09/2026 12:21** · FAD -1 — Fadiga de batalha contra os mortos-vivos: Carga nenhuma, nível 0 +1 (MB pág. 134)
@@ -74,6 +81,7 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **15/09/2026 21:14** · FAD -1 — Fadiga de batalha — combate rápido no cruzamento da carroça: Carga nenhuma, nível 0 +1 (MB pág. 134)
 - **15/09/2026 21:19** · FAD -1 — Segunda falha no teste de ST para erguer a carroça (MB pág. 89: falha em teste de esforço custa 1 ponto de ST por Fadiga)
 - **15/09/2026 22:46** · FAD -1 — Fadiga de batalha — segundo combate rápido no cruzamento da carroça: Carga nenhuma, nível 0 +1 (MB pág. 134)
+- **16/09/2026 22:04** · PV +2 — Primeiros Socorros do Irmão Kaelric na cisterna, antes de subir (NH 13 +1 do kit = 14, passou por 0; cura 1d-3 = 3, limitada aos 2 que faltavam)
 
 ## NPCs
 
@@ -99,6 +107,13 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **09/09/2026 12:00** · PV -15 — Machadada de NelsOwned na cabeça, ataque total: 15 pontos numa criatura de HT 10 (cap. 01)
 - **09/09/2026 12:00** · curado — DE PÉ em L5
 - **09/09/2026 12:00** · estado — **DECAPITADO** em L5 pelo machado grande de NelsOwned (cap. 01), no turno seguinte ao em que se levantou. Mesmo critério do Morto-Vivo 1: 15 pontos, 1,5 x HT, numa criatura de HT 10. Destruído de vez: não se levanta, não volta
+
+### Lanceiro
+
+**PV -5 · Fadiga —**  ·  ****PERNA ESQUERDA INCAPACITADA** por golpe de espada curta vindo de baixo da grade (cap. 03). Não anda nem sustenta o próprio peso; combate deitado ou escorado, -4 no ataque e -3 nas defesas ativas. **Caiu da linha**, e o ponto de trava dele está aberto**
+
+- **17/09/2026 11:43** · PV -5 — Espada curta de Morto-Vivo 3 pelo vão sob a grade: 7 de corte, +50% = 10, limitado ao teto HT/2 = 5 (cap. 03)
+- **17/09/2026 11:43** · estado — **PERNA ESQUERDA INCAPACITADA** por golpe de espada curta vindo de baixo da grade (cap. 03). Não anda nem sustenta o próprio peso; combate deitado ou escorado, -4 no ataque e -3 nas defesas ativas. **Caiu da linha**, e o ponto de trava dele está aberto
 
 ### Morto-Vivo 1
 
@@ -140,3 +155,10 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **09/09/2026 12:14** · curado — Perna decepada pelo montante
 - **09/09/2026 12:14** · estado — **DESTRUÍDO** pelo montante do Negrum Carneiriums (decisão do Mestre, cap. 01), caído entre K9 e J9. Não foi decapitado: o corpo está inteiro, com a perna já decepada antes, e simplesmente parou de se mexer. Não se levanta, não volta
 - **09/09/2026 12:17** · PV -7 — Golpe de montante do Negrum na cabeça (números escolhidos pelo Mestre, não rolados): 2d+2 = 5, corte = 7 (cap. 01)
+
+### Osric de Bannock
+
+**PV -4 · Fadiga —**  ·  **DESARMADO — a espada curta caiu no golpe fulminante (Tabela 15). Apanhá-la do chão exige DOIS turnos (MB pág. 104). Até lá: sem Aparar e sem ataque; restam Bloqueio 10 com o escudo e Esquiva 7**
+
+- **17/09/2026 17:53** · PV -4 — Estocada fulminante pela fresta da grade, no tronco (cap. 03, turno 3)
+- **17/09/2026 17:53** · estado — DESARMADO — a espada curta caiu no golpe fulminante (Tabela 15). Apanhá-la do chão exige DOIS turnos (MB pág. 104). Até lá: sem Aparar e sem ataque; restam Bloqueio 10 com o escudo e Esquiva 7

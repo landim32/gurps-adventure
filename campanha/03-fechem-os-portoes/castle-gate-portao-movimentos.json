@@ -1,0 +1,2945 @@
+{
+  "mapa": "castle-gate-portao.png",
+  "movimentos": [
+    {
+      "n": 1,
+      "quando": "16/09/2026 22:11:46",
+      "acoes": [
+        "colocou Negrum Carneiriums -> K5, olhando K7 (aresta S), aura azul",
+        "colocou Comam Obabaroy -> J5, olhando J7 (aresta S), aura azul",
+        "colocou NelsOwned -> L5, olhando L7 (aresta S), aura azul",
+        "colocou Jah Kagadu -> I5, olhando I7 (aresta S), aura azul",
+        "colocou Irmão Kaelric -> M5, olhando M7 (aresta S), aura azul",
+        "colocou Osric de Bannock -> J6, olhando J7 (aresta S), aura vermelha",
+        "colocou Guarda Lanca -> L6, olhando L7 (aresta S), aura vermelha",
+        "colocou Guarda Duas-Lancas -> K6, olhando K7 (aresta S), aura vermelha",
+        "colocou Guarda Ferido -> N6, olhando M7 (aresta SW), aura vermelha",
+        "colocou Donnwulf -> K4, olhando K7 (aresta S), aura vermelha"
+      ],
+      "ocupacao": {
+        "K5": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "K7"
+        },
+        "J5": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "S",
+          "olhando": "J7"
+        },
+        "L5": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "S",
+          "olhando": "L7"
+        },
+        "I5": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "S",
+          "olhando": "I7"
+        },
+        "M5": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "tokens/monge-touca-cacetes.png",
+          "frente": "S",
+          "olhando": "M7"
+        },
+        "J6": {
+          "tipo": "npc",
+          "quem": "Osric de Bannock",
+          "token": "tokens/soldado-elmo-escudo-dragao.png",
+          "frente": "S",
+          "olhando": "J7"
+        },
+        "L6": {
+          "tipo": "npc",
+          "quem": "Guarda Lanca",
+          "token": "tokens/guerreiro-lanca-e-escudo.png",
+          "frente": "S",
+          "olhando": "L7"
+        },
+        "K6": {
+          "tipo": "npc",
+          "quem": "Guarda Duas-Lancas",
+          "token": "tokens/soldado-elmo-duas-lancas.png",
+          "frente": "S",
+          "olhando": "K7"
+        },
+        "N6": {
+          "tipo": "npc",
+          "quem": "Guarda Ferido",
+          "token": "tokens/espadachim-zarolho-estoque.png",
+          "frente": "SW",
+          "olhando": "M7"
+        },
+        "K4": {
+          "tipo": "npc",
+          "quem": "Donnwulf",
+          "token": "tokens/campones-foice-e-feixes.png",
+          "frente": "S",
+          "olhando": "K7"
+        }
+      }
+    },
+    {
+      "n": 2,
+      "quando": "16/09/2026 22:12:15",
+      "acoes": [
+        "limpou o mapa"
+      ],
+      "ocupacao": {}
+    },
+    {
+      "n": 3,
+      "quando": "16/09/2026 22:12:15",
+      "acoes": [
+        "colocou Comam Obabaroy -> I5, olhando I7 (aresta S), aura azul",
+        "colocou Negrum Carneiriums -> K4, olhando K7 (aresta S), aura azul",
+        "colocou NelsOwned -> M5, olhando M7 (aresta S), aura azul",
+        "colocou Jah Kagadu -> H4, olhando I7 (aresta S), aura azul",
+        "colocou Irmão Kaelric -> K2, olhando K7 (aresta S), aura azul",
+        "colocou Osric -> J6, olhando J7 (aresta S), aura vermelha",
+        "colocou Lanceiro -> L6, olhando L7 (aresta S), aura vermelha",
+        "colocou Piqueiro -> N6, olhando N7 (aresta S), aura vermelha",
+        "colocou Ferido -> P5, olhando N7 (aresta SW), aura vermelha",
+        "colocou Donnwulf -> M3, olhando M7 (aresta S), aura vermelha"
+      ],
+      "ocupacao": {
+        "I5": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "S",
+          "olhando": "I7"
+        },
+        "K4": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "K7"
+        },
+        "M5": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "S",
+          "olhando": "M7"
+        },
+        "H4": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "S",
+          "olhando": "I7"
+        },
+        "K2": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "tokens/monge-touca-cacetes.png",
+          "frente": "S",
+          "olhando": "K7"
+        },
+        "J6": {
+          "tipo": "npc",
+          "quem": "Osric",
+          "token": "tokens/soldado-elmo-escudo-dragao.png",
+          "frente": "S",
+          "olhando": "J7"
+        },
+        "L6": {
+          "tipo": "npc",
+          "quem": "Lanceiro",
+          "token": "tokens/guerreiro-lanca-e-escudo.png",
+          "frente": "S",
+          "olhando": "L7"
+        },
+        "N6": {
+          "tipo": "npc",
+          "quem": "Piqueiro",
+          "token": "tokens/soldado-elmo-duas-lancas.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "P5": {
+          "tipo": "npc",
+          "quem": "Ferido",
+          "token": "tokens/espadachim-zarolho-estoque.png",
+          "frente": "SW",
+          "olhando": "N7"
+        },
+        "M3": {
+          "tipo": "npc",
+          "quem": "Donnwulf",
+          "token": "tokens/campones-foice-e-feixes.png",
+          "frente": "S",
+          "olhando": "M7"
+        }
+      }
+    },
+    {
+      "n": 4,
+      "quando": "16/09/2026 22:18:00",
+      "acoes": [
+        "colocou Irmão Kaelric -> K2, olhando K7 (aresta S), aura azul",
+        "colocou Z1 -> I7, olhando I6 (aresta N), aura vermelha",
+        "colocou Z2 -> J7, olhando J6 (aresta N), aura vermelha",
+        "colocou Z3 -> K7, olhando K6 (aresta N), aura vermelha",
+        "colocou Z4 -> L7, olhando L6 (aresta N), aura vermelha",
+        "colocou Z5 -> M7, olhando M6 (aresta N), aura vermelha",
+        "colocou Z6 -> N7, olhando N6 (aresta N), aura vermelha",
+        "colocou Z7 -> I8, olhando I6 (aresta N), aura vermelha",
+        "colocou Z8 -> J8, olhando J6 (aresta N), aura vermelha",
+        "colocou Z9 -> K8, olhando K6 (aresta N), aura vermelha",
+        "colocou Z10 -> L8, olhando L6 (aresta N), aura vermelha",
+        "colocou Z11 -> M8, olhando M6 (aresta N), aura vermelha",
+        "colocou Z12 -> N8, olhando N6 (aresta N), aura vermelha",
+        "colocou Z13 -> I9, olhando I6 (aresta N), aura vermelha",
+        "colocou Z14 -> J9, olhando J6 (aresta N), aura vermelha",
+        "colocou Z15 -> K9, olhando K6 (aresta N), aura vermelha",
+        "colocou Z16 -> L9, olhando L6 (aresta N), aura vermelha",
+        "colocou Z17 -> M9, olhando M6 (aresta N), aura vermelha",
+        "colocou Z18 -> N9, olhando N6 (aresta N), aura vermelha"
+      ],
+      "ocupacao": {
+        "I5": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "S",
+          "olhando": "I7"
+        },
+        "K4": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "K7"
+        },
+        "M5": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "S",
+          "olhando": "M7"
+        },
+        "H4": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "S",
+          "olhando": "I7"
+        },
+        "K2": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "personagens/irmao-kaelric/token-hex.png",
+          "frente": "S",
+          "olhando": "K7"
+        },
+        "J6": {
+          "tipo": "npc",
+          "quem": "Osric",
+          "token": "tokens/soldado-elmo-escudo-dragao.png",
+          "frente": "S",
+          "olhando": "J7"
+        },
+        "L6": {
+          "tipo": "npc",
+          "quem": "Lanceiro",
+          "token": "tokens/guerreiro-lanca-e-escudo.png",
+          "frente": "S",
+          "olhando": "L7"
+        },
+        "N6": {
+          "tipo": "npc",
+          "quem": "Piqueiro",
+          "token": "tokens/soldado-elmo-duas-lancas.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "P5": {
+          "tipo": "npc",
+          "quem": "Ferido",
+          "token": "tokens/espadachim-zarolho-estoque.png",
+          "frente": "SW",
+          "olhando": "N7"
+        },
+        "M3": {
+          "tipo": "npc",
+          "quem": "Donnwulf",
+          "token": "tokens/campones-foice-e-feixes.png",
+          "frente": "S",
+          "olhando": "M7"
+        },
+        "I7": {
+          "tipo": "npc",
+          "quem": "Z1",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "I6"
+        },
+        "J7": {
+          "tipo": "npc",
+          "quem": "Z2",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "J6"
+        },
+        "K7": {
+          "tipo": "npc",
+          "quem": "Z3",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "K6"
+        },
+        "L7": {
+          "tipo": "npc",
+          "quem": "Z4",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "L6"
+        },
+        "M7": {
+          "tipo": "npc",
+          "quem": "Z5",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "M6"
+        },
+        "N7": {
+          "tipo": "npc",
+          "quem": "Z6",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "N6"
+        },
+        "I8": {
+          "tipo": "npc",
+          "quem": "Z7",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "I6"
+        },
+        "J8": {
+          "tipo": "npc",
+          "quem": "Z8",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "J6"
+        },
+        "K8": {
+          "tipo": "npc",
+          "quem": "Z9",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "K6"
+        },
+        "L8": {
+          "tipo": "npc",
+          "quem": "Z10",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "L6"
+        },
+        "M8": {
+          "tipo": "npc",
+          "quem": "Z11",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "M6"
+        },
+        "N8": {
+          "tipo": "npc",
+          "quem": "Z12",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "N6"
+        },
+        "I9": {
+          "tipo": "npc",
+          "quem": "Z13",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "I6"
+        },
+        "J9": {
+          "tipo": "npc",
+          "quem": "Z14",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "J6"
+        },
+        "K9": {
+          "tipo": "npc",
+          "quem": "Z15",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "K6"
+        },
+        "L9": {
+          "tipo": "npc",
+          "quem": "Z16",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "L6"
+        },
+        "M9": {
+          "tipo": "npc",
+          "quem": "Z17",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "M6"
+        },
+        "N9": {
+          "tipo": "npc",
+          "quem": "Z18",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "N6"
+        }
+      }
+    },
+    {
+      "n": 5,
+      "quando": "16/09/2026 22:20:52",
+      "acoes": [
+        "colocou Comam Obabaroy -> O1, olhando N7 (aresta S), aura azul",
+        "colocou Negrum Carneiriums -> P1, olhando N7 (aresta S), aura azul",
+        "colocou NelsOwned -> Q1, olhando N7 (aresta S), aura azul",
+        "colocou Jah Kagadu -> O2, olhando N7 (aresta S), aura azul",
+        "colocou Irmão Kaelric -> P2, olhando N7 (aresta S), aura azul",
+        "colocou Donnwulf -> Q2, olhando N7 (aresta S), aura vermelha",
+        "colocou Osric -> J6, olhando J7 (aresta S), aura vermelha",
+        "colocou Lanceiro -> L6, olhando L7 (aresta S), aura vermelha",
+        "colocou Piqueiro -> N6, olhando N7 (aresta S), aura vermelha",
+        "colocou Ferido -> P5, olhando N7 (aresta SW), aura vermelha",
+        "colocou Z1 -> I7, olhando I6 (aresta N), aura vermelha",
+        "colocou Z2 -> J7, olhando J6 (aresta N), aura vermelha",
+        "colocou Z3 -> K7, olhando K6 (aresta N), aura vermelha",
+        "colocou Z4 -> L7, olhando L6 (aresta N), aura vermelha",
+        "colocou Z5 -> M7, olhando M6 (aresta N), aura vermelha",
+        "colocou Z6 -> N7, olhando N6 (aresta N), aura vermelha",
+        "colocou Z7 -> I8, olhando I6 (aresta N), aura vermelha",
+        "colocou Z8 -> J8, olhando J6 (aresta N), aura vermelha",
+        "colocou Z9 -> K8, olhando K6 (aresta N), aura vermelha",
+        "colocou Z10 -> L8, olhando L6 (aresta N), aura vermelha",
+        "colocou Z11 -> M8, olhando M6 (aresta N), aura vermelha",
+        "colocou Z12 -> N8, olhando N6 (aresta N), aura vermelha",
+        "colocou Z13 -> I9, olhando I6 (aresta N), aura vermelha",
+        "colocou Z14 -> J9, olhando J6 (aresta N), aura vermelha",
+        "colocou Z15 -> K9, olhando K6 (aresta N), aura vermelha",
+        "colocou Z16 -> L9, olhando L6 (aresta N), aura vermelha",
+        "colocou Z17 -> M9, olhando M6 (aresta N), aura vermelha",
+        "colocou Z18 -> N9, olhando N6 (aresta N), aura vermelha",
+        "colocou Z19 -> I10, olhando I6 (aresta N), aura vermelha",
+        "colocou Z20 -> J10, olhando J6 (aresta N), aura vermelha",
+        "colocou Z21 -> K10, olhando K6 (aresta N), aura vermelha",
+        "colocou Z22 -> L10, olhando L6 (aresta N), aura vermelha",
+        "colocou Z23 -> M10, olhando M6 (aresta N), aura vermelha",
+        "colocou Z24 -> N10, olhando N6 (aresta N), aura vermelha",
+        "colocou Z25 -> I11, olhando I6 (aresta N), aura vermelha",
+        "colocou Z26 -> J11, olhando J6 (aresta N), aura vermelha",
+        "colocou Z27 -> K11, olhando K6 (aresta N), aura vermelha",
+        "colocou Z28 -> L11, olhando L6 (aresta N), aura vermelha",
+        "colocou Z29 -> M11, olhando M6 (aresta N), aura vermelha",
+        "colocou Z30 -> N11, olhando N6 (aresta N), aura vermelha",
+        "colocou Z31 -> I12, olhando I6 (aresta N), aura vermelha",
+        "colocou Z32 -> J12, olhando J6 (aresta N), aura vermelha",
+        "colocou Z33 -> K12, olhando K6 (aresta N), aura vermelha",
+        "colocou Z34 -> L12, olhando L6 (aresta N), aura vermelha",
+        "colocou Z35 -> M12, olhando M6 (aresta N), aura vermelha",
+        "colocou Z36 -> N12, olhando N6 (aresta N), aura vermelha",
+        "colocou Z37 -> I13, olhando I6 (aresta N), aura vermelha",
+        "colocou Z38 -> J13, olhando J6 (aresta N), aura vermelha",
+        "colocou Z39 -> K13, olhando K6 (aresta N), aura vermelha",
+        "colocou Z40 -> L13, olhando L6 (aresta N), aura vermelha",
+        "colocou Z41 -> M13, olhando M6 (aresta N), aura vermelha",
+        "colocou Z42 -> N13, olhando N6 (aresta N), aura vermelha"
+      ],
+      "ocupacao": {
+        "O1": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "P1": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "Q1": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "O2": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "P2": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "personagens/irmao-kaelric/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "Q2": {
+          "tipo": "npc",
+          "quem": "Donnwulf",
+          "token": "tokens/campones-foice-e-feixes.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "J6": {
+          "tipo": "npc",
+          "quem": "Osric",
+          "token": "tokens/soldado-elmo-escudo-dragao.png",
+          "frente": "S",
+          "olhando": "J7"
+        },
+        "L6": {
+          "tipo": "npc",
+          "quem": "Lanceiro",
+          "token": "tokens/guerreiro-lanca-e-escudo.png",
+          "frente": "S",
+          "olhando": "L7"
+        },
+        "N6": {
+          "tipo": "npc",
+          "quem": "Piqueiro",
+          "token": "tokens/soldado-elmo-duas-lancas.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "P5": {
+          "tipo": "npc",
+          "quem": "Ferido",
+          "token": "tokens/espadachim-zarolho-estoque.png",
+          "frente": "SW",
+          "olhando": "N7"
+        },
+        "I7": {
+          "tipo": "npc",
+          "quem": "Z1",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "I6"
+        },
+        "J7": {
+          "tipo": "npc",
+          "quem": "Z2",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "J6"
+        },
+        "K7": {
+          "tipo": "npc",
+          "quem": "Z3",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "K6"
+        },
+        "L7": {
+          "tipo": "npc",
+          "quem": "Z4",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "L6"
+        },
+        "M7": {
+          "tipo": "npc",
+          "quem": "Z5",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "M6"
+        },
+        "N7": {
+          "tipo": "npc",
+          "quem": "Z6",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "N6"
+        },
+        "I8": {
+          "tipo": "npc",
+          "quem": "Z7",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "I6"
+        },
+        "J8": {
+          "tipo": "npc",
+          "quem": "Z8",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "J6"
+        },
+        "K8": {
+          "tipo": "npc",
+          "quem": "Z9",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "K6"
+        },
+        "L8": {
+          "tipo": "npc",
+          "quem": "Z10",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "L6"
+        },
+        "M8": {
+          "tipo": "npc",
+          "quem": "Z11",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "M6"
+        },
+        "N8": {
+          "tipo": "npc",
+          "quem": "Z12",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "N6"
+        },
+        "I9": {
+          "tipo": "npc",
+          "quem": "Z13",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "I6"
+        },
+        "J9": {
+          "tipo": "npc",
+          "quem": "Z14",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "J6"
+        },
+        "K9": {
+          "tipo": "npc",
+          "quem": "Z15",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "K6"
+        },
+        "L9": {
+          "tipo": "npc",
+          "quem": "Z16",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "L6"
+        },
+        "M9": {
+          "tipo": "npc",
+          "quem": "Z17",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "M6"
+        },
+        "N9": {
+          "tipo": "npc",
+          "quem": "Z18",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "N6"
+        },
+        "I10": {
+          "tipo": "npc",
+          "quem": "Z19",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "I6"
+        },
+        "J10": {
+          "tipo": "npc",
+          "quem": "Z20",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "J6"
+        },
+        "K10": {
+          "tipo": "npc",
+          "quem": "Z21",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "K6"
+        },
+        "L10": {
+          "tipo": "npc",
+          "quem": "Z22",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "L6"
+        },
+        "M10": {
+          "tipo": "npc",
+          "quem": "Z23",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "M6"
+        },
+        "N10": {
+          "tipo": "npc",
+          "quem": "Z24",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "N6"
+        },
+        "I11": {
+          "tipo": "npc",
+          "quem": "Z25",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "I6"
+        },
+        "J11": {
+          "tipo": "npc",
+          "quem": "Z26",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "J6"
+        },
+        "K11": {
+          "tipo": "npc",
+          "quem": "Z27",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "K6"
+        },
+        "L11": {
+          "tipo": "npc",
+          "quem": "Z28",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "L6"
+        },
+        "M11": {
+          "tipo": "npc",
+          "quem": "Z29",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "M6"
+        },
+        "N11": {
+          "tipo": "npc",
+          "quem": "Z30",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "N6"
+        },
+        "I12": {
+          "tipo": "npc",
+          "quem": "Z31",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "I6"
+        },
+        "J12": {
+          "tipo": "npc",
+          "quem": "Z32",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "J6"
+        },
+        "K12": {
+          "tipo": "npc",
+          "quem": "Z33",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "K6"
+        },
+        "L12": {
+          "tipo": "npc",
+          "quem": "Z34",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "L6"
+        },
+        "M12": {
+          "tipo": "npc",
+          "quem": "Z35",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "M6"
+        },
+        "N12": {
+          "tipo": "npc",
+          "quem": "Z36",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "N6"
+        },
+        "I13": {
+          "tipo": "npc",
+          "quem": "Z37",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "I6"
+        },
+        "J13": {
+          "tipo": "npc",
+          "quem": "Z38",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "J6"
+        },
+        "K13": {
+          "tipo": "npc",
+          "quem": "Z39",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "K6"
+        },
+        "L13": {
+          "tipo": "npc",
+          "quem": "Z40",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "L6"
+        },
+        "M13": {
+          "tipo": "npc",
+          "quem": "Z41",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "M6"
+        },
+        "N13": {
+          "tipo": "npc",
+          "quem": "Z42",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "N6"
+        }
+      }
+    },
+    {
+      "n": 6,
+      "quando": "16/09/2026 22:23:09",
+      "acoes": [
+        "colocou Comam Obabaroy -> O1, olhando N7 (aresta S), aura azul",
+        "colocou Negrum Carneiriums -> P1, olhando N7 (aresta S), aura azul",
+        "colocou NelsOwned -> Q1, olhando N7 (aresta S), aura azul",
+        "colocou Jah Kagadu -> O2, olhando N7 (aresta S), aura azul",
+        "colocou Irmão Kaelric -> P2, olhando N7 (aresta S), aura azul",
+        "colocou Donnwulf -> Q2, olhando N7 (aresta S), aura vermelha",
+        "colocou Osric -> J6, olhando J7 (aresta S), aura vermelha",
+        "colocou Lanceiro -> L6, olhando L7 (aresta S), aura vermelha",
+        "colocou Piqueiro -> N6, olhando N7 (aresta S), aura vermelha",
+        "colocou Ferido -> P5, olhando N7 (aresta SW), aura vermelha",
+        "colocou Z1 -> I7, olhando I6 (aresta N), aura vermelha",
+        "colocou Z2 -> J7, olhando J6 (aresta N), aura vermelha",
+        "colocou Z3 -> K7, olhando K6 (aresta N), aura vermelha",
+        "colocou Z4 -> L7, olhando L6 (aresta N), aura vermelha",
+        "colocou Z5 -> M7, olhando M6 (aresta N), aura vermelha",
+        "colocou Z6 -> N7, olhando N6 (aresta N), aura vermelha",
+        "colocou Z7 -> I8, olhando I6 (aresta N), aura vermelha",
+        "colocou Z8 -> J8, olhando J6 (aresta N), aura vermelha",
+        "colocou Z9 -> K8, olhando K6 (aresta N), aura vermelha",
+        "colocou Z10 -> L8, olhando L6 (aresta N), aura vermelha",
+        "colocou Z11 -> M8, olhando M6 (aresta N), aura vermelha",
+        "colocou Z12 -> N8, olhando N6 (aresta N), aura vermelha",
+        "colocou Z13 -> I9, olhando I6 (aresta N), aura vermelha",
+        "colocou Z14 -> J9, olhando J6 (aresta N), aura vermelha",
+        "colocou Z15 -> K9, olhando K6 (aresta N), aura vermelha",
+        "colocou Z16 -> L9, olhando L6 (aresta N), aura vermelha",
+        "colocou Z17 -> M9, olhando M6 (aresta N), aura vermelha",
+        "colocou Z18 -> N9, olhando N6 (aresta N), aura vermelha",
+        "colocou Z19 -> I10, olhando I6 (aresta N), aura vermelha",
+        "colocou Z20 -> J10, olhando J6 (aresta N), aura vermelha",
+        "colocou Z21 -> K10, olhando K6 (aresta N), aura vermelha",
+        "colocou Z22 -> L10, olhando L6 (aresta N), aura vermelha",
+        "colocou Z23 -> M10, olhando M6 (aresta N), aura vermelha",
+        "colocou Z24 -> N10, olhando N6 (aresta N), aura vermelha",
+        "colocou Z25 -> I11, olhando I6 (aresta N), aura vermelha",
+        "colocou Z26 -> J11, olhando J6 (aresta N), aura vermelha",
+        "colocou Z27 -> K11, olhando K6 (aresta N), aura vermelha",
+        "colocou Z28 -> L11, olhando L6 (aresta N), aura vermelha",
+        "colocou Z29 -> M11, olhando M6 (aresta N), aura vermelha",
+        "colocou Z30 -> N11, olhando N6 (aresta N), aura vermelha",
+        "colocou Z31 -> I12, olhando I6 (aresta N), aura vermelha",
+        "colocou Z32 -> J12, olhando J6 (aresta N), aura vermelha",
+        "colocou Z33 -> K12, olhando K6 (aresta N), aura vermelha",
+        "colocou Z34 -> L12, olhando L6 (aresta N), aura vermelha",
+        "colocou Z35 -> M12, olhando M6 (aresta N), aura vermelha",
+        "colocou Z36 -> N12, olhando N6 (aresta N), aura vermelha",
+        "colocou Z37 -> I13, olhando I6 (aresta N), aura vermelha",
+        "colocou Z38 -> J13, olhando J6 (aresta N), aura vermelha",
+        "colocou Z39 -> K13, olhando K6 (aresta N), aura vermelha",
+        "colocou Z40 -> L13, olhando L6 (aresta N), aura vermelha",
+        "colocou Z41 -> M13, olhando M6 (aresta N), aura vermelha",
+        "colocou Z42 -> N13, olhando N6 (aresta N), aura vermelha"
+      ],
+      "ocupacao": {
+        "O1": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "P1": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "Q1": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "O2": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "P2": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "personagens/irmao-kaelric/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "Q2": {
+          "tipo": "npc",
+          "quem": "Donnwulf",
+          "token": "tokens/campones-foice-e-feixes.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "J6": {
+          "tipo": "npc",
+          "quem": "Osric",
+          "token": "tokens/soldado-elmo-escudo-dragao.png",
+          "frente": "S",
+          "olhando": "J7"
+        },
+        "L6": {
+          "tipo": "npc",
+          "quem": "Lanceiro",
+          "token": "tokens/guerreiro-lanca-e-escudo.png",
+          "frente": "S",
+          "olhando": "L7"
+        },
+        "N6": {
+          "tipo": "npc",
+          "quem": "Piqueiro",
+          "token": "tokens/soldado-elmo-duas-lancas.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "P5": {
+          "tipo": "npc",
+          "quem": "Ferido",
+          "token": "tokens/espadachim-zarolho-estoque.png",
+          "frente": "SW",
+          "olhando": "N7"
+        },
+        "I7": {
+          "tipo": "npc",
+          "quem": "Z1",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "I6",
+          "sem_nome": true
+        },
+        "J7": {
+          "tipo": "npc",
+          "quem": "Z2",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "J6",
+          "sem_nome": true
+        },
+        "K7": {
+          "tipo": "npc",
+          "quem": "Z3",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "K6",
+          "sem_nome": true
+        },
+        "L7": {
+          "tipo": "npc",
+          "quem": "Z4",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "L6",
+          "sem_nome": true
+        },
+        "M7": {
+          "tipo": "npc",
+          "quem": "Z5",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "M6",
+          "sem_nome": true
+        },
+        "N7": {
+          "tipo": "npc",
+          "quem": "Z6",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "N6",
+          "sem_nome": true
+        },
+        "I8": {
+          "tipo": "npc",
+          "quem": "Z7",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "I6",
+          "sem_nome": true
+        },
+        "J8": {
+          "tipo": "npc",
+          "quem": "Z8",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "J6",
+          "sem_nome": true
+        },
+        "K8": {
+          "tipo": "npc",
+          "quem": "Z9",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "K6",
+          "sem_nome": true
+        },
+        "L8": {
+          "tipo": "npc",
+          "quem": "Z10",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "L6",
+          "sem_nome": true
+        },
+        "M8": {
+          "tipo": "npc",
+          "quem": "Z11",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "M6",
+          "sem_nome": true
+        },
+        "N8": {
+          "tipo": "npc",
+          "quem": "Z12",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "N6",
+          "sem_nome": true
+        },
+        "I9": {
+          "tipo": "npc",
+          "quem": "Z13",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "I6",
+          "sem_nome": true
+        },
+        "J9": {
+          "tipo": "npc",
+          "quem": "Z14",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "J6",
+          "sem_nome": true
+        },
+        "K9": {
+          "tipo": "npc",
+          "quem": "Z15",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "K6",
+          "sem_nome": true
+        },
+        "L9": {
+          "tipo": "npc",
+          "quem": "Z16",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "L6",
+          "sem_nome": true
+        },
+        "M9": {
+          "tipo": "npc",
+          "quem": "Z17",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "M6",
+          "sem_nome": true
+        },
+        "N9": {
+          "tipo": "npc",
+          "quem": "Z18",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "N6",
+          "sem_nome": true
+        },
+        "I10": {
+          "tipo": "npc",
+          "quem": "Z19",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "I6",
+          "sem_nome": true
+        },
+        "J10": {
+          "tipo": "npc",
+          "quem": "Z20",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "J6",
+          "sem_nome": true
+        },
+        "K10": {
+          "tipo": "npc",
+          "quem": "Z21",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "K6",
+          "sem_nome": true
+        },
+        "L10": {
+          "tipo": "npc",
+          "quem": "Z22",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "L6",
+          "sem_nome": true
+        },
+        "M10": {
+          "tipo": "npc",
+          "quem": "Z23",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "M6",
+          "sem_nome": true
+        },
+        "N10": {
+          "tipo": "npc",
+          "quem": "Z24",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "N6",
+          "sem_nome": true
+        },
+        "I11": {
+          "tipo": "npc",
+          "quem": "Z25",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "I6",
+          "sem_nome": true
+        },
+        "J11": {
+          "tipo": "npc",
+          "quem": "Z26",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "J6",
+          "sem_nome": true
+        },
+        "K11": {
+          "tipo": "npc",
+          "quem": "Z27",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "K6",
+          "sem_nome": true
+        },
+        "L11": {
+          "tipo": "npc",
+          "quem": "Z28",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "L6",
+          "sem_nome": true
+        },
+        "M11": {
+          "tipo": "npc",
+          "quem": "Z29",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "M6",
+          "sem_nome": true
+        },
+        "N11": {
+          "tipo": "npc",
+          "quem": "Z30",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "N6",
+          "sem_nome": true
+        },
+        "I12": {
+          "tipo": "npc",
+          "quem": "Z31",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "I6",
+          "sem_nome": true
+        },
+        "J12": {
+          "tipo": "npc",
+          "quem": "Z32",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "J6",
+          "sem_nome": true
+        },
+        "K12": {
+          "tipo": "npc",
+          "quem": "Z33",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "K6",
+          "sem_nome": true
+        },
+        "L12": {
+          "tipo": "npc",
+          "quem": "Z34",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "L6",
+          "sem_nome": true
+        },
+        "M12": {
+          "tipo": "npc",
+          "quem": "Z35",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "M6",
+          "sem_nome": true
+        },
+        "N12": {
+          "tipo": "npc",
+          "quem": "Z36",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "N6",
+          "sem_nome": true
+        },
+        "I13": {
+          "tipo": "npc",
+          "quem": "Z37",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "I6",
+          "sem_nome": true
+        },
+        "J13": {
+          "tipo": "npc",
+          "quem": "Z38",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "J6",
+          "sem_nome": true
+        },
+        "K13": {
+          "tipo": "npc",
+          "quem": "Z39",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "K6",
+          "sem_nome": true
+        },
+        "L13": {
+          "tipo": "npc",
+          "quem": "Z40",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "L6",
+          "sem_nome": true
+        },
+        "M13": {
+          "tipo": "npc",
+          "quem": "Z41",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "M6",
+          "sem_nome": true
+        },
+        "N13": {
+          "tipo": "npc",
+          "quem": "Z42",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "N6",
+          "sem_nome": true
+        }
+      }
+    },
+    {
+      "n": 7,
+      "quando": "16/09/2026 22:30:49",
+      "acoes": [
+        "limpou o mapa"
+      ],
+      "ocupacao": {}
+    },
+    {
+      "n": 8,
+      "quando": "16/09/2026 22:30:59",
+      "acoes": [
+        "colocou Comam Obabaroy -> O1, olhando N7 (aresta S), aura azul",
+        "colocou Negrum Carneiriums -> P1, olhando N7 (aresta S), aura azul",
+        "colocou NelsOwned -> Q1, olhando N7 (aresta S), aura azul",
+        "colocou Jah Kagadu -> O2, olhando N7 (aresta S), aura azul",
+        "colocou Irmão Kaelric -> P2, olhando N7 (aresta S), aura azul",
+        "colocou Donnwulf -> Q2, olhando N7 (aresta S), aura vermelha",
+        "colocou Osric -> J6, olhando J7 (aresta S), aura vermelha",
+        "colocou Lanceiro -> L6, olhando L7 (aresta S), aura vermelha",
+        "colocou Piqueiro -> N6, olhando N7 (aresta S), aura vermelha",
+        "colocou Ferido -> P5, olhando N7 (aresta SW), aura vermelha"
+      ],
+      "ocupacao": {
+        "O1": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "P1": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "Q1": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "O2": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "P2": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "personagens/irmao-kaelric/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "Q2": {
+          "tipo": "npc",
+          "quem": "Donnwulf",
+          "token": "tokens/campones-foice-e-feixes.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "J6": {
+          "tipo": "npc",
+          "quem": "Osric",
+          "token": "tokens/soldado-elmo-escudo-dragao.png",
+          "frente": "S",
+          "olhando": "J7"
+        },
+        "L6": {
+          "tipo": "npc",
+          "quem": "Lanceiro",
+          "token": "tokens/guerreiro-lanca-e-escudo.png",
+          "frente": "S",
+          "olhando": "L7"
+        },
+        "N6": {
+          "tipo": "npc",
+          "quem": "Piqueiro",
+          "token": "tokens/soldado-elmo-duas-lancas.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "P5": {
+          "tipo": "npc",
+          "quem": "Ferido",
+          "token": "tokens/espadachim-zarolho-estoque.png",
+          "frente": "SW",
+          "olhando": "N7"
+        }
+      }
+    },
+    {
+      "n": 9,
+      "quando": "16/09/2026 22:33:29",
+      "acoes": [
+        "redesenhou"
+      ],
+      "ocupacao": {
+        "O1": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "P1": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "Q1": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "O2": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "P2": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "personagens/irmao-kaelric/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "Q2": {
+          "tipo": "npc",
+          "quem": "Donnwulf",
+          "token": "tokens/campones-foice-e-feixes.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "J6": {
+          "tipo": "npc",
+          "quem": "Osric",
+          "token": "tokens/soldado-elmo-escudo-dragao.png",
+          "frente": "S",
+          "olhando": "J7"
+        },
+        "L6": {
+          "tipo": "npc",
+          "quem": "Lanceiro",
+          "token": "tokens/guerreiro-lanca-e-escudo.png",
+          "frente": "S",
+          "olhando": "L7"
+        },
+        "N6": {
+          "tipo": "npc",
+          "quem": "Piqueiro",
+          "token": "tokens/soldado-elmo-duas-lancas.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "P5": {
+          "tipo": "npc",
+          "quem": "Ferido",
+          "token": "tokens/espadachim-zarolho-estoque.png",
+          "frente": "SW",
+          "olhando": "N7"
+        },
+        "P6": {
+          "tipo": "npc",
+          "quem": "Guincheiro",
+          "token": "tokens/campones-foice-e-feixes.png",
+          "frente": "S",
+          "olhando": "P7"
+        },
+        "Q6": {
+          "tipo": "npc",
+          "quem": "Torneiro",
+          "token": "tokens/campones-foice-e-feixes.png",
+          "frente": "S",
+          "olhando": "P7"
+        }
+      }
+    },
+    {
+      "n": 10,
+      "quando": "17/09/2026 08:57:44",
+      "acoes": [
+        "removeu quem estava em P6",
+        "removeu quem estava em Q6"
+      ],
+      "ocupacao": {
+        "O1": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "P1": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "Q1": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "O2": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "P2": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "personagens/irmao-kaelric/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "Q2": {
+          "tipo": "npc",
+          "quem": "Donnwulf",
+          "token": "tokens/campones-foice-e-feixes.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "J6": {
+          "tipo": "npc",
+          "quem": "Osric",
+          "token": "tokens/soldado-elmo-escudo-dragao.png",
+          "frente": "S",
+          "olhando": "J7"
+        },
+        "L6": {
+          "tipo": "npc",
+          "quem": "Lanceiro",
+          "token": "tokens/guerreiro-lanca-e-escudo.png",
+          "frente": "S",
+          "olhando": "L7"
+        },
+        "N6": {
+          "tipo": "npc",
+          "quem": "Piqueiro",
+          "token": "tokens/soldado-elmo-duas-lancas.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "P5": {
+          "tipo": "npc",
+          "quem": "Ferido",
+          "token": "tokens/espadachim-zarolho-estoque.png",
+          "frente": "SW",
+          "olhando": "N7"
+        }
+      }
+    },
+    {
+      "n": 11,
+      "quando": "17/09/2026 09:03:31",
+      "acoes": [
+        "redesenhou"
+      ],
+      "ocupacao": {
+        "O1": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "P1": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "Q1": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "O2": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "Q2": {
+          "tipo": "npc",
+          "quem": "Donnwulf",
+          "token": "tokens/campones-foice-e-feixes.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "J6": {
+          "tipo": "npc",
+          "quem": "Osric",
+          "token": "tokens/soldado-elmo-escudo-dragao.png",
+          "frente": "S",
+          "olhando": "J7"
+        },
+        "L6": {
+          "tipo": "npc",
+          "quem": "Lanceiro",
+          "token": "tokens/guerreiro-lanca-e-escudo.png",
+          "frente": "S",
+          "olhando": "L7"
+        },
+        "N6": {
+          "tipo": "npc",
+          "quem": "Piqueiro",
+          "token": "tokens/soldado-elmo-duas-lancas.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "P5": {
+          "tipo": "npc",
+          "quem": "Ferido",
+          "token": "tokens/espadachim-zarolho-estoque.png",
+          "frente": "SW",
+          "olhando": "N7"
+        },
+        "P3": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "personagens/irmao-kaelric/token-hex.png",
+          "frente": "SW",
+          "olhando": "O4"
+        }
+      }
+    },
+    {
+      "n": 12,
+      "quando": "17/09/2026 09:19:24",
+      "acoes": [
+        "aviso: NelsOwned gastou 5 pontos de movimento (5 hexagono(s) andado(s)) de 5: cabe em um turno so com a manobra Deslocamento — quem anda mais de 1 hexagono nao ataca. Hexagono de lado ou para tras custaria 2 cada",
+        "moveu NelsOwned Q1 -> Q6, olhando Q7 (aresta S), aura azul"
+      ],
+      "ocupacao": {
+        "O1": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "P1": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "O2": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "Q2": {
+          "tipo": "npc",
+          "quem": "Donnwulf",
+          "token": "tokens/campones-foice-e-feixes.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "J6": {
+          "tipo": "npc",
+          "quem": "Osric",
+          "token": "tokens/soldado-elmo-escudo-dragao.png",
+          "frente": "S",
+          "olhando": "J7"
+        },
+        "L6": {
+          "tipo": "npc",
+          "quem": "Lanceiro",
+          "token": "tokens/guerreiro-lanca-e-escudo.png",
+          "frente": "S",
+          "olhando": "L7"
+        },
+        "N6": {
+          "tipo": "npc",
+          "quem": "Piqueiro",
+          "token": "tokens/soldado-elmo-duas-lancas.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "P5": {
+          "tipo": "npc",
+          "quem": "Ferido",
+          "token": "tokens/espadachim-zarolho-estoque.png",
+          "frente": "SW",
+          "olhando": "N7"
+        },
+        "P3": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "personagens/irmao-kaelric/token-hex.png",
+          "frente": "SW",
+          "olhando": "O4"
+        },
+        "Q6": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "S",
+          "olhando": "Q7"
+        }
+      }
+    },
+    {
+      "n": 13,
+      "quando": "17/09/2026 10:32:50",
+      "acoes": [
+        "aviso: Jah Kagadu gastou 6 pontos de movimento (1 para virar antes de sair + 5 hexagono(s) andado(s) + a virada final de 1 lado(s) sai de graca) de 7: cabe em um turno so com a manobra Deslocamento — quem anda mais de 1 hexagono nao ataca. Hexagono de lado ou para tras custaria 2 cada",
+        "moveu Jah Kagadu O2 -> K5, olhando K6 (aresta S), aura azul"
+      ],
+      "ocupacao": {
+        "O1": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "P1": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "Q2": {
+          "tipo": "npc",
+          "quem": "Donnwulf",
+          "token": "tokens/campones-foice-e-feixes.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "J6": {
+          "tipo": "npc",
+          "quem": "Osric",
+          "token": "tokens/soldado-elmo-escudo-dragao.png",
+          "frente": "S",
+          "olhando": "J7"
+        },
+        "L6": {
+          "tipo": "npc",
+          "quem": "Lanceiro",
+          "token": "tokens/guerreiro-lanca-e-escudo.png",
+          "frente": "S",
+          "olhando": "L7"
+        },
+        "N6": {
+          "tipo": "npc",
+          "quem": "Piqueiro",
+          "token": "tokens/soldado-elmo-duas-lancas.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "P5": {
+          "tipo": "npc",
+          "quem": "Ferido",
+          "token": "tokens/espadachim-zarolho-estoque.png",
+          "frente": "SW",
+          "olhando": "N7"
+        },
+        "P3": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "personagens/irmao-kaelric/token-hex.png",
+          "frente": "SW",
+          "olhando": "O4"
+        },
+        "Q6": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "S",
+          "olhando": "Q7"
+        },
+        "K5": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "S",
+          "olhando": "K6"
+        }
+      }
+    },
+    {
+      "n": 14,
+      "quando": "17/09/2026 11:19:04",
+      "acoes": [
+        "aviso: Negrum Carneiriums gastou 5 pontos de movimento (5 hexagono(s) andado(s)) de 6: cabe em um turno so com a manobra Deslocamento — quem anda mais de 1 hexagono nao ataca. Hexagono de lado ou para tras custaria 2 cada",
+        "moveu Negrum Carneiriums P1 -> N5, olhando N6 (aresta S), aura azul"
+      ],
+      "ocupacao": {
+        "O1": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "Q2": {
+          "tipo": "npc",
+          "quem": "Donnwulf",
+          "token": "tokens/campones-foice-e-feixes.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "J6": {
+          "tipo": "npc",
+          "quem": "Osric",
+          "token": "tokens/soldado-elmo-escudo-dragao.png",
+          "frente": "S",
+          "olhando": "J7"
+        },
+        "L6": {
+          "tipo": "npc",
+          "quem": "Lanceiro",
+          "token": "tokens/guerreiro-lanca-e-escudo.png",
+          "frente": "S",
+          "olhando": "L7"
+        },
+        "N6": {
+          "tipo": "npc",
+          "quem": "Piqueiro",
+          "token": "tokens/soldado-elmo-duas-lancas.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "P5": {
+          "tipo": "npc",
+          "quem": "Ferido",
+          "token": "tokens/espadachim-zarolho-estoque.png",
+          "frente": "SW",
+          "olhando": "N7"
+        },
+        "P3": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "personagens/irmao-kaelric/token-hex.png",
+          "frente": "SW",
+          "olhando": "O4"
+        },
+        "Q6": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "S",
+          "olhando": "Q7"
+        },
+        "K5": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "S",
+          "olhando": "K6"
+        },
+        "N5": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "N6"
+        }
+      }
+    },
+    {
+      "n": 15,
+      "quando": "17/09/2026 11:26:57",
+      "acoes": [
+        "aviso: Donnwulf gastaria 8 pontos de movimento (1 para virar antes de sair + 7 hexagono(s) andado(s) + a virada final de 1 lado(s) sai de graca), mas o Deslocamento dele e 5: nao cabe em um turno — seriam 2, e so com a manobra Deslocamento, sem atacar",
+        "moveu Donnwulf Q2 -> K6, olhando K7 (aresta S), aura vermelha"
+      ],
+      "ocupacao": {
+        "O1": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "J6": {
+          "tipo": "npc",
+          "quem": "Osric",
+          "token": "tokens/soldado-elmo-escudo-dragao.png",
+          "frente": "S",
+          "olhando": "J7"
+        },
+        "L6": {
+          "tipo": "npc",
+          "quem": "Lanceiro",
+          "token": "tokens/guerreiro-lanca-e-escudo.png",
+          "frente": "S",
+          "olhando": "L7"
+        },
+        "N6": {
+          "tipo": "npc",
+          "quem": "Piqueiro",
+          "token": "tokens/soldado-elmo-duas-lancas.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "P5": {
+          "tipo": "npc",
+          "quem": "Ferido",
+          "token": "tokens/espadachim-zarolho-estoque.png",
+          "frente": "SW",
+          "olhando": "N7"
+        },
+        "P3": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "personagens/irmao-kaelric/token-hex.png",
+          "frente": "SW",
+          "olhando": "O4"
+        },
+        "Q6": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "S",
+          "olhando": "Q7"
+        },
+        "K5": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "S",
+          "olhando": "K6"
+        },
+        "N5": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "N6"
+        },
+        "K6": {
+          "tipo": "npc",
+          "quem": "Donnwulf",
+          "token": "tokens/campones-foice-e-feixes.png",
+          "frente": "S",
+          "olhando": "K7"
+        }
+      }
+    },
+    {
+      "n": 16,
+      "quando": "17/09/2026 11:27:21",
+      "acoes": [
+        "aviso: Donnwulf gastaria 6 pontos de movimento (2 para virar antes de sair + 3 hexagono(s) andado(s) + 1 para virar no fim alem do lado que sai de graca), mas o Deslocamento dele e 5: nao cabe em um turno — seriam 2, e so com a manobra Deslocamento, sem atacar",
+        "moveu Donnwulf K6 -> M4, olhando L5 (aresta S), aura vermelha"
+      ],
+      "ocupacao": {
+        "O1": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "J6": {
+          "tipo": "npc",
+          "quem": "Osric",
+          "token": "tokens/soldado-elmo-escudo-dragao.png",
+          "frente": "S",
+          "olhando": "J7"
+        },
+        "L6": {
+          "tipo": "npc",
+          "quem": "Lanceiro",
+          "token": "tokens/guerreiro-lanca-e-escudo.png",
+          "frente": "S",
+          "olhando": "L7"
+        },
+        "N6": {
+          "tipo": "npc",
+          "quem": "Piqueiro",
+          "token": "tokens/soldado-elmo-duas-lancas.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "P5": {
+          "tipo": "npc",
+          "quem": "Ferido",
+          "token": "tokens/espadachim-zarolho-estoque.png",
+          "frente": "SW",
+          "olhando": "N7"
+        },
+        "P3": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "personagens/irmao-kaelric/token-hex.png",
+          "frente": "SW",
+          "olhando": "O4"
+        },
+        "Q6": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "S",
+          "olhando": "Q7"
+        },
+        "K5": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "S",
+          "olhando": "K6"
+        },
+        "N5": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "N6"
+        },
+        "M4": {
+          "tipo": "npc",
+          "quem": "Donnwulf",
+          "token": "tokens/campones-foice-e-feixes.png",
+          "frente": "S",
+          "olhando": "L5"
+        }
+      }
+    },
+    {
+      "n": 17,
+      "quando": "17/09/2026 11:27:36",
+      "acoes": [
+        "voltou ao estado do passo 14"
+      ],
+      "ocupacao": {
+        "O1": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "Q2": {
+          "tipo": "npc",
+          "quem": "Donnwulf",
+          "token": "tokens/campones-foice-e-feixes.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "J6": {
+          "tipo": "npc",
+          "quem": "Osric",
+          "token": "tokens/soldado-elmo-escudo-dragao.png",
+          "frente": "S",
+          "olhando": "J7"
+        },
+        "L6": {
+          "tipo": "npc",
+          "quem": "Lanceiro",
+          "token": "tokens/guerreiro-lanca-e-escudo.png",
+          "frente": "S",
+          "olhando": "L7"
+        },
+        "N6": {
+          "tipo": "npc",
+          "quem": "Piqueiro",
+          "token": "tokens/soldado-elmo-duas-lancas.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "P5": {
+          "tipo": "npc",
+          "quem": "Ferido",
+          "token": "tokens/espadachim-zarolho-estoque.png",
+          "frente": "SW",
+          "olhando": "N7"
+        },
+        "P3": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "personagens/irmao-kaelric/token-hex.png",
+          "frente": "SW",
+          "olhando": "O4"
+        },
+        "Q6": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "S",
+          "olhando": "Q7"
+        },
+        "K5": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "S",
+          "olhando": "K6"
+        },
+        "N5": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "N6"
+        }
+      }
+    },
+    {
+      "n": 18,
+      "quando": "17/09/2026 11:27:43",
+      "acoes": [
+        "aviso: Donnwulf gastou 5 pontos de movimento (1 para virar antes de sair + 4 hexagono(s) andado(s) + a virada final de 1 lado(s) sai de graca) de 5: cabe em um turno so com a manobra Deslocamento — quem anda mais de 1 hexagono nao ataca. Hexagono de lado ou para tras custaria 2 cada",
+        "moveu Donnwulf Q2 -> M4, olhando L5 (aresta S), aura vermelha"
+      ],
+      "ocupacao": {
+        "O1": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "J6": {
+          "tipo": "npc",
+          "quem": "Osric",
+          "token": "tokens/soldado-elmo-escudo-dragao.png",
+          "frente": "S",
+          "olhando": "J7"
+        },
+        "L6": {
+          "tipo": "npc",
+          "quem": "Lanceiro",
+          "token": "tokens/guerreiro-lanca-e-escudo.png",
+          "frente": "S",
+          "olhando": "L7"
+        },
+        "N6": {
+          "tipo": "npc",
+          "quem": "Piqueiro",
+          "token": "tokens/soldado-elmo-duas-lancas.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "P5": {
+          "tipo": "npc",
+          "quem": "Ferido",
+          "token": "tokens/espadachim-zarolho-estoque.png",
+          "frente": "SW",
+          "olhando": "N7"
+        },
+        "P3": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "personagens/irmao-kaelric/token-hex.png",
+          "frente": "SW",
+          "olhando": "O4"
+        },
+        "Q6": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "S",
+          "olhando": "Q7"
+        },
+        "K5": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "S",
+          "olhando": "K6"
+        },
+        "N5": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "N6"
+        },
+        "M4": {
+          "tipo": "npc",
+          "quem": "Donnwulf",
+          "token": "tokens/campones-foice-e-feixes.png",
+          "frente": "S",
+          "olhando": "L5"
+        }
+      }
+    },
+    {
+      "n": 19,
+      "quando": "17/09/2026 11:46:12",
+      "acoes": [
+        "colocou Lanceiro -> L6, olhando L7 (aresta S), corpo em L6+L5, 2 hex, aura vermelha"
+      ],
+      "ocupacao": {
+        "O1": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "J6": {
+          "tipo": "npc",
+          "quem": "Osric",
+          "token": "tokens/soldado-elmo-escudo-dragao.png",
+          "frente": "S",
+          "olhando": "J7"
+        },
+        "L6": {
+          "tipo": "npc",
+          "quem": "Lanceiro",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "S",
+          "olhando": "L7",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "L6",
+            "L5"
+          ]
+        },
+        "N6": {
+          "tipo": "npc",
+          "quem": "Piqueiro",
+          "token": "tokens/soldado-elmo-duas-lancas.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "P5": {
+          "tipo": "npc",
+          "quem": "Ferido",
+          "token": "tokens/espadachim-zarolho-estoque.png",
+          "frente": "SW",
+          "olhando": "N7"
+        },
+        "P3": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "personagens/irmao-kaelric/token-hex.png",
+          "frente": "SW",
+          "olhando": "O4"
+        },
+        "Q6": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "S",
+          "olhando": "Q7"
+        },
+        "K5": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "S",
+          "olhando": "K6"
+        },
+        "N5": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "N6"
+        },
+        "M4": {
+          "tipo": "npc",
+          "quem": "Donnwulf",
+          "token": "tokens/campones-foice-e-feixes.png",
+          "frente": "S",
+          "olhando": "L5"
+        }
+      }
+    },
+    {
+      "n": 20,
+      "quando": "17/09/2026 14:40:37",
+      "acoes": [
+        "aviso: nao sei o Deslocamento de Donnwulf para conferir o movimento (1 para virar antes de sair + 1 hexagono(s) andado(s) + a virada final de 1 lado(s) sai de graca = 2 pontos) — ponha `deslocamento` na ficha ou no tokens.json, ou diga \"com deslocamento N\"",
+        "moveu Donnwulf M4 -> L4, olhando L5 (aresta S), aura vermelha"
+      ],
+      "ocupacao": {
+        "O1": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "J6": {
+          "tipo": "npc",
+          "quem": "Osric",
+          "token": "tokens/soldado-elmo-escudo-dragao.png",
+          "frente": "S",
+          "olhando": "J7"
+        },
+        "L6": {
+          "tipo": "npc",
+          "quem": "Lanceiro",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "S",
+          "olhando": "L7",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "L6",
+            "L5"
+          ]
+        },
+        "N6": {
+          "tipo": "npc",
+          "quem": "Piqueiro",
+          "token": "tokens/soldado-elmo-duas-lancas.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "P5": {
+          "tipo": "npc",
+          "quem": "Ferido",
+          "token": "tokens/espadachim-zarolho-estoque.png",
+          "frente": "SW",
+          "olhando": "N7"
+        },
+        "P3": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "personagens/irmao-kaelric/token-hex.png",
+          "frente": "SW",
+          "olhando": "O4"
+        },
+        "Q6": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "S",
+          "olhando": "Q7"
+        },
+        "K5": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "S",
+          "olhando": "K6"
+        },
+        "N5": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "N6"
+        },
+        "L4": {
+          "tipo": "npc",
+          "quem": "Donnwulf",
+          "token": "tokens/campones-foice-e-feixes.png",
+          "frente": "S",
+          "olhando": "L5"
+        }
+      }
+    },
+    {
+      "n": 21,
+      "quando": "17/09/2026 14:40:54",
+      "acoes": [
+        "moveu Jah Kagadu K5 -> K6, olhando K7 (aresta S), aura azul",
+        "aviso: Negrum Carneiriums gastou 2 pontos (1 para virar antes de sair + 1 hexagono(s) andado(s) + a virada final de 1 lado(s) sai de graca) de 6: cabe num Avancar e Atacar so se for 1 hexagono e a virada couber no fim",
+        "moveu Negrum Carneiriums N5 -> M6, olhando M7 (aresta S), aura azul",
+        "moveu Irmão Kaelric P3 -> O4, olhando O5 (aresta S), aura azul"
+      ],
+      "ocupacao": {
+        "O1": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "J6": {
+          "tipo": "npc",
+          "quem": "Osric",
+          "token": "tokens/soldado-elmo-escudo-dragao.png",
+          "frente": "S",
+          "olhando": "J7"
+        },
+        "L6": {
+          "tipo": "npc",
+          "quem": "Lanceiro",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "S",
+          "olhando": "L7",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "L6",
+            "L5"
+          ]
+        },
+        "N6": {
+          "tipo": "npc",
+          "quem": "Piqueiro",
+          "token": "tokens/soldado-elmo-duas-lancas.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "P5": {
+          "tipo": "npc",
+          "quem": "Ferido",
+          "token": "tokens/espadachim-zarolho-estoque.png",
+          "frente": "SW",
+          "olhando": "N7"
+        },
+        "Q6": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "S",
+          "olhando": "Q7"
+        },
+        "L4": {
+          "tipo": "npc",
+          "quem": "Donnwulf",
+          "token": "tokens/campones-foice-e-feixes.png",
+          "frente": "S",
+          "olhando": "L5"
+        },
+        "K6": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "S",
+          "olhando": "K7"
+        },
+        "M6": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "M7"
+        },
+        "O4": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "personagens/irmao-kaelric/token-hex.png",
+          "frente": "S",
+          "olhando": "O5"
+        }
+      }
+    },
+    {
+      "n": 22,
+      "quando": "17/09/2026 15:34:01",
+      "acoes": [
+        "colocou Morto esgueirando -> I6, olhando I5 (aresta N), corpo em I6+I7, 2 hex, aura vermelha",
+        "colocou Lanceiro -> L7, olhando L6 (aresta N), corpo em L7+L8, 2 hex, aura vermelha",
+        "colocou Donnwulf -> L5, olhando L6 (aresta S), aura vermelha"
+      ],
+      "ocupacao": {
+        "O1": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "J6": {
+          "tipo": "npc",
+          "quem": "Osric",
+          "token": "tokens/soldado-elmo-escudo-dragao.png",
+          "frente": "S",
+          "olhando": "J7"
+        },
+        "N6": {
+          "tipo": "npc",
+          "quem": "Piqueiro",
+          "token": "tokens/soldado-elmo-duas-lancas.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "P5": {
+          "tipo": "npc",
+          "quem": "Ferido",
+          "token": "tokens/espadachim-zarolho-estoque.png",
+          "frente": "SW",
+          "olhando": "N7"
+        },
+        "Q6": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "S",
+          "olhando": "Q7"
+        },
+        "K6": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "S",
+          "olhando": "K7"
+        },
+        "M6": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "M7"
+        },
+        "O4": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "personagens/irmao-kaelric/token-hex.png",
+          "frente": "S",
+          "olhando": "O5"
+        },
+        "L7": {
+          "tipo": "npc",
+          "quem": "Lanceiro",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "N",
+          "olhando": "L6",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "L7",
+            "L8"
+          ]
+        },
+        "L5": {
+          "tipo": "npc",
+          "quem": "Donnwulf",
+          "token": "tokens/campones-foice-e-feixes.png",
+          "frente": "S",
+          "olhando": "L6"
+        },
+        "I6": {
+          "tipo": "npc",
+          "quem": "Morto esgueirando",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "I5",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "I6",
+            "I7"
+          ]
+        }
+      }
+    },
+    {
+      "n": 23,
+      "quando": "17/09/2026 15:37:16",
+      "acoes": [
+        "colocou Morto esgueirando -> I6, olhando I5 (aresta N), corpo em I6+I7, 2 hex, aura vermelha",
+        "moveu Donnwulf L5 -> L6, olhando L7 (aresta S), aura vermelha"
+      ],
+      "ocupacao": {
+        "O1": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "J6": {
+          "tipo": "npc",
+          "quem": "Osric",
+          "token": "tokens/soldado-elmo-escudo-dragao.png",
+          "frente": "S",
+          "olhando": "J7"
+        },
+        "N6": {
+          "tipo": "npc",
+          "quem": "Piqueiro",
+          "token": "tokens/soldado-elmo-duas-lancas.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "P5": {
+          "tipo": "npc",
+          "quem": "Ferido",
+          "token": "tokens/espadachim-zarolho-estoque.png",
+          "frente": "SW",
+          "olhando": "N7"
+        },
+        "Q6": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "S",
+          "olhando": "Q7"
+        },
+        "K6": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "S",
+          "olhando": "K7"
+        },
+        "M6": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "M7"
+        },
+        "O4": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "personagens/irmao-kaelric/token-hex.png",
+          "frente": "S",
+          "olhando": "O5"
+        },
+        "L7": {
+          "tipo": "npc",
+          "quem": "Lanceiro",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "N",
+          "olhando": "L6",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "L7",
+            "L8"
+          ]
+        },
+        "I6": {
+          "tipo": "npc",
+          "quem": "Morto esgueirando",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "N",
+          "olhando": "I5",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "I6",
+            "I7"
+          ]
+        },
+        "L6": {
+          "tipo": "npc",
+          "quem": "Donnwulf",
+          "token": "tokens/campones-foice-e-feixes.png",
+          "frente": "S",
+          "olhando": "L7"
+        }
+      }
+    },
+    {
+      "n": 24,
+      "quando": "17/09/2026 17:23:46",
+      "acoes": [
+        "aviso: Comam Obabaroy gastou 5 pontos de movimento (1 para virar antes de sair + 4 hexagono(s) andado(s)) de 5: cabe em um turno so com a manobra Deslocamento — quem anda mais de 1 hexagono nao ataca. Hexagono de lado ou para tras custaria 2 cada",
+        "moveu Comam Obabaroy O1 -> L3, olhando I6 (aresta SW), aura azul"
+      ],
+      "ocupacao": {
+        "J6": {
+          "tipo": "npc",
+          "quem": "Osric",
+          "token": "tokens/soldado-elmo-escudo-dragao.png",
+          "frente": "S",
+          "olhando": "J7"
+        },
+        "N6": {
+          "tipo": "npc",
+          "quem": "Piqueiro",
+          "token": "tokens/soldado-elmo-duas-lancas.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "P5": {
+          "tipo": "npc",
+          "quem": "Ferido",
+          "token": "tokens/espadachim-zarolho-estoque.png",
+          "frente": "SW",
+          "olhando": "N7"
+        },
+        "Q6": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "S",
+          "olhando": "Q7"
+        },
+        "K6": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "S",
+          "olhando": "K7"
+        },
+        "M6": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "M7"
+        },
+        "O4": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "personagens/irmao-kaelric/token-hex.png",
+          "frente": "S",
+          "olhando": "O5"
+        },
+        "L7": {
+          "tipo": "npc",
+          "quem": "Lanceiro",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "N",
+          "olhando": "L6",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "L7",
+            "L8"
+          ]
+        },
+        "I6": {
+          "tipo": "npc",
+          "quem": "Morto esgueirando",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "N",
+          "olhando": "I5",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "I6",
+            "I7"
+          ]
+        },
+        "L6": {
+          "tipo": "npc",
+          "quem": "Donnwulf",
+          "token": "tokens/campones-foice-e-feixes.png",
+          "frente": "S",
+          "olhando": "L7"
+        },
+        "L3": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "SW",
+          "olhando": "I6"
+        }
+      }
+    },
+    {
+      "n": 25,
+      "quando": "17/09/2026 17:33:40",
+      "acoes": [
+        "aviso: Irmão Kaelric gastou 4 pontos de movimento (1 para virar antes de sair + 3 hexagono(s) andado(s) + a virada final de 1 lado(s) sai de graca) de 6: cabe em um turno so com a manobra Deslocamento — quem anda mais de 1 hexagono nao ataca. Hexagono de lado ou para tras custaria 2 cada",
+        "moveu Irmão Kaelric O4 -> L5, olhando J4 (aresta NW), aura azul"
+      ],
+      "ocupacao": {
+        "J6": {
+          "tipo": "npc",
+          "quem": "Osric",
+          "token": "tokens/soldado-elmo-escudo-dragao.png",
+          "frente": "S",
+          "olhando": "J7"
+        },
+        "N6": {
+          "tipo": "npc",
+          "quem": "Piqueiro",
+          "token": "tokens/soldado-elmo-duas-lancas.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "P5": {
+          "tipo": "npc",
+          "quem": "Ferido",
+          "token": "tokens/espadachim-zarolho-estoque.png",
+          "frente": "SW",
+          "olhando": "N7"
+        },
+        "Q6": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "S",
+          "olhando": "Q7"
+        },
+        "K6": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "S",
+          "olhando": "K7"
+        },
+        "M6": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "M7"
+        },
+        "L7": {
+          "tipo": "npc",
+          "quem": "Lanceiro",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "N",
+          "olhando": "L6",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "L7",
+            "L8"
+          ]
+        },
+        "I6": {
+          "tipo": "npc",
+          "quem": "Morto esgueirando",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "N",
+          "olhando": "I5",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "I6",
+            "I7"
+          ]
+        },
+        "L6": {
+          "tipo": "npc",
+          "quem": "Donnwulf",
+          "token": "tokens/campones-foice-e-feixes.png",
+          "frente": "S",
+          "olhando": "L7"
+        },
+        "L3": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "SW",
+          "olhando": "I6"
+        },
+        "L5": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "personagens/irmao-kaelric/token-hex.png",
+          "frente": "NW",
+          "olhando": "J4"
+        }
+      }
+    },
+    {
+      "n": 26,
+      "quando": "17/09/2026 17:53:21",
+      "acoes": [
+        "redesenhou"
+      ],
+      "ocupacao": {
+        "J6": {
+          "tipo": "npc",
+          "quem": "Osric",
+          "token": "tokens/soldado-elmo-escudo-dragao.png",
+          "frente": "S",
+          "olhando": "J7"
+        },
+        "N6": {
+          "tipo": "npc",
+          "quem": "Piqueiro",
+          "token": "tokens/soldado-elmo-duas-lancas.png",
+          "frente": "S",
+          "olhando": "N7"
+        },
+        "P5": {
+          "tipo": "npc",
+          "quem": "Ferido",
+          "token": "tokens/espadachim-zarolho-estoque.png",
+          "frente": "SW",
+          "olhando": "N7"
+        },
+        "Q6": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "S",
+          "olhando": "Q7"
+        },
+        "K6": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "S",
+          "olhando": "K7"
+        },
+        "M6": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "M7"
+        },
+        "L7": {
+          "tipo": "npc",
+          "quem": "Lanceiro",
+          "token": "tokens/marcador-corpo-caido.png",
+          "frente": "N",
+          "olhando": "L6",
+          "tamanho_hex": 2.0,
+          "hexes_ocupados": [
+            "L7",
+            "L8"
+          ]
+        },
+        "L6": {
+          "tipo": "npc",
+          "quem": "Donnwulf",
+          "token": "tokens/campones-foice-e-feixes.png",
+          "frente": "S",
+          "olhando": "L7"
+        },
+        "L3": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "SW",
+          "olhando": "I6"
+        },
+        "L5": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "personagens/irmao-kaelric/token-hex.png",
+          "frente": "NW",
+          "olhando": "J4"
+        },
+        "I6": {
+          "tipo": "npc",
+          "quem": "Morto esgueirando",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "N",
+          "olhando": "I5"
+        }
+      }
+    }
+  ]
+}
