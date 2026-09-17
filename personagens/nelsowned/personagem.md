@@ -115,14 +115,12 @@ machado — que ele leva como plano B.
 |---|---|---|---|---|
 | Machado grande (2 mãos) | 2D+2 | corte | 1 | 4,0 |
 | Alaúde | - | - | 1 | 1,0 |
-| Traje de veludo cênico | - | - | 1 | 2,0 |
 | Cancioneiro de baladas | - | - | 1 | 0,3 |
 | Rações (5 dias) | - | - | 1 | 1,25 |
 | Moringa (1 litro) | - | - | 1 | 1,0 |
-| Manta de viagem | - | - | 1 | 2,5 |
 | Equip. básico pessoal | - | - | 1 | 0,5 |
 
-**TOTAIS:** $418 · 12,55 kg (carga "Nenhuma" para ST 13 anã — sem penalidade em Deslocamento)
+**TOTAIS:** $418 · 8,05 kg (carga "Nenhuma" para ST 13 anã — sem penalidade em Deslocamento)
 
 Sem armadura: ele confia nos veludos, na barba e na própria voz — a RD 1 natural de Anão é toda
 a proteção que carrega.

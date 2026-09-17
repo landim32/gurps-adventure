@@ -137,10 +137,9 @@ que importa para quem já é zarolho e atira de besta.
 | Coturnos (pés) | — | DP2 / RD2 | 1 | 1,5 kg | $80 |
 | Rações de viagem (5 dias) | — | — | 1 | 1,25 kg | $10 |
 | Moringa (1 litro) | — | — | 1 | 1,0 kg | $3 |
-| Manta de lã | — | — | 1 | 2,5 kg | $20 |
 | Equipamento básico pessoal | — | — | 1 | desprez. | $5 |
 
-**Peso total: 23,8 kg** (Carga Leve para ST 13 → Deslocamento 5).
+**Peso total: 21,3 kg** (Carga Leve para ST 13 → Deslocamento 5).
 **Custo total: $1.398**, dos $2.000 da Riqueza Confortável — sobram **$602** de poupança.
 
 ### A besta e o pé-de-cabra (regras do Sistema Avançado)

@@ -114,11 +114,10 @@ Com o equipamento agora pesando exatamente 9 kg (igual ao valor de ST), Jah est�
 | Braçadeiras leves (braços) | - | DP1/RD2 | 1 | 1,0 |
 | Laudel (pernas) | - | DP1/RD1 | 1 | 1,0 |
 | | | | | |
-| Capa leve c/ capuz | - | - | 1 | 1,0 |
 | Gazuas (arrombamento) | - | - | 1 | 0,5 |
 | Kit p/ afiar armas | - | - | 1 | 0,3 |
 
-**TOTAIS: $ 310    9,0 kg — Carga Nenhuma (0 penalidade de Deslocamento)**
+**TOTAIS: $ 310    8,0 kg — Carga Nenhuma (0 penalidade de Deslocamento)**
 
 ### O que mudou no equipamento
 
@@ -127,7 +126,7 @@ Com o equipamento agora pesando exatamente 9 kg (igual ao valor de ST), Jah est�
 - **Capa** ficou mais leve (1,5 kg → 1,0 kg) trocando um tecido mais grosso por um mais fino.
 - **Dardos**: de 5 para 2 unidades (5 kg → 2 kg) — Jah carrega só o essencial para uma emboscada rápida, não um arsenal.
 - **Rações e cantil foram removidos** do inventário de carga — um ladino como Jah prefere comprar (ou "encontrar") comida pelo caminho a carregar peso morto.
-- Resultado: **9,0 kg exatos**, igual ao valor de ST (9) — bate exatamente o teto de "Carga Nenhuma", preservando Velocidade Básica e Esquiva no máximo.
+- Resultado: **8,0 kg**, abaixo do valor de ST (9) — dentro de "Carga Nenhuma", preservando Velocidade Básica e Esquiva no máximo. _(Eram 9,0 kg exatos até a capa leve com capuz ser rasgada para a corda do canal, no capítulo 2.)_
 
 ## Resumo de Pontos
 

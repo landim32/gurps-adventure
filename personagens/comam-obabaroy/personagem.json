@@ -198,14 +198,6 @@
       "categoria": "Equipamento"
     },
     {
-      "item": "Manta de lã",
-      "dano": "-",
-      "tipo": "-",
-      "qtd": 1,
-      "peso": 2.5,
-      "categoria": "Equipamento"
-    },
-    {
       "item": "Equip. básico pessoal",
       "dano": "-",
       "tipo": "-",
@@ -214,7 +206,7 @@
       "categoria": "Equipamento"
     }
   ],
-  "peso_total": 23.8,
+  "peso_total": 21.3,
   "custo_total": 1398,
   "pericias": [
     {
