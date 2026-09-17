@@ -52,7 +52,7 @@ Esta é a parte da skill que mais importa. O plano é escrito para o Mestre.
 
 **Nunca narre:**
 
-- **O que só o Mestre sabe.** Se o plano diz *"o Mestre sabe: era Arzog, testando"*, isso
+- **O que só o Mestre sabe.** Se o plano diz *"o Mestre sabe: era Vurkash, testando"*, isso
   não existe para os jogadores. Narre o que a testemunha conta, não o que é verdade.
 - **Ficha, número, nome de regra.** Nada de "ST 14", "Morto-Vivo 1", "faça um teste de
   Furtividade". O Mestre pede o teste em voz alta, na hora; o texto narra o *mundo*.
