@@ -12,3 +12,6 @@ __pycache__/
 # NPCs, o que cada situacao esconde. Fica so no disco local, fora do GitHub.
 # O que a mesa jogou continua versionado em campanha/NN-.../
 campanha/plano/
+
+# Configuracao local da sessao: guarda a OPENAI_API_KEY. Nunca vai para o GitHub.
+.claude/settings.local.json
