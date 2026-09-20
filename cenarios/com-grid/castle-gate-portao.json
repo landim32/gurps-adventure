@@ -3606,59 +3606,12 @@
     }
   },
   "ocupacao": {
-    "J6": {
-      "tipo": "npc",
-      "quem": "Osric",
-      "token": "tokens/soldado-elmo-escudo-dragao.png",
-      "frente": "S",
-      "olhando": "J7"
-    },
-    "N6": {
-      "tipo": "npc",
-      "quem": "Piqueiro",
-      "token": "tokens/soldado-elmo-duas-lancas.png",
-      "frente": "S",
-      "olhando": "N7"
-    },
     "P5": {
       "tipo": "npc",
       "quem": "Ferido",
       "token": "tokens/espadachim-zarolho-estoque.png",
       "frente": "SW",
       "olhando": "N7"
-    },
-    "Q6": {
-      "tipo": "pj",
-      "quem": "NelsOwned",
-      "token": "personagens/nelsowned/token-hex.png",
-      "frente": "S",
-      "olhando": "Q7"
-    },
-    "K6": {
-      "tipo": "pj",
-      "quem": "Jah Kagadu",
-      "token": "personagens/jah-kagadu/token-hex.png",
-      "frente": "S",
-      "olhando": "K7"
-    },
-    "M6": {
-      "tipo": "pj",
-      "quem": "Negrum Carneiriums",
-      "token": "personagens/negrum-carneiriums/token-hex.png",
-      "frente": "S",
-      "olhando": "M7"
-    },
-    "L7": {
-      "tipo": "npc",
-      "quem": "Lanceiro",
-      "token": "tokens/marcador-corpo-caido.png",
-      "frente": "N",
-      "olhando": "L6",
-      "tamanho_hex": 2.0,
-      "hexes_ocupados": [
-        "L7",
-        "L8"
-      ]
     },
     "L6": {
       "tipo": "npc",
@@ -3667,26 +3620,71 @@
       "frente": "S",
       "olhando": "L7"
     },
-    "L3": {
-      "tipo": "pj",
-      "quem": "Comam Obabaroy",
-      "token": "personagens/comam-obabaroy/token-hex.png",
-      "frente": "SW",
-      "olhando": "I6"
-    },
-    "L5": {
+    "K5": {
       "tipo": "pj",
       "quem": "Irmão Kaelric",
       "token": "personagens/irmao-kaelric/token-hex.png",
-      "frente": "NW",
-      "olhando": "J4"
+      "frente": "NE",
+      "olhando": "L4"
     },
-    "I6": {
+    "L5": {
+      "tipo": "pj",
+      "quem": "Jah Kagadu",
+      "token": "personagens/jah-kagadu/token-hex.png",
+      "frente": "SW",
+      "olhando": "K6"
+    },
+    "M6": {
       "tipo": "npc",
-      "quem": "Morto esgueirando",
+      "quem": "Morto",
       "token": "tokens/zumbi-agachado-camisa-marrom.png",
+      "frente": "NW",
+      "olhando": "L5"
+    },
+    "J2": {
+      "tipo": "npc",
+      "quem": "Osric",
+      "token": "tokens/marcador-corpo-caido.png",
+      "frente": "S",
+      "olhando": "J3",
+      "tamanho_hex": 2.0,
+      "hexes_ocupados": [
+        "J2",
+        "J1"
+      ]
+    },
+    "M5": {
+      "tipo": "pj",
+      "quem": "Negrum Carneiriums",
+      "token": "personagens/negrum-carneiriums/token-hex.png",
+      "frente": "S",
+      "olhando": "M6"
+    },
+    "Q5": {
+      "tipo": "pj",
+      "quem": "NelsOwned",
+      "token": "personagens/nelsowned/token-hex.png",
+      "frente": "NW",
+      "olhando": "P4"
+    },
+    "L4": {
+      "tipo": "pj",
+      "quem": "Comam Obabaroy",
+      "token": "personagens/comam-obabaroy/token-hex.png",
+      "frente": "SE",
+      "olhando": "M5"
+    },
+    "N5": {
+      "tipo": "npc",
+      "quem": "Piqueiro",
+      "token": "tokens/marcador-corpo-caido.png",
       "frente": "N",
-      "olhando": "I5"
+      "olhando": "N4",
+      "tamanho_hex": 2.0,
+      "hexes_ocupados": [
+        "N5",
+        "N6"
+      ]
     }
   }
 }

@@ -1,0 +1,120 @@
+{
+  "reacoes": [
+    {
+      "npc": "Lorde William de Wallace",
+      "pj": "Comam Obabaroy",
+      "dados": [
+        6,
+        1,
+        6
+      ],
+      "mod": -2,
+      "total": 11,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [6, 1, 6] = 13 - 2 = 11",
+      "detalhe": [
+        "-3 ficha de Comam Obabaroy",
+        "+1 Lorde William de Wallace de saída"
+      ],
+      "contexto": "geral",
+      "local": "Pátio do portão do castelo, Wallace",
+      "quando": "19/09/2026 20:40"
+    },
+    {
+      "npc": "Lorde William de Wallace",
+      "pj": "Irmão Kaelric",
+      "dados": [
+        6,
+        3,
+        1
+      ],
+      "mod": 1,
+      "total": 11,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [6, 3, 1] = 10 + 1 = 11",
+      "detalhe": [
+        "-2 ficha de Irmão Kaelric",
+        "+1 Lorde William de Wallace de saída",
+        "+2 cristão, e o templário está com o símbolo sagrado no peito num feudo de Caithness"
+      ],
+      "contexto": "geral",
+      "local": "Pátio do portão do castelo, Wallace",
+      "quando": "19/09/2026 20:40",
+      "atencao": "ficha de Irmão Kaelric: «-2 (porte); +2 cristãos» — confira se a parte condicional vale aqui"
+    },
+    {
+      "npc": "Lorde William de Wallace",
+      "pj": "Jah Kagadu",
+      "dados": [
+        4,
+        2,
+        6
+      ],
+      "mod": -1,
+      "total": 11,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [4, 2, 6] = 12 - 1 = 11",
+      "detalhe": [
+        "-2 ficha de Jah Kagadu",
+        "+1 Lorde William de Wallace de saída"
+      ],
+      "contexto": "geral",
+      "local": "Pátio do portão do castelo, Wallace",
+      "quando": "19/09/2026 20:40"
+    },
+    {
+      "npc": "Lorde William de Wallace",
+      "pj": "NelsOwned",
+      "dados": [
+        2,
+        4,
+        1
+      ],
+      "mod": 2,
+      "total": 9,
+      "faixa": "Fraca",
+      "peso": "nota",
+      "texto": "O NPC não se deixará impressionar. Pode se tornar hostil se isso lhe der lucro grande ou houver pouco perigo.",
+      "conta": "3d [2, 4, 1] = 7 + 2 = 9",
+      "detalhe": [
+        "+2 ficha de NelsOwned",
+        "+1 Lorde William de Wallace de saída",
+        "-1 foi o machado dele que partiu a corrente do guincho, e o portão não abre mais"
+      ],
+      "contexto": "geral",
+      "local": "Pátio do portão do castelo, Wallace",
+      "quando": "19/09/2026 20:40"
+    },
+    {
+      "npc": "Lorde William de Wallace",
+      "pj": "Negrum Carneiriums",
+      "dados": [
+        4,
+        6,
+        1
+      ],
+      "mod": 1,
+      "total": 12,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [4, 6, 1] = 11 + 1 = 12",
+      "detalhe": [
+        "+2 ficha de Negrum Carneiriums",
+        "+1 Lorde William de Wallace de saída",
+        "-2 é ele que está de montante na mão sobre o guarda sem as pernas"
+      ],
+      "contexto": "geral",
+      "local": "Pátio do portão do castelo, Wallace",
+      "quando": "19/09/2026 20:40",
+      "atencao": "ficha de Negrum Carneiriums: «+2 (mesmo sexo); +4 (sexo oposto)» — confira se a parte condicional vale aqui"
+    }
+  ],
+  "local": "Pátio do portão do castelo, Wallace"
+}
