@@ -489,6 +489,12 @@ def main():
     bruto, linha = _roll.rolar(dano_txt)
     p(f"  {linha.replace('**', '')}")
     basico = bruto
+    # MB, pag. 74: arma cortante, perfurante ou bala que ACERTA faz pelo menos 1 ponto
+    # de dano basico. Vale ANTES da armadura — depois dela o dano ainda pode ser zero.
+    if basico <= 0 and tipo in ("corte", "perf"):
+        p("  Dano minimo: corte e perfuracao que acertam fazem pelo menos 1 "
+          "(MB, pag. 74) -> 1")
+        basico = 1
     if teto_d is not None and basico > teto_d:
         p(f"  Teto da arma ({modelo['teto']} = {teto_d}): o dano não passa disso → {teto_d}")
         basico = teto_d

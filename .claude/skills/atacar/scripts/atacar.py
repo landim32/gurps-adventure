@@ -446,6 +446,12 @@ def main():
     basico = total_bruto + manobra["dano"]
     if manobra["dano"]:
         p(f"  +{manobra['dano']} do Ataque Total = {basico}")
+    # MB, pag. 74: arma cortante, perfurante ou bala que ACERTA faz pelo menos 1 ponto
+    # de dano basico. Vale ANTES da armadura — depois dela o dano ainda pode ser zero.
+    if basico <= 0 and tipo in ("corte", "perf"):
+        p(f"  Dano minimo: corte e perfuracao que acertam fazem pelo menos 1 (MB, pag. 74)"
+          f" -> 1")
+        basico = 1
     if mult_dano > 1:
         basico *= mult_dano
         p(f"  ×{mult_dano} pelo golpe fulminante = {basico}")
