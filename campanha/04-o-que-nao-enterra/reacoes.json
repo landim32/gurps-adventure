@@ -1,0 +1,230 @@
+{
+  "reacoes": [
+    {
+      "npc": "Lorde William de Wallace",
+      "pj": "Comam Obabaroy",
+      "dados": [
+        6,
+        1,
+        6
+      ],
+      "mod": -2,
+      "total": 11,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [6, 1, 6] = 13 - 2 = 11",
+      "detalhe": [
+        "-3 ficha de Comam Obabaroy",
+        "+1 Lorde William de Wallace de saída"
+      ],
+      "contexto": "geral",
+      "local": "Pátio do portão do castelo, Wallace",
+      "quando": "19/09/2026 20:40"
+    },
+    {
+      "npc": "Lorde William de Wallace",
+      "pj": "Irmão Kaelric",
+      "dados": [
+        6,
+        3,
+        1
+      ],
+      "mod": 1,
+      "total": 11,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [6, 3, 1] = 10 + 1 = 11",
+      "detalhe": [
+        "-2 ficha de Irmão Kaelric",
+        "+1 Lorde William de Wallace de saída",
+        "+2 cristão, e o templário está com o símbolo sagrado no peito num feudo de Caithness"
+      ],
+      "contexto": "geral",
+      "local": "Pátio do portão do castelo, Wallace",
+      "quando": "19/09/2026 20:40",
+      "atencao": "ficha de Irmão Kaelric: «-2 (porte); +2 cristãos» — confira se a parte condicional vale aqui"
+    },
+    {
+      "npc": "Lorde William de Wallace",
+      "pj": "Jah Kagadu",
+      "dados": [
+        4,
+        2,
+        6
+      ],
+      "mod": -1,
+      "total": 11,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [4, 2, 6] = 12 - 1 = 11",
+      "detalhe": [
+        "-2 ficha de Jah Kagadu",
+        "+1 Lorde William de Wallace de saída"
+      ],
+      "contexto": "geral",
+      "local": "Pátio do portão do castelo, Wallace",
+      "quando": "19/09/2026 20:40"
+    },
+    {
+      "npc": "Lorde William de Wallace",
+      "pj": "NelsOwned",
+      "dados": [
+        2,
+        4,
+        1
+      ],
+      "mod": 2,
+      "total": 9,
+      "faixa": "Fraca",
+      "peso": "nota",
+      "texto": "O NPC não se deixará impressionar. Pode se tornar hostil se isso lhe der lucro grande ou houver pouco perigo.",
+      "conta": "3d [2, 4, 1] = 7 + 2 = 9",
+      "detalhe": [
+        "+2 ficha de NelsOwned",
+        "+1 Lorde William de Wallace de saída",
+        "-1 foi o machado dele que partiu a corrente do guincho, e o portão não abre mais"
+      ],
+      "contexto": "geral",
+      "local": "Pátio do portão do castelo, Wallace",
+      "quando": "19/09/2026 20:40"
+    },
+    {
+      "npc": "Lorde William de Wallace",
+      "pj": "Negrum Carneiriums",
+      "dados": [
+        4,
+        6,
+        1
+      ],
+      "mod": 1,
+      "total": 12,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [4, 6, 1] = 11 + 1 = 12",
+      "detalhe": [
+        "+2 ficha de Negrum Carneiriums",
+        "+1 Lorde William de Wallace de saída",
+        "-2 é ele que está de montante na mão sobre o guarda sem as pernas"
+      ],
+      "contexto": "geral",
+      "local": "Pátio do portão do castelo, Wallace",
+      "quando": "19/09/2026 20:40",
+      "atencao": "ficha de Negrum Carneiriums: «+2 (mesmo sexo); +4 (sexo oposto)» — confira se a parte condicional vale aqui"
+    },
+    {
+      "npc": "Vurkash, o Que Não Enterra",
+      "pj": "Comam Obabaroy",
+      "dados": [
+        4,
+        5,
+        3
+      ],
+      "mod": -4,
+      "total": 8,
+      "faixa": "Fraca",
+      "peso": "nota",
+      "texto": "O NPC não se deixará impressionar. Pode se tornar hostil se isso lhe der lucro grande ou houver pouco perigo.",
+      "conta": "3d [4, 5, 3] = 12 - 4 = 8",
+      "detalhe": [
+        "-3 ficha de Comam Obabaroy",
+        "-1 desmaiou de pavor ao ve-lo, e ele viu"
+      ],
+      "contexto": "geral",
+      "local": "A muralha de Wallace — a parlamentação",
+      "quando": "19/09/2026 21:28"
+    },
+    {
+      "npc": "Vurkash, o Que Não Enterra",
+      "pj": "Irmão Kaelric",
+      "dados": [
+        2,
+        4,
+        3
+      ],
+      "mod": -4,
+      "total": 5,
+      "faixa": "Ruim",
+      "peso": "nota",
+      "texto": "O NPC não se importa com os PCs e agirá contra eles se isto lhe trouxer algum benefício.",
+      "conta": "3d [2, 4, 3] = 9 - 4 = 5",
+      "detalhe": [
+        "-2 ficha de Irmão Kaelric",
+        "-2 templario de cruz a vista diante de um necromante orc"
+      ],
+      "contexto": "geral",
+      "local": "A muralha de Wallace — a parlamentação",
+      "quando": "19/09/2026 21:28",
+      "atencao": "ficha de Irmão Kaelric: «-2 (porte); +2 cristãos» — confira se a parte condicional vale aqui"
+    },
+    {
+      "npc": "Vurkash, o Que Não Enterra",
+      "pj": "Jah Kagadu",
+      "dados": [
+        3,
+        5,
+        6
+      ],
+      "mod": 0,
+      "total": 14,
+      "faixa": "Boa",
+      "peso": "nota",
+      "texto": "O NPC gosta dos personagens e será prestativo dentro do razoável.",
+      "conta": "3d [3, 5, 6] = 14",
+      "detalhe": [
+        "-2 ficha de Jah Kagadu",
+        "+2 bajulou o feito dele e acertou a palavra (Labia, disputa vencida)"
+      ],
+      "contexto": "geral",
+      "local": "A muralha de Wallace — a parlamentação",
+      "quando": "19/09/2026 21:28"
+    },
+    {
+      "npc": "Vurkash, o Que Não Enterra",
+      "pj": "NelsOwned",
+      "dados": [
+        2,
+        3,
+        3
+      ],
+      "mod": 2,
+      "total": 10,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [2, 3, 3] = 8 + 2 = 10",
+      "detalhe": [
+        "+2 ficha de NelsOwned"
+      ],
+      "contexto": "geral",
+      "local": "A muralha de Wallace — a parlamentação",
+      "quando": "19/09/2026 21:28"
+    },
+    {
+      "npc": "Vurkash, o Que Não Enterra",
+      "pj": "Negrum Carneiriums",
+      "dados": [
+        4,
+        4,
+        3
+      ],
+      "mod": 2,
+      "total": 13,
+      "faixa": "Boa",
+      "peso": "nota",
+      "texto": "O NPC gosta dos personagens e será prestativo dentro do razoável.",
+      "conta": "3d [4, 4, 3] = 11 + 2 = 13",
+      "detalhe": [
+        "+2 ficha de Negrum Carneiriums"
+      ],
+      "contexto": "geral",
+      "local": "A muralha de Wallace — a parlamentação",
+      "quando": "19/09/2026 21:28",
+      "atencao": "ficha de Negrum Carneiriums: «+2 (mesmo sexo); +4 (sexo oposto)» — confira se a parte condicional vale aqui"
+    }
+  ],
+  "local": "A muralha de Wallace — a parlamentação"
+}
