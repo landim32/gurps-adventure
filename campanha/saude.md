@@ -8,11 +8,11 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 <!-- indice:saude -->
 | Quem | | PV | Fadiga | Estado |
 |---|---|---:|---:|---|
-| Comam Obabaroy | PJ | 12/12 | 5/13 | De ressaca e ainda embriagado — **-3 em todos os atributos e perícias** enquanto durar o porre (MB pág. 32, Alcoolismo). Está acordado, de pé e lutando desde o cap. 01: já matou dois mortos-vivos nesse estado e tirou o melhor número da mesa em um deles |
-| Irmão Kaelric | PJ | 12/12 | 1/13 | — |
-| Jah Kagadu | PJ | 1/12 | 4/9 | — |
-| Negrum Carneiriums | PJ | 11/12 | 7/15 | — |
-| NelsOwned | PJ | 12/12 | 9/15 | — |
+| Comam Obabaroy | PJ | 12/12 | 10/13 | — |
+| Irmão Kaelric | PJ | 12/12 | 5/13 | — |
+| Jah Kagadu | PJ | 4/12 | 6/9 | — |
+| Negrum Carneiriums | PJ | 11/12 | 15/15 | — |
+| NelsOwned | PJ | 12/12 | 15/15 | — |
 | Donnwulf | NPC | -27 | — | FALECEU no pátio do portão, em L6. Vitalidade -15 de 12: a terceira machadada do NelsOwned sobre o membro preso tirou os 4 pontos do teto (HT/3) e cruzou a barreira de -HT. Teste de HT 12 contra a morte (MB pág. 126): tirou 13, falhou por um. Estava inconsciente e sem nada para gastar a favor |
 | Hoel Meia-Orelha | NPC | -21 | — | MORTO — espancado até a morte pelo Negrum enquanto estava inconsciente (MB pág. 128: pessoa indefesa atacada de maneira letal morre sem jogada); **DECAPITADO** em L5 pelo machado grande de NelsOwned (cap. 01), no turno seguinte ao em que se levantou. Mesmo critério do Morto-Vivo 1: 15 pontos, 1,5 x HT, numa criatura de HT 10. Destruído de vez: não se levanta, não volta |
 | Lanceiro | NPC | -5 | — | SUMIDO na massa da rampa desde o turno 5, arrastado de L6 até L8-L9. Ninguém do grupo sabe se vive. Levava -5 de vitalidade e a perna esquerda destruída quando se perdeu de vista. Fora do mapa, e agora do lado de fora do portão fechado |
@@ -21,14 +21,14 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 | Morto-Vivo 3 | NPC | -13 | — | **DESTRUÍDO** (decisão do Mestre, cap. 01). Parou de se mexer entre M10 e M11, em cima do braseiro, com o peito afundado pela maça do Irmão Kaelric e o corpo queimando — 13 pontos acumulados num corpo de 10 PV. Não se levanta, não volta. **É o corpo dele que está pegando fogo e espalhando o incêndio pelo salão** |
 | Morto-Vivo 4 | NPC | -12 | — | **DESTRUÍDO** pelo montante do Negrum Carneiriums (decisão do Mestre, cap. 01), caído entre K9 e J9. Não foi decapitado: o corpo está inteiro, com a perna já decepada antes, e simplesmente parou de se mexer. Não se levanta, não volta |
 | Osric de Bannock | NPC | -9 | — | CAÍDO E FORA DE COMBATE, arrastado pelo Kaelric para J4-J5, longe do vão. 2/11. Desarmado (a espada ficou no chão do vão, e apanhá-la custa 2 turnos), PERNA ESQUERDA INCAPACITADA — não anda nem se levanta. Já SAIU do atordoamento (HT 11, tirou 8 no turno 5). Defende-se com Bloqueio 10 e Esquiva 7, mas não ataca nem se move sozinho |
-| Piqueiro | NPC | -20 | — | SEM AS DUAS PERNAS, LIVRE E ACORDADO. Vitalidade -9 de 11 — DOIS PONTOS da barreira de -HT, onde testa HT ou morre. As duas pernas foram decepadas pelo montante do Negrum abaixo do joelho, para tirá-lo de debaixo da grade, e ele NÃO DESMAIOU em nenhum dos dois cortes: passou os dois testes de HT, o segundo por exatamente zero. Está fora do vão, deitado no pátio, consciente e sangrando. PRECISA DE PRIMEIROS SOCORROS AGORA — qualquer perda de 2 pontos o leva à barreira |
+| Piqueiro | NPC | -19 | — | SEM AS DUAS PERNAS, LIVRE E ACORDADO. Vitalidade -9 de 11 — DOIS PONTOS da barreira de -HT, onde testa HT ou morre. As duas pernas foram decepadas pelo montante do Negrum abaixo do joelho, para tirá-lo de debaixo da grade, e ele NÃO DESMAIOU em nenhum dos dois cortes: passou os dois testes de HT, o segundo por exatamente zero. Está fora do vão, deitado no pátio, consciente e sangrando. PRECISA DE PRIMEIROS SOCORROS AGORA — qualquer perda de 2 pontos o leva à barreira |
 <!-- /indice:saude -->
 
 ## Personagens
 
 ### Comam Obabaroy
 
-**PV 12/12 · Fadiga 5/13**  ·  **De ressaca e ainda embriagado — **-3 em todos os atributos e perícias** enquanto durar o porre (MB pág. 32, Alcoolismo). Está acordado, de pé e lutando desde o cap. 01: já matou dois mortos-vivos nesse estado e tirou o melhor número da mesa em um deles**
+**PV 12/12 · Fadiga 10/13**
 
 - **07/09/2026 22:31** · estado — Bêbado e dormindo sobre a mesa — -3 em todos os atributos e perícias enquanto durar o porre (parâmetro do MB pág. 32, Alcoolismo); alvo fácil e sem defesa ativa até acordar
 - **15/09/2026 20:16** · FAD -1 — Falha no teste de ST para erguer a carroça tombada, com -3 do porre (MB pág. 89)
@@ -38,10 +38,12 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **16/09/2026 21:54** · curado — Bêbado e dormindo sobre a mesa
 - **16/09/2026 21:54** · estado — De ressaca e ainda embriagado — **-3 em todos os atributos e perícias** enquanto durar o porre (MB pág. 32, Alcoolismo). Está acordado, de pé e lutando desde o cap. 01: já matou dois mortos-vivos nesse estado e tirou o melhor número da mesa em um deles
 - **19/09/2026 19:35** · FAD -2 — Fadiga de batalha — Carga Leve, 2 pontos (MB pág. 134)
+- **20/09/2026 20:33** · FAD +5 — 55 min de descanso, cap. 04
+- **20/09/2026 20:33** · curado — ressaca
 
 ### Irmão Kaelric
 
-**PV 12/12 · Fadiga 1/13**
+**PV 12/12 · Fadiga 5/13**
 
 - **09/09/2026 12:21** · FAD -3 — Fadiga de batalha contra os mortos-vivos: Carga média, nível 2 +1 — a cota de malha e o escudo grande cobram (MB pág. 134)
 - **15/09/2026 20:16** · FAD -1 — Falha no teste de ST para erguer a carroça tombada (MB pág. 89: falha em teste de esforço custa 1 ponto de ST por Fadiga)
@@ -49,10 +51,11 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **15/09/2026 21:19** · FAD -1 — Segunda falha no teste de ST para erguer a carroça (MB pág. 89: falha em teste de esforço custa 1 ponto de ST por Fadiga)
 - **19/09/2026 18:34** · FAD -3 — Cura Superficial no Jah — 3 pontos de energia por 3 de vitalidade (cap. 03, turno 9)
 - **19/09/2026 19:35** · FAD -1 — Fadiga de batalha — Carga Nenhuma, 1 ponto (MB pág. 134)
+- **20/09/2026 20:33** · FAD +4 — 45 min de descanso depois dos primeiros socorros, cap. 04
 
 ### Jah Kagadu
 
-**PV 1/12 · Fadiga 4/9**
+**PV 4/12 · Fadiga 6/9**
 
 - **15/09/2026 20:19** · FAD -1 — Falha no teste de ST para erguer a carroça tombada (MB pág. 89: falha em teste de esforço custa 1 ponto de ST por Fadiga)
 - **15/09/2026 21:14** · FAD -1 — Fadiga de batalha — combate rápido no cruzamento da carroça: Carga nenhuma (9 kg para ST 9), nível 0 +1 (MB pág. 134)
@@ -63,10 +66,12 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **19/09/2026 16:07** · PV -2 — Soco do morto que entrou por M6 (cap. 03, turno 8)
 - **19/09/2026 18:34** · PV +3 — Cura Superficial do Irmão Kaelric (cap. 03, turno 9)
 - **19/09/2026 19:35** · FAD -1 — Fadiga de batalha — Carga Nenhuma, 1 ponto (MB pág. 134)
+- **20/09/2026 20:33** · PV +3 — Duas rodadas de atadura na hora comprada (1D-2 = 1 e 2), cap. 04
+- **20/09/2026 20:33** · FAD +2 — 20 min de descanso, cap. 04
 
 ### Negrum Carneiriums
 
-**PV 11/12 · Fadiga 7/15**
+**PV 11/12 · Fadiga 15/15**
 
 - **07/09/2026 21:10** · PV -1 — Golpe fulminante de Hoel Meia-Orelha na briga da taberna (cap. 01)
 - **07/09/2026 22:18** · FAD -1 — Fadiga de batalha: briga contra Hoel Meia-Orelha, Carga nenhuma (MB pág. 134)
@@ -79,10 +84,11 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **17/09/2026 15:29** · PV -1 — Corte de espada curta na perna, vindo de sob a grade (cap. 03, turno 2)
 - **17/09/2026 17:26** · PV +1 — ERRATA: o Montante é arma de UMA mão (Espadas de Lâmina Larga, MB pág. 206) — o escudo valia, as duas defesas do turno 2 tinham passado e o ponto de vida não foi perdido
 - **19/09/2026 19:35** · FAD -1 — Fadiga de batalha — Carga Nenhuma, 1 ponto (MB pág. 134)
+- **20/09/2026 20:33** · FAD +8 — 80 min de descanso, cap. 04
 
 ### NelsOwned
 
-**PV 12/12 · Fadiga 9/15**
+**PV 12/12 · Fadiga 15/15**
 
 - **09/09/2026 09:52** · PV -2 — Chute do Hoel Meia-Orelha reanimado, ataque total no tronco (cap. 01)
 - **09/09/2026 12:21** · FAD -1 — Fadiga de batalha contra os mortos-vivos: Carga nenhuma, nível 0 +1 (MB pág. 134)
@@ -92,6 +98,7 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **15/09/2026 22:46** · FAD -1 — Fadiga de batalha — segundo combate rápido no cruzamento da carroça: Carga nenhuma, nível 0 +1 (MB pág. 134)
 - **16/09/2026 22:04** · PV +2 — Primeiros Socorros do Irmão Kaelric na cisterna, antes de subir (NH 13 +1 do kit = 14, passou por 0; cura 1d-3 = 3, limitada aos 2 que faltavam)
 - **19/09/2026 19:35** · FAD -1 — Fadiga de batalha — Carga Nenhuma, 1 ponto (MB pág. 134)
+- **20/09/2026 20:33** · FAD +6 — 85 min sentado escrevendo na muralha, cap. 04
 
 ## NPCs
 
@@ -209,7 +216,7 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 
 ### Piqueiro
 
-**PV -20 · Fadiga —**  ·  **SEM AS DUAS PERNAS, LIVRE E ACORDADO. Vitalidade -9 de 11 — DOIS PONTOS da barreira de -HT, onde testa HT ou morre. As duas pernas foram decepadas pelo montante do Negrum abaixo do joelho, para tirá-lo de debaixo da grade, e ele NÃO DESMAIOU em nenhum dos dois cortes: passou os dois testes de HT, o segundo por exatamente zero. Está fora do vão, deitado no pátio, consciente e sangrando. PRECISA DE PRIMEIROS SOCORROS AGORA — qualquer perda de 2 pontos o leva à barreira**
+**PV -19 · Fadiga —**  ·  **SEM AS DUAS PERNAS, LIVRE E ACORDADO. Vitalidade -9 de 11 — DOIS PONTOS da barreira de -HT, onde testa HT ou morre. As duas pernas foram decepadas pelo montante do Negrum abaixo do joelho, para tirá-lo de debaixo da grade, e ele NÃO DESMAIOU em nenhum dos dois cortes: passou os dois testes de HT, o segundo por exatamente zero. Está fora do vão, deitado no pátio, consciente e sangrando. PRECISA DE PRIMEIROS SOCORROS AGORA — qualquer perda de 2 pontos o leva à barreira**
 
 - **19/09/2026 11:37** · PV -5 — Golpe de espada na perna, vindo de sob a grade (cap. 03, turno 7)
 - **19/09/2026 11:37** · estado — PERNA INCAPACITADA e ATORDOADO — 6/11. Não anda nem sustenta o peso; -4 em todas as defesas ativas e teste de HT a cada turno para sair. Sozinho em N6, no canto leste do vão
@@ -223,3 +230,4 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **19/09/2026 20:34** · PV -10 — Duas amputações de perna com o montante do Negrum, para libertá-lo de sob a grade (cap. 03, pós-combate)
 - **19/09/2026 20:34** · curado — VIVO, CONSCIENTE E PRESO
 - **19/09/2026 20:34** · estado — SEM AS DUAS PERNAS, LIVRE E ACORDADO. Vitalidade -9 de 11 — DOIS PONTOS da barreira de -HT, onde testa HT ou morre. As duas pernas foram decepadas pelo montante do Negrum abaixo do joelho, para tirá-lo de debaixo da grade, e ele NÃO DESMAIOU em nenhum dos dois cortes: passou os dois testes de HT, o segundo por exatamente zero. Está fora do vão, deitado no pátio, consciente e sangrando. PRECISA DE PRIMEIROS SOCORROS AGORA — qualquer perda de 2 pontos o leva à barreira
+- **20/09/2026 20:33** · PV +1 — Primeiros Socorros do Irmão Kaelric, 30 min (cap. 04)
