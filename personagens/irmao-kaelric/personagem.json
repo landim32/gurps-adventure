@@ -34,7 +34,7 @@
     "bal": "2D-1"
   },
   "velocidade_basica": 6.0,
-  "deslocamento": 6,
+  "deslocamento": 5,
   "carga": {
     "nenhuma": 13,
     "leve": 26,
@@ -44,13 +44,13 @@
   },
   "defesa_passiva": {
     "armadura": 0,
-    "escudo": 0,
-    "total": 0
+    "escudo": 4,
+    "total": 4
   },
   "defesas_ativas": {
-    "esquiva": 6,
-    "aparar": 8,
-    "bloqueio": 0
+    "esquiva": 5,
+    "aparar": 7,
+    "bloqueio": 7
   },
   "reacao": "-2 (porte); +2 cristãos",
   "vantagens_desvantagens": [
@@ -114,6 +114,14 @@
       "qtd": 1,
       "peso": 2.5,
       "categoria": "Armas"
+    },
+    {
+      "item": "Escudo grande (pavês da guarnição)",
+      "dano": "-",
+      "tipo": "DP4",
+      "qtd": 1,
+      "peso": 12.0,
+      "categoria": "Armadura"
     },
     {
       "item": "Loriga de couro (braços)",
@@ -188,8 +196,8 @@
       "categoria": "Equipamento"
     }
   ],
-  "peso_total": 8.25,
-  "custo_total": 1760,
+  "peso_total": 20.25,
+  "custo_total": 1850,
   "pericias": [
     {
       "nome": "Machado/Maça",

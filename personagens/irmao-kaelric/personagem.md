@@ -43,26 +43,29 @@ o espera — mas sente que ele vem aí.
 | Pontos de Vida | 12 |
 | Dano Básico | GDP 1D / Balanço 2D-1 |
 | Velocidade Básica | 6,0 |
-| Deslocamento | 6 (Carga Nenhuma) |
-| Defesa Passiva | 0 — tronco e cabeça desprotegidos (armadura e escudo deixados no canal) |
-| Esquiva / Aparar / Bloqueio | 6 / 8 / — |
+| Deslocamento | 5 (Carga Leve — 20,25 kg, ST 13) |
+| Defesa Passiva | 4 — só o escudo; tronco e cabeça seguem desprotegidos |
+| Esquiva / Aparar / Bloqueio | 5 / 7 / 7 |
 | Altura / Reação | ~2,10 m · -2 geral (+1 dos combatentes quando a briga é iminente), +2 entre cristãos |
 
-**Reflexos em Combate** dá **+1 em Esquiva e Aparar** (efetivos **7 / 9**) e +2 na iniciativa.
-**Não há Bloqueio**: sem escudo não existe o que bloquear.
+**Reflexos em Combate** dá **+1 em cada defesa ativa** (efetivas **6 / 8 / 8**) e +2 na iniciativa.
 
-⚠️ **Equipamento deixado para trás no capítulo 2** — escudo grande, cota de malha, camal e
-coturnos (27,5 kg) ficaram escondidos num vão da parede do canal de drenagem de Wallace,
-*antes* do trecho alagado. Não foram destruídos nem vendidos: estão guardados, e o canal é
-uma rota que a guarnição do castelo não vigia. **Se ele recuperar, desfaça isto e volte aos
-valores antigos** (Carga Média, Deslocamento 4, Esquiva 4, DP 7, Bloqueio 7).
+**Escudo grande recuperado no capítulo 4** — um pavês da guarnição de Wallace, achado no
+castelo durante a hora comprada na muralha. Ele serve no tamanho dele sem adaptação.
 
-O que mudou com o peso fora: ele **ganhou** dois pontos de Deslocamento e de Esquiva, e o
-escudo grande deixou de cobrar o **-2 no ataque com a maça** e o **-1 no Aparar** que impunha
-— o ataque efetivo com Machado/Maça sobe de 12 para **14**. E **perdeu** toda a proteção de
-tronco e cabeça: restam loriga de couro nos braços, cesto nas mãos e laudel nas pernas
-(DP2/RD2 cada). **Hipoalgia** o poupa dos redutores de choque por dor: ele continua lutando e
-conjurando como se não sentisse o ferimento.
+Os inconvenientes do escudo grande valem (MB, pág. 75): **-2 no NH efetivo com a arma** —
+Machado/Maça cai de 14 para **12** — e **-1 no Aparar**, já descontado acima. Ele também não
+pode usar arma de duas mãos enquanto estiver com ele, e em combate de perto subtrai a DP 4
+de toda defesa e teste de DX a partir do segundo turno.
+
+⚠️ **Ainda faltam a cota de malha, o camal e os coturnos**, deixados no capítulo 2 num vão
+da parede do canal de drenagem de Wallace, antes do trecho alagado. Estão guardados, e o
+canal é uma rota que a guarnição não vigia. **Se ele recuperar tudo**, volte aos valores de
+equipamento completo: Carga Média, Deslocamento 4, Esquiva 4, DP 7.
+
+Tronco e cabeça continuam sem armadura: restam loriga de couro nos braços, cesto nas mãos e
+laudel nas pernas (DP2/RD2 cada). **Hipoalgia** o poupa dos redutores de choque por dor: ele
+continua lutando e conjurando como se não sentisse o ferimento.
 
 ## Vantagens e Desvantagens
 
@@ -119,6 +122,7 @@ voto não rende pontos adicionais — é levado a sério mesmo assim, por exigê
 | Item | Dano | Tipo | Peso |
 |---|---|---|---|
 | Maça | 2D+2 | cont | 2,5 |
+| Escudo grande (pavês da guarnição) | - | DP4 | 12,0 |
 | Loriga de couro (braços) | - | DP2/RD2 | 1,0 |
 | Cesto de couro (mãos) | - | DP2/RD2 | 0,0 |
 | Laudel (pernas) | - | DP1/RD1 | 1,0 |
