@@ -1,0 +1,1042 @@
+{
+  "mapa": "estrada.png",
+  "movimentos": [
+    {
+      "n": 1,
+      "quando": "22/09/2026 10:43:02",
+      "acoes": [
+        "limpou o mapa",
+        "colocou Cavalo de Kaelric -> M12, olhando M9 (aresta N), corpo em M12+M13+M14, 3 hex, aura azul",
+        "colocou Cavalo de Jah -> S12, olhando S9 (aresta N), corpo em S12+S13+S14, 3 hex, aura azul",
+        "colocou Comam Obabaroy -> P7, olhando P4 (aresta N), aura azul",
+        "colocou NelsOwned -> Q7, olhando Q4 (aresta N), aura azul",
+        "colocou Irmão Kaelric -> M13, olhando M10 (aresta N), aura azul",
+        "colocou Negrum Carneiriums -> M14, olhando M11 (aresta N), aura azul",
+        "colocou Jah Kagadu -> S13, olhando S10 (aresta N), aura azul",
+        "colocou Sir William -> O7, olhando O4 (aresta N), aura vermelha",
+        "colocou Morto 1 -> L21, olhando L18 (aresta N), corpo em L21+L22+L23, 3 hex, aura vermelha",
+        "colocou Morto 2 -> N20, olhando N17 (aresta N), corpo em N20+N21+N22, 3 hex, aura vermelha",
+        "colocou Morto 3 -> P19, olhando P16 (aresta N), corpo em P19+P20+P21, 3 hex, aura vermelha",
+        "colocou Morto 4 -> R20, olhando R17 (aresta N), corpo em R20+R21+R22, 3 hex, aura vermelha",
+        "colocou Morto 5 -> T21, olhando T18 (aresta N), corpo em T21+T22+T23, 3 hex, aura vermelha"
+      ],
+      "ocupacao": {
+        "M12": {
+          "tipo": "pj",
+          "quem": "Cavalo de Kaelric",
+          "token": "cenarios/estrada-tokens/cavalo.png",
+          "frente": "N",
+          "olhando": "M9",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "M12",
+            "M13",
+            "M14"
+          ],
+          "sem_nome": true
+        },
+        "S12": {
+          "tipo": "pj",
+          "quem": "Cavalo de Jah",
+          "token": "cenarios/estrada-tokens/cavalo.png",
+          "frente": "N",
+          "olhando": "S9",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "S12",
+            "S13",
+            "S14"
+          ],
+          "sem_nome": true
+        },
+        "P7": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "N",
+          "olhando": "P4"
+        },
+        "Q7": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "N",
+          "olhando": "Q4"
+        },
+        "M13": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "personagens/irmao-kaelric/token-hex.png",
+          "frente": "N",
+          "olhando": "M10"
+        },
+        "M14": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "N",
+          "olhando": "M11"
+        },
+        "S13": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "N",
+          "olhando": "S10"
+        },
+        "O7": {
+          "tipo": "npc",
+          "quem": "Sir William",
+          "token": "tokens/cavaleiro-placa-ornada-espada.png",
+          "frente": "N",
+          "olhando": "O4"
+        },
+        "L21": {
+          "tipo": "npc",
+          "quem": "Morto 1",
+          "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
+          "frente": "N",
+          "olhando": "L18",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "L21",
+            "L22",
+            "L23"
+          ]
+        },
+        "N20": {
+          "tipo": "npc",
+          "quem": "Morto 2",
+          "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
+          "frente": "N",
+          "olhando": "N17",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "N20",
+            "N21",
+            "N22"
+          ]
+        },
+        "P19": {
+          "tipo": "npc",
+          "quem": "Morto 3",
+          "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
+          "frente": "N",
+          "olhando": "P16",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "P19",
+            "P20",
+            "P21"
+          ]
+        },
+        "R20": {
+          "tipo": "npc",
+          "quem": "Morto 4",
+          "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
+          "frente": "N",
+          "olhando": "R17",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "R20",
+            "R21",
+            "R22"
+          ]
+        },
+        "T21": {
+          "tipo": "npc",
+          "quem": "Morto 5",
+          "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
+          "frente": "N",
+          "olhando": "T18",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "T21",
+            "T22",
+            "T23"
+          ]
+        }
+      }
+    },
+    {
+      "n": 2,
+      "quando": "22/09/2026 10:50:53",
+      "acoes": [
+        "aviso: NelsOwned gastaria 7 pontos de movimento (3 para virar antes de sair + 4 hexagono(s) andado(s)), mas o Deslocamento dele e 5: nao cabe em um turno — seriam 2, e so com a manobra Deslocamento, sem atacar",
+        "moveu NelsOwned Q7 -> Q11, olhando Q12 (aresta S), aura azul",
+        "aviso: nao sei o Deslocamento de Sir William para conferir o movimento (3 para virar antes de sair + 3 hexagono(s) andado(s) = 6 pontos) — ponha `deslocamento` na ficha ou no tokens.json, ou diga \"com deslocamento N\"",
+        "moveu Sir William O7 -> P9, olhando P10 (aresta S), aura vermelha"
+      ],
+      "ocupacao": {
+        "M12": {
+          "tipo": "pj",
+          "quem": "Cavalo de Kaelric",
+          "token": "cenarios/estrada-tokens/cavalo.png",
+          "frente": "N",
+          "olhando": "M9",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "M12",
+            "M13",
+            "M14"
+          ],
+          "sem_nome": true
+        },
+        "S12": {
+          "tipo": "pj",
+          "quem": "Cavalo de Jah",
+          "token": "cenarios/estrada-tokens/cavalo.png",
+          "frente": "N",
+          "olhando": "S9",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "S12",
+            "S13",
+            "S14"
+          ],
+          "sem_nome": true
+        },
+        "P7": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "N",
+          "olhando": "P4"
+        },
+        "M13": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "personagens/irmao-kaelric/token-hex.png",
+          "frente": "N",
+          "olhando": "M10"
+        },
+        "M14": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "N",
+          "olhando": "M11"
+        },
+        "S13": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "N",
+          "olhando": "S10"
+        },
+        "L21": {
+          "tipo": "npc",
+          "quem": "Morto 1",
+          "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
+          "frente": "N",
+          "olhando": "L18",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "L21",
+            "L22",
+            "L23"
+          ]
+        },
+        "N20": {
+          "tipo": "npc",
+          "quem": "Morto 2",
+          "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
+          "frente": "N",
+          "olhando": "N17",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "N20",
+            "N21",
+            "N22"
+          ]
+        },
+        "P19": {
+          "tipo": "npc",
+          "quem": "Morto 3",
+          "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
+          "frente": "N",
+          "olhando": "P16",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "P19",
+            "P20",
+            "P21"
+          ]
+        },
+        "R20": {
+          "tipo": "npc",
+          "quem": "Morto 4",
+          "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
+          "frente": "N",
+          "olhando": "R17",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "R20",
+            "R21",
+            "R22"
+          ]
+        },
+        "T21": {
+          "tipo": "npc",
+          "quem": "Morto 5",
+          "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
+          "frente": "N",
+          "olhando": "T18",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "T21",
+            "T22",
+            "T23"
+          ]
+        },
+        "Q11": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "S",
+          "olhando": "Q12"
+        },
+        "P9": {
+          "tipo": "npc",
+          "quem": "Sir William",
+          "token": "tokens/cavaleiro-placa-ornada-espada.png",
+          "frente": "S",
+          "olhando": "P10"
+        }
+      }
+    },
+    {
+      "n": 3,
+      "quando": "24/09/2026 15:00:43",
+      "acoes": [
+        "moveu Cavalo de Jah S12 -> S11, olhando S8 (aresta N), corpo em S11+S12+S13, 3 hex, aura azul",
+        "moveu Jah Kagadu S13 -> S12, olhando S9 (aresta N), aura azul",
+        "colocou Negrum Carneiriums -> M14, olhando M15 (aresta S), aura azul"
+      ],
+      "ocupacao": {
+        "M12": {
+          "tipo": "pj",
+          "quem": "Cavalo de Kaelric",
+          "token": "cenarios/estrada-tokens/cavalo.png",
+          "frente": "N",
+          "olhando": "M9",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "M12",
+            "M13",
+            "M14"
+          ],
+          "sem_nome": true
+        },
+        "P7": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "N",
+          "olhando": "P4"
+        },
+        "M13": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "personagens/irmao-kaelric/token-hex.png",
+          "frente": "N",
+          "olhando": "M10"
+        },
+        "M14": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "M15"
+        },
+        "L21": {
+          "tipo": "npc",
+          "quem": "Morto 1",
+          "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
+          "frente": "N",
+          "olhando": "L18",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "L21",
+            "L22",
+            "L23"
+          ]
+        },
+        "N20": {
+          "tipo": "npc",
+          "quem": "Morto 2",
+          "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
+          "frente": "N",
+          "olhando": "N17",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "N20",
+            "N21",
+            "N22"
+          ]
+        },
+        "P19": {
+          "tipo": "npc",
+          "quem": "Morto 3",
+          "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
+          "frente": "N",
+          "olhando": "P16",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "P19",
+            "P20",
+            "P21"
+          ]
+        },
+        "R20": {
+          "tipo": "npc",
+          "quem": "Morto 4",
+          "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
+          "frente": "N",
+          "olhando": "R17",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "R20",
+            "R21",
+            "R22"
+          ]
+        },
+        "T21": {
+          "tipo": "npc",
+          "quem": "Morto 5",
+          "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
+          "frente": "N",
+          "olhando": "T18",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "T21",
+            "T22",
+            "T23"
+          ]
+        },
+        "Q11": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "S",
+          "olhando": "Q12"
+        },
+        "P9": {
+          "tipo": "npc",
+          "quem": "Sir William",
+          "token": "tokens/cavaleiro-placa-ornada-espada.png",
+          "frente": "S",
+          "olhando": "P10"
+        },
+        "S11": {
+          "tipo": "pj",
+          "quem": "Cavalo de Jah",
+          "token": "cenarios/estrada-tokens/cavalo.png",
+          "frente": "N",
+          "olhando": "S8",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "S11",
+            "S12",
+            "S13"
+          ],
+          "sem_nome": true
+        },
+        "S12": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "N",
+          "olhando": "S9"
+        }
+      }
+    },
+    {
+      "n": 4,
+      "quando": "24/09/2026 15:04:05",
+      "acoes": [
+        "aviso: Cavalo de Kaelric gastou 5 pontos de movimento (3 para virar antes de sair + 2 hexagono(s) andado(s) + a virada final de 3 lado(s) sai de graca) de 12: cabe em um turno so com a manobra Deslocamento — quem anda mais de 1 hexagono nao ataca. Hexagono de lado ou para tras custaria 2 cada",
+        "moveu Cavalo de Kaelric M12 -> M14, olhando M11 (aresta N), corpo em M14+M15+M16, 3 hex, aura azul",
+        "aviso: Irmão Kaelric gastou 5 pontos de movimento (3 para virar antes de sair + 2 hexagono(s) andado(s) + a virada final de 3 lado(s) sai de graca) de 12: cabe em um turno so com a manobra Deslocamento — quem anda mais de 1 hexagono nao ataca. Hexagono de lado ou para tras custaria 2 cada",
+        "moveu Irmão Kaelric M13 -> M15, olhando M12 (aresta N), aura azul",
+        "colocou Negrum Carneiriums -> M16, olhando M17 (aresta S), aura azul",
+        "aviso: Morto 2 gastou 4 pontos (3 para virar antes de sair + 1 hexagono(s) andado(s) + a virada final de 3 lado(s) sai de graca) de 12: cabe num Avancar e Atacar so se for 1 hexagono e a virada couber no fim",
+        "moveu Morto 2 N20 -> N21, olhando N18 (aresta N), corpo em N21+N22+N23, 3 hex, aura vermelha",
+        "aviso: Morto 3 gastaria 17 pontos de movimento (3 para virar antes de sair + 12 hexagono(s) andado(s) + 2 para virar no fim alem do lado que sai de graca), mas o Deslocamento dele e 12: nao cabe em um turno — seriam 2, e so com a manobra Deslocamento, sem atacar",
+        "moveu Morto 3 P19 -> P31, olhando P28 (aresta N), corpo em P31+P32+P33, 3 hex, aura vermelha",
+        "aviso: Morto 4 gastou 5 pontos de movimento (3 para virar antes de sair + 2 hexagono(s) andado(s) + a virada final de 3 lado(s) sai de graca) de 12: cabe em um turno so com a manobra Deslocamento — quem anda mais de 1 hexagono nao ataca. Hexagono de lado ou para tras custaria 2 cada",
+        "moveu Morto 4 R20 -> R22, olhando R19 (aresta N), corpo em R22+R23+R24, 3 hex, aura vermelha"
+      ],
+      "ocupacao": {
+        "P7": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "N",
+          "olhando": "P4"
+        },
+        "M14": {
+          "tipo": "pj",
+          "quem": "Cavalo de Kaelric",
+          "token": "cenarios/estrada-tokens/cavalo.png",
+          "frente": "N",
+          "olhando": "M11",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "M14",
+            "M15",
+            "M16"
+          ],
+          "sem_nome": true
+        },
+        "L21": {
+          "tipo": "npc",
+          "quem": "Morto 1",
+          "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
+          "frente": "N",
+          "olhando": "L18",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "L21",
+            "L22",
+            "L23"
+          ]
+        },
+        "T21": {
+          "tipo": "npc",
+          "quem": "Morto 5",
+          "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
+          "frente": "N",
+          "olhando": "T18",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "T21",
+            "T22",
+            "T23"
+          ]
+        },
+        "Q11": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "S",
+          "olhando": "Q12"
+        },
+        "P9": {
+          "tipo": "npc",
+          "quem": "Sir William",
+          "token": "tokens/cavaleiro-placa-ornada-espada.png",
+          "frente": "S",
+          "olhando": "P10"
+        },
+        "S11": {
+          "tipo": "pj",
+          "quem": "Cavalo de Jah",
+          "token": "cenarios/estrada-tokens/cavalo.png",
+          "frente": "N",
+          "olhando": "S8",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "S11",
+            "S12",
+            "S13"
+          ],
+          "sem_nome": true
+        },
+        "S12": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "N",
+          "olhando": "S9"
+        },
+        "M15": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "personagens/irmao-kaelric/token-hex.png",
+          "frente": "N",
+          "olhando": "M12"
+        },
+        "M16": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "M17"
+        },
+        "N21": {
+          "tipo": "npc",
+          "quem": "Morto 2",
+          "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
+          "frente": "N",
+          "olhando": "N18",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "N21",
+            "N22",
+            "N23"
+          ]
+        },
+        "P31": {
+          "tipo": "npc",
+          "quem": "Morto 3",
+          "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
+          "frente": "N",
+          "olhando": "P28",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "P31",
+            "P32",
+            "P33"
+          ]
+        },
+        "R22": {
+          "tipo": "npc",
+          "quem": "Morto 4",
+          "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
+          "frente": "N",
+          "olhando": "R19",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "R22",
+            "R23",
+            "R24"
+          ]
+        }
+      }
+    },
+    {
+      "n": 5,
+      "quando": "24/09/2026 15:07:02",
+      "acoes": [
+        "colocou Negrum Carneiriums -> M16, olhando O17 (aresta SE), aura azul"
+      ],
+      "ocupacao": {
+        "P7": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "N",
+          "olhando": "P4"
+        },
+        "M14": {
+          "tipo": "pj",
+          "quem": "Cavalo de Kaelric",
+          "token": "cenarios/estrada-tokens/cavalo.png",
+          "frente": "N",
+          "olhando": "M11",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "M14",
+            "M15",
+            "M16"
+          ],
+          "sem_nome": true
+        },
+        "L21": {
+          "tipo": "npc",
+          "quem": "Morto 1",
+          "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
+          "frente": "N",
+          "olhando": "L18",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "L21",
+            "L22",
+            "L23"
+          ]
+        },
+        "T21": {
+          "tipo": "npc",
+          "quem": "Morto 5",
+          "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
+          "frente": "N",
+          "olhando": "T18",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "T21",
+            "T22",
+            "T23"
+          ]
+        },
+        "Q11": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "S",
+          "olhando": "Q12"
+        },
+        "P9": {
+          "tipo": "npc",
+          "quem": "Sir William",
+          "token": "tokens/cavaleiro-placa-ornada-espada.png",
+          "frente": "S",
+          "olhando": "P10"
+        },
+        "S11": {
+          "tipo": "pj",
+          "quem": "Cavalo de Jah",
+          "token": "cenarios/estrada-tokens/cavalo.png",
+          "frente": "N",
+          "olhando": "S8",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "S11",
+            "S12",
+            "S13"
+          ],
+          "sem_nome": true
+        },
+        "S12": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "N",
+          "olhando": "S9"
+        },
+        "M15": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "personagens/irmao-kaelric/token-hex.png",
+          "frente": "N",
+          "olhando": "M12"
+        },
+        "M16": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "SE",
+          "olhando": "O17"
+        },
+        "N21": {
+          "tipo": "npc",
+          "quem": "Morto 2",
+          "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
+          "frente": "N",
+          "olhando": "N18",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "N21",
+            "N22",
+            "N23"
+          ]
+        },
+        "P31": {
+          "tipo": "npc",
+          "quem": "Morto 3",
+          "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
+          "frente": "N",
+          "olhando": "P28",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "P31",
+            "P32",
+            "P33"
+          ]
+        },
+        "R22": {
+          "tipo": "npc",
+          "quem": "Morto 4",
+          "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
+          "frente": "N",
+          "olhando": "R19",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "R22",
+            "R23",
+            "R24"
+          ]
+        }
+      }
+    },
+    {
+      "n": 6,
+      "quando": "24/09/2026 15:12:51",
+      "acoes": [
+        "removeu quem estava em P31",
+        "aviso: Cavalo de Kaelric gastou 5 pontos de movimento (3 para virar antes de sair + 2 hexagono(s) andado(s) + a virada final de 3 lado(s) sai de graca) de 12: cabe em um turno so com a manobra Deslocamento — quem anda mais de 1 hexagono nao ataca. Hexagono de lado ou para tras custaria 2 cada",
+        "moveu Cavalo de Kaelric M14 -> M16, olhando M13 (aresta N), corpo em M16+M17+M18, 3 hex, aura azul",
+        "aviso: Cavalo de Jah gastou 6 pontos de movimento (3 para virar antes de sair + 3 hexagono(s) andado(s) + a virada final de 3 lado(s) sai de graca) de 12: cabe em um turno so com a manobra Deslocamento — quem anda mais de 1 hexagono nao ataca. Hexagono de lado ou para tras custaria 2 cada",
+        "moveu Cavalo de Jah S11 -> S14, olhando S11 (aresta N), corpo em S14+S15+S16, 3 hex, aura azul",
+        "aviso: Irmão Kaelric gastou 5 pontos de movimento (3 para virar antes de sair + 2 hexagono(s) andado(s) + a virada final de 3 lado(s) sai de graca) de 12: cabe em um turno so com a manobra Deslocamento — quem anda mais de 1 hexagono nao ataca. Hexagono de lado ou para tras custaria 2 cada",
+        "moveu Irmão Kaelric M15 -> M17, olhando M14 (aresta N), aura azul",
+        "colocou Negrum Carneiriums -> M18, olhando M19 (aresta S), aura azul",
+        "aviso: Jah Kagadu gastou 6 pontos de movimento (3 para virar antes de sair + 3 hexagono(s) andado(s) + a virada final de 3 lado(s) sai de graca) de 12: cabe em um turno so com a manobra Deslocamento — quem anda mais de 1 hexagono nao ataca. Hexagono de lado ou para tras custaria 2 cada",
+        "moveu Jah Kagadu S12 -> S15, olhando S12 (aresta N), aura azul",
+        "aviso: Morto 1 gastou 4 pontos (3 para virar antes de sair + 1 hexagono(s) andado(s) + a virada final de 3 lado(s) sai de graca) de 12: cabe num Avancar e Atacar so se for 1 hexagono e a virada couber no fim",
+        "moveu Morto 1 L21 -> L22, olhando L19 (aresta N), corpo em L22+L23+L24, 3 hex, aura vermelha",
+        "aviso: Morto 2 gastou 5 pontos de movimento (3 para virar antes de sair + 2 hexagono(s) andado(s) + a virada final de 3 lado(s) sai de graca) de 12: cabe em um turno so com a manobra Deslocamento — quem anda mais de 1 hexagono nao ataca. Hexagono de lado ou para tras custaria 2 cada",
+        "moveu Morto 2 N21 -> N23, olhando N20 (aresta N), corpo em N23+N24+N25, 3 hex, aura vermelha",
+        "aviso: Morto 5 gastou 6 pontos de movimento (3 para virar antes de sair + 3 hexagono(s) andado(s) + a virada final de 3 lado(s) sai de graca) de 12: cabe em um turno so com a manobra Deslocamento — quem anda mais de 1 hexagono nao ataca. Hexagono de lado ou para tras custaria 2 cada",
+        "moveu Morto 5 T21 -> T24, olhando T21 (aresta N), corpo em T24+T25+T26, 3 hex, aura vermelha"
+      ],
+      "ocupacao": {
+        "P7": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "N",
+          "olhando": "P4"
+        },
+        "Q11": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "S",
+          "olhando": "Q12"
+        },
+        "P9": {
+          "tipo": "npc",
+          "quem": "Sir William",
+          "token": "tokens/cavaleiro-placa-ornada-espada.png",
+          "frente": "S",
+          "olhando": "P10"
+        },
+        "M16": {
+          "tipo": "pj",
+          "quem": "Cavalo de Kaelric",
+          "token": "cenarios/estrada-tokens/cavalo.png",
+          "frente": "N",
+          "olhando": "M13",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "M16",
+            "M17",
+            "M18"
+          ],
+          "sem_nome": true
+        },
+        "R22": {
+          "tipo": "npc",
+          "quem": "Morto 4",
+          "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
+          "frente": "N",
+          "olhando": "R19",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "R22",
+            "R23",
+            "R24"
+          ]
+        },
+        "S14": {
+          "tipo": "pj",
+          "quem": "Cavalo de Jah",
+          "token": "cenarios/estrada-tokens/cavalo.png",
+          "frente": "N",
+          "olhando": "S11",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "S14",
+            "S15",
+            "S16"
+          ],
+          "sem_nome": true
+        },
+        "M17": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "personagens/irmao-kaelric/token-hex.png",
+          "frente": "N",
+          "olhando": "M14"
+        },
+        "M18": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "M19"
+        },
+        "S15": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "N",
+          "olhando": "S12"
+        },
+        "L22": {
+          "tipo": "npc",
+          "quem": "Morto 1",
+          "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
+          "frente": "N",
+          "olhando": "L19",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "L22",
+            "L23",
+            "L24"
+          ]
+        },
+        "N23": {
+          "tipo": "npc",
+          "quem": "Morto 2",
+          "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
+          "frente": "N",
+          "olhando": "N20",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "N23",
+            "N24",
+            "N25"
+          ]
+        },
+        "T24": {
+          "tipo": "npc",
+          "quem": "Morto 5",
+          "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
+          "frente": "N",
+          "olhando": "T21",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "T24",
+            "T25",
+            "T26"
+          ]
+        }
+      }
+    },
+    {
+      "n": 7,
+      "quando": "24/09/2026 16:04:02",
+      "acoes": [
+        "colocou Morto 3 -> P38, olhando P35 (aresta N), corpo em P38+P39, 3 hex, aura vermelha"
+      ],
+      "ocupacao": {
+        "P7": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "N",
+          "olhando": "P4"
+        },
+        "Q11": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "S",
+          "olhando": "Q12"
+        },
+        "P9": {
+          "tipo": "npc",
+          "quem": "Sir William",
+          "token": "tokens/cavaleiro-placa-ornada-espada.png",
+          "frente": "S",
+          "olhando": "P10"
+        },
+        "M16": {
+          "tipo": "pj",
+          "quem": "Cavalo de Kaelric",
+          "token": "cenarios/estrada-tokens/cavalo.png",
+          "frente": "N",
+          "olhando": "M13",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "M16",
+            "M17",
+            "M18"
+          ],
+          "sem_nome": true
+        },
+        "R22": {
+          "tipo": "npc",
+          "quem": "Morto 4",
+          "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
+          "frente": "N",
+          "olhando": "R19",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "R22",
+            "R23",
+            "R24"
+          ]
+        },
+        "S14": {
+          "tipo": "pj",
+          "quem": "Cavalo de Jah",
+          "token": "cenarios/estrada-tokens/cavalo.png",
+          "frente": "N",
+          "olhando": "S11",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "S14",
+            "S15",
+            "S16"
+          ],
+          "sem_nome": true
+        },
+        "M17": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "personagens/irmao-kaelric/token-hex.png",
+          "frente": "N",
+          "olhando": "M14"
+        },
+        "M18": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "M19"
+        },
+        "S15": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "N",
+          "olhando": "S12"
+        },
+        "L22": {
+          "tipo": "npc",
+          "quem": "Morto 1",
+          "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
+          "frente": "N",
+          "olhando": "L19",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "L22",
+            "L23",
+            "L24"
+          ]
+        },
+        "N23": {
+          "tipo": "npc",
+          "quem": "Morto 2",
+          "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
+          "frente": "N",
+          "olhando": "N20",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "N23",
+            "N24",
+            "N25"
+          ]
+        },
+        "T24": {
+          "tipo": "npc",
+          "quem": "Morto 5",
+          "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
+          "frente": "N",
+          "olhando": "T21",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "T24",
+            "T25",
+            "T26"
+          ]
+        },
+        "P38": {
+          "tipo": "npc",
+          "quem": "Morto 3",
+          "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
+          "frente": "N",
+          "olhando": "P35",
+          "tamanho_hex": 3.0,
+          "hexes_ocupados": [
+            "P38",
+            "P39"
+          ]
+        }
+      }
+    }
+  ]
+}
