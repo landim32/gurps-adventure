@@ -54,13 +54,15 @@ _"Eu tenho uma coisa para dizer e não tenho tempo de contar direito. Sentem ou 
 
 O que vocês fazem?
 
-### Narração 3 — 20/09/2026 21:09
+### Narração 3
 
-_William revela a passagem sob o estábulo, diz que era isso que comprava com o orc, e explica o deserto sem mana_
+> ⚠️ **ERRATA do Mestre.** A primeira versão deste texto dizia que a passagem era estreita, de gatinhas. Ela é larga: passam três pessoas de frente, em pé. Cavalo e carroça é que não descem. — 20/09/2026 21:09
+
+_William revela a passagem que sai no estábulo de fora, diz que era isso que comprava com o orc, e explica o deserto sem mana_
 
 Ele não senta. Põe as duas mãos na mesa, em cima dos mapas, e fala rápido.
 
-_"Tem uma passagem. Sob o estábulo, no fundo da última baia, debaixo da palha. Meu avô mandou fechar quando eu era menino e ninguém desce lá há vinte anos — está entupida de pedra, viga podre e terra."_
+_"Tem uma passagem. A boca é na adega velha, sob a torre norte, atrás da parede de tonéis. Meu avô mandou fechar quando eu era menino e ninguém desce lá há vinte anos — está entupida de pedra, viga podre e terra."_
 
 _"Eu pus dois homens a cavar no instante em que a grade caiu. Eles estão lá embaixo desde então."_
 
@@ -68,7 +70,9 @@ Ele olha para cada um de vocês, uma vez, e não desvia.
 
 _"Era isso que eu estava comprando com o orc. Não era água. Não era carroça. Era isso, e eu não disse a ninguém porque castelo cheio de gente com medo não guarda segredo."_
 
-_"Está aberta. Mal, mas está. Passa um de cada vez, de gatinhas, e não passa cavalo — faltou tempo para alargar."_
+_"Está aberta. Meu avô não cavou aquilo para um homem fugir — cavou para escoar uma guarnição. Passam três de frente, em pé."_
+
+_"Cavalo não desce, e carroça muito menos. Para isso faltou tempo."_
 
 Ele endireita o corpo.
 
@@ -106,7 +110,7 @@ _"Então?"_
 
 <!-- indice:acontecimentos -->
 - **20/09/2026 21:04** — [narração 1] Abertura do cap. 5: a chuva para, o aríete aparece pronto na rampa e a mesa entende que o orc também estava ganhando tempo. Vurkash chama William
-- **20/09/2026 21:09** — [narração 3] William revela a passagem sob o estábulo, diz que era isso que comprava com o orc, e explica o deserto sem mana
+- **20/09/2026 21:09** — [narração 3] William revela a passagem que sai no estábulo de fora, diz que era isso que comprava com o orc, e explica o deserto sem mana
 - **20/09/2026 21:32** — Negociação com William: NelsOwned (Trovador 20 -1) tirou 16 contra 14 do lorde (Trato Social 13). Margem 3 — 00 por cabeça, pagos ADIANTADO do cofre da guarnição. O grupo aceitou segurar o pátio até o último civil descer a passagem.
 - **20/09/2026 21:34** — CORREÇÃO: o acerto com William foi de .000 por cabeça, metade adiantada (.000 cada) e metade a pagar do outro lado. O lorde ficou devendo .000 ao grupo.
 <!-- /indice:acontecimentos -->
