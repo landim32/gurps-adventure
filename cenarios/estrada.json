@@ -1,0 +1,20 @@
+{
+  "slug": "estrada",
+  "nome": "Estrada de terra fora das muralhas",
+  "origem": "mapa comprado (não gerado pela skill cenario-rpg)",
+  "largura_m": 25.6,
+  "altura_m": 38.4,
+  "escala": {
+    "metro_px": 40.0,
+    "calibracao": "definida pelo dono da mesa: as costas do cavalo de tiro ocupam 2 hexágonos. O dorso (garrote à garupa) mede 80 px na arte, logo 1 m = 40 px. Bate com o cavalo de 2 hexágonos do MB. O grid quadrado impresso no mapa tem 48 px e NÃO corresponde a 1 m — ignore-o."
+  },
+  "grid": {
+    "colunas": 31,
+    "linhas": 40,
+    "rotulo_colunas": "A–AE",
+    "metro_px": 40.0,
+    "origem": [0.0, 0.0],
+    "orientacao": "topo-chato",
+    "indice": "com-grid/estrada.json"
+  }
+}
