@@ -10,12 +10,13 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 |---|---|---:|---:|---|
 | Comam Obabaroy | PJ | 12/12 | 10/13 | — |
 | Irmão Kaelric | PJ | 12/12 | 5/13 | — |
-| Jah Kagadu | PJ | 4/12 | 6/9 | — |
+| Jah Kagadu | PJ | 2/12 | 6/9 | — |
 | Negrum Carneiriums | PJ | 11/12 | 15/15 | — |
-| NelsOwned | PJ | 12/12 | 15/15 | — |
+| NelsOwned | PJ | 3/12 | 15/15 | Caído e atordoado na caçamba desde a rodada 14: -4 nas defesas e teste de HT a cada turno para sair; com 3 PV, Deslocamento à metade |
 | Donnwulf | NPC | -27 | — | FALECEU no pátio do portão, em L6. Vitalidade -15 de 12: a terceira machadada do NelsOwned sobre o membro preso tirou os 4 pontos do teto (HT/3) e cruzou a barreira de -HT. Teste de HT 12 contra a morte (MB pág. 126): tirou 13, falhou por um. Estava inconsciente e sem nada para gastar a favor |
 | Hoel Meia-Orelha | NPC | -21 | — | MORTO — espancado até a morte pelo Negrum enquanto estava inconsciente (MB pág. 128: pessoa indefesa atacada de maneira letal morre sem jogada); **DECAPITADO** em L5 pelo machado grande de NelsOwned (cap. 01), no turno seguinte ao em que se levantou. Mesmo critério do Morto-Vivo 1: 15 pontos, 1,5 x HT, numa criatura de HT 10. Destruído de vez: não se levanta, não volta |
 | Lanceiro | NPC | -5 | — | SUMIDO na massa da rampa desde o turno 5, arrastado de L6 até L8-L9. Ninguém do grupo sabe se vive. Levava -5 de vitalidade e a perna esquerda destruída quando se perdeu de vista. Fora do mapa, e agora do lado de fora do portão fechado |
+| Morto 4 (arqueiro montado) | NPC | -10 | — | HT 1 de 11 — um golpe de qualquer coisa o derruba |
 | Morto-Vivo 1 | NPC | -15 | — | **DECAPITADO** pelo montante do Negrum (cap. 01). Destruído de vez: não se levanta, não volta |
 | Morto-Vivo 2 | NPC | -18 | — | **DESTRUÍDO** (decisão do Mestre, cap. 01). Parou de se mexer entre L10 e L11, contra a pedra da lareira, com o tórax afundado pela maça do Irmão Kaelric — 18 pontos acumulados num corpo de 11 PV. Não se levanta, não volta |
 | Morto-Vivo 3 | NPC | -13 | — | **DESTRUÍDO** (decisão do Mestre, cap. 01). Parou de se mexer entre M10 e M11, em cima do braseiro, com o peito afundado pela maça do Irmão Kaelric e o corpo queimando — 13 pontos acumulados num corpo de 10 PV. Não se levanta, não volta. **É o corpo dele que está pegando fogo e espalhando o incêndio pelo salão** |
@@ -55,7 +56,7 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 
 ### Jah Kagadu
 
-**PV 4/12 · Fadiga 6/9**
+**PV 2/12 · Fadiga 6/9**
 
 - **15/09/2026 20:19** · FAD -1 — Falha no teste de ST para erguer a carroça tombada (MB pág. 89: falha em teste de esforço custa 1 ponto de ST por Fadiga)
 - **15/09/2026 21:14** · FAD -1 — Fadiga de batalha — combate rápido no cruzamento da carroça: Carga nenhuma (9 kg para ST 9), nível 0 +1 (MB pág. 134)
@@ -68,6 +69,7 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **19/09/2026 19:35** · FAD -1 — Fadiga de batalha — Carga Nenhuma, 1 ponto (MB pág. 134)
 - **20/09/2026 20:33** · PV +3 — Duas rodadas de atadura na hora comprada (1D-2 = 1 e 2), cap. 04
 - **20/09/2026 20:33** · FAD +2 — 20 min de descanso, cap. 04
+- **26/09/2026 19:16** · PV -2 — Flecha no tronco do Morto 4, a 7 m, na rodada 12 do cap. 6 (1 ponto passou o tecido rígido, dobrado por perfuração)
 
 ### Negrum Carneiriums
 
@@ -88,7 +90,7 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 
 ### NelsOwned
 
-**PV 12/12 · Fadiga 15/15**
+**PV 3/12 · Fadiga 15/15**  ·  **Caído e atordoado na caçamba desde a rodada 14: -4 nas defesas e teste de HT a cada turno para sair; com 3 PV, Deslocamento à metade**
 
 - **09/09/2026 09:52** · PV -2 — Chute do Hoel Meia-Orelha reanimado, ataque total no tronco (cap. 01)
 - **09/09/2026 12:21** · FAD -1 — Fadiga de batalha contra os mortos-vivos: Carga nenhuma, nível 0 +1 (MB pág. 134)
@@ -99,6 +101,8 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **16/09/2026 22:04** · PV +2 — Primeiros Socorros do Irmão Kaelric na cisterna, antes de subir (NH 13 +1 do kit = 14, passou por 0; cura 1d-3 = 3, limitada aos 2 que faltavam)
 - **19/09/2026 19:35** · FAD -1 — Fadiga de batalha — Carga Nenhuma, 1 ponto (MB pág. 134)
 - **20/09/2026 20:33** · FAD +6 — 85 min sentado escrevendo na muralha, cap. 04
+- **27/09/2026 19:15** · PV -9 — Espada curta do Morto 5 no tronco, rodada 14 da corrida (cap. 06)
+- **27/09/2026 19:15** · estado — Caído e atordoado na caçamba desde a rodada 14: -4 nas defesas e teste de HT a cada turno para sair; com 3 PV, Deslocamento à metade
 
 ## NPCs
 
@@ -160,6 +164,13 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **18/09/2026 20:07** · estado — DESAPARECIDO — sumiu no meio dos mortos da rampa no turno 5. Ninguém do grupo sabe se está vivo. Perna esquerda incapacitada e -5 de pontos de vida quando se perdeu de vista. Fora do mapa
 - **19/09/2026 19:39** · estado — DESAPARECIDO — sumiu no meio dos mortos da rampa no turno 5, arrastado de L6 até L8-L9. Ninguém do grupo sabe se está vivo. Perna esquerda incapacitada e -5 de pontos de vida quando se perdeu de vista. Fora do mapa, e agora do lado de fora do portão fechado
 - **19/09/2026 19:39** · estado — SUMIDO na massa da rampa desde o turno 5, arrastado de L6 até L8-L9. Ninguém do grupo sabe se vive. Levava -5 de vitalidade e a perna esquerda destruída quando se perdeu de vista. Fora do mapa, e agora do lado de fora do portão fechado
+
+### Morto 4 (arqueiro montado)
+
+**PV -10 · Fadiga —**  ·  **HT 1 de 11 — um golpe de qualquer coisa o derruba**
+
+- **27/09/2026 06:06** · PV -10 — Maçada do Irmão Kaelric no tronco, rodada 13 do cap. 6 (2D+4 com o bônus de velocidade, RD 2 da malha contra contusão)
+- **27/09/2026 06:06** · estado — HT 1 de 11 — um golpe de qualquer coisa o derruba
 
 ### Morto-Vivo 1
 

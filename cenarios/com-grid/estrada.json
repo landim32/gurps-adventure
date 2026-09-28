@@ -14533,13 +14533,6 @@
       "frente": "N",
       "olhando": "P4"
     },
-    "Q11": {
-      "tipo": "pj",
-      "quem": "NelsOwned",
-      "token": "personagens/nelsowned/token-hex.png",
-      "frente": "S",
-      "olhando": "Q12"
-    },
     "P9": {
       "tipo": "npc",
       "quem": "Sir William",
@@ -14547,118 +14540,53 @@
       "frente": "S",
       "olhando": "P10"
     },
-    "M16": {
+    "O11": {
       "tipo": "pj",
-      "quem": "Cavalo de Kaelric",
-      "token": "cenarios/estrada-tokens/cavalo.png",
-      "frente": "N",
-      "olhando": "M13",
-      "tamanho_hex": 3.0,
-      "hexes_ocupados": [
-        "M16",
-        "M17",
-        "M18"
-      ],
-      "sem_nome": true
+      "quem": "NelsOwned",
+      "token": "personagens/nelsowned/token-hex.png",
+      "frente": "SE",
+      "olhando": "P11"
     },
-    "R22": {
+    "P11": {
+      "tipo": "pj",
+      "quem": "Negrum Carneiriums",
+      "token": "personagens/negrum-carneiriums/token-hex.png",
+      "frente": "NE",
+      "olhando": "Q11"
+    },
+    "P10": {
       "tipo": "npc",
-      "quem": "Morto 4",
-      "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
-      "frente": "N",
-      "olhando": "R19",
-      "tamanho_hex": 3.0,
-      "hexes_ocupados": [
-        "R22",
-        "R23",
-        "R24"
-      ]
+      "quem": "Morto 5",
+      "token": "tokens/zumbi-agachado-camisa-marrom.png",
+      "frente": "SW",
+      "olhando": "O11"
     },
-    "S14": {
+    "S33": {
       "tipo": "pj",
       "quem": "Cavalo de Jah",
       "token": "cenarios/estrada-tokens/cavalo.png",
       "frente": "N",
-      "olhando": "S11",
+      "olhando": "S30",
       "tamanho_hex": 3.0,
       "hexes_ocupados": [
-        "S14",
-        "S15",
-        "S16"
-      ],
-      "sem_nome": true
+        "S33",
+        "S34",
+        "S35"
+      ]
     },
-    "M17": {
-      "tipo": "pj",
-      "quem": "Irmão Kaelric",
-      "token": "personagens/irmao-kaelric/token-hex.png",
-      "frente": "N",
-      "olhando": "M14"
-    },
-    "M18": {
-      "tipo": "pj",
-      "quem": "Negrum Carneiriums",
-      "token": "personagens/negrum-carneiriums/token-hex.png",
-      "frente": "S",
-      "olhando": "M19"
-    },
-    "S15": {
+    "S34": {
       "tipo": "pj",
       "quem": "Jah Kagadu",
       "token": "personagens/jah-kagadu/token-hex.png",
       "frente": "N",
-      "olhando": "S12"
+      "olhando": "S31"
     },
-    "L22": {
-      "tipo": "npc",
-      "quem": "Morto 1",
-      "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
-      "frente": "N",
-      "olhando": "L19",
-      "tamanho_hex": 3.0,
-      "hexes_ocupados": [
-        "L22",
-        "L23",
-        "L24"
-      ]
-    },
-    "N23": {
-      "tipo": "npc",
-      "quem": "Morto 2",
-      "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
-      "frente": "N",
-      "olhando": "N20",
-      "tamanho_hex": 3.0,
-      "hexes_ocupados": [
-        "N23",
-        "N24",
-        "N25"
-      ]
-    },
-    "T24": {
-      "tipo": "npc",
-      "quem": "Morto 5",
-      "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
-      "frente": "N",
-      "olhando": "T21",
-      "tamanho_hex": 3.0,
-      "hexes_ocupados": [
-        "T24",
-        "T25",
-        "T26"
-      ]
-    },
-    "P38": {
+    "R27": {
       "tipo": "npc",
       "quem": "Morto 3",
-      "token": "cenarios/estrada-tokens/morto-a-cavalo.png",
+      "token": "tokens/zumbi-agachado-camisa-marrom.png",
       "frente": "N",
-      "olhando": "P35",
-      "tamanho_hex": 3.0,
-      "hexes_ocupados": [
-        "P38",
-        "P39"
-      ]
+      "olhando": "R24"
     }
   }
 }
