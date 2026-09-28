@@ -109,6 +109,34 @@ nada. Se precisar reposicionar algo, ajuste as constantes no topo do script (`HE
 
 ## Mestrando e escrevendo aventuras
 
+### A decisão do Mestre está acima da regra
+
+**O dono da mesa é o Mestre, e a palavra dele vence o livro, o plano e a conta que o
+modelo acabou de fazer.** Isso não é licença deste projeto: é o próprio *Módulo Básico*
+que manda, em `livros/gurps-mb-3ed/18-o-mestre.md`, seção **"Dirigindo o Jogo"**:
+
+> **Use seu bom senso.** Se uma regra qualquer levar a um resultado absurdo, abandone-a e
+> siga o bom senso. […] Não permita que os jogadores se transformem em "advogados das
+> regras". **Sua decisão é definitiva.**
+
+> **Não se apoie em receitas de nenhum tipo.** Isto inclui, indiscutivelmente, as várias
+> receitas existentes nas regras. […] **não permita que a fidelidade a uma regra prejudique
+> o jogo.** Se Dai realmente precisar erguer aquela pedra para manter o jogo em andamento,
+> deixe que ele o faça.
+
+Na prática, ao arbitrar:
+
+- **Conferir a regra continua obrigatório** — o modelo busca nos livros antes de dar um
+  número, e diz de onde ele veio. O que muda é o que acontece depois de o Mestre discordar.
+- **Mestre discordou, a regra cai.** Não repita o argumento, não negocie, não "aplique
+  assim mesmo por coerência". Aplique a decisão dele e siga.
+- **Aviso vem antes, não depois.** Se uma declaração esbarra numa regra (alcance curto
+  demais, manobra que não cabe no turno, NH que o livro não deixa rolar), diga **antes de
+  rolar** e ofereça o caminho. Depois que ele decidir, a conversa acabou.
+- **A decisão vira registro**, com a palavra *errata* e o motivo, pela skill `campanha` —
+  para o arquivo não continuar ensinando a versão antiga. As erratas do Mestre ganham do
+  plano e do que já estiver escrito.
+
 A campanha ativa vive em `campanha/` e é conduzida pela skill `campanha` — o
 plano em `campanha/plano/`, dividido em capítulos no padrão de
 `livros/gurps-mb-3ed/23-caravana-para-ein-arris.md`, e o que de fato aconteceu na mesa em
