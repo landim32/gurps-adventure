@@ -91,9 +91,10 @@ def monta_lado(pref, args, raiz):
         raise SystemExit(f"Diga o que {nome} está usando: --{pref}-pericia, "
                          f"--{pref}-atributo ou --{pref}-nh.")
 
-    mod = op("mod")
+    mod, motivo = op("mod"), op("motivo")
     tem_sorte = bool(d) and tn.nivel_vantagem(d, "sorte") is not None
     return {"nome": quem, "rotulo": rotulo, "nh": nh, "mod": mod, "efetivo": nh + mod,
+            "motivo": motivo,
             "notas": notas, "avisos": avisos, "sorte": op("sorte"),
             "tem_sorte": tem_sorte}
 
@@ -133,7 +134,15 @@ def linha_lado(lado, efetivo, total, dados, margem, resultado):
         "sucesso": f"_passou por {margem}_",
         "falha": f"_falhou por {abs(margem)}_",
     }[resultado]
-    return [f"*{lado['nome']}* — {lado['rotulo']}, precisa tirar {efetivo} ou menos",
+    conta = f"NH {lado['nh']}"
+    if lado["mod"]:
+        m = (lado["motivo"] or "").strip()
+        conta += ", " + (m if m[:1] in "+-" and m else f"{lado['mod']:+d} {m or 'situação'}")
+    if efetivo != lado["nh"] + lado["mod"]:
+        conta += f" = {lado['nh'] + lado['mod']}, encurtado para *{efetivo}*"
+    else:
+        conta += f" = *{efetivo}*"
+    return [f"*{lado['nome']}* — {lado['rotulo']}: {conta}",
             f"3d: {' + '.join(map(str, dados))} = *{total}* → {veredito}"]
 
 
@@ -148,6 +157,8 @@ def main():
         ap.add_argument(f"--{p}-nh", type=int, default=0, help="NH na mão (NPC virtual)")
         ap.add_argument(f"--{p}-oque", default="", help="Rótulo, quando se passa o NH")
         ap.add_argument(f"--{p}-mod", type=int, default=0, help="Bônus/redutor da situação")
+        ap.add_argument(f"--{p}-motivo", default="",
+                        help="De onde saiu o --mod, para a mesa ler: «-2 escuro»")
         ap.add_argument(f"--{p}-sorte", action="store_true", help="Vantagem Sorte")
     ap.add_argument("--tipo", default="rapida", choices=["rapida", "normal"],
                     help="rapida: um lance decide. normal: repete até alguém se destacar")

@@ -206,3 +206,15 @@ ser aplicado.
    depois reaplique o grid com a `add-grid-hex`.
 4. Se `largura_m` mudar, **todas as coordenadas de hexágono mudam** — reaplique o grid e
    reescreva os intervalos. Não deixe rótulo velho apontando para hexágono errado.
+
+## roll6 — a mesa virtual
+
+Cenário que vai para a mesa vira **modelo de mapa** no roll6 (skill `roll6`), depois do
+grid da `add-grid-hex`:
+
+1. `roll6.py subir-imagem` da arte **sem grid**, com lado de 2048 ou mais.
+2. `create_map_model`.
+3. `roll6.py alinhar --indice cenarios/com-grid/<slug>.json --modelo N`, para que
+   coluna e linha sejam iguais nos dois lados.
+4. `add_map_to_campaign`.
+5. Ligar o índice ao `mapId` em `campanha/roll6.json`.

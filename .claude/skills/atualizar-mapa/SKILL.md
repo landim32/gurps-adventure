@@ -400,3 +400,17 @@ Olhe a imagem depois. Três coisas que costumam sair erradas e só aparecem olha
    uma mesa ou de uma parede. Isso é problema de posição, não do script: confira o hex
    pedido contra a arte.
 3. **Criatura grande com a arte errada** — veja "Criaturas de mais de um hexágono".
+
+## roll6 — a mesa virtual
+
+Todo movimento gravado aqui vai sozinho para o mapa do roll6 ligado a este índice em
+`campanha/roll6.json`. Isso vale para colocar, mover, desfazer e voltar: posição e frente
+de cada peça, sem gastar o movimento do turno lá. PJ aprovado ou NPC da campanha que ainda
+não tinha peça é posto no mapa.
+
+- **Leia as linhas `roll6: ...`** no fim da saída.
+- **"sem peça no roll6"**: cavalo, objeto ou nome que falta em `apelidos`.
+- **"saíram do mapa local e continuam no roll6"**: o script não apaga peça sozinho.
+  Pergunte antes de `delete_map_token`/`delete_map_npc`.
+- **Mapa novo**: só sincroniza depois de alinhado (`roll6.py alinhar`) e ligado no
+  `roll6.json`. Ver a skill `roll6`.

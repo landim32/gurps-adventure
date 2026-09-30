@@ -645,6 +645,7 @@ def main():
         print(f"Restaurado o estado do passo {alvo} (registrado como passo {n}).")
         print(f"Ocupados : {total} hex(es)")
         print(f"Mesa gerada em: {saida}")
+        espelhar_no_roll6(raiz, indice, dados["ocupacao"])
         return
 
     ocup = {} if args.limpar else dict(dados.get("ocupacao") or {})
@@ -742,6 +743,18 @@ def main():
     print(f"Destino  : {motivo}")
     print(f"Mesa gerada em: {saida}")
     print(f"Movimento {passo} registrado em: {hist_path}")
+    espelhar_no_roll6(raiz, indice, ocup)
+
+
+def espelhar_no_roll6(raiz, indice, ocup):
+    """A mesa virtual (skill roll6) recebe as mesmas posições e frentes do mapa local."""
+    try:
+        sys.path.insert(0, str(raiz / ".claude/skills/roll6/scripts"))
+        import roll6
+    except Exception as e:
+        print(f"roll6: cliente indisponível — {e}")
+        return
+    roll6.sincronizar_mapa(raiz, indice, ocup)
 
 
 if __name__ == "__main__":

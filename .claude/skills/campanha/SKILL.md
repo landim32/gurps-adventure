@@ -542,3 +542,22 @@ lado, do jeito que ficaram. Depois disso o repositório fica sem campanha ativa 
 Campanha arquivada é **leitura**, não material de trabalho: não edite o que já foi
 arquivado. Se um personagem ou um NPC voltar numa campanha nova, copie o que interessa
 para a campanha nova em vez de reabrir a antiga.
+
+## roll6 — a mesa virtual
+
+Tudo o que esta skill grava tem espelho no roll6 (skill `roll6`, mapeamento em
+`campanha/roll6.json`):
+
+- **`saude`** sincroniza sozinho: PV e Fadiga do PJ vão para a participação, e o PV do
+  NPC para cada ocorrência dele nos mapas. O status só é reescrito com `--estado`/`--curar`.
+  Leia as linhas `roll6: ...` da saída.
+- **`anotar` de item, desvantagem ou relação que muda a ficha em jogo**, e **`bolsa`**:
+  atualize as **notas da participação** (`get_participation` → `update_participation`
+  com o `sheet` novo). Só o que difere da ficha, nunca cópia dela.
+- **`criar`**: crie a campanha no roll6 (`create_campaign`) e grave o `campaignId` em
+  `campanha/roll6.json`.
+- **Plano** (`capitulo` e edições em `campanha/plano/`): `create_campaign_plan` ou
+  `update_campaign_plan`, uma entrada por capítulo, com o `npcs.md` junto e as imagens
+  por `roll6.py subir-imagem`.
+- **`encerrar`**: pergunte ao usuário se a campanha do roll6 também deve ser encerrada.
+  Não apague nada sem confirmação.

@@ -97,3 +97,9 @@ terceiros na mão, que ferimento vai atrapalhar a próxima cena.
 
 Se algum número estiver errado no bloco, o problema é que a mesa aconteceu e ninguém
 lançou: rode `campanha.py saude` ou `campanha.py bolsa` e gere de novo.
+
+## roll6 — a mesa virtual
+
+Esta skill só lê o repositório. Se o roll6 mostrar outra coisa, o repositório ganha:
+`roll6.py saude --pj "Nome"` (ou `--npc`) reempurra PV e Fadiga, e `--com-estado`
+reescreve também o status. Ver a skill `roll6`.

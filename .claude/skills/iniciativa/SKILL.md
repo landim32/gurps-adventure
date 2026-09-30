@@ -125,3 +125,14 @@ Terminada a surpresa, quem age antes de quem **não** é decidido por iniciativa
 ficha e válida para o combate inteiro.
 
 Essa ordem não muda de rodada em rodada, e esta skill não a calcula.
+
+## roll6 — esta skill não grava lá
+
+Esta skill **resolve e registra no repositório**; ela **não grava nada no roll6** —
+nem PV, nem Fadiga, nem status, nem posição, nem entrada de turno —, a menos que o
+usuário peça isso diretamente. Quem leva o resultado para a mesa virtual é a skill que a
+chamou: **`acao`** (ação avulsa) ou **`processar-turno`** (turno inteiro, num único
+`process_turn`), ou a skill `roll6` quando o usuário pedir a sincronização.
+
+Os scripts desta skill só gravam o acontecimento no capítulo; não chamam `campanha.py
+saude` nem `atualizar_mapa.py`, que são os que sincronizam sozinhos.

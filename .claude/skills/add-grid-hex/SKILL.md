@@ -155,3 +155,10 @@ para colar tokens.
 
 Informe ao usuário a escala final em px/m, as dimensões em metros, o tamanho do grid
 (colunas × linhas), o caminho da imagem **e o do índice**.
+
+## roll6 — a mesa virtual
+
+O índice gravado aqui é o que alinha o mapa do roll6: `roll6.py alinhar --indice <este
+json> --modelo N` escala e desloca a arte para que **coluna/linha do roll6 = coluna/linha
+deste grid** (`P7` → x 15, y 6). Mudou o grid (escala, origem)? Rode o `alinhar` de novo.
+Ver a skill `roll6`.

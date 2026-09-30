@@ -98,12 +98,19 @@ quebrado do Donnwulf saiu de um 17.
 
 O resultado vai para a mesa **em bloco de código, no formato do WhatsApp** (`*negrito*`,
 `_itálico_`), curto: **3 a 8 linhas**, o suficiente para dizer o que aconteceu e devolver o
-turno. Valem as mesmas proibições da skill `narrar` — nada de ficha, número, nome de regra
-ou intenção de NPC que não dê para ver.
+turno. Da skill `narrar` vale o estilo e a proibição de contar intenção de NPC que não dê
+para ver ou o que o personagem não sabe — **mas não a de pôr número**: resultado de jogada
+se mostra.
 
-**O bloco dos dados é separado do bloco da narração.** As skills de rolagem já entregam o
-texto pronto delas; repasse-o e depois narre. Mostrar a rolagem à mesa é decisão do Mestre,
-mas ela existe.
+**A conta vai colada no parágrafo, dentro do mesmo bloco.** Logo abaixo da prosa de cada
+ação entram as linhas que o script imprimiu no bloco **PARA O WHATSAPP**, com `> ` na
+frente: o NH de partida, cada bônus e redutor **com o motivo**, o dado e a margem, a defesa
+do alvo montada e rolada, o dano com RD e multiplicador, os testes de HT, e sucesso
+decisivo, golpe fulminante, falha crítica e erro crítico com o que a tabela mandou. Não
+resuma a conta em "acertou o braço". Passe o motivo de cada modificador para o script
+(`--mod-motivo`, `--motivo`, `--a-motivo`), senão ele sai como "situação". O formato e as
+exceções (reação e rolagem secreta ficam de fora) estão no `CLAUDE.md`, em *A narração
+mostra a conta de cada jogada*.
 
 **Em combate isso muda: o bloco sai uma vez por rodada, não a cada jogada.** Enquanto a
 rodada corre, entregue só o resultado mecânico em texto corrido; o bloco formatado sai
@@ -202,7 +209,27 @@ e o motivo.
 
 - **Não rola dado por conta própria** — sempre pelas skills, sempre relatando o que saiu.
 - **Não rola de novo o que já foi rolado**, inclusive reação: o `reacoes.json` manda.
+- **Não narra jogada sem a conta**: prosa de golpe, tiro ou teste sem o NH, os
+  modificadores com motivo, o dado e o resultado logo abaixo não sai para a mesa.
 - **Não inventa NPC nem lugar** que não esteja no plano ou já anotado. Precisando de gente
   nova, tire da multidão que o `npcs.md` já descreve e anote quem passou a existir.
 - **Não conta ao jogador o que o personagem não pode saber** — nem no texto da mesa, nem no
   bloco de dados.
+
+## roll6 — a mesa virtual
+
+As skills que esta chama (`roll`, `teste-nh`, `disputa-nh`, `atacar`, `atacar-distancia`,
+`iniciativa`, `reacao`) **não gravam no roll6**: quem leva o resultado para lá é esta.
+
+- **PV, Fadiga e posição** vão sozinhos quando você registra: `campanha.py saude` e
+  `atualizar_mapa.py` sincronizam por conta própria. Leia as linhas `roll6: ...`.
+- **O status tático é seu**: depois de resolver, atualize o que vale até o próximo turno —
+  PJ por `update_participation` (mande de volta o `sheet` do `get_participation`), NPC
+  por `update_map_npc` com o `currentLife`/`currentEnergy` atuais. Entra: arma preparada
+  ou despreparada, caído, de joelhos, atordoado, redutor de choque do próximo turno,
+  apontando, sem defesa por Ataque Total, cavalo exausto, desarmado. Até 260 caracteres.
+- **Reação não vai**: nem faixa, nem número, nem motivo — o `reacoes.json` é segredo.
+- **Dentro de um turno do roll6** (`processar-turno`), não sincronize ação por ação:
+  aquela skill fecha tudo num único `process_turn`.
+
+Detalhes na skill `roll6`.

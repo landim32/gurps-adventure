@@ -222,9 +222,69 @@ As **regras de combate autônomo** vieram das duas aventuras originais do dono d
   resultado;
 - NPCs atacam primeiro com armas de longo alcance e só partem para o combate de perto quando a
   munição acaba;
-- alvo prioritário: o personagem mais próximo; depois o de pior reação; depois, entre os que já
-  acertaram alguém, o que causou mais dano;
+- alvo prioritário: **o indefeso ao alcance** (caído, atordoado, sem defesa por Ataque
+  Total, desarmado), mesmo com reação melhor que a do vizinho; depois o mais próximo; no
+  empate de distância, o de pior reação; depois, entre os que já acertaram alguém, o que
+  causou mais dano;
+- NPC atacado sempre se defende com a melhor defesa ativa que tem; morto-vivo sem mente é
+  Hostil com todos e não rola reação;
+- **as reações são segredo**: ficam no `reacoes.json` local e nunca vão ao roll6 nem ao
+  WhatsApp. A narração mostra o que o NPC faz, nunca o motivo que denuncia a reação;
 - pontos de impacto decididos nos dados.
+
+**Golpe no pescoço segue a 4ª edição** (decisão do Mestre). A 3ª edição não tem pescoço na
+Tabela de Partes do Corpo; vale a regra do *GURPS 4ª Edição* (*Módulo Básico: Campanhas*,
+p. 552), já aplicada pelas skills `atacar` e `atacar-distancia` (`--local pescoco`):
+
+- **-5 para acertar**, pela frente ou pelos lados;
+- **multiplicador de ferimento**: contusão **×1,5**, corte **×2**; perfuração e os demais
+  tipos usam o multiplicador normal, e o Mestre pode somar efeitos;
+- **asfixia**: contusão **vinda da frente** que cause mais que **metade dos PV** do alvo
+  (HT/2 nas fichas da 3ª edição) é lesão incapacitante — **esmaga a traqueia e o alvo
+  sufoca**;
+- **decapitação**: corte que cause, num golpe só, ferimento acima de **3× os PV** do alvo
+  (3×HT) permite ao Mestre declarar o alvo decapitado — **morte automática**.
+
+**Depois da luta, o que ficou no chão volta sozinho** (decisão do Mestre). Todo objeto
+largado em combate — arma derrubada por erro crítico, besta deixada para correr, escudo
+solto — é **recuperado automaticamente** quando a luta acaba, desde que o grupo **não
+saia do local às pressas** (fuga, perseguição, retirada sob ataque). O mesmo vale para
+**arma que precisa ser carregada ou preparada**: sem fuga às pressas, a besta volta
+armada e a arma despreparada volta pronta, sem gastar turno. Durante o combate as regras
+do livro continuam valendo (apanhar arma caída custa 2 turnos, a besta cobra os turnos
+de armar). Quem fugiu às pressas deixa para trás o que largou, e isso vira anotação na
+campanha.
+
+### O roll6 é o espelho da mesa: a skill `roll6`
+
+A campanha também é jogada no **roll6**, a mesa virtual acessada pelo servidor MCP
+`roll6`. **Toda mudança entra primeiro no repositório e, em seguida, no roll6**. Se os
+dois discordarem, o repositório ganha e o roll6 é corrigido.
+
+- **`campanha/roll6.json`** liga a campanha ativa à do roll6: a campanha, os mapas
+  alinhados e os apelidos de nome. Leia antes de sincronizar e atualize quando surgir
+  campanha, mapa ou NPC novo.
+- **Automático:**
+  - `campanha.py saude` empurra PV e Fadiga (e o status, quando há `--estado`/`--curar`).
+  - `atualizar_mapa.py` empurra posição e frente das peças.
+  - Os dois imprimem linhas `roll6: ...`, que devem ser lidas. Nenhum deles apaga nada
+    no roll6.
+- **Pelo MCP, a cargo de quem grava:**
+  - personagem, NPC, token, modelo de mapa e plano;
+  - notas da participação (item perdido, desvantagem adquirida, saldo);
+  - **status tático** de cada rodada: arma preparada, caído, atordoado, choque,
+    apontando.
+  - Cada skill diz o que é seu na seção "roll6".
+- **Turno jogado no roll6** (os jogadores movem e declaram lá): quem fecha é a skill
+  **`processar-turno`**. Ela confere se todos agiram, resolve como a `acao`, **mostra o
+  resultado ao Mestre e só segue com a aprovação dele** (a menos que ele avise que não
+  precisa), registra no repositório e encerra o turno com um único `process_turn`.
+- **Mapas:** um mapa do roll6 só é sincronizado depois de `roll6.py alinhar`, que deixa
+  coluna e linha iguais ao grid local (`P7` → x 15, y 6).
+- **A regra da ficha vale lá também:** `update_character` só com pedido explícito do
+  usuário. O que a mesa muda vai na participação.
+- **Nada destrutivo no roll6 sem confirmação** (`delete_*`, `remove_*`,
+  `transfer_character`).
 
 ### O bloco do WhatsApp sai uma vez por rodada, não a cada jogada
 
@@ -248,6 +308,64 @@ um bloco cada uma — **guarde-os e junte no fim**, em vez de repassar um por ve
 
 Fora de combate a regra não vale: uma ação declarada isolada, um teste solto, uma reação —
 esses saem no bloco na hora, porque a mesa está esperando aquele resultado.
+
+### A narração mostra a conta de cada jogada
+
+**Prosa sem número não serve à mesa.** Toda narração que resolve jogada — o bloco da
+rodada, o `narration` do `process_turn` no roll6, a ação avulsa — traz, **logo abaixo do
+parágrafo de cada ação**, a conta daquela ação, para o jogador conferir o que o dado fez:
+
+- o **NH de partida** e de onde veio (perícia, atributo, pré-definido);
+- **cada bônus e redutor com o motivo**: ponto de impacto (-2 braço), manobra (+4 Ataque
+  Total), ferimento do turno anterior, distância, escuro, atordoado, Precisão...;
+- o **dado** (`3d [3, 4, 1] = 8`) e a **margem** (sucesso por 3, falha por 2);
+- a **defesa do alvo** montada do mesmo jeito (Aparar 6 +2 DP escudo -4 atordoado = 4) e o
+  dado dela;
+- o **dano**: dado, RD da região, multiplicador do tipo, teto do local, membro
+  incapacitado;
+- os **testes de HT** (queda, atordoamento, nocaute, recuperação) com dado e resultado;
+- **sucesso decisivo, golpe fulminante, falha crítica e erro crítico** em destaque, com o
+  que a tabela mandou acontecer.
+
+Os scripts de `atacar`, `atacar-distancia`, `teste-nh` e `disputa-nh` já imprimem essa conta
+no bloco **PARA O WHATSAPP** — passe o motivo junto com o número (`--mod -2 --mod-motivo
+"escuro"`, `--motivo`) para ela não sair como "situação". **Não resuma** a conta em "acertou
+o braço": repasse as linhas como o script imprimiu, na ordem, depois do parágrafo narrado.
+Rolagem que não passou por script (o `roll` solto, um teste arbitrado) ganha a mesma linha,
+escrita no mesmo formato.
+
+O formato, dentro do bloco do WhatsApp e no `narration` do roll6:
+
+```
+*TURNO 4 — ARENA*
+
+Comam mete a cimitarra no braço da espada do goblin. O escudo sobe tarde...
+> Ataque: Espadas de Lâmina Larga NH 13, -2 Braço = *11*
+> 3d [3, 4, 1] = *8* → sucesso por 3
+> Defesa de Goblin: bloqueio 5 +2 DP escudo = *7*
+> 3d [5, 4, 3] = *12* → falhou por 5
+> Dano: 2D: [4, 3] = *7*
+> RD 1 → 6 passam
+> Corte: +50% do que passar da armadura → *9*
+> Teto do local (HT/2 = 5): 4 desperdiçado(s)
+> *Braço INCAPACITADO* — Goblin fica atordoado
+> *Goblin perde 5 ponto(s) de vida.*
+
+Aelthir solta a corda. A flecha vai para o chão...
+> Ataque: Arco NH 12, -3 velocidade/distância (7 m), -2 Braço = *7*
+> 3d [6, 6, 6] = *18* → *FALHA CRÍTICA* (por 11)
+> *ERRO CRÍTICO!* Tabela de Erros Críticos: 3d [4, 3, 3] = *10*
+> _Você DERRUBOU a arma. Arma barata teria se quebrado._
+```
+
+Cada linha da conta é uma linha que o script imprimiu, com `> ` na frente (no WhatsApp vira
+citação e separa a conta da prosa). O cabeçalho do script (`*Comam* ataca *Goblin* —
+braço`) pode sair: o parágrafo acima já diz quem fez o quê.
+
+**O que continua fora:** as **reações** (segredo, como sempre), as **rolagens secretas**
+do Mestre (sentidos, Detectar Mentiras, Noção do Perigo — MB, cap. 12) e o que o personagem
+não tem como saber. O resto da mesa é aberto. A regra de não pôr número na narração vale
+só para a **descrição de cena** da skill `narrar` — nunca para o resultado de uma jogada.
 
 Estruture aventuras novas no mesmo formato: uma seção de regras/perícias úteis seguida da
 aventura em cenas encadeadas, com os testes e as consequências de falha explícitos (incluindo

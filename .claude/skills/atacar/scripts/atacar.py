@@ -49,8 +49,34 @@ for _fluxo in (sys.stdout, sys.stderr):
     except Exception:
         pass
 
+# A conta que vai para a mesa: cada numero com o motivo dele. Preenchida ao longo do
+# golpe e despejada no bloco do WhatsApp por _fecha().
+MEC = []
+
+
+def dados_txt(dados):
+    return "[" + ", ".join(map(str, dados)) + "]"
+
+
+def com_motivo(valor, motivo):
+    """«-2 escuro» a partir de --mod -2 --mod-motivo escuro; motivo que ja traz os sinais
+    («-1 escuro, -1 fumaça») vale como veio."""
+    m = (motivo or "").strip()
+    return m if m[:1] in "+-" else f"{valor:+d} {m or 'situação'}"
+
+
+def veredito(resultado, total, alvo_nh):
+    """«sucesso por 3», «FALHA CRÍTICA (por 8)» — o que a mesa precisa ler do dado."""
+    margem = alvo_nh - total
+    return {"sucesso decisivo": f"*SUCESSO DECISIVO* (por {margem})",
+            "sucesso": f"sucesso por {margem}",
+            "falha": f"falha por {abs(margem)}",
+            "falha crítica": f"*FALHA CRÍTICA* (por {abs(margem)})"}[resultado]
+
+
 RE_DP_RD = re.compile(r"DP\s*(\d+)(?:\s*/\s*RD\s*(\d+))?", re.I)
 REGIOES = {"cabeca": ("cabeç", "cabec", "elmo", "capacete", "camal"),
+           "pescoco": ("pescoç", "pescoc", "gorjal", "camal", "gola"),
            "tronco": ("tronco", "torso", "peito"),
            "bracos": ("braço", "braco"),
            "maos": ("mão", "mao"),
@@ -106,6 +132,28 @@ def protecao(ficha, regiao, perfurante):
     return 0, 0, None
 
 
+def efeitos_pescoco(chave, tipo, ferimento, ht, alvo, frontal=True):
+    """Regras especiais do pescoço — regra da casa, GURPS 4ª ed. (MB Campanhas, p. 552).
+
+    Devolve [(linha do terminal, linha da mesa)]. Nas fichas desta campanha os PV são a HT.
+    """
+    if chave != "pescoco" or not ht:
+        return []
+    meia = f"{ht / 2:g}".replace(".", ",")
+    out = []
+    if tipo == "cont" and frontal and ferimento > ht / 2:
+        out.append((f"  ⇒ TRAQUEIA ESMAGADA: contusão pela frente acima de HT/2 ({meia}). "
+                    f"Lesão incapacitante: {alvo} está SUFOCANDO (regra da casa, 4ª ed.).",
+                    f"*TRAQUEIA ESMAGADA* (contusão pela frente > HT/2 = {meia}) — "
+                    f"{alvo} está *sufocando*"))
+    if tipo == "corte" and ferimento > 3 * ht:
+        out.append((f"  ⇒ DECAPITAÇÃO POSSÍVEL: corte acima de 3×HT ({3 * ht}) num golpe só. "
+                    f"O Mestre pode declarar {alvo} decapitado: morte automática.",
+                    f"*Corte acima de 3×HT ({3 * ht})* — o Mestre pode declarar "
+                    f"*DECAPITAÇÃO*"))
+    return out
+
+
 def escudo_dp(ficha):
     for o in ficha.get("armas_objetos") or []:
         if "escudo" in (o.get("item") or "").lower() or "broquel" in (o.get("item") or "").lower():
@@ -125,14 +173,33 @@ def acha_arma(ficha, nome):
     return None
 
 
-def escolhe_dano(arma, modo):
-    """'2D/1D+1' com tipo 'corte/cont' -> o par do modo pedido."""
+RE_FORMULA = re.compile(r"^(GDP|BAL|GDB)\s*([+-]\s*\d+)?$", re.I)
+RE_DADO = re.compile(r"^(\d+)D\s*([+-]\s*\d+)?$", re.I)
+
+
+def resolve_formula(dano, ficha):
+    """'BAL+1' -> '2D+2' pelo dano básico da ficha. O que não for fórmula volta igual."""
+    m = RE_FORMULA.match((dano or "").strip())
+    base = (ficha or {}).get("dano_basico") or {}
+    if not m:
+        return dano
+    chave = "gdp" if m.group(1).upper() == "GDP" else "bal"
+    d = RE_DADO.match((base.get(chave) or "").strip())
+    if not d:
+        return dano
+    soma = int((d.group(2) or "0").replace(" ", "")) + int((m.group(2) or "0").replace(" ", ""))
+    return f"{d.group(1)}D" + (f"{soma:+d}" if soma else "")
+
+
+def escolhe_dano(arma, modo, ficha=None):
+    """'2D/1D+1' com tipo 'corte/cont' -> o par do modo pedido. Fórmulas GDP/BAL da
+    ficha ('BAL+1') viram dado pelo dano básico de quem ataca."""
     danos = [d.strip() for d in (arma.get("dano") or "").split("/")]
     tipos = [t.strip() for t in (arma.get("tipo") or "").split("/")]
     i = 0
     if modo in ("estocada", "gdp") and len(danos) > 1:
         i = 1
-    dano = danos[min(i, len(danos) - 1)]
+    dano = resolve_formula(danos[min(i, len(danos) - 1)], ficha)
     tipo = tipos[min(i, len(tipos) - 1)] if tipos else "cont"
     return dano, tn.slug(tipo)[:5]
 
@@ -172,7 +239,11 @@ def main():
     ap.add_argument("--manobra", default="ataque", choices=sorted(T.MANOBRAS))
     ap.add_argument("--local", default="tronco", help="Ponto de impacto, ou «aleatorio»")
     ap.add_argument("--de-cima", action="store_true", help="Ataque vindo de cima (-3 no sorteio)")
+    ap.add_argument("--nao-frontal", action="store_true",
+                    help="Golpe no pescoço vindo do lado ou de trás: sem esmagar a traqueia")
     ap.add_argument("--mod", type=int, default=0, help="Modificador extra no ataque")
+    ap.add_argument("--mod-motivo", default="",
+                    help="Por que o --mod: «alvo atrás da mesa», «escuro»")
     ap.add_argument("--condicao", action="append", choices=sorted(T.REDUTORES),
                     help="Condição adversa; pode repetir")
     ap.add_argument("--ferimento", type=int, default=0,
@@ -188,6 +259,8 @@ def main():
     ap.add_argument("--alvo-bloqueio", type=int, default=0)
     ap.add_argument("--alvo-dp", type=int, default=-1, help="Defesa passiva na mão")
     ap.add_argument("--alvo-rd", type=int, default=-1, help="RD do local, na mão")
+    ap.add_argument("--alvo-defesa-mod-motivo", default="",
+                    help="Por que o --alvo-defesa-mod: «atordoado», «caído»")
     ap.add_argument("--alvo-defesa-mod", type=int, default=0,
                     help="Finta, ataque lateral (-2), etc.")
     ap.add_argument("--alvo-manobra", default="normal", choices=sorted(T.MANOBRAS_DEFESA))
@@ -229,7 +302,7 @@ def main():
             raise SystemExit(f"Não achei a arma «{args.arma}» em {atacante}. "
                              f"Passe --dano e --tipo.")
         arma_nome = arma["item"]
-        dano_txt, tipo_bruto = escolhe_dano(arma, args.modo)
+        dano_txt, tipo_bruto = escolhe_dano(arma, args.modo, fa)
         tipo = tipo_dano_chave(args.tipo or tipo_bruto)
 
     # ---------------------------------------------------------- ponto de impacto
@@ -262,8 +335,14 @@ def main():
         partes.append(f"-{args.ferimento} ferimento da rodada anterior")
     if args.mod:
         mod += args.mod
-        partes.append(f"{args.mod:+d} situação")
+        partes.append(com_motivo(args.mod, args.mod_motivo))
     nh_ef = nh_base + mod
+    MEC.append(f"_{manobra['nome']}_ · " + (f"{arma_nome}, " if arma_nome else "") + f"{dano_txt} "
+               f"{T.TIPOS_DANO[tipo]['nome'].lower()}")
+    if tn.slug(args.local) in ("aleatorio", "aleatoria", "random"):
+        MEC.append(aviso_local)
+    MEC.append("Ataque: " + (f"{rotulo} " if rotulo != "ataque" else "") + f"NH {nh_base}"
+               + (", " + ", ".join(partes) if partes else "") + f" = *{nh_ef}*")
 
     p("=" * 70)
     p(f"{atacante} ataca {args.alvo} — {local['nome']}")
@@ -286,6 +365,7 @@ def main():
     ta = sum(da)
     res_ataque = tn.classificar(ta, nh_ef)
     p(f"\nATAQUE: 3d [{', '.join(map(str, da))}] = {ta} contra {nh_ef} — {res_ataque.upper()}")
+    MEC.append(f"3d {dados_txt(da)} = *{ta}* → {veredito(res_ataque, ta, nh_ef)}")
 
     acertou = res_ataque in ("sucesso", "sucesso decisivo")
     fulminante = res_ataque == "sucesso decisivo"
@@ -299,6 +379,8 @@ def main():
         te = sum(de)
         p(f"\nERRO CRÍTICO — Tabela de Erros Críticos, 3d [{', '.join(map(str, de))}] = {te}")
         p(f"  {T.ERRO_CRITICO[te]}")
+        MEC.append(f"*ERRO CRÍTICO!* Tabela de Erros Críticos: 3d {dados_txt(de)} = *{te}*")
+        MEC.append(f"_{T.ERRO_CRITICO[te]}_")
         p(f"\n  {T.DESARMADO_ERRO}" if not arma_nome else "")
         p(f"\n{atacante} não acertou nada. O golpe acabou aqui.")
         _fecha(saida, avisos, args, raiz, atacante, args.alvo, local,
@@ -323,6 +405,9 @@ def main():
         p(f"\nGOLPE FULMINANTE — sem jogada de defesa!")
         p(f"  Tabela de {nome_tab}: 3d [{', '.join(map(str, df))}] = {tf}")
         p(f"  {efeito['txt']}")
+        MEC.append("*GOLPE FULMINANTE!* Sem defesa possível.")
+        MEC.append(f"Tabela de {nome_tab}: 3d {dados_txt(df)} = *{tf}*")
+        MEC.append(f"_{efeito['txt']}_")
         mult_dano = efeito.get("dano", 1)
         ignora_armadura = efeito.get("ignora_armadura", False)
         if efeito.get("morte"):
@@ -366,6 +451,13 @@ def main():
                 p(f"  3d [{', '.join(map(str, dd))}] = {td} contra {dp_total} — "
                   + ("DEFENDEU" if td <= dp_total or td <= 4 else "não segurou"))
                 defendeu = td <= dp_total or td <= 4
+                MEC.append(f"Defesa: {alvo} sem defesa ativa ({md['nome']}); só a DP "
+                           f"{dp_total}" + (f" ({peca}" + (f" + {nome_escudo}" if dp_escudo
+                                                           else "") + ")" if peca else ""))
+                MEC.append(f"3d {dados_txt(dd)} = *{td}* → "
+                           + ("defendeu" if defendeu else "não segurou"))
+            else:
+                MEC.append(f"Defesa: {alvo} sem defesa ativa ({md['nome']}) e sem DP")
         else:
             base = args.alvo_defesa_valor
             fonte = "informada pelo Mestre"
@@ -404,9 +496,13 @@ def main():
                 comp.append(f"{md['mod']:+d} {md['nome']}")
             if args.alvo_defesa_mod:
                 total_def += args.alvo_defesa_mod
-                comp.append(f"{args.alvo_defesa_mod:+d} situação")
+                comp.append(com_motivo(args.alvo_defesa_mod, args.alvo_defesa_mod_motivo))
 
             p(f"\nDEFESA de {alvo}: " + " ".join(c for c in comp if c) + f" = **{total_def}**")
+            # a mesa quer o numero e o motivo; de onde o script tirou o numero, nao
+            MEC.append(f"Defesa de {alvo}: " + " ".join(c for c in comp if c)
+                       .replace(f" ({fonte})", "").replace(" informado pelo Mestre", "")
+                       + f" = *{total_def}*")
             if md.get("obs"):
                 p(f"  {md['obs']}")
 
@@ -423,6 +519,15 @@ def main():
                     extra = "  ← 17 ou 18 é falha desastrosa na defesa (MB, cap. 14)"
                 rot = f"  Defesa {tentativa}" if md["defesas"] > 1 else "  Jogada"
                 p(f"{rot}: 3d [{', '.join(map(str, dd))}] = {td} — {marca}{extra}")
+                nota = ""
+                if td <= 4:
+                    nota = " — *DEFESA DECISIVA*: o atacante vai à Tabela de Erros Críticos"
+                elif td >= 17:
+                    nota = " — *FALHA CRÍTICA* na defesa"
+                MEC.append(f"3d {dados_txt(dd)} = *{td}* → "
+                           + (("defendeu no limite" if td == total_def else
+                               f"defendeu por {total_def - td}") if ok and td > 4 else
+                              "defendeu" if ok else f"falhou por {td - total_def}") + nota)
                 if ok:
                     defendeu = True
                     break
@@ -444,6 +549,9 @@ def main():
     total_bruto, linha = _roll.rolar(dano_txt)
     p(f"  {linha.replace('**', '')}")
     basico = total_bruto + manobra["dano"]
+    mec_dano = f"Dano: {linha.replace('**', '*')}"
+    if manobra["dano"]:
+        mec_dano += f" +{manobra['dano']} Ataque Total = *{basico}*"
     if manobra["dano"]:
         p(f"  +{manobra['dano']} do Ataque Total = {basico}")
     # MB, pag. 74: arma cortante, perfurante ou bala que ACERTA faz pelo menos 1 ponto
@@ -452,19 +560,24 @@ def main():
         p(f"  Dano minimo: corte e perfuracao que acertam fazem pelo menos 1 (MB, pag. 74)"
           f" -> 1")
         basico = 1
+        mec_dano += " → mínimo 1 (corte/perfuração)"
     if mult_dano > 1:
         basico *= mult_dano
         p(f"  ×{mult_dano} pelo golpe fulminante = {basico}")
+        mec_dano += f" ×{mult_dano} golpe fulminante = *{basico}*"
+    MEC.append(mec_dano)
 
     if ignora_armadura:
         passou = basico
         p(f"  O golpe fulminante IGNORA a armadura: {passou} pontos entram inteiros.")
+        MEC.append(f"Armadura ignorada (golpe fulminante): {passou} entram")
     else:
         passou = max(0, basico - rd_total)
         detalhe_rd = f"RD {rd_local}" + (f" ({peca})" if peca else "")
         if local.get("rd_natural"):
             detalhe_rd += f" + RD {local['rd_natural']} do crânio"
         p(f"  {detalhe_rd} → {passou} ponto(s) atravessam")
+        MEC.append(f"{detalhe_rd.replace(' (informado pelo Mestre)', '')} → {passou} passam")
 
     if passou <= 0:
         p(f"\nA armadura segurou tudo. {alvo} não perde ponto de vida nenhum.")
@@ -482,6 +595,12 @@ def main():
     elif tipo == "perf" and local.get("mult_perf"):
         ferimento = passou * local["mult_perf"]
         explica.append(f"×{local['mult_perf']} — perfurante nos órgãos vitais")
+    elif (local.get("mult_tipo") or {}).get(tipo):
+        m = local["mult_tipo"][tipo]
+        ferimento = int(passou * m)
+        explica.append(f"{T.TIPOS_DANO[tipo]['nome']} no {local['nome'].lower()}: "
+                       f"×{str(m).replace('.0', '').replace('.', ',')} do que passar da "
+                       f"armadura (regra da casa, 4ª ed.)")
     elif local.get("incapacita") and tipo == "perf":
         explica.append("perfurante em membro NÃO ganha bônus de dano (MB, cap. 14)")
     else:
@@ -491,6 +610,7 @@ def main():
             explica.append(f"{T.TIPOS_DANO[tipo]['nome']}: {T.TIPOS_DANO[tipo]['como']}")
     for e in explica:
         p(f"  {e} → {ferimento}")
+        MEC.append(f"{e[0].upper() + e[1:]} → *{ferimento}*")
 
     # tetos do local
     perdido = 0
@@ -510,17 +630,24 @@ def main():
             p(f"  Teto do local ({rotulo_teto} = {teto}): {perdido} ponto(s) "
               f"desperdiçados — o golpe trespassa")
             ferimento = teto
+            MEC.append(f"Teto do local ({rotulo_teto} = {teto}): {perdido} desperdiçado(s)")
             if local.get("incapacita"):
                 p(f"  ⇒ {local['nome'].upper()} INCAPACITADO: {alvo} perde o uso do membro "
                   f"na hora, e fica ATORDOADO automaticamente.")
+                MEC.append(f"*{local['nome']} INCAPACITADO* — {alvo} fica atordoado")
 
     if efeito.get("incapacita_membro") and local.get("incapacita"):
         p(f"  ⇒ Pelo golpe fulminante, o membro fica incapacitado seja qual for o dano.")
+        MEC.append(f"*{local['nome']} INCAPACITADO* pelo golpe fulminante")
 
     p(f"\n**{alvo} perde {ferimento} ponto(s) de vida.**"
       + (f" (mais {perdido} desperdiçados)" if perdido else ""))
     if local.get("obs"):
         p(f"  {local['obs']}")
+    for terminal, mesa in efeitos_pescoco(chave, tipo, ferimento, ht_alvo, alvo,
+                                          frontal=not args.nao_frontal):
+        p(terminal)
+        MEC.append(mesa)
 
     # ---------------------------------------------------------- queda e atordoamento
     if ht_alvo:
@@ -541,22 +668,30 @@ def main():
             p(f"  Perdeu mais da metade da HT num golpe só: teste de HT para não cair.")
             p(f"    3d [{', '.join(map(str, dq))}] = {tq} contra {ht_alvo} — "
               + ("continua de pé" if ok else "CAIU"))
+            MEC.append(f"Perdeu mais de HT/2: teste de HT {ht_alvo} para não cair, "
+                       f"3d {dados_txt(dq)} = *{tq}* → "
+                       + ("de pé" if ok else "*CAIU*") + "; *ATORDOADO* (-4 nas defesas)")
             p(f"  Caindo ou não, {alvo} fica ATORDOADO: -4 em todas as defesas ativas no "
               f"turno seguinte, e testa HT no início de cada turno para se recuperar.")
         elif efeito.get("atordoa"):
             p(f"  {alvo} fica ATORDOADO pelo golpe fulminante: -4 nas defesas ativas, "
               f"e testa HT a cada turno para sair.")
+            MEC.append("*ATORDOADO* pelo golpe fulminante (-4 nas defesas)")
         if chave in ("cabeca", "cerebro") or (chave == "orgaos-vitais" and tipo == "cont"):
             dn = _roll.d6(3)
             tnk = sum(dn)
             p(f"  Golpe na cabeça (ou contundente nos vitais): teste de HT contra nocaute.")
             p(f"    3d [{', '.join(map(str, dn))}] = {tnk} contra {ht_alvo} — "
               + ("aguentou" if tnk <= ht_alvo else "NOCAUTEADO"))
+            MEC.append(f"Teste de HT {ht_alvo} contra nocaute: 3d {dados_txt(dn)} = *{tnk}* → "
+                       + ("aguentou" if tnk <= ht_alvo else "*NOCAUTEADO*"))
         if chave == "cerebro":
             if ferimento > ht_alvo // 2:
                 p(f"  Perda acima de HT/2 pelo crânio: NOCAUTEADO.")
+                MEC.append("Perda acima de HT/2 pelo crânio: *NOCAUTEADO*")
             elif ferimento > ht_alvo // 3:
                 p(f"  Perda acima de HT/3 pelo crânio: ATORDOADO.")
+                MEC.append("Perda acima de HT/3 pelo crânio: *ATORDOADO*")
     else:
         p(f"\nSem a HT de {alvo} não dá para testar queda, atordoamento nem os tetos do "
           f"local. Passe --alvo-ht (está no npcs.md).")
@@ -576,20 +711,9 @@ def _fecha(saida, avisos, args, raiz, atacante, alvo, local, desfecho, ferimento
     for a in avisos:
         print(f"\nATENÇÃO: {a}")
 
-    w = [f"*{atacante}* ataca *{alvo}* — {local['nome'].lower()}"]
-    if arma:
-        w.append(f"_{arma}_")
-    w.append("")
-    if nh_ef:
-        w.append(f"Ataque: 3d = *{ataque}* contra NH {nh_ef}")
-    if fulminante:
-        w.append("*GOLPE FULMINANTE!* Sem defesa possível.")
-    if critico_txt:
-        # a mesa precisa saber o que o 15 da tabela quer dizer
-        titulo = ("Tabela de Golpes Fulminantes" if critico_tipo == "fulminante"
-                  else "*ERRO CRÍTICO!* Tabela de Erros Críticos")
-        w.append(f"{titulo}: 3d = *{critico_total}*")
-        w.append(f"_{critico_txt}_")
+    # A conta inteira, na ordem em que aconteceu: NH e cada redutor com o motivo, o dado,
+    # a defesa, o dano, a RD, o multiplicador, os testes de HT. E o que a mesa le.
+    w = [f"*{atacante}* ataca *{alvo}* — {local['nome'].lower()}"] + MEC
     for linha in extra_w or []:
         w.append(linha)
     if ferimento is None:

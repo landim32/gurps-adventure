@@ -187,6 +187,8 @@ def main():
     ap.add_argument("--nh", type=int, default=0, help="NH na mão (NPC sem ficha)")
     ap.add_argument("--oque", default="", help="Rótulo do teste, quando se passa --nh")
     ap.add_argument("--mod", type=int, default=0, help="Bônus ou redutor da situação")
+    ap.add_argument("--motivo", default="",
+                    help="De onde saiu o --mod, para a mesa ler: «-2 escuro, -1 ferido»")
     ap.add_argument("--tentativa", type=int, default=1,
                     help="2ª tentativa = -1, 3ª = -2... (MB, tentativas repetidas)")
     ap.add_argument("--sorte", action="store_true",
@@ -258,7 +260,9 @@ def main():
     # ---- modificadores ----
     mod, detalhe = args.mod, []
     if args.mod:
-        detalhe.append(f"{args.mod:+d} situação")
+        # «-2 escuro, -1 ferido» ja traz os sinais; «escuro» sozinho ganha o do --mod
+        m = args.motivo.strip()
+        detalhe.append(m if m[:1] in "+-" and m else f"{args.mod:+d} {m or 'situação'}")
     if args.tentativa > 1:
         p = args.tentativa - 1
         mod -= p
@@ -325,7 +329,8 @@ def main():
     # Sai sempre. Mostrar ou nao a mesa e decisao do Mestre, nao do script.
     w = [f"*{quem}* — {rotulo}"]
     if mod:
-        w.append(f"NH {nh} {'+' if mod > 0 else '-'} {abs(mod)} = *{efetivo}* "
+        # cada modificador com o motivo: a mesa confere a conta, nao so o total
+        w.append(f"NH {nh}, {', '.join(detalhe)} = *{efetivo}* "
                  f"(precisa tirar {efetivo} ou menos)")
     else:
         w.append(f"NH *{efetivo}* (precisa tirar {efetivo} ou menos)")

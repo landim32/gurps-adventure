@@ -54,6 +54,7 @@ O script também imprime a linha **Modificadores** da entrada do livro, quando e
 | `--sentido visao\|audicao\|olfato` | IQ + Prontidão + sentido aguçado |
 | `--nh` / `--oque` | NPC sem ficha |
 | `--mod` | O bônus ou redutor da situação |
+| `--motivo "..."` | **De onde saiu o `--mod`**, para a conta da mesa: `"escuro"`, ou vários já com sinal, `"-2 escuro, -1 ferido"` |
 | `--tentativa N` | 2ª tentativa = -1, 3ª = -2… |
 | `--sorte` | Vantagem Sorte: rola 3 vezes e fica com o melhor |
 | `--defesa` | É defesa ativa (vale mesmo com NH efetivo ≤ 3) |
@@ -134,7 +135,7 @@ O script imprime um bloco **PARA O WHATSAPP** já em formatação de WhatsApp (`
 
 ```
 *Comam Obabaroy* — Furtividade (sem treino)
-NH 9 - 3 = *6* (precisa tirar 6 ou menos)
+NH 9, -2 armadura rangendo, -1 cascalho = *6* (precisa tirar 6 ou menos)
 3d: 6 + 2 + 2 = *10*
 
 *Falha* por 4.
@@ -143,8 +144,13 @@ NH 9 - 3 = *6* (precisa tirar 6 ou menos)
 **Todo teste gera o bloco**, inclusive os de sentido e os da seção seguinte. Mostrar ou não
 à mesa é decisão do Mestre, não do script — ele entrega o texto pronto e cala a boca.
 
-O NH aparece porque o jogador conhece a própria ficha. Fora do bloco cabe uma linha ao
-Mestre: o que a falha custou, que teste vem agora, se vale segunda tentativa.
+O NH aparece porque o jogador conhece a própria ficha, e **cada modificador aparece com o
+motivo** — passe `--motivo` junto do `--mod`. Quando o teste entra numa narração (a rodada,
+o `narration` do roll6, uma ação da skill `acao`), as linhas do bloco vão logo abaixo do
+parágrafo que narra o desfecho, com `> ` na frente; o teste de HT de quem ficou atordoado
+ou caiu entra do mesmo jeito. Ver `CLAUDE.md`, *A narração mostra a conta de cada jogada*.
+Fora do bloco cabe uma linha ao Mestre: o que a falha custou, que teste vem agora, se vale
+segunda tentativa.
 
 ## Rolagem que o jogador não pode ver
 
@@ -180,3 +186,14 @@ descoberta.
 o personagem passou a saber, corda que arrebentou: `campanha.py anotar --pj/--npc/--coisa`.
 O log guarda a rolagem; a anotação é o que o Mestre lê da próxima vez. Veja a skill
 `campanha`, seção **O estado do mundo**.
+
+## roll6 — esta skill não grava lá
+
+Esta skill **resolve e registra no repositório**; ela **não grava nada no roll6** —
+nem PV, nem Fadiga, nem status, nem posição, nem entrada de turno —, a menos que o
+usuário peça isso diretamente. Quem leva o resultado para a mesa virtual é a skill que a
+chamou: **`acao`** (ação avulsa) ou **`processar-turno`** (turno inteiro, num único
+`process_turn`), ou a skill `roll6` quando o usuário pedir a sincronização.
+
+Os scripts desta skill só gravam o acontecimento no capítulo; não chamam `campanha.py
+saude` nem `atualizar_mapa.py`, que são os que sincronizam sozinhos.

@@ -84,3 +84,13 @@ straight down at the crown of the head; face fully hidden by geometry*).
 Grave em `personagens/<slug>/token-hex.png` (NPC sem pasta:
 `npcs/<slug>-token-hex.png`). Informe o caminho e o hex que ela ocupa (padrão:
 1 hex, humano; Centauro/Gigante: diga 2–3 se o tamanho racial exigir).
+
+## roll6 — a mesa virtual
+
+Token que vai ser usado na mesa sobe para a biblioteca do roll6 (skill `roll6`):
+`roll6.py subir-imagem <arquivo> --formato png --lado 512` → `create_token`, com nome e
+descrição curtos. Criatura grande leva `upSpace` (cavalo: 3). Confira antes com
+`list_tokens --search` para não duplicar.
+
+Fundo transparente de verdade é obrigatório: xadrez pintado na imagem vira xadrez na
+mesa.

@@ -80,6 +80,17 @@ LOCAIS = {
                "golpe contundente nos vitais. Contundente nos vitais exige teste de "
                "HT para não nocautear.",
     },
+    # REGRA DA CASA (CLAUDE.md): o pescoco da 4a edicao (MB Campanhas, p. 552). A 3a
+    # edicao nao tem este local; o Mestre adotou o da 4a. Nao entra no sorteio de 3d.
+    "pescoco": {
+        "nome": "Pescoço", "redutor": -5, "aleatorio": None,
+        "rd_natural": 0, "mult_tipo": {"cont": 1.5, "corte": 2.0},
+        "armadura": "pescoco",
+        "obs": "Regra da casa (GURPS 4ª ed.): -5 para acertar; contusão ×1,5 e corte ×2 "
+               "sobre o que passar da armadura; perfuração e os demais com o "
+               "multiplicador normal do tipo. Contusão pela frente acima de HT/2 esmaga a "
+               "traqueia (sufocamento); corte acima de 3×HT pode decapitar.",
+    },
     "perna": {
         "nome": "Perna", "redutor": -2, "aleatorio": "13, 14",
         "rd_natural": 0, "teto_div_ht": 2, "incapacita": True,
@@ -99,13 +110,8 @@ LOCAIS = {
     },
 }
 
-# O pescoco nao e um local do Sistema Avancado da 3a edicao — a tabela do MB vai de
-# cerebro a pes e nao tem pescoco. Quem pedir "pescoco" cai na cabeca, com aviso.
 APELIDOS = {
-    "pescoco": ("cabeca", "O Módulo Básico da 3ª edição não tem «pescoço» na Tabela de "
-                          "Partes do Corpo. Usando **Cabeça (-5)**, que é o local mais "
-                          "próximo. Se quiser tratar como decapitação, é arbitragem do "
-                          "Mestre, fora da regra escrita."),
+    "pescoço": ("pescoco", None), "garganta": ("pescoco", None), "nuca": ("pescoco", None),
     "cabeça": ("cabeca", None), "crânio": ("cerebro", None), "cranio": ("cerebro", None),
     "peito": ("tronco", None), "corpo": ("tronco", None), "torso": ("tronco", None),
     "barriga": ("tronco", None), "vitais": ("orgaos-vitais", None),

@@ -74,6 +74,7 @@ Cada lado tem o mesmo conjunto de opções, com prefixo `--a-` ou `--b-`:
 | `--a-atributo ST\|DX\|IQ\|HT` | Disputa de atributo puro (braço-de-ferro é **ST**) |
 | `--a-nh` + `--a-oque` | **NPC virtual**: o Mestre diz o NH e o nome da habilidade |
 | `--a-mod` | Bônus ou redutor da situação, só daquele lado |
+| `--a-motivo "..."` | **De onde saiu o `--a-mod`**, para a conta da mesa: `"barulho da taberna"` |
 | `--a-sorte` | Vantagem Sorte: aquele lado rola 3 vezes e fica com o melhor |
 
 O NH sai da ficha quando o lado é um personagem do repositório (nome parcial resolve:
@@ -104,6 +105,10 @@ de uma vez. Mostrar ou não à mesa é decisão do Mestre.
 Numa disputa normal, o bloco traz **a rodada que decidiu** e diz quantas foram — a mesa não
 precisa das dez rolagens do meio, mas precisa saber que a queda de braço durou.
 
+Cada lado sai com o NH de partida, o modificador **e o motivo** (`--a-motivo`), o dado e a
+margem. Numa narração, essas linhas vão logo abaixo do parágrafo da disputa, com `> ` na
+frente — ver `CLAUDE.md`, *A narração mostra a conta de cada jogada*.
+
 Fora do bloco, uma linha ao Mestre: o que a vitória mudou na cena.
 
 ## Nunca invente o dado
@@ -127,3 +132,14 @@ campanha.py anotar --pj "Negrum Carneiriums" --tag item --texto "..."
 ```
 
 Veja a skill `campanha`, seção **O estado do mundo**.
+
+## roll6 — esta skill não grava lá
+
+Esta skill **resolve e registra no repositório**; ela **não grava nada no roll6** —
+nem PV, nem Fadiga, nem status, nem posição, nem entrada de turno —, a menos que o
+usuário peça isso diretamente. Quem leva o resultado para a mesa virtual é a skill que a
+chamou: **`acao`** (ação avulsa) ou **`processar-turno`** (turno inteiro, num único
+`process_turn`), ou a skill `roll6` quando o usuário pedir a sincronização.
+
+Os scripts desta skill só gravam o acontecimento no capítulo; não chamam `campanha.py
+saude` nem `atualizar_mapa.py`, que são os que sincronizam sozinhos.

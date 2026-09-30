@@ -35,7 +35,7 @@ python .claude/skills/atacar/scripts/atacar.py \
 | 4 | **Erro crítico** | 18 sempre; 17 com NH abaixo de 16; margem de 10 ou mais. Sorteia na Tabela de Erros Críticos e o golpe acaba ali — com o efeito dito por extenso |
 | 5 | **Defesa** | Defesa ativa escolhida + Reflexos em Combate + DP da peça daquele local + DP do escudo + recuar (+3). 3 ou 4 sempre defende; 17 ou 18 é falha desastrosa |
 | 6 | **Dano** | Rola o dano, tira a RD **daquela região**, aplica o bônus do tipo de dano |
-| 7 | **Local** | Multiplicadores e tetos: vitais, cérebro, membros |
+| 7 | **Local** | Multiplicadores e tetos: vitais, cérebro, membros, **pescoço** (regra da casa, abaixo) |
 | 8 | **Consequências** | Redutor por ferimento, teste de queda, atordoamento, nocaute |
 
 ## Traduzir a declaração
@@ -55,6 +55,24 @@ esquiva"*:
 **Pergunte só o que muda o resultado.** Manobra, local e defesa do alvo importam sempre; o
 resto costuma sair da ficha.
 
+### Pescoço — regra da casa (4ª edição)
+
+A 3ª edição não tem pescoço na Tabela de Partes do Corpo. **O Mestre adotou o da 4ª edição**
+(*Módulo Básico: Campanhas*, p. 552), e o script já aplica (`--local pescoco`, também
+`garganta` e `nuca`; não entra no sorteio de 3d):
+
+- **-5 para acertar**, pela frente ou pelos lados;
+- **contusão ×1,5** e **corte ×2** sobre o que passar da armadura; perfuração e os demais
+  com o multiplicador normal do tipo;
+- **contusão pela frente acima de HT/2** (nas fichas desta campanha os PV são a HT): lesão
+  incapacitante, **traqueia esmagada, o alvo sufoca**. Vindo do lado ou de trás, passe
+  `--nao-frontal`;
+- **corte acima de 3×HT num golpe só**: o Mestre **pode** declarar decapitação (morte
+  automática). O script avisa; quem decide é o Mestre.
+
+A armadura do pescoço é a peça da ficha com *pescoço*, *gorjal*, *camal* ou *gola* no nome;
+sem ela, RD 0 — ou passe `--alvo-rd`/`--alvo-dp` na mão.
+
 ## O atacante
 
 | Opção | Para quê |
@@ -68,9 +86,11 @@ resto costuma sair da ficha.
 | `--manobra` | Ver a tabela abaixo |
 | `--local` | Ponto de impacto, ou `aleatorio` |
 | `--de-cima` | Ataque de cima: -3 no sorteio do local, o que puxa para cabeça e braços |
+| `--nao-frontal` | Golpe no **pescoço** vindo do lado ou de trás: não esmaga a traqueia |
 | `--condicao` | `escuridao`, `agachado`, `apoio-ruim`, `hex-inimigo`… repita quantas vezes precisar |
 | `--ferimento N` | Pontos de vida que **o atacante** perdeu na rodada anterior |
 | `--mod N` | Qualquer outro modificador que você arbitre |
+| `--mod-motivo "..."` | **O motivo do `--mod`**, que sai na conta da mesa: `"alvo atrás da mesa"`. Sem ele a linha diz "situação" |
 
 ## O alvo
 
@@ -93,6 +113,7 @@ sua cena o escudo não deveria valer — golpe pelas costas, alvo deitado sobre 
 | `--alvo-dp` / `--alvo-rd` | Defesa passiva e RD naquele local |
 | `--alvo-defesa` | Qual das três ele usa, ou `nenhuma` |
 | `--alvo-defesa-mod` | Ataque lateral (-2), finta, o que for |
+| `--alvo-defesa-mod-motivo "..."` | O motivo, para a conta da mesa: `"atordoado"`, `"ataque lateral"` |
 | `--alvo-manobra` | `defesa-total`, `ataque-total` (sem defesa), `atordoado` (-4), `surpreendido` |
 | `--recuar` | **+3** em qualquer defesa, uma vez por rodada |
 | `--sem-escudo` | O escudo da ficha **não vale nesta troca**: está às costas, o alvo empunha arma de duas mãos, ou o golpe vem por trás |
@@ -218,6 +239,15 @@ Quem escreve o texto que vai para a mesa é a skill **`narrar`**, e só quando o
 São trabalhos diferentes: aqui se resolve o golpe, lá se conta a cena. Misturar os dois faz
 a mesa esperar por prosa a cada rolagem e enche o capítulo de narração que ninguém pediu.
 
+**Mas a conta dela vai inteira para a mesa.** O bloco **PARA O WHATSAPP** traz o golpe
+linha a linha: manobra e arma, NH de partida com cada bônus e redutor e o motivo, o dado e
+a margem, a defesa do alvo montada (defesa base, DP, recuo, atordoado...) e rolada, o dano
+com RD, multiplicador e teto, membro incapacitado, os testes de HT de queda e nocaute, e o
+golpe fulminante ou erro crítico com o que a tabela mandou. Quando o Mestre ou a
+`processar-turno` escrevem a prosa da rodada, **essas linhas vão logo abaixo do parágrafo
+do golpe**, com `> ` na frente, sem resumir — ver `CLAUDE.md`, *A narração mostra a conta
+de cada jogada*.
+
 O que **é** desta skill dizer, fora do bloco: quem ficou atordoado, quem perdeu a defesa
 ativa até o próximo turno, quem precisa testar HT no começo do turno, que membro ficou
 inutilizado, quanto de dano ainda dá para aguentar.
@@ -260,3 +290,14 @@ O que não é corpo continua na anotação (`campanha.py anotar`): arma quebrada
 arruinada, quem fugiu e para onde, quem morreu. Dano que o alvo cura sozinho até a próxima
 cena não precisa de registro nenhum. Detalhes na skill `campanha`, seções **A saúde** e
 **O estado do mundo**.
+
+## roll6 — esta skill não grava lá
+
+Esta skill **resolve e registra no repositório**; ela **não grava nada no roll6** —
+nem PV, nem Fadiga, nem status, nem posição, nem entrada de turno —, a menos que o
+usuário peça isso diretamente. Quem leva o resultado para a mesa virtual é a skill que a
+chamou: **`acao`** (ação avulsa) ou **`processar-turno`** (turno inteiro, num único
+`process_turn`), ou a skill `roll6` quando o usuário pedir a sincronização.
+
+Os scripts desta skill só gravam o acontecimento no capítulo; não chamam `campanha.py
+saude` nem `atualizar_mapa.py`, que são os que sincronizam sozinhos.

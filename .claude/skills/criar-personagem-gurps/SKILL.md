@@ -782,3 +782,24 @@ Desvantagens com custo, lista de Peculiaridades, tabela de Perícias (NH, Tipo, 
 tabela de Equipamento (Item, Dano, Tipo, Qtd, Peso, peso total), e por fim o quadro Resumo
 de Pontos idêntico ao da ficha. Escreva em português, tom de ficha de RPG (direto, sem
 floreios).
+
+## roll6 — a mesa virtual
+
+Todo personagem criado ou editado aqui vai também para o roll6 (skill `roll6`), **depois**
+dos quatro arquivos prontos.
+
+**Personagem novo**:
+- **Retrato e token**: `roll6.py subir-imagem foto.png --lado 1024` vira a `image`.
+  `roll6.py subir-imagem token-hex.png --formato png --lado 512` vai para `create_token`,
+  que devolve o `tokenId`.
+- **Ficha em arquivo**: `roll6.py subir-documento ficha.jpg`. Conjurador manda também o
+  `grimorio.jpg`, e os dois viram um PDF. O resultado é o `sheetFile`.
+- **Criar**: `create_character` com `life` = PV, `energy` = Fadiga, `move` =
+  Deslocamento e `sheet` = `personagem.md` (+ `grimorio.md`), até 20.000 caracteres.
+- **Na campanha ativa**: `invite_character` + `accept_invite`.
+
+**Edição**:
+- `get_character` → `update_character` com **todos** os campos. O que for omitido é
+  apagado, inclusive o `sheetFile`: mande o atual de volta ou o arquivo novo.
+- O que mudou por causa da mesa (item perdido, desvantagem adquirida) vai para as
+  **notas da participação**, não para a ficha do roll6, a menos que o usuário peça.

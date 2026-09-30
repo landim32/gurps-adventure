@@ -242,3 +242,13 @@ hexágono (1 m).
 Para **gerar** um token novo a partir de uma ficha do projeto, em vez de importar um
 pronto, use a skill `token-hex-gurps` — e depois catalogue o resultado por aqui, com
 `origem` dizendo que foi gerado.
+
+## roll6 — a mesa virtual
+
+Token que vai ser usado na mesa sobe para a biblioteca do roll6 (skill `roll6`):
+`roll6.py subir-imagem <arquivo> --formato png --lado 512` → `create_token`, com nome e
+descrição curtos. Criatura grande leva `upSpace` (cavalo: 3). Confira antes com
+`list_tokens --search` para não duplicar.
+
+Fundo transparente de verdade é obrigatório: xadrez pintado na imagem vira xadrez na
+mesa.

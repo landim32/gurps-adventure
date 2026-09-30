@@ -56,6 +56,11 @@ Esta é a parte da skill que mais importa. O plano é escrito para o Mestre.
   não existe para os jogadores. Narre o que a testemunha conta, não o que é verdade.
 - **Ficha, número, nome de regra.** Nada de "ST 14", "Morto-Vivo 1", "faça um teste de
   Furtividade". O Mestre pede o teste em voz alta, na hora; o texto narra o *mundo*.
+  **Isto vale para a descrição de cena, não para o resultado de uma jogada.** Quando o
+  texto conta o desfecho de um golpe, tiro, mágica ou teste que foi rolado, a prosa fica
+  limpa como aqui manda, e **logo abaixo de cada parágrafo** entram as linhas da conta
+  (NH, modificadores com motivo, dado, defesa, dano, testes de HT, crítico), com `> ` na
+  frente — ver `CLAUDE.md`, *A narração mostra a conta de cada jogada*.
 - **Nome de mecânica no lugar de coisa.** Não é "um Morto-Vivo 1 entra": é *"a porta se
   abre e um homem entra cambaleando — você reconhece o rosto"*.
 - **O que vem nos próximos capítulos.** O plano inteiro está aberto para você; a mesa está

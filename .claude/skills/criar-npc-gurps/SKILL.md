@@ -55,3 +55,15 @@ ST 10, DX 11, IQ 13, HT 10. Velocidade Básica 5,25; Deslocamento 5. Esquiva 5; 
 - Armas: dano já com a ST do NPC. Armadura: uma frase com DP/RD do tronco.
 
 Depois do bloco, uma linha: pontos gastos = orçamento, arquétipo/raça e livro.
+
+## roll6 — a mesa virtual
+
+NPC que vai entrar em cena existe também no roll6 (skill `roll6`):
+
+- **Criar**: `create_npc` com token (`list_tokens` primeiro; se não houver, `roll6.py
+  subir-imagem ... --formato png --lado 512` → `create_token`), `life` = PV, `energy` =
+  Fadiga, `move` = Deslocamento e `sheet` = o bloco.
+- **Pôr em cena**: `add_npc_to_campaign` → `place_npc_on_map`.
+- **Um NPC por figura com nome**: Morto 1, Morto 3, Goblin do portão. Ocorrências
+  múltiplas de um NPC só servem para figurante sem identidade.
+- **Nome diferente do repositório**: grave o apelido em `campanha/roll6.json`.

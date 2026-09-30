@@ -57,6 +57,7 @@ script só decide o Tiro Rápido no fim.
 | "ele está a uns oito metros" | `--distancia 8` — conte no mapa, é 1 hexágono = 1 metro |
 | "apoiado na ameia" | `--apoiada` |
 | "mira na cabeça" | `--local cabeca` |
+| "no pescoço" | `--local pescoco` — regra da casa da 4ª ed. (skill `atacar`, "Pescoço"); de lado ou de trás, `--nao-frontal` |
 | "o guarda levanta o escudo" | `--alvo-defesa bloqueio` |
 | "ele se joga de lado" | `--alvo-defesa esquiva` (o padrão) |
 
@@ -146,6 +147,7 @@ isso acontece. Ficar mirando um alvo longe demais não adianta.
 | `--as-cegas` | Fora do ângulo de visão: -10 **e** teto de 9 nos dados, o pior dos dois |
 | `--condicao` | `escuridao`, `penumbra`, `hex-obstruido`, `atras-de-alguem`, `alvo-parcial`, `alvo-so-cabeca`, `alvo-semi`, `alvo-deitado`, `chuva`, `zarolho`, `luneta-tiro-rapido`. Repita quantas vezes precisar |
 | `--mod N` | Qualquer outro modificador que você arbitre |
+| `--mod-motivo "..."` | **O motivo do `--mod`**, que sai na conta da mesa: `"fumaça"`. Sem ele a linha diz "situação" |
 
 **A simplificação do livro para alvo humano**: só o modificador de *distância* importa.
 Tamanho é 0, velocidade se despreza porque o alvo tem defesa ativa. Nas cenas da campanha
@@ -229,6 +231,12 @@ por rodada*, e vale igual para a skill `atacar`.
 
 Quem escreve o texto da mesa é a skill `narrar`, e só quando o Mestre pedir.
 
+**A conta do disparo vai inteira para a mesa**, como na `atacar`: o bloco **PARA O
+WHATSAPP** traz NH de partida com tamanho, distância, Precisão, condições e Tiro Rápido
+(cada um com o motivo), dado e margem, defesa do alvo, dano com ½D, RD e multiplicador, e
+os testes de HT. Na prosa da rodada, essas linhas entram logo abaixo do parágrafo do
+disparo, com `> ` na frente — ver `CLAUDE.md`, *A narração mostra a conta de cada jogada*.
+
 ## Mostrar e gravar
 
 `--gravar` registra no capítulo atual pela skill `campanha`. Numa troca de tiros longa,
@@ -242,3 +250,14 @@ campanha.py saude --npc "Morto-Vivo 3" --pv -10 --motivo "Virote do Comam (cap. 
 
 E o que não é corpo continua na anotação: **munição gasta**, flecha que se perdeu, arco
 quebrado no erro crítico. Aljava vazia decide cena — anote.
+
+## roll6 — esta skill não grava lá
+
+Esta skill **resolve e registra no repositório**; ela **não grava nada no roll6** —
+nem PV, nem Fadiga, nem status, nem posição, nem entrada de turno —, a menos que o
+usuário peça isso diretamente. Quem leva o resultado para a mesa virtual é a skill que a
+chamou: **`acao`** (ação avulsa) ou **`processar-turno`** (turno inteiro, num único
+`process_turn`), ou a skill `roll6` quando o usuário pedir a sincronização.
+
+Os scripts desta skill só gravam o acontecimento no capítulo; não chamam `campanha.py
+saude` nem `atualizar_mapa.py`, que são os que sincronizam sozinhos.
