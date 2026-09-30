@@ -1,0 +1,14 @@
+{
+  "_leia": "Liga a campanha do repositório à mesa no roll6. Os scripts campanha.py (saude) e atualizar_mapa.py empurram o que mudou para lá; a skill roll6 explica o resto. Mapas: o índice local do grid → o mapa do roll6 (coluna/linha iguais depois de roll6.py alinhar). linhasExtras é o --linhas-extras do último alinhar: sem ele o grid volta ao tamanho da arte e quem está além da borda sai do mapa. Apelidos: nome no repositório → nome no roll6.",
+  "campaignId": 1,
+  "campanha": "Tormento Vil",
+  "mapas": {
+    "cenarios/com-grid/estrada.json": {"mapId": 2, "modelo": 2, "nome": "Estrada 1", "linhasExtras": 16}
+  },
+  "apelidos": {
+    "Sir William": "Lorde William de Wallace",
+    "Lorde William": "Lorde William de Wallace",
+    "Morto 4 (arqueiro montado)": "Morto 4",
+    "Morto 3 (montado)": "Morto 3"
+  }
+}

@@ -3945,6 +3945,394 @@
           "olhando": "R24"
         }
       }
+    },
+    {
+      "n": 30,
+      "quando": "28/09/2026 20:45:06",
+      "acoes": [
+        "removeu quem estava em S34",
+        "removeu quem estava em S33",
+        "removeu quem estava em R27"
+      ],
+      "ocupacao": {
+        "P7": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "N",
+          "olhando": "P4"
+        },
+        "P9": {
+          "tipo": "npc",
+          "quem": "Sir William",
+          "token": "tokens/cavaleiro-placa-ornada-espada.png",
+          "frente": "S",
+          "olhando": "P10"
+        },
+        "O11": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "SE",
+          "olhando": "P11"
+        },
+        "P11": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "NE",
+          "olhando": "Q11"
+        },
+        "P10": {
+          "tipo": "npc",
+          "quem": "Morto 5",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "SW",
+          "olhando": "O11"
+        }
+      }
+    },
+    {
+      "n": 31,
+      "quando": "29/09/2026 07:34:55",
+      "acoes": [
+        "aviso: Negrum Carneiriums gastou 3 pontos de movimento (1 para virar antes de sair + 2 hexagono(s) andado(s) + a virada final de 2 lado(s) sai de graca) de 6: cabe em um turno so com a manobra Deslocamento — quem anda mais de 1 hexagono nao ataca. Hexagono de lado ou para tras custaria 2 cada",
+        "moveu Negrum Carneiriums P11 -> Q10, olhando P10 (aresta SW), aura azul",
+        "colocou NelsOwned -> O11, olhando P10 (aresta NE), aura azul",
+        "colocou Morto 5 -> P10, olhando O10 (aresta NW), aura vermelha"
+      ],
+      "ocupacao": {
+        "P7": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "N",
+          "olhando": "P4"
+        },
+        "P9": {
+          "tipo": "npc",
+          "quem": "Sir William",
+          "token": "tokens/cavaleiro-placa-ornada-espada.png",
+          "frente": "S",
+          "olhando": "P10"
+        },
+        "O11": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "NE",
+          "olhando": "P10"
+        },
+        "P10": {
+          "tipo": "npc",
+          "quem": "Morto 5",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "NW",
+          "olhando": "O10"
+        },
+        "Q10": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "SW",
+          "olhando": "P10"
+        }
+      }
+    },
+    {
+      "n": 32,
+      "quando": "29/09/2026 10:17:43",
+      "acoes": [
+        "aviso: Comam Obabaroy gastou 4 pontos de movimento (2 para virar antes de sair + 2 hexagono(s) andado(s) + a virada final de 1 lado(s) sai de graca) de 5: cabe em um turno so com a manobra Deslocamento — quem anda mais de 1 hexagono nao ataca. Hexagono de lado ou para tras custaria 2 cada",
+        "moveu Comam Obabaroy P7 -> O9, olhando O10 (aresta S), aura azul"
+      ],
+      "ocupacao": {
+        "P9": {
+          "tipo": "npc",
+          "quem": "Sir William",
+          "token": "tokens/cavaleiro-placa-ornada-espada.png",
+          "frente": "S",
+          "olhando": "P10"
+        },
+        "O11": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "NE",
+          "olhando": "P10"
+        },
+        "P10": {
+          "tipo": "npc",
+          "quem": "Morto 5",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "NW",
+          "olhando": "O10"
+        },
+        "Q10": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "SW",
+          "olhando": "P10"
+        },
+        "O9": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "S",
+          "olhando": "O10"
+        }
+      }
+    },
+    {
+      "n": 33,
+      "quando": "29/09/2026 11:56:31",
+      "acoes": [
+        "moveu Comam Obabaroy O9 -> O10, olhando O11 (aresta S), aura azul"
+      ],
+      "ocupacao": {
+        "P9": {
+          "tipo": "npc",
+          "quem": "Sir William",
+          "token": "tokens/cavaleiro-placa-ornada-espada.png",
+          "frente": "S",
+          "olhando": "P10"
+        },
+        "O11": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "NE",
+          "olhando": "P10"
+        },
+        "P10": {
+          "tipo": "npc",
+          "quem": "Morto 5",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "NW",
+          "olhando": "O10"
+        },
+        "Q10": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "SW",
+          "olhando": "P10"
+        },
+        "O10": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "S",
+          "olhando": "O11"
+        }
+      }
+    },
+    {
+      "n": 34,
+      "quando": "29/09/2026 14:40:01",
+      "acoes": [
+        "aviso: Morto 5 gastou 5 pontos de movimento (2 para virar antes de sair + 2 hexagono(s) andado(s) + 1 para virar no fim alem do lado que sai de graca) de 5: cabe em um turno so com a manobra Deslocamento — quem anda mais de 1 hexagono nao ataca. Hexagono de lado ou para tras custaria 2 cada",
+        "moveu Morto 5 P10 -> R10, olhando Q10 (aresta NW), aura vermelha"
+      ],
+      "ocupacao": {
+        "P9": {
+          "tipo": "npc",
+          "quem": "Sir William",
+          "token": "tokens/cavaleiro-placa-ornada-espada.png",
+          "frente": "S",
+          "olhando": "P10"
+        },
+        "O11": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "NE",
+          "olhando": "P10"
+        },
+        "Q10": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "SW",
+          "olhando": "P10"
+        },
+        "O10": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "S",
+          "olhando": "O11"
+        },
+        "R10": {
+          "tipo": "npc",
+          "quem": "Morto 5",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "NW",
+          "olhando": "Q10"
+        }
+      }
+    },
+    {
+      "n": 35,
+      "quando": "29/09/2026 16:45:38",
+      "acoes": [
+        "aviso: Comam Obabaroy gastou 2 pontos (1 para virar antes de sair + 1 hexagono(s) andado(s) + a virada final de 1 lado(s) sai de graca) de 5: cabe num Avancar e Atacar so se for 1 hexagono e a virada couber no fim",
+        "moveu Comam Obabaroy O10 -> P10, olhando P11 (aresta S), aura azul",
+        "aviso: Negrum Carneiriums gastou 6 pontos de movimento (1 para virar antes de sair + 5 hexagono(s) andado(s)) de 6: cabe em um turno so com a manobra Deslocamento — quem anda mais de 1 hexagono nao ataca. Hexagono de lado ou para tras custaria 2 cada",
+        "moveu Negrum Carneiriums Q10 -> Q15, olhando Q16 (aresta S), aura azul"
+      ],
+      "ocupacao": {
+        "P9": {
+          "tipo": "npc",
+          "quem": "Sir William",
+          "token": "tokens/cavaleiro-placa-ornada-espada.png",
+          "frente": "S",
+          "olhando": "P10"
+        },
+        "O11": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "NE",
+          "olhando": "P10"
+        },
+        "R10": {
+          "tipo": "npc",
+          "quem": "Morto 5",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "NW",
+          "olhando": "Q10"
+        },
+        "P10": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "S",
+          "olhando": "P11"
+        },
+        "Q15": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "Q16"
+        }
+      }
+    },
+    {
+      "n": 36,
+      "quando": "30/09/2026 08:13:33",
+      "acoes": [
+        "moveu Comam Obabaroy P10 -> P11, olhando P12 (aresta S), aura azul",
+        "aviso: Negrum Carneiriums gastaria 7 pontos de movimento (7 hexagono(s) andado(s)), mas o Deslocamento dele e 6: nao cabe em um turno — seriam 2, e so com a manobra Deslocamento, sem atacar",
+        "moveu Negrum Carneiriums Q15 -> Q22, olhando Q23 (aresta S), aura azul",
+        "colocou Irmão Kaelric -> T29, olhando T28 (aresta N), aura azul"
+      ],
+      "ocupacao": {
+        "P9": {
+          "tipo": "npc",
+          "quem": "Sir William",
+          "token": "tokens/cavaleiro-placa-ornada-espada.png",
+          "frente": "S",
+          "olhando": "P10"
+        },
+        "O11": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "NE",
+          "olhando": "P10"
+        },
+        "R10": {
+          "tipo": "npc",
+          "quem": "Morto 5",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "NW",
+          "olhando": "Q10"
+        },
+        "P11": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "S",
+          "olhando": "P12"
+        },
+        "Q22": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "Q23"
+        },
+        "T29": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "personagens/irmao-kaelric/token-hex.png",
+          "frente": "N",
+          "olhando": "T28"
+        }
+      }
+    },
+    {
+      "n": 37,
+      "quando": "30/09/2026 10:16:59",
+      "acoes": [
+        "colocou Jah Kagadu -> S34, olhando S33 (aresta N), aura azul",
+        "aviso: Negrum Carneiriums gastaria 8 pontos de movimento (8 hexagono(s) andado(s)), mas o Deslocamento dele e 6: nao cabe em um turno — seriam 2, e so com a manobra Deslocamento, sem atacar",
+        "moveu Negrum Carneiriums Q22 -> Q30, olhando Q31 (aresta S), aura azul"
+      ],
+      "ocupacao": {
+        "P9": {
+          "tipo": "npc",
+          "quem": "Sir William",
+          "token": "tokens/cavaleiro-placa-ornada-espada.png",
+          "frente": "S",
+          "olhando": "P10"
+        },
+        "O11": {
+          "tipo": "pj",
+          "quem": "NelsOwned",
+          "token": "personagens/nelsowned/token-hex.png",
+          "frente": "NE",
+          "olhando": "P10"
+        },
+        "R10": {
+          "tipo": "npc",
+          "quem": "Morto 5",
+          "token": "tokens/zumbi-agachado-camisa-marrom.png",
+          "frente": "NW",
+          "olhando": "Q10"
+        },
+        "P11": {
+          "tipo": "pj",
+          "quem": "Comam Obabaroy",
+          "token": "personagens/comam-obabaroy/token-hex.png",
+          "frente": "S",
+          "olhando": "P12"
+        },
+        "T29": {
+          "tipo": "pj",
+          "quem": "Irmão Kaelric",
+          "token": "personagens/irmao-kaelric/token-hex.png",
+          "frente": "N",
+          "olhando": "T28"
+        },
+        "S34": {
+          "tipo": "pj",
+          "quem": "Jah Kagadu",
+          "token": "personagens/jah-kagadu/token-hex.png",
+          "frente": "N",
+          "olhando": "S33"
+        },
+        "Q30": {
+          "tipo": "pj",
+          "quem": "Negrum Carneiriums",
+          "token": "personagens/negrum-carneiriums/token-hex.png",
+          "frente": "S",
+          "olhando": "Q31"
+        }
+      }
     }
   ]
 }

@@ -9,14 +9,16 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 | Quem | | PV | Fadiga | Estado |
 |---|---|---:|---:|---|
 | Comam Obabaroy | PJ | 12/12 | 10/13 | — |
-| Irmão Kaelric | PJ | 12/12 | 5/13 | — |
-| Jah Kagadu | PJ | 2/12 | 6/9 | — |
-| Negrum Carneiriums | PJ | 11/12 | 15/15 | — |
-| NelsOwned | PJ | 3/12 | 15/15 | Caído e atordoado na caçamba desde a rodada 14: -4 nas defesas e teste de HT a cada turno para sair; com 3 PV, Deslocamento à metade |
+| Irmão Kaelric | PJ | 1/12 | 5/13 | PV 1 de 12: Deslocamento à metade (MB 12). MONTADO, seguindo a carroça no deserto, maça na mão. Sem teste de consciência: saiu de 0 PV.; Perna COXA, temporária: HT 12 tirou 11, sucesso por 1. Sara quando a vitalidade voltar a 12. Até lá, a pé não caminha; montado, -1 em Cavalgar. |
+| Jah Kagadu | PJ | 3/12 | 6/9 | PV 3 de 12: Deslocamento à metade. MONTADO no deserto, junto da carroça, com o Negrum na garupa. Uma adaga na mão, a outra guardada. |
+| Negrum Carneiriums | PJ | 8/12 | 15/15 | — |
+| NelsOwned | PJ | -6/12 | 15/15 | DESMAIADO na caçamba da carroça, no deserto. HT 12 tirou 13, falhou por 1. Não fala e não age até acordar, em 6 horas, ainda com -6.; Vitalidade -6 de 12. Anda à metade da velocidade. Morre se chegar a -12 sem passar num teste de HT.; Maneta da mão esquerda, permanente, custo 0 na ficha. A direita segue inteira. Machado grande não empunha. |
 | Donnwulf | NPC | -27 | — | FALECEU no pátio do portão, em L6. Vitalidade -15 de 12: a terceira machadada do NelsOwned sobre o membro preso tirou os 4 pontos do teto (HT/3) e cruzou a barreira de -HT. Teste de HT 12 contra a morte (MB pág. 126): tirou 13, falhou por um. Estava inconsciente e sem nada para gastar a favor |
 | Hoel Meia-Orelha | NPC | -21 | — | MORTO — espancado até a morte pelo Negrum enquanto estava inconsciente (MB pág. 128: pessoa indefesa atacada de maneira letal morre sem jogada); **DECAPITADO** em L5 pelo machado grande de NelsOwned (cap. 01), no turno seguinte ao em que se levantou. Mesmo critério do Morto-Vivo 1: 15 pontos, 1,5 x HT, numa criatura de HT 10. Destruído de vez: não se levanta, não volta |
 | Lanceiro | NPC | -5 | — | SUMIDO na massa da rampa desde o turno 5, arrastado de L6 até L8-L9. Ninguém do grupo sabe se vive. Levava -5 de vitalidade e a perna esquerda destruída quando se perdeu de vista. Fora do mapa, e agora do lado de fora do portão fechado |
-| Morto 4 (arqueiro montado) | NPC | -10 | — | HT 1 de 11 — um golpe de qualquer coisa o derruba |
+| Morto 3 | NPC | -14 | — | DESTRUÍDO em T33, HT -3 de 11. Queda de 10 m da projeção (10D-20 = 13, cota segurou 2). Não se levanta, não volta. |
+| Morto 4 (arqueiro montado) | NPC | -15 | — | DESTRUÍDO na estrada, rodada 15 do cap. 6: a maça do Kaelric levou a perna e a HT chegou a -4. Não se levanta, não volta |
+| Morto 5 | NPC | -22 | — | DESTRUÍDO. O corpo foi empurrado para fora da caçamba e está no chão em R10, à direita da carroça. Sem peça no roll6. |
 | Morto-Vivo 1 | NPC | -15 | — | **DECAPITADO** pelo montante do Negrum (cap. 01). Destruído de vez: não se levanta, não volta |
 | Morto-Vivo 2 | NPC | -18 | — | **DESTRUÍDO** (decisão do Mestre, cap. 01). Parou de se mexer entre L10 e L11, contra a pedra da lareira, com o tórax afundado pela maça do Irmão Kaelric — 18 pontos acumulados num corpo de 11 PV. Não se levanta, não volta |
 | Morto-Vivo 3 | NPC | -13 | — | **DESTRUÍDO** (decisão do Mestre, cap. 01). Parou de se mexer entre M10 e M11, em cima do braseiro, com o peito afundado pela maça do Irmão Kaelric e o corpo queimando — 13 pontos acumulados num corpo de 10 PV. Não se levanta, não volta. **É o corpo dele que está pegando fogo e espalhando o incêndio pelo salão** |
@@ -44,7 +46,7 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 
 ### Irmão Kaelric
 
-**PV 12/12 · Fadiga 5/13**
+**PV 1/12 · Fadiga 5/13**  ·  **PV 1 de 12: Deslocamento à metade (MB 12). MONTADO, seguindo a carroça no deserto, maça na mão. Sem teste de consciência: saiu de 0 PV.**; **Perna COXA, temporária: HT 12 tirou 11, sucesso por 1. Sara quando a vitalidade voltar a 12. Até lá, a pé não caminha; montado, -1 em Cavalgar.**
 
 - **09/09/2026 12:21** · FAD -3 — Fadiga de batalha contra os mortos-vivos: Carga média, nível 2 +1 — a cota de malha e o escudo grande cobram (MB pág. 134)
 - **15/09/2026 20:16** · FAD -1 — Falha no teste de ST para erguer a carroça tombada (MB pág. 89: falha em teste de esforço custa 1 ponto de ST por Fadiga)
@@ -53,10 +55,33 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **19/09/2026 18:34** · FAD -3 — Cura Superficial no Jah — 3 pontos de energia por 3 de vitalidade (cap. 03, turno 9)
 - **19/09/2026 19:35** · FAD -1 — Fadiga de batalha — Carga Nenhuma, 1 ponto (MB pág. 134)
 - **20/09/2026 20:33** · FAD +4 — 45 min de descanso depois dos primeiros socorros, cap. 04
+- **28/09/2026 20:44** · PV -6 — Espada curta do Morto 1 na perna, rodada 15 do cap. 6 (1D+1 corte deu 7, RD 1 do laudel, +50% = 9, teto da perna HT/2 = 6)
+- **28/09/2026 20:44** · estado — Perna INCAPACITADA (Coxo até o fim da luta; teste de HT no fim do combate diz se é temporário). Não anda nem monta
+- **28/09/2026 20:44** · PV -2 — Queda do cavalo, rodada 15 do cap. 6: falhou o Cavalgar para ficar na sela (7, tirou 9), 2D-8 = 2
+- **28/09/2026 21:40** · PV +2 — ERRATA da rodada 15 do cap. 6: a queda do cavalo não aconteceu. Hipoalgia impede o atordoamento (MB 03-vantagens), então o Cavalgar para ficar na sela era 11, não 7 — tirou 9 e ficou montado. Os 2 PV do 2D-8 voltam
+- **28/09/2026 21:40** · curado — Perna INCAPACITADA (Coxo até o fim da luta; teste de HT no fim do combate diz se é temporário). Não anda nem monta
+- **28/09/2026 21:40** · estado — Perna INCAPACITADA (Coxo até o fim da luta; teste de HT no fim do combate diz se é temporário). A pé não anda; montado, -1 em todo teste de Cavalgar (errata do Mestre)
+- **29/09/2026 10:16** · PV -6 — Espada curta do Morto 1 em Ataque Total no tronco sem armadura, sem defesa ativa pelo próprio Ataque Total (cap. 06, rodada 17)
+- **29/09/2026 10:16** · estado — A 0 PV (Vitalidade ≤ 0): teste de HT no início de cada turno para não desmaiar (MB 12). Com PV ≤ 3, Deslocamento à metade
+- **29/09/2026 14:39** · estado — INCONSCIENTE no chão em O49, ao lado do cavalo parado (P48-P50). Falha crítica de HT: tirou 18 contra 15. Maça despreparada. Não age até ser acordado.
+- **29/09/2026 14:57** · estado — CONSCIENTE e MONTADO em P49, a 0 PV. Maça PREPARADA. Cavalgar 10 tirou 14: o cavalo não andou. Testa HT de novo no próximo turno.
+- **29/09/2026 14:57** · curado — INCONSCIENTE no chão em O49
+- **29/09/2026 16:45** · estado — CONSCIENTE e MONTADO ao norte: cabeça T40, ele em T41, garupa T42. Maça PREPARADA. HT 15 tirou 11. Cavalgar 10 tirou 10: 10 hexágonos. ERRATA: chegou em T43 apesar do raio de giração. Testa HT de novo no próximo turno.
+- **29/09/2026 16:45** · curado — P49
+- **30/09/2026 08:13** · estado — CONSCIENTE e MONTADO ao norte: cabeça T28, ele em T29, garupa T30. Maça PREPARADA. HT 15 tirou 5 (sucesso decisivo). Cavalgar 10 tirou 8: 12 hexágonos. Saltou o corpo do Morto 3. Testa HT de novo no próximo turno.
+- **30/09/2026 08:13** · curado — cabeça T40
+- **30/09/2026 10:16** · estado — CONSCIENTE e MONTADO, sem andar: cabeça T28, ele em T29, garupa T30. Maça PREPARADA. HT 15 tirou 12, sucesso por 3. Cavalgar 10 tirou 12, falha por 2: zero hexágono. Testa HT de novo no próximo turno.
+- **30/09/2026 10:16** · curado — tirou 5 (sucesso decisivo)
+- **30/09/2026 10:47** · PV +1 — Primeiros Socorros nele mesmo: 1D-3 deu 0, mínimo de 1 ponto (MB 12)
+- **30/09/2026 10:47** · curado — A 0 PV (Vitalidade ≤ 0)
+- **30/09/2026 10:47** · estado — PV 1 de 12: Deslocamento à metade (MB 12). MONTADO, seguindo a carroça no deserto, maça na mão. Sem teste de consciência: saiu de 0 PV.
+- **30/09/2026 10:47** · curado — falha por 2: zero hexágono
+- **30/09/2026 12:06** · estado — Perna COXA, temporária: HT 12 tirou 11, sucesso por 1. Sara quando a vitalidade voltar a 12. Até lá, a pé não caminha; montado, -1 em Cavalgar.
+- **30/09/2026 12:06** · curado — teste de HT no fim do combate
 
 ### Jah Kagadu
 
-**PV 2/12 · Fadiga 6/9**
+**PV 3/12 · Fadiga 6/9**  ·  **PV 3 de 12: Deslocamento à metade. MONTADO no deserto, junto da carroça, com o Negrum na garupa. Uma adaga na mão, a outra guardada.**
 
 - **15/09/2026 20:19** · FAD -1 — Falha no teste de ST para erguer a carroça tombada (MB pág. 89: falha em teste de esforço custa 1 ponto de ST por Fadiga)
 - **15/09/2026 21:14** · FAD -1 — Fadiga de batalha — combate rápido no cruzamento da carroça: Carga nenhuma (9 kg para ST 9), nível 0 +1 (MB pág. 134)
@@ -70,10 +95,22 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **20/09/2026 20:33** · PV +3 — Duas rodadas de atadura na hora comprada (1D-2 = 1 e 2), cap. 04
 - **20/09/2026 20:33** · FAD +2 — 20 min de descanso, cap. 04
 - **26/09/2026 19:16** · PV -2 — Flecha no tronco do Morto 4, a 7 m, na rodada 12 do cap. 6 (1 ponto passou o tecido rígido, dobrado por perfuração)
+- **29/09/2026 10:16** · PV -4 — Espada curta do Morto 3 na mão, depois de saltar do cavalo (cap. 06, rodada 17)
+- **29/09/2026 10:16** · estado — Mão que não é a de destreza INCAPACITADA (até o fim da luta; teste de HT no fim do combate diz se é temporário)
+- **29/09/2026 10:16** · estado — Com -2 PV (Vitalidade ≤ 0): teste de HT no início de cada turno para não desmaiar (MB 12). Com PV ≤ 3, Deslocamento à metade
+- **29/09/2026 10:32** · PV +4 — ERRATA DO MESTRE (rodada 17): o Morto 3 não o atacou — virar-se para as costas custava 3 de movimento e ele gastou o turno nisso
+- **29/09/2026 10:32** · curado — Mão que não é a de destreza
+- **29/09/2026 10:32** · curado — Com -2 PV
+- **29/09/2026 10:33** · estado — PV 2 de 12: Deslocamento à metade (MB 12)
+- **30/09/2026 10:16** · estado — MONTADO ao norte: cabeça S33, ele em S34, garupa S35, olhando N. Uma adaga na mão, a outra guardada. ERRATA: Cavalgar DX-5 = 11, 3d = 12, sem o -3; passa por decisão (sucesso por 0, 10 hexágonos).
+- **30/09/2026 11:31** · PV +1 — Ataduras simples nele mesmo, na mesma meia hora (MB 12: 1 PV, sem teste, 30 min)
+- **30/09/2026 11:31** · estado — PV 3 de 12: Deslocamento à metade. MONTADO no deserto, junto da carroça, com o Negrum na garupa. Uma adaga na mão, a outra guardada.
+- **30/09/2026 11:31** · curado — PV 2 de 12
+- **30/09/2026 11:31** · curado — cabeça S33
 
 ### Negrum Carneiriums
 
-**PV 11/12 · Fadiga 15/15**
+**PV 8/12 · Fadiga 15/15**
 
 - **07/09/2026 21:10** · PV -1 — Golpe fulminante de Hoel Meia-Orelha na briga da taberna (cap. 01)
 - **07/09/2026 22:18** · FAD -1 — Fadiga de batalha: briga contra Hoel Meia-Orelha, Carga nenhuma (MB pág. 134)
@@ -87,10 +124,11 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **17/09/2026 17:26** · PV +1 — ERRATA: o Montante é arma de UMA mão (Espadas de Lâmina Larga, MB pág. 206) — o escudo valia, as duas defesas do turno 2 tinham passado e o ponto de vida não foi perdido
 - **19/09/2026 19:35** · FAD -1 — Fadiga de batalha — Carga Nenhuma, 1 ponto (MB pág. 134)
 - **20/09/2026 20:33** · FAD +8 — 80 min de descanso, cap. 04
+- **29/09/2026 07:34** · PV -3 — Espada curta do Morto 5 no tronco, rodada 16 do cap. 6 (1D+1 corte deu 3, RD 1 da Rijeza, +50% = 3; sem defesa ativa pelo Ataque Total)
 
 ### NelsOwned
 
-**PV 3/12 · Fadiga 15/15**  ·  **Caído e atordoado na caçamba desde a rodada 14: -4 nas defesas e teste de HT a cada turno para sair; com 3 PV, Deslocamento à metade**
+**PV -6/12 · Fadiga 15/15**  ·  **DESMAIADO na caçamba da carroça, no deserto. HT 12 tirou 13, falhou por 1. Não fala e não age até acordar, em 6 horas, ainda com -6.**; **Vitalidade -6 de 12. Anda à metade da velocidade. Morre se chegar a -12 sem passar num teste de HT.**; **Maneta da mão esquerda, permanente, custo 0 na ficha. A direita segue inteira. Machado grande não empunha.**
 
 - **09/09/2026 09:52** · PV -2 — Chute do Hoel Meia-Orelha reanimado, ataque total no tronco (cap. 01)
 - **09/09/2026 12:21** · FAD -1 — Fadiga de batalha contra os mortos-vivos: Carga nenhuma, nível 0 +1 (MB pág. 134)
@@ -103,6 +141,27 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **20/09/2026 20:33** · FAD +6 — 85 min sentado escrevendo na muralha, cap. 04
 - **27/09/2026 19:15** · PV -9 — Espada curta do Morto 5 no tronco, rodada 14 da corrida (cap. 06)
 - **27/09/2026 19:15** · estado — Caído e atordoado na caçamba desde a rodada 14: -4 nas defesas e teste de HT a cada turno para sair; com 3 PV, Deslocamento à metade
+- **28/09/2026 20:44** · PV -6 — Ataque Total do Morto 5 no braço do machado, rodada 15 do cap. 6 (espada curta 1D+1 corte deu 7, RD 1 de Anão, +50% = 9, teto do braço HT/2 = 6)
+- **28/09/2026 20:44** · estado — Braço do machado INCAPACITADO (Maneta até o fim da luta; teste de HT no fim do combate diz se é temporário). Machado grande inutilizável
+- **28/09/2026 20:44** · curado — Caído e atordoado na caçamba desde a rodada 14
+- **28/09/2026 20:44** · estado — Com -3 PV (Vitalidade ≤ 0): teste de HT no início de cada turno para não desmaiar (MB 12). Com PV ≤ 3, Deslocamento à metade
+- **29/09/2026 10:16** · PV -4 — Espada curta do Morto 5 em Ataque Total na mão do braço já incapacitado (cap. 06, rodada 17); atordoado de novo
+- **29/09/2026 10:16** · estado — Com -7 PV (Vitalidade ≤ 0): teste de HT no início de cada turno para não desmaiar (MB 12); a -12 testa HT contra a morte. Com PV ≤ 3, Deslocamento à metade
+- **29/09/2026 10:16** · curado — Com -3 PV
+- **29/09/2026 14:39** · estado — DESMAIADO, deitado em O11. HT 12 tirou 13, falhou por 1. Não fala e não age até ser acordado.
+- **30/09/2026 11:16** · PV +1 — Ataduras simples do Comam Obabaroy, na mesma meia hora do curativo do Kaelric (MB 12: 1 PV, sem teste, 30 min)
+- **30/09/2026 11:16** · estado — Com -6 PV, desmaiado na caçamba, no deserto. Acorda em 6 horas, ainda com esses pontos (MB 12). Se a luta recomeçar antes, testa HT no início de cada turno ou desmaia; a -12 testa HT contra a morte. Com 3 PV ou menos, Deslocamento à metade.
+- **30/09/2026 11:16** · curado — Com -7 PV
+- **30/09/2026 11:16** · estado — DESMAIADO na caçamba da carroça, no deserto. HT 12 tirou 13, falhou por 1. Não fala e não age até acordar, em 6 horas, ainda com -6.
+- **30/09/2026 11:16** · curado — deitado em O11
+- **30/09/2026 11:16** · estado — Vitalidade -6 de 12. Deslocamento a metade. A barreira seguinte e -12, onde testa HT ou morre.
+- **30/09/2026 11:16** · curado — ainda com esses pontos
+- **30/09/2026 11:17** · estado — Vitalidade -6 de 12. Anda à metade da velocidade. Morre se chegar a -12 sem passar num teste de HT.
+- **30/09/2026 11:17** · curado — barreira seguinte e
+- **30/09/2026 12:06** · estado — Braço do machado PERMANENTE: HT 12 tirou 16, falha por 4. Arma de duas mãos não serve. O outro braço segue inteiro.
+- **30/09/2026 12:06** · curado — até o fim da luta
+- **30/09/2026 12:37** · estado — Maneta da mão esquerda, permanente, custo 0 na ficha. A direita segue inteira. Machado grande não empunha.
+- **30/09/2026 12:37** · curado — Braço do machado PERMANENTE
 
 ## NPCs
 
@@ -165,12 +224,37 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **19/09/2026 19:39** · estado — DESAPARECIDO — sumiu no meio dos mortos da rampa no turno 5, arrastado de L6 até L8-L9. Ninguém do grupo sabe se está vivo. Perna esquerda incapacitada e -5 de pontos de vida quando se perdeu de vista. Fora do mapa, e agora do lado de fora do portão fechado
 - **19/09/2026 19:39** · estado — SUMIDO na massa da rampa desde o turno 5, arrastado de L6 até L8-L9. Ninguém do grupo sabe se vive. Levava -5 de vitalidade e a perna esquerda destruída quando se perdeu de vista. Fora do mapa, e agora do lado de fora do portão fechado
 
+### Morto 3
+
+**PV -14 · Fadiga —**  ·  **DESTRUÍDO em T33, HT -3 de 11. Queda de 10 m da projeção (10D-20 = 13, cota segurou 2). Não se levanta, não volta.**
+
+- **29/09/2026 14:39** · PV -3 — Chute de Caratê do Jah na perna, rodada 19 do cap. 6
+- **29/09/2026 14:39** · estado — HT 8 de 11, de pé em T43. Chute na perna (3 pontos; teto HT/2 = 5): a perna continua inteira. Espada curta e escudo.
+- **29/09/2026 16:45** · estado — HT 8 de 11, AJOELHADO em T33. Projetado 10 hexágonos pela arremetida. Espada curta e escudo. No próximo turno pode ficar de pé e atacar.
+- **29/09/2026 16:45** · curado — de pé em T43
+- **30/09/2026 07:54** · PV -11 — Queda de 10 m da projeção, adendo da rodada 20 (10D-20 = 13, metade da RD da cota = 2, passam 11)
+- **30/09/2026 07:54** · estado — DESTRUÍDO em T33, HT -3 de 11. Queda de 10 m da projeção (10D-20 = 13, cota segurou 2). Não se levanta, não volta.
+- **30/09/2026 07:54** · curado — AJOELHADO em T33
+
 ### Morto 4 (arqueiro montado)
 
-**PV -10 · Fadiga —**  ·  **HT 1 de 11 — um golpe de qualquer coisa o derruba**
+**PV -15 · Fadiga —**  ·  **DESTRUÍDO na estrada, rodada 15 do cap. 6: a maça do Kaelric levou a perna e a HT chegou a -4. Não se levanta, não volta**
 
 - **27/09/2026 06:06** · PV -10 — Maçada do Irmão Kaelric no tronco, rodada 13 do cap. 6 (2D+4 com o bônus de velocidade, RD 2 da malha contra contusão)
 - **27/09/2026 06:06** · estado — HT 1 de 11 — um golpe de qualquer coisa o derruba
+- **28/09/2026 20:44** · PV -5 — Maçada do Irmão Kaelric na perna, rodada 15 do cap. 6 (2D+2 deu 7, sem armadura na perna, teto HT/2 = 5)
+- **28/09/2026 20:44** · estado — DESTRUÍDO na estrada, rodada 15 do cap. 6: a maça do Kaelric levou a perna e a HT chegou a -4. Não se levanta, não volta
+- **28/09/2026 20:44** · curado — HT 1 de 11
+
+### Morto 5
+
+**PV -22 · Fadiga —**  ·  **DESTRUÍDO. O corpo foi empurrado para fora da caçamba e está no chão em R10, à direita da carroça. Sem peça no roll6.**
+
+- **29/09/2026 07:34** · PV -6 — Estocada do Negrum nos órgãos vitais, rodada 16 do cap. 6 (1D+2 perf deu 4, RD 2 da cota contra perfuração, ×3 = 6)
+- **29/09/2026 11:56** · PV -16 — Espadada do Negrum em Ataque Total no pescoço, corte ×2 (regra da casa, 4ª ed.) — rodada 18
+- **29/09/2026 11:56** · estado — DESTRUÍDO na rodada 18 (HT -11 de 11), caído na caçamba em P10
+- **29/09/2026 14:39** · estado — DESTRUÍDO. O corpo foi empurrado para fora da caçamba e está no chão em R10, à direita da carroça. Sem peça no roll6.
+- **29/09/2026 14:39** · curado — caído na caçamba em P10
 
 ### Morto-Vivo 1
 

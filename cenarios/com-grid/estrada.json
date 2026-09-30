@@ -14526,13 +14526,6 @@
     }
   },
   "ocupacao": {
-    "P7": {
-      "tipo": "pj",
-      "quem": "Comam Obabaroy",
-      "token": "personagens/comam-obabaroy/token-hex.png",
-      "frente": "N",
-      "olhando": "P4"
-    },
     "P9": {
       "tipo": "npc",
       "quem": "Sir William",
@@ -14544,49 +14537,43 @@
       "tipo": "pj",
       "quem": "NelsOwned",
       "token": "personagens/nelsowned/token-hex.png",
-      "frente": "SE",
-      "olhando": "P11"
-    },
-    "P11": {
-      "tipo": "pj",
-      "quem": "Negrum Carneiriums",
-      "token": "personagens/negrum-carneiriums/token-hex.png",
       "frente": "NE",
-      "olhando": "Q11"
+      "olhando": "P10"
     },
-    "P10": {
+    "R10": {
       "tipo": "npc",
       "quem": "Morto 5",
       "token": "tokens/zumbi-agachado-camisa-marrom.png",
-      "frente": "SW",
-      "olhando": "O11"
+      "frente": "NW",
+      "olhando": "Q10"
     },
-    "S33": {
+    "P11": {
       "tipo": "pj",
-      "quem": "Cavalo de Jah",
-      "token": "cenarios/estrada-tokens/cavalo.png",
+      "quem": "Comam Obabaroy",
+      "token": "personagens/comam-obabaroy/token-hex.png",
+      "frente": "S",
+      "olhando": "P12"
+    },
+    "T29": {
+      "tipo": "pj",
+      "quem": "Irmão Kaelric",
+      "token": "personagens/irmao-kaelric/token-hex.png",
       "frente": "N",
-      "olhando": "S30",
-      "tamanho_hex": 3.0,
-      "hexes_ocupados": [
-        "S33",
-        "S34",
-        "S35"
-      ]
+      "olhando": "T28"
     },
     "S34": {
       "tipo": "pj",
       "quem": "Jah Kagadu",
       "token": "personagens/jah-kagadu/token-hex.png",
       "frente": "N",
-      "olhando": "S31"
+      "olhando": "S33"
     },
-    "R27": {
-      "tipo": "npc",
-      "quem": "Morto 3",
-      "token": "tokens/zumbi-agachado-camisa-marrom.png",
-      "frente": "N",
-      "olhando": "R24"
+    "Q30": {
+      "tipo": "pj",
+      "quem": "Negrum Carneiriums",
+      "token": "personagens/negrum-carneiriums/token-hex.png",
+      "frente": "S",
+      "olhando": "Q31"
     }
   }
 }

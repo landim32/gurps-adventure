@@ -10,6 +10,7 @@ _(o que de fato aconteceu com estes NPCs durante o jogo — ferimento que ficou,
 ## Lorde William de Wallace
 
 - **24/09/2026 14:59** · _relação_ — RESPONDEU AO NELSOWNED SEM OLHAR e cobrou a balada de Arzog na cara dele ('se tiver ideia melhor, trovador, dessa vez canta baixo') — a reação Fraca (9) do capítulo 5 continua valendo e agora é visível na mesa. MAS DEU A INFORMAÇÃO INTEIRA E VERDADEIRA: dois quilômetros até a linha, e nenhum morto passa dela, nem Vurkash. Ele não sabota a fuga por antipatia. DETALHE QUE A MESA VIU: uma das mãos dele ficou apoiada num barril de água, a outra no ombro de um ferido — se alguém puxar esse fio, a conta dos barris entra em cena pelas mãos dos jogadores.
+- **30/09/2026 11:56** · _informação_ — OUVIU O GRITO DE VURKASH PELO NOME, da caçamba, enquanto a carroça seguia devagar para dentro do deserto. O grito foi de vingança contra ele. Continua entre os barris e os feridos; não conduz.
 
 ## Morto 3 (montado)
 
@@ -36,7 +37,40 @@ _(o que de fato aconteceu com estes NPCs durante o jogo — ferimento que ficou,
 
 - **27/09/2026 06:06** · _ferimento_ — ESTÁ COM 1 PONTO DE HT DE 11, depois da maçada do Kaelric na rodada 13 — dez pontos num golpe só. QUALQUER COISA O DERRUBA: pela regra de Zumbi, quando a HT chega a zero a mágica se desfaz e ele cai. Não atordoa, não sofre redutor por ferimento e não faz teste de queda, então continua lutando com o NH cheio até o momento em que apaga. E ELE ESTÁ DESARMADO PARA O CORPO A CORPO: veio com o arco nas mãos, que não serve a um metro, e vai precisar largá-lo e sacar a espada curta como o Morto 2 fez — mais um arco perdido na estrada. Está emparelhado com o Kaelric (Q18-Q20).
 - **27/09/2026 06:12** · _informação_ — FOI PROJETADO DA SELA E ESTÁ NO CHÃO DA ESTRADA. Arbitragem do Mestre: dano acima de 8 pontos num golpe projeta o alvo, com teste de DX menos o dano para se segurar. DX 12 menos os 12 pontos da maçada dá ZERO, e o livro não permite jogada com NH 3 ou menos — queda automática. O dano do tombo (2D-8 mais 1 por cada 5 hexágonos de velocidade acima de 10, pela tabela de desastres eqüestres do MB) saiu ZERO: ele não se machucou na queda. MAS ESTÁ FORA DA PERSEGUIÇÃO: no chão, com 1 de HT de 11, SEM O ARCO (largou-o ao chegar no corpo a corpo) e SEM MONTARIA — o cavalo dele seguiu solto. Para voltar ao jogo precisa levantar (dois turnos, de bruços para em pé) e não tem como alcançar ninguém a pé. É O QUARTO CAVALO SOLTO NA ESTRADA, com os do Morto 2, do Morto 3 e do Morto 5.
+- **28/09/2026 20:45** · _morte_ — DESTRUÍDO na rodada 15 pela maça do Irmão Kaelric na perna (HT a -4). Os restos ficaram na estrada. O cavalo dele segue solto.
 
 ## Morto 1
 
 - **27/09/2026 19:19** · _informacao_ — O CAVALO DELE ESTÁ EXAUSTO desde o movimento da rodada 14: falha crítica no Cavalgar (17), e a tabela de desastres eqüestres deu 7 — não luta nem anda a mais de Deslocamento 2 até algumas horas de descanso. NA PRÁTICA SAIU DA PERSEGUIÇÃO: ninguém da mesa anda a menos de 8 m por rodada, salvo quem falhar. Continua montado, com escudo e espada curta, a 3 hexágonos do Kaelric, fora do mapa desenhado.
+- **28/09/2026 20:45** · _informação_ — ENCOSTOU NO KAELRIC na rodada 15, com o cavalo exausto (Deslocamento 2): cortou a perna dele e o derrubou da sela. Está montado em Q56, ao lado do Kaelric caído em P55, 43 hexágonos atrás da carroça.
+- **28/09/2026 21:41** · _informação_ — ERRATA da rodada 15: o Kaelric NÃO caiu da sela (Hipoalgia). O Morto 1 está montado ao lado de um Kaelric também montado, ferido na perna mas sem atordoamento.
+- **29/09/2026 10:17** · _informação_ — Em ATAQUE TOTAL na rodada 17 contra o Kaelric sem defesa (6 pontos no tronco): SEM DEFESA ATIVA até o próximo turno dele. Bloqueou a maça do Kaelric antes (13 contra 14). Montado no cavalo exausto em Q50, inteiro.
+- **29/09/2026 11:56** · _informação_ — ARRANCADO DA SELA na rodada 18 pela arremetida com o pavês do Kaelric (errata do Mestre: vale a arremetida com o cavalo parado). Disputa de DX 12×12 (Kaelric passou por 0, morto falhou por 2), Disputa de ST 15×11 (+2 escudo grande; Kaelric por 8, morto por 3) e projeção por outra Disputa de ST (diferença 4 = 2 hex): caiu em S51, sem dano (queda 1, cota metade da RD). Gastou o turno ajoelhando-se. A PÉ, sem cavalo — o cavalo exausto ficou sem cavaleiro em Q50.
+- **29/09/2026 14:40** · _informação_ — FICOU DE PÉ em S51, espada curta e escudo prontos, olhando NW. Levantar consumiu o turno. O Kaelric está inconsciente em O49, a 4 hexágonos, e ele não alcança.
+- **29/09/2026 14:57** · _informação_ — ERRATA DA RODADA 19: o Kaelric não está inconsciente em O49. Está montado e consciente em P49, a 3 hexágonos. O Morto 1 gastou o turno levantando em S51 e não anda nem ataca. Continua de pé, espada curta e escudo prontos, olhando NW. O cavalo exausto segue em Q50.
+- **29/09/2026 16:45** · _informação_ — RODADA 20: a pé, andou 4 hexágonos para o norte, de S51 para S47, e virou a cara para o norte. Espada curta e escudo prontos. Não alcançou ninguém. O cavalo exausto continua parado em Q49-Q51.
+- **30/09/2026 08:13** · _informação_ — RODADA 21: a pé, de S47 para T45, olhando N, pelo lado leste do cavalo do Jah. Não alcançou o golpe. Espada curta e escudo prontos. Cavalo exausto continua em Q49-Q51.
+- **30/09/2026 10:16** · _informação_ — RODADA 22: a pé, andou 4 hexágonos para o norte, de T45 para T41, olhando N. Não alcançou ninguém. Espada curta e escudo prontos. Cavalo exausto continua parado em Q49-Q51.
+- **30/09/2026 10:31** · _informação_ — NARRAÇÃO: pegou o cavalo que estava parado, galopou atrás da carroça e, quando quase alcançava a traseira, caiu junto com o cavalo na linha do deserto. Não cruzou. A perseguição dele parou.
+
+## Morto 5
+
+- **28/09/2026 20:45** · _informação_ — Em ATAQUE TOTAL na rodada 15 (cortou o braço do NelsOwned): SEM DEFESA ATIVA até o próximo turno dele — o golpe da rodada 16 contra ele só enfrenta a DP. De pé em P10, na caçamba, entre o Negrum (P11), o NelsOwned de joelhos (O11) e o Lorde William (P9). Escudo pequeno e espada curta, inteiro (11/11).
+- **29/09/2026 07:35** · _ferimento_ — COM 5 DE HT DE 11 depois da estocada do Negrum nos órgãos vitais (rodada 16). De pé em P10, espada curta e escudo prontos, com as defesas de volta (atacou normalmente, não em Ataque Total).
+- **29/09/2026 10:17** · _informação_ — Em ATAQUE TOTAL de novo na rodada 17 (cortou a mão do NelsOwned): SEM DEFESA ATIVA até o próximo turno dele. Bloqueou o Negrum com o escudo antes disso (tirou 14 contra 14). Continua com 5 de HT, de pé em P10.
+- **29/09/2026 11:56** · _morte_ — DESTRUÍDO na rodada 18: o Comam errou o pescoço (o escudo pequeno segurou pela DP, 3d = 4), e o Negrum, em Ataque Total, abriu o pescoço dele com a espada — 8 pontos de corte ×2 pela regra da casa do pescoço = 16. HT -11. O corpo ficou na caçamba, em P10. O ataque que ele faria no Negrum não aconteceu.
+- **29/09/2026 14:40** · _informação_ — O CORPO SAIU DA CAÇAMBA. Negrum empurrou (ST 15, tirou 9, sucesso por 6): o corpo foi de P10 para o chão em R10, do lado de fora, à direita da carroça. Sem peça no roll6. DECISÃO DO MESTRE: um hexágono para fora da caçamba é R10.
+
+## Morto 3
+
+- **29/09/2026 10:17** · _informação_ — Na rodada 17 virou-se no lugar (R43, agora olhando NW) e cortou a mão do Jah, que tinha saltado do cavalo para as costas dele. A pé, escudo e espada curta, inteiro.
+- **29/09/2026 10:33** · _informação_ — ERRATA DO MESTRE (rodada 17), e esta ganha da anotação anterior: ELE NÃO ATACOU O JAH. Virou-se no lugar em R43, três lados até olhar NW (3 de movimento), e isso consumiu o turno. Está de frente para o Jah, a 1 hex, inteiro.
+- **29/09/2026 14:40** · _ferimento_ — LEVOU UM CHUTE NA PERNA e continuou de pé. Caratê 16 -2 chute -2 perna = 12, tirou 7. Bloqueio 10 +1 DP do escudo = 11, tirou 12. 1D+1 deu 5, RD 2 das botas, 3 passaram. A perna não incapacitou (teto HT/2 = 5). HT 8 de 11, em T43. No turno dele errou o braço do escudo do Jah: Espada Curta 12 -4 = 8, tirou 12.
+- **29/09/2026 14:57** · _informação_ — O atropelamento não aconteceu: o cavalo do Kaelric falhou o Cavalgar (14 contra 10) e não saiu de P49. O golpe no braço do escudo do Jah continua valendo — Espada Curta 12 -4 = 8, tirou 12, errou por 4. Segue de pé em T43, HT 8 de 11, perna inteira.
+- **29/09/2026 16:45** · _informação_ — RODADA 20: o cavalo do Kaelric entrou pelo sul em T43, derrubou e projetou 10 hexágonos ao norte, até T33. Sem dano de atropelamento. HT segue 8 de 11. Gastou o turno ajoelhando. Espada curta e escudo. No próximo turno pode ficar de pé e atacar.
+- **30/09/2026 07:54** · _morte_ — ADENDO DA RODADA 20: destruído no impacto em T33. A projeção de 10 hexágonos contou como queda de 10 m (decisão do Mestre). 10D-20 = 13, cota com metade da RD segurou 2, passaram 11. De 8 de 11 foi a -3. Zumbi morre quando a HT chega a zero. O ajoelhar não aconteceu. Não se levanta.
+- **30/09/2026 08:13** · _informação_ — RODADA 21: o cavalo do Kaelric saltou o corpo (Cavalgar 12, tirou 9) e seguiu para o norte. O corpo continua destruído, deitado em T33-T34. Sem peça no roll6.
+
+## Vurkash
+
+- **30/09/2026 11:56** · _lugar_ — PAROU NA LINHA DO DESERTO, do lado de Caithness, com o exército. A bota não passou. Alguns mortos da horda, sem nome, tentaram entrar e caíram no mesmo passo, a pé e a cavalo. O Morto 1 já estava caído nessa linha e não foi marcado como destruído. Vurkash ficou na terra escura e gritou, voz rasgada, em ânglico limpo: "William! Eu vou te pegar. Eu ainda terei a minha vingança, seu maldito!" A caravana se afastou para dentro do deserto. Ele não cruzou e não foi destruído. Peça não movida.
