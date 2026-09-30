@@ -11,6 +11,10 @@ Não redistribuir.
 
 | Token | Descrição | Tamanho | Girado | Origem |
 |---|---|---|---|---|
+| `cavaleiro-placa-escura-rabo-de-cavalo.png` | Cavalo de guerra com barda de placa escura, sem cavaleiro (inteiro, 3 hex; o nome antigo do arquivo está errado) | 345×977 | — | [br.pinterest.com](https://br.pinterest.com/pin/363665738644330417/) |
+| `cavalo-de-guerra-barda-escura-cabeca.png` | Cavalo de guerra com barda escura — parte 3 de 3 (frente, cabeça com testeira) | 345×345 | — | [br.pinterest.com](https://br.pinterest.com/pin/363665738644330417/) |
+| `cavalo-de-guerra-barda-escura-garupa.png` | Cavalo de guerra com barda escura — parte 1 de 3 (traseira, com a cauda) | 345×345 | — | [br.pinterest.com](https://br.pinterest.com/pin/363665738644330417/) |
+| `cavalo-de-guerra-barda-escura-sela.png` | Cavalo de guerra com barda escura — parte 2 de 3 (meio, sela vazia) | 345×345 | — | [br.pinterest.com](https://br.pinterest.com/pin/363665738644330417/) |
 | `lobo-negro.png` | Lobo negro de pelagem bicolor, visto de cima | 190×233 | — | [br.pinterest.com](https://br.pinterest.com/pin/363665738644330417/) |
 
 ## Humanoides
@@ -30,7 +34,6 @@ Não redistribuir.
 | `cavaleiro-elmo-escudo-dragao-vermelho.png` | Cavaleiro de elmo, capa vermelha, espada e escudo vermelho com dragão dourado | 208×217 | 75° ↺ | [br.pinterest.com](https://br.pinterest.com/pin/363665738644330417/) |
 | `cavaleiro-espada-borda-vermelha.png` | Cavaleiro de placa negra, elmo com fresta vermelha e espada de gume vermelho | 358×397 | — | [br.pinterest.com](https://br.pinterest.com/pin/363665738644330417/) |
 | `cavaleiro-placa-azul-escudo-floral.png` | Cavaleiro loiro de placa azul floral e escudo com manto e estrelas | 797×763 | — | [br.pinterest.com](https://br.pinterest.com/pin/363665738644330417/) |
-| `cavaleiro-placa-escura-rabo-de-cavalo.png` | Cavaleiro de placa escura com rabo de cavalo e elmo de crina | 345×977 | 45° ↻ | [br.pinterest.com](https://br.pinterest.com/pin/363665738644330417/) |
 | `cavaleiro-placa-ornada-espada.png` | Cavaleiro de placa ornada verde-dourada com espada | 215×236 | 90° ↺ | [br.pinterest.com](https://br.pinterest.com/pin/363665738644330417/) |
 | `espadachim-camisa-escudo-branco.png` | Espadachim de camisa listrada, capa preta, espada e escudo branco recortado | 236×236 | 180° ↻ | [br.pinterest.com](https://br.pinterest.com/pin/363665738644330417/) |
 | `espadachim-zarolho-estoque.png` | Espadachim zarolho de cota, estoque e capa azul-acinzentada | 294×373 | — | [br.pinterest.com](https://br.pinterest.com/pin/363665738644330417/) |
@@ -56,4 +59,12 @@ Não redistribuir.
 |---|---|---|---|---|
 | `marcador-corpo-caido.png` | Marcador de corpo caído: silhueta escura de um humano deitado, braços abertos, sobre poça de sangue. Não representa ninguém em particular | 300×560 | — | desenhado para o projeto (PIL), não é arte de terceiros |
 
-**29 token(s) catalogado(s).**
+**32 token(s) catalogado(s).**
+
+## Não catalogados
+
+Arquivos em `tokens/` que faltam em `tokens.json`:
+
+- `goblin.png`
+- `token-hex.png`
+- `zumbi-guarda.png`
