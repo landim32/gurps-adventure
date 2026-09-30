@@ -8,8 +8,11 @@
 | [Magia](gurps-magia-3ed/) | `gurps-magia-3ed/` | Lista completa de mágicas, encantamento, improviso, alquimia, entidades |
 | [Fantasy — Yrth](gurps-fantasy-3ed/) | `gurps-fantasy-3ed/` | Mundo de Yrth: história, cultura, reinos, raças, campanhas |
 | [Cyberpunk](gurps-cyberpunk-3ed/) | `gurps-cyberpunk-3ed/` | Personagens, cyberwear, equipamento NT8, netrunning, mundo e campanha |
+| [Artes Marciais](gurps-artes-marciais-3ed/) | `gurps-artes-marciais-3ed/` | História, personagens, perícias, manobras, 62 estilos, armas, campanhas |
 
-Cada pasta tem o sumário original do volume (`00-indice.md`) e um `README.md` com a tabela de arquivos.
+Cada pasta tem um `00-indice.md` (sumário do volume; em Artes Marciais ele é
+reconstruído, porque o PDF não traz o sumário original) e um `README.md` com a
+tabela de arquivos.
 
 ---
 
@@ -118,3 +121,30 @@ Roleplaying de alta tecnologia (Loyd Blankenship). 128 páginas, 1:1 com o PDF.
 | [08-glossario-e-bibliografia.md](gurps-cyberpunk-3ed/08-glossario-e-bibliografia.md) | Glossário e bibliografia |
 | [09-indice-remissivo.md](gurps-cyberpunk-3ed/09-indice-remissivo.md) | Índice remissivo |
 | [10-plano-de-campanha.md](gurps-cyberpunk-3ed/10-plano-de-campanha.md) | Plano de campanha |
+
+---
+
+## 5. Artes Marciais
+
+Suplemento de combate desarmado e estilos: história, perícias novas, manobras,
+62 estilos com custo em pontos, armas por cultura e campanhas. 150 páginas no PDF.
+
+Ao contrário dos outros volumes desta pasta, **não é transcrição literal**: o texto
+explicativo foi reescrito e apenas os dados de jogo (custos, redutores, dano,
+tabelas) foram transpostos. Página impressa = página do PDF + 4. Detalhes no
+[`README.md`](gurps-artes-marciais-3ed/README.md) da pasta.
+
+| Arquivo | Capítulo |
+|---|---|
+| [00-indice.md](gurps-artes-marciais-3ed/00-indice.md) | Índice reconstruído |
+| [01-historia-e-introducao.md](gurps-artes-marciais-3ed/01-historia-e-introducao.md) | 1. História das artes marciais |
+| [02-personagens.md](gurps-artes-marciais-3ed/02-personagens.md) | 2. Personagens — pontuação, arquétipos, vantagens e desvantagens |
+| [03-pericias.md](gurps-artes-marciais-3ed/03-pericias.md) | 2. Personagens — perícias realistas e cinematográficas |
+| [04-combate-manobras.md](gurps-artes-marciais-3ed/04-combate-manobras.md) | 3. Combate — regras gerais e manobras |
+| [05-combate-regras-opcionais.md](gurps-artes-marciais-3ed/05-combate-regras-opcionais.md) | 3. Combate — regras opcionais e torneios |
+| [06-estilos-regras.md](gurps-artes-marciais-3ed/06-estilos-regras.md) | 4. Estilos — regras e custos |
+| [07-estilos-historicos-e-modernos.md](gurps-artes-marciais-3ed/07-estilos-historicos-e-modernos.md) | 4. Estilos — históricos e modernos (39) |
+| [08-estilos-modernos-e-fantasticos.md](gurps-artes-marciais-3ed/08-estilos-modernos-e-fantasticos.md) | 4. Estilos — modernos (cont.) e fantásticos (23) |
+| [09-armas-e-equipamentos.md](gurps-artes-marciais-3ed/09-armas-e-equipamentos.md) | 5. Armas & Equipamentos |
+| [10-tabela-de-armas.md](gurps-artes-marciais-3ed/10-tabela-de-armas.md) | 5. Tabela de armas |
+| [11-campanhas.md](gurps-artes-marciais-3ed/11-campanhas.md) | 6. Campanhas |
