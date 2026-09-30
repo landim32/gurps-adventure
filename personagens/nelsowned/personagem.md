@@ -4,9 +4,10 @@
 
 ## Aparência
 
-NelsOwned é um anão de baixa estatura, mas presença de palco colossal: veludos berrantes, barba
-impecavelmente alinhada e uma voz potente e dramática, inspirada nos grandes cantores
-românticos. Nada nele lembra os hinos de guerra anões tradicionais.
+NelsOwned é um anão de 50 anos e baixa estatura, mas presença de palco colossal: veludos
+berrantes, barba impecavelmente alinhada e uma voz potente e dramática, inspirada nos grandes
+cantores românticos. Desde a fuga para o deserto, falta-lhe a mão esquerda. Nada nele lembra
+os hinos de guerra anões tradicionais.
 
 ## História
 
@@ -56,8 +57,10 @@ no pacote racial de 30 pontos (ver Vantagens).
 | Excesso de Confiança | -10 |
 | Luxúria | -15 |
 | Hábito Detestável (trocadilhos de mau gosto) | -5 |
+| Maneta (mão esquerda) | 0 |
 
-**Vantagens: 67 pontos · Desvantagens: -40 pontos** (no limite do projeto)
+**Vantagens: 67 pontos · Desvantagens pagas: -40 pontos** (no limite do projeto). Maneta entra
+com custo 0: desvantagem adquirida em jogo, sem pontos para gastar. O total continua 150.
 
 Notas de arbitragem:
 - **Fanfarronice** — adora provocar e humilhar quem estiver ao alcance da voz; teste de Vontade
@@ -68,6 +71,11 @@ Notas de arbitragem:
   do alvo) em qualquer contato com alguém atraente.
 - **Hábito Detestável** — trocadilhos de mau gosto o tempo todo (a começar pelo próprio nome);
   -1 em testes de reação de quem tiver que aturá-lo.
+- **Maneta (mão esquerda)** — adquirida no fim da fuga (MB 12: HT 12 tirou 16, falha por 4).
+  O livro cobra -15 e manda baixar o total; o Mestre lançou a custo 0, sem ganho de pontos.
+  A mão direita está inteira. O que exige uma só mão sai sem redutor. O machado grande e o
+  alaúde exigem as duas mãos e não servem. Sem prótese. Machado/Maça 14 continua valendo
+  para uma arma de uma mão na direita.
 
 ## Peculiaridades
 
@@ -123,7 +131,8 @@ machado — que ele leva como plano B.
 **TOTAIS:** $418 · 8,05 kg (carga "Nenhuma" para ST 13 anã — sem penalidade em Deslocamento)
 
 Sem armadura: ele confia nos veludos, na barba e na própria voz — a RD 1 natural de Anão é toda
-a proteção que carrega.
+a proteção que carrega. O machado grande continua com ele, mas exige as duas mãos: com a mão
+esquerda perdida, não empunha.
 
 ## Resumo de Pontos
 

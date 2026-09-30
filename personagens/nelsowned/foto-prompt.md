@@ -9,7 +9,8 @@ if belting out a dramatic ballad. He wears flashy, garish velvet stage clothes i
 tones (crimson and purple) with oversized ruffled sleeves and gaudy embroidery, more suited to a
 tavern stage than a battlefield. An ornate lute hangs on his back, and a large two-handed
 battle-axe is slung at his side as a backup weapon, looking almost like a stage prop next to his
-performer's flair. His pose is dramatic and over-the-top, one hand raised toward an unseen
+performer's flair. His left hand is gone at the wrist, a healed stump with no hook and no prosthetic; the right
+hand is whole. His pose is dramatic and over-the-top, the right hand raised toward an unseen
 audience, chest puffed out, eyes closed in exaggerated emotion. Plain neutral background,
 character reference sheet pose, portrait framing from the waist up, centered.
 

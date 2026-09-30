@@ -3,7 +3,8 @@
   "jogador": "André",
   "arquetipo": "Trovador (Fantasy)",
   "raca": "Anão (Fantasy)",
-  "aparencia": "Anão baixo, presença de palco colossal, veludos berrantes, barba impecável, voz grave e dramática",
+  "idade": 50,
+  "aparencia": "50 anos, anão baixo, sem a mão esquerda, veludos berrantes, barba impecável, voz grave",
   "historia": "Trocou os hinos de guerra anões por baladas de amor impossível; humilha inimigos cantando, não só no machado",
   "data_criacao": "05/09/2026",
   "sequencia": "1",
@@ -89,6 +90,11 @@
     {
       "nome": "Hábito Detestável (trocadilhos)",
       "custo": -5
+    },
+    {
+      "nome": "Maneta (mão esquerda)",
+      "custo": 0,
+      "lado": "desvantagem"
     }
   ],
   "peculiaridades": [
