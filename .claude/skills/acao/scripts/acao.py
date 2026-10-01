@@ -14,16 +14,22 @@ Nao rola dado e nao escreve nada: a resolucao e das skills roll/teste-nh/disputa
 atacar, e o registro e da skill campanha.
 """
 import argparse
+import importlib.util
 import json
-import os
-import re
-import subprocess
 import sys
-import unicodedata
 from pathlib import Path
 
-CAMPANHA_PY = Path(".claude/skills/campanha/scripts/campanha.py")
-PERSONAGENS = Path("personagens")
+SKILLS = Path(__file__).resolve().parents[2]
+
+# Nome, ficha, estado da campana e cache de reacoes sao da folha `contexto`, uma so.
+# Ver .claude/skills/contexto/.
+CTX_PY = SKILLS / "contexto" / "scripts" / "contexto.py"
+try:
+    _spec = importlib.util.spec_from_file_location("contexto", CTX_PY)
+    ctx = importlib.util.module_from_spec(_spec)
+    _spec.loader.exec_module(ctx)
+except Exception as erro:
+    raise SystemExit(f"Não consegui carregar a skill contexto ({CTX_PY}): {erro}")
 
 # O console do Windows e cp1252 e engasga com acento, seta e travessao.
 for _fluxo in (sys.stdout, sys.stderr):
@@ -32,114 +38,42 @@ for _fluxo in (sys.stdout, sys.stderr):
     except Exception:
         pass
 
-
-def simples(texto):
-    """Sem acento, minusculo — para comparar nome digitado com nome de ficha."""
-    t = unicodedata.normalize("NFKD", texto or "").encode("ascii", "ignore").decode()
-    return re.sub(r"\s+", " ", t.lower()).strip()
+simples = ctx.simples
 
 
 def estado(raiz):
-    script = raiz / CAMPANHA_PY
-    if not script.is_file():
-        return {"ativa": False}
-    env = {**os.environ, "PYTHONIOENCODING": "utf-8"}
-    try:
-        r = subprocess.run(
-            [sys.executable, str(script), "--raiz", str(raiz), "estado", "--json"],
-            capture_output=True, text=True, encoding="utf-8", timeout=30, env=env)
-        return json.loads(r.stdout) if r.returncode == 0 else {"ativa": False}
-    except Exception:
-        return {"ativa": False}
+    return ctx.estado(raiz)
 
 
 def fichas(raiz):
-    """Todas as fichas do repositorio: (pasta, dados do personagem.json)."""
-    fora = []
-    base = raiz / PERSONAGENS
-    if not base.is_dir():
-        return fora
-    for pasta in sorted(x for x in base.glob("*") if x.is_dir()):
-        f = pasta / "personagem.json"
-        if not f.is_file():
-            continue
-        try:
-            fora.append((pasta, json.loads(f.read_text(encoding="utf-8"))))
-        except Exception:
-            continue
-    return fora
+    return ctx.fichas(raiz)
 
 
 def achar_personagem(raiz, quem):
-    """Resolve por nome do JOGADOR ou do PERSONAGEM, inteiro ou em parte."""
-    alvo = simples(quem)
-    if not alvo:
-        raise SystemExit("Diga de quem é a ação: --quem \"Ricardo\" ou --quem \"Jah\".")
-    todos = fichas(raiz)
-    if not todos:
-        raise SystemExit("Nenhuma ficha em personagens/.")
-    exatos, parciais = [], []
-    for pasta, d in todos:
-        campos = [simples(d.get("jogador")), simples(d.get("nome")), simples(pasta.name)]
-        if alvo in campos:
-            exatos.append((pasta, d))
-        elif any(c and (alvo in c or c.startswith(alvo)) for c in campos):
-            parciais.append((pasta, d))
-        elif any(alvo in p for c in campos for p in c.split()):
-            parciais.append((pasta, d))
-    achados = exatos or parciais
-    if not achados:
-        lista = ", ".join(f"{d.get('nome')} ({d.get('jogador')})" for _, d in todos)
-        raise SystemExit(f"Nao achei \"{quem}\". Existem: {lista}")
-    if len(achados) > 1:
-        lista = ", ".join(f"{d.get('nome')} ({d.get('jogador')})" for _, d in achados)
-        raise SystemExit(f"\"{quem}\" da em mais de um: {lista}. Seja mais especifico.")
-    return achados[0]
+    """Resolve por nome do JOGADOR ou do PERSONAGEM, inteiro ou em parte.
+
+    A ordem de argumentos e a de sempre: `processar-turno` chama achar_personagem(raiz,
+    quem), e a folha contexto recebe (quem, raiz). O embrulho converte — nao e preciosismo,
+    e o que impede o turno de quebrar.
+    """
+    return ctx.achar_personagem(quem, raiz)
 
 
 def reacoes_do_pj(pasta_jogo, nome):
-    """O que cada NPC ja sentiu por este personagem, do reacoes.json do capitulo."""
-    f = Path(pasta_jogo) / "reacoes.json" if pasta_jogo else None
-    if not f or not f.is_file():
+    """O que cada NPC ja sentiu por este personagem, no capitulo indicado."""
+    if not pasta_jogo:
         return []
-    try:
-        dados = json.loads(f.read_text(encoding="utf-8"))
-    except Exception:
-        return []
-    alvo = simples(nome)
-    fora = []
-    for r in dados.get("reacoes", []):
-        if simples(r.get("pj")) == alvo:
-            fora.append({"npc": r.get("npc"), "faixa": r.get("faixa"),
-                         "total": r.get("total"), "peso": r.get("peso")})
-    return sorted(fora, key=lambda x: (x.get("total") or 0))
+    return ctx.reacoes_do_pj(nome, {"capitulo_atual_pasta": str(pasta_jogo)}, ".")
 
 
 def arquivos_de_contexto(raiz, est, pasta_ficha):
-    """O que ler antes de arbitrar, na ordem."""
-    camp = raiz / "campanha"
-    jogo = Path(est["capitulo_atual_pasta"]) if est.get("capitulo_atual_pasta") else None
-    plano = Path(est["capitulo_atual_plano"]) if est.get("capitulo_atual_plano") else None
-    itens = [
-        ("ficha", pasta_ficha / "personagem.md",
-         "a ficha de quem age: perícias, NH, equipamento, desvantagens"),
-        ("mundo", camp / "mundo.md",
-         "COMO AS COISAS ESTÃO AGORA — ferimentos, itens, relações já mudadas"),
-        ("plano", (plano / "README.md") if plano else None,
-         "a cena planejada: os testes que ela já prevê e as consequências"),
-        ("npcs_plano", (plano / "npcs.md") if plano else None,
-         "quem está em cena, com NH e atitude"),
-        ("npcs_jogo", (jogo / "npcs.md") if jogo else None,
-         "o que já mudou nesses NPCs na mesa — ganha do plano"),
-        ("grupo", (jogo / "grupo.md") if jogo else None,
-         "o que já mudou nos personagens dos jogadores"),
-        ("lugares", (jogo / "lugares.md") if jogo else None,
-         "o que já mudou no lugar e nas coisas"),
-        ("jogo", (jogo / "README.md") if jogo else None,
-         "o que já aconteceu e o que já foi narrado nesta cena"),
-        ("npcs_campanha", camp / "plano" / "npcs.md", "quem atravessa a campanha"),
-    ]
-    return [(k, v, d) for k, v, d in itens if v is not None]
+    """O que ler antes de arbitrar, na ordem. A lista mora na folha contexto.
+
+    Nao confundir com a lista da `narrar`: a de la leva a premissa da campanha, a
+    Descrição do Cenário e o reacoes.json, e nao a ficha de um personagem — quem narra a
+    cena lê outra coisa de quem arbitra a ação de um.
+    """
+    return ctx.arquivos_de_contexto(est, pasta_ficha, raiz)
 
 
 def cmd_contexto(args):

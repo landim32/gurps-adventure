@@ -12,6 +12,7 @@ errado a mao: achar os arquivos certos do capitulo, numerar, carimbar a hora, e 
 esquecer de registrar no historico da campanha.
 """
 import argparse
+import importlib.util
 import json
 import os
 import re
@@ -20,7 +21,17 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-CAMPANHA_PY = Path(".claude/skills/campanha/scripts/campanha.py")
+SKILLS = Path(__file__).resolve().parents[2]
+REGISTRAR_PY = SKILLS / "registrar-acao" / "scripts" / "registrar_acao.py"
+
+# O estado da campana e da folha `contexto`, uma so. Ver .claude/skills/contexto/.
+CTX_PY = SKILLS / "contexto" / "scripts" / "contexto.py"
+try:
+    _spec = importlib.util.spec_from_file_location("contexto", CTX_PY)
+    ctx = importlib.util.module_from_spec(_spec)
+    _spec.loader.exec_module(ctx)
+except Exception as erro:
+    raise SystemExit(f"Não consegui carregar a skill contexto ({CTX_PY}): {erro}")
 
 # O console do Windows e cp1252 e engasga com acento, seta e travessao.
 for _fluxo in (sys.stdout, sys.stderr):
@@ -31,27 +42,20 @@ for _fluxo in (sys.stdout, sys.stderr):
 
 
 def estado(raiz):
-    script = raiz / CAMPANHA_PY
-    if not script.is_file():
-        return {"ativa": False}
-    env = {**os.environ, "PYTHONIOENCODING": "utf-8"}
-    try:
-        r = subprocess.run(
-            [sys.executable, str(script), "--raiz", str(raiz), "estado", "--json"],
-            capture_output=True, text=True, encoding="utf-8", timeout=30, env=env)
-        return json.loads(r.stdout) if r.returncode == 0 else {"ativa": False}
-    except Exception:
-        return {"ativa": False}
+    return ctx.estado(raiz)
 
 
-def registrar_acontecimento(raiz, texto):
-    script = raiz / CAMPANHA_PY
+def entregar(ato):
+    """Passa o ato à `registrar-acao`. O arquivo da narração é daqui; o log não."""
+    if not REGISTRAR_PY.is_file():
+        return False, "skill registrar-acao nao encontrada"
     env = {**os.environ, "PYTHONIOENCODING": "utf-8"}
-    r = subprocess.run(
-        [sys.executable, str(script), "--raiz", str(raiz), "acontecimento",
-         "--texto", texto],
-        capture_output=True, text=True, encoding="utf-8", timeout=30, env=env)
-    return r.returncode == 0, (r.stdout or r.stderr).strip()
+    r = subprocess.run([sys.executable, str(REGISTRAR_PY), "--stdin"],
+                       input=json.dumps(ato, ensure_ascii=False),
+                       capture_output=True, text=True, encoding="utf-8",
+                       errors="replace", timeout=60, env=env)
+    linhas = [l for l in (r.stdout or "").splitlines() if l.startswith("[")]
+    return r.returncode == 0, "\n        ".join(linhas) or (r.stderr or "").strip()
 
 
 def exige_capitulo(raiz):
@@ -154,8 +158,8 @@ def cmd_gravar(args):
         print("  AVISO: passa de 4000 caracteres — o WhatsApp corta perto de 4096.")
     if not args.sem_acontecimento:
         resumo = args.resumo or f"Narração {n} lida aos jogadores."
-        ok, saida = registrar_acontecimento(raiz, f"[narração {n}] {resumo}")
-        print(f"  {'Registrado no histórico' if ok else 'AVISO: nao registrei: ' + saida}")
+        ok, saida = entregar({"resumo": f"[narração {n}] {resumo}"})
+        print(f"  {'Entregue à registrar-acao' if ok else 'AVISO: nao registrei: ' + saida}")
 
 
 def main():
