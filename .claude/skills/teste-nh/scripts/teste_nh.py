@@ -19,20 +19,30 @@ import os
 import re
 import subprocess
 import sys
-import unicodedata
 from pathlib import Path
 
-CAMPANHA_PY = Path(".claude/skills/campanha/scripts/campanha.py")
+SKILLS = Path(__file__).resolve().parents[2]
+REGISTRAR_PY = SKILLS / "registrar-acao" / "scripts" / "registrar_acao.py"
 LIVRO_PERICIAS = Path("livros/gurps-mb-3ed/06-pericias.md")
 
 # Quem rola dado neste repositorio e a skill `roll`, uma so.
-ROLL_PY = Path(__file__).resolve().parents[2] / "roll" / "scripts" / "roll.py"
+ROLL_PY = SKILLS / "roll" / "scripts" / "roll.py"
 try:
     _spec = importlib.util.spec_from_file_location("roll", ROLL_PY)
     _roll = importlib.util.module_from_spec(_spec)
     _spec.loader.exec_module(_roll)
 except Exception as erro:
     raise SystemExit(f"Não consegui carregar a skill roll ({ROLL_PY}): {erro}")
+
+# Quem e cada nome, o que ele tem na ficha e o que o livro diz da pericia e da folha
+# `contexto`, uma so. Ver .claude/skills/contexto/.
+CTX_PY = SKILLS / "contexto" / "scripts" / "contexto.py"
+try:
+    _spec = importlib.util.spec_from_file_location("contexto", CTX_PY)
+    ctx = importlib.util.module_from_spec(_spec)
+    _spec.loader.exec_module(ctx)
+except Exception as erro:
+    raise SystemExit(f"Não consegui carregar a skill contexto ({CTX_PY}): {erro}")
 
 for _fluxo in (sys.stdout, sys.stderr):
     try:
@@ -44,100 +54,14 @@ ATRIBUTOS = ("ST", "DX", "IQ", "HT")
 # Regra geral do pre-definido quando a entrada do livro nao traz a linha (MB, cap. 7)
 POR_DIFICULDADE = {"f": 4, "m": 5, "d": 6}
 
-
-def slug(t):
-    t = unicodedata.normalize("NFKD", t).encode("ascii", "ignore").decode()
-    return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", t.lower())).strip("-")
-
-
-def classificar(total, nh):
-    """Sucesso decisivo e falha critica — MB, cap. 12."""
-    if total <= 4:
-        return "sucesso decisivo"
-    if total == 5 and nh >= 15:
-        return "sucesso decisivo"
-    if total == 6 and nh >= 16:
-        return "sucesso decisivo"
-    if total == 18:
-        return "falha crítica"
-    if total == 17:
-        return "falha crítica" if nh < 16 else "falha"
-    if total >= nh + 10:
-        return "falha crítica"
-    return "sucesso" if total <= nh else "falha"
-
-
-def ler_ficha(nome, raiz):
-    """Aceita nome parcial: 'Comam' acha comam-obabaroy, 'Kaelric' acha irmao-kaelric."""
-    base = raiz / "personagens"
-    if not base.is_dir():
-        return None
-    alvo = slug(nome)
-    achado = None
-    for f in sorted(base.glob("*/personagem.json")):
-        d = json.loads(f.read_text(encoding="utf-8"))
-        for s in (slug(f.parent.name), slug(d.get("nome", ""))):
-            peso = 0 if s == alvo else (1 if s.startswith(alvo) else
-                                        (2 if alvo in s.split("-") or alvo in s else None))
-            if peso is not None and (achado is None or peso < achado[0]):
-                achado = (peso, d)
-    return achado[1] if achado else None
-
-
-def acha_pericia(d, nome):
-    """Melhor NH entre pericias e magias cujo nome case com o pedido."""
-    alvo = slug(nome)
-    melhor = None
-    for p in (d.get("pericias") or []) + (d.get("magias") or []):
-        s = slug(p.get("nome", ""))
-        if s == alvo or s.startswith(alvo) or alvo in s:
-            nh = int(p.get("nh") or 0)
-            if melhor is None or nh > melhor[0]:
-                melhor = (nh, p.get("nome"))
-    return melhor
-
-
-def nivel_vantagem(d, prefixo):
-    """'Prontidão +2' -> 2. 'Sorte' -> 0 (existe, sem nivel)."""
-    alvo = slug(prefixo)
-    for v in d.get("vantagens_desvantagens") or []:
-        nome = v.get("nome", "")
-        if slug(nome).startswith(alvo):
-            m = re.search(r"([+-]?\d+)\s*$", nome.strip())
-            return int(m.group(1)) if m else 0
-    return None
-
-
-def busca_no_livro(nome, raiz):
-    """Entrada da pericia no MB: dificuldade, pre-definido e a linha de Modificadores."""
-    livro = raiz / LIVRO_PERICIAS
-    if not livro.is_file():
-        return None
-    texto = livro.read_text(encoding="utf-8")
-    blocos = re.split(r"^### ", texto, flags=re.M)[1:]
-    alvo = slug(nome)
-    achado = None
-    for b in blocos:
-        cab = b.splitlines()[0]
-        m = re.match(r"^(.+?)\s*\((.+?)\)\s*$", cab)
-        if not m:
-            continue
-        s = slug(m.group(1))
-        peso = 0 if s == alvo else (1 if s.startswith(alvo) else (2 if alvo in s else None))
-        if peso is None:
-            continue
-        if achado is None or peso < achado[0]:
-            achado = (peso, m.group(1).strip(), m.group(2).strip(), b)
-        if peso == 0:
-            break
-    if not achado:
-        return None
-    _, nome_livro, tipo, bloco = achado
-    m = re.search(r"^\*\*Pré-definido:\*\*\s*(.+?)\s*$", bloco, re.M)
-    mods = re.search(r"Modificadores:\s*(.+?)(?:\n|$)", bloco)
-    return {"nome": nome_livro, "tipo": tipo,
-            "predefinido": m.group(1) if m else "",
-            "modificadores": mods.group(1).strip() if mods else ""}
+# `atacar` e `disputa-nh` importam este arquivo e chamam estas seis pelo nome. Continuam
+# respondendo, mas a implementacao agora e una — mora na folha contexto.
+slug = ctx.slug
+classificar = ctx.classificar
+ler_ficha = ctx.ler_ficha
+acha_pericia = ctx.pericia
+nivel_vantagem = ctx.nivel_vantagem
+busca_no_livro = ctx.busca_no_livro
 
 
 def calcula_predefinido(entrada, atrib):
@@ -165,15 +89,17 @@ def calcula_predefinido(entrada, atrib):
     return None, "não achei o pré-definido; passe --nh na mão"
 
 
-def registrar(raiz, texto):
-    script = raiz / CAMPANHA_PY
-    if not script.is_file():
-        return False, "skill campanha não encontrada"
+def entregar(ato):
+    """Passa o ato à `registrar-acao` — esta skill não escreve em lugar nenhum."""
+    if not REGISTRAR_PY.is_file():
+        return False, "skill registrar-acao nao encontrada"
     env = {**os.environ, "PYTHONIOENCODING": "utf-8"}
-    r = subprocess.run([sys.executable, str(script), "--raiz", str(raiz),
-                        "acontecimento", "--texto", texto], capture_output=True,
-                       text=True, encoding="utf-8", timeout=30, env=env)
-    return r.returncode == 0, (r.stdout or r.stderr).strip()
+    r = subprocess.run([sys.executable, str(REGISTRAR_PY), "--stdin"],
+                       input=json.dumps(ato, ensure_ascii=False),
+                       capture_output=True, text=True, encoding="utf-8",
+                       errors="replace", timeout=60, env=env)
+    linhas = [l for l in (r.stdout or "").splitlines() if l.startswith("[")]
+    return r.returncode == 0, "\n        ".join(linhas) or (r.stderr or "").strip()
 
 
 def main():
@@ -354,9 +280,10 @@ def main():
     print(risco)
 
     if args.gravar:
-        ok, msg = registrar(raiz, f"{quem}, {rotulo} contra {efetivo}: tirou {total} — "
-                                  f"{resultado}.")
-        print("\nRegistrado no capítulo atual." if ok else f"\nAVISO: não gravei — {msg}")
+        ok, msg = entregar({"resumo": f"{quem}, {rotulo} contra {efetivo}: tirou {total} — "
+                                      f"{resultado}."})
+        print(("\nEntregue à registrar-acao:\n        " + msg) if ok
+              else f"\nAVISO: não gravei — {msg}")
 
 
 if __name__ == "__main__":

@@ -58,11 +58,13 @@ O script também imprime a linha **Modificadores** da entrada do livro, quando e
 | `--tentativa N` | 2ª tentativa = -1, 3ª = -2… |
 | `--sorte` | Vantagem Sorte: rola 3 vezes e fica com o melhor |
 | `--defesa` | É defesa ativa (vale mesmo com NH efetivo ≤ 3) |
-| `--gravar` | Registra no capítulo atual da campanha |
+| `--gravar` | Entrega o resultado à `registrar-acao`, que registra no capítulo |
 
 ## Sucesso decisivo e falha crítica
 
-O script já classifica, mas saiba o que ele está aplicando (MB, cap. 12):
+O script já classifica, mas saiba o que ele está aplicando. **A regra mora na folha
+`contexto`, em `classificar()`** — esta skill consome, e `atacar` e `disputa-nh` chegam a
+ela pelo mesmo caminho, porque importam este arquivo. Uma tabela só no repo (MB, cap. 12):
 
 | Resultado | É |
 |---|---|
