@@ -375,36 +375,6 @@ Para tabelas de encontros, criaturas, empregos, preços e níveis sociais, puxe 
 `livros/gurps-mb-3ed/21-quadros-e-tabelas.md`, `15-animais.md`, `19-cenarios.md` e
 `livros/gurps-fantasy-3ed/09-criaturas.md`.
 
-## A HQ da campanha: o agente `comic-artist`
-
-O que a mesa jogou vira história em quadrinhos pelo agente **`comic-artist`**
-(`.claude/agents/comic-artist.md`), em volumes de **20 a 24 páginas**, guardados em
-`campanha/hq/vol-NN-<slug>/`. Ele conduz o fluxo inteiro e **para para aprovação** em
-cada etapa: recorte e sinopse (`00-recorte.md`), lista de cenas (`01-cenas.md`), roteiro
-por página e quadro (`roteiro.md` + `roteiro.json`), fixação do modelo visual do elenco,
-esboços. Só depois é que se gasta imagem.
-
-Três skills fazem o trabalho, e a divisão entre elas é a ideia toda:
-
-| Skill | Faz | Com quê |
-|---|---|---|
-| `quadro-hq` | a arte de cada quadro, **sem balão**, e o avatar/folha de modelo do elenco | IA externa (OpenAI `gpt-image-1`, chave em `OPENAI_API_KEY`) |
-| `baloes-hq` | os balões — fala, grito, sussurro, pensamento, recordatório, off, voz sobrenatural, canto, onomatopeia | Pillow, sem IA nenhuma |
-| `pagina-hq` | o esboço em figuras geométricas, a montagem da página A4/300 dpi e o PDF | Pillow, sem IA nenhuma |
-
-**Letreiramento nunca sai de gerador de imagem** — toda IA escreve garatuja e erra
-acento. E o balão é aplicado *na página montada*, não no quadro solto: assim a letra sai
-do mesmo tamanho em todos os quadros e a arte em `quadros/` fica limpa para ser regerada
-sem perder o texto.
-
-**Avatares de NPC moram em `campanha/npcs/<slug>/`** (`npc.md`, `avatar.png`,
-`modelo-hq.png`) — não dentro da pasta da HQ, porque o NPC serve a campanha inteira. Os
-PJs usam o retrato que já existe em `personagens/<slug>/foto.png` mais a folha
-`modelo-hq.png`. É a folha de modelo que segura a semelhança de um quadro para o outro.
-
-A HQ **não altera nada do jogo**: não mexe em ficha, não inventa acontecimento, não rola
-dado. Ela ilustra o que já está registrado — e, onde o registro for omisso, pergunta.
-
 ## Versionamento
 
 Repositório pessoal da mesa, trabalhado por uma pessoa só: **commite e faça push direto na
