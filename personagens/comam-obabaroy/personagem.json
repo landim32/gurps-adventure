@@ -9,8 +9,8 @@
   "historia": "Mercenário zoeiro de um país islâmico; perdeu um olho em combate e ri disso até hoje",
   "data_criacao": "06/09/2026",
   "sequencia": "2",
-  "pontos_gastar": 150,
-  "pontos_total": 150,
+  "pontos_gastar": 170,
+  "pontos_total": 168.5,
   "atributos": {
     "ST": {
       "valor": 13,
@@ -25,17 +25,17 @@
       "custo": -10
     },
     "HT": {
-      "valor": 12,
-      "custo": 20
+      "valor": 13,
+      "custo": 30
     }
   },
   "fadiga": 13,
-  "pontos_vida": 12,
+  "pontos_vida": 13,
   "dano_basico": {
     "gdp": "1D",
     "bal": "2D-1"
   },
-  "velocidade_basica": 6.5,
+  "velocidade_basica": 6.75,
   "deslocamento": 5,
   "carga": {
     "nenhuma": 13,
@@ -225,9 +225,9 @@
     },
     {
       "nome": "Besta",
-      "nh": 16,
+      "nh": 17,
       "tipo": "DX/F",
-      "custo": 4,
+      "custo": 8,
       "categoria": "Combate"
     },
     {
@@ -259,6 +259,13 @@
       "categoria": "Físicas"
     },
     {
+      "nome": "Natação",
+      "nh": 13,
+      "tipo": "DX/F",
+      "custo": 0.5,
+      "categoria": "Físicas"
+    },
+    {
       "nome": "Armeiro",
       "nh": 10,
       "tipo": "IQ/M",
@@ -281,9 +288,16 @@
     },
     {
       "nome": "Primeiros Socorros",
-      "nh": 11,
+      "nh": 12,
       "tipo": "IQ/F",
-      "custo": 4,
+      "custo": 6,
+      "categoria": "Profissionais"
+    },
+    {
+      "nome": "Terreno (Caithness)",
+      "nh": 8,
+      "tipo": "IQ/F",
+      "custo": 0.5,
       "categoria": "Profissionais"
     },
     {
@@ -291,6 +305,13 @@
       "nh": 10,
       "tipo": "IQ/M",
       "custo": 4,
+      "categoria": "Sociais"
+    },
+    {
+      "nome": "Lábia",
+      "nh": 7,
+      "tipo": "IQ/M",
+      "custo": 0.5,
       "categoria": "Sociais"
     },
     {
@@ -302,18 +323,18 @@
     },
     {
       "nome": "Ânglico",
-      "nh": 8,
+      "nh": 9,
       "tipo": "IQ/M",
-      "custo": 1,
+      "custo": 2,
       "categoria": "Línguas"
     }
   ],
   "resumo": {
-    "atributos": 85,
+    "atributos": 95,
     "vantagens": 35,
     "desvantagens": -40,
     "peculiaridades": -5,
-    "pericias": 75,
-    "total": 150
+    "pericias": 83.5,
+    "total": 168.5
   }
 }

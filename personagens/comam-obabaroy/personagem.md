@@ -1,6 +1,6 @@
 # Comam Obabaroy
 
-**Humano · Mercenário (arquétipo do *GURPS Fantasy*) · 150 pontos · Cenário medieval/fantasia (NT 3)**
+**Humano · Mercenário (arquétipo do *GURPS Fantasy*) · 170 pontos (168,5 gastos, 1,5 sobrando) · Cenário medieval/fantasia (NT 3)**
 
 ## Aparência
 
@@ -36,17 +36,17 @@ sério por mais de alguns minutos seguidos.
 | ST (Força) | 13 | 30 |
 | DX (Destreza) | 14 | 45 |
 | IQ (Inteligência) | 9 | -10 |
-| HT (Vitalidade) | 12 | 20 |
+| HT (Vitalidade) | 13 | 30 |
 
 ## Estatísticas Derivadas
 
 | Estatística | Valor |
 |---|---|
 | Fadiga | 13 |
-| Pontos de Vida | 12 |
+| Pontos de Vida | 13 |
 | Dano Básico — Golpe de Ponta (GDP) | 1D |
 | Dano Básico — Balanço (Bal) | 2D-1 |
-| Velocidade Básica | 6,5 |
+| Velocidade Básica | 6,75 |
 | Carga transportada | 23,8 kg → **Carga Leve** (-1 no Deslocamento) |
 | Deslocamento | 5 |
 | Carga: Nenhuma / Leve / Média / Pesada / M. Pesada | 13 / 26 / 39 / 78 / 130 kg |
@@ -94,23 +94,31 @@ Notas de regra:
 |---|---|---|---|---|
 | Espadas de Lâmina Larga | 18 | DX/M | 24 | Combate |
 | Machado/Maça (picaretas) | 16 | DX/M | 8 | Combate |
-| Besta | 16 | DX/F | 4 | Combate |
+| Besta | 17 | DX/F | 8 | Combate |
 | Sacar Rápido (Flecha/virote) | 16 | DX/F | 4 | Combate |
 | Sacar Rápido (Espada) | 15 | DX/F | 2 | Combate |
 | Acrobacia | 15 | DX/D | 8 | Físicas |
 | Cavalgar | 15 | DX/M | 4 | Físicas |
+| Natação | 13 | DX/F | ½ | Físicas |
 | Armeiro | 10 | IQ/M | 4 | Profissionais |
 | Sobrevivência (Deserto) | 10 | IQ/M | 4 | Profissionais |
 | Tática | 9 | IQ/D | 4 | Profissionais |
-| Primeiros Socorros | 11 | IQ/F | 4 | Profissionais |
+| Primeiros Socorros | 12 | IQ/F | 6 | Profissionais |
+| Terreno (Caithness) | 8 | IQ/F | ½ | Profissionais |
 | Manha | 10 | IQ/M | 4 | Sociais |
+| Lábia | 7 | IQ/M | ½ | Sociais |
 | Árabe (nativa) | 9 | IQ/M | 0 | Línguas |
-| Ânglico | 8 | IQ/M | 1 | Línguas |
+| Ânglico | 9 | IQ/M | 2 | Línguas |
 
 **Línguas.** O árabe é a língua nativa (nações islâmicas de Yrth): vem de graça com NH igual
-à IQ. O ânglico, língua franca das terras cristãs, foi comprado em NH 8 — vocabulário
-funcional com sotaque carregado, o suficiente para negociar contrato e xingar em duas línguas,
-mas não para sutilezas. É exatamente o tipo de coisa que rende boa interpretação na mesa.
+à IQ. O ânglico, língua franca das terras cristãs, está em NH 9 — comando de falante nativo
+médio, com sotaque ligeiro.
+
+**Pontos de campanha (20).** Gastos 18,5: HT 12→13 (10), Besta 16→17 (4), Primeiros Socorros
+11→12 (2), Ânglico 8→9 (1), Lábia 7 (½), Natação 13 (½), Conhecimento do Terreno (Caithness) 8
+(½). **Sobram 1,5.** Lábia, Natação e Terreno não estavam compradas: o primeiro nível da
+tabela custa ½ ponto e o NH sobe direto para IQ−2, DX−1 e IQ−1. Terreno (Caithness) é
+Conhecimento do Terreno do reino, Mental/Fácil.
 
 As duas perícias **Sacar Rápido** atendem à recomendação do arquétipo Mercenário ("uma ou duas
 perícias de armas preferidas, aliadas à respectiva perícia Sacar-Rápido"). A de Flecha cobre
@@ -156,19 +164,21 @@ O alcance e o dano de uma besta são governados pela **ST da arma**, não pela d
 - **Na prática:** é uma arma de abertura. Comam dispara uma vez no início do combate e parte
   para a cimitarra; recarregar no meio da luta é inviável. Disparar deitado dá +1 (Tabela de
   Posições) e, se houver tempo para apoiar a arma, mais +1.
-- Lembre-se do **-3 de Zarolho** em qualquer ataque com arma de projétil: NH efetivo 13 antes
+- Lembre-se do **-3 de Zarolho** em qualquer ataque com arma de projétil: NH efetivo 14 antes
   dos modificadores de distância e alvo.
 
 ## Resumo de Pontos
 
 | Categoria | Pontos |
 |---|---|
-| Atributos | 85 |
+| Atributos | 95 |
 | Vantagens | 35 |
 | Desvantagens | -40 |
 | Peculiaridades | -5 |
-| Perícias | 75 |
-| **Total** | **150** |
+| Perícias | 83,5 |
+| **Gasto** | **168,5** |
+| Orçamento | 170 |
+| **Sobraram** | **1,5** |
 
 ## Aderência ao arquétipo Mercenário (*Fantasy*, cap. 4)
 
