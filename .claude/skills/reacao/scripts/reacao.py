@@ -22,20 +22,29 @@ import os
 import re
 import subprocess
 import sys
-import unicodedata
 from datetime import datetime
 from pathlib import Path
 
-CAMPANHA_PY = Path(".claude/skills/campanha/scripts/campanha.py")
+SKILLS = Path(__file__).resolve().parents[2]
+REGISTRAR_PY = SKILLS / "registrar-acao" / "scripts" / "registrar_acao.py"
 
 # Quem rola dado neste repositorio e a skill `roll`, uma so.
-ROLL_PY = Path(__file__).resolve().parents[2] / "roll" / "scripts" / "roll.py"
+ROLL_PY = SKILLS / "roll" / "scripts" / "roll.py"
 try:
     _spec = importlib.util.spec_from_file_location("roll", ROLL_PY)
     _roll = importlib.util.module_from_spec(_spec)
     _spec.loader.exec_module(_roll)
 except Exception as erro:
     raise SystemExit(f"Não consegui carregar a skill roll ({ROLL_PY}): {erro}")
+
+# Nome, ficha, estado da campanha e cache de reacoes vem da folha `contexto`, uma so.
+CTX_PY = SKILLS / "contexto" / "scripts" / "contexto.py"
+try:
+    _spec = importlib.util.spec_from_file_location("contexto", CTX_PY)
+    ctx = importlib.util.module_from_spec(_spec)
+    _spec.loader.exec_module(ctx)
+except Exception as erro:
+    raise SystemExit(f"Não consegui carregar a skill contexto ({CTX_PY}): {erro}")
 
 for _fluxo in (sys.stdout, sys.stderr):
     try:
@@ -76,10 +85,8 @@ CONTEXTOS = {
 }
 TABELA_MD = "livros/gurps-mb-3ed/21-quadros-e-tabelas.md"
 
-
-def slug(t):
-    t = unicodedata.normalize("NFKD", t).encode("ascii", "ignore").decode()
-    return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", t.lower())).strip("-")
+# A resolução de nome é da folha contexto; aqui só se herda o apelido.
+slug = ctx.slug
 
 
 def faixa_de(total):
@@ -89,29 +96,22 @@ def faixa_de(total):
     return FAIXAS[-1][1], FAIXAS[-1][2], FAIXAS[-1][3]
 
 
-def estado_campanha(raiz):
-    script = raiz / CAMPANHA_PY
-    if not script.is_file():
-        return {}
-    env = {**os.environ, "PYTHONIOENCODING": "utf-8"}
-    r = subprocess.run([sys.executable, str(script), "--raiz", str(raiz),
-                        "estado", "--json"], capture_output=True, text=True,
-                       encoding="utf-8", timeout=30, env=env)
-    try:
-        return json.loads(r.stdout)
-    except Exception:
-        return {}
+def entregar(ato):
+    """Passa o ato à `registrar-acao`. Esta skill não escreve em lugar nenhum.
 
-
-def registrar(raiz, texto):
-    script = raiz / CAMPANHA_PY
-    if not script.is_file():
-        return False, "skill campanha não encontrada"
+    Antes: `registrar()` próprio, mais a escrita direta do reacoes.json com fallback para
+    campanha/reacoes.json quando não havia capítulo — arquivo que ninguém mais lia.
+    """
+    if not REGISTRAR_PY.is_file():
+        return False, "skill registrar-acao nao encontrada"
     env = {**os.environ, "PYTHONIOENCODING": "utf-8"}
-    r = subprocess.run([sys.executable, str(script), "--raiz", str(raiz),
-                        "acontecimento", "--texto", texto], capture_output=True,
-                       text=True, encoding="utf-8", timeout=30, env=env)
-    return r.returncode == 0, (r.stdout or r.stderr).strip()
+    r = subprocess.run([sys.executable, str(REGISTRAR_PY), "--stdin"],
+                       input=json.dumps(ato, ensure_ascii=False),
+                       capture_output=True, text=True, encoding="utf-8",
+                       errors="replace", timeout=60, env=env)
+    linhas = [l for l in (r.stdout or "").splitlines() if l.startswith("[")]
+    saida = "\n        ".join(linhas) or (r.stderr or "").strip()
+    return r.returncode == 0, saida
 
 
 def elenco(raiz):
@@ -133,21 +133,14 @@ def elenco(raiz):
 
 
 def ficha_pj(nome, raiz):
-    """Nome e modificador de reação, direto do campo Reacao da ficha."""
-    f = raiz / "personagens" / slug(nome) / "personagem.json"
-    if not f.is_file():
-        # nome parcial: "Negrum" acha negrum-carneiriums, "Kaelric" acha irmao-kaelric
-        alvo, achado = slug(nome), None
-        for cand in sorted((raiz / "personagens").glob("*/personagem.json")):
-            s = slug(cand.parent.name)
-            peso = 0 if s == alvo else (1 if s.startswith(alvo) else
-                                        (2 if alvo in s.split("-") else None))
-            if peso is not None and (achado is None or peso < achado[0]):
-                achado = (peso, cand)
-        if not achado:
-            return {"nome": nome, "mod": 0, "bruto": "", "achou": False}
-        f = achado[1]
-    d = json.loads(f.read_text(encoding="utf-8"))
+    """Nome e modificador de reação, direto do campo Reacao da ficha.
+
+    A resolucao de nome (exato, comeco, parte) vem da folha contexto; o que e daqui e a
+    leitura do campo, que texto livre e nao numero.
+    """
+    d = ctx.ler_ficha(nome, raiz)
+    if not d:
+        return {"nome": nome, "mod": 0, "bruto": "", "achou": False}
     bruto = str(d.get("reacao") or "").strip()
     # o campo e texto livre: "-3", "+2", "-2 (porte); +2 cristaos". Vale o primeiro
     # numero com sinal; o resto e condicional e fica para o Mestre aplicar.
@@ -192,19 +185,6 @@ def casa(alvo_slug, nome):
     return s == alvo_slug or s.startswith(alvo_slug) or alvo_slug in s.split("-")
 
 
-def carregar(arquivo):
-    if arquivo.is_file():
-        try:
-            return json.loads(arquivo.read_text(encoding="utf-8"))
-        except Exception:
-            pass
-    return {"reacoes": []}
-
-
-def chave(r):
-    return (slug(r["npc"]), slug(r["pj"]))
-
-
 def bloco_extremo(r):
     barra = "!" * 66
     return "\n".join([
@@ -237,26 +217,21 @@ def main():
     args = ap.parse_args()
 
     raiz = Path(args.raiz).resolve()
-    est = estado_campanha(raiz)
-    pasta = est.get("capitulo_atual_pasta")
-    if pasta:
-        destino = raiz / pasta
-    else:
-        destino = raiz / "campanha"
-        if not args.listar:
-            print("AVISO: sem capítulo atual marcado — gravando em campanha/reacoes.json.")
-            print("       Marque com: campanha.py atual --capitulo N\n")
-    destino.mkdir(parents=True, exist_ok=True)
-    arquivo = destino / "reacoes.json"
-    dados = carregar(arquivo)
-    ja = {chave(r): r for r in dados["reacoes"]}
+    est = ctx.estado(raiz)
+    cache = ctx.ler_reacoes(raiz, est)
+    onde = Path(est.get("capitulo_atual_pasta") or "campanha") / "reacoes.json"
+    ja = {(slug(r["npc"]), slug(r["pj"])): r for r in cache}
+
+    if not est.get("capitulo_atual_pasta") and not args.listar:
+        print("AVISO: sem capítulo atual marcado — a registradora recusa escrever o cache.")
+        print("       Marque com: campanha.py atual --capitulo N\n")
 
     if args.listar:
-        if not dados["reacoes"]:
-            print(f"Nenhuma reação registrada em {arquivo.relative_to(raiz)}.")
+        if not cache:
+            print(f"Nenhuma reação registrada em {onde}.")
             return
-        print(f"REAÇÕES JÁ ROLADAS — {arquivo.relative_to(raiz)}\n")
-        for r in dados["reacoes"]:
+        print(f"REAÇÕES JÁ ROLADAS — {onde}\n")
+        for r in cache:
             marca = "!!" if r["peso"] == "extremo" else "  "
             print(f" {marca} {r['npc']} ➜ {r['pj']}: {r['total']} — {r['faixa']}"
                   f"   ({r['quando']}, {r['contexto']})")
@@ -317,12 +292,8 @@ def main():
             ja[k] = r
             novos.append(r)
 
-    dados["reacoes"] = list(ja.values())   # dict preserva a ordem de insercao
-    dados["local"] = args.local or dados.get("local", "")
     if args.nao_gravar:
         print("(--nao-gravar: nada foi escrito em disco nem na campanha)\n")
-    else:
-        arquivo.write_text(json.dumps(dados, ensure_ascii=False, indent=2), encoding="utf-8")
 
     # ---------------- saida ----------------
     cab = f"TESTES DE REAÇÃO — {args.local}" if args.local else "TESTES DE REAÇÃO"
@@ -366,19 +337,23 @@ def main():
         print(f"\nO texto acima é a coluna «Reação Geral». Para o que {CONTEXTOS[args.contexto]}"
               f" significa em cada faixa, veja {TABELA_MD}.")
 
-    if not args.nao_gravar:
-        print(f"\nGravado em {arquivo.relative_to(raiz)} — "
-              f"{len(dados['reacoes'])} reação(ões) neste capítulo.")
     print("SEGREDO DO MESTRE (MB, pág. 180): não mostre isto aos jogadores.")
 
-    if not args.nao_gravar and novos:
-        destaques = [f"{r['npc']}→{r['pj']} {r['faixa']} ({r['total']})"
-                     for r in extremos + notas]
-        resumo = (f"Testes de reação{' em ' + args.local if args.local else ''}: "
-                  + ("; ".join(destaques) if destaques else "nada fora do neutro")
-                  + (f". Outras {len(neutras)} neutras." if neutras else "."))
-        ok, msg = registrar(raiz, resumo)
-        print("\nRegistrado no capítulo atual." if ok else f"\nAVISO: não gravei — {msg}")
+    if args.nao_gravar or not novos:
+        return
+
+    destaques = [f"{r['npc']}→{r['pj']} {r['faixa']} ({r['total']})"
+                 for r in extremos + notas]
+    resumo = (f"Testes de reação{' em ' + args.local if args.local else ''}: "
+              + ("; ".join(destaques) if destaques else "nada fora do neutro")
+              + (f". Outras {len(neutras)} neutras." if neutras else "."))
+    ok, msg = entregar({"resumo": resumo, "reacoes": novos, "local": args.local})
+    if ok:
+        print(f"\nEntregue à registrar-acao:\n        {msg}")
+        print(f"{len(cache) + len(novos)} reação(ões) no capítulo, e estes pares não rolam "
+              "de novo.")
+    else:
+        print(f"\nAVISO: não registrei — {msg}")
 
 
 if __name__ == "__main__":

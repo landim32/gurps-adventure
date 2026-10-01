@@ -248,22 +248,24 @@ def busca_no_livro(nome, raiz=None):
 
 # ------------------------------------------------------------------ reacoes e arquivos
 
-def reacoes_do_pj(nome, est=None, raiz=None, todos=False):
-    """O que cada NPC ja sentiu por este personagem, do reacoes.json do capitulo.
+def pastas_de_cache(raiz, est, todos):
+    """Onde mora o reacoes.json. Sem capitulo atual, nada - quem escreve recusa."""
+    if todos:
+        return sorted((raiz / "campanha").glob("*/reacoes.json"))
+    pasta = est.get("capitulo_atual_pasta")
+    return [Path(pasta) / "reacoes.json"] if pasta else []
 
-    Com todos=True varre os capitulos e o mais novo ganha - e o que a processar-turno
-    precisa, porque o turno em resolucao pode atravessar a marca do capitulo.
+
+def ler_reacoes(raiz=None, est=None, todos=False):
+    """As entradas cruas do cache, com o mais novo vencendo por (pj, npc).
+
+    Leitura: quem escreve e a `registrar-acao`. As skills que precisam saber o que ja foi
+    rolado passam por aqui, em vez de cada uma abrir o JSON do jeito que lhe convem.
     """
     raiz = raiz_de(raiz)
     est = est or estado(raiz)
-    alvo = simples(nome)
     colhidas = {}
-    if todos:
-        pastas = sorted((raiz / "campanha").glob("*/reacoes.json"))
-    else:
-        pasta = est.get("capitulo_atual_pasta")
-        pastas = [Path(pasta) / "reacoes.json"] if pasta else []
-    for f in pastas:
+    for f in pastas_de_cache(raiz, est, todos):
         if not f.is_file():
             continue
         try:
@@ -271,11 +273,25 @@ def reacoes_do_pj(nome, est=None, raiz=None, todos=False):
         except Exception:
             continue
         for r in dados.get("reacoes", []):
-            if simples(r.get("pj")) == alvo:
-                colhidas[simples(r.get("npc"))] = {
-                    "npc": r.get("npc"), "faixa": r.get("faixa"),
-                    "total": r.get("total"), "peso": r.get("peso")}
-    return sorted(colhidas.values(), key=lambda x: (x.get("total") or 0))
+            k = (simples(r.get("pj")), simples(r.get("npc")))
+            anterior = colhidas.get(k)
+            # com todos=True varre os capitulos em ordem: o mais novo no arquivo manda
+            if anterior is None or (f.parent.name >= Path(anterior["_de"]).parent.name):
+                r = dict(r)
+                r["_de"] = f.as_posix()
+                colhidas[k] = r
+    return [r for r in colhidas.values()]
+
+
+def reacoes_do_pj(nome, est=None, raiz=None, todos=False):
+    """O que cada NPC ja sentiu por este personagem, do reacoes.json do capitulo."""
+    raiz = raiz_de(raiz)
+    est = est or estado(raiz)
+    alvo = simples(nome)
+    fora = [{"npc": r.get("npc"), "faixa": r.get("faixa"),
+             "total": r.get("total"), "peso": r.get("peso")}
+            for r in ler_reacoes(raiz, est, todos) if simples(r.get("pj")) == alvo]
+    return sorted(fora, key=lambda x: (x.get("total") or 0))
 
 
 def arquivos_de_contexto(est=None, pasta_ficha=None, raiz=None):

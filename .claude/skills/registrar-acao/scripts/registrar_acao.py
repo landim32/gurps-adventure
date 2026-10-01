@@ -47,7 +47,8 @@ def carregar_ato(args):
 def validar(ato):
     """Confere o essencial. Com erro, nada e escrito: devolve-se o ato para a origem."""
     problemas = []
-    if not str(ato.get("resumo", "")).strip():
+    # so reacao nao gera acontecimento: o resultado e segredo do Mestre e o cache basta
+    if not str(ato.get("resumo", "")).strip() and not ato.get("reacoes"):
         problemas.append("falta `resumo` - sem ele nao ha acontecimento a registrar")
 
     for campo in ("anotacoes", "dinheiro", "corpo"):
@@ -84,7 +85,8 @@ def cmd_acontecimento(texto, ato):
 def lancamentos(ato):
     """A fila de comandos, na ordem em que devem rodar: log, anotacoes, narracao,
     bolsa, saude. As tres ultimas reescrevem tabelas geradas, vao por ultimo."""
-    yield "acontecimento", cmd_acontecimento(ato["resumo"], ato)
+    if str(ato.get("resumo", "")).strip():
+        yield "acontecimento", cmd_acontecimento(ato["resumo"], ato)
 
     for a in ato.get("anotacoes") or []:
         c = [sys.executable, str(CAMPANHA), "anotar", ALVO[a["tipo"]], a["nome"]]
@@ -161,7 +163,8 @@ def bloco_mesa(ato):
     narracao = str((ato.get("narracao") or {}).get("texto", "")).strip()
     if narracao:
         linhas.append(narracao)
-    linhas.append(ato["resumo"].strip())
+    if str(ato.get("resumo", "")).strip():
+        linhas.append(ato["resumo"].strip())
     for jogada in ato.get("jogadas") or []:
         linha = str(jogada.get("linha", "")).strip()
         if linha:
@@ -296,8 +299,7 @@ def main():
             if args.dry_run:
                 print(f"[dry-run] reacoes: {len(entradas)} entrada(s) em {caminho.name}")
             else:
-                novas, total = mescla_reacoes(caminho, entradas,
-                                              str((ato.get("quem") or {}).get("local", "")))
+                novas, total = mescla_reacoes(caminho, entradas, str(ato.get("local", "")))
                 print(f"[ok ] reacoes: {novas} entrada(s) nova(s) em {caminho.name} "
                       f"({total} no cache, fusao por pj+npc)")
     if resto:
