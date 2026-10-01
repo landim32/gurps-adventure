@@ -43,6 +43,8 @@ T = _carrega("tabelas", AQUI / "tabelas.py")
 tn = _carrega("teste_nh", SKILLS / "teste-nh" / "scripts" / "teste_nh.py")
 _roll = _carrega("roll", SKILLS / "roll" / "scripts" / "roll.py")
 cd = _carrega("causar_dano", SKILLS / "causar-dano" / "scripts" / "causar_dano.py")
+dv = _carrega("resolver_defesa",
+              SKILLS / "resolver-defesa" / "scripts" / "resolver_defesa.py")
 
 for _fluxo in (sys.stdout, sys.stderr):
     try:
@@ -428,127 +430,42 @@ def main():
             return
 
     # ---------------------------------------------------------- defesa
+    # Quem apanhou tem número, dado e motivo numa folha só — a mesma que a arma de longe
+    # usa, para um pavês não somar DP de um jeito contra uma espada e de outro contra um
+    # virote. A folha devolve também o que a cascata de dano precisa: RD da região, a peça
+    # de onde veio, e o escudo.
     fd = tn.ler_ficha(args.alvo, raiz)
     alvo = (fd or {}).get("nome", args.alvo)
-    md = T.MANOBRAS_DEFESA[args.alvo_manobra]
     ht_alvo = args.alvo_ht or int(((fd or {}).get("atributos") or {})
                                   .get("HT", {}).get("valor") or 0)
+    na_mao = args.alvo_defesa_valor or {
+        "esquiva": args.alvo_esquiva, "aparar": args.alvo_aparar,
+        "bloqueio": args.alvo_bloqueio}.get(args.alvo_defesa, 0)
+    dfe = dv.calcular({
+        "alvo": alvo, "ficha": fd, "local": local, "tipo": tipo, "ht_alvo": ht_alvo,
+        "defesa": args.alvo_defesa, "defesa_valor": na_mao,
+        "md": T.MANOBRAS_DEFESA[args.alvo_manobra],
+        "mod": args.alvo_defesa_mod, "mod_motivo": args.alvo_defesa_mod_motivo,
+        "recuar": args.recuar, "sem_escudo": args.sem_escudo,
+        "dp_informado": args.alvo_dp if args.alvo_dp >= 0 else None,
+        "rd_informado": args.alvo_rd if args.alvo_rd >= 0 else None,
+        "ignora_defesa": fulminante,
+    })
+    for linha in dfe["saida"]:
+        p(linha)
+    for aviso in dfe["avisos"]:
+        avisos.append(aviso)
+    MEC.extend(dfe["mec"])
+    rdef = dfe["resultado"]
+    rd_local, rd_total, peca = rdef["rd_local"], rdef["rd_total"], rdef["peca"]
+    dp_escudo, nome_escudo = rdef["dp_escudo"], rdef["nome_escudo"]
+    if rdef["defendeu"]:
+        p(f"\n{alvo} se defendeu. Sem dano.")
+        _fecha(saida, avisos, args, raiz, atacante, alvo, local, "defendeu o golpe",
+               None, nh_ef=nh_ef, ataque=ta, arma=arma_nome,
+               extra_w=[f"*{alvo} se defendeu.* Sem dano."])
+        return
 
-    dp_local, rd_local, peca = protecao(fd, local.get("armadura"), tipo == "perf")
-    if args.alvo_dp >= 0:
-        dp_local, peca = args.alvo_dp, peca or "informado pelo Mestre"
-    if args.alvo_rd >= 0:
-        rd_local = args.alvo_rd
-    rd_total = rd_local + local.get("rd_natural", 0)
-
-    if not fulminante:
-        if md["defesas"] == 0 or args.alvo_defesa == "nenhuma":
-            p(f"\nDEFESA: {alvo} não tem defesa ativa — {md['nome']}.")
-            if md.get("obs"):
-                p(f"  {md['obs']}")
-            defendeu = False
-            dp_escudo, nome_escudo = (escudo_dp(fd)
-                                      if (fd and not args.sem_escudo) else (0, None))
-            dp_total = dp_local + (dp_escudo if local.get("armadura") else 0)
-            if dp_total:
-                dd = _roll.d6(3)
-                td = sum(dd)
-                p(f"  Só a defesa passiva vale: DP {dp_total}"
-                  + (f" ({peca}" + (f" + {nome_escudo}" if dp_escudo else "") + ")" if peca else ""))
-                p(f"  3d [{', '.join(map(str, dd))}] = {td} contra {dp_total} — "
-                  + ("DEFENDEU" if td <= dp_total or td <= 4 else "não segurou"))
-                defendeu = td <= dp_total or td <= 4
-                MEC.append(f"Defesa: {alvo} sem defesa ativa ({md['nome']}); só a DP "
-                           f"{dp_total}" + (f" ({peca}" + (f" + {nome_escudo}" if dp_escudo
-                                                           else "") + ")" if peca else ""))
-                MEC.append(f"3d {dados_txt(dd)} = *{td}* → "
-                           + ("defendeu" if defendeu else "não segurou"))
-            else:
-                MEC.append(f"Defesa: {alvo} sem defesa ativa ({md['nome']}) e sem DP")
-        else:
-            base = args.alvo_defesa_valor
-            fonte = "informada pelo Mestre"
-            if not base:
-                na_mao = {"esquiva": args.alvo_esquiva, "aparar": args.alvo_aparar,
-                          "bloqueio": args.alvo_bloqueio}[args.alvo_defesa]
-                if na_mao:
-                    base, fonte = na_mao, "informada pelo Mestre"
-                elif fd:
-                    base = int((fd.get("defesas_ativas") or {}).get(args.alvo_defesa) or 0)
-                    fonte = "da ficha"
-            if not base:
-                raise SystemExit(f"Não sei a {args.alvo_defesa} de {alvo}. Passe "
-                                 f"--alvo-{args.alvo_defesa} ou --alvo-defesa-valor.")
-
-            reflexos = bool(fd) and tn.nivel_vantagem(fd, "reflexos-em-combate") is not None
-            dp_escudo, nome_escudo = (escudo_dp(fd)
-                                      if (fd and not args.sem_escudo) else (0, None))
-            dp_total = dp_local + (dp_escudo if local.get("armadura") else 0)
-
-            comp, total_def = [f"{args.alvo_defesa} {base} ({fonte})"], base
-            if reflexos:
-                total_def += 1
-                comp.append("+1 Reflexos em Combate")
-            if dp_total:
-                total_def += dp_total
-                alvo_peca = peca or "armadura"
-                comp.append(f"+{dp_local} DP {alvo_peca}" if dp_local else "")
-                if dp_escudo and local.get("armadura"):
-                    comp.append(f"+{dp_escudo} DP {nome_escudo}")
-            if args.recuar:
-                total_def += 3
-                comp.append("+3 recuar")
-            if md["mod"]:
-                total_def += md["mod"]
-                comp.append(f"{md['mod']:+d} {md['nome']}")
-            if args.alvo_defesa_mod:
-                total_def += args.alvo_defesa_mod
-                comp.append(com_motivo(args.alvo_defesa_mod, args.alvo_defesa_mod_motivo))
-
-            p(f"\nDEFESA de {alvo}: " + " ".join(c for c in comp if c) + f" = **{total_def}**")
-            # a mesa quer o numero e o motivo; de onde o script tirou o numero, nao
-            MEC.append(f"Defesa de {alvo}: " + " ".join(c for c in comp if c)
-                       .replace(f" ({fonte})", "").replace(" informado pelo Mestre", "")
-                       + f" = *{total_def}*")
-            if md.get("obs"):
-                p(f"  {md['obs']}")
-
-            defendeu = False
-            for tentativa in range(1, md["defesas"] + 1):
-                dd = _roll.d6(3)
-                td = sum(dd)
-                ok = (td <= 4) or (td <= total_def and td < 17)
-                marca = "DEFENDEU" if ok else "falhou"
-                extra = ""
-                if td <= 4:
-                    extra = "  ← 3 ou 4 sempre defende, e o atacante vai à Tabela de Erros Críticos"
-                if td >= 17:
-                    extra = "  ← 17 ou 18 é falha desastrosa na defesa (MB, cap. 14)"
-                rot = f"  Defesa {tentativa}" if md["defesas"] > 1 else "  Jogada"
-                p(f"{rot}: 3d [{', '.join(map(str, dd))}] = {td} — {marca}{extra}")
-                nota = ""
-                if td <= 4:
-                    nota = " — *DEFESA DECISIVA*: o atacante vai à Tabela de Erros Críticos"
-                elif td >= 17:
-                    nota = " — *FALHA CRÍTICA* na defesa"
-                MEC.append(f"3d {dados_txt(dd)} = *{td}* → "
-                           + (("defendeu no limite" if td == total_def else
-                               f"defendeu por {total_def - td}") if ok and td > 4 else
-                              "defendeu" if ok else f"falhou por {td - total_def}") + nota)
-                if ok:
-                    defendeu = True
-                    break
-                if md["defesas"] > 1 and tentativa < md["defesas"]:
-                    p("    (Defesa Total: a segunda tem de ser uma defesa DIFERENTE)")
-
-        if defendeu:
-            p(f"\n{alvo} se defendeu. Sem dano.")
-            _fecha(saida, avisos, args, raiz, atacante, alvo, local, "defendeu o golpe",
-                   None, nh_ef=nh_ef, ataque=ta, arma=arma_nome,
-                   extra_w=[f"*{alvo} se defendeu.* Sem dano."])
-            return
-    else:
-        dp_escudo = 0
 
     # ---------------------------------------------------------- dano
     # A cascata inteira é da folha `causar-dano`: dado, mínimo antes da armadura,

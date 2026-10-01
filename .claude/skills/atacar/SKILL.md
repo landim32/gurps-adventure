@@ -3,7 +3,8 @@ name: atacar
 description: >
   Resolve uma troca de golpes inteira pelo Sistema Avançado de Combate de GURPS 3ª Edição:
   jogada de ataque com o redutor do ponto de impacto e o bônus da manobra, golpe fulminante
-  ou erro crítico nas tabelas, defesa ativa mais passiva do alvo. A avaliação de dano — RD
+  ou erro crítico nas tabelas, defesa ativa mais passiva do alvo — número e dado na folha
+  `resolver-defesa`, a mesma da arma de longe. A avaliação de dano — RD
   por região, bônus por tipo de dano, tetos do local e membro — é da folha `causar-dano`,
   que esta chama; os testes de queda e atordoamento ainda correm aqui. Entrega o texto para
   o WhatsApp e devolve o resultado à `registrar-acao`. Use when the user asks "ataque total
