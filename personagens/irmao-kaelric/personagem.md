@@ -1,6 +1,6 @@
 # Irmão Kaelric
 
-**Humano · Templário (base: Cavaleiro/Palatino, *GURPS Fantasy*) · Tanque-curandeiro de maça e escudo · 150 pontos**
+**Humano · Templário (base: Cavaleiro/Palatino, *GURPS Fantasy*) · Tanque-curandeiro de maça e escudo · 170 pontos**
 
 Um jovem cavaleiro sagrado da Ordem dos Templários, que segura a linha de frente com escudo e
 maça e fecha as feridas dos companheiros com milagres de cura. Puro e devoto, mas de espírito
@@ -8,7 +8,7 @@ filósofo — começa a fazer perguntas que a Ordem prefere não ouvir.
 
 ## Aparência
 
-Um coloço de mais de dois metros (~2,10 m), com o porte de um viking cristianizado: ombros
+21 anos. Um coloço de mais de dois metros (~2,10 m), com o porte de um viking cristianizado: ombros
 largos, mãos enormes, cabelos e barba castanhos usados em tranças. Olhar sereno e já cansado de
 quem enterrou gente demais. Veste a sobreveste branca dos Templários com a cruz vermelha sobre a
 cota de malha; maça de armas à cintura, terço e frasco de óleo santo pendurados, escudo grande
@@ -30,10 +30,10 @@ o espera — mas sente que ele vem aí.
 | Atributo | Valor | Custo |
 |---|---|---|
 | ST | 13 | 30 |
-| DX | 12 | 20 |
+| DX | 13 | 30 |
 | IQ | 12 | 20 |
 | HT | 12 | 20 |
-| **Subtotal** | | **90** |
+| **Subtotal** | | **100** |
 
 ## Estatísticas Derivadas
 
@@ -42,19 +42,20 @@ o espera — mas sente que ele vem aí.
 | Fadiga | 13 |
 | Pontos de Vida | 12 |
 | Dano Básico | GDP 1D / Balanço 2D-1 |
-| Velocidade Básica | 6,0 |
+| Velocidade Básica | 6,25 |
 | Deslocamento | 5 (Carga Leve — 20,25 kg, ST 13) |
 | Defesa Passiva | 4 — só o escudo; tronco e cabeça seguem desprotegidos |
-| Esquiva / Aparar / Bloqueio | 5 / 7 / 7 |
+| Esquiva / Aparar / Bloqueio | 5 / 7 / 8 |
 | Altura / Reação | ~2,10 m · -2 geral (+1 dos combatentes quando a briga é iminente), +2 entre cristãos |
 
-**Reflexos em Combate** dá **+1 em cada defesa ativa** (efetivas **6 / 8 / 8**) e +2 na iniciativa.
+**Reflexos em Combate** dá **+1 em cada defesa ativa** (efetivas **6 / 8 / 9**) e +2 na iniciativa.
 
 **Escudo grande recuperado no capítulo 4** — um pavês da guarnição de Wallace, achado no
 castelo durante a hora comprada na muralha. Ele serve no tamanho dele sem adaptação.
 
-Os inconvenientes do escudo grande valem (MB, pág. 75): **-2 no NH efetivo com a arma** —
-Machado/Maça cai de 14 para **12** — e **-1 no Aparar**, já descontado acima. Ele também não
+Os inconvenientes do escudo grande valem enquanto o pavês estiver no braço: **-2 no NH
+efetivo com a arma** — Machado/Maça cai de 15 para **13** — e **-1 no Aparar**, que sai de 7
+para 6. Ele também não
 pode usar arma de duas mãos enquanto estiver com ele, e em combate de perto subtrai a DP 4
 de toda defesa e teste de DX a partir do segundo turno.
 
@@ -104,18 +105,18 @@ voto não rende pontos adicionais — é levado a sério mesmo assim, por exigê
 
 | Perícia | NH | Tipo | Custo |
 |---|---|---|---|
-| Machado/Maça | 14 | DX/M | 8 |
-| Escudo | 14 | DX/F | 4 |
-| Cavalgar (Cavalo) | 12 | DX/M | 2 |
+| Machado/Maça | 15 | DX/M | 8 |
+| Escudo | 16 | DX/F | 8 |
+| Cavalgar (Cavalo) | 14 | DX/M | 4 |
 | Teologia | 13 | IQ/D | 6 |
 | Filosofia | 12 | IQ/D | 4 |
 | Diagnose | 11 | IQ/D | 2 |
-| Primeiros Socorros | 13 | IQ/F | 2 |
+| Primeiros Socorros | 14 | IQ/F | 4 |
 | Trato Social | 13 | IQ/F | 2 |
 | Ânglico (nativa) | 12 | IQ/M | 0 |
 | Latim | 11 | IQ/M | 1 |
-| *Milagres (ver grimório)* | | | *11* |
-| **Subtotal (perícias + mágicas)** | | | **42** |
+| *Milagres (ver grimório)* | | | *13* |
+| **Subtotal (perícias + mágicas)** | | | **52** |
 
 ## Equipamento
 
@@ -138,9 +139,12 @@ voto não rende pontos adicionais — é levado a sério mesmo assim, por exigê
 
 | Categoria | Pontos |
 |---|---|
-| Atributos | 90 |
+| Atributos | 100 |
 | Vantagens | 63 |
 | Desvantagens | -40 |
 | Peculiaridades | -5 |
-| Perícias + Mágicas | 42 |
-| **Total** | **150** |
+| Perícias + Mágicas | 52 |
+| **Total** | **170** |
+| Orçamento | 170 |
+
+Os 20 pontos de campanha fecharam. Os primeiros 14 foram DX 12→13 (10), Cura Superficial 13→14 (2) e Primeiros Socorros 13→14 (2). Os 6 que sobravam foram para Escudo 15→16 (4) e Cavalgar 13→14 (2). Não sobra nada. O Bloqueio impresso foi para 8. Montado, a perna coxa continua dando −1 em Cavalgar até 12 PV, então esse teste sai em 13.

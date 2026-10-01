@@ -3,20 +3,21 @@
   "jogador": "Henrique",
   "arquetipo": "Cavaleiro / Palatino — Templário (Fantasy)",
   "raca": null,
-  "aparencia": "Coloço de ~2,10 m, porte de viking cristão: cabelos e barba castanhos trançados, ombros largos; sobreveste branca com cruz vermelha sobre a malha.",
+  "idade": 21,
+  "aparencia": "21 anos, coloço de ~2,10 m, porte de viking cristão: cabelos e barba castanhos trançados, ombros largos; sobreveste branca com cruz vermelha sobre a malha.",
   "historia": "Gigante de sangue nórdico, filho caçula de cavaleiros do leste de Mégalos; curado menino por milagre tomista, tomou a cruz templária e vaga provando seu valor.",
   "data_criacao": "06/09/2026",
   "sequencia": "4",
-  "pontos_gastar": 150,
-  "pontos_total": 150,
+  "pontos_gastar": 170,
+  "pontos_total": 170,
   "atributos": {
     "ST": {
       "valor": 13,
       "custo": 30
     },
     "DX": {
-      "valor": 12,
-      "custo": 20
+      "valor": 13,
+      "custo": 30
     },
     "IQ": {
       "valor": 12,
@@ -33,7 +34,7 @@
     "gdp": "1D",
     "bal": "2D-1"
   },
-  "velocidade_basica": 6.0,
+  "velocidade_basica": 6.25,
   "deslocamento": 5,
   "carga": {
     "nenhuma": 13,
@@ -50,7 +51,7 @@
   "defesas_ativas": {
     "esquiva": 5,
     "aparar": 7,
-    "bloqueio": 7
+    "bloqueio": 8
   },
   "reacao": "-2 (porte); +2 cristãos",
   "vantagens_desvantagens": [
@@ -201,23 +202,23 @@
   "pericias": [
     {
       "nome": "Machado/Maça",
-      "nh": 14,
+      "nh": 15,
       "tipo": "DX/M",
       "custo": 8,
       "categoria": "Combate"
     },
     {
       "nome": "Escudo",
-      "nh": 14,
+      "nh": 16,
       "tipo": "DX/F",
-      "custo": 4,
+      "custo": 8,
       "categoria": "Combate"
     },
     {
       "nome": "Cavalgar (Cavalo)",
-      "nh": 12,
+      "nh": 14,
       "tipo": "DX/M",
-      "custo": 2,
+      "custo": 4,
       "categoria": "Físicas"
     },
     {
@@ -243,9 +244,9 @@
     },
     {
       "nome": "Primeiros Socorros",
-      "nh": 13,
+      "nh": 14,
       "tipo": "IQ/F",
-      "custo": 2,
+      "custo": 4,
       "categoria": "Médicas"
     },
     {
@@ -300,14 +301,14 @@
     {
       "nome": "Cura Superficial",
       "classe": "R",
-      "nh": 13,
+      "nh": 14,
       "tempo": "1 seg",
       "duracao": "permanente",
       "custo_fazer": "1 a 3",
       "custo_manter": "—",
       "obs": "Cura 1-3 PV. Pré-req.: Dar Vitalidade",
       "pag": "M",
-      "custo": 4,
+      "custo": 6,
       "categoria": "Cura"
     },
     {
@@ -338,11 +339,11 @@
     }
   ],
   "resumo": {
-    "atributos": 90,
+    "atributos": 100,
     "vantagens": 63,
     "desvantagens": -40,
     "peculiaridades": -5,
-    "pericias": 42,
-    "total": 150
+    "pericias": 52,
+    "total": 170
   }
 }
