@@ -16,22 +16,30 @@ import argparse
 import importlib.util
 import json
 import os
-import re
 import subprocess
 import sys
-import unicodedata
 from pathlib import Path
 
-CAMPANHA_PY = Path(".claude/skills/campanha/scripts/campanha.py")
+SKILLS = Path(__file__).resolve().parents[2]
+REGISTRAR_PY = SKILLS / "registrar-acao" / "scripts" / "registrar_acao.py"
 
 # Quem rola dado neste repositorio e a skill `roll`, uma so. Ver .claude/skills/roll/.
-ROLL_PY = Path(__file__).resolve().parents[2] / "roll" / "scripts" / "roll.py"
+ROLL_PY = SKILLS / "roll" / "scripts" / "roll.py"
 try:
     _spec = importlib.util.spec_from_file_location("roll", ROLL_PY)
     _roll = importlib.util.module_from_spec(_spec)
     _spec.loader.exec_module(_roll)
 except Exception as erro:
     raise SystemExit(f"Não consegui carregar a skill roll ({ROLL_PY}): {erro}")
+
+# Quem sabe quem é cada nome e a folha `contexto`, uma so. Ver .claude/skills/contexto/.
+CTX_PY = SKILLS / "contexto" / "scripts" / "contexto.py"
+try:
+    _spec = importlib.util.spec_from_file_location("contexto", CTX_PY)
+    ctx = importlib.util.module_from_spec(_spec)
+    _spec.loader.exec_module(ctx)
+except Exception as erro:
+    raise SystemExit(f"Não consegui carregar a skill contexto ({CTX_PY}): {erro}")
 
 # O console do Windows e cp1252 e engasga com seta, travessao e afins. A saida daqui e
 # feita para ser copiada, entao tem de sair inteira.
@@ -42,30 +50,25 @@ for _fluxo in (sys.stdout, sys.stderr):
         pass
 
 
-def slug(t):
-    t = unicodedata.normalize("NFKD", t).encode("ascii", "ignore").decode()
-    return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", t.lower())).strip("-")
-
-
 d6 = _roll.d6
 
 
 def ler_ficha(nome, raiz):
-    """Modificadores que importam, direto do personagem.json. None se nao for PJ."""
-    f = raiz / "personagens" / slug(nome) / "personagem.json"
-    if not f.is_file():
+    """Modificadores que importam, pela folha de contexto. None se nao for PJ.
+
+    Antes esta skill tinha um leitor proprio, de caminho exato: "Kaelric" nao achava
+    irmao-kaelric e "Reflexos em Combate" era procurado como texto solto na lista de
+    vantagens. O contexto resolve nome com fuzzy e ler vantagem por nome de verdade.
+    """
+    d = ctx.ler_ficha(nome, raiz)
+    if not d:
         return None
-    d = json.loads(f.read_text(encoding="utf-8"))
-    vants = " | ".join(v.get("nome", "") for v in d.get("vantagens_desvantagens", []))
-    tatica = 0
-    for p in d.get("pericias", []):
-        if slug(p.get("nome", "")).startswith("tatica"):
-            tatica = max(tatica, int(p.get("nh") or 0))
+    tatica = ctx.pericia(d, "Tática") or ctx.pericia(d, "Tatica") or (0,)
     return {
         "nome": d.get("nome", nome),
-        "iq": int(d.get("atributos", {}).get("IQ", {}).get("valor") or 0),
-        "reflexos": "reflexos em combate" in vants.lower(),
-        "tatica": tatica,
+        "iq": int(ctx.atributos(d).get("IQ") or 0),
+        "reflexos": ctx.nivel_vantagem(d, "Reflexos em Combate") is not None,
+        "tatica": tatica[0],
         "ficha": True,
     }
 
@@ -127,16 +130,22 @@ def modificadores(lado, outro):
     return total, mods
 
 
-def registrar(raiz, texto):
-    script = raiz / CAMPANHA_PY
-    if not script.is_file():
-        return False, "skill campanha nao encontrada"
+def gravar(raiz, resumo):
+    """Entrega o ato à `registrar-acao` — esta skill não escreve em lugar nenhum.
+
+    Antes havia uma copia de `registrar()` em cinco skills de calculo, cada uma montando
+    o proprio `campanha.py acontecimento`. A fila de lancamentos agora e de uma so.
+    """
+    if not REGISTRAR_PY.is_file():
+        return False, "skill registrar-acao nao encontrada"
+    ato = {"resumo": f"[iniciativa] {resumo}", "jogadas": []}
     env = {**os.environ, "PYTHONIOENCODING": "utf-8"}
-    r = subprocess.run([sys.executable, str(script), "--raiz", str(raiz),
-                        "acontecimento", "--texto", texto],
+    r = subprocess.run([sys.executable, str(REGISTRAR_PY), "--stdin"],
+                       input=json.dumps(ato, ensure_ascii=False),
                        capture_output=True, text=True, encoding="utf-8",
-                       timeout=30, env=env)
-    return r.returncode == 0, (r.stdout or r.stderr).strip()
+                       errors="replace", timeout=60, env=env, cwd=str(raiz))
+    linhas = [l for l in (r.stdout or "").splitlines() if l.startswith("[")]
+    return r.returncode == 0, "\n        ".join(linhas) or (r.stderr or "").strip()
 
 
 def main():
@@ -274,10 +283,13 @@ def main():
     print("-" * 66)
 
     if args.gravar:
-        ok, saida = registrar(raiz, f"[iniciativa] {resumo}")
-        print("Registrado no capítulo atual." if ok else f"AVISO: não gravei — {saida}")
+        ok, saida = gravar(raiz, resumo)
+        if ok:
+            print("Entregue à registrar-acao:\n        " + saida)
+        else:
+            print(f"AVISO: não registrei — {saida}")
     else:
-        print("(não gravado — use --gravar para registrar no capítulo)")
+        print("(não gravado — use --gravar para entregar à registrar-acao)")
 
 
 if __name__ == "__main__":
