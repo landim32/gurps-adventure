@@ -58,7 +58,7 @@ Esta é a parte que a skill não pode automatizar, e é o trabalho de verdade. A
 | Violência declarada | Troca de golpes inteira | `atacar` (ou `atacar-distancia`, se for tiro) |
 | Primeira impressão com um NPC que ainda não tem reação rolada | Teste de reação | `reacao` |
 | Começou luta e ninguém sabe quem age primeiro | Surpresa e ordem | `iniciativa` |
-| Alguém se move no mapa da cena | Posição nova | posição e frente: consulte `list_map_tokens`; mover é com o `processar-turno` |
+| Alguém se move no mapa da cena | Posição nova | posição e frente: consulte `list_map_tokens`; distância e lado: `calcular-alcance`; mover é com o `processar-turno` |
 | Um dado avulso que nenhuma das anteriores cobre | 3d, 1d, o que for | `roll` |
 
 **Nunca role de cabeça, nunca invente NH.** As skills acima é que rolam; esta aqui decide
@@ -234,7 +234,9 @@ registra no repositório e prepara as chamadas do roll6. Quem altera o MCP é a
   choque do próximo turno, apontando, sem defesa por Ataque Total, cavalo exausto,
   desarmado. Até 260 caracteres.
 - **Posição e frente: consulte** `list_map_tokens` (peças com posição e frente) e `get_map`
-  (tamanho da grade). Mover peça no MCP é da `processar-turno`.
+  (tamanho da grade). Distância, lado e ângulo de visão **não se contam de cabeça**: são da
+  folha `calcular-alcance`, que aceita a casa em rótulo (`Q30`), `x,y` ou nome de peça.
+  Mover peça no MCP é da `processar-turno`.
 - **Reação não vai**: nem faixa, nem número, nem motivo — o `reacoes.json` é segredo.
 - **Dentro de um turno do roll6** (`processar-turno`), não sincronize ação por ação:
   aquela skill fecha tudo num único `process_turn`.

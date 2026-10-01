@@ -170,15 +170,15 @@ Ela resolve **o golpe**, não o combate inteiro. Continua com você, ou com outr
 |---|---|
 | Quem age primeiro, surpresa | skill **`iniciativa`** (e a ordem de turnos é fixa, por Deslocamento) |
 | Finta | skill **`disputa-nh`** — a margem vira `--alvo-defesa-mod` negativo |
-| Onde cada um está, alcance, hexágono frontal ou lateral | MCP: **`list_map_tokens`** (posição e frente de cada peça); `get_map` diz o tamanho da grade |
+| Onde cada um está, alcance, hexágono frontal ou lateral | MCP: **`list_map_tokens`** (posição e frente de cada peça); `get_map` diz o tamanho da grade; distância e lado saem de **`calcular-alcance`** |
 | Um teste solto no meio da luta | skill **`teste-nh`** |
 | **Tiro, arremesso, qualquer arma de longo alcance** | skill **`atacar-distancia`** |
 | Combate de perto, agarrar, desarmar | MB, cap. 14 — arbitre e use `--mod` |
 | Somar os pontos de vida perdidos ao longo da luta | você; o script resolve um golpe por vez |
 
-**Alcance e direção não são conferidos pelo script.** Confira no `list_map_tokens` antes:
-ataque pelo hexágono lateral dá -2 na defesa do alvo, pelas costas não há defesa ativa
-nenhuma, e escudo só protege da frente e do lado dele.
+**Alcance e direção não são conferidos pelo script.** Meça com `calcular-alcance` (ou
+consulte o `list_map_tokens` antes): ataque pelo hexágono lateral dá -2 na defesa do alvo,
+pelas costas não há defesa ativa nenhuma, e escudo só protege da frente e do lado dele.
 
 ## Nunca invente o dado
 

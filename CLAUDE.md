@@ -291,12 +291,12 @@ grafo de chamadas, não a árvore de pastas.
 
 **Regra de colocação para a próxima regra que entrar:** decisão fica nos roteadores, cálculo na
 folha dona daquela grandeza, registro na registradora. Roteador citando número do livro está no
-lugar errado — e folha escrevendo em disco também. Já extraído: **`causar-dano`** (a cascata de
-dano, uma só para os dois lados), **`resolver-defesa`** (número, dado e a RD que a cascata
-precisa) e **`arbitrar-ferimento`** (redutor por ferimento, queda, atordoamento, nocaute,
-crânio exposto) — as três chamadas por `atacar` e `atacar-distancia`, que hoje montam a jogada
-e delegam o resto. Falta **`calcular-alcance`**, e o que sobrou de consequência dentro das
-atacantes é pouco.
+lugar errado — e folha escrevendo em disco também. Extraído, e as duas atacantes chamam as
+mesmas folhas: **`calcular-alcance`** (hexágonos, metros, lado e ângulo de visão na grade
+odd-q do roll6), **`resolver-defesa`** (número, dado e a RD que a cascata precisa),
+**`causar-dano`** (a cascata de dano, uma só) e **`arbitrar-ferimento`** (redutor por
+ferimento, queda, atordoamento, nocaute, crânio exposto). O que sobrou nas atacantes é a
+montagem da jogada: quem ataca, com quê, e em que ordem as folhas são chamadas.
 
 ### O roll6 é o espelho da mesa: a skill `roll6`
 

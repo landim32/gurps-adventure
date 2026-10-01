@@ -56,7 +56,7 @@ script só decide o Tiro Rápido no fim.
 | "Comam saca a besta e atira no morto do meio" | `--arma besta --alvo "Morto-Vivo 2"` |
 | "ele passou o turno mirando" | `--apontou 1` (dois turnos: `--apontou 2`) |
 | "atira na hora, sem mirar" | omita `--apontou` — o script cobra o Tiro Rápido se couber |
-| "ele está a uns oito metros" | `--distancia 8` — conte no `list_map_tokens`, é 1 hexágono = 1 metro |
+| "ele está a uns oito metros" | `--distancia 8` — meça com a folha `calcular-alcance` (1 hexágono = 1 metro), não de cabeça |
 | "apoiado na ameia" | `--apoiada` |
 | "mira na cabeça" | `--local cabeca` |
 | "no pescoço" | `--local pescoco` — regra da casa da 4ª ed. (skill `atacar`, "Pescoço"); de lado ou de trás, `--nao-frontal` |
@@ -194,12 +194,14 @@ alguém na linha de tiro. Isso é arbitragem sua.
 
 ## Ângulo de visão e alcance são conferidos no mapa do roll6
 
-O script recebe a distância pronta e acredita nela. Antes de rodar, consulte
-`list_map_tokens` (peças com posição e frente; `get_map` diz o tamanho da grade):
+O script recebe a distância pronta e acredita nela. Antes de rodar, meça com a folha
+**`calcular-alcance`** — ela lê as peças do `list_map_tokens` (posição e frente; `get_map`
+diz o tamanho da grade) e devolve hexágonos, metros e a linha da tabela:
 
-- **conte os hexágonos** entre atirador e alvo — 1 hexágono é 1 metro;
-- confira se o alvo está no **ângulo de visão** (os hexágonos à frente). Fora dele, é
-  `--as-cegas`;
+- **hexágonos entre atirador e alvo** = `--distancia` (`hexagonos`, metros incluídos);
+- o **ângulo de visão**: `angulo_visao`/`fora_do_angulo` da folha. Fora dele, é
+  `--as-cegas`; se vier `lado_ambiguo`, o alvo está na linha exata entre dois cones e **você
+  arbitra o lado** antes de cobrar qualquer redutor;
 - conte quantas **figuras estão na linha de tiro**: cada uma é `--condicao atras-de-alguem`.
 
 ## Nunca invente o dado
