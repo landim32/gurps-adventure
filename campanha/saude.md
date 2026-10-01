@@ -8,11 +8,11 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 <!-- indice:saude -->
 | Quem | | PV | Fadiga | Estado |
 |---|---|---:|---:|---|
-| Comam Obabaroy | PJ | 12/12 | 10/13 | — |
+| Comam Obabaroy | PJ | 13/13 | 10/13 | — |
 | Irmão Kaelric | PJ | 1/12 | 5/13 | PV 1 de 12: Deslocamento à metade (MB 12). MONTADO, seguindo a carroça no deserto, maça na mão. Sem teste de consciência: saiu de 0 PV.; Perna COXA, temporária: HT 12 tirou 11, sucesso por 1. Sara quando a vitalidade voltar a 12. Até lá, a pé não caminha; montado, -1 em Cavalgar. |
 | Jah Kagadu | PJ | 3/12 | 6/9 | PV 3 de 12: Deslocamento à metade. MONTADO no deserto, junto da carroça, com o Negrum na garupa. Uma adaga na mão, a outra guardada. |
 | Negrum Carneiriums | PJ | 8/12 | 15/15 | — |
-| NelsOwned | PJ | -6/12 | 15/15 | DESMAIADO na caçamba da carroça, no deserto. HT 12 tirou 13, falhou por 1. Não fala e não age até acordar, em 6 horas, ainda com -6.; Vitalidade -6 de 12. Anda à metade da velocidade. Morre se chegar a -12 sem passar num teste de HT.; Maneta da mão esquerda, permanente, custo 0 na ficha. A direita segue inteira. Machado grande não empunha. |
+| NelsOwned | PJ | -5/13 | 15/15 | DESMAIADO na caçamba, no deserto. PV -5 de 13. Acorda em 6 horas, ainda a -5. Morre se chegar a -13 sem teste de HT. Deslocamento à metade.; Maneta da mão esquerda, permanente, -15 na ficha. A direita segue inteira. Machado grande não empunha. |
 | Donnwulf | NPC | -27 | — | FALECEU no pátio do portão, em L6. Vitalidade -15 de 12: a terceira machadada do NelsOwned sobre o membro preso tirou os 4 pontos do teto (HT/3) e cruzou a barreira de -HT. Teste de HT 12 contra a morte (MB pág. 126): tirou 13, falhou por um. Estava inconsciente e sem nada para gastar a favor |
 | Hoel Meia-Orelha | NPC | -21 | — | MORTO — espancado até a morte pelo Negrum enquanto estava inconsciente (MB pág. 128: pessoa indefesa atacada de maneira letal morre sem jogada); **DECAPITADO** em L5 pelo machado grande de NelsOwned (cap. 01), no turno seguinte ao em que se levantou. Mesmo critério do Morto-Vivo 1: 15 pontos, 1,5 x HT, numa criatura de HT 10. Destruído de vez: não se levanta, não volta |
 | Lanceiro | NPC | -5 | — | SUMIDO na massa da rampa desde o turno 5, arrastado de L6 até L8-L9. Ninguém do grupo sabe se vive. Levava -5 de vitalidade e a perna esquerda destruída quando se perdeu de vista. Fora do mapa, e agora do lado de fora do portão fechado |
@@ -31,7 +31,7 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 
 ### Comam Obabaroy
 
-**PV 12/12 · Fadiga 10/13**
+**PV 13/13 · Fadiga 10/13**
 
 - **07/09/2026 22:31** · estado — Bêbado e dormindo sobre a mesa — -3 em todos os atributos e perícias enquanto durar o porre (parâmetro do MB pág. 32, Alcoolismo); alvo fácil e sem defesa ativa até acordar
 - **15/09/2026 20:16** · FAD -1 — Falha no teste de ST para erguer a carroça tombada, com -3 do porre (MB pág. 89)
@@ -128,7 +128,7 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 
 ### NelsOwned
 
-**PV -6/12 · Fadiga 15/15**  ·  **DESMAIADO na caçamba da carroça, no deserto. HT 12 tirou 13, falhou por 1. Não fala e não age até acordar, em 6 horas, ainda com -6.**; **Vitalidade -6 de 12. Anda à metade da velocidade. Morre se chegar a -12 sem passar num teste de HT.**; **Maneta da mão esquerda, permanente, custo 0 na ficha. A direita segue inteira. Machado grande não empunha.**
+**PV -5/13 · Fadiga 15/15**  ·  **DESMAIADO na caçamba, no deserto. PV -5 de 13. Acorda em 6 horas, ainda a -5. Morre se chegar a -13 sem teste de HT. Deslocamento à metade.**; **Maneta da mão esquerda, permanente, -15 na ficha. A direita segue inteira. Machado grande não empunha.**
 
 - **09/09/2026 09:52** · PV -2 — Chute do Hoel Meia-Orelha reanimado, ataque total no tronco (cap. 01)
 - **09/09/2026 12:21** · FAD -1 — Fadiga de batalha contra os mortos-vivos: Carga nenhuma, nível 0 +1 (MB pág. 134)
@@ -162,6 +162,11 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **30/09/2026 12:06** · curado — até o fim da luta
 - **30/09/2026 12:37** · estado — Maneta da mão esquerda, permanente, custo 0 na ficha. A direita segue inteira. Machado grande não empunha.
 - **30/09/2026 12:37** · curado — Braço do machado PERMANENTE
+- **30/09/2026 17:05** · estado — DESMAIADO na caçamba, no deserto. PV -5 de 13. Acorda em 6 horas, ainda a -5. Morre se chegar a -13 sem teste de HT. Deslocamento à metade.
+- **30/09/2026 17:05** · curado — ainda com -6
+- **30/09/2026 17:05** · curado — Anda à metade da velocidade
+- **30/09/2026 17:05** · estado — Maneta da mão esquerda, permanente, -15 na ficha. A direita segue inteira. Machado grande não empunha.
+- **30/09/2026 17:05** · curado — custo 0 na ficha
 
 ## NPCs
 

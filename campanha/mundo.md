@@ -186,6 +186,7 @@ script, e rode `campanha.py mundo`.)_
 - **30/09/2026 08:13** · _informação_ — ERRATA: a pontaria da rodada 20 era no Morto 1, não no Morto 3. Na rodada 21 o disparo não saiu (Besta 16 -3 Zarolho -8 a 37 m +4 Precisão -4 Jah na linha -4 o cavalo na linha = 1; o livro não rola). DECISÃO DO MESTRE: continuou apontando, segundo turno. No próximo disparo, Precisão +4 e +1, sem Tiro Rápido. Em P11, olhando S. Zaina armada. Cimitarra e picareta no chão em O10.  _(cap. 06)_
 - **30/09/2026 10:16** · _informação_ — RODADA 22: não disparou. O cavalo do Jah parou na reta (S33-S35) e a condição de atirar quando ele saísse da frente não se cumpriu. Terceiro turno apontando a Zaina no Morto 1. Em P11, olhando S. No próximo disparo, Precisão +4 e +2, sem Tiro Rápido. Cimitarra e picareta no chão em O10.  _(cap. 06)_
 - **30/09/2026 10:31** · _informação_ — NARRAÇÃO: disparou a Zaina e errou o morto que vinha a pé. Não recarregou. Voltou à boleia, tomou as rédeas e a carroça partiu. Cimitarra e picareta continuam na caçamba.  _(cap. 06)_
+- **30/09/2026 15:35** · _pontos_ — Ganhou 20 pontos de campanha e gastou 18,5: HT 13, Besta 17, Primeiros Socorros 12, Ânglico 9, Lábia 7, Natação 13 e Conhecimento do Terreno (Caithness) 8. Sobram 1,5. PV máximo agora é 13; estava inteiro e continua inteiro.  _(cap. 07)_
 
 ### Irmão Kaelric
 
@@ -221,6 +222,8 @@ script, e rode `campanha.py mundo`.)_
 - **30/09/2026 10:31** · _informação_ — NARRAÇÃO: segue montado junto da carroça, maça na mão, já no deserto.  _(cap. 06)_
 - **30/09/2026 10:47** · _ferimento_ — PRIMEIROS SOCORROS EM SI MESMO, no deserto. NH 14 (13 +1 kit), tirou 11, sucesso por 3. 1D-3 deu 0; mínimo de 1 ponto. De 0/12 para 1/12. Deslocamento à metade. Sem teste de HT para não desmaiar. A perna segue incapacitada. Gastou 30 minutos. Maça na mão, montado, seguindo a carroça.  _(cap. 06)_
 - **30/09/2026 12:06** · _ferimento_ — PERNA COXA, TEMPORÁRIA. HT 12, sem modificador, 3d [3, 6, 2] = 11, sucesso por 1 (MB 12). Sara quando os PV voltarem a 12. Até lá vale a errata da mesa: a pé não caminha; montado, -1 em Cavalgar. PV segue 1/12. A ficha não muda.  _(cap. 07)_
+- **30/09/2026 15:51** · _pontos_ — Gastou os 20 pontos de campanha: DX 13 e IQ 13, sem sobra. Cada perícia e cada mágica subiu 1 de NH. Velocidade 6,25; Deslocamento segue 5. PV máximo continua 12. A ficha da biblioteca no roll6 é do Henrique e não foi alterada.  _(cap. 07)_
+- **30/09/2026 16:22** · _pontos_ — Corrigido o gasto: saiu o +1 de IQ. Ficou DX 13, Cura Superficial 14 e Primeiros Socorros 14. Gastos 14, sobram 6. Total 164 de 170. IQ 12. As demais perícias e mágicas de IQ voltaram um NH.  _(cap. 07)_
 
 ### Jah Kagadu
 
@@ -275,6 +278,7 @@ script, e rode `campanha.py mundo`.)_
 - **30/09/2026 08:13** · _informação_ — RODADA 21: correu reto de Q15 para Q22, olhando S. Deslocamento 6 +1 Carreira. No próximo turno, +1 de novo se seguir reto em terreno bom. Montante pronto.  _(cap. 06)_
 - **30/09/2026 10:16** · _informação_ — RODADA 22: correu reto e parou em Q30, olhando S, montante pronto. O roll6 tinha andado só 6, até Q28. ERRATA DO MESTRE: Carreira neste turno é +2 (o livro daria +1). No próximo, +1 se seguir reto em terreno bom.  _(cap. 06)_
 - **30/09/2026 10:31** · _informação_ — NARRAÇÃO: subiu na garupa do Jah, montante com ele, e segue a carroça no deserto.  _(cap. 06)_
+- **30/09/2026 22:48** · _pontos_ — Aceitou a Má Reputação -4 em Wallace valendo -10 (MB pág. 17: -4 × 5, grupo grande × ½, reconhecido o tempo todo) e gastou os 30 pontos inteiros: DX 13 → 14 (15), o que subiu de graça Espadas 17, Machado/Maça 16, Escudo 16, Sacar Rápido 16 e Briga 15. Novas por 15: Cavalgar 14, Natação 15, Furtividade 15, Conhecimento do Terreno (Wallace) 10, Lábia 9, Liderança 9, Ânglico 9. Bloqueio 8, Velocidade Básica 6,5, Deslocamento 6, Aparar 8. Total 170 de 170, sem sobra. Lançado na ficha.  _(cap. 07)_
 
 ### NelsOwned
 
@@ -303,6 +307,7 @@ script, e rode `campanha.py mundo`.)_
 - **30/09/2026 11:16** · _ferimento_ — Ataduras simples do Comam, 30 minutos, sem teste (MB 12): de -7 para -6 PV. Continua desmaiado na caçamba, no deserto; acorda em 6 horas ainda com -6. Braço do machado segue incapacitado e o machado inutilizável. A atadura está gasta: Primeiros Socorros não soma em cima destes pontos.  _(cap. 06)_
 - **30/09/2026 12:06** · _ferimento_ — BRAÇO DO MACHADO PERMANENTE. HT 12, sem modificador, 3d [5, 5, 6] = 16, falha por 4 (MB 12: margem maior que 3). O machado grande, de duas mãos, não serve. O outro braço segue inteiro. Corte de espada curta: amputação ou osso esmagado fica com o Mestre e o jogador; o efeito em jogo é o mesmo. Continua desmaiado a -6/12. A ficha não muda.  _(cap. 07)_
 - **30/09/2026 12:37** · _ferimento_ — LANÇADO NA FICHA como Maneta (mão esquerda), custo 0, sem pontos para gastar. O total continua 150. A mão direita está inteira. O machado grande e o alaúde exigem as duas mãos e não servem. Machado/Maça 14 vale para arma de uma mão na direita.  _(cap. 07)_
+- **30/09/2026 17:05** · _pontos_ — Aceitou a Maneta a -15 e gastou 29 dos 35 pontos. Sobram 6. Total 164 de 170. HT 13, Machado/Maça 15, Trato Social 17, Lábia 15, Detecção de Mentiras 14, Manha 14, Comércio 15, Diplomacia 12 (com a Voz), Política 13 (com a Voz). Canto 19 e Sex-Appeal 15 sobem com o HT. PV máximo 13; o ferimento deixa -5/13. Desvantagens em -55. A ficha da biblioteca no roll6 é do André e não foi alterada.  _(cap. 07)_
 
 ## Lugares e coisas
 
