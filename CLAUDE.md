@@ -255,6 +255,47 @@ do livro continuam valendo (apanhar arma caída custa 2 turnos, a besta cobra os
 de armar). Quem fugiu às pressas deixa para trás o que largou, e isso vira anotação na
 campanha.
 
+### Quem resolve não escreve: a skill `registrar-acao`
+
+Uma ação resolvida tem dois momentos, e eles têm donos diferentes. As skills de **decisão e
+cálculo** — `acao`, `atacar`, `atacar-distancia`, `teste-nh`, `disputa-nh`, `reacao`,
+`iniciativa`, `roll` — **devolvem resultado e param aí**: não lançam em `bolsa.md` nem em
+`saude.md`, não escrevem anotação, não falam com o roll6. Quem grava é a **`registrar-acao`**,
+única skill autorizada a tocar arquivo depois do dado. Ela recebe o *ato resolvido* em JSON,
+confere se os dois lados vieram (dinheiro e item costumam chegar com um só), roda o
+`campanha.py` na ordem certa — log, anotações, narração, bolsa, saúde — e devolve o plano das
+chamadas MCP para quem executa.
+
+Foi por isso que a fronteira existe: `processar-turno` chama a `acao` para cada personagem da
+mesa, e com o registro espalhado cada turno gravava oito narrações e oito fechamentos. Onde
+`acao` hoje descreve registrar as quatro camadas, ela passa a entregar o JSON.
+
+**As skills se chamam por subprocesso com saída JSON** (`python .claude/skills/<skill>/scripts/<x>.py --json`),
+sem `import` entre pastas de skill: cada folha é testável sozinha e o número calculado sai
+auditável na linha de comando. Exceção escrita: **ler o formato de um arquivo alheio por
+import é permitido, e o dono do formato é quem o exporta** — é o que já fazem `status-atual`
+com os parsers de `campanha.py` e as skills de combate com a folha `contexto`.
+
+**A folha `contexto` é a única fonte de "quem age e como estão as coisas".** Resolução de nome
+(de jogador *ou* de personagem, parcial), leitura de ficha, perícias com NH, nível de vantagem,
+`classificar()` (a dona da regra de sucesso decisivo e falha crítica), estado da campanha,
+reações já roladas e a lista de arquivos a ler antes de arbitrar — tudo isso existia em seis
+cópias divergentes e agora tem uma casa. Skill nova que precise de qualquer um desses consome
+`contexto`; **não reimplementa**.
+
+**Restrição de diretório, que vale para o grafo inteiro:** os imports entre skills sobem por
+profundidade fixa (`parents[2]`, de `<skill>/scripts/x.py` até `.claude/skills/`). Nenhuma
+skill pode ser aninhada dentro de outra — `calcular-alcance`, `causar-dano`,
+`arbitrar-ferimento` e `registrar-acao` são **irmãs** de `atacar`, não filhas. A árvore é o
+grafo de chamadas, não a árvore de pastas.
+
+**Regra de colocação para a próxima regra que entrar:** decisão fica nos roteadores, cálculo na
+folha dona daquela grandeza, registro na registradora. Roteador citando número do livro está no
+lugar errado — e folha escrevendo em disco também. O passo seguinte dessa divisão, ainda
+pendente, é tirar de dentro de `atacar` e `atacar-distancia` as folhas `calcular-alcance`,
+`causar-dano` e `arbitrar-ferimento` (o nome é esse de propósito: *sobrevivência* já é nome de
+perícia na campanha).
+
 ### O roll6 é o espelho da mesa: a skill `roll6`
 
 A campanha também é jogada no **roll6**, a mesa virtual acessada pelo servidor MCP
