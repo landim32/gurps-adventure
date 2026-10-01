@@ -24,12 +24,12 @@ Nada aqui derruba o script que chamou: toda falha vira uma linha "roll6: ..." na
 import argparse
 import base64
 import io
+import importlib.util
 import json
 import math
 import os
 import re
 import sys
-import unicodedata
 import urllib.error
 import urllib.request
 from pathlib import Path
@@ -42,6 +42,25 @@ for _fluxo in (sys.stdout, sys.stderr):
     except Exception:
         pass
 
+# Normalização de nome vem da folha `contexto`, como em todo o resto do repo. Carregada
+# aqui — e nao no topo com as demais — porque este arquivo e importado por sys.path por
+# `campanha`, `atualizar-mapa` e `processar-turno`.
+try:
+    _espec = importlib.util.spec_from_file_location(
+        "contexto", Path(__file__).resolve().parents[2] / "contexto" / "scripts" / "contexto.py")
+    _ctx = importlib.util.module_from_spec(_espec)
+    _espec.loader.exec_module(_ctx)
+except Exception as erro:                                      # nunca derruba quem chamou
+    print(f"roll6: sem a folha contexto para slug(): {erro}")
+
+    class _CtxFallback:
+        @staticmethod
+        def slug(texto):
+            return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-",
+                                             (texto or "").lower())).strip("-")
+
+    _ctx = _CtxFallback
+
 MAPEAMENTO = Path("campanha/roll6.json")
 R6 = 40                      # raio do hexágono no roll6 (centro ao canto, px) — HexGrid.HEX_SIZE
 LOOK = {"N": 0, "NE": 1, "SE": 2, "S": 3, "SW": 4, "NW": 5}
@@ -53,8 +72,9 @@ class Roll6Erro(Exception):
 
 
 def slug(texto):
-    t = unicodedata.normalize("NFKD", texto or "").encode("ascii", "ignore").decode()
-    return re.sub(r"[^a-z0-9]+", "-", t.lower()).strip("-")
+    """Mesma normalização da folha `contexto` — `processar-turno` chama isto 8 vezes,
+    então o nome fica e a implementação passa a ser uma só."""
+    return _ctx.slug(texto)
 
 
 def desligado():

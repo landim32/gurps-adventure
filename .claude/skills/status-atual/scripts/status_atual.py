@@ -12,12 +12,23 @@ pronto para colar no WhatsApp. Quem mantem esses arquivos e a skill `campanha`.
 """
 import argparse
 import importlib.util
-import json
 import sys
 from pathlib import Path
 
 CAMPANHA_PY = Path(".claude/skills/campanha/scripts/campanha.py")
-PERSONAGENS = Path("personagens")
+
+
+def _carrega(nome, caminho):
+    spec = importlib.util.spec_from_file_location(nome, caminho)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod
+
+
+# As fichas em si vem da folha `contexto`; bolsa e saude continuam sendo lidas pelo
+# campanha.py, que e o dono daqueles formatos (ver carregar_campanha).
+ctx = _carrega("contexto", Path(__file__).resolve().parents[2] / "contexto" /
+               "scripts" / "contexto.py")
 
 # O console do Windows e cp1252 e engasga com acento, seta e travessao.
 for _fluxo in (sys.stdout, sys.stderr):
@@ -39,20 +50,13 @@ def carregar_campanha(raiz):
 
 
 def fichas(raiz):
-    """(nome, jogador, dados) de cada personagem com ficha, em ordem alfabetica."""
-    fora = []
-    base = raiz / PERSONAGENS
-    if not base.is_dir():
-        return fora
-    for pasta in sorted(x for x in base.glob("*") if x.is_dir()):
-        f = pasta / "personagem.json"
-        if not f.is_file():
-            continue
-        try:
-            d = json.loads(f.read_text(encoding="utf-8"))
-        except Exception:
-            continue
-        fora.append((d.get("nome") or pasta.name, d.get("jogador") or "", d))
+    """(nome, jogador, dados) de cada personagem com ficha, em ordem alfabética.
+
+    A leitura do disco é da folha `contexto`; a ordem alfabética e o formato de três
+    campos são daqui, porque é assim que o bloco do WhatsApp sai.
+    """
+    fora = [(d.get("nome") or pasta.name, d.get("jogador") or "", d)
+            for pasta, d in ctx.fichas(raiz)]
     return sorted(fora, key=lambda x: x[0].lower())
 
 
