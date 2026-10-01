@@ -118,28 +118,35 @@ número — dos dois lados, inclusive do que perdeu. Não rode de novo porque o 
 
 ## Registrar
 
-`--gravar` anota uma linha no capítulo atual pela skill `campanha`. Use quando a disputa
-mudou o rumo — o grupo passou ou não passou pelo portão — e deixe de fora o braço-de-ferro
-de taberna que não decidiu nada.
+`--gravar` monta o ato da disputa e entrega à **`registrar-acao`**, que anota a linha no
+capítulo. Use quando a disputa mudou o rumo — o grupo passou ou não passou pelo portão — e
+deixe de fora o braço-de-ferro de taberna que não decidiu nada.
 
-**A consequência da disputa, anote.** O resultado do dado vira log; o que ele deixou no
+**A consequência da disputa, registre.** O resultado do dado vira log; o que ele deixou no
 mundo vira anotação — o pedreiro que quebrou o braço, o dinheiro que trocou de mão, o
-guarda que agora sabe que passou alguém:
+guarda que agora sabe que passou alguém. Isso vai no mesmo ato, nos campos `anotacoes` e
+`dinheiro` da `registrar-acao`:
 
-```
-campanha.py anotar --npc "Donnwulf" --tag ferimento --texto "..."
-campanha.py anotar --pj "Negrum Carneiriums" --tag item --texto "..."
+```json
+{ "resumo": "Disputa Braço de ferro de Comam contra Donnwulf: Donnwulf venceu.",
+  "anotacoes": [ { "tipo": "npc", "nome": "Donnwulf", "tag": "ferimento",
+                   "texto": "Braço direito estourado na disputa." } ],
+  "dinheiro":  [ { "tipo": "pj", "nome": "Jah Kagadu", "valor": -50,
+                   "motivo": "Perdeu a aposta na disputa (cap. 07)" } ] }
 ```
 
-Veja a skill `campanha`, seção **O estado do mundo**.
+Veja a skill `registrar-acao` para o contrato do ato, e a `campanha`, seção **O estado do
+mundo**, para onde cada campo cai.
 
 ## roll6 — esta skill não grava lá
 
-Esta skill **resolve e registra no repositório**; ela **não grava nada no roll6** —
+Esta skill **resolve e entrega o resultado à `registrar-acao`**, que é quem registra no
+repositório; ela **não grava nada no roll6** —
 nem PV, nem Fadiga, nem status, nem posição, nem entrada de turno —, a menos que o
 usuário peça isso diretamente. Quem leva o resultado para a mesa virtual é a skill que a
 chamou: **`acao`** (ação avulsa) ou **`processar-turno`** (turno inteiro, num único
 `process_turn`), ou a skill `roll6` quando o usuário pedir a sincronização.
 
-Os scripts desta skill só gravam o acontecimento no capítulo; não chamam `campanha.py
-saude` nem `atualizar_mapa.py`, que são os que sincronizam sozinhos.
+O script desta skill não escreve em disco: o acontecimento sai do ato que ele entrega à
+registradora. Ele não chama `campanha.py saude` nem `atualizar_mapa.py`, que são os que
+sincronizam sozinhos.
