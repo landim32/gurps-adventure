@@ -44,7 +44,7 @@ for _fluxo in (sys.stdout, sys.stderr):
 
 # Normalização de nome vem da folha `contexto`, como em todo o resto do repo. Carregada
 # aqui — e nao no topo com as demais — porque este arquivo e importado por sys.path por
-# `campanha`, `atualizar-mapa` e `processar-turno`.
+# `campanha` e `processar-turno`.
 try:
     _espec = importlib.util.spec_from_file_location(
         "contexto", Path(__file__).resolve().parents[2] / "contexto" / "scripts" / "contexto.py")
@@ -254,9 +254,9 @@ def subir_documento(caminhos):
 def alinhamento(indice):
     """Parâmetros do modelo do roll6 para que coluna/linha lá = coluna/linha do grid local.
 
-    Grid local (add-grid-hex): topo chato, hexágono de altura metro_px, A1 centrado em
-    `origem`. roll6: raio fixo de 40 px, hex (0,0) centrado em (40, 20·√3), imagem
-    desenhada em (−imageLeft, −imageTop). Escala = raio roll6 / raio local.
+    Grid local (os indices em `cenarios/`): topo chato, hexágono de altura metro_px, A1
+    centrado em `origem`. roll6: raio fixo de 40 px, hex (0,0) centrado em (40, 20·√3),
+    imagem desenhada em (−imageLeft, −imageTop). Escala = raio roll6 / raio local.
     """
     d = json.loads(Path(indice).read_text(encoding="utf-8"))
     raio_local = d["metro_px"] / math.sqrt(3)

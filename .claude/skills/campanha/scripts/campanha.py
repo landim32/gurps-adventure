@@ -644,8 +644,8 @@ def cmd_mapa(args):
     if not alvo.is_file():
         print(f"AVISO: {args.mapa} nao existe ainda — anotei mesmo assim.")
     elif alvo.suffix.lower() != ".json":
-        print(f"AVISO: {args.mapa} nao e o indice .json de hexagonos da add-grid-hex; "
-              "a atualizar-mapa precisa do .json para colar tokens.")
+        print(f"AVISO: {args.mapa} nao e um indice .json de hexagonos; o roll6 e a mesa, "
+              "e o indice local so serve como referencia de grade.")
 
     definir_campo(pasta, "Mapa", f"`{args.mapa}`")
     if args.local:
@@ -1067,30 +1067,6 @@ def escrever_saude(r, p, registros):
     return f
 
 
-def sincronizar_saude_roll6(r, quem, ls, pv_max, fad_max, estados, args):
-    """Espelha no roll6 o que acabou de entrar no saude.md (skill roll6).
-
-    PJ vai com o valor atual (máximo da ficha + acumulado); NPC com o acumulado, que o
-    roll6 soma à vida-base do NPC. O status só é reescrito quando --estado/--curar mexeu
-    nele — senão o status de combate posto na mesa virtual continua lá.
-    """
-    try:
-        sys.path.insert(0, str(r / ".claude/skills/roll6/scripts"))
-        import roll6
-    except Exception as e:
-        print("roll6: cliente indisponível — {0}".format(e))
-        return
-    pv = sum(v for _, t, v, _ in ls if t == "PV" and v is not None)
-    fad = sum(v for _, t, v, _ in ls if t == "FAD" and v is not None)
-    mexeu = bool(args.estado or args.curar)
-    if args.pj:
-        roll6.sincronizar_saude(r, "pj", quem,
-                                pv_max + pv if pv_max else None,
-                                fad_max + fad if fad_max else None, estados, mexeu)
-    else:
-        roll6.sincronizar_saude(r, "npc", quem, pv, None, estados, mexeu)
-
-
 def cmd_saude(args):
     r = raiz(args)
     p = exige_campanha(r)
@@ -1129,7 +1105,7 @@ def cmd_saude(args):
             quem, pv_txt, fad_txt,
             "  [" + "; ".join(estados) + "]" if estados else ""))
         print("  {0}".format(f.as_posix()))
-        sincronizar_saude_roll6(r, quem, ls, pv_max, fad_max, estados, args)
+        print("  (o roll6 recebe vida e fadiga quando a processar-turno fecha o turno)")
         return
     if quem or lancamentos:
         raise SystemExit(

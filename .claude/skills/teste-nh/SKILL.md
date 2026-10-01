@@ -193,9 +193,10 @@ O log guarda a rolagem; a anotação é o que o Mestre lê da próxima vez. Veja
 
 Esta skill **resolve e registra no repositório**; ela **não grava nada no roll6** —
 nem PV, nem Fadiga, nem status, nem posição, nem entrada de turno —, a menos que o
-usuário peça isso diretamente. Quem leva o resultado para a mesa virtual é a skill que a
-chamou: **`acao`** (ação avulsa) ou **`processar-turno`** (turno inteiro, num único
-`process_turn`), ou a skill `roll6` quando o usuário pedir a sincronização.
+usuário peça isso diretamente. Quem altera o roll6 é a **`processar-turno`**, ao fechar o turno — vale também para a
+ação avulsa, cujo resultado fica no repositório até lá. Fora do fechamento de turno, o
+MCP muda só por pedido explícito do usuário.
 
-Os scripts desta skill só gravam o acontecimento no capítulo; não chamam `campanha.py
-saude` nem `atualizar_mapa.py`, que são os que sincronizam sozinhos.
+Os scripts desta skill só gravam o acontecimento no capítulo, pela `registrar-acao`. O
+`campanha.py saude` não sincroniza nada sozinho: vida e fadiga entram no roll6 quando a
+`processar-turno` fecha o turno.

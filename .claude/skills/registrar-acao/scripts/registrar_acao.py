@@ -22,7 +22,7 @@ RAIZ = Path(__file__).resolve().parents[4]
 CAMPANHA = RAIZ / ".claude" / "skills" / "campanha" / "scripts" / "campanha.py"
 
 # o campana.py escreve acento no nome do NPC e no motivo; sem isto o pipe estoura na
-# codepage do console - mesmo remédio que o atualizar_mapa.py usa
+# codepage do console. PYTHONIOENCODING obliga UTF-8 dos dois lados.
 AMBIENTE = {**os.environ, "PYTHONIOENCODING": "utf-8"}
 
 # um so alvo por lancamento: quem: {"tipo": "pj"|"npc"|"coisa", "nome": "..."}

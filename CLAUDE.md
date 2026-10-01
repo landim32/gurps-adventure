@@ -302,26 +302,38 @@ A campanha também é jogada no **roll6**, a mesa virtual acessada pelo servidor
 `roll6`. **Toda mudança entra primeiro no repositório e, em seguida, no roll6**. Se os
 dois discordarem, o repositório ganha e o roll6 é corrigido.
 
+- **Quem escreve no MCP é a `processar-turno`, e mais ninguém no fluxo de jogo.** Vida,
+  fadiga, status tático, posição de peça e fechamento de turno entram no roll6 quando ela
+  fecha o turno, num único `process_turn`. O `campanha.py saude` **registra em
+  `saude.md` e não empurra mais nada** para a mesa virtual — ele imprime a linha
+  `roll6: ...` só quando chamado pelo caminho explícito.
+- **Material sobe por pedido explícito do usuário**, e isto não é "estado de jogo": retrato
+  e planilha do personagem, token, NPC do acervo, modelo de mapa e plano da campanha. A
+  regra da ficha continua valendo: `update_character` só quando ele manda.
 - **`campanha/roll6.json`** liga a campanha ativa à do roll6: a campanha, os mapas
   alinhados e os apelidos de nome. Leia antes de sincronizar e atualize quando surgir
   campanha, mapa ou NPC novo.
-- **Automático:**
-  - `campanha.py saude` empurra PV e Fadiga (e o status, quando há `--estado`/`--curar`).
-  - `atualizar_mapa.py` empurra posição e frente das peças.
-  - Os dois imprimem linhas `roll6: ...`, que devem ser lidas. Nenhum deles apaga nada
-    no roll6.
-- **Pelo MCP, a cargo de quem grava:**
-  - personagem, NPC, token, modelo de mapa e plano;
-  - notas da participação (item perdido, desvantagem adquirida, saldo);
-  - **status tático** de cada rodada: arma preparada, caído, atordoado, choque,
-    apontando.
-  - Cada skill diz o que é seu na seção "roll6".
+- **Automático, no repositório:**
+  - `campanha.py saude` mantém `saude.md` (PV, Fadiga, estado) e `campanha.py bolsa`
+    mantém `bolsa.md`. Ambos regeram o `mundo.md`.
+  - Posição e frente das peças **não têm mais quem as desenhe no repositório**: as skills
+    `atualizar-mapa` e `add-grid-hex` saíram do repo, e a mesa é o roll6.
+- **Pelo MCP, dois regimes, e não um:**
+  - **material** (personagem, NPC do acervo, token, modelo de mapa, plano da campanha,
+    notas da participação — item perdido, desvantagem adquirida, saldo): escreve quem foi
+    chamado para aquilo, **quando o usuário pediu**;
+  - **estado de jogo** (vida, fadiga, **status tático** da rodada — arma preparada, caído,
+    atordoado, choque, apontando —, posição e frente das peças): **só a `processar-turno`**,
+    ao fechar o turno.
+  - Cada skill diz o que é seu na seção "roll6" — e o que é dela é *consultar*.
 - **Turno jogado no roll6** (os jogadores movem e declaram lá): quem fecha é a skill
   **`processar-turno`**. Ela confere se todos agiram, resolve como a `acao`, **mostra o
   resultado ao Mestre e só segue com a aprovação dele** (a menos que ele avise que não
   precisa), registra no repositório e encerra o turno com um único `process_turn`.
-- **Mapas:** um mapa do roll6 só é sincronizado depois de `roll6.py alinhar`, que deixa
-  coluna e linha iguais ao grid local (`P7` → x 15, y 6).
+- **Mapas:** um mapa do roll6 só é sincronizado depois de `roll6.py alinhar`, que deixa a
+  coluna e a linha do roll6 iguais às do índice de referência (`P7` → x 15, y 6). Os
+  índices que já existem em `cenarios/` continuam servindo de régua; **nada mais os gera**,
+  e o PNG de mesa local não é mais produzido.
 - **A regra da ficha vale lá também:** `update_character` só com pedido explícito do
   usuário. O que a mesa muda vai na participação.
 - **Nada destrutivo no roll6 sem confirmação** (`delete_*`, `remove_*`,

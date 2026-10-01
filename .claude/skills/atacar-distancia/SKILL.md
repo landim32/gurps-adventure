@@ -54,7 +54,7 @@ script só decide o Tiro Rápido no fim.
 | "Comam saca a besta e atira no morto do meio" | `--arma besta --alvo "Morto-Vivo 2"` |
 | "ele passou o turno mirando" | `--apontou 1` (dois turnos: `--apontou 2`) |
 | "atira na hora, sem mirar" | omita `--apontou` — o script cobra o Tiro Rápido se couber |
-| "ele está a uns oito metros" | `--distancia 8` — conte no mapa, é 1 hexágono = 1 metro |
+| "ele está a uns oito metros" | `--distancia 8` — conte no `list_map_tokens`, é 1 hexágono = 1 metro |
 | "apoiado na ameia" | `--apoiada` |
 | "mira na cabeça" | `--local cabeca` |
 | "no pescoço" | `--local pescoco` — regra da casa da 4ª ed. (skill `atacar`, "Pescoço"); de lado ou de trás, `--nao-frontal` |
@@ -190,10 +190,10 @@ E uma coisa que o script **não** faz: **tiro que erra vai para algum lugar**. Q
 disparo falha, ele lembra de conferir *«Atingindo o Alvo Errado»* (MB, pág. 117) se havia
 alguém na linha de tiro. Isso é arbitragem sua.
 
-## Ângulo de visão e alcance são conferidos no mapa
+## Ângulo de visão e alcance são conferidos no mapa do roll6
 
-O script recebe a distância pronta e acredita nela. Antes de rodar, olhe a cena na skill
-`atualizar-mapa`:
+O script recebe a distância pronta e acredita nela. Antes de rodar, consulte
+`list_map_tokens` (peças com posição e frente; `get_map` diz o tamanho da grade):
 
 - **conte os hexágonos** entre atirador e alvo — 1 hexágono é 1 metro;
 - confira se o alvo está no **ângulo de visão** (os hexágonos à frente). Fora dele, é
@@ -255,9 +255,10 @@ quebrado no erro crítico. Aljava vazia decide cena — anote.
 
 Esta skill **resolve e registra no repositório**; ela **não grava nada no roll6** —
 nem PV, nem Fadiga, nem status, nem posição, nem entrada de turno —, a menos que o
-usuário peça isso diretamente. Quem leva o resultado para a mesa virtual é a skill que a
-chamou: **`acao`** (ação avulsa) ou **`processar-turno`** (turno inteiro, num único
-`process_turn`), ou a skill `roll6` quando o usuário pedir a sincronização.
+usuário peça isso diretamente. Quem altera o roll6 é a **`processar-turno`**, ao fechar o turno — vale também para a
+ação avulsa, cujo resultado fica no repositório até lá. Fora do fechamento de turno, o
+MCP muda só por pedido explícito do usuário.
 
-Os scripts desta skill só gravam o acontecimento no capítulo; não chamam `campanha.py
-saude` nem `atualizar_mapa.py`, que são os que sincronizam sozinhos.
+Os scripts desta skill só gravam o acontecimento no capítulo. Esta skill **não escreve no
+MCP**: quem altera o roll6 é o `processar-turno`, ao fechar o turno; fora dele, só por
+pedido explícito do usuário.

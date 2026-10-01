@@ -98,7 +98,9 @@ tentar usá-los faz o comando morrer. Se precisar de hora, ela vai dentro do tex
    rolagem secreta ficam **fora** do bloco, por definição.
 4. **Devolve o plano do roll6** em texto, já com o nome de cada chamada MCP, os argumentos e
    o aviso do que precisa ser lido antes (`get_participation` para devolver o `sheet` sem
-   alterar). O Python daqui não fala com o roll6; quem executa é o Mestre, na mesma resposta.
+   alterar). O Python daqui não fala com o roll6: ele **prepara** as chamadas. Quem as executa
+   é a `processar-turno`, ao fechar o turno; fora dela, só quando o usuário pediu aquele
+   material (token, retrato, plano, ficha na participação).
    Dentro de um turno do roll6, **um único `process_turn`** fecha tudo: se vier
    `roll6.turno`, esta skill inibe as escritas por peça e entrega só o fechamento.
 5. **Diz o que não registrou**, e por quê. Jogada que não sobrevive à cena (Fadiga que volta

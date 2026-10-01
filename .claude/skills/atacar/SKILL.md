@@ -167,15 +167,15 @@ Ela resolve **o golpe**, não o combate inteiro. Continua com você, ou com outr
 |---|---|
 | Quem age primeiro, surpresa | skill **`iniciativa`** (e a ordem de turnos é fixa, por Deslocamento) |
 | Finta | skill **`disputa-nh`** — a margem vira `--alvo-defesa-mod` negativo |
-| Onde cada um está, alcance, hexágono frontal ou lateral | skill **`atualizar-mapa`** |
+| Onde cada um está, alcance, hexágono frontal ou lateral | MCP: **`list_map_tokens`** (posição e frente de cada peça); `get_map` diz o tamanho da grade |
 | Um teste solto no meio da luta | skill **`teste-nh`** |
 | **Tiro, arremesso, qualquer arma de longo alcance** | skill **`atacar-distancia`** |
 | Combate de perto, agarrar, desarmar | MB, cap. 14 — arbitre e use `--mod` |
 | Somar os pontos de vida perdidos ao longo da luta | você; o script resolve um golpe por vez |
 
-**Alcance e direção não são conferidos pelo script.** Confira no mapa antes: ataque pelo
-hexágono lateral dá -2 na defesa do alvo, pelas costas não há defesa ativa nenhuma, e
-escudo só protege da frente e do lado dele.
+**Alcance e direção não são conferidos pelo script.** Confira no `list_map_tokens` antes:
+ataque pelo hexágono lateral dá -2 na defesa do alvo, pelas costas não há defesa ativa
+nenhuma, e escudo só protege da frente e do lado dele.
 
 ## Nunca invente o dado
 
@@ -295,9 +295,10 @@ cena não precisa de registro nenhum. Detalhes na skill `campanha`, seções **A
 
 Esta skill **resolve e registra no repositório**; ela **não grava nada no roll6** —
 nem PV, nem Fadiga, nem status, nem posição, nem entrada de turno —, a menos que o
-usuário peça isso diretamente. Quem leva o resultado para a mesa virtual é a skill que a
-chamou: **`acao`** (ação avulsa) ou **`processar-turno`** (turno inteiro, num único
-`process_turn`), ou a skill `roll6` quando o usuário pedir a sincronização.
+usuário peça isso diretamente. Quem altera o roll6 é a **`processar-turno`**, ao fechar o turno — vale também para a
+ação avulsa, cujo resultado fica no repositório até lá. Fora do fechamento de turno, o
+MCP muda só por pedido explícito do usuário.
 
-Os scripts desta skill só gravam o acontecimento no capítulo; não chamam `campanha.py
-saude` nem `atualizar_mapa.py`, que são os que sincronizam sozinhos.
+Os scripts desta skill só gravam o acontecimento no capítulo. Esta skill **não escreve no
+MCP**: quem altera o roll6 é o `processar-turno`, ao fechar o turno; fora dele, só por
+pedido explícito do usuário.

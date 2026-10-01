@@ -36,9 +36,9 @@ o que sobrou do plano. E a separação física é o que garante que ninguém "co
 depois do fato — o plano é o registro do que se pretendia, e vale como documento
 justamente por isso.
 
-**Mapas com tokens e o que a partida produziu** vão para a pasta de jogo — é lá que a
-`atualizar-mapa` grava. **Ilustrações da cena planejada** (abertura, batidas do capítulo)
-vão para a pasta do **plano**.
+**O que a partida produziu** vai para a pasta de jogo. A mesa com as posições não é mais
+desenhada por skill — a mesa é o **roll6**. **Ilustrações da cena planejada** (abertura,
+batidas do capítulo) vão para a pasta do **plano**.
 
 ## Estrutura
 
@@ -57,8 +57,6 @@ campanha/                     a campanha ATIVA (só existe uma)
 
   01-<capitulo>/              O QUE ESTÁ ACONTECENDO — mexido durante o jogo
     README.md                 a cena como foi + narração lida + acontecimentos
-    <mapa>-mesa.png           o mapa daquele capítulo, com as posições
-    <mapa>-movimentos.json    o histórico das movimentações
 
 historico/campanhas/
   <slug-da-campanha>/         campanhas encerradas, inteiras
@@ -165,7 +163,7 @@ da campanha:
 
 **Em que cenário a cena se passa é informação de plano**, não de jogo: foi decidido ao
 escrever a campanha, muito antes de alguém sentar à mesa. Por isso mora aqui, e não na
-pasta de jogo — que guarda o mapa *com as posições*, resultado da partida.
+pasta de jogo — que guarda o que a partida produziu.
 
 Declare na criação do capítulo, ou depois:
 
@@ -177,12 +175,12 @@ campanha.py mapa --capitulo 1 --mapa cenarios/taberna3.json \
   --local "Taberna do porto, Wallace (Caithness)"
 ```
 
-`--mapa` aponta para o **índice `.json` de hexágonos** que a `add-grid-hex` grava, não para
-a imagem: é dele que se colam os tokens. O comando avisa se o arquivo não existe ainda
-(útil ao planejar antes de desenhar) ou se não é um `.json`.
+`--mapa` aponta para o **índice `.json` de hexágonos** em `cenarios/`, não para a imagem.
+Esses índices ficaram como referência histórica de alinhamento — nenhuma skill os gera
+hoje. O comando avisa se o arquivo não existe ainda ou se não é um `.json`.
 
-O ganho prático: a **`atualizar-mapa` dispensa o `--indice`**. Marcado o capítulo atual,
-ela lê daqui qual cenário usar. Um cenário por cena, decidido uma vez.
+O ganho prático: marcado o capítulo atual, quem conduz a cena sabe qual cenário é o dele.
+Um cenário por cena, decidido uma vez.
 
 Vale para qualquer outro campo que a cena precise fixar de antemão — `**Hora:**`,
 `**Clima:**`, `**Iluminação:**`. O cabeçalho é livre; `Mapa` e `Local` são só os dois que
@@ -469,8 +467,8 @@ o prompt também na resposta, em bloco de código.
    do plano, com um README que já aponta de volta para o planejado.
 3. Regera o índice.
 
-É assim que **outras skills sabem onde gravar o que produzem**: a `atualizar-mapa`, por
-exemplo, põe a imagem da mesa em `campanha/03-fechem-os-portoes/`.
+É assim que **outras skills sabem onde gravar o que produzem**: com o capítulo marcado, o
+arquivo do que a mesa fez vai para a pasta de jogo dele.
 
 **Marque o capítulo ao começar a sessão.** A ilustração de abertura já deveria estar no
 plano; sem capítulo marcado, as outras skills gravam num lugar genérico e avisam.
@@ -482,7 +480,7 @@ plano; sem capítulo marcado, as outras skills gravam num lugar genérico e avis
 | `capitulo_atual` | O número (`"03"`) |
 | `capitulo_atual_pasta` | `campanha/03-...` — **a pasta de jogo, onde se grava** |
 | `capitulo_atual_plano` | `campanha/plano/03-...` — o planejado, para leitura |
-| `capitulo_atual_mapa` | O índice de hexágonos que o plano declara para a cena |
+| `capitulo_atual_mapa` | O índice `.json` de hexágonos que o plano declara para a cena — referência histórica em `cenarios/`, nada o gera mais |
 
 Todos `null` se ninguém marcou. **Quem produz arquivo usa `capitulo_atual_pasta`**; o
 `_plano` serve para consultar a cena, não para escrever nela.
@@ -516,13 +514,12 @@ trocou de dono, relação que virou), acrescente também:
 > `campanha/mundo.md`. O acontecimento conta o fato; a anotação é o que o Mestre lê da
 > próxima vez.
 
-E, se a skill **produz arquivo** (imagem, mapa, tabela), grave-o na pasta do capítulo
+E, se a skill **produz arquivo** (imagem, tabela), grave-o na pasta do capítulo
 atual (`campanha/NN-.../`, **não** a do plano), lendo `capitulo_atual_pasta` do mesmo
-`estado --json`. Sem capítulo marcado, grave no lugar genérico e **diga por quê** — a
-`atualizar-mapa` imprime uma linha `Destino:` em toda execução, e é um bom padrão a copiar.
+`estado --json`. Sem capítulo marcado, grave no lugar genérico e **diga por quê** —
+imprimir uma linha `Destino:` em toda execução é um bom padrão a copiar.
 
-Quem chama decide o que é relevante. Exemplos do que faz sentido: a `atualizar-mapa`
-registrando o posicionamento inicial de um combate; a `criar-personagem-gurps`
+Quem chama decide o que é relevante. Exemplos do que faz sentido: a `criar-personagem-gurps`
 registrando que um personagem entrou no grupo; uma skill de combate registrando o
 desfecho.
 

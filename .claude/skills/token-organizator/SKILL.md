@@ -235,9 +235,10 @@ redistribuição.
 
 ## Depois
 
-O token sai com fundo transparente e proporção livre. Para colar num mapa, use a skill
-`atualizar-mapa`: ela lê o índice JSON da `add-grid-hex` e escala o token para um
-hexágono (1 m).
+O token sai com fundo transparente e proporção livre. O mapa local não é mais desenhado
+por skill: a peça entra no roll6 (ver logo abaixo). Os índices `.json` de hexágonos que
+ainda existem em `cenarios/` ficaram como referência histórica de alinhamento — nada os
+gera mais.
 
 Para **gerar** um token novo a partir de uma ficha do projeto, em vez de importar um
 pronto, use a skill `token-hex-gurps` — e depois catalogue o resultado por aqui, com

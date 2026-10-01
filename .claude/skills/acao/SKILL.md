@@ -58,7 +58,7 @@ Esta é a parte que a skill não pode automatizar, e é o trabalho de verdade. A
 | Violência declarada | Troca de golpes inteira | `atacar` (ou `atacar-distancia`, se for tiro) |
 | Primeira impressão com um NPC que ainda não tem reação rolada | Teste de reação | `reacao` |
 | Começou luta e ninguém sabe quem age primeiro | Surpresa e ordem | `iniciativa` |
-| Alguém se move no mapa da cena | Posição nova | `atualizar-mapa` |
+| Alguém se move no mapa da cena | Posição nova | posição e frente: consulte `list_map_tokens`; mover é com o `processar-turno` |
 | Um dado avulso que nenhuma das anteriores cobre | 3d, 1d, o que for | `roll` |
 
 **Nunca role de cabeça, nunca invente NH.** As skills acima é que rolam; esta aqui decide
@@ -219,15 +219,22 @@ e o motivo.
 ## roll6 — a mesa virtual
 
 As skills que esta chama (`roll`, `teste-nh`, `disputa-nh`, `atacar`, `atacar-distancia`,
-`iniciativa`, `reacao`) **não gravam no roll6**: quem leva o resultado para lá é esta.
+`iniciativa`, `reacao`) não gravam no roll6 — e **esta também não grava**. A `acao`
+resolve, decide o que mudou no estado da mesa e **entrega o ato à `registrar-acao`**, que
+registra no repositório e prepara as chamadas do roll6. Quem altera o MCP é a
+**`processar-turno`**, ao fechar o turno; fora dela, só por pedido explícito do usuário.
 
-- **PV, Fadiga e posição** vão sozinhos quando você registra: `campanha.py saude` e
-  `atualizar_mapa.py` sincronizam por conta própria. Leia as linhas `roll6: ...`.
-- **O status tático é seu**: depois de resolver, atualize o que vale até o próximo turno —
-  PJ por `update_participation` (mande de volta o `sheet` do `get_participation`), NPC
-  por `update_map_npc` com o `currentLife`/`currentEnergy` atuais. Entra: arma preparada
-  ou despreparada, caído, de joelhos, atordoado, redutor de choque do próximo turno,
-  apontando, sem defesa por Ataque Total, cavalo exausto, desarmado. Até 260 caracteres.
+- **PV e Fadiga** entram em `saude.md` pelo ato. O `campanha.py saude` **não sincroniza
+  mais por conta própria** — a vida no roll6 muda quando o turno fecha, e o valor que a
+  mesa vê no meio do turno é o do último turno fechado.
+- **O status tático é decidido aqui, escrito lá.** O que vale até o próximo turno entra no
+  ato — PJ por `update_participation` (devolvendo o `sheet` que veio do
+  `get_participation`), NPC por `update_map_npc` com o `currentLife`/`currentEnergy`
+  atuais. Entra: arma preparada ou despreparada, caído, de joelhos, atordoado, redutor de
+  choque do próximo turno, apontando, sem defesa por Ataque Total, cavalo exausto,
+  desarmado. Até 260 caracteres.
+- **Posição e frente: consulte** `list_map_tokens` (peças com posição e frente) e `get_map`
+  (tamanho da grade). Mover peça no MCP é da `processar-turno`.
 - **Reação não vai**: nem faixa, nem número, nem motivo — o `reacoes.json` é segredo.
 - **Dentro de um turno do roll6** (`processar-turno`), não sincronize ação por ação:
   aquela skill fecha tudo num único `process_turn`.

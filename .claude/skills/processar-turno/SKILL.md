@@ -6,8 +6,8 @@ description: >
   resolve o turno como a skill acao faz — cada declaração pelas regras de GURPS 3ª Edição,
   chamando roll, teste-nh, disputa-nh, atacar, atacar-distancia, iniciativa e reacao —,
   decide e resolve os NPCs, mostra o resultado ao Mestre e espera a aprovação dele (salvo
-  aviso de que não precisa), registra tudo no repositório (log, anotações, saúde, bolsa,
-  mapa local) e fecha o turno com o MCP process_turn, com PV, Fadiga, status, posições e a
+  aviso de que não precisa), registra tudo no repositório (log, anotações, saúde, bolsa)
+  e fecha o turno com o MCP process_turn, com PV, Fadiga, status, posições e a
   narração. Use when the user asks "processe o turno", "processar turno", "feche o turno
   do roll6", "resolva o turno", "todo mundo jogou", ou /processar-turno.
 ---
@@ -148,7 +148,7 @@ turno, nesta ordem:
 1. **O indefeso ganha de tudo.** Caído, atordoado, sem defesa ativa (Ataque Total no
    turno anterior), desarmado, inconsciente, preso, de costas: se ele está ao alcance, é
    ele, **mesmo que a reação com ele seja melhor** que a com o vizinho armado.
-2. **O mais próximo.** Conte em hexágonos, pelo mapa.
+2. **O mais próximo.** Conte em hexágonos, pelo mapa do roll6.
 3. **Empate de distância: o de pior reação**, o `total` mais baixo no contexto.
 4. **Ainda empatado: quem causou mais dano** a ele ou aos dele nesta luta. Depois disso,
    dado (`roll.py 1d`).
@@ -265,26 +265,26 @@ dispensa a revisão do resultado, não as dúvidas de regra.
 
 ## 5. Registrar no repositório, sem empurrar ao roll6 ainda
 
-Tudo vai para o roll6 de uma vez, no `process_turn`. Por isso os scripts que
-sincronizam sozinhos rodam com `ROLL6_DESLIGADO=1` nesta skill, senão cada lançamento
-viraria uma mudança solta no log do turno:
+Tudo vai para o roll6 de uma vez, no `process_turn`. Nada no repo empurra estado sozinho
+desde que o `campanha.py saude` parou de sincronizar e o mapa local saiu de cena — por isso
+não há mais o que desligar aqui; o bloco abaixo só escreve no repositório:
 
 ```bash
-export ROLL6_DESLIGADO=1
 C=.claude/skills/campanha/scripts/campanha.py
 python $C acontecimento --texto "TURNO N (roll6) — ..."   # uma linha por turno, completa
 python $C saude --pj "Nome" --pv -3 --motivo "..."        # e --estado/--curar para o que fica
 python $C saude --npc "Morto 5" --pv -7 --motivo "..."
 python $C anotar --pj/--npc/--coisa "..." --tag ... --texto "..."   # o que sobrevive à cena
 python $C bolsa --pj "Nome" --valor +50 --motivo "..."
-python .claude/skills/atualizar-mapa/scripts/atualizar_mapa.py --pj "..." --npc "..."
 ```
 
 - **O acontecimento** segue o padrão do log: o que cada um declarou, o NH e de onde saiu
   cada modificador, o que tirou, a defesa, o dano e o estado final. As erratas do Mestre
   levam a palavra **ERRATA**.
-- **O mapa local** recebe as posições que o roll6 tem ao fim do turno, com os movimentos
-  dos jogadores e os que a resolução causou, como empurrão, queda ou fuga.
+- **As posições da mesa vivem no roll6** — o mapa local não é mais desenhado por skill.
+  Os movimentos dos jogadores e os que a resolução causou, como empurrão, queda ou fuga,
+  entram no `process_turn` da seção 6; os índices `.json` de hexágonos que ainda existem
+  em `cenarios/` ficaram como referência histórica de alinhamento, nada os gera mais.
 - **A ficha não é tocada**, como na `acao`.
 
 ## 6. Fechar o turno: `process_turn`
@@ -343,8 +343,8 @@ Envie pelo MCP (`process_turn`) ou, se a sessão ainda não carregou a ferrament
 cliente: `roll6.py chamar process_turn "$(cat turno.json)"`.
 
 **Campanha do roll6 que não existe no repositório** (teste, one-shot:
-`processar_turno.py contexto --campanha N`): **não registre com `campanha.py` nem com
-`atualizar_mapa.py`**, que gravariam na campanha ativa. Nesse caso o registro é só o
+`processar_turno.py contexto --campanha N`): **não registre com `campanha.py`**, que
+gravaria na campanha ativa. Nesse caso o registro é só o
 `process_turn`, e a ficha é a local, se houver (inclusive em `historico/personagens/`),
 ou o `characterSheet` do `get_participation`.
 
@@ -396,7 +396,7 @@ o turno novo que o roll6 abriu e o item 3.
    - as decisões que você tomou pelos NPCs;
    - o que foi corrigido à mão nos scripts;
    - o turno novo que o roll6 abriu (`turnNo` da resposta).
-3. **O que foi gravado**: o acontecimento, as anotações, a saúde, o mapa e as notas da
+3. **O que foi gravado**: o acontecimento, as anotações, a saúde e as notas da
    participação.
 
 ## O que esta skill nunca faz

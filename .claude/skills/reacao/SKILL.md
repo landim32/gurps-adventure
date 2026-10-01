@@ -153,13 +153,14 @@ merecia coisa melhor, e não arredonde a favor de ninguém.
 Esta skill **resolve e entrega o resultado à `registrar-acao`**, que é quem registra no
 repositório; ela **não grava nada no roll6** —
 nem PV, nem Fadiga, nem status, nem posição, nem entrada de turno —, a menos que o
-usuário peça isso diretamente. Quem leva o resultado para a mesa virtual é a skill que a
-chamou: **`acao`** (ação avulsa) ou **`processar-turno`** (turno inteiro, num único
-`process_turn`), ou a skill `roll6` quando o usuário pedir a sincronização.
+usuário peça isso diretamente. Quem altera o roll6 é a **`processar-turno`**, ao fechar o turno — vale também para a
+ação avulsa, cujo resultado fica no repositório até lá. Fora do fechamento de turno, o
+MCP muda só por pedido explícito do usuário.
 
 O script desta skill não escreve em disco: nem o `reacoes.json`, nem o acontecimento — os
-dois saem do ato que ele entrega à registradora. Ele não chama `campanha.py saude` nem
-`atualizar_mapa.py`, que são os que sincronizam sozinhos.
+dois saem do ato que ele entrega à registradora. Esta skill **não escreve no MCP**: quem
+altera o roll6 é o `processar-turno`, ao fechar o turno; fora dele, só por pedido
+explícito do usuário.
 
 **Reação é segredo.** O `reacoes.json` fica só no repositório: nem a faixa, nem o total,
 nem o motivo vão ao roll6 ou ao WhatsApp, mesmo quando outra skill sincronizar a mesa.
