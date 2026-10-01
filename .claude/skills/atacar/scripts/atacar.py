@@ -45,6 +45,8 @@ _roll = _carrega("roll", SKILLS / "roll" / "scripts" / "roll.py")
 cd = _carrega("causar_dano", SKILLS / "causar-dano" / "scripts" / "causar_dano.py")
 dv = _carrega("resolver_defesa",
               SKILLS / "resolver-defesa" / "scripts" / "resolver_defesa.py")
+af = _carrega("arbitrar_ferimento",
+              SKILLS / "arbitrar-ferimento" / "scripts" / "arbitrar_ferimento.py")
 
 for _fluxo in (sys.stdout, sys.stderr):
     try:
@@ -487,52 +489,18 @@ def main():
                fulminante=fulminante)
         return
 
-    # ---------------------------------------------------------- queda e atordoamento
-    if ht_alvo:
-        p(f"\nCONSEQUÊNCIAS (HT {ht_alvo}):")
-        # Hipoalgia (Limiar de Dor Alto) elimina o redutor por ferimento — e e justamente
-        # o que os mortos-vivos desta campanha tem.
-        hipo = args.alvo_hipoalgia or (bool(fd) and
-                                       tn.nivel_vantagem(fd, "hipoalgia") is not None)
-        if hipo:
-            p(f"  {alvo} tem Hipoalgia: **não** sofre o redutor por ferimento. Continua "
-              f"atacando com o NH cheio.")
-        else:
-            p(f"  No próximo turno, {alvo} ataca com -{ferimento} (redutor por ferimento).")
-        if ferimento > ht_alvo // 2:
-            dq = _roll.d6(3)
-            tq = sum(dq)
-            ok = tq <= ht_alvo
-            p(f"  Perdeu mais da metade da HT num golpe só: teste de HT para não cair.")
-            p(f"    3d [{', '.join(map(str, dq))}] = {tq} contra {ht_alvo} — "
-              + ("continua de pé" if ok else "CAIU"))
-            MEC.append(f"Perdeu mais de HT/2: teste de HT {ht_alvo} para não cair, "
-                       f"3d {dados_txt(dq)} = *{tq}* → "
-                       + ("de pé" if ok else "*CAIU*") + "; *ATORDOADO* (-4 nas defesas)")
-            p(f"  Caindo ou não, {alvo} fica ATORDOADO: -4 em todas as defesas ativas no "
-              f"turno seguinte, e testa HT no início de cada turno para se recuperar.")
-        elif efeito.get("atordoa"):
-            p(f"  {alvo} fica ATORDOADO pelo golpe fulminante: -4 nas defesas ativas, "
-              f"e testa HT a cada turno para sair.")
-            MEC.append("*ATORDOADO* pelo golpe fulminante (-4 nas defesas)")
-        if chave in ("cabeca", "cerebro") or (chave == "orgaos-vitais" and tipo == "cont"):
-            dn = _roll.d6(3)
-            tnk = sum(dn)
-            p(f"  Golpe na cabeça (ou contundente nos vitais): teste de HT contra nocaute.")
-            p(f"    3d [{', '.join(map(str, dn))}] = {tnk} contra {ht_alvo} — "
-              + ("aguentou" if tnk <= ht_alvo else "NOCAUTEADO"))
-            MEC.append(f"Teste de HT {ht_alvo} contra nocaute: 3d {dados_txt(dn)} = *{tnk}* → "
-                       + ("aguentou" if tnk <= ht_alvo else "*NOCAUTEADO*"))
-        if chave == "cerebro":
-            if ferimento > ht_alvo // 2:
-                p(f"  Perda acima de HT/2 pelo crânio: NOCAUTEADO.")
-                MEC.append("Perda acima de HT/2 pelo crânio: *NOCAUTEADO*")
-            elif ferimento > ht_alvo // 3:
-                p(f"  Perda acima de HT/3 pelo crânio: ATORDOADO.")
-                MEC.append("Perda acima de HT/3 pelo crânio: *ATORDOADO*")
-    else:
-        p(f"\nSem a HT de {alvo} não dá para testar queda, atordoamento nem os tetos do "
-          f"local. Passe --alvo-ht (está no npcs.md).")
+    # ---------------------------------------------------------- consequências
+    # Queda, atordoamento, nocaute e o crânio exposto: a mesma folha dos dois lados do
+    # alcance. Devolve também o estado tático pronto (caiu, atordoado, nocauteado), que é
+    # o que vai para o ato entregue à registrar-acao.
+    fer = af.calcular({
+        "alvo": alvo, "ferimento": ferimento, "ht_alvo": ht_alvo, "chave": chave,
+        "tipo": tipo, "efeito": efeito, "ficha": fd, "hipoalgia": args.alvo_hipoalgia,
+    })
+    for linha in fer["saida"]:
+        p(linha)
+    MEC.extend(fer["mec"])
+
 
     _fecha(saida, avisos, args, raiz, atacante, alvo, local,
            f"acertou {local['nome'].lower()}", ferimento, fulminante=fulminante,

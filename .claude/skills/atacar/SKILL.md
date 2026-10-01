@@ -6,7 +6,8 @@ description: >
   ou erro crítico nas tabelas, defesa ativa mais passiva do alvo — número e dado na folha
   `resolver-defesa`, a mesma da arma de longe. A avaliação de dano — RD
   por região, bônus por tipo de dano, tetos do local e membro — é da folha `causar-dano`,
-  que esta chama; os testes de queda e atordoamento ainda correm aqui. Entrega o texto para
+  que esta chama; as consequências do ferimento — queda, atordoamento, nocaute — são da
+  folha `arbitrar-ferimento`, a mesma da arma de longe. Entrega o texto para
   o WhatsApp e devolve o resultado à `registrar-acao`. Use when the user asks "ataque total
   no pescoço do morto-vivo", "ele ataca com a espada", "o orc golpeia o Kaelric", "aparar",
   "esquiva", ou /atacar.

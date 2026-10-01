@@ -483,48 +483,17 @@ def main():
         return
 
 
-    # ---------------------------------------------------------- consequencias
-    if ht_alvo:
-        p(f"\nCONSEQUÊNCIAS (HT {ht_alvo}):")
-        hipo = args.alvo_hipoalgia or (bool(fd) and
-                                       tn.nivel_vantagem(fd, "hipoalgia") is not None)
-        if hipo:
-            p(f"  {alvo} tem Hipoalgia: **não** sofre o redutor por ferimento.")
-        else:
-            p(f"  No próximo turno, {alvo} age com -{ferimento} (redutor por ferimento).")
-        if ferimento > ht_alvo // 2:
-            dq = _roll.d6(3)
-            tq = sum(dq)
-            p("  Perdeu mais da metade da HT num tiro só: teste de HT para não cair.")
-            p(f"    3d [{', '.join(map(str, dq))}] = {tq} contra {ht_alvo} — "
-              + ("continua de pé" if tq <= ht_alvo else "CAIU"))
-            MEC.append(f"Perdeu mais de HT/2: teste de HT {ht_alvo} para não cair, "
-                       f"3d {dados_txt(dq)} = *{tq}* → "
-                       + ("de pé" if tq <= ht_alvo else "*CAIU*")
-                       + "; *ATORDOADO* (-4 nas defesas)")
-            p(f"  Caindo ou não, {alvo} fica ATORDOADO: -4 nas defesas ativas no turno "
-              f"seguinte, e testa HT no início de cada turno para se recuperar.")
-        elif efeito.get("atordoa"):
-            p(f"  {alvo} fica ATORDOADO pelo golpe fulminante: -4 nas defesas ativas.")
-            MEC.append("*ATORDOADO* pelo golpe fulminante (-4 nas defesas)")
-        if chave in ("cabeca", "cerebro") or (chave == "orgaos-vitais" and tipo == "cont"):
-            dn = _roll.d6(3)
-            tnk = sum(dn)
-            p("  Tiro na cabeça (ou contundente nos vitais): teste de HT contra nocaute.")
-            p(f"    3d [{', '.join(map(str, dn))}] = {tnk} contra {ht_alvo} — "
-              + ("aguentou" if tnk <= ht_alvo else "NOCAUTEADO"))
-            MEC.append(f"Teste de HT {ht_alvo} contra nocaute: 3d {dados_txt(dn)} = *{tnk}* → "
-                       + ("aguentou" if tnk <= ht_alvo else "*NOCAUTEADO*"))
-        if chave == "cerebro":
-            if ferimento > ht_alvo // 2:
-                p("  Perda acima de HT/2 pelo crânio: NOCAUTEADO.")
-                MEC.append("Perda acima de HT/2 pelo crânio: *NOCAUTEADO*")
-            elif ferimento > ht_alvo // 3:
-                p("  Perda acima de HT/3 pelo crânio: ATORDOADO.")
-                MEC.append("Perda acima de HT/3 pelo crânio: *ATORDOADO*")
-    else:
-        p(f"\nSem a HT de {alvo} não dá para testar queda, nocaute nem os tetos do "
-          f"local. Passe --alvo-ht (está no npcs.md).")
+    # ---------------------------------------------------------- consequências
+    # A mesma folha do corpo a corpo. O que muda é a palavra: aqui é tiro, não golpe.
+    fer = C.af.calcular({
+        "alvo": alvo, "ferimento": ferimento, "ht_alvo": ht_alvo, "chave": chave,
+        "tipo": tipo, "efeito": efeito, "ficha": fd, "hipoalgia": args.alvo_hipoalgia,
+        "projetil": True,
+    })
+    for linha in fer["saida"]:
+        p(linha)
+    MEC.extend(fer["mec"])
+
 
     _fecha(saida, avisos, args, raiz, atacante, alvo, local, arma_nome, distancia,
            f"acertou {local['nome'].lower()}", ferimento, nh=nh, ataque=ta,

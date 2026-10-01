@@ -43,7 +43,7 @@ python .claude/skills/atacar-distancia/scripts/atacar_distancia.py \
 | 7 | **Jogada de ataque** | 3d. Recusa a jogada se o NH efetivo cair a 3 ou menos |
 | 8 | **Fulminante / erro crítico** | as mesmas tabelas da skill `atacar` |
 | 9 | **Defesa** | **Esquiva ou Bloqueio** + Reflexos em Combate + DP da peça + **DP do escudo** |
-| 10 | **Dano, local, consequências** | igual ao corpo a corpo: RD da região, tipo de dano, tetos, queda, nocaute |
+| 10 | **Dano, local, consequências** | igual ao corpo a corpo: RD da região, tipo de dano e tetos na folha `causar-dano`; queda, atordoamento e nocaute na `arbitrar-ferimento` |
 
 **A ordem importa em um ponto só, e é o que mais se erra:** o TR é comparado com o NH
 **já ajustado** por tamanho, distância e condições — não com o NH básico. Por isso o
