@@ -131,7 +131,7 @@ tempo de execução, duração, custo para fazer e para manter. Na planilha do p
 lista de perícias traz só uma linha remetendo ao grimório, com a contagem e o total de
 pontos, para não estourar o espaço da coluna.
 
-A criação é feita pela skill `criar-personagem-gurps` (em `.claude/skills/`), que segue as
+A criação é feita pela skill `criar-personagem` (em `.claude/skills/`), que segue as
 regras dos livros: monta a armadura peça por peça pelo Sistema Avançado de Combate, respeita
 o limite de -40 pontos em desvantagens e, quando você cita um arquétipo ("um mercenário", "um
 cavaleiro"), segue o que o livro descreve para aquele tipo.
@@ -148,12 +148,12 @@ edite o Comam: troque as picaretas por um machado de guerra e suba Tática
 Requer Python 3 com [Pillow](https://python-pillow.org/):
 
 ```bash
-python .claude/skills/criar-personagem-gurps/scripts/preencher_ficha.py \
+python .claude/skills/criar-personagem/scripts/preencher_ficha.py \
   --data personagens/<slug>/personagem.json \
   --template ficha-de-personagem.jpg \
   --output personagens/<slug>/ficha.jpg
 
-python .claude/skills/criar-personagem-gurps/scripts/preencher_grimorio.py \
+python .claude/skills/criar-personagem/scripts/preencher_grimorio.py \
   --data personagens/<slug>/personagem.json \
   --template grimorio.jpg \
   --output personagens/<slug>/grimorio.jpg

@@ -28,7 +28,7 @@ quadrada para sentar no hex sem distorcer.
    barba anã…). Ignore pontos, NH e custos.
 3. Se existir retrato (`foto.png` / `foto` no JSON / `foto-prompt.md`), use-o
    como referência de identidade. Senão, derive o visual do JSON como a skill
-   `criar-personagem-gurps` faz no `foto-prompt.md` — sem reler aquela skill
+   `criar-personagem` faz no `foto-prompt.md` — sem reler aquela skill
    inteira; o campo `aparencia` + equipamento bastam.
 
 ## Gerar

@@ -175,6 +175,7 @@ Ela resolve **o golpe**, não o combate inteiro. Continua com você, ou com outr
 | Um teste solto no meio da luta | skill **`teste-nh`** |
 | **Tiro, arremesso, qualquer arma de longo alcance** | skill **`atacar-distancia`** |
 | Combate de perto, agarrar, desarmar | MB, cap. 14 — arbitre e use `--mod` |
+| **Manobra de arte marcial que está na ficha** (Chave de Braço, Quedas, Bloqueio Agressivo, Chute Descendente…) | `livros/gurps-artes-marciais-3ed/04-combate-manobras.md`, seção **“Manobras Realistas”**; o NH vem da categoria `Manobras` da ficha de quem executa |
 | Somar os pontos de vida perdidos ao longo da luta | você; o script resolve um golpe por vez |
 
 **Alcance e direção não são conferidos pelo script.** Meça com `calcular-alcance` (ou

@@ -70,9 +70,9 @@ do MCP; `roll6.py` cobre o que precisa de arquivo local (imagem, documento, grid
 
 | Skill | No repositório | No roll6 |
 |---|---|---|
-| `criar-personagem-gurps` (novo) | pasta em `personagens/` | `subir-imagem` do `foto.png` (1024) → `image`; `subir-imagem` do `token-hex.png` (512) → `create_token` → `tokenId`; `subir-documento` da `ficha.jpg` (+ `grimorio.jpg` se houver, vira PDF) → `sheetFile`; `create_character` com `life` = PV, `energy` = Fadiga, `move` = Deslocamento, `sheet` = `personagem.md` (+ `grimorio.md`). Se ele entra na campanha: `invite_character` + `accept_invite` |
-| `criar-personagem-gurps` (edição) | ficha regerada | `get_character` → `update_character` com **todos** os campos (os omitidos são apagados, inclusive `sheetFile`); ficha nova sobe de novo |
-| `criar-npc-gurps` | bloco do NPC | `create_npc` (exige token) → `add_npc_to_campaign` → `place_npc_on_map` quando ele entra em cena. **Um NPC por figura com nome** (Morto 1, Morto 3…), não um genérico com várias ocorrências |
+| `criar-personagem` (novo) | pasta em `personagens/` | `subir-imagem` do `foto.png` (1024) → `image`; `subir-imagem` do `token-hex.png` (512) → `create_token` → `tokenId`; `subir-documento` da `ficha.jpg` (+ `grimorio.jpg` se houver, vira PDF) → `sheetFile`; `create_character` com `life` = PV, `energy` = Fadiga, `move` = Deslocamento, `sheet` = `personagem.md` (+ `grimorio.md`). Se ele entra na campanha: `invite_character` + `accept_invite` |
+| `criar-personagem` (edição) | ficha regerada | `get_character` → `update_character` com **todos** os campos (os omitidos são apagados, inclusive `sheetFile`); ficha nova sobe de novo |
+| `criar-npc` | bloco do NPC | `create_npc` (exige token) → `add_npc_to_campaign` → `place_npc_on_map` quando ele entra em cena. **Um NPC por figura com nome** (Morto 1, Morto 3…), não um genérico com várias ocorrências |
 | `token-hex-gurps`, `token-organizator` | `tokens/` ou pasta do personagem | `subir-imagem --formato png --lado 512` → `create_token` (1 hex; cavalo e afins com `upSpace`) |
 | arte do cenário (o Mestre fornece; não há mais skill que a gere) | — | **só sobe por pedido explícito do usuário**: `subir-imagem` da arte → `create_map_model` → `add_map_to_campaign` → ligar em `campanha/roll6.json`. **A grade é do roll6: coluna e linha são `x` e `y`** |
 | `campanha` (plano) | `campanha/plano/` | `create_campaign_plan`/`update_campaign_plan`: uma entrada por capítulo (README + npcs.md), imagens por `subir-imagem` e `![](roll6-image:<fileName>)`, links internos viram texto |

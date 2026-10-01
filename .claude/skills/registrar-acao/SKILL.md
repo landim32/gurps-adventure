@@ -111,7 +111,7 @@ tentar usá-los faz o comando morrer. Se precisar de hora, ela vai dentro do tex
 
 - **Não rola dado, não decide regra, não escolhe perícia.** Ela recebe número pronto.
 - **Não mexe em ficha de personagem.** `personagem.json`, `personagem.md` e `ficha.jpg` só
-  mudam quando o usuário pede, e aí é a skill `criar-personagem-gurps` que edita.
+  mudam quando o usuário pede, e aí é a skill `criar-personagem` que edita.
 - **Não inventa acontecimento**: se o `resumo` que veio não fecha com as `jogadas`, ela
   devolve o erro para quem montou o ato em vez de consertar prosa.
 - **Não leva reação para o roll6, nem para o bloco da mesa.** O `reacoes.json` que ela

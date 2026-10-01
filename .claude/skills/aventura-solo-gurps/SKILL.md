@@ -44,7 +44,7 @@ Grep/Read no MB (`09-testes-de-habilidade.md`, `10-combate-basico.md`,
 peso de tesouro nas tabelas de equipamento. Lugares e culturas de Yrth em
 `livros/gurps-fantasy-3ed/` (mapa: `banestorm_world.jpg`).
 
-**NPCs:** monte com a skill `criar-npc-gurps` (leia o SKILL.md dela). No texto
+**NPCs:** monte com a skill `criar-npc` (leia o SKILL.md dela). No texto
 da luta, só o que o jogador precisa (ST/DX/IQ/HT, arma, NH, dano, Esquiva/Aparar,
 RD). O bloco Farvaro completo vai num apêndice no fim do arquivo.
 

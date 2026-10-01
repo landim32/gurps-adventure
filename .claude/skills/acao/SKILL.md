@@ -177,7 +177,7 @@ esse pedido, nada do que a mesa produziu entra lá: nem dinheiro, nem item, nem 
 vida, nem perícia nova. A ficha guarda o que o personagem *é*; a **bolsa** guarda o que ele
 *tem*, a **saúde** guarda como ele *está*, e as anotações guardam o resto.
 
-Quando o pedido vier, aí sim é a skill `criar-personagem-gurps` que edita — ela recalcula
+Quando o pedido vier, aí sim é a skill `criar-personagem` que edita — ela recalcula
 peso, Carga e tudo o que depende do que mudou, e regera a `ficha.jpg`. **Nunca edite o
 `personagem.json` à mão.**
 

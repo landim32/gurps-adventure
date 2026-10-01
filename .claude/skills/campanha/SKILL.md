@@ -358,7 +358,7 @@ merece o lançamento, o resto da taberna não.
 **A ficha do personagem não é mexida por causa de moeda.** `personagem.json`,
 `personagem.md` e `ficha.jpg` só mudam quando o usuário pedir; até lá, o que a mesa
 ganhou e gastou mora aqui. Quando o pedido vier, quem edita é a
-`criar-personagem-gurps`, que recalcula peso e Carga.
+`criar-personagem`, que recalcula peso e Carga.
 
 ### A saúde
 
@@ -390,7 +390,7 @@ volta com dez minutos de descanso. Lance o que ainda vale quando a cena acabar.
 **A ficha não é mexida por causa de dano.** `personagem.json` guarda o PV e a Fadiga
 **máximos** — o que o personagem tem quando está inteiro. O que a mesa gastou é daqui, e
 some quando a campanha terminar. Ficha só muda a pedido do usuário, pela
-`criar-personagem-gurps`.
+`criar-personagem`.
 
 ### Antes de voltar a uma cena
 
@@ -519,7 +519,7 @@ atual (`campanha/NN-.../`, **não** a do plano), lendo `capitulo_atual_pasta` do
 `estado --json`. Sem capítulo marcado, grave no lugar genérico e **diga por quê** —
 imprimir uma linha `Destino:` em toda execução é um bom padrão a copiar.
 
-Quem chama decide o que é relevante. Exemplos do que faz sentido: a `criar-personagem-gurps`
+Quem chama decide o que é relevante. Exemplos do que faz sentido: a `criar-personagem`
 registrando que um personagem entrou no grupo; uma skill de combate registrando o
 desfecho.
 

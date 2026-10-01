@@ -1,5 +1,5 @@
 ---
-name: criar-personagem-gurps
+name: criar-personagem
 description: >
   Cria ou edita personagens de GURPS 3ª Edição a partir de uma descrição em texto e um
   orçamento de pontos, usando os três livros disponíveis em livros/ (Módulo Básico, Magia e
@@ -8,6 +8,8 @@ description: >
   que o livro descreve para aquele arquétipo. Calcula todos os custos e estatísticas
   derivadas, gera a ficha completa em Markdown e uma imagem da Planilha do Personagem
   preenchida — e, para usuários de magia, também a Ficha para Grimório com as mágicas.
+  Toda `aparencia` abre com altura, peso e idade ("1,88 m; 81,7 kg; 47 anos, …"), calculados da
+  ST, do pacote racial e de Magreza/Excesso de Peso/Obesidade/Gigantismo/Nanismo.
   Use quando o usuário pedir para "criar um personagem de GURPS", "gerar uma
   ficha", "editar o personagem X", ou algo equivalente, normalmente citando pontos
   (ex.: "100 pontos") e uma descrição do conceito.
@@ -87,6 +89,10 @@ nos arquivos:
 | Regras de línguas (custo, comunicação, o que cada NH significa) | `livros/gurps-mb-3ed/06-pericias.md`, seção "Perícias com Línguas" |
 | Cultura, reinos, religiões de Yrth (para história/aparência) | `livros/gurps-fantasy-3ed/02-historia.md` a `07-reinos-oriente.md` |
 | Animais e criaturas (para Empatia com Animais, montarias, etc.) | `livros/gurps-mb-3ed/15-animais.md`, `livros/gurps-fantasy-3ed/09-criaturas.md` |
+| **Estilos de luta, arquétipo de lutador, vantagem Estilo** | `livros/gurps-artes-marciais-3ed/02-personagens.md` (arquétipos e vantagens reais), `06-estilos-regras.md` (contabilidade), `07-estilos-historicos-e-modernos.md` (estilos) |
+| **Manobras** (Chave de Braço, Quedas, Bloqueio Agressivo, Chute Descendente…) | `livros/gurps-artes-marciais-3ed/04-combate-manobras.md`, seção **“Manobras Realistas”** — a seção seguinte é cinematográfica e não entra |
+| Perícias novas de lutador (Armas Exóticas, Pontos de Pressão…) | `livros/gurps-artes-marciais-3ed/03-pericias.md`, seções “Perícias realistas” / “Novas Perícias Realistas” |
+| Armas e equipamentos de arte marcial (tonfa, sai, kusarigama, bastão) | `livros/gurps-artes-marciais-3ed/09-armas-e-equipamentos.md` e `10-tabela-de-armas.md` |
 
 Use `Grep` para procurar o nome de uma vantagem/desvantagem/perícia específica em vez de ler
 o arquivo inteiro (ex.: `Grep "Sorte" livros/gurps-mb-3ed/03-vantagens.md`). É transcrição de
@@ -227,14 +233,149 @@ Duas desvantagens ligadas à idade (`04-desvantagens.md`):
 - **Juventude**: -2 pontos por ano abaixo da maioridade (máximo 3 anos, -6). Dá -2 de reação
   com adultos e precisa ser "recomprada" quando o personagem crescer.
 
-Registre a idade em `idade` no JSON e cite-a no `personagem.md`. O formulário impresso não tem
-campo de idade, então **mencione-a no texto de `aparencia`** ("50 anos, esquelético…") para que
-ela apareça na ficha. Ao **editar** um personagem, reconfira o teto: subir uma perícia ou
-comprar uma mágica nova pode passar do limite da idade dele.
+Registre a idade em `idade` no JSON. O formulário impresso não tem campo de idade, altura nem
+peso, então os três números vivem no começo de `aparencia` — ver a seção seguinte. Ao **editar**
+um personagem, reconfira o teto: subir uma perícia ou comprar uma mágica nova pode passar do
+limite da idade dele.
 
 Personagens não-humanos com expectativa de vida diferente (Elfos, Anões) seguem a mesma
 aritmética — o teto é sobre a idade em anos, não sobre a maturidade relativa da raça. Se o
 Mestre quiser flexibilizar isso para um elfo centenário, é decisão dele; a skill não assume.
+
+### Altura, peso e idade: o começo obrigatório de `aparencia`
+
+`aparencia` **começa sempre pelos três números, nessa ordem**: altura, peso, idade, separados
+por ponto-e-vírgula.
+
+```
+"aparencia": "1,88 m; 81,7 kg; 47 anos, ombros largos, barba curta castanha, …"
+```
+
+Não é enfeite: são os números que decidem se a armadura achada serve, se o personagem passa
+pelo túnel, se alcança o batente, e quanto de carga o corpo dele é. Vêm **calculados**, não
+inventados — e o cálculo é este:
+
+**1. Média pela ST** (`02-criacao-de-personagem.md`, "Tabela de Altura/Peso", pág. 15). A
+altura vem da ST; o peso vem da *altura*:
+
+| ST | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16+ |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| altura | 1,63 | 1,65 | 1,68 | 1,70 | 1,73 | 1,75 | 1,78 | 1,80 | 1,83 | 1,85 | 1,88 | 1,90 m |
+| peso | 59,0 | 61,3 | 61,3 | 63,6 | 65,8 | 68,1 | 70,4 | 72,6 | 74,9 | 77,2 | 81,7 | 82,3 kg |
+
+Acima de 1,90 m, **+1,8 kg por centímetro**. ST ≤ 4 fica abaixo da tabela (1,60 m ou menos).
+
+**2. Raça ajusta** (`gurps-fantasy-3ed/08-personagens.md`; o que o livro não diz, fica humano):
+
+| Raça | Altura | Peso |
+|---|---|---|
+| Humano, Kobold, Hobgoblin | tabela | tabela |
+| **Anão** | **−45,7 cm** da média da ST | **+50 kg** sobre um humano da *mesma altura* ("pura musculatura") |
+| Halfling | média **1,20 m** | proporcional |
+| Goblin | proporcional à ST | **−5 kg** |
+| Reptante | compatível com a ST | **+15 kg** |
+| Minotauro | bem mais alto que humano de mesma ST | proporcional à altura |
+| Gigante (PC) | ST *antes* do +16, **+60%**, e nunca menos que 2,10 m | **4×** o de um humano da mesma ST pré-bônus |
+| Ogro (PC) | ST *antes* do +10, **+40%** | **5×** o normal |
+| Centauro | altura equivalente +20 cm (até o alto da cabeça) | **8×** o de um humano da mesma altura |
+| Elfo, Meio-Elfo, Elfo Negro | *não especificado no livro* → use humano e descreva o resto | idem |
+
+**3. Formato corporal ajusta, e cobra mecânica** (`04-desvantagens.md`; são desvantagens, com
+número próprio). **Nenhuma vantagem do MB altera altura ou peso** — quem mexe nesses números é
+o pacote racial e estas cinco:
+
+| Desvantagem | Efeito no corpo | O que puxa junto |
+|---|---|---|
+| **Nanismo** −15 | altura da tabela × **60%** | Deslocamento **−1**; salta como se ST fosse 4 menor; −1 no NH de quem atira nele |
+| **Gigantismo** −10 | altura × **20%**, mínimo 2,10 m | −2 em reação (exceto combate iminente: +1); roupas e mobília não servem |
+| **Obesidade** −10/−20 | peso **+50%** (−10) ou **×2** (−20) | HT máx **15** ou **13**; o extra conta como **Carga permanente** (não vale contra natação); −1/−2 de reação; −3 Disfarce/Sombra; +2 Encontrão, +5 Natação; roupa e armadura normais não servem |
+| **Excesso de Peso** −5 | peso **+30%** | conta como Carga; +2 Natação; sem outro efeito |
+| **Magreza** −5 | peso médio daquela altura **−1/3** | HT máx **14**; **nunca Elegante nem Muito Elegante**; ST −2 no Encontrão; −2 Disfarce/Sombra; roupa normal não serve |
+
+**4. Variação pessoal, se você quiser sair da média**: jogue 3d e use "Modificações"
+(`02-criacao-de-personagem.md`, pág. 15) — 3 dá −15 cm, 18 dá +18 cm; determine a altura
+verdadeira, depois o peso daquela altura, depois rode de novo para o peso modificado.
+**Aparência melhor que a média limita a licença**: quem é bonito não anda 25% fora do peso,
+o livro pede **±20%**.
+
+**Confira antes de fechar** (as quatro contradições que aparecem):
+
+1. `idade` no JSON **é** a idade escrita em `aparencia` — um número, duas casas;
+2. o HT escolhido **respeita o teto** da Magreza (14) e da Obesidade (15/13);
+3. `deslocamento` já desconta o −1 do Nanismo, e a Nanismo/Gigantismo não briga com a ST
+   escolhida (elas não mudam ST nem HT);
+4. se há Obesidade ou Excesso de Peso, o peso extra **entra na conta da Carga** como peso que
+   o personagem sempre carrega — some-o ao total de `peso_total` ao decidir a faixa de carga.
+
+O retrato (`foto-prompt.md`) repete os três números, porque altura e compleição são o que faz o
+rosto parecer o corpo. E ao **editar**: se a ST, a raça ou uma dessas desvantagens mudar,
+**recalcule altura e peso** e reescreva o começo de `aparencia` — não deixe o número velho
+de pé depois de mexer no que o gerou.
+
+### Personagem de arte marcial: o estilo entra, e as manobras vão para a área de perícias
+
+Vale quando o conceito é de lutador — "karateca", "monge de Shaolin", "ninja", "lutador de
+Sumô", "mestre de Aikidô", ou um arquétipo de `02-personagens.md` do livro. A fonte é
+`livros/gurps-artes-marciais-3ed/`, **pela metade realista**: as manobras da seção “Manobras
+Realistas” de `04-combate-manobras.md`, as perícias de “Novas Perícias Realistas” de
+`03-pericias.md`, e os estilos de `06`/`07`/`08` lidos **verbete por verbete** — a divisão dos
+arquivos segue a paginação do PDF, não o eixo real/fantástico, então Savate e Wing Chun estão
+no `08` e são históricos. Ficam fora as perícias e manobras cinematográficas, os bônus
+Chambara e os estilos que o próprio verbete declara fantásticos ou alienígenas (ver
+“Artes Marciais entra pela metade realista” no `CLAUDE.md`).
+
+**Montagem, nesta ordem:**
+
+1. **Estilo** (`07`/`08`): a vantagem Estilo de Artes Marciais, com o custo do verbete. O
+   custo **já inclui 1 ponto em cada perícia Primária** — não cobre duas vezes.
+2. **Primárias / Secundárias / Opcionais** (`06-estilos-regras.md`). Enquanto o lutador não
+   tem NH 15+ em *todas* as Primárias:
+
+   | Grupo | Limite |
+   |---|---|
+   | Primárias | diferença máxima de **2 níveis** entre elas |
+   | Secundárias | no máx. (menor NH Primária − **1**) |
+   | Opcionais | no máx. (menor NH Primária − **2**) |
+
+   Com NH 15+ em todas as Primárias, os dois últimos grupos ficam livres. Um estilo do livro
+   que não traz o bloco completo (Jiujitsu, Judô, Karatê, Kung Fu, Luta Livre) tem o custo
+   recalculado peça por peça, como manda a regra de contabilidade do `06` — não invente o
+   total.
+3. **Manobras → na área de perícias.** Cada manobra que o personagem comprou entra no array
+   `pericias` com **`"categoria": "Manobras"`**, e o script já insere linha em branco a cada
+   troca de categoria: na planilha impressa isso sai como um bloco próprio, sem tocar em
+   código. No `personagem.md`, mesmo critério.
+
+   ```json
+   { "nome": "Chave de Braço", "nh": 13, "tipo": "Judô/M", "custo": 1, "categoria": "Manobras" },
+   { "nome": "Quedas",         "nh": 12, "tipo": "Judô/M", "custo": 1, "categoria": "Manobras" }
+   ```
+
+   - `nh` é o **número final**, não o relativo: some o pré-definido do verbete (ex.:
+     `Judô ou Luta Livre`, `Caratê-4 ou Chute-2`) ao investimento. Se a base mudou porque a
+     ST/DX do personagem mudou, o NH da manobra acompanha.
+   - `tipo` carrega a **perícia que controla** e a dificuldade do verbete (`Judô/M`,
+     `Caratê/D`) — é o que permite conferir o limite sem reler o livro.
+   - Respeite o campo **Limite** de cada verbete: Chave de Braço pode ir além da base, mas
+     Bloqueio Agressivo não passa de **2/3 do NH em Caratê** nem da Aparar normal daquela
+     perícia, e Chute Descendente/Para Trás não excedem o NH do pré-requisito.
+   - Custo em ponto entra na conta de `resumo.pericias` **e** no teto de `2 × idade`, que
+     manobra é perícia como qualquer outra.
+4. **Armas exóticas** do estilo (tonfa, kusarigama, sai, bastão): número de jogo em
+   `10-tabela-de-armas.md`, descrição e peso em `09-armas-e-equipamentos.md` — só as
+   históricas/realistas.
+5. **Vantagens/desvantagens do pacote** (`02-personagens.md`): Treinado por um Mestre,
+   Familiaridade com o Estilo, e as desvantagens que o estilo cobra (Código de Honra do
+   dojô, Dever com o mestre). Não insista nas cinematográficas.
+
+**Espaço na planilha.** A coluna de perícias tem **44 linhas**, e linha em branco de separador
+de categoria conta — o que estoura é `perícias + manobras + (trocas de categoria) + 1 linha de
+"ver grimório" se houver magias`. Lutador com estilo costuma chegar perto do teto: confira a
+conta antes de gerar (o script não avisa, ele só não imprime o que passa).
+
+**Ao arbitrar depois:** a manobra comprada não é enfeite de ficha. Quem joga a mão é a skill
+`atacar`, com o NH anotado aqui; as manobras do MB (`Ataque Total`, `Defesa Total`, …) já são
+dela, e as deste livro entram pela lista da ficha.
 
 ### 4. Calcular tudo (ver fórmulas na seção seguinte)
 
@@ -401,7 +542,7 @@ diante sozinho.
    colado sozinho no quadro central):
 
    ```
-   python .claude/skills/criar-personagem-gurps/scripts/preencher_ficha.py \
+   python .claude/skills/criar-personagem/scripts/preencher_ficha.py \
      --data personagens/<slug>/personagem.json \
      --template ficha-de-personagem.jpg \
      --output personagens/<slug>/ficha.jpg
@@ -411,7 +552,7 @@ diante sozinho.
    `personagens/<slug>/grimorio.md` e rode o script do grimório.
 
    ```
-   python .claude/skills/criar-personagem-gurps/scripts/preencher_grimorio.py \
+   python .claude/skills/criar-personagem/scripts/preencher_grimorio.py \
      --data personagens/<slug>/personagem.json \
      --template grimorio.jpg \
      --output personagens/<slug>/grimorio.jpg
@@ -478,11 +619,14 @@ consistentes na maioria dos modelos de imagem):
    mas mantenha sempre "illustration"/"drawing"/"concept art", nunca "photo" ou
    "photorealistic".
 2. **Sujeito**: gênero, raça (se não-humano, descreva os traços do modelo racial — orelhas
-   pontudas e esguio para Elfo, baixo e atarracado com barba para Anão, etc.), idade
-   aproximada e o que vem do campo `aparencia`.
+   pontudas e esguio para Elfo, baixo e atarracado com barba para Anão, etc.), e os três
+   números de `aparencia` — **altura, peso e idade** — que já abrem o campo ("1,88 m; 81,7 kg;
+   47 anos"), mais o resto da descrição.
 3. **Traços físicos marcantes**: qualquer vantagem/desvantagem com efeito visual óbvio
    (Cicatriz, Hediondo/Elegante, Gigantismo/Nanismo, Albinismo, Coxeadura, etc.) e a
-   compleição sugerida pelos atributos (ST alto → físico robusto; DX alto → postura ágil).
+   compleição sugerida pelos atributos (ST alto → físico robusto; DX alto → postura ágil). Se
+   a ficha tem Magreza, Excesso de Peso ou Obesidade, **diga isso no prompt** — é o que faz o
+   peso calculado parecer o peso desenhado.
 4. **Roupas e equipamento**: derive da lista `armas_objetos` — armas visíveis e o conjunto de
    peças de armadura vestidas (cabeça, tronco, braços, mãos, pernas, pés), descrevendo o
    material/aspecto de cada uma (couro, malha, placas...), cores ou insígnias mencionadas na
@@ -609,7 +753,7 @@ ex.: `DX/F`, `IQ/M`, `DX/D`, `IQ/MD`.
   "foto": "string ou ausente (nome do arquivo de retrato na pasta do personagem)",
   "raca": "string ou null (ex.: 'Anão (Fantasy)')",
   "idade": 30,
-  "aparencia": "string curta (comece pela idade: '30 anos, magro, ...')",
+  "aparencia": "string curta (**começa por altura; peso; idade**: '1,88 m; 81,7 kg; 47 anos, …')",
   "historia": "string curta (cabe em 1 linha na ficha; o detalhe completo vai no .md)",
   "data_criacao": "DD/MM/AAAA",
   "sequencia": "string (normalmente '1')",
@@ -686,8 +830,10 @@ Campos que controlam o agrupamento visual na ficha:
 - **`custo_total`**: soma em $ do equipamento, escrita na linha "TOTAIS:" ao lado do peso
   total em kg (como no modelo impresso: `TOTAIS: $ 1000    10,5 kg`).
 - **`idade`**: não é desenhada na ficha (o formulário não tem esse campo), mas é o que valida
-  o teto de perícias — `pericias + magias ≤ 2 × idade`. Repita a idade no início de
-  `aparencia` para ela aparecer na imagem.
+  o teto de perícias — `pericias + magias ≤ 2 × idade`. Os três números — altura, peso, idade
+  — **abrem** `aparencia`, porque a planilha não tem campo para eles. Altura e peso saem da
+  ST, do pacote racial e de Magreza/Excesso de Peso/Obesidade/Gigantismo/Nanismo; veja
+  “Altura, peso e idade”.
 - **`magias`**: **omita o array inteiro** se o personagem não conjura. Existindo, ele
   alimenta o grimório (agrupado por `categoria`, o colégio da mágica) e faz o script
   acrescentar a linha `Mágicas (ver grimório)` ao fim das perícias da ficha, com a
@@ -708,7 +854,7 @@ Localizado em `scripts/preencher_ficha.py` desta skill. Requer Python 3 com Pill
 disponível no ambiente). Uso:
 
 ```
-python .claude/skills/criar-personagem-gurps/scripts/preencher_ficha.py --data <json> --template <ficha-em-branco.jpg> --output <saida.jpg>
+python .claude/skills/criar-personagem/scripts/preencher_ficha.py --data <json> --template <ficha-em-branco.jpg> --output <saida.jpg>
 ```
 
 O preenchimento imita escrita à mão: a fonte padrão é **Segoe Script** (com fallback para
@@ -742,6 +888,10 @@ imagem** (o texto longo/explicativo fica no `personagem.md`, que não tem essa l
 | `aparencia` / `historia` | ~95 caracteres | uma linha de descrição | parágrafos inteiros |
 | `magias[].obs` | ~30 caracteres | `Pré-req.: Atear Fogo` | a descrição inteira da mágica |
 
+Os três números do começo de `aparencia` comem **~26 daqueles 95 caracteres** ("1,88 m;
+81,7 kg; 47 anos, "). Não são negociáveis: o que aperta é o resto da frase, que deve caber em
+uma linha curta e vai inteiro no `personagem.md`.
+
 Para as peças de armadura, o padrão recomendado é `Nome curto (região)` — ex.: `Coura
 (tronco)`, `Laudel (braços)`, `Coturnos (pés)` — com o DP/RD indo na coluna `tipo`.
 
@@ -751,7 +901,7 @@ Localizado em `scripts/preencher_grimorio.py`, ao lado do outro. Lê o **mesmo**
 `personagem.json` (só o campo `nome` e o array `magias`) e desenha sobre `grimorio.jpg`:
 
 ```
-python .claude/skills/criar-personagem-gurps/scripts/preencher_grimorio.py --data <json> --template grimorio.jpg --output <saida.jpg>
+python .claude/skills/criar-personagem/scripts/preencher_grimorio.py --data <json> --template grimorio.jpg --output <saida.jpg>
 ```
 
 Mesma fonte manuscrita, mesmo encolhimento automático e mesma ancoragem por baseline do

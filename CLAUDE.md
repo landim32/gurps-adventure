@@ -37,8 +37,25 @@ consulte antes de responder, não confie na memória para custos, NHs, pré-requ
 | Magia | `livros/gurps-magia-3ed/` | Princípios de magia, ~420 mágicas por escola, objetos encantados, alquimia, tipos de mago, raças ampliadas |
 | Fantasy — Yrth | `livros/gurps-fantasy-3ed/` | História e cultura de Yrth, reinos, religiões, raças, **arquétipos ("Tipos de Personagem")**, criaturas, campanhas |
 | Cyberpunk | `livros/gurps-cyberpunk-3ed/` | Cyberwear, netrunning, equipamento NT8, mundo e campanha de alta tecnologia |
+| Artes Marciais | `livros/gurps-artes-marciais-3ed/` | **Estilos de luta** (primárias/secundárias/opcionais), **manobras** (Chave de Braço, Quedas, Bloqueio Agressivo…), perícias e vantagens de lutador, armas exóticas. **Só a metade realista** — ver a regra logo abaixo |
 
 `livros/README.md` é o índice mestre com a tabela arquivo→capítulo de cada volume.
+
+**Artes Marciais entra no projeto pela metade realista, e o livro já vem dividido.** Use
+`04-combate-manobras.md` a partir da seção **“Manobras Realistas”**, `03-pericias.md` pela
+**“Perícias realistas”/“Novas Perícias Realistas”**, `02-personagens.md` para arquétipos de
+lutador e as vantagens novas realistas, `06`/`07` para mecânica e estilos históricos,
+`09`/`10` para armas. **Fora**: as 22 perícias cinematográficas e as manobras “irreais de HQ
+e cinema” (`04`, seção separada), os bônus **Chambara** (só com NH 15+ *e* Treinado por um
+Mestre, e o próprio livro diz que “GMs realistas devem vetá-los”), os estilos fantásticos e
+alienígenas do `08`, os **pontos de Atordoamento** de 5×PV e o “Golpe Fatal” que dobra dano.
+Nada disso é recusado por gosto — é o eixo que a mesa escolheu; se um dia o Mestre quiser um
+pino de cinematográfico, ele pede, e aí entra como decisão registrada, não como regra geral.
+
+**A divisão dos arquivos não é a divisão real/fantástico.** `07` e `08` seguem a paginação do
+PDF: Savate, Sumô, Tae Kwon Do e Wing Chun estão no `08` e são históricos, e há estilo
+fantástico no meio dos dois. A fronteira se lê **verbete por verbete** — o próprio bloco do
+estilo diz se é real, fantástico ou alienígena, e é isso que decide se ele entra.
 
 Convenções de consulta:
 
@@ -59,10 +76,10 @@ primeira passada, uma versão antiga condensada e os PDFs originais). **Não é 
 consulta** — serve de histórico. Os dois PDFs maiores estão no `.gitignore` por excederem o
 limite de 100 MB do GitHub.
 
-## Criação de personagens: a skill `criar-personagem-gurps`
+## Criação de personagens: a skill `criar-personagem`
 
 Fichas de personagem **não** são escritas à mão: use a skill
-(`.claude/skills/criar-personagem-gurps/SKILL.md`), que contém o fluxo completo, as tabelas de
+(`.claude/skills/criar-personagem/SKILL.md`), que contém o fluxo completo, as tabelas de
 custo, o esquema do JSON e as regras de formatação da ficha impressa. Pontos essenciais:
 
 - Cada personagem vive em `personagens/<nome-em-kebab-case>/` com quatro arquivos:
@@ -84,12 +101,12 @@ Os dois únicos comandos executáveis do repositório (Python 3 + Pillow; não h
 nem testes):
 
 ```bash
-python .claude/skills/criar-personagem-gurps/scripts/preencher_ficha.py \
+python .claude/skills/criar-personagem/scripts/preencher_ficha.py \
   --data personagens/<slug>/personagem.json \
   --template ficha-de-personagem.jpg \
   --output personagens/<slug>/ficha.jpg
 
-python .claude/skills/criar-personagem-gurps/scripts/preencher_grimorio.py \
+python .claude/skills/criar-personagem/scripts/preencher_grimorio.py \
   --data personagens/<slug>/personagem.json \
   --template grimorio.jpg \
   --output personagens/<slug>/grimorio.jpg

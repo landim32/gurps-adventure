@@ -39,7 +39,7 @@ _Procurado por assassinato em Wallace_
 | PV e Fadiga | `campanha/saude.md`, comparado com o máximo da ficha | skill `campanha` (`saude`) |
 | Dinheiro | `campanha/bolsa.md` | skill `campanha` (`bolsa`) |
 | Ferimento, membro incapacitado, nocaute, morte | os `--estado` do `saude.md` | skill `campanha` (`saude`) |
-| Nome, jogador, máximos, defesas | `personagens/<slug>/personagem.json` | skill `criar-personagem-gurps` |
+| Nome, jogador, máximos, defesas | `personagens/<slug>/personagem.json` | skill `criar-personagem` |
 | Capítulo e local | `campanha/README.md` e o plano do capítulo | skill `campanha` |
 
 **Nada é inventado e nada é gravado.** Se um número parecer errado, o conserto é no
