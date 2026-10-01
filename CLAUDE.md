@@ -291,10 +291,11 @@ grafo de chamadas, não a árvore de pastas.
 
 **Regra de colocação para a próxima regra que entrar:** decisão fica nos roteadores, cálculo na
 folha dona daquela grandeza, registro na registradora. Roteador citando número do livro está no
-lugar errado — e folha escrevendo em disco também. O passo seguinte dessa divisão, ainda
-pendente, é tirar de dentro de `atacar` e `atacar-distancia` as folhas `calcular-alcance`,
-`causar-dano` e `arbitrar-ferimento` (o nome é esse de propósito: *sobrevivência* já é nome de
-perícia na campanha).
+lugar errado — e folha escrevendo em disco também. Já extraído: **`causar-dano`**, que hoje é a
+única cascata de dano do repo — `atacar` e `atacar-distancia` chamam a mesma, com o local
+atingido indo pronto no payload. Faltam na mesma direção: `resolver-defesa` (o bloco que as
+duas ainda copiam), `arbitrar-ferimento` (queda, atordoamento, nocaute — o nome é esse de
+propósito: *sobrevivência* já é nome de perícia na campanha) e `calcular-alcance`.
 
 ### O roll6 é o espelho da mesa: a skill `roll6`
 

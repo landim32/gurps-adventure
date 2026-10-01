@@ -5,10 +5,11 @@ description: >
   Edição: NH efetivo pela sequência de cinco passos do livro (tamanho do alvo,
   velocidade/distância, Precisão de quem apontou, condições e Tiro Rápido), Meio Dano e
   Alcance Máximo, defesa por Esquiva ou Bloqueio mais a DP do escudo, golpe fulminante e
-  erro crítico, dano com RD da região e tetos do local. Entrega o texto para o WhatsApp e
-  grava no capítulo. Use when the user asks "ele atira com o arco", "Comam saca a besta e
-  dispara", "arremessa a faca no guarda", "tiro à distância", "ele mira e atira",
-  ou /atacar-distancia.
+  erro crítico. O dano — RD da região, multiplicador, tetos do local e membro — vem da
+  folha `causar-dano`, a mesma do corpo a corpo, com o teto da arma e o ½D no payload.
+  Entrega o texto para o WhatsApp e devolve o resultado à `registrar-acao`. Use when the
+  user asks "ele atira com o arco", "Comam saca a besta e dispara", "arremessa a faca no
+  guarda", "tiro à distância", "ele mira e atira", ou /atacar-distancia.
 ---
 
 # Combate à distância

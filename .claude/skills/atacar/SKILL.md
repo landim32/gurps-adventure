@@ -3,11 +3,12 @@ name: atacar
 description: >
   Resolve uma troca de golpes inteira pelo Sistema Avançado de Combate de GURPS 3ª Edição:
   jogada de ataque com o redutor do ponto de impacto e o bônus da manobra, golpe fulminante
-  ou erro crítico nas tabelas, defesa ativa mais passiva do alvo, avaliação de dano com RD,
-  bônus por tipo de dano, tetos do local e testes de queda e atordoamento. Entrega o texto
-  para o WhatsApp e grava no capítulo. Use when the user asks "ataque total no pescoço do
-  morto-vivo", "ele ataca com a espada", "o orc golpeia o Kaelric", "aparar", "esquiva",
-  ou /atacar.
+  ou erro crítico nas tabelas, defesa ativa mais passiva do alvo. A avaliação de dano — RD
+  por região, bônus por tipo de dano, tetos do local e membro — é da folha `causar-dano`,
+  que esta chama; os testes de queda e atordoamento ainda correm aqui. Entrega o texto para
+  o WhatsApp e devolve o resultado à `registrar-acao`. Use when the user asks "ataque total
+  no pescoço do morto-vivo", "ele ataca com a espada", "o orc golpeia o Kaelric", "aparar",
+  "esquiva", ou /atacar.
 ---
 
 # Combate

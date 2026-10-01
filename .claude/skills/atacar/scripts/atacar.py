@@ -42,6 +42,7 @@ def _carrega(nome, caminho):
 T = _carrega("tabelas", AQUI / "tabelas.py")
 tn = _carrega("teste_nh", SKILLS / "teste-nh" / "scripts" / "teste_nh.py")
 _roll = _carrega("roll", SKILLS / "roll" / "scripts" / "roll.py")
+cd = _carrega("causar_dano", SKILLS / "causar-dano" / "scripts" / "causar_dano.py")
 
 for _fluxo in (sys.stdout, sys.stderr):
     try:
@@ -550,110 +551,24 @@ def main():
         dp_escudo = 0
 
     # ---------------------------------------------------------- dano
-    p(f"\nDANO: {dano_txt}" + (f" ×{mult_dano}" if mult_dano > 1 else "")
-      + (f" +{manobra['dano']} (ataque total)" if manobra["dano"] else ""))
-    total_bruto, linha = _roll.rolar(dano_txt)
-    p(f"  {linha.replace('**', '')}")
-    basico = total_bruto + manobra["dano"]
-    mec_dano = f"Dano: {linha.replace('**', '*')}"
-    if manobra["dano"]:
-        mec_dano += f" +{manobra['dano']} Ataque Total = *{basico}*"
-    if manobra["dano"]:
-        p(f"  +{manobra['dano']} do Ataque Total = {basico}")
-    # MB, pag. 74: arma cortante, perfurante ou bala que ACERTA faz pelo menos 1 ponto
-    # de dano basico. Vale ANTES da armadura — depois dela o dano ainda pode ser zero.
-    if basico <= 0 and tipo in ("corte", "perf"):
-        p(f"  Dano minimo: corte e perfuracao que acertam fazem pelo menos 1 (MB, pag. 74)"
-          f" -> 1")
-        basico = 1
-        mec_dano += " → mínimo 1 (corte/perfuração)"
-    if mult_dano > 1:
-        basico *= mult_dano
-        p(f"  ×{mult_dano} pelo golpe fulminante = {basico}")
-        mec_dano += f" ×{mult_dano} golpe fulminante = *{basico}*"
-    MEC.append(mec_dano)
-
-    if ignora_armadura:
-        passou = basico
-        p(f"  O golpe fulminante IGNORA a armadura: {passou} pontos entram inteiros.")
-        MEC.append(f"Armadura ignorada (golpe fulminante): {passou} entram")
-    else:
-        passou = max(0, basico - rd_total)
-        detalhe_rd = f"RD {rd_local}" + (f" ({peca})" if peca else "")
-        if local.get("rd_natural"):
-            detalhe_rd += f" + RD {local['rd_natural']} do crânio"
-        p(f"  {detalhe_rd} → {passou} ponto(s) atravessam")
-        MEC.append(f"{detalhe_rd.replace(' (informado pelo Mestre)', '')} → {passou} passam")
-
-    if passou <= 0:
-        p(f"\nA armadura segurou tudo. {alvo} não perde ponto de vida nenhum.")
+    # A cascata inteira é da folha `causar-dano`: dado, mínimo antes da armadura,
+    # fulminante, RD, multiplicador do tipo e do local, teto do local, membro, pescoço.
+    dano = cd.calcular({
+        "alvo": alvo, "tipo": tipo, "formula": dano_txt, "bonus_dano": manobra["dano"],
+        "mult_dano": mult_dano, "ignora_armadura": ignora_armadura,
+        "rd_total": rd_total, "rd_local": rd_local, "peca": peca,
+        "local": local, "chave": chave, "ht_alvo": ht_alvo,
+        "frontal": not args.nao_frontal, "efeito": efeito,
+    })
+    for linha in dano["saida"]:
+        p(linha)
+    MEC.extend(dano["mec"])
+    ferimento, perdido = dano["resultado"]["ferimento"], dano["resultado"]["perdido"]
+    if dano["resultado"]["armadura_segurou"]:
         _fecha(saida, avisos, args, raiz, atacante, alvo, local,
                "não passou da armadura", 0, nh_ef=nh_ef, ataque=ta, arma=arma_nome,
                fulminante=fulminante)
         return
-
-    # multiplicador do tipo de dano / do local
-    ferimento, explica = passou, []
-    if local.get("mult_todos"):
-        ferimento = passou * local["mult_todos"]
-        explica.append(f"×{local['mult_todos']} por atingir {local['nome'].lower()} "
-                       f"(vale para qualquer tipo de dano)")
-    elif tipo == "perf" and local.get("mult_perf"):
-        ferimento = passou * local["mult_perf"]
-        explica.append(f"×{local['mult_perf']} — perfurante nos órgãos vitais")
-    elif (local.get("mult_tipo") or {}).get(tipo):
-        m = local["mult_tipo"][tipo]
-        ferimento = int(passou * m)
-        explica.append(f"{T.TIPOS_DANO[tipo]['nome']} no {local['nome'].lower()}: "
-                       f"×{str(m).replace('.0', '').replace('.', ',')} do que passar da "
-                       f"armadura (regra da casa, 4ª ed.)")
-    elif local.get("incapacita") and tipo == "perf":
-        explica.append("perfurante em membro NÃO ganha bônus de dano (MB, cap. 14)")
-    else:
-        m = T.TIPOS_DANO[tipo]["mult"]
-        if m != 1.0:
-            ferimento = int(passou * m)
-            explica.append(f"{T.TIPOS_DANO[tipo]['nome']}: {T.TIPOS_DANO[tipo]['como']}")
-    for e in explica:
-        p(f"  {e} → {ferimento}")
-        MEC.append(f"{e[0].upper() + e[1:]} → *{ferimento}*")
-
-    # tetos do local
-    perdido = 0
-    if ht_alvo:
-        teto = None
-        if local.get("teto_div_ht"):
-            teto = ht_alvo // local["teto_div_ht"]
-            rotulo_teto = f"HT/{local['teto_div_ht']}"
-        elif local.get("teto_mult_ht"):
-            teto = ht_alvo * local["teto_mult_ht"]
-            rotulo_teto = f"HT×{local['teto_mult_ht']}"
-        elif local.get("teto_perf_ht") and tipo == "perf":
-            teto = ht_alvo
-            rotulo_teto = "HT"
-        if teto is not None and ferimento > teto:
-            perdido = ferimento - teto
-            p(f"  Teto do local ({rotulo_teto} = {teto}): {perdido} ponto(s) "
-              f"desperdiçados — o golpe trespassa")
-            ferimento = teto
-            MEC.append(f"Teto do local ({rotulo_teto} = {teto}): {perdido} desperdiçado(s)")
-            if local.get("incapacita"):
-                p(f"  ⇒ {local['nome'].upper()} INCAPACITADO: {alvo} perde o uso do membro "
-                  f"na hora, e fica ATORDOADO automaticamente.")
-                MEC.append(f"*{local['nome']} INCAPACITADO* — {alvo} fica atordoado")
-
-    if efeito.get("incapacita_membro") and local.get("incapacita"):
-        p(f"  ⇒ Pelo golpe fulminante, o membro fica incapacitado seja qual for o dano.")
-        MEC.append(f"*{local['nome']} INCAPACITADO* pelo golpe fulminante")
-
-    p(f"\n**{alvo} perde {ferimento} ponto(s) de vida.**"
-      + (f" (mais {perdido} desperdiçados)" if perdido else ""))
-    if local.get("obs"):
-        p(f"  {local['obs']}")
-    for terminal, mesa in efeitos_pescoco(chave, tipo, ferimento, ht_alvo, alvo,
-                                          frontal=not args.nao_frontal):
-        p(terminal)
-        MEC.append(mesa)
 
     # ---------------------------------------------------------- queda e atordoamento
     if ht_alvo:
