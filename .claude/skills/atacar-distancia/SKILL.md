@@ -170,10 +170,10 @@ juntas.
 | **Esquiva** | Sempre |
 | **Bloqueio** | Contra flecha, virote, pedra de funda e arma arremessada. **Nunca** contra bala ou feixe |
 | **Aparar** | **Não existe** aqui — o script nem oferece a opção |
-| **DP do escudo** | **Sempre**, inclusive contra bala, e mesmo quando o alvo não pode bloquear |
+| **DP do escudo** | Em qualquer ponto de impacto, inclusive contra bala, e mesmo quando o alvo não pode bloquear — mas **só se o tiro vem da frente ou do lado do escudo**. `--nao-frontal` a tira |
 
 Pedir `--alvo-defesa bloqueio` contra uma arma que não se bloqueia **não é erro**: o
-script troca para Esquiva, mantém a DP do escudo e explica por quê.
+script troca para Esquiva, mantém a DP do escudo (se o tiro vier de frente) e explica por quê.
 
 ## O que muda em relação à skill `atacar`
 

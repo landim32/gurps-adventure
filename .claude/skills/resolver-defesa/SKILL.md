@@ -17,7 +17,8 @@ longe tinham cada um a sua cópia de ~110 linhas do mesmo cálculo — e elas j�
 começado a divergir em silêncio: uma somava a DP do escudo em qualquer região, a outra só
 onde havia armadura; uma aceitava `--recuar`, a outra não; uma avisava que a segunda defesa
 da Defesa Total precisa ser diferente, a outra fazia a segunda tentativa sem dizer por quê.
-Uma regra, uma casa.
+Uma regra, uma casa — e o regime da defesa passiva, que era a última dessas divergências,
+está fechado adiante (“O regime da defesa passiva”).
 
 ```
 python .claude/skills/resolver-defesa/scripts/resolver_defesa.py \
@@ -32,8 +33,8 @@ python .claude/skills/resolver-defesa/scripts/resolver_defesa.py \
 |---|---|---|
 | base da defesa | `--defesa-valor`, ou a flag do chamador, ou `defesas_ativas` da ficha | a fonte vai escrita na linha (`da ficha` / `informada pelo Mestre`) |
 | +1 | Reflexos em Combate, lida pela folha `contexto` | só +1: defesa ativa não é teste de reação |
-| +DP da armadura da região | `protecao(ficha, região, perfurante)` | região sem armadura não soma a da loriga do tronco |
-| +DP do escudo | `escudo_dp(ficha)` | corpo a corpo: só vale onde a armadura vale. `--escudo-sempre` é o regime do projétil |
+| +DP da armadura da região | `protecao(ficha, região, perfurante)` | só a peça que cobre aquela região; sem peça nomeada para a região, soma zero |
+| +DP do escudo | `escudo_dp(ficha)`, ou `--escudo-dp` | vale em qualquer região, mas só de frente e do lado do escudo — `--nao-frontal` o tira |
 | +3 | `--recuar` | MB, cap. 14 |
 | mod da manobra | `md` (Defesa Total −2, Ataque Total sem defesa…) | o nome da manobra sai na linha |
 | `--mod` | o que a mesa arbitrou (atordoado, caído, escuro) | sempre com `--mod-motivo` |
@@ -61,16 +62,34 @@ Devolve `saida` (terminal), `mec` (as linhas do bloco da mesa, na ordem) e `resu
 `defendeu` encerra o golpe ali — quem chamou imprime "sem dano" e para. Os campos de RD
 vão direto para a `causar-dano`, que não calcula proteção.
 
-## Opções que são decisão de mesa, não bug
+## O regime da defesa passiva — um só, dos dois lados do alcance
 
-| Flag | Quem usa | Por quê |
+| Peça | Onde vale | Fonte no livro |
 |---|---|---|
-| `--escudo-sempre` | `atacar-distancia` | contra projétil a mesa sempre somou a DP do escudo, blindada a região ou não |
-| `--dp-informado-zera-escudo` | `atacar-distancia` | quem informa a DP por cima está descrevendo o total, não pedindo para somar o escudo de novo |
-| `--projetil` | as duas, no texto | ajusta a redação ("vale contra projétil") e o lembrete do crítico |
+| **DP da armadura** | só na **região que ela cobre**. Região sem peça sobre ela não soma nada: cota de malha nenhuma protege o olho | MB, pág. 72 e 99 — a DP da armadura vai na linha da região |
+| **DP do escudo** | em **qualquer região** — o escudo não é peça de vestuário regional, é o que intercepta o golpe —, mas só contra ataque que venha da **frente ou do lado do escudo**. Por trás, não conta | MB, cap. 11: “seu escudo só o protege de ataques vindos de *sua frente* ou do *lado do escudo*”. MB, cap. 10: não vale contra “ataque dissimulado”, i.e., pelas costas |
 
-Essas três não são unanimidade entre os dois lados — são o que a mesa ainda não unificou.
-Se um dia você decidir um regime só, é aqui que se muda, uma vez.
+De onde a folha tira cada número:
+
+- **armadura da região**: casa o campo `armadura` do local atingido com o item de
+  `categoria: armadura` da ficha (`DP4 / RD2`, ou `DP3` sozinho) e devolve `(DP, RD, peça)`;
+- **escudo**: o item com “escudo”, “broquel” ou “pavês” na ficha; se a peça não vier com DP,
+  cai no campo `defesa_passiva.escudo` da própria ficha; e `--escudo-dp` informa por cima,
+  para NPC sem ficha;
+- `--dp-informado` troca **só a DP da armadura** — não silencia mais o escudo, como a arma
+  de longe fazia;
+- `--sem-escudo` tira o escudo (mão nas rédeas, escudo caído, segunda mão ocupada);
+- `--nao-frontal` tira a DP do escudo, mantendo a da armadura.
+
+O que a mesa vai ver mudar: quem apanha **de frente** passou a somar a DP do escudo também em
+cabeça e olhos, como sempre somou no torso; quem apanha **por trás** deixou de somar — regra
+do capítulo 11 que estava escrita nos documentos e não no código. E um golpe no olho parou de
+contar a DP da cota do tronco, que era o que a versão antiga fazia quando a região não tinha
+peça nomeada.
+
+Removidas na unificação: `--escudo-sempre` e `--dp-informado-zera-escudo`. Se você quiser
+regimes diferentes por lado do alcance de novo, reabra as duas opções — não um `if` solto em
+um dos dois chamadores.
 
 ## O que esta folha nunca faz
 

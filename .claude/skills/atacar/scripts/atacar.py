@@ -268,7 +268,10 @@ def main():
     ap.add_argument("--alvo-esquiva", type=int, default=0)
     ap.add_argument("--alvo-aparar", type=int, default=0)
     ap.add_argument("--alvo-bloqueio", type=int, default=0)
-    ap.add_argument("--alvo-dp", type=int, default=-1, help="Defesa passiva na mão")
+    ap.add_argument("--alvo-dp", type=int, default=-1,
+                   help="DP da armadura da região, por cima da ficha")
+    ap.add_argument("--alvo-escudo-dp", type=int, default=-1,
+                    help="DP do escudo do alvo, quando a peça não está na ficha")
     ap.add_argument("--alvo-rd", type=int, default=-1, help="RD do local, na mão")
     ap.add_argument("--alvo-defesa-mod-motivo", default="",
                     help="Por que o --alvo-defesa-mod: «atordoado», «caído»")
@@ -449,7 +452,9 @@ def main():
         "md": T.MANOBRAS_DEFESA[args.alvo_manobra],
         "mod": args.alvo_defesa_mod, "mod_motivo": args.alvo_defesa_mod_motivo,
         "recuar": args.recuar, "sem_escudo": args.sem_escudo,
+        "frontal": not args.nao_frontal,
         "dp_informado": args.alvo_dp if args.alvo_dp >= 0 else None,
+        "escudo_dp_informado": (args.alvo_escudo_dp if args.alvo_escudo_dp >= 0 else None),
         "rd_informado": args.alvo_rd if args.alvo_rd >= 0 else None,
         "ignora_defesa": fulminante,
     })

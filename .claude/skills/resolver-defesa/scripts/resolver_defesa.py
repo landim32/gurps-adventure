@@ -36,39 +36,52 @@ try:
 except Exception as erro:
     raise SystemExit(f"Não consegui carregar a skill contexto ({CTX_PY}): {erro}")
 
-RE_DP_RD = re.compile(r"DP\s*(\d+)\s*/?\s*RD\s*(\d+)", re.I)
+# "DP3" sozinho é como as fichas desta campanha listam escudo; "DP2 / RD2", como listam
+# armadura. As duas formas têm de casar — com RD obrigatória, o escudo nunca foi contado.
+RE_DP_RD = re.compile(r"DP\s*(\d+)(?:\s*/\s*RD\s*(\d+))?", re.I)
 
-# MB, cap. 14 — armadura por região, e o que a RD natural do crânio soma.
+
+def _dp_rd(tipo):
+    m = RE_DP_RD.search(tipo or "")
+    if not m:
+        return 0, 0
+    return int(m.group(1)), int(m.group(2) or 0)
+
+
 def protecao(ficha, regiao_armadura, perfurante):
-    """(DP, RD, peça) da região atingida. Sem ficha, sem proteção."""
-    if not ficha:
+    """(DP, RD, peça) da região atingida.
+
+    Sem região nomeada, não há o que casar: loriga nenhuma cobre o olho, e aceitar a
+    primeira armadura da ficha — como este código fazia — dava DP de cota de malha a um
+    golpe na vista.
+    """
+    if not ficha or not regiao_armadura:
         return 0, 0, None
-    dp = rd = 0
-    peca = None
     for o in ficha.get("armas_objetos") or []:
         if (o.get("categoria") or "").lower() != "armadura":
             continue
-        m = RE_DP_RD.search(o.get("tipo") or "")
-        if not m:
+        if regiao_armadura.lower() not in (o.get("item") or "").lower():
             continue
-        cobre = (o.get("item") or "").lower()
-        if regiao_armadura and regiao_armadura.lower() not in cobre:
+        dp, rd = _dp_rd(o.get("tipo"))
+        if not (dp or rd):
             continue
-        dp, rd = int(m.group(1)), int(m.group(2))
-        peca = o.get("item")
         if perfurante:
             rd = max(0, rd - 1)     # perfuração ignora 1 ponto de RD (MB, cap. 14)
-        break
-    return dp, rd, peca
+        return dp, rd, o.get("item")
+    return 0, 0, None
 
 
 def escudo_dp(ficha):
+    """DP do escudo: da peça listada, ou do campo defesa_passiva.escudo da ficha."""
     for o in (ficha or {}).get("armas_objetos") or []:
         nome = (o.get("item") or "").lower()
-        if "escudo" in nome or "broquel" in nome:
-            m = RE_DP_RD.search(o.get("tipo") or "")
-            if m:
-                return int(m.group(1)), o.get("item")
+        if "escudo" in nome or "broquel" in nome or "pav" in nome:
+            dp, _ = _dp_rd(o.get("tipo"))
+            if dp:
+                return dp, o.get("item")
+    passiva = (ficha or {}).get("defesa_passiva") or {}
+    if passiva.get("escudo"):
+        return int(passiva["escudo"]), "escudo (defesa passiva da ficha)"
     return 0, None
 
 
@@ -87,17 +100,20 @@ def calcular(p):
 
     dp_local, rd_local, peca = protecao(fd, local.get("armadura"), tipo == "perf")
     if p.get("dp_informado") is not None:
-        dp_local, peca = p["dp_informado"], peca or "informado pelo Mestre"
+        dp_local, peca = p["dp_informado"], peca or "armadura informada pelo Mestre"
     if p.get("rd_informado") is not None:
         rd_local = p["rd_informado"]
     dp_escudo, nome_escudo = (0, None) if p.get("sem_escudo") else escudo_dp(fd)
-    if p.get("dp_informado") is not None and p.get("dp_informado_zera_escudo"):
-        dp_escudo, nome_escudo = 0, None
+    if p.get("escudo_dp_informado") is not None:
+        dp_escudo = int(p["escudo_dp_informado"])
+        nome_escudo = nome_escudo or "escudo informado pelo Mestre"
     rd_total = rd_local + local.get("rd_natural", 0)
-    # no corpo a corpo a DP do escudo só vale onde a armadura vale; contra projétil a
-    # mesa sempre somou as duas — mantido como opção até o Mestre decidir um regime só
-    escudo_passivo = dp_escudo if p.get("escudo_sempre") else (
-        dp_escudo if local.get("armadura") else 0)
+    frontal = p.get("frontal", True)
+    # Um regime só, do lado nenhum do alcance (MB, pág. 99 e cap. 11): a DP da ARMADURA vale
+    # na região que ela cobre; a do ESCUDO não é peça de vestuário regional, vale em qualquer
+    # região — mas só contra ataque que venha da frente ou do lado do escudo. Por trás, ele
+    # não protege (e quem o carrega pendurado às costas leva DP-1, à parte).
+    escudo_passivo = dp_escudo if frontal else 0
 
     resultado = {"defendeu": False, "dp_local": dp_local, "rd_local": rd_local,
                  "rd_total": rd_total, "peca": peca, "dp_escudo": dp_escudo,
@@ -152,9 +168,8 @@ def calcular(p):
     if dp_total:
         total += dp_total
         comp.append(f"+{dp_local} DP {peca or 'armadura'}" if dp_local else "")
-        if dp_escudo and (p.get("escudo_sempre") or local.get("armadura")):
-            comp.append(f"+{dp_escudo} DP {nome_escudo}"
-                        + (" (vale contra projétil)" if p.get("projetil") else ""))
+        if dp_escudo and frontal:
+            comp.append(f"+{dp_escudo} DP {nome_escudo}")
     if p.get("recuar"):
         total += 3
         comp.append("+3 recuar")
@@ -241,11 +256,13 @@ def main():
     ap.add_argument("--mod-motivo", default="")
     ap.add_argument("--recuar", action="store_true")
     ap.add_argument("--sem-escudo", action="store_true")
-    ap.add_argument("--escudo-sempre", action="store_true",
-                    help="conta a DP do escudo mesmo em região sem armadura (projétil)")
-    ap.add_argument("--dp-informado", type=int, default=None)
+    ap.add_argument("--nao-frontal", action="store_true",
+                    help="o ataque vem por trás: a DP do escudo não conta (MB, cap. 11)")
+    ap.add_argument("--dp-informado", type=int, default=None,
+                    help="DP da armadura da região, por cima da ficha")
+    ap.add_argument("--escudo-dp", type=int, default=None,
+                    help="DP do escudo, quando o NPC não tem a peça listada na ficha")
     ap.add_argument("--rd-informado", type=int, default=None)
-    ap.add_argument("--zera-escudo-com-dp", action="store_true")
     ap.add_argument("--projetil", action="store_true", help="ajusta só o texto da conta")
     a = ap.parse_args()
 
@@ -261,9 +278,10 @@ def main():
         "manobra_defesa": a.manobra_defesa,
         "md": json.loads(a.md) if a.md else {"nome": "Normal", "defesas": 1, "mod": 0},
         "mod": a.mod, "mod_motivo": a.mod_motivo,
-        "recuar": a.recuar, "sem_escudo": a.sem_escudo, "escudo_sempre": a.escudo_sempre,
+        "recuar": a.recuar, "sem_escudo": a.sem_escudo,
+        "frontal": not a.nao_frontal,
         "dp_informado": a.dp_informado, "rd_informado": a.rd_informado,
-        "dp_informado_zera_escudo": a.zera_escudo_com_dp, "projetil": a.projetil,
+        "escudo_dp_informado": a.escudo_dp, "projetil": a.projetil,
     })
     print("\n".join(r["saida"]))
     print("\nresultado: " + json.dumps(r["resultado"], ensure_ascii=False))

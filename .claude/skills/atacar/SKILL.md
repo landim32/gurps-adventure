@@ -103,9 +103,10 @@ esse bônus), acha a **peça de armadura daquela região** pelo nome do item —
 (tronco)", "Camal (cabeça)" — e usa o par `DP1/RD2 perf` quando o golpe é perfurante.
 
 A **DP do escudo entra em qualquer ponto de impacto** — no livro ela é um bônus na jogada
-de defesa, limitado por *direção* (frente e lado do escudo), não por parte do corpo. Se na
-sua cena o escudo não deveria valer — golpe pelas costas, alvo deitado sobre ele —, passe
-`--alvo-dp` com o valor certo e o script usa o seu número.
+de defesa, limitado por *direção* (frente e lado do escudo), não por parte do corpo. Golpe
+pelas costas já tem como dizer isso: `--nao-frontal` tira a DP do escudo e mantém a da
+armadura. O que o escudo vale vem da peça na ficha, ou de `defesa_passiva.escudo`; para um
+NPC sem peça listada, `--alvo-escudo-dp`.
 
 **NPC não tem ficha em JSON.** Leia o `npcs.md` do capítulo e passe na mão:
 

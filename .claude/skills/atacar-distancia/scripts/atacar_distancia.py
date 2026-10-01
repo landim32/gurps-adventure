@@ -147,7 +147,10 @@ def main():
                     choices=["esquiva", "bloqueio", "nenhuma"])
     ap.add_argument("--alvo-esquiva", type=int, default=0)
     ap.add_argument("--alvo-bloqueio", type=int, default=0)
-    ap.add_argument("--alvo-dp", type=int, default=-1)
+    ap.add_argument("--alvo-dp", type=int, default=-1,
+                    help="DP da armadura da região, por cima da ficha")
+    ap.add_argument("--alvo-escudo-dp", type=int, default=-1,
+                    help="DP do escudo do alvo, quando a peça não está na ficha")
     ap.add_argument("--alvo-rd", type=int, default=-1)
     ap.add_argument("--alvo-defesa-mod", type=int, default=0)
     ap.add_argument("--alvo-defesa-mod-motivo", default="",
@@ -414,10 +417,9 @@ def main():
             return
 
     # ---------------------------------------------------------- defesa
-    # O número e o dado vêm da mesma folha do corpo a corpo. O que é de projétil fica
-    # aqui: o escudo conta mesmo em região sem armadura, --alvo-dp zera a DP do escudo,
-    # e quem não pode bloquear o tiro fica na Esquiva — essa troca é de cá, porque só
-    # este lado sabe o que a arma é bloqueável.
+    # O número, o escudo e o dado vêm da mesma folha do corpo a corpo — um regime só. O que
+    # é de cá é a troca de quem não pode bloquear o projétil para Esquiva, porque só este
+    # lado sabe o que a arma é bloqueável.
     dv = C.dv
     fd = tn.ler_ficha(args.alvo, raiz)
     alvo = (fd or {}).get("nome", args.alvo)
@@ -437,10 +439,10 @@ def main():
         "defesa": defesa, "defesa_valor": na_mao,
         "md": T.MANOBRAS_DEFESA[args.alvo_manobra],
         "mod": args.alvo_defesa_mod, "mod_motivo": args.alvo_defesa_mod_motivo,
-        "sem_escudo": False, "escudo_sempre": True, "projetil": True,
+        "projetil": True, "frontal": not args.nao_frontal,
         "dp_informado": args.alvo_dp if args.alvo_dp >= 0 else None,
         "rd_informado": args.alvo_rd if args.alvo_rd >= 0 else None,
-        "dp_informado_zera_escudo": True,
+        "escudo_dp_informado": (args.alvo_escudo_dp if args.alvo_escudo_dp >= 0 else None),
         "ignora_defesa": fulminante,
     })
     for linha in dfe["saida"]:
