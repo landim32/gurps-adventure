@@ -8,16 +8,16 @@
   "historia": "Bárbaro de uma aldeia isolada de descendência centro-africana à beira do grande deserto; cresceu treinando espada, escudo e maça, resolvendo tudo na força bruta",
   "data_criacao": "06/09/2026",
   "sequencia": "1",
-  "pontos_gastar": 150,
-  "pontos_total": 150,
+  "pontos_gastar": 170,
+  "pontos_total": 170,
   "atributos": {
     "ST": {
       "valor": 15,
       "custo": 60
     },
     "DX": {
-      "valor": 13,
-      "custo": 30
+      "valor": 14,
+      "custo": 45
     },
     "IQ": {
       "valor": 9,
@@ -34,7 +34,7 @@
     "gdp": "1D+1",
     "bal": "2D+1"
   },
-  "velocidade_basica": 6.25,
+  "velocidade_basica": 6.5,
   "deslocamento": 6,
   "carga": {
     "nenhuma": 15,
@@ -51,7 +51,7 @@
   "defesas_ativas": {
     "esquiva": 6,
     "aparar": 8,
-    "bloqueio": 7
+    "bloqueio": 8
   },
   "reacao": "+2 (mesmo sexo); +4 (sexo oposto)",
   "vantagens_desvantagens": [
@@ -92,12 +92,11 @@
       "custo": -5
     },
     {
-      "nome": "Inimigo: guarda de Wallace",
-      "custo": 0,
-      "lado": "desvantagem"
+      "nome": "Má Reputação -4 em Wallace",
+      "custo": -10
     },
     {
-      "nome": "Má Reputação -4 em Wallace",
+      "nome": "Inimigo: guarda de Wallace",
       "custo": 0,
       "lado": "desvantagem"
     }
@@ -172,35 +171,35 @@
   "pericias": [
     {
       "nome": "Espadas de Lâmina Larga",
-      "nh": 16,
+      "nh": 17,
       "tipo": "DX/M",
       "custo": 16,
       "categoria": "Combate"
     },
     {
       "nome": "Machado/Maça",
-      "nh": 15,
+      "nh": 16,
       "tipo": "DX/M",
       "custo": 8,
       "categoria": "Combate"
     },
     {
       "nome": "Escudo",
-      "nh": 15,
+      "nh": 16,
       "tipo": "DX/F",
       "custo": 4,
       "categoria": "Combate"
     },
     {
       "nome": "Sacar Rápido (Espada)",
-      "nh": 15,
+      "nh": 16,
       "tipo": "DX/F",
       "custo": 4,
       "categoria": "Combate"
     },
     {
       "nome": "Briga",
-      "nh": 14,
+      "nh": 15,
       "tipo": "DX/F",
       "custo": 2,
       "categoria": "Combate"
@@ -209,6 +208,20 @@
       "nome": "Corrida",
       "nh": 11,
       "tipo": "HT/D",
+      "custo": 2,
+      "categoria": "Físicas"
+    },
+    {
+      "nome": "Natação",
+      "nh": 15,
+      "tipo": "DX/F",
+      "custo": 2,
+      "categoria": "Físicas"
+    },
+    {
+      "nome": "Cavalgar",
+      "nh": 14,
+      "tipo": "DX/M",
       "custo": 2,
       "categoria": "Físicas"
     },
@@ -227,6 +240,34 @@
       "categoria": "Externas/Profissionais"
     },
     {
+      "nome": "Terreno (Wallace)",
+      "nh": 10,
+      "tipo": "IQ/F",
+      "custo": 2,
+      "categoria": "Externas/Profissionais"
+    },
+    {
+      "nome": "Furtividade",
+      "nh": 15,
+      "tipo": "DX/M",
+      "custo": 4,
+      "categoria": "Ladinas"
+    },
+    {
+      "nome": "Lábia",
+      "nh": 9,
+      "tipo": "IQ/M",
+      "custo": 2,
+      "categoria": "Sociais"
+    },
+    {
+      "nome": "Liderança",
+      "nh": 9,
+      "tipo": "IQ/M",
+      "custo": 2,
+      "categoria": "Sociais"
+    },
+    {
       "nome": "Negrai (nativa)",
       "nh": 9,
       "tipo": "IQ/M",
@@ -235,18 +276,18 @@
     },
     {
       "nome": "Ânglico",
-      "nh": 8,
+      "nh": 9,
       "tipo": "IQ/M",
-      "custo": 1,
+      "custo": 2,
       "categoria": "Línguas"
     }
   ],
   "resumo": {
-    "atributos": 100,
+    "atributos": 115,
     "vantagens": 50,
-    "desvantagens": -40,
+    "desvantagens": -50,
     "peculiaridades": -5,
-    "pericias": 45,
-    "total": 150
+    "pericias": 60,
+    "total": 170
   }
 }
