@@ -3,13 +3,14 @@
   "jogador": "André",
   "arquetipo": "Trovador (Fantasy)",
   "raca": "Anão (Fantasy)",
+  "foto": "foto.png",
   "idade": 50,
   "aparencia": "50 anos, anão baixo, sem a mão esquerda, veludos berrantes, barba impecável, voz grave",
   "historia": "Trocou os hinos de guerra anões por baladas de amor impossível; humilha inimigos cantando, não só no machado",
   "data_criacao": "05/09/2026",
   "sequencia": "1",
-  "pontos_gastar": 150,
-  "pontos_total": 150,
+  "pontos_gastar": 170,
+  "pontos_total": 164,
   "atributos": {
     "ST": {
       "valor": 13,
@@ -24,17 +25,17 @@
       "custo": 30
     },
     "HT": {
-      "valor": 12,
-      "custo": 20
+      "valor": 13,
+      "custo": 30
     }
   },
   "fadiga": 15,
-  "pontos_vida": 12,
+  "pontos_vida": 13,
   "dano_basico": {
     "gdp": "1D",
     "bal": "2D-1"
   },
-  "velocidade_basica": 6.0,
+  "velocidade_basica": 6.25,
   "deslocamento": 5,
   "carga": {
     "nenhuma": 13,
@@ -93,8 +94,7 @@
     },
     {
       "nome": "Maneta (mão esquerda)",
-      "custo": 0,
-      "lado": "desvantagem"
+      "custo": -15
     }
   ],
   "peculiaridades": [
@@ -159,9 +159,9 @@
   "pericias": [
     {
       "nome": "Machado/Maça",
-      "nh": 14,
+      "nh": 15,
       "tipo": "DX/M",
-      "custo": 6,
+      "custo": 14,
       "categoria": "Combate"
     },
     {
@@ -173,7 +173,7 @@
     },
     {
       "nome": "Canto",
-      "nh": 18,
+      "nh": 19,
       "tipo": "HT/F",
       "custo": 4,
       "categoria": "Sociais"
@@ -187,14 +187,14 @@
     },
     {
       "nome": "Trato Social",
-      "nh": 16,
+      "nh": 17,
       "tipo": "IQ/F",
-      "custo": 2,
+      "custo": 4,
       "categoria": "Sociais"
     },
     {
       "nome": "Sex-Appeal",
-      "nh": 14,
+      "nh": 15,
       "tipo": "HT/M",
       "custo": 2,
       "categoria": "Sociais"
@@ -208,23 +208,23 @@
     },
     {
       "nome": "Detecção de Mentiras",
-      "nh": 13,
+      "nh": 14,
       "tipo": "IQ/M",
-      "custo": 2,
+      "custo": 4,
       "categoria": "Ladinas"
     },
     {
       "nome": "Manha",
-      "nh": 13,
+      "nh": 14,
       "tipo": "IQ/M",
-      "custo": 2,
+      "custo": 4,
       "categoria": "Ladinas"
     },
     {
       "nome": "Lábia",
-      "nh": 14,
+      "nh": 15,
       "tipo": "IQ/M",
-      "custo": 4,
+      "custo": 6,
       "categoria": "Ladinas"
     },
     {
@@ -236,18 +236,32 @@
     },
     {
       "nome": "Comércio",
-      "nh": 14,
+      "nh": 15,
       "tipo": "IQ/M",
-      "custo": 4,
+      "custo": 6,
       "categoria": "Profissionais"
+    },
+    {
+      "nome": "Diplomacia",
+      "nh": 12,
+      "tipo": "IQ/D",
+      "custo": 0.5,
+      "categoria": "Sociais"
+    },
+    {
+      "nome": "Política",
+      "nh": 13,
+      "tipo": "IQ/M",
+      "custo": 0.5,
+      "categoria": "Sociais"
     }
   ],
   "resumo": {
-    "atributos": 80,
+    "atributos": 90,
     "vantagens": 67,
-    "desvantagens": -40,
+    "desvantagens": -55,
     "peculiaridades": -5,
-    "pericias": 48,
-    "total": 150
+    "pericias": 67,
+    "total": 164
   }
 }

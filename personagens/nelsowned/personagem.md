@@ -1,6 +1,6 @@
 # NelsOwned — "O Pequeno Gigante da Canção"
 
-**Jogador:** André · **Raça:** Anão (*GURPS Fantasy*, 30 pts) · **Arquétipo:** Trovador (*GURPS Fantasy*) · **Pontos:** 150/150
+**Jogador:** André · **Raça:** Anão (*GURPS Fantasy*, 30 pts) · **Arquétipo:** Trovador (*GURPS Fantasy*) · **Pontos:** 170 (164 gastos, 6 sobrando)
 
 ## Aparência
 
@@ -24,9 +24,9 @@ machado.
 | ST | 13 (11 base + 2 racial) | 10 |
 | DX | 12 | 20 |
 | IQ | 13 | 30 |
-| HT | 12 | 20 |
+| HT | 13 | 30 |
 
-**Total Atributos: 80 pontos**
+**Total Atributos: 90 pontos**
 
 Bônus racial de Anão: +2 ST (já somado acima), +2 Fadiga, RD +1 natural, Longevidade, escala de
 Carga ampliada (2,5/5/10/15×ST) e -1 em Deslocamento por causa das pernas curtas — tudo incluído
@@ -35,10 +35,10 @@ no pacote racial de 30 pontos (ver Vantagens).
 ## Estatísticas Derivadas
 
 - **Fadiga:** 15 (ST 13 + 2 racial)
-- **Pontos de Vida:** 12
+- **Pontos de Vida:** 13
 - **Dano Básico:** GDP 1D / Bal 2D-1
-- **Velocidade Básica:** 6,0
-- **Deslocamento:** 5 (6,0 de Vel. Básica − 1 por pernas curtas de Anão; carga "Nenhuma" não penaliza)
+- **Velocidade Básica:** 6,25
+- **Deslocamento:** 5 (6,25 de Vel. Básica − 1 por pernas curtas de Anão; carga "Nenhuma" não penaliza)
 - **Carga (kg):** Nenhuma 13 · Leve 32,5 · Média 65 · Pesada 130 · Muito Pesada 195
 - **Defesa Passiva/RD:** 1 (RD natural de Anão — não usa armadura, só os veludos de palco)
 - **Esquiva:** 5 · **Aparar (Machado/Maça):** 7 · **Bloqueio:** —
@@ -57,10 +57,12 @@ no pacote racial de 30 pontos (ver Vantagens).
 | Excesso de Confiança | -10 |
 | Luxúria | -15 |
 | Hábito Detestável (trocadilhos de mau gosto) | -5 |
-| Maneta (mão esquerda) | 0 |
+| Maneta (mão esquerda) | -15 |
 
-**Vantagens: 67 pontos · Desvantagens pagas: -40 pontos** (no limite do projeto). Maneta entra
-com custo 0: desvantagem adquirida em jogo, sem pontos para gastar. O total continua 150.
+**Vantagens: 67 pontos · Desvantagens pagas: -55 pontos.** A Maneta saiu de custo 0 para o
+valor do livro, −15. Esses 15, mais os 20 da campanha, são os 35 pontos deste gasto. O teto
+de criação da mesa é −40; a coluna passou disso porque o Mestre aceitou a mão perdida como
+desvantagem permanente.
 
 Notas de arbitragem:
 - **Fanfarronice** — adora provocar e humilhar quem estiver ao alcance da voz; teste de Vontade
@@ -72,10 +74,9 @@ Notas de arbitragem:
 - **Hábito Detestável** — trocadilhos de mau gosto o tempo todo (a começar pelo próprio nome);
   -1 em testes de reação de quem tiver que aturá-lo.
 - **Maneta (mão esquerda)** — adquirida no fim da fuga (MB 12: HT 12 tirou 16, falha por 4).
-  O livro cobra -15 e manda baixar o total; o Mestre lançou a custo 0, sem ganho de pontos.
-  A mão direita está inteira. O que exige uma só mão sai sem redutor. O machado grande e o
-  alaúde exigem as duas mãos e não servem. Sem prótese. Machado/Maça 14 continua valendo
-  para uma arma de uma mão na direita.
+  Agora vale os −15 do livro (Maneta, uma mão). A mão direita está inteira. O que exige uma
+  só mão sai sem redutor. O machado grande e o alaúde exigem as duas mãos e não servem.
+  Sem prótese. Machado/Maça 15 vale para uma arma de uma mão na direita.
 
 ## Peculiaridades
 
@@ -91,29 +92,36 @@ Notas de arbitragem:
 
 | Perícia | NH | Tipo | Custo | Categoria |
 |---|---|---|---|---|
-| Machado/Maça | 14 | DX/M | 6 | Combate |
+| Machado/Maça | 15 | DX/M | 14 | Combate |
 | Trovador | 20 | IQ/M | 8 | Sociais |
-| Canto | 18 | HT/F | 4 | Sociais |
+| Canto | 19 | HT/F | 4 | Sociais |
 | Instrumento Musical (Alaúde) | 16 | IQ/D | 6 | Sociais |
-| Trato Social | 16 | IQ/F | 2 | Sociais |
-| Sex-Appeal | 14 | HT/M | 2 | Sociais |
+| Trato Social | 17 | IQ/F | 4 | Sociais |
+| Diplomacia | 12 | IQ/D | 0,5 | Sociais |
+| Política | 13 | IQ/M | 0,5 | Sociais |
+| Sex-Appeal | 15 | HT/M | 2 | Sociais |
 | Poesia | 14 | IQ/M | 4 | Sociais |
-| Detecção de Mentiras | 13 | IQ/M | 2 | Ladinas |
-| Manha | 13 | IQ/M | 2 | Ladinas |
-| Lábia | 14 | IQ/M | 4 | Ladinas |
+| Detecção de Mentiras | 14 | IQ/M | 4 | Ladinas |
+| Manha | 14 | IQ/M | 4 | Ladinas |
+| Lábia | 15 | IQ/M | 6 | Ladinas |
 | Dança | 13 | DX/M | 4 | Físicas |
-| Comércio | 14 | IQ/M | 4 | Profissionais |
+| Comércio | 15 | IQ/M | 6 | Profissionais |
 
-**Total Perícias: 48 pontos**
+**Total Perícias: 67 pontos**
 
 Notas de cálculo:
-- Anões têm Machado/Maça grátis em NH = DX; os 6 pontos pagos elevam de NH 12 para NH 14.
+- Anões têm Machado/Maça grátis em NH = DX; os 14 pontos pagos elevam de NH 12 para NH 15.
 - Trovador e Canto somam o bônus permanente de +2 da Voz Melodiosa (Trovador soma também +2
   de Carisma, conforme o próprio texto da perícia). Instrumento Musical e Canto usam o Talento
   Musical (+2) como bônus ao atributo-base só para fins de cálculo do custo de aprendizado.
+- Diplomacia e Política são novas, a ½ ponto cada. O nível comprado é IQ−3 (10) e IQ−2 (11).
+  O NH impresso soma +2 da Voz Melodiosa, como no Trovador: 12 e 13.
+- O HT 13 sobe Canto e Sex-Appeal em 1, no mesmo custo.
+- Dos 20 pontos de campanha foram gastos 14, depois de abater os 15 da Maneta. Sobram 6.
+  Trato Social segue 2 acima do que os pontos compram na tabela Fácil; este gasto só pagou o +1.
 
 Em combate, o "ataque" mais temido de NelsOwned não está na ficha como perícia própria: é a
-narrativa de usar Trovador/Lábia/Canto (NH 20/14/18) para debochar de um inimigo em plena
+narrativa de usar Trovador/Lábia/Canto (NH 20/15/19) para debochar de um inimigo em plena
 melodia, buscando gerar vergonha, distração ou um teste de reação/Vontade ruim antes de sacar o
 machado — que ele leva como plano B.
 
@@ -138,9 +146,10 @@ esquerda perdida, não empunha.
 
 | Categoria | Pontos |
 |---|---|
-| Atributos | 80 |
+| Atributos | 90 |
 | Vantagens | 67 |
-| Desvantagens | -40 |
+| Desvantagens | -55 |
 | Peculiaridades | -5 |
-| Perícias | 48 |
-| **Total** | **150** |
+| Perícias | 67 |
+| **Total** | **164** |
+| Orçamento | 170 |
