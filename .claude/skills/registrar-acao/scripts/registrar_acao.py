@@ -313,10 +313,17 @@ def main():
         for c in plano:
             print(f"- {c}")
 
-    print("\n### Bloco da mesa")
-    print("```")
-    print(bloco_mesa(ato))
-    print("```")
+    bloco = bloco_mesa(ato)
+    if bloco.strip():
+        print("\n### Bloco da mesa")
+        print("```")
+        print(bloco)
+        print("```")
+    elif ato.get("reacoes"):
+        # só reação no ato: não há o que ler na mesa. Faixa, número e motivo ficam com o
+        # Mestre — e imprimir um bloco vazio aqui só convidaria alguém a colar nada.
+        print("\n### Bloco da mesa")
+        print("(vazio por decisão: reação rolada não vai para o log da mesa nem ao roll6.)")
     if args.dry_run:
         print("\n(dry-run: nada foi escrito)")
     return 1 if falhas else 0
