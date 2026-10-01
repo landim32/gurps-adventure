@@ -330,10 +330,11 @@ dois discordarem, o repositório ganha e o roll6 é corrigido.
   **`processar-turno`**. Ela confere se todos agiram, resolve como a `acao`, **mostra o
   resultado ao Mestre e só segue com a aprovação dele** (a menos que ele avise que não
   precisa), registra no repositório e encerra o turno com um único `process_turn`.
-- **Mapas:** um mapa do roll6 só é sincronizado depois de `roll6.py alinhar`, que deixa a
-  coluna e a linha do roll6 iguais às do índice de referência (`P7` → x 15, y 6). Os
-  índices que já existem em `cenarios/` continuam servindo de régua; **nada mais os gera**,
-  e o PNG de mesa local não é mais produzido.
+- **Coordenada é do roll6: `x` = coluna, `y` = linha.** É o que `list_map_tokens` devolve e
+  `move_map_token` recebe. O `roll6.py alinhar` sobrou só para as cenas antigas, as que têm
+  índice `.json` em `cenarios/` e aparecem nos registros por rótulo (`P7` → x 15, y 6); mapa
+  novo não tem grade local. O PNG de mesa local e a arte de cenário gerada por skill acabaram
+  — as três skills do caminho (`cenario-rpg`, `add-grid-hex`, `atualizar-mapa`) saíram do repo.
 - **A regra da ficha vale lá também:** `update_character` só com pedido explícito do
   usuário. O que a mesa muda vai na participação.
 - **Nada destrutivo no roll6 sem confirmação** (`delete_*`, `remove_*`,

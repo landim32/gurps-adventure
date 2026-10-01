@@ -74,7 +74,7 @@ do MCP; `roll6.py` cobre o que precisa de arquivo local (imagem, documento, grid
 | `criar-personagem-gurps` (edição) | ficha regerada | `get_character` → `update_character` com **todos** os campos (os omitidos são apagados, inclusive `sheetFile`); ficha nova sobe de novo |
 | `criar-npc-gurps` | bloco do NPC | `create_npc` (exige token) → `add_npc_to_campaign` → `place_npc_on_map` quando ele entra em cena. **Um NPC por figura com nome** (Morto 1, Morto 3…), não um genérico com várias ocorrências |
 | `token-hex-gurps`, `token-organizator` | `tokens/` ou pasta do personagem | `subir-imagem --formato png --lado 512` → `create_token` (1 hex; cavalo e afins com `upSpace`) |
-| `cenario-rpg` | arte do cenário | `subir-imagem` da arte **sem grid** (lado grande o bastante: 2048+) → `create_map_model` → `roll6.py alinhar` com o índice `.json` da cena em `cenarios/` (referência histórica — nada o gera mais) → `add_map_to_campaign` → ligar em `campanha/roll6.json` |
+| arte do cenário (o Mestre fornece; não há mais skill que a gere) | — | `subir-imagem` da arte → `create_map_model` → `add_map_to_campaign` → ligar em `campanha/roll6.json`. **A grade é do roll6: coluna e linha são `x` e `y`** |
 | `campanha` (plano) | `campanha/plano/` | `create_campaign_plan`/`update_campaign_plan`: uma entrada por capítulo (README + npcs.md), imagens por `subir-imagem` e `![](roll6-image:<fileName>)`, links internos viram texto |
 | `campanha` (anotar item, desvantagem, dinheiro) | `grupo.md`, `bolsa.md` | **notas da participação**: `get_participation` → `update_participation` com o `sheet` novo — só o que difere da ficha (item perdido/ganho, desvantagem adquirida, saldo), nunca cópia da ficha |
 | `acao` | log + saúde, entregando o ato à `registrar-acao` | **nada por conta própria**. O que ela decide entra no ato: PV/Fadiga (o `campanha.py saude` não sincroniza mais sozinho), **status tático** — arma preparada/despreparada, caído, de joelhos, atordoado, redutor de choque, apontando, Ataque Total sem defesa, cavalo exausto, até 260 caracteres — e o que muda de posição. Vai ao roll6 quando a `processar-turno` fecha o turno. Para saber onde cada um está, **consulte** `list_map_tokens` |
@@ -82,7 +82,15 @@ do MCP; `roll6.py` cobre o que precisa de arquivo local (imagem, documento, grid
 | `processar-turno` | log, saúde e anotações | **tudo numa chamada só**: `process_turn` com PV, Fadiga, status, posições e a narração — **com a conta de cada jogada abaixo do parágrafo dela** (NH, modificadores com motivo, dado, defesa, dano, HT, críticos) —, que fecha o turno; depois as notas da participação |
 | `status-atual` | só lê | nada; mas se o roll6 divergir do `saude.md`, rode `roll6.py saude --pj/--npc` para corrigir |
 
-## Grid: alinhar o mapa do roll6 ao grid local
+## Grid: o roll6 define coluna e linha como `x` e `y`
+
+**A coordenada de trabalho é a do roll6: `x` = coluna, `y` = linha**, do jeito que
+`list_map_tokens` devolve e `move_map_token` recebe. Mapa novo não tem grade local para
+alinhar — o `cenario-rpg` e a `add-grid-hex` saíram do repo.
+
+O `alinhar` abaixo sobrou para as **cenas antigas**, as que têm índice `.json` em
+`cenarios/` e são citadas por rótulo nos registros (`P7`, `Q30`). Ele existe para não
+descolar o que já foi jogado do que a mesa mostra agora.
 
 O roll6 tem hexágono de raio fixo **40 px** e o hex (0,0) centrado em (40, 20·√3); a
 imagem de fundo é desenhada em (−imageLeft, −imageTop) com o tamanho de exibição. O índice

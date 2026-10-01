@@ -410,8 +410,8 @@ README da cena — é material do plano, reusável. Antes de gerar, leia a skill
 Duas obrigações:
 
 1. **Imagem inicial**, sempre, ao **escrever** o capítulo no plano (`capitulo --titulo`).
-   Estabelecimento: o lugar, a luz, os NPCs **antes** de qualquer fato. Não é o mapa
-   top-down da `cenario-rpg`.
+   Estabelecimento: o lugar, a luz, os NPCs **antes** de qualquer fato. Não é o mapa da
+   mesa — a mesa é o **roll6**, e a arte do cenário não tem mais quem a gere por skill.
 2. **Cada batida planejada relevante** (o que a seção de acontecimentos já filtra, quando
    ainda é plano — a porta que abre, o emboscada) ganha a sua.
 
