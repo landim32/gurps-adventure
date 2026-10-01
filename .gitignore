@@ -15,3 +15,6 @@ campanha/plano/
 
 # Configuracao local da sessao: guarda a OPENAI_API_KEY. Nunca vai para o GitHub.
 .claude/settings.local.json
+
+# Estado local do Qwen Code (tmp de sessao, worktrees, memorias do projeto). So no disco.
+.qwen/
