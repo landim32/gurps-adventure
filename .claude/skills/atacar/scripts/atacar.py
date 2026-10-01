@@ -24,9 +24,9 @@ import subprocess
 import sys
 from pathlib import Path
 
-CAMPANHA_PY = Path(".claude/skills/campanha/scripts/campanha.py")
 SKILLS = Path(__file__).resolve().parents[2]
 AQUI = Path(__file__).resolve().parent
+REGISTRAR_PY = SKILLS / "registrar-acao" / "scripts" / "registrar_acao.py"
 
 
 def _carrega(nome, caminho):
@@ -213,15 +213,21 @@ def tipo_dano_chave(txt):
     return "cont"
 
 
-def registrar(raiz, texto):
-    script = raiz / CAMPANHA_PY
-    if not script.is_file():
-        return False, "skill campanha não encontrada"
+def entregar(ato):
+    """Passa o ato à `registrar-acao` — esta skill não escreve em lugar nenhum.
+
+    O log do golpe carrega o efeito da tabela quando houve critico, porque e isso que muda
+    o rumo da cena — nao o total de dano.
+    """
+    if not REGISTRAR_PY.is_file():
+        return False, "skill registrar-acao nao encontrada"
     env = {**os.environ, "PYTHONIOENCODING": "utf-8"}
-    r = subprocess.run([sys.executable, str(script), "--raiz", str(raiz),
-                        "acontecimento", "--texto", texto], capture_output=True,
-                       text=True, encoding="utf-8", timeout=30, env=env)
-    return r.returncode == 0, (r.stdout or r.stderr).strip()
+    r = subprocess.run([sys.executable, str(REGISTRAR_PY), "--stdin"],
+                       input=json.dumps(ato, ensure_ascii=False),
+                       capture_output=True, text=True, encoding="utf-8",
+                       errors="replace", timeout=60, env=env)
+    linhas = [l for l in (r.stdout or "").splitlines() if l.startswith("[")]
+    return r.returncode == 0, "\n        ".join(linhas) or (r.stderr or "").strip()
 
 
 # ------------------------------------------------------------------- principal
@@ -740,8 +746,9 @@ def _fecha(saida, avisos, args, raiz, atacante, alvo, local, desfecho, ferimento
             txt += f" — {rotulo} ({critico_total}): {critico_txt.rstrip('.')}"
         if ferimento:
             txt += f", {ferimento} pontos de vida"
-        ok, msg = registrar(raiz, txt + ".")
-        print("\nRegistrado no capítulo atual." if ok else f"\nAVISO: não gravei — {msg}")
+        ok, msg = entregar({"resumo": txt + "."})
+        print(("\nEntregue à registrar-acao:\n        " + msg) if ok
+              else f"\nAVISO: não gravei — {msg}")
 
 
 if __name__ == "__main__":

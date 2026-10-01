@@ -715,8 +715,9 @@ def _fecha(saida, avisos, args, raiz, atacante, alvo, local, arma, distancia, de
             txt += f" — {rotulo} ({critico_total}): {critico_txt.rstrip('.')}"
         if ferimento:
             txt += f", {ferimento} pontos de vida"
-        ok, msg = C.registrar(raiz, txt + ".")
-        print("\nRegistrado no capítulo atual." if ok else f"\nAVISO: não gravei — {msg}")
+        ok, msg = C.entregar({"resumo": txt + "."})
+        print(("\nEntregue à registrar-acao:\n        " + msg) if ok
+              else f"\nAVISO: não gravei — {msg}")
 
 
 if __name__ == "__main__":
