@@ -80,17 +80,18 @@ def reacoes_de_todos(roll6, raiz, mapa):
     return fora
 
 
-def ocupacao_local(roll6, raiz, mapa, map_id):
-    """{nome no roll6: (rótulo, frente)} do índice local ligado a este mapa."""
+def indice_local(mapa, map_id):
+    """O índice de hexágonos ligado a este mapa do roll6, e só isso.
+
+    A `ocupacao` do índice era escrita pela `atualizar-mapa`, que saiu do repo: compará-la
+    com a mesa seria conferir uma foto parada contra o presente, e acusar de divergência
+    quem só andou. A posição é a do roll6; do índice fica o `deslocamento`, que é estático
+    e serve para renderizar o rótulo (`Q30`) que os registros já usam.
+    """
     for indice, lig in (mapa.get("mapas") or {}).items():
         if lig.get("mapId") == map_id:
-            f = raiz / indice
-            if not f.is_file():
-                return indice, {}
-            d = json.loads(f.read_text(encoding="utf-8"))
-            return indice, {roll6.slug(roll6.nome_no_roll6(mapa, o.get("quem", ""))): (rot, o.get("frente"))
-                            for rot, o in (d.get("ocupacao") or {}).items()}
-    return None, {}
+            return indice
+    return None
 
 
 def montar(raiz, turno, campanha_id=None):
@@ -109,7 +110,7 @@ def montar(raiz, turno, campanha_id=None):
     em_andamento = dados["turnNo"] == dados["currentTurn"]
     entradas = (c.chamar("get_turn_state", {"campaignId": cid})["entries"] if em_andamento
                 else roll6.lista(c.chamar("list_turn_entries", {"campaignId": cid, "turnNo": dados["turnNo"]})))
-    indice, ocup = ocupacao_local(roll6, raiz, mapa, dados.get("mapId"))
+    indice = indice_local(mapa, dados.get("mapId"))
     desloc = tuple(((mapa.get("mapas") or {}).get(indice) or {}).get("deslocamento") or (0, 0))
     est = acao.estado(raiz)
     divergencias = []
@@ -127,12 +128,11 @@ def montar(raiz, turno, campanha_id=None):
         pasta, ficha = ficha_local(acao, raiz, ch["name"])
         s = None if fora_do_repo else saude_local(roll6, campanha, raiz, mapa, "pj", ch["name"])
         pos = posicao(ch.get("x"), ch.get("y"), ch.get("look"))
-        loc = ocup.get(roll6.slug(ch["name"]))
         pj = {"nome": ch["name"], "jogador": ch.get("playerName"), "characterId": ch["characterId"],
               "campaignCharacterId": ch.get("campaignCharacterId"), "mapTokenId": ch.get("mapTokenId"),
               "ficha": (pasta / "personagem.md").as_posix() if pasta else None,
               "pv": [ch["currentLife"], ch["totalLife"]], "fadiga": [ch["currentEnergy"], ch["totalEnergy"]],
-              "status": ch.get("status"), "posicao": pos, "hex_local": loc[0] if loc else None,
+              "status": ch.get("status"), "posicao": pos,
               "acoes": acoes, "movimentos": [f'({e.get("beforeX")},{e.get("beforeY")}) → ({e.get("x")},{e.get("y")})'
                                              for e in moveu],
               "reacoes": [] if fora_do_repo else acao.reacoes_do_pj(est.get("capitulo_atual_pasta"), ch["name"])}
@@ -141,8 +141,6 @@ def montar(raiz, turno, campanha_id=None):
         if s and (s["pv"], s["fadiga"]) != (ch["currentLife"], ch["currentEnergy"]):
             divergencias.append(f"{ch['name']}: roll6 PV {ch['currentLife']} / Fadiga {ch['currentEnergy']}, "
                                 f"saude.md PV {s['pv']} / Fadiga {s['fadiga']}")
-        if pos and loc and loc[0] != pos["hex"] and not moveu:
-            divergencias.append(f"{ch['name']}: roll6 em {pos['hex']}, mapa local em {loc[0]} (sem movimento no turno)")
         pjs.append(pj)
 
     reacoes = {} if fora_do_repo else reacoes_de_todos(roll6, raiz, mapa)
@@ -151,11 +149,10 @@ def montar(raiz, turno, campanha_id=None):
         minhas = [e for e in entradas if e.get("mapNpcId") == n["mapNpcId"]]
         s = None if fora_do_repo else saude_local(roll6, campanha, raiz, mapa, "npc", n["name"])
         pos = posicao(n.get("x"), n.get("y"), n.get("look"))
-        loc = ocup.get(roll6.slug(n["name"]))
         npcs.append({"nome": n["name"], "mapNpcId": n["mapNpcId"], "npcId": n.get("npcId"),
                      "mapTokenId": n.get("mapTokenId"),
                      "pv": [n["currentLife"], n["totalLife"]], "fadiga": [n["currentEnergy"], n["totalEnergy"]],
-                     "status": n.get("status"), "posicao": pos, "hex_local": loc[0] if loc else None,
+                     "status": n.get("status"), "posicao": pos,
                      "nome_no_saude": s["nome_local"] if s else None,
                      "acoes": [e["description"] for e in minhas if e["turnType"] == 2],
                      "moveu": any(e["turnType"] == 1 for e in minhas),
@@ -164,12 +161,6 @@ def montar(raiz, turno, campanha_id=None):
         if s and n["totalLife"] + s["pv_acumulado"] != n["currentLife"]:
             divergencias.append(f"{n['name']}: roll6 PV {n['currentLife']}, saude.md "
                                 f"{n['totalLife'] + s['pv_acumulado']} ({s['pv_acumulado']:+d} sobre {n['totalLife']})")
-        if pos and loc and loc[0] != pos["hex"]:
-            divergencias.append(f"{n['name']}: roll6 em {pos['hex']}, mapa local em {loc[0]}")
-
-    for nome_slug, (rot, _) in ocup.items():
-        if not any(roll6.slug(x["nome"]) == nome_slug for x in pjs + npcs):
-            divergencias.append(f"{nome_slug}: no mapa local em {rot}, sem peça no roll6 (cavalo/objeto?)")
 
     pendentes = [p["nome"] for p in pjs if not p["acoes"]]
     so_moveu = [p["nome"] for p in pjs if not p["acoes"] and p["movimentos"]]

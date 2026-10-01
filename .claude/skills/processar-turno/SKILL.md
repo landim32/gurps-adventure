@@ -43,7 +43,9 @@ Uma chamada ao `get_turn_data` e ao `get_turn_state`, cruzada com o repositório
   ações que o Mestre já lançou (ou o aviso `SEM AÇÃO NEM MOVIMENTO`) e **a reação mais
   recente dele com cada personagem**, de todos os capítulos. Essas reações são só locais
   e nunca vão ao roll6.
-- **Divergências** entre roll6 e repositório: PV, Fadiga, posição, peça sem par.
+- **Divergências** entre roll6 e repositório: PV, Fadiga, e personagem do turno sem ficha
+  em `personagens/`. Posição **não é mais comparada** — desde que a `atualizar-mapa` saiu,
+  não há espelho local contra o qual divergir.
 - **A lista de arquivos** a ler: `mundo.md`, o plano do capítulo, os `npcs.md`,
   `grupo.md`, `lugares.md`, o log do capítulo e o `reacoes.json`.
 
@@ -64,7 +66,8 @@ Junte **todas** as divergências e pergunte **uma vez**, antes de rolar qualquer
 - **O estado que vem de antes do turno manda no repositório**: PV, Fadiga, estado,
   itens. Se o roll6 discorda sem uma mudança registrada no turno que explique, o roll6
   está errado.
-- Peça sem par (cavalo, objeto) não é divergência de jogo: siga.
+- **A posição no roll6 é a posição.** Não existe mais a outra para conferir: cavalo, objeto
+  e peça que só o roll6 conhece simplesmente estão onde o roll6 diz.
 
 ## 2. Ler antes de decidir qualquer número
 
