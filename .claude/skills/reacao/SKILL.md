@@ -98,7 +98,8 @@ não repita a linha genérica da tabela.
 ## 4. Isto tem memória
 
 O resultado fica em **`campanha/NN-capitulo/reacoes.json`**, na pasta de jogo do capítulo
-atual. Não é log: é **estado da cena**.
+atual. Não é log: é **estado da cena**. Quem escreve esse arquivo é a **`registrar-acao`** —
+esta skill rola, classifica e entrega o ato; não toca em disco.
 
 ```
 python .claude/skills/reacao/scripts/reacao.py --listar
@@ -117,8 +118,11 @@ conveniente. Passe como `--mod "NPC>Personagem:-2:segunda tentativa"`.
 
 Se a primeira tentativa virou luta, **não há segunda**.
 
-O script também registra um acontecimento no capítulo pela skill `campanha`, com os
-destaques. Sem campanha ativa, ele avisa e grava em `campanha/reacoes.json`.
+O acontecimento com os destaques vai no mesmo ato entregue à `registrar-acao`. **Sem
+capítulo atual, nada é escrito**: o script avisa e manda marcar com
+`campanha.py atual --capitulo N`. Antes ele caía em `campanha/reacoes.json`, fora de
+qualquer capítulo — arquivo que nem a `acao` nem a `processar-turno` procuram, e ali o
+resultado se perdia.
 
 ## Quando não rolar
 
@@ -146,14 +150,16 @@ merecia coisa melhor, e não arredonde a favor de ninguém.
 
 ## roll6 — esta skill não grava lá
 
-Esta skill **resolve e registra no repositório**; ela **não grava nada no roll6** —
+Esta skill **resolve e entrega o resultado à `registrar-acao`**, que é quem registra no
+repositório; ela **não grava nada no roll6** —
 nem PV, nem Fadiga, nem status, nem posição, nem entrada de turno —, a menos que o
 usuário peça isso diretamente. Quem leva o resultado para a mesa virtual é a skill que a
 chamou: **`acao`** (ação avulsa) ou **`processar-turno`** (turno inteiro, num único
 `process_turn`), ou a skill `roll6` quando o usuário pedir a sincronização.
 
-Os scripts desta skill só gravam o acontecimento no capítulo; não chamam `campanha.py
-saude` nem `atualizar_mapa.py`, que são os que sincronizam sozinhos.
+O script desta skill não escreve em disco: nem o `reacoes.json`, nem o acontecimento — os
+dois saem do ato que ele entrega à registradora. Ele não chama `campanha.py saude` nem
+`atualizar_mapa.py`, que são os que sincronizam sozinhos.
 
 **Reação é segredo.** O `reacoes.json` fica só no repositório: nem a faixa, nem o total,
 nem o motivo vão ao roll6 ou ao WhatsApp, mesmo quando outra skill sincronizar a mesa.
