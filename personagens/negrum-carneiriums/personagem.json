@@ -9,7 +9,7 @@
   "data_criacao": "06/09/2026",
   "sequencia": "1",
   "pontos_gastar": 170,
-  "pontos_total": 170,
+  "pontos_total": 159,
   "atributos": {
     "ST": {
       "valor": 15,
@@ -213,16 +213,16 @@
     },
     {
       "nome": "Natação",
-      "nh": 15,
+      "nh": 13,
       "tipo": "DX/F",
-      "custo": 2,
+      "custo": 0.5,
       "categoria": "Físicas"
     },
     {
       "nome": "Cavalgar",
-      "nh": 14,
+      "nh": 12,
       "tipo": "DX/M",
-      "custo": 2,
+      "custo": 0.5,
       "categoria": "Físicas"
     },
     {
@@ -241,30 +241,30 @@
     },
     {
       "nome": "Terreno (Wallace)",
-      "nh": 10,
+      "nh": 8,
       "tipo": "IQ/F",
-      "custo": 2,
+      "custo": 0.5,
       "categoria": "Externas/Profissionais"
     },
     {
       "nome": "Furtividade",
-      "nh": 15,
+      "nh": 12,
       "tipo": "DX/M",
-      "custo": 4,
+      "custo": 0.5,
       "categoria": "Ladinas"
     },
     {
       "nome": "Lábia",
-      "nh": 9,
+      "nh": 7,
       "tipo": "IQ/M",
-      "custo": 2,
+      "custo": 0.5,
       "categoria": "Sociais"
     },
     {
       "nome": "Liderança",
-      "nh": 9,
+      "nh": 7,
       "tipo": "IQ/M",
-      "custo": 2,
+      "custo": 0.5,
       "categoria": "Sociais"
     },
     {
@@ -287,7 +287,7 @@
     "vantagens": 50,
     "desvantagens": -50,
     "peculiaridades": -5,
-    "pericias": 60,
-    "total": 170
+    "pericias": 49,
+    "total": 159
   }
 }

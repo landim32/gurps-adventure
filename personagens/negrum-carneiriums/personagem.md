@@ -84,45 +84,71 @@ O total de desvantagens ficou em **-50**, acima do teto sugerido de -40 da cria�
 | Sacar Rápido (Espada) | **16** | DX/F | 4 | Combate |
 | Briga | **15** | DX/F | 2 | Combate |
 | Corrida | 11 | HT/D | 2 | Físicas |
-| Natação* | **15** | DX/F | 2 | Físicas |
-| Cavalgar* | **14** | DX/M | 2 | Físicas |
+| Natação* | **13** | DX/F | 0,5 | Físicas |
+| Cavalgar* | **12** | DX/M | 0,5 | Físicas |
 | Sobrevivência (Deserto) | 11 | IQ/M | 6 | Externas/Profissionais |
 | Rastreamento | 9 | IQ/M | 2 | Externas/Profissionais |
-| Conhecimento do Terreno (Wallace)* | **10** | IQ/F | 2 | Externas/Profissionais |
-| Furtividade* | **15** | DX/M | 4 | Ladinas |
-| Lábia* | **9** | IQ/M | 2 | Sociais |
-| Liderança* | **9** | IQ/M | 2 | Sociais |
+| Conhecimento do Terreno (Wallace)* | **8** | IQ/F | 0,5 | Externas/Profissionais |
+| Furtividade* | **12** | DX/M | 0,5 | Ladinas |
+| Lábia* | **7** | IQ/M | 0,5 | Sociais |
+| Liderança* | **7** | IQ/M | 0,5 | Sociais |
 | Negrai (nativa) | 9 | IQ/M | 0 | Línguas |
 | Ânglico | **9** | IQ/M | 2 | Línguas |
 
-**Total Perícias: 60 pontos**
+**Total Perícias: 49 pontos**
 
-\* Novas nesta sessão. **Cavalgar** é Física/Média (`06-pericias.md`, Perícias com Animais) e foi comprada no nível do próprio DX: NH 14 por 2 pontos — resolve o buraco das perseguições montadas, em que o montante dele descia ao pré-definido Cavalgar 8. **Natação** (Física/Fácil) e **Furtividade** (Física/Média) saem em DX+1; **Conhecimento do Terreno** (Mental/Fácil, e o livro lista Wallace como "aldeia, vila ou cidade pequena") e **Lábia**/**Liderança** (Mentais/Médias) no IQ ou IQ+1.
+\* Novas nesta sessão, cada uma **no primeiro nível da escada de custo** — que é o máximo que esta mesa deixa comprar de uma vez (`# Pontos de campanha` abaixo). Ficaram em DX−1 para **Natação** (Física/Fácil), DX−2 para **Cavalgar** e **Furtividade** (Físicas/Médias), IQ−1 para **Conhecimento do Terreno** (Mental/Fácil, e o livro lista Wallace como "aldeia, vila ou cidade pequena") e IQ−2 para **Lábia** e **Liderança** (Mentais/Médias). Todas custam ½ ponto.
 
 Notas de cálculo:
 - As cinco perícias de **Combate** subiram de NH **sem custo**: é a regra do *Aumento Automático do Nível de Habilidade* (`06-pericias.md`) — quem paga pontos por um atributo vê todas as perícias baseadas nele subirem junto. Elas continuam nos mesmos níveis relativos de sempre (DX+3, DX+2, DX+2, DX+2, DX+1) e continuam custando os mesmos 16/8/4/4/2 pontos de antes. Comprar cada nível separado custaria **26**; o DX custou 15 e ainda trouxe Machado/Maça e Sacar Rápido de brinde.
 - **Corrida** é baseada em HT, não em DX — por isso ficou em 11.
-- **Ânglico** subiu de 8 para 9, o próprio IQ, por 1 ponto (Mental/Média: IQ−1 = 1, IQ = 2). Não há teto de IQ para língua estrangeira no livro — é só onde o orçamento parou.
-- O **teto de idade** (2 × 23 = 46 pontos em perícias) valia na criação, e os 45 originais estavam dentro dele. Ele não se aplica às perícias acrescentadas depois (`06-pericias.md`, "A Escolha das Perícias Iniciais"), então os 15 novos estão liberados.
+- **Ânglico** subiu de 8 para 9, o próprio IQ, por 1 ponto (Mental/Média: IQ−1 = 1, IQ = 2). É **um** nível de subida numa perícia que ele já tinha, então passa na regra da mesa e ficou como foi comprado.
+- O **teto de idade** (2 × 23 = 46 pontos em perícias) valia na criação, e os 45 originais estavam dentro dele. Ele não se aplica às perícias acrescentadas depois (`06-pericias.md`, "A Escolha das Perícias Iniciais"), então os 4 novos estão liberados.
 
 ## Pontos de campanha
+
+**Regra da mesa para gasto de pontos:** cada compra sobe **no máximo um nível** — numa perícia, no máximo **+1 NH**; num atributo, **+1**. Ela conversa com a tabela de custo cumulativo do MB, que não anuncia quantos níveis existem dentro de um preço:
+
+| Dificuldade | 1º nível | 2º nível | 3º nível | 4º nível |
+|---|---|---|---|---|
+| Fácil | Atributo−1 (½) | Atributo (1) | +1 (2) | +2 (4) |
+| Média | Atributo−2 (½) | Atributo−1 (1) | Atributo (2) | +1 (4) |
+| Difícil | Atributo−3 (½) | Atributo−2 (1) | Atributo−1 (2) | Atributo (4) |
+
+Ou seja: **pagar 2 pontos numa perícia Média compra três níveis**, e foi exatamente isso que aconteceu aqui. O pedido original levava Cavalgar no DX (2 pontos = 3 níveis), Natação e Furtividade em DX+1 (2 e 4 pontos), Terreno em IQ+1, Lábia e Liderança no IQ. **Desfeito para o primeiro nível de cada**, os 11 pontos voltaram para o jogador.
 
 **Orçamento da sessão: 30 pontos** — 20 de campanha + 10 devolvidos pela Má Reputação assumida em Wallace.
 
 | Onde foi | Pontos |
 |---|---|
-| DX 13 → 14 (30 → 45) | 15 |
-| …e as 5 perícias baseadas em DX subiram 1 nível cada, de graça | 0 |
-| Cavalgar 14 (nova) | 2 |
-| Natação 15 (nova) | 2 |
-| Furtividade 15 (nova) | 4 |
-| Conhecimento do Terreno (Wallace) 10 (nova) | 2 |
-| Lábia 9 (nova) | 2 |
-| Liderança 9 (nova) | 2 |
-| Ânglico 8 → 9 | 1 |
-| **Gasto** | **30 de 30** |
+| DX 13 → 14 (30 → 45) — **um nível de atributo, ok** | 15 |
+| …e as 5 perícias de Combate subiram 1 nível cada, de graça (regra do aumento automático) | 0 |
+| Cavalgar 12 (nova, 1º nível) | 0,5 |
+| Natação 13 (nova, 1º nível) | 0,5 |
+| Furtividade 12 (nova, 1º nível) | 0,5 |
+| Conhecimento do Terreno (Wallace) 8 (nova, 1º nível) | 0,5 |
+| Lábia 7 (nova, 1º nível) | 0,5 |
+| Liderança 7 (nova, 1º nível) | 0,5 |
+| Ânglico 8 → 9 — **um nível numa perícia que ele já tinha, ok** | 1 |
+| **Gasto legal** | **19 de 30** |
+| **Voltaram para o jogador** | **11** |
 
-Não sobrou nada para a próxima sessão. Consequências práticas: **Bloqueio 7 → 8** (Escudo 16), **Velocidade Básica 6,25 → 6,5**, Aparar continua 8 (17 ÷ 2 arredondado para baixo) e Esquiva continua 6.
+Ficha fechada em **159 de 170**. Consequências que ficaram de pé: **Bloqueio 7 → 8** (Escudo 16), **Velocidade Básica 6,25 → 6,5**, Aparar continua 8 (17 ÷ 2 arredondado para baixo) e Esquiva continua 6.
+
+**O que os 11 pontos ainda podem comprar** (um nível por perícia nesta sessão; o próximo nível espera o próximo gasto):
+
+| Subida | Custo | Fica em |
+|---|---|---|
+| Cavalgar 12 → 13 | 1 | 13 |
+| Furtividade 12 → 13 | 1 | 13 |
+| Natação 13 → 14 | 1 | 14 |
+| Terreno (Wallace) 8 → 9 | 1 | 9 (o próprio IQ) |
+| Lábia 7 → 8 | 1 | 8 |
+| Liderança 7 → 8 | 1 | 8 |
+| Ânglico 9 → 10 | 2 | 10 |
+| Briga 15 → 16 | 2 | 16 |
+| Escudo 16 → 17 | 4 | 17 (Bloqueio 8) |
+| Espadas 17 → 18 | 8 | 18 (Aparar 9) |
 
 ## Equipamento
 
@@ -148,6 +174,8 @@ Negrum não usa armadura no tronco, braços, pernas, mãos ou pés — confia na
 | Vantagens | 50 |
 | Desvantagens | -50 |
 | Peculiaridades | -5 |
-| Perícias | 60 |
-| **Total** | **170** |
+| Perícias | 49 |
+| **Total** | **159** |
 | Orçamento | 170 |
+
+**Sobra do jogador: 11 pontos** de campanha livres, depois de desfeito o excedente das perícias novas (ver `# Pontos de campanha`).
