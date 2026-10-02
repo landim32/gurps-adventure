@@ -3,16 +3,17 @@
   "jogador": "Ricardo",
   "arquetipo": "Ladrão (Fantasy)",
   "raca": "Humano (Sahud)",
-  "aparencia": "Homem de meia-idade, esguio, cabelos cacheados presos num coque samurai; sobrancelhas arqueadas quando desconfia de algo ou joga cartas",
+  "idade": 44,
+  "aparencia": "1,75 m; 68,1 kg; 44 anos, esguio, cabelos cacheados em coque samurai, sobrancelhas arqueadas",
   "historia": "Nascido em Sahud, aprendeu o ofício nas sombras dos becos e nunca mais largou faca, adaga ou baralho; sua sorte incomum já o safou de mais dívidas e confusões do que ele consegue contar",
   "data_criacao": "05/09/2026",
   "sequencia": "3",
-  "pontos_gastar": 150,
-  "pontos_total": 150,
+  "pontos_gastar": 170,
+  "pontos_total": 164,
   "atributos": {
     "ST": {
-      "valor": 9,
-      "custo": -10
+      "valor": 10,
+      "custo": 0
     },
     "DX": {
       "valor": 16,
@@ -27,20 +28,20 @@
       "custo": 20
     }
   },
-  "fadiga": 9,
+  "fadiga": 10,
   "pontos_vida": 12,
   "dano_basico": {
     "gdp": "1D-2",
-    "bal": "1D-1"
+    "bal": "1D"
   },
   "velocidade_basica": 7.0,
   "deslocamento": 7,
   "carga": {
-    "nenhuma": 9,
-    "leve": 18,
-    "media": 27,
-    "pesada": 54,
-    "muito_pesada": 90
+    "nenhuma": 10,
+    "leve": 20,
+    "media": 30,
+    "pesada": 60,
+    "muito_pesada": 100
   },
   "defesa_passiva": {
     "armadura": 1,
@@ -176,6 +177,20 @@
       "categoria": "Combate"
     },
     {
+      "nome": "Sacar Rápido (Adaga)",
+      "nh": 15,
+      "tipo": "DX/F",
+      "custo": 0.5,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Sacar Rápido (Dardo/Lança)",
+      "nh": 15,
+      "tipo": "DX/F",
+      "custo": 0.5,
+      "categoria": "Combate"
+    },
+    {
       "nome": "Acrobacia",
       "nh": 14,
       "tipo": "DX/D",
@@ -194,6 +209,13 @@
       "nh": 16,
       "tipo": "DX/F",
       "custo": 1,
+      "categoria": "Físicas"
+    },
+    {
+      "nome": "Cavalgar",
+      "nh": 14,
+      "tipo": "DX/M",
+      "custo": 0.5,
       "categoria": "Físicas"
     },
     {
@@ -219,16 +241,16 @@
     },
     {
       "nome": "Manha",
-      "nh": 11,
+      "nh": 12,
       "tipo": "IQ/M",
-      "custo": 1,
+      "custo": 2,
       "categoria": "Ladinas"
     },
     {
       "nome": "Lábia",
-      "nh": 11,
+      "nh": 12,
       "tipo": "IQ/M",
-      "custo": 1,
+      "custo": 2,
       "categoria": "Ladinas"
     },
     {
@@ -237,6 +259,27 @@
       "tipo": "IQ/F",
       "custo": 0.5,
       "categoria": "Ladinas"
+    },
+    {
+      "nome": "Varredura (Caratê)",
+      "nh": 13,
+      "tipo": "Caratê/D",
+      "custo": 0,
+      "categoria": "Manobras"
+    },
+    {
+      "nome": "Ponto de Impacto (Faca)",
+      "nh": 14,
+      "tipo": "Faca/D",
+      "custo": 0,
+      "categoria": "Manobras"
+    },
+    {
+      "nome": "Conservar a Arma (Faca)",
+      "nh": 17,
+      "tipo": "Faca/D",
+      "custo": 0,
+      "categoria": "Manobras"
     },
     {
       "nome": "Sahudês (nativa)",
@@ -289,11 +332,11 @@
     }
   ],
   "resumo": {
-    "atributos": 110,
+    "atributos": 120,
     "vantagens": 40,
     "desvantagens": -35,
     "peculiaridades": -5,
-    "pericias": 40,
-    "total": 150
+    "pericias": 43.5,
+    "total": 163.5
   }
 }
