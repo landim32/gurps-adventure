@@ -86,14 +86,39 @@ custo, o esquema do JSON e as regras de formatação da ficha impressa. Pontos e
   `personagem.json` (**fonte da verdade — releia antes de qualquer edição**), `personagem.md`
   (ficha legível), `ficha.jpg` (planilha oficial preenchida) e `foto-prompt.md` (prompt de
   retrato). Uma imagem na pasta (`foto.png`) é colada automaticamente no quadro de retrato.
-  **Conjuradores ganham mais dois**: `grimorio.md` e `grimorio.jpg` — as mágicas ficam no
-  array `magias[]` do JSON, e a lista de perícias da ficha recebe só uma linha de remissão
-  ao grimório.
+  **Conjuradores e lutadores de artes marciais ganham mais dois**: `grimorio.md` e
+  `grimorio.jpg`. As mágicas ficam no array `magias[]` do JSON, e a lista de perícias da ficha
+  recebe só uma linha de remissão. As **manobras** ficam em `pericias[]` (categoria
+  `Manobras`, é de lá que `atacar` e `fintar` leem o NH) e o grimório as descreve em resumo.
 - Ao editar um personagem, **recalcule tudo do zero**: mudar um atributo altera Fadiga, Pontos
   de Vida, Dano Básico, Velocidade, Carga e o NH/custo de toda perícia baseada nele.
 - Decisões de projeto já firmadas: **Sistema Avançado de Combate** (armadura montada peça por
   peça, com DP/RD discriminados por região), arquétipos dos livros seguidos como base
   obrigatória quando citados, e limite de -40 pontos em desvantagens.
+
+### O contexto da campanha: `campanha/CONTEXTO.md`
+
+**O que influencia a cena, de todos os personagens, fica num arquivo só**, e ele é lido em
+**toda execução**: quem é, a aparência (como o veem), a reação fixa, as vantagens, as
+**desvantagens**, as **peculiaridades**, as línguas e os nomes das mágicas. É o que faz o
+modelo lembrar que o Comam tem Hipoalgia, que o Kaelric é honesto e que o Comam "nunca paga a
+própria bebida" na hora em que a cena pede.
+Antes de decidir o que um personagem faz, sofre ou diz, **confira os traços dele aqui**.
+
+- **É gerado, não escrito à mão:** `python .claude/skills/campanha/scripts/campanha.py elenco`
+  regera o arquivo a partir de `personagens/*/personagem.json`. A ficha continua sendo a fonte;
+  o `CONTEXTO.md` é a cópia que o modelo lê.
+- **Quando regerar:** ao **iniciar a campanha** (o `campanha.py criar` já faz); quando um
+  personagem **entra ou sai** (pasta criada ou apagada em `personagens/`); quando um
+  personagem **é alterado ou atualizado** (a `criar-personagem` roda o comando no fim); e
+  **sempre que o Mestre pedir**.
+- **O que não vai para lá, de propósito:** atributos, perícias, manobras e equipamento — a
+  `contexto` os traz da ficha a cada jogada, e o equipamento muda na campanha. Nem o que a
+  mesa gastou ou ganhou (PV, Fadiga, bolsa, ferimento): `saude.md`, `bolsa.md` e `mundo.md`. A
+  skill `contexto` lista o arquivo no topo dos arquivos a ler, e a `narrar` também.
+- **Peso:** uns 7 KB para seis personagens.
+
+@campanha/CONTEXTO.md
 
 ### Gerar as imagens (ficha e grimório)
 
@@ -113,8 +138,8 @@ python .claude/skills/criar-personagem/scripts/preencher_grimorio.py \
 ```
 
 Opcionais da ficha: `--foto <caminho>` para escolher o retrato explicitamente, `--sem-foto`
-para omiti-lo. O do grimório lê o mesmo JSON e não faz nada se não houver `magias[]`; acima
-de 45 mágicas, pagina sozinho (`grimorio-2.jpg`…).
+para omiti-lo. O do grimório lê o mesmo JSON e não faz nada se não houver `magias[]` nem manobras; acima
+de 45 linhas, pagina sozinho (`grimorio-2.jpg`…).
 
 Os scripts escrevem sobre `ficha-de-personagem.jpg` e `grimorio.jpg` (ambas 2481×3508 px)
 imitando escrita à mão. As coordenadas foram calibradas por análise de pixel e **cada campo é
@@ -193,8 +218,10 @@ ganho ou gasto, item pegado, PV perdido, ferimento, mágica lançada — fica no
 campanha: **dinheiro em `campanha/bolsa.md`** (`campanha.py bolsa --pj "Nome" --valor
 +50 --motivo "..."`), **pontos de vida, Fadiga e ferimento que fica em
 `campanha/saude.md`** (`campanha.py saude --pj "Nome" --pv -3 --motivo "..."`, e
-`--estado "Braço direito incapacitado (Maneta)"` para o que não passa com a cena), o
-resto nas anotações. A ficha guarda o que o personagem **é**; a
+`--estado "Braço direito incapacitado (Maneta)"` para o que não passa com a cena), **água,
+comida e o que a comitiva deve gastar por dia em `campanha/mantimentos.md`** (sem script: é o
+único dos três que se edita à mão, e o desconto de cada dia sai no mesmo momento em que o
+número é dito à mesa), o resto nas anotações. A ficha guarda o que o personagem **é**; a
 campanha guarda como ele **está** e o que ele **tem agora**.
 
 **Todo personagem de jogador abre a bolsa com o que sobrou da criação:** os recursos
@@ -210,7 +237,7 @@ primeira taberna sem um vintém no bolso.
 
 **Declaração de jogador entra pela skill `acao`** — "Ricardo: vou tentar furtar o Giles".
 Ela lê a ficha de quem age e o estado da cena, decide o que a ação exige, chama quem
-resolve (`teste-nh`, `disputa-nh`, `atacar`, `atacar-distancia`, `reacao`, `roll`),
+resolve (`teste-nh`, `disputa-nh`, `atacar`, `fintar`, `atacar-distancia`, `reacao`, `roll`),
 narra o desfecho e
 registra as três camadas: o acontecimento, a anotação do que ficou diferente e a ficha,
 quando a ficha mudou.
@@ -275,7 +302,7 @@ campanha.
 ### Quem resolve não escreve: a skill `registrar-acao`
 
 Uma ação resolvida tem dois momentos, e eles têm donos diferentes. As skills de **decisão e
-cálculo** — `acao`, `atacar`, `atacar-distancia`, `teste-nh`, `disputa-nh`, `reacao`,
+cálculo** — `acao`, `atacar`, `fintar`, `atacar-distancia`, `teste-nh`, `disputa-nh`, `reacao`,
 `iniciativa`, `roll` — **devolvem resultado e param aí**: não lançam em `bolsa.md` nem em
 `saude.md`, não escrevem anotação, não falam com o roll6. Quem grava é a **`registrar-acao`**,
 única skill autorizada a tocar arquivo depois do dado. Ela recebe o *ato resolvido* em JSON,
@@ -335,6 +362,8 @@ dois discordarem, o repositório ganha e o roll6 é corrigido.
 - **Automático, no repositório:**
   - `campanha.py saude` mantém `saude.md` (PV, Fadiga, estado) e `campanha.py bolsa`
     mantém `bolsa.md`. Ambos regeram o `mundo.md`.
+  - `campanha/mantimentos.md` (água e comida da comitiva) **não tem script**: mantém-se à
+    mão, e é por isso que ele diz de onde veio cada número e o que é arbitragem do Mestre.
   - Posição e frente das peças **não têm mais quem as desenhe no repositório**: as skills
     `atualizar-mapa` e `add-grid-hex` saíram do repo, e a mesa é o roll6.
 - **Pelo MCP, dois regimes, e não um:**
@@ -348,7 +377,9 @@ dois discordarem, o repositório ganha e o roll6 é corrigido.
 - **Turno jogado no roll6** (os jogadores movem e declaram lá): quem fecha é a skill
   **`processar-turno`**. Ela confere se todos agiram, resolve como a `acao`, **mostra o
   resultado ao Mestre e só segue com a aprovação dele** (a menos que ele avise que não
-  precisa), registra no repositório e encerra o turno com um único `process_turn`.
+  precisa), registra no repositório e encerra o turno com um único `process_turn`. **Todo
+  turno fechado gera uma narração**, arquivada pelo `narrar.py gravar` — no capítulo e em
+  `campanha/whatsapp/output/` — e exibida na resposta.
 - **Coordenada é do roll6: `x` = coluna, `y` = linha.** É o que `list_map_tokens` devolve e
   `move_map_token` recebe. O `roll6.py alinhar` sobrou só para as cenas antigas, as que têm
   índice `.json` em `cenarios/` e aparecem nos registros por rótulo (`P7` → x 15, y 6); mapa
@@ -376,7 +407,7 @@ colar no grupo.
 - quando o **Mestre disser** que acabou (a cena, a rodada, o combate).
 
 Aí sim: **um bloco só**, com a rodada inteira na ordem em que aconteceu, e o fecho da cena
-junto. As skills `atacar`, `atacar-distancia`, `teste-nh`, `disputa-nh` e `reacao` imprimem
+junto. As skills `atacar`, `atacar-distancia`, `fintar`, `teste-nh`, `disputa-nh` e `reacao` imprimem
 um bloco cada uma — **guarde-os e junte no fim**, em vez de repassar um por vez.
 
 Fora de combate a regra não vale: uma ação declarada isolada, um teste solto, uma reação —
@@ -400,7 +431,7 @@ parágrafo de cada ação**, a conta daquela ação, para o jogador conferir o q
 - **sucesso decisivo, golpe fulminante, falha crítica e erro crítico** em destaque, com o
   que a tabela mandou acontecer.
 
-Os scripts de `atacar`, `atacar-distancia`, `teste-nh` e `disputa-nh` já imprimem essa conta
+Os scripts de `atacar`, `atacar-distancia`, `fintar`, `teste-nh` e `disputa-nh` já imprimem essa conta
 no bloco **PARA O WHATSAPP** — passe o motivo junto com o número (`--mod -2 --mod-motivo
 "escuro"`, `--motivo`) para ela não sair como "situação". **Não resuma** a conta em "acertou
 o braço": repasse as linhas como o script imprimiu, na ordem, depois do parágrafo narrado.

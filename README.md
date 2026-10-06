@@ -174,7 +174,9 @@ que de fato aconteceu na mesa. Quando termina, ela é arquivada inteira em
 `campanha`.
 
 Pontos de vida, Fadiga e ferimento que fica moram em **`campanha/saude.md`**; o dinheiro de
-cada um fica em **`campanha/bolsa.md`**, com extrato e saldo: a ficha do
+cada um fica em **`campanha/bolsa.md`**, com extrato e saldo; e o que a comitiva tem para
+beber e comer — mais o que ela deve gastar por dia — fica em **`campanha/mantimentos.md`**,
+que é o único dos três mantido à mão, sem script escrevendo nele. A ficha do
 personagem não é mexida por causa de moeda, nem por nada que a mesa produza — ela só muda
 quando o usuário pede.
 
