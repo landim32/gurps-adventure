@@ -1,0 +1,46 @@
+*DIA 6 — A CISTERNA E O DIA QUE NÃO ANDOU*
+
+O bárbaro leu o chão errado outra vez. Desta vez não foi azar de contorno: ele apostou numa
+sombra de rocha que era sombra de rocha, e a carroça passou o dia descrevendo um arco largo
+que o mapa de ninguém vai registrar. E foi nesse arco que a enxada do acaso bateu em pedra
+lavada: uma cisterna enterrada, boca meio aberta pela areia, obra de mão humana velha, com
+escada para dentro.
+> Rumo: Negrum, NH 9 (= Sobrevivência (Deserto) 11 -2), 3d [6,3,1] = 10 → **FALHA por 1**
+> Consequência: o dia está perdido. **0 km** creditados, e a água do dia bebida inteira
+> Encontro do dia: **8** — a cisterna enterrada (o Mestre arbitrou **três dias de água**;
+> a linha do livro diz um dia)
+> Carreiro: Comam, NH 13 (= pré-definido Cavalgar 15 -2), 3d [1,3,3] = 7 → SUCESSO por 3
+> Jah gastou a **Sorte** para virar o resultado do dia, e ela virou
+
+A tarde inteira foi corda e balde. Os quatro animais beberam até a barriga bater no chão e o
+restante subiu em couro para dentro dos barris, um por um, enquanto o cocheiro xingava a
+jarra e o templário segurava a corda com a mão boa. Encheram tudo o que havia para encher — e
+o que sobrou no fundo da cisterna ficou lá, porque carroça não tem mais onde pôr água.
+> Água: 185 L no começo do dia → +115 L (até a boca dos seis barris = 300 L)
+> Despesa do dia: **-80 L** → **220 litros** no fim do dia 6
+> Da cisterna cabia tirar 240 litros; saíram **115**. Os outros 125 litros ficaram na pedra
+> Comida: 44 pessoas-dia - 8 = **36 pessoas-dia** (ninguém caçou nem cozinhou além do de sempre)
+
+No repouso, o corpo fez o que vinha fazendo todas as noites, e fez pela última vez para dois
+deles.
+> Cura natural, HT 12: Kaelric 3d [4,5,1] = 10 → SUCESSO por 2 → 5 → **6/12**
+> Cura natural, HT 12: Jah 3d [1,4,5] = 10 → SUCESSO por 2 → 8 → **9/12**
+> Cura natural, HT 12: Negrum 3d [4,2,5] = 11 → SUCESSO por 1 → 11 → **12/12**
+> Cura natural, HT 13: NelsOwned 3d [2,2,5] = 9 → SUCESSO por 4 → **-1 → 0/13**
+
+O trovador acordou no ponto exato em que a vitalidade dele passou a não ser mais um problema
+de morte, e ainda não é um problema de pé: a regra da casa diz que a zero ele não sobe sem
+cura de verdade. Mais um ponto, e ele levanta da maca de carga com um machado de uma mão.
+> NelsOwned: 0/13 — a um ponto de levantar. A mão esquerda não volta.
+> Negrum: inteiro. Kaelric: a perna coxa só fecha aos 12, e ele está em 6.
+
+Lorde William contou os barris com o pé, duas vezes, e disse o número que ninguém queria
+ouvir em voz alta: que a água agora dura mais do que a ração, que eles andaram zero
+quilômetros num dia em que acharam água, e que se o bárbaro errar de novo eles vão morrer
+encostados num barril cheio.
+> Andado: **90 km dos 200**. Restam **110 km = 4 dias** = **320 litros**. Há **220**.
+> **Faltam 100 litros**, e o gargalo deixou de ser sede: é o recipiente e o rumo.
+
+*Para amanhã, duas coisas bastam:* **quem vai na frente lendo o chão**, e **se a carroça
+força marcha** para encurtar os dias que faltam — o que custa 2 de Fadiga a cada um e a conta
+inteira de água por dia forçado. O resto continua descansando.

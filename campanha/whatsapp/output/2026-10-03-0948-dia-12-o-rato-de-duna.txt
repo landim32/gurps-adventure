@@ -1,0 +1,22 @@
+*DIA 12 — O RATO-DE-DUNA*
+
+A poeira de ontem virou gente ao meio da manhã: seis camelos, duas mulas, uma carroça pequena com lona remendada e meia dúzia de homens de turbante que não tiraram a mão do cabo da faca enquanto o anão e o cocheiro se aproximavam a pé. Cheiro de esterco seco, de couro quente, de chá fervido em fogo de bosta de camelo. Comam falou primeiro, em árabe, e pediu um guia. Os homens se olharam e não responderam.
+
+Quem respondeu foi um moleque. Magro de osso, descalço, a túnica mais furo que pano, um turbante sujo amarrado de qualquer jeito e dois dentes da frente faltando quando sorriu. Saiu de baixo da carroça como quem sai de uma toca.
+— _Guia? Eu. Yusuf ibn Harun. Aqui me chamam de Rato-de-Duna, porque eu acho buraco onde não tem. Até Ferrier eu levo vocês. Mil moedas._
+
+Comam traduziu. NelsOwned riu, sentou num caixote sem pedir licença e respondeu como quem já tinha comprado mula de cigano: com elogio, com pena e com a bolsa bem fechada. O cocheiro passava palavra por palavra. O moleque coçou a cabeça, olhou o anão de cima a baixo, olhou a mão que faltava, e cedeu.
+> Disputa de Comércio — NelsOwned: Comércio 15, -2 negocia pela boca do Comam (não fala árabe) = *13*
+> 3d [1, 1, 3] = *5* → sucesso por 8
+> Yusuf: Comércio *11*
+> 3d [1, 6, 5] = *12* → falha por 1
+> *NelsOwned vence: -10% no preço → $900*
+
+— _Novecentas, então. Metade agora, metade quando vocês virem a muralha de Ferrier. E eu como da comida de vocês._
+Ele apontou para o sol, depois para o chão, desenhou com o dedão do pé uma linha na areia e disse, sem pressa, para onde ficava o poço seguinte. O cocheiro não soube dizer se era verdade. O moleque não pareceu se importar.
+> Yusuf ibn Harun: *Navegação 12 em terra* (Navegação 12, -3 por estar em terra, +3 do Senso de Direção = 12)
+> Sobrevivência (Deserto) 12
+
+Os homens da caravana deram de ombros: o moleque não é de ninguém ali. Ele espera a resposta de pé, com a mão já aberta.
+
+*Vocês aceitam?*

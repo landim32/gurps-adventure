@@ -1,0 +1,54 @@
+*DIA 2 — A CARAVANA*
+
+O segundo dia é o primeiro dia igual ao anterior, e isso já é notícia: ninguém morreu de
+noite, ninguém acordou gritando. O Comam pegou as rédeas no escuro, antes de o céu clarear o
+suficiente para ver a roda, e o resto do dia foi o barulho de sempre — areia no ferro, corda
+rangendo, o couro dos quatro animais estalando na parada curta da sombra.
+> Carreiro: pré-definido Cavalgar 15 −2 = *13*
+> 3d [1, 3, 2] = *6* → sucesso por 7 — *decisivo*, de novo
+> Marcha do dia: *30 km* · total andado na travessia: *60 km dos 200*
+
+O bárbaro desceu da garupa na parada do meio-dia e foi embora a pé, na diagonal do sol,
+procureando o que o deserto esconde de quem sabe olhar. Voltou três horas depois, mais
+queimado, com as mãos vazias e a cabeça baixa de quem conta como fracasso o que era só
+areia.
+> Sobrevivência (Deserto): *11* · 3d [6, 1, 1] = *13* → *falha por 2*
+> Nada de poça, nada de raiz mordida, nada de orvalho em pedra
+> Esforço pesado por metade do dia dobra a sede dele: *+5 litros*
+
+Na carroça, o templário passou a manhã de joelhos com um trapo e cinza, limpo a maça e o
+pavês até o ferro parecer água, e ofereceu as mãos a quem estivesse ruim. Ninguém aceitou,
+porque ninguém podia: o que cura ferimento é o atendimento logo depois do golpe, e os golpes
+destes quatro ficaram para trás, no pátio de Wallace, há três dias e uma carroça inteira.
+Reza, ele rezou. A poeira saiu.
+> Primeiros Socorros (MB 12): vale no atendimento imediato da ferida; a janela passou
+> Kaelric PS 13 e Comam PS 12 em NelsOwned: *não se aplica mais* — sem teste, sem cura
+
+No repouso da tarde, porém, o corpo fez o que corpo faz quando come, bebe e dorme.
+> Cura natural (MB 12): teste de HT *12*, com a mesa parada e a ração em dia
+> Kaelric 3d [6, 2, 4] = *12* → sucesso · 2 → *3/12*
+> Jah 3d [4, 4, 4] = *12* → sucesso · 4 → *5/12*
+> Negrum 3d [1, 1, 1] = *3* → sucesso *crítico* · 9 → *10/12*
+> NelsOwned 3d [5, 5, 4] = *14* → *falha por 2* · continua *−4/13*, deitado, inteiro de
+> vontade e quebrado de corpo
+
+E foi quando o terceiro dia estava quase batendo na porta que o céu começou a cuspir fumaça.
+Um dardo, depois outro, cada um no seu pedaço de azul. E depois, o que ninguém espera ouvir
+no meio do nada: um sino de camelo, e uma voz humana reclamando de algo em árabe, com
+sotaque de gente que atravessa isto aqui toda estação. Vinte e dois camelos, quatro tendes
+grandes, uma forja desmontável e seis guardas a cavalo cortando o caminho exatamente onde o
+William disse que cortaria.
+> 3d do dia 2: [5, 6, 1] = *12* → linha *10-13*
+> A caravana levou golpe de reptantes duas noites atrás: falta um camelo, *preço +50%*,
+> e ninguém forja, conserta ou facilita para quem não fizer um serviço antes
+
+Antes de ver qualquer um de vocês, a caravana ouviu o anão. Deitado na traseira da carroça,
+maneta, com a cabeça apoiada num barril meio cheio, NelsOwned cantou o dia inteiro para
+levantar moral que não existia — e foi uma voz de palco, limpa, vinda de cima de uma carroça
+de bois no meio do deserto, que anunciou o grupo. Isso eles vão comentar. E tem outra coisa
+que eles vão comentar antes de abrir a bolsa: a carroça não tem um camelo. Tem uma carroça
+puxada por dois cavalos de tiro, dois cavalos de sela e oito pessoas, e foi construída para
+um caminho que não é este. O preço de um camelo aqui hoje é o de um bom cavalo de sela —
+*1.200* moedas —, e com a taxa do dia faz *1.800*. Cinco dos sete camelos que restam têm
+água atrás deles; o que está mais perto da carroça é o William, que desceu sem esperar que
+alguém o ajudasse a descer, e caminhou na direção do feitor com a mão vazia e levantada.

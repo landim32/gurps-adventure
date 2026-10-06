@@ -1,0 +1,48 @@
+*DIA 7 — O ABUTRE E O HOMEM QUE JÁ ERA CADÁVER*
+
+A primeira coisa que o bárbaro viu não foi o deserto: foi o pássaro, girando em círculo
+preguiçoso, do jeito que coisa nenhuma gira quando não há carne embaixo. Ele parou, olhou
+para o Lorde William, olhou de novo para o pássaro, e fez a única coisa que lhe restava
+depois de três dias errando: apontou. Andaram até o abutre, e o abutre esperou.
+> Rumo: Negrum, NH 9 (= Sobrevivência (Deserto) 11 -2), 3d [2,6,4] = 12 → **FALHA por 3**
+> Consequência: mais um dia perdido. **0 km** creditados, os 80 litros bebidos do mesmo jeito
+> Carreiro: Comam, NH 13 (= pré-definido Cavalgar 15 -2), 3d [4,3,3] = 10 → SUCESSO por 3
+> Encontro do dia: **9** — abutre em círculos e, embaixo, um viajante
+
+Era um homem de Caithness, a dois dias de casa, com o odre cheio e os lábios partidos de
+tanto lamber o nada. Estava vivo até eles se aproximarem, e foi o cocheiro quem desceu, deu de
+beber a ele antes de dar qualquer pergunta, e ouviu as duas coisas que o deserto estava
+guardando para este dia.
+> O odre dele enche quase meio dia de sede de um homem
+> Notícia 1: **houve peste em Blythe**
+> Notícia 2: **Ferrier não abre para quem chega sem estar pedindo passagem** — o portão é
+> conversa marcada, não destino
+
+Lorde William sentou na traseira da carroça depois de ouvir a segunda, e não disse nada por um
+tempo. Ele tinha comprado água três dias antes, tinha pago as duas metades do que devia, tinha
+posto a armadura de volta no cavalo do templário — e o portão para o qual ele estava
+conduzindo oito pessoas e quatro animais não se abre sozinho. Um portão que não abre é uma
+conta, e conta é a única coisa que ele ainda sabe resolver.
+
+E na caçamba, pela primeira vez desde o pátio do portão de Wallace, o trovador se sentou. Não
+ficou de pé de uma vez; ficou de cotovelo, depois de mão, depois de joelho, e quando a
+vitalidade dele passou de zero o corpo dele entendeu o recado. Falta-lhe a mão esquerda, falta-
+lhe o machado grande, falta-lhe quase tudo em termos de força, mas ele está sentado na areia e
+pediu para cantar. Ninguém disse não.
+> Cura natural, HT 12: Kaelric 3d [5,1,6] = 12 → SUCESSO por 0 (no fio) → 6 → **7/12**
+> Cura natural, HT 12: Jah 3d [3,3,3] = 9 → SUCESSO por 3 → 9 → **10/12**
+> Cura natural, HT 13: NelsOwned 3d [4,2,1] = 7 → SUCESSO por 6 → 0 → **1/13**
+> NelsOwned: **acima de zero, levanta da maca de carga.** Deslocamento à metade (1 em 13 cai
+> no terço de 4). A mão esquerda não volta.
+
+No poente, o Lorde William contou os barris e não escondeu o número de ninguém, porque
+esconder água não é bondade, é adiamento.
+> Água: 220 litros no começo do dia − 80 = **140 litros** (dois barris e quatro décimos)
+> Comida: 36 pessoas-dia − 8 = **28 pessoas-dia** (≈ 7 kg)
+> Andado na travessia: **90 km dos 200.** Restam **110 km = 4 dias** de carroça = **320 litros**
+> **Faltam 180 litros.** A esta altura o deserto não está mais pedindo que eles andem: está
+> pedindo que eles escolham quem anda
+
+O homem de Caithness morreu de madrugada, no sono, sem nada pedir — dois dias de casa, e o
+abutre tinha razão. Enterrá-lo custa água que ninguém tem e tempo que o rumo não perdoa. Isso
+é a escolha de amanhã, e ela é de vocês.

@@ -1,0 +1,23 @@
+*DIA 11 — AREIA*
+
+O abutre voltou, e desta vez não havia nada embaixo dele. Rodou duas vezes sobre a carroça, achou o que já tinha visto no dia anterior e foi embora. Ninguém levantou a cabeça. Não havia palma, não havia lama, não havia pegada de bicho: só o claro, branco, de uma ponta à outra.
+> Encontro do dia: **10** → linha 10 da tabela do dia: **nada**
+> Água do dia: 7 pessoas × 5 L + 4 montarias × 10 L = **75 L** → de 300 L sobram **225 L**
+> Comida do dia: 7 pessoas × 3 refeições = **7 pessoas-dia** → de 15 sobram **8**
+
+Os sacos do celeiro estão tão vazios que o Lorde William contou as sobras com o dedo, duas vezes, e na segunda não disse o número. O Comam pegou as rédeas como pegou em todos os dias desde Wallace, sem pedir licença e sem olhar para trás.
+> Carreiro: Comam, NH 13 (= pré-definido Cavalgar 15 -2), 3d [4,5,2] = **11** → SUCESSO por 2
+
+O bárbaro ergueu a mão para o sol, fechou um olho, apontou para onde achou que era o sul. A carroça foi. Foi bem, firme e reta, e o chão passou por baixo das rodas durante horas, sem dar nenhum sinal de que ia a lugar nenhum. Quando a sombra do cocheiro virou para o outro lado, todos sabiam. Foi o trovador, que não anda e canta baixo, quem falou primeiro: "esta duna eu já conheço".
+> Rumo: Negrum, NH 9 (= Sobrevivência (Deserto) 11 -2), 3d [6,3,4] = **13** → **FALHA por 4**
+> Consequência: sétimo dia de marcha sem um passo creditado, **0 km**. Seguem **90 km** andados dos 200; faltam **110 km**
+
+Ninguém gritou. O dia inteiro valeu pelo que não valeu: nenhum quilômetro, 75 litros e 7 refeições. O templário, montado, ficou olhando a carroça rodar em volta das mesmas dunas e não riu.
+
+À noite, no repouso, três dos feridos tiveram a vez de pedir ao corpo.
+> Cura natural, HT 12: Kaelric 3d [4,3,6] = **13** → **FALHA por 1** → sem cura, **9/12**. A perna coxa segue até os 12
+> Cura natural, HT 12: Jah 3d [2,5,2] = **9** → SUCESSO por 3 → **+1 PV, 10/12**. Quebra a sequência de três noites sem cura
+> Cura natural, HT 13: NelsOwned 3d [3,4,3] = **10** → SUCESSO por 3 → **+1 PV, 4/13**. Ainda dentro do terço de 4: Deslocamento à metade
+> Comam e Negrum, de PV cheio, não têm o que curar
+
+Quando a última luz saiu do claro, a conta estava dita sem que ninguém precisasse dizê-la: **225 litros**, três dias de comitiva, e **8 pessoas-dia de comida**, que cobrem o dia de amanhã e quase nada do depois.

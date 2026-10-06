@@ -44,7 +44,8 @@ usuário antes de mexer** — não escolha sozinho qual versão vale.
 2. **Compare com o repositório** e junte *todas* as divergências antes de perguntar
    qualquer coisa — pergunte de uma vez, não a cada achado.
 3. **Corrija o histórico**: `campanha/NN-.../README.md` (narrações e acontecimentos),
-   `grupo.md`, `npcs.md`, `lugares.md`, e `saude.md` / `bolsa.md` pelo `campanha.py`.
+   `grupo.md`, `npcs.md`, `lugares.md`, `saude.md` / `bolsa.md` pelo `campanha.py`, e
+   `campanha/mantimentos.md` à mão quando a conversa mexer no estoque de água e comida.
 4. **Ficha de personagem não se mexe** — vale a regra de sempre: só quando o usuário pedir.
 5. **Mova o arquivo para `processados/`** e acrescente a linha na tabela.
 

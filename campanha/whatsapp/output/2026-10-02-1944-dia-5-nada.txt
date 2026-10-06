@@ -1,0 +1,55 @@
+*DIA 5 — NADA*
+
+Acordaram com a pergunta ainda no ar, e a resposta foi o deserto decidindo por todos: não
+havia nada a decidir, porque não havia nada a ver. Andaram. O sol fez a coisa que ele faz
+todas as manhãs aqui, que é parecer que vai demorar e não demorar nada. A carroça rangeu no
+mesmo tom, os quatro animais bufaram no mesmo pó, e o chão foi o chão o dia inteiro, sem uma
+linha nova nele.
+> Encontro do dia 5: 3d [6,2,2] = **10** → linha 10 da tabela do dia: **NADA**
+> Nenhum outro dado rolado: rumo, cocheiro, consumo e cura ficam para quando vocês declararem
+> o que fazem
+
+Não é sorte e não é azar: dez é o resultado mais provável de três dados, e o deserto entrega
+nada com a mesma autoridade com que entrega uma tempestade. É o dia em que a mesa começa a
+contar os dias com os dedos da mão, porque não aconteceu nada que servisse de marco. Ninguém
+morreu. Ninguém achou. Ninguém bebeu menos do que devia, e é justamente esse o problema de um
+dia como este: ele gasta exatamente o mesmo barril de um dia em que algo aconteceu.
+
+O cocheiro levou a carroça do jeito que ele leva tudo, conversando com os animais como se
+fossem gente e xingando-os como se fossem burros, e foi a única voz humana o dia inteiro, fora
+o trovador deitado na traseira, que cantou duas horas e depois ficou quieto porque a garganta
+de quem está a menos de dois pontos de vida não sustenta três horas seguidas.
+> Comam nas rédeas — sem teste rodado ainda, é escolha da mesa, não fato
+> NelsOwned: sem dado de cura; continua onde o dia 4 o deixou, acamado
+
+Ao meio-dia pararam na sombra que a própria carroça faz, e o Lorde William contou a água do
+dia em voz alta porque foi a única coisa que ele teve o trabalho de contar hoje. Caíram todos
+no chão, cada um no seu lado do nada, e a noite veio sem nada para anunciar, exatamente como o
+dia foi. Ninguém montou guarda duas vezes: não havia de quem guardar.
+
+E agora a conta que este dia não quis fazer, e que continua na mão de vocês: o rumo, o
+cocheiro, quanto se bebe e o que melhora em cada corpo. Antes de eu rolar qualquer outro dado,
+digam.
+
+*Três perguntas, e a resposta de cada uma muda um dado diferente:*
+
+**Quem vai na frente lendo o chão amanhã** — o bárbaro, que errou ontem, ou outro?
+**O que cada um faz do resto do dia**: quem descansa de verdade, quem cuida do trovador, quem
+anda ao lado da carroça para não pesar no cavalo dos outros.
+**E se param ou não no poço amargo** que está ali, se ele aparecer de novo — porque hoje não
+apareceu nada, e o que estava guardado continua valendo.
+
+Sem isso eu não rolo rumo, não rolo Carreiro, não baixo litro nenhum e não faço ninguém
+melhorar. O dia 5 foi nada. Amanhã não precisa ser.
+
+
+RESOLVIDO DEPOIS DISSO (a mesa respondeu, e os dados saíram):
+> Rumo: Negrum, NH 9 (= Sobrevivência (Deserto) 11 -2), 3d [1,3,5] = 9 → **SUCESSO por 0**
+> Carreiro: Comam, NH 13 (= pré-definido Cavalgar 15 -2), 3d [2,5,3] = 10 → **SUCESSO por 3**
+> Marcha do dia: **+30 km** · andado na travessia: **90 km dos 200**
+> Água: -80 litros → **185 litros** · Comida: -8 → **44 pessoas-dia**
+> Cura natural, HT: Kaelric 3d [5,2,2] = 9 → SUCESSO por 3 → **5/12**
+> Cura natural, HT: Jah 3d [5,2,1] = 8 → SUCESSO por 4 → **8/12**
+> Cura natural, HT: Negrum 3d [2,6,1] = 9 → SUCESSO por 3 → **11/12**
+> Cura natural, HT: NelsOwned 3d [1,1,6] = 8 → SUCESSO por 5 → **-2/13**, continua acamado
+

@@ -1,0 +1,56 @@
+*TURNO 23 — O ESTRADO DE AREIA*
+
+Jah firma os pés nos estribos, leva as mãos às botas e saca duas facas de uma vez. As duas saem limpas.
+> Sacar Rápido (Adaga) NH 15 (faca no lugar da adaga)
+> 3d [3, 5, 2] = *10* → sucesso por 5
+> 3d [3, 1, 3] = *7* → sucesso por 8
+A primeira faca cruza dois metros de areia e crava no tronco do reptante caído.
+> Ataque: Arremesso de Faca NH 18, +0 distância (2 m), -4 alvo deitado = *14*
+> 3d [1, 2, 4] = *7* → sucesso por 7
+> Dano: 1D-3: [5] - 3 = *2* · RD 1 → *1* passa · Corte ×1,5 → *1*
+> *Reptante 3 perde 1 ponto de vida.*
+A segunda, na mão errada, vai baixa e se perde na areia.
+> Ataque: Arremesso de Faca NH 18, -4 alvo deitado, -2 Perna, -4 mão inábil, -4 Tiro Rápido (NH ajustado 8 < TR 11) = *4*
+> 3d [5, 5, 3] = *13* → falhou por 9
+> Jah fez Ataque Total: sem defesa ativa até o próximo turno.
+
+Comam larga a Zaina armada aos pés, puxa as duas picaretas do cinto e as deixa a postos.
+
+Negrum agarra o aro da roda e sobe de novo na carroça, escudo à frente.
+
+O pavês de Kaelric vira para o reptante da frente e a maça desce no tronco. A criatura não consegue sair do caminho.
+> Ataque: Machado/Maça NH 15, -2 pavês no braço = *13*
+> 3d [3, 4, 4] = *11* → sucesso por 2
+> Defesa de Reptante 2: esquiva 6
+> 3d [6, 3, 3] = *12* → falhou por 6
+> Dano: 2D+2: [5, 4] = *11* · RD 1 → *10* passam
+> Perdeu mais de HT/2: HT 12, 3d [2, 6, 1] = *9* → de pé; *ATORDOADO*
+> *Reptante 2 perde 10 pontos de vida.*
+
+NelsOwned manda o machado de uma mão direto no pescoço do reptante caído. O golpe não encontra defesa.
+> Ataque: Machado/Maça NH 15, -5 Pescoço, +4 Ataque Total = *14*
+> 3d [2, 2, 1] = *5* → sucesso por 9
+> Defesa de Reptante 1: esquiva 6
+> 3d [5, 2, 2] = *9* → falhou por 3
+> Dano: 2D+1: [6, 5] = *12* · RD 1 → *11* · Corte no pescoço ×2 → *22*
+> HT 12 contra a morte (passou de -HT), 3d [2, 6, 1] = *9* → vive
+> HT 12 para ficar consciente, 3d [4, 5, 6] = *15* → *DESMAIA*
+> *Reptante 1 perde 22 pontos de vida e cai inconsciente.*
+> NelsOwned fez Ataque Total: sem defesa ativa até o próximo turno.
+
+O reptante da maça sacode a cabeça e firma as pernas, mas o corpo não obedece e ele só rosna.
+> Reptante 2: HT 12 para sair do atordoamento, 3d [3, 5, 3] = *11* → sai
+> Ataque: NH 12 -10 ferimento = *2* → *impossível*, não ataca
+
+O reptante do flanco avança sobre Lorde William, caído no tropeço, e cava fundo.
+> Ataque: Garras NH 12, -3 órgãos vitais = *9*
+> 3d [2, 2, 3] = *7* → sucesso por 2
+> Defesa de Lorde William: esquiva 5, -4 atordoado = *1*
+> 3d [6, 6, 1] = *13* → falhou por 12
+> Dano: 1D+2: [4] + 2 = *6* · RD 0 · Corte ×1,5 → *9*
+> HT 11 para não cair, 3d [5, 4, 6] = *15* → *CAI*; *ATORDOADO*
+> *Lorde William perde 9 pontos de vida.*
+
+Lorde William respira em golpes curtos. Ele ainda não apagou, mas não sai do chão.
+> HT 11 para ficar consciente (PV -6), 3d [1, 4, 2] = *7* → consciente
+> HT 11 para sair do atordoamento, 3d [6, 6, 4] = *16* → segue atordoado

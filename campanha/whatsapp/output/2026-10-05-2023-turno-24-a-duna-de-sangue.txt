@@ -1,0 +1,54 @@
+*TURNO 24 — A DUNA DE SANGUE*
+
+Jah solta as rédeas e deixa o cavalo ganhar a corrida. O animal salta o corpo caído e pousa dois hexágonos adiante.
+> Cavalgar NH 14 (salto do corpo caído)
+> 3d [2, 4, 6] = *12* → sucesso por 2
+
+Comam arranca duas picaretas e se atira sobre o reptante do flanco, mirando as cabeças. Nenhuma das duas encontra osso.
+> Ataque 1: Machado/Maça NH 16, -5 Cabeça = *11*
+> 3d [1, 6, 6] = *13* → falhou por 2
+> Ataque 2: Machado/Maça NH 16, -5 Cabeça, -4 mão inábil (2ª picareta) = *7*
+> 3d [6, 4, 2] = *12* → falhou por 5
+> Comam fez Ataque Total: sem defesa ativa até o próximo turno.
+
+Negrum salta da carroça e corre pela areia com o escudo erguido, mas a distância é maior do que o fôlego. Ele para três hexágonos antes do reptante, ofegante e ainda de pé.
+
+Kaelric bate o pavês no tronco do reptante da frente, mas a criatura rola para o lado. O escudo só encontra o ar.
+> Ataque: Escudo NH 16 = *16*
+> 3d [3, 4, 2] = *9* → sucesso por 7
+> Defesa de Reptante 2: esquiva 6 = *6*
+> 3d [1, 1, 2] = *4* → defendeu (defesa decisiva)
+
+NelsOwned corre até o outro lado da fileira e para, de machado na mão.
+
+O reptante da maça cai sobre Lorde William, que não consegue levantar o braço, e arranca-lhe a perna do tombo.
+> Ataque: Garras NH 12, -2 Perna = *10*
+> 3d [1, 6, 3] = *10* → sucesso por 0
+> Defesa de Lorde William: esquiva 5, -4 atordoado = *1*
+> 3d [1, 5, 2] = *8* → falhou por 7
+> Dano: 1D+2: [6] + 2 = *8* · RD 0 · Corte ×1,5 → *12*
+> Teto do local (HT/2 = 5): 7 desperdiçado(s)
+> *Perna INCAPACITADA*
+> *Lorde William perde 5 pontos de vida (PV -11).*
+> HT 11 contra a morte (chegou a -HT), 3d [2, 5, 6] = *13* → *MORRE*
+
+O outro reptante vê Comam estendido no ataque, sem guarda, e crava as garras na coxa dele.
+> Ataque: Garras NH 12, -2 Perna = *10*
+> 3d [3, 1, 1] = *5* → sucesso por 5
+> Defesa: Comam sem defesa ativa (Ataque Total); só a DP 2 (Loriga couro, pernas)
+> 3d [2, 5, 5] = *12* → não segurou
+> Dano: 1D+2: [6] + 2 = *8* · RD 2 → *6* · Corte ×1,5 → *9*
+> Teto do local (HT/2 = 6): 3 desperdiçado(s)
+> *Perna INCAPACITADA* — Comam fica atordoado
+> *Comam perde 6 pontos de vida.*
+
+Edric enfia a espada curta de ponta nas costelas do reptante da maça, sem se proteger, e a lâmina sai pelo outro lado. O reptante desaba sobre a areia, mortalmente ferido.
+> Ataque: Espadas Curtas NH 14, -3 órgãos vitais, +4 Ataque Total = *15*
+> 3d [1, 3, 3] = *7* → sucesso por 8
+> Defesa de Reptante 2: esquiva 6
+> 3d [6, 2, 4] = *12* → falhou por 6
+> Dano: 1D (GDP, perfuração): [6] = *6* · RD 1 → *5* · ×3 perfurante nos órgãos vitais → *15*
+> HT 12 para não cair, 3d [4, 4, 1] = *9* → de pé; *ATORDOADO*
+> HT 12 contra a morte (cruzou -HT, PV -13), 3d [3, 5, 6] = *14* → *MORRE*
+> *Reptante 2 perde 15 pontos de vida.*
+> Edric fez Ataque Total: sem defesa ativa até o próximo turno.

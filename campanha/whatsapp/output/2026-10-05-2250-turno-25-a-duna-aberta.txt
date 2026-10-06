@@ -1,0 +1,34 @@
+*TURNO 25 — A DUNA ABERTA*
+
+Jah aperta as pernas no cavalo e toma o resto da duna em galope, saca uma faca da bota e fica mirando o reptante de pé. Termina um hexágono adiante.
+> Sacar Rápido (Adaga) NH 15 (faca no lugar da adaga)
+> 3d [4, 6, 3] = *13* → sucesso por 2
+> Jah mira o Reptante 4: sem disparo neste turno
+
+Comam sacode a vertigem da cabeça e arranca a cimitarra com a mão esquerda, largando uma picareta. Do chão mesmo, sentado, abre a perna do reptante.
+> Sair do atordoamento: HT 13, 3d [4, 2, 2] = *8* → sucesso por 5
+> Sacar Rápido (Espada) NH 15, 3d [5, 4, 2] = *11* → sucesso por 4
+> Ataque: Espadas de Lâmina Larga NH 18, -2 Perna, -2 sentado = *14*
+> 3d [3, 5, 3] = *11* → sucesso por 3
+> Defesa de Reptante 4: esquiva 6
+> 3d [3, 2, 2] = *7* → falhou por 1
+> Dano: 2D: [6, 4] = *10* · RD 1 → *9* · Corte ×1,5 → *13*
+> Teto do local (HT/2 = 6): 7 desperdiçado(s)
+> *Perna INCAPACITADA* — Reptante 4 fica atordoado
+> *Reptante 4 perde 6 pontos de vida.*
+
+Negrum salta sobre o corpo de Lorde William e desce em cima do reptante, de espada alta, sem pensar na guarda. A lâmina entra pela cabeça e sai pelas costas: o reptante fica empalado, pendurado no ferro, e não se mexe mais.
+> Ataque: Espadas de Lâmina Larga NH 17, -5 Cabeça, +4 Ataque Total = *16*
+> 3d [4, 3, 5] = *12* → sucesso por 4
+> Defesa de Reptante 4: esquiva 6, -4 atordoado = *2*
+> 3d [3, 6, 4] = *13* → falhou por 11
+> Dano: 2D+2: [6, 3] = *11* · RD 1 → *10* · Corte ×1,5 → *15*
+> *Reptante 4 perde 15 pontos de vida (PV -9) e MORRE, empalado* — decisão do Mestre
+> Negrum fez Ataque Total: sem defesa ativa até o próximo turno.
+
+Kaelric empurra o cavalo meio hexágono para frente e prepara a maça.
+
+NelsOwned corre até o Comam, firma os pés e agarra o gibão dele para arrastá-lo para trás. O corpo pesado não sai do lugar.
+> NelsOwned: ST 13, 3d [4, 5, 6] = *15* → falhou por 2
+
+Edric chega com a espada curta erguida e o olhar duro, mas não há mais ninguém de pé para golpear. Ele baixa a lâmina e respira fundo.

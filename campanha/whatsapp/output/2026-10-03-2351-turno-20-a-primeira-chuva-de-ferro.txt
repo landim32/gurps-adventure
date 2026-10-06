@@ -1,0 +1,31 @@
+*TURNO 20 — A PRIMEIRA CHUVA DE FERRO*
+
+O Jah enfiou a mão na bota e a adaga já estava voando antes de o cavalo parar de bufar. Quatro metros de areia, o peito do reptante da esquerda por alvo.
+> Sacar Rápido (Adaga): Jah, NH *15*
+> 3d [2, 2, 4] = *8* → sucesso por 7 (a adaga já sai na mão, sem gastar manobra)
+> Arremesso de Faca: Jah, NH 18, -2 velocidade/distância (4 m) = *16*
+> 3d [2, 1, 6] = *9* → sucesso por 7
+> Defesa de Reptante 3: esquiva *6*
+> 3d [2, 5, 4] = *11* → falhou por 5
+> Dano: 1D-3: [5] - 3 = *2*; RD 1 → 1 passa; perfuração ×2 → *2*
+> *Reptante 3 perde 2 ponto(s) de vida* e age com -2 no próximo turno
+
+O Comam apoiou o cabo da besta no ombro e fechou o olho bom no reptante que o Jah acertou, sem apertar o gatilho. Não atirou: só aponta.
+
+Nas costas dele a carroça se esvaziou. O Negrum saltou, o escudo no braço e a espada na mão, e caiu de pé. O NelsOwned o seguiu. O Lorde William e Edric Halloway pularam do outro lado, para o lado do cavalo do templário, que não saiu do lugar.
+
+As escamas responderam no mesmo fôlego, com ferro: cada um dos quatro tinha uma adaga, e as quatro voaram.
+> Reptante 1 → Jah (4 m): Arremesso de Faca NH 12, -2 velocidade/distância, -4 Tiro Rápido = *6*
+> 3d [6, 5, 1] = *12* → *falhou por 6*. A adaga passa e se perde atrás
+> Reptante 3 → Jah (4 m): NH 12, -2 velocidade/distância, -2 ferimento (o arremesso do Jah), -4 Tiro Rápido = *4*
+> 3d [1, 6, 6] = *13* → *falhou por 9*
+> Reptante 2 → Lorde William (4 m): NH 12, -2 velocidade/distância, -4 Tiro Rápido = *6*
+> 3d [4, 4, 4] = *12* → *falhou por 6*
+> Reptante 4 → Lorde William (3 m): NH 12, -1 velocidade/distância, -4 Tiro Rápido = *7*
+> 3d [1, 4, 2] = *7* → sucesso por 0
+> Defesa de Lorde William: esquiva *5*
+> 3d [1, 5, 6] = *12* → falhou por 7
+> Dano: 1D-2: [2] - 2 = 0 → mínimo 1; RD 0; perfuração ×2 → *2*
+> *Lorde William perde 2 ponto(s) de vida* e age com -2 no próximo turno
+
+Três adagas morreram na areia. A quarta ficou espetada no braço do lorde, que a arrancou sem uma palavra. Quatro reptantes sem ferro e com garras. Entre o que vem e a carroça, o chão está limpo.

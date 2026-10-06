@@ -1,0 +1,20 @@
+*TURNO 19 — SACAM-SE AS ARMAS*
+
+O Jah bateu o calcanhar no flanco do cavalo, que arrancou limpo, sem empinar, e deixou a carroça para trás. Três hexágonos de areia, e ele puxou a rédea.
+> Cavalgar: Jah, Cavalgar *14*
+> 3d [1, 4, 4] = *9* → sucesso por 5
+> Avança *3 hex* para o norte: de (5, 11) para (5, 8)
+
+Na carroça, ferro saindo de bainha e escudo no braço. O Comam tirou a besta das costas, armada, o virote já no sulco. O NelsOwned soltou o machado do cinto com a mão que lhe resta. O Negrum sacou a espada e meteu o escudo no braço no mesmo gesto, e o templário firmou o pavês e puxou a maça. O Lorde William ergueu o espadão por cima do ombro, e Edric Halloway, de espada na mão e escudo médio no braço, murmurava os passos.
+
+Na crista das dunas, os quatro vultos se levantaram ao mesmo tempo. Não gritaram. Dois desceram a duna do noroeste, dois do nordeste, de quatro patas e depois em pé, a cauda rasgando a areia. Em um fôlego estavam a quatro, cinco hexágonos da carroça e do cavalo do Jah. Vêm direto.
+> Reptantes 1 e 3 avançam *6 hex* em direção ao Jah, que está à frente da comitiva
+> Reptantes 2 e 4 avançam *6 hex* em direção ao Comam
+> Nenhum chega ao corpo a corpo neste turno
+
+Os cavalos sentiram o cheiro antes de ver. O do Jah cravou os cascos e o do templário esticou o pescoço, o branco dos olhos aparecendo, e os dois cavaleiros precisaram das duas mãos nas rédeas.
+> Cavalgar, cavalo assustado pelos reptantes — Jah: Cavalgar *14*
+> 3d [2, 3, 4] = *9* → sucesso por 5
+> Cavalgar, cavalo assustado pelos reptantes — Kaelric: Cavalgar 14, -1 perna coxa = *13*
+> 3d [3, 6, 1] = *10* → sucesso por 3
+> Os dois cavalos seguem sob controle

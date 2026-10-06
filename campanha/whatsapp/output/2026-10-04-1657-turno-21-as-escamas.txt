@@ -1,0 +1,43 @@
+*TURNO 21 — AS ESCAMAS*
+
+Jah puxa a última adaga da bainha, gira o cavalo na diagonal para cobrir os animais da carroça e arremessa no reptante que já marcou. A ponta bate nas escamas do peito e escorrega sem rasgar nada.
+> Sacar Rápido (Adaga): NH 15 = *15*
+> 3d [1, 3, 6] = *10* → sucesso por 5
+> Ataque: Arremesso de Faca NH 18, -2 velocidade/distância (4 m), Tiro Rápido sem penalidade (NH ajustado 16 ≥ TR 12) = *16*
+> 3d [1, 6, 4] = *11* → sucesso por 5
+> Defesa de Reptante 3: esquiva *6*
+> 3d [6, 4, 2] = *12* → falhou por 6
+> Dano: 1D-3: [1] - 3 = -2 → mínimo 1 (perfuração)
+> RD 1 → 0 passam
+> *A armadura segurou o golpe.* Nenhum dano.
+
+Comam já tinha a besta no ombro e o olho bom fechado no mesmo reptante. Aperta o gatilho mirando os órgãos vitais. O virote passa um palmo acima do ombro do bicho e se perde na areia, atrás dele.
+> Ataque: Besta NH 17, -3 velocidade/distância (5 m → linha dos 7 m), +4 Precisão da arma, -3 Órgãos vitais = *15*
+> 3d [6, 6, 4] = *16* → falha por 1
+> *Errou o tiro.* Nada na linha de fogo.
+
+Negrum corre três passos pela areia, o escudo baixo e a espada atrás da cabeça, e solta o golpe de cima para baixo na cabeça do reptante que ficou à frente. O reptante nem leva as garras ao golpe: o ferro entra de lado na cabeça, a cabeça pende e o corpo vai ao chão.
+> Ataque: Espadas de Lâmina Larga NH 17, -5 Cabeça, +4 Ataque Total = *16*
+> 3d [4, 6, 1] = *11* → sucesso por 5
+> Defesa de Reptante 3: esquiva *6*
+> 3d [1, 1, 5] = *7* → falhou por 1
+> Dano: 2D+2: [2, 1] = 3 + 2 = *5*
+> RD 1 → 4 passam
+> Corte: ×1,5 depois da armadura → *6*
+> Golpe na cabeça, teste de HT 12 contra nocaute: 3d [5, 3, 6] = *14* → *NOCAUTEADO*
+> *Reptante 3 perde 6 ponto(s) de vida* e cai inconsciente.
+
+Kaelric fecha o cavalo ao lado de Edric, o pavês no braço e a maça pronta, os olhos nas escamas. NelsOwned salta da carroça e firma o pé na areia, o machado na mão que lhe resta. William e Edric ficam atrás das armas, só se defendendo.
+
+O reptante da crista mais ao norte não perde tempo com o morto: corre dois passos e se joga no Negrum, que ficou com o braço todo no golpe e nada para parar uma garra. Os outros dois descem pelo flanco e vão em cima do lorde.
+> Reptante 1 → Negrum: Garras NH 12, -2 Perna distante (ponto de impacto 3d [1, 6, 5] = 12), -4 Deslocamento e ataque = *6*
+> 3d [3, 3, 3] = *9* → falha por 3
+> *Errou.*
+> Reptante 2 → Lorde William: Garras NH 12, -3 Órgãos vitais (ponto de impacto 3d [6, 5, 6] = 17), -4 Deslocamento e ataque = *5*
+> 3d [4, 6, 1] = *11* → falha por 6
+> *Errou.*
+> Reptante 4 → Lorde William: Garras NH 12, -4 Deslocamento e ataque (ponto de impacto 3d [6, 1, 3] = 10, tronco) = *8*
+> 3d [2, 4, 6] = *12* → falha por 4
+> *Errou.*
+
+Três reptantes de pé, sem ferro, colados nos homens de armas. Um quarto, de bruços diante do Negrum, não se mexe.

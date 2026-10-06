@@ -8,14 +8,15 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 <!-- indice:saude -->
 | Quem | | PV | Fadiga | Estado |
 |---|---|---:|---:|---|
-| Comam Obabaroy | PJ | 13/13 | 10/13 | — |
-| Irmão Kaelric | PJ | 1/12 | 5/13 | PV 1 de 12: Deslocamento à metade (MB 12). MONTADO, seguindo a carroça no deserto, maça na mão. Sem teste de consciência: saiu de 0 PV.; Perna COXA, temporária: HT 12 tirou 11, sucesso por 1. Sara quando a vitalidade voltar a 12. Até lá, a pé não caminha; montado, -1 em Cavalgar. |
-| Jah Kagadu | PJ | 3/12 | 6/9 | PV 3 de 12: Deslocamento à metade. MONTADO no deserto, junto da carroça, com o Negrum na garupa. Uma adaga na mão, a outra guardada. |
-| Negrum Carneiriums | PJ | 8/12 | 15/15 | — |
-| NelsOwned | PJ | -5/13 | 15/15 | DESMAIADO na caçamba, no deserto. PV -5 de 13. Acorda em 6 horas, ainda a -5. Morre se chegar a -13 sem teste de HT. Deslocamento à metade.; Maneta da mão esquerda, permanente, -15 na ficha. A direita segue inteira. Machado grande não empunha. |
+| Comam Obabaroy | PJ | 8/13 | 12/13 | — |
+| Irmão Kaelric | PJ | 10/12 | 12/13 | PV 1 de 12: Deslocamento à metade (MB 12). MONTADO, seguindo a carroça no deserto, maça na mão. Sem teste de consciência: saiu de 0 PV.; Perna COXA, temporária: HT 12 tirou 11, sucesso por 1. Sara quando a vitalidade voltar a 12. Até lá, a pé não caminha; montado, -1 em Cavalgar.; PV 2 de 12: Deslocamento à metade. MONTADO junto da carroça, maça na mão, consciente.; Perna COXA, temporária: sara quando os PV voltarem a 12. A pé não caminha; montado, -1 em Cavalgar. |
+| Jah Kagadu | PJ | 11/12 | 8/10 | PV 3 de 12: Deslocamento à metade. MONTADO no deserto, junto da carroça, com o Negrum na garupa. Uma adaga na mão, a outra guardada.; PV 4 de 12: Deslocamento à metade (ainda no terço de HT/3 = 4). MONTADO no deserto junto da carroça, com o Negrum na garupa. Uma adaga na mão, a outra guardada. |
+| Negrum Carneiriums | PJ | 12/12 | 14/15 | — |
+| NelsOwned | PJ | 5/13 | 14/15 | DESMAIADO na caçamba, no deserto. PV -5 de 13. Acorda em 6 horas, ainda a -5. Morre se chegar a -13 sem teste de HT. Deslocamento à metade.; Maneta da mão esquerda, permanente, -15 na ficha. A direita segue inteira. Machado grande não empunha.; PV -4 de 13: INCONSCIENTE na caçamba. Pela regra da casa (cap. 6: '1 ponto que seja acima de 0, e ele levanta') faltam 5 pontos de cura para ele acordar. Sangramento do braço tratado como estancado, senão já teria ido a -13.; PV -4 de 13: ACORDADO e acamado na caçamba. Levanta a cabeça, fala baixo, pede água, não fica de pé nem sai da maca de carga. Consciente, não curado.; PV 5/13: fora do terço de HT/3 (4), Deslocamento inteiro de novo. Sem mão esquerda; machado grande fora de uso, machado de uma mão servindo. |
 | Donnwulf | NPC | -27 | — | FALECEU no pátio do portão, em L6. Vitalidade -15 de 12: a terceira machadada do NelsOwned sobre o membro preso tirou os 4 pontos do teto (HT/3) e cruzou a barreira de -HT. Teste de HT 12 contra a morte (MB pág. 126): tirou 13, falhou por um. Estava inconsciente e sem nada para gastar a favor |
 | Hoel Meia-Orelha | NPC | -21 | — | MORTO — espancado até a morte pelo Negrum enquanto estava inconsciente (MB pág. 128: pessoa indefesa atacada de maneira letal morre sem jogada); **DECAPITADO** em L5 pelo machado grande de NelsOwned (cap. 01), no turno seguinte ao em que se levantou. Mesmo critério do Morto-Vivo 1: 15 pontos, 1,5 x HT, numa criatura de HT 10. Destruído de vez: não se levanta, não volta |
 | Lanceiro | NPC | -5 | — | SUMIDO na massa da rampa desde o turno 5, arrastado de L6 até L8-L9. Ninguém do grupo sabe se vive. Levava -5 de vitalidade e a perna esquerda destruída quando se perdeu de vista. Fora do mapa, e agora do lado de fora do portão fechado |
+| Lorde William de Wallace | NPC | -22 | — | ATORDOADO: -4 nas defesas; testa HT no próximo turno; Caído e atordoado, PV -6: HT 11 a cada turno para seguir consciente; MORTO no turno 24 (PV -11), caído em (10,8) |
 | Morto 3 | NPC | -14 | — | DESTRUÍDO em T33, HT -3 de 11. Queda de 10 m da projeção (10D-20 = 13, cota segurou 2). Não se levanta, não volta. |
 | Morto 4 (arqueiro montado) | NPC | -15 | — | DESTRUÍDO na estrada, rodada 15 do cap. 6: a maça do Kaelric levou a perna e a HT chegou a -4. Não se levanta, não volta |
 | Morto 5 | NPC | -22 | — | DESTRUÍDO. O corpo foi empurrado para fora da caçamba e está no chão em R10, à direita da carroça. Sem peça no roll6. |
@@ -25,13 +26,17 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 | Morto-Vivo 4 | NPC | -12 | — | **DESTRUÍDO** pelo montante do Negrum Carneiriums (decisão do Mestre, cap. 01), caído entre K9 e J9. Não foi decapitado: o corpo está inteiro, com a perna já decepada antes, e simplesmente parou de se mexer. Não se levanta, não volta |
 | Osric de Bannock | NPC | -9 | — | CAÍDO E FORA DE COMBATE, arrastado pelo Kaelric para J4-J5, longe do vão. 2/11. Desarmado (a espada ficou no chão do vão, e apanhá-la custa 2 turnos), PERNA ESQUERDA INCAPACITADA — não anda nem se levanta. Já SAIU do atordoamento (HT 11, tirou 8 no turno 5). Defende-se com Bloqueio 10 e Esquiva 7, mas não ataca nem se move sozinho |
 | Piqueiro | NPC | -19 | — | SEM AS DUAS PERNAS, LIVRE E ACORDADO. Vitalidade -9 de 11 — DOIS PONTOS da barreira de -HT, onde testa HT ou morre. As duas pernas foram decepadas pelo montante do Negrum abaixo do joelho, para tirá-lo de debaixo da grade, e ele NÃO DESMAIOU em nenhum dos dois cortes: passou os dois testes de HT, o segundo por exatamente zero. Está fora do vão, deitado no pátio, consciente e sangrando. PRECISA DE PRIMEIROS SOCORROS AGORA — qualquer perda de 2 pontos o leva à barreira |
+| Reptante 1 | NPC | -28 | — | Perna INCAPACITADA, caído em (5,5); -6 no ataque no próximo turno |
+| Reptante 2 | NPC | -25 | — | MORTO no turno 24 (PV -13), caído em (11,7) |
+| Reptante 3 | NPC | -9 | — | — |
+| Reptante 4 | NPC | -21 | — | MORTO no turno 25 (empalado pela espada de Negrum), caído em (10,7) |
 <!-- /indice:saude -->
 
 ## Personagens
 
 ### Comam Obabaroy
 
-**PV 13/13 · Fadiga 10/13**
+**PV 8/13 · Fadiga 12/13**
 
 - **07/09/2026 22:31** · estado — Bêbado e dormindo sobre a mesa — -3 em todos os atributos e perícias enquanto durar o porre (parâmetro do MB pág. 32, Alcoolismo); alvo fácil e sem defesa ativa até acordar
 - **15/09/2026 20:16** · FAD -1 — Falha no teste de ST para erguer a carroça tombada, com -3 do porre (MB pág. 89)
@@ -43,10 +48,19 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **19/09/2026 19:35** · FAD -2 — Fadiga de batalha — Carga Leve, 2 pontos (MB pág. 134)
 - **20/09/2026 20:33** · FAD +5 — 55 min de descanso, cap. 04
 - **20/09/2026 20:33** · curado — ressaca
+- **02/10/2026 11:46** · FAD +3 — Fadiga realocada para 13/13: o reset de 02/10 foi so no roll6 e o caderno ficou em 10. PV 13/13, sem cura a fazer.
+- **02/10/2026 23:16** · PV -1 — Dia 9: a agua acabou no meio do dia - despesa real 75 litros (7 bocas x 5 + 4 montarias x 10) contra 60 que havia. Todos bebem 2,85 litros: menos de 5, entao -1 de Fadiga e -1 de PV, MB. Ele nao precisava curar nada.
+- **02/10/2026 23:16** · FAD -1 — Dia 9: a agua acabou no meio do dia - despesa real 75 litros (7 bocas x 5 + 4 montarias x 10) contra 60 que havia. Todos bebem 2,85 litros: menos de 5, entao -1 de Fadiga e -1 de PV, MB. Ele nao precisava curar nada.
+- **02/10/2026 23:34** · PV +1 — Dia 10: cura natural, HT 13, 3d [6,1,4] = 11, SUCESSO por 2. Volta ao cheio em 13/13.
+- **05/10/2026 20:23** · PV -6 — Turno 24: garras do R4 na perna (sem defesa por Ataque Total)
+- **05/10/2026 20:23** · estado — Perna incapacitada, atordoado, caído (sem redutor por Hipoalgia)
+- **05/10/2026 22:50** · curado — Perna incapacitada
+- **05/10/2026 22:50** · estado — Perna incapacitada, sentado, sem atordoamento (sem redutor por Hipoalgia)
+- **05/10/2026 23:25** · PV +1 — Primeiros Socorros do Kaelric (NH 14 +1 kit = 15, 3d [5,3,3]=11, sucesso por 4); 1D-3 deu -2, mínimo 1 PV (MB cap. 12, NT 3)
 
 ### Irmão Kaelric
 
-**PV 1/12 · Fadiga 5/13**  ·  **PV 1 de 12: Deslocamento à metade (MB 12). MONTADO, seguindo a carroça no deserto, maça na mão. Sem teste de consciência: saiu de 0 PV.**; **Perna COXA, temporária: HT 12 tirou 11, sucesso por 1. Sara quando a vitalidade voltar a 12. Até lá, a pé não caminha; montado, -1 em Cavalgar.**
+**PV 10/12 · Fadiga 12/13**  ·  **PV 1 de 12: Deslocamento à metade (MB 12). MONTADO, seguindo a carroça no deserto, maça na mão. Sem teste de consciência: saiu de 0 PV.**; **Perna COXA, temporária: HT 12 tirou 11, sucesso por 1. Sara quando a vitalidade voltar a 12. Até lá, a pé não caminha; montado, -1 em Cavalgar.**; **PV 2 de 12: Deslocamento à metade. MONTADO junto da carroça, maça na mão, consciente.; Perna COXA, temporária: sara quando os PV voltarem a 12. A pé não caminha; montado, -1 em Cavalgar.**
 
 - **09/09/2026 12:21** · FAD -3 — Fadiga de batalha contra os mortos-vivos: Carga média, nível 2 +1 — a cota de malha e o escudo grande cobram (MB pág. 134)
 - **15/09/2026 20:16** · FAD -1 — Falha no teste de ST para erguer a carroça tombada (MB pág. 89: falha em teste de esforço custa 1 ponto de ST por Fadiga)
@@ -78,10 +92,25 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **30/09/2026 10:47** · curado — falha por 2: zero hexágono
 - **30/09/2026 12:06** · estado — Perna COXA, temporária: HT 12 tirou 11, sucesso por 1. Sara quando a vitalidade voltar a 12. Até lá, a pé não caminha; montado, -1 em Cavalgar.
 - **30/09/2026 12:06** · curado — teste de HT no fim do combate
+- **01/10/2026 22:42** · PV +1 — Cura natural no fim do dia 1 da travessia: +1 PV concedido pelo Mestre sem teste de HT e sem repouso (MB 12 Cura Natural pede dia de repouso e boa alimentacao + teste). A perna nao sara: falta voltar a 12.
+- **01/10/2026 22:42** · estado — PV 2 de 12: Deslocamento à metade. MONTADO junto da carroça, maça na mão, consciente.; Perna COXA, temporária: sara quando os PV voltarem a 12. A pé não caminha; montado, -1 em Cavalgar.
+- **02/10/2026 11:46** · PV +1 — Dia 2 da travessia: cura natural com teste de HT 12, 3d [6,2,4] = 12, sucesso. Fadiga realocada para 13/13 para bater com o roll6 (o reset de 02/10 so aveu no site).
+- **02/10/2026 11:46** · FAD +8 — Dia 2 da travessia: cura natural com teste de HT 12, 3d [6,2,4] = 12, sucesso. Fadiga realocada para 13/13 para bater com o roll6 (o reset de 02/10 so aveu no site).
+- **02/10/2026 17:04** · PV +1 — Dia 3, caravana: cura natural HT 12, 3d [4,4,2] = 10 sucesso; e o curandeiro testou Medicina 15, 3d [2,6,4] = 12 sucesso, cura 1D-2 com d6=3 = 1. Nao acumulo no mesmo dia: vale o maior, +1. Perna coxa segue ate os 12.
+- **02/10/2026 19:44** · PV +1 — Dia 5 da travessia (turno 11): cura natural, HT 12, 3d [5,2,2] = 9, SUCESSO por 3. O dia 4 foi baixado SEM cura: os dados de ontem nao foram processados e eu nao reuso rolagem antiga para cobrir um dia perdido.
+- **02/10/2026 20:47** · PV +1 — Dia 6 da travessia (turno 12): cura natural, HT 12, 3d [4,5,1] = 10, SUCESSO por 2.
+- **02/10/2026 20:57** · PV +1 — Dia 7: cura natural, HT 12, 3d [5,1,6] = 12, SUCESSO por 0 (no fio). Perna coxa segue ate os 12 voltarem.
+- **02/10/2026 22:46** · PV +1 — Dia 8: cura natural, HT 12, 3d [3,5,1] = 9, SUCESSO por 3. Perna coxa segue ate os 12 voltarem.
+- **02/10/2026 23:16** · PV +1 — Dia 9: cura natural, HT 12, 3d [2,3,3] = 8, SUCESSO por 4.
+- **02/10/2026 23:16** · PV -1 — Dia 9: a agua acabou no meio do dia - despesa real 75 litros (7 bocas x 5 + 4 montarias x 10) contra 60 que havia. Todos bebem 2,85 litros: menos de 5, entao -1 de Fadiga e -1 de PV, MB. No fim das contas o dia dele nao sai do lugar: 8/12.
+- **02/10/2026 23:16** · FAD -1 — Dia 9: a agua acabou no meio do dia - despesa real 75 litros (7 bocas x 5 + 4 montarias x 10) contra 60 que havia. Todos bebem 2,85 litros: menos de 5, entao -1 de Fadiga e -1 de PV, MB. No fim das contas o dia dele nao sai do lugar: 8/12.
+- **02/10/2026 23:34** · PV +1 — Dia 10: cura natural, HT 12, 3d [2,1,4] = 7, SUCESSO por 5 - melhor noite dele desde Wallace. Perna coxa segue.
+- **03/10/2026 08:25** · FAD +0 — Dia 11: cura natural, HT 12, 3d [4,3,6] = 13, FALHA por 1 - sem cura hoje. Permanece 9/12.
+- **03/10/2026 10:03** · PV +1 — Dia 12: cura natural, HT 12, 3d [5,1,3] = 9, SUCESSO por 3. Perna coxa segue até os 12.
 
 ### Jah Kagadu
 
-**PV 3/12 · Fadiga 6/9**  ·  **PV 3 de 12: Deslocamento à metade. MONTADO no deserto, junto da carroça, com o Negrum na garupa. Uma adaga na mão, a outra guardada.**
+**PV 11/12 · Fadiga 8/10**  ·  **PV 3 de 12: Deslocamento à metade. MONTADO no deserto, junto da carroça, com o Negrum na garupa. Uma adaga na mão, a outra guardada.**; **PV 4 de 12: Deslocamento à metade (ainda no terço de HT/3 = 4). MONTADO no deserto junto da carroça, com o Negrum na garupa. Uma adaga na mão, a outra guardada.**
 
 - **15/09/2026 20:19** · FAD -1 — Falha no teste de ST para erguer a carroça tombada (MB pág. 89: falha em teste de esforço custa 1 ponto de ST por Fadiga)
 - **15/09/2026 21:14** · FAD -1 — Fadiga de batalha — combate rápido no cruzamento da carroça: Carga nenhuma (9 kg para ST 9), nível 0 +1 (MB pág. 134)
@@ -107,10 +136,24 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **30/09/2026 11:31** · estado — PV 3 de 12: Deslocamento à metade. MONTADO no deserto, junto da carroça, com o Negrum na garupa. Uma adaga na mão, a outra guardada.
 - **30/09/2026 11:31** · curado — PV 2 de 12
 - **30/09/2026 11:31** · curado — cabeça S33
+- **01/10/2026 22:42** · PV +1 — Cura natural no fim do dia 1 da travessia: +1 PV concedido pelo Mestre sem teste. Sangramento do braço tratado como estancado.
+- **01/10/2026 22:42** · estado — PV 4 de 12: Deslocamento à metade (ainda no terço de HT/3 = 4). MONTADO no deserto junto da carroça, com o Negrum na garupa. Uma adaga na mão, a outra guardada.
+- **02/10/2026 11:46** · PV +1 — Dia 2: HT 12, 3d [4,4,4] = 12, sucesso. Fadiga 9/9 no site porque o teto da biblioteca dele ainda e 9 (ST 9); a ficha local diz 10 desde o ST 10 de 01/10.
+- **02/10/2026 11:46** · FAD +2 — Dia 2: HT 12, 3d [4,4,4] = 12, sucesso. Fadiga 9/9 no site porque o teto da biblioteca dele ainda e 9 (ST 9); a ficha local diz 10 desde o ST 10 de 01/10.
+- **02/10/2026 17:04** · PV +2 — Dia 3: HT 12, 3d [3,6,6] = 15 FALHOU a cura natural; o curandeiro Medicina 15, 3d [1,1,4] = 6 sucesso, cura 1D-2 com d6=4 = 2 PV. Vale o do medico.
+- **02/10/2026 19:44** · PV +1 — Dia 5 da travessia (turno 11): cura natural, HT 12, 3d [5,2,1] = 8, SUCESSO por 4. O dia 4 foi baixado SEM cura: os dados de ontem nao foram processados e eu nao reuso rolagem antiga para cobrir um dia perdido.
+- **02/10/2026 20:47** · PV +1 — Dia 6 da travessia (turno 12): cura natural, HT 12, 3d [1,4,5] = 10, SUCESSO por 2.
+- **02/10/2026 20:57** · PV +1 — Dia 7: cura natural, HT 12, 3d [3,3,3] = 9, SUCESSO por 3.
+- **02/10/2026 22:46** · FAD +0 — Dia 8: HT 12, 3d [4,5,4] = 13, FALHA por 1 - sem cura hoje. Permanece 10/12.
+- **02/10/2026 23:16** · PV -1 — Dia 9: a agua acabou no meio do dia - despesa real 75 litros (7 bocas x 5 + 4 montarias x 10) contra 60 que havia. Todos bebem 2,85 litros: menos de 5, entao -1 de Fadiga e -1 de PV, MB. E a cura falhou (HT 12, 3d [4,4,5] = 13, FALHA por 1, segunda noite seguida): 10 -> 9/12.
+- **02/10/2026 23:16** · FAD -1 — Dia 9: a agua acabou no meio do dia - despesa real 75 litros (7 bocas x 5 + 4 montarias x 10) contra 60 que havia. Todos bebem 2,85 litros: menos de 5, entao -1 de Fadiga e -1 de PV, MB. E a cura falhou (HT 12, 3d [4,4,5] = 13, FALHA por 1, segunda noite seguida): 10 -> 9/12.
+- **02/10/2026 23:34** · FAD +0 — Dia 10: HT 12, 3d [6,5,5] = 16, FALHA por 4 - terceira noite seguida sem curar. Permanece 9/12. Sem sede hoje, entao nao perde PV nem Fadiga.
+- **03/10/2026 08:25** · PV +1 — Dia 11: cura natural, HT 12, 3d [2,5,2] = 9, SUCESSO por 3.
+- **03/10/2026 10:03** · PV +1 — Dia 12: cura natural, HT 12, 3d [4,2,4] = 10, SUCESSO por 2.
 
 ### Negrum Carneiriums
 
-**PV 8/12 · Fadiga 15/15**
+**PV 12/12 · Fadiga 14/15**
 
 - **07/09/2026 21:10** · PV -1 — Golpe fulminante de Hoel Meia-Orelha na briga da taberna (cap. 01)
 - **07/09/2026 22:18** · FAD -1 — Fadiga de batalha: briga contra Hoel Meia-Orelha, Carga nenhuma (MB pág. 134)
@@ -125,10 +168,17 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **19/09/2026 19:35** · FAD -1 — Fadiga de batalha — Carga Nenhuma, 1 ponto (MB pág. 134)
 - **20/09/2026 20:33** · FAD +8 — 80 min de descanso, cap. 04
 - **29/09/2026 07:34** · PV -3 — Espada curta do Morto 5 no tronco, rodada 16 do cap. 6 (1D+1 corte deu 3, RD 1 da Rijeza, +50% = 3; sem defesa ativa pelo Ataque Total)
+- **01/10/2026 22:42** · PV +1 — Cura natural no fim do dia 1 da travessia: +1 PV concedido pelo Mestre sem teste.
+- **02/10/2026 11:46** · PV +1 — Dia 2: HT 12, 3d [1,1,1] = 3, sucesso critico.
+- **02/10/2026 19:44** · PV +1 — Dia 5 da travessia (turno 11): cura natural, HT 12, 3d [2,6,1] = 9, SUCESSO por 3. O dia 4 foi baixado SEM cura: os dados de ontem nao foram processados e eu nao reuso rolagem antiga para cobrir um dia perdido.
+- **02/10/2026 20:47** · PV +1 — Dia 6 da travessia (turno 12): cura natural, HT 12, 3d [4,2,5] = 11, SUCESSO por 1.
+- **02/10/2026 23:16** · PV -1 — Dia 9: a agua acabou no meio do dia - despesa real 75 litros (7 bocas x 5 + 4 montarias x 10) contra 60 que havia. Todos bebem 2,85 litros: menos de 5, entao -1 de Fadiga e -1 de PV, MB. Estava inteiro: 12 -> 11/12.
+- **02/10/2026 23:16** · FAD -1 — Dia 9: a agua acabou no meio do dia - despesa real 75 litros (7 bocas x 5 + 4 montarias x 10) contra 60 que havia. Todos bebem 2,85 litros: menos de 5, entao -1 de Fadiga e -1 de PV, MB. Estava inteiro: 12 -> 11/12.
+- **02/10/2026 23:34** · PV +1 — Dia 10: cura natural, HT 12, 3d [4,4,3] = 11, SUCESSO por 1. Inteiro outra vez, e continua sendo o guia que erra.
 
 ### NelsOwned
 
-**PV -5/13 · Fadiga 15/15**  ·  **DESMAIADO na caçamba, no deserto. PV -5 de 13. Acorda em 6 horas, ainda a -5. Morre se chegar a -13 sem teste de HT. Deslocamento à metade.**; **Maneta da mão esquerda, permanente, -15 na ficha. A direita segue inteira. Machado grande não empunha.**
+**PV 5/13 · Fadiga 14/15**  ·  **DESMAIADO na caçamba, no deserto. PV -5 de 13. Acorda em 6 horas, ainda a -5. Morre se chegar a -13 sem teste de HT. Deslocamento à metade.**; **Maneta da mão esquerda, permanente, -15 na ficha. A direita segue inteira. Machado grande não empunha.**; **PV -4 de 13: INCONSCIENTE na caçamba. Pela regra da casa (cap. 6: '1 ponto que seja acima de 0, e ele levanta') faltam 5 pontos de cura para ele acordar. Sangramento do braço tratado como estancado, senão já teria ido a -13.**; **PV -4 de 13: ACORDADO e acamado na caçamba. Levanta a cabeça, fala baixo, pede água, não fica de pé nem sai da maca de carga. Consciente, não curado.**; **PV 5/13: fora do terço de HT/3 (4), Deslocamento inteiro de novo. Sem mão esquerda; machado grande fora de uso, machado de uma mão servindo.**
 
 - **09/09/2026 09:52** · PV -2 — Chute do Hoel Meia-Orelha reanimado, ataque total no tronco (cap. 01)
 - **09/09/2026 12:21** · FAD -1 — Fadiga de batalha contra os mortos-vivos: Carga nenhuma, nível 0 +1 (MB pág. 134)
@@ -167,6 +217,23 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **30/09/2026 17:05** · curado — Anda à metade da velocidade
 - **30/09/2026 17:05** · estado — Maneta da mão esquerda, permanente, -15 na ficha. A direita segue inteira. Machado grande não empunha.
 - **30/09/2026 17:05** · curado — custo 0 na ficha
+- **01/10/2026 22:42** · PV +1 — Cura natural no fim do dia 1 da travessia: +1 PV concedido pelo Mestre sem teste. Continua desmaiado, e Cura Superficial nao funciona aqui: o deserto e a terra onde nenhum encantamento pega.
+- **01/10/2026 22:42** · estado — PV -4 de 13: INCONSCIENTE na caçamba. Pela regra da casa (cap. 6: '1 ponto que seja acima de 0, e ele levanta') faltam 5 pontos de cura para ele acordar. Sangramento do braço tratado como estancado, senão já teria ido a -13.
+- **02/10/2026 07:50** · estado — PV -4 de 13: ACORDADO e acamado na caçamba. Levanta a cabeça, fala baixo, pede água, não fica de pé nem sai da maca de carga. Consciente, não curado.
+- **02/10/2026 17:04** · PV +1 — Dia 3: HT 13, 3d [5,3,6] = 14 falhou a cura natural; Medicina 15, 3d [2,2,5] = 9 sucesso, cura 1D-2 = d6 2 -> +1 PV. O dado da cura foi relancado porque o script anterior rolava duas vezes e rotulava errado.
+- **02/10/2026 19:44** · PV +1 — Dia 5 da travessia (turno 11): cura natural, HT 13, 3d [1,1,6] = 8, SUCESSO por 5. O dia 4 foi baixado SEM cura: os dados de ontem nao foram processados e eu nao reuso rolagem antiga para cobrir um dia perdido.
+- **02/10/2026 20:47** · PV +2 — Dia 6: o Mestre alinhou o fim do dia 5 em -1 (o caderno estava em -2) SEM reescrever o passado e, com o +1 da cura natural de hoje (HT 13, 3d [2,2,5] = 9, sucesso por 4), ele chega a 0/13. A zero ele nao levanta sem cura de verdade.
+- **02/10/2026 20:57** · PV +1 — Dia 7: cura natural, HT 13, 3d [4,2,1] = 7, SUCESSO por 6. Passou de 0 para 1 pela regra da casa (cap. 6): um ponto acima de zero, e ele levanta.
+- **02/10/2026 20:57** · estado — PV 1/13: LEVANTA da maca de carga - primeira vez desde o patio de Wallace. Senta, fala, canta. Deslocamento a metade (1 cai no terco de 4). Sem mao esquerda; machado grande fora de uso, machado de uma mao servindo.
+- **02/10/2026 22:46** · PV +1 — Dia 8: cura natural, HT 13, 3d [3,4,6] = 13, SUCESSO por 0 (no fio). Ainda dentro do terco de 4: Deslocamento a metade.
+- **02/10/2026 23:16** · PV +1 — Dia 9: cura natural, HT 13, 3d [5,3,3] = 11, SUCESSO por 2.
+- **02/10/2026 23:16** · PV -1 — Dia 9: a agua acabou no meio do dia - despesa real 75 litros (7 bocas x 5 + 4 montarias x 10) contra 60 que havia. Todos bebem 2,85 litros: menos de 5, entao -1 de Fadiga e -1 de PV, MB. Fecha o dia onde comecou: 2/13.
+- **02/10/2026 23:16** · FAD -1 — Dia 9: a agua acabou no meio do dia - despesa real 75 litros (7 bocas x 5 + 4 montarias x 10) contra 60 que havia. Todos bebem 2,85 litros: menos de 5, entao -1 de Fadiga e -1 de PV, MB. Fecha o dia onde comecou: 2/13.
+- **02/10/2026 23:34** · PV +1 — Dia 10: cura natural, HT 13, 3d [5,3,1] = 9, SUCESSO por 4. 3/13, ainda dentro do terco de 4: Deslocamento a metade.
+- **03/10/2026 08:24** · PV +1 — Dia 11: cura natural, HT 13, 3d [3,4,3] = 10, SUCESSO por 3. 4/13, ainda no terço de 4: Deslocamento à metade.
+- **03/10/2026 10:03** · PV +1 — Dia 12: cura natural, HT 13, 3d [6,2,2] = 10, SUCESSO por 3.
+- **03/10/2026 10:03** · estado — PV 5/13: fora do terço de HT/3 (4), Deslocamento inteiro de novo. Sem mão esquerda; machado grande fora de uso, machado de uma mão servindo.
+- **03/10/2026 10:03** · curado — PV 1/13: LEVANTA
 
 ## NPCs
 
@@ -228,6 +295,18 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **18/09/2026 20:07** · estado — DESAPARECIDO — sumiu no meio dos mortos da rampa no turno 5. Ninguém do grupo sabe se está vivo. Perna esquerda incapacitada e -5 de pontos de vida quando se perdeu de vista. Fora do mapa
 - **19/09/2026 19:39** · estado — DESAPARECIDO — sumiu no meio dos mortos da rampa no turno 5, arrastado de L6 até L8-L9. Ninguém do grupo sabe se está vivo. Perna esquerda incapacitada e -5 de pontos de vida quando se perdeu de vista. Fora do mapa, e agora do lado de fora do portão fechado
 - **19/09/2026 19:39** · estado — SUMIDO na massa da rampa desde o turno 5, arrastado de L6 até L8-L9. Ninguém do grupo sabe se vive. Levava -5 de vitalidade e a perna esquerda destruída quando se perdeu de vista. Fora do mapa, e agora do lado de fora do portão fechado
+
+### Lorde William de Wallace
+
+**PV -22 · Fadiga —**  ·  **ATORDOADO: -4 nas defesas; testa HT no próximo turno**; **Caído e atordoado, PV -6: HT 11 a cada turno para seguir consciente**; **MORTO no turno 24 (PV -11), caído em (10,8)**
+
+- **03/10/2026 23:51** · PV -2 — Turno 20: adaga arremessada pelo Reptante 4 (1D-2, mínimo 1, perfuração x2 = 2); age com -2 no próximo turno
+- **04/10/2026 22:17** · PV -6 — Turno 22: garras do Reptante 4 no tronco
+- **04/10/2026 22:17** · estado — ATORDOADO: -4 nas defesas; testa HT no próximo turno
+- **05/10/2026 14:32** · PV -9 — Turno 23: garras do Reptante 4 nos órgãos vitais
+- **05/10/2026 14:32** · estado — Caído e atordoado, PV -6: HT 11 a cada turno para seguir consciente
+- **05/10/2026 20:22** · PV -5 — Turno 24: garras do R2 na perna; morreu (HT 11 tirou 13 contra a morte em -11)
+- **05/10/2026 20:23** · estado — MORTO no turno 24 (PV -11), caído em (10,8)
 
 ### Morto 3
 
@@ -331,3 +410,34 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **19/09/2026 20:34** · curado — VIVO, CONSCIENTE E PRESO
 - **19/09/2026 20:34** · estado — SEM AS DUAS PERNAS, LIVRE E ACORDADO. Vitalidade -9 de 11 — DOIS PONTOS da barreira de -HT, onde testa HT ou morre. As duas pernas foram decepadas pelo montante do Negrum abaixo do joelho, para tirá-lo de debaixo da grade, e ele NÃO DESMAIOU em nenhum dos dois cortes: passou os dois testes de HT, o segundo por exatamente zero. Está fora do vão, deitado no pátio, consciente e sangrando. PRECISA DE PRIMEIROS SOCORROS AGORA — qualquer perda de 2 pontos o leva à barreira
 - **20/09/2026 20:33** · PV +1 — Primeiros Socorros do Irmão Kaelric, 30 min (cap. 04)
+
+### Reptante 1
+
+**PV -28 · Fadiga —**  ·  **Perna INCAPACITADA, caído em (5,5); -6 no ataque no próximo turno**
+
+- **04/10/2026 22:17** · PV -6 — Turno 22: montante do Negrum na perna
+- **04/10/2026 22:17** · estado — Perna INCAPACITADA, caído em (5,5); -6 no ataque no próximo turno
+- **05/10/2026 14:32** · PV -22 — Turno 23: machado no pescoço (NelsOwned); inconsciente
+
+### Reptante 2
+
+**PV -25 · Fadiga —**  ·  **MORTO no turno 24 (PV -13), caído em (11,7)**
+
+- **05/10/2026 14:32** · PV -10 — Turno 23: maça no tronco (Kaelric)
+- **05/10/2026 20:23** · PV -15 — Turno 24: estocada de Edric nos órgãos vitais; morreu
+- **05/10/2026 20:23** · estado — MORTO no turno 24 (PV -13), caído em (11,7)
+
+### Reptante 3
+
+**PV -9 · Fadiga —**
+
+- **03/10/2026 23:51** · PV -2 — Turno 20: adaga arremessada pelo Jah (1D-3 = 2, RD 1, perfuração x2 = 2); age com -2 no próximo turno
+- **04/10/2026 16:56** · PV -6 — Turno 21: golpe de Ataque Total do Negrum na cabeça (corte 2D+2, 4 passam, x1,5); NOCAUTEADO em HT 12 (tirou 14)
+- **05/10/2026 14:32** · PV -1 — Turno 23: faca de Jah
+
+### Reptante 4
+
+**PV -21 · Fadiga —**  ·  **MORTO no turno 25 (empalado pela espada de Negrum), caído em (10,7)**
+
+- **05/10/2026 22:50** · PV -21 — Turno 25: cimitarra do Comam na perna (6) e montante do Negrum na cabeça (15); morreu empalado (decisão do Mestre)
+- **05/10/2026 22:50** · estado — MORTO no turno 25 (empalado pela espada de Negrum), caído em (10,7)

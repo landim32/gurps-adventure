@@ -1,0 +1,29 @@
+*FIM DO DIA 1 — A TRAVESSIA*
+
+O Comam pegou as rédeas antes do sol e não soltou. É o único aqui que fala com parelha sem xingar, e carroça com seis barris, um templário em cima de cavalo e três homens que não sustentam o próprio corpo não perdoa quem brinca de cabresto. A areia afunda onde o casco acha; ele encurtou a rédea, trocou o peso e passou.
+> Carreiro: sem a perícia na ficha, pré-definido Cavalgar 15 −2 = *13*
+> 3d [2, 2, 2] = *6* → sucesso por 7 — *decisivo*
+> Marcha do dia: *30 km* (falha no teste custaria metade: 15 km)
+> Rumo: sem teste — até onde a caravana passa, a rota é do conhecimento do William
+
+Ao meio-dia a carroça parou na sombra curta que ela mesma faz, e foi aí que o trovador acordou: seis horas depois do portão de Wallace, no prazo exato que a mesa tinha marcado. Levantou a cabeça, pediu água com a voz de quem já bebeu pouco a vida inteira, e não conseguiu sentar. Acamado. Não é o braço que falta que o prende na maca de carga.
+> Relógio: 6 h do registro de 30/09 → acorda na parada do meio-dia (decisão do Mestre: acamado, não inconsciente)
+> NelsOwned: PV *−4/13* · consciente · não fica de pé, não sai da carroça
+> Água: ele já contava como boca cheia; acordar *não muda a despesa*, 5 litros por dia
+
+Ao poente William bateu a mão no casco, e o som foi de cheio — a melhor coisa do dia — e fez a conta alto, na frente dos feridos, porque é assim que se administra sede.
+> Água do dia: 8 pessoas × 5 L = 40 + 4 montarias × 10 L = 40 → *80 L*
+> Reserva: 300 − 80 = *220 litros* = 4 barris e um quinto
+> Comida do dia: *8 pessoas-dia* → sobram *52 pessoas-dia* (≈ 13 kg)
+> Restam 170 km = 6 dias a 30 km = *480 litros* cobrados; faltam *260 litros*
+
+— Oitenta litros. Um barril e seis décimos. Sobram duzentos e vinte. Faltam cento e setenta quilômetros, são seis dias, e seis dias cobram quatrocentos e oitenta. Nós temos duzentos e vinte. Ou a caravana existe, ou alguém escolhe o que se joga fora desta carroça: barril, peso ou quilômetro por dia.
+
+No fim do dia, quatro de vocês dormiram o suficiente para valer alguma coisa. Ao Kaelric isso não consertou a perna, que só fecha quando os doze voltarem todos — e a pé ele continua sem andar, o que nesta carroça quer dizer que o cavalo dele não é montaria, é muleta de dez litros por dia.
+> Cura natural (MB 12): +1 PV concedido pelo Mestre sem teste de HT e sem repouso
+> Kaelric 1 → *2/12* · Jah 3 → *4/12* · Negrum 8 → *9/12* · NelsOwned −5 → *−4/13*
+> Kaelric: perna coxa *não sara* · Comam: *13/13*, nada a curar
+> NelsOwned: faltam 4 pontos para sair do negativo, e Cura Superficial não pega onde vocês entraram — o deserto é a terra onde nenhum encantamento funciona
+> Quem pode tratar dele hoje à noite: Comam, Primeiros Socorros 12, ou Jah, 11
+
+Amanhã é o dia 2, e a caravana é para estar lá. Comam continua nas rédeas. E agora há uma escolha a mais, que ontem não havia: o homem acordado na caçamba sabe o que é a carroça carregando ele, e vai ouvir cada palavra dita sobre o que se joga fora.

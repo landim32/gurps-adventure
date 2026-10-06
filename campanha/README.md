@@ -55,7 +55,7 @@ não defeito de ficha.
 
 ## Histórico
 
-Como as coisas **estão agora**: [`mundo.md`](mundo.md) (ferimentos, itens, relações, o que já se sabe), [`saude.md`](saude.md) (PV, Fadiga e ferimentos que ficam) e [`bolsa.md`](bolsa.md) (o dinheiro de cada um) — leia antes de retomar uma cena ou interpretar um NPC.
+Como as coisas **estão agora**: [`mundo.md`](mundo.md) (ferimentos, itens, relações, o que já se sabe), [`saude.md`](saude.md) (PV, Fadiga e ferimentos que ficam), [`bolsa.md`](bolsa.md) (o dinheiro de cada um) e [`mantimentos.md`](mantimentos.md) (água e comida da comitiva, despesa por dia e o livro-caixa da travessia) — leia antes de retomar uma cena ou interpretar um NPC.
 
 <!-- indice:historico -->
 - [1. Encontro na Taberna — como aconteceu](01-encontro-na-taberna/) — 07/09/2026 · 36 acontecimento(s) · 7 arquivo(s) de mesa
@@ -64,7 +64,7 @@ Como as coisas **estão agora**: [`mundo.md`](mundo.md) (ferimentos, itens, rela
 - [4. O Que Não Enterra — como aconteceu](04-o-que-nao-enterra/) — 19/09/2026 · 13 acontecimento(s) · 4 arquivo(s) de mesa
 - [5. O Lorde William — como aconteceu](05-o-lorde-william/) — 20/09/2026 · 4 acontecimento(s) · 3 arquivo(s) de mesa
 - [6. A Fuga para o Deserto — como aconteceu](06-a-fuga-para-o-deserto/) — 21/09/2026 · 48 acontecimento(s) · 5 arquivo(s) de mesa
-- [7. A Travessia do Grande Deserto — como aconteceu](07-a-travessia-do-grande-deserto/) — 30/09/2026 · 4 acontecimento(s) · 1 arquivo(s) de mesa
+- [7. A Travessia do Grande Deserto — como aconteceu](07-a-travessia-do-grande-deserto/) — 30/09/2026 · 41 acontecimento(s) · 4 arquivo(s) de mesa
 - [video](video/)
 - [Exportações do grupo de WhatsApp](whatsapp/)
 <!-- /indice:historico -->

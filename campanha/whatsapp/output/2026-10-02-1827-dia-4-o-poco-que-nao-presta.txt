@@ -1,0 +1,29 @@
+*DIA 4 — O POÇO QUE NÃO PRESTA*
+
+Saíram antes do sol, o Comam de novo nas rédeas, e o bárbaro foi na frente com o nariz no chão. Ele leu o dia inteiro, e o dia inteiro foi ele mesmo dizendo a mentira que a areia adora dizer: que era reto, que era longe, que dava para sentir a borda. Andaram trinta quilômetros. Não saíram do lugar. Quando o sol caiu, o único lugar novo que eles viram foi um buraco na pedra, com degrau, sombra e cheiro de metal.
+> Carreiro: Comam, NH 13 (= pré-definido Cavalgar 15 -2), 3d [2,2,4] = 8 → SUCESSO por 5
+> Rumo: Negrum, NH 9 (= Sobrevivência (Deserto) 11 -2), 3d [4,4,2] = 10 → FALHA por 1
+> Consequência: o dia está perdido. **0 km** creditados, e a água do dia bebida inteira
+
+A água é boa de olhar. Escura no fundo, fresca na mão, e uma sombra de rocha que cabe a carroça inteira. Tem gosto de sangue velho e de moeda chupada: é **salobra com ferro**, e o ferreiro da caravana avisou o que é beber disto — conta como **metade do dia**, e ninguém escapa da conta fervendo, porque o sal não evapora para dentro do céu.
+> Poço amargo (linha 12 da tabela do dia): água salobra com ferro
+> Quem bebe: -1 de Fadiga e -1 de PV, e a sede do dia conta pela metade
+> Ferver não resolve — o sal fica no odre
+> Os cavalos bebem, e esta é a primeira vez na travessia em que encher o balde vale mais por um animal do que por um homem
+
+Ou seja, o dia que eles perderam ganhou de volta um barril — se decidirem enchê-lo. A corda desce doze palmos, o balde sobe amargo, e os quatro animais beberam de uma vez sem reclamar de nada. Ninguém do lado de fora da carroça está com tanta sede a ponto de escolher essa água em vez de nenhuma. E está. É por isso que a cena termina aqui, com a corda na mão e ninguém dizendo o que fazer.
+> Água: 295 litros no começo do dia → -80 (despesa do dia) → **+50 se encherem um barril**
+> Sobra: **265 litros** = cinco barris e três décimos
+> Comida: 60 → **52 pessoas-dia**
+> Andado na travessia: **60 km dos 200**. Restam 140 km = **5 dias** = 400 litros
+> Faltam **135 litros**. Um dia de rumo errado custa 80 litros e nenhum passo
+
+No repouso, quem podia, dormiu o suficiente. O templário tentou e não conseguiu: a perna dele aguarda. Os outros três acordaram um pouco menos quebrados, e o trovador um ponto acima de onde estava, ainda deitado, ainda sem conseguir ficar em pé, com a mão direita e um machado que ele agora consegue usar.
+> Kaelric: HT 12, 3d [4,5,5] = 14 → FALHA por 2 → continua **4/12**, perna coxa intacta na dor
+> Jah: HT 12, 3d [2,3,1] = 6 → SUCESSO por 6 → **8/12**
+> Negrum: HT 12, 3d [1,2,4] = 7 → SUCESSO por 5 → **11/12**
+> NelsOwned: HT 13, 3d [1,5,5] = 11 → SUCESSO por 2 → **-2/13**, acamado; não levanta enquanto a vitalidade não passar de zero
+
+Lorde William olhou para o poço um tempo longo demais e disse uma coisa só, para o bárbaro, sem levantar a voz: que o deserto não cobra de quem anda, cobra de quem erra. Amanhã é outro dia, outro rumo, e a conta de água agora é de três dias e três quartos para cinco dias de areia.
+
+*Decidam esta noite, antes de eu apagar a fogueira:* **Enche-se o barril no poço amargo, ou não se enche?** E amanhã, **quem vai na frente lendo o chão** — o bárbaro de novo, com a cara dele depois de hoje, ou outro?

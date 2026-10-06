@@ -1,0 +1,44 @@
+*DIA 9 — O DIA EM QUE A AGUA ACABOU*
+
+O dia não teve nada, como o deserto decidiu que teria. Nenhum vulto, nenhum osso, nenhuma
+nuvem que valesse o nome. Andaram, e o sol fez o que ele faz: conta. O cocheiro conduziu como
+nunca tinha conduzido — três dados no mesmo número, o carroceiro mais velho da carroça com o
+melhor dia de mão da travessia — e isso não rendeu uma gota, mas rendeu uma coisa que eles vão
+sentir falta se tiverem de abandonar a carroça: ela está inteira.
+> Encontro do dia: **10** — linha 10 da tabela: **NADA**
+> Carreiro: Comam, NH 13 (= pré-definido Cavalgar 15 -2), 3d [1,2,1] = 4 → **SUCESSO CRÍTICO**
+> Rumo: Negrum, NH 9 (= Sobrevivência (Deserto) 11 -2), 3d [5,2,3] = 10 → **FALHA por 1**
+> Consequência: quinto dia perdido em seis. **0 km** creditados
+
+O barril esvaziou antes do poente, e não foi um momento: foi uma ausência. Ninguém bateu no
+casco porque não havia casco para bater. O cocheiro dividiu o resto com os animais primeiro,
+porque cavalo morto a pé não puxa nada, e depois veio a parte que a carroça não costuma ver:
+sete pessoas passando um balde de dois litros e três quartos, em ordem, sem discutir ordem.
+> Despesa real do dia: **75 litros** (7 pessoas × 5 L + 4 montarias × 10 L) — o caderno vinha
+> cobrando 80 porque esqueceu que um dos feridos morreu no dia 7
+> Havia: **60 litros** → cobertura de 80% → **2,85 L por pessoa**
+> Regra do MB: menos de 5 L custa **-1 de Fadiga e -1 de PV** para cada pessoa
+> Água no fim do dia 9: **zero litro a bordo**
+
+No repouso, dois corpos subiram um ponto e dois caíram pela sede, e um não fez nem uma coisa:
+o ladrão é o único da carroça que não conseguiu nem curar. Dois pontos de vida de diferença em
+uma travessia, e desta vez não é o machado dele que vai pagar.
+> Cura natural, HT 12: Kaelric 3d [2,3,3] = 8 → SUCESSO por 4 → 8 +1 −1(sede) = **8/12**
+> Cura natural, HT 13: NelsOwned 3d [5,3,3] = 11 → SUCESSO por 2 → 2 +1 −1(sede) = **2/13**
+> Cura natural, HT 12: Jah 3d [4,4,5] = 13 → **FALHA por 1** (segunda noite seguida) → **9/12**
+> Sede: Comam 13 → **12/13** · Negrum 12 → **11/12** · William e o guarda ferido: −1 cada
+
+O Lorde William não contou nada. Ele sentou na traseira da carroça com a mão no casco vazio e
+ficou olhando o oeste, onde há cento e dez quilômetros de areia e nenhuma água que eles possam
+escrever no mapa. E foi o bárbaro, cinco dias depois de errar o caminho, quem disse o que
+ninguém queria dizer em voz alta: que agora não se trata de chegar. Trata-se de escolher o que
+se bebe.
+
+*Amanhã não há despesa a pagar com o que não existe. Escolhas, com os números do livro:*
+> **Beber do corpo que puxa**: cada montaria abatida tira 10 litros/dia da despesa, rende
+> alguns litros no estômago e carne para um dia e meio defumada. Dois de tiro = carroça para.
+> **Beber menos de um litro**: -2 de Fadiga e -2 de PV por pessoa por dia. Fadiga de sede não
+> volta sem um dia parado com água de sobra. **ST ou HT a zero por sede: delírio e morte em um
+> dia.**
+> **Deixar a carroça**: quem tem força segue a pé com um odre. O templário não tem: ele está
+> em 8/12 e não anda, e o cavalo dele é a única coisa entre ele e o chão.

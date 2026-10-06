@@ -1,0 +1,66 @@
+*DIA 3 — A BARRA*
+
+O serviço estava feito, e é isso que abre a barra: ninguém forja, conserta ou facilita para
+quem não pôs a mão antes. Ainda assim o dia cobra — perderam um camelo e dois homens na roupa
+duas noites atrás, e o preço sobe para quem chegou pedindo.
+> Preço da barra: tabela x 1,5 (ágio do dia)
+> Serviço prestado pelo grupo: +1 na reação de quem negocia
+> Ter a perícia Comércio: +1 na reação
+
+O bárbaro escolheu a armadura e não a vestiu. Passou a barra inteira ouvindo o curtidor
+explicar por que aquilo pesa mais que o couro dele, pagou, e mandou descer as peças para o
+fundo da carroça — treze quilos e meio que o veículo carrega, não as costas dele.
+> Capacete: $20 x 2 = $40
+> Loriga do tronco: $100 x 2 = $200 (6,75 kg)
+> Loriga dos braços: $50 x 2 = $100 (1,5 kg)
+> Loriga das pernas: $60 x 2 = $120 (3 kg)
+> Cestos das mãos: $30 x 2 = $60
+> Coturnos: $80 x 2 = $160 (2,25 kg)
+> DP 3 / RD3 em todas as peças · peso total 13,5 kg
+> Total de tabela: $680 → com o ágio: **$1.020 pagos**
+> Negrum — Carga: 14,5 kg vestidos = Carga Nenhuma (ST 15) → Deslocamento 6, Esquiva 6
+> Negrum — DP: escudo médio 3 → **DP 3** no total (a armadura está na carroça)
+
+O trovador comprou o único machado que uma mão só consegue usar, e os três tratados ficaram
+com a conta do curandeiro na lona — setenta e cinco moedas a diária, cobradas em prata.
+> Machado de uma mão: $50 → com o ágio **$75** (corte BAL+2, 2 kg, ST mínima 12; ele tem 13)
+> Kaelric — Cura natural: HT 12, 3d [4,4,2] = 10 → **SUCESSO por 2**
+> Kaelric — Curandeiro: Medicina 15, 3d [2,6,4] = 12 → **SUCESSO por 3** → cura 1D-2: d6 [3] = **1 PV**
+> Kaelric: **3 → 4/12** (a perna coxa continua até os 12 voltarem)
+> Jah — Cura natural: HT 12, 3d [3,6,6] = 15 → **FALHA por 3**
+> Jah — Curandeiro: Medicina 15, 3d [1,1,4] = 6 → **SUCESSO CRÍTICO** → cura 1D-2: d6 [4] = **2 PV**
+> Jah: **5 → 7/12**
+> NelsOwned — Cura natural: HT 13, 3d [5,3,6] = 14 → **FALHA por 1**
+> NelsOwned — Curandeiro: Medicina 15, 3d [2,2,5] = 9 → **SUCESSO por 6** → cura 1D-2: d6 [2] = 0 → **mínimo 1 PV**
+> NelsOwned: **−4 → −3/13** · continua acamado, não levanta enquanto a vitalidade não passar de 0
+> Comam — nada a curar: 13/13
+
+Quem foi à barra com a conta na mão negociou cada um por si, e o ferreiro olhou pouco para o
+gigante de maça limpa demais.
+> Comércio NelsOwned: NH 14, 3d [3,3,6] = 12 → **SUCESSO por 2** · Reação: 12 +1 Comércio +1 serviço = **14 → BOA**
+> Comércio Negrum: NH 9, 3d [6,6,6] = 18 → **FALHA CRÍTICA por 9** · Reação: 18 +1 +1 = **20 → MUITO BOA**
+> Comércio Kaelric: NH 13, 3d [1,5,1] = 7 → **SUCESSO por 6** · Reação: 7 +1 +1 = **9 → FRACA**
+> Comércio Jah: NH 12, 3d [1,4,3] = 8 → **SUCESSO por 4** · Reação: 8 +1 +1 = **10 → NEUTRA**
+> Comércio Comam: NH 10, 3d [2,2,5] = 9 → **SUCESSO por 1** · Reação: 9 +1 +1 = **11 → NEUTRA**
+
+O cocheiro saiu com dois virotes e um comentário do vendeiro sobre a besta, que era mais velha
+que o próprio Comam.
+> 2 virotes: $2 cada → com o ágio **$6** · aljava passa a 12
+
+E o ladrão, que é o que se esperava dele, saiu da barra com dois dardos e oito facas — pagou
+meia libra de ouro em ferro e ficou devendo um olhar ao homem dos couros, porque quatro quilos
+novos nas costas valem, para ele, mais do que o dinheiro.
+> 2 dardos: $30 cada = $60 → com o ágio **$90**
+> 8 facas: $30 cada = $240 → com o ágio **$360**
+> Jah — bolsa: $525 gastos
+> Jah — Carga antes: 8 kg = Carga Nenhuma (ST 10) → Deslocamento 7, Esquiva 7
+> Jah — Carga agora: 12 kg = Carga Leve (ST 10) → **Deslocamento 6, Esquiva 6**
+
+Fim da barra. A rota que o Lorde William sabia de cabeça terminou aqui, no ponto onde a
+caravana passa: daqui, ninguém desta carroça conhece poço nenhum. Amanhã o teste de rumo é do
+bárbaro, **Sobrevivência (Deserto) 11 −2 = 9**, e cada dia perdido custa oitenta litros. Há
+**135 litros** no fundo de dois barris e sete décimos, e **140 quilômetros** de areia até os
+portões de Ferrier.
+
+Quem leva a carroça amanhã, o que se faz antes de o sol esquentar e se a armadura de Reptante
+sai da carroça para as costas do bárbaro — me digam hoje à noite.

@@ -1,0 +1,23 @@
+*DIA 12 — O RATO NA FRENTE*
+
+A tabela do dia dá 7, e o 7 tem nome: a caravana pequena da véspera, seis camelos e uma carroça de lona remendada. Dela saiu o Rato-de-Duna, descalço, com a túnica em furos e a mão aberta. Quando a carroça voltou a rodar, ele estava sentado no estribo, ao lado do Comam, apontando com o queixo.
+> Encontro do dia: *7* → caravana menor; o guia Yusuf ibn Harun, o Rato-de-Duna, entra na comitiva
+> Água do dia: 8 pessoas × 5 L + 4 montarias × 10 L = *80 L* → de 225 L sobram *145 L*
+> Comida do dia: 8 pessoas × 3 refeições = *8 pessoas-dia* → de 8 sobram *0*
+
+O moleque não olhava o sol do jeito que o bárbaro olhava. Olhava o chão: a crista das dunas, o lado em que a areia é mais fina, o rastro velho de um camelo que ninguém mais tinha visto. Duas vezes mandou o cocheiro virar para onde não parecia haver nada. Nas duas vezes havia.
+> Rumo: Yusuf, Navegação *12* em terra (12, -3 por estar em terra, +3 do Senso de Direção)
+> 3d [2, 5, 3] = *10* → sucesso por 2
+
+O Comam segurou a parelha numa descida de areia solta que quis levar a carroça de lado. Segurou no limite, com os dois de tiro afundando até o joelho.
+> Carreiro: Comam, Cavalgar 15 -2 (pré-definido) = *13*
+> 3d [6, 2, 5] = *13* → sucesso por 0, no fio
+> Marcha inteira: *+30 km* → *120 km andados dos 200*; faltam *80 km*
+
+Pela primeira vez desde a barra, a noite caiu num lugar que não era o mesmo da manhã. E na mesma noite o último saco de comida foi raspado até o fundo.
+> Cura natural, HT 12: Kaelric 3d [5, 1, 3] = *9* → sucesso por 3 → *+1 PV, 10/12*. A perna coxa segue até os 12
+> Cura natural, HT 12: Jah 3d [4, 2, 4] = *10* → sucesso por 2 → *+1 PV, 11/12*
+> Cura natural, HT 13: NelsOwned 3d [6, 2, 2] = *10* → sucesso por 3 → *+1 PV, 5/13*. Sai do terço de 4 e volta a andar com Deslocamento inteiro
+> Comam e Negrum, de PV cheio, não têm o que curar
+
+Amanhã de manhã não há o que comer. Há 145 litros de água, 80 quilômetros e um moleque que, até agora, não errou.

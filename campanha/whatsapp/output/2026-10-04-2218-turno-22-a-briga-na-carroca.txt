@@ -1,0 +1,55 @@
+*TURNO 22 — A BRIGA NA CARROÇA*
+
+Jah arranca com o cavalo e solta o pé na direção do reptante. O chute sai torto, a bota só corta o ar quente. Ele se agarra na crina e fica na sela.
+> Chute (Caratê): NH 16, -2 chute, -2 velocidade da montaria ≥ 6 = *12*
+> 3d [5, 3, 6] = *14* → falha por 2
+> Teste de DX para não cair (chute errado): NH 16, 3d [5, 5, 2] = *12* → sucesso por 4
+
+Comam sobe na aste que prende os cavalos e corre por cima dela, equilibrado, a besta engatilhada no braço.
+> Acrobacia: NH 15, sem redutor (decisão do Mestre) = *15*
+> 3d [1, 3, 6] = *10* → sucesso por 5
+
+Negrum gira o montante e abre a perna do reptante que estava em cima dele. O osso estala, a perna fica pendurada.
+> Ataque: Espadas de Lâmina Larga NH 17, -2 perna = *15*
+> 3d [3, 2, 6] = *11* → sucesso por 4
+> Defesa de Reptante 1: esquiva 6 = *6*
+> 3d [2, 2, 3] = *7* → falhou por 1
+> Dano: 2D+2: [3, 4] = 7 + 2 = *9*
+> RD 1 → 8 passam
+> Corte: ×1,5 depois que passar da armadura → *12*
+> Teto do local (HT/2 = 6): 6 desperdiçado(s)
+> *Perna INCAPACITADA* — Reptante 1 cai e fica atordoado
+> *Reptante 1 perde 6 ponto(s) de vida.*
+
+NelsOwned se joga no meio da roda, machado de uma mão erguido, sem pensar em guarda nenhuma. O reptante caído ainda consegue se enrolar e desviar do golpe por um fio.
+> Ataque Total: Machado/Maça NH 15, +4 = *19*
+> 3d [1, 4, 6] = *11* → sucesso por 8
+> Defesa de Reptante 1: esquiva 6, -4 atordoado = *2*
+> 3d [1, 1, 1] = *3* → *defendeu* (3 ou 4 sempre defende)
+> Sem dano. NelsOwned fica sem defesa ativa até o próximo turno.
+
+O Reptante 1 se obriga a acordar da pancada. Rasteja, rosna, tenta alcançar o anão, mas a perna não obedece e o golpe nem sai.
+> Teste de HT para sair do atordoamento: NH 12, 3d [1, 5, 5] = *11* → sucesso por 1
+> Ataque de garras: NH 12, -6 ferimento, -4 caído, -4 mão (sorteada) = *-2* → impossível
+
+O Reptante 2 pula no templário. A garra bate no pavês e escorrega.
+> Ataque: Garras NH 12 = *12*
+> 3d [2, 3, 4] = *9* → sucesso por 3 (tronco)
+> Defesa de Kaelric: bloqueio 8 +1 Reflexos em Combate +4 DP pavês = *13*
+> 3d [4, 3, 1] = *8* → defendeu por 5
+
+O Reptante 4 descarrega as garras no peito do Lorde William. O espadão não sobe a tempo.
+> Ataque: Garras NH 12 = *12*
+> 3d [1, 2, 2] = *5* → sucesso por 7 (tronco)
+> Defesa de William: aparar 6 = *6*
+> 3d [3, 2, 2] = *7* → falhou por 1
+> Dano: 1D+2: [4] + 2 = *6*
+> RD 0 → 6 passam
+> Perdeu mais de HT/2: teste de HT 11 para não cair, 3d [4, 5, 2] = *11* → de pé
+> *Lorde William fica ATORDOADO* (-4 nas defesas)
+> *Lorde William perde 6 ponto(s) de vida.*
+
+William tenta se firmar, mas o mundo gira, e ele nem consegue erguer o espadão.
+> Teste de HT para sair do atordoamento: NH 11, 3d [3, 5, 4] = *12* → falhou por 1
+
+Edric grita ao templário: "TIRA ESSE CAVALO DA FRENTE!". Kaelric não faz nada.

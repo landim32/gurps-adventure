@@ -1,0 +1,475 @@
+{
+  "reacoes": [
+    {
+      "npc": "Yusuf ibn Harun",
+      "pj": "Comam Obabaroy",
+      "dados": [
+        6,
+        4,
+        4
+      ],
+      "mod": -3,
+      "total": 11,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [6, 4, 4] = 14 - 3 = 11",
+      "detalhe": [
+        "-3 ficha de Comam Obabaroy"
+      ],
+      "contexto": "comercio",
+      "local": "Caravana pequena no Grande Deserto, dia 12",
+      "quando": "03/10/2026 09:47"
+    },
+    {
+      "npc": "Yusuf ibn Harun",
+      "pj": "NelsOwned",
+      "dados": [
+        1,
+        6,
+        5
+      ],
+      "mod": 2,
+      "total": 14,
+      "faixa": "Boa",
+      "peso": "nota",
+      "texto": "O NPC gosta dos personagens e será prestativo dentro do razoável.",
+      "conta": "3d [1, 6, 5] = 12 + 2 = 14",
+      "detalhe": [
+        "+2 ficha de NelsOwned"
+      ],
+      "contexto": "comercio",
+      "local": "Caravana pequena no Grande Deserto, dia 12",
+      "quando": "03/10/2026 09:47"
+    },
+    {
+      "npc": "Reptante 1",
+      "pj": "Comam Obabaroy",
+      "dados": [
+        2,
+        2,
+        1
+      ],
+      "mod": -3,
+      "total": 2,
+      "faixa": "Muito Ruim",
+      "peso": "extremo",
+      "texto": "O NPC antipatiza com os PCs e agirá contra eles se isto lhe for conveniente.",
+      "conta": "3d [2, 2, 1] = 5 - 3 = 2",
+      "detalhe": [
+        "-3 ficha de Comam Obabaroy"
+      ],
+      "contexto": "geral",
+      "local": "Grande Deserto, dia 13: quatro reptantes espreitando",
+      "quando": "03/10/2026 19:33"
+    },
+    {
+      "npc": "Reptante 1",
+      "pj": "Irmão Kaelric",
+      "dados": [
+        4,
+        3,
+        6
+      ],
+      "mod": -2,
+      "total": 11,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [4, 3, 6] = 13 - 2 = 11",
+      "detalhe": [
+        "-2 ficha de Irmão Kaelric"
+      ],
+      "contexto": "geral",
+      "local": "Grande Deserto, dia 13: quatro reptantes espreitando",
+      "quando": "03/10/2026 19:33",
+      "atencao": "ficha de Irmão Kaelric: «-2 (porte); +2 cristãos» — confira se a parte condicional vale aqui"
+    },
+    {
+      "npc": "Reptante 1",
+      "pj": "Jah Kagadu",
+      "dados": [
+        2,
+        6,
+        5
+      ],
+      "mod": -2,
+      "total": 11,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [2, 6, 5] = 13 - 2 = 11",
+      "detalhe": [
+        "-2 ficha de Jah Kagadu"
+      ],
+      "contexto": "geral",
+      "local": "Grande Deserto, dia 13: quatro reptantes espreitando",
+      "quando": "03/10/2026 19:33"
+    },
+    {
+      "npc": "Reptante 1",
+      "pj": "Negrum Carneiriums",
+      "dados": [
+        6,
+        6,
+        2
+      ],
+      "mod": 2,
+      "total": 16,
+      "faixa": "Muito Bom",
+      "peso": "extremo",
+      "texto": "O NPC tem os personagens em alta conta e será muito gentil e prestativo.",
+      "conta": "3d [6, 6, 2] = 14 + 2 = 16",
+      "detalhe": [
+        "+2 ficha de Negrum Carneiriums"
+      ],
+      "contexto": "geral",
+      "local": "Grande Deserto, dia 13: quatro reptantes espreitando",
+      "quando": "03/10/2026 19:33",
+      "atencao": "ficha de Negrum Carneiriums: «+2 (mesmo sexo); +4 (sexo oposto)» — confira se a parte condicional vale aqui"
+    },
+    {
+      "npc": "Reptante 1",
+      "pj": "NelsOwned",
+      "dados": [
+        2,
+        2,
+        4
+      ],
+      "mod": 2,
+      "total": 10,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [2, 2, 4] = 8 + 2 = 10",
+      "detalhe": [
+        "+2 ficha de NelsOwned"
+      ],
+      "contexto": "geral",
+      "local": "Grande Deserto, dia 13: quatro reptantes espreitando",
+      "quando": "03/10/2026 19:33"
+    },
+    {
+      "npc": "Reptante 2",
+      "pj": "Comam Obabaroy",
+      "dados": [
+        5,
+        3,
+        3
+      ],
+      "mod": -3,
+      "total": 8,
+      "faixa": "Fraca",
+      "peso": "nota",
+      "texto": "O NPC não se deixará impressionar. Pode se tornar hostil se isso lhe der lucro grande ou houver pouco perigo.",
+      "conta": "3d [5, 3, 3] = 11 - 3 = 8",
+      "detalhe": [
+        "-3 ficha de Comam Obabaroy"
+      ],
+      "contexto": "geral",
+      "local": "Grande Deserto, dia 13: quatro reptantes espreitando",
+      "quando": "03/10/2026 19:33"
+    },
+    {
+      "npc": "Reptante 2",
+      "pj": "Irmão Kaelric",
+      "dados": [
+        4,
+        1,
+        4
+      ],
+      "mod": -2,
+      "total": 7,
+      "faixa": "Fraca",
+      "peso": "nota",
+      "texto": "O NPC não se deixará impressionar. Pode se tornar hostil se isso lhe der lucro grande ou houver pouco perigo.",
+      "conta": "3d [4, 1, 4] = 9 - 2 = 7",
+      "detalhe": [
+        "-2 ficha de Irmão Kaelric"
+      ],
+      "contexto": "geral",
+      "local": "Grande Deserto, dia 13: quatro reptantes espreitando",
+      "quando": "03/10/2026 19:33",
+      "atencao": "ficha de Irmão Kaelric: «-2 (porte); +2 cristãos» — confira se a parte condicional vale aqui"
+    },
+    {
+      "npc": "Reptante 2",
+      "pj": "Jah Kagadu",
+      "dados": [
+        6,
+        6,
+        1
+      ],
+      "mod": -2,
+      "total": 11,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [6, 6, 1] = 13 - 2 = 11",
+      "detalhe": [
+        "-2 ficha de Jah Kagadu"
+      ],
+      "contexto": "geral",
+      "local": "Grande Deserto, dia 13: quatro reptantes espreitando",
+      "quando": "03/10/2026 19:33"
+    },
+    {
+      "npc": "Reptante 2",
+      "pj": "Negrum Carneiriums",
+      "dados": [
+        2,
+        1,
+        1
+      ],
+      "mod": 2,
+      "total": 6,
+      "faixa": "Ruim",
+      "peso": "nota",
+      "texto": "O NPC não se importa com os PCs e agirá contra eles se isto lhe trouxer algum benefício.",
+      "conta": "3d [2, 1, 1] = 4 + 2 = 6",
+      "detalhe": [
+        "+2 ficha de Negrum Carneiriums"
+      ],
+      "contexto": "geral",
+      "local": "Grande Deserto, dia 13: quatro reptantes espreitando",
+      "quando": "03/10/2026 19:33",
+      "atencao": "ficha de Negrum Carneiriums: «+2 (mesmo sexo); +4 (sexo oposto)» — confira se a parte condicional vale aqui"
+    },
+    {
+      "npc": "Reptante 2",
+      "pj": "NelsOwned",
+      "dados": [
+        6,
+        2,
+        5
+      ],
+      "mod": 2,
+      "total": 15,
+      "faixa": "Boa",
+      "peso": "nota",
+      "texto": "O NPC gosta dos personagens e será prestativo dentro do razoável.",
+      "conta": "3d [6, 2, 5] = 13 + 2 = 15",
+      "detalhe": [
+        "+2 ficha de NelsOwned"
+      ],
+      "contexto": "geral",
+      "local": "Grande Deserto, dia 13: quatro reptantes espreitando",
+      "quando": "03/10/2026 19:33"
+    },
+    {
+      "npc": "Reptante 3",
+      "pj": "Comam Obabaroy",
+      "dados": [
+        3,
+        5,
+        5
+      ],
+      "mod": -3,
+      "total": 10,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [3, 5, 5] = 13 - 3 = 10",
+      "detalhe": [
+        "-3 ficha de Comam Obabaroy"
+      ],
+      "contexto": "geral",
+      "local": "Grande Deserto, dia 13: quatro reptantes espreitando",
+      "quando": "03/10/2026 19:33"
+    },
+    {
+      "npc": "Reptante 3",
+      "pj": "Irmão Kaelric",
+      "dados": [
+        4,
+        6,
+        6
+      ],
+      "mod": -2,
+      "total": 14,
+      "faixa": "Boa",
+      "peso": "nota",
+      "texto": "O NPC gosta dos personagens e será prestativo dentro do razoável.",
+      "conta": "3d [4, 6, 6] = 16 - 2 = 14",
+      "detalhe": [
+        "-2 ficha de Irmão Kaelric"
+      ],
+      "contexto": "geral",
+      "local": "Grande Deserto, dia 13: quatro reptantes espreitando",
+      "quando": "03/10/2026 19:33",
+      "atencao": "ficha de Irmão Kaelric: «-2 (porte); +2 cristãos» — confira se a parte condicional vale aqui"
+    },
+    {
+      "npc": "Reptante 3",
+      "pj": "Jah Kagadu",
+      "dados": [
+        1,
+        2,
+        1
+      ],
+      "mod": -2,
+      "total": 2,
+      "faixa": "Muito Ruim",
+      "peso": "extremo",
+      "texto": "O NPC antipatiza com os PCs e agirá contra eles se isto lhe for conveniente.",
+      "conta": "3d [1, 2, 1] = 4 - 2 = 2",
+      "detalhe": [
+        "-2 ficha de Jah Kagadu"
+      ],
+      "contexto": "geral",
+      "local": "Grande Deserto, dia 13: quatro reptantes espreitando",
+      "quando": "03/10/2026 19:33"
+    },
+    {
+      "npc": "Reptante 3",
+      "pj": "Negrum Carneiriums",
+      "dados": [
+        1,
+        5,
+        2
+      ],
+      "mod": 2,
+      "total": 10,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [1, 5, 2] = 8 + 2 = 10",
+      "detalhe": [
+        "+2 ficha de Negrum Carneiriums"
+      ],
+      "contexto": "geral",
+      "local": "Grande Deserto, dia 13: quatro reptantes espreitando",
+      "quando": "03/10/2026 19:33",
+      "atencao": "ficha de Negrum Carneiriums: «+2 (mesmo sexo); +4 (sexo oposto)» — confira se a parte condicional vale aqui"
+    },
+    {
+      "npc": "Reptante 3",
+      "pj": "NelsOwned",
+      "dados": [
+        4,
+        1,
+        2
+      ],
+      "mod": 2,
+      "total": 9,
+      "faixa": "Fraca",
+      "peso": "nota",
+      "texto": "O NPC não se deixará impressionar. Pode se tornar hostil se isso lhe der lucro grande ou houver pouco perigo.",
+      "conta": "3d [4, 1, 2] = 7 + 2 = 9",
+      "detalhe": [
+        "+2 ficha de NelsOwned"
+      ],
+      "contexto": "geral",
+      "local": "Grande Deserto, dia 13: quatro reptantes espreitando",
+      "quando": "03/10/2026 19:33"
+    },
+    {
+      "npc": "Reptante 4",
+      "pj": "Comam Obabaroy",
+      "dados": [
+        2,
+        3,
+        6
+      ],
+      "mod": -3,
+      "total": 8,
+      "faixa": "Fraca",
+      "peso": "nota",
+      "texto": "O NPC não se deixará impressionar. Pode se tornar hostil se isso lhe der lucro grande ou houver pouco perigo.",
+      "conta": "3d [2, 3, 6] = 11 - 3 = 8",
+      "detalhe": [
+        "-3 ficha de Comam Obabaroy"
+      ],
+      "contexto": "geral",
+      "local": "Grande Deserto, dia 13: quatro reptantes espreitando",
+      "quando": "03/10/2026 19:33"
+    },
+    {
+      "npc": "Reptante 4",
+      "pj": "Irmão Kaelric",
+      "dados": [
+        4,
+        5,
+        3
+      ],
+      "mod": -2,
+      "total": 10,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [4, 5, 3] = 12 - 2 = 10",
+      "detalhe": [
+        "-2 ficha de Irmão Kaelric"
+      ],
+      "contexto": "geral",
+      "local": "Grande Deserto, dia 13: quatro reptantes espreitando",
+      "quando": "03/10/2026 19:33",
+      "atencao": "ficha de Irmão Kaelric: «-2 (porte); +2 cristãos» — confira se a parte condicional vale aqui"
+    },
+    {
+      "npc": "Reptante 4",
+      "pj": "Jah Kagadu",
+      "dados": [
+        4,
+        3,
+        5
+      ],
+      "mod": -2,
+      "total": 10,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [4, 3, 5] = 12 - 2 = 10",
+      "detalhe": [
+        "-2 ficha de Jah Kagadu"
+      ],
+      "contexto": "geral",
+      "local": "Grande Deserto, dia 13: quatro reptantes espreitando",
+      "quando": "03/10/2026 19:33"
+    },
+    {
+      "npc": "Reptante 4",
+      "pj": "Negrum Carneiriums",
+      "dados": [
+        6,
+        3,
+        4
+      ],
+      "mod": 2,
+      "total": 15,
+      "faixa": "Boa",
+      "peso": "nota",
+      "texto": "O NPC gosta dos personagens e será prestativo dentro do razoável.",
+      "conta": "3d [6, 3, 4] = 13 + 2 = 15",
+      "detalhe": [
+        "+2 ficha de Negrum Carneiriums"
+      ],
+      "contexto": "geral",
+      "local": "Grande Deserto, dia 13: quatro reptantes espreitando",
+      "quando": "03/10/2026 19:33",
+      "atencao": "ficha de Negrum Carneiriums: «+2 (mesmo sexo); +4 (sexo oposto)» — confira se a parte condicional vale aqui"
+    },
+    {
+      "npc": "Reptante 4",
+      "pj": "NelsOwned",
+      "dados": [
+        4,
+        1,
+        1
+      ],
+      "mod": 2,
+      "total": 8,
+      "faixa": "Fraca",
+      "peso": "nota",
+      "texto": "O NPC não se deixará impressionar. Pode se tornar hostil se isso lhe der lucro grande ou houver pouco perigo.",
+      "conta": "3d [4, 1, 1] = 6 + 2 = 8",
+      "detalhe": [
+        "+2 ficha de NelsOwned"
+      ],
+      "contexto": "geral",
+      "local": "Grande Deserto, dia 13: quatro reptantes espreitando",
+      "quando": "03/10/2026 19:33"
+    }
+  ],
+  "local": "Grande Deserto, dia 13: quatro reptantes espreitando"
+}

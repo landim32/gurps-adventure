@@ -1,0 +1,50 @@
+*DIA 8 — A COISA QUE PASSOU POR CIMA ELES*
+
+De manhã o chão fez sombra. Não nuvem: sombra com pernas, três metros do casco ao bico,
+pescoço esticado como uma lança viva, atravessando o claro a uns duzentos metros e olhando
+para nenhum deles. O cocheiro parou a carroça sem mandar os animais parar, porque foi o
+cavalo do templário que estancou primeiro.
+> Encontro do dia: **sem rolagem** — a mesa viu um Moa atravessando, e decidiu contornar
+> Decisão: não enfrentam, não atiram, não correm. Dão a volta larga e andam
+
+O trovador, que agora fica de joelho na caçamba em vez de ficar deitado, começou a falar de
+ovos: um ovo daquele alimenta a comitiva inteira por uma semana. Foi a primeira coisa sensata
+que ele disse em oito dias, e o Lorde William respondeu que ia levar a conta em consideração,
+e não ia. Ninguém atirou. Abutre que gira em cima de gente já ensinou a esta carroça o que
+acontece quando a coisa grande percebe que vocês existem.
+> Naturalista: ninguém tem a perícia; quem identificou a ave foi o instinto, não o estudo
+> Consequência de contornar: nenhum combate, nenhuma perda, nenhuma comida extra
+> Perda real: tempo e água, como em todos os dias em que o chão foi lido errado
+
+E o chão foi lido errado de novo. O bárbaro errou a curva, o dia inteiro foi um arco, e à
+noite eles estavam exatamente onde começaram, com o sol a pino nas costas de todo mundo e o
+barril descendo do mesmo jeito que desce desde o dia 4.
+> Rumo: Negrum, NH 9 (= Sobrevivência (Deserto) 11 -2), 3d [2,5,5] = 12 → **FALHA por 3**
+> Consequência: o dia está perdido. **0 km** creditados
+> Carreiro: Comam, NH 13 (= pré-definido Cavalgar 15 -2), 3d [3,3,6] = 12 → SUCESSO por 1
+> Água: 140 litros no começo do dia − 80 = **60 litros** (um barril e um décimo)
+> Comida: 28 pessoas-dia − 8 = **20 pessoas-dia** (≈ 5 kg)
+> Andado: **90 km dos 200.** Restam **110 km = 4 dias = 320 litros.** Há **60**
+
+No repouso, dois corpos melhoraram e um não. O templário está em oito de doze e a perna dele
+aguarda os doze inteiros. O ladrão não andou nada: HT 12, tirou 13, um ponto de diferença, e
+amanhã o corpo dele tenta de novo. O trovador levantou de um para dois, o que não o coloca em
+pé de guerra, mas já o tira da lista de coisas que a carroça carrega sem avisar.
+> Cura natural, HT 12: Kaelric 3d [3,5,1] = 9 → SUCESSO por 3 → 7 → **8/12**
+> Cura natural, HT 12: Jah 3d [4,5,4] = 13 → FALHA por 1 → continua **10/12**
+> Cura natural, HT 13: NelsOwned 3d [3,4,6] = 13 → SUCESSO por 0 (exato) → 1 → **2/13**
+> Sem cura: Comam **13/13**, Negrum **12/12**
+
+Lorde William contou os litros batendo no casco, uma vez, duas, e depois ficou com a mão no
+barril sem bater mais. Foi a primeira vez na travessia que ele não fez um cálculo em voz alta.
+Ele só olhou para o oeste, onde não havia nada para ver, e disse ao cocheiro, baixo: que a
+partir de agora cada metro tinha de valer o dia, e que havia duas maneiras de fazer isso — e
+as duas doíam.
+
+*Amanhã, e é a primeira vez que a mesa tem de escolher uma coisa que não é rumo:*
+**Beber do corpo que puxa a carroça** (cada animal morto tira 10 litros da despesa, rende
+alguns litros no estômago e carne para um dia e meio), **ou racionar até o fim** (2,25 litros
+por pessoa por dia, e cada dia assim custa 1 de Fadiga e 1 de PV a todo mundo, sem recuperação
+possível com o corpo andando).
+
+*E tem o ovo.*

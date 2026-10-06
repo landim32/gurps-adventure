@@ -1,0 +1,6 @@
+*A PERNA DO COMAM*
+
+Comam sente o fogo subir pela coxa, mas a dor passa por ele como vento por uma tenda: só o corpo avisa, caído, que a perna não responde. Quando a vertigem afasta, ele tateia a ferida com a mão aberta. O sangue corre, o músculo está rasgado, mas o osso aguenta. Ele sorri, claro, e promete um nome novo à perna.
+> Lesão incapacitante da perna (MB, cap. 12): teste de HT para saber se o aleijão é temporário
+> HT 13: 3d [2, 4, 1] = *7* → sucesso por 6
+> *Lesão TEMPORÁRIA*: a perna fica incapacitada (coxo) até Comam recuperar todos os pontos de vida perdidos; então estará curada.

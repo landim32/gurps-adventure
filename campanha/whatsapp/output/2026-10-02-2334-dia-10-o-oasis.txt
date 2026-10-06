@@ -1,0 +1,50 @@
+*DIA 10 — O LUGAR ONDE O DESERTO ERROU*
+
+O abutre desta vez não estava em cima de nada. Estava em volta de alguma coisa verde, e o
+bárbaro, que tinha passado seis dias lendo errado o chão inteiro, viu o pássaro e não disse
+nada — foram os cavalos que disseram, os dois de tiro esticando o pescoço para o lado onde não
+havia nada para ver, e o cocheiro sentiu o puxão na rédea antes de qualquer um de nós.
+> Encontro do dia: **4** → linha 4 da tabela do dia: **OÁSIS FORA DO MAPA**
+> Água: os seis barris cheios até a boca = **300 litros** a bordo
+> Comida do dia: **não tocada** — 15 pessoas-dia continuam na carroça
+
+Não é grande. É uma palma caída, um espelho de água do tamanho de duas carroças, lama na beira
+com pegada de bicho e um silêncio de coisa que ninguém vem procurar. Encheram. O som de água
+entrando em barril é a primeira coisa boa que esta carroça ouve desde Wallace, e o trovador, de
+joelho na caçamba com o braço que sobra, cantou enquanto trabalhava, desafinado de sede e
+felicidade.
+
+E o dia, como todos os dias agora, terminou onde começou. O bárbaro errou de novo.
+> Rumo: Negrum, NH 9 (= Sobrevivência (Deserto) 11 -2), 3d [4,5,2] = 11 → **FALHA por 2**
+> Consequência: sexto dia perdido em sete. **0 km** creditados
+> Carreiro: Comam, NH 13 (= pré-definido Cavalgar 15 -2), 3d [1,6,3] = 10 → SUCESSO por 3
+
+Ninguém gritou com ele, e isso é pior. O templário, que não anda, riu com a boca fechada olhando
+para o água. O cocheiro pôs os barris no chão, um por um, contando com o pé. O Lorde William
+sentou na sombra, e fez o que ele faz quando a conta não fecha: olhou o número e não disse o
+número.
+
+No repouso, e com a barriga cheia de água limpa, quatro dos cinco corpos subiram.
+> Cura natural, HT 13: Comam 3d [6,1,4] = 11 → SUCESSO por 2 → **13/13**
+> Cura natural, HT 12: Kaelric 3d [2,1,4] = 7 → SUCESSO por 5 → **9/12** (a perna aguarda os 12)
+> Cura natural, HT 12: Negrum 3d [4,4,3] = 11 → SUCESSO por 1 → **12/12**
+> Cura natural, HT 13: NelsOwned 3d [5,3,1] = 9 → SUCESSO por 4 → **3/13**
+> Cura natural, HT 12: Jah 3d [6,5,5] = 16 → **FALHA por 4, terceira noite seguida** → **9/12**
+> Sem sede hoje: ninguém perde Fadiga nem PV
+
+E aqui está o que a mesa precisa saber, dito com o número na mão e sem rodeio: **a água não era
+o problema.** Trezentos litros é o máximo que esta carroça carrega, e ainda assim não chega.
+Com um guia de 9, cada dia rende em média **onze quilômetros e um quarto** e custa **vinte e
+oito litros por quilômetro efetivo**. Os cento e dez quilômetros que faltam pedem **nove dias de
+tentativa** e **setecentos e trinta e cinco litros**. Não existe barril que pague isso, não
+existe cavalo que se beba que chegue perto.
+
+O deserto parou de estar contra eles. O deserto está apenas onde sempre esteve; o que falta, e
+só isso, é **quem lê o chão.**
+> Guia pago — o plano resolve o rumo com guia, e a caravana não vende o dela
+> Andar de noite com lua ou estrelas — o plano permite e adianta dias
+> Abandonar a carroça — o templário não anda, e o cavalo dele é o que ele tem
+> Esperar aqui, na sombra, que alguém passe
+
+*Amanhã a mesa escolhe uma destas quatro coisas. Não escolha o rumo: escolha o que fazer com
+o fato de que o rumo não está nesta carroça.*
