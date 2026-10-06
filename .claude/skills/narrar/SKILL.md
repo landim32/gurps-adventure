@@ -58,9 +58,9 @@ Esta é a parte da skill que mais importa. O plano é escrito para o Mestre.
   Furtividade". O Mestre pede o teste em voz alta, na hora; o texto narra o *mundo*.
   **Isto vale para a descrição de cena, não para o resultado de uma jogada.** Quando o
   texto conta o desfecho de um golpe, tiro, mágica ou teste que foi rolado, a prosa fica
-  limpa como aqui manda, e **logo abaixo de cada parágrafo** entram as linhas da conta
-  (NH, modificadores com motivo, dado, defesa, dano, testes de HT, crítico), com `> ` na
-  frente — ver `CLAUDE.md`, *A narração mostra a conta de cada jogada*.
+  limpa como aqui manda, e **logo abaixo de cada parágrafo** entram as linhas da conta, com
+  `> ` na frente — o que vai em cada linha é de `CLAUDE.md` (*A narração mostra a conta de
+  cada jogada*), e a forma do bloco está em *Formatação para WhatsApp*, abaixo.
 - **Nome de mecânica no lugar de coisa.** Não é "um Morto-Vivo 1 entra": é *"a porta se
   abre e um homem entra cambaleando — você reconhece o rosto"*.
 - **O que vem nos próximos capítulos.** O plano inteiro está aberto para você; a mesa está
@@ -79,8 +79,9 @@ Segunda pessoa do plural — **"vocês"** —, presente. É a voz natural da mes
 
 | | |
 |---|---|
-| Tamanho | **900 a 1.500 caracteres.** Passou de 2.000, corte |
+| Tamanho | **900 a 1.500 caracteres** de **prosa**. As linhas de conta (o `> ` de cada jogada) não entram nessa régua nem no corte de 2.000 |
 | Parágrafos | 2 a 4, de 2 a 4 linhas. Bloco de texto no celular ninguém lê |
+| A cena rolou dado? | Então a narração **não é texto puro**: o bloco leva a conta de cada ação, como manda *Formatação para WhatsApp* logo abaixo |
 | Sentidos | Ao menos dois além da visão — cheiro e som resolvem quase toda cena |
 | Concreto | Três detalhes específicos valem mais que dez adjetivos |
 | Fecho | **Termine devolvendo o turno**: "O que vocês fazem?" |
@@ -148,6 +149,52 @@ sabe — pode ser citado sem apresentar. O resto entra em cena pela primeira vez
 
 ### Formatação para WhatsApp
 
+**Um bloco só, a cena inteira.** A narração vai como **uma mensagem**, com a cena na ordem
+em que aconteceu e o fecho no fim — **não** um bloco por golpe, por teste ou por personagem.
+Quem quebra em blocos separados é a cena longa (seção 4), não a jogada. Ação isolada **fora
+de combate** é a cena inteira dela: um bloco, com a conta daquela rolagem embaixo do
+parágrafo (`acao`, §3 *Narrar o desfecho*).
+
+O bloco tem esta cara, e é **a mesma do `processar-turno`** (a regra é de `CLAUDE.md`,
+*A narração mostra a conta de cada jogada* — não se reescreve aqui):
+
+```
+*FIM DO DIA 1 — A TRAVESSIA*
+
+O Comam ficou com as rédeas desde antes do sol, e não soltou até agora. A areia afunda
+onde o casco acha, ele encurtou a rédea e passou.
+> Carreiro: pré-definido Cavalgar 15 -2 = *13*
+> 3d [2, 2, 2] = *6* → sucesso por 7 — *decisivo*
+
+Trinta quilômetros, e nenhum volume virou na caçamba.
+```
+
+- **Título do bloco** em maiúsculas, entre asteriscos de um lado só: `*FIM DO DIA 1 — A TRAVESSIA*`.
+- **Cada ação rolada** é um parágrafo de prosa e, **logo abaixo dele**, as linhas da conta
+  daquela ação, cada uma começando com `> `, na ordem em que o script imprimiu: NH de
+  partida e de onde veio, cada bônus e redutor com o motivo, o dado, a margem, a defesa do
+  alvo, dano, RD, teto do local, teste de HT, o que a tabela de crítico mandou.
+- **Uma linha = uma jogada.** Nada de emendar dois testes com `·` na mesma linha: o celular
+  quebra onde quer e a mesa perde o resto da conta. Formato, nesta ordem:
+  `<o que> <quem>: <perícia ou atributo> NH <n>, 3d [a,b,c] = <soma> → **SUCESSO por X**`
+  (ou `**FALHA por X**`, `**SUCESSO CRÍTICO**`, `**FALHA CRÍTICA por X**`). O NH já sai com
+  os redutores dentro, ou a linha diz `NH 9 (= 11 -2)` — nunca se deixa a mesa deduzindo de
+  quanto era o alvo. **Conseqüência é outra linha** (`Kaelric: 3 → 4/12`, `DP 3`,
+  `Deslocamento 6 → 5`), não o rabicho da primeira. Preço segue igual: uma peça por linha,
+  `tabela → com ágio`, e a conta de carga em linha própria.
+- **Repasse as linhas como o script as imprimiu.** Não resuma em "acertou o braço", não
+  reordene, não jogue a conta para o fim do bloco. Rolagem que não passou por script
+  (o `roll` solto, um teste arbitrado) ganha linha escrita no mesmo formato.
+- **Ação sem dado não tem conta.** Andar, observar, conversar, preparar: só prosa.
+- **Segredo do Mestre fica fora.** Reação rolada para o NPC, verificação resistida, o que
+  havia debaixo da capa: nada disso vira linha `> `, nem no bloco, nem na linha ao Mestre.
+- O que é descrição de cena continua sem número nenhum — a conta entra **porque houve
+  jogada**, não para enfeitar.
+- **Ao arquivar (`narrar.py gravar`), a linha do título fica no texto.** O cabeçalho
+  `### Narração N — data` do arquivo já diz qual é a narração, e ainda assim o bloco
+  arquivado começa com `*FIM DO DIA 1 — A TRAVESSIA*`: o que se arquiva é **a mensagem que
+  foi lida**, não um resumo dela. Não "limpe" a linha por achar duplicado.
+
 O WhatsApp não entende Markdown. Ele entende:
 
 | Quer | Escreva |
@@ -156,11 +203,16 @@ O WhatsApp não entende Markdown. Ele entende:
 | itálico | `_assim_` — um sublinhado só |
 | riscado | `~assim~` |
 
-**Não use:** `##` títulos, `**duplo asterisco**`, tabelas, listas com `-`, blocos de
-código, links markdown. Tudo isso vira lixo na tela do celular.
+**Não use:** `##` títulos, `**duplo asterisco**`, tabelas Markdown, listas com `-`, links
+markdown, bloco de código **dentro da mensagem**. Tudo isso vira lixo na tela do celular.
+As linhas `> ` da conta são a única marca herdada do Markdown que fica: o celular não as
+renderiza, mas elas dizem visualmente "isto é a conta do parágrafo de cima", e é assim que
+a mesa já lê o bloco da rodada.
 
 Use o **negrito com parcimônia** — uma ou duas coisas por narração, no que a mesa precisa
-não perder. Itálico serve bem para fala ouvida de longe ou para um pensamento.
+não perder. Nas linhas de conta, o negrito vai **no número que decide** (`*11*`, `*6*`) e no
+que a tabela mandou (`*Braço INCAPACITADO*`), porque é ali que o jogador confere. Itálico
+serve bem para fala ouvida de longe ou para um pensamento.
 
 Emoji: **não**, salvo se a mesa já usa esse tom.
 
@@ -198,18 +250,44 @@ Grava na seção **Narração** do `campanha/NN-capitulo/README.md`, numerada e 
 **registra um acontecimento** logo abaixo — assim o log da campanha mostra o que a mesa
 ouviu e quando.
 
+**E guarda a cópia colável em `campanha/whatsapp/output/` sozinho.** O mesmo `gravar`
+escreve o bloco num `.txt`, para mandar no grupo sem recortar do README:
+
+```
+campanha/whatsapp/output/2026-10-02-0920-fim-do-dia-1-a-travessia.txt
+└── AAAA-MM-DD-HHMM-<slug do título da narração>.txt
+```
+
+- **Conteúdo:** exatamente o texto passado ao `gravar` — o bloco de *Formatação para
+  WhatsApp* (§3): o `*TÍTULO EM MAIÚSCULAS*`, a prosa e as linhas `> ` da conta. Por isso o
+  texto passado **não leva** o `### Narração N`, a linha de resumo em itálico, o
+  `== RECAP ==` nem cercas de código.
+- **Nome:** a data e a hora do arquivamento, e o título da primeira linha (`*…*`) em
+  minúsculas, sem acento e com hífen. Sem linha de título, o nome sai do `--resumo`.
+- **É cópia, não fonte.** O arquivo do capítulo manda; se os dois divergirem, o README está
+  certo. Não use esta pasta para o que *chega* do grupo — `campanha/whatsapp/*.txt` na raiz
+  da pasta é importação a processar, e o `README.md` de lá diz isso.
+- Cada `gravar` é uma narração nova (Narração N+1, cópia nova). Não há modo de reescrever.
+
+**E mostra o bloco na tela.** Depois de gravar, o script imprime o texto inteiro entre as
+linhas de `PARA O WHATSAPP`. **Repasse esse bloco ao usuário na resposta, dentro de um
+bloco de código** — a narração tem de aparecer na conversa, não só no arquivo.
+
 **Tudo do capítulo mora num arquivo só.** O README da pasta de jogo tem, em ordem: o que a
 cena virou na mesa, a **Narração** (o que os jogadores ouviram, palavra por palavra) e os
 **Acontecimentos** (o log de uma linha). Abrir um arquivo dá o capítulo inteiro — não é
-preciso caçar a narração noutro lugar, e no fim da campanha é esse arquivo que se lê.
+preciso caçar a narração noutro lugar, e no fim da campanha é esse arquivo que se lê. A
+cópia de `whatsapp/output/` não fere isso: ela é **o envelope do envio**, regenerável e sem
+autoridade; quem se quer ler, lê o capítulo.
 
 Narração nova entra **no fim da seção**, na ordem de leitura. A numeração continua sozinha.
 
 `--texto` serve para narração curta; `--arquivo` evita brigar com aspas e quebras de linha
 no terminal, e é o caminho normal. Grave o texto num `.txt` temporário e aponte para ele.
 
-`--sem-acontecimento` pula o registro, para quando você reescreveu algo que já tinha sido
-lido.
+`--sem-acontecimento` pula a linha no log de acontecimentos (a narração e a cópia saem do
+mesmo jeito) — para quando aquela narração já tem linha no log, como um texto refeito
+depois de lido.
 
 O script avisa se o texto passar de 4.000 caracteres, que é onde o WhatsApp começa a
 cortar.

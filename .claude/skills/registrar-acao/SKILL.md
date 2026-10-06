@@ -5,7 +5,7 @@ description: >
   acontecimento do capítulo, as anotações de NPC, do grupo e do lugar, o dinheiro na
   bolsa, o corpo em saúde, o arquivo no roll6 e a narração no log da mesa. Recebe o
   "ato resolvido" em JSON de qualquer skill de resolução (acao, atacar, atacar-distancia,
-  disputa-nh, arbitrar-ferimento, processar-turno), confere o que veio incompleto, e
+  disputa-nh, fintar, arbitrar-ferimento, processar-turno), confere o que veio incompleto, e
   aplica. Nenhuma outra skill toca arquivo depois de rolar dado. Use when the user asks
   "/registrar-acao", ou quando uma ação foi resolvida e precisa ficar registrada.
 ---
@@ -16,7 +16,7 @@ Uma jogada resolvida gera quatro tipos de consequência, e elas costumam ser esq
 ordem errada. Esta skill é o único ponto por onde alguma delas vira arquivo.
 
 **Regra de casa, dura:** quem decide regra e quem rola dado **não escreve**. `acao`,
-`atacar`, `atacar-distancia`, `teste-nh`, `disputa-nh`, `reacao`, `iniciativa`,
+`atacar`, `atacar-distancia`, `fintar`, `teste-nh`, `disputa-nh`, `reacao`, `iniciativa`,
 `causar-dano`, `calcular-alcance`, `arbitrar-ferimento` e `roll` devolvem resultado. Esta
 skill recebe o resultado e grava. Foi assim que se evitou o turno em que oito personagens
 narraram oito vezes e gravaram oito `process_turn`.

@@ -8,8 +8,9 @@ Junta o contexto do capitulo atual e arquiva a narracao gerada.
     narrar.py gravar --arquivo narracao.txt --resumo "Descreveu a taberna cheia"
 
 Escrever a narracao nao esta aqui — isso e trabalho de prosa. O script cuida do que da
-errado a mao: achar os arquivos certos do capitulo, numerar, carimbar a hora, e nao
-esquecer de registrar no historico da campanha.
+errado a mao: achar os arquivos certos do capitulo, numerar, carimbar a hora, guardar a
+copia colavel em campanha/whatsapp/output/, mostrar o bloco na tela e nao esquecer de
+registrar no historico da campanha.
 """
 import argparse
 import importlib.util
@@ -58,6 +59,22 @@ def entregar(ato):
     return r.returncode == 0, "\n        ".join(linhas) or (r.stderr or "").strip()
 
 
+def gravar_copia(raiz, texto, quando, reserva):
+    """Copia colável da narração em campanha/whatsapp/output/AAAA-MM-DD-HHMM-<titulo>.txt.
+
+    O nome sai da linha de título do bloco (`*DIA 11 — AREIA*`); sem ela, do resumo. É
+    envelope de envio, não fonte: o README do capítulo manda.
+    """
+    primeira = texto.splitlines()[0].strip() if texto else ""
+    m = re.fullmatch(r"\*([^*]+)\*", primeira)
+    nome = ctx.slug(m.group(1) if m else reserva)[:60].strip("-") or "narracao"
+    pasta = raiz / "campanha" / "whatsapp" / "output"
+    pasta.mkdir(parents=True, exist_ok=True)
+    f = pasta / f"{quando.strftime('%Y-%m-%d-%H%M')}-{nome}.txt"
+    f.write_text(texto + "\n", encoding="utf-8")
+    return f
+
+
 def exige_capitulo(raiz):
     est = estado(raiz)
     if not est.get("ativa"):
@@ -75,6 +92,8 @@ def arquivos_de_contexto(raiz, est):
     plano = Path(est["capitulo_atual_plano"]) if est.get("capitulo_atual_plano") else None
     camp = raiz / "campanha"
     itens = [
+        ("elenco", camp / "CONTEXTO.md",
+         "todos os personagens: traços, desvantagens e peculiaridades que a cena tem de respeitar"),
         ("campanha", camp / "README.md", "quem são os personagens, a premissa"),
         ("cenario", camp / "plano" / "README.md", "Descrição do Cenário — o que os PJs sabem"),
         ("plano", (plano / "README.md") if plano else None, "a cena como foi planejada"),
@@ -129,7 +148,8 @@ def cmd_gravar(args):
     doc = destino.read_text(encoding="utf-8")
 
     n = len(re.findall(r"^### Narração \d+ ", doc, re.M)) + 1
-    cabeca = f"### Narração {n} — {datetime.now().strftime('%d/%m/%Y %H:%M')}"
+    agora = datetime.now()
+    cabeca = f"### Narração {n} — {agora.strftime('%d/%m/%Y %H:%M')}"
     bloco = cabeca + "\n\n" + (f"_{args.resumo}_\n\n" if args.resumo else "") + texto
 
     if "\n## Narração" in doc:
@@ -152,10 +172,18 @@ def cmd_gravar(args):
             doc = doc.rstrip() + "\n" + secao
     destino.write_text(doc, encoding="utf-8")
 
+    copia = gravar_copia(raiz, texto, agora, args.resumo or f"narracao {n}")
+
     print(f"Narração {n} gravada em: {destino} (seção Narração)")
+    print(f"  cópia para o grupo: {copia.relative_to(raiz).as_posix()}")
     print(f"  {len(texto)} caracteres, {len(texto.split(chr(10) + chr(10)))} parágrafo(s)")
     if len(texto) > 4000:
         print("  AVISO: passa de 4000 caracteres — o WhatsApp corta perto de 4096.")
+    print("\n" + "-" * 66)
+    print("PARA O WHATSAPP (copie o bloco abaixo):")
+    print("-" * 66)
+    print(texto)
+    print("-" * 66)
     if not args.sem_acontecimento:
         resumo = args.resumo or f"Narração {n} lida aos jogadores."
         ok, saida = entregar({"resumo": f"[narração {n}] {resumo}"})

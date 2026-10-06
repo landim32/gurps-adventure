@@ -7,10 +7,16 @@ e gera uma imagem final (JPEG/PNG), simulando preenchimento a mao.
 Uso:
     python preencher_grimorio.py --data personagem.json --template grimorio.jpg --output saida.jpg
 
-Le a lista `magias` do JSON (esquema em SKILL.md, secao "Esquema do JSON"). Se o
-personagem nao tiver magias, nao gera nada e avisa.
+Le a lista `magias` do JSON e, para o lutador de artes marciais, as manobras (as entradas
+de `pericias` com categoria "Manobras"), ambas descritas em SKILL.md, secao "Esquema do
+JSON". Quem so tem magias ganha o grimorio de magias; quem so tem manobras ganha o
+grimorio de manobras no mesmo arquivo; quem tem as duas ganha o de magias em <saida>.jpg e o
+de manobras em <saida>-manobras.jpg. Sem nenhuma das duas, nao gera nada e avisa.
 
-Cabem 45 magias por pagina. Havendo mais, sao geradas paginas extras com sufixo
+No grimorio de manobras os cabecalhos impressos (Tempo, Duracao, Custos) sao cobertos e
+reescritos: Uso, Dano, Mod., Alcance. A grade e a mesma.
+
+Cabem 45 linhas por pagina. Havendo mais, sao geradas paginas extras com sufixo
 numerico (saida.jpg, saida-2.jpg, ...).
 
 Notas de implementacao:
@@ -52,6 +58,55 @@ COLUNAS = {
 }
 
 
+# ---------------------------------------------------------------------------
+# Grimorio de manobras: os cabecalhos da folha sao de magia. Cobre-se a faixa de
+# cabecalho (acima da primeira regra, y=325) e reescreve-se com os da manobra.
+# ---------------------------------------------------------------------------
+CABECALHO_BOX = (150, 228, 2327, 316)   # x0, y0, x1, y1 — so o texto, sem as regras
+CABECALHO_Y = 306                       # baseline dos novos rotulos
+CABECALHO = {                           # campo: texto
+    "nome": "Manobra (perícia que a controla)",
+    "nh": "NH",
+    "tempo": "Uso",
+    "duracao": "Dano",
+    "custo_fazer": "Mod. ataque",
+    "custo_manter": "Alcance",
+    "obs": "Efeito, em resumo",
+    "pag": "Pág.",
+}
+TITULAR_MANOBRAS = "{nome} — manobras"
+
+
+def manobras_de(data):
+    """As manobras do personagem: entradas de `pericias` com categoria «Manobras», na
+    ordem em que estao, em linhas prontas para as colunas do formulario."""
+    saida = []
+    for per in data.get("pericias") or []:
+        if (per.get("categoria") or "").strip().lower() != "manobras":
+            continue
+        nome = per.get("nome") or ""
+        controle = (per.get("tipo") or "").split("/")[0].strip()
+        saida.append({
+            "nome": nome,
+            # a perícia que controla vira «(Judô)», salvo se o nome já a traz: «Finta (Katana)»
+            "classe": "" if "(" in nome else controle,
+            "nh": per.get("nh"),
+            "tempo": per.get("uso"),
+            "duracao": per.get("dano"),
+            "custo_fazer": per.get("mod"),
+            "custo_manter": per.get("alcance"),
+            "obs": per.get("obs"),
+            "pag": per.get("pag"),
+            "categoria": controle,            # uma arte por bloco, com linha em branco
+        })
+    # Uma arte por bloco, na ordem em que cada uma aparece pela primeira vez; dentro do
+    # bloco, a ordem original (que e a da ficha, do NH maior para o menor).
+    ordem = {}
+    for m in saida:
+        ordem.setdefault(m["categoria"], len(ordem))
+    return sorted(saida, key=lambda m: ordem[m["categoria"]])
+
+
 def montar_linhas(magias):
     """Ordena as magias e insere uma linha em branco a cada troca de categoria."""
     linhas = []
@@ -87,9 +142,15 @@ def rotulo_magia(m):
     return f"{nome} ({classe})" if classe else nome
 
 
-def desenhar_pagina(template, titular, linhas):
+def desenhar_pagina(template, titular, linhas, manobras=False):
     img = Image.open(template).convert("RGB")
     draw = ImageDraw.Draw(img)
+    if manobras:
+        draw.rectangle(CABECALHO_BOX, fill=(255, 255, 255))
+        for campo, texto in CABECALHO.items():
+            x, size, align, largura = COLUNAS[campo]
+            draw_field(draw, (x, CABECALHO_Y, 26, align, largura), texto)
+        titular = TITULAR_MANOBRAS.format(nome=titular)
     draw_field(draw, TITULAR, titular)
 
     for i, m in enumerate(linhas[: LINHAS["max_rows"]]):
@@ -119,21 +180,32 @@ def main():
 
     data = json.loads(Path(args.data).read_text(encoding="utf-8"))
     magias = data.get("magias") or []
-    if not magias:
-        print("Personagem sem magias: grimorio nao gerado.")
+    manobras = manobras_de(data)
+    if not magias and not manobras:
+        print("Personagem sem magias nem manobras: grimorio nao gerado.")
         return
 
     titular = data.get("nome", "")
-    paginas = paginar(montar_linhas(magias), LINHAS["max_rows"])
-
     out = Path(args.output)
-    for n, linhas in enumerate(paginas, start=1):
-        destino = out if n == 1 else out.with_name(f"{out.stem}-{n}{out.suffix}")
-        salvar(desenhar_pagina(args.template, titular, linhas), destino)
-        print(f"Grimorio gerado em: {destino}")
 
-    if len(paginas) > 1:
-        print(f"{len(magias)} magias em {len(paginas)} paginas.")
+    # (linhas do grupo, e-manobras?, arquivo base)
+    grupos = []
+    if magias:
+        grupos.append((magias, False, out))
+    if manobras:
+        # quem so tem manobras usa o proprio arquivo do grimorio; com magias tambem, vai ao lado
+        base = out if not magias else out.with_name(f"{out.stem}-manobras{out.suffix}")
+        grupos.append((manobras, True, base))
+
+    for itens, eh_manobra, base in grupos:
+        paginas = paginar(montar_linhas(itens), LINHAS["max_rows"])
+        for n, linhas in enumerate(paginas, start=1):
+            destino = base if n == 1 else base.with_name(f"{base.stem}-{n}{base.suffix}")
+            salvar(desenhar_pagina(args.template, titular, linhas, eh_manobra), destino)
+            print(f"Grimorio {'de manobras ' if eh_manobra else ''}gerado em: {destino}")
+        if len(paginas) > 1:
+            print(f"{len(itens)} {'manobras' if eh_manobra else 'magias'} em "
+                  f"{len(paginas)} paginas.")
 
 
 if __name__ == "__main__":

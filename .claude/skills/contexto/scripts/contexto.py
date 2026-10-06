@@ -121,7 +121,8 @@ def achar_personagem(quem, raiz=None):
         raise SystemExit(f"Nenhuma ficha em {raiz / PERSONAGENS}.")
     exatos, parciais = [], []
     for pasta, d in todas:
-        campos = [simples(d.get("jogador")), simples(d.get("nome")), simples(pasta.name)]
+        campos = [simples(d.get("jogador")), simples(d.get("nome")), simples(d.get("apelido")),
+                  simples(pasta.name)]
         if alvo in campos:
             exatos.append((pasta, d))
         elif any(c and (alvo in c or c.startswith(alvo)) for c in campos):
@@ -302,6 +303,9 @@ def arquivos_de_contexto(est=None, pasta_ficha=None, raiz=None):
     jogo = Path(est["capitulo_atual_pasta"]) if est.get("capitulo_atual_pasta") else None
     plano = Path(est["capitulo_atual_plano"]) if est.get("capitulo_atual_plano") else None
     itens = [
+        ("elenco", camp / "CONTEXTO.md",
+         "o que influencia a cena em TODOS os personagens: vantagens, desvantagens, "
+         "peculiaridades, línguas — confira antes de decidir o que alguém faz ou sofre"),
         ("ficha", (pasta_ficha / "personagem.md") if pasta_ficha else None,
          "a ficha de quem age: perícias, NH, equipamento, desvantagens"),
         ("mundo", camp / "mundo.md",

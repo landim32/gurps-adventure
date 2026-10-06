@@ -4,7 +4,7 @@ description: >
   Resolve a ação que um jogador declarou em texto livre — "vou tentar furtar a bolsa do
   mercador na confusão", "subo no telhado", "peço a bebida do guarda e puxo conversa".
   Lê a ficha de quem age e o estado da cena, decide o que a ação exige pelas regras de
-  GURPS 3ª Edição, chama as skills que resolvem (teste-nh, disputa-nh, atacar, reacao,
+  GURPS 3ª Edição, chama as skills que resolvem (teste-nh, disputa-nh, atacar, fintar, reacao,
   roll), narra o desfecho para a mesa e registra tudo: acontecimento no capítulo,
   mudança anotada nos NPCs, no grupo e no lugar, e o dinheiro lançado na bolsa da
   campanha. Não mexe na ficha do personagem — só quando o usuário pedir.
@@ -56,6 +56,7 @@ Esta é a parte que a skill não pode automatizar, e é o trabalho de verdade. A
 | Algo difícil contra o mundo, sem ninguém resistindo — escalar, saltar, decorar, lembrar | Teste de perícia ou atributo | `teste-nh` |
 | Alguém do outro lado resiste, percebe ou disputa — furtar, esconder-se, enganar, braço-de-ferro | **Disputa**, dos dois lados | `disputa-nh` |
 | Violência declarada | Troca de golpes inteira | `atacar` (ou `atacar-distancia`, se for tiro) |
+| Simular o golpe para abrir a defesa do inimigo — "finto o guarda", "avanço e finto" | Finta: Disputa Rápida e o redutor da defesa dele no próximo golpe | `fintar` |
 | Primeira impressão com um NPC que ainda não tem reação rolada | Teste de reação | `reacao` |
 | Começou luta e ninguém sabe quem age primeiro | Surpresa e ordem | `iniciativa` |
 | Alguém se move no mapa da cena | Posição nova | posição e frente: consulte `list_map_tokens`; distância e lado: `calcular-alcance`; mover é com o `processar-turno` |
@@ -218,7 +219,7 @@ e o motivo.
 
 ## roll6 — a mesa virtual
 
-As skills que esta chama (`roll`, `teste-nh`, `disputa-nh`, `atacar`, `atacar-distancia`,
+As skills que esta chama (`roll`, `teste-nh`, `disputa-nh`, `atacar`, `fintar`, `atacar-distancia`,
 `iniciativa`, `reacao`) não gravam no roll6 — e **esta também não grava**. A `acao`
 resolve, decide o que mudou no estado da mesa e **entrega o ato à `registrar-acao`**, que
 registra no repositório e prepara as chamadas do roll6. Quem altera o MCP é a

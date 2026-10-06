@@ -1,0 +1,16 @@
+{
+  "largura": 736,
+  "altura": 552,
+  "paredes": [
+    {"tipo": "retangulo", "x": 0,   "y": 0,   "w": 736, "h": 24},
+    {"tipo": "retangulo", "x": 0,   "y": 0,   "w": 24,  "h": 552},
+    {"tipo": "retangulo", "x": 712, "y": 0,   "w": 24,  "h": 552},
+    {"tipo": "retangulo", "x": 0,   "y": 505, "w": 736, "h": 47},
+    {"tipo": "retangulo", "x": 148, "y": 476, "w": 95,  "h": 30},
+    {"tipo": "retangulo", "x": 590, "y": 388, "w": 30,  "h": 118},
+    {"tipo": "retangulo", "x": 685, "y": 380, "w": 27,  "h": 126}
+  ],
+  "aberturas": [
+    {"tipo": "retangulo", "x": 360, "y": 505, "w": 110, "h": 33}
+  ]
+}

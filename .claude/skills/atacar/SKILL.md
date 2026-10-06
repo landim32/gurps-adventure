@@ -116,7 +116,7 @@ NPC sem peça listada, `--alvo-escudo-dp`.
 | `--alvo-esquiva` / `--alvo-aparar` / `--alvo-bloqueio` | A defesa ativa |
 | `--alvo-dp` / `--alvo-rd` | Defesa passiva e RD naquele local |
 | `--alvo-defesa` | Qual das três ele usa, ou `nenhuma` |
-| `--alvo-defesa-mod` | Ataque lateral (-2), finta, o que for |
+| `--alvo-defesa-mod` | Ataque lateral (-2), a **finta** (`-N` que a skill `fintar` devolve), o que for |
 | `--alvo-defesa-mod-motivo "..."` | O motivo, para a conta da mesa: `"atordoado"`, `"ataque lateral"` |
 | `--alvo-manobra` | `defesa-total`, `ataque-total` (sem defesa), `atordoado` (-4), `surpreendido` |
 | `--recuar` | **+3** em qualquer defesa, uma vez por rodada |
@@ -131,7 +131,7 @@ NPC sem peça listada, `--alvo-escudo-dp`.
 | `ataque-total-bonus` | **+4 no NH**, e **nenhuma defesa ativa** até o próximo turno |
 | `ataque-total-dano` | NH normal, **+2 no dano**, sem defesa ativa |
 | `ataque-total-duplo` | Dois ataques — **rode o comando duas vezes**. Só com duas armas preparadas |
-| `ataque-total-finta` | A finta é Disputa Rápida: resolva na `disputa-nh` e traga a margem como `--alvo-defesa-mod` negativo |
+| `ataque-total-finta` | A finta é Disputa Rápida: resolva na skill **`fintar`** (`--manobra ataque-total`) e traga o redutor como `--alvo-defesa-mod` negativo |
 | `aguardar` | Ataque normal quando o inimigo entra no alcance |
 | `movimento-e-ataque` | Golpe de molinete de quem gastou a rodada andando |
 | `precipitado` | -4, ataque com a mão inábil |
@@ -170,7 +170,7 @@ Ela resolve **o golpe**, não o combate inteiro. Continua com você, ou com outr
 | O quê | Onde |
 |---|---|
 | Quem age primeiro, surpresa | skill **`iniciativa`** (e a ordem de turnos é fixa, por Deslocamento) |
-| Finta | skill **`disputa-nh`** — a margem vira `--alvo-defesa-mod` negativo |
+| Finta | skill **`fintar`** — o redutor vira `--alvo-defesa-mod` negativo |
 | Onde cada um está, alcance, hexágono frontal ou lateral | MCP: **`list_map_tokens`** (posição e frente de cada peça); `get_map` diz o tamanho da grade; distância e lado saem de **`calcular-alcance`** |
 | Um teste solto no meio da luta | skill **`teste-nh`** |
 | **Tiro, arremesso, qualquer arma de longo alcance** | skill **`atacar-distancia`** |

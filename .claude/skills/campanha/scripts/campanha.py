@@ -312,10 +312,123 @@ O critério é este: se a ficha for consultada em **três ou mais capítulos**, 
 _(a preencher)_
 """, encoding="utf-8")
 
+    f, fichas = escrever_contexto(r, p)
     print(f"Campanha criada : {args.nome}")
     print(f"  {p/'README.md'}")
+    print(f"  {f}  ({len(fichas)} personagem(ns))")
     print(f"  {p/'plano'}/ ")
     print("Agora escreva a Descrição do Cenário e os capítulos do plano.")
+
+
+# ------------------------------------------------ CONTEXTO.md (o elenco, todo de uma vez)
+
+CONTEXTO = "CONTEXTO.md"
+
+
+def _fichas_do_elenco(r):
+    """[(pasta, dados)] de cada personagem em personagens/, em ordem alfabetica do nome.
+
+    Ficha com `"fora_da_campanha": true` no JSON fica de fora: existe, mas não está na mesa."""
+    base = r / "personagens"
+    fora = []
+    if base.is_dir():
+        for pasta in sorted(x for x in base.glob("*") if x.is_dir()):
+            f = pasta / "personagem.json"
+            if not f.is_file():
+                continue
+            try:
+                dados = json.loads(f.read_text(encoding="utf-8"))
+            except Exception:
+                continue
+            if dados.get("fora_da_campanha"):
+                continue  # ficha guardada, mas ainda não está na mesa
+            fora.append((pasta, dados))
+    return sorted(fora, key=lambda x: slug(x[1].get("nome") or x[0].name))
+
+
+def _traco(item):
+    """'Nome (+15)' e, se a ficha traz, '— lembrete'. Aceita string ou dict."""
+    if isinstance(item, str):
+        return item
+    nome = item.get("nome") or "?"
+    custo = item.get("custo")
+    txt = nome + (f" ({custo:+g})" if isinstance(custo, (int, float)) and custo else "")
+    if item.get("lembrete"):
+        txt += f" — {item['lembrete']}"
+    return txt
+
+
+def _bloco_personagem(pasta, d):
+    """So o que influencia a cena: quem e, como e visto, traços, idiomas e magia.
+
+    Atributos, perícias, manobras e equipamento ficam de fora de proposito: os scripts os
+    leem da ficha a cada jogada (`contexto`), e o equipamento muda na campanha."""
+    vd = d.get("vantagens_desvantagens") or []
+    vant = [_traco(i) for i in vd if not (isinstance(i, dict) and (i.get("custo") or 0) < 0)]
+    desv = [_traco(i) for i in vd if isinstance(i, dict) and (i.get("custo") or 0) < 0]
+    pec = [_traco(i) for i in d.get("peculiaridades") or []]
+    meta = [x for x in (d.get("jogador"), d.get("raca") or "Humano", d.get("arquetipo"),
+                        f"{d.get('idade')} anos" if d.get("idade") else None) if x]
+
+    titulo = d.get("nome") or pasta.name
+    if d.get("apelido"):
+        titulo += f", o {d['apelido']}"
+    linhas = [f"## {titulo}", "", " · ".join(str(x) for x in meta), ""]
+    linhas.append(f"**Aparência:** {d.get('aparencia') or '—'}  ")
+    if d.get("historia"):
+        linhas.append(f"**Quem é:** {d['historia']}  ")
+    linhas.append(f"**Reação fixa:** {d.get('reacao') or '0'}  ")
+    linhas.append("**Vantagens:** " + ("; ".join(vant) or "—") + "  ")
+    linhas.append("**Desvantagens:** " + ("; ".join(desv) or "—") + "  ")
+    linhas.append("**Peculiaridades:** " + ("; ".join(pec) or "—") + "  ")
+
+    idiomas = [f"{p.get('nome')} {p.get('nh')}" for p in d.get("pericias") or []
+               if (p.get("categoria") or "").lower() in ("línguas", "linguas")]
+    if idiomas:
+        linhas.append("**Línguas:** " + ", ".join(idiomas) + "  ")
+    mag = [m.get("nome") for m in d.get("magias") or [] if m.get("nome")]
+    if mag:
+        linhas.append("**Mágicas:** " + ", ".join(mag) + "  ")
+    linhas.append(f"*Ficha completa: `{pasta.as_posix()}/personagem.md`*")
+    return linhas
+
+
+def escrever_contexto(r, p):
+    """Regera campanha/CONTEXTO.md: todas as caracteristicas de todos os personagens."""
+    fichas = _fichas_do_elenco(r)
+    meta, _ = ler_meta(p)
+    out = [
+        f"# Contexto da campanha — {meta.get('Campanha', '?')}",
+        "",
+        "_(**gerado** por `campanha.py elenco` a partir de `personagens/*/personagem.json` — "
+        "não edite aqui: mude a ficha e regere. É lido em **toda** execução: "
+        "antes de decidir o que um personagem faz, sofre ou diz, confira as "
+        "**desvantagens, peculiaridades e vantagens dele** abaixo. Só entra o que "
+        "influencia a cena. Atributos, perícias e equipamento estão na ficha (a `contexto` "
+        "os traz a cada jogada); PV, Fadiga, bolsa e ferimento, em `saude.md`, "
+        "`bolsa.md` e `mundo.md`.)_",
+        "",
+        f"_{len(fichas)} personagem(ns). Atualizado em {agora()[:10]}._",
+        "",
+    ]
+    for pasta, d in fichas:
+        out.extend(_bloco_personagem(pasta.relative_to(r), d))
+        out.append("")
+    f = p / CONTEXTO
+    f.write_text("\n".join(out).rstrip() + "\n", encoding="utf-8")
+    return f, fichas
+
+
+def cmd_elenco(args):
+    r = raiz(args)
+    p = pasta_campanha(r)
+    if not (p / "README.md").is_file():
+        print("Sem campanha ativa: CONTEXTO.md não gerado.")
+        return
+    f, fichas = escrever_contexto(r, p)
+    print(f"CONTEXTO.md regerado: {len(fichas)} personagem(ns) em {f.as_posix()} "
+          f"({f.stat().st_size} bytes)")
+
 
 
 def cmd_capitulo(args):
@@ -1223,6 +1336,12 @@ def main():
     s.add_argument("--motivo", default="", help="De onde veio o dano ou a cura")
     s.add_argument("--mostrar", action="store_true", help="Imprime o arquivo inteiro")
     s.set_defaults(func=cmd_saude)
+
+    s = sub.add_parser("elenco",
+                       help="Regera campanha/CONTEXTO.md: todas as características de todos os "
+                            "personagens (rode ao iniciar, ao entrar/sair ou mudar um "
+                            "personagem, e quando o Mestre pedir)")
+    s.set_defaults(func=cmd_elenco)
 
     s = sub.add_parser("indexar", help="Regera o índice do README")
     s.set_defaults(func=cmd_indexar)

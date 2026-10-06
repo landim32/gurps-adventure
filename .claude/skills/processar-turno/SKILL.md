@@ -4,11 +4,12 @@ description: >
   Processa um turno jogado no roll6 (a mesa virtual): lê pelo MCP get_turn_data o que cada
   personagem declarou, onde está e como está; se todos os personagens aprovados agiram,
   resolve o turno como a skill acao faz — cada declaração pelas regras de GURPS 3ª Edição,
-  chamando roll, teste-nh, disputa-nh, atacar, atacar-distancia, iniciativa e reacao —,
+  chamando roll, teste-nh, disputa-nh, atacar, fintar, atacar-distancia, iniciativa e reacao —,
   decide e resolve os NPCs, mostra o resultado ao Mestre e espera a aprovação dele (salvo
   aviso de que não precisa), registra tudo no repositório (log, anotações, saúde, bolsa)
   e fecha o turno com o MCP process_turn, com PV, Fadiga, status, posições e a
-  narração. Use when the user asks "processe o turno", "processar turno", "feche o turno
+  narração — que sempre termina arquivada no capítulo e em campanha/whatsapp/output/ e
+  exibida na tela. Use when the user asks "processe o turno", "processar turno", "feche o turno
   do roll6", "resolva o turno", "todo mundo jogou", ou /processar-turno.
 ---
 
@@ -93,6 +94,7 @@ Escreva para si o plano da rodada inteira:
    | difícil contra o mundo | `teste-nh` |
    | alguém resiste ou percebe | `disputa-nh` |
    | golpe corpo a corpo | `atacar` |
+   | finta (simular o golpe para abrir a defesa) | `fintar`; o redutor vai para o `atacar` do turno seguinte e para o `status` do alvo |
    | tiro ou arremesso | `atacar-distancia` |
    | primeira impressão de NPC | `reacao` |
    | dado avulso | `roll` |
@@ -218,6 +220,7 @@ Uma ação por vez, na ordem, com os scripts das skills:
 python .claude/skills/teste-nh/scripts/teste_nh.py ...
 python .claude/skills/disputa-nh/scripts/disputa_nh.py ...
 python .claude/skills/atacar/scripts/atacar.py ...
+python .claude/skills/fintar/scripts/fintar.py ...
 python .claude/skills/atacar-distancia/scripts/atacar_distancia.py ...
 python .claude/skills/roll/scripts/roll.py 3d
 ```
@@ -364,11 +367,44 @@ Depois do `process_turn`, faça o que ele não faz:
 - **Conferir**: `processar_turno.py contexto --turno N` do turno fechado não deve mostrar
   divergência nova entre roll6 e repositório.
 
+## 6a. A narração do turno — sempre
+
+**Todo turno fechado termina com uma narração arquivada e exibida.** Não é opcional e não
+espera o Mestre pedir: o turno só está fechado quando isto foi feito.
+
+A narração é **uma só**: o texto que o Mestre aprovou na seção 4a, que foi no `narration`
+do `process_turn` e que vai para a mesa. Escreva-o já pronto para isso, no estilo da skill
+`narrar` — título `*EM MAIÚSCULAS*` na primeira linha, prosa concreta com os sentidos, e a
+conta de cada jogada (`> `) logo abaixo do parágrafo dela. Não mande ao roll6 uma versão
+curta e deixe a prosa para depois.
+
+Depois do `process_turn`, arquive pela `narrar`:
+
+```bash
+python .claude/skills/narrar/scripts/narrar.py gravar \
+  --arquivo <scratchpad>/turno-N.txt --resumo "Dia 11: rumo errado, 0 km; 225 L e 8 pessoas-dia"
+```
+
+O `gravar` faz as três coisas de uma vez:
+
+1. acrescenta a **Narração N** ao `README.md` do capítulo atual e a linha `[narração N]` no
+   log;
+2. salva a **cópia colável** em `campanha/whatsapp/output/AAAA-MM-DD-HHMM-<título>.txt`;
+3. **imprime o bloco** entre as linhas `PARA O WHATSAPP`.
+
+**Mostre esse bloco na resposta ao Mestre**, inteiro, num bloco de código, junto com o
+caminho do `.txt` em `whatsapp/output/`. A narração tem de aparecer na tela, não só no
+arquivo.
+
+Se o Mestre mandar mudar o texto depois de arquivado, grave de novo com
+`--sem-acontecimento` (vira a Narração seguinte, com cópia nova) e diga qual substitui
+qual. Reação e rolagem secreta continuam fora, como em todo bloco da mesa.
+
 ## 7. Entregar
 
 Os itens 1 e 2 são o que a seção 4a mostra ao Mestre para aprovar. Depois do
-`process_turn`, repita o bloco do WhatsApp só se ele mudou desde a aprovação, e acrescente
-o turno novo que o roll6 abriu e o item 3.
+`process_turn`, mostre o bloco do WhatsApp como o `narrar.py gravar` o imprimiu, e
+acrescente o turno novo que o roll6 abriu e o item 3.
 
 1. **Um bloco só para o WhatsApp**, com a rodada inteira na ordem em que aconteceu e o
    fecho da cena. Nada de bloco por golpe (`CLAUDE.md`). É o mesmo texto que foi na
@@ -399,8 +435,11 @@ o turno novo que o roll6 abriu e o item 3.
    - as decisões que você tomou pelos NPCs;
    - o que foi corrigido à mão nos scripts;
    - o turno novo que o roll6 abriu (`turnNo` da resposta).
-3. **O que foi gravado**: o acontecimento, as anotações, a saúde e as notas da
-   participação.
+3. **O que foi gravado**: o acontecimento, as anotações, a saúde, as notas da
+   participação e a **narração** (número no capítulo e o `.txt` em `whatsapp/output/`).
+
+Depois do `process_turn`, o item 1 sai **sempre** de novo na tela: é o bloco que o
+`narrar.py gravar` imprimiu (seção 6a).
 
 ## O que esta skill nunca faz
 
@@ -409,6 +448,8 @@ o turno novo que o roll6 abriu e o item 3.
   aprovar o resultado, salvo aviso dele de que não precisa de aprovação.
 - **Rolar de cabeça** ou rolar de novo; inventar NH, RD ou DP.
 - **Chamar `process_turn` duas vezes** para o mesmo turno, ou numa simulação.
+- **Fechar o turno sem a narração**: arquivada pelo `narrar.py gravar` (capítulo e
+  `campanha/whatsapp/output/`) e exibida na resposta (seção 6a).
 - **Tocar na ficha** (`personagem.json`, `update_character`) sem pedido explícito.
 - **Apagar** peça, ocorrência, entrada de turno ou NPC sem confirmação.
 - **Contar ao jogador** o que o personagem não pode saber, seja na narração, seja no

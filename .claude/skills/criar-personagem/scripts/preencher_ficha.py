@@ -275,7 +275,10 @@ def main():
     draw = ImageDraw.Draw(img)
 
     # --- Cabecalho -------------------------------------------------------
-    draw_field(draw, HEADER["nome"], data.get("nome"))
+    nome = data.get("nome")
+    if data.get("apelido"):
+        nome = f"{nome}, o {data['apelido']}"      # «Morvath Eskarel, o Lich»
+    draw_field(draw, HEADER["nome"], nome)
     draw_field(draw, HEADER["jogador"], data.get("jogador", "IA (GURPS)"))
     draw_field(draw, HEADER["aparencia"], data.get("aparencia"))
     draw_field(draw, HEADER["historia"], data.get("historia"))
@@ -374,9 +377,11 @@ def main():
                    arma.get("qtd"))
         draw_field(draw, (ARMAS["peso_x"], y, ARMAS["peso_size"], "center", ARMAS["peso_w"]),
                    arma.get("peso"))
-    custo_total = data.get("custo_total")
-    if custo_total is not None:
-        draw_field(draw, TOTAIS_CUSTO, f"$ {custo_total}")
+    # TOTAIS: o dinheiro que SOBROU (riqueza inicial menos o equipamento). `custo_total`,
+    # o gasto, é só o fallback de ficha antiga que não traz `dinheiro`.
+    dinheiro = data.get("dinheiro", data.get("custo_total"))
+    if dinheiro is not None:
+        draw_field(draw, TOTAIS_CUSTO, f"$ {dinheiro}")
     draw_field(draw, TOTAIS_KG, data.get("peso_total"))
 
     # --- Pericias (uma linha em branco a cada mudanca de categoria) ------------
@@ -399,6 +404,12 @@ def main():
             "tipo": None,   # cada magica tem a sua dificuldade; nao cabe um tipo unico
             "custo": sum(m.get("custo") or 0 for m in magias),
         })
+    # Manobras ficam na ficha (o NH decide a jogada), mas o que cada uma faz mora no
+    # grimorio de manobras. A linha de remissao so entra se houver espaco.
+    if any((p or {}).get("categoria") == "Manobras" for p in pericias)             and len(pericias) + 2 <= PERICIAS["max_rows"]:
+        pericias.append(None)
+        pericias.append({"nome": "Manobras: efeito no grimório", "nh": "—",
+                         "tipo": None, "custo": None})
     for i, per in enumerate(pericias[: PERICIAS["max_rows"]]):
         if per is None:
             continue

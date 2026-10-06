@@ -240,8 +240,8 @@ MANOBRAS = {
     },
     "ataque-total-finta": {
         "nome": "Ataque Total (finta e ataque)", "nh": 0, "dano": 0, "defesa_ativa": False,
-        "obs": "A finta é uma Disputa Rápida — resolva com a skill disputa-nh e traga a "
-               "margem como --alvo-defesa-mod negativo. Sem defesa ativa.",
+        "obs": "A finta é uma Disputa Rápida — resolva com a skill fintar e traga o "
+               "redutor como --alvo-defesa-mod negativo. Sem defesa ativa.",
     },
     "aguardar": {
         "nome": "Aguardar", "nh": 0, "dano": 0, "defesa_ativa": True,

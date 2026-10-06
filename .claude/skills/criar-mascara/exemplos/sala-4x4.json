@@ -1,0 +1,17 @@
+{
+  "_leia": "Sala de 4 x 4 hexágonos (mapa de 4 colunas x 4 linhas: 260 x 312 px na escala do Roll6), com uma porta embaixo. Coordenadas em pixels da imagem. Cada forma tem uma altura (tom da máscara): sem nada = parede inteira (preto); \"nivel\" (nome da escala: niveis.py), \"metros\" ou \"altura\" (0 a 1) = parede mais baixa (cinza). Renderize com: renderizar.py --json sala-4x4.json --saida sala-4x4-mascara.png",
+  "largura": 260,
+  "altura": 312,
+  "paredes": [
+    {"tipo": "retangulo", "x": 0,   "y": 0,   "w": 260, "h": 24, "nome": "parede norte"},
+    {"tipo": "retangulo", "x": 0,   "y": 288, "w": 260, "h": 24, "nome": "parede sul"},
+    {"tipo": "retangulo", "x": 0,   "y": 0,   "w": 24,  "h": 312, "nome": "parede oeste"},
+    {"tipo": "retangulo", "x": 236, "y": 0,   "w": 24,  "h": 312, "nome": "parede leste"},
+    {"tipo": "circulo",   "cx": 130, "cy": 130, "r": 22, "nome": "coluna de pedra"},
+    {"tipo": "linha", "pontos": [[24, 190], [70, 190]], "espessura": 12, "nivel": "estante", "nome": "estante na parede"},
+    {"tipo": "retangulo", "x": 150, "y": 24, "w": 86, "h": 22, "nivel": "balcao", "nome": "balcão encostado na parede leste"}
+  ],
+  "aberturas": [
+    {"tipo": "retangulo", "x": 94, "y": 288, "w": 72, "h": 24, "nome": "porta"}
+  ]
+}

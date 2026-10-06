@@ -7,7 +7,8 @@ description: >
   Mercenário, Ladrão, Clérigo, Trovador, Ranger, Necromante, Mago de Combate, etc.), segue o
   que o livro descreve para aquele arquétipo. Calcula todos os custos e estatísticas
   derivadas, gera a ficha completa em Markdown e uma imagem da Planilha do Personagem
-  preenchida — e, para usuários de magia, também a Ficha para Grimório com as mágicas.
+  preenchida — e, para usuários de magia, também a Ficha para Grimório com as mágicas e, para
+  lutadores de artes marciais, o grimório com o resumo de cada manobra.
   Toda `aparencia` abre com altura, peso e idade ("1,88 m; 81,7 kg; 47 anos, …"), calculados da
   ST, do pacote racial e de Magreza/Excesso de Peso/Obesidade/Gigantismo/Nanismo.
   Use quando o usuário pedir para "criar um personagem de GURPS", "gerar uma
@@ -45,7 +46,8 @@ Ela produz sempre estes artefatos em `personagens/<nome-em-kebab-case>/`:
 
 E, **somente quando o personagem for usuário de magia**, mais dois:
 
-4. `grimorio.md` — a lista de mágicas em Markdown, com custo em pontos e notas de regra.
+4. `grimorio.md` — a lista de mágicas (ou, para o lutador, de manobras) em Markdown, com
+   custo em pontos e notas de regra.
 5. `grimorio.jpg` — a imagem oficial da Ficha para Grimório (`grimorio.jpg`, na raiz do
    repositório) preenchida — ver "Grimório" abaixo.
 
@@ -370,7 +372,7 @@ Chambara e os estilos que o próprio verbete declara fantásticos ou alienígena
 
 **Espaço na planilha.** A coluna de perícias tem **44 linhas**, e linha em branco de separador
 de categoria conta — o que estoura é `perícias + manobras + (trocas de categoria) + 1 linha de
-"ver grimório" se houver magias`. Lutador com estilo costuma chegar perto do teto: confira a
+"ver grimório" se houver magias ou manobras`. Lutador com estilo costuma chegar perto do teto: confira a
 conta antes de gerar (o script não avisa, ele só não imprime o que passa).
 
 **Ao arbitrar depois:** a manobra comprada não é enfeite de ficha. Quem joga a mão é a skill
@@ -404,7 +406,9 @@ Depois de escolher atributos, vantagens, desvantagens, peculiaridades e perícia
 8. Equipamento: escolha itens condizentes com o conceito e o nível de Riqueza dentro do
    dinheiro inicial (`02-criacao-de-personagem.md`, seção Riqueza; preços em
    `21-quadros-e-tabelas.md`). Some o **peso total** (`peso_total`, em kg) e o **custo
-   total** (`custo_total`, em $) e recalcule Deslocamento se a Carga mudar de faixa.
+   total** (`custo_total`, em $) e recalcule Deslocamento se a Carga mudar de faixa. O que
+   **sobra** da riqueza inicial (`dinheiro` = recursos iniciais − `custo_total`) é o número
+   que a ficha mostra na linha "TOTAIS".
    **Armadura sempre montada peça por peça** — ver seção "Armadura peça por peça" abaixo.
 9. Agrupe **perícias**, **equipamento** e **mágicas** por categoria (campo `categoria` em
    `pericias[]`, `armas_objetos[]` e `magias[]`) e ordene cada lista por esse campo — a ficha
@@ -530,6 +534,45 @@ Preencha uma coluna do formulário por campo, consultando a entrada da mágica n
 Cabem **45 mágicas por página**; havendo mais, o script gera `grimorio-2.jpg` e assim por
 diante sozinho.
 
+### Grimório de manobras (lutador de artes marciais)
+
+**Se o personagem tem manobras** — qualquer entrada de `pericias[]` com `"categoria":
+"Manobras"`, ou seja, o lutador montado pela seção "Personagem de arte marcial" — **ele
+também ganha um grimório**: a mesma Ficha para Grimório (`grimorio.jpg`, na raiz), usada para
+**descrever em resumo o que cada manobra faz**. Quem joga não precisa abrir o livro no meio
+da luta, e o Mestre arbitra pelo mesmo papel.
+
+O que **não muda**: as manobras **continuam em `pericias[]`**, com NH, tipo e custo. É de lá
+que a ficha, o teto de `2 × idade` e as skills de combate (`atacar`, `fintar`) leem o número.
+O grimório **não é outra fonte do NH**: só acrescenta o resumo de cada uma. É o contrário
+das mágicas, que saem da lista de perícias (ver "Grimório" acima).
+
+Cada manobra ganha, **na própria entrada de `pericias[]`**, os campos do resumo, tirados do
+verbete (`04-combate-manobras.md`, "Manobras Realistas") — não de memória:
+
+| Campo | Coluna do grimório | Conteúdo |
+|---|---|---|
+| `nome` + `tipo` | Manobra (perícia que a controla) | O script escreve `Nome (Judô)`; se o nome já traz a perícia entre parênteses (`Finta (Katana)`), não repete |
+| `nh` | NH | O número final, o mesmo da ficha |
+| `uso` | Uso | `Atq`, `Def`, `Apar+Atq`, `Apar+Disp`, `Atq+Finta`, `Atq Total`, `Passiva`, `Esp` |
+| `dano` | Dano | `GDP-1+Caratê`, `1d-2 opc.`, `como soco`, `—` quando não causa dano |
+| `mod` | Mod. ataque | O redutor ou bônus da manobra: `-4`, `2 testes`, `+1 a +3`, `—` |
+| `alcance` | Alcance | `C` corpo a corpo, `2 hex`, `Katana` (o da arma), `—` |
+| `obs` | Efeito, em resumo | **Até ~38 caracteres**: passa disso, o script corta com reticências. A frase longa vai no `grimorio.md` |
+| `pag` | Pág. | Página do livro (`44`, `47`); a coluna é estreita |
+
+Um bloco por **arte** (a perícia que controla: Katana, Judô, Caratê), na ordem em que cada
+uma aparece, com uma linha em branco entre os blocos. Se o personagem **também** conjura, o
+grimório de mágicas fica em `grimorio.jpg` e o de manobras vai ao lado, em
+`grimorio-manobras.jpg`.
+
+No grimório de manobras o script **cobre os cabeçalhos impressos** (Tempo, Duração, Custo
+p/fazer, Custo p/manter) e escreve os da manobra: Uso, Dano, Mod. ataque, Alcance, Efeito,
+Pág. A grade é a mesma, e o limite também: 45 manobras por página, depois `grimorio-2.jpg`.
+
+**Na ficha**, as manobras seguem na área de perícias, e o script acrescenta no fim uma linha
+`Manobras: efeito no grimório` — se couber, sem passar das 44 linhas.
+
 ### 5. Gerar os arquivos de saída
 
 1. Escreva `personagens/<slug>/personagem.json` com o esquema descrito abaixo.
@@ -548,8 +591,8 @@ diante sozinho.
      --output personagens/<slug>/ficha.jpg
    ```
 
-5. **Só se o personagem tiver mágicas** (ver "Grimório" acima): escreva
-   `personagens/<slug>/grimorio.md` e rode o script do grimório.
+5. **Só se o personagem tiver mágicas ou manobras** (ver "Grimório" e "Grimório de
+   manobras" acima): escreva `personagens/<slug>/grimorio.md` e rode o script do grimório.
 
    ```
    python .claude/skills/criar-personagem/scripts/preencher_grimorio.py \
@@ -558,12 +601,24 @@ diante sozinho.
      --output personagens/<slug>/grimorio.jpg
    ```
 
-   Sem mágicas no JSON o script não gera nada (só avisa) — não é preciso testar antes.
+   Sem mágicas nem manobras no JSON o script não gera nada (só avisa) — não é preciso
+   testar antes.
 
-6. Confirme ao usuário: nome, conceito, **arquétipo e raça usados como base (e de qual
+6. **Regere o contexto da campanha** (`campanha/CONTEXTO.md`, lido em toda execução):
+
+   ```
+   python .claude/skills/campanha/scripts/campanha.py elenco
+   ```
+
+   Rode **sempre que um personagem for criado, alterado ou removido** — é o que mantém
+   vantagens, desvantagens e peculiaridades dele visíveis para o modelo. Sem campanha ativa o
+   comando só avisa. Personagem apagado (`personagens/<slug>/` removida): rode de novo para
+   ele sair do arquivo.
+
+7. Confirme ao usuário: nome, conceito, **arquétipo e raça usados como base (e de qual
    livro)**, pontos gastos vs. orçamento, qualquer desvio consciente do arquétipo, e os
    caminhos dos arquivos gerados (ficha em Markdown, imagem da ficha, prompt de imagem e,
-   para conjuradores, o grimório em Markdown e em imagem).
+   para conjuradores e lutadores, o grimório em Markdown e em imagem).
 
 ### Nome do arquivo (slug kebab-case)
 
@@ -587,13 +642,16 @@ Se o usuário pedir para alterar um personagem já criado:
    **Reconfira o teto da idade** (`pericias + magias ≤ 2 × idade`): comprar uma mágica nova ou
    subir uma perícia pode estourá-lo. Se o personagem não tiver `idade` no JSON (fichas
    antigas), calcule a mínima necessária, escolha uma coerente com a história e grave o campo.
-5. Regrave os quatro arquivos (json, md, jpg, foto-prompt.md) no mesmo lugar, sobrescrevendo.
+5. Regrave os quatro arquivos (json, md, jpg, foto-prompt.md) no mesmo lugar, sobrescrevendo,
+   e **regere o `campanha/CONTEXTO.md`** (`campanha.py elenco`).
    Só é preciso reescrever o `foto-prompt.md` se a edição mudou algo visual (aparência,
    raça, equipamento, vantagens/desvantagens físicas) — se for só um ajuste de perícia ou
    ponto, pode deixar o prompt como está.
-   Se o personagem tiver mágicas, regrave também `grimorio.md` e rode de novo o
-   `preencher_grimorio.py`. Um personagem que **passou a ter** mágicas ganha grimório agora;
-   um que perdeu todas deixa de ter — apague os arquivos órfãos.
+   Se o personagem tiver mágicas **ou manobras**, regrave também `grimorio.md` e rode de novo o
+   `preencher_grimorio.py`. Um personagem que **passou a ter** mágicas ou manobras ganha
+   grimório agora; um que perdeu todas deixa de ter — apague os arquivos órfãos. Manobra
+   nova ou com NH novo: confira também os campos do resumo (`uso`, `dano`, `mod`, `alcance`,
+   `obs`, `pag`) na entrada dela.
 6. Informe ao usuário o que mudou e o novo total de pontos.
 
 ## Prompt de imagem do personagem (`foto-prompt.md`)
@@ -791,6 +849,7 @@ ex.: `DX/F`, `IQ/M`, `DX/D`, `IQ/MD`.
   ],
   "peso_total": 0.0,
   "custo_total": 1000,
+  "dinheiro": 0,
   "pericias": [
     {"nome": "string", "nh": 12, "tipo": "DX/F", "custo": 1, "categoria": "Combate"},
     {"nome": "Ânglico (nativa)", "nh": 10, "tipo": "IQ/M", "custo": 0, "categoria": "Línguas"},
@@ -827,13 +886,25 @@ Campos que controlam o agrupamento visual na ficha:
   branco** a cada troca de categoria. Ordene a lista por categoria e use rótulos curtos e
   consistentes; o padrão recomendado é `Armas` → `Munição` → `Armadura` → `Equipamento`.
   Se o campo for omitido em todos os itens, nenhuma separação é feita.
-- **`custo_total`**: soma em $ do equipamento, escrita na linha "TOTAIS:" ao lado do peso
-  total em kg (como no modelo impresso: `TOTAIS: $ 1000    10,5 kg`).
+- **`custo_total`**: soma em $ do equipamento (o gasto). Não aparece na ficha impressa; é
+  com ele que se calcula o saldo da bolsa.
+- **`dinheiro`**: o **que sobrou** da riqueza inicial depois de pagar o equipamento. É isto que
+  vai escrito na linha "TOTAIS:" ao lado do peso total em kg (`TOTAIS: $ 245    10,5 kg`).
+  Se o campo faltar, o script mostra `custo_total` (ficha antiga).
 - **`idade`**: não é desenhada na ficha (o formulário não tem esse campo), mas é o que valida
   o teto de perícias — `pericias + magias ≤ 2 × idade`. Os três números — altura, peso, idade
   — **abrem** `aparencia`, porque a planilha não tem campo para eles. Altura e peso saem da
   ST, do pacote racial e de Magreza/Excesso de Peso/Obesidade/Gigantismo/Nanismo; veja
   “Altura, peso e idade”.
+- **Manobras** (`pericias[]` com `"categoria": "Manobras"`): além de `nome`, `nh`, `tipo`,
+  `custo`, levam os campos do resumo do grimório — `uso`, `dano`, `mod`, `alcance`, `obs`
+  (até ~38 caracteres) e `pag` (ver "Grimório de manobras"). Os campos são **opcionais**:
+  sem eles o grimório sai com as colunas em branco, mas a ficha e as skills de combate não
+  mudam. Quem só tem manobras ganha `grimorio.jpg` de manobras; quem conjura também, ao lado.
+- **`lembrete`** (opcional, em cada item de `vantagens_desvantagens`): uma frase de **o que
+  fazer em cena** — `"Honesto: não assassina nem mente por vantagem"`. O `CONTEXTO.md` a
+  imprime ao lado do traço. Vale para os traços de comportamento; os mecânicos (Hipoalgia,
+  Reflexos em Combate) as folhas de cálculo já leem da ficha.
 - **`magias`**: **omita o array inteiro** se o personagem não conjura. Existindo, ele
   alimenta o grimório (agrupado por `categoria`, o colégio da mágica) e faz o script
   acrescentar a linha `Mágicas (ver grimório)` ao fim das perícias da ficha, com a
@@ -898,7 +969,8 @@ Para as peças de armadura, o padrão recomendado é `Nome curto (região)` — 
 ## O script `preencher_grimorio.py`
 
 Localizado em `scripts/preencher_grimorio.py`, ao lado do outro. Lê o **mesmo**
-`personagem.json` (só o campo `nome` e o array `magias`) e desenha sobre `grimorio.jpg`:
+`personagem.json` (o campo `nome`, o array `magias` e as entradas de `pericias` com categoria
+`Manobras`) e desenha sobre `grimorio.jpg`:
 
 ```
 python .claude/skills/criar-personagem/scripts/preencher_grimorio.py --data <json> --template grimorio.jpg --output <saida.jpg>
@@ -910,13 +982,23 @@ análise de pixel sobre `grimorio.jpg` (2481×3508 px): 46 regras horizontais de
 y=3306 com passo de ~66,25 px e divisores verticais em x = 676, 842, 1061, 1280, 1499, 1737,
 2217. Constantes ajustáveis: `TITULAR`, `LINHAS`, `COLUNAS`.
 
-Comportamento: sem `magias` no JSON, apenas avisa e não escreve arquivo; com mais de 45
-mágicas, pagina sozinho (`grimorio.jpg`, `grimorio-2.jpg`…), sem começar página com linha
-em branco de separação.
+Comportamento: sem `magias` nem manobras no JSON, apenas avisa e não escreve arquivo; só
+mágicas, grimório de magias em `grimorio.jpg`; só manobras, grimório de manobras em
+`grimorio.jpg` (cabeçalhos reescritos); as duas, o de manobras vai a `grimorio-manobras.jpg`.
+Com mais de 45 linhas, pagina sozinho (`grimorio.jpg`, `grimorio-2.jpg`…), sem começar
+página com linha em branco de separação. Constantes do grimório de manobras:
+`CABECALHO_BOX`, `CABECALHO_Y`, `CABECALHO`.
 
 ## Estilo do `grimorio.md`
 
-Só para conjuradores. Título (`# Grimório de <Nome>`), uma linha dizendo de onde vem a
+Para conjuradores **e para lutadores com manobras**. O do lutador é o do Kagehira
+(`personagens/kagehira/grimorio.md`): título `# Grimório de <Nome> — as manobras`, um parágrafo
+dizendo que o NH mora na ficha e de onde vêm as manobras, a legenda de `Uso` e `Alcance`, **uma
+tabela por arte** (Manobra, NH, Custo, Uso, Dano, Mod., O que faz, PDF p.) com o efeito em uma
+ou duas frases **tiradas do verbete**, os pontos pagos em manobras fora do estilo e um bloco
+de notas táticas — sem inventar regra que o verbete não traga. O que segue é do conjurador.
+
+Para o conjurador: Título (`# Grimório de <Nome>`), uma linha dizendo de onde vem a
 Aptidão Mágica e qual o nível, e a tabela de mágicas com **as mesmas colunas do formulário**
 (Mágica, Classe, NH, Tempo, Duração, Custo p/fazer, Custo p/manter, Custo em pontos,
 Obs.), agrupada por colégio com um subtítulo por escola. Feche com o total de pontos gastos

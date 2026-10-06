@@ -87,6 +87,7 @@ python .claude/skills/campanha/scripts/campanha.py <comando>
 | `bolsa --pj/--npc "..." --valor +50` | Lança dinheiro em `campanha/bolsa.md`. Sem argumentos, mostra os saldos |
 | `saude --pj/--npc "..." --pv -3` | Lança dano, Fadiga e ferimento em `campanha/saude.md`. Sem argumentos, mostra o estado |
 | `imagem-inicial --arquivo ...` | Grava a ilustração de abertura **no plano** (`inicio.png`). `--prompt` se não houver geração |
+| `elenco` | Regera `campanha/CONTEXTO.md`: o que influencia a cena em cada personagem (quem é, aparência, traços, línguas, mágicas), lido em toda execução. Rode ao iniciar a campanha (o `criar` já faz), quando um personagem entra, sai ou muda, e quando o Mestre pedir |
 | `indexar` | Regera os índices do README |
 | `encerrar` | Arquiva em `historico/campanhas/`. Aceita `--desfecho` |
 
