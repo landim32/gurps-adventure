@@ -1,0 +1,407 @@
+{
+ "_leia": "Carroça no deserto, 1024x1536. Rochas grandes/rochedos e saguaro altos; cavalos ~1,7 m; carroça com laterais ~1,1 m, rodas ~1,5 m, postes ~1,6 m. Interior e degrau traseiro vazios.",
+ "largura": 1024,
+ "altura": 1536,
+ "paredes": [
+  {
+   "tipo": "poligono",
+   "pontos": [
+    [
+     15,
+     75
+    ],
+    [
+     70,
+     55
+    ],
+    [
+     150,
+     60
+    ],
+    [
+     225,
+     78
+    ],
+    [
+     230,
+     140
+    ],
+    [
+     190,
+     205
+    ],
+    [
+     140,
+     238
+    ],
+    [
+     90,
+     252
+    ],
+    [
+     40,
+     235
+    ],
+    [
+     12,
+     200
+    ]
+   ],
+   "nivel": "parede",
+   "nome": "rocha grande NO"
+  },
+  {
+   "tipo": "poligono",
+   "pontos": [
+    [
+     0,
+     35
+    ],
+    [
+     40,
+     40
+    ],
+    [
+     62,
+     80
+    ],
+    [
+     55,
+     125
+    ],
+    [
+     0,
+     130
+    ]
+   ],
+   "nivel": "rocha-grande",
+   "nome": "rocha canto NO"
+  },
+  {
+   "tipo": "poligono",
+   "pontos": [
+    [
+     0,
+     315
+    ],
+    [
+     60,
+     308
+    ],
+    [
+     112,
+     345
+    ],
+    [
+     124,
+     395
+    ],
+    [
+     88,
+     432
+    ],
+    [
+     30,
+     447
+    ],
+    [
+     0,
+     442
+    ]
+   ],
+   "nivel": "rocha-grande",
+   "nome": "rocha oeste alta"
+  },
+  {
+   "tipo": "elipse",
+   "x": 55,
+   "y": 650,
+   "w": 140,
+   "h": 100,
+   "nivel": "rocha-grande",
+   "nome": "rocha oeste"
+  },
+  {
+   "tipo": "elipse",
+   "x": -20,
+   "y": 742,
+   "w": 84,
+   "h": 96,
+   "nivel": "rocha-grande",
+   "nome": "rocha oeste pequena"
+  },
+  {
+   "tipo": "poligono",
+   "pontos": [
+    [
+     0,
+     990
+    ],
+    [
+     40,
+     1000
+    ],
+    [
+     80,
+     1070
+    ],
+    [
+     97,
+     1140
+    ],
+    [
+     70,
+     1178
+    ],
+    [
+     0,
+     1186
+    ]
+   ],
+   "nivel": "parede",
+   "nome": "rochedo oeste inferior"
+  },
+  {
+   "tipo": "elipse",
+   "x": -15,
+   "y": 1367,
+   "w": 90,
+   "h": 96,
+   "nivel": "rocha-grande",
+   "nome": "rocha SO"
+  },
+  {
+   "tipo": "elipse",
+   "x": 139,
+   "y": 368,
+   "w": 72,
+   "h": 124,
+   "metros": 3.0,
+   "nome": "saguaro"
+  },
+  {
+   "tipo": "poligono",
+   "pontos": [
+    [
+     940,
+     300
+    ],
+    [
+     985,
+     245
+    ],
+    [
+     1024,
+     235
+    ],
+    [
+     1024,
+     405
+    ],
+    [
+     975,
+     410
+    ],
+    [
+     940,
+     365
+    ]
+   ],
+   "nivel": "parede",
+   "nome": "rochedo leste superior"
+  },
+  {
+   "tipo": "elipse",
+   "x": 950,
+   "y": 723,
+   "w": 80,
+   "h": 84,
+   "nivel": "rocha-grande",
+   "nome": "rocha leste"
+  },
+  {
+   "tipo": "elipse",
+   "x": 882,
+   "y": 732,
+   "w": 60,
+   "h": 60,
+   "nivel": "rocha-grande",
+   "nome": "rocha leste menor"
+  },
+  {
+   "tipo": "poligono",
+   "pontos": [
+    [
+     930,
+     1040
+    ],
+    [
+     975,
+     995
+    ],
+    [
+     1024,
+     1000
+    ],
+    [
+     1024,
+     1190
+    ],
+    [
+     985,
+     1195
+    ],
+    [
+     940,
+     1130
+    ]
+   ],
+   "nivel": "parede",
+   "nome": "rochedo leste inferior"
+  },
+  {
+   "tipo": "poligono",
+   "pontos": [
+    [
+     880,
+     1290
+    ],
+    [
+     915,
+     1235
+    ],
+    [
+     975,
+     1225
+    ],
+    [
+     1024,
+     1235
+    ],
+    [
+     1024,
+     1355
+    ],
+    [
+     960,
+     1380
+    ],
+    [
+     905,
+     1360
+    ]
+   ],
+   "nivel": "parede",
+   "nome": "rochedo leste SE"
+  },
+  {
+   "tipo": "elipse",
+   "x": 441,
+   "y": 430,
+   "w": 72,
+   "h": 200,
+   "metros": 1.7,
+   "nome": "cavalo esquerdo"
+  },
+  {
+   "tipo": "elipse",
+   "x": 525,
+   "y": 430,
+   "w": 72,
+   "h": 200,
+   "metros": 1.7,
+   "nome": "cavalo direito"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 415,
+   "y": 635,
+   "w": 205,
+   "h": 52,
+   "metros": 1.2,
+   "nome": "caixa do assento da carroça"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 400,
+   "y": 650,
+   "w": 38,
+   "h": 125,
+   "metros": 1.5,
+   "nome": "roda dianteira esquerda"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 600,
+   "y": 650,
+   "w": 36,
+   "h": 125,
+   "metros": 1.5,
+   "nome": "roda dianteira direita"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 415,
+   "y": 685,
+   "w": 24,
+   "h": 310,
+   "metros": 1.1,
+   "nome": "lateral esquerda da carroça"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 590,
+   "y": 685,
+   "w": 24,
+   "h": 310,
+   "metros": 1.1,
+   "nome": "lateral direita da carroça"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 400,
+   "y": 870,
+   "w": 38,
+   "h": 130,
+   "metros": 1.5,
+   "nome": "roda traseira esquerda"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 600,
+   "y": 870,
+   "w": 36,
+   "h": 130,
+   "metros": 1.5,
+   "nome": "roda traseira direita"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 415,
+   "y": 982,
+   "w": 55,
+   "h": 22,
+   "metros": 1.6,
+   "nome": "poste traseiro esquerdo"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 560,
+   "y": 982,
+   "w": 55,
+   "h": 22,
+   "metros": 1.6,
+   "nome": "poste traseiro direito"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 505,
+   "y": 440,
+   "w": 28,
+   "h": 200,
+   "metros": 0.8,
+   "nome": "timão"
+  }
+ ],
+ "aberturas": []
+}

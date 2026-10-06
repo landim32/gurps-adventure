@@ -1,0 +1,240 @@
+{
+ "_leia": "Torre 1254x1254: sala fechada de piso de madeira; paredes e torreões inteiros, mureta do poço da escada em espiral (NO) baixa, aberta ao sul. Tapete, tochas vazios.",
+ "largura": 1254,
+ "altura": 1254,
+ "paredes": [
+  {
+   "tipo": "retangulo",
+   "x": 30,
+   "y": 15,
+   "w": 170,
+   "h": 200,
+   "nome": "torreão NO"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 1055,
+   "y": 15,
+   "w": 170,
+   "h": 200,
+   "nome": "torreão NE"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 30,
+   "y": 985,
+   "w": 190,
+   "h": 230,
+   "nome": "torreão SO"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 1035,
+   "y": 985,
+   "w": 190,
+   "h": 230,
+   "nome": "torreão SE"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 195,
+   "y": 85,
+   "w": 330,
+   "h": 120,
+   "nome": "parede norte oeste"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 735,
+   "y": 85,
+   "w": 330,
+   "h": 120,
+   "nome": "parede norte leste"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 520,
+   "y": 15,
+   "w": 220,
+   "h": 190,
+   "nome": "nicho/seteira norte"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 195,
+   "y": 1020,
+   "w": 335,
+   "h": 130,
+   "nome": "parede sul oeste"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 730,
+   "y": 1020,
+   "w": 335,
+   "h": 130,
+   "nome": "parede sul leste"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 520,
+   "y": 1020,
+   "w": 220,
+   "h": 215,
+   "nome": "nicho/seteira sul"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 95,
+   "y": 200,
+   "w": 100,
+   "h": 800,
+   "nome": "parede oeste"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 35,
+   "y": 495,
+   "w": 160,
+   "h": 205,
+   "nome": "nicho/seteira oeste"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 1062,
+   "y": 200,
+   "w": 100,
+   "h": 800,
+   "nome": "parede leste"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 1062,
+   "y": 495,
+   "w": 160,
+   "h": 205,
+   "nome": "nicho/seteira leste"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     258,
+     438
+    ],
+    [
+     242,
+     422
+    ],
+    [
+     229,
+     404
+    ],
+    [
+     220,
+     384
+    ],
+    [
+     214,
+     362
+    ],
+    [
+     212,
+     340
+    ],
+    [
+     214,
+     318
+    ],
+    [
+     220,
+     296
+    ],
+    [
+     229,
+     276
+    ],
+    [
+     242,
+     258
+    ],
+    [
+     258,
+     242
+    ],
+    [
+     276,
+     229
+    ],
+    [
+     296,
+     220
+    ],
+    [
+     318,
+     214
+    ],
+    [
+     340,
+     212
+    ],
+    [
+     362,
+     214
+    ],
+    [
+     384,
+     220
+    ],
+    [
+     404,
+     229
+    ],
+    [
+     422,
+     242
+    ],
+    [
+     438,
+     258
+    ],
+    [
+     451,
+     276
+    ],
+    [
+     460,
+     296
+    ],
+    [
+     466,
+     318
+    ],
+    [
+     468,
+     340
+    ],
+    [
+     466,
+     362
+    ],
+    [
+     460,
+     384
+    ],
+    [
+     451,
+     404
+    ],
+    [
+     438,
+     422
+    ]
+   ],
+   "espessura": 34,
+   "nivel": "balcao",
+   "nome": "mureta do poço da escada"
+  }
+ ],
+ "aberturas": []
+}
