@@ -193,3 +193,10 @@ prioridade. Ficaram de fora, por falta de pontos: Bom-Senso (que também contrad
 de Confiança), Hierarquia Militar, Recuperação Alígera, Reputação, Estratégia, Liderança,
 Heráldica e Jogo — este último trocado pelo ânglico, mais útil para um mercenário que aceita
 contrato em terras cristãs.
+
+## Compras na caravana — 02/10/2026 (fim do dia 2 / véspera do dia 3)
+
+- **2 virotes de besta** ($2 cada, pelo preço do kit da aljava; com ágio $3) — a aljava
+  passa a levar 12. Peso +60 g.
+
+**Bolsa da campanha: $2.596.** 1 dia de tratamento: **não comprou** (estava em 13/13). Sem mudança de carga ou defesa.

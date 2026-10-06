@@ -45,9 +45,9 @@
     "muito_pesada": 195
   },
   "defesa_passiva": {
-    "armadura": 1,
+    "armadura": 0,
     "escudo": 0,
-    "total": 1
+    "total": 0
   },
   "defesas_ativas": {
     "esquiva": 5,
@@ -152,10 +152,18 @@
       "qtd": 1,
       "peso": 0.5,
       "categoria": "Equipamento"
+    },
+    {
+      "item": "Machado de uma mao",
+      "dano": "BAL+2",
+      "tipo": "corte",
+      "qtd": 1,
+      "peso": 2.0,
+      "categoria": "Armas"
     }
   ],
-  "peso_total": 8.05,
-  "custo_total": 418,
+  "peso_total": 10.05,
+  "custo_total": 468,
   "pericias": [
     {
       "nome": "Machado/Maça",

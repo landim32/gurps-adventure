@@ -164,10 +164,64 @@
       "qtd": 5,
       "peso": 1.25,
       "categoria": "Equipamento"
+    },
+    {
+      "item": "Loriga de Reptante (tronco)",
+      "dano": "-",
+      "tipo": "DP3/RD3",
+      "qtd": 1,
+      "peso": 6.75,
+      "categoria": "Armadura",
+      "equipada": false
+    },
+    {
+      "item": "Loriga de Reptante (bracos)",
+      "dano": "-",
+      "tipo": "DP3/RD3",
+      "qtd": 1,
+      "peso": 1.5,
+      "categoria": "Armadura",
+      "equipada": false
+    },
+    {
+      "item": "Loriga de Reptante (pernas)",
+      "dano": "-",
+      "tipo": "DP3/RD3",
+      "qtd": 1,
+      "peso": 3.0,
+      "categoria": "Armadura",
+      "equipada": false
+    },
+    {
+      "item": "Capacete de Reptante",
+      "dano": "-",
+      "tipo": "DP3/RD3",
+      "qtd": 1,
+      "peso": 0.0,
+      "categoria": "Armadura",
+      "equipada": false
+    },
+    {
+      "item": "Cesto de Reptante (maos)",
+      "dano": "-",
+      "tipo": "DP3/RD3",
+      "qtd": 1,
+      "peso": 0.0,
+      "categoria": "Armadura",
+      "equipada": false
+    },
+    {
+      "item": "Coturnos de Reptante",
+      "dano": "-",
+      "tipo": "DP3/RD3",
+      "qtd": 1,
+      "peso": 2.25,
+      "categoria": "Armadura",
+      "equipada": false
     }
   ],
   "peso_total": 14.5,
-  "custo_total": 740,
+  "custo_total": 1420,
   "pericias": [
     {
       "nome": "Espadas de Lâmina Larga",

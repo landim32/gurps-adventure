@@ -1,0 +1,60 @@
+{
+  "nome": "Alfred",
+  "jogador": "Aliado do Lich",
+  "arquetipo": "Criado zumbi do Lich (Zumbi, GURPS Magia, pág. 107)",
+  "raca": null,
+  "idade": 45,
+  "aparencia": "1,78 m; 70,4 kg; 45 anos ao morrer, pele cinza, olhos opacos",
+  "historia": "Zumbi criado do Lich; luta com duas adagas; leva a bagagem do Muppet",
+  "data_criacao": "04/10/2026",
+  "sequencia": "1",
+  "pontos_gastar": 100,
+  "pontos_total": 100,
+  "atributos": {
+    "ST": { "valor": 11, "custo": 10 },
+    "DX": { "valor": 14, "custo": 45 },
+    "IQ": { "valor": 8, "custo": -15 },
+    "HT": { "valor": 14, "custo": 45 }
+  },
+  "fadiga": 11,
+  "pontos_vida": 14,
+  "dano_basico": { "gdp": "1D-1", "bal": "1D+1" },
+  "velocidade_basica": 7.0,
+  "deslocamento": 5,
+  "carga": { "nenhuma": 11, "leve": 22, "media": 33, "pesada": 66, "muito_pesada": 110 },
+  "defesa_passiva": { "armadura": 0, "escudo": 0, "total": 0 },
+  "defesas_ativas": { "esquiva": 5, "aparar": 8, "bloqueio": 0 },
+  "reacao": "-2 (Feio)",
+  "vantagens_desvantagens": [
+    { "nome": "Ambidestria", "custo": 10, "lado": "vantagem" },
+    { "nome": "Feio", "custo": -10, "lado": "desvantagem", "lembrete": "Rosto de cadáver sob a roupa fina: -2 nas reações de quem o vê" },
+    { "nome": "Zumbi: sem dor nem atordoar", "custo": 0, "lado": "vantagem" },
+    { "nome": "Morre com HT 0", "custo": 0, "lado": "desvantagem" },
+    { "nome": "Servo do Lich (ordens)", "custo": 0, "lado": "desvantagem" }
+  ],
+  "peculiaridades": [],
+  "armas_objetos": [
+    { "item": "Adaga (mão direita)", "dano": "1D-2", "tipo": "perf", "qtd": 1, "peso": 0.1, "categoria": "Armas" },
+    { "item": "Adaga (mão esquerda)", "dano": "1D-2", "tipo": "perf", "qtd": 1, "peso": 0.1, "categoria": "Armas" },
+    { "item": "Roupas de classe alta", "dano": "-", "tipo": "DP0/RD0", "qtd": 1, "peso": 0.5, "categoria": "Equipamento" },
+    { "item": "Botas de couro", "dano": "-", "tipo": "DP2/RD2", "qtd": 1, "peso": 1.5, "categoria": "Armadura" },
+    { "item": "Muppet: sacola", "dano": "-", "tipo": "-", "qtd": 1, "peso": 0.5, "categoria": "Equipamento" },
+    { "item": "Muppet: arm. couro", "dano": "-", "tipo": "DP2/RD2", "qtd": 1, "peso": 9.0, "categoria": "Equipamento" },
+    { "item": "Muppet: 2 espadas curtas", "dano": "1D+1", "tipo": "corte", "qtd": 2, "peso": 1.0, "categoria": "Equipamento" },
+    { "item": "Ultra: espadão", "dano": "2D+5", "tipo": "corte", "qtd": 1, "peso": 3.5, "categoria": "Equipamento" },
+    { "item": "Escudo médio (reserva)", "dano": "-", "tipo": "DP3", "qtd": 1, "peso": 7.0, "categoria": "Equipamento" },
+    { "item": "Lich: rações 5 dias", "dano": "-", "tipo": "-", "qtd": 1, "peso": 1.25, "categoria": "Equipamento" },
+    { "item": "Lich: moringa", "dano": "-", "tipo": "-", "qtd": 1, "peso": 1.0, "categoria": "Equipamento" }
+  ],
+  "peso_total": 26.45,
+  "custo_total": 2353,
+  "dinheiro": 0,
+  "pericias": [
+    { "nome": "Faca", "nh": 17, "tipo": "DX/F", "custo": 8, "categoria": "Combate" },
+    { "nome": "Arremesso de Faca", "nh": 15, "tipo": "DX/F", "custo": 2, "categoria": "Combate" },
+    { "nome": "Briga", "nh": 15, "tipo": "DX/F", "custo": 2, "categoria": "Combate" },
+    { "nome": "Sacar Rápido (Faca)", "nh": 14, "tipo": "DX/F", "custo": 1, "categoria": "Combate" },
+    { "nome": "Furtividade", "nh": 14, "tipo": "DX/M", "custo": 2, "categoria": "Ladrão" }
+  ],
+  "resumo": { "atributos": 85, "vantagens": 10, "desvantagens": -10, "peculiaridades": 0, "pericias": 15, "total": 100 }
+}

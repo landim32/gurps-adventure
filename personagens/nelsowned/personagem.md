@@ -153,3 +153,14 @@ esquerda perdida, não empunha.
 | Perícias | 67 |
 | **Total** | **164** |
 | Orçamento | 170 |
+
+## Compras na caravana — 02/10/2026 (fim do dia 2 / véspera do dia 3)
+
+- **Machado de uma mão** ($50; com ágio $75): corte BAL+2, 2 kg, ST mínima 12 — ele tem
+  ST 13 e **o braço direito inteiro**. É a arma que um maneta consegue usar.
+
+**Bolsa da campanha: $2.450.** 1 dia de tratamento com o curandeiro da caravana (**$75** a diária, número da mesa)
+— Medicina 15, 3d [2,2,5] = 9, sucesso, curou 1D−2 com d6 = 2 → **+1 PV**: −4 → **−3/13**.
+Continua acamado: a 0 ou menos ele não levanta. Peso 8,05 → 10,05 kg, ainda **Carga
+Nenhuma** (ST 13): Deslocamento **5** e Esquiva **5**, contando o −1 racial de pernas
+curtas do anão.

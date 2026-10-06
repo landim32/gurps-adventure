@@ -148,3 +148,14 @@ voto não rende pontos adicionais — é levado a sério mesmo assim, por exigê
 | Orçamento | 170 |
 
 Os 20 pontos de campanha fecharam. Os primeiros 14 foram DX 12→13 (10), Cura Superficial 13→14 (2) e Primeiros Socorros 13→14 (2). Os 6 que sobravam foram para Escudo 15→16 (4) e Cavalgar 13→14 (2). Não sobra nada. O Bloqueio impresso foi para 8. Montado, a perna coxa continua dando −1 em Cavalgar até 12 PV, então esse teste sai em 13.
+
+## Compras na caravana — 02/10/2026 (fim do dia 2 / véspera do dia 3)
+
+- **Nada comprado**: quem pagou foi o Lorde William. Ele repôs as peças perdidas — cota de
+  malha, camal, escudo grande e coturnos, **27,5 kg** — e o templário **mandou tudo para o
+  lombo do cavalo, sem vestir.** Registrado aqui, e a ficha continua com os números de
+  hoje: Esquiva 5, DP 4 (só o pavês), Carga Leve.
+
+**Bolsa da campanha: $2.165.** 1 dia de tratamento com o curandeiro da caravana, **$75**: Medicina 15, 3d [2,6,4] = 12,
+sucesso, cura 1D−2 com d6 = 3 → **+1 PV**: 3 → **4/12**. A perna coxa continua até os 12
+voltarem, e o teste de HT dele (3d [4,4,2] = 10, sucesso) não acumula no mesmo dia.

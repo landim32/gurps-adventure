@@ -35,7 +35,7 @@
     "bal": "1D"
   },
   "velocidade_basica": 7.0,
-  "deslocamento": 7,
+  "deslocamento": 6,
   "carga": {
     "nenhuma": 10,
     "leve": 20,
@@ -49,7 +49,7 @@
     "total": 1
   },
   "defesas_ativas": {
-    "esquiva": 7,
+    "esquiva": 6,
     "aparar": 8,
     "bloqueio": 0
   },
@@ -100,8 +100,8 @@
       "item": "Dardos (x2)",
       "dano": "1D-1",
       "tipo": "perf",
-      "qtd": 2,
-      "peso": 2.0,
+      "qtd": 4,
+      "peso": 4.0,
       "categoria": "Munição"
     },
     {
@@ -143,10 +143,18 @@
       "qtd": 1,
       "peso": 0.3,
       "categoria": "Equipamento"
+    },
+    {
+      "item": "Facas (x8)",
+      "dano": "BAL-3",
+      "tipo": "corte",
+      "qtd": 8,
+      "peso": 2.0,
+      "categoria": "Armas"
     }
   ],
-  "peso_total": 8.0,
-  "custo_total": 310,
+  "peso_total": 12.0,
+  "custo_total": 610,
   "pericias": [
     {
       "nome": "Faca",

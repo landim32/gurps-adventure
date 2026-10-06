@@ -196,6 +196,8 @@ chega para caravanas, mercados e insultos — que ele entende tarde demais para 
 
 ### Manobras (Artes Marciais, seção "Manobras Realistas")
 
+_O que cada manobra faz, em resumo, está no **[grimório](grimorio.md)** (`grimorio.jpg`, a folha de grimório do repositório preenchida com as manobras). Aqui ficam os NH e os custos._
+
 | Manobra | NH | Controla | Custo |
 |---|---|---|---|
 | Finta (Katana) | 17 | Katana/D | 0 |

@@ -1,0 +1,49 @@
+{
+  "nome": "Muppet Ultra",
+  "jogador": "Criação do Lich",
+  "arquetipo": "Guerreiro Brutamontes criado com a mágica Criar Guerreiro (GURPS Magia)",
+  "raca": null,
+  "idade": 0,
+  "aparencia": "Boneco humanoide sem rosto, de pano e madeira, com fios visíveis; versão Brutamontes, maior e mais forte que o Muppet",
+  "historia": "Versão Brutamontes do Muppet, que o Lich cria com Criar Guerreiro quando precisa de força; luta com um espadão de duas mãos que o Alfred carrega",
+  "data_criacao": "04/10/2026",
+  "sequencia": "1",
+  "pontos_gastar": 0,
+  "pontos_total": 0,
+  "atributos": {
+    "ST": { "valor": 16, "custo": 0 },
+    "DX": { "valor": 12, "custo": 0 },
+    "IQ": { "valor": 10, "custo": 0 },
+    "HT": { "valor": 12, "custo": 0 }
+  },
+  "fadiga": 16,
+  "pontos_vida": 12,
+  "dano_basico": { "gdp": "1D+1", "bal": "2D+2" },
+  "velocidade_basica": 6.0,
+  "deslocamento": 6,
+  "carga": { "nenhuma": 16, "leve": 32, "media": 48, "pesada": 96, "muito_pesada": 160 },
+  "defesa_passiva": { "armadura": 2, "escudo": 0, "total": 2 },
+  "defesas_ativas": { "esquiva": 6, "aparar": 8, "bloqueio": 0 },
+  "reacao": "0",
+  "vantagens_desvantagens": [
+    { "nome": "Criação mágica: dura 1 minuto, renovada pelo Lich (6 de energia)", "custo": 0, "lado": "vantagem" },
+    { "nome": "Obedece ao Lich; some se a mágica não é mantida", "custo": 0, "lado": "desvantagem" }
+  ],
+  "peculiaridades": [],
+  "armas_objetos": [
+    { "item": "Espadão (duas mãos)", "dano": "2D+5", "tipo": "corte", "qtd": 1, "peso": 3.5, "categoria": "Armas" },
+    { "item": "Capacete de couro (cabeça)", "dano": "-", "tipo": "DP2/RD2", "qtd": 1, "peso": 0.0, "categoria": "Armadura" },
+    { "item": "Loriga de couro (tronco)", "dano": "-", "tipo": "DP2/RD2", "qtd": 1, "peso": 4.5, "categoria": "Armadura" },
+    { "item": "Loriga de couro (braços)", "dano": "-", "tipo": "DP2/RD2", "qtd": 1, "peso": 1.0, "categoria": "Armadura" },
+    { "item": "Manopla de couro (mãos)", "dano": "-", "tipo": "DP2/RD2", "qtd": 1, "peso": 0.0, "categoria": "Armadura" },
+    { "item": "Loriga de couro (pernas)", "dano": "-", "tipo": "DP2/RD2", "qtd": 1, "peso": 2.0, "categoria": "Armadura" },
+    { "item": "Coturnos (pés)", "dano": "-", "tipo": "DP2/RD2", "qtd": 1, "peso": 1.5, "categoria": "Armadura" }
+  ],
+  "peso_total": 12.5,
+  "custo_total": 1140,
+  "dinheiro": 0,
+  "pericias": [
+    { "nome": "Espadas de Duas Mãos", "nh": 16, "tipo": "DX/M", "custo": 0, "categoria": "Combate" }
+  ],
+  "resumo": { "atributos": 0, "vantagens": 0, "desvantagens": 0, "peculiaridades": 0, "pericias": 0, "total": 0 }
+}

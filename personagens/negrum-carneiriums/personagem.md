@@ -179,3 +179,19 @@ Negrum não usa armadura no tronco, braços, pernas, mãos ou pés — confia na
 | Orçamento | 170 |
 
 **Sobra do jogador: 11 pontos** de campanha livres, depois de desfeito o excedente das perícias novas (ver `# Pontos de campanha`).
+
+## Compras na caravana — 02/10/2026 (fim do dia 2 / véspera do dia 3)
+
+- **Jogo completo de armadura de couro de Reptante** (Fantasy, verbete da raça):
+  capacete $40 · tronco $200 (6,75 kg) · braços $100 (1,5 kg) · pernas $120 (3 kg)
+  · cestos de mão $60 · coturnos $160 (2,25 kg) = **$680** e **13,5 kg**, DP **3** /
+  RD **3** em todas as peças — o dobro do couro comum e metade a mais de peso.
+  Na caravana, com o ágio do dia (+50%): **$1.020**.
+
+**Comprada e paga, mas NÃO vestida.** As peças vão **no fundo da carroça**, e o peso delas é
+carga do veículo, não do homem — por isso a ficha continua com os números de sempre: **14,5 kg
+carregados = Carga Nenhuma** com ST 15, **Deslocamento 6**, **Esquiva 6** e **Defesa Passiva
+DP 3**, que é só o escudo médio. No dia em que ele vestir o jogo, tudo isso cai junto: 28 kg,
+Carga Leve, Deslocamento e Esquiva 5, DP 6 com o escudo.
+
+**Bolsa da campanha: $1.280.**

@@ -202,3 +202,12 @@ Notas de arbitragem:
 **Orçamento da mesa: 170.** Sobram **6,5** pontos de campanha dele, guardados.
 
 **Convenção da mesa, aplicada neste gasto:** cada compra só pode subir **um nível de habilidade**. Isso vale contra a tabela de custo, não contra o NH: o primeiro nível comprável de uma perícia **Média** é DX−2 (½ ponto), e DX−1 já custa 1 ponto porque são dois níveis. Por isso o Cavalgar dele ficou em **14**, não 15. Perícia **Fácil** começa a subir em DX−1 (½ ponto) — foi o que salvou os dois Sacar Rápidos em 15. E manobra não comprada não conta como compra: as três que voltaram ao pré-definido custam zero e não sobem nada.
+
+## Compras na caravana — 02/10/2026 (fim do dia 2 / véspera do dia 3)
+
+- **2 dardos** de arremesso ($30 cada; com ágio $45 a unidade) — a bolsa agora tem 4
+- **8 facas** ($30 cada, 250 g; com ágio $45) — corte BAL−3, dano máximo 1D+1
+
+**Bolsa da campanha: $2.454.** **Peso de 8 → 12 kg**: com ST 10 isso é **Carga Leve**, e o Deslocamento cai de 7
+para **6** (Esquiva 6). Os 4 quilos de arma nova custaram ao ladrão a coisa que ele
+mais comprava com o corpo. Voltar a 7 exige deixar 2 kg em alguém da carroça.
