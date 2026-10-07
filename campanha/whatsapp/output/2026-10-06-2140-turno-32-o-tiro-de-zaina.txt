@@ -1,0 +1,37 @@
+*TURNO 32 — O TIRO DE ZAINA*
+
+Jah dá mais um passo curto com os outros, a faca firme, o olho fixo na coxa do orc, sem soltar a mira.
+> Jah mira a faca na perna do orc (sem disparo). Sem movimento registrado. Deslocamento atual: *3*
+
+Kaelric baixa o pavês e dá um passo em guarda, mas a perna coxa o trava antes de fechar o passo.
+> *Aviso:* Kaelric está coxo (Desl. 5 -3 = 2, e Fadiga 3: metade = *1*) e gastou 2 pontos de movimento. Volta a (5,8), apenas virado para o sul. Defesa Total.
+
+Negrum cobre o flanco com o escudo à frente, mão firme no cabo da espada, e dá o passo que a Fadiga ainda deixa.
+> Negrum se move 3 pontos, dentro do Deslocamento *3* (6, metade por Fadiga 3). Defesa Total.
+
+NelsOwned ergue a voz e abre as mãos para falar a todos: que se acalmem, que baixem as armas, que decidam as coisas como gente civilizada.
+
+Do outro lado da lagoa, o orc ouve só metade. O braço dele se mexe sozinho, saca a faca do cinto, e a arma assobia no ar.
+> Sacar Rápido (Faca): NH *15*, 3d [5, 1, 6] = *12* → sucesso por 3
+> Ataque: Arremesso de Faca NH 16, -3 distância (6 m), Tiro Rápido sem penalidade (13 ≥ TR 11) = *13*
+> 3d [6, 1, 1] = *8* → sucesso por 5
+> Defesa de NelsOwned: esquiva 5 +1 Reflexos em Combate = *6*
+> 3d [6, 3, 6] = *15* → falhou por 9
+> Dano: 2D-3: [3, 2] = 5 - 3 = *2* · RD 1 → *1* · Corte ×1,5 → *1*
+> *NelsOwned perde 1 ponto de vida (PV 1/13)*
+
+A faca crava no flanco do anão, que cai de joelhos, a voz engasgada pela surpresa.
+
+Comam não perde o instante. A Zaina, firme no ombro desde o turno anterior, faz o seu estrondo, e o virote cruza a lagoa.
+> Ataque: Besta NH 17, -3 distância (6 m), +4 Precisão, -3 Zarolho = *15*
+> 3d [5, 3, 4] = *12* → sucesso por 3
+> Defesa de Vurkash: esquiva *6*
+> 3d [5, 4, 3] = *12* → falhou por 6
+> Dano: 1D+6: [4] + 6 = *10* · RD 0 → *10* · Perfuração ×2 → *20*
+> Teto do local (HT = 13): 7 desperdiçado(s)
+> Perdeu mais de HT/2: HT 13, 3d [6, 6, 2] = *14* → *CAIU*; *ATORDOADO* (-4 nas defesas)
+> *Vurkash perde 13 pontos de vida (PV 2/15)*
+
+O virote atravessa o orc e sai pelas costas. Ele cambaleia, a faca seguinte escorrega da mão, e o gigante pálido tomba na lama, atordoado, a vida por um fio.
+
+*Deslocamentos atuais:* Comam *1*, Kaelric *1*, Jah *3*, Negrum *3*, NelsOwned *2* (PV 1: metade), Vurkash *3* (PV 2: metade, caído).

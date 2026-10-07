@@ -1,0 +1,27 @@
+*DIA 15 — A SEDE*
+
+Jah toma as rédeas antes do sol nascer e conduz a carroça pela areia fria. A parelha puxa devagar, de língua pendurada, e ele finge não ouvir o fôlego curto dos animais.
+> Carreiro: pré-definido Cavalgar 14 -2 = *12*
+> 3d [5, 1, 5] = *11* → sucesso por 1
+
+Yusuf mede as dunas, o vento e a sombra do sol, e acredita que acertou. O horizonte, de novo, é só areia igual a areia. À tarde, uma crista que ele jurava nova já tem as marcas da carroça de ontem.
+> Navegação em terra (Yusuf): NH *12*
+> 3d [6, 3, 4] = *13* → *falhou por 1*
+> *Rumo errado de novo:* 0 km creditados
+> Tabela do dia: *10*, nada acontece
+
+A comida acabou. Ninguém come: o couro dos cintos, o último pedaço de rapadura dos bolsos, a carne dos reptantes, tudo já foi para dentro. A água é pouca: quinze litros nos barris, e os animais tomam tudo antes de qualquer pessoa. Os homens mal molham os lábios.
+> Comida: *0 p-d*. Ninguém come: *-3 de Fadiga* cada (3 refeições perdidas)
+> Água: 15 L → montarias primeiro (precedente do dia 9). As pessoas ficam com menos de 1 L: *-2 de Fadiga e -2 de PV* cada
+> Ninguém cura: sem comida e sem água
+
+Os cavalos bebem em goles curtos, e o tanque vazio ecoa. Cada animal levou uma fração do que pede.
+> Montarias: 15 L ÷ 4 = *3,75 L de 10 L cada* (37,5%): mesma regra de sede dos homens, proporcional → *-1 PV e -1 Fadiga* por animal
+> Cavalos de tiro (Tração, PV 12, ST/Fadiga 60): PV *11/12*, Fadiga *59/60* (os dois)
+> Cavalo do Jah e cavalo do Kaelric (Batalha, PV 15, ST/Fadiga 50): PV *14/15*, Fadiga *49/50* (os dois)
+
+À noite, cada um se deita onde pode, a boca seca e a cabeça girando.
+> Fadiga: Comam 8/13 · Kaelric 8/13 · Jah 4/9 · Negrum 8/15 · NelsOwned 10/15 · Edric 5/12
+> PV: Comam 7/13 · Kaelric 8/12 · Jah 9/12 · Negrum 10/12 · NelsOwned 4/13
+
+*Saldo do dia:* 120 km andados dos 200, *faltam 80 km*. *0 L de água* e *nenhuma ração*.

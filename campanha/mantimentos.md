@@ -7,7 +7,109 @@ e quanto se desconta por dia**. Este arquivo é **mantido à mão**: nenhum scri
 nele, ao contrário de `saude.md` e `bolsa.md`. Ao alterar, ajuste também a linha do capítulo em
 `grupo.md` (`campanha.py anotar --tag item`), para que o registro da sessão conte a mesma conta.)_
 
-## Estado atual — fim do dia 12 (dias 3 a 12 baixados)
+## Estado atual — dia 17, manhã (dias 3 a 16 baixados + chegada ao oásis)
+
+**Dia 17:** o grupo saiu antes do amanhecer, mal dormido. Carreiro do Jah 12 (3d 11, sucesso por 1) e navegação do Yusuf 12 (3d 8, sucesso por 4): marcha cheia, **+30 km → 180 km andados, faltam 20.** Chegam ao oásis pela manhã e **bebem água**. **Sem cobrança de sede e de fome neste dia** (decisão do Mestre): PV e Fadiga ficam como no fim do dia 16. Barris: **0 L**; comida: **0**; reabastecimento do oásis **a definir**.
+
+_(o estado do fim do dia 16 segue abaixo, como histórico)_
+
+### Fim do dia 16 (dias 3 a 16 baixados)
+
+**Dia 16:** tabela deu 11 (nada, só barulhos). Jah dirige (Carreiro 12, 3d 11, sucesso); **rumo certo** (Yusuf 12, 3d 12, sucesso por 0): **+30 km**. **150 km andados, faltam 50.** 7 bocas e 4 montarias, **0 L de água e 0 de comida**.
+
+**Regra da fome corrigida (Mestre, dia 16; MB cap. 12, Inanição):** cada refeição perdida custa 1 de ST como Fadiga; **quando a ST chega a 3 por inanição, o resto passa a ser perda de PV no mesmo ritmo.** A sede (0 L) cobra -2 Fadiga e -2 PV direto. Ordem usada: sede primeiro, depois a fome (que para em ST 3).
+
+| Quem | Fadiga antes | Sede (-2/-2) | Fome (-3) | Fadiga fim | PV fim |
+|---|---:|---|---|---:|---:|
+| Comam | 8 | 6, PV 5 | 3 (ST 3, sem PV) | **3/13** | **5/13** |
+| Kaelric | 8 | 6, PV 6 | 3 (ST 3, sem PV) | **3/13** | **6/12** |
+| Jah | 4 | 2, PV 7 | ST já <3: -3 PV | **2/9** | **4/12** |
+| Negrum | 8 | 6, PV 8 | 3 (ST 3, sem PV) | **3/15** | **8/12** |
+| NelsOwned | 10 | 8, PV 2 | 5 | **5/15** | **2/13** |
+| Edric (NPC) | 5 | 3, PV 9 | ST já 3: -3 PV | **3/12** | **6/11** |
+
+**Montarias (0 L = menos de 20% dos 10 L: -2 PV e -2 Fadiga cada):** cavalos de tiro PV **9/12**, Fadiga **57/60** (os dois); cavalo do Jah e do Kaelric PV **12/15**, Fadiga **47/50**.
+
+**Dia 17 amanhece sem água nem comida** e a 50 km de Ferrier: a sede e a fome cobram de novo, e Nels e Jah estão a um dia do zero de PV.
+
+_(o estado do fim do dia 15 segue abaixo, como histórico)_
+
+### Fim do dia 15 (dias 3 a 15 baixados)
+
+**Dia 15:** tabela deu 10 (nada). Jah dirige (Carreiro 12, 3d 11, sucesso); **rumo errado de novo** (Yusuf 12, 3d 13): **0 km**. **120 km andados, faltam 80.** 7 bocas e 4 montarias.
+
+| Bem | Fim do dia 14 | Despesa do dia 15 | **Sobra** |
+|---|---:|---:|---:|
+| **Água** | 15 L | 15 L bebidos (cobrava 75): montarias primeiro, 3,75 L cada | **0 L** |
+| **Comida** | 0 p-d | 0 (cobrava 7) | **0 p-d** |
+
+**Sede e fome do dia 15 (por pessoa):** menos de 1 L de água = **-2 Fadiga e -2 PV**; zero comida = **-3 Fadiga** (3 refeições). Total **-5 Fadiga e -2 PV** em cada um (Comam, Kaelric, Jah, Negrum, NelsOwned, Edric e Yusuf). Ninguém cura.
+
+### Montarias (registro aberto no dia 15)
+
+Regra (decisão do Mestre, dia 15): **mesma regra de sede dos homens, proporcional.** O que a montaria bebe, dividido pelos 10 L que ela cobra: abaixo de 100% perde **1 PV e 1 Fadiga**; abaixo de 20% (menos de 2 L), **2 e 2**. Tipos pela tabela do MB (cap. 15): Cavalo de Tração (ST 60, HT 12, Desl 9) e Cavalo de Batalha (ST 50, HT 15, Desl 6). PV = HT; Fadiga = ST.
+
+| Animal | Tipo | PV máx | Fadiga máx | **PV** | **Fadiga** | Dia 15 |
+|---|---|---:|---:|---:|---:|---|
+| Cavalo de tiro 1 | Tração | 12 | 60 | **11** | **59** | 3,75 L de 10 (37,5%): -1/-1 |
+| Cavalo de tiro 2 | Tração | 12 | 60 | **11** | **59** | idem |
+| Cavalo do Jah | Batalha | 15 | 50 | **14** | **49** | idem |
+| Cavalo do Kaelric | Batalha | 15 | 50 | **14** | **49** | idem |
+
+**Dia 16 amanhece sem água nem comida:** pessoas com 0 L (-2 Fadiga/-2 PV) e fome (-3 Fadiga); montarias com 0 L (menos de 20%: -2 PV e -2 Fadiga cada). Nenhuma regra do MB dá a morte da montaria por sede, então a margem é do Mestre.
+
+_(o estado do fim do dia 14 segue abaixo, como histórico)_
+
+### Fim do dia 14 (dias 3 a 14 baixados)
+
+**Dia 14:** tabela deu 9 (corpo na areia, já saqueado). Jah dirige (Carreiro 12, 3d 11, sucesso); **rumo errado** (Yusuf 12, 3d 13): **0 km**. **120 km andados, faltam 80.** 7 bocas (5 PJs, Edric e Yusuf), 4 montarias.
+
+| Bem | Fim do dia 13 | Despesa do dia 14 | **Sobra** |
+|---|---:|---:|---:|
+| **Água** | 90 L | -75 L (7 bocas × 5 L + 4 montarias × 10 L) | **15 L** (1/5 de dia de comitiva) |
+| **Comida** | 5 p-d | -5 p-d (só deu para 5 das 7 bocas) | **0 p-d** |
+
+**Comida do dia 14 (21 refeições necessárias, 15 disponíveis):** os feridos comeram primeiro e inteiros (Nels, Comam, Kaelric e Jah, 12 refeições); as 3 refeições que sobraram foram 1 para cada um de Negrum, Edric e Yusuf. Quem comeu direito rolou cura natural: Nels +1, Comam +1, Kaelric e Jah falharam.
+
+| Quem | Refeições perdidas | **Fadiga por fome perdida** | **A recuperar** |
+|---|---:|---:|---:|
+| Negrum | 2 | **2** | 2 |
+| Edric (NPC) | 2 | **2** | 2 |
+| Yusuf (NPC) | 2 | **2** | 2 |
+| Comam, Kaelric, Jah, NelsOwned | 0 | 0 | 0 |
+
+**Dia 15 amanhece com 15 L de água e zero comida:** a despesa de 75 L vai cobrar sede (menos de um litro por pessoa: -2 Fadiga e -2 PV) e fome total (-3 Fadiga para todos, cada dia).
+
+_(o estado do fim do dia 13 segue abaixo, como histórico)_
+
+### Fim do dia 13 (dias 3 a 13 baixados)
+
+**Dia 13:** a travessia virou luta (turnos 19 a 25); William morreu no turno 24 e a comitiva ficou com **7 bocas** (Comam, Kaelric, Jah, Negrum, NelsOwned, Yusuf e Edric) e **4 montarias**. **NelsOwned revistou os corpos dos reptantes** e achou **3 dias de ração por reptante = 12 pessoas-dia de comida** e **20 litros de água** (decisão do Mestre, sem teste).
+
+| Bem | Fim do dia 12 | Achado nos reptantes | Despesa do dia 13 | **Sobra** |
+|---|---:|---:|---:|---:|
+| **Água** | 145 L | +20 L | -75 L (7 bocas × 5 L + 4 montarias × 10 L) | **90 L** (1 dia e 1/5 de comitiva) |
+| **Comida** | 0 p-d | +12 p-d | -7 p-d (as 7 bocas comem o dia) | **5 p-d** (menos de um dia de comitiva) |
+
+### Fadiga por fome (ledger)
+
+Regra (MB, cap. 12): cada refeição perdida custa **1 de ST tratado como Fadiga**; essa Fadiga **só volta com 1 dia de descanso** (sem viagem nem luta) e **3 refeições completas**, e cada dia assim recupera **3 refeições perdidas**. Aqui se guarda o que cada um **perdeu** e o que **ainda deve** recuperar.
+
+| Quem | Refeições perdidas até o dia 12 | Dia 13: previstas / comidas | **Fadiga por fome perdida** | **A recuperar** |
+|---|---:|---:|---:|---:|
+| Comam | 0 | 3 / 3 | **0** | 0 |
+| Kaelric | 0 | 3 / 3 | **0** | 0 |
+| Jah | 0 | 3 / 3 | **0** | 0 |
+| Negrum | 0 | 3 / 3 | **0** | 0 |
+| NelsOwned | 0 | 3 / 3 | **0** | 0 |
+| Yusuf (NPC) | 0 | 3 / 3 | **0** | 0 |
+| Edric (NPC) | 0 | 3 / 3 | **0** | 0 |
+
+**Dia 13:** a comida do achado chegou antes do fim do dia e **todos comeram as 3 refeições** (7 p-d para 7 bocas). Nenhuma refeição foi perdida, então **não há Fadiga por fome para cobrar nem para recuperar**: o -3 que o MB cobraria por um dia sem comer não vale. A Fadiga de cada um segue a do `saude.md`, sem desconto de fome. Daqui em diante, **cada refeição que faltar** entra na coluna "perdida", e só um dia parado com 3 refeições completas a devolve (3 por dia).
+
+_(o estado do fim do dia 12 segue abaixo, como histórico)_
+
+### Fim do dia 12 (dias 3 a 12 baixados)
 
 **Dia 12:** tabela deu 7 (caravana menor); o guia **Yusuf ibn Harun, o Rato-de-Duna**, entra na comitiva e come da comida do grupo: **8 bocas** de novo, **80 L e 8 pessoas-dia por dia**. Rumo acertado (Navegação 12 em terra), +30 km. **145 L** de água (1 dia e 3/4) e **0 pessoas-dia** de comida: **a comida acabou**. 120 km andados, faltam 80.
 
@@ -138,7 +240,12 @@ Marque ao fim de cada dia, no mesmo momento da noite em que o número é dito em
 | **10** | **Negrum 9, 3d [4,5,2] = 11 → FALHA por 2** | Comam 13, 3d [1,6,3] = 10 → SUCESSO por 3 | **0** — sétimo dia, sexto erro | **+300 L do oásis; o dia foi bebido da própria fonte** | **300** | **0 (dia de graça)** | linha 4: **oásis fora do mapa**. Água para encher os seis barris, sombra, e a comida do dia não foi tocada |
 | 11 | **Negrum 9, 3d [6,3,4] = 13 → FALHA por 4** | Comam 13, 3d [4,5,2] = 11 → SUCESSO por 2 | **0** — sexto erro de rumo | 75 | **225** | 7 | tabela deu 10: **nada**. Sobram 8 pessoas-dia de comida. ERRATA: o dia chegou a ser resolvido com tabela 4 (oásis) e foi refeito |
 | **12** | **Yusuf 12 (Navegação em terra), 3d [2,5,3] = 10 → SUCESSO por 2** | Comam 13, 3d [6,2,5] = 13 → SUCESSO por 0 | **+30** → **120 km andados** | 80 | **145** | 8 | linha 7: caravana menor; o Rato-de-Duna entra como guia (8 bocas). **A comida acabou** |
-| 13 em diante | Yusuf (Navegação 12 em terra) | — | 30/dia (40 forçando) | 80/dia | — | 8/dia | **145 L = 1 dia e 3/4** e **comida zero** contra 80 km (~3 dias com o rumo acertando) |
+| 13 | luta com os reptantes (turnos 19 a 25), sem marcha | — | 0 | 75 (e **+20 L** achados nos reptantes) | **90** | 7 (e **+12 p-d** achados) | William morreu no turno 24: 7 bocas. NelsOwned revistou os corpos: 12 rações e 20 L. Sobram **5 p-d** de comida |
+| 14 | Yusuf 12, 3d 13 → FALHA por 1 | Jah 12, 3d 11 → SUCESSO por 1 | **0** (120 andados) | 75 | **15** | 5 (de 7; 0 sobra) | Tabela 9: corpo saqueado. Feridos comeram inteiro; Negrum, Edric e Yusuf -2 Fadiga |
+| 15 | Yusuf 12, 3d 13 → FALHA por 1 | Jah 12, 3d 11 → SUCESSO por 1 | **0** (120 andados) | 15 (tudo o que havia) | **0** | 0 | Tabela 10: nada. Pessoas -5 Fadiga/-2 PV; montarias -1/-1 |
+| 16 | Yusuf 12, 3d 12 → SUCESSO por 0 | Jah 12, 3d 11 → SUCESSO por 1 | **+30** (150 andados) | 0 | **0** | 0 | Tabela 11: barulhos. Fome corrigida: para em ST 3, resto em PV |
+| 17 | Yusuf 12, 3d 8 → SUCESSO por 4 | Jah 12, 3d 11 → SUCESSO por 1 | **+30** (180 andados) | 0 (bebem no oásis) | **0** | 0 | Chegam ao oásis de manhã; sem cobrança de sede e fome |
+| 18 em diante | Yusuf (Navegação 12 em terra) | Jah 12 | 30/dia (40 forçando) | 75/dia | — | 7/dia | **0 L** e **0 p-d** contra 80 km (~3 dias com o rumo acertando): sede e fome cobram Fadiga e PV de todos, e as montarias perdem 2 PV e 2 Fadiga por dia sem água |
 
 **A conta fechada do fim do dia 6:** 375 L e 68 pessoas-dia na véspera do dia 3, menos quatro dias
 de barril (−320 L, −32 pessoas-dia), **mais os 50 litros do poço amargo (dia 4) e os 115 litros

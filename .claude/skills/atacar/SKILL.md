@@ -121,7 +121,7 @@ NPC sem peça listada, `--alvo-escudo-dp`.
 | `--alvo-manobra` | `defesa-total`, `ataque-total` (sem defesa), `atordoado` (-4), `surpreendido` |
 | `--recuar` | **+3** em qualquer defesa, uma vez por rodada |
 | `--sem-escudo` | O escudo da ficha **não vale nesta troca**: está às costas, o alvo empunha arma de duas mãos, ou o golpe vem por trás |
-| `--alvo-hipoalgia` | Sem redutor por ferimento — é o caso dos mortos-vivos desta campanha |
+| `--alvo-hipoalgia` | Sem redutor por ferimento **e sem atordoamento** (salvo cabeça/fulminante) — mortos-vivos e **todo NPC cujo `npcs.md` liste Hipoalgia** (Vurkash). Sem a flag o script atordoa quem não pode |
 
 ## Manobras
 

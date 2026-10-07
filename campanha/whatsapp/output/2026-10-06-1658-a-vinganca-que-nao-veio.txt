@@ -1,0 +1,36 @@
+*A VINGANÇA QUE NÃO VEIO*
+
+O silêncio dura o tempo de um fôlego. Do outro lado da lagoa, Edric tem a lâmina cinzenta no queixo e os olhos esbugalhados; o orc, rente ao tronco, não pisca. A água bate nas pedras, os cavalos param de beber, e todo mundo entende que a próxima palavra pode matar alguém.
+
+Jah é quem fala. Ergue as duas mãos abertas, devagar, e fala alto o suficiente para que a voz cruze a água sem tremer, embora o coração lhe bata no pescoço.
+
+— Desculpa! Nós tivemos que enterrar ele!! — grita. — Foi ontem, final da tarde!
+
+A resposta demora. O orc não mexe a lâmina. Sob os dreads brancos, o rosto de cicatrizes se contrai devagar, como se as palavras entrassem uma por vez e cada uma queimasse. Quando ele fala, a voz, baixa e áspera, treme de um jeito que ninguém ali esperava.
+
+— Vcs mataram ele?!
+
+O braço em volta do pescoço de Edric aperta, e o guarda engasga contra o couro da manopla.
+
+— Vcs tiraram a minha vingança?!
+
+O grito rola pela areia, ricocheteia nas pedras do oásis e espanta os pássaros das tamareiras. Os cavalos recuam, relinchando. Nos olhos azuis e foscos do orc há uma coisa que não é só ódio: é a falta do que ele atravessou o deserto inteiro para encontrar. A lâmina treme, a um fio da garganta de Edric.
+
+NelsOwned dá um passo à frente, as mãos abertas, e a voz sai grave e macia, a voz de palco que ele usa quando a plateia está a um fio de virar o rosto.
+
+— Guerreiro, ouça um anão que sabe o preço de uma perda. O homem que o senhor segura não matou ninguém. A sua vingança já foi cobrada, não pela nossa mão, mas pela areia. Solte o rapaz, e conversamos sobre o que o senhor perdeu.
+
+O orc ouve. O braço treme. Sob os dreads, a mandíbula se contrai e os músculos do pescoço se retesam; é a Fúria que lhe sobe pelo corpo, a vontade de enfiar o ferro e acabar com tudo. Por um instante comprido, o oásis inteiro prende a respiração.
+> Vontade do orc contra a Fúria: NH *15*
+> 3d [4, 3, 2] = *9* → *sucesso por 6*
+> Ele resiste: não corta o pescoço
+
+Ele não solta Edric, mas também não cravou o aço. Gira a arma na mão, vira o pomo do montante e desfere um golpe curto e seco no alto da cabeça do guarda.
+> Dano do pomo (GDP 1D, contusão), cabeça: 1D: [2] = *2*, RD 0 → *2*
+> *Edric perde 2 PV (PV 4/11)*
+> HT 11 contra nocaute (cabeça), 3d [3, 5, 6] = *14* → *falhou por 3*
+> *Edric desmaia*
+
+O guarda amolece contra o braço do orc, a cabeça tombada, vivo e inconsciente. O orc o mantém de pé, o rosto virado para o grupo, os olhos azuis foscos fixos em Nelsowned.
+
+— Fale — rosna. — Fale tudo o que sabe do William.

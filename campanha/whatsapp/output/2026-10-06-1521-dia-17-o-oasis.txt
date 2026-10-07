@@ -1,0 +1,18 @@
+*DIA 17 — O OÁSIS*
+
+Ninguém dormiu direito. A noite foi de sede e de barulhos, e a comitiva ergue acampamento ainda no escuro, só para não ficar parada com o próprio corpo. Jah toma as rédeas antes do primeiro clarão, as mãos rachadas, os olhos fundos, e a carroça rola devagar pela areia fria.
+> Carreiro: pré-definido Cavalgar 14 -2 = *12*
+> 3d [5, 5, 1] = *11* → sucesso por 1
+
+Yusuf, no alto da capota, fecha os olhos, abre-os de novo e estende o braço para o sul. Desta vez não hesita.
+> Navegação em terra (Yusuf): *sucesso* (3d [2, 5, 1] = *8* contra NH 12, sucesso por 4)
+> Distância do dia: *30 km* (de 150 para *180 km*), *faltam 20 km* até Ferrier
+
+A manhã já vai alta quando uma mancha verde corta o amarelo. É primeiro um tremor, depois uma linha de tamareiras, depois o brilho de água de verdade. Ninguém fala. Os cavalos sentem o cheiro antes de qualquer pessoa e aceleram sozinhos, arrastando a carroça pelo último trecho de areia solta.
+
+A carroça mal para. Os homens saltam, caem de joelhos na beira da lagoa e bebem com as duas mãos, de boca aberta, sem respirar. NelsOwned afunda o rosto na água e tosse. Comam, sentado na areia com a perna esticada, joga água na cabeça e ri, o primeiro riso em dias. Kaelric molha o rosto de Edric, que ainda custa a se levantar. Yusuf bebe de joelhos, calado. Os cavalos dão goles longos e barulhentos, as narinas imersas até o osso.
+> Ninguém perde Fadiga nem PV por sede ou fome nesta manhã (decisão do Mestre: chegam pela manhã)
+
+A sombra das tamareiras é fresca, e a água, doce. Por alguns minutos o mundo se resume ao som de gente bebendo.
+
+Entre os troncos, a poucos passos do grupo, uma sombra se move sem fazer ruído, rente ao chão. Ninguém a vê.

@@ -25,6 +25,12 @@ _(o que de fato aconteceu com o lugar, os objetos e o que se sabe durante o jogo
 ## Mantimentos
 
 - **03/10/2026 08:24** · _item_ — Fim do dia 11: 225 L de água e 8 pessoas-dia de comida (cobra 7/dia); 90 km andados, faltam 110. Comida acaba no dia 13.
+- **06/10/2026 11:28** · _item_ — Fim do dia 13: NelsOwned revistou os corpos dos reptantes e achou 3 dias de ração por reptante (12 pessoas-dia) e 20 L de água (decisão do Mestre). William morto: 7 bocas. Água 145 + 20 - 75 = 90 L; comida 0 + 12 - 7 = 5 pessoas-dia. Sem Fadiga de fome no dia 13.
+- **06/10/2026 11:32** · _item_ — Fadiga por fome: ledger aberto em mantimentos.md. Dia 13: todos (PCs, Yusuf e Edric) comeram as 3 refeições com a comida achada nos reptantes; 0 pontos de Fadiga por fome perdidos e 0 a recuperar. Daqui em diante cada refeição perdida custa 1 de Fadiga, devolvida só por 1 dia de descanso com 3 refeições (3 por dia).
+- **06/10/2026 12:57** · _item_ — Fim do dia 13: Fadiga de cansaço e de fome de todos recuperada por decisão do Mestre (errata: sem dia parado). Saldo: 90 L de água e 5 pessoas-dia de comida.
+- **06/10/2026 13:11** · _item_ — Fim do dia 14: água 90-75 = 15 L; comida 5-5 = 0. Rumo errado (Yusuf 13 contra NH 12): 0 km, 120 andados, faltam 80. Fadiga por fome: Negrum, Edric e Yusuf -2 cada (1 de 3 refeições); feridos comeram inteiro.
+- **06/10/2026 14:47** · _item_ — Fim do dia 15: água 15 -> 0 (montarias primeiro: 3,75 L cada, -1 PV e -1 Fadiga por animal; pessoas com menos de 1 L); comida 0. Rumo errado (Yusuf 13 contra NH 12): 0 km, 120 andados, faltam 80. Por pessoa: -5 Fadiga, -2 PV. Registro das montarias aberto em mantimentos.md.
+- **06/10/2026 14:56** · _item_ — Fim do dia 16: água 0, comida 0. Rumo certo (Yusuf 12, tirou 12): +30 km, 150 andados, faltam 50. Sede e fome cobradas (fome para em ST 3, resto em PV). Montarias 0 L: -2 PV e -2 Fadiga cada.
 
 ## Caravana pequena
 

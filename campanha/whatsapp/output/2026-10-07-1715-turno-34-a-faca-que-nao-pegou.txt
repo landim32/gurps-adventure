@@ -1,0 +1,24 @@
+*TURNO 34 — A FACA QUE NÃO PEGOU*
+
+Vurkash firma o pé na lama, apoia a mão no joelho e se levanta, devagar, como quem arrasta o próprio peso. Um fio de sangue desce pela coxa. Ele não olha para ele.
+> Vurkash: de ajoelhado para de pé (levantar pela exceção do livro, sem teste)
+
+Jah dá a faca da esquerda por garantida, leva a direita à bota e traz a adaga num só gesto. Depois firma o cotovelo e acompanha o braço direito do orc com a ponta, sem soltar.
+> Sacar Rápido (Adaga) NH 15: 3d [4, 4, 1] = *9* → sucesso por 6
+> Jah apontou (Apontar): 1º turno de mira, sem ataque. Qualquer defesa ou ferimento estraga a mira.
+
+O orc não perde tempo com o que sobrou do fôlego. Puxa a faca do cinto e a joga contra o Kaelric, o gigante coxo de pavês erguido, que está do outro lado da água.
+> Sacar Rápido (Faca): NH 15, 3d [3, 4, 2] = *9* → sucesso por 6
+> Ataque: Arremesso de Faca NH 16, -3 distância (6 m), -4 Pé (ponto sorteado: 3d [4, 5, 6] = 15), -4 Tiro Rápido (NH ajustado 9 < TR 11) = *5*
+> 3d [1, 2, 4] = *7* → falhou por 2
+> *Vurkash errou.* Vurkash tem agora 3 facas.
+
+A lâmina zune ao lado do pé de Kaelric e se perde na lama. Ele nem se mexe: mantém o escudo no lugar, em defesa total.
+
+Comam dá um passo curto, coxeando, e fica de picaretas erguidas, em defesa total.
+
+Negrum contorna o lago pelo sul, em direção ao orc, o escudo à frente e a guarda fechada. Anda três hexágonos e vira a frente no fim do passo.
+
+NelsOwned anda dois hexágonos, com a mão no flanco. Só anda.
+
+*Deslocamentos conferidos:* Comam *1* e Kaelric *1* (coxos, Fadiga 3), Jah *3*, Negrum *3*, NelsOwned *2* (PV 1), Vurkash *3*. Ninguém passou do que podia.

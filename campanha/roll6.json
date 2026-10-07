@@ -3,7 +3,18 @@
   "campaignId": 1,
   "campanha": "Tormento Vil",
   "mapas": {
-    "cenarios/com-grid/estrada.json": {"mapId": 2, "modelo": 2, "nome": "Estrada 1", "linhasExtras": 16}
+    "cenarios/com-grid/estrada.json": {
+      "mapId": 2,
+      "modelo": 2,
+      "nome": "Estrada 1",
+      "linhasExtras": 16
+    },
+    "oasis-1": {
+      "mapId": 5,
+      "modelo": 5,
+      "nome": "Oásis 1",
+      "grade": "17x22, imagem natural 1024x1536 (hex 40 px), arte em cenarios/oasis.jpg"
+    }
   },
   "apelidos": {
     "Sir William": "Lorde William de Wallace",

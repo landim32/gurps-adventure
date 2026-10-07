@@ -8,12 +8,13 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 <!-- indice:saude -->
 | Quem | | PV | Fadiga | Estado |
 |---|---|---:|---:|---|
-| Comam Obabaroy | PJ | 8/13 | 12/13 | — |
-| Irmão Kaelric | PJ | 10/12 | 12/13 | PV 1 de 12: Deslocamento à metade (MB 12). MONTADO, seguindo a carroça no deserto, maça na mão. Sem teste de consciência: saiu de 0 PV.; Perna COXA, temporária: HT 12 tirou 11, sucesso por 1. Sara quando a vitalidade voltar a 12. Até lá, a pé não caminha; montado, -1 em Cavalgar.; PV 2 de 12: Deslocamento à metade. MONTADO junto da carroça, maça na mão, consciente.; Perna COXA, temporária: sara quando os PV voltarem a 12. A pé não caminha; montado, -1 em Cavalgar. |
-| Jah Kagadu | PJ | 11/12 | 8/10 | PV 3 de 12: Deslocamento à metade. MONTADO no deserto, junto da carroça, com o Negrum na garupa. Uma adaga na mão, a outra guardada.; PV 4 de 12: Deslocamento à metade (ainda no terço de HT/3 = 4). MONTADO no deserto junto da carroça, com o Negrum na garupa. Uma adaga na mão, a outra guardada. |
-| Negrum Carneiriums | PJ | 12/12 | 14/15 | — |
-| NelsOwned | PJ | 5/13 | 14/15 | DESMAIADO na caçamba, no deserto. PV -5 de 13. Acorda em 6 horas, ainda a -5. Morre se chegar a -13 sem teste de HT. Deslocamento à metade.; Maneta da mão esquerda, permanente, -15 na ficha. A direita segue inteira. Machado grande não empunha.; PV -4 de 13: INCONSCIENTE na caçamba. Pela regra da casa (cap. 6: '1 ponto que seja acima de 0, e ele levanta') faltam 5 pontos de cura para ele acordar. Sangramento do braço tratado como estancado, senão já teria ido a -13.; PV -4 de 13: ACORDADO e acamado na caçamba. Levanta a cabeça, fala baixo, pede água, não fica de pé nem sai da maca de carga. Consciente, não curado.; PV 5/13: fora do terço de HT/3 (4), Deslocamento inteiro de novo. Sem mão esquerda; machado grande fora de uso, machado de uma mão servindo. |
+| Comam Obabaroy | PJ | 5/13 | 3/13 | — |
+| Irmão Kaelric | PJ | 6/12 | 3/13 | PV 1 de 12: Deslocamento à metade (MB 12). MONTADO, seguindo a carroça no deserto, maça na mão. Sem teste de consciência: saiu de 0 PV.; Perna COXA, temporária: HT 12 tirou 11, sucesso por 1. Sara quando a vitalidade voltar a 12. Até lá, a pé não caminha; montado, -1 em Cavalgar.; PV 2 de 12: Deslocamento à metade. MONTADO junto da carroça, maça na mão, consciente.; Perna COXA, temporária: sara quando os PV voltarem a 12. A pé não caminha; montado, -1 em Cavalgar. |
+| Jah Kagadu | PJ | 4/12 | 2/10 | PV 3 de 12: Deslocamento à metade. MONTADO no deserto, junto da carroça, com o Negrum na garupa. Uma adaga na mão, a outra guardada.; PV 4 de 12: Deslocamento à metade (ainda no terço de HT/3 = 4). MONTADO no deserto junto da carroça, com o Negrum na garupa. Uma adaga na mão, a outra guardada. |
+| Negrum Carneiriums | PJ | 8/12 | 3/15 | — |
+| NelsOwned | PJ | 1/13 | 5/15 | DESMAIADO na caçamba, no deserto. PV -5 de 13. Acorda em 6 horas, ainda a -5. Morre se chegar a -13 sem teste de HT. Deslocamento à metade.; Maneta da mão esquerda, permanente, -15 na ficha. A direita segue inteira. Machado grande não empunha.; PV -4 de 13: INCONSCIENTE na caçamba. Pela regra da casa (cap. 6: '1 ponto que seja acima de 0, e ele levanta') faltam 5 pontos de cura para ele acordar. Sangramento do braço tratado como estancado, senão já teria ido a -13.; PV -4 de 13: ACORDADO e acamado na caçamba. Levanta a cabeça, fala baixo, pede água, não fica de pé nem sai da maca de carga. Consciente, não curado.; PV 5/13: fora do terço de HT/3 (4), Deslocamento inteiro de novo. Sem mão esquerda; machado grande fora de uso, machado de uma mão servindo. |
 | Donnwulf | NPC | -27 | — | FALECEU no pátio do portão, em L6. Vitalidade -15 de 12: a terceira machadada do NelsOwned sobre o membro preso tirou os 4 pontos do teto (HT/3) e cruzou a barreira de -HT. Teste de HT 12 contra a morte (MB pág. 126): tirou 13, falhou por um. Estava inconsciente e sem nada para gastar a favor |
+| Edric Halloway | NPC | -7 | -9 | — |
 | Hoel Meia-Orelha | NPC | -21 | — | MORTO — espancado até a morte pelo Negrum enquanto estava inconsciente (MB pág. 128: pessoa indefesa atacada de maneira letal morre sem jogada); **DECAPITADO** em L5 pelo machado grande de NelsOwned (cap. 01), no turno seguinte ao em que se levantou. Mesmo critério do Morto-Vivo 1: 15 pontos, 1,5 x HT, numa criatura de HT 10. Destruído de vez: não se levanta, não volta |
 | Lanceiro | NPC | -5 | — | SUMIDO na massa da rampa desde o turno 5, arrastado de L6 até L8-L9. Ninguém do grupo sabe se vive. Levava -5 de vitalidade e a perna esquerda destruída quando se perdeu de vista. Fora do mapa, e agora do lado de fora do portão fechado |
 | Lorde William de Wallace | NPC | -22 | — | ATORDOADO: -4 nas defesas; testa HT no próximo turno; Caído e atordoado, PV -6: HT 11 a cada turno para seguir consciente; MORTO no turno 24 (PV -11), caído em (10,8) |
@@ -30,13 +31,14 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 | Reptante 2 | NPC | -25 | — | MORTO no turno 24 (PV -13), caído em (11,7) |
 | Reptante 3 | NPC | -9 | — | — |
 | Reptante 4 | NPC | -21 | — | MORTO no turno 25 (empalado pela espada de Negrum), caído em (10,7) |
+| Vurkash | NPC | -14 | — | — |
 <!-- /indice:saude -->
 
 ## Personagens
 
 ### Comam Obabaroy
 
-**PV 8/13 · Fadiga 12/13**
+**PV 5/13 · Fadiga 3/13**
 
 - **07/09/2026 22:31** · estado — Bêbado e dormindo sobre a mesa — -3 em todos os atributos e perícias enquanto durar o porre (parâmetro do MB pág. 32, Alcoolismo); alvo fácil e sem defesa ativa até acordar
 - **15/09/2026 20:16** · FAD -1 — Falha no teste de ST para erguer a carroça tombada, com -3 do porre (MB pág. 89)
@@ -57,10 +59,16 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **05/10/2026 22:50** · curado — Perna incapacitada
 - **05/10/2026 22:50** · estado — Perna incapacitada, sentado, sem atordoamento (sem redutor por Hipoalgia)
 - **05/10/2026 23:25** · PV +1 — Primeiros Socorros do Kaelric (NH 14 +1 kit = 15, 3d [5,3,3]=11, sucesso por 4); 1D-3 deu -2, mínimo 1 PV (MB cap. 12, NT 3)
+- **06/10/2026 12:57** · FAD +1 — Dia 13: ERRATA/DECISÃO DO MESTRE: Fadiga de cansaço e de fome totalmente recuperada no fim do dia
+- **06/10/2026 13:11** · PV +1 — Dia 14: cura natural HT 13 tirou 9 (comeu o dia inteiro)
+- **06/10/2026 14:47** · PV -2 — Dia 15: sede (menos de 1 L: -2 Fadiga, -2 PV) e fome total (-3 Fadiga)
+- **06/10/2026 14:47** · FAD -5 — Dia 15: sede (menos de 1 L: -2 Fadiga, -2 PV) e fome total (-3 Fadiga)
+- **06/10/2026 14:56** · PV -2 — Dia 16: sede -2/-2; fome -3 Fadiga (para em ST 3)
+- **06/10/2026 14:56** · FAD -5 — Dia 16: sede -2/-2; fome -3 Fadiga (para em ST 3)
 
 ### Irmão Kaelric
 
-**PV 10/12 · Fadiga 12/13**  ·  **PV 1 de 12: Deslocamento à metade (MB 12). MONTADO, seguindo a carroça no deserto, maça na mão. Sem teste de consciência: saiu de 0 PV.**; **Perna COXA, temporária: HT 12 tirou 11, sucesso por 1. Sara quando a vitalidade voltar a 12. Até lá, a pé não caminha; montado, -1 em Cavalgar.**; **PV 2 de 12: Deslocamento à metade. MONTADO junto da carroça, maça na mão, consciente.; Perna COXA, temporária: sara quando os PV voltarem a 12. A pé não caminha; montado, -1 em Cavalgar.**
+**PV 6/12 · Fadiga 3/13**  ·  **PV 1 de 12: Deslocamento à metade (MB 12). MONTADO, seguindo a carroça no deserto, maça na mão. Sem teste de consciência: saiu de 0 PV.**; **Perna COXA, temporária: HT 12 tirou 11, sucesso por 1. Sara quando a vitalidade voltar a 12. Até lá, a pé não caminha; montado, -1 em Cavalgar.**; **PV 2 de 12: Deslocamento à metade. MONTADO junto da carroça, maça na mão, consciente.; Perna COXA, temporária: sara quando os PV voltarem a 12. A pé não caminha; montado, -1 em Cavalgar.**
 
 - **09/09/2026 12:21** · FAD -3 — Fadiga de batalha contra os mortos-vivos: Carga média, nível 2 +1 — a cota de malha e o escudo grande cobram (MB pág. 134)
 - **15/09/2026 20:16** · FAD -1 — Falha no teste de ST para erguer a carroça tombada (MB pág. 89: falha em teste de esforço custa 1 ponto de ST por Fadiga)
@@ -107,10 +115,15 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **02/10/2026 23:34** · PV +1 — Dia 10: cura natural, HT 12, 3d [2,1,4] = 7, SUCESSO por 5 - melhor noite dele desde Wallace. Perna coxa segue.
 - **03/10/2026 08:25** · FAD +0 — Dia 11: cura natural, HT 12, 3d [4,3,6] = 13, FALHA por 1 - sem cura hoje. Permanece 9/12.
 - **03/10/2026 10:03** · PV +1 — Dia 12: cura natural, HT 12, 3d [5,1,3] = 9, SUCESSO por 3. Perna coxa segue até os 12.
+- **06/10/2026 12:57** · FAD +1 — Dia 13: ERRATA/DECISÃO DO MESTRE: Fadiga de cansaço e de fome totalmente recuperada no fim do dia
+- **06/10/2026 14:47** · PV -2 — Dia 15: sede (menos de 1 L: -2 Fadiga, -2 PV) e fome total (-3 Fadiga)
+- **06/10/2026 14:47** · FAD -5 — Dia 15: sede (menos de 1 L: -2 Fadiga, -2 PV) e fome total (-3 Fadiga)
+- **06/10/2026 14:56** · PV -2 — Dia 16: sede -2/-2; fome -3 Fadiga (para em ST 3)
+- **06/10/2026 14:56** · FAD -5 — Dia 16: sede -2/-2; fome -3 Fadiga (para em ST 3)
 
 ### Jah Kagadu
 
-**PV 11/12 · Fadiga 8/10**  ·  **PV 3 de 12: Deslocamento à metade. MONTADO no deserto, junto da carroça, com o Negrum na garupa. Uma adaga na mão, a outra guardada.**; **PV 4 de 12: Deslocamento à metade (ainda no terço de HT/3 = 4). MONTADO no deserto junto da carroça, com o Negrum na garupa. Uma adaga na mão, a outra guardada.**
+**PV 4/12 · Fadiga 2/10**  ·  **PV 3 de 12: Deslocamento à metade. MONTADO no deserto, junto da carroça, com o Negrum na garupa. Uma adaga na mão, a outra guardada.**; **PV 4 de 12: Deslocamento à metade (ainda no terço de HT/3 = 4). MONTADO no deserto junto da carroça, com o Negrum na garupa. Uma adaga na mão, a outra guardada.**
 
 - **15/09/2026 20:19** · FAD -1 — Falha no teste de ST para erguer a carroça tombada (MB pág. 89: falha em teste de esforço custa 1 ponto de ST por Fadiga)
 - **15/09/2026 21:14** · FAD -1 — Fadiga de batalha — combate rápido no cruzamento da carroça: Carga nenhuma (9 kg para ST 9), nível 0 +1 (MB pág. 134)
@@ -150,10 +163,15 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **02/10/2026 23:34** · FAD +0 — Dia 10: HT 12, 3d [6,5,5] = 16, FALHA por 4 - terceira noite seguida sem curar. Permanece 9/12. Sem sede hoje, entao nao perde PV nem Fadiga.
 - **03/10/2026 08:25** · PV +1 — Dia 11: cura natural, HT 12, 3d [2,5,2] = 9, SUCESSO por 3.
 - **03/10/2026 10:03** · PV +1 — Dia 12: cura natural, HT 12, 3d [4,2,4] = 10, SUCESSO por 2.
+- **06/10/2026 12:57** · FAD +1 — Dia 13: ERRATA/DECISÃO DO MESTRE: Fadiga de cansaço e de fome totalmente recuperada no fim do dia
+- **06/10/2026 14:47** · PV -2 — Dia 15: sede (menos de 1 L: -2 Fadiga, -2 PV) e fome total (-3 Fadiga)
+- **06/10/2026 14:47** · FAD -5 — Dia 15: sede (menos de 1 L: -2 Fadiga, -2 PV) e fome total (-3 Fadiga)
+- **06/10/2026 14:56** · PV -5 — Dia 16: sede -2/-2; fome: ST já abaixo de 3, -3 vira PV
+- **06/10/2026 14:56** · FAD -2 — Dia 16: sede -2/-2; fome: ST já abaixo de 3, -3 vira PV
 
 ### Negrum Carneiriums
 
-**PV 12/12 · Fadiga 14/15**
+**PV 8/12 · Fadiga 3/15**
 
 - **07/09/2026 21:10** · PV -1 — Golpe fulminante de Hoel Meia-Orelha na briga da taberna (cap. 01)
 - **07/09/2026 22:18** · FAD -1 — Fadiga de batalha: briga contra Hoel Meia-Orelha, Carga nenhuma (MB pág. 134)
@@ -175,10 +193,16 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **02/10/2026 23:16** · PV -1 — Dia 9: a agua acabou no meio do dia - despesa real 75 litros (7 bocas x 5 + 4 montarias x 10) contra 60 que havia. Todos bebem 2,85 litros: menos de 5, entao -1 de Fadiga e -1 de PV, MB. Estava inteiro: 12 -> 11/12.
 - **02/10/2026 23:16** · FAD -1 — Dia 9: a agua acabou no meio do dia - despesa real 75 litros (7 bocas x 5 + 4 montarias x 10) contra 60 que havia. Todos bebem 2,85 litros: menos de 5, entao -1 de Fadiga e -1 de PV, MB. Estava inteiro: 12 -> 11/12.
 - **02/10/2026 23:34** · PV +1 — Dia 10: cura natural, HT 12, 3d [4,4,3] = 11, SUCESSO por 1. Inteiro outra vez, e continua sendo o guia que erra.
+- **06/10/2026 12:57** · FAD +1 — Dia 13: ERRATA/DECISÃO DO MESTRE: Fadiga de cansaço e de fome totalmente recuperada no fim do dia
+- **06/10/2026 13:11** · FAD -2 — Dia 14: fome, comeu 1 de 3 refeições (comida só deu para os feridos)
+- **06/10/2026 14:47** · PV -2 — Dia 15: sede (menos de 1 L: -2 Fadiga, -2 PV) e fome total (-3 Fadiga)
+- **06/10/2026 14:47** · FAD -5 — Dia 15: sede (menos de 1 L: -2 Fadiga, -2 PV) e fome total (-3 Fadiga)
+- **06/10/2026 14:56** · PV -2 — Dia 16: sede -2/-2; fome -3 Fadiga (para em ST 3)
+- **06/10/2026 14:56** · FAD -5 — Dia 16: sede -2/-2; fome -3 Fadiga (para em ST 3)
 
 ### NelsOwned
 
-**PV 5/13 · Fadiga 14/15**  ·  **DESMAIADO na caçamba, no deserto. PV -5 de 13. Acorda em 6 horas, ainda a -5. Morre se chegar a -13 sem teste de HT. Deslocamento à metade.**; **Maneta da mão esquerda, permanente, -15 na ficha. A direita segue inteira. Machado grande não empunha.**; **PV -4 de 13: INCONSCIENTE na caçamba. Pela regra da casa (cap. 6: '1 ponto que seja acima de 0, e ele levanta') faltam 5 pontos de cura para ele acordar. Sangramento do braço tratado como estancado, senão já teria ido a -13.**; **PV -4 de 13: ACORDADO e acamado na caçamba. Levanta a cabeça, fala baixo, pede água, não fica de pé nem sai da maca de carga. Consciente, não curado.**; **PV 5/13: fora do terço de HT/3 (4), Deslocamento inteiro de novo. Sem mão esquerda; machado grande fora de uso, machado de uma mão servindo.**
+**PV 1/13 · Fadiga 5/15**  ·  **DESMAIADO na caçamba, no deserto. PV -5 de 13. Acorda em 6 horas, ainda a -5. Morre se chegar a -13 sem teste de HT. Deslocamento à metade.**; **Maneta da mão esquerda, permanente, -15 na ficha. A direita segue inteira. Machado grande não empunha.**; **PV -4 de 13: INCONSCIENTE na caçamba. Pela regra da casa (cap. 6: '1 ponto que seja acima de 0, e ele levanta') faltam 5 pontos de cura para ele acordar. Sangramento do braço tratado como estancado, senão já teria ido a -13.**; **PV -4 de 13: ACORDADO e acamado na caçamba. Levanta a cabeça, fala baixo, pede água, não fica de pé nem sai da maca de carga. Consciente, não curado.**; **PV 5/13: fora do terço de HT/3 (4), Deslocamento inteiro de novo. Sem mão esquerda; machado grande fora de uso, machado de uma mão servindo.**
 
 - **09/09/2026 09:52** · PV -2 — Chute do Hoel Meia-Orelha reanimado, ataque total no tronco (cap. 01)
 - **09/09/2026 12:21** · FAD -1 — Fadiga de batalha contra os mortos-vivos: Carga nenhuma, nível 0 +1 (MB pág. 134)
@@ -234,6 +258,13 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **03/10/2026 10:03** · PV +1 — Dia 12: cura natural, HT 13, 3d [6,2,2] = 10, SUCESSO por 3.
 - **03/10/2026 10:03** · estado — PV 5/13: fora do terço de HT/3 (4), Deslocamento inteiro de novo. Sem mão esquerda; machado grande fora de uso, machado de uma mão servindo.
 - **03/10/2026 10:03** · curado — PV 1/13: LEVANTA
+- **06/10/2026 12:57** · FAD +1 — Dia 13: ERRATA/DECISÃO DO MESTRE: Fadiga de cansaço e de fome totalmente recuperada no fim do dia
+- **06/10/2026 13:11** · PV +1 — Dia 14: cura natural HT 13 tirou 10 (comeu o dia inteiro)
+- **06/10/2026 14:47** · PV -2 — Dia 15: sede (menos de 1 L: -2 Fadiga, -2 PV) e fome total (-3 Fadiga)
+- **06/10/2026 14:47** · FAD -5 — Dia 15: sede (menos de 1 L: -2 Fadiga, -2 PV) e fome total (-3 Fadiga)
+- **06/10/2026 14:56** · PV -2 — Dia 16: sede -2/-2; fome -3 Fadiga
+- **06/10/2026 14:56** · FAD -5 — Dia 16: sede -2/-2; fome -3 Fadiga
+- **06/10/2026 21:39** · PV -1 — Turno 32: faca do Vurkash no tronco (2D-3 = 2, RD 1)
 
 ## NPCs
 
@@ -265,6 +296,16 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **19/09/2026 19:16** · estado — MORTO. Vitalidade -15 de 12. A terceira machadada do NelsOwned acertou o pé preso e tirou os 4 pontos do teto do membro (HT/3), cruzando a barreira de -HT. Teste de HT 12 contra a morte, pelo MB pág. 126: TIROU 13. FALHOU POR UM. Estava desmaiado e não tinha nada para gastar a favor
 - **19/09/2026 19:39** · estado — MORTO. Vitalidade -15 de 12. A terceira machadada do NelsOwned acertou o pé preso sob a grade e tirou os 4 pontos do teto do membro (HT/3), cruzando a barreira de -HT. Teste de HT 12 contra a morte (MB pág. 126): TIROU 13, FALHOU POR UM. Estava desmaiado e não tinha nada para gastar a favor. O corpo está em L6, no vão do portão
 - **19/09/2026 19:39** · estado — FALECEU no pátio do portão, em L6. Vitalidade -15 de 12: a terceira machadada do NelsOwned sobre o membro preso tirou os 4 pontos do teto (HT/3) e cruzou a barreira de -HT. Teste de HT 12 contra a morte (MB pág. 126): tirou 13, falhou por um. Estava inconsciente e sem nada para gastar a favor
+
+### Edric Halloway
+
+**PV -7 · Fadiga -9**
+
+- **06/10/2026 13:11** · FAD -2 — Dia 14: fome, comeu 1 de 3 refeições
+- **06/10/2026 14:47** · FAD -5 — Dia 15: sede (-2) e fome (-3)
+- **06/10/2026 14:56** · FAD -2 — Dia 16: sede; fome já em ST 3, -3 vira PV (PV 11 -> 6)
+- **06/10/2026 16:58** · PV -2 — Oásis: pomo do montante do Vurkash na cabeça (1D cont, 2); HT 11 tirou 14, desmaia
+- **07/10/2026 11:08** · PV -5 — Acerto do saude.md: pomo do Vurkash (6 -> 4), PV 4/11 como no roll6
 
 ### Hoel Meia-Orelha
 
@@ -441,3 +482,10 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 
 - **05/10/2026 22:50** · PV -21 — Turno 25: cimitarra do Comam na perna (6) e montante do Negrum na cabeça (15); morreu empalado (decisão do Mestre)
 - **05/10/2026 22:50** · estado — MORTO no turno 25 (empalado pela espada de Negrum), caído em (10,7)
+
+### Vurkash
+
+**PV -14 · Fadiga —**
+
+- **07/10/2026 11:08** · PV -1 — Turno 33: faca de arremesso do Jah na perna (perfuração, ½D, mínimo 1)
+- **07/10/2026 17:15** · PV -13 — Acerto do saude.md: virote da Zaina no turno 32 (13 PV) que não tinha sido lançado; PV 1/15

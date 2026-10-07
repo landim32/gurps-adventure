@@ -37,6 +37,9 @@ script, e rode `campanha.py mundo`.)_
 - **03/10/2026 18:00** · _informação_ — Guarda do castelo de Wallace, NPC de 75 pontos (ST 12 DX 12 IQ 10 HT 11, PV 11, Fadiga 12, Deslocamento 5). Espada curta 1D+3 corte (Espadas Curtas 14, Aparar 7) e escudo médio DP 3 (Escudo 14, Bloqueio 7); sem armadura no deserto. Cadastrado no roll6 (npcId 13, token Guarda) e colocado no mapa 3 em x9 y11, de frente para o norte (mapNpcId 19). Ainda não entrou em cena na narração.  _(cap. 07)_
 - **05/10/2026 20:23** · _item_ — Turno 24: Ataque Total, estocada de espada curta (perfurante, dano estimado 1D GDP) matou o Reptante 2. Sem defesa ativa até o próximo turno.  _(cap. 07)_
 - **05/10/2026 22:56** · _informação_ — Presenciou a morte de Lorde William no turno 24 e ficou desesperado: ajoelhou ao lado do corpo, tentou acordá-lo e perdeu o ânimo; o castelo caído e o senhor morto. Sem ordem de quem seguir.  _(cap. 07)_
+- **06/10/2026 14:56** · _ferimento_ — Dia 16: Fadiga 3/12 e PV 6/11 por sede e fome (a fome o cobrou em PV: 3).  _(cap. 07)_
+- **06/10/2026 15:28** · _ferimento_ — Dia 17, oásis: Vurkash o tomou de refém pelas costas, lâmina no queixo, sem que ninguém ouvisse (Furtividade 16, 3d 7 = margem 9; ninguém passou de 7). O orc pergunta onde está William.  _(cap. 08)_
+- **06/10/2026 16:58** · _ferimento_ — Oásis: desmaiado por pancada de pomo na cabeça (2 de dano, HT 11 tirou 14). PV 4/11, Fadiga 3/12. Segue refém do Vurkash.  _(cap. 08)_
 
 ### Giles Mão-de-Prata
 
@@ -74,6 +77,7 @@ script, e rode `campanha.py mundo`.)_
 - **03/10/2026 23:51** · _ferimento_ — Turno 20: levou uma adaga do Reptante 4 e perdeu 2 PV (9/11). Age com -2 no próximo turno. Está em (10,9) com o espadão preparado.  _(cap. 07)_
 - **05/10/2026 14:32** · _ferimento_ — Turno 23: PV -6, caído e atordoado em (10,8) (garras do Reptante 4 nos órgãos vitais). Testa HT 11 a cada turno para seguir consciente; espadão preparado.  _(cap. 07)_
 - **05/10/2026 20:23** · _morte_ — Turno 24: MORREU em (10,8). O Reptante 2 incapacitou a perna dele (PV -11) e ele falhou o teste de HT 11 contra a morte (tirou 13).  _(cap. 07)_
+- **06/10/2026 12:57** · _morte_ — Dia 13: os PJs o enterraram no deserto. A bolsa de moedas dele tinha $5.000, recolhida do corpo e dividida entre os 5 PJs da mesa ($1.000 cada).  _(cap. 07)_
 
 ### Morto 1
 
@@ -189,6 +193,15 @@ script, e rode `campanha.py mundo`.)_
 ### Vurkash
 
 - **30/09/2026 11:56** · _lugar_ — PAROU NA LINHA DO DESERTO, do lado de Caithness, com o exército. A bota não passou. Alguns mortos da horda, sem nome, tentaram entrar e caíram no mesmo passo, a pé e a cavalo. O Morto 1 já estava caído nessa linha e não foi marcado como destruído. Vurkash ficou na terra escura e gritou, voz rasgada, em ânglico limpo: "William! Eu vou te pegar. Eu ainda terei a minha vingança, seu maldito!" A caravana se afastou para dentro do deserto. Ele não cruzou e não foi destruído. Peça não movida.  _(cap. 06)_
+- **06/10/2026 15:28** · _informação_ — Dia 17, oásis: chegou perto do grupo sem ser ouvido (Furtividade 16, 3d [2,1,4]=7, sucesso por 9) e tomou Edric de refém, perguntando onde está William. Ainda não sabe que William morreu.  _(cap. 08)_
+- **06/10/2026 16:24** · _informação_ — Dia 17, oásis: soube pela boca do Jah que William morreu e foi enterrado ontem, final da tarde. Reagiu com fúria e desolação ('Vcs tiraram a minha vingança?!'); ainda segura Edric de refém, lâmina a um fio da garganta.  _(cap. 08)_
+- **06/10/2026 16:58** · _informação_ — Ficha alterada pelo Mestre (06/10/2026): Vontade 15 (Força de Vontade +7), HT 13, sem Rijeza, sem Prontidão, sem Camuflagem e Liderança. Resistiu à Fúria diante da negociação do NelsOwned (3d 9 contra 15): poupou Edric, mas o apagou com o pomo.  _(cap. 08)_
+- **06/10/2026 17:03** · _informação_ — ERRATA: a resistência dele na cena do oásis foi uma disputa de Vontade 15 contra a Lábia 15 do NelsOwned (3d 13, passou por 2, contra 3d 6, passou por 9): perdeu a disputa e apagou Edric com o pomo em vez de cortar a garganta.  _(cap. 08)_
+- **06/10/2026 17:53** · _ferimento_ — DECISÃO DO MESTRE (oásis): Fadiga atual reduzida de 14 para 6 (faminto e exausto da travessia); o máximo segue 14. ST efetiva 6 enquanto não descansar e comer.  _(cap. 08)_
+- **06/10/2026 20:14** · _item_ — Turno 31: largou o Edric (desistiu de matá-lo) e arremessou 1 das 6 facas em Negrum, errando por 3. Restam 5 facas. Fadiga 6/14.  _(cap. 08)_
+- **06/10/2026 21:39** · _ferimento_ — Turno 32: levou um virote da Zaina do Comam no tronco (13 PV): PV 2/15, caído e atordoado (HT 13 tirou 14). 4 facas de arremesso. Fadiga 6/14.  _(cap. 08)_
+- **07/10/2026 11:08** · _ferimento_ — Turno 33: faca do Jah na perna (1 PV): PV 1/15. Saiu do atordoamento (HT 12) e está ajoelhado; fica de pé no próximo turno. 4 facas.  _(cap. 08)_
+- **07/10/2026 17:15** · _informação_ — Turno 34: de pé; jogou 1 faca no Kaelric e errou (3 facas). PV 1/15, Fadiga 6/14. Facas arremessadas são perfurantes (1D-1 com ST 14), errata do Mestre.  _(cap. 08)_
 
 ### Vurkash, o Que Não Enterra
 
@@ -204,6 +217,9 @@ script, e rode `campanha.py mundo`.)_
 - **03/10/2026 09:48** · _informação_ — Apareceu no dia 12 numa caravana pequena: moleque árabe de 15 anos, maltrapilho, apelido Rato-de-Duna. 30 pontos. ST 8 DX 12 IQ 11 HT 11; Senso de Direção, Prontidão +2; Juventude, Pobre, Cobiça. NAVEGAÇÃO 12 EM TERRA (12 -3 terra +3 Senso de Direção), Sobrevivência (Deserto) 12, Comércio 11, Árabe 11 (nativa), Ânglico 11. Ofereceu-se como guia até Ferrier por $1000; NelsOwned venceu o Comércio (13 tirou 5 x 11 tirou 12): $900, metade adiantada, metade em Ferrier, mais a comida dele. Aguarda resposta.  _(cap. 07)_
 - **03/10/2026 10:03** · _relação_ — Contratado como guia no dia 12: $900, metade adiantada, metade ao ver a muralha de Ferrier, e come da comida do grupo. Guia o rumo com Navegação 12 em terra. Primeiro dia: acertou.  _(cap. 07)_
 - **03/10/2026 10:05** · _item_ — Recebeu o adiantamento de $450 ($90 de cada PJ). Faltam $450, devidos ao ver a muralha de Ferrier.  _(cap. 07)_
+- **06/10/2026 13:11** · _informação_ — Dia 14: errou o rumo por 1 (NH 12, tirou 13): 0 km. Comeu 1 de 3 refeições (-2 de Fadiga por fome).  _(cap. 07)_
+- **06/10/2026 14:47** · _informação_ — Dia 15: errou o rumo por 1 pela 2ª vez seguida (NH 12, tirou 13): 0 km. Sede e fome: -5 de Fadiga e -2 de PV.  _(cap. 07)_
+- **06/10/2026 14:56** · _informação_ — Dia 16: acertou o rumo por 0 (NH 12, tirou 12): +30 km, 150 andados, faltam 50.  _(cap. 07)_
 
 ## Grupo
 
@@ -234,6 +250,9 @@ script, e rode `campanha.py mundo`.)_
 - **05/10/2026 20:29** · _ferimento_ — Teste de HT da perna incapacitada (MB cap. 12): HT 13, 3d [2,4,1]=7, sucesso por 6. Lesão TEMPORÁRIA: coxo até recuperar todos os PV perdidos (7/13 agora), então a perna cura por completo. Sem Perna Mutilada permanente.  _(cap. 07)_
 - **05/10/2026 22:50** · _item_ — Turno 25: saiu do atordoamento, largou uma picareta e sacou a cimitarra; luta sentado, com a perna incapacitada. NelsOwned tentou arrastá-lo e falhou no ST.  _(cap. 07)_
 - **05/10/2026 23:25** · _ferimento_ — Primeiros Socorros do Kaelric após o turno 25: sucesso por 4, +1 PV (8/13); perna segue incapacitada, sara quando recuperar todos os PV.  _(cap. 07)_
+- **06/10/2026 12:57** · _ferimento_ — Dia 13: a perna incapacitada o tira das rédeas; Jah assume a carroça. Ninguém cura nada no fim do dia (PV 8/13 segue).  _(cap. 07)_
+- **06/10/2026 17:17** · _ferimento_ — DECISÃO DO MESTRE (oásis): todos a pé; Comam luta DE PÉ, mas com os redutores da Perna Mutilada (MB cap. 4): Deslocamento -3 (5 -> 2), Esquiva 2, -3 nas perícias com arma de mão (Espadas 18 -> 15, picareta 16 -> 13). Besta sem redutor. Perna só sara quando recuperar todos os PV (8 perdidos... agora 5/13).  _(cap. 08)_
+- **06/10/2026 21:39** · _item_ — Turno 32: disparou a Zaina no Vurkash (13 PV). Para recarregar precisa do pé-de-cabra (20 segundos).  _(cap. 08)_
 
 ### Irmão Kaelric
 
@@ -272,6 +291,7 @@ script, e rode `campanha.py mundo`.)_
 - **30/09/2026 15:51** · _pontos_ — Gastou os 20 pontos de campanha: DX 13 e IQ 13, sem sobra. Cada perícia e cada mágica subiu 1 de NH. Velocidade 6,25; Deslocamento segue 5. PV máximo continua 12. A ficha da biblioteca no roll6 é do Henrique e não foi alterada.  _(cap. 07)_
 - **30/09/2026 16:22** · _pontos_ — Corrigido o gasto: saiu o +1 de IQ. Ficou DX 13, Cura Superficial 14 e Primeiros Socorros 14. Gastos 14, sobram 6. Total 164 de 170. IQ 12. As demais perícias e mágicas de IQ voltaram um NH. No roll6 a ficha foi atualizada na **cópia da campanha** (participation 5, planilha em PDF com ficha + grimório); a biblioteca é do Henrique e continua na versão de 150 — ele precisa atualizar lá.  _(cap. 07)_
 - **02/10/2026 17:10** · _item_ — O Lorde William repus as pecas perdidas no canal (cota de malha, camal, escudo grande e coturnos, 27,5 kg) e o templario mandou tudo para o lombo do cavalo, sem vestir. A ficha continua com Esquiva 5, DP 4 so do paves e Carga Leve. Tratado: Medicina 15 tirou 12, sucesso, +1 PV, de 3 para 4/12. A perna coxa espera os 12.  _(cap. 07)_
+- **06/10/2026 17:17** · _ferimento_ — DECISÃO DO MESTRE (oásis): todos a pé; Kaelric luta DE PÉ com os redutores da Perna Mutilada (MB cap. 4): Deslocamento -3 (5 -> 2), Esquiva 2, -3 em Maça (15 -> 12; 10 com o pavês) e Escudo (16 -> 13, Bloqueio 6). O -1 de Cavalgar não vale mais (sem montaria). Perna só sara quando recuperar todos os PV (6/12).  _(cap. 08)_
 
 ### Jah Kagadu
 
@@ -311,6 +331,8 @@ script, e rode `campanha.py mundo`.)_
 - **04/10/2026 16:56** · _item_ — Turno 21: arremessou a última adaga (a anterior já fora no turno 20). Ficam 2 dardos e 8 facas. As adagas voltam depois da luta, pela errata do Mestre, se o grupo não fugir às pressas.  _(cap. 07)_
 - **05/10/2026 14:32** · _item_ — Turno 23: sacou e arremessou duas facas no Reptante 3 (uma acertou, uma errou). Restam 6 facas e 2 dardos; as adagas seguem no chão.  _(cap. 07)_
 - **05/10/2026 22:50** · _item_ — Turno 25: saca uma faca e mira o R4 (morto antes de disparar). Termina em (8,3), um hex à frente do ponto do roll6. Restam 5 facas e 2 dardos, mais a que está na mão.  _(cap. 07)_
+- **06/10/2026 12:57** · _informação_ — Dia 13: passa a dirigir a carroça (Carreiro 12 pelo pré-definido Cavalgar-2), porque o Comam está com a perna incapacitada.  _(cap. 07)_
+- **06/10/2026 13:11** · _informação_ — Dia 14: primeiro dia dirigindo a carroça: Carreiro 12, sucesso por 1.  _(cap. 07)_
 
 ### Negrum Carneiriums
 
@@ -344,6 +366,7 @@ script, e rode `campanha.py mundo`.)_
 - **05/10/2026 14:32** · _informação_ — Turno 23: subiu na carroça de novo, em (6,9), sem teste.  _(cap. 07)_
 - **05/10/2026 20:23** · _informação_ — Turno 24: correu da carroça até (8,9), parou a 3 hex do R2: só moveu.  _(cap. 07)_
 - **05/10/2026 23:15** · _informação_ — Teste de Vontade contra a Sanguinolência (poupar os reptantes caídos, R1 e R3): IQ 9, 3d [6,5,3]=14, falhou por 5. Não resistiu; avança sobre os dois inconscientes. O golpe em si fica para a decisão do Mestre no turno 26.  _(cap. 07)_
+- **06/10/2026 20:14** · _informação_ — Turno 31: voltou a (6,10) por passar do Deslocamento (Fadiga 3 halva: 3); alvo de uma faca do Vurkash, que errou por 3.  _(cap. 08)_
 
 ### NelsOwned
 
@@ -376,6 +399,8 @@ script, e rode `campanha.py mundo`.)_
 - **02/10/2026 11:46** · _ferimento_ — Cura natural do dia 2: teste de HT 12, 3d [5,5,4] = 14, falha por 2. Continua em -4/13, acamado na caçamba. E o Primeiros Socorros nao vale mais: o atendimento de PS e o que se faz imediatamente depois do golpe, e o braco dele foi fechado no patio de Wallace. Kaelric se ofereceu e o Mestre negou.  _(cap. 07)_
 - **02/10/2026 17:10** · _item_ — Machado de uma mao, $75 com agio: a arma que um maneta usa de verdade, ST 13 contra a minima 12 da peca. Tratado: Medicina 15 tirou 9, sucesso, curou +1 PV (1D-2 com d6=2), de -4 para -3/13. Continua acamado, nao levanta enquanto a vitalidade nao passar de 0. Corrigido o deslocamento: 5, nao 6 - a conta tinha comido o -1 racial de pernas curtas.  _(cap. 07)_
 - **05/10/2026 22:50** · _informação_ — Turno 25: alcançou o Comam e falhou no teste de ST para arrastá-lo; termina em (9,5).  _(cap. 07)_
+- **06/10/2026 11:28** · _item_ — Dia 13: revistou os corpos dos reptantes e achou 12 rações e 20 L de água, que entram nos mantimentos da comitiva.  _(cap. 07)_
+- **06/10/2026 21:39** · _ferimento_ — Turno 32: faca do Vurkash no tronco: PV 1/13. Deslocamento 2 (PV 1).  _(cap. 08)_
 
 ## Lugares e coisas
 
@@ -530,6 +555,13 @@ script, e rode `campanha.py mundo`.)_
 ### Mantimentos
 
 - **03/10/2026 08:24** · _item_ — Fim do dia 11: 225 L de água e 8 pessoas-dia de comida (cobra 7/dia); 90 km andados, faltam 110. Comida acaba no dia 13.  _(cap. 07)_
+- **06/10/2026 11:28** · _item_ — Fim do dia 13: NelsOwned revistou os corpos dos reptantes e achou 3 dias de ração por reptante (12 pessoas-dia) e 20 L de água (decisão do Mestre). William morto: 7 bocas. Água 145 + 20 - 75 = 90 L; comida 0 + 12 - 7 = 5 pessoas-dia. Sem Fadiga de fome no dia 13.  _(cap. 07)_
+- **06/10/2026 11:32** · _item_ — Fadiga por fome: ledger aberto em mantimentos.md. Dia 13: todos (PCs, Yusuf e Edric) comeram as 3 refeições com a comida achada nos reptantes; 0 pontos de Fadiga por fome perdidos e 0 a recuperar. Daqui em diante cada refeição perdida custa 1 de Fadiga, devolvida só por 1 dia de descanso com 3 refeições (3 por dia).  _(cap. 07)_
+- **06/10/2026 12:57** · _item_ — Fim do dia 13: Fadiga de cansaço e de fome de todos recuperada por decisão do Mestre (errata: sem dia parado). Saldo: 90 L de água e 5 pessoas-dia de comida.  _(cap. 07)_
+- **06/10/2026 13:11** · _item_ — Fim do dia 14: água 90-75 = 15 L; comida 5-5 = 0. Rumo errado (Yusuf 13 contra NH 12): 0 km, 120 andados, faltam 80. Fadiga por fome: Negrum, Edric e Yusuf -2 cada (1 de 3 refeições); feridos comeram inteiro.  _(cap. 07)_
+- **06/10/2026 14:47** · _item_ — Fim do dia 15: água 15 -> 0 (montarias primeiro: 3,75 L cada, -1 PV e -1 Fadiga por animal; pessoas com menos de 1 L); comida 0. Rumo errado (Yusuf 13 contra NH 12): 0 km, 120 andados, faltam 80. Por pessoa: -5 Fadiga, -2 PV. Registro das montarias aberto em mantimentos.md.  _(cap. 07)_
+- **06/10/2026 14:56** · _item_ — Fim do dia 16: água 0, comida 0. Rumo certo (Yusuf 12, tirou 12): +30 km, 150 andados, faltam 50. Sede e fome cobradas (fome para em ST 3, resto em PV). Montarias 0 L: -2 PV e -2 Fadiga cada.  _(cap. 07)_
+- **06/10/2026 15:21** · _item_ — Dia 17 (manhã): chegada ao oásis, 180 km andados, faltam 20. Sem cobrança de sede/fome (decisão do Mestre). Barris 0 L e comida 0, reabastecimento ainda não definido. PV e Fadiga como no fim do dia 16.  _(cap. 08)_
 
 ### O portão do castelo
 

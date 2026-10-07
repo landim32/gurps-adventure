@@ -106,18 +106,27 @@ def calcular(p):
         tq = sum(dd)
         ok = tq <= ht
         res["caiu"] = not ok
-        res["atordoado"] = True
+        # Hipoalgia (MB, Vantagens): não fica atordoado ao ser ferido, salvo golpe na
+        # cabeça ou golpe fulminante. Cai pelo teste de HT, mas sem o -4 nas defesas.
+        sem_atordoar = hipo and "cabeca" not in chave.lower() and "cabeça" not in chave.lower()             and not efeito.get("atordoa")
+        res["atordoado"] = not sem_atordoar
         saida.append(f"  Perdeu mais da metade da HT num {verbo2} só: teste de HT para "
                      f"não cair.")
         saida.append(f"    3d [{', '.join(map(str, dd))}] = {tq} contra {ht} — "
                      + ("continua de pé" if ok else "CAIU"))
         mec.append(f"Perdeu mais de HT/2: teste de HT {ht} para não cair, "
                    f"3d {_txt_dados(dd)} = *{tq}* → "
-                   + ("de pé" if ok else "*CAIU*") + "; *ATORDOADO* (-4 nas defesas)")
-        saida.append(f"  Caindo ou não, {alvo} fica ATORDOADO: -4 "
-                     + ("em todas as" if not proje else "nas")
-                     + " defesas ativas no turno seguinte, e testa HT no início de cada "
-                       "turno para se recuperar.")
+                   + ("de pé" if ok else "*CAIU*")
+                   + ("; *sem atordoamento* (Hipoalgia)" if sem_atordoar
+                      else "; *ATORDOADO* (-4 nas defesas)"))
+        if sem_atordoar:
+            saida.append(f"  {alvo} tem Hipoalgia: cai se falhou, mas **não** fica atordoado "
+                         "(só golpe na cabeça ou fulminante atordoa).")
+        else:
+            saida.append(f"  Caindo ou não, {alvo} fica ATORDOADO: -4 "
+                         + ("em todas as" if not proje else "nas")
+                         + " defesas ativas no turno seguinte, e testa HT no início de cada "
+                           "turno para se recuperar.")
     elif efeito.get("atordoa"):
         res["atordoado"] = True
         saida.append(f"  {alvo} fica ATORDOADO pelo golpe fulminante: -4 nas defesas ativas"

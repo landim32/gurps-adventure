@@ -1,0 +1,31 @@
+*DIA 16 — OS BARULHOS NA DUNA*
+
+Jah conduz a carroça por mais um dia, de dentes cerrados e boca rachada, e a parelha responde no mesmo passo curto. Dessa vez o caminho se abre.
+> Carreiro: pré-definido Cavalgar 14 -2 = *12*
+> 3d [1, 4, 6] = *11* → sucesso por 1
+
+Yusuf sobe na capota, fecha os olhos, sente o vento no rosto e aponta a duna alta ao sul com um meio sorriso: o primeiro dele em dias. Acerta no fio da navalha.
+> Navegação em terra (Yusuf): NH *12*
+> 3d [4, 6, 2] = *12* → *sucesso por 0*
+> *Rumo certo:* +30 km (150 andados dos 200, *faltam 50 km*)
+
+Ao anoitecer, ninguém consegue dormir. Do outro lado das dunas vêm ruídos que ninguém identifica: um arrastar, talvez, um tilintar de metal, ou só o vento nas pedras. Ninguém aparece, mas todos acordam com a mão no cabo da arma.
+> Tabela do dia: *11*, nada acontece (só barulhos)
+
+Não há água nos barris nem ração nos sacos. O dia passa em seco.
+> Água: *0 L*. Sem nenhuma gota: pessoas *-2 de Fadiga e -2 de PV* cada
+> Comida: *0*. Fome: *-3 de Fadiga* cada, que *para em ST 3 e o resto vira perda de PV* (MB, cap. 12)
+> Ninguém cura: sem comida e sem água
+
+> Montarias (0 L, menos de 20% dos 10 L): *-2 PV e -2 Fadiga* cada
+> Cavalos de tiro: PV *9/12*, Fadiga *57/60* (os dois)
+> Cavalo do Jah e do Kaelric: PV *12/15*, Fadiga *47/50* (os dois)
+
+> Comam: Fadiga 3/13, PV 5/13
+> Kaelric: Fadiga 3/13, PV 6/12
+> Jah: Fadiga 2/9, PV 4/12 (a fome o cobrou em PV: 3)
+> Negrum: Fadiga 3/15, PV 8/12
+> NelsOwned: Fadiga 5/15, PV 2/13
+> Edric: Fadiga 3/12, PV 6/11 (a fome o cobrou em PV: 3)
+
+*Saldo do dia:* 150 km andados dos 200, *faltam 50 km*. *0 L de água* e *nenhuma ração*.

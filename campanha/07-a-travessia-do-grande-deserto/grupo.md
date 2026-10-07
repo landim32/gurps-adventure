@@ -18,6 +18,7 @@ _(o que de fato aconteceu com os personagens dos jogadores durante o jogo — fe
 - **02/10/2026 11:46** · _ferimento_ — Cura natural do dia 2: teste de HT 12, 3d [5,5,4] = 14, falha por 2. Continua em -4/13, acamado na caçamba. E o Primeiros Socorros nao vale mais: o atendimento de PS e o que se faz imediatamente depois do golpe, e o braco dele foi fechado no patio de Wallace. Kaelric se ofereceu e o Mestre negou.
 - **02/10/2026 17:10** · _item_ — Machado de uma mao, $75 com agio: a arma que um maneta usa de verdade, ST 13 contra a minima 12 da peca. Tratado: Medicina 15 tirou 9, sucesso, curou +1 PV (1D-2 com d6=2), de -4 para -3/13. Continua acamado, nao levanta enquanto a vitalidade nao passar de 0. Corrigido o deslocamento: 5, nao 6 - a conta tinha comido o -1 racial de pernas curtas.
 - **05/10/2026 22:50** · _informação_ — Turno 25: alcançou o Comam e falhou no teste de ST para arrastá-lo; termina em (9,5).
+- **06/10/2026 11:28** · _item_ — Dia 13: revistou os corpos dos reptantes e achou 12 rações e 20 L de água, que entram nos mantimentos da comitiva.
 
 ## Comam Obabaroy
 
@@ -30,6 +31,7 @@ _(o que de fato aconteceu com os personagens dos jogadores durante o jogo — fe
 - **05/10/2026 20:29** · _ferimento_ — Teste de HT da perna incapacitada (MB cap. 12): HT 13, 3d [2,4,1]=7, sucesso por 6. Lesão TEMPORÁRIA: coxo até recuperar todos os PV perdidos (7/13 agora), então a perna cura por completo. Sem Perna Mutilada permanente.
 - **05/10/2026 22:50** · _item_ — Turno 25: saiu do atordoamento, largou uma picareta e sacou a cimitarra; luta sentado, com a perna incapacitada. NelsOwned tentou arrastá-lo e falhou no ST.
 - **05/10/2026 23:25** · _ferimento_ — Primeiros Socorros do Kaelric após o turno 25: sucesso por 4, +1 PV (8/13); perna segue incapacitada, sara quando recuperar todos os PV.
+- **06/10/2026 12:57** · _ferimento_ — Dia 13: a perna incapacitada o tira das rédeas; Jah assume a carroça. Ninguém cura nada no fim do dia (PV 8/13 segue).
 
 ## Negrum Carneiriums
 
@@ -54,3 +56,5 @@ _(o que de fato aconteceu com os personagens dos jogadores durante o jogo — fe
 - **04/10/2026 16:56** · _item_ — Turno 21: arremessou a última adaga (a anterior já fora no turno 20). Ficam 2 dardos e 8 facas. As adagas voltam depois da luta, pela errata do Mestre, se o grupo não fugir às pressas.
 - **05/10/2026 14:32** · _item_ — Turno 23: sacou e arremessou duas facas no Reptante 3 (uma acertou, uma errou). Restam 6 facas e 2 dardos; as adagas seguem no chão.
 - **05/10/2026 22:50** · _item_ — Turno 25: saca uma faca e mira o R4 (morto antes de disparar). Termina em (8,3), um hex à frente do ponto do roll6. Restam 5 facas e 2 dardos, mais a que está na mão.
+- **06/10/2026 12:57** · _informação_ — Dia 13: passa a dirigir a carroça (Carreiro 12 pelo pré-definido Cavalgar-2), porque o Comam está com a perna incapacitada.
+- **06/10/2026 13:11** · _informação_ — Dia 14: primeiro dia dirigindo a carroça: Carreiro 12, sucesso por 1.

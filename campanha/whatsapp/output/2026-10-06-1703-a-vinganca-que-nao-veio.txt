@@ -1,0 +1,37 @@
+*A VINGANÇA QUE NÃO VEIO*
+
+O silêncio dura o tempo de um fôlego. Do outro lado da lagoa, Edric tem a lâmina cinzenta no queixo e os olhos esbugalhados; o orc, rente ao tronco, não pisca. A água bate nas pedras, os cavalos param de beber, e todo mundo entende que a próxima palavra pode matar alguém.
+
+Jah é quem fala. Ergue as duas mãos abertas, devagar, e fala alto o suficiente para que a voz cruze a água sem tremer, embora o coração lhe bata no pescoço.
+
+— Desculpa! Nós tivemos que enterrar ele!! — grita. — Foi ontem, final da tarde!
+
+A resposta demora. O orc não mexe a lâmina. Sob os dreads brancos, o rosto de cicatrizes se contrai devagar, como se as palavras entrassem uma por vez e cada uma queimasse. Quando ele fala, a voz, baixa e áspera, treme de um jeito que ninguém ali esperava.
+
+— Vcs mataram ele?!
+
+O braço em volta do pescoço de Edric aperta, e o guarda engasga contra o couro da manopla.
+
+— Vcs tiraram a minha vingança?!
+
+O grito rola pela areia, ricocheteia nas pedras do oásis e espanta os pássaros das tamareiras. Os cavalos recuam, relinchando. Nos olhos azuis e foscos do orc há uma coisa que não é só ódio: é a falta do que ele atravessou o deserto inteiro para encontrar. A lâmina treme, a um fio da garganta de Edric.
+
+NelsOwned dá um passo à frente, as mãos abertas, e a voz sai grave e macia, a voz de palco que ele usa quando a plateia está a um fio de virar o rosto.
+
+— Guerreiro, ouça um anão que sabe o preço de uma perda. O homem que o senhor segura não matou ninguém. A sua vingança já foi cobrada, não pela nossa mão, mas pela areia. Solte o rapaz, e conversamos sobre o que o senhor perdeu.
+
+As palavras caem uma a uma, medidas, e vão achando as frestas da raiva do orc. Ele respira fundo, o peito sobe e desce como um fole, e a mão que segura a lâmina falha. O ódio dele luta contra a voz do anão, e perde.
+> Disputa de habilidades: Lábia de NelsOwned (NH 15) × Vontade do Vurkash (NH 15: IQ 8 + Força de Vontade +7)
+> NelsOwned: 3d [3, 2, 1] = *6* → passou por *9*
+> Vurkash: 3d [3, 6, 4] = *13* → passou por *2*
+> *NelsOwned vence:* o orc perde a disputa e *não corta o pescoço*
+
+O orc não solta Edric, mas também não crava o aço. Gira a arma na mão, vira o pomo do montante e desfere um golpe curto e seco no alto da cabeça do guarda.
+> Dano do pomo (GDP 1D, contusão), cabeça: 1D: [2] = *2*, RD 0 → *2*
+> *Edric perde 2 PV (PV 4/11)*
+> HT 11 contra nocaute (cabeça), 3d [3, 5, 6] = *14* → *falhou por 3*
+> *Edric desmaia*
+
+O guarda amolece contra o braço do orc, a cabeça tombada, vivo e inconsciente. O orc o mantém de pé, o rosto virado para o grupo, os olhos azuis foscos fixos em NelsOwned.
+
+— Fale — rosna. — Fale tudo o que sabe do William.

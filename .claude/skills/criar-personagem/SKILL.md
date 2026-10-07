@@ -141,6 +141,26 @@ pequenas divergências entre as versões (ex.: a escala de Carga dos Anões). **
 Yrth, prefira a versão do Fantasy**; fora dela, use a do Magia. Diga qual versão adotou no
 resumo final.
 
+**Os traços do pacote racial vão todos para a ficha, com custo "-".** O custo da raça já paga
+cada um deles, então a ficha os lista **logo abaixo da linha da raça**, na mesma lista de
+Vantagens/Desvantagens, com custo `-` (nada entra na soma de pontos). Entram **todas** as
+vantagens e desvantagens do verbete: bônus de atributo e de Fadiga, RD natural, Longevidade,
+escala de Carga, redutor de Deslocamento, perícia grátis, bônus e redutores de perícia,
+Intolerância, Reputação, Ouvido Aguçado etc. As **peculiaridades raciais** (Não Confiar em
+Elfos, Nunca Fazer a Barba…) vão para a área de Peculiaridades, também com custo `-`, depois
+das pessoais (-1). No JSON:
+
+```json
+"raca_tracos": [{"nome": "RD +1 natural"}, {"nome": "Longevidade"}, {"nome": "Intolerância: Orcs"}],
+"raca_peculiaridades": ["Não confia em Elfos", "Nunca faz a barba"]
+```
+
+O `preencher_ficha.py` desenha cada traço com `-` abaixo da linha cuja `nome` começa com
+"Raça" (ou que tem `"raca": true`), seja ela vantagem (+30) ou desvantagem (Orc, -10). Passando
+de 15 linhas de vantagens ou de 5 de peculiaridades, o script aperta o passo e a letra juntos
+(passo mínimo de 30 px): as linhas deixam de bater com as réguas impressas, mas cabem. Humano
+não tem `raca_tracos`. Em edição, mudou a raça: reescreva as duas listas, ou apague-as.
+
 O custo da raça entra como uma "vantagem" na lista de Vantagens/Desvantagens da ficha
 (ex.: "Raça: Elfo, +40"). Modificadores de atributo raciais (ex.: Elfo +1 DX +1 IQ -1 ST) se somam ao valor
 *final* do atributo, mas **não** alteram o custo em pontos desse atributo (o custo continua
@@ -886,6 +906,7 @@ Campos que controlam o agrupamento visual na ficha:
   branco** a cada troca de categoria. Ordene a lista por categoria e use rótulos curtos e
   consistentes; o padrão recomendado é `Armas` → `Munição` → `Armadura` → `Equipamento`.
   Se o campo for omitido em todos os itens, nenhuma separação é feita.
+- **`raca_tracos`** (opcional): vantagens e desvantagens do pacote racial, `{"nome": "..."}`, impressas com custo `-` **logo abaixo da linha da raça**; **`raca_peculiaridades`** (opcional): peculiaridades raciais, impressas com `-` depois das pessoais. Não entram em `resumo` nem na soma de pontos.
 - **`custo_total`**: soma em $ do equipamento (o gasto). Não aparece na ficha impressa; é
   com ele que se calcula o saldo da bolsa.
 - **`dinheiro`**: o **que sobrou** da riqueza inicial depois de pagar o equipamento. É isto que
@@ -1010,7 +1031,7 @@ na abertura de um combate, o que exige preparação, quanto de Fadiga o repertó
 Estruture como uma ficha de personagem legível, nesta ordem: título com nome, uma linha de
 resumo (raça/arquétipo/conceito/pontos, citando o livro de origem do arquétipo), Aparência, História (agora pode ser mais longa que na
 imagem), tabela de Atributos com custo, Estatísticas Derivadas, tabela de Vantagens e
-Desvantagens com custo, lista de Peculiaridades, tabela de Perícias (NH, Tipo, Custo),
+Desvantagens com custo (os traços do pacote racial logo abaixo da linha da raça, com custo `-`), lista de Peculiaridades (as raciais com `-` no fim), tabela de Perícias (NH, Tipo, Custo),
 tabela de Equipamento (Item, Dano, Tipo, Qtd, Peso, peso total), e por fim o quadro Resumo
 de Pontos idêntico ao da ficha. Escreva em português, tom de ficha de RPG (direto, sem
 floreios).

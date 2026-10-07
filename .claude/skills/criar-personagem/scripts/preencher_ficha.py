@@ -197,6 +197,20 @@ def draw_field(draw, spec, text, bold=False):
     draw.text((x, y), text, fill=COLOR, font=f, anchor=anchor)
 
 
+def compactar(spec, n):
+    """Aperta as linhas de uma area (vantagens, peculiaridades) quando ha mais itens
+    do que linhas impressas: o passo e a letra encolhem juntos (passo minimo 30 px).
+    Devolve (passo, corpo_da_descricao, corpo_do_custo, linhas_que_cabem)."""
+    max_rows, row_h = spec["max_rows"], spec["row_h"]
+    if n <= max_rows:
+        return row_h, spec["desc_size"], spec["cost_size"], max_rows
+    area = max_rows * row_h
+    novo_h = max(30, area / n)
+    escala = novo_h / row_h
+    return (novo_h, max(MIN_SIZE, int(spec["desc_size"] * escala)),
+            max(MIN_SIZE, int(spec["cost_size"] * escala)), int(area / novo_h))
+
+
 def achar_foto(pasta: Path, saida: Path):
     """Procura uma imagem de retrato na pasta do personagem.
 
@@ -330,28 +344,47 @@ def main():
             return False
         return (i.get("custo") or 0) < 0
 
+    def e_raca(i):
+        return bool(i.get("raca")) or str(i.get("nome", "")).lower().startswith("raça")
+
+    # Tracos da raca (vantagens e desvantagens do pacote racial): entram LOGO ABAIXO
+    # da linha da raca, com custo "-" (ja estao no preco do pacote)
+    tracos_raca = [{"nome": r.get("nome") if isinstance(r, dict) else str(r), "custo": "-"}
+                   for r in data.get("raca_tracos", [])]
+
     vantagens = [i for i in itens if not e_desvantagem(i)]
     desvantagens = [i for i in itens if e_desvantagem(i)]
+    if tracos_raca:
+        for grupo in (vantagens, desvantagens):
+            idx = next((k for k, i in enumerate(grupo) if e_raca(i)), None)
+            if idx is not None:
+                grupo[idx + 1:idx + 1] = tracos_raca
+                break
+        else:  # sem linha de raca: os tracos abrem o grupo das vantagens
+            vantagens[0:0] = tracos_raca
     linhas = list(vantagens)
     if vantagens and desvantagens:
         linhas.append(None)  # linha em branco separando os grupos
     linhas += desvantagens
-    for i, item in enumerate(linhas[: VANTAGENS["max_rows"]]):
+    row_h, desc_s, cost_s, max_rows = compactar(VANTAGENS, len(linhas))
+    for i, item in enumerate(linhas[:max_rows]):
         if item is None:
             continue
-        y = VANTAGENS["start_baseline"] + i * VANTAGENS["row_h"]
-        draw_field(draw, (VANTAGENS["cost_x"], y, VANTAGENS["cost_size"], "center",
+        y = VANTAGENS["start_baseline"] + i * row_h
+        draw_field(draw, (VANTAGENS["cost_x"], y, cost_s, "center",
                           VANTAGENS["cost_w"]), item.get("custo"))
-        draw_field(draw, (VANTAGENS["desc_x"], y, VANTAGENS["desc_size"], "left",
+        draw_field(draw, (VANTAGENS["desc_x"], y, desc_s, "left",
                           VANTAGENS["desc_w"]), item.get("nome"))
 
-    # --- Peculiaridades -----------------------------------------------------
-    pecs = data.get("peculiaridades", [])[: PECULIARIDADES["max_rows"]]
-    for i, nome in enumerate(pecs):
-        y = PECULIARIDADES["start_baseline"] + i * PECULIARIDADES["row_h"]
-        draw_field(draw, (PECULIARIDADES["cost_x"], y, PECULIARIDADES["cost_size"], "center",
-                          PECULIARIDADES["cost_w"]), -1)
-        draw_field(draw, (PECULIARIDADES["desc_x"], y, PECULIARIDADES["desc_size"], "left",
+    # --- Peculiaridades (as pessoais valem -1; as da raca entram com custo "-") ---
+    pecs = [(n, -1) for n in data.get("peculiaridades", [])]
+    pecs += [(n, "-") for n in data.get("raca_peculiaridades", [])]
+    row_h, desc_s, cost_s, max_rows = compactar(PECULIARIDADES, len(pecs))
+    for i, (nome, custo) in enumerate(pecs[:max_rows]):
+        y = PECULIARIDADES["start_baseline"] + i * row_h
+        draw_field(draw, (PECULIARIDADES["cost_x"], y, cost_s, "center",
+                          PECULIARIDADES["cost_w"]), custo)
+        draw_field(draw, (PECULIARIDADES["desc_x"], y, desc_s, "left",
                           PECULIARIDADES["desc_w"]), nome)
 
     # --- Armas e Objetos Pessoais (linha em branco a cada troca de categoria) --

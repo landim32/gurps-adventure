@@ -29,10 +29,16 @@ python .claude/skills/arbitrar-ferimento/scripts/arbitrar_ferimento.py \
 | # | Teste | Quando | Consequência |
 |---|---|---|---|
 | 1 | redutor por ferimento | sempre que houver dano | o próximo turno age com **-ferimento**; **Hipoalgia** anula |
-| 2 | HT para não cair | `ferimento > HT/2` no mesmo golpe | **CAIU**; e, caindo ou não, **ATORDOADO** |
+| 2 | HT para não cair | `ferimento > HT/2` no mesmo golpe | **CAIU**; e, caindo ou não, **ATORDOADO** (**Hipoalgia não atordoa**, salvo cabeça ou fulminante: cai, sem o -4) |
 | 3 | atordoamento do fulminante | o efeito da tabela disse `atordoa` | **-4 nas defesas ativas** |
 | 4 | HT contra nocaute | cabeça, crânio exposto, ou contundente nos vitais | **NOCAUTEADO** |
 | 5 | pelo crânio exposto | perda acima de HT/2 (nocaute) ou de HT/3 (atordoamento) | direto, sem teste |
+
+**Hipoalgia: confira SEMPRE antes de atordoar.** MB, `03-vantagens.md`: quem a tem "não
+ficará atordoado" ao ser ferido (exceção: golpe na cabeça ou golpe fulminante). Para PJ a
+folha lê a ficha; **NPC não tem ficha local, então passe `--hipoalgia`** sempre que o
+`npcs.md` listar a vantagem (Vurkash, por exemplo). Sem a flag, o atordoamento sai errado —
+foi o que aconteceu no turno 32 do oásis (Vurkash ficou atordoado sem poder).
 
 Recuperação do atordoamento é no início de cada turno: teste de HT, e enquanto durar os
 **-4** ficam nas defesas ativas. A folha registra que ele existe; quem acompanha turno a

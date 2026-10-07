@@ -1047,6 +1047,151 @@ Comam ri mesmo assim, e ganha um olhar de reprovação. A bandagem fica limpa e 
 > Recuperação (NT 3): 1D-3: [1] - 3 = -2 → mínimo *1 ponto de vida*
 > *Comam recupera 1 ponto de vida (PV 8/13).* A perna continua incapacitada.
 
+### Narração 27 — 06/10/2026 11:28
+
+_Dia 13: NelsOwned acha 12 rações e 20 L nos reptantes; sobram 90 L e 5 pessoas-dia_
+
+*O QUE OS MORTOS CARREGAVAM*
+
+Quando o último reptante cala, NelsOwned limpa o machado na areia e passa a olhar os corpos de outro jeito: não mais como inimigos, mas como bolsas. Ajoelha ao lado do primeiro, vira o cinto de couro e puxa o saco de pele curtida preso à cintura. Dentro, tiras escuras de carne seca, enroladas em folhas, e um odre pequeno e pesado.
+
+— Aaaah — solta ele, de olho aceso. — Esses malditos andavam melhor do que nós.
+
+Vai de corpo em corpo, os dedos curtos e certeiros. Cada reptante traz o mesmo: uma ração de três dias dobrada em pano grosso, e um tanto de água num odre de couro costurado. Ele junta tudo numa pilha ao lado do Comam, e os olhos famintos de todo o grupo se voltam para o monte.
+
+> 4 reptantes × 3 dias de ração = *12 pessoas-dia de comida*
+> Água achada nos odres: *20 litros*
+
+Ao pôr do sol o caderno fecha o dia:
+> Água: 145 L + 20 L achados − 75 L (7 bocas × 5 L + 4 montarias × 10 L) = *90 litros*
+> Comida: 0 + 12 achados − 7 (as 7 bocas comem o dia) = *5 pessoas-dia*
+
+A comitiva come devagar, em silêncio, mastigando a carne seca dos mortos. Ninguém passa fome esta noite. Mas a conta é curta: sobra comida para menos de um dia, e água para pouco mais de um.
+
+### Narração 28 — 06/10/2026 12:57
+
+_Fim do dia 13: William enterrado, bolsa de $5.000 dividida, Jah dirige a carroça, Fadiga recuperada; 90 L e 5 pessoas-dia_
+
+*FIM DO DIA 13 — A COVA DE WILLIAM*
+
+O sol baixa sobre a duna e o vento leva o cheiro do sangue. Ninguém fala muito. Lorde William de Wallace está estendido onde caiu, com as mãos ainda abertas, e Edric se recusa a se afastar dele.
+
+Kaelric é o primeiro a dizer. Desmonta devagar, ajoelha ao lado do corpo e pergunta se alguém se opõe. Ninguém se opõe. Negrum, que ainda tem a espada suja, crava a lâmina na areia e começa a cavar com as mãos. NelsOwned o ajuda com o machado, e Jah, calado, tira a capa e a estende sobre o rosto do morto. Cavam fundo, até onde a areia fica úmida. O templário reza em latim e põe uma pedra chata sobre o peito de William. A cova se fecha. Edric fica ajoelhado diante dela muito depois de os outros se levantarem.
+
+Antes de cobri-lo, Kaelric desfaz o cinto e acha a bolsa de couro que o senhor carregava, pesada e escondida sob o gibão. Dentro, moedas de ouro e prata, mais do que qualquer um ali vira junto desde Wallace.
+
+> Bolsa de William: *$5.000*, dividida entre os 5 PJs da mesa = *$1.000 cada*
+
+Comam, sentado na areia com a perna esticada, não pode mais dirigir a carroça. O Jah, de dedos finos e olhar atento, assume as rédeas ao anoitecer.
+> Carreiro (pré-definido Cavalgar-2): Jah *12* (Comam era 13)
+
+Ninguém cura nada esta noite: os ferimentos ficam como estão, e o sono é curto e pesado. Mas o corpo, esvaziado de fome e de cansaço, devolve o fôlego a todos. Ninguém acorda zonzo.
+> *Fadiga de cansaço e de fome: recuperada por completo* (decisão do Mestre)
+> Comam 13/13 · Kaelric 13/13 · Jah 9/9 · Negrum 15/15 · NelsOwned 15/15
+
+Ao fim do dia o caderno fecha:
+> *Água:* 90 litros (1 dia e 1/5 de comitiva)
+> *Comida:* 5 pessoas-dia (menos de um dia de comitiva)
+> Restam 80 km até Ferrier, e quem dirige agora é o Jah.
+
+### Narração 29 — 06/10/2026 13:11
+
+_Dia 14: rumo errado de novo (Yusuf 13 contra NH 12), 0 km; 15 L de água e zero comida, Fadiga de fome em Negrum, Edric e Yusuf_
+
+*DIA 14 — O CORPO NA AREIA*
+
+A carroça segue pela manhã com Jah nas rédeas. Ele toma o lugar de Comam sem cerimônia, firma os joelhos no assento e conduz os dois cavalos de tiro em passo constante.
+> Carreiro: pré-definido Cavalgar 14 -2 = *12*
+> 3d [4, 1, 6] = *11* → sucesso por 1
+
+Yusuf sobe na caçamba e aponta as dunas com a certeza do moleque que já acertou o rumo antes. Dessa vez a areia o engana: o horizonte se parece com o de ontem, e o guia não percebe até o sol baixar.
+> Navegação em terra (Yusuf): NH *12*
+> 3d [4, 5, 4] = *13* → *falhou por 1*
+> *Rumo errado:* a comitiva gira o dia todo, 0 km creditados
+
+No meio da tarde, sobre uma crista, aparece um corpo caído na areia. É um homem, de bruços, com o couro das botas arrancado e os bolsos virados do avesso. Alguém chegou antes: não resta água, nem faca, nem um pedaço de pano. Jah desacelera, olha em volta e segue em frente, sem que ninguém queira falar do assunto.
+> Tabela do dia: *9*, um corpo na areia, já saqueado
+
+A comida dá para cinco bocas e há sete. Primeiro comem os feridos: NelsOwned, Comam, Kaelric e Jah recebem a ração inteira do dia. Negrum, Edric e Yusuf dividem os três bocados que sobram, e vão dormir de barriga vazia.
+> Comida: 5 pessoas-dia − 5 = *0* (feridos primeiro; Negrum, Edric e Yusuf comem 1 de 3 refeições: *-2 de Fadiga* cada)
+> Água: 90 L − 75 L (7 bocas × 5 L + 4 montarias × 10 L) = *15 litros*
+
+À noite, os que comeram direito descansam e tentam sarar:
+> NelsOwned: HT 13, 3d [1, 4, 5] = *10* → sucesso por 3 → *+1 PV (6/13)*
+> Comam: HT 13, 3d [4, 3, 2] = *9* → sucesso por 4 → *+1 PV (9/13)*
+> Kaelric: HT 12, 3d [3, 6, 6] = *15* → falhou por 3 (PV 10/12)
+> Jah: HT 12, 3d [6, 5, 5] = *16* → falhou por 4 (PV 11/12)
+
+*Saldo do dia:* 120 km andados dos 200, *faltam 80 km*. Restam *15 L de água* e *nenhuma ração*.
+
+### Narração 30 — 06/10/2026 14:47
+
+_Dia 15: rumo errado de novo (Yusuf 13 contra NH 12), 0 km; água zerada e sem comida; sede e fome nos homens e nas montarias_
+
+*DIA 15 — A SEDE*
+
+Jah toma as rédeas antes do sol nascer e conduz a carroça pela areia fria. A parelha puxa devagar, de língua pendurada, e ele finge não ouvir o fôlego curto dos animais.
+> Carreiro: pré-definido Cavalgar 14 -2 = *12*
+> 3d [5, 1, 5] = *11* → sucesso por 1
+
+Yusuf mede as dunas, o vento e a sombra do sol, e acredita que acertou. O horizonte, de novo, é só areia igual a areia. À tarde, uma crista que ele jurava nova já tem as marcas da carroça de ontem.
+> Navegação em terra (Yusuf): NH *12*
+> 3d [6, 3, 4] = *13* → *falhou por 1*
+> *Rumo errado de novo:* 0 km creditados
+> Tabela do dia: *10*, nada acontece
+
+A comida acabou. Ninguém come: o couro dos cintos, o último pedaço de rapadura dos bolsos, a carne dos reptantes, tudo já foi para dentro. A água é pouca: quinze litros nos barris, e os animais tomam tudo antes de qualquer pessoa. Os homens mal molham os lábios.
+> Comida: *0 p-d*. Ninguém come: *-3 de Fadiga* cada (3 refeições perdidas)
+> Água: 15 L → montarias primeiro (precedente do dia 9). As pessoas ficam com menos de 1 L: *-2 de Fadiga e -2 de PV* cada
+> Ninguém cura: sem comida e sem água
+
+Os cavalos bebem em goles curtos, e o tanque vazio ecoa. Cada animal levou uma fração do que pede.
+> Montarias: 15 L ÷ 4 = *3,75 L de 10 L cada* (37,5%): mesma regra de sede dos homens, proporcional → *-1 PV e -1 Fadiga* por animal
+> Cavalos de tiro (Tração, PV 12, ST/Fadiga 60): PV *11/12*, Fadiga *59/60* (os dois)
+> Cavalo do Jah e cavalo do Kaelric (Batalha, PV 15, ST/Fadiga 50): PV *14/15*, Fadiga *49/50* (os dois)
+
+À noite, cada um se deita onde pode, a boca seca e a cabeça girando.
+> Fadiga: Comam 8/13 · Kaelric 8/13 · Jah 4/9 · Negrum 8/15 · NelsOwned 10/15 · Edric 5/12
+> PV: Comam 7/13 · Kaelric 8/12 · Jah 9/12 · Negrum 10/12 · NelsOwned 4/13
+
+*Saldo do dia:* 120 km andados dos 200, *faltam 80 km*. *0 L de água* e *nenhuma ração*.
+
+### Narração 31 — 06/10/2026 14:56
+
+_Dia 16: rumo certo (Yusuf 12), +30 km (150 andados, faltam 50); sem água e sem comida, a fome passa a custar PV_
+
+*DIA 16 — OS BARULHOS NA DUNA*
+
+Jah conduz a carroça por mais um dia, de dentes cerrados e boca rachada, e a parelha responde no mesmo passo curto. Dessa vez o caminho se abre.
+> Carreiro: pré-definido Cavalgar 14 -2 = *12*
+> 3d [1, 4, 6] = *11* → sucesso por 1
+
+Yusuf sobe na capota, fecha os olhos, sente o vento no rosto e aponta a duna alta ao sul com um meio sorriso: o primeiro dele em dias. Acerta no fio da navalha.
+> Navegação em terra (Yusuf): NH *12*
+> 3d [4, 6, 2] = *12* → *sucesso por 0*
+> *Rumo certo:* +30 km (150 andados dos 200, *faltam 50 km*)
+
+Ao anoitecer, ninguém consegue dormir. Do outro lado das dunas vêm ruídos que ninguém identifica: um arrastar, talvez, um tilintar de metal, ou só o vento nas pedras. Ninguém aparece, mas todos acordam com a mão no cabo da arma.
+> Tabela do dia: *11*, nada acontece (só barulhos)
+
+Não há água nos barris nem ração nos sacos. O dia passa em seco.
+> Água: *0 L*. Sem nenhuma gota: pessoas *-2 de Fadiga e -2 de PV* cada
+> Comida: *0*. Fome: *-3 de Fadiga* cada, que *para em ST 3 e o resto vira perda de PV* (MB, cap. 12)
+> Ninguém cura: sem comida e sem água
+
+> Montarias (0 L, menos de 20% dos 10 L): *-2 PV e -2 Fadiga* cada
+> Cavalos de tiro: PV *9/12*, Fadiga *57/60* (os dois)
+> Cavalo do Jah e do Kaelric: PV *12/15*, Fadiga *47/50* (os dois)
+
+> Comam: Fadiga 3/13, PV 5/13
+> Kaelric: Fadiga 3/13, PV 6/12
+> Jah: Fadiga 2/9, PV 4/12 (a fome o cobrou em PV: 3)
+> Negrum: Fadiga 3/15, PV 8/12
+> NelsOwned: Fadiga 5/15, PV 2/13
+> Edric: Fadiga 3/12, PV 6/11 (a fome o cobrou em PV: 3)
+
+*Saldo do dia:* 150 km andados dos 200, *faltam 50 km*. *0 L de água* e *nenhuma ração*.
+
 ## Acontecimentos
 
 <!-- indice:acontecimentos -->
@@ -1091,4 +1236,13 @@ Comam ri mesmo assim, e ganha um olhar de reprovação. A bandagem fica limpa e 
 - **05/10/2026 22:56** — [narração 24] Edric, desesperado, chora a morte de Lorde William na areia
 - **05/10/2026 23:15** — [narração 25] Negrum falha no teste de Vontade contra a Sanguinolência e avança sobre os dois reptantes caídos
 - **05/10/2026 23:25** — [narração 26] Kaelric trata o Comam: Primeiros Socorros 15, sucesso por 4, cura 1 PV (8/13)
+- **06/10/2026 11:28** — [narração 27] Dia 13: NelsOwned acha 12 rações e 20 L nos reptantes; sobram 90 L e 5 pessoas-dia
+- **06/10/2026 12:57** — [narração 28] Fim do dia 13: William enterrado, bolsa de $5.000 dividida, Jah dirige a carroça, Fadiga recuperada; 90 L e 5 pessoas-dia
+- **06/10/2026 13:11** — DIA 14 (turno 26, roll6; o dia vale um turno por ordem do Mestre) — tabela do dia: 9, corpo na areia já saqueado. Carreiro do Jah (Cavalgar 14-2) 12, 3d [4,1,6]=11, sucesso por 1. Navegação do Yusuf 12 em terra, 3d [4,5,4]=13, FALHA por 1: 0 km, rumo errado; 120 km andados, faltam 80. Água 90 -75 (7 bocas x5 + 4 montarias x10) = 15 L. Comida 5 -5 = 0 (feridos primeiro: Nels, Comam, Kaelric e Jah comem o dia; Negrum, Edric e Yusuf dividem 3 refeições, 1 cada: -2 Fadiga). Cura natural só para quem comeu: Nels HT 13 3d [1,4,5]=10 +1 PV; Comam HT 13 3d [4,3,2]=9 +1 PV; Kaelric HT 12 3d [3,6,6]=15 falha; Jah HT 12 3d [6,5,5]=16 falha.
+- **06/10/2026 13:11** — [narração 29] Dia 14: rumo errado de novo (Yusuf 13 contra NH 12), 0 km; 15 L de água e zero comida, Fadiga de fome em Negrum, Edric e Yusuf
+- **06/10/2026 14:47** — DIA 15 (turno 27, roll6; o dia vale um turno por ordem do Mestre) — tabela do dia: 10, nada. Carreiro do Jah (Cavalgar 14-2) 12, 3d [5,1,5]=11, sucesso por 1. Navegação do Yusuf 12 em terra, 3d [6,3,4]=13, FALHA por 1: 0 km, rumo errado; 120 km andados, faltam 80. Água 15 -> 0: montarias primeiro (decisão do Mestre, precedente do dia 9): 15 L / 4 = 3,75 L de 10 cada (37,5%), -1 PV e -1 Fadiga por animal (proporcional à regra dos homens); pessoas com menos de 1 L: -2 Fadiga e -2 PV cada. Comida 0: todos -3 Fadiga (3 refeições). Ninguém cura. Por pessoa: -5 Fadiga e -2 PV.
+- **06/10/2026 14:47** — [narração 30] Dia 15: rumo errado de novo (Yusuf 13 contra NH 12), 0 km; água zerada e sem comida; sede e fome nos homens e nas montarias
+- **06/10/2026 14:56** — DIA 16 (turno 28, roll6; o dia vale um turno por ordem do Mestre; o Mestre disse 'dia 17', e eu confirmei que era o 16) — tabela do dia: 11, nada, mas escutam barulhos. Carreiro do Jah (Cavalgar 14-2) 12, 3d [1,4,6]=11, sucesso por 1. Navegação do Yusuf 12, 3d [4,6,2]=12, SUCESSO por 0: +30 km, 150 andados, faltam 50. Água 0, comida 0. Sede (0 L): -2 Fadiga e -2 PV por pessoa; fome: -3 Fadiga que PARA EM ST 3 e o resto vira perda de PV (MB cap. 12, Inanição; Mestre mandou conferir). Ordem: sede primeiro, depois fome. Comam F3 PV5; Kaelric F3 PV6; Jah F2 PV4 (fome 3 em PV); Negrum F3 PV8; Nels F5 PV2; Edric F3 PV6. Montarias 0 L (<20%): -2 PV e -2 Fadiga cada: tiro PV 9/12 F57/60; batalha PV 12/15 F47/50. Ninguém cura.
+- **06/10/2026 14:56** — [narração 31] Dia 16: rumo certo (Yusuf 12), +30 km (150 andados, faltam 50); sem água e sem comida, a fome passa a custar PV
+- **06/10/2026 15:12** — CAPÍTULO 7 ENCERRADO (ordem do Mestre): A Travessia do Grande Deserto. Fecha no dia 16 com 150 km andados dos 200, sem água nem comida, e o rumo certo do Yusuf (NH 12, 3d 8) que leva a comitiva ao oásis na manhã do dia 17. Mortes do capítulo: Lorde William de Wallace (turno 24) e os Reptantes 2 e 4; os Reptantes 1 e 3 ficaram inconscientes. Bolsa de William ($5.000) dividida entre os 5 PJs. Jah passou a dirigir a carroça.
 <!-- /indice:acontecimentos -->

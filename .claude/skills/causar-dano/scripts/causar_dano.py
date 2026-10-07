@@ -117,13 +117,6 @@ def calcular(p):
         saida.append(f"  +{bonus} do Ataque Total = {basico}")
         mecanico += f" +{bonus} Ataque Total = *{basico}*"
 
-    # 2. dano mínimo antes da armadura (MB, pág. 74)
-    if basico <= 0 and tipo in ("corte", "perf"):
-        saida.append("  Dano minimo: corte e perfuracao que acertam fazem pelo menos 1 "
-                     "(MB, pag. 74) -> 1")
-        basico = 1
-        mecanico += " → mínimo 1 (corte/perfuração)"
-
     # 3. teto da arma e ½D (projétil)
     teto_arma = p.get("teto_arma")
     if teto_arma is not None and basico > teto_arma:
@@ -137,6 +130,13 @@ def calcular(p):
         saida.append(f"  ½D: além de {meia_txt} m o dano cai à metade, "
                      f"arredondando para baixo → {basico}")
         mecanico += f" → metade (½D) = *{basico}*"
+
+    # dano mínimo antes da armadura (MB, pág. 74 e 7): vale depois do ½D, que também reduz o dano básico
+    if basico <= 0 and tipo in ("corte", "perf"):
+        saida.append("  Dano minimo: corte e perfuracao que acertam fazem pelo menos 1 "
+                     "(MB, pag. 74) -> 1")
+        basico = 1
+        mecanico += " → mínimo 1 (corte/perfuração)"
 
     # 4. golpe fulminante
     if mult_ful > 1:

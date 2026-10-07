@@ -1,0 +1,25 @@
+*DIA 14 — O CORPO NA AREIA*
+
+A carroça segue pela manhã com Jah nas rédeas. Ele toma o lugar de Comam sem cerimônia, firma os joelhos no assento e conduz os dois cavalos de tiro em passo constante.
+> Carreiro: pré-definido Cavalgar 14 -2 = *12*
+> 3d [4, 1, 6] = *11* → sucesso por 1
+
+Yusuf sobe na caçamba e aponta as dunas com a certeza do moleque que já acertou o rumo antes. Dessa vez a areia o engana: o horizonte se parece com o de ontem, e o guia não percebe até o sol baixar.
+> Navegação em terra (Yusuf): NH *12*
+> 3d [4, 5, 4] = *13* → *falhou por 1*
+> *Rumo errado:* a comitiva gira o dia todo, 0 km creditados
+
+No meio da tarde, sobre uma crista, aparece um corpo caído na areia. É um homem, de bruços, com o couro das botas arrancado e os bolsos virados do avesso. Alguém chegou antes: não resta água, nem faca, nem um pedaço de pano. Jah desacelera, olha em volta e segue em frente, sem que ninguém queira falar do assunto.
+> Tabela do dia: *9*, um corpo na areia, já saqueado
+
+A comida dá para cinco bocas e há sete. Primeiro comem os feridos: NelsOwned, Comam, Kaelric e Jah recebem a ração inteira do dia. Negrum, Edric e Yusuf dividem os três bocados que sobram, e vão dormir de barriga vazia.
+> Comida: 5 pessoas-dia − 5 = *0* (feridos primeiro; Negrum, Edric e Yusuf comem 1 de 3 refeições: *-2 de Fadiga* cada)
+> Água: 90 L − 75 L (7 bocas × 5 L + 4 montarias × 10 L) = *15 litros*
+
+À noite, os que comeram direito descansam e tentam sarar:
+> NelsOwned: HT 13, 3d [1, 4, 5] = *10* → sucesso por 3 → *+1 PV (6/13)*
+> Comam: HT 13, 3d [4, 3, 2] = *9* → sucesso por 4 → *+1 PV (9/13)*
+> Kaelric: HT 12, 3d [3, 6, 6] = *15* → falhou por 3 (PV 10/12)
+> Jah: HT 12, 3d [6, 5, 5] = *16* → falhou por 4 (PV 11/12)
+
+*Saldo do dia:* 120 km andados dos 200, *faltam 80 km*. Restam *15 L de água* e *nenhuma ração*.

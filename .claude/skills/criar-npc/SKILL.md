@@ -76,6 +76,7 @@ ST 10, DX 11, IQ 13, HT 10. Velocidade Básica 5,25; Deslocamento 5. Esquiva 5; 
   236), inclusive a ordem antiga da primeira linha e o `.;` órfão de `75 kg.`. Ele vale como
   modelo de *conteúdo*, não de pontuação: ao emitir um bloco novo, use a ordem de cima
   (altura; peso; idade) e não replique o ponto sobrando.
+- **Traços da raça entram no bloco**: todas as vantagens e desvantagens do pacote racial (bônus de atributo e Fadiga, RD natural, Longevidade, Deslocamento, Intolerância, Reputação, Ouvido Aguçado…) aparecem em *Vantagens:* e *Desvantagens:* logo depois da raça, e as peculiaridades raciais em *Peculiaridades:* (sem custo no bloco, como o resto). Orc, Anão e Elfo são exemplos: o leitor tem de ver o que a raça dá e o que cobra.
 - Omita um campo só se não existir (sem Bloqueio sem escudo; sem a palavra "Vantagens" se a lista for vazia).
 - Perícias: `Nome NH`, separadas por `; `. Línguas no campo próprio, não em Perícias. Se o
   NPC é de arte marcial, as manobras reais dele (`04-combate-manobras.md`, “Manobras

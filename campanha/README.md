@@ -5,7 +5,7 @@
 **Mestre:** IA (Mestre)
 **Início:** 06/09/2026
 **Cenário:** Yrth — Caithness, o Grande Deserto e Zarak
-**Capítulo atual:** 07
+**Capítulo atual:** 08
 **Pontos dos personagens:** 150
 
 Wallace, a cidade fronteiriça de Caithness, caiu numa noite. Os mortos levantaram-se e **Vurkash, o Que Não Enterra**, os comanda com uma espada de brilho azul. A única terra onde nenhum encantamento funciona — e portanto nenhum morto-vivo entra — é o Grande Deserto. É para lá que os sobreviventes correm.
@@ -64,7 +64,8 @@ Como as coisas **estão agora**: [`mundo.md`](mundo.md) (ferimentos, itens, rela
 - [4. O Que Não Enterra — como aconteceu](04-o-que-nao-enterra/) — 19/09/2026 · 13 acontecimento(s) · 4 arquivo(s) de mesa
 - [5. O Lorde William — como aconteceu](05-o-lorde-william/) — 20/09/2026 · 4 acontecimento(s) · 3 arquivo(s) de mesa
 - [6. A Fuga para o Deserto — como aconteceu](06-a-fuga-para-o-deserto/) — 21/09/2026 · 48 acontecimento(s) · 5 arquivo(s) de mesa
-- [7. A Travessia do Grande Deserto — como aconteceu](07-a-travessia-do-grande-deserto/) — 30/09/2026 · 41 acontecimento(s) · 4 arquivo(s) de mesa
+- [7. A Travessia do Grande Deserto — como aconteceu](07-a-travessia-do-grande-deserto/) — 30/09/2026 · 50 acontecimento(s) · 4 arquivo(s) de mesa
+- [8. O Confronto no Oásis — como aconteceu](08-o-confronto-no-oasis/) — 06/10/2026 · 14 acontecimento(s) · 4 arquivo(s) de mesa
 - [video](video/)
 - [Exportações do grupo de WhatsApp](whatsapp/)
 <!-- /indice:historico -->

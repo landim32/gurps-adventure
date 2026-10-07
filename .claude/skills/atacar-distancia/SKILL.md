@@ -266,3 +266,12 @@ MCP muda só por pedido explícito do usuário.
 Os scripts desta skill só gravam o acontecimento no capítulo. Esta skill **não escreve no
 MCP**: quem altera o roll6 é o `processar-turno`, ao fechar o turno; fora dele, só por
 pedido explícito do usuário.
+
+## Cuidados que já custaram um erro
+
+- **Hipoalgia do alvo:** NPC sem ficha local só ganha o efeito com `--alvo-hipoalgia`
+  (sem redutor por ferimento e **sem atordoamento**, salvo cabeça ou fulminante). Confira o
+  `npcs.md` antes de atirar.
+- **Faca arremessada é perfurante** (MB, tabela de Arremesso de Faca: faca pequena perf.
+  GDP-1). Se a ficha listar "Facas" como corte, o script usa o da ficha: passe
+  `--tipo perf`. Dano mínimo de 1 vale **depois** do ½D.
