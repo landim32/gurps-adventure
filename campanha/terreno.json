@@ -1,0 +1,177 @@
+{
+ "oasis-1": {
+  "agua_pct": {
+   "10,10": 100,
+   "10,11": 100,
+   "10,12": 36,
+   "10,13": 16,
+   "10,9": 84,
+   "11,10": 76,
+   "11,11": 80,
+   "11,9": 64,
+   "12,10": 56,
+   "12,11": 36,
+   "5,7": 28,
+   "6,7": 68,
+   "6,8": 12,
+   "7,10": 60,
+   "7,6": 16,
+   "7,7": 84,
+   "7,8": 84,
+   "7,9": 36,
+   "8,10": 100,
+   "8,11": 100,
+   "8,12": 12,
+   "8,7": 16,
+   "8,8": 88,
+   "8,9": 100,
+   "9,10": 100,
+   "9,11": 100,
+   "9,12": 56,
+   "9,8": 40,
+   "9,9": 100
+  },
+  "colunas": 17,
+  "hexes": {
+   "10,10": {
+    "decidido": false,
+    "pct": 100,
+    "tipo": "funda"
+   },
+   "10,11": {
+    "decidido": false,
+    "pct": 100,
+    "tipo": "funda"
+   },
+   "10,12": {
+    "decidido": false,
+    "pct": 36,
+    "tipo": "incerta"
+   },
+   "10,13": {
+    "decidido": false,
+    "pct": 16,
+    "tipo": "incerta"
+   },
+   "10,9": {
+    "decidido": false,
+    "pct": 84,
+    "tipo": "funda"
+   },
+   "11,10": {
+    "decidido": false,
+    "pct": 76,
+    "tipo": "funda"
+   },
+   "11,11": {
+    "decidido": false,
+    "pct": 80,
+    "tipo": "funda"
+   },
+   "11,9": {
+    "decidido": false,
+    "pct": 64,
+    "tipo": "incerta"
+   },
+   "12,10": {
+    "decidido": false,
+    "pct": 56,
+    "tipo": "incerta"
+   },
+   "12,11": {
+    "decidido": false,
+    "pct": 36,
+    "tipo": "incerta"
+   },
+   "5,7": {
+    "decidido": false,
+    "pct": 28,
+    "tipo": "incerta"
+   },
+   "6,7": {
+    "decidido": false,
+    "pct": 68,
+    "tipo": "incerta"
+   },
+   "7,10": {
+    "decidido": true,
+    "obs": "decisão do Mestre",
+    "pct": null,
+    "tipo": "margem"
+   },
+   "7,6": {
+    "decidido": false,
+    "pct": 16,
+    "tipo": "incerta"
+   },
+   "7,7": {
+    "decidido": false,
+    "pct": 84,
+    "tipo": "funda"
+   },
+   "7,8": {
+    "decidido": false,
+    "pct": 84,
+    "tipo": "funda"
+   },
+   "7,9": {
+    "decidido": false,
+    "pct": 36,
+    "tipo": "incerta"
+   },
+   "8,10": {
+    "decidido": false,
+    "pct": 100,
+    "tipo": "funda"
+   },
+   "8,11": {
+    "decidido": false,
+    "pct": 100,
+    "tipo": "funda"
+   },
+   "8,7": {
+    "decidido": false,
+    "pct": 16,
+    "tipo": "incerta"
+   },
+   "8,8": {
+    "decidido": false,
+    "pct": 88,
+    "tipo": "funda"
+   },
+   "8,9": {
+    "decidido": false,
+    "pct": 100,
+    "tipo": "funda"
+   },
+   "9,10": {
+    "decidido": false,
+    "pct": 100,
+    "tipo": "funda"
+   },
+   "9,11": {
+    "decidido": false,
+    "pct": 100,
+    "tipo": "funda"
+   },
+   "9,12": {
+    "decidido": true,
+    "obs": "decisão do Mestre",
+    "pct": null,
+    "tipo": "margem"
+   },
+   "9,8": {
+    "decidido": false,
+    "pct": 40,
+    "tipo": "incerta"
+   },
+   "9,9": {
+    "decidido": false,
+    "pct": 100,
+    "tipo": "funda"
+   }
+  },
+  "imagem": "cenarios/oasis.jpg",
+  "linhas": 22
+ }
+}

@@ -380,6 +380,14 @@ dois discordarem, o repositório ganha e o roll6 é corrigido.
   precisa), registra no repositório e encerra o turno com um único `process_turn`. **Todo
   turno fechado gera uma narração**, arquivada pelo `narrar.py gravar` — no capítulo e em
   `campanha/whatsapp/output/` — e exibida na resposta.
+- **Movimento é validado antes da ação:** a `processar-turno` chama a folha
+  **`validar-movimento`** para todo personagem que se moveu. Ela confere Deslocamento de hoje
+  (ficha, Carga, perna mutilada, Fadiga, PV), o teto da **manobra declarada** (só o
+  Deslocamento gasta pontos; Defesa Total anda 1 hex, Ataque Total até 2, Apontar até metade),
+  posição, terreno e água (`campanha/terreno.json`). Passou do limite: a peça volta ao ponto
+  legal mais avançado da rota e a narração avisa; a ação é **reavaliada dali**, nunca descartada
+  só porque a peça não chegou. **A prioridade é não prejudicar o personagem além do que o MB e
+  a ordem do Mestre mandam**; dúvida de regra vai ao Mestre, e a decisão dele vira errata.
 - **Coordenada é do roll6: `x` = coluna, `y` = linha.** É o que `list_map_tokens` devolve e
   `move_map_token` recebe. O `roll6.py alinhar` sobrou só para as cenas antigas, as que têm
   índice `.json` em `cenarios/` e aparecem nos registros por rótulo (`P7` → x 15, y 6); mapa

@@ -70,6 +70,39 @@ Junte **todas** as divergências e pergunte **uma vez**, antes de rolar qualquer
 - **A posição no roll6 é a posição.** Não existe mais a outra para conferir: cavalo, objeto
   e peça que só o roll6 conhece simplesmente estão onde o roll6 diz.
 
+## 1a. Validar o movimento (antes de resolver qualquer ação)
+
+```bash
+python .claude/skills/validar-movimento/scripts/validar_movimento.py turno
+```
+
+A folha `validar-movimento` confere, **para todo personagem que se moveu**, a peça contra o
+MB: Deslocamento de hoje (ficha, Carga atual, perna mutilada, Fadiga, PV), teto da **manobra
+declarada**, posição, terreno e água. O custo que o roll6 conta (`gastou N pontos`) **não vale
+como regra**: vale o da folha. O que fazer com o resultado:
+
+- **`ok`**: a peça fica onde o jogador a pôs.
+- **`corrigir`**: a peça volta ao `posicao_valida` (ponto legal mais avançado da rota), o
+  `process_turno` leva esse `x`, `y` e `look`, e a **narração avisa** a correção. Ordem
+  expressa do Mestre (ex.: "se alguém passar do deslocamento, volte ao ponto") já cobre isto;
+  sem ordem, mostre a correção na aprovação (seção 4a).
+- **Manobra ambígua** (a declaração mistura Deslocamento com Defesa Total, Apontar...): a folha
+  traz as `alternativas`. **Junte com as outras dúvidas e pergunte ao Mestre uma vez** (seção
+  3, item 7); decidido, refaça com `--manobra "Nome=codigo"` e registre como errata.
+- **Movimento em outro mapa**: não vale; a peça do mapa em jogo não saiu do lugar. Avise o
+  jogador na resposta ao Mestre.
+- **`natacao`**: a peça terminou em água funda. A `teste-nh` rola Natação (DX-4 ou NH da ficha,
+  +3 se entrou de propósito, -2 por nível de Carga, -3 se coxo); falhou, o Mestre decide se
+  volta um hexágono.
+- **Terreno incerto** (`incerta`): pergunte ao Mestre e grave a decisão com
+  `validar_movimento.py terreno --mapa <índice> --decidir "x,y=margem|rasa|funda|terra"`.
+
+**A ação é reavaliada do ponto corrigido, nunca descartada só porque a peça não chegou.** Refaça
+distância, frente e ângulo com `calcular-alcance` a partir da posição válida e confira alvo e
+arma. Se a ação **não pode** acontecer dali, **não role**: diga ao Mestre e, só se for legal para
+a manobra já comprometida e ele não mandou outra coisa, **proponha** Defesa Total. A prioridade
+da mesa é não prejudicar o personagem além do que o MB e a ordem do Mestre mandam.
+
 ## 2. Ler antes de decidir qualquer número
 
 Leia os arquivos da lista, **a ficha de cada personagem que age** (a ficha local; sem
@@ -444,6 +477,8 @@ Depois do `process_turn`, o item 1 sai **sempre** de novo na tela: é o bloco qu
 ## O que esta skill nunca faz
 
 - **Processar com ação faltando** sem ordem do Mestre.
+- **Resolver uma ação sem antes validar o movimento** da peça que a faz (seção 1a), nem deixar o
+  custo de pontos do roll6 decidir por conta própria.
 - **Enviar qualquer coisa ao roll6** (`process_turn` ou outra escrita) antes de o Mestre
   aprovar o resultado, salvo aviso dele de que não precisa de aprovação.
 - **Rolar de cabeça** ou rolar de novo; inventar NH, RD ou DP.

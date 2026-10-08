@@ -337,6 +337,7 @@ flowchart TB
 | Folha | Grandeza | Recebe | Devolve |
 |---|---|---|---|
 | **calcular-alcance** | distância na grade odd-q do roll6 | duas posições (rótulo, `x,y`, nome de peça) | hexágonos, metros, linha da tabela de escala, lado e ângulo de visão |
+| **validar-movimento** | o movimento legal de cada peça no turno | posições (início e fim), frente, manobra declarada, estado da ficha/roll6, `campanha/terreno.json` | Deslocamento de hoje, custo do livro, `veredito` (`ok`/`corrigir`), `posicao_valida`, Natação, avisos e alternativas quando a manobra é ambígua |
 | **resolver-defesa** | a defesa do alvo | defesa escolhida, DP da região, escudo, manobra, recuo, situação | número, dado, sucesso, **RD da região** |
 | **causar-dano** | a cascata de dano | dado, tipo, RD, local com tetos, ½D, fulminante | PV perdidos, desperdício, membro incapacitado, traqueia/decapitação |
 | **arbitrar-ferimento** | o efeito do ferimento | PV perdidos, HT, local, Hipoalgia | redutor, queda, atordoamento, nocaute — o **status tático** |
