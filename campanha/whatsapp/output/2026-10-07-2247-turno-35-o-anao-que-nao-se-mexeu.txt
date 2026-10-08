@@ -1,0 +1,26 @@
+*TURNO 35 — O ANÃO QUE NÃO SE MEXEU*
+
+Vurkash olha o grupo se abrir em arco pelo outro lado da água, os ombros caídos, e procura o alvo mais perto: o anão de veludo sujo, parado onde está. A mão desce ao cinto e a faca sai no mesmo movimento do braço.
+> Sacar Rápido (Faca): NH 15, 3d [4, 2, 4] = *10* → sucesso por 5
+> Ataque: Arremesso de Faca NH 16, -3 distância (5 m), -2 Braço (ponto sorteado: 3d [1, 4, 3] = 8), Tiro Rápido sem penalidade (NH ajustado 11 ≥ TR 11) = *11*
+> 3d [3, 6, 2] = *11* → sucesso por 0
+> Defesa de NelsOwned: esquiva 5 +1 Reflexos em Combate = *6*
+> 3d [6, 1, 1] = *8* → falhou por 2
+> Dano (perfuração): 1D-1: [2] - 1 = *1*
+> RD 1 (Anão) → 0 passam. *NelsOwned não perde ponto de vida.*
+> Vurkash tem agora 2 facas.
+
+A faca bate no braço do anão, desliza pela manga grossa de veludo e cai na lama. NelsOwned não pisca. Não tinha feito nada, e continua sem fazer.
+
+Jah mantém a adaga no braço direito do orc, o cotovelo firme. A mira se aperta mais um pouco.
+> Jah apontou (Apontar): 2º turno de mira, sem ataque. +1 de Precisão acumulada. Qualquer defesa ou ferimento estraga a mira.
+
+Comam dá um passo curto, coxeando, em defesa total.
+
+Kaelric dá um passo curto, coxeando, e vira o ombro para o orc, o pavês ainda no alto.
+
+NelsOwned anda dois hexágonos e para.
+
+Negrum quis avançar três hexágonos em defesa total, mas essa manobra só deixa dar um passo. *Aviso:* ele volta ao ponto onde ela o deixa: *(11,13)*.
+
+*Deslocamentos conferidos:* Comam *1* e Kaelric *1* (coxos, Fadiga 3), Jah *3*, NelsOwned *2* (PV 1), Vurkash *3*.

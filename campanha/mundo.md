@@ -202,6 +202,10 @@ script, e rode `campanha.py mundo`.)_
 - **06/10/2026 21:39** · _ferimento_ — Turno 32: levou um virote da Zaina do Comam no tronco (13 PV): PV 2/15, caído e atordoado (HT 13 tirou 14). 4 facas de arremesso. Fadiga 6/14.  _(cap. 08)_
 - **07/10/2026 11:08** · _ferimento_ — Turno 33: faca do Jah na perna (1 PV): PV 1/15. Saiu do atordoamento (HT 12) e está ajoelhado; fica de pé no próximo turno. 4 facas.  _(cap. 08)_
 - **07/10/2026 17:15** · _informação_ — Turno 34: de pé; jogou 1 faca no Kaelric e errou (3 facas). PV 1/15, Fadiga 6/14. Facas arremessadas são perfurantes (1D-1 com ST 14), errata do Mestre.  _(cap. 08)_
+- **07/10/2026 22:46** · _informação_ — Turno 35: jogou outra faca, no NelsOwned (braço): acertou por 0, RD 1 do Anão zerou o dano. Restam 2 facas. PV 1/15, Fadiga 6/14.  _(cap. 08)_
+- **08/10/2026 09:39** · _informação_ — Turno 36: jogou mais uma faca no NelsOwned e errou por 8. Resta 1 faca. PV 1/15, Fadiga 6/14.  _(cap. 08)_
+- **08/10/2026 11:09** · _ferimento_ — Turno 37: adaga do Jah no braço direito (1 PV): PV 0/15, segue consciente (HT 13 +7 de Força de Vontade a cada turno). Gastou a última faca no NelsOwned (esquivou). Sem facas: só montante e adaga.  _(cap. 08)_
+- **08/10/2026 14:54** · _item_ — Turno 38: sem facas, empunhou o montante (turno gasto em sacar). PV 0/15, Fadiga 6/14, testa HT 13+7 a cada turno.  _(cap. 08)_
 
 ### Vurkash, o Que Não Enterra
 
@@ -292,6 +296,7 @@ script, e rode `campanha.py mundo`.)_
 - **30/09/2026 16:22** · _pontos_ — Corrigido o gasto: saiu o +1 de IQ. Ficou DX 13, Cura Superficial 14 e Primeiros Socorros 14. Gastos 14, sobram 6. Total 164 de 170. IQ 12. As demais perícias e mágicas de IQ voltaram um NH. No roll6 a ficha foi atualizada na **cópia da campanha** (participation 5, planilha em PDF com ficha + grimório); a biblioteca é do Henrique e continua na versão de 150 — ele precisa atualizar lá.  _(cap. 07)_
 - **02/10/2026 17:10** · _item_ — O Lorde William repus as pecas perdidas no canal (cota de malha, camal, escudo grande e coturnos, 27,5 kg) e o templario mandou tudo para o lombo do cavalo, sem vestir. A ficha continua com Esquiva 5, DP 4 so do paves e Carga Leve. Tratado: Medicina 15 tirou 12, sucesso, +1 PV, de 3 para 4/12. A perna coxa espera os 12.  _(cap. 07)_
 - **06/10/2026 17:17** · _ferimento_ — DECISÃO DO MESTRE (oásis): todos a pé; Kaelric luta DE PÉ com os redutores da Perna Mutilada (MB cap. 4): Deslocamento -3 (5 -> 2), Esquiva 2, -3 em Maça (15 -> 12; 10 com o pavês) e Escudo (16 -> 13, Bloqueio 6). O -1 de Cavalgar não vale mais (sem montaria). Perna só sara quando recuperar todos os PV (6/12).  _(cap. 08)_
+- **08/10/2026 14:54** · _estado_ — Turno 38: entrou na água funda do lago em (8,10) (Natação 7, passou por 0). Desl. 1 nadando; novo teste a cada 5 minutos.  _(cap. 08)_
 
 ### Jah Kagadu
 

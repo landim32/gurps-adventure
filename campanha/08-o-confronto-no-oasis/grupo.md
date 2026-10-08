@@ -11,6 +11,7 @@ _(o que de fato aconteceu com os personagens dos jogadores durante o jogo — fe
 ## Irmão Kaelric
 
 - **06/10/2026 17:17** · _ferimento_ — DECISÃO DO MESTRE (oásis): todos a pé; Kaelric luta DE PÉ com os redutores da Perna Mutilada (MB cap. 4): Deslocamento -3 (5 -> 2), Esquiva 2, -3 em Maça (15 -> 12; 10 com o pavês) e Escudo (16 -> 13, Bloqueio 6). O -1 de Cavalgar não vale mais (sem montaria). Perna só sara quando recuperar todos os PV (6/12).
+- **08/10/2026 14:54** · _estado_ — Turno 38: entrou na água funda do lago em (8,10) (Natação 7, passou por 0). Desl. 1 nadando; novo teste a cada 5 minutos.
 
 ## Negrum Carneiriums
 

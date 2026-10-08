@@ -1,0 +1,23 @@
+*TURNO 38 — O MONTANTE NA BAINHA*
+
+Kaelric avança o pé coxo para dentro da água, o pavês no alto, e a margem some sob a bota. O fundo falta de repente, e a perna ruim não ajuda.
+> Natação (pré-definido DX-4): NH 9, +3 entrou na água de propósito, -2 Carga Leve (2 x 1), -3 perna coxa = *7*
+> 3d [1, 3, 3] = *7* → sucesso por 0, *mantém a cabeça fora d'água*
+> Nadando: Deslocamento 1. Em defesa total.
+
+Jah faz a volta pela margem, mas o passo pede mais fôlego do que ele tem. *Aviso:* ele declarou mirar, e a mira só deixa dar um passo (metade do Deslocamento 3). Volta ao ponto onde ela o deixa: *(5,9)*. A adaga sai da bota num único gesto, e a ponta sobe até o pescoço do orc.
+> Sacar Rápido (Adaga): NH 15, 3d [3, 1, 1] = *5* → *SUCESSO DECISIVO*
+> Jah apontou (Apontar): 1º turno de mira, sem ataque. Qualquer defesa ou ferimento estraga a mira.
+
+Vurkash cambaleia, os olhos perdendo o foco, e ainda assim se mantém de pé. Pelo outro lado da lagoa, o grupo fecha o arco em torno dele.
+> Vurkash: PV 0, teste de HT para seguir consciente (HT 13 +7 Força de Vontade = 20), 3d [4, 3, 2] = *9* → sucesso por 11, segue de pé
+
+Sem mais facas, ele agarra o punho do montante e o arranca da bainha com as duas mãos. A lâmina larga sobe devagar, pesada, e a ponta toca a lama. Ele não ataca ainda. Entre os dentes, quase sem som: "Venham... um de cada vez."
+
+Comam gira o corpo no lugar, coxeando, em defesa total.
+
+Negrum contorna a ponta norte da lagoa, o escudo à frente, dois hexágonos de lama e capim, e fica a dois hexágonos do orc.
+
+NelsOwned avança dois hexágonos pela margem leste e para.
+
+*Deslocamentos conferidos:* Comam *1* e Kaelric *1* (coxos, Fadiga 3), Jah *3*, Negrum *3*, NelsOwned *2* (PV 1), Vurkash *3*.

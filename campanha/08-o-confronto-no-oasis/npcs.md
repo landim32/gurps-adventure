@@ -19,3 +19,7 @@ _(o que de fato aconteceu com estes NPCs durante o jogo — ferimento que ficou,
 - **06/10/2026 21:39** · _ferimento_ — Turno 32: levou um virote da Zaina do Comam no tronco (13 PV): PV 2/15, caído e atordoado (HT 13 tirou 14). 4 facas de arremesso. Fadiga 6/14.
 - **07/10/2026 11:08** · _ferimento_ — Turno 33: faca do Jah na perna (1 PV): PV 1/15. Saiu do atordoamento (HT 12) e está ajoelhado; fica de pé no próximo turno. 4 facas.
 - **07/10/2026 17:15** · _informação_ — Turno 34: de pé; jogou 1 faca no Kaelric e errou (3 facas). PV 1/15, Fadiga 6/14. Facas arremessadas são perfurantes (1D-1 com ST 14), errata do Mestre.
+- **07/10/2026 22:46** · _informação_ — Turno 35: jogou outra faca, no NelsOwned (braço): acertou por 0, RD 1 do Anão zerou o dano. Restam 2 facas. PV 1/15, Fadiga 6/14.
+- **08/10/2026 09:39** · _informação_ — Turno 36: jogou mais uma faca no NelsOwned e errou por 8. Resta 1 faca. PV 1/15, Fadiga 6/14.
+- **08/10/2026 11:09** · _ferimento_ — Turno 37: adaga do Jah no braço direito (1 PV): PV 0/15, segue consciente (HT 13 +7 de Força de Vontade a cada turno). Gastou a última faca no NelsOwned (esquivou). Sem facas: só montante e adaga.
+- **08/10/2026 14:54** · _item_ — Turno 38: sem facas, empunhou o montante (turno gasto em sacar). PV 0/15, Fadiga 6/14, testa HT 13+7 a cada turno.

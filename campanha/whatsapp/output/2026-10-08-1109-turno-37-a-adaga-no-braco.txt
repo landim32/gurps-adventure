@@ -1,0 +1,34 @@
+*TURNO 37 — A ADAGA NO BRAÇO*
+
+Jah dá um passo para o lado, vira o corpo para a água e solta o fôlego. A adaga, três turnos de mira presa ao braço direito do orc, sai da mão dele sem hesitar. A lâmina cruza seis metros e crava no antebraço de Vurkash, que nem tenta desviar.
+> Ataque: Arremesso de Faca NH 18, -3 distância (6 m), +0 Precisão (cancelada além do ½D de 5 m), +2 mira (2 turnos extras de Apontar), -2 Braço, +4 Ataque Total = *19*
+> 3d [1, 5, 4] = *10* → sucesso por 9
+> Defesa de Vurkash: esquiva 6 = *6*
+> 3d [6, 6, 2] = *14* → falhou por 8
+> Dano (perfuração): 1D-3: [5] - 3 = 2 → ½D (6 m > 5 m) → *1*
+> RD 0 → 1 passa. Perfurante em membro não ganha bônus. Braço não incapacita (1 < HT/2).
+> *Vurkash perde 1 ponto de vida (PV 0/15).*
+> Jah fez Ataque Total: sem defesa ativa até o próximo turno.
+
+O orc fecha o punho em torno da adaga, a arranca do braço e a deixa cair. O sangue não o faz recuar. Entre os dentes, a voz sai áspera: "Mais um... só mais um."
+> Vurkash: PV 0, teste de HT para seguir consciente (HT 13 +7 Força de Vontade = 20), 3d [1, 3, 1] = *5* → *SUCESSO DECISIVO*, segue de pé
+
+Com a mão que ainda obedece, ele puxa a última faca do cinto e a arremessa contra o anão, que não se mexeu de onde estava.
+> Sacar Rápido (Faca): NH 15, 3d [1, 6, 6] = *13* → sucesso por 2
+> Ataque: Arremesso de Faca NH 16, -2 distância (4 m), -2 Perna distante (ponto sorteado: 3d [5, 2, 5] = 12), Tiro Rápido sem penalidade (NH ajustado 12 ≥ TR 11) = *12*
+> 3d [1, 4, 3] = *8* → sucesso por 4
+> Defesa de NelsOwned: esquiva 5 +1 Reflexos em Combate = *6*
+> 3d [1, 1, 4] = *6* → defendeu no limite
+> *NelsOwned se defendeu.* Vurkash fica sem facas.
+
+O anão dá um passo curto de lado, pelo reflexo e pela teimosia, e a lâmina cai onde ele estava.
+
+Comam arrasta a perna mais um passo, em defesa total.
+
+Negrum segue pela margem leste, o escudo à frente, e para a cinco hexágonos do orc.
+
+Kaelric dá um passo curto para a água rasa da margem, coxeando, o pavês no alto, em defesa total.
+
+NelsOwned anda um hexágono e Aguarda. Não declarou mais nada.
+
+*Deslocamentos conferidos:* Comam *1* e Kaelric *1* (coxos, Fadiga 3), Jah *3*, Negrum *3*, NelsOwned *2* (PV 1), Vurkash *3*.

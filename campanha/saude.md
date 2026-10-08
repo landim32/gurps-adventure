@@ -31,7 +31,7 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 | Reptante 2 | NPC | -25 | — | MORTO no turno 24 (PV -13), caído em (11,7) |
 | Reptante 3 | NPC | -9 | — | — |
 | Reptante 4 | NPC | -21 | — | MORTO no turno 25 (empalado pela espada de Negrum), caído em (10,7) |
-| Vurkash | NPC | -14 | — | — |
+| Vurkash | NPC | -15 | — | — |
 <!-- /indice:saude -->
 
 ## Personagens
@@ -485,7 +485,8 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 
 ### Vurkash
 
-**PV -14 · Fadiga —**
+**PV -15 · Fadiga —**
 
 - **07/10/2026 11:08** · PV -1 — Turno 33: faca de arremesso do Jah na perna (perfuração, ½D, mínimo 1)
 - **07/10/2026 17:15** · PV -13 — Acerto do saude.md: virote da Zaina no turno 32 (13 PV) que não tinha sido lançado; PV 1/15
+- **08/10/2026 11:09** · PV -1 — Turno 37: adaga do Jah no braço direito (1D-3=2, ½D -> 1); PV 0

@@ -65,7 +65,7 @@ Como as coisas **estão agora**: [`mundo.md`](mundo.md) (ferimentos, itens, rela
 - [5. O Lorde William — como aconteceu](05-o-lorde-william/) — 20/09/2026 · 4 acontecimento(s) · 3 arquivo(s) de mesa
 - [6. A Fuga para o Deserto — como aconteceu](06-a-fuga-para-o-deserto/) — 21/09/2026 · 48 acontecimento(s) · 5 arquivo(s) de mesa
 - [7. A Travessia do Grande Deserto — como aconteceu](07-a-travessia-do-grande-deserto/) — 30/09/2026 · 50 acontecimento(s) · 4 arquivo(s) de mesa
-- [8. O Confronto no Oásis — como aconteceu](08-o-confronto-no-oasis/) — 06/10/2026 · 14 acontecimento(s) · 4 arquivo(s) de mesa
+- [8. O Confronto no Oásis — como aconteceu](08-o-confronto-no-oasis/) — 06/10/2026 · 22 acontecimento(s) · 4 arquivo(s) de mesa
 - [video](video/)
 - [Exportações do grupo de WhatsApp](whatsapp/)
 <!-- /indice:historico -->

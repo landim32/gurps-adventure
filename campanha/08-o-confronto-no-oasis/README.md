@@ -303,6 +303,131 @@ NelsOwned anda dois hexágonos, com a mão no flanco. Só anda.
 
 *Deslocamentos conferidos:* Comam *1* e Kaelric *1* (coxos, Fadiga 3), Jah *3*, Negrum *3*, NelsOwned *2* (PV 1), Vurkash *3*. Ninguém passou do que podia.
 
+### Narração 10 — 07/10/2026 22:47
+
+_Turno 35: Vurkash joga faca no NelsOwned (RD 1 zera); Jah no 2º turno de mira; Negrum volta a (11,13)_
+
+*TURNO 35 — O ANÃO QUE NÃO SE MEXEU*
+
+Vurkash olha o grupo se abrir em arco pelo outro lado da água, os ombros caídos, e procura o alvo mais perto: o anão de veludo sujo, parado onde está. A mão desce ao cinto e a faca sai no mesmo movimento do braço.
+> Sacar Rápido (Faca): NH 15, 3d [4, 2, 4] = *10* → sucesso por 5
+> Ataque: Arremesso de Faca NH 16, -3 distância (5 m), -2 Braço (ponto sorteado: 3d [1, 4, 3] = 8), Tiro Rápido sem penalidade (NH ajustado 11 ≥ TR 11) = *11*
+> 3d [3, 6, 2] = *11* → sucesso por 0
+> Defesa de NelsOwned: esquiva 5 +1 Reflexos em Combate = *6*
+> 3d [6, 1, 1] = *8* → falhou por 2
+> Dano (perfuração): 1D-1: [2] - 1 = *1*
+> RD 1 (Anão) → 0 passam. *NelsOwned não perde ponto de vida.*
+> Vurkash tem agora 2 facas.
+
+A faca bate no braço do anão, desliza pela manga grossa de veludo e cai na lama. NelsOwned não pisca. Não tinha feito nada, e continua sem fazer.
+
+Jah mantém a adaga no braço direito do orc, o cotovelo firme. A mira se aperta mais um pouco.
+> Jah apontou (Apontar): 2º turno de mira, sem ataque. +1 de Precisão acumulada. Qualquer defesa ou ferimento estraga a mira.
+
+Comam dá um passo curto, coxeando, em defesa total.
+
+Kaelric dá um passo curto, coxeando, e vira o ombro para o orc, o pavês ainda no alto.
+
+NelsOwned anda dois hexágonos e para.
+
+Negrum quis avançar três hexágonos em defesa total, mas essa manobra só deixa dar um passo. *Aviso:* ele volta ao ponto onde ela o deixa: *(11,13)*.
+
+*Deslocamentos conferidos:* Comam *1* e Kaelric *1* (coxos, Fadiga 3), Jah *3*, NelsOwned *2* (PV 1), Vurkash *3*.
+
+### Narração 11 — 08/10/2026 09:39
+
+_Turno 36: Vurkash erra a faca no NelsOwned (resta 1); Jah no 3º turno de mira; Negrum anda 3 pela margem leste_
+
+*TURNO 36 — A PENÚLTIMA FACA*
+
+Vurkash mede o arco de gente que se fecha do outro lado da lagoa e escolhe, de novo, o anão que mal se mexe. A mão desce ao cinto e a faca voa. Dessa vez ele nem tem fôlego para mirar.
+> Sacar Rápido (Faca): NH 15, 3d [1, 5, 6] = *12* → sucesso por 3
+> Ataque: Arremesso de Faca NH 16, -3 distância (5 m), -4 Pé (ponto sorteado: 3d [6, 4, 6] = 16), -4 Tiro Rápido (NH ajustado 9 < TR 11) = *5*
+> 3d [5, 2, 6] = *13* → falhou por 8
+> *Vurkash errou.* Vurkash tem agora 1 faca.
+
+A lâmina passa longe do pé de NelsOwned e se perde na lama. O anão só ergue uma sobrancelha.
+
+Jah segue com a adaga presa no braço direito do orc, o cotovelo firme. A mira mais uma volta.
+> Jah apontou (Apontar): 3º turno de mira, sem ataque. +1 de Precisão acumulada (teto +3). Qualquer defesa ou ferimento estraga a mira.
+
+Comam arrasta a perna até a água rasa e fica ali, de picaretas erguidas, em defesa total.
+
+Kaelric fica onde está e gira o ombro para o orc, o pavês no alto.
+
+NelsOwned anda dois hexágonos e para.
+
+Negrum contorna o lago pela margem leste, o escudo à frente, e avança três hexágonos sem baixar a guarda.
+
+*Deslocamentos conferidos:* Comam *1* e Kaelric *1* (coxos, Fadiga 3), Jah *3*, Negrum *3*, NelsOwned *2* (PV 1), Vurkash *3*.
+
+### Narração 12 — 08/10/2026 11:09
+
+_Turno 37: adaga do Jah deixa Vurkash em PV 0; ele gasta a última faca no NelsOwned (esquivou)_
+
+*TURNO 37 — A ADAGA NO BRAÇO*
+
+Jah dá um passo para o lado, vira o corpo para a água e solta o fôlego. A adaga, três turnos de mira presa ao braço direito do orc, sai da mão dele sem hesitar. A lâmina cruza seis metros e crava no antebraço de Vurkash, que nem tenta desviar.
+> Ataque: Arremesso de Faca NH 18, -3 distância (6 m), +0 Precisão (cancelada além do ½D de 5 m), +2 mira (2 turnos extras de Apontar), -2 Braço, +4 Ataque Total = *19*
+> 3d [1, 5, 4] = *10* → sucesso por 9
+> Defesa de Vurkash: esquiva 6 = *6*
+> 3d [6, 6, 2] = *14* → falhou por 8
+> Dano (perfuração): 1D-3: [5] - 3 = 2 → ½D (6 m > 5 m) → *1*
+> RD 0 → 1 passa. Perfurante em membro não ganha bônus. Braço não incapacita (1 < HT/2).
+> *Vurkash perde 1 ponto de vida (PV 0/15).*
+> Jah fez Ataque Total: sem defesa ativa até o próximo turno.
+
+O orc fecha o punho em torno da adaga, a arranca do braço e a deixa cair. O sangue não o faz recuar. Entre os dentes, a voz sai áspera: "Mais um... só mais um."
+> Vurkash: PV 0, teste de HT para seguir consciente (HT 13 +7 Força de Vontade = 20), 3d [1, 3, 1] = *5* → *SUCESSO DECISIVO*, segue de pé
+
+Com a mão que ainda obedece, ele puxa a última faca do cinto e a arremessa contra o anão, que não se mexeu de onde estava.
+> Sacar Rápido (Faca): NH 15, 3d [1, 6, 6] = *13* → sucesso por 2
+> Ataque: Arremesso de Faca NH 16, -2 distância (4 m), -2 Perna distante (ponto sorteado: 3d [5, 2, 5] = 12), Tiro Rápido sem penalidade (NH ajustado 12 ≥ TR 11) = *12*
+> 3d [1, 4, 3] = *8* → sucesso por 4
+> Defesa de NelsOwned: esquiva 5 +1 Reflexos em Combate = *6*
+> 3d [1, 1, 4] = *6* → defendeu no limite
+> *NelsOwned se defendeu.* Vurkash fica sem facas.
+
+O anão dá um passo curto de lado, pelo reflexo e pela teimosia, e a lâmina cai onde ele estava.
+
+Comam arrasta a perna mais um passo, em defesa total.
+
+Negrum segue pela margem leste, o escudo à frente, e para a cinco hexágonos do orc.
+
+Kaelric dá um passo curto para a água rasa da margem, coxeando, o pavês no alto, em defesa total.
+
+NelsOwned anda um hexágono e Aguarda. Não declarou mais nada.
+
+*Deslocamentos conferidos:* Comam *1* e Kaelric *1* (coxos, Fadiga 3), Jah *3*, Negrum *3*, NelsOwned *2* (PV 1), Vurkash *3*.
+
+### Narração 13 — 08/10/2026 14:54
+
+_Turno 38: Kaelric nada (Natação 7, por 0); Vurkash empunha o montante; Jah mira o pescoço; Negrum e Nels a 2 hex_
+
+*TURNO 38 — O MONTANTE NA BAINHA*
+
+Kaelric avança o pé coxo para dentro da água, o pavês no alto, e a margem some sob a bota. O fundo falta de repente, e a perna ruim não ajuda.
+> Natação (pré-definido DX-4): NH 9, +3 entrou na água de propósito, -2 Carga Leve (2 x 1), -3 perna coxa = *7*
+> 3d [1, 3, 3] = *7* → sucesso por 0, *mantém a cabeça fora d'água*
+> Nadando: Deslocamento 1. Em defesa total.
+
+Jah faz a volta pela margem, mas o passo pede mais fôlego do que ele tem. *Aviso:* ele declarou mirar, e a mira só deixa dar um passo (metade do Deslocamento 3). Volta ao ponto onde ela o deixa: *(5,9)*. A adaga sai da bota num único gesto, e a ponta sobe até o pescoço do orc.
+> Sacar Rápido (Adaga): NH 15, 3d [3, 1, 1] = *5* → *SUCESSO DECISIVO*
+> Jah apontou (Apontar): 1º turno de mira, sem ataque. Qualquer defesa ou ferimento estraga a mira.
+
+Vurkash cambaleia, os olhos perdendo o foco, e ainda assim se mantém de pé. Pelo outro lado da lagoa, o grupo fecha o arco em torno dele.
+> Vurkash: PV 0, teste de HT para seguir consciente (HT 13 +7 Força de Vontade = 20), 3d [4, 3, 2] = *9* → sucesso por 11, segue de pé
+
+Sem mais facas, ele agarra o punho do montante e o arranca da bainha com as duas mãos. A lâmina larga sobe devagar, pesada, e a ponta toca a lama. Ele não ataca ainda. Entre os dentes, quase sem som: "Venham... um de cada vez."
+
+Comam gira o corpo no lugar, coxeando, em defesa total.
+
+Negrum contorna a ponta norte da lagoa, o escudo à frente, dois hexágonos de lama e capim, e fica a dois hexágonos do orc.
+
+NelsOwned avança dois hexágonos pela margem leste e para.
+
+*Deslocamentos conferidos:* Comam *1* e Kaelric *1* (coxos, Fadiga 3), Jah *3*, Negrum *3*, NelsOwned *2* (PV 1), Vurkash *3*.
+
 ## Acontecimentos
 
 <!-- indice:acontecimentos -->
@@ -320,4 +445,12 @@ NelsOwned anda dois hexágonos, com a mão no flanco. Só anda.
 - **07/10/2026 17:11** — Testes de reação em Oásis: Vurkash→Comam Obabaroy Muito Ruim (3); Vurkash→Irmão Kaelric Muito Ruim (2); Vurkash→NelsOwned Ruim (6). Outras 2 neutras.
 - **07/10/2026 17:15** — TURNO 34 (roll6, oásis) — Coxos Kaelric e Comam (Desl. 1 com Fadiga 3): andaram 1 hexágono cada, dentro do limite. NelsOwned 2 pts (8,12)->(10,13); Negrum 3 hexágonos (7,12)->(10,14), o 4º ponto do roll6 foi só a mudança de frente de um lado no fim (livre pelo MB); ninguém em hexágono de lago. Kaelric, Comam e Negrum em Defesa Total. Jah (não moveu a peça): Sacar Rápido (Adaga) 15, 3d [4,4,1]=9; Apontar no braço direito do orc (1º turno, sem ataque). Vurkash levanta (de joelhos para de pé, sem teste) e joga faca no Kaelric (reações novas, locais: Comam 3, Kaelric 2, Jah 12, Nels 6, Negrum 10; empate a 6 hex entre Comam, Kaelric e Nels, desempate pela pior reação): Sacar Rápido 15, 3d [3,4,2]=9; Arremesso de Faca 16 -3 dist. (6 m) -4 pé (sorteado 3d [4,5,6]=15) -4 Tiro Rápido = 5, 3d [1,2,4]=7, errou por 2. Faca perfurante 1D-1 (ST 14), 3 facas restantes. Correção do saude.md do Vurkash: faltavam os 13 PV do turno 32.
 - **07/10/2026 17:15** — [narração 9] Turno 34: Vurkash de pé joga faca no Kaelric e erra; Jah aponta a adaga; grupo contorna o lago
+- **07/10/2026 22:46** — TURNO 35 (roll6, oásis) — Coxos Kaelric e Comam (Desl. 1): 1 hexágono cada (Kaelric: o 2º ponto do roll6 foi a mudança de frente no fim, livre pelo MB). NelsOwned 2 pts (10,13)->(11,12). Jah mantém a peça em (4,9) (o log do roll6 mostrava 6 pts de (8,3) a (7,4), incoerente com a posição real): Apontar, 2º turno de mira (+1), sem ataque. Negrum declarou Defesa Total mas moveu 3 hex (10,14)->(13,12): DECISÃO DO MESTRE (Defesa Total, 1 hex): volta a (11,13), avisado na narração. Ninguém em hexágono de lago. Vurkash (alvo mais próximo, NelsOwned a 5 hex; reação Ruim): Sacar Rápido 15, 3d [4,2,4]=10; Arremesso de Faca 16 -3 dist. (5 m) -2 braço (3d [1,4,3]=8), Tiro Rápido sem penalidade = 11, 3d [3,6,2]=11 sucesso por 0; esquiva do Nels 5+1=6, 3d [6,1,1]=8 falhou; 1D-1: [2]-1=1, RD 1 (Anão) -> 0. Vurkash com 2 facas, PV 1/15, Fadiga 6/14.
+- **07/10/2026 22:47** — [narração 10] Turno 35: Vurkash joga faca no NelsOwned (RD 1 zera); Jah no 2º turno de mira; Negrum volta a (11,13)
+- **08/10/2026 09:39** — TURNO 36 (roll6, oásis) — Coxos Kaelric e Comam (Desl. 1): Comam 1 hex (8,12)->(9,12), Defesa Total; DECISÃO DO MESTRE: água rasa da margem conta como terra, sem Natação. Kaelric fica em (6,11), só vira a frente (1 ponto), Defesa Total. NelsOwned 2 pts (11,12)->(13,11). Negrum só se move (Deslocamento, sem Defesa Total, esclarecido pelo jogador): 3 hex (11,13)->(13,12). Jah: o roll6 registrou o movimento no mapa 3; a peça no oásis segue em (4,9); Apontar, 3º turno de mira, sem ataque. Vurkash (alvo mais próximo, NelsOwned a 5 hex; reação Ruim): Sacar Rápido 15, 3d [1,5,6]=12; Arremesso de Faca 16 -3 dist. (5 m) -4 pé (3d [6,4,6]=16) -4 Tiro Rápido = 5, 3d [5,2,6]=13, errou por 8. Vurkash com 1 faca, PV 1/15, Fadiga 6/14.
+- **08/10/2026 09:39** — [narração 11] Turno 36: Vurkash erra a faca no NelsOwned (resta 1); Jah no 3º turno de mira; Negrum anda 3 pela margem leste
+- **08/10/2026 11:09** — TURNO 37 (roll6, oásis) — Coxos Kaelric e Comam (Desl. 1): 1 hex cada; Kaelric terminou em (7,10), água rasa de margem (decisão do turno 36: conta como terra, sem Natação). NelsOwned sem ação declarada: Aguardar (autorizado pelo Mestre), (13,11)->(13,10). Negrum (13,12)->(12,11): o roll6 contou 4 pts para 1 hex líquido; posição final aceita. Jah (5,8): DECISÃO DO MESTRE sobre a declaração 'Finta (Ataque Total)': finta não existe a 6 m, vira Ataque Total opção (c), um arremesso +4. Adaga: Arremesso de Faca 18 -3 dist. (6 m) +0 Prec (cancelada além do ½D) +2 mira (3 turnos) -2 braço +4 Ataque Total = 19, 3d [1,5,4]=10; esquiva do orc 6, 3d [6,6,2]=14 falhou; 1D-3: [5]-3=2, ½D -> 1, RD 0: Vurkash 1 -> 0 PV. Jah sem defesa ativa até o próximo turno. Vurkash: PV 0, HT 13+7 (Força de Vontade) = 20, 3d [1,3,1]=5 decisivo, segue consciente; Sacar Rápido 15, 3d [1,6,6]=13; arremesso na NelsOwned (alvo a 4 hex, pior reação) NH 16 -2 dist. -2 perna distante (3d [5,2,5]=12) = 12, 3d [1,4,3]=8; esquiva 5+1=6, 3d [1,1,4]=6 defendeu. Vurkash sem facas, só montante e adaga.
+- **08/10/2026 11:09** — [narração 12] Turno 37: adaga do Jah deixa Vurkash em PV 0; ele gasta a última faca no NelsOwned (esquivou)
+- **08/10/2026 14:54** — TURNO 38 (roll6, oásis) — Coxos Kaelric e Comam (Desl. 1). Kaelric (7,10)->(8,10), água funda do lago (ordem do Mestre: Natação com os redutores, falhou = volta 1 hex): Natação pré-definido DX-4 = 9, +3 entrou de propósito, -2 Carga Leve (20,25 kg), -3 perna coxa = 7, 3d [1,3,3]=7, sucesso por 0: fica em (8,10), Desl. 1 nadando, novo teste a cada 5 min. Jah: roll6 mostrou (5,8)->(6,11) com 7 pts; Apontar só deixa 1 hex: volta a (5,9), olhando SE. Sacar Rápido (Adaga) 15, 3d [3,1,1]=5 decisivo; mira no pescoço do orc, 1º turno, sem ataque. Comam só gira (1 pt), Defesa Total. Negrum 2 hex, 3 pts (12,11)->(12,9). NelsOwned 2 pts (13,10)->(13,8). Vurkash (PV 0, HT 13+7=20, 3d [4,3,2]=9 segue consciente; sem facas): saca e empunha o montante (consome o turno), sem atacar nem mover; alvo prioritário seria NelsOwned (pior reação, a 2 hex com o Negrum).
+- **08/10/2026 14:54** — [narração 13] Turno 38: Kaelric nada (Natação 7, por 0); Vurkash empunha o montante; Jah mira o pescoço; Negrum e Nels a 2 hex
 <!-- /indice:acontecimentos -->

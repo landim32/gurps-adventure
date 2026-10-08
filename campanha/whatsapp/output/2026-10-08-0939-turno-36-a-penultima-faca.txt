@@ -1,0 +1,22 @@
+*TURNO 36 — A PENÚLTIMA FACA*
+
+Vurkash mede o arco de gente que se fecha do outro lado da lagoa e escolhe, de novo, o anão que mal se mexe. A mão desce ao cinto e a faca voa. Dessa vez ele nem tem fôlego para mirar.
+> Sacar Rápido (Faca): NH 15, 3d [1, 5, 6] = *12* → sucesso por 3
+> Ataque: Arremesso de Faca NH 16, -3 distância (5 m), -4 Pé (ponto sorteado: 3d [6, 4, 6] = 16), -4 Tiro Rápido (NH ajustado 9 < TR 11) = *5*
+> 3d [5, 2, 6] = *13* → falhou por 8
+> *Vurkash errou.* Vurkash tem agora 1 faca.
+
+A lâmina passa longe do pé de NelsOwned e se perde na lama. O anão só ergue uma sobrancelha.
+
+Jah segue com a adaga presa no braço direito do orc, o cotovelo firme. A mira mais uma volta.
+> Jah apontou (Apontar): 3º turno de mira, sem ataque. +1 de Precisão acumulada (teto +3). Qualquer defesa ou ferimento estraga a mira.
+
+Comam arrasta a perna até a água rasa e fica ali, de picaretas erguidas, em defesa total.
+
+Kaelric fica onde está e gira o ombro para o orc, o pavês no alto.
+
+NelsOwned anda dois hexágonos e para.
+
+Negrum contorna o lago pela margem leste, o escudo à frente, e avança três hexágonos sem baixar a guarda.
+
+*Deslocamentos conferidos:* Comam *1* e Kaelric *1* (coxos, Fadiga 3), Jah *3*, Negrum *3*, NelsOwned *2* (PV 1), Vurkash *3*.
