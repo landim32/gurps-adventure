@@ -146,9 +146,41 @@
       "categoria": "Armas"
     },
     {
+      "item": "Couro de ogro (cabeça)",
+      "dano": "-",
+      "tipo": "DP1/RD3",
+      "qtd": 1,
+      "peso": 0.0,
+      "categoria": "Armadura"
+    },
+    {
+      "item": "Couro de ogro (tronco)",
+      "dano": "-",
+      "tipo": "DP1/RD3",
+      "qtd": 1,
+      "peso": 0.0,
+      "categoria": "Armadura"
+    },
+    {
+      "item": "Couro de ogro (braços)",
+      "dano": "-",
+      "tipo": "DP1/RD3",
+      "qtd": 1,
+      "peso": 0.0,
+      "categoria": "Armadura"
+    },
+    {
+      "item": "Couro de ogro (mãos)",
+      "dano": "-",
+      "tipo": "DP1/RD3",
+      "qtd": 1,
+      "peso": 0.0,
+      "categoria": "Armadura"
+    },
+    {
       "item": "Calças de couro (pernas)",
       "dano": "-",
-      "tipo": "DP2/RD2",
+      "tipo": "DP2/RD5",
       "qtd": 1,
       "peso": 2.0,
       "categoria": "Armadura"
@@ -156,7 +188,7 @@
     {
       "item": "Botas c/ correntes (pés)",
       "dano": "-",
-      "tipo": "DP2/RD2",
+      "tipo": "DP2/RD5",
       "qtd": 1,
       "peso": 1.5,
       "categoria": "Armadura"

@@ -51,8 +51,17 @@ profissionalismo impecável quando o assunto é desmembrar.
 - **Dano Básico:** GDP 2D-1 / Bal 3D+2
 - **Velocidade Básica:** 7,25 · **Deslocamento:** 7 (carga Nenhuma: 13,75 kg contra 20)
 - **Carga (kg):** Nenhuma 20 · Leve 40 · Média 60 · Pesada 120 · Muito Pesada 200
-- **Defesa Passiva/RD:** DP 1 e RD 3 do couro grosso em todo o corpo; nas pernas e nos pés, o
-  couro curtido soma DP 2/RD 2
+- **Defesa Passiva/RD, por região** (o campo único da planilha leva a do tronco, DP 1):
+
+  | Região | DP | RD | De onde vem |
+  |---|---|---|---|
+  | Cabeça, tronco, braços, mãos | 1 | 3 | couro grosso de ogro |
+  | Pernas | 2 | 5 | calças de couro (DP 2/RD 2) sobre o couro de ogro |
+  | Pés | 2 | 5 | botas de couro curtido (DP 2/RD 2) sobre o couro de ogro |
+
+  Nas pernas e nos pés vale a regra de Armaduras Sobrepostas (MB, `07-equipamento-e-carga.md`):
+  a camada de dentro, aqui a pele, **soma RD mas não DP**. Por isso fica DP 2, não 3. A última
+  palavra é do Mestre.
 - **Esquiva:** 7 · **Aparar (cutelo):** 9 · **Bloqueio:** —
 - **Reação básica:** −5 (Feio −2, Reputação −3 entre as outras raças). Com orcs e ogros, só o −2.
 
@@ -144,8 +153,9 @@ Hipoalgia ignora o redutor de ferimento no turno seguinte.
 | Cutelo colossal (Machado de duas mãos) | 3D+5 | corte | 1 | 4,0 | $100 |
 | Facão de desossar | 1D+2 (máx.) | corte/perf | 1 | 0,5 | $40 |
 | Faca | 1D+1 (máx.) | corte/perf | 1 | 0,25 | $30 |
-| Calças de couro (Loriga de couro, pernas) | - | DP2/RD2 | 1 | 2,0 | $60 |
-| Botas de bico de aço com correntes (Coturnos) | - | DP2/RD2 | 1 | 1,5 | $80 |
+| Couro de ogro (cabeça, tronco, braços, mãos) | - | DP1/RD3 | — | 0 | racial |
+| Calças de couro (Loriga de couro, pernas) + couro de ogro | - | DP2/RD5 | 1 | 2,0 | $60 |
+| Botas de bico de aço com correntes (Coturnos) + couro de ogro | - | DP2/RD5 | 1 | 1,5 | $80 |
 | Ganchos de carne | - | - | 3 | 1,5 | $15 |
 | Avental e roupas | - | - | 1 | 0,5 | $10 |
 | Pedra de amolar | - | - | 1 | 0,5 | $5 |
