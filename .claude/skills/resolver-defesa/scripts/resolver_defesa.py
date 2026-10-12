@@ -41,6 +41,14 @@ except Exception as erro:
 RE_DP_RD = re.compile(r"DP\s*(\d+)(?:\s*/\s*RD\s*(\d+))?", re.I)
 
 
+def _sem_acento(texto):
+    """'Coturnos (pés)' -> 'coturnos (pes)': as fichas escrevem a região com acento, as
+    tabelas de local (atacar/tabelas.py) sem — 'cabeca', 'bracos', 'maos', 'pes'."""
+    import unicodedata
+    return "".join(c for c in unicodedata.normalize("NFD", texto or "")
+                   if unicodedata.category(c) != "Mn").lower()
+
+
 def _dp_rd(tipo):
     m = RE_DP_RD.search(tipo or "")
     if not m:
@@ -60,7 +68,7 @@ def protecao(ficha, regiao_armadura, perfurante):
     for o in ficha.get("armas_objetos") or []:
         if (o.get("categoria") or "").lower() != "armadura":
             continue
-        if regiao_armadura.lower() not in (o.get("item") or "").lower():
+        if _sem_acento(regiao_armadura) not in _sem_acento(o.get("item")):
             continue
         dp, rd = _dp_rd(o.get("tipo"))
         if not (dp or rd):
