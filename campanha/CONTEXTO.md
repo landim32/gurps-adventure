@@ -2,7 +2,7 @@
 
 _(**gerado** por `campanha.py elenco` a partir de `personagens/*/personagem.json` — não edite aqui: mude a ficha e regere. É lido em **toda** execução: antes de decidir o que um personagem faz, sofre ou diz, confira as **desvantagens, peculiaridades e vantagens dele** abaixo. Só entra o que influencia a cena. Atributos, perícias e equipamento estão na ficha (a `contexto` os traz a cada jogada); PV, Fadiga, bolsa e ferimento, em `saude.md`, `bolsa.md` e `mundo.md`.)_
 
-_6 personagem(ns). Atualizado em 04/10/2026._
+_7 personagem(ns). Atualizado em 12/10/2026._
 
 ## Comam Obabaroy
 
@@ -16,6 +16,19 @@ Rodrigo · Humano · Mercenário (Fantasy) · 42 anos
 **Peculiaridades:** Sorri sempre, até em perigo; Piadas sobre o olho perdido; Dá nome às suas armas; Cospe no chão antes de atirar; Nunca paga a própria bebida  
 **Línguas:** Árabe (nativa) 9, Ânglico 9  
 *Ficha completa: `personagens/comam-obabaroy/personagem.md`*
+
+## Gorbag, o Moedor
+
+A definir · Ogro (Fantasy) · Guerreiro (MB) — linha de frente · 34 anos
+
+**Aparência:** 2,45 m; 340,5 kg; 34 anos, pele cinza-esverdeada, cicatrizes, sorriso banguela, avental  
+**Quem é:** Açougueiro da seita de Valthor; a alma presa num pote de picles o faz escravo  
+**Reação fixa:** -5  
+**Vantagens:** Raça: Ogro (Fantasy) (+90)  
+**Desvantagens:** Dever (Seita Lych, quase sempre) (-15) — Valthor chama e ele vai: a alma dele está no pote; Sanguinolência (-10) — Vontade para poupar rendido ou fazer prisioneiro; Fobia suave (Fogo) (-10) — Verificação de Pânico diante de labareda ou tocha; Gula (-5) — Vontade para recusar comida; cheiro de sangue distrai  
+**Peculiaridades:** Afia o cutelo enquanto falam; Avental minúsculo de florzinhas; Ossos bonitos como palito; Fala de si na 3ª pessoa; Ofende-se com carne gasta em magia  
+**Línguas:** Órquico (nativa) 9, Ânglico 9  
+*Ficha completa: `personagens/gorbag-o-moedor/personagem.md`*
 
 ## Irmão Kaelric
 

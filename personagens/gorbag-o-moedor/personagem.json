@@ -1,0 +1,335 @@
+{
+  "nome": "Gorbag, o Moedor",
+  "jogador": "A definir",
+  "arquetipo": "Guerreiro (MB) — linha de frente",
+  "raca": "Ogro (Fantasy)",
+  "idade": 34,
+  "aparencia": "2,45 m; 340,5 kg; 34 anos, pele cinza-esverdeada, cicatrizes, sorriso banguela, avental",
+  "historia": "Açougueiro da seita de Valthor; a alma presa num pote de picles o faz escravo",
+  "data_criacao": "12/10/2026",
+  "sequencia": "1",
+  "pontos_gastar": 150,
+  "pontos_total": 150,
+  "atributos": {
+    "ST": {
+      "valor": 20,
+      "custo": 0
+    },
+    "DX": {
+      "valor": 14,
+      "custo": 20
+    },
+    "IQ": {
+      "valor": 9,
+      "custo": 20
+    },
+    "HT": {
+      "valor": 15,
+      "custo": 10
+    }
+  },
+  "fadiga": 20,
+  "pontos_vida": 15,
+  "dano_basico": {
+    "gdp": "2D-1",
+    "bal": "3D+2"
+  },
+  "velocidade_basica": 7.25,
+  "deslocamento": 7,
+  "carga": {
+    "nenhuma": 20,
+    "leve": 40,
+    "media": 60,
+    "pesada": 120,
+    "muito_pesada": 200
+  },
+  "defesa_passiva": {
+    "armadura": 1,
+    "escudo": 0,
+    "total": 1
+  },
+  "defesas_ativas": {
+    "esquiva": 7,
+    "aparar": 9,
+    "bloqueio": 0
+  },
+  "reacao": "-5",
+  "vantagens_desvantagens": [
+    {
+      "nome": "Raça: Ogro (Fantasy)",
+      "custo": 90,
+      "raca": true
+    },
+    {
+      "nome": "Dever (Seita Lych, quase sempre)",
+      "custo": -15,
+      "lembrete": "Valthor chama e ele vai: a alma dele está no pote"
+    },
+    {
+      "nome": "Sanguinolência",
+      "custo": -10,
+      "lembrete": "Vontade para poupar rendido ou fazer prisioneiro"
+    },
+    {
+      "nome": "Fobia suave (Fogo)",
+      "custo": -10,
+      "lembrete": "Verificação de Pânico diante de labareda ou tocha"
+    },
+    {
+      "nome": "Gula",
+      "custo": -5,
+      "lembrete": "Vontade para recusar comida; cheiro de sangue distrai"
+    }
+  ],
+  "raca_tracos": [
+    {
+      "nome": "ST +10, HT +4, DX +2, IQ -3"
+    },
+    {
+      "nome": "RD 3 e DP 1 (couro grosso)"
+    },
+    {
+      "nome": "Hipoalgia"
+    },
+    {
+      "nome": "Visão Noturna"
+    },
+    {
+      "nome": "Abascanto +1"
+    },
+    {
+      "nome": "Olfato/Paladar Apurado +1"
+    },
+    {
+      "nome": "Briga com NH = DX"
+    },
+    {
+      "nome": "Feio (-2 de reação)"
+    },
+    {
+      "nome": "Reputação -3 (outras raças)"
+    },
+    {
+      "nome": "Tamanho abrutalhado (estorvo)"
+    }
+  ],
+  "peculiaridades": [
+    "Afia o cutelo enquanto falam",
+    "Avental minúsculo de florzinhas",
+    "Ossos bonitos como palito",
+    "Fala de si na 3ª pessoa",
+    "Ofende-se com carne gasta em magia"
+  ],
+  "armas_objetos": [
+    {
+      "item": "Cutelo colossal (machado)",
+      "dano": "3D+5",
+      "tipo": "corte",
+      "qtd": 1,
+      "peso": 4.0,
+      "categoria": "Armas"
+    },
+    {
+      "item": "Facão de desossar",
+      "dano": "1D+2",
+      "tipo": "corte/perf",
+      "qtd": 1,
+      "peso": 0.5,
+      "categoria": "Armas"
+    },
+    {
+      "item": "Faca",
+      "dano": "1D+1",
+      "tipo": "corte/perf",
+      "qtd": 1,
+      "peso": 0.25,
+      "categoria": "Armas"
+    },
+    {
+      "item": "Couro de ogro (cabeça)",
+      "dano": "-",
+      "tipo": "DP1/RD3",
+      "qtd": 1,
+      "peso": 0.0,
+      "categoria": "Armadura"
+    },
+    {
+      "item": "Couro de ogro (tronco)",
+      "dano": "-",
+      "tipo": "DP1/RD3",
+      "qtd": 1,
+      "peso": 0.0,
+      "categoria": "Armadura"
+    },
+    {
+      "item": "Couro de ogro (braços)",
+      "dano": "-",
+      "tipo": "DP1/RD3",
+      "qtd": 1,
+      "peso": 0.0,
+      "categoria": "Armadura"
+    },
+    {
+      "item": "Couro de ogro (mãos)",
+      "dano": "-",
+      "tipo": "DP1/RD3",
+      "qtd": 1,
+      "peso": 0.0,
+      "categoria": "Armadura"
+    },
+    {
+      "item": "Calças de couro (pernas)",
+      "dano": "-",
+      "tipo": "DP2/RD5",
+      "qtd": 1,
+      "peso": 2.0,
+      "categoria": "Armadura"
+    },
+    {
+      "item": "Botas c/ correntes (pés)",
+      "dano": "-",
+      "tipo": "DP2/RD5",
+      "qtd": 1,
+      "peso": 1.5,
+      "categoria": "Armadura"
+    },
+    {
+      "item": "Ganchos de carne",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 3,
+      "peso": 1.5,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Avental e roupas",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 0.5,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Pedra de amolar",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 0.5,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Odre grande (25 l)",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 0.5,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Rações (10 refeições)",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 2.5,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Equip. básico pessoal",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 0.0,
+      "categoria": "Equipamento"
+    }
+  ],
+  "peso_total": 13.75,
+  "custo_total": 395,
+  "dinheiro": 605,
+  "pericias": [
+    {
+      "nome": "Machado de Duas Mãos/Maça",
+      "nh": 18,
+      "tipo": "DX/M",
+      "custo": 24,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Faca",
+      "nh": 16,
+      "tipo": "DX/F",
+      "custo": 4,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Briga",
+      "nh": 15,
+      "tipo": "DX/F",
+      "custo": 1,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Profissão (Açougueiro)",
+      "nh": 12,
+      "tipo": "IQ/M",
+      "custo": 8,
+      "categoria": "Ofício"
+    },
+    {
+      "nome": "Culinária",
+      "nh": 11,
+      "tipo": "IQ/F",
+      "custo": 4,
+      "categoria": "Ofício"
+    },
+    {
+      "nome": "Fisiologia",
+      "nh": 8,
+      "tipo": "IQ/MD",
+      "custo": 4,
+      "categoria": "Ofício"
+    },
+    {
+      "nome": "Intimidação",
+      "nh": 11,
+      "tipo": "IQ/M",
+      "custo": 6,
+      "categoria": "Sociais"
+    },
+    {
+      "nome": "Interrogatório",
+      "nh": 8,
+      "tipo": "IQ/M",
+      "custo": 1,
+      "categoria": "Sociais"
+    },
+    {
+      "nome": "Rastreamento",
+      "nh": 8,
+      "tipo": "IQ/M",
+      "custo": 1,
+      "categoria": "Externas"
+    },
+    {
+      "nome": "Órquico (nativa)",
+      "nh": 9,
+      "tipo": "IQ/M",
+      "custo": 0,
+      "categoria": "Línguas"
+    },
+    {
+      "nome": "Ânglico",
+      "nh": 9,
+      "tipo": "IQ/M",
+      "custo": 2,
+      "categoria": "Línguas"
+    }
+  ],
+  "resumo": {
+    "atributos": 50,
+    "vantagens": 90,
+    "desvantagens": -40,
+    "peculiaridades": -5,
+    "pericias": 55,
+    "total": 150
+  }
+}
