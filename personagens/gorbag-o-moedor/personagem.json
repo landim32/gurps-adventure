@@ -61,9 +61,18 @@
       "raca": true
     },
     {
+      "nome": "Reflexos em Combate",
+      "custo": 15
+    },
+    {
       "nome": "Dever (Seita Lych, quase sempre)",
       "custo": -15,
       "lembrete": "Valthor chama e ele vai: a alma dele está no pote"
+    },
+    {
+      "nome": "Sadismo",
+      "custo": -15,
+      "lembrete": "Vontade para não fazer sofrer quem deve sair ileso; -3 de reação se souberem"
     },
     {
       "nome": "Sanguinolência",
@@ -326,8 +335,8 @@
   ],
   "resumo": {
     "atributos": 50,
-    "vantagens": 90,
-    "desvantagens": -40,
+    "vantagens": 105,
+    "desvantagens": -55,
     "peculiaridades": -5,
     "pericias": 55,
     "total": 150
