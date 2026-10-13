@@ -17,7 +17,7 @@ Toov'terikk vai montar um grupo caótico para a missão. Todo personagem da mesa
 | Personagem | Jogador | Arquétipo | Pontos | Ficha |
 |---|---|---|---|---|
 | Toov'terikk | Rodrigo | Necromante (*Magia*), goblin | 150 | [ficha](../personagens/toov-terikk/personagem.md) |
-| Gorbag, o Moedor | a definir | Guerreiro (*Módulo Básico*), ogro | 150 | [ficha](../personagens/gorbag-o-moedor/personagem.md) |
+| Gorbag, o Moedor | André | Guerreiro (*Módulo Básico*), ogro | 150 | [ficha](../personagens/gorbag-o-moedor/personagem.md) |
 
 **Gorbag**, açougueiro ogro, entrou no grupo: a alma dele está num pote de picles cheio de olhos em conserva, nas mãos do necromante **Lorde Valthor**, o "Escultor de Carne", da Seita Lych. O resto do grupo ainda vai ser montado (ver o plano). O aliado do goblin, **Alfred**, o zumbi, acompanha o goblin: [ficha](../personagens/toov-terikk/alfred.md).
 

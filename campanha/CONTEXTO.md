@@ -6,7 +6,7 @@ _2 personagem(ns). Atualizado em 12/10/2026._
 
 ## Gorbag, o Moedor
 
-a definir · Ogro (Fantasy) · Guerreiro (Módulo Básico) · 34 anos
+André · Ogro (Fantasy) · Guerreiro (Módulo Básico) · 34 anos
 
 **Aparência:** 2,45 m; 340,5 kg; 34 anos, ogro colossal, pele cinza-esverdeada, cicatrizes, avental de açougueiro  
 **Quem é:** Açougueiro ogro; Lorde Valthor, da Seita Lych, prendeu a alma dele num pote de picles  

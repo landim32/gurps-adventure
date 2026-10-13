@@ -1,6 +1,6 @@
 # Gorbag, o Moedor
 
-**Jogador:** a definir · **Raça:** Ogro (*GURPS Fantasy*, 90 pts) · **Arquétipo:** Guerreiro, linha de frente (*Módulo Básico*, "Tipos de Personagens") · **Pontos:** 150/150
+**Jogador:** André · **Raça:** Ogro (*GURPS Fantasy*, 90 pts) · **Arquétipo:** Guerreiro, linha de frente (*Módulo Básico*, "Tipos de Personagens") · **Pontos:** 150/150
 
 ## Aparência
 
