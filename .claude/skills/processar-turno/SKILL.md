@@ -103,6 +103,24 @@ arma. Se a ação **não pode** acontecer dali, **não role**: diga ao Mestre e,
 a manobra já comprometida e ele não mandou outra coisa, **proponha** Defesa Total. A prioridade
 da mesa é não prejudicar o personagem além do que o MB e a ordem do Mestre mandam.
 
+## 1b. Recuar: "recuo" na declaração é manobra (regra da mesa)
+
+O `validar_movimento.py turno` já traz, para quem escreveu **recua, recuo, recuar, recuando,
+recuei, recuou** na declaração, o bloco `RECUAR` com o hexágono de trás. Aplique:
+
+- **+3 em qualquer defesa ativa** dele, na rodada inteira (`--recuar` no `atacar` e na
+  `resolver-defesa`; uma vez por rodada; não vale contra ataque à distância, MB 11).
+- **Não gasta Deslocamento:** o recuo é à parte da manobra principal e da validação.
+- **No fim do turno**, depois de todas as ações: a peça vai 1 hexágono para trás (`para` do
+  bloco, mesma frente) e o `process_turn` leva esse `x`, `y`. Os ataques da rodada acontecem
+  **antes**, a partir da posição anterior.
+- **Se `valido: false`** (hexágono de trás ocupado, ajoelhado/sentado/atordoado, fora do mapa):
+  o recuo não acontece. Diga ao Mestre no resumo e pergunte se o +3 fica.
+- **NPC só recua se o Mestre mandar** ("defesa total com recuo"): `validar_movimento.py recuar
+  --de x,y --look N`. Sem ordem, não use Recuar por conta própria.
+- A narração diz o recuo no fim da fala do personagem, e a linha de **Deslocamentos conferidos**
+  não o conta.
+
 ## 2. Ler antes de decidir qualquer número
 
 Leia os arquivos da lista, **a ficha de cada personagem que age** (a ficha local; sem
@@ -163,7 +181,7 @@ agem antes já estão resolvidas quando a vez dele chega.
 - **Bloqueio**, se o escudo está no braço e ainda não foi usado na rodada;
 - **Aparar**, se a arma está preparada e não é desbalanceada recém-usada;
 - **Esquiva** nos outros casos;
-- **Recuar** (+3) quando cabe e não o tira de algo que ele precisa guardar.
+- **Recuar** (+3): **só quando o Mestre mandar** ("defesa total com recuo"); veja a seção 1b.
 
 Defender não gasta o turno dele. Só não defende quem não pode: surpreendido, caído sem
 defesa, em Ataque Total, inconsciente.

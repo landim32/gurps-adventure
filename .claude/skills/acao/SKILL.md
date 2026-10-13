@@ -62,6 +62,30 @@ Esta é a parte que a skill não pode automatizar, e é o trabalho de verdade. A
 | Alguém se move no mapa da cena | Posição nova | posição e frente: consulte `list_map_tokens`; distância e lado: `calcular-alcance`; mover é com o `processar-turno` |
 | Um dado avulso que nenhuma das anteriores cobre | 3d, 1d, o que for | `roll` |
 
+### "Recuo" na declaração é a manobra Recuar
+
+**Regra da mesa (Mestre):** sempre que a declaração disser que o personagem **recua**
+("defesa total com recuo", "ataco de braço em corte e recuo", "aponto e recuo", "recuo e tento
+convencer o orc"), isso é a manobra **Recuar** (MB 11, "Recuar"), somada à manobra principal
+da frase. Não pergunte, não trate como "andar para trás":
+
+1. **Não conta no Deslocamento** e não entra na conta de pontos do `validar-movimento`: é
+   um hexágono a mais, à parte da manobra declarada.
+2. **O modelo executa o movimento:** 1 hexágono para o lado **oposto ao que o personagem
+   olha** (frente `look` + 3), a partir da posição **final** do turno. A frente não muda.
+3. **+3 em qualquer defesa ativa** (esquiva, aparar, bloqueio) de toda a rodada: passe `--recuar`
+   ao `atacar` e à `resolver-defesa`. Vale uma vez por rodada.
+4. **O recuo acontece no fim do turno:** primeiro a resolução (ataques, defesas, testes) a partir
+   da posição de antes, depois a peça sai para o hexágono de trás e o `process_turn` leva esse `x`,
+   `y` (e a mesma `look`). A narração diz o recuo no último parágrafo daquela pessoa.
+
+Limites do MB que continuam valendo: o hexágono de trás **não pode estar ocupado**; quem está
+ajoelhado, sentado ou atordoado não recua; contra **ataque à distância** o +3 não vale. Se o
+hexágono estiver ocupado ou for água funda, **diga ao Mestre** antes de gravar (a conta vem do
+`validar-movimento`, que devolve `recuar` com `para`, `valido` e `motivos`). O mesmo vale quando o
+**Mestre** manda um NPC "fazer defesa total com recuo": o `validar_movimento.py recuar --de x,y
+--look N` dá o hexágono. NPC **não recua por conta própria**; só quando o Mestre manda.
+
 **Nunca role de cabeça, nunca invente NH.** As skills acima é que rolam; esta aqui decide
 qual chamar e com que número.
 

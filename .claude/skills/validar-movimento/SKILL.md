@@ -54,6 +54,18 @@ Manobras (`--manobra`): `deslocamento`, `defesa-total`, `ataque-total`, `apontar
 | **Outro mapa** | movimento registrado em outro `mapId` não vale: a peça deste mapa não saiu do lugar | `get_turn_state` |
 | **Montaria, veículo, voo** | **não calcula**: avisa para usar `13` e `14` à mão | `13-combate-montado-veiculo.md`, `14-voo.md` |
 
+## Recuar (regra da mesa)
+
+Declaração com **recua / recuo / recuar / recuando / recuei / recuou** (inclusive "recou", erro
+comum) é a manobra Recuar. A folha **não** põe esse hexágono na conta de pontos nem no teto da
+manobra. Ela devolve `recuar` com `trecho`, `bonus_defesa` (+3), `de`, `para` (1 hexágono
+atrás: frente + 3, a partir da posição **final** validada do turno), `look` (não muda), `valido`,
+`motivos` e `avisos`. `valido: false` quando o hexágono de trás está ocupado, está fora do mapa,
+ou o personagem está ajoelhado, sentado ou atordoado. Água funda e terreno incerto saem como aviso.
+`validar_movimento.py recuar --de x,y --look N [--mapa] [--ocupado "x,y=Nome"]` faz a mesma conta
+avulsa (serve para NPC, quando o Mestre manda). Quem aplica o movimento no fim do turno e o +3 é a
+`processar-turno` (seção 1b).
+
 ## O que ela devolve (por personagem)
 
 `veredito` (`ok`, `corrigir`, `sem_movimento`, `impossivel`), `manobra` e a declaração que a

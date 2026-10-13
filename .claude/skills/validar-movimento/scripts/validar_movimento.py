@@ -484,6 +484,59 @@ def validar(p):
     return res
 
 
+# ---------------------------------------------------------------- Recuar
+# Regra da mesa (Mestre): dizer que recua na declaração ("defesa total com recuo", "ataco e recuo")
+# é a manobra Recuar. Não gasta Deslocamento, dá +3 em qualquer defesa ativa e é executada no FIM
+# do turno, 1 hexágono para o lado oposto ao que a peça olha (MB 11, "Recuar").
+RECUO = r"\brecu(o|a|ar|ando|ei|e|ou|am)\b|\brecou\b"   # aceita o erro de digitação comum
+BONUS_RECUAR = 3
+
+
+def quer_recuar(textos):
+    """A primeira declaração em que aparece 'recuo/recua/recuar...' (ou None)."""
+    for t in textos or []:
+        if re.search(RECUO, simples(t)):
+            return t.strip()
+    return None
+
+
+def recuar_info(pos, look, terreno=None, ocupados=None, status="", trecho=None):
+    """O hexágono do Recuar a partir da posição FINAL do turno e da frente que a peça tem nela.
+
+    Devolve dict: declarado, trecho, de, look, para, bonus_defesa, valido, motivos[], avisos[].
+    """
+    terreno, ocupados = terreno or {}, ocupados or {}
+    info = {"declarado": True, "trecho": trecho, "de": list(pos), "look": look,
+            "bonus_defesa": BONUS_RECUAR, "valido": True, "motivos": [], "avisos": [],
+            "regra": "MB 11, Recuar: 1 hexágono para trás, +3 em qualquer defesa ativa, no fim do turno; "
+                     "não conta no Deslocamento"}
+    if look is None:
+        info.update(valido=False, motivos=["sem frente conhecida: não sei qual é o hexágono de trás"])
+        return info
+    destino = vizinho(pos[0], pos[1], (look + 3) % 6)
+    info["para"] = list(destino)
+    s = simples(status)
+    if re.search(r"ajoelhad|sentad|atordoad", s):
+        info["valido"] = False
+        info["motivos"].append("ajoelhado, sentado ou atordoado não pode recuar (MB 11, Recuar)")
+    if tuple(destino) in {tuple(k) for k in ocupados}:
+        quem = next((v for k, v in ocupados.items() if tuple(k) == tuple(destino)), "alguém")
+        info["valido"] = False
+        info["motivos"].append(f"o hexágono de trás {tuple(destino)} está ocupado por {quem} "
+                               f"(MB: não se recua para hexágono ocupado)")
+    if destino[0] < 0 or destino[1] < 0:
+        info["valido"] = False
+        info["motivos"].append("o hexágono de trás está fora do mapa")
+    tipo = tipo_do_hex(terreno, *destino)
+    if tipo == "funda":
+        info["avisos"].append("O recuo cai em água funda: Natação e 1 hexágono por turno (MB, Natação).")
+    elif tipo in ("rasa", "incerta"):
+        info["avisos"].append(f"O hexágono de trás é '{tipo}' no terreno: confirme com o Mestre.")
+    info["avisos"].append("O +3 vale para qualquer defesa ativa da rodada, mas o MB não deixa usar o "
+                          "Recuar contra ataque à distância.")
+    return info
+
+
 # ---------------------------------------------------------------- modo turno
 def _roll6():
     return _carregar("roll6", ROLL6_PY)
@@ -545,8 +598,13 @@ def turno(args):
         if fora:
             avisos.append(f"Movimento registrado em outro mapa ({sorted({e.get('mapId') for e in fora})}); "
                           f"a peça do mapa {map_id} não saiu de lugar. Avise o jogador.")
+        trecho_recuo = quer_recuar(acoes)
         if not mov:
             item.update(veredito="sem_movimento", avisos=avisos)
+            if trecho_recuo and ch.get("x") is not None:
+                item["recuar"] = recuar_info((ch["x"], ch["y"]), ch.get("look"), terreno,
+                                             {k: v for k, v in ocupados.items() if v != nome},
+                                             ch.get("status") or "", trecho_recuo)
             saida.append(item)
             continue
         ficha = ctx.ler_ficha(nome, raiz) or {}
@@ -579,6 +637,12 @@ def turno(args):
         r = validar(parametros)
         item.update(r)
         item["desl_conta"] = d["conta"]
+        if trecho_recuo:
+            fim_xy = tuple(r.get("posicao_valida") or (ultimo["x"], ultimo["y"]))
+            fim_look = r.get("look_valido") if r.get("look_valido") is not None else ultimo.get("look")
+            item["recuar"] = recuar_info(fim_xy, fim_look, terreno,
+                                         {k: v for k, v in ocupados.items() if v != nome},
+                                         ch.get("status") or "", trecho_recuo)
         if man["ambigua"]:
             item["avisos"].append("A declaração mistura Deslocamento com outra manobra: pergunte ao Mestre "
                                   "(--manobra \"Nome=codigo\" refaz a conta).")
@@ -599,6 +663,17 @@ def rotulo(xy, look=None):
     return f"({xy[0]},{xy[1]})" + (f" olhando {NOME_LOOK.get(look)}" if look is not None else "")
 
 
+def _imprime_recuo(rc):
+    destino = tuple(rc["para"]) if rc.get("para") else "?"
+    print(f"  RECUAR (declarou: \"{rc.get('trecho')}\"): +{rc['bonus_defesa']} em qualquer defesa ativa; "
+          f"no fim do turno, de {tuple(rc['de'])} para {destino} "
+          f"(1 hex atrás, frente {NOME_LOOK.get(rc.get('look'))}); não conta no Deslocamento")
+    if not rc["valido"]:
+        print("  ! O RECUO NÃO PODE SER FEITO: " + "; ".join(rc["motivos"]) + " — decida com o Mestre.")
+    for a in rc["avisos"]:
+        print(f"    ! {a}")
+
+
 def imprimir_turno(r):
     print(f"VALIDAR MOVIMENTO · campanha {r['campaignId']} · turno {r['turno']} · mapa {r['mapId']}"
           + (f" ({r['indice_local']})" if r.get("indice_local") else "")
@@ -611,6 +686,8 @@ def imprimir_turno(r):
             print(f"  ! movimento no mapa {o['mapId']}: {o['de']} -> {o['para']} (não vale aqui)")
         if p["veredito"] == "sem_movimento":
             print("  sem movimento neste mapa")
+            if p.get("recuar"):
+                _imprime_recuo(p["recuar"])
             for a in p.get("avisos", []):
                 print(f"  ! {a}")
             continue
@@ -632,6 +709,8 @@ def imprimir_turno(r):
         else:
             print(f"  VEREDITO: CORRIGIR -> {rotulo(p['posicao_valida'], p.get('look_valido'))}"
                   f" ({p.get('motivo', '')})")
+        if p.get("recuar"):
+            _imprime_recuo(p["recuar"])
         if p.get("natacao"):
             print("  ! termina em água funda: teste de Natação (MB, Natação), 1 hexágono por turno")
         for a in p.get("avisos", []):
@@ -719,6 +798,12 @@ def main():
     c.add_argument("--mapa", default=None)
     c.add_argument("--ocupado", action="append", help='"x,y=Nome"')
     c.add_argument("--json", action="store_true")
+    rr = sub.add_parser("recuar", help="O hexágono do Recuar de uma peça (também para NPC)")
+    rr.add_argument("--de", required=True)
+    rr.add_argument("--look", type=int, required=True)
+    rr.add_argument("--mapa", default=None)
+    rr.add_argument("--ocupado", action="append", help='"x,y=Nome"')
+    rr.add_argument("--status", default="")
     g = sub.add_parser("terreno", help="Classifica a água do mapa pela imagem e guarda as decisões do Mestre")
     g.add_argument("--mapa", required=True)
     g.add_argument("--imagem")
@@ -737,6 +822,12 @@ def main():
         else:
             imprimir_turno({"campaignId": "-", "turno": "-", "mapId": a.mapa, "indice_local": None,
                             "personagens": [dict(r, nome="(avulso)", acoes=[], desl_conta=[])]})
+    elif a.cmd == "recuar":
+        raiz = Path(a.raiz).resolve()
+        terr = ler_terreno(raiz, a.mapa) if a.mapa else {}
+        x, y = (int(v) for v in a.de.split(","))
+        ocup = {tuple(int(v) for v in o.split("=")[0].split(",")): o.split("=")[1] for o in (a.ocupado or [])}
+        print(json.dumps(recuar_info((x, y), a.look, terr, ocup, a.status, "(avulso)"), ensure_ascii=False, indent=2))
     else:
         terreno_cmd(a)
 

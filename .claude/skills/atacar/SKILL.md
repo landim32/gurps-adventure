@@ -119,7 +119,7 @@ NPC sem peça listada, `--alvo-escudo-dp`.
 | `--alvo-defesa-mod` | Ataque lateral (-2), a **finta** (`-N` que a skill `fintar` devolve), o que for |
 | `--alvo-defesa-mod-motivo "..."` | O motivo, para a conta da mesa: `"atordoado"`, `"ataque lateral"` |
 | `--alvo-manobra` | `defesa-total`, `ataque-total` (sem defesa), `atordoado` (-4), `surpreendido` |
-| `--recuar` | **+3** em qualquer defesa, uma vez por rodada |
+| `--recuar` | **+3** em qualquer defesa, uma vez por rodada; só quando a declaração tem "recuo" ou o Mestre mandou (veja `acao`); o movimento é no fim do turno |
 | `--sem-escudo` | O escudo da ficha **não vale nesta troca**: está às costas, o alvo empunha arma de duas mãos, ou o golpe vem por trás |
 | `--alvo-hipoalgia` | Sem redutor por ferimento **e sem atordoamento** (salvo cabeça/fulminante) — mortos-vivos e **todo NPC cujo `npcs.md` liste Hipoalgia** (Vurkash). Sem a flag o script atordoa quem não pode |
 

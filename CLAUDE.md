@@ -388,6 +388,12 @@ dois discordarem, o repositório ganha e o roll6 é corrigido.
   legal mais avançado da rota e a narração avisa; a ação é **reavaliada dali**, nunca descartada
   só porque a peça não chegou. **A prioridade é não prejudicar o personagem além do que o MB e
   a ordem do Mestre mandam**; dúvida de regra vai ao Mestre, e a decisão dele vira errata.
+- **"Recuo" é manobra, regra da mesa:** quem diz que **recua** na declaração ("defesa total
+  com recuo", "ataco e recuo") faz a manobra Recuar. Não gasta Deslocamento, dá **+3 em qualquer
+  defesa ativa** e é executada **no fim do turno**: o modelo move a peça 1 hexágono para o lado
+  **oposto ao que ela olha**. Hexágono de trás ocupado, ou ajoelhado/sentado/atordoado, não
+  recua. NPC só recua quando o Mestre manda. Está nas skills `acao`, `processar-turno` (1b) e
+  `validar-movimento`.
 - **Coordenada é do roll6: `x` = coluna, `y` = linha.** É o que `list_map_tokens` devolve e
   `move_map_token` recebe. O `roll6.py alinhar` sobrou só para as cenas antigas, as que têm
   índice `.json` em `cenarios/` e aparecem nos registros por rótulo (`P7` → x 15, y 6); mapa
