@@ -17,8 +17,9 @@ Toov'terikk vai montar um grupo caótico para a missão. Todo personagem da mesa
 | Personagem | Jogador | Arquétipo | Pontos | Ficha |
 |---|---|---|---|---|
 | Toov'terikk | Rodrigo | Necromante (*Magia*), goblin | 150 | [ficha](../personagens/toov-terikk/personagem.md) |
+| Gorbag, o Moedor | a definir | Guerreiro (*Módulo Básico*), ogro | 150 | [ficha](../personagens/gorbag-o-moedor/personagem.md) |
 
-**Por enquanto só o goblin está na aventura.** O resto do grupo ainda vai ser montado (ver o plano). O aliado dele, **Alfred**, o zumbi, acompanha o goblin: [ficha](../personagens/toov-terikk/alfred.md).
+**Gorbag**, açougueiro ogro, entrou no grupo: a alma dele está num pote de picles cheio de olhos em conserva, nas mãos do necromante **Lorde Valthor**, o "Escultor de Carne", da Seita Lych. O resto do grupo ainda vai ser montado (ver o plano). O aliado do goblin, **Alfred**, o zumbi, acompanha o goblin: [ficha](../personagens/toov-terikk/alfred.md).
 
 Os cinco personagens de [Tormento Vil](../historico/campanhas/tormento-vil/README.md) (Comam, Kaelric, Jah, NelsOwned e Negrum) ficam de fora da mesa nesta campanha, com `"fora_da_campanha": true` na ficha, e **voltam em Tormento Vil 3**.
 

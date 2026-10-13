@@ -1,0 +1,304 @@
+{
+  "nome": "Gorbag, o Moedor",
+  "jogador": "a definir",
+  "arquetipo": "Guerreiro (Módulo Básico)",
+  "foto": "foto.jpg",
+  "raca": "Ogro (Fantasy)",
+  "idade": 34,
+  "aparencia": "2,45 m; 340,5 kg; 34 anos, ogro colossal, pele cinza-esverdeada, cicatrizes, avental de açougueiro",
+  "historia": "Açougueiro ogro; Lorde Valthor, da Seita Lych, prendeu a alma dele num pote de picles",
+  "data_criacao": "12/10/2026",
+  "sequencia": "1",
+  "pontos_gastar": 150,
+  "pontos_total": 150,
+  "atributos": {
+    "ST": {
+      "valor": 20,
+      "custo": 0
+    },
+    "DX": {
+      "valor": 14,
+      "custo": 20
+    },
+    "IQ": {
+      "valor": 9,
+      "custo": 20
+    },
+    "HT": {
+      "valor": 15,
+      "custo": 10
+    }
+  },
+  "fadiga": 20,
+  "pontos_vida": 15,
+  "dano_basico": {
+    "gdp": "2D-1",
+    "bal": "3D+2"
+  },
+  "velocidade_basica": 7.25,
+  "deslocamento": 7,
+  "carga": {
+    "nenhuma": 20,
+    "leve": 40,
+    "media": 60,
+    "pesada": 120,
+    "muito_pesada": 200
+  },
+  "defesa_passiva": {
+    "armadura": 1,
+    "escudo": 0,
+    "total": 1
+  },
+  "defesas_ativas": {
+    "esquiva": 7,
+    "aparar": 9,
+    "bloqueio": 0
+  },
+  "reacao": "-5",
+  "raca_tracos": [
+    {
+      "nome": "ST +10, HT +4, DX +2, IQ -3"
+    },
+    {
+      "nome": "RD 3 e DP 1 (couro grosso)"
+    },
+    {
+      "nome": "Hipoalgia"
+    },
+    {
+      "nome": "Visão Noturna"
+    },
+    {
+      "nome": "Abascanto +1"
+    },
+    {
+      "nome": "Olfato/Paladar Aguçado +1"
+    },
+    {
+      "nome": "Briga com NH = DX"
+    },
+    {
+      "nome": "Feio (-2 de reação)"
+    },
+    {
+      "nome": "Reputação -3 (outras raças)"
+    },
+    {
+      "nome": "Tamanho abrutalhado (estorvo)"
+    }
+  ],
+  "vantagens_desvantagens": [
+    {
+      "nome": "Raça: Ogro",
+      "custo": 90,
+      "raca": true
+    },
+    {
+      "nome": "Dever: Seita Lych (quase sempre)",
+      "custo": -15,
+      "lembrete": "A alma dele está no pote de Valthor: a seita chama e ele vai"
+    },
+    {
+      "nome": "Sanguinolência",
+      "custo": -10,
+      "lembrete": "Vontade (9) para aceitar rendição ou fazer prisioneiro"
+    },
+    {
+      "nome": "Fobia suave: Fogo",
+      "custo": -10,
+      "lembrete": "Pânico (Vontade) diante de fogo; controlado, -2 em DX e IQ"
+    },
+    {
+      "nome": "Gula",
+      "custo": -5,
+      "lembrete": "Vontade para resistir a iguaria; cheiro de sangue o distrai"
+    }
+  ],
+  "peculiaridades": [
+    "Afia o cutelo enquanto falam",
+    "Avental minúsculo de florzinhas",
+    "Ossos humanoides de palito",
+    "Fala de si na 3ª pessoa",
+    "Ofendido se desperdiçam carne"
+  ],
+  "armas_objetos": [
+    {
+      "item": "Cutelo colossal (2 mãos)",
+      "dano": "3D+5",
+      "tipo": "corte",
+      "qtd": 1,
+      "peso": 4.0,
+      "categoria": "Armas"
+    },
+    {
+      "item": "Facão de desossar",
+      "dano": "1D+2",
+      "tipo": "corte/perf",
+      "qtd": 1,
+      "peso": 0.5,
+      "categoria": "Armas"
+    },
+    {
+      "item": "Faca",
+      "dano": "1D+1",
+      "tipo": "corte/perf",
+      "qtd": 1,
+      "peso": 0.25,
+      "categoria": "Armas"
+    },
+    {
+      "item": "Calças de couro (pernas)",
+      "dano": "-",
+      "tipo": "DP2/RD5",
+      "qtd": 1,
+      "peso": 2.0,
+      "categoria": "Armadura"
+    },
+    {
+      "item": "Botas bico de aço (pés)",
+      "dano": "-",
+      "tipo": "DP2/RD5",
+      "qtd": 1,
+      "peso": 1.5,
+      "categoria": "Armadura"
+    },
+    {
+      "item": "Ganchos de carne",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 3,
+      "peso": 1.5,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Avental e roupas",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 0.5,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Pedra de amolar",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 0.5,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Odre grande (25 l)",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 0.5,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Rações (10 refeições)",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 2.5,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Equip. básico pessoal",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 0.0,
+      "categoria": "Equipamento"
+    }
+  ],
+  "peso_total": 13.75,
+  "custo_total": 395,
+  "dinheiro": 605,
+  "pericias": [
+    {
+      "nome": "Machado 2 Mãos/Maça",
+      "nh": 18,
+      "tipo": "DX/M",
+      "custo": 24,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Faca",
+      "nh": 16,
+      "tipo": "DX/F",
+      "custo": 4,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Briga",
+      "nh": 15,
+      "tipo": "DX/F",
+      "custo": 1,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Profissão (Açougueiro)",
+      "nh": 12,
+      "tipo": "IQ/M",
+      "custo": 8,
+      "categoria": "Ofício"
+    },
+    {
+      "nome": "Culinária",
+      "nh": 11,
+      "tipo": "IQ/F",
+      "custo": 4,
+      "categoria": "Ofício"
+    },
+    {
+      "nome": "Fisiologia",
+      "nh": 8,
+      "tipo": "IQ/MD",
+      "custo": 4,
+      "categoria": "Ofício"
+    },
+    {
+      "nome": "Intimidação",
+      "nh": 11,
+      "tipo": "IQ/M",
+      "custo": 6,
+      "categoria": "Sociais"
+    },
+    {
+      "nome": "Interrogatório",
+      "nh": 8,
+      "tipo": "IQ/M",
+      "custo": 1,
+      "categoria": "Sociais"
+    },
+    {
+      "nome": "Rastreamento",
+      "nh": 8,
+      "tipo": "IQ/M",
+      "custo": 1,
+      "categoria": "Externas"
+    },
+    {
+      "nome": "Órquico (nativa)",
+      "nh": 9,
+      "tipo": "IQ/M",
+      "custo": 0,
+      "categoria": "Línguas"
+    },
+    {
+      "nome": "Ânglico",
+      "nh": 9,
+      "tipo": "IQ/M",
+      "custo": 2,
+      "categoria": "Línguas"
+    }
+  ],
+  "resumo": {
+    "atributos": 50,
+    "vantagens": 90,
+    "desvantagens": -40,
+    "peculiaridades": -5,
+    "pericias": 55,
+    "total": 150
+  }
+}

@@ -2,7 +2,20 @@
 
 _(**gerado** por `campanha.py elenco` a partir de `personagens/*/personagem.json` — não edite aqui: mude a ficha e regere. É lido em **toda** execução: antes de decidir o que um personagem faz, sofre ou diz, confira as **desvantagens, peculiaridades e vantagens dele** abaixo. Só entra o que influencia a cena. Atributos, perícias e equipamento estão na ficha (a `contexto` os traz a cada jogada); PV, Fadiga, bolsa e ferimento, em `saude.md`, `bolsa.md` e `mundo.md`.)_
 
-_1 personagem(ns). Atualizado em 12/10/2026._
+_2 personagem(ns). Atualizado em 12/10/2026._
+
+## Gorbag, o Moedor
+
+a definir · Ogro (Fantasy) · Guerreiro (Módulo Básico) · 34 anos
+
+**Aparência:** 2,45 m; 340,5 kg; 34 anos, ogro colossal, pele cinza-esverdeada, cicatrizes, avental de açougueiro  
+**Quem é:** Açougueiro ogro; Lorde Valthor, da Seita Lych, prendeu a alma dele num pote de picles  
+**Reação fixa:** -5  
+**Vantagens:** Raça: Ogro (+90)  
+**Desvantagens:** Dever: Seita Lych (quase sempre) (-15) — A alma dele está no pote de Valthor: a seita chama e ele vai; Sanguinolência (-10) — Vontade (9) para aceitar rendição ou fazer prisioneiro; Fobia suave: Fogo (-10) — Pânico (Vontade) diante de fogo; controlado, -2 em DX e IQ; Gula (-5) — Vontade para resistir a iguaria; cheiro de sangue o distrai  
+**Peculiaridades:** Afia o cutelo enquanto falam; Avental minúsculo de florzinhas; Ossos humanoides de palito; Fala de si na 3ª pessoa; Ofendido se desperdiçam carne  
+**Línguas:** Órquico (nativa) 9, Ânglico 9  
+*Ficha completa: `personagens/gorbag-o-moedor/personagem.md`*
 
 ## Toov'terikk, o Goblin do Alfred
 
