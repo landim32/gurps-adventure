@@ -142,9 +142,12 @@ Notas de cálculo:
   exibição de força e sede de sangue. Na prática, contra gente comum, ele intimida com 15 a 17.
 - **Línguas:** o órquico das tribos onde nasceu, de graça; o ânglico com sotaque pesado.
 
-Em combate: cutelo de duas mãos com 3D+5 de corte. A tabela marca a arma com "1 turno p/
-preparar" e com †: ela fica despreparada se for usada para aparar (MB, tabela de armas de mão).
-Hipoalgia ignora o redutor de ferimento no turno seguinte.
+Em combate: cutelo de duas mãos com 3D+5 de corte. A tabela marca o machado com "1 turno p/
+preparar", mas **com ST 20 o Gorbag não precisa prepará-lo**: a ST mínima da arma é 13, e quem
+tem 5 ou mais pontos acima dela prepara uma arma desbalanceada com um turno a menos (MB,
+`11-combate-avancado.md`, "Preparação Rápida Devido a um Alto Valor de ST"). Ele ataca todo
+turno e pode aparar e atacar com o cutelo no mesmo turno. Hipoalgia ignora o redutor de
+ferimento no turno seguinte.
 
 ## Equipamento
 
@@ -166,7 +169,7 @@ Hipoalgia ignora o redutor de ferimento no turno seguinte.
 **TOTAIS:** $395 gastos · 13,75 kg. Riqueza Média ($1.000) − $395 = **$605** na bolsa.
 
 O cutelo usa a linha do **Machado de duas mãos** do MB (BAL+3, corte, ST mínima 13, 1 turno para
-preparar). Facão e faca têm o dano limitado pelo teto da tabela (1D+2 e 1D+1), por mais forte
+preparar, que a ST 20 dele dispensa). Facão e faca têm o dano limitado pelo teto da tabela (1D+2 e 1D+1), por mais forte
 que seja a mão. Os ganchos de carne não estão na tabela de preços; $15 é estimativa, a confirmar
 com o Mestre. O pote com a alma **não** está com ele: está com Valthor.
 
