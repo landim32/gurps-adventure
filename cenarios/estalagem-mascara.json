@@ -1,0 +1,948 @@
+{
+ "_leia": "Estalagem (4096 x 3072 px): paredes de madeira da estalagem, do estabulo e das latrinas; lareira, balcao do bar e outros moveis continuos; poco. Camas, mesas redondas, bancos, caixas, feno e copas das arvores ficam vazios. Renderize com renderizar.py --json estalagem-mascara.json --saida estalagem-mascara.png --imagem cenarios/estalagem.jpg",
+ "largura": 4096,
+ "altura": 3072,
+ "paredes": [
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     1395,
+     120
+    ],
+    [
+     3740,
+     120
+    ]
+   ],
+   "espessura": 40,
+   "nome": "parede norte da estalagem"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     1395,
+     120
+    ],
+    [
+     1395,
+     1190
+    ]
+   ],
+   "espessura": 40,
+   "nome": "parede oeste da ala noroeste"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     1395,
+     1175
+    ],
+    [
+     1820,
+     1175
+    ],
+    [
+     1820,
+     1055
+    ],
+    [
+     2072,
+     1055
+    ],
+    [
+     2072,
+     1888
+    ]
+   ],
+   "espessura": 40,
+   "nome": "fundo da ala oeste e parede oeste do salao"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     1880,
+     1888
+    ],
+    [
+     2072,
+     1888
+    ]
+   ],
+   "espessura": 40,
+   "nome": "viga norte do alpendre"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     1905,
+     1888
+    ],
+    [
+     1905,
+     2440
+    ],
+    [
+     2072,
+     2440
+    ],
+    [
+     2072,
+     2735
+    ]
+   ],
+   "espessura": 40,
+   "nome": "alpendre oeste e sul"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     2057,
+     2735
+    ],
+    [
+     2510,
+     2735
+    ]
+   ],
+   "espessura": 40,
+   "nome": "parede sul, oeste da porta dupla"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     3015,
+     2735
+    ],
+    [
+     3517,
+     2735
+    ]
+   ],
+   "espessura": 40,
+   "nome": "parede sul, leste da porta dupla"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     3506,
+     2735
+    ],
+    [
+     3506,
+     2440
+    ],
+    [
+     3663,
+     2440
+    ],
+    [
+     3663,
+     1845
+    ],
+    [
+     3475,
+     1845
+    ],
+    [
+     3475,
+     1690
+    ],
+    [
+     3730,
+     1690
+    ],
+    [
+     3730,
+     1045
+    ],
+    [
+     3995,
+     1045
+    ],
+    [
+     3995,
+     345
+    ],
+    [
+     3725,
+     345
+    ],
+    [
+     3725,
+     120
+    ]
+   ],
+   "espessura": 40,
+   "nome": "parede leste (recortes da cozinha e do bar)"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     1410,
+     360
+    ],
+    [
+     1510,
+     360
+    ]
+   ],
+   "espessura": 28,
+   "nome": "quarto NO: parede sul, esq."
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     1700,
+     360
+    ],
+    [
+     2068,
+     360
+    ],
+    [
+     2068,
+     120
+    ]
+   ],
+   "espessura": 28,
+   "nome": "quarto NO: parede sul, dir. e leste"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     1410,
+     611
+    ],
+    [
+     1505,
+     611
+    ]
+   ],
+   "espessura": 28,
+   "nome": "parede do quarto grande, toco"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     1700,
+     611
+    ],
+    [
+     2068,
+     611
+    ],
+    [
+     2068,
+     1030
+    ]
+   ],
+   "espessura": 28,
+   "nome": "quarto grande: norte e leste"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     2270,
+     120
+    ],
+    [
+     2270,
+     340
+    ],
+    [
+     2650,
+     340
+    ]
+   ],
+   "espessura": 28,
+   "nome": "quarto N2: oeste e sul"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     2790,
+     120
+    ],
+    [
+     2790,
+     345
+    ]
+   ],
+   "espessura": 28,
+   "nome": "quarto N2/N3: divisoria"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     2790,
+     340
+    ],
+    [
+     2965,
+     340
+    ]
+   ],
+   "espessura": 28,
+   "nome": "quarto N3: sul"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     3145,
+     120
+    ],
+    [
+     3145,
+     345
+    ]
+   ],
+   "espessura": 28,
+   "nome": "quarto N3: leste"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     2270,
+     535
+    ],
+    [
+     2640,
+     535
+    ]
+   ],
+   "espessura": 28,
+   "nome": "quarto R1: norte"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     2270,
+     535
+    ],
+    [
+     2270,
+     990
+    ]
+   ],
+   "espessura": 28,
+   "nome": "quarto R1 e dormitorio: oeste"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     2785,
+     545
+    ],
+    [
+     2970,
+     545
+    ]
+   ],
+   "espessura": 28,
+   "nome": "quarto R2: norte"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     2785,
+     545
+    ],
+    [
+     2785,
+     785
+    ]
+   ],
+   "espessura": 28,
+   "nome": "quarto R1/R2: divisoria"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     3145,
+     535
+    ],
+    [
+     3145,
+     1500
+    ]
+   ],
+   "espessura": 28,
+   "nome": "quarto R2, dormitorio e cozinha: parede leste"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     2270,
+     780
+    ],
+    [
+     3150,
+     780
+    ]
+   ],
+   "espessura": 28,
+   "nome": "fundo dos quartos R1 e R2"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     3160,
+     790
+    ],
+    [
+     3935,
+     790
+    ]
+   ],
+   "espessura": 24,
+   "nome": "corrimao fino do quarto da cama grande",
+   "nivel": "parapeito"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     3585,
+     790
+    ],
+    [
+     3585,
+     1030
+    ]
+   ],
+   "espessura": 28,
+   "nome": "despensa dos barris: oeste"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     2270,
+     1265
+    ],
+    [
+     2270,
+     1500
+    ],
+    [
+     2800,
+     1500
+    ]
+   ],
+   "espessura": 28,
+   "nome": "dormitorio: oeste e sul, esq."
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     3040,
+     1500
+    ],
+    [
+     3150,
+     1500
+    ]
+   ],
+   "espessura": 28,
+   "nome": "dormitorio: sul, dir."
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     3415,
+     1500
+    ],
+    [
+     3720,
+     1500
+    ]
+   ],
+   "espessura": 28,
+   "nome": "cozinha: sul"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 2780,
+   "y": 1370,
+   "w": 265,
+   "h": 330,
+   "nome": "lareira central de tijolo",
+   "nivel": "estante"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 3217,
+   "y": 1926,
+   "w": 84,
+   "h": 420,
+   "nome": "balcao do bar, trecho norte-sul",
+   "nivel": "balcao"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 3217,
+   "y": 2346,
+   "w": 425,
+   "h": 84,
+   "nome": "balcao do bar, trecho leste-oeste",
+   "nivel": "balcao"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 3511,
+   "y": 1821,
+   "w": 100,
+   "h": 305,
+   "nome": "pilha de barris no fundo do bar",
+   "nivel": "muro-alto"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 3540,
+   "y": 2150,
+   "w": 100,
+   "h": 160,
+   "nome": "prateleira de garrafas na parede leste",
+   "nivel": "estante"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 2330,
+   "y": 1575,
+   "w": 390,
+   "h": 150,
+   "nome": "mesa de jantar comprida",
+   "nivel": "mesa"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 3165,
+   "y": 935,
+   "w": 125,
+   "h": 345,
+   "nome": "mesa do acougueiro",
+   "nivel": "balcao"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 3430,
+   "y": 1405,
+   "w": 280,
+   "h": 90,
+   "nome": "balcoes da cozinha",
+   "nivel": "balcao"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     120,
+     103
+    ],
+    [
+     120,
+     1985
+    ]
+   ],
+   "espessura": 40,
+   "nome": "estabulo: parede oeste"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     100,
+     103
+    ],
+    [
+     430,
+     103
+    ]
+   ],
+   "espessura": 40,
+   "nome": "estabulo: norte, esq."
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     840,
+     113
+    ],
+    [
+     1165,
+     113
+    ]
+   ],
+   "espessura": 40,
+   "nome": "estabulo: norte, dir."
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     1140,
+     113
+    ],
+    [
+     1140,
+     1985
+    ]
+   ],
+   "espessura": 40,
+   "nome": "estabulo: parede leste"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     100,
+     1980
+    ],
+    [
+     420,
+     1980
+    ]
+   ],
+   "espessura": 40,
+   "nome": "estabulo: sul, esq."
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     840,
+     1987
+    ],
+    [
+     1160,
+     1987
+    ]
+   ],
+   "espessura": 40,
+   "nome": "estabulo: sul, dir."
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     140,
+     452
+    ],
+    [
+     470,
+     452
+    ],
+    [
+     470,
+     633
+    ]
+   ],
+   "espessura": 28,
+   "nome": "estabulo: baia 1 N-esq"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     1119,
+     451
+    ],
+    [
+     787,
+     451
+    ],
+    [
+     787,
+     630
+    ]
+   ],
+   "espessura": 28,
+   "nome": "estabulo: baia 1 N-dir"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     140,
+     833
+    ],
+    [
+     477,
+     833
+    ],
+    [
+     477,
+     1015
+    ]
+   ],
+   "espessura": 28,
+   "nome": "estabulo: baia 2 esq"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     1119,
+     831
+    ],
+    [
+     788,
+     831
+    ],
+    [
+     788,
+     1012
+    ]
+   ],
+   "espessura": 28,
+   "nome": "estabulo: baia 2 dir"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     140,
+     1192
+    ],
+    [
+     477,
+     1192
+    ],
+    [
+     477,
+     1367
+    ]
+   ],
+   "espessura": 28,
+   "nome": "estabulo: baia 3 esq"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     1119,
+     1190
+    ],
+    [
+     787,
+     1190
+    ],
+    [
+     787,
+     1370
+    ]
+   ],
+   "espessura": 28,
+   "nome": "estabulo: baia 3 dir"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     139,
+     1560
+    ],
+    [
+     479,
+     1560
+    ]
+   ],
+   "espessura": 28,
+   "nome": "estabulo: baia 4 esq"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     784,
+     1557
+    ],
+    [
+     1114,
+     1557
+    ]
+   ],
+   "espessura": 28,
+   "nome": "estabulo: baia 4 dir"
+  },
+  {
+   "tipo": "poligono",
+   "pontos": [
+    [
+     255,
+     1612
+    ],
+    [
+     365,
+     1700
+    ],
+    [
+     300,
+     1830
+    ],
+    [
+     165,
+     1725
+    ]
+   ],
+   "nome": "carroca virada no estabulo",
+   "nivel": "rocha-grande"
+  },
+  {
+   "tipo": "poligono",
+   "pontos": [
+    [
+     929,
+     1697
+    ],
+    [
+     1034,
+     1692
+    ],
+    [
+     1059,
+     1852
+    ],
+    [
+     959,
+     1862
+    ]
+   ],
+   "nome": "carrinho de mao no estabulo",
+   "nivel": "balcao"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     104,
+     2176
+    ],
+    [
+     104,
+     2763
+    ]
+   ],
+   "espessura": 36,
+   "nome": "latrinas: parede oeste"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     84,
+     2176
+    ],
+    [
+     229,
+     2176
+    ]
+   ],
+   "espessura": 32,
+   "nome": "latrinas: norte"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     84,
+     2763
+    ],
+    [
+     229,
+     2763
+    ]
+   ],
+   "espessura": 32,
+   "nome": "latrinas: sul"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     124,
+     2326
+    ],
+    [
+     224,
+     2326
+    ]
+   ],
+   "espessura": 24,
+   "nome": "latrinas: divisoria"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     124,
+     2466
+    ],
+    [
+     224,
+     2466
+    ]
+   ],
+   "espessura": 24,
+   "nome": "latrinas: divisoria"
+  },
+  {
+   "tipo": "linha",
+   "pontos": [
+    [
+     124,
+     2611
+    ],
+    [
+     224,
+     2611
+    ]
+   ],
+   "espessura": 24,
+   "nome": "latrinas: divisoria"
+  },
+  {
+   "tipo": "circulo",
+   "cx": 1237,
+   "cy": 2350,
+   "r": 108,
+   "nome": "poco de pedra",
+   "nivel": "balcao"
+  }
+ ],
+ "aberturas": [
+  {
+   "tipo": "circulo",
+   "cx": 1237,
+   "cy": 2350,
+   "r": 66,
+   "nome": "boca do poco (vazio)"
+  }
+ ]
+}

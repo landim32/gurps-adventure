@@ -1,0 +1,33 @@
+{
+  "_leia": "Sala do trono (1024 x 1024 px). Paredes do perímetro e as 10 colunas de pedra, todas na altura inteira (parede). Fora de escopo, por pedido: degraus do estrado, trilhos entre as colunas, tapetes, estandarte, caixa de pedra e escombros ficam vazios. Renderize com: renderizar.py --json sala-do-trono-mascara.json --saida sala-do-trono-mascara.png --imagem cenarios/sala-do-trono.jpg",
+  "largura": 1024,
+  "altura": 1024,
+  "paredes": [
+    {"tipo": "retangulo", "x": 0,   "y": 0,   "w": 1024, "h": 92,  "nome": "parede norte (anel externo e muro interno)"},
+    {"tipo": "retangulo", "x": 0,   "y": 940, "w": 1024, "h": 84,  "nome": "parede sul"},
+    {"tipo": "retangulo", "x": 0,   "y": 0,   "w": 92,   "h": 1024, "nome": "parede oeste"},
+    {"tipo": "retangulo", "x": 940, "y": 0,   "w": 84,   "h": 1024, "nome": "parede leste"},
+
+    {"tipo": "retangulo", "x": 150, "y": 62,  "w": 86, "h": 42, "nome": "arco de madeira na parede norte, esquerda"},
+    {"tipo": "retangulo", "x": 790, "y": 62,  "w": 86, "h": 42, "nome": "arco de madeira na parede norte, direita"},
+    {"tipo": "retangulo", "x": 335, "y": 64,  "w": 50, "h": 44, "nome": "brasão de pedra na parede norte, esquerda"},
+    {"tipo": "retangulo", "x": 645, "y": 64,  "w": 50, "h": 44, "nome": "brasão de pedra na parede norte, direita"},
+
+    {"tipo": "retangulo", "x": 235, "y": 210, "w": 83, "h": 83, "nome": "coluna oeste 1"},
+    {"tipo": "retangulo", "x": 235, "y": 380, "w": 83, "h": 82, "nome": "coluna oeste 2"},
+    {"tipo": "retangulo", "x": 235, "y": 568, "w": 83, "h": 82, "nome": "coluna oeste 3"},
+    {"tipo": "retangulo", "x": 235, "y": 733, "w": 83, "h": 83, "nome": "coluna oeste 4"},
+    {"tipo": "retangulo", "x": 235, "y": 900, "w": 83, "h": 75, "nome": "coluna oeste 5 (encosta na parede sul)"},
+
+    {"tipo": "retangulo", "x": 706, "y": 210, "w": 84, "h": 83, "nome": "coluna leste 1"},
+    {"tipo": "retangulo", "x": 706, "y": 380, "w": 84, "h": 82, "nome": "coluna leste 2"},
+    {"tipo": "retangulo", "x": 706, "y": 568, "w": 84, "h": 82, "nome": "coluna leste 3"},
+    {"tipo": "retangulo", "x": 706, "y": 733, "w": 84, "h": 83, "nome": "coluna leste 4"},
+    {"tipo": "retangulo", "x": 706, "y": 900, "w": 84, "h": 75, "nome": "coluna leste 5 (encosta na parede sul)"}
+  ],
+  "aberturas": [
+    {"tipo": "retangulo", "x": 38,  "y": 462, "w": 54,  "h": 100, "nome": "porta oeste"},
+    {"tipo": "retangulo", "x": 936, "y": 462, "w": 54,  "h": 100, "nome": "porta leste"},
+    {"tipo": "retangulo", "x": 460, "y": 938, "w": 103, "h": 52,  "nome": "porta sul"}
+  ]
+}
