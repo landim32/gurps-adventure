@@ -1,83 +1,19 @@
-# Contexto da campanha — Tormento Vil
+# Contexto da campanha — Tormento Vil 2
 
 _(**gerado** por `campanha.py elenco` a partir de `personagens/*/personagem.json` — não edite aqui: mude a ficha e regere. É lido em **toda** execução: antes de decidir o que um personagem faz, sofre ou diz, confira as **desvantagens, peculiaridades e vantagens dele** abaixo. Só entra o que influencia a cena. Atributos, perícias e equipamento estão na ficha (a `contexto` os traz a cada jogada); PV, Fadiga, bolsa e ferimento, em `saude.md`, `bolsa.md` e `mundo.md`.)_
 
-_6 personagem(ns). Atualizado em 04/10/2026._
+_1 personagem(ns). Atualizado em 12/10/2026._
 
-## Comam Obabaroy
+## Toov'terikk, o Goblin do Alfred
 
-Rodrigo · Humano · Mercenário (Fantasy) · 42 anos
+Rodrigo · Goblin (Magia/Fantasy) · Necromante (Magia) · 44 anos
 
-**Aparência:** Meia-idade, entradas e rabo de cavalo, cavanhaque, zarolho de tapa-olho, sorriso constante, traços árabes  
-**Quem é:** Mercenário zoeiro de um país islâmico; perdeu um olho em combate e ri disso até hoje  
-**Reação fixa:** -3  
-**Vantagens:** Reflexos em Combate (+15); Hipoalgia (limiar de dor) (+10); Riqueza (Confortável) (+10)  
-**Desvantagens:** Zarolho (-15); Excesso de Confiança (-10); Fanfarronice (-10); Hábito Detestável (risada) (-5)  
-**Peculiaridades:** Sorri sempre, até em perigo; Piadas sobre o olho perdido; Dá nome às suas armas; Cospe no chão antes de atirar; Nunca paga a própria bebida  
-**Línguas:** Árabe (nativa) 9, Ânglico 9  
-*Ficha completa: `personagens/comam-obabaroy/personagem.md`*
-
-## Irmão Kaelric
-
-Henrique · Humano · Cavaleiro / Palatino — Templário (Fantasy) · 21 anos
-
-**Aparência:** 21 anos, coloço de ~2,10 m, porte de viking cristão: cabelos e barba castanhos trançados, ombros largos; sobreveste branca com cruz vermelha sobre a malha.  
-**Quem é:** Gigante de sangue nórdico, filho caçula de cavaleiros do leste de Mégalos; curado menino por milagre tomista, tomou a cruz templária e vaga provando seu valor.  
-**Reação fixa:** -2 (porte); +2 cristãos  
-**Vantagens:** Reflexos em Combate (+15); Aptidão Mágica 1 (+15); Hipoalgia (Limiar de Dor) (+10); Riqueza (Confortável) (+10); Patrono: Ordem dos Templários (+8); Clericato (Templário) (+5); Voto de Castidade (obrigatório — teto de -40 em desvantagens já atingido, não rende pontos)  
-**Desvantagens:** Código de Honra dos Cavaleiros (-15); Dever: Ordem dos Templários (-10); Gigantismo (-10); Senso de Dever (companheiros) (-5)  
-**Peculiaridades:** Organiza tudo ao redor; odeia desordem; Questiona a fé em silêncio, mesmo rezando; Cura inimigo caído, se for seguro; Argumenta com Deus em voz alta; Não dorme sem limpar maça e escudo  
-**Línguas:** Ânglico (nativa) 12, Latim 11  
-**Mágicas:** Dar Força, Dar Vitalidade, Cura Superficial, Cura Profunda, Despertar  
-*Ficha completa: `personagens/irmao-kaelric/personagem.md`*
-
-## Jah Kagadu
-
-Ricardo · Humano (Sahud) · Ladrão (Fantasy) · 44 anos
-
-**Aparência:** 1,75 m; 68,1 kg; 44 anos, esguio, cabelos cacheados em coque samurai, sobrancelhas arqueadas  
-**Quem é:** Nascido em Sahud, aprendeu o ofício nas sombras dos becos e nunca mais largou faca, adaga ou baralho; sua sorte incomum já o safou de mais dívidas e confusões do que ele consegue contar  
-**Reação fixa:** -2  
-**Vantagens:** Sorte (+15); Aptidão Mágica 1 (+15); Prontidão +2 (+10)  
-**Desvantagens:** Compulsão (Jogo/Apostas) (-15); Paranóia (-10); Fobia Suave (Aranhas) (-10)  
-**Peculiaridades:** Afia e limpa as adagas todas as noites; Arqueia a sobrancelha quando desconfia de alguém; Nunca senta de costas para a porta; Sempre guarda uma carta marcada no bolso; Evita pisar até em teias de aranha vazias  
-**Línguas:** Sahudês (nativa) 12, Ânglico 11  
-*Ficha completa: `personagens/jah-kagadu/personagem.md`*
-
-## Kagehira
-
-A definir · Humano · Assassino (Fantasy) + O Ninja (Artes Marciais) · 36 anos
-
-**Aparência:** 1,78 m; 70,4 kg; 36 anos, seco, rosto liso, cabelo preto curto, andar sem ruído  
-**Quem é:** Último dos Tsushuo, clã sahudense arrasado numa guerra total; nunca falta com a palavra dada  
+**Aparência:** 1,68 m; 56,3 kg; 44 anos, pele verde, orelhas longas, dentes afiados, magro e curvado  
+**Quem é:** Mago goblin de Yibyorak, servo da Seita Lych; sua alma está numa garrafa escondida por Mor'Dhaun  
 **Reação fixa:** 0  
-**Vantagens:** Estilo: Ninjutsu (realista) (+23); Reflexos em Combate (+15)  
-**Desvantagens:** Código de Honra (Tsushuo) (-15); Dever Ext. Perigoso (clã) (-20); Inimigo (matador Nyodo) (-5)  
-**Peculiaridades:** Nunca repete uma promessa; Come de costas para a parede; Afia a lâmina quando não dorme; Fala baixo; obrigam-se a chegar perto; Recusa favores de quem não conhece  
-**Línguas:** Sahudês (nativa) 12, Ânglico 11, Árabe 11  
-*Ficha completa: `personagens/kagehira/personagem.md`*
-
-## Negrum Carneiriums
-
-Bruno · Humano · 23 anos
-
-**Aparência:** 23 anos, jovem adulto de origem centro-africana, corpo extremamente forte e vigoroso, cabeça raspada, brincos grandes nas duas orelhas, veste apenas uma tanga de couro e quase sempre anda sem camisa, exibindo os músculos avantajados  
-**Quem é:** Bárbaro de uma aldeia isolada de descendência centro-africana à beira do grande deserto; cresceu treinando espada, escudo e maça, resolvendo tudo na força bruta  
-**Reação fixa:** +2 (mesmo sexo); +4 (sexo oposto)  
-**Vantagens:** Elegante (Bonito) (+15); Reflexos em Combate (+15); Rijeza (RD1) (+10); Hipoalgia (Alto Limiar de Dor) (+10); Inimigo: guarda de Wallace  
-**Desvantagens:** Impulsividade (-10); Excesso de Confiança (-10); Sanguinolência (-10); Código de Honra (Guerreiro Tribal) (-5); Teimosia (-5); Má Reputação -4 em Wallace (-10)  
-**Peculiaridades:** Anda sem camisa mesmo no frio; Usa brincos grandes nas duas orelhas; Raspa a cabeça com o fio da própria espada; Desconfia de pergaminhos e livros; Nunca recusa um duelo justo  
-**Línguas:** Negrai (nativa) 9, Ânglico 9  
-*Ficha completa: `personagens/negrum-carneiriums/personagem.md`*
-
-## NelsOwned
-
-André · Anão (Fantasy) · Trovador (Fantasy) · 50 anos
-
-**Aparência:** 50 anos, anão baixo, sem a mão esquerda, veludos berrantes, barba impecável, voz grave  
-**Quem é:** Trocou os hinos de guerra anões por baladas de amor impossível; humilha inimigos cantando, não só no machado  
-**Reação fixa:** +2  
-**Vantagens:** Raça: Anão (Fantasy) (+30); Voz Melodiosa (+10); Carisma +2 (+10); Reflexos em Combate (+15); Talento Musical +2 (+2)  
-**Desvantagens:** Fanfarronice (-10); Excesso de Confiança (-10); Luxúria (-15); Hábito Detestável (trocadilhos) (-5); Maneta (mão esquerda) (-15)  
-**Peculiaridades:** Solta um "Aaaah" antes de falar; Alinha a barba antes de atuar; Rima frases tensas sem querer; Lenço de veludo para "chorar"; Só atende por "Pequeno Gigante"  
-*Ficha completa: `personagens/nelsowned/personagem.md`*
+**Vantagens:** Raça: Goblin (+5); Aptidão Mágica 3 (+35); Senso de Direção (+5); Riqueza: Confortável (+10); Alfabetização (+10); Aliado: Alfred (zumbi, 100 pts) (+15) — Alfred, o zumbi que ele reanima, aparece com 15 ou menos em 3d. Ficha-modelo: personagens/toov-terikk/alfred.md. Se morre, reanima outro cadáver e o veste com as roupas do antigo.  
+**Desvantagens:** Dever: Seita Lych (quase sempre) (-15) — Na Seita Lych todo membro tem um mestre que usou Aprisionar Alma nele e guarda o objeto com a alma. O mestre dele é Mor'Dhaun, o único que sabe onde está a garrafa. Obedece a seita, ressentido, e quer a espada porque Mor'Dhaun vive nela.; Covardia (-10) — Teste de Vontade (-5 se há risco de vida) para se arriscar fisicamente; falhou, recusa e manda o Alfred na frente. Reação -2 de soldados que sabem.; Cobiça (-15) — Teste de Vontade para resistir a dinheiro ou tesouro à vista; sem sucesso, cede.  
+**Peculiaridades:** Chama todo zumbi de Alfred; Veste o novo Alfred como o antigo; Conta moedas ao falar de dinheiro; Evita olhar garrafas e frascos; Chama Mor'Dhaun de "Mestre"  
+**Línguas:** Ânglico (nativa) 16, Goblinês dos Mercadores 15  
+**Mágicas:** Apressar, Marcha Acelerada, Acelerar, Cola, Aporte, Reduzir Carga, Queda Lenta, Andar nas Paredes, Poltergeist, Serralheiro, Chave-mestra, Manipular, Desatar, Golem de Ar, Levitação, Nadar, Vôo, Vôo do Falcão, Translocação, Teleporte, Teleportar Outros, Corpo Etéreo, Faca Alada, Visão da Morte, Percepção de Espíritos, Convocar Espíritos, Roubar Força, Roubar Vitalidade, Zumbi, Aprisionar Alma, Dar Força, Dar Vitalidade, Cura Superficial, Cura Profunda, Localizar Água, Purificação de Água, Criar Água, Moldar Água  
+*Ficha completa: `personagens/toov-terikk/personagem.md`*

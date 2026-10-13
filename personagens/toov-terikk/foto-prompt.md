@@ -1,0 +1,5 @@
+# Prompt de Imagem — Toov'terikk, o Goblin do Alfred
+
+Digital illustration, dark fantasy character concept art, clean linework with soft muted coloring, in the style of a hand-drawn RPG character portrait. A thin, stooped male goblin necromancer, 44 years old, 1.68 m tall and about 56 kg, olive-green skin, long pointed ears, small sharp white teeth in a nervous half-smile, narrow greedy eyes that glance sideways at coin purses, wispy black hair. He wears a worn mid-class traveler's robe in faded grey and brown, plain leather shoes, a small backpack and a canvas satchel, and holds a short wooden staff in one hand while the other hand fiddles with a few coins. Half a step behind him stands his silent undead servant, a gray-skinned zombie in mismatched butler-like clothes, eyes opaque and fixed. Postura servile and watchful, as if listening for a distant master. Plain neutral background, character reference sheet pose, portrait framing from the waist up, centered.
+
+*Estilo:* desenho/ilustração (não fotorrealista).

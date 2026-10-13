@@ -57,5 +57,4 @@ ilustrações). O que elas mostravam costuma estar descrito no texto em volta.
 <!-- indice:whatsapp -->
 | Arquivo | Período coberto | Processada em | O que trouxe |
 |---|---|---|---|
-| [`processados/2026-09-16.txt`](processados/2026-09-16.txt) | 07/09 16:49 → 16/09 07:34 | 16/09/2026 | Campanha inteira até aqui: capítulo 1 completo (a taberna, o braço-de-ferro, o furto da bolsa do Giles, a morte de Hoel Meia-Orelha, os quatro mortos que entraram pela porta, o incêndio) e o capítulo 2 até a rampa do castelo. **Duas correções grandes:** Donnwulf está vivo e ajudando o grupo, não é morto-vivo; e Wallace não tem porto — é cidade de pastores na orla do Grande Deserto. |
 <!-- /indice:whatsapp -->

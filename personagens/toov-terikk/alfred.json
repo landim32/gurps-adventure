@@ -1,0 +1,200 @@
+{
+  "nome": "Alfred",
+  "jogador": "Aliado do Toov'terikk",
+  "arquetipo": "Criado zumbi do Toov'terikk (Zumbi, GURPS Magia, pág. 107)",
+  "raca": "Zumbi (Magia)",
+  "idade": 38,
+  "aparencia": "1,78 m; 70,4 kg; 38 anos ao morrer, pele cinza, olhos opacos, andar leve",
+  "historia": "Cadáver que o Toov'terikk levantou; veste as roupas do Alfred anterior e luta com facas",
+  "data_criacao": "11/10/2026",
+  "sequencia": "1",
+  "pontos_gastar": 100,
+  "pontos_total": 100,
+  "atributos": {
+    "ST": {
+      "valor": 12,
+      "custo": 10
+    },
+    "DX": {
+      "valor": 14,
+      "custo": 45
+    },
+    "IQ": {
+      "valor": 8,
+      "custo": 0
+    },
+    "HT": {
+      "valor": 15,
+      "custo": 0
+    }
+  },
+  "fadiga": 12,
+  "pontos_vida": 15,
+  "dano_basico": {
+    "gdp": "1D-1",
+    "bal": "1D+2"
+  },
+  "velocidade_basica": 7.25,
+  "deslocamento": 7,
+  "carga": {
+    "nenhuma": 12,
+    "leve": 24,
+    "media": 36,
+    "pesada": 72,
+    "muito_pesada": 120
+  },
+  "defesa_passiva": {
+    "armadura": 0,
+    "escudo": 0,
+    "total": 0
+  },
+  "defesas_ativas": {
+    "esquiva": 8,
+    "aparar": 10,
+    "bloqueio": 0
+  },
+  "reacao": "-2 (Feio)",
+  "raca_tracos": [
+    {
+      "nome": "ST +1, HT +5, IQ -2"
+    },
+    {
+      "nome": "Não sente dor, nunca fica atordoado"
+    },
+    {
+      "nome": "Sem redutor por ferimento"
+    },
+    {
+      "nome": "Luta sem membros"
+    },
+    {
+      "nome": "Só Cura Superf./Profunda o curam"
+    },
+    {
+      "nome": "Morre com HT 0"
+    },
+    {
+      "nome": "Obedece ordens verbais do mestre"
+    }
+  ],
+  "vantagens_desvantagens": [
+    {
+      "nome": "Raça: Zumbi (sem custo)",
+      "custo": 0,
+      "raca": true,
+      "lado": "vantagem"
+    },
+    {
+      "nome": "Ambidestria",
+      "custo": 10
+    },
+    {
+      "nome": "Reflexos em Combate",
+      "custo": 15
+    },
+    {
+      "nome": "Feio",
+      "custo": -10,
+      "lembrete": "Rosto de cadáver sob a roupa: -2 nas reações de quem o vê"
+    }
+  ],
+  "peculiaridades": [],
+  "armas_objetos": [
+    {
+      "item": "Adaga (mão direita)",
+      "dano": "1D-2",
+      "tipo": "perf",
+      "qtd": 1,
+      "peso": 0.1,
+      "categoria": "Armas"
+    },
+    {
+      "item": "Adaga (mão esquerda)",
+      "dano": "1D-2",
+      "tipo": "perf",
+      "qtd": 1,
+      "peso": 0.1,
+      "categoria": "Armas"
+    },
+    {
+      "item": "Adaga de arremesso",
+      "dano": "1D-2",
+      "tipo": "perf",
+      "qtd": 6,
+      "peso": 0.6,
+      "categoria": "Armas"
+    },
+    {
+      "item": "Coturnos (pés)",
+      "dano": "-",
+      "tipo": "DP2/RD2",
+      "qtd": 1,
+      "peso": 1.5,
+      "categoria": "Armadura"
+    },
+    {
+      "item": "Roupas de classe média",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 1.0,
+      "categoria": "Equipamento"
+    }
+  ],
+  "peso_total": 3.3,
+  "custo_total": 280,
+  "dinheiro": 0,
+  "pericias": [
+    {
+      "nome": "Faca",
+      "nh": 18,
+      "tipo": "DX/F",
+      "custo": 16,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Arremesso de Faca",
+      "nh": 17,
+      "tipo": "DX/F",
+      "custo": 8,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Briga",
+      "nh": 14,
+      "tipo": "DX/F",
+      "custo": 1,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Sacar Rápido (Faca)",
+      "nh": 15,
+      "tipo": "DX/F",
+      "custo": 2,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Cavalgar (Cavalos)",
+      "nh": 13,
+      "tipo": "DX/M",
+      "custo": 1,
+      "categoria": "Físicas"
+    },
+    {
+      "nome": "Furtividade",
+      "nh": 14,
+      "tipo": "DX/M",
+      "custo": 2,
+      "categoria": "Ladrão"
+    }
+  ],
+  "resumo": {
+    "atributos": 55,
+    "vantagens": 25,
+    "desvantagens": -10,
+    "peculiaridades": 0,
+    "pericias": 30,
+    "total": 100
+  },
+  "foto": "alfred-foto.png"
+}
