@@ -1,0 +1,42 @@
+*TURNO 41 — A PERNA DO ORC*
+
+Jah firma os pés na margem e solta as duas mãos de uma vez. A adaga da direita, com três turnos de mira, vai ao pescoço do orc. A faca da esquerda segue sem mira.
+> Ataque (adaga, mão direita): Arremesso de Faca NH 18, -3 distância (6 m), +0 Precisão (cancelada além do ½D de 5 m), +2 mira (3 turnos), -5 Pescoço = *12*
+> 3d [3, 5, 2] = *10* → sucesso por 2
+> Defesa de Vurkash: Esquiva 7 (6 +1 Reflexos em Combate)
+> 3d [2, 1, 4] = *7* → defendeu no limite
+> Ataque (faca, mão esquerda): Arremesso de Faca NH 18, -3 distância (6 m), -4 mão inábil, Tiro Rápido sem penalidade (NH ajustado 11 ≥ TR 11) = *11*
+> 3d [5, 3, 6] = *14* → falhou por 3
+> Jah fez Ataque Total (duas armas): sem defesa ativa até o próximo turno.
+
+O orc torce o pescoço no último instante. A adaga raspa o ar onde ele estava, e a faca da esquerda se perde na lama.
+
+Vurkash respira fundo e mantém o montante à frente do corpo, em guarda, sem tirar os olhos do gigante.
+> Vurkash: PV 0, teste de HT para seguir consciente (HT 13 +7 Força de Vontade = 20), 3d [4, 6, 5] = *15* → sucesso por 5
+> Vurkash fez Defesa Total (duas defesas diferentes contra cada ataque, com Recuar em uma delas).
+
+Negrum desce o montante na perna do orc, do lado oposto ao do anão.
+> Ataque: Espadas de Lâmina Larga NH 17, -2 Perna = *15*
+> 3d [2, 6, 5] = *13* → sucesso por 2
+> Defesa de Vurkash: Aparar 8 (7 +1 Reflexos em Combate) +3 Recuar = *11*
+> 3d [3, 6, 1] = *10* → defendeu por 1
+> *Vurkash se defendeu.* Sem dano. Ele recua 1 hexágono, de (11,6) a (12,6).
+
+O montante do orc recebe o golpe de lado. Vurkash dá um passo atrás, e o passo o põe de frente para o anão ferido.
+
+NelsOwned avança o machado para a perna do orc.
+> Ataque: Machado/Maça NH 15, -2 Perna = *13*
+> 3d [6, 4, 1] = *11* → sucesso por 2
+> Defesa de Vurkash (sem Recuar, já usado): Aparar 8, 3d [5, 4, 3] = *12* → falhou por 4; Esquiva 7, 3d [5, 6, 1] = *12* → falhou por 5
+> Dano: 2D+1: [1, 4] = 5 + 1 = *6*
+> RD 0 → 6 passam
+> Corte: ×1,5 → *9*
+> Teto do local (HT/2 = 6): 3 desperdiçado(s)
+> *Perna INCAPACITADA* — Vurkash vai ao chão. Hipoalgia: sem atordoamento.
+> *Vurkash perde 6 pontos de vida (PV -6/15).*
+
+O machado entra fundo na coxa. A perna do orc cede, o montante bate na lama, e o gigante pálido tomba de joelhos e depois de lado, sem um som.
+
+Negrum e NelsOwned declararam recuar depois do golpe, mas as peças não saíram do lugar e ficam onde estão. Comam dá um passo curto pela margem leste, em defesa total. Kaelric dá um passo curto para a margem sul, em defesa total.
+
+*Deslocamentos conferidos:* Comam *1* e Kaelric *1* (coxos, Fadiga 3), Jah *3*, Negrum *3*, NelsOwned *2* (PV 1), Vurkash *3*.

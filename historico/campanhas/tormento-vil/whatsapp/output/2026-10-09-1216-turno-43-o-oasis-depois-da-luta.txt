@@ -1,0 +1,26 @@
+*TURNO 43 — O OÁSIS DEPOIS DA LUTA*
+
+O oásis volta a ser só água e palmeiras. Comam e os outros bebem até a barriga encher, depois comem tâmaras e frutas que caem das palmeiras. Os barris da carroça são arrastados até a margem e cheios um a um: seis barris, 300 litros. As frutas e o que dá para secar enchem os sacos: *mantimentos para 1 dia da comitiva* (21 refeições, 7 pessoas-dia). As montarias bebem sem pressa.
+
+Beber à vontade, comer fruta e deitar um tempo à sombra das palmeiras devolve o fôlego a todos. *Fadiga cheia:* Comam 13/13, Kaelric 13/13, Jah 9/9, Negrum 15/15, NelsOwned 15/15 e Edric 12/12.
+
+Kaelric ajoelha ao lado de Edric, caído na lama, e desfaz a atadura suja que o orc deixou. Reza baixo enquanto trabalha com o estojo e as mãos grandes, delicadas.
+> Primeiros Socorros: NH 14, +1 kit de primeiros socorros = *15*
+> 3d [6, 4, 6] = *16* → *falhou por 1*
+> Atadura simples (MB, Primeiros Socorros): mesmo sem perícia, 30 minutos de curativo devolvem *1 ponto de vida* perdido em batalha.
+> *Edric recupera 1 ponto de vida (PV 5/11).*
+
+A mão do cavaleiro tremeu um segundo a mais do que devia, e a atadura sai torta, mas segura o sangramento. Quando termina, o guarda suspira e abre os olhos.
+
+NelsOwned se agacha ao lado do corpo do orc, com o machado nas costas, e revista o que sobrou do gigante pálido: uma manopla de aço na mão direita, os escarpins de placas, uma adaga, as facas que ele atirou, espalhadas pela margem. Nada de moedas, nada de joias. Só aço e o cheiro do deserto.
+
+Negrum envolve os dedos no punho do montante do orc, de lâmina reta e escura, e o puxa da lama. No pomo, engastada no aço, uma pedra roxa do tamanho de um limão, lisa e fria. Ela não brilha nem pulsa ali, no meio do deserto, mas prende o olhar de quem a olha por muito tempo. É uma arma boa, bem mais pesada do que parece.
+
+Jah afunda a cabeça, nada devagar, bebe da lagoa e fica boiando, olhando o céu. Depois sai da água em (8,7) e junta, uma a uma, as facas e as adagas que lançou.
+> Natação, teste de 5 em 5 minutos na água funda: NH 16, -2 Carga Leve (12 kg, ST 10) = *14*
+> 3d [4, 5, 4] = *13* → sucesso por 1
+
+Edric se apoia no cotovelo, a voz rouca de tanto tempo sem água.
+"Sir William morreu... Eu acho que a gente deveria ir para Ferrier. Falar com o senhor de lá e avisar da morte dele."
+
+*Mantimentos ao fim da cena:* água *300 L* (seis barris cheios), comida *7 pessoas-dia* (21 refeições), as 4 montarias dessedentadas.

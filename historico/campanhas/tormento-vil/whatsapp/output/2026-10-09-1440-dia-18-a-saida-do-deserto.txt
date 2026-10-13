@@ -1,0 +1,28 @@
+*DIA 18 — A SAÍDA DO DESERTO*
+
+Na sombra das palmeiras, antes de levantar acampamento, a comitiva resolve a pergunta que ficou no ar. Kaelric concorda com Edric e quer saber se Sir William deixou família. Edric demora a responder, olha para o chão de lama e diz que o senhor tinha uma filha pequena, que ficou em Wallace com parentes. Ele não sabe se ela ainda vive.
+
+Negrum pergunta ao guia se ele sabe chegar a Ferrier. Yusuf, o Rato-de-Duna, olha o sol, cospe na areia e diz que sim, se o rumo não o enganar de novo. Jah, Nelson e Comam votam do mesmo jeito: Ferrier, falar com o senhor de lá. Está decidido.
+
+Jah assume as rédeas da carroça e conduz os cavalos de tiro. Os outros descansam na caçamba, cada um com a sua dor.
+> Carreiro: Cavalgar 14, -2 (pré-definido) = *12*
+> 3d [1, 6, 3] = *10* → sucesso por 2
+
+Yusuf sobe na caçamba e aponta as dunas, de olho no sol e na crista das dunas, e dessa vez não erra.
+> Navegação em terra (Yusuf): NH *12*
+> 3d [2, 5, 2] = *9* → sucesso por 3
+> *Rumo certo.* Marcha cheia: *+20 km*, que é o que falta. *200 km andados, 0 km até a saída do deserto.*
+
+No fim da tarde a areia cede lugar a um capim ralo e a um vento diferente: a saída do deserto está diante deles, e as muralhas de Ferrier ficam para o amanhecer.
+
+Ao fim do dia o caderno fecha:
+> *Água:* 300 L − 75 L (7 bocas × 5 L + 4 montarias × 10 L) = *225 litros*
+> *Comida:* 7 pessoas-dia − 7 = *0* (todos comeram a ração inteira)
+
+À noite, os feridos descansam e tentam sarar:
+> Comam: HT 13, 3d [6, 1, 1] = *8* → sucesso → *+1 PV (6/13)*
+> Kaelric: HT 12, 3d [4, 1, 5] = *10* → sucesso → *+1 PV (7/12)*
+> Jah: HT 12, 3d [2, 4, 4] = *10* → sucesso → *+1 PV (5/12)*
+> NelsOwned: HT 13, 3d [5, 1, 6] = *12* → sucesso → *+1 PV (2/13)*
+> Negrum: HT 12, 3d [6, 6, 1] = *13* → falhou por 1 → *PV 8/12*
+> Edric: HT 11, 3d [5, 5, 3] = *13* → falhou por 2 → *PV 5/11*

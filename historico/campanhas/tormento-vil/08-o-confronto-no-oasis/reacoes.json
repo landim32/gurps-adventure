@@ -1,0 +1,326 @@
+{
+  "reacoes": [
+    {
+      "npc": "Vurkash",
+      "pj": "Comam Obabaroy",
+      "dados": [
+        2,
+        2,
+        2
+      ],
+      "mod": -3,
+      "total": 3,
+      "faixa": "Muito Ruim",
+      "peso": "extremo",
+      "texto": "O NPC antipatiza com os PCs e agirá contra eles se isto lhe for conveniente.",
+      "conta": "3d [2, 2, 2] = 6 - 3 = 3",
+      "detalhe": [
+        "-3 ficha de Comam Obabaroy"
+      ],
+      "contexto": "combate",
+      "local": "Oásis",
+      "quando": "07/10/2026 17:11"
+    },
+    {
+      "npc": "Vurkash",
+      "pj": "Irmão Kaelric",
+      "dados": [
+        1,
+        1,
+        2
+      ],
+      "mod": -2,
+      "total": 2,
+      "faixa": "Muito Ruim",
+      "peso": "extremo",
+      "texto": "O NPC antipatiza com os PCs e agirá contra eles se isto lhe for conveniente.",
+      "conta": "3d [1, 1, 2] = 4 - 2 = 2",
+      "detalhe": [
+        "-2 ficha de Irmão Kaelric"
+      ],
+      "contexto": "combate",
+      "local": "Oásis",
+      "quando": "07/10/2026 17:11",
+      "atencao": "ficha de Irmão Kaelric: «-2 (porte); +2 cristãos» — confira se a parte condicional vale aqui"
+    },
+    {
+      "npc": "Vurkash",
+      "pj": "Jah Kagadu",
+      "dados": [
+        5,
+        3,
+        6
+      ],
+      "mod": -2,
+      "total": 12,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [5, 3, 6] = 14 - 2 = 12",
+      "detalhe": [
+        "-2 ficha de Jah Kagadu"
+      ],
+      "contexto": "combate",
+      "local": "Oásis",
+      "quando": "07/10/2026 17:11"
+    },
+    {
+      "npc": "Vurkash",
+      "pj": "NelsOwned",
+      "dados": [
+        1,
+        2,
+        1
+      ],
+      "mod": 2,
+      "total": 6,
+      "faixa": "Ruim",
+      "peso": "nota",
+      "texto": "O NPC não se importa com os PCs e agirá contra eles se isto lhe trouxer algum benefício.",
+      "conta": "3d [1, 2, 1] = 4 + 2 = 6",
+      "detalhe": [
+        "+2 ficha de NelsOwned"
+      ],
+      "contexto": "combate",
+      "local": "Oásis",
+      "quando": "07/10/2026 17:11"
+    },
+    {
+      "npc": "Vurkash",
+      "pj": "Negrum Carneiriums",
+      "dados": [
+        2,
+        5,
+        1
+      ],
+      "mod": 2,
+      "total": 10,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [2, 5, 1] = 8 + 2 = 10",
+      "detalhe": [
+        "+2 ficha de Negrum Carneiriums"
+      ],
+      "contexto": "combate",
+      "local": "Oásis",
+      "quando": "07/10/2026 17:11",
+      "atencao": "ficha de Negrum Carneiriums: «+2 (mesmo sexo); +4 (sexo oposto)» — confira se a parte condicional vale aqui"
+    },
+    {
+      "npc": "Barão Nabbick",
+      "pj": "Comam Obabaroy",
+      "dados": [
+        4,
+        4,
+        6
+      ],
+      "mod": -3,
+      "total": 11,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [4, 4, 6] = 14 - 3 = 11",
+      "detalhe": [
+        "-3 ficha de Comam Obabaroy"
+      ],
+      "contexto": "ajuda",
+      "local": "Ferrier — torre do Barão",
+      "quando": "10/10/2026 20:12"
+    },
+    {
+      "npc": "Barão Nabbick",
+      "pj": "Irmão Kaelric",
+      "dados": [
+        5,
+        4,
+        3
+      ],
+      "mod": -2,
+      "total": 10,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [5, 4, 3] = 12 - 2 = 10",
+      "detalhe": [
+        "-2 ficha de Irmão Kaelric"
+      ],
+      "contexto": "ajuda",
+      "local": "Ferrier — torre do Barão",
+      "quando": "10/10/2026 20:12",
+      "atencao": "ficha de Irmão Kaelric: «-2 (porte); +2 cristãos» — confira se a parte condicional vale aqui"
+    },
+    {
+      "npc": "Barão Nabbick",
+      "pj": "Jah Kagadu",
+      "dados": [
+        3,
+        2,
+        2
+      ],
+      "mod": -2,
+      "total": 5,
+      "faixa": "Ruim",
+      "peso": "nota",
+      "texto": "O NPC não se importa com os PCs e agirá contra eles se isto lhe trouxer algum benefício.",
+      "conta": "3d [3, 2, 2] = 7 - 2 = 5",
+      "detalhe": [
+        "-2 ficha de Jah Kagadu"
+      ],
+      "contexto": "ajuda",
+      "local": "Ferrier — torre do Barão",
+      "quando": "10/10/2026 20:12"
+    },
+    {
+      "npc": "Barão Nabbick",
+      "pj": "NelsOwned",
+      "dados": [
+        6,
+        4,
+        1
+      ],
+      "mod": 2,
+      "total": 13,
+      "faixa": "Boa",
+      "peso": "nota",
+      "texto": "O NPC gosta dos personagens e será prestativo dentro do razoável.",
+      "conta": "3d [6, 4, 1] = 11 + 2 = 13",
+      "detalhe": [
+        "+2 ficha de NelsOwned"
+      ],
+      "contexto": "ajuda",
+      "local": "Ferrier — torre do Barão",
+      "quando": "10/10/2026 20:12"
+    },
+    {
+      "npc": "Barão Nabbick",
+      "pj": "Negrum Carneiriums",
+      "dados": [
+        6,
+        4,
+        6
+      ],
+      "mod": 2,
+      "total": 18,
+      "faixa": "Muito Bom",
+      "peso": "extremo",
+      "texto": "O NPC tem os personagens em alta conta e será muito gentil e prestativo.",
+      "conta": "3d [6, 4, 6] = 16 + 2 = 18",
+      "detalhe": [
+        "+2 ficha de Negrum Carneiriums"
+      ],
+      "contexto": "ajuda",
+      "local": "Ferrier — torre do Barão",
+      "quando": "10/10/2026 20:12",
+      "atencao": "ficha de Negrum Carneiriums: «+2 (mesmo sexo); +4 (sexo oposto)» — confira se a parte condicional vale aqui"
+    },
+    {
+      "npc": "Grã-Mago de Ferrier",
+      "pj": "Comam Obabaroy",
+      "dados": [
+        3,
+        1,
+        1
+      ],
+      "mod": -3,
+      "total": 2,
+      "faixa": "Muito Ruim",
+      "peso": "extremo",
+      "texto": "O NPC antipatiza com os PCs e agirá contra eles se isto lhe for conveniente.",
+      "conta": "3d [3, 1, 1] = 5 - 3 = 2",
+      "detalhe": [
+        "-3 ficha de Comam Obabaroy"
+      ],
+      "contexto": "ajuda",
+      "local": "Ferrier — torre do Barão",
+      "quando": "10/10/2026 20:12"
+    },
+    {
+      "npc": "Grã-Mago de Ferrier",
+      "pj": "Irmão Kaelric",
+      "dados": [
+        4,
+        5,
+        3
+      ],
+      "mod": -2,
+      "total": 10,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [4, 5, 3] = 12 - 2 = 10",
+      "detalhe": [
+        "-2 ficha de Irmão Kaelric"
+      ],
+      "contexto": "ajuda",
+      "local": "Ferrier — torre do Barão",
+      "quando": "10/10/2026 20:12",
+      "atencao": "ficha de Irmão Kaelric: «-2 (porte); +2 cristãos» — confira se a parte condicional vale aqui"
+    },
+    {
+      "npc": "Grã-Mago de Ferrier",
+      "pj": "Jah Kagadu",
+      "dados": [
+        5,
+        2,
+        3
+      ],
+      "mod": -2,
+      "total": 8,
+      "faixa": "Fraca",
+      "peso": "nota",
+      "texto": "O NPC não se deixará impressionar. Pode se tornar hostil se isso lhe der lucro grande ou houver pouco perigo.",
+      "conta": "3d [5, 2, 3] = 10 - 2 = 8",
+      "detalhe": [
+        "-2 ficha de Jah Kagadu"
+      ],
+      "contexto": "ajuda",
+      "local": "Ferrier — torre do Barão",
+      "quando": "10/10/2026 20:12"
+    },
+    {
+      "npc": "Grã-Mago de Ferrier",
+      "pj": "NelsOwned",
+      "dados": [
+        5,
+        5,
+        2
+      ],
+      "mod": 2,
+      "total": 14,
+      "faixa": "Boa",
+      "peso": "nota",
+      "texto": "O NPC gosta dos personagens e será prestativo dentro do razoável.",
+      "conta": "3d [5, 5, 2] = 12 + 2 = 14",
+      "detalhe": [
+        "+2 ficha de NelsOwned"
+      ],
+      "contexto": "ajuda",
+      "local": "Ferrier — torre do Barão",
+      "quando": "10/10/2026 20:12"
+    },
+    {
+      "npc": "Grã-Mago de Ferrier",
+      "pj": "Negrum Carneiriums",
+      "dados": [
+        3,
+        6,
+        2
+      ],
+      "mod": 2,
+      "total": 13,
+      "faixa": "Boa",
+      "peso": "nota",
+      "texto": "O NPC gosta dos personagens e será prestativo dentro do razoável.",
+      "conta": "3d [3, 6, 2] = 11 + 2 = 13",
+      "detalhe": [
+        "+2 ficha de Negrum Carneiriums"
+      ],
+      "contexto": "ajuda",
+      "local": "Ferrier — torre do Barão",
+      "quando": "10/10/2026 20:12",
+      "atencao": "ficha de Negrum Carneiriums: «+2 (mesmo sexo); +4 (sexo oposto)» — confira se a parte condicional vale aqui"
+    }
+  ],
+  "local": "Ferrier — torre do Barão"
+}

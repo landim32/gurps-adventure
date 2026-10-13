@@ -1,0 +1,76 @@
+# Tormento Vil
+
+**Campanha:** Tormento Vil
+**Estado:** encerrada
+**Encerramento:** 11/10/2026
+**Mestre:** IA (Mestre)
+**Início:** 06/09/2026
+**Cenário:** Yrth — Caithness, o Grande Deserto e Zarak
+**Capítulo atual:** 08
+**Pontos dos personagens:** 150
+
+Wallace, a cidade fronteiriça de Caithness, caiu numa noite. Os mortos levantaram-se e **Vurkash, o Que Não Enterra**, os comanda com uma espada de brilho azul. A única terra onde nenhum encantamento funciona — e portanto nenhum morto-vivo entra — é o Grande Deserto. É para lá que os sobreviventes correm.
+
+## Personagens
+
+| Personagem | Jogador | Arquétipo | Pontos | Ficha |
+|---|---|---|---|---|
+| Comam Obabaroy | Rodrigo | Mercenário (*Fantasy*) | 150 | [ficha](../personagens/comam-obabaroy/personagem.md) |
+| Irmão Kaelric | Henrique | Cavaleiro / Palatino — Templário (*Fantasy*) | 150 | [ficha](../personagens/irmao-kaelric/personagem.md) |
+| Jah Kagadu | Ricardo | Ladrão (*Fantasy*) | 150 | [ficha](../personagens/jah-kagadu/personagem.md) |
+| NelsOwned | André | Trovador (*Fantasy*) | 150 | [ficha](../personagens/nelsowned/personagem.md) |
+| Negrum Carneiriums | Bruno | Guerreiro tribal | 150 | [ficha](../personagens/negrum-carneiriums/personagem.md) |
+
+O grupo cobre bem o que a campanha exige: um mercenário para a linha de frente, um
+templário para os mortos-vivos, um ladrão para a Furtividade dos capítulos 2 e 13, um
+trovador para o teste de reação com Zorah no capítulo 12, e um guerreiro tribal de ST 15
+que é o único do grupo com **Sobrevivência (Deserto) 11** — o que muda os capítulos 7 e 8.
+
+**Ninguém tem Navegação (Terra)** — confira antes do capítulo 7. A Sobrevivência do Negrum
+resolve água e comida no deserto, mas não resolve o rumo: sem Navegação a travessia é feita
+a IQ-5 e vai custar dias.
+
+**Negrum fala Ânglico em NH 8**, com sotaque forte — a língua dele é o Negrai. Em cena de
+negociação, é ele quem entende menos do que os outros, e isso é material de interpretação,
+não defeito de ficha.
+
+## Plano
+
+<!-- indice:plano -->
+- [1. Encontro na Taberna](plano/01-encontro-na-taberna/) · [NPCs](plano/01-encontro-na-taberna/npcs.md)
+- [2. A Fuga para o Castelo](plano/02-a-fuga-para-o-castelo/) · [NPCs](plano/02-a-fuga-para-o-castelo/npcs.md)
+- [3. Fechem os Portões](plano/03-fechem-os-portoes/) · [NPCs](plano/03-fechem-os-portoes/npcs.md)
+- [4. O Que Não Enterra](plano/04-o-que-nao-enterra/) · [NPCs](plano/04-o-que-nao-enterra/npcs.md)
+- [5. O Lorde William](plano/05-o-lorde-william/) · [NPCs](plano/05-o-lorde-william/npcs.md)
+- [6. A Fuga para o Deserto](plano/06-a-fuga-para-o-deserto/) · [NPCs](plano/06-a-fuga-para-o-deserto/npcs.md)
+- [7. A Travessia do Grande Deserto](plano/07-a-travessia-do-grande-deserto/) · [NPCs](plano/07-a-travessia-do-grande-deserto/npcs.md)
+- [8. O Confronto no Oásis](plano/08-o-confronto-no-oasis/) · [NPCs](plano/08-o-confronto-no-oasis/npcs.md)
+- [9. A Traição](plano/09-a-traicao/) · [NPCs](plano/09-a-traicao/npcs.md)
+- [10. A Torre de Eriel](plano/10-a-torre-de-eriel/) · [NPCs](plano/10-a-torre-de-eriel/npcs.md)
+- [11. A Estrela da Manhã](plano/11-a-estrela-da-manha/) · [NPCs](plano/11-a-estrela-da-manha/npcs.md)
+- [12. Zorah, o Artesão](plano/12-zorah-o-artesao/) · [NPCs](plano/12-zorah-o-artesao/npcs.md)
+- [13. O Baú Anti-Magia](plano/13-o-bau-anti-magia/) · [NPCs](plano/13-o-bau-anti-magia/npcs.md)
+- [14. O Cerco de Wallace](plano/14-o-cerco-de-wallace/) · [NPCs](plano/14-o-cerco-de-wallace/npcs.md)
+- [NPCs de toda a campanha](plano/npcs.md)
+<!-- /indice:plano -->
+
+## Histórico
+
+Como as coisas **estão agora**: [`mundo.md`](mundo.md) (ferimentos, itens, relações, o que já se sabe), [`saude.md`](saude.md) (PV, Fadiga e ferimentos que ficam), [`bolsa.md`](bolsa.md) (o dinheiro de cada um) e [`mantimentos.md`](mantimentos.md) (água e comida da comitiva, despesa por dia e o livro-caixa da travessia) — leia antes de retomar uma cena ou interpretar um NPC.
+
+<!-- indice:historico -->
+- [1. Encontro na Taberna — como aconteceu](01-encontro-na-taberna/) — 07/09/2026 · 36 acontecimento(s) · 7 arquivo(s) de mesa
+- [2. A Fuga para o Castelo — como aconteceu](02-a-fuga-para-o-castelo/) — 10/09/2026 · 44 acontecimento(s) · 3 arquivo(s) de mesa
+- [3. Fechem os Portões — como aconteceu](03-fechem-os-portoes/) — 16/09/2026 · 58 acontecimento(s) · 6 arquivo(s) de mesa
+- [4. O Que Não Enterra — como aconteceu](04-o-que-nao-enterra/) — 19/09/2026 · 13 acontecimento(s) · 4 arquivo(s) de mesa
+- [5. O Lorde William — como aconteceu](05-o-lorde-william/) — 20/09/2026 · 4 acontecimento(s) · 3 arquivo(s) de mesa
+- [6. A Fuga para o Deserto — como aconteceu](06-a-fuga-para-o-deserto/) — 21/09/2026 · 48 acontecimento(s) · 5 arquivo(s) de mesa
+- [7. A Travessia do Grande Deserto — como aconteceu](07-a-travessia-do-grande-deserto/) — 30/09/2026 · 50 acontecimento(s) · 4 arquivo(s) de mesa
+- [8. O Confronto no Oásis — como aconteceu](08-o-confronto-no-oasis/) — 06/10/2026 · 70 acontecimento(s) · 5 arquivo(s) de mesa
+- [video](video/)
+- [Exportações do grupo de WhatsApp](whatsapp/)
+<!-- /indice:historico -->
+
+## Desfecho
+
+Wallace caiu, o grupo atravessou o Grande Deserto, derrotou Vurkash no oásis e levou o montante de pedra roxa até Ferrier. Ali o Grã-Mago Orvin Thale reconheceu a espada de Vaelrith Mor'Dhaun, elfo negro necromante cuja alma e consciência vivem na pedra, prendeu-a numa caixa de ferro negro com uma zona sem mana e removeu o Condicionamento de Comam, Edric e Jah. O Barão Nabbick recompensou cada personagem com 5.000 moedas. O necromante foi vencido, mas não está destruído: a caixa fica guardada na torre de Ferrier, e a seita dele continua por aí. Os capítulos 09 a 14 do plano ficaram sem jogar.

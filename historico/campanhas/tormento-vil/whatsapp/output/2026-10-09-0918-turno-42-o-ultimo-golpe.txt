@@ -1,0 +1,37 @@
+*TURNO 42 — O ÚLTIMO GOLPE*
+
+Jah entra na água funda do lago de peito aberto, de propósito, com a adaga que lhe resta presa ao cinto. A lagoa o engole até o pescoço. *Aviso:* ele quis atravessar até a outra margem em (9,8), mas na água funda só se avança 1 hexágono por turno. Ele fica em *(8,9)*, boiando.
+> Natação (ficha): NH 16, +3 entrou na água de propósito, -2 Carga Leve (12 kg, ST 10) = *17*
+> 3d [2, 6, 5] = *13* → sucesso por 4, mantém a cabeça fora d'água
+> Nadando: Deslocamento 1.
+
+Vurkash respira com dificuldade, deitado na lama, a perna destruída.
+> Vurkash: PV -6, teste de HT para seguir consciente (HT 13 +7 Força de Vontade = 20), 3d [3, 1, 2] = *6* → *SUCESSO DECISIVO*
+
+Do chão, ele ergue o montante e manda um golpe baixo na perna do gigante que avança.
+> Ataque: Espadas de Lâmina Larga NH 15, -2 Perna, -4 deitado = *9*
+> 3d [5, 1, 2] = *8* → sucesso por 1
+> Defesa de Negrum: Bloqueio 8 +1 Reflexos em Combate +3 DP do escudo médio = *12*
+> 3d [2, 2, 4] = *8* → *defendeu* por 4
+> *Negrum se defendeu.* O golpe bate no escudo. Sem dano.
+
+O escudo desvia a lâmina com um estalo. Negrum dá um passo sobre o orc caído e dispara a ponta do montante contra o tronco.
+> Ataque: Espadas de Lâmina Larga NH 17 = *17*
+> 3d [6, 1, 6] = *13* → sucesso por 4
+> Defesa de Vurkash: Aparar 8 (7 +1 Reflexos em Combate), -3 deitado = *5*
+> 3d [4, 1, 6] = *11* → falhou por 6
+> Dano (estocada, perfuração): 1D+2: [6] + 2 = *8*
+> RD 0 → 8 passam. Perfuração no tronco: ×2 → *16*
+> Teto do local (HT 13): 3 desperdiçado(s)
+> Perdeu mais de HT/2: HT 13 para não cair, 3d [2, 2, 1] = *5* → de pé; sem atordoamento (Hipoalgia)
+> *Vurkash perde 13 pontos de vida (PV -19/15).*
+> Cruzou -13 (-HT): HT 13 para não morrer, 3d [2, 5, 4] = *11* → sucesso por 2
+> Cruzou -18 (2ª barreira): HT 13 para não morrer, 3d [6, 5, 6] = *17* → *FALHA CRÍTICA*, falhou por 4
+
+A ponta atravessa o orc e crava na lama. Vurkash não grita. Os dedos soltam o montante um a um, os olhos pálidos procuram o céu, e a respiração pára no meio de uma palavra que ninguém ouve.
+
+*Vurkash está morto.*
+
+Comam e Kaelric ficam onde estão, em defesa total, as armas erguidas. NelsOwned gira o corpo para o orc, em defesa total, e abre a boca para pedir que ele se renda, tarde demais: o orc já tombou.
+
+*Deslocamentos conferidos:* Comam *1* e Kaelric *1* (coxos, Fadiga 3), Jah *1* (nadando), Negrum *3*, NelsOwned *2* (PV 1).

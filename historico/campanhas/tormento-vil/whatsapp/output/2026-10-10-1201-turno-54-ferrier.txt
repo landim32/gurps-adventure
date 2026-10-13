@@ -1,0 +1,30 @@
+*TURNO 54 — FERRIER*
+
+Comam perde a paciência com a conversa e solta um soco curto no Jah. O ladrão ergue a mão aberta para aparar, mas o punho passa por baixo e acerta o tronco. O tecido rígido segura a pancada e nada passa.
+> Ataque: Soco, DX 14 (sem Briga nem Caratê) = *14*
+> 3d [3, 6, 4] = *13* → sucesso por 1
+> Defesa de Jah: Aparar desarmado (Caratê 16 × 2/3) 10 +1 DP Tecido Rígido = *11*
+> 3d [6, 5, 4] = *15* → falhou por 4
+> Dano: 1D-2 contusão (soco = GDP-2): [2] = *0*
+> RD 1 (Tecido Rígido) → 0 passam
+> *Jah não perde PV.*
+
+Jah responde no mesmo fôlego, com um soco de Caratê no peito do Comam. A loriga de couro engole o golpe.
+> Ataque: Caratê NH 16 = *16*
+> 3d [6, 5, 2] = *13* → sucesso por 3
+> Defesa de Comam: Aparar desarmado (DX 14 ÷ 2) 7 +1 Reflexos em Combate +2 DP Loriga de couro = *10*
+> 3d [6, 5, 1] = *12* → falhou por 2
+> Dano: soco 1D-4 +3 (Caratê 16 ÷ 5) = 1D-1: [3] = *2*
+> RD 2 (Loriga de couro) → 0 passam
+> *Comam não perde PV.*
+
+No corredor, Kaelric se levanta com custo, apoia o peso na perna ruim e dá um passo. A voz sai grossa, do peito:
+— Pelo bom Deus, que algazarra está acontecendo aqui??
+
+Negrum ronca no meio do barulho.
+> Audição do Negrum: IQ 9, -3 dormindo, +2 gritaria = *8*
+> 3d [5, 4, 6] = *15* → falhou por 7 (segue dormindo)
+
+Na porta do quarto, NelsOwned lembra que o alaúde está com ele, no outro lado do quarto, e então olha o volume escorado junto à porta. Afasta a dobra do veludo e vê o que ficou ali de pé.
+
+Passos de armadura vêm do corredor: Edric avança em direção à confusão.

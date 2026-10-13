@@ -1,0 +1,20 @@
+*FERRIER — CHEGA!*
+
+Kaelric e Negrum dormem. O ronco do templário não muda de tom, e o gigante vira de lado, mas nenhum abre os olhos.
+> Audição de Kaelric: IQ 12, -3 dormindo = *9*
+> 3d [5, 1, 5] = *11* → falhou por 2
+> Audição de Negrum: IQ 9, -3 dormindo = *6*
+> 3d [3, 4, 2] = *9* → falhou por 3
+
+NelsOwned já está acordado. Estica o braço no escuro, fecha a mão no cabo do machado e se ergue da cama, a cabeça ainda pesada de sono.
+
+"Chega!" Comam corre pelo corredor, quatro passos pesados, e fecha o caminho em frente à porta do quarto do anão, com o corpo atravessado.
+
+Jah não espera. Joga o corpo para o lado, quica no ombro de uma parede, ergue uma perna num salto de bêbado e tenta passar rente ao mercenário, pelo flanco, num rolamento de truque de feira.
+> Evasão (MB 11): Disputa Rápida de DX. Jah DX 16, -5 Comam em pé, +2 entrou pelo lado direito dele = *13*
+> 3d [6, 1, 1] = *8* → passou por 5
+> DX de Comam: NH 14 = *14*
+> 3d [2, 2, 1] = *5* → passou por 9
+> *Comam vence.*
+
+A mão de Comam se fecha no ar onde a perna de Jah devia estar, e o corpo dele gira, pesado e certeiro, bloqueando o corredor. Jah derrapa, bate o ombro na parede e volta ao ponto de onde saiu, de lado, a dois passos do trovador.

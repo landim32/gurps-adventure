@@ -1,0 +1,13 @@
+*ERRATA — TURNO 40*
+
+Correção do Mestre: Negrum declarou "andar e atacar", não Ataque Total, então ele *tinha* defesa ativa quando o orc golpeou. O golpe nos órgãos vitais *não* o atingiu.
+> Ataque de Vurkash (valendo): Espadas de Lâmina Larga NH 15, -3 Órgãos vitais = *12*, 3d [1, 4, 1] = *6* → sucesso por 6
+> Defesa de Negrum: Bloqueio 8 +1 Reflexos em Combate +3 DP do escudo médio = *12*
+> 3d [3, 1, 4] = *8* → *defendeu* por 4
+> *Negrum se defendeu.* O golpe bate no escudo. Sem dano.
+
+A ponta do montante desce reta, por baixo das costelas, e o escudo médio sobe a tempo. O aço grita contra o aço, e o gigante nem recua um passo. Os 21 pontos de dano, os testes de HT e o estado de "à beira da morte" do turno 40 *não valem*: Negrum segue com *PV 8/12*.
+
+E o Vurkash segue em (11,6): ele também não recuou (ver errata anterior).
+
+O resto do turno 40 vale como foi narrado.

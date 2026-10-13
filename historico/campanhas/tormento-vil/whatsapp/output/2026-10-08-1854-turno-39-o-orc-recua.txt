@@ -1,0 +1,26 @@
+*TURNO 39 — O ORC RECUA*
+
+Jah muda o cotovelo de apoio, dá um passo para o lado e acompanha o pescoço do orc com a ponta da adaga. A mira aperta um pouco mais.
+> Jah apontou (Apontar): 2º turno de mira, sem ataque. +1 de Precisão acumulada. Qualquer defesa ou ferimento estraga a mira.
+
+Vurkash cambaleia, os joelhos quase cedendo, e se mantém de pé. O montante sobe à frente do corpo, as duas mãos firmes no punho. Ele vira o ombro para o lado em que o escudeiro vem e espera, sem pressa nenhuma de morrer.
+> Vurkash: PV 0, teste de HT para seguir consciente (HT 13 +7 Força de Vontade = 20), 3d [1, 3, 2] = *6* → *SUCESSO DECISIVO*, segue de pé
+> Vurkash fez Defesa Total (duas defesas diferentes contra cada ataque).
+
+Negrum fecha o passo de lama a um hexágono do orc e desce a espadada de cima para baixo, com tudo o que tem no braço, sem pensar em defesa.
+> Ataque: Espadas de Lâmina Larga NH 17, Ataque Total (+2 no dano, NH normal) = *17*
+> 3d [6, 2, 2] = *10* → sucesso por 7
+> Defesa de Vurkash: Aparar 8 (7 +1 Reflexos em Combate) +3 Recuar = *11*
+> 3d [4, 3, 1] = *8* → defendeu por 3
+> *Vurkash se defendeu.* Sem dano. Ele recua 1 hexágono, de (11,7) a (11,6).
+> Negrum fez Ataque Total: sem defesa ativa até o próximo turno.
+
+O montante do orc aceita o golpe de lado e o escorrega para fora. Vurkash dá o passo atrás e vira o rosto para o gigante, o olho vazio e atento, à procura de uma brecha.
+
+NelsOwned adianta o passo para o ataque, mas o orc já saiu do alcance do machado. O anão baixa a lâmina e fecha a guarda, em defesa total.
+
+Kaelric arrasta a perna coxa para fora da água funda e firma a bota na margem, o pavês no alto, em defesa total.
+
+Comam dá um passo curto pela margem leste, em defesa total, as duas picaretas erguidas.
+
+*Deslocamentos conferidos:* Comam *1* e Kaelric *1* (coxos, Fadiga 3), Jah *3*, Negrum *3*, NelsOwned *2* (PV 1), Vurkash *3*.

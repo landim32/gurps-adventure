@@ -1,0 +1,33 @@
+*FERRIER — O ALAÚDE*
+
+Comam gira o quadril e solta o chute em Jah, a bota seca no escuro. Jah levanta o antebraço de lado, no gesto de quem já aparou pontapé em becos piores, e o golpe resvala no osso e passa.
+> Chute: DX 14, -2 (chute, MB 10) = *12*
+> 3d [3, 6, 3] = *12* → sucesso por 0
+> Defesa de Jah: Aparar desarmado (2/3 de Caratê 16 = 10), +1 DP Tecido Rígido (tronco) = *11*
+> 3d [4, 5, 2] = *11* → sucesso por 0
+> *Jah defende.* Sem dano.
+
+Jah mantém as duas mãos abertas diante do peito e, sem tirar o olho do pé do mercenário, fala por cima do ombro, na voz mais mansa que tem:
+
+"Olá, trovador! Estava falando justamente sobre a limpeza de seu alaúde com nosso amigo Comam. Veja, acabei de deixá-lo aí dentro, ao lado da porta. Confira se está ok..."
+> Lábia: NH 12 = *12*
+> 3d [3, 2, 2] = *7* → sucesso por 5
+> Lábia de NelsOwned: NH 15, +5 (a conversa está muito estranha) = *20*
+> 3d [3, 4, 3] = *10* → sucesso por 10
+> *NelsOwned vence.*
+
+NelsOwned não engole. Ele planta o machado ao lado do corpo e levanta a voz como quem apregoa na feira, grave e cheio de rima, e a gritaria atravessa a parede inteira:
+
+"Aaaah! Meus senhores, que festa é essa na minha porta, a esta hora? Alaúde, ladrão e pontapé... explicação, já, e na frente de todos!"
+
+Ele dá um passo para apartar os dois, o olho no veludo que está de pé junto à porta.
+
+Lá dentro, Kaelric abre um olho, depois o outro. O templário se senta na cama, e a mão procura a maça antes mesmo de o resto acordar.
+> Audição de Kaelric: IQ 12, -3 dormindo, +2 gritaria do NelsOwned = *11*
+> 3d [1, 4, 1] = *6* → sucesso por 5
+
+Negrum resmunga uma palavra solta e vira para o outro lado.
+> Audição de Negrum: IQ 9, -3 dormindo, +2 gritaria do NelsOwned = *8*
+> 3d [3, 5, 2] = *10* → falhou por 2
+
+No fim do corredor, uma porta bate. Edric, acordado pela gritaria, surge de armadura completa, a malha rangendo, a espada curta na mão e o escudo no braço. Ele olha o corredor, escolhe o lado do barulho e vai para lá, passo a passo, o ferro tilintando a cada pisada.

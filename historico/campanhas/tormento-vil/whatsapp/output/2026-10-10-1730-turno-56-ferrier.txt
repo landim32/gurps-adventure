@@ -1,0 +1,25 @@
+*TURNO 56 — FERRIER*
+
+Jah firma os pés, fecha a guarda e berra para o corredor inteiro ouvir:
+— Tudo bem! Eu confesso: é a espada do Kurvash! Eu queria ver ela de perto, já que não me deixaram ver antes!
+
+Comam não quer conversa e solta outro soco na cara do Jah. O ladrão se encolhe atrás dos braços, e o punho morre no vazio.
+> Ataque: Soco, DX 14, -5 Cabeça = *9*
+> 3d [3, 6, 4] = *13* → falhou por 4
+> *Errou.*
+
+NelsOwned atravessa o vão da porta, mete o corpo de anão entre os dois e empurra o Comam para trás com o ombro.
+> Disputa rápida de ST: NelsOwned ST 13 × Comam ST 13
+> NelsOwned: 3d [6, 1, 3] = *10* → passou por 3
+> Comam: 3d [3, 5, 6] = *14* → falhou por 1
+> *NelsOwned vence e separa os dois.*
+— Aaaah! Agora me digam: o que querem? É por causa daquela espada maldita?
+
+Negrum se ergue da cama, ainda tonto de sono, e berra do quarto:
+— Me dá minha espada!!
+
+Kaelric vira o rosto para o soldado de armadura que acaba de chegar ao corredor e pergunta, seco:
+— O que quer, soldado?
+
+Edric estaca, assuntado, o escudo no braço:
+— Nada não!

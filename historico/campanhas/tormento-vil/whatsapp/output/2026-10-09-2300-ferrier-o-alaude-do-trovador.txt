@@ -1,0 +1,18 @@
+*FERRIER — O ALAÚDE DO TROVADOR*
+
+A estalagem dorme. Kaelric e NelsOwned roncam em suas camas, e Negrum respira fundo no quarto de onde o montante saiu faz pouco. Edric dorme no canto, com o braço atado sobre o peito. No corredor escuro, Comam chega perto do vulto de Jah e sussurra, com o sorriso que só se vê na penumbra:
+
+"Passa a espada pra cá, no silêncio!"
+
+Jah não solta o embrulho de veludo. Dá um passo para trás, o corpo todo atento às mãos do mercenário, e responde sem levantar a voz, com a doçura de quem já mentiu mil vezes:
+
+"Espada? Não, meu amigo, isso é só o alaúde do nosso trovador. Ele me pediu para dar uma limpeza nele. Mas já vou devolver, já volto."
+> Lábia (sussurrando): NH 12 = *12*
+> 3d [6, 1, 6] = *13* → falhou por 1
+> Lábia de Comam: NH 7 = *7*
+> 3d [1, 5, 1] = *7* → sucesso por 0
+> *Comam vence.*
+
+A mentira sai bem-feita, mas não cola. Comam olha o veludo, o cabo escuro que se adivinha por baixo, e o sorriso dele alarga um dedo. Estende a mão aberta, sem pressa, e o olho bom não sai do embrulho.
+
+"Alaúde," diz, baixinho, saboreando a palavra. "Claro. Pois então me mostra o alaúde."

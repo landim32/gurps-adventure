@@ -1,0 +1,72 @@
+*FERRIER — A NOITE DO MONTANTE*
+
+*A ESTALAGEM*
+A estalagem de teto de palha dá quartos, banho e sopa quente. O Pé-de-Pano come e bebe no estábulo, e Kaelric limpa maça e escudo à luz da vela antes de fechar os olhos. Do outro lado da rua há uma casa de cortinas puxadas, onde um curandeiro mágico atende quem pagar.
+
+*OS TRATAMENTOS*
+O curandeiro de Ferrier atende em fila, de cortinas puxadas. Quem paga seiscentas leva a mágica funda, e quem paga trezentas leva a leve. O ar fica quente e cheira a ferro a cada vez.
+
+Comam paga seiscentas e senta primeiro.
+> Cura Profunda (NH 15 do curandeiro): 3d [6, 5, 2] = *13* → sucesso por 2
+> Restitui até 8 PV: Comam vai de 6 para *13/13*
+> *Comam paga $600.* A perna só sararia com a vitalidade cheia, e agora volta a ser perna.
+
+NelsOwned paga seiscentas, com o veludo dobrado no braço.
+> Cura Profunda (NH 15): 3d [4, 1, 5] = *10* → sucesso por 5
+> Restitui até 8 PV: NelsOwned vai de 2 para *10/13*
+> *NelsOwned paga $600.*
+
+Jah paga seiscentas sem tirar o olho da porta.
+> Cura Profunda (NH 15): 3d [3, 2, 6] = *11* → sucesso por 4
+> Restitui até 8 PV: Jah vai de 5 para *12/12* (passa do máximo, sobram 3)
+> *Jah paga $600.*
+
+Kaelric paga trezentas pela Superficial.
+> Cura Superficial (NH 15): 3d [4, 6, 2] = *12* → sucesso por 3
+> Restitui até 3 PV: Kaelric vai de 7 para *10/12*
+> *Kaelric paga $300.* A perna dele segue coxa até os 12.
+
+Negrum paga trezentas pela Superficial.
+> Cura Superficial (NH 15): 3d [3, 6, 5] = *14* → sucesso por 1
+> Restitui até 3 PV: Negrum vai de 8 para *11/12*
+> *Negrum paga $300.*
+
+*A SOMBRA NA PORTA*
+Passa da meia-noite. Jah finge que vai buscar água e vai até a porta do quarto onde Negrum dorme, o embrulho de veludo ao lado do gigante. No corredor, parado diante da fechadura, ele sussurra uma palavra que os cantores não conhecem. A sombra do corredor se dobra sobre ele, e quem o procura acaba olhando para a parede.
+> Esconder (NH 12), 4 de energia: 3d [2, 1, 6] = *9* → sucesso por 3
+> Esconder só protege com Jah parado: -4 nos sentidos de quem o procura. Fadiga: *-4*
+
+Ele tira as gazuas e trabalha a fechadura de ouvido, sem pressa. Dentro do quarto, o ronco de Negrum não muda.
+> Arrombamento: NH 13 = *13*
+> 3d [1, 3, 5] = *9* → sucesso por 4
+> Audição de Negrum: IQ 9, -3 dormindo, -4 Esconder = *2*
+> 3d [3, 2, 3] = *8* → falhou por 6
+> *Jah vence.* A tranca cede sem um clique.
+
+Jah entra com o passo leve de quem já fez isso muitas vezes. Andando, a sombra não o cobre, e ele conta com o pé.
+> Furtividade: NH 17, -1 Carga Leve (12 kg, ST 10) = *16*
+> 3d [5, 5, 2] = *12* → sucesso por 4
+> Audição de Negrum: IQ 9, -3 dormindo = *6*
+> 3d [3, 2, 6] = *11* → falhou por 5
+> *Jah vence.*
+
+Ao lado da cama, o embrulho de veludo. A sombra volta a cobri-lo quando ele para. Ele põe a mão no tecido, e a pedra roxa no pomo está fria.
+> Furtividade: NH 17, -1 Carga Leve = *16*
+> 3d [3, 6, 1] = *10* → sucesso por 6
+> Audição de Negrum: IQ 9, -3 dormindo, -4 Esconder = *2*
+> 3d [3, 2, 3] = *8* → falhou por 6
+> *Jah vence.* A espada sai do quarto sem um som.
+
+*O COXO NO CORREDOR*
+Comam não ficou na cama. Vem pelo corredor devagar, a perna nova rangendo menos do que a velha, com a mesma ideia na cabeça que cada um sentiu na linha da areia.
+> Furtividade (sem treino, pré-definido DX-5): NH 9, -3 perna, -1 Carga Leve (23,8 kg) = *5*
+> 3d [6, 1, 4] = *11* → falhou por 6
+> Audição de Negrum: IQ 9, -3 dormindo = *6*
+> 3d [6, 2, 3] = *11* → falhou por 5
+> *Negrum vence por 1.* No quarto, ele resmunga uma palavra solta, vira de lado e continua dormindo.
+
+Na saída do corredor, com o embrulho de veludo nas mãos, Jah dá de cara com Comam. Os dois ficam parados, cada um olhando o que o outro trouxe, e o sorriso do mercenário é a primeira coisa que aparece no escuro.
+
+*AO FIM DO DIA*
+Quem não foi ao curandeiro tenta sarar pela noite.
+> Edric: HT 11, 3d [6, 1, 6] = *13* → falhou por 2 → *PV 5/11*

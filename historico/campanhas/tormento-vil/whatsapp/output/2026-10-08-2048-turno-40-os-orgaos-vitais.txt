@@ -1,0 +1,39 @@
+*TURNO 40 — OS ÓRGÃOS VITAIS*
+
+Jah dá um passo curto pela margem e mantém a ponta da adaga presa ao pescoço do orc. A mira aperta mais um pouco.
+> Jah apontou (Apontar): 3º turno de mira, sem ataque. +2 de mira acumulada. Qualquer defesa ou ferimento estraga a mira.
+
+Vurkash cambaleia, os olhos meio fechados, e ainda assim se mantém de pé.
+> Vurkash: PV 0, teste de HT para seguir consciente (HT 13 +7 Força de Vontade = 20), 3d [6, 2, 2] = *10* → sucesso por 10
+
+O gigante ficou aberto depois da espadada do turno passado, e o orc vê isso. A ponta do montante desce reta e entra por baixo das costelas, onde o aço não encontra nada.
+> Ataque: Espadas de Lâmina Larga NH 15, -3 Órgãos vitais = *12*
+> 3d [1, 4, 1] = *6* → sucesso por 6
+> Defesa de Negrum: sem defesa ativa (Ataque Total no turno anterior). Só a defesa passiva: DP 3 (escudo médio; sem armadura no tronco)
+> 3d [5, 4, 5] = *14* → não segurou
+> Dano (perfuração, montante de ponta aguda, altíssima qualidade): 1D+4: [4] + 4 = *8*
+> RD 1 (Rijeza) → 7 passam
+> Órgãos vitais: perfuração ×3 → *21*
+> *Negrum perde 21 pontos de vida (PV -13/12).*
+> Perdeu mais de HT/2: HT 12 para não cair, 3d [2, 4, 2] = *8* → de pé; sem atordoamento (Hipoalgia)
+> Cruzou -HT (-12): HT 12 para não morrer, 3d [6, 1, 2] = *9* → sucesso por 3
+> Início do turno com PV ≤ 0: HT 12 para seguir consciente, 3d [4, 3, 2] = *9* → sucesso por 3
+
+O ar sai do peito do gigante num único sopro. Negrum cambaleia, o sangue escorrendo pela cintura, mas o braço não larga a espada.
+
+Negrum responde com uma espadada de cima para baixo no tronco do orc.
+> Ataque: Espadas de Lâmina Larga NH 17 = *17*
+> 3d [6, 1, 6] = *13* → sucesso por 4
+> Defesa de Vurkash: Aparar 8 (7 +1 Reflexos em Combate) +3 Recuar = *11*
+> 3d [3, 1, 3] = *7* → defendeu por 4
+> *Vurkash se defendeu.* Sem dano. Ele recua 1 hexágono, de (11,6) a (11,5).
+
+O montante do orc recebe o golpe de lado. Vurkash dá um passo atrás, a respiração rasa, o olhar fixo no gigante.
+
+Kaelric fica onde está, na margem, o pavês no alto, em defesa total. O passo lateral que ele tentou não saiu do hexágono.
+
+Comam dá um passo curto pela margem leste, coxeando, em defesa total, as picaretas erguidas.
+
+NelsOwned se aproxima um hexágono pela margem, em defesa total.
+
+*Deslocamentos conferidos:* Comam *1* e Kaelric *1* (coxos, Fadiga 3), Jah *3*, Negrum *3*, NelsOwned *2* (PV 1), Vurkash *3*.
