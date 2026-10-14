@@ -2,7 +2,7 @@
 
 _(**gerado** por `campanha.py elenco` a partir de `personagens/*/personagem.json` — não edite aqui: mude a ficha e regere. É lido em **toda** execução: antes de decidir o que um personagem faz, sofre ou diz, confira as **desvantagens, peculiaridades e vantagens dele** abaixo. Só entra o que influencia a cena. Atributos, perícias e equipamento estão na ficha (a `contexto` os traz a cada jogada); PV, Fadiga, bolsa e ferimento, em `saude.md`, `bolsa.md` e `mundo.md`.)_
 
-_2 personagem(ns). Atualizado em 12/10/2026._
+_3 personagem(ns). Atualizado em 14/10/2026._
 
 ## Gorbag, o Moedor
 
@@ -16,6 +16,20 @@ André · Ogro (Fantasy) · Guerreiro (Módulo Básico) · 34 anos
 **Peculiaridades:** Afia o cutelo enquanto falam; Avental minúsculo de florzinhas; Ossos humanoides de palito; Fala de si na 3ª pessoa; Ofendido se desperdiçam carne  
 **Línguas:** Órquico (nativa) 9, Ânglico 9  
 *Ficha completa: `personagens/gorbag-o-moedor/personagem.md`*
+
+## Sae'Varyn
+
+Henrique · Elfo Negro (Fantasy) · Clérigo/Curandeiro caído → Necromante (Fantasy + Magia)
+
+**Aparência:** Elfo esguio de pele acinzentada e cabelos brancos; ~1,80 m, olhos frios. Sobreveste templária branca manchada, cruz arrancada.  
+**Quem é:** Elfo que foi templário e mentor do jovem Kaelric; questionou a fé em voz alta, caiu e serve a Seita Lych. A alma está presa num terço profanado.  
+**Reação fixa:** +2 (Carisma/Aparência); -3 sádico/renegado conhecido  
+**Vantagens:** Raça: Elfo Negro (+30); Hipoalgia (Limiar de Dor) (+10); Aptidão Mágica 3 (racial 1 +2) (+20); Clericato (Seita Lych) (+5)  
+**Desvantagens:** Dever: Seita Lych (quase sempre) (-15); Sadismo (-15); Excesso de Confiança (-10); Megalomania (-10); Má Reputação (necromante renegado) (-5)  
+**Peculiaridades:** Reza em latim por hábito, mesmo renegado; Nunca pronuncia o nome do Kaelric; Cataloga cada cadáver que levanta; Chama os vivos de 'os de um dia'; Toca o peito onde pendia o terço  
+**Línguas:** Élfico (nativa) 15, Ânglico 14, Latim 14  
+**Mágicas:** Dar Força, Dar Vitalidade, Cura Superficial, Cura Profunda, Despertar, Detecção de Magia, Aura, Identificação de Mágica, Escudo, Contra-Mágicas, Visão da Morte, Percepção de Espíritos, Convocar Espíritos, Roubar Força, Roubar Vitalidade, Zumbi, Controle de Zumbi  
+*Ficha completa: `personagens/sae-varyn/personagem.md`*
 
 ## Toov'terikk, o Goblin do Alfred
 
