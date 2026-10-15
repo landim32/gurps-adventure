@@ -8,20 +8,23 @@
 **Capítulo atual:** —
 **Pontos dos personagens:** 150
 
-A **Seita Lych** enviou o goblin **Toov'terikk** para recuperar o montante de **Vaelrith Mor'Dhaun**, a espada de pedra roxa que hoje está trancada numa caixa de ferro negro, com uma zona sem mana, na torre do Barão Nabbick, em Ferrier. Mor'Dhaun é o mestre de Toov'terikk dentro da seita e o único que sabe onde está a garrafa com a alma dele: por isso Toov'terikk tem pressa, e nenhum interesse em deixar a espada onde está.
+A **Seita Lych** quer de volta o montante de **Vaelrith Mor'Dhaun**, a espada de pedra roxa que hoje está trancada numa caixa de ferro negro, com uma zona sem mana, na torre do Barão Nabbick, em Ferrier. Todo personagem da mesa é membro da seita e tem **Dever (Seita Lych), -15 pontos**: na Seita Lych cada membro tem um mestre que lançou Aprisionar Alma nele e guarda o objeto com a alma, para que ninguém a traia.
 
-Toov'terikk vai montar um grupo caótico para a missão. Todo personagem da mesa é membro da seita e tem **Dever (Seita Lych), -15 pontos**: na Seita Lych cada membro tem um mestre que lançou Aprisionar Alma nele e guarda o objeto com a alma, para que ninguém a traia.
+**Limite de desvantagens: -55** (em vez dos -40 do livro), com o Dever (Seita Lych) obrigatório; as desvantagens do pacote racial não contam no limite.
 
 ## Personagens
 
 | Personagem | Jogador | Arquétipo | Pontos | Ficha |
 |---|---|---|---|---|
-| Toov'terikk | Rodrigo | Necromante (*Magia*), goblin | 150 | [ficha](../personagens/toov-terikk/personagem.md) |
 | Gorbag, o Moedor | André | Guerreiro (*Módulo Básico*), ogro | 150 | [ficha](../personagens/gorbag-o-moedor/personagem.md) |
+| Urzog, o Bigorna | Rodrigo | Guerreiro (*Módulo Básico*), orc | 150 | [ficha](../personagens/urzog-bigorna/personagem.md) |
+| Krag Trilhanegra | Bruno | Ranger (*Fantasy*), meio-orc | 150 | [ficha](../personagens/krag-trilhanegra/personagem.md) |
+| Pumba'h Fed | Ricardo | Ranger: Caçador de Prêmios (*Fantasy*), goblin | 150 | [ficha](../personagens/pumba-h-fed/personagem.md) |
+| Sae'Varyn | Henrique | Clérigo caído → Necromante, elfo negro | 150 | [ficha](../personagens/sae-varyn/personagem.md) |
 
-**Gorbag**, açougueiro ogro, entrou no grupo: a alma dele está num pote de picles cheio de olhos em conserva, nas mãos do necromante **Lorde Valthor**, o "Escultor de Carne", da Seita Lych. O resto do grupo ainda vai ser montado (ver o plano). O aliado do goblin, **Alfred**, o zumbi, acompanha o goblin: [ficha](../personagens/toov-terikk/alfred.md).
+**Gorbag**, açougueiro ogro, é do grupo: a alma dele está num pote de picles cheio de olhos em conserva, nas mãos do necromante **Lorde Valthor**, o "Escultor de Carne", da Seita Lych. **Urzog** (orc guerreiro), **Krag** (meio-orc rastreador, com o cão Farejo), **Pumba'h** (goblin licantropo) e **Sae'Varyn** (elfo negro necromante) completam a mesa.
 
-Os cinco personagens de [Tormento Vil](../historico/campanhas/tormento-vil/README.md) (Comam, Kaelric, Jah, NelsOwned e Negrum) ficam de fora da mesa nesta campanha, com `"fora_da_campanha": true` na ficha, e **voltam em Tormento Vil 3**.
+Os cinco personagens de [Tormento Vil](../historico/campanhas/tormento-vil/README.md) (Comam, Kaelric, Jah, NelsOwned e Negrum) ficam de fora da mesa nesta campanha, com `"fora_da_campanha": true` na ficha, e **voltam em Tormento Vil 3**. Toov'terikk (com o zumbi Alfred), Jory e U-Vanya foram guardados em `historico/personagens/`, fora desta mesa.
 
 **A campanha está em planejamento.**
 
@@ -29,7 +32,9 @@ Os cinco personagens de [Tormento Vil](../historico/campanhas/tormento-vil/READM
 
 <!-- indice:plano -->
 - [1. Planejamento em Ferrier](plano/01-planejamento-em-ferrier/) · [NPCs](plano/01-planejamento-em-ferrier/npcs.md)
-- [2. O Roubo da Caixa de Ferro Negro](plano/02-o-roubo-da-caixa-de-ferro-negro/) · [NPCs](plano/02-o-roubo-da-caixa-de-ferro-negro/npcs.md)
+- [2. A Invasão do Castelo](plano/02-a-invasao-do-castelo/) · [NPCs](plano/02-a-invasao-do-castelo/npcs.md)
+- [3. A Torre do Mago](plano/03-a-torre-do-mago/) · [NPCs](plano/03-a-torre-do-mago/npcs.md)
+- [4. A Fuga](plano/04-a-fuga/) · [NPCs](plano/04-a-fuga/npcs.md)
 - [NPCs de toda a campanha](plano/npcs.md)
 <!-- /indice:plano -->
 

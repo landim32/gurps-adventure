@@ -9,7 +9,10 @@ saldos e os totais são recalculados a partir dos lançamentos.)_
 | Quem | | Saldo | Lançamentos |
 |---|---|---:|---:|
 | Gorbag, o Moedor | PJ | $605 | 1 |
-| Toov'terikk | PJ | $85 | 1 |
+| Krag Trilhanegra | PJ | $395 | 1 |
+| Pumba'h Fed | PJ | $605 | 1 |
+| Sae'Varyn | PJ | $712 | 1 |
+| Urzog, o Bigorna | PJ | $640 | 1 |
 <!-- /indice:saldos -->
 
 ## Personagens
@@ -20,8 +23,26 @@ saldos e os totais são recalculados a partir dos lançamentos.)_
 
 - **12/10/2026 22:34** · +605 — Saldo inicial: Riqueza Média ($1.000) menos $395 de equipamento da ficha
 
-### Toov'terikk
+### Krag Trilhanegra
 
-**Saldo: $85**
+**Saldo: $395**
 
-- **11/10/2026 23:11** · +85 — Saldo inicial: Riqueza Confortável ($2.000) menos $1.915 de equipamento da ficha (cap. 0, planejamento)
+- **14/10/2026 21:43** · +395 — Saldo inicial: Riqueza Média ($1.000) menos equipamento ($605)
+
+### Pumba'h Fed
+
+**Saldo: $605**
+
+- **15/10/2026 10:12** · +605 — Saldo inicial: Riqueza Média ($1.000) menos equipamento ($395)
+
+### Sae'Varyn
+
+**Saldo: $712**
+
+- **15/10/2026 07:37** · +712 — Saldo inicial: Riqueza Média ($1.000) menos equipamento ($288)
+
+### Urzog, o Bigorna
+
+**Saldo: $640**
+
+- **14/10/2026 11:10** · +640 — Saldo inicial: Riqueza Média ($1.000) menos $360 de equipamento da ficha
