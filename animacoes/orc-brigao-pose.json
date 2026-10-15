@@ -1,0 +1,288 @@
+{
+ "camera": {
+  "yaw": 0,
+  "pitch": 0,
+  "fov": 30
+ },
+ "graus": {
+  "Hips": [
+   9,
+   37,
+   0
+  ],
+  "Spine": [
+   10,
+   -15,
+   0
+  ],
+  "Spine1": [
+   6,
+   -12,
+   0
+  ],
+  "Spine2": [
+   4,
+   0,
+   0
+  ],
+  "Neck": [
+   -8,
+   -9,
+   -18
+  ],
+  "Head": [
+   17,
+   -43,
+   6
+  ],
+  "LeftArm": [
+   -29,
+   -12,
+   16
+  ],
+  "RightArm": [
+   -17,
+   12,
+   -43
+  ],
+  "LeftForeArm": [
+   -9,
+   -117,
+   0
+  ],
+  "RightForeArm": [
+   -3,
+   138,
+   0
+  ],
+  "LeftUpLeg": [
+   -37,
+   9,
+   18
+  ],
+  "RightUpLeg": [
+   -12,
+   -6,
+   -14
+  ],
+  "LeftLeg": [
+   40,
+   -3,
+   6
+  ],
+  "RightLeg": [
+   13,
+   -9,
+   0
+  ],
+  "LeftFoot": [
+   -9,
+   -33,
+   -15
+  ],
+  "RightFoot": [
+   -22,
+   -6,
+   18
+  ],
+  "RightShoulder": [
+   0,
+   0,
+   -3
+  ],
+  "LeftHandIndex1": [
+   0,
+   0,
+   -70
+  ],
+  "LeftHandIndex2": [
+   0,
+   0,
+   -90
+  ],
+  "LeftHandIndex3": [
+   0,
+   0,
+   -60
+  ],
+  "LeftHandMiddle1": [
+   0,
+   0,
+   -70
+  ],
+  "LeftHandMiddle2": [
+   0,
+   0,
+   -90
+  ],
+  "LeftHandMiddle3": [
+   0,
+   0,
+   -60
+  ],
+  "LeftHandRing1": [
+   0,
+   0,
+   -70
+  ],
+  "LeftHandRing2": [
+   0,
+   0,
+   -90
+  ],
+  "LeftHandRing3": [
+   0,
+   0,
+   -60
+  ],
+  "LeftHandPinky1": [
+   0,
+   0,
+   -70
+  ],
+  "LeftHandPinky2": [
+   0,
+   0,
+   -90
+  ],
+  "LeftHandPinky3": [
+   0,
+   0,
+   -60
+  ],
+  "LeftHandThumb1": [
+   0,
+   45,
+   -20
+  ],
+  "LeftHandThumb2": [
+   0,
+   20,
+   -30
+  ],
+  "LeftHandThumb3": [
+   0,
+   0,
+   -40
+  ],
+  "RightHandIndex1": [
+   0,
+   0,
+   70
+  ],
+  "RightHandIndex2": [
+   0,
+   0,
+   90
+  ],
+  "RightHandIndex3": [
+   0,
+   0,
+   60
+  ],
+  "RightHandMiddle1": [
+   0,
+   0,
+   70
+  ],
+  "RightHandMiddle2": [
+   0,
+   0,
+   90
+  ],
+  "RightHandMiddle3": [
+   0,
+   0,
+   60
+  ],
+  "RightHandRing1": [
+   0,
+   0,
+   70
+  ],
+  "RightHandRing2": [
+   0,
+   0,
+   90
+  ],
+  "RightHandRing3": [
+   0,
+   0,
+   60
+  ],
+  "RightHandPinky1": [
+   0,
+   0,
+   70
+  ],
+  "RightHandPinky2": [
+   0,
+   0,
+   90
+  ],
+  "RightHandPinky3": [
+   0,
+   0,
+   60
+  ],
+  "RightHandThumb1": [
+   0,
+   -45,
+   20
+  ],
+  "RightHandThumb2": [
+   0,
+   -20,
+   30
+  ],
+  "RightHandThumb3": [
+   0,
+   0,
+   40
+  ]
+ },
+ "hipsLift": -0.05,
+ "alvos": {
+  "RightHandMiddle2": [
+   515,
+   285
+  ],
+  "LeftHandMiddle2": [
+   765,
+   265
+  ],
+  "RightForeArm": [
+   290,
+   470
+  ],
+  "LeftForeArm": [
+   875,
+   470
+  ],
+  "RightLeg": [
+   330,
+   1040
+  ],
+  "LeftLeg": [
+   820,
+   1010
+  ],
+  "RightFoot": [
+   225,
+   1330
+  ],
+  "LeftFoot": [
+   800,
+   1270
+  ],
+  "Hips": [
+   560,
+   780
+  ],
+  "HeadTop_End": [
+   500,
+   20
+  ]
+ },
+ "descricao": "Orc de guarda de boxe copiada da foto do Urzog: pernas abertas e dobradas, corpo girado, punhos fechados junto ao queixo."
+}

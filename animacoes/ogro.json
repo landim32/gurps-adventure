@@ -1,0 +1,591 @@
+{
+  "description": "Ogro de pé, tronco reto, com o braço direito na pose 2 e o braço esquerdo caído.",
+  "duration": 1,
+  "format": "roll6-animation",
+  "hipsLift": {
+    "times": [
+      0
+    ],
+    "values": [
+      0
+    ]
+  },
+  "loop": true,
+  "name": "ogro",
+  "tracks": [
+    {
+      "bone": "Head",
+      "degrees": [
+        [
+          8,
+          0,
+          -6
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "Hips",
+      "degrees": [
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "LeftArm",
+      "degrees": [
+        [
+          10,
+          3,
+          5
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "LeftForeArm",
+      "degrees": [
+        [
+          6,
+          3,
+          0
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "LeftHandIndex1",
+      "degrees": [
+        [
+          0,
+          0,
+          -21
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "LeftHandIndex2",
+      "degrees": [
+        [
+          0,
+          0,
+          -27
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "LeftHandIndex3",
+      "degrees": [
+        [
+          0,
+          0,
+          -18
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "LeftHandMiddle1",
+      "degrees": [
+        [
+          0,
+          0,
+          -21
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "LeftHandMiddle2",
+      "degrees": [
+        [
+          0,
+          0,
+          -27
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "LeftHandMiddle3",
+      "degrees": [
+        [
+          0,
+          0,
+          -18
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "LeftHandPinky1",
+      "degrees": [
+        [
+          0,
+          0,
+          -21
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "LeftHandPinky2",
+      "degrees": [
+        [
+          0,
+          0,
+          -27
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "LeftHandPinky3",
+      "degrees": [
+        [
+          0,
+          0,
+          -18
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "LeftHandRing1",
+      "degrees": [
+        [
+          0,
+          0,
+          -21
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "LeftHandRing2",
+      "degrees": [
+        [
+          0,
+          0,
+          -27
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "LeftHandRing3",
+      "degrees": [
+        [
+          0,
+          0,
+          -18
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "LeftHandThumb1",
+      "degrees": [
+        [
+          0,
+          13.5,
+          -6
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "LeftHandThumb2",
+      "degrees": [
+        [
+          0,
+          6,
+          -9
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "LeftHandThumb3",
+      "degrees": [
+        [
+          0,
+          0,
+          -12
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "LeftUpLeg",
+      "degrees": [
+        [
+          -19,
+          12,
+          6
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "LeftLeg",
+      "degrees": [
+        [
+          10,
+          0,
+          0
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "RightLeg",
+      "degrees": [
+        [
+          10,
+          0,
+          0
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "Neck",
+      "degrees": [
+        [
+          8.14,
+          0,
+          -3
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "RightArm",
+      "degrees": [
+        [
+          11.3,
+          -20.8,
+          -70.7
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "RightForeArm",
+      "degrees": [
+        [
+          173,
+          44.7,
+          97.6
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "RightHandIndex1",
+      "degrees": [
+        [
+          0,
+          0,
+          59.5
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "RightHandIndex2",
+      "degrees": [
+        [
+          0,
+          0,
+          76.5
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "RightHandIndex3",
+      "degrees": [
+        [
+          0,
+          0,
+          51
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "RightHandMiddle1",
+      "degrees": [
+        [
+          0,
+          0,
+          59.5
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "RightHandMiddle2",
+      "degrees": [
+        [
+          0,
+          0,
+          76.5
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "RightHandMiddle3",
+      "degrees": [
+        [
+          0,
+          0,
+          51
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "RightHandPinky1",
+      "degrees": [
+        [
+          0,
+          0,
+          59.5
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "RightHandPinky2",
+      "degrees": [
+        [
+          0,
+          0,
+          76.5
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "RightHandPinky3",
+      "degrees": [
+        [
+          0,
+          0,
+          51
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "RightHandRing1",
+      "degrees": [
+        [
+          0,
+          0,
+          59.5
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "RightHandRing2",
+      "degrees": [
+        [
+          0,
+          0,
+          76.5
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "RightHandRing3",
+      "degrees": [
+        [
+          0,
+          0,
+          51
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "RightHandThumb1",
+      "degrees": [
+        [
+          0,
+          -38.2,
+          17
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "RightHandThumb2",
+      "degrees": [
+        [
+          0,
+          -17,
+          25.5
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "RightHandThumb3",
+      "degrees": [
+        [
+          0,
+          0,
+          34
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "RightUpLeg",
+      "degrees": [
+        [
+          -10,
+          -27,
+          -6
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "Spine",
+      "degrees": [
+        [
+          -8,
+          0,
+          0
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "Spine1",
+      "degrees": [
+        [
+          -8.18,
+          0,
+          0
+        ]
+      ],
+      "times": [
+        0
+      ]
+    },
+    {
+      "bone": "Spine2",
+      "degrees": [
+        [
+          -6.14,
+          0,
+          0
+        ]
+      ],
+      "times": [
+        0
+      ]
+    }
+  ],
+  "type": "idle",
+  "version": 1
+}

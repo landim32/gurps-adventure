@@ -1,0 +1,411 @@
+{
+ "camera": {
+  "yaw": 0,
+  "pitch": 0,
+  "fov": 30,
+  "ajuste": "caixa"
+ },
+ "graus": {
+  "Hips": [
+   0,
+   0,
+   0
+  ],
+  "Spine": [
+   0,
+   0,
+   0
+  ],
+  "Spine1": [
+   0,
+   0,
+   0
+  ],
+  "Spine2": [
+   0,
+   0,
+   0
+  ],
+  "Neck": [
+   0,
+   0,
+   -3
+  ],
+  "Head": [
+   -3,
+   0,
+   -6
+  ],
+  "RightArm": [
+   10,
+   33,
+   -60
+  ],
+  "RightForeArm": [
+   30,
+   21,
+   -112
+  ],
+  "LeftArm": [
+   10,
+   3,
+   5
+  ],
+  "LeftForeArm": [
+   6,
+   3,
+   0
+  ],
+  "LeftUpLeg": [
+   6,
+   12,
+   6
+  ],
+  "RightUpLeg": [
+   15,
+   -27,
+   -6
+  ],
+  "RightHandIndex1": [
+   0.0,
+   -0.0,
+   59.5
+  ],
+  "RightHandIndex2": [
+   0.0,
+   -0.0,
+   76.5
+  ],
+  "RightHandIndex3": [
+   0.0,
+   -0.0,
+   51.0
+  ],
+  "RightHandMiddle1": [
+   0.0,
+   -0.0,
+   59.5
+  ],
+  "RightHandMiddle2": [
+   0.0,
+   -0.0,
+   76.5
+  ],
+  "RightHandMiddle3": [
+   0.0,
+   -0.0,
+   51.0
+  ],
+  "RightHandRing1": [
+   0.0,
+   -0.0,
+   59.5
+  ],
+  "RightHandRing2": [
+   0.0,
+   -0.0,
+   76.5
+  ],
+  "RightHandRing3": [
+   0.0,
+   -0.0,
+   51.0
+  ],
+  "RightHandPinky1": [
+   0.0,
+   -0.0,
+   59.5
+  ],
+  "RightHandPinky2": [
+   0.0,
+   -0.0,
+   76.5
+  ],
+  "RightHandPinky3": [
+   0.0,
+   -0.0,
+   51.0
+  ],
+  "RightHandThumb1": [
+   0.0,
+   -38.2,
+   17.0
+  ],
+  "RightHandThumb2": [
+   0.0,
+   -17.0,
+   25.5
+  ],
+  "RightHandThumb3": [
+   0.0,
+   -0.0,
+   34.0
+  ],
+  "LeftHandIndex1": [
+   0.0,
+   0.0,
+   -21.0
+  ],
+  "LeftHandIndex2": [
+   0.0,
+   0.0,
+   -27.0
+  ],
+  "LeftHandIndex3": [
+   0.0,
+   0.0,
+   -18.0
+  ],
+  "LeftHandMiddle1": [
+   0.0,
+   0.0,
+   -21.0
+  ],
+  "LeftHandMiddle2": [
+   0.0,
+   0.0,
+   -27.0
+  ],
+  "LeftHandMiddle3": [
+   0.0,
+   0.0,
+   -18.0
+  ],
+  "LeftHandRing1": [
+   0.0,
+   0.0,
+   -21.0
+  ],
+  "LeftHandRing2": [
+   0.0,
+   0.0,
+   -27.0
+  ],
+  "LeftHandRing3": [
+   0.0,
+   0.0,
+   -18.0
+  ],
+  "LeftHandPinky1": [
+   0.0,
+   0.0,
+   -21.0
+  ],
+  "LeftHandPinky2": [
+   0.0,
+   0.0,
+   -27.0
+  ],
+  "LeftHandPinky3": [
+   0.0,
+   0.0,
+   -18.0
+  ],
+  "LeftHandThumb1": [
+   0.0,
+   13.5,
+   -6.0
+  ],
+  "LeftHandThumb2": [
+   0.0,
+   6.0,
+   -9.0
+  ],
+  "LeftHandThumb3": [
+   0.0,
+   0.0,
+   -12.0
+  ]
+ },
+ "alvos": {
+  "RightHandMiddle2": [
+   195,
+   225
+  ],
+  "LeftHand": [
+   900,
+   930
+  ],
+  "LeftForeArm": [
+   860,
+   640
+  ],
+  "HeadTop_End": [
+   480,
+   95
+  ],
+  "Hips": [
+   520,
+   760
+  ],
+  "RightFoot": [
+   270,
+   1390
+  ],
+  "LeftFoot": [
+   790,
+   1420
+  ]
+ },
+ "excluir": [
+  [
+   [
+    400,
+    60
+   ],
+   [
+    890,
+    10
+   ],
+   [
+    950,
+    275
+   ],
+   [
+    820,
+    290
+   ],
+   [
+    610,
+    235
+   ],
+   [
+    430,
+    140
+   ]
+  ],
+  [
+   [
+    0,
+    140
+   ],
+   [
+    105,
+    140
+   ],
+   [
+    105,
+    295
+   ],
+   [
+    0,
+    295
+   ]
+  ]
+ ],
+ "limites": {
+  "Hips": [
+   [
+    -5,
+    5
+   ],
+   [
+    -20,
+    20
+   ],
+   [
+    -8,
+    8
+   ]
+  ],
+  "Spine": [
+   [
+    -5,
+    5
+   ],
+   [
+    -15,
+    15
+   ],
+   [
+    -10,
+    10
+   ]
+  ],
+  "Spine1": [
+   [
+    -5,
+    5
+   ],
+   [
+    -15,
+    15
+   ],
+   [
+    -10,
+    10
+   ]
+  ],
+  "Spine2": [
+   [
+    -5,
+    5
+   ],
+   [
+    -15,
+    15
+   ],
+   [
+    -10,
+    10
+   ]
+  ],
+  "Neck": [
+   [
+    -10,
+    10
+   ],
+   [
+    -25,
+    25
+   ],
+   [
+    -15,
+    15
+   ]
+  ],
+  "Head": [
+   [
+    -10,
+    10
+   ],
+   [
+    -30,
+    30
+   ],
+   [
+    -20,
+    20
+   ]
+  ],
+  "RightArm": [
+   [
+    -25,
+    25
+   ],
+   [
+    -35,
+    35
+   ],
+   [
+    -90,
+    -60
+   ]
+  ],
+  "RightForeArm": [
+   [
+    -30,
+    30
+   ],
+   [
+    -30,
+    30
+   ],
+   [
+    -150,
+    -60
+   ]
+  ]
+ },
+ "descricao": "Ogro de pÃƒÂ©, tronco reto, braÃƒÂ§o direito aberto na horizontal com o antebraÃƒÂ§o para cima e a mÃƒÂ£o fechada no cabo do cutelo; braÃƒÂ§o esquerdo caÃƒÂ­do."
+}
