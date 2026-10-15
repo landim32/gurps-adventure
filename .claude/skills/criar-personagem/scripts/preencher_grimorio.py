@@ -16,6 +16,13 @@ de manobras em <saida>-manobras.jpg. Sem nenhuma das duas, nao gera nada e avisa
 No grimorio de manobras os cabecalhos impressos (Tempo, Duracao, Custos) sao cobertos e
 reescritos: Uso, Dano, Mod., Alcance. A grade e a mesma.
 
+No grimorio de manobras cada manobra pode ter uma `descricao` (texto ou lista de ate 3
+linhas): ela ocupa as linhas logo abaixo da manobra, com as celulas mescladas (a grade
+vertical e apagada nessas linhas) e escreve-se de uma ponta a outra da folha. Texto corrido
+e quebrado sozinho em, no maximo, 3 linhas; o que passar disso e cortado com reticencias.
+Uma manobra nunca e partida entre duas paginas, e uma linha em branco separa cada manobra
+da seguinte.
+
 Cabem 45 linhas por pagina. Havendo mais, sao geradas paginas extras com sufixo
 numerico (saida.jpg, saida-2.jpg, ...).
 
@@ -31,7 +38,7 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw
 
-from preencher_ficha import draw_field  # mesma fonte manuscrita e mesmo encolhimento
+from preencher_ficha import draw_field, font  # mesma fonte manuscrita e mesmo encolhimento
 
 # ---------------------------------------------------------------------------
 # Mapa de campos. Formato: (x, baseline_y, size[, align[, max_width]])
@@ -76,6 +83,13 @@ CABECALHO = {                           # campo: texto
 }
 TITULAR_MANOBRAS = "{nome} — manobras"
 
+# Descricao da manobra: ate 3 linhas, de uma ponta a outra da folha (celulas mescladas).
+DESC_X = 170
+DESC_SIZE = 26
+DESC_LARGURA = 2120          # da margem esquerda ate perto da moldura direita
+DESC_MAX_LINHAS = 3
+DESC_BRANCO = (150, 2326)    # x0, x1 da faixa que apaga os divisores verticais
+
 
 def manobras_de(data):
     """As manobras do personagem: entradas de `pericias` com categoria «Manobras», na
@@ -97,6 +111,7 @@ def manobras_de(data):
             "custo_manter": per.get("alcance"),
             "obs": per.get("obs"),
             "pag": per.get("pag"),
+            "descricao": per.get("descricao"),
             "categoria": controle,            # uma arte por bloco, com linha em branco
         })
     # Uma arte por bloco, na ordem em que cada uma aparece pela primeira vez; dentro do
@@ -107,29 +122,66 @@ def manobras_de(data):
     return sorted(saida, key=lambda m: ordem[m["categoria"]])
 
 
-def montar_linhas(magias):
-    """Ordena as magias e insere uma linha em branco a cada troca de categoria."""
-    linhas = []
-    cat_anterior = None
-    for m in magias:
-        cat = m.get("categoria")
-        if linhas and cat_anterior is not None and cat != cat_anterior:
-            linhas.append(None)
-        linhas.append(m)
-        cat_anterior = cat
+def quebrar_descricao(texto):
+    """Devolve ate DESC_MAX_LINHAS linhas. Lista vem pronta; texto corrido e quebrado por
+    palavras na largura da folha, e o excesso e cortado com reticencias."""
+    if not texto:
+        return []
+    if isinstance(texto, (list, tuple)):
+        linhas = [str(t).strip() for t in texto if str(t).strip()]
+    else:
+        f = font(DESC_SIZE)
+        medir = ImageDraw.Draw(Image.new("RGB", (10, 10))).textlength
+        linhas, atual = [], ""
+        for palavra in str(texto).split():
+            cand = f"{atual} {palavra}".strip()
+            if atual and medir(cand, font=f) > DESC_LARGURA:
+                linhas.append(atual)
+                atual = palavra
+            else:
+                atual = cand
+        if atual:
+            linhas.append(atual)
+    if len(linhas) > DESC_MAX_LINHAS:
+        print(f"Aviso: descricao com {len(linhas)} linhas, cortada em {DESC_MAX_LINHAS}.")
+        linhas = linhas[:DESC_MAX_LINHAS]
+        linhas[-1] = linhas[-1].rstrip(" .,;") + "…"
     return linhas
 
 
-def paginar(linhas, por_pagina):
-    """Fatia as linhas em paginas, sem comecar pagina com separador em branco."""
+def montar_blocos(itens, eh_manobra=False):
+    """Agrupa as linhas em blocos que nao se partem entre paginas: cada item e um bloco
+    (a manobra com as linhas da descricao logo abaixo). Uma linha em branco separa cada
+    manobra da seguinte; nas magias, ela so separa as escolas."""
+    blocos = []
+    cat_anterior = None
+    for m in itens:
+        cat = m.get("categoria")
+        # manobras: uma linha em branco depois de CADA manobra; magias: so na troca de escola
+        if blocos and (eh_manobra or (cat_anterior is not None and cat != cat_anterior)):
+            blocos.append([None])
+        bloco = [m]
+        if eh_manobra:
+            bloco += [{"_desc": t} for t in quebrar_descricao(m.get("descricao"))]
+        blocos.append(bloco)
+        cat_anterior = cat
+    return blocos
+
+
+def paginar(blocos, por_pagina):
+    """Fatia os blocos em paginas, sem partir um bloco e sem abrir pagina com separador."""
     paginas, atual = [], []
-    for linha in linhas:
-        if linha is None and not atual:
+    for bloco in blocos:
+        if bloco == [None] and not atual:
             continue  # nao abre pagina com linha em branco
-        atual.append(linha)
-        if len(atual) == por_pagina:
+        if atual and len(atual) + len(bloco) > por_pagina:
+            while atual and atual[-1] is None:
+                atual.pop()
             paginas.append(atual)
             atual = []
+            if bloco == [None]:
+                continue
+        atual.extend(bloco)
     if atual:
         paginas.append(atual)
     return paginas
@@ -157,6 +209,13 @@ def desenhar_pagina(template, titular, linhas, manobras=False):
         if m is None:
             continue
         y = int(LINHAS["start_baseline"] + i * LINHAS["row_h"])
+        if "_desc" in m:
+            # celula mesclada: apaga os divisores verticais entre as duas regras da linha
+            topo = int(LINHAS["start_baseline"] + i * LINHAS["row_h"] - 52)
+            base = int(LINHAS["start_baseline"] + i * LINHAS["row_h"] + 5)
+            draw.rectangle((DESC_BRANCO[0], topo, DESC_BRANCO[1], base), fill=(255, 255, 255))
+            draw_field(draw, (DESC_X, y, DESC_SIZE, "left", DESC_LARGURA), m["_desc"])
+            continue
         for campo, (x, size, align, largura) in COLUNAS.items():
             valor = rotulo_magia(m) if campo == "nome" else m.get(campo)
             draw_field(draw, (x, y, size, align, largura), valor)
@@ -198,7 +257,7 @@ def main():
         grupos.append((manobras, True, base))
 
     for itens, eh_manobra, base in grupos:
-        paginas = paginar(montar_linhas(itens), LINHAS["max_rows"])
+        paginas = paginar(montar_blocos(itens, eh_manobra), LINHAS["max_rows"])
         for n, linhas in enumerate(paginas, start=1):
             destino = base if n == 1 else base.with_name(f"{base.stem}-{n}{base.suffix}")
             salvar(desenhar_pagina(args.template, titular, linhas, eh_manobra), destino)

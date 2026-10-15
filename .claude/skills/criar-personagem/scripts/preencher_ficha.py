@@ -147,6 +147,7 @@ PERICIAS = {
     "nh_x": 2118, "nh_size": 27, "nh_w": 70,
     "tipo_x": 2228, "tipo_size": 25, "tipo_w": 100,
     "custo_x": 2344, "custo_size": 26, "custo_w": 60,
+    "bloco_size": 22, "bloco_w": 600,
 }
 
 # Quadro do retrato do personagem (area interna, ja descontadas as bordas do formulario)
@@ -211,17 +212,37 @@ def compactar(spec, n):
             max(MIN_SIZE, int(spec["cost_size"] * escala)), int(area / novo_h))
 
 
+def empacotar_tracos(linhas, spec, draw, corpo):
+    """Junta os tracos de custo "-" (pacote racial) em menos linhas, separados por ";",
+    enquanto couberem na largura da coluna no `corpo` dado. As demais linhas
+    (vantagens, desvantagens e a linha em branco) ficam como estao."""
+    f = font(corpo)
+    saida, atual = [], None
+    for item in linhas:
+        if item is not None and item.get("custo") == "-":
+            texto = str(item.get("nome", ""))
+            if atual is not None and                     draw.textlength(f"{atual['nome']}; {texto}", font=f) <= spec["desc_w"]:
+                atual["nome"] = f"{atual['nome']}; {texto}"
+                continue
+            atual = {"nome": texto, "custo": "-"}
+            saida.append(atual)
+        else:
+            atual = None
+            saida.append(item)
+    return saida
+
+
 def achar_foto(pasta: Path, saida: Path):
     """Procura uma imagem de retrato na pasta do personagem.
 
-    Ignora o proprio arquivo de saida e qualquer coisa chamada 'ficha*'. Prefere nomes
+    Ignora o proprio arquivo de saida e qualquer coisa chamada 'ficha*' ou 'grimorio*'. Prefere nomes
     como foto/retrato/imagem; caso contrario, usa a primeira imagem em ordem alfabetica.
     """
     candidatos = []
     for f in sorted(pasta.iterdir()):
         if not f.is_file() or f.suffix.lower() not in FOTO_EXTS:
             continue
-        if f.resolve() == saida.resolve() or f.stem.lower().startswith("ficha"):
+        if f.resolve() == saida.resolve() or f.stem.lower().startswith(("ficha", "grimorio")):
             continue
         candidatos.append(f)
     if not candidatos:
@@ -366,6 +387,21 @@ def main():
     if vantagens and desvantagens:
         linhas.append(None)  # linha em branco separando os grupos
     linhas += desvantagens
+    # Mais linhas do que as 15 impressas? Nao se aperta o passo (as linhas deixariam de
+    # bater com as reguas do formulario). Primeiro os tracos da raca (custo "-") dividem
+    # linhas, separados por ";"; depois some a linha em branco; so como ultimo recurso
+    # o passo e a letra encolhem (compactar), e o texto sai fora das reguas.
+    if len(linhas) > VANTAGENS["max_rows"]:
+        original = linhas
+        for corpo in (VANTAGENS["desc_size"] - 4, VANTAGENS["desc_size"] - 6, MIN_SIZE):
+            linhas = empacotar_tracos(original, VANTAGENS, draw, corpo)  # do menos ao mais apertado
+            if len(linhas) <= VANTAGENS["max_rows"]:
+                break
+    if len(linhas) > VANTAGENS["max_rows"] and None in linhas:
+        linhas.remove(None)
+    if len(linhas) > VANTAGENS["max_rows"]:
+        print(f"Aviso: {len(linhas)} linhas de vantagens/desvantagens para "
+              f"{VANTAGENS['max_rows']} impressas; o passo foi apertado.")
     row_h, desc_s, cost_s, max_rows = compactar(VANTAGENS, len(linhas))
     for i, item in enumerate(linhas[:max_rows]):
         if item is None:
@@ -455,6 +491,33 @@ def main():
                           PERICIAS["tipo_w"]), per.get("tipo"))
         draw_field(draw, (PERICIAS["custo_x"], y, PERICIAS["custo_size"], "center",
                           PERICIAS["custo_w"]), per.get("custo"))
+
+    # --- Bloco de NPC no pé das pericias (companheiro animal, aliado) -----------
+    # `npc_bloco`: {"titulo": "Farejo", "texto": "prosa no formato da skill criar-npc"}.
+    # Cada linha de texto senta numa regua impressa; o bloco fica alinhado ao fim da coluna.
+    bloco = data.get("npc_bloco")
+    if bloco:
+        corpo = PERICIAS["bloco_size"]
+        largura = PERICIAS["bloco_w"]
+        f = font(corpo)
+        linhas, atual = [], ""
+        for palavra in (bloco.get("texto") or "").split():
+            teste = (atual + " " + palavra).strip()
+            if draw.textlength(teste, font=f) > largura and atual:
+                linhas.append(atual)
+                atual = palavra
+            else:
+                atual = teste
+        if atual:
+            linhas.append(atual)
+        linhas.insert(0, bloco.get("titulo", ""))
+        ultima = PERICIAS["max_rows"] - 1
+        primeira = ultima - len(linhas) + 1
+        if primeira <= len(pericias):
+            print(f"AVISO: bloco de NPC ({len(linhas)} linhas) bate nas pericias; encurte o texto.")
+        for k, linha in enumerate(linhas):
+            y = PERICIAS["start_baseline"] + (primeira + k) * PERICIAS["row_h"]
+            draw_field(draw, (PERICIAS["name_x"], y, corpo, "left", largura), linha)
 
     # --- Resumo ---------------------------------------------------------------
     resumo = data.get("resumo", {})

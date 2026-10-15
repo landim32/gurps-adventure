@@ -11,6 +11,7 @@ módulo; o modelo usa a linha de comando para o que não é automático.
     python .claude/skills/roll6/scripts/roll6.py chamar list_campaigns '{"mine": true}'
     python .claude/skills/roll6/scripts/roll6.py subir-imagem personagens/x/foto.png --lado 1024
     python .claude/skills/roll6/scripts/roll6.py subir-documento personagens/x/ficha.jpg
+    python .claude/skills/roll6/scripts/roll6.py subir-modelo personagens/x/modelo.glb
     python .claude/skills/roll6/scripts/roll6.py alinhar --indice cenarios/com-grid/estrada.json --modelo 2
     python .claude/skills/roll6/scripts/roll6.py mapa --indice cenarios/com-grid/estrada.json
     python .claude/skills/roll6/scripts/roll6.py saude --pj "Jah Kagadu"
@@ -249,6 +250,14 @@ def subir_documento(caminhos):
         "fileName": nome, "contentBase64": base64.b64encode(dado).decode()})["fileName"]
 
 
+def subir_modelo(caminho):
+    """Sobe um .glb (ate 20 MB, texturas embutidas); imprime o fileName para o modelFile do token."""
+    caminho = Path(caminho)
+    return cliente().chamar("upload_token_model", {
+        "fileName": caminho.name,
+        "contentBase64": base64.b64encode(caminho.read_bytes()).decode()})["fileName"]
+
+
 # --- grade: alinhar o modelo de mapa ao grid local ----------------------------
 
 def alinhamento(indice):
@@ -410,6 +419,8 @@ def main():
     s.add_argument("--formato", choices=("png", "jpg"))
     s = sub.add_parser("subir-documento", help="Sobe ficha (imagem/PDF); 2+ arquivos viram um PDF")
     s.add_argument("arquivos", nargs="+")
+    s = sub.add_parser("subir-modelo", help="Sobe um modelo 3D (.glb); imprime o fileName")
+    s.add_argument("arquivo")
     s = sub.add_parser("alinhar", help="Ajusta o modelo de mapa ao grid local (coluna/linha iguais)")
     s.add_argument("--indice", required=True)
     s.add_argument("--modelo", type=int, required=True)
@@ -439,6 +450,8 @@ def main():
             print(subir_imagem(a.arquivo, a.lado, a.formato))
         elif a.cmd == "subir-documento":
             print(subir_documento(a.arquivos))
+        elif a.cmd == "subir-modelo":
+            print(subir_modelo(a.arquivo))
         elif a.cmd == "alinhar":
             mod = cliente().chamar("get_map_model", {"mapModelId": a.modelo})
             al = alinhamento(a.indice)

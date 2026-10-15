@@ -156,10 +156,15 @@ das pessoais (-1). No JSON:
 ```
 
 O `preencher_ficha.py` desenha cada traço com `-` abaixo da linha cuja `nome` começa com
-"Raça" (ou que tem `"raca": true`), seja ela vantagem (+30) ou desvantagem (Orc, -10). Passando
-de 15 linhas de vantagens ou de 5 de peculiaridades, o script aperta o passo e a letra juntos
-(passo mínimo de 30 px): as linhas deixam de bater com as réguas impressas, mas cabem. Humano
-não tem `raca_tracos`. Em edição, mudou a raça: reescreva as duas listas, ou apague-as.
+"Raça" (ou que tem `"raca": true`), seja ela vantagem (+30) ou desvantagem (Orc, -10). **O texto
+sempre fica sobre as réguas impressas** (15 linhas de vantagens e desvantagens, 5 de
+peculiaridades). Passando de 15 linhas, o script **não aperta o passo**: primeiro **junta os
+traços raciais (custo `-`) em menos linhas**, separados por `;`, até caberem (a letra pode
+encolher até o mínimo de 20 px); depois some a linha em branco entre vantagens e
+desvantagens; só como último recurso o passo e a letra encolhem juntos (e o script avisa,
+porque aí as linhas deixam de bater com as réguas). **Por isso escreva os `raca_tracos`
+bem curtos** (`IQ -2, HT +1`, `+2 PV`, `Intolerância`, `Reputação -3`): dois ou três cabem
+na mesma linha, e o detalhe vai no `personagem.md`. Humano não tem `raca_tracos`. Em edição, mudou a raça: reescreva as duas listas, ou apague-as.
 
 O custo da raça entra como uma "vantagem" na lista de Vantagens/Desvantagens da ficha
 (ex.: "Raça: Elfo, +40"). Modificadores de atributo raciais (ex.: Elfo +1 DX +1 IQ -1 ST) se somam ao valor
@@ -578,17 +583,36 @@ verbete (`04-combate-manobras.md`, "Manobras Realistas") — não de memória:
 | `dano` | Dano | `GDP-1+Caratê`, `1d-2 opc.`, `como soco`, `—` quando não causa dano |
 | `mod` | Mod. ataque | O redutor ou bônus da manobra: `-4`, `2 testes`, `+1 a +3`, `—` |
 | `alcance` | Alcance | `C` corpo a corpo, `2 hex`, `Katana` (o da arma), `—` |
-| `obs` | Efeito, em resumo | **Até ~38 caracteres**: passa disso, o script corta com reticências. A frase longa vai no `grimorio.md` |
+| `obs` | Efeito, em resumo | Etiqueta de **até ~38 caracteres** (`Prende o braço; margem vira dano`): passa disso, o script corta com reticências |
 | `pag` | Pág. | Página do livro (`44`, `47`); a coluna é estreita |
+| `descricao` | linhas logo abaixo da manobra | **O que a manobra faz, em no máximo 3 linhas** — ver a regra abaixo. Texto corrido (o script quebra) ou lista de até 3 linhas |
 
-Um bloco por **arte** (a perícia que controla: Katana, Judô, Caratê), na ordem em que cada
-uma aparece, com uma linha em branco entre os blocos. Se o personagem **também** conjura, o
+**A descrição de cada manobra (`descricao`): no máximo 3 linhas, a mais curta possível, mas
+dizendo tudo.** Quem está na luta lê isto e joga, sem abrir o livro. Escreva, nesta ordem e só o
+que se aplica: **(1) como se aciona** (a condição ou o teste de entrada: "apara o golpe ou
+segura o braço", "só em combate de perto", "só no pé de quem está de pé"); **(2) o que o teste
+decide** (a Disputa, o redutor, a defesa que a vítima perde ou sofre: "Esquiva -1, Bloqueio -3",
+"vítima só se solta com ST contra ST"); **(3) o efeito em número** (o dano, o que quebra ou
+incapacita, o que a vítima sofre por turno); **(4) o risco para quem usa** (falha, HT para não
+se ferir). Frases curtas, números e sinais no lugar de adjetivos, sem repetir o que a coluna
+`Dano`, `Mod.` ou `Alcance` já diz, e **tirada do verbete**, não de memória. Passou de 3
+linhas, o script corta com reticências e avisa: encurte o texto, não a regra.
+
+No grimório de imagem a descrição ocupa **as linhas logo abaixo da manobra**, de uma ponta a
+outra da folha (as células se mesclam e os divisores verticais somem nessas linhas). Uma
+manobra nunca é partida entre duas páginas, e **uma linha em branco separa cada manobra da
+seguinte** (não só uma arte da outra). O mesmo texto vai, sem mudar, na coluna "O que faz"
+do `grimorio.md`.
+
+As manobras ficam agrupadas por **arte** (a perícia que controla: Katana, Judô, Caratê), na
+ordem em que cada uma aparece, com **uma linha em branco depois de cada manobra**. Se o personagem **também** conjura, o
 grimório de mágicas fica em `grimorio.jpg` e o de manobras vai ao lado, em
 `grimorio-manobras.jpg`.
 
 No grimório de manobras o script **cobre os cabeçalhos impressos** (Tempo, Duração, Custo
 p/fazer, Custo p/manter) e escreve os da manobra: Uso, Dano, Mod. ataque, Alcance, Efeito,
-Pág. A grade é a mesma, e o limite também: 45 manobras por página, depois `grimorio-2.jpg`.
+Pág. A grade é a mesma, e o limite também: 45 **linhas** por página (cada manobra gasta 1, mais as
+linhas da descrição, de 1 a 3, mais 1 em branco), depois `grimorio-2.jpg`.
 
 **Na ficha**, as manobras seguem na área de perícias, e o script acrescenta no fim uma linha
 `Manobras: efeito no grimório` — se couber, sem passar das 44 linhas.
@@ -711,10 +735,12 @@ consistentes na maioria dos modelos de imagem):
    história. Não é preciso citar DP/RD no prompt, só a aparência de cada peça.
 5. **Expressão/pose**: sugerida pelas peculiaridades e pela história (ex.: postura alerta e
    desconfiada para um ladrão; postura orgulhosa para um nobre).
-6. **Cenário/composição**: mantenha simples e neutro — *"plain neutral background, character
-   reference sheet pose, portrait framing from the waist up, centered"* — para funcionar como
-   um retrato de referência, a menos que a história sugira um cenário mais específico que
-   valha a pena mostrar.
+6. **Enquadramento e fundo — sempre corpo inteiro e fundo claro**: termine o prompt com
+   *"full-body shot from head to toe, feet visible, character reference sheet pose, centered,
+   plain light background (white or pale gray)"*. O retrato mostra **o personagem de cima
+   a baixo** (nunca "from the waist up" nem "portrait framing"), sobre fundo **claro e liso**
+   (branco ou cinza-claro), sem cenário, para recortar bem e combinar com a ficha. Só saia
+   disso se o usuário pedir outro enquadramento ou cenário.
 
 Não inclua números de jogo (pontos, NH, custos) no prompt — ele é só para a aparência visual.
 Se o usuário pedir um estilo de imagem diferente (ex.: pixel art, aquarela, anime), substitua
@@ -919,9 +945,10 @@ Campos que controlam o agrupamento visual na ficha:
   “Altura, peso e idade”.
 - **Manobras** (`pericias[]` com `"categoria": "Manobras"`): além de `nome`, `nh`, `tipo`,
   `custo`, levam os campos do resumo do grimório — `uso`, `dano`, `mod`, `alcance`, `obs`
-  (até ~38 caracteres) e `pag` (ver "Grimório de manobras"). Os campos são **opcionais**:
+  (até ~38 caracteres), `pag` e **`descricao`** (até 3 linhas; ver "Grimório de manobras"). Os campos são **opcionais**:
   sem eles o grimório sai com as colunas em branco, mas a ficha e as skills de combate não
   mudam. Quem só tem manobras ganha `grimorio.jpg` de manobras; quem conjura também, ao lado.
+- **`npc_bloco`** (opcional): `{"titulo": "Farejo", "texto": "..."}` — bloco de NPC no formato da skill `criar-npc` (prosa contínua, sem custos), impresso **no pé da coluna de perícias**, alinhado ao fim e quebrado nas réguas. Serve ao companheiro animal ou aliado. Fica fora da soma de pontos; se bater nas perícias, o script avisa e o texto deve ser encurtado.
 - **`lembrete`** (opcional, em cada item de `vantagens_desvantagens`): uma frase de **o que
   fazer em cena** — `"Honesto: não assassina nem mente por vantagem"`. O `CONTEXTO.md` a
   imprime ao lado do traço. Vale para os traços de comportamento; os mecânicos (Hipoalgia,
@@ -1015,8 +1042,8 @@ página com linha em branco de separação. Constantes do grimório de manobras:
 Para conjuradores **e para lutadores com manobras**. O do lutador é o do Kagehira
 (`personagens/kagehira/grimorio.md`): título `# Grimório de <Nome> — as manobras`, um parágrafo
 dizendo que o NH mora na ficha e de onde vêm as manobras, a legenda de `Uso` e `Alcance`, **uma
-tabela por arte** (Manobra, NH, Custo, Uso, Dano, Mod., O que faz, PDF p.) com o efeito em uma
-ou duas frases **tiradas do verbete**, os pontos pagos em manobras fora do estilo e um bloco
+tabela por arte** (Manobra, NH, Custo, Uso, Dano, Mod., O que faz, PDF p.) com a mesma
+`descricao` do JSON (**no máximo 3 linhas**, tirada do verbete), os pontos pagos em manobras fora do estilo e um bloco
 de notas táticas — sem inventar regra que o verbete não traga. O que segue é do conjurador.
 
 Para o conjurador: Título (`# Grimório de <Nome>`), uma linha dizendo de onde vem a
