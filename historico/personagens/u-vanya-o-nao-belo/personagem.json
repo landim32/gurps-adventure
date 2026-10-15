@@ -1,0 +1,281 @@
+{
+  "nome": "Ú-Vanya, o Não-Belo",
+  "jogador": "Rodrigo",
+  "arquetipo": "Ranger (Fantasy)",
+  "raca": "Meio-Elfo (Fantasy)",
+  "idade": 45,
+  "aparencia": "1,75 m; 68,1 kg; 45 anos, esguio, orelhas pontudas, metade do rosto e do couro queimada",
+  "historia": "Filho mestiço de elfo negro, pária; o pai queimou-lhe o rosto. Ú-Vanya é insulto",
+  "data_criacao": "13/10/2026",
+  "sequencia": "1",
+  "pontos_gastar": 150,
+  "pontos_total": 150,
+  "atributos": {
+    "ST": {
+      "valor": 10,
+      "custo": 0
+    },
+    "DX": {
+      "valor": 14,
+      "custo": 45
+    },
+    "IQ": {
+      "valor": 12,
+      "custo": 10
+    },
+    "HT": {
+      "valor": 11,
+      "custo": 10
+    }
+  },
+  "fadiga": 10,
+  "pontos_vida": 11,
+  "dano_basico": {
+    "gdp": "1D-2",
+    "bal": "1D"
+  },
+  "velocidade_basica": 6.25,
+  "deslocamento": 6,
+  "carga": {
+    "nenhuma": 10,
+    "leve": 20,
+    "media": 30,
+    "pesada": 60,
+    "muito_pesada": 100
+  },
+  "defesa_passiva": {
+    "armadura": 0,
+    "escudo": 0,
+    "total": 0
+  },
+  "defesas_ativas": {
+    "esquiva": 6,
+    "aparar": 7,
+    "bloqueio": 0
+  },
+  "reacao": "-2",
+  "vantagens_desvantagens": [
+    {
+      "nome": "Raça: Meio-Elfo (AM só Luz)",
+      "custo": 25,
+      "raca": true
+    },
+    {
+      "nome": "Prontidão +2",
+      "custo": 10
+    },
+    {
+      "nome": "Senso de Direção",
+      "custo": 5
+    },
+    {
+      "nome": "Dever: Seita Lych (quase sempre)",
+      "custo": -15,
+      "lembrete": "A alma está presa por um mestre da seita (a definir): a seita chama e ele vai"
+    },
+    {
+      "nome": "Intolerância (todas as raças)",
+      "custo": -10,
+      "lembrete": "-3 de reação com quem não é elfo negro; tolera o que for útil, sem afeto"
+    },
+    {
+      "nome": "Feio (rosto queimado)",
+      "custo": -10,
+      "lembrete": "-2 de reação de quem o vê; esconde a metade queimada com o capuz"
+    },
+    {
+      "nome": "Timidez suave",
+      "custo": -5,
+      "lembrete": "-1 em perícias que lidam com o público; desconfortável com estranhos"
+    }
+  ],
+  "raca_tracos": [
+    {
+      "nome": "IQ +1"
+    },
+    {
+      "nome": "Aptidão Mágica 1 (só escola de Luz)"
+    },
+    {
+      "nome": "Longevidade"
+    },
+    {
+      "nome": "Constituição delgada"
+    }
+  ],
+  "peculiaridades": [
+    "Só atende pelo insulto: Ú-Vanya",
+    "Esconde a metade queimada do rosto",
+    "Recolhe cada flecha que atira",
+    "Não deixa fogo perto do rosto",
+    "Nunca fala do pai"
+  ],
+  "armas_objetos": [
+    {
+      "item": "Arco composto",
+      "dano": "1D+1",
+      "tipo": "perf",
+      "qtd": 1,
+      "peso": 2.0,
+      "categoria": "Armas"
+    },
+    {
+      "item": "Faca pequena",
+      "dano": "1D-3",
+      "tipo": "perf",
+      "qtd": 1,
+      "peso": 0.25,
+      "categoria": "Armas"
+    },
+    {
+      "item": "Flechas",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 20,
+      "peso": 1.2,
+      "categoria": "Munição"
+    },
+    {
+      "item": "Aljava (10 flechas)",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 2,
+      "peso": 0.5,
+      "categoria": "Munição"
+    },
+    {
+      "item": "Roupas comuns e capuz",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 0.5,
+      "categoria": "Equipamento"
+    }
+  ],
+  "peso_total": 4.45,
+  "custo_total": 1000,
+  "dinheiro": 0,
+  "pericias": [
+    {
+      "nome": "Arco",
+      "nh": 21,
+      "tipo": "DX/D",
+      "custo": 56,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Faca",
+      "nh": 14,
+      "tipo": "DX/F",
+      "custo": 1,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Sacar Rápido (Arco)",
+      "nh": 14,
+      "tipo": "DX/F",
+      "custo": 1,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Sacar Rápido (Flechas)",
+      "nh": 14,
+      "tipo": "DX/F",
+      "custo": 1,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Furtividade",
+      "nh": 14,
+      "tipo": "DX/M",
+      "custo": 2,
+      "categoria": "Físicas"
+    },
+    {
+      "nome": "Cavalgar (Cavalo)",
+      "nh": 14,
+      "tipo": "DX/M",
+      "custo": 2,
+      "categoria": "Físicas"
+    },
+    {
+      "nome": "Rastreamento",
+      "nh": 13,
+      "tipo": "IQ/M",
+      "custo": 4,
+      "categoria": "Externas"
+    },
+    {
+      "nome": "Sobrevivência (Floresta)",
+      "nh": 13,
+      "tipo": "IQ/M",
+      "custo": 4,
+      "categoria": "Externas"
+    },
+    {
+      "nome": "Camuflagem",
+      "nh": 12,
+      "tipo": "IQ/F",
+      "custo": 1,
+      "categoria": "Externas"
+    },
+    {
+      "nome": "Primeiros Socorros",
+      "nh": 12,
+      "tipo": "IQ/F",
+      "custo": 1,
+      "categoria": "Médicas"
+    },
+    {
+      "nome": "Visão Aguçada (pré-req.)",
+      "nh": 12,
+      "tipo": "IQ/D",
+      "custo": 4,
+      "categoria": "Mágicas"
+    },
+    {
+      "nome": "Visão Noturna (Luz)",
+      "nh": 13,
+      "tipo": "IQ/D",
+      "custo": 4,
+      "categoria": "Mágicas"
+    },
+    {
+      "nome": "Visão nas Trevas (Luz)",
+      "nh": 13,
+      "tipo": "IQ/D",
+      "custo": 4,
+      "categoria": "Mágicas"
+    },
+    {
+      "nome": "Olhos de Falcão (Luz)",
+      "nh": 13,
+      "tipo": "IQ/D",
+      "custo": 4,
+      "categoria": "Mágicas"
+    },
+    {
+      "nome": "Élfico (nativa)",
+      "nh": 12,
+      "tipo": "IQ/M",
+      "custo": 0,
+      "categoria": "Línguas"
+    },
+    {
+      "nome": "Ânglico",
+      "nh": 11,
+      "tipo": "IQ/M",
+      "custo": 1,
+      "categoria": "Línguas"
+    }
+  ],
+  "resumo": {
+    "atributos": 65,
+    "vantagens": 40,
+    "desvantagens": -40,
+    "peculiaridades": -5,
+    "pericias": 90,
+    "total": 150
+  },
+  "fora_da_campanha": true
+}

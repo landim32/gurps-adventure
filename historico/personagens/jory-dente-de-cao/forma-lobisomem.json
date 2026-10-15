@@ -1,0 +1,330 @@
+{
+  "nome": "Jory Dente-de-Cão (forma lobisomem)",
+  "jogador": "A definir",
+  "arquetipo": "Pugilista de rua (conceito livre; estilo Pugilismo, Artes Marciais)",
+  "raca": "Lobisomem (modelo racial da casa, 71 pts)",
+  "idade": 20,
+  "aparencia": "Forma lobisomem: bípede semiereto, peludo, enorme e mudo; garras e dentes de lobo",
+  "historia": "A fera de Jory: ST 15, DX 15, IQ 7, HT 15, RD 1, regenera; mudo; reação -4 (Hediondo)",
+  "data_criacao": "13/10/2026",
+  "sequencia": "1",
+  "pontos_gastar": 150,
+  "pontos_total": 150,
+  "fora_da_campanha": true,
+  "atributos": {
+    "ST": {
+      "valor": 15,
+      "custo": 20
+    },
+    "DX": {
+      "valor": 15,
+      "custo": 30
+    },
+    "IQ": {
+      "valor": 7,
+      "custo": 0
+    },
+    "HT": {
+      "valor": 15,
+      "custo": 20
+    }
+  },
+  "fadiga": 15,
+  "pontos_vida": 18,
+  "dano_basico": {
+    "gdp": "1D+1",
+    "bal": "2D+1"
+  },
+  "velocidade_basica": 7.5,
+  "deslocamento": 5,
+  "carga": {
+    "nenhuma": 15,
+    "leve": 30,
+    "media": 45,
+    "pesada": 90,
+    "muito_pesada": 150
+  },
+  "defesa_passiva": {
+    "armadura": 0,
+    "escudo": 0,
+    "total": 0
+  },
+  "defesas_ativas": {
+    "esquiva": 5,
+    "aparar": 11,
+    "bloqueio": 0
+  },
+  "reacao": "-4",
+  "vantagens_desvantagens": [
+    {
+      "nome": "Raça: Lobisomem",
+      "custo": 71,
+      "raca": true
+    },
+    {
+      "nome": "Estilo: Pugilismo (realista)",
+      "custo": 8
+    },
+    {
+      "nome": "Reflexos em Combate",
+      "custo": 15
+    },
+    {
+      "nome": "Riqueza: Pobre",
+      "custo": -15,
+      "lembrete": "Recursos de 1/5 da média ($200); vive de biscate e de luta de rua"
+    },
+    {
+      "nome": "Mentir Compulsivamente",
+      "custo": -15,
+      "lembrete": "Mente por hábito; para dizer a verdade, teste de Vontade-4 (feito em segredo)"
+    },
+    {
+      "nome": "Excesso de Confiança",
+      "custo": -10,
+      "lembrete": "Acha que bate e aguenta mais do que pode; falhou no teste de IQ, vai em frente"
+    }
+  ],
+  "raca_tracos": [
+    {
+      "nome": "Forma: ST+3 DX+2 HT+3 IQ-3"
+    },
+    {
+      "nome": "Garras; Dentes; PV +3; Rijeza 1"
+    },
+    {
+      "nome": "Sentidos de lobo; Queda de Gato"
+    },
+    {
+      "nome": "Hipoalgia; Regenera; 4 patas"
+    },
+    {
+      "nome": "Fúria; Mudo; Semiereto; Hediondo"
+    },
+    {
+      "nome": "Prata x3; Transf. 3 turnos"
+    }
+  ],
+  "peculiaridades": [
+    "Dá um nome falso em cada taverna",
+    "Enrola as mãos antes de lutar",
+    "Dorme de costas para a parede",
+    "Rosna baixo quando nervoso",
+    "Guarda um pedaço de pão"
+  ],
+  "armas_objetos": [
+    {
+      "item": "Garras (Briga)",
+      "dano": "1D+1/2D+1",
+      "tipo": "corte",
+      "qtd": 1,
+      "peso": 0.0,
+      "categoria": "Armas"
+    },
+    {
+      "item": "Dentes Afiados",
+      "dano": "1D+1",
+      "tipo": "corte (c.c.)",
+      "qtd": 1,
+      "peso": 0.0,
+      "categoria": "Armas"
+    },
+    {
+      "item": "Rijeza +1 (RD 1 no corpo)",
+      "dano": "-",
+      "tipo": "RD1",
+      "qtd": 1,
+      "peso": 0.0,
+      "categoria": "Armadura"
+    }
+  ],
+  "peso_total": 0.0,
+  "custo_total": 108,
+  "dinheiro": 92,
+  "pericias": [
+    {
+      "nome": "Boxe",
+      "nh": 17,
+      "tipo": "DX/M",
+      "custo": 6,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Briga (Garras e Dentes)",
+      "nh": 16,
+      "tipo": "DX/F",
+      "custo": 2,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Furtividade",
+      "nh": 15,
+      "tipo": "DX/M",
+      "custo": 2,
+      "categoria": "Físicas"
+    },
+    {
+      "nome": "Escalada",
+      "nh": 14,
+      "tipo": "DX/M",
+      "custo": 1,
+      "categoria": "Físicas"
+    },
+    {
+      "nome": "Fuga",
+      "nh": 14,
+      "tipo": "DX/D",
+      "custo": 2,
+      "categoria": "Físicas"
+    },
+    {
+      "nome": "Soco",
+      "nh": 17,
+      "tipo": "Boxe",
+      "custo": 0,
+      "categoria": "Manobras",
+      "uso": "Atq",
+      "dano": "1D+2 cont",
+      "mod": "-",
+      "alcance": "C",
+      "obs": "GDP-2 +3 (Boxe/5); com garras corta",
+      "pag": "MB",
+      "descricao": "Ataque com NH em Boxe (17). Dano GDP-2 mais 1/5 do NH em Boxe (+3) = 1D+2 de contusão. Em vez do soco, a Garra (Briga 16) corta."
+    },
+    {
+      "nome": "Chute",
+      "nh": 14,
+      "tipo": "Briga",
+      "custo": 0,
+      "categoria": "Manobras",
+      "uso": "Atq",
+      "dano": "1D+2 cont",
+      "mod": "Briga-2",
+      "alcance": "C",
+      "obs": "Briga-2; erro pode derrubar",
+      "pag": "48",
+      "descricao": "Ataque com Briga-2 (14). Dano GDP mais 1/10 do NH em Briga (+1) = 1D+2 de contusão. De quatro patas não chuta."
+    },
+    {
+      "nome": "Aparar (Boxe)",
+      "nh": 11,
+      "tipo": "Boxe",
+      "custo": 0,
+      "categoria": "Manobras",
+      "uso": "Def",
+      "dano": "-",
+      "mod": "-3 arma",
+      "alcance": "C",
+      "obs": "2/3 do NH em Boxe",
+      "pag": "28",
+      "descricao": "Defesa de 2/3 do NH em Boxe (11), com -3 contra arma que não seja de ponta e -2 contra chute. Esquiva ganha +2 (Boxe/8) contra mãos nuas e golpe de ponta."
+    },
+    {
+      "nome": "Finta (Boxe)",
+      "nh": 19,
+      "tipo": "Boxe/D",
+      "custo": 0,
+      "categoria": "Manobras",
+      "uso": "Atq+Finta",
+      "dano": "-",
+      "mod": "Disputa",
+      "alcance": "C",
+      "obs": "Pode passar de Boxe até +4",
+      "pag": "44",
+      "descricao": "Disputa Rápida do NH em Finta contra o maior NH de combate do alvo; a margem do sucesso vira redutor na defesa dele no golpe seguinte."
+    },
+    {
+      "nome": "Jab",
+      "nh": 15,
+      "tipo": "Boxe/M",
+      "custo": 0,
+      "categoria": "Manobras",
+      "uso": "Atq",
+      "dano": "1D+1 cont",
+      "mod": "2 jabs/turno",
+      "alcance": "C",
+      "obs": "Ataque extra se ambos forem jabs",
+      "pag": "47",
+      "descricao": "Golpe curto e rápido: dá um ataque extra no turno se os dois forem jabs. Dano GDP-3 mais bônus de Boxe (1D+1). Um jab pode servir de Finta para o golpe seguinte."
+    },
+    {
+      "nome": "Riposta (Boxe)",
+      "nh": 14,
+      "tipo": "Boxe/D",
+      "custo": 0,
+      "categoria": "Manobras",
+      "uso": "Apar+Atq",
+      "dano": "-",
+      "mod": "-4",
+      "alcance": "C",
+      "obs": "Contra-ataca após Aparar",
+      "pag": "50",
+      "descricao": "Contra-ataque instantâneo, a -4, depois de Aparar com sucesso. A defesa do inimigo sofre -1 e -1 por ponto de margem da Aparar (DP não conta)."
+    },
+    {
+      "nome": "Soco Circular Amplo",
+      "nh": 15,
+      "tipo": "Boxe/M",
+      "custo": 0,
+      "categoria": "Manobras",
+      "uso": "Atq Total",
+      "dano": "1D+2 cont",
+      "mod": "+2 def. dele",
+      "alcance": "C",
+      "obs": "Perde a iniciativa; golpe de misericórdia",
+      "pag": "50",
+      "descricao": "Soco pendular com o corpo inteiro, em geral em Ataque Total. Dano 1D-1 mais bônus de Boxe (1D+2). É lento: o alvo defende a +2 e ele perde a iniciativa."
+    },
+    {
+      "nome": "Deslizamento",
+      "nh": 3,
+      "tipo": "Esquiva/D",
+      "custo": 0,
+      "categoria": "Manobras",
+      "uso": "Def",
+      "dano": "-",
+      "mod": "+2 (Boxe/8)",
+      "alcance": "C",
+      "obs": "Esquiva a socos e armas; avança 1 hex",
+      "pag": "50",
+      "descricao": "Esquiva abaixando-se sob soco ou arma que mira acima da cintura, vindo de um hex frontal. Sucesso evita o ataque e deixa avançar 1 hex, em combate de perto. Soma Boxe/8 (+2)."
+    },
+    {
+      "nome": "Golpe com a Cabeça",
+      "nh": 10,
+      "tipo": "Briga/M",
+      "custo": 0,
+      "categoria": "Manobras",
+      "uso": "Atq",
+      "dano": "1D cérebro",
+      "mod": "+1 se segura",
+      "alcance": "C",
+      "obs": "Sem Aparar; Esq -1, Bloq -3",
+      "pag": "46",
+      "descricao": "Cabeçada só em combate de perto. A vítima não pode Aparar; Esquiva -1, Bloqueio -3. Dano GDP-1 no cérebro. Contra RD 4+, testa HT ou sofre 1d-3."
+    },
+    {
+      "nome": "Pisão",
+      "nh": 13,
+      "tipo": "Briga/M",
+      "custo": 0,
+      "categoria": "Manobras",
+      "uso": "Atq",
+      "dano": "1D+3 cont",
+      "mod": "-",
+      "alcance": "C",
+      "obs": "Só pé de quem está de pé ou corpo caído",
+      "pag": "52",
+      "descricao": "Calcanhar no pé de quem está de pé ou no corpo de quem está caído. Dano GDP+1 mais bônus de Briga (1D+3). Falhando, testa HT para não ferir o próprio pé."
+    }
+  ],
+  "resumo": {
+    "atributos": 70,
+    "vantagens": 94,
+    "desvantagens": -40,
+    "peculiaridades": -5,
+    "pericias": 31,
+    "total": 150
+  },
+  "foto": "foto-lobisomem.png"
+}
