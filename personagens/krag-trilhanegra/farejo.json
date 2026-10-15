@@ -1,0 +1,130 @@
+{
+  "nome": "Farejo",
+  "jogador": "",
+  "arquetipo": "Aliado de Krag Trilhanegra (100 pts)",
+  "raca": "Cão de caça (Sabujo)",
+  "idade": 5,
+  "aparencia": "Sabujo médio, pelagem castanho-avermelhada, marcas brancas no focinho e peito, orelhas caídas",
+  "historia": "Criado por Krag desde filhote; fareja vivos e mortos, inquieto perto de necromancia",
+  "data_criacao": "14/10/2026",
+  "sequencia": "1",
+  "pontos_gastar": 100,
+  "pontos_total": 100,
+  "atributos": {
+    "ST": {
+      "valor": 12,
+      "custo": 20
+    },
+    "DX": {
+      "valor": 12,
+      "custo": 20
+    },
+    "IQ": {
+      "valor": 5,
+      "custo": -40
+    },
+    "HT": {
+      "valor": 15,
+      "custo": 60
+    }
+  },
+  "fadiga": 12,
+  "pontos_vida": 15,
+  "dano_basico": {
+    "gdp": "1D-1",
+    "bal": "1D+2"
+  },
+  "velocidade_basica": 12,
+  "deslocamento": 12,
+  "carga": {
+    "nenhuma": 12,
+    "leve": 24,
+    "media": 36,
+    "pesada": 72,
+    "muito_pesada": 120
+  },
+  "defesa_passiva": {
+    "armadura": 0,
+    "escudo": 0,
+    "total": 0
+  },
+  "defesas_ativas": {
+    "esquiva": 7,
+    "aparar": 0,
+    "bloqueio": 0
+  },
+  "reacao": "0",
+  "vantagens_desvantagens": [
+    {
+      "nome": "Faro de Sabujo (racial, NH 18)",
+      "custo": 0,
+      "lado": "vantagem"
+    },
+    {
+      "nome": "Reflexos em Combate",
+      "custo": 15,
+      "lado": "vantagem"
+    },
+    {
+      "nome": "Prontidão +3",
+      "custo": 15,
+      "lado": "vantagem"
+    },
+    {
+      "nome": "Visão Noturna",
+      "custo": 10,
+      "lado": "vantagem"
+    },
+    {
+      "nome": "Senso de Direção",
+      "custo": 5,
+      "lado": "vantagem"
+    }
+  ],
+  "peculiaridades": [
+    "Rosna perto de mortos-vivos",
+    "Nunca aceita comida de estranhos",
+    "Dorme encostado nas pernas de Krag",
+    "Enterra ossos no acampamento",
+    "Uiva se Krag se afasta"
+  ],
+  "armas_objetos": [
+    {
+      "item": "Mordida",
+      "dano": "1D-1",
+      "tipo": "corte",
+      "qtd": 1,
+      "peso": 0,
+      "categoria": "Armas"
+    },
+    {
+      "item": "Coleira reforçada",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 0.3,
+      "categoria": "Equipamento"
+    }
+  ],
+  "peso_total": 0.3,
+  "custo_total": 0,
+  "dinheiro": 0,
+  "pericias": [
+    {
+      "nome": "Olfato/Rastreamento (faro)",
+      "nh": 18,
+      "tipo": "racial",
+      "custo": 0,
+      "categoria": "Raciais"
+    }
+  ],
+  "resumo": {
+    "atributos": 60,
+    "vantagens": 45,
+    "desvantagens": 0,
+    "peculiaridades": -5,
+    "pericias": 0,
+    "total": 100,
+    "nota": "Aliado de 100 pontos (MB: 76 a 100 pts custa 5; aparece quase sempre = x3 = 15 na ficha do Krag). Sem desvantagens. Atributos dentro do cão do MB (ST 1-12, DX 11-12, IQ 5, HT 12-15)."
+  }
+}

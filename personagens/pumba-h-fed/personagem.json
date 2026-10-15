@@ -1,0 +1,366 @@
+{
+  "nome": "Pumba'h Fed",
+  "jogador": "Ricardo",
+  "arquetipo": "Ranger: Caçador de Prêmios (Fantasy)",
+  "raca": "Goblin (Fantasy)",
+  "idade": 34,
+  "aparencia": "1,70 m; 58,6 kg; 34 anos, pele verde-azulada, presas, mecha punk, sorriso sarcástico",
+  "historia": "Goblin daltônico expulso da família de mercadores; caçador de prêmios fiel a Phenola Drisri",
+  "data_criacao": "13/10/2026",
+  "sequencia": "1",
+  "pontos_gastar": 150,
+  "pontos_total": 150,
+  "fora_da_campanha": false,
+  "atributos": {
+    "ST": {
+      "valor": 8,
+      "custo": 0
+    },
+    "DX": {
+      "valor": 14,
+      "custo": 30
+    },
+    "IQ": {
+      "valor": 12,
+      "custo": 10
+    },
+    "HT": {
+      "valor": 12,
+      "custo": 20
+    }
+  },
+  "fadiga": 8,
+  "pontos_vida": 12,
+  "dano_basico": {
+    "gdp": "1D-3",
+    "bal": "1D-2"
+  },
+  "velocidade_basica": 6.5,
+  "deslocamento": 6,
+  "carga": {
+    "nenhuma": 8,
+    "leve": 16,
+    "media": 24,
+    "pesada": 48,
+    "muito_pesada": 80
+  },
+  "defesa_passiva": {
+    "armadura": 1,
+    "escudo": 0,
+    "total": 1
+  },
+  "defesas_ativas": {
+    "esquiva": 6,
+    "aparar": 7,
+    "bloqueio": 0
+  },
+  "reacao": "-1",
+  "vantagens_desvantagens": [
+    {
+      "nome": "Raça: Goblin",
+      "custo": 5,
+      "raca": true
+    },
+    {
+      "nome": "Licantropia: Javali (voluntária)",
+      "custo": 30,
+      "lembrete": "Vira javali na lua cheia ou quando quiser (3 s indefeso); ST x2, RD 3"
+    },
+    {
+      "nome": "Noção do Perigo",
+      "custo": 15
+    },
+    {
+      "nome": "Reflexos em Combate",
+      "custo": 15
+    },
+    {
+      "nome": "Prontidão +2",
+      "custo": 10
+    },
+    {
+      "nome": "Ambidestria",
+      "custo": 10
+    },
+    {
+      "nome": "Senso de Direção",
+      "custo": 5
+    },
+    {
+      "nome": "Dever: Seita Lych (quase sempre)",
+      "custo": -15,
+      "lembrete": "A alma dele está com Phenola Drisri: a seita chama e ele vai"
+    },
+    {
+      "nome": "Fanatismo (Phenola Drisri)",
+      "custo": -15,
+      "lembrete": "A mestra vem antes de tudo; obedece e a defende sem questionar"
+    },
+    {
+      "nome": "Daltonismo",
+      "custo": -10,
+      "lembrete": "Não distingue cores; falha em tudo que dependa delas (pedras, venenos, uniformes)"
+    },
+    {
+      "nome": "Credulidade",
+      "custo": -10,
+      "lembrete": "Engole qualquer história contada com convicção"
+    },
+    {
+      "nome": "Hábito Detestável (imitações)",
+      "custo": -5,
+      "lembrete": "Imita os outros de forma grotesca e inconveniente: -1 de reação de quem vê"
+    }
+  ],
+  "raca_tracos": [
+    {
+      "nome": "ST -2, DX +1, IQ +1"
+    },
+    {
+      "nome": "Visão Noturna"
+    },
+    {
+      "nome": "Impulsividade"
+    },
+    {
+      "nome": "Peso -5 kg"
+    }
+  ],
+  "peculiaridades": [
+    "Responde a tudo com sarcasmo",
+    "Teme ser abandonado ou traído",
+    "Quer o respeito da família",
+    "Despreza quem é de fora da Seita",
+    "Grunhe quando está nervoso"
+  ],
+  "armas_objetos": [
+    {
+      "item": "Besta",
+      "dano": "1D+1",
+      "tipo": "perf",
+      "qtd": 1,
+      "peso": 3.0,
+      "categoria": "Armas"
+    },
+    {
+      "item": "Adagas (arremesso)",
+      "dano": "1D-4",
+      "tipo": "perf",
+      "qtd": 5,
+      "peso": 0.5,
+      "categoria": "Armas"
+    },
+    {
+      "item": "Virotes",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 20,
+      "peso": 0.6,
+      "categoria": "Munição"
+    },
+    {
+      "item": "Aljava (10 virotes)",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 0.25,
+      "categoria": "Munição"
+    },
+    {
+      "item": "Coura (tronco e braços)",
+      "dano": "-",
+      "tipo": "DP1/RD1",
+      "qtd": 1,
+      "peso": 2.0,
+      "categoria": "Armadura"
+    },
+    {
+      "item": "Roupas comuns",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 0.5,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Gazuas (média)",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 0.0,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Corda (10 m)",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 0.7,
+      "categoria": "Equipamento"
+    }
+  ],
+  "peso_total": 7.55,
+  "custo_total": 395,
+  "dinheiro": 605,
+  "pericias": [
+    {
+      "nome": "Faca",
+      "nh": 15,
+      "tipo": "DX/F",
+      "custo": 2,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Arremesso de Faca",
+      "nh": 15,
+      "tipo": "DX/F",
+      "custo": 2,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Besta",
+      "nh": 14,
+      "tipo": "DX/F",
+      "custo": 1,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Furtividade",
+      "nh": 16,
+      "tipo": "DX/M",
+      "custo": 8,
+      "categoria": "Físicas"
+    },
+    {
+      "nome": "Escalada",
+      "nh": 14,
+      "tipo": "DX/M",
+      "custo": 2,
+      "categoria": "Físicas"
+    },
+    {
+      "nome": "Acrobacia",
+      "nh": 14,
+      "tipo": "DX/D",
+      "custo": 4,
+      "categoria": "Físicas"
+    },
+    {
+      "nome": "Fuga",
+      "nh": 14,
+      "tipo": "DX/D",
+      "custo": 4,
+      "categoria": "Físicas"
+    },
+    {
+      "nome": "Sombra",
+      "nh": 13,
+      "tipo": "IQ/M",
+      "custo": 4,
+      "categoria": "Ladinas"
+    },
+    {
+      "nome": "Arrombamento",
+      "nh": 12,
+      "tipo": "IQ/M",
+      "custo": 2,
+      "categoria": "Ladinas"
+    },
+    {
+      "nome": "Ocultamento",
+      "nh": 12,
+      "tipo": "IQ/M",
+      "custo": 2,
+      "categoria": "Ladinas"
+    },
+    {
+      "nome": "Venefício",
+      "nh": 12,
+      "tipo": "IQ/D",
+      "custo": 4,
+      "categoria": "Ladinas"
+    },
+    {
+      "nome": "Rastreamento",
+      "nh": 13,
+      "tipo": "IQ/M",
+      "custo": 4,
+      "categoria": "Externas"
+    },
+    {
+      "nome": "Sobrevivência (Floresta)",
+      "nh": 12,
+      "tipo": "IQ/M",
+      "custo": 2,
+      "categoria": "Externas"
+    },
+    {
+      "nome": "Navegação",
+      "nh": 12,
+      "tipo": "IQ/D",
+      "custo": 4,
+      "categoria": "Externas"
+    },
+    {
+      "nome": "Camuflagem",
+      "nh": 13,
+      "tipo": "IQ/F",
+      "custo": 2,
+      "categoria": "Externas"
+    },
+    {
+      "nome": "Lábia",
+      "nh": 13,
+      "tipo": "IQ/M",
+      "custo": 4,
+      "categoria": "Sociais"
+    },
+    {
+      "nome": "Atuação",
+      "nh": 13,
+      "tipo": "IQ/M",
+      "custo": 4,
+      "categoria": "Sociais"
+    },
+    {
+      "nome": "Comércio",
+      "nh": 12,
+      "tipo": "IQ/M",
+      "custo": 2,
+      "categoria": "Sociais"
+    },
+    {
+      "nome": "Boemia",
+      "nh": 11,
+      "tipo": "HT/M",
+      "custo": 1,
+      "categoria": "Sociais"
+    },
+    {
+      "nome": "Ânglico (nativa)",
+      "nh": 12,
+      "tipo": "IQ/M",
+      "custo": 0,
+      "categoria": "Línguas"
+    },
+    {
+      "nome": "Goblinês dos Mercadores",
+      "nh": 12,
+      "tipo": "IQ/M",
+      "custo": 2,
+      "categoria": "Línguas"
+    }
+  ],
+  "resumo": {
+    "atributos": 60,
+    "vantagens": 90,
+    "desvantagens": -55,
+    "peculiaridades": -5,
+    "pericias": 60,
+    "total": 150
+  },
+  "npc_bloco": {
+    "titulo": "Forma de javali",
+    "texto": "Javali (Homem-Javali, licantropia voluntária: muda em 3 s, indefeso, ou na lua cheia); 175,8 kg; 2 hexes. Entende, mas não fala e não usa as mãos. ST 16, DX 15, IQ 12, HT 14. Velocidade Básica 8; Deslocamento 8. Esquiva 8 (+1 Reflexos em Combate). DP 1, RD 3. PV 14. Vantagens: Regeneração (1 PV a cada 12 h); Reflexos em Combate; Noção do Perigo; Visão Noturna. Fraqueza: prata dobra o dano e anula a regeneração. Armas: Presas : 1D+1 corte; Pisoteio : 1D-1 contusão."
+  }
+}

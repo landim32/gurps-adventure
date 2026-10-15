@@ -1,0 +1,443 @@
+{
+  "nome": "Urzog, o Bigorna",
+  "jogador": "Rodrigo",
+  "arquetipo": "Guerreiro (Módulo Básico)",
+  "raca": "Orc (Fantasy)",
+  "idade": 40,
+  "aparencia": "1,78 m; 98,0 kg; 40 anos, orc corpulento e barrigudo, pele cinza-esverdeada, presas",
+  "historia": "Orc brigão e comilão que ninguém derruba; a Seita Lych tem a alma dele",
+  "data_criacao": "13/10/2026",
+  "sequencia": "1",
+  "pontos_gastar": 150,
+  "pontos_total": 150,
+  "fora_da_campanha": false,
+  "atributos": {
+    "ST": {
+      "valor": 13,
+      "custo": 30
+    },
+    "DX": {
+      "valor": 11,
+      "custo": 10
+    },
+    "IQ": {
+      "valor": 8,
+      "custo": 0
+    },
+    "HT": {
+      "valor": 15,
+      "custo": 45
+    }
+  },
+  "fadiga": 13,
+  "pontos_vida": 17,
+  "dano_basico": {
+    "gdp": "1D",
+    "bal": "2D-1"
+  },
+  "velocidade_basica": 6.5,
+  "deslocamento": 4,
+  "carga": {
+    "nenhuma": 13,
+    "leve": 26,
+    "media": 39,
+    "pesada": 78,
+    "muito_pesada": 130
+  },
+  "defesa_passiva": {
+    "armadura": 1,
+    "escudo": 3,
+    "total": 4
+  },
+  "defesas_ativas": {
+    "esquiva": 4,
+    "aparar": 7,
+    "bloqueio": 7
+  },
+  "reacao": "-3",
+  "vantagens_desvantagens": [
+    {
+      "nome": "Raça: Orc",
+      "custo": -10,
+      "raca": true
+    },
+    {
+      "nome": "Rijeza +2 (RD 2)",
+      "custo": 25
+    },
+    {
+      "nome": "Hipoalgia",
+      "custo": 10
+    },
+    {
+      "nome": "Recuperação Alígera",
+      "custo": 5
+    },
+    {
+      "nome": "Força de Vontade +4",
+      "custo": 16
+    },
+    {
+      "nome": "Dever: Seita Lych (quase sempre)",
+      "custo": -15,
+      "lembrete": "A alma está presa por um mestre da seita (a definir): a seita chama e ele vai"
+    },
+    {
+      "nome": "Fúria",
+      "custo": -15,
+      "lembrete": "Atingido mais de 3 vezes na rodada: Vontade (12) ou enfurece. Furioso: Ataque Total, sem atordoar, HT+4"
+    },
+    {
+      "nome": "Alcoolismo",
+      "custo": -15,
+      "lembrete": "Vontade (12) diante de álcool; falhou: porre de 2D horas e ressaca em dobro, -3 em tudo"
+    },
+    {
+      "nome": "Excesso de Peso",
+      "custo": -5,
+      "lembrete": "+30% de peso: 24 kg a mais, que contam como Carga permanente"
+    },
+    {
+      "nome": "Gula",
+      "custo": -5,
+      "lembrete": "Vontade para resistir a comida e bebida; leva provisões extras"
+    }
+  ],
+  "raca_tracos": [
+    {
+      "nome": "IQ -2, HT +1"
+    },
+    {
+      "nome": "+2 PV"
+    },
+    {
+      "nome": "Ouvido Aguçado"
+    },
+    {
+      "nome": "Intolerância"
+    },
+    {
+      "nome": "Reputação -3"
+    },
+    {
+      "nome": "Altura -5 cm, peso +5 kg"
+    }
+  ],
+  "peculiaridades": [
+    "Gosta de ver o outro sofrer",
+    "Come grunhindo, arrota e cospe",
+    "Convida o inimigo a bater antes",
+    "Dorme de armadura",
+    "Guarda sobras nos bolsos"
+  ],
+  "armas_objetos": [
+    {
+      "item": "Machado (uma mão)",
+      "dano": "2D+1",
+      "tipo": "corte",
+      "qtd": 1,
+      "peso": 2.0,
+      "categoria": "Armas"
+    },
+    {
+      "item": "Escudo médio (DP 3)",
+      "dano": "-",
+      "tipo": "DP3",
+      "qtd": 1,
+      "peso": 7.0,
+      "categoria": "Armas"
+    },
+    {
+      "item": "Capacete couro (cabeça)",
+      "dano": "-",
+      "tipo": "DP2/RD2",
+      "qtd": 1,
+      "peso": 0.0,
+      "categoria": "Armadura"
+    },
+    {
+      "item": "Coura (tronco e braços)",
+      "dano": "-",
+      "tipo": "DP1/RD1",
+      "qtd": 1,
+      "peso": 2.0,
+      "categoria": "Armadura"
+    },
+    {
+      "item": "Manoplas (mãos)",
+      "dano": "-",
+      "tipo": "DP3/RD4",
+      "qtd": 1,
+      "peso": 1.0,
+      "categoria": "Armadura"
+    },
+    {
+      "item": "Loriga couro (pernas)",
+      "dano": "-",
+      "tipo": "DP2/RD2",
+      "qtd": 1,
+      "peso": 2.0,
+      "categoria": "Armadura"
+    },
+    {
+      "item": "Roupas comuns",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 0.5,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Rações (5 refeições)",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 1.25,
+      "categoria": "Equipamento"
+    }
+  ],
+  "peso_total": 15.75,
+  "custo_total": 360,
+  "dinheiro": 640,
+  "pericias": [
+    {
+      "nome": "Machado/Maça",
+      "nh": 14,
+      "tipo": "DX/M",
+      "custo": 16,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Escudo",
+      "nh": 14,
+      "tipo": "DX/F",
+      "custo": 8,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Briga",
+      "nh": 15,
+      "tipo": "DX/F",
+      "custo": 16,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Luta Livre",
+      "nh": 13,
+      "tipo": "DX/M",
+      "custo": 8,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Cavalgar (Cavalo)",
+      "nh": 11,
+      "tipo": "DX/M",
+      "custo": 2,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Intimidação",
+      "nh": 10,
+      "tipo": "IQ/M",
+      "custo": 6,
+      "categoria": "Sociais"
+    },
+    {
+      "nome": "Culinária",
+      "nh": 8,
+      "tipo": "IQ/F",
+      "custo": 1,
+      "categoria": "Sociais"
+    },
+    {
+      "nome": "Soco",
+      "nh": 15,
+      "tipo": "Briga",
+      "custo": 0,
+      "categoria": "Manobras",
+      "uso": "Atq",
+      "dano": "1D+1 cont",
+      "mod": "manoplas +2",
+      "alcance": "C",
+      "obs": "1D-1 sem manoplas; 1D+1 com elas",
+      "pag": "MB",
+      "descricao": "Ataque com NH em Briga (15). Dano GDP-2 mais 1 (Briga ÷ 10) = 1D-1 de contusão; as manoplas somam +2, então 1D+1."
+    },
+    {
+      "nome": "Chute",
+      "nh": 13,
+      "tipo": "Briga",
+      "custo": 0,
+      "categoria": "Manobras",
+      "uso": "Atq",
+      "dano": "1D+1 cont",
+      "mod": "descalço",
+      "alcance": "C",
+      "obs": "Briga-2; erro pode derrubar",
+      "pag": "MB",
+      "descricao": "Ataque com Briga-2 (13). Dano GDP mais 1 (Briga) = 1D+1 de contusão (+1 com bota pesada; ele está descalço). Se errar, teste de DX ou Briga para não cair."
+    },
+    {
+      "nome": "Aparar (Briga)",
+      "nh": 10,
+      "tipo": "Briga",
+      "custo": 0,
+      "categoria": "Manobras",
+      "uso": "Def",
+      "dano": "-",
+      "mod": "2 por turno",
+      "alcance": "C",
+      "obs": "2/3 do NH em Briga",
+      "pag": "MB",
+      "descricao": "Defesa de 2/3 do NH em Briga (10). Apara soco, chute e arma de combate de perto, uma vez com cada mão por turno. Contra arma: -3, salvo golpe de ponta; se falhar, o atacante pode acertar o braço."
+    },
+    {
+      "nome": "Chave de Braço",
+      "nh": 16,
+      "tipo": "Luta Livre/M",
+      "custo": 2,
+      "categoria": "Manobras",
+      "uso": "Esp",
+      "dano": "dor/quebra",
+      "mod": "Disputa",
+      "alcance": "C",
+      "obs": "Prende o braço; margem vira dano",
+      "pag": "40",
+      "descricao": "Apara o golpe ou segura o braço e vence a Disputa Rápida: prende. A vítima só se solta com Chave de Braço+4 ou ST contra ST. Cada ponto de margem é 1 de dano ou dor; dano que incapacita quebra o braço."
+    },
+    {
+      "nome": "Mata-Leão",
+      "nh": 13,
+      "tipo": "Luta Livre/D",
+      "custo": 4,
+      "categoria": "Manobras",
+      "uso": "Esp",
+      "dano": "como Estrangular",
+      "mod": "-5 p/ soltar",
+      "alcance": "C",
+      "obs": "Segura por trás; asfixia",
+      "pag": "41",
+      "descricao": "Segura por trás com as duas mãos e prende o pescoço: DP não protege, a vítima asfixia e desvencilhar-se sofre -5. Pode causar dano como Estrangular."
+    },
+    {
+      "nome": "Golpe com a Cabeça",
+      "nh": 14,
+      "tipo": "Briga/M",
+      "custo": 6,
+      "categoria": "Manobras",
+      "uso": "Atq",
+      "dano": "GDP-1 cérebro",
+      "mod": "+1 se segura",
+      "alcance": "C",
+      "obs": "Sem Aparar; Esq -1, Bloq -3",
+      "pag": "46",
+      "descricao": "Cabeçada só em combate de perto. A vítima não pode Aparar; Esquiva -1, Bloqueio -3. Dano GDP-1 no cérebro. Contra RD 4+, testa HT ou sofre 1d-3."
+    },
+    {
+      "nome": "Pisão",
+      "nh": 15,
+      "tipo": "Briga/M",
+      "custo": 2,
+      "categoria": "Manobras",
+      "uso": "Atq",
+      "dano": "GDP+1+Briga",
+      "mod": "-",
+      "alcance": "C",
+      "obs": "Só pé de quem está de pé ou corpo caído",
+      "pag": "52",
+      "descricao": "Calcanhar no pé de quem está de pé ou no corpo de quem está caído. Dano GDP+1 mais Briga. Falhando, testa HT para não ferir o próprio pé."
+    },
+    {
+      "nome": "Luta no Solo",
+      "nh": 15,
+      "tipo": "Briga/D",
+      "custo": 6,
+      "categoria": "Manobras",
+      "uso": "Pass",
+      "dano": "-",
+      "mod": "sem -4",
+      "alcance": "-",
+      "obs": "Luta deitado sem os -4/-3",
+      "pag": "45",
+      "descricao": "Lutar deitado dá -4 nos ataques e -3 nas defesas. Com a manobra ataca sem penalidade e defende a -1."
+    },
+    {
+      "nome": "Derrubar o Oponente",
+      "nh": 14,
+      "tipo": "ST+Luta Livre",
+      "custo": 0,
+      "categoria": "Manobras",
+      "uso": "Esp",
+      "dano": "-",
+      "mod": "Disputa ST",
+      "alcance": "C",
+      "obs": "Só alvo em pé e já Segurado",
+      "pag": "MB 112",
+      "descricao": "Alvo em pé e já Segurado. Disputa Rápida: o melhor entre ST, DX ou Judô contra a ST dele; a Luta Livre soma 1/8 do NH à ST (aqui 13+1 = 14). Vencendo, ele cai; perdendo, cai você."
+    },
+    {
+      "nome": "Encontrão",
+      "nh": 13,
+      "tipo": "ST",
+      "custo": 0,
+      "categoria": "Manobras",
+      "uso": "Atq",
+      "dano": "-",
+      "mod": "+2 correr/escudo",
+      "alcance": "C",
+      "obs": "Disputa de DX (11) e de ST",
+      "pag": "MB 112",
+      "descricao": "Disputa Rápida de DX para acertar (-2 por hex lateral ou alvo caído), depois de ST: +2 se correu, +2 com escudo médio, -2 se o alvo corre ou tem escudo. Quem perde cai; 17-18 no teste atordoa."
+    },
+    {
+      "nome": "Arremetida com o Escudo",
+      "nh": 15,
+      "tipo": "ST+escudo",
+      "custo": 0,
+      "categoria": "Manobras",
+      "uso": "Atq",
+      "dano": "-",
+      "mod": "+2 escudo",
+      "alcance": "C",
+      "obs": "Encontrão com escudo; derruba",
+      "pag": "MB 112",
+      "descricao": "Encontrão com o escudo médio: +2 na disputa de ST (aqui 13+2 = 15). Arremetida bem-sucedida derruba o oponente. Sem dano, salvo 17-18 no teste de ST (atordoa)."
+    },
+    {
+      "nome": "Segurar Perna",
+      "nh": 15,
+      "tipo": "Briga",
+      "custo": 0,
+      "categoria": "Manobras",
+      "uso": "Esp",
+      "dano": "-",
+      "mod": "Aparar margem 2",
+      "alcance": "C",
+      "obs": "Agarra chute alto; +3 p/ derrubar",
+      "pag": "48",
+      "descricao": "Só contra chute em áreas 3-11. Aparar desarmada com margem 2 ou mais agarra a perna: Disputa do NH em Briga contra a DX ou o Chute dele. Vencendo, a vítima fica a -4 e Derrubar ganha +3."
+    },
+    {
+      "nome": "Órquico (nativa)",
+      "nh": 8,
+      "tipo": "IQ/M",
+      "custo": 0,
+      "categoria": "Línguas"
+    },
+    {
+      "nome": "Ânglico",
+      "nh": 8,
+      "tipo": "IQ/M",
+      "custo": 2,
+      "categoria": "Línguas"
+    }
+  ],
+  "resumo": {
+    "atributos": 85,
+    "vantagens": 56,
+    "desvantagens": -65,
+    "peculiaridades": -5,
+    "pericias": 79,
+    "total": 150
+  }
+}

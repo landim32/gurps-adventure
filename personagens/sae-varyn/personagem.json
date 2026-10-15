@@ -1,0 +1,554 @@
+{
+  "nome": "Sae'Varyn",
+  "jogador": "Henrique",
+  "arquetipo": "Clérigo/Curandeiro caído → Necromante (Fantasy + Magia)",
+  "raca": "Elfo Negro (Fantasy)",
+  "aparencia": "1,75 m; 68,1 kg; 300 anos, elfo esguio de pele cinza-pálida e cabelos brancos trançados, olhos frios cor de gelo, sobreveste templária branca manchada sem a cruz",
+  "historia": "Elfo que foi templário e mentor do jovem Kaelric; questionou a fé em voz alta, caiu e serve a Seita Lych. A alma está presa num terço profanado.",
+  "data_criacao": "14/10/2026",
+  "sequencia": "1",
+  "pontos_gastar": 150,
+  "pontos_total": 150,
+  "atributos": {
+    "ST": {
+      "valor": 10,
+      "custo": 10
+    },
+    "DX": {
+      "valor": 11,
+      "custo": 0
+    },
+    "IQ": {
+      "valor": 15,
+      "custo": 45
+    },
+    "HT": {
+      "valor": 13,
+      "custo": 30
+    }
+  },
+  "fadiga": 10,
+  "pontos_vida": 13,
+  "dano_basico": {
+    "gdp": "1D-2",
+    "bal": "1D"
+  },
+  "velocidade_basica": 6.0,
+  "deslocamento": 5,
+  "carga": {
+    "nenhuma": 10,
+    "leve": 20,
+    "media": 30,
+    "pesada": 60,
+    "muito_pesada": 100
+  },
+  "defesa_passiva": {
+    "armadura": 2,
+    "escudo": 1,
+    "total": 3
+  },
+  "defesas_ativas": {
+    "esquiva": 6,
+    "aparar": 8,
+    "bloqueio": 6
+  },
+  "reacao": "+2 (Carisma/Aparência); -3 sádico/renegado conhecido",
+  "vantagens_desvantagens": [
+    {
+      "nome": "Raça: Elfo Negro",
+      "custo": 30
+    },
+    {
+      "nome": "Hipoalgia (Limiar de Dor)",
+      "custo": 10
+    },
+    {
+      "nome": "Aptidão Mágica 3 (racial 1 +2)",
+      "custo": 20
+    },
+    {
+      "nome": "Clericato (Seita Lych)",
+      "custo": 5
+    },
+    {
+      "nome": "Dever: Seita Lych (quase sempre)",
+      "custo": -15
+    },
+    {
+      "nome": "Sadismo",
+      "custo": -15
+    },
+    {
+      "nome": "Excesso de Confiança",
+      "custo": -10
+    },
+    {
+      "nome": "Megalomania",
+      "custo": -10
+    },
+    {
+      "nome": "Má Reputação (necromante renegado)",
+      "custo": -5
+    }
+  ],
+  "peculiaridades": [
+    "Reza em latim por hábito, mesmo renegado",
+    "Nunca pronuncia o nome do Kaelric",
+    "Cataloga cada cadáver que levanta",
+    "Chama os vivos de 'os de um dia'",
+    "Toca o peito onde pendia o terço"
+  ],
+  "armas_objetos": [
+    {
+      "item": "Maça",
+      "dano": "1D+3",
+      "tipo": "cont",
+      "qtd": 1,
+      "peso": 2.5,
+      "categoria": "Armas",
+      "obs": "ST mín. 12: -2 no NH com ST 10"
+    },
+    {
+      "item": "Broquel",
+      "dano": "-",
+      "tipo": "DP1",
+      "qtd": 1,
+      "peso": 1.0,
+      "categoria": "Armas"
+    },
+    {
+      "item": "Capacete de couro (cabeça)",
+      "dano": "-",
+      "tipo": "DP2/RD2",
+      "qtd": 1,
+      "peso": 0.0,
+      "categoria": "Armadura"
+    },
+    {
+      "item": "Loriga de couro (tronco)",
+      "dano": "-",
+      "tipo": "DP2/RD2",
+      "qtd": 1,
+      "peso": 4.5,
+      "categoria": "Armadura"
+    },
+    {
+      "item": "Bastão",
+      "dano": "1D+2",
+      "tipo": "cont",
+      "qtd": 1,
+      "peso": 2.0,
+      "categoria": "Armas",
+      "obs": "Aparar vale 2/3 do NH. Encantá-lo como cajado depende do Mestre"
+    },
+    {
+      "item": "Kit simples de primeiros socorros",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 1.0,
+      "categoria": "Equipamento",
+      "obs": "+1 em Primeiros Socorros"
+    },
+    {
+      "item": "Terço profanado + símbolo",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 0.2,
+      "categoria": "Equipamento",
+      "obs": "Guarda a alma dele; objeto de enredo"
+    },
+    {
+      "item": "Sacola grande",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 0.25,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Rações de viagem (5)",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 5,
+      "peso": 1.25,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Moringa pequena (1 litro)",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 1.0,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Manta (lã grossa)",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 2.5,
+      "categoria": "Equipamento"
+    }
+  ],
+  "peso_total": 16.2,
+  "custo_total": 288,
+  "pericias": [
+    {
+      "nome": "Machado/Maça",
+      "nh": 12,
+      "tipo": "DX/M",
+      "custo": 4,
+      "categoria": "Combate",
+      "obs": "ST mín. 12 da Maça: -2 (NH efetivo 10)"
+    },
+    {
+      "nome": "Escudo",
+      "nh": 11,
+      "tipo": "DX/F",
+      "custo": 1,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Bastão",
+      "nh": 11,
+      "tipo": "DX/D",
+      "custo": 4,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Diagnose",
+      "nh": 15,
+      "tipo": "IQ/D",
+      "custo": 4,
+      "categoria": "Médicas"
+    },
+    {
+      "nome": "Primeiros Socorros",
+      "nh": 16,
+      "tipo": "IQ/F",
+      "custo": 2,
+      "categoria": "Médicas"
+    },
+    {
+      "nome": "Cirurgia",
+      "nh": 13,
+      "tipo": "IQ/MD",
+      "custo": 2,
+      "categoria": "Médicas"
+    },
+    {
+      "nome": "Fisiologia",
+      "nh": 14,
+      "tipo": "IQ/MD",
+      "custo": 4,
+      "categoria": "Médicas"
+    },
+    {
+      "nome": "Teologia",
+      "nh": 15,
+      "tipo": "IQ/D",
+      "custo": 4,
+      "categoria": "Eruditas"
+    },
+    {
+      "nome": "Ocultismo",
+      "nh": 16,
+      "tipo": "IQ/M",
+      "custo": 4,
+      "categoria": "Eruditas"
+    },
+    {
+      "nome": "Filosofia",
+      "nh": 15,
+      "tipo": "IQ/D",
+      "custo": 4,
+      "categoria": "Eruditas"
+    },
+    {
+      "nome": "Trato Social",
+      "nh": 16,
+      "tipo": "IQ/F",
+      "custo": 1,
+      "categoria": "Sociais"
+    },
+    {
+      "nome": "Élfico (nativa)",
+      "nh": 15,
+      "tipo": "IQ/M",
+      "custo": 0,
+      "categoria": "Línguas"
+    },
+    {
+      "nome": "Ânglico",
+      "nh": 14,
+      "tipo": "IQ/M",
+      "custo": 1,
+      "categoria": "Línguas"
+    },
+    {
+      "nome": "Latim",
+      "nh": 14,
+      "tipo": "IQ/M",
+      "custo": 1,
+      "categoria": "Línguas"
+    }
+  ],
+  "magias": [
+    {
+      "nome": "Dar Força",
+      "classe": "R",
+      "nh": 16,
+      "tempo": "1 seg",
+      "duracao": "permanente",
+      "custo_fazer": "1/PF",
+      "custo_manter": "—",
+      "obs": "Pré-req.: Aptidão Mágica",
+      "pag": "M",
+      "custo": 1,
+      "categoria": "Cura"
+    },
+    {
+      "nome": "Dar Vitalidade",
+      "classe": "R",
+      "nh": 16,
+      "tempo": "1 seg",
+      "duracao": "1 hora",
+      "custo_fazer": "1/HT",
+      "custo_manter": "—",
+      "obs": "Pré-req.: Dar Força",
+      "pag": "M",
+      "custo": 1,
+      "categoria": "Cura"
+    },
+    {
+      "nome": "Cura Superficial",
+      "classe": "R",
+      "nh": 17,
+      "tempo": "1 seg",
+      "duracao": "permanente",
+      "custo_fazer": "1 a 3",
+      "custo_manter": "—",
+      "obs": "Cura 1-3 PV. Pré-req.: Dar Vitalidade",
+      "pag": "M",
+      "custo": 2,
+      "categoria": "Cura"
+    },
+    {
+      "nome": "Cura Profunda",
+      "classe": "R",
+      "nh": 16,
+      "tempo": "1 seg",
+      "duracao": "permanente",
+      "custo_fazer": "1 a 4",
+      "custo_manter": "—",
+      "obs": "MD. Cura até 8 PV. Pré-req.: Cura Superficial",
+      "pag": "M",
+      "custo": 2,
+      "categoria": "Cura"
+    },
+    {
+      "nome": "Despertar",
+      "classe": "A",
+      "nh": 16,
+      "tempo": "1 seg",
+      "duracao": "instant.",
+      "custo_fazer": "1",
+      "custo_manter": "—",
+      "obs": "Anula atordoam./inconsc. Pré-req.: Dar Vitalidade",
+      "pag": "M",
+      "custo": 1,
+      "categoria": "Cura"
+    },
+    {
+      "nome": "Detecção de Magia",
+      "classe": "R",
+      "nh": 16,
+      "tempo": "5 seg",
+      "duracao": "instant.",
+      "custo_fazer": "2",
+      "custo_manter": "—",
+      "obs": "Revela encantamento. Pré-req.: Aptidão Mágica",
+      "pag": "M",
+      "custo": 1,
+      "categoria": "Proteção e Advertência"
+    },
+    {
+      "nome": "Aura",
+      "classe": "I",
+      "nh": 17,
+      "tempo": "1 seg",
+      "duracao": "instant.",
+      "custo_fazer": "3",
+      "custo_manter": "—",
+      "obs": "Lê aura: morto-vivo, possessão. Pré-req.: Detecção de Magia",
+      "pag": "M",
+      "custo": 2,
+      "categoria": "Proteção e Advertência"
+    },
+    {
+      "nome": "Identificação de Mágica",
+      "classe": "I",
+      "nh": 16,
+      "tempo": "1 seg",
+      "duracao": "instant.",
+      "custo_fazer": "2",
+      "custo_manter": "—",
+      "obs": "Pré-req.: Detecção de Magia",
+      "pag": "M",
+      "custo": 1,
+      "categoria": "Proteção e Advertência"
+    },
+    {
+      "nome": "Escudo",
+      "classe": "R",
+      "nh": 17,
+      "tempo": "1 seg",
+      "duracao": "1 min",
+      "custo_fazer": "2/DP (máx 5)",
+      "custo_manter": "metade",
+      "obs": "+DP a si/aliado. Pré-req.: Aptidão Mágica 2",
+      "pag": "M",
+      "custo": 2,
+      "categoria": "Proteção e Advertência"
+    },
+    {
+      "nome": "Contra-Mágicas",
+      "classe": "R",
+      "nh": 16,
+      "tempo": "5 seg",
+      "duracao": "—",
+      "custo_fazer": "½ da mágica",
+      "custo_manter": "—",
+      "obs": "Anula mágica que ele conhece. Pré-req.: Aptidão Mágica",
+      "pag": "M",
+      "custo": 1,
+      "categoria": "Proteção e Advertência"
+    },
+    {
+      "nome": "Visão da Morte",
+      "classe": "R",
+      "nh": 16,
+      "tempo": "3 seg",
+      "duracao": "1 seg",
+      "custo_fazer": "2",
+      "custo_manter": "—",
+      "obs": "Atordoa a mente do alvo. Pré-req.: Aptidão Mágica",
+      "pag": "M",
+      "custo": 1,
+      "categoria": "Necromancia"
+    },
+    {
+      "nome": "Percepção de Espíritos",
+      "classe": "I",
+      "nh": 16,
+      "tempo": "1 seg",
+      "duracao": "instant.",
+      "custo_fazer": "½",
+      "custo_manter": "—",
+      "obs": "Detecta mortos-vivos. Pré-req.: Visão da Morte",
+      "pag": "M",
+      "custo": 1,
+      "categoria": "Necromancia"
+    },
+    {
+      "nome": "Convocar Espíritos",
+      "classe": "I",
+      "nh": 16,
+      "tempo": "5 min",
+      "duracao": "1 min",
+      "custo_fazer": "20",
+      "custo_manter": "10",
+      "obs": "Interroga os mortos. Pré-req.: Visão da Morte, AM 2",
+      "pag": "M",
+      "custo": 1,
+      "categoria": "Necromancia"
+    },
+    {
+      "nome": "Roubar Força",
+      "classe": "R",
+      "nh": 16,
+      "tempo": "1 min/3 ST",
+      "duracao": "perm.",
+      "custo_fazer": "0 (dreno)",
+      "custo_manter": "—",
+      "obs": "Ganha 1 ST a cada 3. Pré-req.: Cura Superficial",
+      "pag": "M",
+      "custo": 1,
+      "categoria": "Necromancia"
+    },
+    {
+      "nome": "Roubar Vitalidade",
+      "classe": "R",
+      "nh": 17,
+      "tempo": "1 min/3 HT",
+      "duracao": "perm.",
+      "custo_fazer": "0 (dreno)",
+      "custo_manter": "—",
+      "obs": "Dreno de HT. Pré-req.: Roubar Força",
+      "pag": "M",
+      "custo": 2,
+      "categoria": "Necromancia"
+    },
+    {
+      "nome": "Zumbi",
+      "classe": "R",
+      "nh": 17,
+      "tempo": "1 min",
+      "duracao": "perm.",
+      "custo_fazer": "8",
+      "custo_manter": "—",
+      "obs": "Levanta servo morto-vivo. Pré-req.: Convocar Espíritos, Dar Vitalidade",
+      "pag": "M",
+      "custo": 2,
+      "categoria": "Necromancia"
+    },
+    {
+      "nome": "Controle de Zumbi",
+      "classe": "R",
+      "nh": 17,
+      "tempo": "1 seg",
+      "duracao": "perm.",
+      "custo_fazer": "3",
+      "custo_manter": "—",
+      "obs": "Toma zumbi alheio. Pré-req.: Zumbi",
+      "pag": "M",
+      "custo": 2,
+      "categoria": "Necromancia"
+    }
+  ],
+  "resumo": {
+    "atributos": 85,
+    "vantagens": 65,
+    "desvantagens": -55,
+    "peculiaridades": -5,
+    "pericias": 60,
+    "total": 150
+  },
+  "idade": 300,
+  "raca_tracos": [
+    {
+      "nome": "IQ+1 DX+1 ST-1"
+    },
+    {
+      "nome": "Refl. Combate; AM 1"
+    },
+    {
+      "nome": "Carisma/Aparência +1"
+    },
+    {
+      "nome": "Talento Musical +2"
+    },
+    {
+      "nome": "Unaging"
+    },
+    {
+      "nome": "Intolerância; Código de Honra"
+    },
+    {
+      "nome": "Dever à natureza"
+    }
+  ],
+  "dinheiro": 712
+}

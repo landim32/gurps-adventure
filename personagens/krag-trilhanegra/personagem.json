@@ -1,0 +1,343 @@
+{
+  "nome": "Krag Trilhanegra",
+  "jogador": "Bruno",
+  "arquetipo": "Ranger (Fantasy)",
+  "raca": "Meio-Orc (Magia)",
+  "idade": 35,
+  "aparencia": "1,80 m; 72,6 kg; 35 anos, meio-orc corpulento e ágil, pele verde-acinzentada, presas curtas",
+  "historia": "Meio-orc rastreador e caçador de recompensas; a Seita Lych tem a alma dele num frasco",
+  "data_criacao": "14/10/2026",
+  "sequencia": "1",
+  "pontos_gastar": 150,
+  "pontos_total": 150,
+  "atributos": {
+    "ST": {
+      "valor": 12,
+      "custo": 20
+    },
+    "DX": {
+      "valor": 14,
+      "custo": 45
+    },
+    "IQ": {
+      "valor": 11,
+      "custo": 20,
+      "obs": "Base 12 comprado, -1 racial (Meio-Orc)"
+    },
+    "HT": {
+      "valor": 13,
+      "custo": 20,
+      "obs": "Base 12 comprado, +1 racial (Meio-Orc)"
+    }
+  },
+  "fadiga": 12,
+  "pontos_vida": 14,
+  "dano_basico": {
+    "gdp": "1D-1",
+    "bal": "1D+2"
+  },
+  "velocidade_basica": 6.75,
+  "deslocamento": 5,
+  "carga": {
+    "nenhuma": 12,
+    "leve": 24,
+    "media": 36,
+    "pesada": 72,
+    "muito_pesada": 120
+  },
+  "defesa_passiva": {
+    "armadura": 1,
+    "escudo": 0,
+    "total": 1
+  },
+  "defesas_ativas": {
+    "esquiva": 5,
+    "aparar": 7,
+    "bloqueio": 0
+  },
+  "reacao": "-2 (Meio-Orc)",
+  "raca_detalhes": {
+    "nome": "Meio-Orc",
+    "custo": 0,
+    "pacote": "HT +1, IQ -1, +1 Ponto de Vida extra, Ouvido Aguçado +1 (racial, já incluso no pacote de 0 pontos); reação -2 de praticamente todos, inclusive Orcs"
+  },
+  "vantagens_desvantagens": [
+    {
+      "nome": "Raça: Meio-Orc",
+      "custo": 0,
+      "raca": true,
+      "lado": "vantagem"
+    },
+    {
+      "nome": "Reflexos em Combate",
+      "custo": 15
+    },
+    {
+      "nome": "Senso de Direção",
+      "custo": 5
+    },
+    {
+      "nome": "Empatia com Animais",
+      "custo": 5
+    },
+    {
+      "nome": "Prontidão +1",
+      "custo": 5
+    },
+    {
+      "nome": "Aliado: Farejo (aparece ≤15)",
+      "custo": 15
+    },
+    {
+      "nome": "Dever: Seita Lych (quase sempre)",
+      "custo": -15
+    },
+    {
+      "nome": "Cobiça",
+      "custo": -15
+    },
+    {
+      "nome": "Paranóia",
+      "custo": -10
+    },
+    {
+      "nome": "Voto: destruir o frasco da alma",
+      "custo": -15
+    }
+  ],
+  "peculiaridades": [
+    "Dorme com a faca sob a cabeça",
+    "Fala baixo com o cão",
+    "Conta o dinheiro duas vezes",
+    "Evita olhar a Seita nos olhos",
+    "Guarda troféu de cada contrato"
+  ],
+  "armas_objetos": [
+    {
+      "item": "Arco longo",
+      "dano": "GDP+2",
+      "tipo": "perf",
+      "qtd": 1,
+      "peso": 1.5,
+      "categoria": "Armas",
+      "obs": "Dano máx. 1D+4; CdT3; 1/2D ST×15; Alc.Máx ST×20"
+    },
+    {
+      "item": "Besta",
+      "dano": "GDP+4",
+      "tipo": "perf",
+      "qtd": 1,
+      "peso": 3.0,
+      "categoria": "Armas",
+      "obs": "Dano máx. 3D; CdT4; 1/2D ST×20; Alc.Máx ST×25"
+    },
+    {
+      "item": "Faca",
+      "dano": "BAL-3",
+      "tipo": "corte",
+      "qtd": 1,
+      "peso": 0.25,
+      "categoria": "Armas"
+    },
+    {
+      "item": "Flechas",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 20,
+      "peso": 1.0,
+      "categoria": "Munição"
+    },
+    {
+      "item": "Virotes",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 10,
+      "peso": 0.5,
+      "categoria": "Munição"
+    },
+    {
+      "item": "Aljavas (3)",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 3,
+      "peso": 0.75,
+      "categoria": "Munição"
+    },
+    {
+      "item": "Laudel (tronco)",
+      "dano": "-",
+      "tipo": "DP1/RD1",
+      "qtd": 1,
+      "peso": 3.0,
+      "categoria": "Armadura"
+    },
+    {
+      "item": "Mochila pequena",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 1.5,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Odre grande (água)",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 0.5,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Rações de viagem (5)",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 5,
+      "peso": 1.25,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Corda (10m, 3/8 pol.)",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 0.7,
+      "categoria": "Equipamento"
+    }
+  ],
+  "peso_total": 13.95,
+  "custo_total": 605,
+  "companheiro_animal": {
+    "nome": "Farejo",
+    "tipo": "Cão de caça (Sabujo)",
+    "atributos": {
+      "ST": 12,
+      "DX": 12,
+      "IQ": 5,
+      "HT": 15
+    },
+    "velocidade": 12,
+    "defesa_passiva_resistencia": "0/0",
+    "dano_mordida": "1D-1 corte",
+    "obs": "Aliado de 100 pontos (5 base ×3: aparece quase sempre, 15 ou menos), sem custo em dinheiro. Ficha própria: farejo.json, farejo.md, farejo-ficha.jpg."
+  },
+  "pericias": [
+    {
+      "nome": "Arco",
+      "nh": 17,
+      "tipo": "DX/D",
+      "custo": 24,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Besta",
+      "nh": 15,
+      "tipo": "DX/F",
+      "custo": 2,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Sacar Rápido (Flecha)",
+      "nh": 14,
+      "tipo": "DX/F",
+      "custo": 1,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Faca",
+      "nh": 15,
+      "tipo": "DX/F",
+      "custo": 2,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Furtividade",
+      "nh": 15,
+      "tipo": "DX/M",
+      "custo": 4,
+      "categoria": "Físicas"
+    },
+    {
+      "nome": "Rastreamento",
+      "nh": 15,
+      "tipo": "IQ/M",
+      "custo": 10,
+      "categoria": "Externas/Profissionais"
+    },
+    {
+      "nome": "Sobrevivência (Floresta)",
+      "nh": 15,
+      "tipo": "IQ/M",
+      "custo": 10,
+      "categoria": "Externas/Profissionais"
+    },
+    {
+      "nome": "Camuflagem",
+      "nh": 12,
+      "tipo": "IQ/F",
+      "custo": 2,
+      "categoria": "Externas/Profissionais"
+    },
+    {
+      "nome": "Adestramento de Animais",
+      "nh": 10,
+      "tipo": "IQ/D",
+      "custo": 2,
+      "categoria": "Externas/Profissionais"
+    },
+    {
+      "nome": "Primeiros Socorros",
+      "nh": 12,
+      "tipo": "IQ/F",
+      "custo": 2,
+      "categoria": "Médicas"
+    },
+    {
+      "nome": "Órquico (nativa)",
+      "nh": 11,
+      "tipo": "IQ/M",
+      "custo": 0,
+      "categoria": "Línguas"
+    },
+    {
+      "nome": "Ânglico",
+      "nh": 10,
+      "tipo": "IQ/M",
+      "custo": 1,
+      "categoria": "Línguas"
+    }
+  ],
+  "resumo": {
+    "atributos": 105,
+    "vantagens": 45,
+    "desvantagens": -55,
+    "peculiaridades": -5,
+    "pericias": 60,
+    "total": 150,
+    "nota": "Aliado Farejo: 5 pts base ×3 (aparece quase sempre, 15 ou menos) = 15. Os 10 pts extras saíram das perícias menos importantes: Sobrevivência (Montanha) 4, Salto 2, Corrida 2, Conhecimento do Terreno 2. Perícias 60 (teto 70)."
+  },
+  "seita_lych": {
+    "dever": "Dever (Seita Lych), -15 pontos, obrigatório",
+    "mestre": "O nigromante Nekhar, o Embalsamador — figura da Seita conhecida por 'coletar' corpos e componentes raros em territórios hostis. Recrutou Krag justamente por sua perícia em rastrear e sobreviver onde outros morreriam. A alma de Krag está selada dentro de um pequeno frasco de vidro escuro guardado em algum lugar que só Nekhar conhece (local a definir pelo Mestre da mesa).",
+    "motivo_entrada": "Dinheiro e proteção. Como meio-orc, Krag nunca foi bem recebido em lugar nenhum — nem entre humanos, nem entre orcs. A Seita foi o primeiro lugar que o quis por sua utilidade, sem julgar sua origem. Ele aceitou o preço (a alma presa) calculando que conseguiria, cedo ou tarde, descobrir onde Nekhar guarda o frasco e recuperá-lo. Até lá, paga as contas e sobrevive.",
+    "personalidade": "Quer dinheiro suficiente para nunca mais depender de ninguém, e um dia descobrir e destruir o frasco com sua alma — nessa ordem. Teme morrer sem gastar o que ganhou e teme (mais do que admite) perder o cão, a única criatura que nunca o julgou pela raça. Trata as pessoas com pragmatismo frio: não confia em ninguém da Seita, faz o trabalho, cobra o combinado e não cria laços. Desde que sua alma foi presa, vive convencido de que todos — até Farejo, quase — podem estar de olho nele a mando de Nekhar; raramente perde alguém de vista por muito tempo."
+  },
+  "raca_tracos": [
+    {
+      "nome": "IQ -1, HT +1"
+    },
+    {
+      "nome": "+1 PV"
+    },
+    {
+      "nome": "Ouvido Aguçado +1"
+    },
+    {
+      "nome": "Reação -2"
+    }
+  ],
+  "dinheiro": 395,
+  "npc_bloco": {
+    "titulo": "Farejo",
+    "texto": "Cão de caça (Sabujo), porte médio; 5 anos; pelagem castanho-avermelhada, marcas brancas no focinho e no peito, orelhas caídas. Aliado de 100 pontos. ST 12, DX 12, IQ 5, HT 15. Velocidade Básica 12; Deslocamento 12. Esquiva 7 (6 +1 Reflexos em Combate). DP 0, RD 0. Fadiga 12; PV 15. Vantagens: Faro de Sabujo (Olfato e Rastreamento NH 18); Reflexos em Combate; Prontidão +3; Visão Noturna; Senso de Direção. Peculiaridades: Rosna perto de mortos-vivos; Nunca aceita comida de estranhos; Dorme encostado nas pernas de Krag; Enterra ossos no acampamento; Uiva se Krag se afasta. Armas: Mordida : 1D-1 corte."
+  }
+}

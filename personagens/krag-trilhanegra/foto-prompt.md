@@ -1,0 +1,5 @@
+# Prompt de Imagem — Krag Trilhanegra
+
+Dark fantasy digital illustration, character concept art, detailed painterly rendering with clean linework, in the style of a hand-drawn RPG character portrait. A male half-orc ranger and bounty hunter, 1.80 m tall, about 73 kg, 35 years old: stocky yet agile build, greenish-gray skin, short lower tusks, a short dark beard, a face marked by hunting scars, a stern distrustful frown, two thick braids falling from under a worn hood. He wears a tattered brown-leather hooded cloak with a fur-trimmed collar and ragged olive-green cape, a padded leather gambeson (laudel) crossed by leather straps and belts, small pouches and iron rings at the waist, bracers, worn tall laced leather boots. A longbow in his hand, a crossbow and quiver slung on his back, a knife at his belt. A lean alert hound dog with a reddish-brown short coat and white muzzle, in a reinforced leather collar, stands at his side. Full-body shot from head to toe, feet visible, character reference sheet pose, centered, plain light background (white or pale gray).
+
+*Estilo:* desenho/ilustração (não fotorrealista).
