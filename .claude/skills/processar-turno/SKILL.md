@@ -72,6 +72,17 @@ Junte **todas** as divergências e pergunte **uma vez**, antes de rolar qualquer
 
 ## 1a. Validar o movimento (antes de resolver qualquer ação)
 
+**Turno livre não valida posicionamento.** Se a campanha está em modo livre
+(`freeMode: true` no `get_campaign`; o `contexto` avisa com a linha `TURNO LIVRE`), **pule esta
+seção inteira**: não rode o `validar_movimento.py`, não confira Deslocamento, Carga, terreno nem
+distância percorrida, e não corrija peça. Quem precisa estar em outro lugar para a ação
+acontecer **é movido para onde precisar**: o `process_turn` leva o `x`, `y` e `look` da peça
+(ou do NPC), em qualquer distância, e a narração só descreve a chegada. Escolha um hexágono livre
+e adjacente ao alvo (confira o que está ocupado em `list_map_tokens`; `calcular-alcance` dá a
+distância e a frente) e diga no resumo ao Mestre onde cada um ficou. Continuam valendo: a
+ordem de ação, o alcance da **arma** e da **mágica** a partir da posição final, e as regras
+de Recuar. Fora do modo livre (combate, rodada com ordem), tudo abaixo vale como está.
+
 ```bash
 python .claude/skills/validar-movimento/scripts/validar_movimento.py turno
 ```
@@ -496,7 +507,8 @@ Depois do `process_turn`, o item 1 sai **sempre** de novo na tela: é o bloco qu
 
 - **Processar com ação faltando** sem ordem do Mestre.
 - **Resolver uma ação sem antes validar o movimento** da peça que a faz (seção 1a), nem deixar o
-  custo de pontos do roll6 decidir por conta própria.
+  custo de pontos do roll6 decidir por conta própria. **Exceção: turno livre** (`freeMode`), em
+  que não se valida e a peça vai para onde a ação precisar.
 - **Enviar qualquer coisa ao roll6** (`process_turn` ou outra escrita) antes de o Mestre
   aprovar o resultado, salvo aviso dele de que não precisa de aprovação.
 - **Rolar de cabeça** ou rolar de novo; inventar NH, RD ou DP.

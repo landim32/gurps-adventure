@@ -323,6 +323,7 @@ _(a preencher)_
 # ------------------------------------------------ CONTEXTO.md (o elenco, todo de uma vez)
 
 CONTEXTO = "CONTEXTO.md"
+AMBIENTE = "ambiente.md"
 
 
 def _fichas_do_elenco(r):
@@ -406,11 +407,17 @@ def escrever_contexto(r, p):
         "**desvantagens, peculiaridades e vantagens dele** abaixo. Só entra o que "
         "influencia a cena. Atributos, perícias e equipamento estão na ficha (a `contexto` "
         "os traz a cada jogada); PV, Fadiga, bolsa e ferimento, em `saude.md`, "
-        "`bolsa.md` e `mundo.md`.)_",
+        "`bolsa.md` e `mundo.md`. Onde o grupo está e o que vale ali (mana), em `ambiente.md`.)_",
         "",
         f"_{len(fichas)} personagem(ns). Atualizado em {agora()[:10]}._",
         "",
     ]
+    # Onde o grupo está e o que vale ali (mana, clima, leis): campanha/ambiente.md, escrito à mão.
+    ambiente = p / AMBIENTE
+    if ambiente.is_file():
+        texto = ambiente.read_text(encoding="utf-8").strip()
+        if texto:
+            out.extend([texto, "", f"_(de `{AMBIENTE}` — edite lá e regere.)_", ""])
     for pasta, d in fichas:
         out.extend(_bloco_personagem(pasta.relative_to(r), d))
         out.append("")

@@ -108,6 +108,7 @@ def montar(raiz, turno, campanha_id=None):
     c = roll6.cliente()
     dados = c.chamar("get_turn_data", {"campaignId": cid, "turnNo": turno})
     em_andamento = dados["turnNo"] == dados["currentTurn"]
+    livre = bool(c.chamar("get_campaign", {"campaignId": cid}).get("freeMode"))
     entradas = (c.chamar("get_turn_state", {"campaignId": cid})["entries"] if em_andamento
                 else roll6.lista(c.chamar("list_turn_entries", {"campaignId": cid, "turnNo": dados["turnNo"]})))
     indice = indice_local(mapa, dados.get("mapId"))
@@ -169,7 +170,7 @@ def montar(raiz, turno, campanha_id=None):
     if fora_do_repo:
         arquivos, est = [], {}
     return {"campaignId": cid, "fora_do_repositorio": fora_do_repo, "turno": dados["turnNo"], "turno_atual": dados["currentTurn"],
-            "em_andamento": em_andamento, "mapId": dados.get("mapId"), "indice_local": indice,
+            "em_andamento": em_andamento, "turno_livre": livre, "mapId": dados.get("mapId"), "indice_local": indice,
             "personagens": pjs, "npcs": npcs, "acoes_md": dados.get("actions") or "",
             "pendentes": pendentes, "so_moveu": so_moveu, "divergencias": divergencias,
             "arquivos": arquivos, "reacoes_json": (Path(est["capitulo_atual_pasta"]) / "reacoes.json").as_posix()
@@ -183,6 +184,9 @@ def imprimir(r):
     if r.get("fora_do_repositorio"):
         print("ATENÇÃO: campanha fora do repositório — sem saúde, mapa local, reações nem log locais.\n"
               "  Não registre com campanha.py (cairia na campanha ativa); o registro é só o process_turn.")
+    if r.get("turno_livre"):
+        print("TURNO LIVRE (freeMode): não valide o posicionamento nem o Deslocamento; "
+              "mova as peças para onde a ação precisar.")
     print()
     if not r["em_andamento"]:
         veredito = "SÓ LEITURA — turno já encerrado; process_turn só vale para o turno em andamento."
