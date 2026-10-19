@@ -1,0 +1,150 @@
+{
+ "largura": 2000,
+ "altura": 1143,
+ "paredes": [
+  {
+   "tipo": "retangulo",
+   "x": 89,
+   "y": 0,
+   "w": 112,
+   "h": 372,
+   "nome": "muralha lateral oeste"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 193,
+   "y": 238,
+   "w": 722,
+   "h": 137,
+   "nome": "muralha oeste (topo)"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 859,
+   "y": 238,
+   "w": 57,
+   "h": 167,
+   "nome": "batente oeste"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 1086,
+   "y": 238,
+   "w": 67,
+   "h": 167,
+   "nome": "batente leste"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 1086,
+   "y": 238,
+   "w": 833,
+   "h": 137,
+   "nome": "muralha leste (topo)"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 1808,
+   "y": 0,
+   "w": 104,
+   "h": 372,
+   "nome": "muralha lateral leste"
+  },
+  {
+   "tipo": "circulo",
+   "cx": 107,
+   "cy": 324,
+   "r": 107,
+   "nome": "torre oeste"
+  },
+  {
+   "tipo": "circulo",
+   "cx": 1890,
+   "cy": 324,
+   "r": 107,
+   "nome": "torre leste"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 0,
+   "y": 964,
+   "w": 234,
+   "h": 179,
+   "nome": "telhado sudoeste"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 421,
+   "y": 1015,
+   "w": 391,
+   "h": 128,
+   "nome": "telhado sul-esquerdo"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 1205,
+   "y": 1016,
+   "w": 427,
+   "h": 126,
+   "nome": "telhado sul-direito"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 1856,
+   "y": 952,
+   "w": 144,
+   "h": 190,
+   "nome": "telhado sudeste"
+  },
+  {
+   "tipo": "circulo",
+   "cx": 1243,
+   "cy": 763,
+   "r": 39,
+   "nivel": "muro-alto",
+   "nome": "barril 1"
+  },
+  {
+   "tipo": "circulo",
+   "cx": 1332,
+   "cy": 763,
+   "r": 39,
+   "nivel": "muro-alto",
+   "nome": "barril 2"
+  },
+  {
+   "tipo": "circulo",
+   "cx": 1421,
+   "cy": 763,
+   "r": 39,
+   "nivel": "muro-alto",
+   "nome": "barril 3"
+  },
+  {
+   "tipo": "circulo",
+   "cx": 1548,
+   "cy": 763,
+   "r": 36,
+   "nivel": "banco",
+   "nome": "cesto 1"
+  },
+  {
+   "tipo": "circulo",
+   "cx": 1632,
+   "cy": 763,
+   "r": 36,
+   "nivel": "banco",
+   "nome": "cesto 2"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 565,
+   "y": 737,
+   "w": 205,
+   "h": 89,
+   "nivel": "rocha-grande",
+   "nome": "carroça"
+  }
+ ],
+ "aberturas": []
+}

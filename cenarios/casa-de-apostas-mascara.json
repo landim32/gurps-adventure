@@ -1,0 +1,337 @@
+{
+ "largura": 1030,
+ "altura": 1074,
+ "paredes": [
+  {
+   "tipo": "retangulo",
+   "x": 196,
+   "y": 84,
+   "w": 617,
+   "h": 23,
+   "nome": "parede norte"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 196,
+   "y": 84,
+   "w": 22,
+   "h": 614,
+   "nome": "parede oeste"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 791,
+   "y": 84,
+   "w": 22,
+   "h": 614,
+   "nome": "parede leste"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 196,
+   "y": 673,
+   "w": 246,
+   "h": 24,
+   "nome": "parede sul oeste"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 548,
+   "y": 673,
+   "w": 265,
+   "h": 24,
+   "nome": "parede sul leste"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 0,
+   "y": 0,
+   "w": 113,
+   "h": 524,
+   "nome": "casa vizinha oeste"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 0,
+   "y": 965,
+   "w": 123,
+   "h": 109,
+   "nome": "telhado sudoeste"
+  },
+  {
+   "tipo": "poligono",
+   "pontos": [
+    [
+     835,
+     1074
+    ],
+    [
+     1030,
+     871
+    ],
+    [
+     1030,
+     1074
+    ]
+   ],
+   "nome": "telhado sudeste"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 0,
+   "y": 614,
+   "w": 106,
+   "h": 110,
+   "nivel": "rocha-grande",
+   "nome": "barraca oeste"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 870,
+   "y": 147,
+   "w": 46,
+   "h": 178,
+   "nivel": "rocha-grande",
+   "nome": "barraca leste 1"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 870,
+   "y": 393,
+   "w": 46,
+   "h": 189,
+   "nivel": "rocha-grande",
+   "nome": "barraca leste 2"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 996,
+   "y": 336,
+   "w": 34,
+   "h": 210,
+   "nivel": "rocha-grande",
+   "nome": "carroça leste"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 226,
+   "y": 0,
+   "w": 186,
+   "h": 40,
+   "nivel": "rocha-grande",
+   "nome": "barraca norte oeste"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 614,
+   "y": 0,
+   "w": 171,
+   "h": 40,
+   "nivel": "rocha-grande",
+   "nome": "barraca norte leste"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 206,
+   "y": 996,
+   "w": 191,
+   "h": 78,
+   "nivel": "rocha-grande",
+   "nome": "barraca sul oeste"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 614,
+   "y": 1002,
+   "w": 181,
+   "h": 72,
+   "nivel": "rocha-grande",
+   "nome": "barraca sul leste"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 251,
+   "y": 760,
+   "w": 161,
+   "h": 115,
+   "nivel": "rocha-grande",
+   "nome": "carrinho de mão"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 327,
+   "y": 734,
+   "w": 91,
+   "h": 68,
+   "nivel": "muro-alto",
+   "nome": "barris junto à porta"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 855,
+   "y": 624,
+   "w": 45,
+   "h": 94,
+   "nivel": "muro-alto",
+   "nome": "barris sudeste"
+  },
+  {
+   "tipo": "poligono",
+   "pontos": [
+    [
+     233,
+     138
+    ],
+    [
+     337,
+     138
+    ],
+    [
+     337,
+     199
+    ],
+    [
+     302,
+     236
+    ],
+    [
+     233,
+     236
+    ]
+   ],
+   "nivel": "mesa",
+   "nome": "mesa do canto noroeste"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 362,
+   "y": 136,
+   "w": 91,
+   "h": 63,
+   "nivel": "muro-alto",
+   "nome": "barris norte"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 604,
+   "y": 142,
+   "w": 45,
+   "h": 241,
+   "nivel": "balcao",
+   "nome": "balcão (braço vertical)"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 604,
+   "y": 325,
+   "w": 171,
+   "h": 58,
+   "nivel": "balcao",
+   "nome": "balcão (braço horizontal)"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 659,
+   "y": 142,
+   "w": 116,
+   "h": 52,
+   "nivel": "muro-alto",
+   "nome": "barris do bar"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 734,
+   "y": 199,
+   "w": 40,
+   "h": 94,
+   "nivel": "mesa",
+   "nome": "mesa lateral do bar"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 297,
+   "y": 325,
+   "w": 96,
+   "h": 105,
+   "nivel": "mesa",
+   "nome": "mesa verde oeste"
+  },
+  {
+   "tipo": "circulo",
+   "cx": 333,
+   "cy": 577,
+   "r": 55,
+   "nivel": "mesa",
+   "nome": "mesa redonda"
+  },
+  {
+   "tipo": "poligono",
+   "pontos": [
+    [
+     448,
+     461
+    ],
+    [
+     533,
+     396
+    ],
+    [
+     591,
+     441
+    ],
+    [
+     503,
+     516
+    ]
+   ],
+   "nivel": "mesa",
+   "nome": "mesa inclinada do centro"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 588,
+   "y": 530,
+   "w": 141,
+   "h": 89,
+   "nivel": "mesa",
+   "nome": "mesa verde leste"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 226,
+   "y": 299,
+   "w": 37,
+   "h": 147,
+   "nivel": "mesa",
+   "nome": "mesa estreita oeste"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 749,
+   "y": 461,
+   "w": 30,
+   "h": 63,
+   "nivel": "mesa",
+   "nome": "mesa pequena leste"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 233,
+   "y": 461,
+   "w": 40,
+   "h": 52,
+   "nivel": "muro-alto",
+   "nome": "barril oeste"
+  }
+ ],
+ "aberturas": [
+  {
+   "tipo": "retangulo",
+   "x": 443,
+   "y": 673,
+   "w": 106,
+   "h": 24,
+   "nome": "porta dupla sul"
+  }
+ ]
+}

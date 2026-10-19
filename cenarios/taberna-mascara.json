@@ -1,0 +1,273 @@
+{
+ "_leia": "Taberna 1536 x 2752 px. Coordenadas em pixels da imagem. Paredes de madeira nas quatro faces; lareira ao norte, balcão em U a leste, entrada da cozinha a oeste, porta dupla ao sul, seis mesas redondas. Tapetes de pele, bancos e cadeiras são piso (vazio).",
+ "largura": 1536,
+ "altura": 2752,
+ "paredes": [
+  {
+   "tipo": "retangulo",
+   "x": 0,
+   "y": 0,
+   "w": 1536,
+   "h": 259,
+   "nome": "parede norte (vigas e chaminé)"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 0,
+   "y": 0,
+   "w": 138,
+   "h": 1053,
+   "nome": "parede oeste, acima da cozinha"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 0,
+   "y": 1672,
+   "w": 138,
+   "h": 1080,
+   "nome": "parede oeste, abaixo da cozinha"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 0,
+   "y": 1053,
+   "w": 48,
+   "h": 619,
+   "nome": "parede oeste, fundo da cozinha"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 1438,
+   "y": 0,
+   "w": 98,
+   "h": 2753,
+   "nome": "parede leste"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 0,
+   "y": 2659,
+   "w": 1536,
+   "h": 94,
+   "nome": "parede sul"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 48,
+   "y": 1053,
+   "w": 378,
+   "h": 69,
+   "nome": "mureta da cozinha, norte",
+   "nivel": "balcao"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 48,
+   "y": 1528,
+   "w": 378,
+   "h": 145,
+   "nome": "mureta da cozinha, sul",
+   "nivel": "balcao"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 69,
+   "y": 1218,
+   "w": 89,
+   "h": 303,
+   "nome": "bancada de panelas da cozinha",
+   "nivel": "mesa"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 562,
+   "y": 259,
+   "w": 416,
+   "h": 140,
+   "nome": "lareira de pedra",
+   "nivel": "estante"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 1112,
+   "y": 851,
+   "w": 127,
+   "h": 842,
+   "nome": "balcão comprido",
+   "nivel": "balcao"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 1239,
+   "y": 853,
+   "w": 200,
+   "h": 110,
+   "nome": "balcão, braço norte",
+   "nivel": "balcao"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 1239,
+   "y": 1583,
+   "w": 206,
+   "h": 103,
+   "nome": "balcão, braço sul",
+   "nivel": "balcao"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 1356,
+   "y": 1012,
+   "w": 124,
+   "h": 523,
+   "nome": "prateleiras e barris atrás do balcão",
+   "nivel": "estante"
+  },
+  {
+   "tipo": "circulo",
+   "cx": 378,
+   "cy": 709,
+   "r": 121,
+   "nome": "mesa 1",
+   "nivel": "mesa"
+  },
+  {
+   "tipo": "circulo",
+   "cx": 713,
+   "cy": 1094,
+   "r": 121,
+   "nome": "mesa 2",
+   "nivel": "mesa"
+  },
+  {
+   "tipo": "circulo",
+   "cx": 534,
+   "cy": 1927,
+   "r": 117,
+   "nome": "mesa 3",
+   "nivel": "mesa"
+  },
+  {
+   "tipo": "circulo",
+   "cx": 1204,
+   "cy": 1961,
+   "r": 99,
+   "nome": "mesa 4",
+   "nivel": "mesa"
+  },
+  {
+   "tipo": "circulo",
+   "cx": 396,
+   "cy": 2340,
+   "r": 117,
+   "nome": "mesa 5",
+   "nivel": "mesa"
+  },
+  {
+   "tipo": "circulo",
+   "cx": 1181,
+   "cy": 2333,
+   "r": 121,
+   "nome": "mesa 6",
+   "nivel": "mesa"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 131,
+   "y": 220,
+   "w": 351,
+   "h": 241,
+   "nome": "barris e caixas NO",
+   "nivel": "balcao"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 117,
+   "y": 337,
+   "w": 114,
+   "h": 186,
+   "nome": "sacos NO",
+   "nivel": "balcao"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 1218,
+   "y": 227,
+   "w": 206,
+   "h": 206,
+   "nome": "barris NE",
+   "nivel": "balcao"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 103,
+   "y": 1672,
+   "w": 234,
+   "h": 234,
+   "nome": "barris O",
+   "nivel": "balcao"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 103,
+   "y": 1906,
+   "w": 145,
+   "h": 186,
+   "nome": "sacos e caixas O",
+   "nivel": "balcao"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 96,
+   "y": 2340,
+   "w": 131,
+   "h": 310,
+   "nome": "barris SO",
+   "nivel": "balcao"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 1163,
+   "y": 2553,
+   "w": 275,
+   "h": 103,
+   "nome": "barris e caixas SE",
+   "nivel": "balcao"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 1356,
+   "y": 2429,
+   "w": 83,
+   "h": 117,
+   "nome": "caixas SE",
+   "nivel": "balcao"
+  }
+ ],
+ "aberturas": [
+  {
+   "tipo": "retangulo",
+   "x": 585,
+   "y": 2649,
+   "w": 367,
+   "h": 103,
+   "nome": "porta de entrada (batente duplo)"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 310,
+   "y": 1122,
+   "w": 120,
+   "h": 406,
+   "nome": "entrada da cozinha (corrimão aberto)"
+  },
+  {
+   "tipo": "retangulo",
+   "x": 1243,
+   "y": 1583,
+   "w": 113,
+   "h": 103,
+   "nome": "passagem do balcão (tampo levadiço)"
+  }
+ ]
+}
