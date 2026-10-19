@@ -1,8 +1,19 @@
 # Contexto da campanha — Tormento Vil 2
 
-_(**gerado** por `campanha.py elenco` a partir de `personagens/*/personagem.json` — não edite aqui: mude a ficha e regere. É lido em **toda** execução: antes de decidir o que um personagem faz, sofre ou diz, confira as **desvantagens, peculiaridades e vantagens dele** abaixo. Só entra o que influencia a cena. Atributos, perícias e equipamento estão na ficha (a `contexto` os traz a cada jogada); PV, Fadiga, bolsa e ferimento, em `saude.md`, `bolsa.md` e `mundo.md`.)_
+_(**gerado** por `campanha.py elenco` a partir de `personagens/*/personagem.json` — não edite aqui: mude a ficha e regere. É lido em **toda** execução: antes de decidir o que um personagem faz, sofre ou diz, confira as **desvantagens, peculiaridades e vantagens dele** abaixo. Só entra o que influencia a cena. Atributos, perícias e equipamento estão na ficha (a `contexto` os traz a cada jogada); PV, Fadiga, bolsa e ferimento, em `saude.md`, `bolsa.md` e `mundo.md`. Onde o grupo está e o que vale ali (mana), em `ambiente.md`.)_
 
 _5 personagem(ns). Atualizado em 15/10/2026._
+
+## Onde estão e a magia
+
+- O grupo está em **Caithness**, no baronato de **Ferrier**, na orla do Grande Deserto.
+- **Em Caithness a mana é baixa.** Todo teste para lançar mágica sofre **−5**: vale para as mágicas de Sae'Varyn e de
+  qualquer mago ou item mágico da região. Custo em Fadiga e tempo de execução seguem normais. Conte o redutor em toda
+  jogada de mágica fora da torre.
+- **Exceção: dentro da torre do Grã-Mago, em Ferrier, a mana é alta.** Lá não há redutor, e quem conhece uma mágica
+  pode lançá-la mesmo sem Aptidão Mágica. Ao sair da torre, o −5 volta.
+
+_(de `ambiente.md` — edite lá e regere.)_
 
 ## Gorbag, o Moedor
 
@@ -25,7 +36,7 @@ Bruno · Meio-Orc (Magia) · Ranger (Fantasy) · 35 anos
 **Quem é:** Meio-orc rastreador e caçador de recompensas; a Seita Lych tem a alma dele num frasco  
 **Reação fixa:** -2 (Meio-Orc)  
 **Vantagens:** Raça: Meio-Orc; Reflexos em Combate (+15); Senso de Direção (+5); Empatia com Animais (+5); Prontidão +1 (+5); Aliado: Farejo (aparece ≤15) (+15)  
-**Desvantagens:** Dever: Seita Lych (quase sempre) (-15); Cobiça (-15); Paranóia (-10); Voto: destruir o frasco da alma (-15)  
+**Desvantagens:** Dever: Seita Lych (quase sempre) (-15) — A alma dele está no frasco de Nekhar, o Embalsamador: a seita chama e ele vai; Cobiça (-15) — Autocontrole (12) quando há dinheiro ou tesouro em jogo; aceita risco e trapaça por ouro; Paranóia (-10) — Desconfia de todos, até da Seita; -2 nas reações que faz a quem não conhece há muito tempo; Voto: destruir o frasco da alma (-15) — Encontrar e destruir o frasco com a própria alma; não larga pista que leve a ele  
 **Peculiaridades:** Dorme com a faca sob a cabeça; Fala baixo com o cão; Conta o dinheiro duas vezes; Evita olhar a Seita nos olhos; Guarda troféu de cada contrato  
 **Línguas:** Órquico (nativa) 11, Ânglico 10  
 *Ficha completa: `personagens/krag-trilhanegra/personagem.md`*
@@ -51,7 +62,7 @@ Henrique · Elfo Negro (Fantasy) · Clérigo/Curandeiro caído → Necromante (F
 **Quem é:** Elfo que foi templário e mentor do jovem Kaelric; questionou a fé em voz alta, caiu e serve a Seita Lych. A alma está presa num terço profanado.  
 **Reação fixa:** +2 (Carisma/Aparência); -3 sádico/renegado conhecido  
 **Vantagens:** Raça: Elfo Negro (+30); Hipoalgia (Limiar de Dor) (+10); Aptidão Mágica 3 (racial 1 +2) (+20); Clericato (Seita Lych) (+5)  
-**Desvantagens:** Dever: Seita Lych (quase sempre) (-15); Sadismo (-15); Excesso de Confiança (-10); Megalomania (-10); Má Reputação (necromante renegado) (-5)  
+**Desvantagens:** Dever: Seita Lych (quase sempre) (-15) — A alma está presa num terço profanado: a seita chama e ele vai; Sadismo (-15) — Autocontrole (12) para não ser cruel com quem está indefeso; -3 de reação de quem o conhece; Excesso de Confiança (-10) — Autocontrole (6) para recuar, negociar ou pedir ajuda; acha que vence qualquer desafio; Megalomania (-10) — Quer poder e domínio; topa qualquer plano que o engrandeça e trata os outros como peões; Má Reputação (necromante renegado) (-5) — -1 de reação de quem o reconhece como o templário que virou necromante  
 **Peculiaridades:** Reza em latim por hábito, mesmo renegado; Nunca pronuncia o nome do Kaelric; Cataloga cada cadáver que levanta; Chama os vivos de 'os de um dia'; Toca o peito onde pendia o terço  
 **Línguas:** Élfico (nativa) 15, Ânglico 14, Latim 14  
 **Mágicas:** Dar Força, Dar Vitalidade, Cura Superficial, Cura Profunda, Despertar, Detecção de Magia, Aura, Identificação de Mágica, Escudo, Contra-Mágicas, Visão da Morte, Percepção de Espíritos, Convocar Espíritos, Roubar Força, Roubar Vitalidade, Zumbi, Controle de Zumbi  

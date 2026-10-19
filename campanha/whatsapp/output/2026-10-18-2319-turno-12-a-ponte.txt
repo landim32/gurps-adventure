@@ -1,0 +1,24 @@
+*TURNO 12 — A PONTE*
+
+Na viela, Sae'Varyn se ajoelha junto ao morto sem o uniforme e murmura as palavras demoradas. A pele cinzenta toma um tom de cera, as pálpebras se abrem sem nada por trás, e o guarda se levanta, obediente, com os ombros ainda largos de antes. O elfo o arrasta para a caçamba, entre as carnes e os sacos, e o cobre com um pano de sebo. Quem olhar de passagem vê só um monte de carne.
+> Zumbi de Sae'Varyn: NH 17, -5 mana baixa em Caithness = *12*
+> 3d [1, 2, 1] = *4* → *SUCESSO DECISIVO* por 8
+> Custo: 8 (NH efetivo 12, sem redução) → Fadiga 1/10
+
+Urzog e Pumba'h seguram Perrin pelos braços. Pumba'h, de javali, bufa e bate o casco bem diante dos pés dele, e solta um guincho agudo que faz o homem pular. Sae'Varyn encosta a mão fria no peito de Perrin. Na primeira vez, a mágica tropeça: nada acontece, e dois minutos se vão. Na segunda, Perrin murcha, os joelhos cedem, e o elfo respira fundo.
+> Roubar Força (1º uso): NH 16, -5 mana baixa = *11*
+> 3d [6, 3, 3] = *12* → falha por 1 (2 min perdidos, nada drenado)
+> Roubar Força (2º uso): NH 16, -5 mana baixa = *11*
+> 3d [1, 3, 2] = *6* → sucesso por 5
+> Drena 6 ST de Perrin em 2 min (ST 10 → 4); +1 de Fadiga a cada 3 ST → *Fadiga 3/10*
+
+Sae'Varyn guarda o bastão embrulhado em panos ao lado das carnes e veste o uniforme do guarda por cima da armadura, apertando o capacete até cobrir as orelhas.
+
+Gorbag, no açougue, revira os ganchos do fundo e acha, esquecido atrás de um barril de sal, um cutelo largo, mais curto e de fio mais cego que o seu. Pesa na mão e o enfia no cinto.
+> Cutelo da casa: *3D+3 corte* (o dele era 3D+5, -2 de dano)
+
+Krag sobe na boleia com Farejo e pega as rédeas. Perrin, cinzento, vai ao lado dele. A carroça sai da viela devagar, no escuro, com o elfo de uniforme andando à altura da roda.
+
+Quando a última casa fica para trás, o morro aparece contra o céu, e no alto dele o castelo, de pedra clara, sem uma janela acesa na muralha. A estrada sobe até um fosso seco, de uns 6 m de largura e 4 de fundo, e o vento sopra a poeira do deserto pela borda. A ponte levadiça está baixada, de madeira escura e tiras de ferro, e as tábuas rangem sob as rodas. Lá em cima, nas ameias de uma muralha lisa de uns 9 m, vultos de arqueiros recortam o céu sem se mexer. Três torres redondas guardam o muro, e a maior, sobre o portão, tem o sino de alarme pendurado como um dente. Dentro do túnel do portão, o rastrilho de ferro está erguido, e dois lampiões na pedra pintam o chão de laranja. Sob a torre, o armeiro de antes está sentado atrás de uma mesa de tabuinhas, e um sargento sai da sombra, com um lampião na mão e os olhos na caçamba.
+
+O que vocês fazem?

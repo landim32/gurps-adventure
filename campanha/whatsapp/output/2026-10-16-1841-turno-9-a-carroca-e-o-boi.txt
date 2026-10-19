@@ -1,0 +1,13 @@
+*TURNO 9 — A CARROÇA E O BOI*
+
+Urzog e Perrin saem para pegar a carroça. Urzog assume as rédeas ao lado de Perrin e estala a língua para o boi, que não se mexe. Estala de novo. O boi sacode a cabeça, a carroça anda um palmo, para, anda de lado e raspa a roda na quina do muro. As rédeas escorregam na mão grossa do orc. Perrin respira fundo, tira as rédeas dele sem uma palavra e dá um estalo seco; o boi obedece na hora. Urzog senta ao lado, com a barriga contra a madeira, e olha o chão.
+> Carreiro de Urzog (sem treino, pré-definido Cavalgar-2, com Cavalgar = DX-5): NH 4 (+2 Perrin ajuda, -2 animais desconhecidos) = *4*
+> 3d [1, 6, 5] = *12* → falhou por 8
+
+Perrin levanta a mão para o portão e chama um dos homens-de-armas de gibão azul. Diz que o orc não sabe lidar com boi e que precisa de alguém que saiba. O guarda ajeita a lança no ombro, olha o boi, olha a carroça e trepa no banco com a calma de quem já fez aquilo cem vezes. Pega as rédeas, estala uma vez, e o boi anda em linha reta, sem um solavanco.
+> Cavalgar do guarda: NH 14
+> 3d [1, 4, 3] = *8* → sucesso por 6
+
+Os três vão na carroça, com Perrin no meio, Urzog apertado na ponta do banco e o guarda nas rédeas, rumo ao portão e ao boi que está lá fora.
+
+O que vocês fazem?

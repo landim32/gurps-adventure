@@ -1,0 +1,197 @@
+{
+  "reacoes": [
+    {
+      "npc": "Marden Quill",
+      "pj": "Gorbag, o Moedor",
+      "dados": [
+        4,
+        3,
+        3
+      ],
+      "mod": -5,
+      "total": 5,
+      "faixa": "Ruim",
+      "peso": "nota",
+      "texto": "O NPC não se importa com os PCs e agirá contra eles se isto lhe trouxer algum benefício.",
+      "conta": "3d [4, 3, 3] = 10 - 5 = 5",
+      "detalhe": [
+        "-5 ficha de Gorbag, o Moedor"
+      ],
+      "contexto": "informacao",
+      "local": "Gota Seca, Ferrier",
+      "quando": "15/10/2026 18:51"
+    },
+    {
+      "npc": "Marden Quill",
+      "pj": "Krag Trilhanegra",
+      "dados": [
+        5,
+        1,
+        4
+      ],
+      "mod": -2,
+      "total": 8,
+      "faixa": "Fraca",
+      "peso": "nota",
+      "texto": "O NPC não se deixará impressionar. Pode se tornar hostil se isso lhe der lucro grande ou houver pouco perigo.",
+      "conta": "3d [5, 1, 4] = 10 - 2 = 8",
+      "detalhe": [
+        "-2 ficha de Krag Trilhanegra"
+      ],
+      "contexto": "informacao",
+      "local": "Gota Seca, Ferrier",
+      "quando": "15/10/2026 18:51"
+    },
+    {
+      "npc": "Serviçal da Gota Seca",
+      "pj": "Urzog, o Bigorna",
+      "dados": [
+        1,
+        1,
+        2
+      ],
+      "mod": -3,
+      "total": 1,
+      "faixa": "Muito Ruim",
+      "peso": "extremo",
+      "texto": "O NPC antipatiza com os PCs e agirá contra eles se isto lhe for conveniente.",
+      "conta": "3d [1, 1, 2] = 4 - 3 = 1",
+      "detalhe": [
+        "-3 ficha de Urzog, o Bigorna"
+      ],
+      "contexto": "geral",
+      "local": "Gota Seca, Ferrier",
+      "quando": "15/10/2026 18:51"
+    },
+    {
+      "npc": "Forasteiro",
+      "pj": "Sae'Varyn",
+      "dados": [
+        5,
+        5,
+        2
+      ],
+      "mod": 0,
+      "total": 12,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [5, 5, 2] = 12",
+      "detalhe": [
+        "+2 ficha de Sae'Varyn",
+        "-2 magia lançada sobre ele, sem aviso e à vista"
+      ],
+      "contexto": "geral",
+      "local": "Gota Seca, Ferrier",
+      "quando": "15/10/2026 18:51",
+      "atencao": "ficha de Sae'Varyn: «+2 (Carisma/Aparência); -3 sádico/renegado conhecido» — confira se a parte condicional vale aqui"
+    },
+    {
+      "npc": "Perrin Holt",
+      "pj": "Gorbag, o Moedor",
+      "dados": [
+        3,
+        5,
+        2
+      ],
+      "mod": -5,
+      "total": 5,
+      "faixa": "Ruim",
+      "peso": "nota",
+      "texto": "O NPC não se importa com os PCs e agirá contra eles se isto lhe trouxer algum benefício.",
+      "conta": "3d [3, 5, 2] = 10 - 5 = 5",
+      "detalhe": [
+        "-5 ficha de Gorbag, o Moedor"
+      ],
+      "contexto": "geral",
+      "local": "Casa de apostas, mercado de Ferrier",
+      "quando": "15/10/2026 22:22"
+    },
+    {
+      "npc": "Perrin Holt",
+      "pj": "Urzog, o Bigorna",
+      "dados": [
+        2,
+        6,
+        6
+      ],
+      "mod": -3,
+      "total": 11,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [2, 6, 6] = 14 - 3 = 11",
+      "detalhe": [
+        "-3 ficha de Urzog, o Bigorna"
+      ],
+      "contexto": "geral",
+      "local": "Casa de apostas, mercado de Ferrier",
+      "quando": "15/10/2026 22:22"
+    },
+    {
+      "npc": "Perrin Holt",
+      "pj": "Krag Trilhanegra",
+      "dados": [
+        5,
+        5,
+        4
+      ],
+      "mod": -2,
+      "total": 12,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [5, 5, 4] = 14 - 2 = 12",
+      "detalhe": [
+        "-2 ficha de Krag Trilhanegra"
+      ],
+      "contexto": "geral",
+      "local": "Casa de apostas, mercado de Ferrier",
+      "quando": "15/10/2026 22:22"
+    },
+    {
+      "npc": "Perrin Holt",
+      "pj": "Pumba'h Fed",
+      "dados": [
+        2,
+        3,
+        5
+      ],
+      "mod": -1,
+      "total": 9,
+      "faixa": "Fraca",
+      "peso": "nota",
+      "texto": "O NPC não se deixará impressionar. Pode se tornar hostil se isso lhe der lucro grande ou houver pouco perigo.",
+      "conta": "3d [2, 3, 5] = 10 - 1 = 9",
+      "detalhe": [
+        "-1 ficha de Pumba'h Fed"
+      ],
+      "contexto": "geral",
+      "local": "Casa de apostas, mercado de Ferrier",
+      "quando": "15/10/2026 22:22"
+    },
+    {
+      "npc": "Perrin Holt",
+      "pj": "Sae'Varyn",
+      "dados": [
+        4,
+        2,
+        5
+      ],
+      "mod": 2,
+      "total": 13,
+      "faixa": "Boa",
+      "peso": "nota",
+      "texto": "O NPC gosta dos personagens e será prestativo dentro do razoável.",
+      "conta": "3d [4, 2, 5] = 11 + 2 = 13",
+      "detalhe": [
+        "+2 ficha de Sae'Varyn"
+      ],
+      "contexto": "geral",
+      "local": "Casa de apostas, mercado de Ferrier",
+      "quando": "15/10/2026 22:22",
+      "atencao": "ficha de Sae'Varyn: «+2 (Carisma/Aparência); -3 sádico/renegado conhecido» — confira se a parte condicional vale aqui"
+    }
+  ],
+  "local": "Casa de apostas, mercado de Ferrier"
+}

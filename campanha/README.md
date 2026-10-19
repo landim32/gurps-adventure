@@ -5,7 +5,7 @@
 **Mestre:** IA (Mestre)
 **Início:** 11/10/2026
 **Cenário:** Yrth — Ferrier e a fronteira oeste de Caithness
-**Capítulo atual:** —
+**Capítulo atual:** 01
 **Pontos dos personagens:** 150
 
 A **Seita Lych** quer de volta o montante de **Vaelrith Mor'Dhaun**, a espada de pedra roxa que hoje está trancada numa caixa de ferro negro, com uma zona sem mana, na torre do Barão Nabbick, em Ferrier. Todo personagem da mesa é membro da seita e tem **Dever (Seita Lych), -15 pontos**: na Seita Lych cada membro tem um mestre que lançou Aprisionar Alma nele e guarda o objeto com a alma, para que ninguém a traia.
@@ -26,7 +26,7 @@ A **Seita Lych** quer de volta o montante de **Vaelrith Mor'Dhaun**, a espada de
 
 Os cinco personagens de [Tormento Vil](../historico/campanhas/tormento-vil/README.md) (Comam, Kaelric, Jah, NelsOwned e Negrum) ficam de fora da mesa nesta campanha, com `"fora_da_campanha": true` na ficha, e **voltam em Tormento Vil 3**. Toov'terikk (com o zumbi Alfred), Jory e U-Vanya foram guardados em `historico/personagens/`, fora desta mesa.
 
-**A campanha está em planejamento.**
+**A campanha está em jogo desde 15/10/2026: capítulo 1, na taberna de Ferrier.**
 
 ## Plano
 
@@ -41,5 +41,6 @@ Os cinco personagens de [Tormento Vil](../historico/campanhas/tormento-vil/READM
 ## Histórico
 
 <!-- indice:historico -->
+- [1. Planejamento em Ferrier — como aconteceu](01-planejamento-em-ferrier/) — 15/10/2026 · 31 acontecimento(s) · 4 arquivo(s) de mesa
 - [Exportações do grupo de WhatsApp](whatsapp/)
 <!-- /indice:historico -->

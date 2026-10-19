@@ -1,0 +1,24 @@
+*TURNO 9 — UM BOI A MAIS*
+
+Urzog atravessa o salão com a bandeja e para ao lado do homem-de-armas que vigia o pé da escadaria. Ensaia um sorriso de presas, comenta o calor, a noite comprida, a fome que dá em quem fica de pé. O guarda, de elmo e gibão azul, olha a bandeja, olha o orc, e não tira a mão do cabo da lança. "Circule. Hoje ninguém conversa com a criadagem." Vira o rosto para o salão de novo.
+> Trato Social de Urzog (sem treino, pré-definido IQ-4): NH 4, +2 (garçom de bandeja em mão, guarda entediado) = *6*
+> 3d [5, 4, 3] = *12* → falhou por 6
+
+No açougue, Gorbag fala com Perrin Holt devagar, de si mesmo na terceira pessoa: pouca carne. Banquete do Barão precisa de mais um boi. O ajudante de Gorbag traz. Perrin esfrega a nuca, conta as meias reses penduradas, e a conta não fecha com a que tem na cabeça. "Mais um boi", resmunga. "Que seja. Mas a carroça passa pelo portão como todo mundo." Depois, longe do ouvido de Perrin, Gorbag diz a Urzog, sem mexer os lábios, que busque o boi lá fora e enfie na carroça, junto com o boi, o que está lá fora.
+> Lábia de Gorbag (sem treino, pré-definido IQ-5): NH 4, +2 (carne para o banquete é responsabilidade do próprio Perrin) = *6*
+> 3d [1, 4, 3] = *8* → falhou por 2
+> Vontade de Perrin Holt: NH 10
+> 3d [6, 3, 6] = *15* → falhou por 5
+> *Gorbag vence a disputa*
+
+Urzog e Perrin saem para pegar a carroça. Urzog assume as rédeas ao lado de Perrin e estala a língua para o boi, que não se mexe. Estala de novo. O boi sacode a cabeça, a carroça anda um palmo, para, anda de lado e raspa a roda na quina do muro. As rédeas escorregam na mão grossa do orc. Perrin respira fundo, tira as rédeas dele sem uma palavra e dá um estalo seco; o boi obedece na hora. Urzog senta ao lado, com a barriga contra a madeira, e olha o chão.
+> Carreiro de Urzog (sem treino, pré-definido Cavalgar-2, com Cavalgar = DX-5): NH 4 (+2 Perrin ajuda, -2 animais desconhecidos) = *4*
+> 3d [1, 6, 5] = *12* → falhou por 8
+
+Perrin levanta a mão para o portão e chama um dos homens-de-armas de gibão azul. Diz que o orc não sabe lidar com boi e que precisa de alguém que saiba. O guarda ajeita a lança no ombro, olha o boi, olha a carroça e trepa no banco com a calma de quem já fez aquilo cem vezes. Pega as rédeas, estala uma vez, e o boi anda em linha reta, sem um solavanco.
+> Cavalgar do guarda: NH 14
+> 3d [1, 4, 3] = *8* → sucesso por 6
+
+Os três vão na carroça, com Perrin no meio, Urzog apertado na ponta do banco e o guarda nas rédeas, rumo ao portão e ao boi que está lá fora.
+
+O que vocês fazem?

@@ -1,0 +1,32 @@
+*TURNO 1 — A GOTA SECA*
+
+Gorbag encosta no balcão sem pressa, o cutelo numa mão e a pedra de amolar na outra. O chiado do aço corta a conversa das mesas mais próximas. Marden Quill segue sorrindo, mas o pano com que enxugava a caneca para de se mexer, e o sorriso fica no rosto como se o resto dele tivesse dado um passo para trás.
+> Intimidação de Gorbag: NH 11, +2 (ogro de 2,45 m afia o cutelo à vista de todos) = *13*
+> 3d [2, 5, 3] = *10* → sucesso por 3
+> Vontade de Marden Quill: NH 11
+> 3d [4, 5, 1] = *10* → sucesso por 1
+> *Gorbag vence a disputa*
+
+Krag chega junto e fala baixo: quer saber como se entra no castelo. Marden responde olhando mais para o cutelo do que para ele. O Barão recebe peticionários em audiência pública, de manhã, das oito ao meio-dia, e quem entra deixa as armas na porta. Anda ranzinza e dorme mal, dizem. Daqui a uma semana Lady Tyani de Blythe vem a Ferrier, e há banquete no Salão do Trono, com a guarda das torres dobrada. O resto, diz ele, esfregando o balcão, a casa não dá de graça. Farejo fica debaixo da mesa, de olhos abertos.
+
+Perto do balcão, Pumba'h ri alto e solta, em voz esganiçada: "Ow Gorbag, deixa eu ser o líder, você é muito burro!" Muda para um grunhido grosso, de ogro: "Só se você quiser morrer..." e estoura em gargalhadas. Duas mesas se viram para o goblin que imita voz de ogro. Gorbag não larga a pedra, e o chiado do aço não muda. "Gorbag ouviu os dois", diz ao balcão, sem se virar. "Gorbag conduz."
+> Lábia de Pumba'h: NH 13, -1 (Hábito Detestável: imitações) = *12*
+> 3d [3, 6, 2] = *11* → sucesso por 1
+> Vontade de Gorbag: IQ 9, +2 (para resistir) = *11*
+> 3d [3, 4, 3] = *10* → sucesso por 1
+> *Empate: ninguém leva a melhor, e Gorbag segue líder*
+
+Urzog puxa conversa com a Serviçal, que passa ao lado dele com uma bandeja de canecas. Rosna que ela deve saber o que se fala nas mesas e que vai contar. Ela segura a bandeja entre os dois e não pisca. "Cerveja eu trago. Conversa o senhor arranja com quem quiser." Desvia dele, vai para o balcão e fala com Marden sem tirar os olhos do orc.
+> Intimidação de Urzog: NH 10 = *10*
+> 3d [5, 6, 3] = *14* → falhou por 4
+> Vontade da Serviçal: NH 10
+> 3d [6, 1, 5] = *12* → falhou por 2
+> *A Serviçal vence a disputa*
+
+Sae'Varyn atravessa o salão até o banco junto à porta, onde o forasteiro de capuz bebe sozinho, e senta-se a um palmo dele. Murmura uma palavra e risca um gesto curto com dois dedos sob a manga. Para quem olha, o ar em volta do encapuzado turva por um instante, como calor sobre pedra. O Forasteiro ergue o capuz na direção do elfo, estuda-o um batimento a mais do que seria educado e volta ao copo sem dizer nada.
+> Aura de Sae'Varyn: NH 17, -1 (alvo a 1 hexágono, sem tocar) = *16*
+> 3d [2, 3, 3] = *8* → sucesso por 8
+> Custo: 2 de Fadiga (3, menos 1 por NH 15 ou mais) → Fadiga 8/10
+> Mágica visível (NH 15–17 exige palavra e gesto)
+
+O que vocês fazem?
