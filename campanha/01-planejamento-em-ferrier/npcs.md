@@ -36,3 +36,7 @@ _(o que de fato aconteceu com estes NPCs durante o jogo — ferimento que ficou,
 ## Zumbi do guarda
 
 - **18/10/2026 23:19** · _morte_ — Guarda do portão morto reanimado por Sae'Varyn (Zumbi, sucesso decisivo, turno 12). Obedece a Varyn; escondido entre as carnes na caçamba da carroça. Conserva o corpo e a força do guarda, sem alma nem memória.
+
+## Guarda da porta de ferro
+
+- **20/10/2026 00:03** · _relação_ — Postado na porta de ferro ao lado do trono. Notou algo errado no 'servo' escoltado por um guarda desconhecido (venceu a disputa de Disfarce de Sae'Varyn, Observação 11 vs 7): o zumbi disfarçado de serviçal. Ainda não deu alarme; está de olho nos dois.

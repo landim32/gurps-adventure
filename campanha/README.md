@@ -31,16 +31,12 @@ Os cinco personagens de [Tormento Vil](../historico/campanhas/tormento-vil/READM
 ## Plano
 
 <!-- indice:plano -->
-- [1. Planejamento em Ferrier](plano/01-planejamento-em-ferrier/) · [NPCs](plano/01-planejamento-em-ferrier/npcs.md)
-- [2. A Invasão do Castelo](plano/02-a-invasao-do-castelo/) · [NPCs](plano/02-a-invasao-do-castelo/npcs.md)
-- [3. A Torre do Mago](plano/03-a-torre-do-mago/) · [NPCs](plano/03-a-torre-do-mago/npcs.md)
-- [4. A Fuga](plano/04-a-fuga/) · [NPCs](plano/04-a-fuga/npcs.md)
-- [NPCs de toda a campanha](plano/npcs.md)
+_(nenhum capítulo ainda)_
 <!-- /indice:plano -->
 
 ## Histórico
 
 <!-- indice:historico -->
-- [1. Planejamento em Ferrier — como aconteceu](01-planejamento-em-ferrier/) — 15/10/2026 · 31 acontecimento(s) · 4 arquivo(s) de mesa
+- [1. Planejamento em Ferrier — como aconteceu](01-planejamento-em-ferrier/) — 15/10/2026 · 32 acontecimento(s) · 4 arquivo(s) de mesa
 - [Exportações do grupo de WhatsApp](whatsapp/)
 <!-- /indice:historico -->
