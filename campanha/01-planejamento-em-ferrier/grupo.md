@@ -32,6 +32,7 @@ _(o que de fato aconteceu com os personagens dos jogadores durante o jogo — fe
 - **16/10/2026 17:48** · _informação_ — Propôs ficar de fora do castelo com o equipamento do grupo e ter alguém com ele para levá-lo para dentro quando abrirem de lá.
 - **18/10/2026 21:47** · _item_ — Está com o uniforme do guarda morto. Passou nos dois testes de Vontade do Sadismo (guarda: sucesso por 7; Perrin: sucesso por 9) e não drenou ninguém com magia.
 - **18/10/2026 23:19** · _item_ — Fadiga 3/10 (Zumbi custou 8, Roubar Força devolveu 2). Veste o uniforme do guarda com capacete cobrindo as orelhas; bastão embrulhado em panos entre as carnes.
+- **20/10/2026 00:03** · _informação_ — Tentativa de levar o Zumbi (vestido de serviçal) até perto da porta de ferro falhou em passar despercebida: um dos dois guardas da porta notou algo errado (Disfarce 7 vs Observação 11, falhou por 5). Ainda não houve alarme nem confronto.
 
 ## Urzog, o Bigorna
 

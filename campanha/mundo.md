@@ -16,6 +16,10 @@ script, e rode `campanha.py mundo`.)_
 
 - **18/10/2026 21:47** · _morte_ — Morto por estrangulamento no Mata-Leão de Urzog (turno 11), por decisão do Mestre; Sae'Varyn ficou com o uniforme. Corpo escondido atrás da carroça, na viela.  _(cap. 01)_
 
+### Guarda da porta de ferro
+
+- **20/10/2026 00:03** · _relação_ — Postado na porta de ferro ao lado do trono. Notou algo errado no 'servo' escoltado por um guarda desconhecido (venceu a disputa de Disfarce de Sae'Varyn, Observação 11 vs 7): o zumbi disfarçado de serviçal. Ainda não deu alarme; está de olho nos dois.  _(cap. 01)_
+
 ### Marden Quill
 
 - **15/10/2026 18:58** · _relação_ — Foi intimidado por Gorbag no balcão (turno 1). Deu a Krag só a informação pública sobre o castelo; o resto cobra.  _(cap. 01)_
@@ -80,6 +84,7 @@ script, e rode `campanha.py mundo`.)_
 - **16/10/2026 17:48** · _informação_ — Propôs ficar de fora do castelo com o equipamento do grupo e ter alguém com ele para levá-lo para dentro quando abrirem de lá.  _(cap. 01)_
 - **18/10/2026 21:47** · _item_ — Está com o uniforme do guarda morto. Passou nos dois testes de Vontade do Sadismo (guarda: sucesso por 7; Perrin: sucesso por 9) e não drenou ninguém com magia.  _(cap. 01)_
 - **18/10/2026 23:19** · _item_ — Fadiga 3/10 (Zumbi custou 8, Roubar Força devolveu 2). Veste o uniforme do guarda com capacete cobrindo as orelhas; bastão embrulhado em panos entre as carnes.  _(cap. 01)_
+- **20/10/2026 00:03** · _informação_ — Tentativa de levar o Zumbi (vestido de serviçal) até perto da porta de ferro falhou em passar despercebida: um dos dois guardas da porta notou algo errado (Disfarce 7 vs Observação 11, falhou por 5). Ainda não houve alarme nem confronto.  _(cap. 01)_
 
 ### Urzog, o Bigorna
 
