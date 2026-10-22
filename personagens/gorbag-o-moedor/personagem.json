@@ -54,7 +54,7 @@
     "aparar": 9,
     "bloqueio": 0
   },
-  "reacao": "-5",
+  "reacao": "-5; -3 sádico conhecido",
   "raca_tracos": [
     {
       "nome": "ST +10, HT +4, DX +2, IQ -3"
@@ -94,9 +94,18 @@
       "raca": true
     },
     {
+      "nome": "Reflexos em Combate",
+      "custo": 15
+    },
+    {
       "nome": "Dever: Seita Lych (quase sempre)",
       "custo": -15,
       "lembrete": "A alma dele está no pote de Valthor: a seita chama e ele vai"
+    },
+    {
+      "nome": "Sadismo",
+      "custo": -15,
+      "lembrete": "Vontade (9) para não ser cruel com quem deve sair ileso; -3 de reação de quem o conhece"
     },
     {
       "nome": "Sanguinolência",
@@ -295,8 +304,8 @@
   ],
   "resumo": {
     "atributos": 50,
-    "vantagens": 90,
-    "desvantagens": -40,
+    "vantagens": 105,
+    "desvantagens": -55,
     "peculiaridades": -5,
     "pericias": 55,
     "total": 150

@@ -1,6 +1,6 @@
 # Gorbag, o Moedor
 
-**Jogador:** André · **Raça:** Ogro (*GURPS Fantasy*, 90 pts) · **Arquétipo:** Guerreiro, linha de frente (*Módulo Básico*, "Tipos de Personagens") · **Pontos:** 150/150
+**Jogador:** a definir · **Raça:** Ogro (*GURPS Fantasy*, 90 pts) · **Arquétipo:** Guerreiro, linha de frente (*Módulo Básico*, "Tipos de Personagens") · **Pontos:** 150/150
 
 ## Aparência
 
@@ -62,8 +62,9 @@ profissionalismo impecável quando o assunto é desmembrar.
   Nas pernas e nos pés vale a regra de Armaduras Sobrepostas (MB, `07-equipamento-e-carga.md`):
   a camada de dentro, aqui a pele, **soma RD mas não DP**. Por isso fica DP 2, não 3. A última
   palavra é do Mestre.
-- **Esquiva:** 7 · **Aparar (cutelo):** 9 · **Bloqueio:** —
+- **Esquiva:** 7 · **Aparar (cutelo):** 9 · **Bloqueio:** — (+1 de Reflexos em Combate na hora da defesa: 8 e 10)
 - **Reação básica:** −5 (Feio −2, Reputação −3 entre as outras raças). Com orcs e ogros, só o −2.
+  Quem souber do Sadismo dele soma mais −3.
 
 ## Vantagens e Desvantagens
 
@@ -80,16 +81,27 @@ profissionalismo impecável quando o assunto é desmembrar.
 | — Feio (−2 de reação) | - |
 | — Reputação −3 (outras raças) | - |
 | — Tamanho abrutalhado (estorvo) | - |
+| Reflexos em Combate | +15 |
 | Dever (Seita Lych, quase sempre) | −15 |
+| Sadismo | −15 |
 | Sanguinolência | −10 |
 | Fobia suave (Fogo) | −10 |
 | Gula | −5 |
 
-**Vantagens: 90 pontos · Desvantagens: −40 pontos** (no limite da mesa).
+**Vantagens: 105 pontos · Desvantagens: −55 pontos.** O Sadismo entrou depois da criação para
+pagar os Reflexos em Combate, e a coluna passou do teto de −40 da mesa: precisa do aval do Mestre.
 
 Notas de arbitragem:
 - **Dever (Seita Lych)** — "quase todo o tempo" (15 ou menos): a seita o chama e ele vai,
   porque a alma está no pote. Arrisca a vida, então vale os −15 do livro.
+- **Reflexos em Combate** — +1 em todas as defesas ativas (Esquiva 8, Aparar 9 → 10 na hora da
+  defesa; a ficha guarda os números sem o bônus, que a `resolver-defesa` soma), +2 nas
+  Verificações de Pânico (a da Fobia de Fogo inclusive), +1 em Sacar Rápido, nunca fica
+  paralisado de surpresa e ganha +6 para sair de atordoamento mental.
+- **Sadismo** — sente prazer em fazer sofrer. Quando pode, mas sabe que não deve (um prisioneiro
+  que tem de sair ileso), teste de Vontade (9) para se conter. Quem souber que ele é sádico
+  reage com −3, salvo culturas que dão pouco valor à vida. O livro avisa que é traço de vilão; o
+  Mestre pode vetar.
 - **Sanguinolência** — teste de Vontade (9) para aceitar rendição ou fazer prisioneiro.
 - **Fobia suave (Fogo)** — o MB não traz a fobia de fogo na lista das comuns; o custo de −10
   segue as de frequência parecida (Altura, Ruídos Altos) e fica para o Mestre confirmar.
@@ -142,9 +154,12 @@ Notas de cálculo:
   exibição de força e sede de sangue. Na prática, contra gente comum, ele intimida com 15 a 17.
 - **Línguas:** o órquico das tribos onde nasceu, de graça; o ânglico com sotaque pesado.
 
-Em combate: cutelo de duas mãos com 3D+5 de corte. A tabela marca a arma com "1 turno p/
-preparar" e com †: ela fica despreparada se for usada para aparar (MB, tabela de armas de mão).
-Hipoalgia ignora o redutor de ferimento no turno seguinte.
+Em combate: cutelo de duas mãos com 3D+5 de corte. A tabela marca o machado com "1 turno p/
+preparar", mas **com ST 20 o Gorbag não precisa prepará-lo**: a ST mínima da arma é 13, e quem
+tem 5 ou mais pontos acima dela prepara uma arma desbalanceada com um turno a menos (MB,
+`11-combate-avancado.md`, "Preparação Rápida Devido a um Alto Valor de ST"). Ele ataca todo
+turno e pode aparar e atacar com o cutelo no mesmo turno. Hipoalgia ignora o redutor de
+ferimento no turno seguinte.
 
 ## Equipamento
 
@@ -166,7 +181,7 @@ Hipoalgia ignora o redutor de ferimento no turno seguinte.
 **TOTAIS:** $395 gastos · 13,75 kg. Riqueza Média ($1.000) − $395 = **$605** na bolsa.
 
 O cutelo usa a linha do **Machado de duas mãos** do MB (BAL+3, corte, ST mínima 13, 1 turno para
-preparar). Facão e faca têm o dano limitado pelo teto da tabela (1D+2 e 1D+1), por mais forte
+preparar, que a ST 20 dele dispensa). Facão e faca têm o dano limitado pelo teto da tabela (1D+2 e 1D+1), por mais forte
 que seja a mão. Os ganchos de carne não estão na tabela de preços; $15 é estimativa, a confirmar
 com o Mestre. O pote com a alma **não** está com ele: está com Valthor.
 
@@ -175,8 +190,8 @@ com o Mestre. O pote com a alma **não** está com ele: está com Valthor.
 | Categoria | Pontos |
 |---|---|
 | Atributos | 50 |
-| Vantagens | 90 |
-| Desvantagens | −40 |
+| Vantagens | 105 |
+| Desvantagens | −55 |
 | Peculiaridades | −5 |
 | Perícias | 55 |
 | **Total** | **150** |
