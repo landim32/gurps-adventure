@@ -1,0 +1,50 @@
+*TURNO 25 — FORMAÇÃO*
+
+A cozinheira caída tenta se levantar do chão da despensa, mas a cabeça não obedece. Ela fica de olhos abertos, atordoada, sem soltar um som.
+> HT Cozinheira (recuperar do atordoamento): NH 10 = *10*
+> 3d [4, 5, 4] = *13* → falhou por 3
+> HT Cozinheira (não desmaiar, PV 0 ou menos): NH 10 = *10*
+> 3d [4, 2, 3] = *9* → passou por 1
+> *A cozinheira segue acordada e atordoada.*
+
+Gorbag aproveita o espaço entre os sacos e desce o cutelo da casa na garganta do criado encolhido junto à parede. O golpe abre o pescoço quase até o osso. O homem cambaleia de pé, as mãos no ferimento, sem ar para gritar.
+> Ataque Gorbag: Machado/Maça NH 18, -5 pescoço = *13*
+> 3d [6, 2, 1] = *9* → sucesso por 4
+> Defesa de Criado: esquiva 5 = *5*
+> 3d [1, 6, 6] = *13* → falhou por 8
+> Dano: 3D+3: [4, 2, 5] = 11 + 3 = *14*
+> RD 0 → 14 passam
+> Corte no pescoço: ×2 → *28*
+> Pescoço acumulado 28, abaixo de 3×HT (33): não decapita
+> Perdeu mais de HT/2: teste de HT 11 para não cair, 3d [1, 6, 4] = *11* → continua de pé; *ATORDOADO* (-4 nas defesas)
+> Teste de HT contra a morte (PV em -11, igual a -HT): NH 11 = *11*
+> 3d [1, 1, 1] = *3* → passou por 8
+> Teste de HT contra a morte (PV em -16): NH 11 = *11*
+> 3d [5, 2, 1] = *8* → passou por 3
+> *O criado perde 28 pontos de vida* e fica a -17, vivo por um fio.
+
+Urzog acompanha o golpe de Gorbag com o machado no flanco da cozinheira caída. A lâmina entra fundo entre as costelas. Ela se contorce uma vez e fica mole entre os sacos.
+> Ataque Urzog: Machado/Maça NH 14 = *14*
+> 3d [5, 4, 4] = *13* → sucesso por 1
+> Defesa de Cozinheira: esquiva 5, -4 atordoada = *1*
+> 3d [4, 6, 6] = *16* → falhou por 15
+> Dano: 2D+1: [5, 1] = 6 + 1 = *7*
+> RD 0 → 7 passam
+> Corte: ×1,5 → *10*
+> Perdeu mais de HT/2: teste de HT 10 para não cair, 3d [6, 4, 2] = *12* → *CAIU*; *ATORDOADA* (-4 nas defesas)
+> Teste de HT contra a morte (PV em -10, igual a -HT): NH 10 = *10*
+> 3d [5, 3, 2] = *10* → passou por 0
+> Teste de HT contra a morte (PV em -15): NH 10 = *10*
+> 3d [4, 1, 5] = *10* → passou por 0
+> *A cozinheira perde 10 pontos de vida* e fica a -19, viva por um fio.
+
+Krag desce a mão até a aljava e a flecha já está na corda, rápida como respiração. Ele ergue o arco de novo e apoia a ponta no vulto da Capitã, que lá no fundo do salão avança com os dois homens de armas ao lado. Escudos nos braços, espadas sacadas, o grupo cruza o piso em formação cerrada.
+> Sacar Rápido (Flecha) Krag: NH 14 +1 (Reflexos em Combate) = *15*
+> 3d [1, 3, 4] = *8* → sucesso por 7
+> *Flecha encaixada de graça.* Krag mira de novo, sem atirar.
+
+Pumba'h dispara em investida pelo corredor, o casco batendo nas lajes, e vence seis passos antes de o salão se abrir à frente dele. A Capitã ainda está longe.
+
+Sae'Varyn segue lá fora pelo capim molhado, a sombra do castelo às costas. A carroça ainda não aparece.
+
+O que vocês fazem?

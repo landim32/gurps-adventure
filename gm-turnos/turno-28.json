@@ -1,0 +1,9 @@
+{
+  "characters": [
+    {"characterId": 1, "status": "De pé, cimitarra na mão. Duas picaretas no chão. Sem ferimentos. Ataque Total no turno anterior: sem defesa ativa até agir de novo."}
+  ],
+  "npcs": [
+    {"mapNpcId": 1, "currentLife": -4, "status": "ATORDOADO (HT 10 para se recuperar a cada turno; -4 nas defesas). Pescoço aberto, PV -4: HT para não desmaiar a cada turno. Flecha encaixada, mas sem condições de mirar."}
+  ],
+  "narration": "*TURNO 28 — ARENA*\n\nComam avança sobre o elfo antes que a flecha deixe a corda. A cimitarra desce em arco largo, sem cerimônia, buscando o pescoço esguio. Aelthir tenta se jogar de lado, mas o corpo chega um instante atrasado: a lâmina morde fundo. O arco escapa dos dedos trêmulos, o elfo cambaleia com a mão no pescoço e o olhar vidrado, sem conseguir se firmar. Continua de pé, por pouco.\n> Ataque: Espadas de Lâmina Larga NH 18, -5 Pescoço, -1 Zarolho = *12*\n> 3d [2, 1, 6] = *9* → sucesso por 3\n> Defesa de Aelthir: esquiva 6 = *6*\n> 3d [3, 2, 4] = *9* → falhou por 3\n> Dano: 2D: [4, 1] = *5* +2 Ataque Total = *7*\n> RD 0 → 7 passam\n> Corte no pescoço: ×2 do que passar da armadura → *14*\n> *Aelthir perde 14 ponto(s) de vida* (de 10 para -4)\n> Teste de HT 10 por ter perdido mais de metade da HT num golpe: 3d [3, 1, 5] = *9* → continua de pé, *ATORDOADO*\n> Teste de HT 10 por estar com PV abaixo de 0: 3d [2, 2, 6] = *10* → continua consciente\n> Teste de HT 10 para se recuperar do atordoamento: 3d [6, 1, 6] = *13* → falhou\n\nO elfo respira em goles curtos, o sangue escorrendo entre os dedos. Ele ainda segura a flecha, mas a mão não obedece. Comam sorri, a lâmina pingando, esperando o próximo passo do inimigo.\n\nO que vocês fazem?"
+}

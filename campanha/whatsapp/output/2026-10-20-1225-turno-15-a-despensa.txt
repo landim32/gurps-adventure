@@ -1,0 +1,22 @@
+*TURNO 15 — A DESPENSA*
+
+Do canto do salão, Urzog resmunga alto, para quem quiser ouvir: "Tem uma porta de ferro do lado do trono do barão. Está aberta, e tem dois guardas na frente."
+
+Krag e Pumba'h chegam à cozinha atrás de Gorbag. O vapor das panelas abafa o resto, mas o ruído de facas e colheres vai morrendo. Cozinheiros, criadas e criados param e olham, de lado e sem pressa, para aquele meio-orc, aquele goblin e o carniceiro sujo de sangue. Ninguém pergunta nada.
+
+Na despensa, Sae'Varyn passa a mão por feixes secos, potes de sal grosso, bulbos e cogumelos pendurados. Cheira, esfrega, cheira de novo e não sabe dizer qual daquelas coisas mata de verdade. Pumba'h revira a prateleira baixa, Krag fareja os potes um a um e Gorbag, ao lado, só sabe dizer qual erva dá gosto à carne. Nada ali serve, ainda.
+> Venefício, Sae'Varyn: sem treino, IQ-6 = *9*
+> 3d [4, 3, 4] = *11* → falhou por 2
+> Venefício, Pumba'h Fed: NH *12*
+> 3d [4, 5, 4] = *13* → falhou por 1
+> Venefício, Krag Trilhanegra: sem treino, IQ-6 = *5*
+> 3d [3, 2, 4] = *9* → falhou por 4
+> Venefício, Gorbag: sem treino, IQ-6 = *3* → o livro não permite a jogada (NH efetivo 3 ou menos)
+
+Perto do fogão, a criada que estranhou o uniforme de guarda esfrega as mãos no avental e vai andando para a porta lateral, com os olhos baixos. Sae'Varyn, de costas, ouve o chinelo mudar de passo e se vira a tempo. A criada trava no meio da cozinha, com os olhos arregalados. Ninguém mais percebeu.
+> Percepção, Sae'Varyn: IQ 15 -2 absorto na despensa, de costas = *13*
+> 3d [6, 3, 3] = *12* → passou por 1
+> Furtividade, criada: NH *9*
+> 3d [5, 6, 3] = *14* → falhou por 5
+
+O que vocês fazem?

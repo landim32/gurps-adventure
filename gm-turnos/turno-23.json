@@ -1,0 +1,9 @@
+{
+  "characters": [
+    {"characterId": 1, "status": "Cimitarra caída na areia (derrubada); duas picaretas no chão. Em Ataque Total: sem defesa ativa até o próximo turno. Sem ferimentos."}
+  ],
+  "npcs": [
+    {"mapNpcId": 1, "status": "Arco descarregado: flecha disparada; precisa de 2 turnos para encaixar outra. Colada em Comam."}
+  ],
+  "narration": "*TURNO 23 — ARENA*\n\nComam ergue a cimitarra com o sorriso de sempre e crava o golpe em direção à garganta do goblin inconsciente. Mas o pulso trai o mercenário: a lâmina escapa dos dedos, gira no ar e tomba na areia, longe do corpo caído. O sorriso falha por um instante.\n> Ataque: Espadas de Lâmina Larga NH 18, -5 Pescoço, Ataque Total = *13*\n> 3d [6, 6, 5] = *17* → *FALHA CRÍTICA* (por 4)\n> *ERRO CRÍTICO!* Tabela de Erros Críticos: 3d [5, 3, 1] = *9*\n> _Você DERRUBOU a arma. Arma barata teria se quebrado._\n\nAelthir não perde a chance. A corda canta a um passo de distância, e a flecha acerta o peito de Comam, com Comam de braço aberto, sem guarda. A ponta raspa o couro curtido e não passa; o dardo cai a seus pés.\n> Ataque: Arco NH 15, +1 velocidade/distância (1 m), +1 Precisão da arma = *17*\n> 3d [6, 3, 5] = *14* → sucesso por 3\n> Defesa de Comam: sem defesa ativa (Ataque Total); só a DP 2 do couro\n> 3d [4, 6, 3] = *13* → não segurou\n> Dano: 1D-2: [3] - 2 = *1*\n> RD 2 → 0 passam\n> *A armadura segurou o tiro.* Nenhum dano.\n\nO goblin segue imóvel, o peito subindo e descendo devagar. O silêncio pesa na arena, quebrado só pelo rangido do arco sendo esvaziado. O que vocês fazem?"
+}

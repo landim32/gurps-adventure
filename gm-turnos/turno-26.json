@@ -1,0 +1,9 @@
+{
+  "characters": [
+    {"characterId": 1, "posture": 1, "status": "De pé, cimitarra na mão. Duas picaretas no chão. Sem ferimentos."}
+  ],
+  "npcs": [
+    {"mapNpcId": 1, "status": "Primeira flecha disparada; começou a encaixar a próxima (precisa de mais 1 turno antes de poder disparar)."}
+  ],
+  "narration": "*TURNO 26 — ARENA*\n\nComam apoia a mão livre no joelho e se ergue de uma vez, a cimitarra firme no punho. Ainda está de pé quando Aelthir solta a corda: a flecha cruza a distância curta e raspa a manopla de couro, sem achar carne. O elfo ergue a sobrancelha, quase ofendido com a própria pontaria, e já busca outra flecha na aljava, sem perder a elegância.\n> Ataque de Aelthir: Arco NH 15, +1 velocidade/distância, +1 Precisão da arma, -4 Mão = *13*\n> 3d [2, 3, 5] = *10* → sucesso por 3\n> Defesa de Comam: esquiva 5 +2 DP armadura = *7*\n> 3d [3, 5, 2] = *10* → falhou por 3\n> Dano: 1D-2: [2] - 2 = *0* → mínimo 1 (corte/perfuração)\n> RD 2 → 0 passam. A armadura segurou o tiro; nenhum dano.\n\nO goblin segue estendido na areia, o peito subindo e descendo devagar, gládio e escudo ao lado.\n\nO que vocês fazem?"
+}

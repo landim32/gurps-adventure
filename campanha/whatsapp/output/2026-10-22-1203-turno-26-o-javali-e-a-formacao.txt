@@ -1,0 +1,30 @@
+*TURNO 26 — O JAVALI E A FORMAÇÃO*
+
+A cozinheira caída pisca, sacode a cabeça e o mundo para de rodar. Ela ainda está no chão da despensa, sangrando entre os sacos, mas desperta e consciente.
+> HT Cozinheira (recuperar do atordoamento): NH 10 = *10*
+> 3d [2, 2, 5] = *9* → passou por 1
+> HT Cozinheira (não desmaiar, PV 0 ou menos): NH 10 = *10*
+> 3d [1, 2, 5] = *8* → passou por 2
+> *A cozinheira se recupera do atordoamento e segue acordada.*
+
+O criado de pé junto à parede se agarra ao próprio pescoço aberto. Os joelhos tremem e a cabeça gira, mas ele não cai.
+> HT Criado (recuperar do atordoamento): NH 11 = *11*
+> 3d [5, 3, 4] = *12* → falhou por 1
+> HT Criado (não desmaiar, PV 0 ou menos): NH 11 = *11*
+> 3d [1, 2, 2] = *5* → passou por 6
+> *O criado segue atordoado e acordado.*
+
+Gorbag gira o cutelo da casa na direção do criado, mas o golpe passa rente ao pescoço dele e bate na prateleira. Uma chuva de farinha cai sobre os dois. A lâmina volta pronta nas mãos enormes.
+> Ataque Gorbag: Machado 2 Mãos/Maça NH 18, -5 pescoço = *13*
+> 3d [5, 5, 5] = *15* → falhou por 2
+> *Errou.* O cutelo segue pronto (Preparação Rápida: ST 20, mín 13 +5).
+
+Urzog gasta o turno acertando a pegada no cabo do machado, depois de duas machadadas seguidas. Ele ergue a lâmina de novo, pronto para bater no próximo turno.
+
+Krag aperta a corda, o arco no ponto, e mantém a flecha apontada para a Capitã sem soltar. Ele assobia baixo, e Farejo sai em disparada atrás do javali.
+
+Pumba'h dispara pelo salão em carreira, o casco estalando nas lajes, direto no guarda que vem à frente. A Capitã e os dois homens de armas fecham o cerco com escudos nos braços e as espadas baixas, e o javali para no meio deles, cercado, com o cão de Krag ofegando atrás.
+
+Sae'Varyn segue lá fora, no capim molhado. A carroça ainda não está à vista.
+
+O que vocês fazem?

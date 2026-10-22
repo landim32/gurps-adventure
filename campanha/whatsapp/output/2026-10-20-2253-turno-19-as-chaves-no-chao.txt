@@ -1,0 +1,22 @@
+*TURNO 19 — AS CHAVES NO CHÃO*
+
+O cozinheiro de braços grossos ainda está de pé, a flecha no peito, a faca de desossar tremendo na mão. Gorbag não espera. O cutelo corta o ar de lado e entra no pescoço dele, fundo. A faca escorrega dos dedos e o homem vai de joelhos, depois de lado, entre as panelas, ainda respirando em fiapos.
+> Ataque Gorbag: Machado/Maça NH 18, -5 pescoço = *13*
+> 3d [3, 3, 5] = *11* → sucesso por 2
+> Defesa do cozinheiro: aparar 6 -4 atordoado = *2*
+> 3d [3, 4, 4] = *11* → falhou por 9
+> Dano: 3D+3: [2, 4, 3] = 9 + 3 = *12*
+> RD 0 → 12 passam
+> Corte no pescoço: ×2 → *24*
+> Mais de metade da HT num golpe: teste de HT 10, 3d [6, 2, 4] = *12* → *CAIU*, atordoado
+> Ferida mortal (abaixo de -PV): teste de HT 10, 3d [3, 2, 1] = *6* → passou por 4, segue vivo
+> *O cozinheiro perde 24 pontos de vida.*
+
+Ele tenta se erguer para o golpe seguinte e não consegue: o corpo não obedece.
+> Cozinheiro: teste de HT 10 para sair do atordoamento, 3d [5, 5, 6] = *16* → falhou por 6
+
+Krag, sem tirar os olhos da cozinha, solta o chaveiro e atira por cima das panelas. O ferro tilinta e cai nas lajes, a um passo de Urzog: "Tranca os que sobraram na despensa!" O orc olha as chaves, olha os criados que se arrastam pela porta e cospe de lado: "Prender pra quê? Vamos matar esses FdP." Não se abaixa.
+
+Pumba'h, de pelo hirto e farinha nas costas, salta por cima da criada e do criado caídos e some pelo corredor que leva ao salão, as unhas raspando a pedra. Sae'Varyn dá dois passos pelas lajes, o bastão baixo. Pelas paredes, o sino do pátio continua.
+
+O que vocês fazem?

@@ -1,0 +1,9 @@
+{
+  "characters": [
+    {"characterId": 1, "status": "De pé, cimitarra na mão. Duas picaretas no chão. Sem ferimentos. Ataque Total neste turno: sem defesa ativa até agir de novo."}
+  ],
+  "npcs": [
+    {"mapNpcId": 1, "currentLife": -40, "posture": 3, "status": "MORTO — pescoço quase decepado; arco e flecha caídos."}
+  ],
+  "narration": "*TURNO 30 — ARENA*\n\nComam não pede licença. A cimitarra sobe de novo e desce com todo o peso do braço sobre o pescoço que já era só tiras de carne. Aelthir, tonto, ergue o rosto a tempo de ver a lâmina e não de evitá-la: o golpe abre o que restava, e o sangue empoça a areia sob os joelhos do elfo.\n> Ataque: Espadas de Lâmina Larga NH 18, -5 Pescoço, -1 Zarolho = *12*\n> 3d [4, 5, 2] = *11* → sucesso por 1\n> Defesa de Aelthir: esquiva 6 -4 atordoado = *2*\n> 3d [5, 2, 2] = *9* → falhou por 7\n> Dano: 2D: [5, 5] = *10* +2 Ataque Total = *12*\n> RD 0 → 12 passam\n> Corte no pescoço: ×2 → *24*\n> *Aelthir perde 24 ponto(s) de vida* (de -16 para -40)\n> Teste de HT 10 para não cair: 3d [3, 5, 1] = *9* → de pé\n> Testes de HT 10 para não morrer (-20, -30, -40): 3d [6, 1, 3] = *10* → sobrevive; 3d [4, 2, 4] = *10* → sobrevive; 3d [5, 6, 1] = *12* → *FALHOU*\n\nO arco escorrega dos dedos do elfo. Ele solta um último chiado, tomba de lado e não se mexe mais. A flecha rola pela areia até parar. Comam sacode a lâmina e olha em volta: a arena está em silêncio.\n\nO que vocês fazem?"
+}
