@@ -4,6 +4,8 @@ description: >
   Resolve o que o dano faz depois que o golpe passou pela defesa: rola (ou recebe) o dado
   da arma, soma Ataque Total, aplica o dano mínimo de corte e perfuração antes da armadura
   (MB, pág. 74), o teto da arma e o ½D de projétil, o multiplicador do golpe fulminante, a
+  projeção (MB, pág. 106: 1 hexágono para trás a cada 8 pontos de corte, contusão ou bala,
+  contados antes da RD), a
   RD do local atingido mais a RD natural do crânio, o multiplicador do tipo de dano e do
   local, o teto do local (HT/, HT×, HT) com o que se desperdiça, o membro incapacitado e os
   efeitos terminais do pescoço (traqueia esmagada, decapitação). Não rola ataque, não
@@ -36,10 +38,11 @@ Chamada de dentro de outra skill, é `calcular(payload)` — o mesmo dicionário
 | 2 | **dano mínimo**: corte e perfuração que acertam fazem ao menos 1 ponto **básico** | MB, pág. 74 |
 | 3 | teto da arma e ½D (só projétil) | arma por arma |
 | 4 | ×2 (ou mais) do golpe fulminante | MB, pág. 105 |
+| 4b | **projeção**: 1 hexágono para trás a cada **8 pontos completos** do dano **antes da RD** — só corte, contusão e bala; perfuração não projeta. A armadura segura a lesão, não o empurrão | MB, pág. 106, "Projetar" |
 | 5 | menos a RD **do local atingido**, somando a RD natural do crânio; e o golpe que ignora armadura não passa por aqui | MB, pág. 75 |
 | 6 | multiplicador: do local se houver, senão do tipo (contusão ×1, corte ×1,5, perfuração ×2, bala ×½) | cap. 14 + regra da casa |
 | 7 | teto do local, e o que se **desperdiça** quando o excesso atravessa a vítima | cap. 14 |
-| 8 | membro incapacitado, e o pescoço: traqueia acima de HT/2, decapitação acima de 3×HT | casa (4ª ed.) |
+| 8 | membro incapacitado, e o pescoço: traqueia acima de HT/2, **decapitação com 3×HT ou mais num golpe só: morte na hora, sem teste de HT** (errata do Mestre, turno 27) | casa (4ª ed.) |
 
 O **passo 2 antes do 5 é o erro que a mesa mais comete**: o mínimo de 1 vale sobre o dado,
 não sobre o que sobra da armadura. Corte fraco contra malha ainda faz 1 ponto *básico*, que a
@@ -50,7 +53,9 @@ RD pode anular inteiramente.
 - **Não rola ataque nem resolve defesa.** Ela só é chamada depois de um golpe que passou.
 - **Não decide queda, atordoamento, nocaute, sufocação nem choque** — isso é a
   `arbitrar-ferimento`. Ela devolve o `ferimento`, e com o resto no payload a folha irmã
-  decide o que fazer dele.
+  decide o que fazer dele. Da **projeção** ela devolve só o número de hexágonos
+  (`projecao_hex`): o teste de DX de quem voou é da `arbitrar-ferimento`, e o hexágono
+  onde ele cai é da `calcular-alcance --projetar`.
 - **Não rola dado por conta própria quando alguém já rolou**: com `--dado`, a cascata parte
   do número informado; sem ele, chama a `roll`. É assim que se testa a regra sem depender
   de sorte, e não é licença para escolher o resultado na mesa.
@@ -64,10 +69,15 @@ RD pode anular inteiramente.
   "mec":    ["Dano: 2D: [5, 1] = *6*", "RD 4 → 2 passam", "Perfuração: ×2 → *4*"],
   "resultado": {
     "basico": 6, "passou": 2, "ferimento": 4, "perdido": 0,
-    "membro_incapacitado": false, "armadura_segurou": false, "ignora_armadura": false
+    "membro_incapacitado": false, "armadura_segurou": false, "ignora_armadura": false,
+    "projecao_hex": 0
   }
 }
 ```
+
+`projecao_hex` vem preenchido **mesmo quando `armadura_segurou`**: quem chamou ainda tem de
+levar o alvo à `arbitrar-ferimento` para o teste de DX. `sem_projecao: true` no payload (ou
+`--sem-projecao`) é a arbitragem do Mestre para o alvo que não tem para onde ir.
 
 `saida` é o que se imprime na mesa do Mestre, `mec` é o que vai para o bloco do WhatsApp na
 ordem em que aconteceu, `resultado` é o número que a `registrar-acao` lança em `saude.md`.

@@ -91,10 +91,24 @@ Removidas na unificação: `--escudo-sempre` e `--dp-informado-zera-escudo`. Se 
 regimes diferentes por lado do alcance de novo, reabra as duas opções — não um `if` solto em
 um dos dois chamadores.
 
+## Aparar e a arma (MB, p. 99 e 104)
+
+Esta folha rola o número que recebe; **se o alvo pode aparar é decisão de quem a chama.**
+Duas regras do livro que o `atacar` aplica antes de chegar aqui:
+
+- **Não se apara com arma despreparada.** Quem atacou ou aparou com machado, maça ou
+  mangual no turno anterior e não Preparou **não tem Aparar**: `atacar --alvo-arma-despreparada`
+  cai na Esquiva.
+- **Aparar com arma desbalanceada a deixa despreparada** (salvo arma de haste, que apara
+  com o fuste, e salvo Preparação Rápida por ST). O `atacar` imprime isso no bloco logo
+  depois da defesa, e a linha vai para o `status` do defensor: ele **não ataca no próximo
+  turno** sem Preparar.
+
 ## O que esta folha nunca faz
 
 Não rola o ataque, não avalia dano (é a `causar-dano`), não decide queda nem atordoamento
-(`arbitrar-ferimento`), não escolhe a defesa pelo NPC, e não escreve em lugar nenhum.
+(`arbitrar-ferimento`), não escolhe a defesa pelo NPC, não sabe com que arma o alvo apara
+(é o `atacar` que lê a ficha ou `--alvo-apara-com`), e não escreve em lugar nenhum.
 
 ## Dependências
 

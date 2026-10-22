@@ -5,8 +5,9 @@ description: >
   ferimento do próximo turno (e a Hipoalgia que o anula), o teste de HT para não cair
   quando o golpe passou de metade da HT, o atordoamento que vem com a queda ou com o golpe
   fulminante, o teste de HT contra nocaute na cabeça ou com contundente nos órgãos vitais,
-  e pelo crânio exposto a perda acima de HT/2 (nocaute) e HT/3 (atordoamento). Devolve o
-  estado tático pronto — caiu, atordoado, nocauteado, redutor — para ir no ato da
+  e pelo crânio exposto a perda acima de HT/2 (nocaute) e HT/3 (atordoamento), e o teste de
+  DX para não cair de quem a causar-dano projetou para trás (MB, pág. 106). Devolve o
+  estado tático pronto — caiu, atordoado, nocauteado, projetado, redutor — para ir no ato da
   registrar-acao. Não rola ataque, não resolve defesa, não calcula dano, não escreve em
   lugar nenhum. Use when the user asks "/arbitrar-ferimento", ou quando uma atacante
   terminou de contar o dano.
@@ -33,6 +34,11 @@ python .claude/skills/arbitrar-ferimento/scripts/arbitrar_ferimento.py \
 | 3 | atordoamento do fulminante | o efeito da tabela disse `atordoa` | **-4 nas defesas ativas** |
 | 4 | HT contra nocaute | cabeça, crânio exposto, ou contundente nos vitais | **NOCAUTEADO** |
 | 5 | pelo crânio exposto | perda acima de HT/2 (nocaute) ou de HT/3 (atordoamento) | direto, sem teste |
+| 6 | **DX para não cair** | a `causar-dano` disse `projecao_hex > 0` (MB, p. 106) — **mesmo com a armadura segurando o dano** | **CAIU**, projetado N hexágonos; quem já caiu pelo golpe não testa de novo |
+
+A projeção precisa da **DX** do alvo: PJ lê a ficha; NPC vem em `--dx-alvo` (o chamador
+passa `--alvo-dx`). Sem ela a folha diz que o teste ficou pendente, em vez de rolar às
+cegas. Para onde a peça vai não é daqui: `calcular-alcance --projetar`.
 
 **Hipoalgia: confira SEMPRE antes de atordoar.** MB, `03-vantagens.md`: quem a tem "não
 ficará atordoado" ao ser ferido (exceção: golpe na cabeça ou golpe fulminante). Para PJ a
@@ -48,7 +54,7 @@ turno é a mesa (`--alvo-manobra atordoado` na jogada seguinte fecha o ciclo).
 
 ```json
 {"hipoalgia": false, "redutor_ferimento": 7, "caiu": true,
- "atordoado": true, "nocauteado": false}
+ "atordoado": true, "nocauteado": false, "projetado": 0}
 ```
 
 É isto que vai no `status tático` do ato entregue à `registrar-acao` — e é por isso que a

@@ -178,8 +178,16 @@ script troca para Esquiva, mantém a DP do escudo (se o tiro vier de frente) e e
 ## O que muda em relação à skill `atacar`
 
 Tudo o mais é igual — mesmas tabelas de ponto de impacto, de golpe fulminante, de erro
-crítico e de tipo de dano, mesmos tetos de membro, mesmo `--alvo-hipoalgia`. As opções do
-alvo são as mesmas daquela skill, menos `--alvo-aparar` e `--recuar`.
+crítico e de tipo de dano, mesmos tetos de membro, mesmo `--alvo-hipoalgia`, mesma
+**projeção** (MB, p. 106: 1 hexágono a cada 8 pontos **antes da RD**, teste de DX para não
+cair — `--alvo-dx` para NPC). Aqui ela só vale para **bala e pedra de funda** (contusão);
+**flecha e virote são perfuração e não projetam**. As opções do alvo são as mesmas daquela
+skill, menos `--alvo-aparar` e `--recuar`.
+
+Arco e besta **não ficam despreparados** no sentido do machado, mas cobram o próprio
+preparo: encaixar a flecha (ou Sacar Rápido) e os turnos de engatilhar a besta — é o
+procedimento fixado pelo Mestre, e o `status` do atirador tem de dizer se há projétil no
+arco.
 
 O que só existe aqui:
 

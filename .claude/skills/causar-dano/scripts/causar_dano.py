@@ -12,6 +12,9 @@ Ordem exata da MB, cap. 14 (e da casa), nesta folha:
    (MB, pág. 74) — vale ANTES da armadura;
 3. teto da arma e ½D (arma de projétil), quando vêm no payload;
 4. multiplicador do golpe fulminante;
+4b. **projeção** (MB, p. 106): 1 hexágono para trás a cada 8 pontos completos do dano
+   contado ANTES da armadura — só corte, contusão e bala; a RD segura a lesão, não o
+   empurrão. Quem rola o teste de DX de quem foi projetado é a `arbitrar-ferimento`;
 5. armadura: RD do local, mais a RD natural do crânio onde houver; ignora armadura no
    golpe que a atravessa por fora;
 6. multiplicador do tipo de dano e do local atingido;
@@ -54,6 +57,22 @@ TIPOS_DANO = {
             "como": "½ depois da armadura, mas ignora RD 2 ou menos"},
 }
 
+# MB, cap. 14, "Projetar" (p. 106): golpe de arma CORTANTE ou CONTUNDENTE, ou BALA, projeta
+# o alvo 1 hexágono para trás a cada 8 pontos COMPLETOS de dano, contados ANTES de descontar
+# a RD ("ela pode protegê-lo da lesão, mas não impedirá que ele sinta o golpe"). Perfuração
+# não projeta. Esta folha é a dona do número de hexágonos; o teste de DX para não cair é da
+# `arbitrar-ferimento`, e para onde a peça vai é da `calcular-alcance --projetar`.
+PROJECAO_PONTOS_POR_HEX = 8
+PROJECAO_TIPOS = ("cont", "corte", "bal")
+
+
+def projecao(basico, tipo):
+    """Hexágonos que o alvo é projetado para trás por `basico` pontos antes da RD."""
+    if tipo not in PROJECAO_TIPOS or basico <= 0:
+        return 0
+    return basico // PROJECAO_PONTOS_POR_HEX
+
+
 # Regra da casa (GURPS 4ª ed., MB Campanhas p. 552), aplicada pelo golpe no pescoço.
 def efeitos_pescoco(chave, tipo, ferimento, ht, alvo, frontal=True):
     """[(linha do terminal, linha da mesa)] — nada aqui acontece fora do pescoço.
@@ -69,11 +88,13 @@ def efeitos_pescoco(chave, tipo, ferimento, ht, alvo, frontal=True):
                     f"Lesão incapacitante: {alvo} está SUFOCANDO (regra da casa, 4ª ed.).",
                     f"*TRAQUEIA ESMAGADA* (contusão pela frente > HT/2 = {meia}) — "
                     f"{alvo} está *sufocando*"))
-    if tipo == "corte" and ferimento > 3 * ht:
-        out.append((f"  ⇒ DECAPITAÇÃO POSSÍVEL: corte acima de 3×HT ({3 * ht}) num golpe só. "
-                    f"O Mestre pode declarar {alvo} decapitado: morte automática.",
-                    f"*Corte acima de 3×HT ({3 * ht})* — o Mestre pode declarar "
-                    f"*DECAPITAÇÃO*"))
+    if tipo == "corte" and ferimento >= 3 * ht:
+        # Errata do Mestre (turno 27): 3×HT ou mais num golpe só decapita e MATA na hora,
+        # sem teste de HT contra a morte.
+        out.append((f"  ⇒ DECAPITADO: corte de {ferimento}, 3×HT ({3 * ht}) ou mais num golpe só "
+                    f"(errata do Mestre). {alvo} MORRE na hora, sem teste de HT.",
+                    f"*Corte de {ferimento} ≥ 3×HT ({3 * ht}) num golpe só: DECAPITADO* — "
+                    f"{alvo} *morre na hora*, sem teste de HT"))
     return out
 
 
@@ -145,6 +166,15 @@ def calcular(p):
         mecanico += f" ×{mult_ful} golpe fulminante = *{basico}*"
     mec.append(mecanico)
 
+    # 4b. projeção — antes da armadura, de propósito (MB, p. 106)
+    proj = 0 if p.get("sem_projecao") else projecao(basico, tipo)
+    if proj:
+        saida.append(f"  Projeção (MB, p. 106): {basico} de dano antes da RD, 1 hexágono a cada "
+                     f"{PROJECAO_PONTOS_POR_HEX} completos → {alvo} é PROJETADO {proj} hexágono(s) "
+                     f"para trás. Teste de DX para não cair; bater em algo grande o para ali.")
+        mec.append(f"Projeção: {basico} antes da RD → *{proj} hex para trás* "
+                   f"(MB, p. 106; DX para não cair)")
+
     # 5. armadura
     rd_local = int(p.get("rd_local") if p.get("rd_local") is not None else p.get("rd_total") or 0)
     rd_total = int(p.get("rd_total") or 0)
@@ -162,9 +192,10 @@ def calcular(p):
 
     resultado = {"basico": basico, "passou": passou, "ferimento": 0, "perdido": 0,
                  "membro_incapacitado": False, "armadura_segurou": passou <= 0,
-                 "ignora_armadura": bool(p.get("ignora_armadura"))}
+                 "ignora_armadura": bool(p.get("ignora_armadura")), "projecao_hex": proj}
     if passou <= 0:
-        saida.append(f"\nA armadura segurou tudo. {alvo} não perde ponto de vida nenhum.")
+        saida.append(f"\nA armadura segurou tudo. {alvo} não perde ponto de vida nenhum."
+                     + (f" Mas o empurrão ficou: projetado {proj} hexágono(s)." if proj else ""))
         return {"saida": saida, "mec": mec, "resultado": resultado}
 
     # 6. multiplicador do local e do tipo
@@ -266,6 +297,8 @@ def main():
                     help="o que trespassa quando o teto do local corta o dano: golpe, projétil")
     ap.add_argument("--nota-membro", action="store_true",
                     help="acrescenta a nota da flecha no pé ao perfurante em membro")
+    ap.add_argument("--sem-projecao", action="store_true",
+                    help="o Mestre desligou a projeção nesta jogada (alvo preso, encostado...)")
     ap.add_argument("--efeito", default="{}", help="JSON do efeito do golpe fulminante")
     ap.add_argument("--arquivo", default="", help="payload JSON completo (sobrepõe as flags)")
     ap.add_argument("--json", action="store_true")
@@ -284,6 +317,7 @@ def main():
         "meia_dano": args.meia_dano, "meia_de": args.meia_de, "chave": args.chave,
         "frontal": not args.nao_frontal, "efeito": json.loads(args.efeito),
         "trespassa_por": args.trespassa_por, "nota_membro": args.nota_membro,
+        "sem_projecao": args.sem_projecao,
     })
 
     r = calcular(p)

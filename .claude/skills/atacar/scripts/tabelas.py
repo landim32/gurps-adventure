@@ -247,10 +247,14 @@ MANOBRAS = {
         "nome": "Aguardar", "nh": 0, "dano": 0, "defesa_ativa": True,
         "obs": "Ataque normal quando o oponente entra no raio de ação. Defende normalmente.",
     },
+    # MB, p. 105, "Golpe Molinete": quem gasta a rodada numa manobra Deslocamento só golpeia
+    # de Molinete, e isso tem de ser DECLARADO. O golpe leva o PIOR entre -5 e NH máximo 9,
+    # não escolhe parte do corpo (o atacar.py sorteia) e só vale para arma de mão.
     "movimento-e-ataque": {
-        "nome": "Deslocamento e ataque (molinete)", "nh": -4, "dano": 0, "defesa_ativa": True,
-        "obs": "Quem gasta a rodada se deslocando só pode dar golpes de molinete. "
-               "Confira o redutor na pág. 105 antes de aceitar o -4 padrão daqui.",
+        "nome": "Deslocamento e golpe Molinete", "nh": -5, "dano": 0, "defesa_ativa": True,
+        "nh_maximo": 9, "local_sorteado": True,
+        "obs": "Golpe Molinete (MB, p. 105): o pior entre -5 e NH máximo 9; o ponto de impacto é "
+               "sorteado, não escolhido; só arma de mão. Defesa e dano normais.",
     },
     "precipitado": {
         "nome": "Ataque precipitado", "nh": -4, "dano": 0, "defesa_ativa": True,
@@ -279,6 +283,103 @@ TIPOS_DANO = {
     "corte": {"nome": "corte", "mult": 1.5, "como": "+50% do que passar da armadura"},
     "perf": {"nome": "perfuração", "mult": 2.0, "como": "dobra o que passar da armadura"},
 }
+
+# ------------------------------------------------- armas que precisam ser preparadas
+# MB, cap. 14, "Preparar" (p. 104) e a Tabela de Armas de Mao (cap. 24, p. 206):
+#   - espada, faca, bastao, lanca: balanceadas, nao precisam ser preparadas de novo;
+#   - arma de mao DESBALANCEADA (machado, maca, mangual, picareta, martelo, malho...)
+#     fica DESPREPARADA depois de usada para ATACAR ou para APARAR; 1 turno para
+#     prepara-la de novo (so se ataca em turnos alternados);
+#   - arma de haste (alcance 3): 2 turnos para preparar apos golpe em balanco, 1 apos
+#     golpe de ponta; NAO fica despreparada ao aparar (apara-se com o fuste);
+#   - cimitarra de uma mao: 1 turno para preparar apos golpear (nao apos aparar).
+# Preparacao Rapida por ST (p. 104): ST 5 acima da ST minima da arma = 1 turno a menos
+# (machado ataca todo turno; haste em turnos alternados); 10 acima = ataca todo turno.
+# "aparar": se usar a arma para aparar tambem a deixa despreparada.
+FAMILIAS_DESBALANCEADAS = {
+    "machado-maca": {"nome": "Machado/Maça", "turnos": 1, "aparar": True, "st_min": 12},
+    "machado-2-maos": {"nome": "Machado/Maça de duas mãos", "turnos": 1, "aparar": True,
+                       "st_min": 13},
+    "mangual": {"nome": "Mangual", "turnos": 1, "aparar": True, "st_min": 12},
+    "arma-de-haste": {"nome": "Arma de haste", "turnos": 2, "turnos_gdp": 1, "aparar": False,
+                      "st_min": 12},
+    "cimitarra": {"nome": "Cimitarra (uma mão)", "turnos": 1, "aparar": False, "st_min": 11},
+}
+
+# palavra no nome do item -> (familia, ST minima da tabela). A mais longa que casar vence.
+ARMAS_DESBALANCEADAS = {
+    "machadinha": ("machado-maca", 7), "machado de arremesso": ("machado-maca", 12),
+    "machado": ("machado-maca", 12), "maca pequena": ("machado-maca", 11),
+    "maca": ("machado-maca", 12), "picareta": ("machado-maca", 11),
+    "cutelo": ("machado-maca", 12),
+    "morningstar": ("mangual", 12), "mangual": ("mangual", 13),
+    "martelo de combate": ("machado-2-maos", 13), "martelo": ("machado-2-maos", 13),
+    "malho": ("machado-2-maos", 14), "foice de guerra": ("machado-2-maos", 12),
+    "falcione": ("arma-de-haste", 11), "acha": ("arma-de-haste", 12),
+    "alabarda": ("arma-de-haste", 13),
+    "cimitarra": ("cimitarra", 11),
+}
+
+
+def _slug(txt):
+    import re
+    import unicodedata
+    s = unicodedata.normalize("NFKD", str(txt or "")).encode("ascii", "ignore").decode()
+    return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
+
+
+def arma_desbalanceada(nome_arma, pericia="", modo="balanco"):
+    """None se a arma e balanceada; senao {familia, nome, turnos, aparar, st_min}.
+
+    Decide pela PERICIA quando ela e de familia desbalanceada (Machado/Maça, Mangual, Arma
+    de Haste), e pelo NOME do item para a ST minima e para o resto (cimitarra de uma mao,
+    maca empunhada por quem tem a pericia em outro nome). Espada de duas maos e balanceada
+    mesmo chamada cimitarra."""
+    n, per = _slug(nome_arma), _slug(pericia)
+    duas_maos = "2-mao" in n or "duas-mao" in n or "2-mao" in per or "duas-mao" in per
+    familia = None
+    if "haste" in per:
+        familia = "arma-de-haste"
+    elif "mangual" in per:
+        familia = "mangual"
+    elif "machado" in per or "maca" in per:
+        familia = "machado-2-maos" if duas_maos else "machado-maca"
+    # a ST minima vem do item; a palavra mais longa que casar e a que vale
+    st_min, fam_item = None, None
+    for chave, (fam, st) in sorted(ARMAS_DESBALANCEADAS.items(), key=lambda kv: -len(kv[0])):
+        if _slug(chave) in n:
+            st_min, fam_item = st, fam
+            break
+    if familia is None and fam_item:
+        if fam_item == "cimitarra" and (duas_maos or "duas-mao" in per or "espadas-de-duas" in per):
+            return None     # cimitarra de duas maos: identica ao montante, balanceada
+        familia = fam_item if not (fam_item == "machado-maca" and duas_maos) else "machado-2-maos"
+    if familia is None:
+        return None
+    if fam_item == "machado-maca" and familia == "machado-2-maos":
+        st_min = None   # «machado» a duas maos: vale a ST minima da familia (13), nao a de uma mao
+    f = dict(FAMILIAS_DESBALANCEADAS[familia])
+    f["familia"] = familia
+    f["st_min"] = st_min if st_min is not None else f["st_min"]
+    if familia == "arma-de-haste" and modo in ("estocada", "gdp"):
+        f["turnos"] = f["turnos_gdp"]
+    return f
+
+
+def turnos_para_preparar(desb, st, extra=0):
+    """Quantos turnos de Preparar a arma cobra depois de usada, ja com a Preparacao Rapida
+    por ST (p. 104). `extra` e o turno a mais do erro critico «a arma gira na mao»."""
+    if not desb:
+        return 0
+    bonus = 0
+    if st and desb.get("st_min"):
+        bonus = max(0, (int(st) - int(desb["st_min"])) // 5)
+    return max(0, int(desb["turnos"]) - bonus) + int(extra or 0)
+
+
+# A PROJECAO (MB, p. 106: 1 hexagono a cada 8 pontos de dano antes da RD, so corte,
+# contusao e bala) e grandeza da folha `causar-dano`, e o teste de DX de quem e projetado
+# e da `arbitrar-ferimento`. Nada dela mora aqui.
 
 # Condicoes adversas mais usadas — MB, cap. 13
 REDUTORES = {

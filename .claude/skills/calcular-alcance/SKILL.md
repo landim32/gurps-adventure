@@ -51,12 +51,29 @@ o tipo de decisão que não deve sair de um critério escondido num laço.
 Caso vizinho nunca empata — as seis casas ao redor são sempre um cone só, o que a prova de
 propriedades confere casa a casa na grade.
 
+## Projeção: para onde a peça vai
+
+```
+python .../calcular_alcance.py --tokens tokens.json --de "Urzog, o Bigorna" \
+    --para "Cozinheira do Castelo" --projetar 2
+```
+
+Quando a `causar-dano` disse que o alvo foi **projetado N hexágonos** (MB, p. 106), esta
+folha anda com ele **no rumo do golpe** — de quem bateu para quem apanhou, o `lado` de
+sempre —, hexágono a hexágono, e **para antes do primeiro hexágono ocupado** por outra peça
+("bater em algo grande o para ali"). Devolve `projecao` com o `caminho`, o hexágono
+`final` e `bloqueado_por`, quando houve. Sem `--tokens` ela não confere peça nem parede, e
+diz isso: a parede do mapa é arbitragem do Mestre. O `x`, `y` final vai para o
+`process_turn` (`processar-turno`, seção 3a); o teste de DX de quem voou já saiu da
+`arbitrar-ferimento`.
+
 ## O que esta folha nunca faz
 
 Não rola dado (é a `roll`), não decide o ataque (`atacar`, `atacar-distancia`), não resolve
-defesa (`resolver-defesa`), não conta dano (`causar-dano`), não grava nada. Devolve número
-para o Mestre arbitrar — quem escreve o que a mesa viu é a `registrar-acao`, e quem mexe no
-roll6 é a `processar-turno`.
+defesa (`resolver-defesa`), não conta dano (`causar-dano`), não decide quantos hexágonos a
+projeção tem (é a `causar-dano`), não grava nada. Devolve número para o Mestre arbitrar —
+quem escreve o que a mesa viu é a `registrar-acao`, e quem mexe no roll6 é a
+`processar-turno`.
 
 ## Prova de geometria, não de confiança
 

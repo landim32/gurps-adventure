@@ -475,7 +475,9 @@ def main():
         })
     # Manobras ficam na ficha (o NH decide a jogada), mas o que cada uma faz mora no
     # grimorio de manobras. A linha de remissao so entra se houver espaco.
-    if any((p or {}).get("categoria") == "Manobras" for p in pericias)             and len(pericias) + 2 <= PERICIAS["max_rows"]:
+    manobras_no_bloco = ((data.get("npc_bloco") or {}).get("titulo") or "").startswith("Manobras")
+    if any((p or {}).get("categoria") == "Manobras" for p in pericias) and not manobras_no_bloco \
+            and len(pericias) + 2 <= PERICIAS["max_rows"]:
         pericias.append(None)
         pericias.append({"nome": "Manobras: efeito no grimório", "nh": "—",
                          "tipo": None, "custo": None})

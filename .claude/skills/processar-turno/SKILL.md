@@ -38,8 +38,8 @@ Uma chamada ao `get_turn_data` e ao `get_turn_state`, cruzada com o repositório
 - **VEREDITO**: `PRONTO` (todo personagem aprovado declarou ação), `FALTAM AÇÕES de: ...`
   ou `SÓ LEITURA` (turno já encerrado, `--turno N`).
 - **Cada personagem**: `characterId`, PV e Fadiga no roll6, hex local (`P7`) e xy,
-  frente, status, **as ações declaradas**, os movimentos, a ficha local e as reações dos
-  NPCs com ele.
+  frente, status, **as ações declaradas** (cada uma com o **alvo**, quando foi declarada
+  "sobre" um hex — seção 1c), os movimentos, a ficha local e as reações dos NPCs com ele.
 - **Cada NPC no mapa**: `mapNpcId`, PV, hex, status, o nome dele no `saude.md`, as
   ações que o Mestre já lançou (ou o aviso `SEM AÇÃO NEM MOVIMENTO`) e **a reação mais
   recente dele com cada personagem**, de todos os capítulos. Essas reações são só locais
@@ -97,6 +97,20 @@ como regra**: vale o da folha. O que fazer com o resultado:
   `process_turno` leva esse `x`, `y` e `look`, e a **narração avisa** a correção. Ordem
   expressa do Mestre (ex.: "se alguém passar do deslocamento, volte ao ponto") já cobre isto;
   sem ordem, mostre a correção na aprovação (seção 4a).
+- **`ATAQUE: NÃO ACONTECE`** (a linha que a folha imprime para quem andou e declarou golpe):
+  **a peça fica onde chegou e o golpe não rola.** É a regra da mesa, do MB p. 104-105 e do
+  Mestre: Avançar e Atacar deixa andar **1 hexágono**; Ataque Total, **o maior entre 2 e metade
+  do Deslocamento**, só para a frente e sem virar no fim; quem andou mais fez a manobra
+  **Deslocamento**, e durante um Deslocamento **só se golpeia de Molinete** — e só se o jogador
+  **declarou "molinete"**. Sem a palavra, o turno dele é só o deslocamento, e a **narração
+  explica** ("chega junto do guarda, mas o golpe não sai: gastou a rodada correndo"). Vale
+  para PJ e NPC (o cão que andou 10 hexágonos e "mordeu" foi o caso); vale para ação repetida;
+  vale para tiro (Disparo em Movimento, MB p. 117, só com ordem do Mestre). Não recue a peça
+  para 1 hexágono para "caber" o golpe: isso o livro não deixa. `ATAQUE: cabe — ...` é o
+  contrário: andou dentro do teto da manobra, o golpe sai.
+- **Golpe Molinete declarado** (`manobra: Deslocamento com golpe Molinete`): o movimento é o
+  Deslocamento inteiro, e o golpe sai pelo `atacar --manobra molinete` — pior entre **−5** e
+  **NH máximo 9**, ponto de impacto **sorteado** (sem redutor), só arma de mão.
 - **Manobra ambígua** (a declaração mistura Deslocamento com Defesa Total, Apontar...): a folha
   traz as `alternativas`. **Junte com as outras dúvidas e pergunte ao Mestre uma vez** (seção
   3, item 7); decidido, refaça com `--manobra "Nome=codigo"` e registre como errata.
@@ -132,6 +146,56 @@ recuei, recuou** na declaração, o bloco `RECUAR` com o hexágono de trás. Apl
 - A narração diz o recuo no fim da fala do personagem, e a linha de **Deslocamentos conferidos**
   não o conta.
 
+## 1c. Alvo da ação: "Agir sobre…" (098)
+
+No roll6 o jogador pode declarar a ação **sobre um hex** ("Agir sobre…" no menu da peça): a ação chega com
+um alvo, e o `contexto` o mostra logo abaixo da declaração:
+
+```text
+    AÇÃO: Ataco com a espada
+      → sobre Goblin 2 (inimigo, NPC) em J8 (9,7), a 3 hexes, olhando Sudeste, Caído, PV 5/12, Fadiga 3/10, status: atordoado
+    AÇÃO: Corro até a porta
+      → sobre o hex M5 (12,4), a 5 hexes
+```
+
+No `--json` é `acoes[].alvo` (`xy`, `hex`, `distancia`, `mapTokenId`, `tipo`, `lado`, `nome`, `characterId`,
+`mapNpcId`, `frente`, `postura`, `status`, `pv`, `fadiga`; `null` sem alvo). É uma **cópia feita na hora da
+declaração**: o que o jogador viu quando apontou, nunca relida. Regras:
+
+- **A peça apontada é o adversário (ou o beneficiado) da declaração** — pela identidade (`mapTokenId`,
+  `mapNpcId`, `characterId`), nunca pelo nome: com dois "Goblin" no mapa, é o apontado. "Ataco o goblin" sobre
+  o Goblin 2 é um ataque ao Goblin 2.
+- **A distância é o alcance**: corpo a corpo só a 1 hex (ou o alcance da arma); tiro e arremesso pelos redutores
+  de distância de `atacar-distancia`. A `distancia` registrada é de onde o jogador estava ao declarar — se a
+  seção 1a devolveu a peça dele para trás, **recalcule** com `calcular-alcance` a partir da posição válida.
+- **Hex vazio** é o destino ou o ponto mirado da manobra: um Deslocamento até lá, um tiro naquele ponto, uma
+  observação daquele lugar. Confira se ele cabe no Deslocamento (seção 1a).
+- **Alvo que não está mais lá** (a cópia diz um hex e a peça está em outro, ou saiu do mapa, ou caiu): a
+  declaração vale pelo que o jogador viu; resolva com a posição atual do alvo e **narre** a diferença ("quando
+  Cedric chega, o goblin já não está lá").
+- **Lado**: `inimigo`/`neutro`/`aliado` é a categoria do NPC na campanha; personagens são aliados entre si;
+  `si mesmo` é a própria peça (preparar, concentrar, levantar); `objeto` é uma coisa (porta, baú).
+- **Sem alvo**, a declaração é lida como sempre foi: só o texto.
+
+## 1d. Ação repetida (099)
+
+O jogador pode deixar uma **ação repetida** ("Ação repetida…" no menu da peça): uma ordem permanente que o roll6
+registra sozinho como a ação do personagem **no início de cada turno**. O `contexto` mostra:
+
+```text
+    REPETIÇÃO ATIVA: Enquanto houver inimigos vivos na sala, preparo o machado e ataco, sem ataque total.
+      → ao fechar, se o objetivo foi cumprido: clearRepeatedAction: true neste personagem
+    AÇÃO (repetida): Enquanto houver inimigos vivos na sala, preparo o machado e ataco, sem ataque total.
+```
+
+- **Resolva como qualquer declaração** do turno (seção 3): a ordem vale como o que o personagem faz agora.
+- **Julgue se o objetivo se cumpriu** com o resultado deste turno: o alvo nomeado morreu ou fugiu, não sobrou
+  inimigo, a condição que ela cita acabou ("até a porta abrir" e a porta abriu). Se sim, mande
+  `clearRepeatedAction: true` para esse personagem (ou NPC) no `process_turn` e diga numa frase da narração que ele
+  para ("Com o último orc caído, Urzog baixa o machado."). Na dúvida, **mantenha**.
+- A ordem também acaba sozinha quando o jogador declara outra ação; você não precisa fazer nada nesse caso.
+- Com o Mestre (uso local), a remoção entra no lote que ele aprova, como o resto.
+
 ## 2. Ler antes de decidir qualquer número
 
 Leia os arquivos da lista, **a ficha de cada personagem que age** (a ficha local; sem
@@ -163,7 +227,8 @@ Escreva para si o plano da rodada inteira:
 
    Declaração condicional ("se possível, golpeio o Morto 4") é resolvida se a condição
    se cumpre: veja alcance, arma preparada e posição. Se não se cumpre, vira a manobra
-   que faz sentido, e isso é dito.
+   que faz sentido, e isso é dito. Declaração **com alvo** (seção 1c): o alvo da régua é a
+   peça apontada, e o alcance é a distância registrada (recalculada se a peça voltou).
 3. **Os NPCs.** Ação ou movimento que o Mestre lançou no roll6 é o que vale. **NPC sem
    ação nem movimento** (o contexto marca `SEM AÇÃO NEM MOVIMENTO`): **você decide o que
    ele faz e o que ele fala**, pelo procedimento da seção "Decidir pelo NPC", logo abaixo.
@@ -172,7 +237,10 @@ Escreva para si o plano da rodada inteira:
 5. **Estado herdado.** Status do turno anterior que cobra agora entra na conta:
    - teste de HT de quem está atordoado;
    - redutor de choque, que vale só neste turno;
-   - arma despreparada que precisa de Preparar;
+   - **arma despreparada que precisa de Preparar** — o `contexto` imprime `⚠ ARMA
+     DESPREPARADA` debaixo do status: **esse personagem não ataca nem apara com ela neste
+     turno**, por mais que a declaração (ou a ação repetida) diga "ataco". A ação dele é
+     Preparar, e a narração diz isso. Ver a seção 3a;
    - Precisão acumulada de quem apontou;
    - Ataque Total do turno passado, que deixa sem defesa.
 6. **Falha crítica decidida antes**, para cada ação que rola.
@@ -180,6 +248,41 @@ Escreva para si o plano da rodada inteira:
    cabe, NH que o livro não deixa rolar) ou é ambígua, **junte todas e pergunte ao Mestre
    de uma vez** (`AskUserQuestion`), com o caminho que o livro oferece. Decidido, a
    conversa acabou: o Mestre manda sobre a regra, e a decisão vira **errata** no registro.
+
+### 3a. A arma preparada e a projeção — o que todo golpe deixa para o turno seguinte
+
+Duas regras do MB que a mesa deixou passar turno após turno, e que agora os scripts
+cobram. **São obrigação de quem fecha o turno, não detalhe:**
+
+**Arma preparada (MB, p. 104).** Machado, maça, mangual, picareta, cutelo, martelo, malho e
+arma de haste são **desbalanceados**: ficam **despreparados** depois de **atacar ou aparar**,
+e Preparar leva 1 turno (2 para haste em balanço). Espada, faca, bastão e lança não.
+**Preparação Rápida por ST**: ST 5 acima da mínima da arma = 1 turno a menos (Gorbag, ST 20
+com o cutelo de duas mãos, golpeia todo turno; Urzog, ST 13 com o machado, só em turnos
+alternados). O `atacar` calcula e imprime isso na **última linha do bloco**. O fluxo:
+
+1. **Antes de rolar**: o status do atacante diz "despreparad"? Então a ação deste turno
+   **é Preparar** — não rode o `atacar`; se rodar, use `--arma-despreparada`, que recusa.
+   Vale para ação repetida ("ataque até morrerem" = ataca em turnos alternados). Quem apara
+   com a arma despreparada não apara: `--alvo-arma-despreparada`.
+2. **Depois do golpe**: a última linha do bloco (`*Arma despreparada: Machado* — 1 turno(s)
+   de Preparar...`) **vai para o `status`** do `process_turn` — `"Machado despreparado:
+   Preparar no T26"`. Quem aparou com arma desbalanceada ganha a mesma linha. Quem tem
+   Preparação Rápida ganha `segue pronto` e nada muda no status.
+3. **No turno seguinte**, quem Preparou ganha `"Machado preparado"` no status e volta a
+   atacar no outro.
+
+**Projeção (MB, p. 106).** Golpe de **corte ou contusão** (ou bala) empurra o alvo **1
+hexágono a cada 8 pontos de dano antes da RD**; perfuração não. A `causar-dano` imprime
+`Projeção: 17 antes da RD → *2 hex para trás*` e a `arbitrar-ferimento` rola o **DX para
+não cair** (`--alvo-dx` para NPC). O que você faz com isso:
+
+1. `calcular-alcance --projetar N --de <atacante> --para <alvo> --tokens <list_map_tokens>`
+   dá o hexágono final, parando antes de peça no caminho. Parede do mapa é você que olha.
+2. O alvo entra no `process_turn` com o **`x`, `y` novo** (mesma frente) e **`posture: 2`**
+   se o DX falhou — a narração conta o voo e a queda.
+3. Projeção que não cabe (alvo preso, encostado, agarrado) é decisão do Mestre e vira
+   errata; `causar_dano.py --sem-projecao` registra.
 
 ### Decidir pelo NPC
 
@@ -198,7 +301,9 @@ Defender não gasta o turno dele. Só não defende quem não pode: surpreendido,
 defesa, em Ataque Total, inconsciente.
 
 **Primeiro o que o estado impõe**, antes de qualquer escolha:
-- **Arma despreparada:** Preparar.
+- **Arma despreparada:** Preparar. E o NPC de machado, maça ou mangual que **atacou ou
+  aparou** no turno passado **está** com ela despreparada, salvo Preparação Rápida por ST
+  (seção 3a) — mesmo que o status não diga, porque alguém esqueceu de escrever.
 - **Caído ou de bruços:** levantar, que são dois turnos de bruços a de pé, e em pé pode
   atacar no mesmo turno pela exceção do livro.
 - **Atordoado:** teste de HT, e só isso.
@@ -221,8 +326,11 @@ turno, nesta ordem:
    dado (`roll.py 1d`).
 5. **Arma de longo alcance primeiro**, enquanto houver munição e o alvo estiver fora do
    corpo a corpo. Ninguém ao alcance: ele **se move** na direção do alvo escolhido pelas
-   mesmas regras, gastando o Deslocamento dele, e ataca se chegar (Avançar e Atacar), ou
-   só se aproxima.
+   mesmas regras. **Alvo a 1 hexágono** (ou até o maior entre 2 e metade do Deslocamento, se
+   for Ataque Total, só em linha reta): avança e ataca. **Mais longe que isso: só se
+   aproxima** — gasta o Deslocamento, chega adjacente e **ataca no turno seguinte**. NPC
+   não ganha golpe de graça por ter chegado; o Molinete é a exceção, e é escolha dele,
+   dita na narração ("vem correndo e tenta um golpe de passagem"), com o −5/NH 9.
 
 **O golpe.** Manobra pelo temperamento: Ataque normal por padrão; **Ataque Total** para
 criatura sem autopreservação contra alvo indefeso, ou quando a ficha e o plano pedem.
@@ -368,18 +476,26 @@ Monte a chamada com **só o que mudou**:
   ],
   "npcs": [
     {"mapNpcId": 11, "currentLife": -2, "status": "DESTRUÍDO — caído em Q44"},
-    {"mapNpcId": 12, "x": 15, "y": 9, "look": 4}
+    {"mapNpcId": 12, "x": 15, "y": 9, "look": 4},
+    {"mapNpcId": 13, "posture": 2, "status": "Caído, atordoado; perna incapacitada"}
   ],
   "narration": "…"
 }
 ```
 
+- **`posture`** (PJ e NPC): `1` em pé, `2` caído, `3` fora de combate. Quem caiu, foi derrubado ou ficou
+  incapacitado na resolução leva `posture` no lote; só o texto "caído" no `status` não deita a peça no mapa.
+  Quem se levantou volta a `1`.
 - **`currentLife` e `currentEnergy`** saem do `saude.md` já atualizado: PJ é o máximo
   mais o acumulado, NPC é o total mais o acumulado. Nunca passam do total.
 - **`status`** é o estado tático que vale **até o fim do próximo turno**, em até 260
   caracteres:
-  - arma preparada ou despreparada;
+  - **arma preparada ou despreparada** — a última linha do bloco do `atacar` decide: quem
+    atacou ou aparou com arma desbalanceada sem Preparação Rápida entra com `"Machado
+    despreparado: Preparar"`; a palavra **despreparad** é o que o `contexto` procura no
+    turno seguinte (seção 3a);
   - caído, de joelhos, atordoado (com o teste que falta);
+  - **projetado**: só a posição nova (`x`, `y`) e, se caiu, `posture: 2`;
   - redutor de choque do próximo turno;
   - apontando, com a Precisão acumulada;
   - sem defesa ativa por Ataque Total, Defesa Total;
@@ -525,3 +641,23 @@ Depois do `process_turn`, o item 1 sai **sempre** de novo na tela: é o bloco qu
   denuncie.
 - **Deixar NPC parado** por falta de ordem: sem ação lançada, ele age pela seção "Decidir
   pelo NPC".
+
+## Só pelo MCP (097)
+
+Quando a campanha em jogo **não é a do repositório** — outra campanha do roll6, ou o **Modo GM** do Roll6
+(skill `gm`) —, a mesa inteira vive no roll6 e nada aqui é lido como estado nem gravado:
+
+```bash
+python .claude/skills/processar-turno/scripts/processar_turno.py contexto --so-mcp --campanha N
+python .claude/skills/validar-movimento/scripts/validar_movimento.py turno --so-mcp --campanha N
+```
+
+- `--so-mcp` exige `--campanha N` (o `campanha/roll6.json` não é lido) e força "fora do repositório": sem ficha
+  local, sem `saude.md`, sem reações, sem capítulo nem plano. A tela começa com `SÓ MCP` e diz de onde vem cada
+  ficha: `get_participation {id}` → `sheet` (a ficha da campanha) e `get_npc {id}` → `sheet`.
+- **Nada de `campanha.py`** (acontecimento, saúde, anotar, bolsa): o registro é o `process_turn` da seção 6 —
+  `status` de cada personagem e NPC (o estado tático que vale até o próximo turno, até 260 caracteres),
+  `currentLife`/`currentEnergy`, `x`/`y`/`look` e a `narration` com a conta de cada jogada. A situação da campanha
+  é relida de lá no turno seguinte (`get_turn_data`, `get_turn_narration`, `list_chat_messages kind=narration`).
+- As regras continuam vindo dos livros (`livros/`) e das skills de regra; só os dados da campanha mudam de lugar.
+- Sem a flag, tudo segue como antes: a campanha do repositório, a ficha local, o registro local.
