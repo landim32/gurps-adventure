@@ -1,6 +1,6 @@
 # Comam Obabaroy
 
-**Humano · Mercenário (arquétipo do *GURPS Fantasy*) · 170 pontos (168,5 gastos, 1,5 sobrando) · Cenário medieval/fantasia (NT 3)**
+**Humano · Mercenário (arquétipo do *GURPS Fantasy*) · 185 pontos (todos gastos) · Cenário medieval/fantasia (NT 3)**
 
 ## Aparência
 
@@ -63,10 +63,10 @@ sério por mais de alguns minutos seguidos.
 | Reflexos em Combate | 15 |
 | Hipoalgia (Alto Limiar de Dor) | 10 |
 | Riqueza (Confortável) | 10 |
+| Força de Vontade +3 (Vontade 12) | 12 |
 | Zarolho | -15 |
-| Excesso de Confiança | -10 |
 | Fanfarronice | -10 |
-| Hábito Detestável (ri descontroladamente, até em combate) | -5 |
+| Alcoolismo | -15 |
 
 *Total de Desvantagens: -40 pontos (no limite sugerido pelo Módulo Básico).*
 
@@ -74,9 +74,11 @@ Notas de regra:
 - **Zarolho**: -1 DX em combate e coordenação olho-mão, **-3 com armas de projétil** (afeta
   diretamente a besta), -1 em testes de reação. Penalidades situacionais, não incluídas no NH
   base listado abaixo.
-- **Excesso de Confiança**: teste de IQ para agir com cautela quando a situação pedir;
-  +2 de reação com jovens/ingênuos, -2 com NPCs experientes.
+- **Alcoolismo**: diante de álcool, teste de Vontade (12 depois da Força de Vontade); falhou,
+  porre de 2D horas e ressaca em dobro, -3 em todos os atributos e perícias.
 - **Fanfarronice**: provoca e intimida sempre que pode; -2 fixo em testes de reação.
+- **Força de Vontade +3**: Vontade 12 (IQ 9 + 3). Vale para o Alcoolismo e para resistir a
+  intimidação, medo e controle mental.
 - **Hipoalgia**: ignora os redutores de choque por ferimento — o que explica ele continuar
   sorrindo depois de levar um golpe.
 
@@ -94,6 +96,7 @@ Notas de regra:
 |---|---|---|---|---|
 | Espadas de Lâmina Larga | 18 | DX/M | 24 | Combate |
 | Machado/Maça (picaretas) | 16 | DX/M | 8 | Combate |
+| Briga | 16 | DX/F | 4 | Combate |
 | Besta | 17 | DX/F | 8 | Combate |
 | Sacar Rápido (Flecha/virote) | 16 | DX/F | 4 | Combate |
 | Sacar Rápido (Espada) | 15 | DX/F | 2 | Combate |
@@ -102,17 +105,15 @@ Notas de regra:
 | Natação | 13 | DX/F | ½ | Físicas |
 | Armeiro | 10 | IQ/M | 4 | Profissionais |
 | Sobrevivência (Deserto) | 10 | IQ/M | 4 | Profissionais |
-| Tática | 9 | IQ/D | 4 | Profissionais |
 | Primeiros Socorros | 12 | IQ/F | 6 | Profissionais |
 | Terreno (Caithness) | 8 | IQ/F | ½ | Profissionais |
 | Manha | 10 | IQ/M | 4 | Sociais |
-| Lábia | 7 | IQ/M | ½ | Sociais |
-| Árabe (nativa) | 9 | IQ/M | 0 | Línguas |
-| Ânglico | 9 | IQ/M | 2 | Línguas |
+| Lábia | 8 | IQ/M | 1 | Sociais |
+| Árabe (nativa) | 10 | IQ/M | 2 | Línguas |
+| Ânglico | 10 | IQ/M | 4 | Línguas |
 
 **Línguas.** O árabe é a língua nativa (nações islâmicas de Yrth): vem de graça com NH igual
-à IQ. O ânglico, língua franca das terras cristãs, está em NH 9 — comando de falante nativo
-médio, com sotaque ligeiro.
+à IQ (9) e sobe a 10 por 2 pontos. O ânglico, língua franca das terras cristãs, está em NH 10.
 
 **Pontos de campanha (20).** Gastos 18,5: HT 12→13 (10), Besta 16→17 (4), Primeiros Socorros
 11→12 (2), Ânglico 8→9 (1), Lábia 7 (½), Natação 13 (½), Conhecimento do Terreno (Caithness) 8
@@ -172,22 +173,33 @@ O alcance e o dano de uma besta são governados pela **ST da arma**, não pela d
 | Categoria | Pontos |
 |---|---|
 | Atributos | 95 |
-| Vantagens | 35 |
+| Vantagens | 47 |
 | Desvantagens | -40 |
 | Peculiaridades | -5 |
-| Perícias | 83,5 |
-| **Gasto** | **168,5** |
-| Orçamento | 170 |
-| **Sobraram** | **1,5** |
+| Perícias | 88 |
+| **Gasto** | **185** |
+| Orçamento | 185 |
+| **Sobraram** | **0** |
+
+## Pontos de campanha (15) — 20/10/2026
+
+Orçamento de 170 para 185. Gastos 12: **Força de Vontade +3** (4/nível), para Vontade 12.
+**Troca de desvantagens**, mantendo o total em −40: saem **Excesso de Confiança** (−10) e
+**Hábito Detestável** (−5); entra **Alcoolismo** (−15). Fanfarronice e Zarolho ficam, e o
+modificador de reação fixo continua −3. Os 4,5 que sobraram foram para as línguas e a
+lábia: **Ânglico 9→10** (+2), **Árabe 9→10** (+2, só o que passa do NH grátis) e **Lábia
+7→8** (+½). Nada sobra. (O teto de 2× a idade vale só na criação; as perícias passam de 84.)
+Depois, **Briga** (DX/Fácil, DX+2 = 16, 4 pts) entrou a pedido, pagos pela retirada de
+**Tática** (NH 9, 4 pts); Machado/Maça continua em 16. O total de perícias segue em 88.
 
 ## Aderência ao arquétipo Mercenário (*Fantasy*, cap. 4)
 
 Seguido do arquétipo: Reflexos em Combate, Hipoalgia e Riqueza (todas listadas como vantagens
-úteis), Excesso de Confiança (desvantagem típica), o "pequeno aleijão" que o livro cita como
-comum entre mercenários veteranos (Zarolho), as perícias Armeiro, Tática, Cavalgar e Manha, e
+úteis), o "pequeno aleijão" que o livro cita como
+comum entre mercenários veteranos (Zarolho), as perícias Armeiro, Cavalgar e Manha (Tática saiu para pagar a Briga), e
 o par arma preferida + Sacar Rápido.
 
-Desvios conscientes: **Fanfarronice** e **Hábito Detestável** não constam da lista do
+Desvios conscientes: **Fanfarronice** e **Alcoolismo** não constam da lista do
 arquétipo — vêm da personalidade "zoeira" pedida na descrição do personagem, que tem
 prioridade. Ficaram de fora, por falta de pontos: Bom-Senso (que também contradiz o Excesso
 de Confiança), Hierarquia Militar, Recuperação Alígera, Reputação, Estratégia, Liderança,

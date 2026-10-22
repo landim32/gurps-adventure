@@ -1,0 +1,389 @@
+{
+  "nome": "Ilvaren Vento-Manso",
+  "jogador": "Histórico (fora da campanha)",
+  "arquetipo": "Druida (Mago de Animais; Magia + Fantasy)",
+  "raca": "Elfo (Fantasy)",
+  "idade": 214,
+  "aparencia": "1,75 m; 68,1 kg; 214 anos, elfo esguio de pele cor de casca, cabelos longos com folhas trançadas",
+  "historia": "Elfo das florestas de Sterling, eunuco por voto, druida e o primeiro 'woke' de Yrth: acolhe e defende os esquecidos.",
+  "data_criacao": "19/10/2026",
+  "sequencia": "1",
+  "pontos_gastar": 150,
+  "pontos_total": 150,
+  "atributos": {
+    "ST": {
+      "valor": 10,
+      "custo": 10
+    },
+    "DX": {
+      "valor": 12,
+      "custo": 10
+    },
+    "IQ": {
+      "valor": 14,
+      "custo": 30
+    },
+    "HT": {
+      "valor": 12,
+      "custo": 20
+    }
+  },
+  "fadiga": 10,
+  "pontos_vida": 12,
+  "dano_basico": {
+    "gdp": "1D-2",
+    "bal": "1D"
+  },
+  "velocidade_basica": 6.0,
+  "deslocamento": 6,
+  "carga": {
+    "nenhuma": 10,
+    "leve": 20,
+    "media": 30,
+    "pesada": 60,
+    "muito_pesada": 100
+  },
+  "defesa_passiva": {
+    "armadura": 0,
+    "escudo": 0,
+    "total": 0
+  },
+  "defesas_ativas": {
+    "esquiva": 7,
+    "aparar": 10,
+    "bloqueio": 0
+  },
+  "reacao": "+2 (Carisma/Aparência); -1 sermões",
+  "vantagens_desvantagens": [
+    {
+      "nome": "Raça: Elfo",
+      "custo": 40,
+      "raca": true
+    },
+    {
+      "nome": "Aptidão Mágica 3 (só Animais)",
+      "custo": 16,
+      "lembrete": "AM racial 1 vale em tudo; os +2 comprados só em mágicas de Animais (Uma Única Escola)"
+    },
+    {
+      "nome": "Empatia com Animais",
+      "custo": 5
+    },
+    {
+      "nome": "Eunuco (voto de castidade)",
+      "custo": -5,
+      "lembrete": "Imune à sedução; -1 de reação de quem sabe"
+    },
+    {
+      "nome": "Fanatismo (a natureza)",
+      "custo": -15,
+      "lembrete": "A natureza vem antes de tudo: defende bichos e florestas sem negociar"
+    },
+    {
+      "nome": "Senso do Dever (minorias)",
+      "custo": -10,
+      "lembrete": "Nunca abandona nem deixa passar fome os esquecidos; milita por eles"
+    },
+    {
+      "nome": "Hábito Detestável (sermões)",
+      "custo": -5,
+      "lembrete": "Prega inclusão a todo momento: -1 de reação de quem ouve"
+    },
+    {
+      "nome": "Intolerância (opressores)",
+      "custo": -5,
+      "lembrete": "-3 de reação a caçadores por esporte, escravistas e quem despreza minorias; tolera com frieza se a reação for boa"
+    }
+  ],
+  "raca_tracos": [
+    {
+      "nome": "IQ+1 DX+1 ST-1"
+    },
+    {
+      "nome": "Refl. Combate; AM 1"
+    },
+    {
+      "nome": "Carisma/Aparência +1"
+    },
+    {
+      "nome": "Talento Musical +2"
+    },
+    {
+      "nome": "Unaging"
+    },
+    {
+      "nome": "Código de Honra"
+    },
+    {
+      "nome": "Dever à natureza"
+    }
+  ],
+  "peculiaridades": [
+    "Pede perdão pelos privilégios",
+    "Oferece chá a todo desconhecido",
+    "Corrige termos ofensivos",
+    "Pergunta o nome que preferem",
+    "Pede licença às árvores"
+  ],
+  "armas_objetos": [
+    {
+      "item": "Bastão (cajado de carvalho)",
+      "dano": "1D+2",
+      "tipo": "cont",
+      "qtd": 1,
+      "peso": 2.0,
+      "categoria": "Armas",
+      "obs": "Bal+2 (1D+2) ou GDP+2 (1D); 2 mãos; alcance 1,2"
+    },
+    {
+      "item": "Roupas classe média",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 0.5,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Mochila pequena",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 1.5,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Odre pequeno (5 L)",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 0.0,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Rações (5 refeições)",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 1.25,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Saco de dormir",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 3.5,
+      "categoria": "Equipamento"
+    }
+  ],
+  "peso_total": 8.75,
+  "custo_total": 155,
+  "dinheiro": 845,
+  "pericias": [
+    {
+      "nome": "Bastão",
+      "nh": 14,
+      "tipo": "DX/D",
+      "custo": 16,
+      "categoria": "Combate",
+      "obs": "Aparar 2/3 do NH"
+    },
+    {
+      "nome": "Briga",
+      "nh": 14,
+      "tipo": "DX/F",
+      "custo": 4,
+      "categoria": "Combate",
+      "obs": "+1 de dano; Aparar 2/3"
+    },
+    {
+      "nome": "Naturalista",
+      "nh": 14,
+      "tipo": "IQ/D",
+      "custo": 4,
+      "categoria": "Natureza"
+    },
+    {
+      "nome": "Sobrevivência (Floresta)",
+      "nh": 14,
+      "tipo": "IQ/M",
+      "custo": 2,
+      "categoria": "Natureza"
+    },
+    {
+      "nome": "Rastreamento",
+      "nh": 14,
+      "tipo": "IQ/M",
+      "custo": 2,
+      "categoria": "Natureza"
+    },
+    {
+      "nome": "Primeiros Socorros",
+      "nh": 15,
+      "tipo": "IQ/F",
+      "custo": 2,
+      "categoria": "Natureza"
+    },
+    {
+      "nome": "Diplomacia",
+      "nh": 14,
+      "tipo": "IQ/D",
+      "custo": 4,
+      "categoria": "Sociais"
+    },
+    {
+      "nome": "Élfico (nativa)",
+      "nh": 14,
+      "tipo": "IQ/M",
+      "custo": 0,
+      "categoria": "Línguas"
+    },
+    {
+      "nome": "Ânglico",
+      "nh": 14,
+      "tipo": "IQ/M",
+      "custo": 2,
+      "categoria": "Línguas"
+    }
+  ],
+  "magias": [
+    {
+      "nome": "Acalmar Animais",
+      "classe": "Com",
+      "nh": 16,
+      "tempo": "1 seg",
+      "duracao": "perm.",
+      "custo_fazer": "1 a 3",
+      "custo_manter": "—",
+      "obs": "Pré-req.: Empatia c/ Animais",
+      "pag": "M",
+      "custo": 2,
+      "categoria": "Animais"
+    },
+    {
+      "nome": "Convocação de Animais",
+      "classe": "Com",
+      "nh": 16,
+      "tempo": "1 seg",
+      "duracao": "1 min",
+      "custo_fazer": "3",
+      "custo_manter": "2",
+      "obs": "Pré-req.: Acalmar Animais",
+      "pag": "M",
+      "custo": 2,
+      "categoria": "Animais"
+    },
+    {
+      "nome": "Falar com Animais",
+      "classe": "Com",
+      "nh": 16,
+      "tempo": "1 seg",
+      "duracao": "1 min",
+      "custo_fazer": "4",
+      "custo_manter": "2",
+      "obs": "Pré-req.: Convocação",
+      "pag": "M",
+      "custo": 2,
+      "categoria": "Animais"
+    },
+    {
+      "nome": "Controle de Mamíferos",
+      "classe": "Com/R-IQ",
+      "nh": 16,
+      "tempo": "1 seg",
+      "duracao": "1 min",
+      "custo_fazer": "5",
+      "custo_manter": "3",
+      "obs": "Pré-req.: Acalmar Animais",
+      "pag": "M",
+      "custo": 2,
+      "categoria": "Animais"
+    },
+    {
+      "nome": "Controle de Aves",
+      "classe": "Com/R-IQ",
+      "nh": 16,
+      "tempo": "1 seg",
+      "duracao": "1 min",
+      "custo_fazer": "4",
+      "custo_manter": "2",
+      "obs": "Pré-req.: Acalmar Animais",
+      "pag": "M",
+      "custo": 2,
+      "categoria": "Animais"
+    },
+    {
+      "nome": "Controle de Répteis",
+      "classe": "Com/R-IQ",
+      "nh": 16,
+      "tempo": "1 seg",
+      "duracao": "1 min",
+      "custo_fazer": "4",
+      "custo_manter": "2",
+      "obs": "Pré-req.: Acalmar Animais",
+      "pag": "M",
+      "custo": 2,
+      "categoria": "Animais"
+    },
+    {
+      "nome": "Metamorfose: Tigre",
+      "classe": "Esp",
+      "nh": 16,
+      "tempo": "3 seg",
+      "duracao": "1 h",
+      "custo_fazer": "6",
+      "custo_manter": "2",
+      "obs": "Pré-req.: AM + 6 mágicas",
+      "pag": "M",
+      "custo": 4,
+      "categoria": "Animais"
+    },
+    {
+      "nome": "Metamorfose: Urso",
+      "classe": "Esp",
+      "nh": 16,
+      "tempo": "3 seg",
+      "duracao": "1 h",
+      "custo_fazer": "6",
+      "custo_manter": "2",
+      "obs": "Pré-req.: AM + 6 mágicas",
+      "pag": "M",
+      "custo": 4,
+      "categoria": "Animais"
+    },
+    {
+      "nome": "Metamorfose: Águia gigante",
+      "classe": "Esp",
+      "nh": 16,
+      "tempo": "3 seg",
+      "duracao": "1 h",
+      "custo_fazer": "6",
+      "custo_manter": "2",
+      "obs": "Pré-req.: AM + 6 mágicas",
+      "pag": "M",
+      "custo": 4,
+      "categoria": "Animais"
+    },
+    {
+      "nome": "Metamorfose: Cobra gigante",
+      "classe": "Esp",
+      "nh": 16,
+      "tempo": "3 seg",
+      "duracao": "1 h",
+      "custo_fazer": "6",
+      "custo_manter": "2",
+      "obs": "Pré-req.: AM + 6 mágicas",
+      "pag": "M",
+      "custo": 4,
+      "categoria": "Animais"
+    }
+  ],
+  "resumo": {
+    "atributos": 70,
+    "vantagens": 61,
+    "desvantagens": -40,
+    "peculiaridades": -5,
+    "pericias": 64,
+    "total": 150
+  }
+}

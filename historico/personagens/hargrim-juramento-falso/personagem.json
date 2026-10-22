@@ -1,0 +1,332 @@
+{
+  "nome": "Hargrim Juramento-Falso",
+  "jogador": "Histórico (fora da campanha)",
+  "arquetipo": "Cavaleiro desonrado (Fantasy), adaptado a machado",
+  "raca": "Anão (Fantasy)",
+  "idade": 49,
+  "aparencia": "1,39 m; 93,6 kg; 49 anos, anão taurino, barba trançada com moedas, túnica sobre malha",
+  "historia": "Cavaleiro anão expulso da Ordem da Cantaria por desonra; bebe, junta ouro e luta por quem paga.",
+  "data_criacao": "20/10/2026",
+  "sequencia": "1",
+  "pontos_gastar": 150,
+  "pontos_total": 150,
+  "atributos": {
+    "ST": {
+      "valor": 14,
+      "custo": 20
+    },
+    "DX": {
+      "valor": 14,
+      "custo": 45
+    },
+    "IQ": {
+      "valor": 10,
+      "custo": 0
+    },
+    "HT": {
+      "valor": 12,
+      "custo": 20
+    }
+  },
+  "fadiga": 16,
+  "pontos_vida": 12,
+  "dano_basico": {
+    "gdp": "1D",
+    "bal": "2D"
+  },
+  "velocidade_basica": 6.5,
+  "deslocamento": 4,
+  "carga": {
+    "nenhuma": 14,
+    "leve": 35,
+    "media": 70,
+    "pesada": 140,
+    "muito_pesada": 210
+  },
+  "defesa_passiva": {
+    "armadura": 2,
+    "escudo": 3,
+    "total": 5
+  },
+  "defesas_ativas": {
+    "esquiva": 5,
+    "aparar": 10,
+    "bloqueio": 9
+  },
+  "reacao": "0 (anão); -3 se o reconhecem",
+  "vantagens_desvantagens": [
+    {
+      "nome": "Raça: Anão",
+      "custo": 30,
+      "raca": true
+    },
+    {
+      "nome": "Reflexos em Combate",
+      "custo": 15
+    },
+    {
+      "nome": "Riqueza: Confortável",
+      "custo": 10
+    },
+    {
+      "nome": "Alcoolismo",
+      "custo": -15,
+      "lembrete": "Diante de álcool: Vontade (IQ 10) ou porre de 2D horas e ressaca em dobro, -3 em tudo"
+    },
+    {
+      "nome": "Cobiça",
+      "custo": -15,
+      "lembrete": "Vontade para resistir a ouro, pilhagem e pagamento; aceita risco e trapaça por dinheiro"
+    },
+    {
+      "nome": "Avareza",
+      "custo": -10,
+      "lembrete": "Vontade para gastar dinheiro; regateia tudo e recusa despesa grande"
+    },
+    {
+      "nome": "Má Reputação (desonrado)",
+      "custo": 0,
+      "lado": "desvantagem",
+      "lembrete": "Expulso da Ordem da Cantaria: -3 de reação de cavaleiros, nobres e caithnessenses que o reconhecem. Sem pontos: passaria do teto de -40"
+    }
+  ],
+  "raca_tracos": [
+    {
+      "nome": "ST+2 Fadiga+2; RD+1"
+    },
+    {
+      "nome": "Longevidade; Carga ×2,5"
+    },
+    {
+      "nome": "Deslocamento -1"
+    },
+    {
+      "nome": "Machado/Maça = DX"
+    },
+    {
+      "nome": "+3 artesanais; -2 projéteis"
+    },
+    {
+      "nome": "Pecul.: sem fé em Elfos; lugar fechado"
+    },
+    {
+      "nome": "Pecul.: nunca faz a barba"
+    }
+  ],
+  "peculiaridades": [
+    "Conta as moedas ao acordar",
+    "Morde as moedas para testar",
+    "Cospe quando falam em honra",
+    "Aguardente sempre à mão",
+    "Dorme abraçado ao machado"
+  ],
+  "armas_objetos": [
+    {
+      "item": "Machado",
+      "dano": "2D+2",
+      "tipo": "corte",
+      "qtd": 1,
+      "peso": 2.0,
+      "categoria": "Armas",
+      "obs": "Bal+2; ST mín. 12; 1 turno p/ preparar"
+    },
+    {
+      "item": "Picareta",
+      "dano": "2D+1",
+      "tipo": "perf",
+      "qtd": 1,
+      "peso": 1.5,
+      "categoria": "Armas",
+      "obs": "Bal+1; ST mín. 11; pode ficar presa"
+    },
+    {
+      "item": "Escudo médio",
+      "dano": "-",
+      "tipo": "DP3",
+      "qtd": 1,
+      "peso": 7.0,
+      "categoria": "Armas",
+      "obs": "Alternativa à picareta"
+    },
+    {
+      "item": "Loriga de couro (tronco)",
+      "dano": "-",
+      "tipo": "DP2/RD2",
+      "qtd": 1,
+      "peso": 4.5,
+      "categoria": "Armadura"
+    },
+    {
+      "item": "Malha (braços)",
+      "dano": "-",
+      "tipo": "DP3/RD4",
+      "qtd": 1,
+      "peso": 4.0,
+      "categoria": "Armadura",
+      "obs": "Contra perfurante: DP1/RD2"
+    },
+    {
+      "item": "Malha (pernas)",
+      "dano": "-",
+      "tipo": "DP3/RD4",
+      "qtd": 1,
+      "peso": 7.0,
+      "categoria": "Armadura",
+      "obs": "Contra perfurante: DP1/RD2"
+    },
+    {
+      "item": "Luvas de malha (mãos)",
+      "dano": "-",
+      "tipo": "DP3/RD4",
+      "qtd": 1,
+      "peso": 0.5,
+      "categoria": "Armadura",
+      "obs": "Extrapolada da cota; $40"
+    },
+    {
+      "item": "Botas de malha (pés)",
+      "dano": "-",
+      "tipo": "DP3/RD4",
+      "qtd": 1,
+      "peso": 1.5,
+      "categoria": "Armadura",
+      "obs": "Extrapolada da cota; $60"
+    },
+    {
+      "item": "Túnica (sobre a malha)",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 0.5,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Frasco de aguardente",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 0.5,
+      "categoria": "Equipamento"
+    }
+  ],
+  "peso_total": 29.0,
+  "custo_total": 610,
+  "dinheiro": 1390,
+  "pericias": [
+    {
+      "nome": "Machado/Maça",
+      "nh": 18,
+      "tipo": "DX/M",
+      "custo": 22,
+      "categoria": "Combate",
+      "obs": "DX racial (14) +4; 2 pts já pagos pela raça"
+    },
+    {
+      "nome": "Espadas de Lâmina Larga",
+      "nh": 15,
+      "tipo": "DX/M",
+      "custo": 4,
+      "categoria": "Combate",
+      "obs": "Perícia de cavaleiro"
+    },
+    {
+      "nome": "Lança de Justa",
+      "nh": 15,
+      "tipo": "DX/M",
+      "custo": 4,
+      "categoria": "Combate",
+      "obs": "Perícia de cavaleiro; não apara"
+    },
+    {
+      "nome": "Escudo",
+      "nh": 16,
+      "tipo": "DX/F",
+      "custo": 4,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Sacar Rápido (Machado)",
+      "nh": 15,
+      "tipo": "DX/F",
+      "custo": 2,
+      "categoria": "Combate",
+      "obs": "Especialização que o MB deixa o GM acrescentar; +1 Refl. Combate"
+    },
+    {
+      "nome": "Cavalgar (Cavalo)",
+      "nh": 15,
+      "tipo": "DX/M",
+      "custo": 4,
+      "categoria": "Combate",
+      "obs": "Perícia de cavaleiro"
+    },
+    {
+      "nome": "Mão Inábil (Machado)",
+      "nh": 18,
+      "tipo": "Mach./D",
+      "custo": 6,
+      "categoria": "Manobras",
+      "uso": "Passiva",
+      "dano": "—",
+      "mod": "sem -4",
+      "alcance": "—",
+      "obs": "Sem o -4 da mão inábil",
+      "pag": "49",
+      "descricao": "Passiva: com o machado ou a picareta (perícia Machado/Maça) na mão inábil, o ataque deixa de ter -4. NH não passa do de Machado/Maça (18). Se a mão hábil for perdida, eleva o NH da mão inábil."
+    },
+    {
+      "nome": "Heráldica",
+      "nh": 10,
+      "tipo": "IQ/M",
+      "custo": 2,
+      "categoria": "Sociais"
+    },
+    {
+      "nome": "Trato Social",
+      "nh": 11,
+      "tipo": "IQ/F",
+      "custo": 2,
+      "categoria": "Sociais"
+    },
+    {
+      "nome": "Tática",
+      "nh": 8,
+      "tipo": "IQ/D",
+      "custo": 1,
+      "categoria": "Sociais"
+    },
+    {
+      "nome": "Ocultamento",
+      "nh": 10,
+      "tipo": "IQ/M",
+      "custo": 2,
+      "categoria": "Ladinas"
+    },
+    {
+      "nome": "Anão (nativa)",
+      "nh": 10,
+      "tipo": "IQ/M",
+      "custo": 0,
+      "categoria": "Línguas"
+    },
+    {
+      "nome": "Ânglico",
+      "nh": 10,
+      "tipo": "IQ/M",
+      "custo": 2,
+      "categoria": "Línguas"
+    }
+  ],
+  "resumo": {
+    "atributos": 85,
+    "vantagens": 55,
+    "desvantagens": -40,
+    "peculiaridades": -5,
+    "pericias": 55,
+    "total": 150
+  },
+  "npc_bloco": {
+    "titulo": "Manobras",
+    "texto": "Mão Inábil (Machado), NH 18, passiva: com o machado ou a picareta (perícia Machado/Maça) na mão inábil, o ataque não tem o -4. O NH não passa do de Machado/Maça. Se a mão hábil for perdida, eleva o NH da mão inábil. (Artes Marciais, p. 49)"
+  }
+}

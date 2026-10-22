@@ -1,0 +1,5 @@
+# Prompt de Imagem — Ilvaren Vento-Manso
+
+Digital illustration, fantasy character concept art, clean linework with soft coloring, in the style of a hand-drawn RPG character portrait. A male wood elf druid, 1.75 m tall, slender (about 68 kg), looking young despite being over two hundred years old, with bark-brown skin, long chestnut hair braided with small leaves and strands of moss, pointed ears, large moss-green eyes and a gentle, welcoming smile that never fades. He wears a plain brown wool tunic, a patched green cloak, a simple leather belt with a small pouch and a water skin, bare worn boots, and leans on a gnarled oak quarterstaff held in one hand, planted on the ground like a walking stick, while his other hand offers a carved wooden mug of hot tea to the viewer. A pastel rainbow-colored ribbon is tied around his staff, and a tiny sparrow rests on his shoulder. Open, kind, slightly earnest expression, posture relaxed and inviting. Full-body shot from head to toe, feet visible, character reference sheet pose, centered, plain light background (white or pale gray).
+
+*Estilo:* desenho/ilustração (não fotorrealista).
