@@ -49,7 +49,7 @@ profissionalismo impecável quando o assunto é desmembrar.
 
 - **Fadiga:** 20 · **Pontos de Vida:** 15
 - **Dano Básico:** GDP 2D-1 / Bal 3D+2
-- **Velocidade Básica:** 7,25 · **Deslocamento:** 7 (carga Nenhuma: 13,75 kg contra 20)
+- **Velocidade Básica:** 7,25 · **Deslocamento:** 7 (carga Nenhuma: 9,75 kg contra 20)
 - **Carga (kg):** Nenhuma 20 · Leve 40 · Média 60 · Pesada 120 · Muito Pesada 200
 - **Defesa Passiva/RD, por região** (o campo único da planilha leva a do tronco, DP 1):
 
@@ -62,7 +62,7 @@ profissionalismo impecável quando o assunto é desmembrar.
   Nas pernas e nos pés vale a regra de Armaduras Sobrepostas (MB, `07-equipamento-e-carga.md`):
   a camada de dentro, aqui a pele, **soma RD mas não DP**. Por isso fica DP 2, não 3. A última
   palavra é do Mestre.
-- **Esquiva:** 7 · **Aparar (cutelo):** 9 · **Bloqueio:** — (+1 de Reflexos em Combate na hora da defesa: 8 e 10)
+- **Esquiva:** 7 · **Aparar (faca):** 8 · **Bloqueio:** — (+1 de Reflexos em Combate na hora da defesa: 8 e 9)
 - **Reação básica:** −5 (Feio −2, Reputação −3 entre as outras raças). Com orcs e ogros, só o −2.
   Quem souber do Sadismo dele soma mais −3.
 
@@ -154,7 +154,9 @@ Notas de cálculo:
   exibição de força e sede de sangue. Na prática, contra gente comum, ele intimida com 15 a 17.
 - **Línguas:** o órquico das tribos onde nasceu, de graça; o ânglico com sotaque pesado.
 
-Em combate: cutelo de duas mãos com 3D+5 de corte. A tabela marca o machado com "1 turno p/
+**Atenção (campanha, T47): o cutelo colossal foi destruído e saiu do inventário.** Hoje ele luta com o facão de desossar (1D+2, máx.) e a faca (1D+1, máx.); a perícia Machado de Duas Mãos/Maça (18) continua na ficha para quando achar outro machado. O que segue descreve o equipamento de criação.
+
+Em combate (com o cutelo): cutelo de duas mãos com 3D+5 de corte. A tabela marca o machado com "1 turno p/
 preparar", mas **com ST 20 o Gorbag não precisa prepará-lo**: a ST mínima da arma é 13, e quem
 tem 5 ou mais pontos acima dela prepara uma arma desbalanceada com um turno a menos (MB,
 `11-combate-avancado.md`, "Preparação Rápida Devido a um Alto Valor de ST"). Ele ataca todo
@@ -165,7 +167,6 @@ ferimento no turno seguinte.
 
 | Item | Dano | Tipo | Qtd | Peso (kg) | Custo |
 |---|---|---|---|---|---|
-| Cutelo colossal (Machado de duas mãos) | 3D+5 | corte | 1 | 4,0 | $100 |
 | Facão de desossar | 1D+2 (máx.) | corte/perf | 1 | 0,5 | $40 |
 | Faca | 1D+1 (máx.) | corte/perf | 1 | 0,25 | $30 |
 | Couro de ogro (cabeça, tronco, braços, mãos) | - | DP1/RD3 | — | 0 | racial |
@@ -178,7 +179,7 @@ ferimento no turno seguinte.
 | Rações (10 refeições) | - | - | 1 | 2,5 | $20 |
 | Equip. básico pessoal | - | - | 1 | 0 | $5 |
 
-**TOTAIS:** $395 gastos · 13,75 kg. Riqueza Média ($1.000) − $395 = **$605** na bolsa.
+**TOTAIS:** $295 gastos · 9,75 kg. Riqueza Média ($1.000) − $395 = **$605** na bolsa (o cutelo colossal, $100, foi destruído na campanha, T47, e saiu do inventário a pedido do Mestre; sem reembolso).
 
 O cutelo usa a linha do **Machado de duas mãos** do MB (BAL+3, corte, ST mínima 13, 1 turno para
 preparar, que a ST 20 dele dispensa). Facão e faca têm o dano limitado pelo teto da tabela (1D+2 e 1D+1), por mais forte

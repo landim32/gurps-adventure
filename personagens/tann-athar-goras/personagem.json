@@ -1,0 +1,639 @@
+{
+  "nome": "Tann'athar Goras",
+  "jogador": "Ricardo",
+  "arquetipo": "Espião (Fantasy) + Espião mágico (Magia)",
+  "raca": "Meio-Elfo (Fantasy)",
+  "idade": 42,
+  "aparencia": "1,75 m; 68,1 kg; 42 anos, esbelto, pele escura, orelhas pontudas, cabelo longo preso",
+  "historia": "Vendido pela mãe e criado pelo pai, Sethros Tanna'thos, como espião da Seita Lych",
+  "data_criacao": "22/10/2026",
+  "sequencia": "1",
+  "pontos_gastar": 165,
+  "pontos_total": 165,
+  "atributos": {
+    "ST": {
+      "valor": 10,
+      "custo": 0
+    },
+    "DX": {
+      "valor": 12,
+      "custo": 20
+    },
+    "IQ": {
+      "valor": 16,
+      "custo": 60
+    },
+    "HT": {
+      "valor": 11,
+      "custo": 10
+    }
+  },
+  "fadiga": 10,
+  "pontos_vida": 11,
+  "dano_basico": {
+    "gdp": "1D-2",
+    "bal": "1D"
+  },
+  "velocidade_basica": 5.75,
+  "deslocamento": 5,
+  "carga": {
+    "nenhuma": 10,
+    "leve": 20,
+    "media": 30,
+    "pesada": 60,
+    "muito_pesada": 100
+  },
+  "defesa_passiva": {
+    "armadura": 0,
+    "escudo": 0,
+    "total": 0
+  },
+  "defesas_ativas": {
+    "esquiva": 5,
+    "aparar": 8,
+    "bloqueio": 0
+  },
+  "reacao": "+2",
+  "vantagens_desvantagens": [
+    {
+      "nome": "Raça: Meio-Elfo",
+      "custo": 30,
+      "raca": true
+    },
+    {
+      "nome": "Aptidão Mágica 3 (racial 1 +2)",
+      "custo": 20
+    },
+    {
+      "nome": "Alfabetização",
+      "custo": 10
+    },
+    {
+      "nome": "Voz Melodiosa",
+      "custo": 10,
+      "lembrete": "+2 em reação de quem o ouve e +2 em Política, Trato Social, Diplomacia, Atuação"
+    },
+    {
+      "nome": "Prontidão +1",
+      "custo": 5
+    },
+    {
+      "nome": "Dever: Seita Lych (quase sempre)",
+      "custo": -15,
+      "lembrete": "Alma presa por Sethros Tanna'thos, o pai: a seita chama e ele vai"
+    },
+    {
+      "nome": "Intolerância (fora da Seita)",
+      "custo": -10,
+      "lembrete": "-3 de reação a quem não é da Seita; frio e reservado, trata como inferior"
+    },
+    {
+      "nome": "Sadismo",
+      "custo": -15,
+      "lembrete": "Gosta de causar sofrimento; Vontade para se conter; sádico conhecido: -3 de reação"
+    },
+    {
+      "nome": "Fantasia (o pai o ama)",
+      "custo": -10,
+      "lembrete": "Crê que Sethros o protege e que a prisão da alma foi cuidado; defende o pai; o Mestre decide a verdade"
+    },
+    {
+      "nome": "Compulsão (colecionar segredos)",
+      "custo": -5,
+      "lembrete": "Vontade para não bisbilhotar e anotar segredos de todos a quem se aproxima"
+    }
+  ],
+  "raca_tracos": [
+    {
+      "nome": "IQ +1"
+    },
+    {
+      "nome": "Aptidão Mágica 1"
+    },
+    {
+      "nome": "Longevidade"
+    }
+  ],
+  "peculiaridades": [
+    "Cala-se ao ouvir \"filho\" ou \"pai\"",
+    "Conta até três antes de obedecer",
+    "Sorri só quando alguém sofre",
+    "Fala sozinho numa voz mais jovem",
+    "Tem lacunas na memória da infância"
+  ],
+  "armas_objetos": [
+    {
+      "item": "Cajado ornamentado (ametista)",
+      "dano": "1D+2",
+      "tipo": "cont",
+      "qtd": 1,
+      "peso": 2,
+      "categoria": "Armas"
+    },
+    {
+      "item": "Faca",
+      "dano": "1D-3",
+      "tipo": "corte",
+      "qtd": 1,
+      "peso": 0.25,
+      "categoria": "Armas"
+    },
+    {
+      "item": "Túnica de mago (classe alta)",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 0.5,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Mochila pequena",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 1.5,
+      "categoria": "Equipamento"
+    },
+    {
+      "item": "Odre pequeno (5 l)",
+      "dano": "-",
+      "tipo": "-",
+      "qtd": 1,
+      "peso": 0.0,
+      "categoria": "Equipamento"
+    }
+  ],
+  "peso_total": 4.25,
+  "custo_total": 510,
+  "dinheiro": 490,
+  "pericias": [
+    {
+      "nome": "Bastão",
+      "nh": 12,
+      "tipo": "DX/D",
+      "custo": 4,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Faca",
+      "nh": 12,
+      "tipo": "DX/F",
+      "custo": 1,
+      "categoria": "Combate"
+    },
+    {
+      "nome": "Furtividade",
+      "nh": 11,
+      "tipo": "DX/M",
+      "custo": 1,
+      "categoria": "Físicas"
+    },
+    {
+      "nome": "Boemia",
+      "nh": 11,
+      "tipo": "HT/M",
+      "custo": 2,
+      "categoria": "Físicas"
+    },
+    {
+      "nome": "Lábia",
+      "nh": 17,
+      "tipo": "IQ/M",
+      "custo": 4,
+      "categoria": "Sociais"
+    },
+    {
+      "nome": "Dissimulação",
+      "nh": 17,
+      "tipo": "IQ/M",
+      "custo": 4,
+      "categoria": "Sociais"
+    },
+    {
+      "nome": "Psicologia",
+      "nh": 15,
+      "tipo": "IQ/D",
+      "custo": 2,
+      "categoria": "Sociais"
+    },
+    {
+      "nome": "Política",
+      "nh": 16,
+      "tipo": "IQ/M",
+      "custo": 2,
+      "categoria": "Sociais"
+    },
+    {
+      "nome": "Trato Social",
+      "nh": 16,
+      "tipo": "IQ/F",
+      "custo": 1,
+      "categoria": "Sociais"
+    },
+    {
+      "nome": "Manha",
+      "nh": 16,
+      "tipo": "IQ/M",
+      "custo": 2,
+      "categoria": "Espionagem"
+    },
+    {
+      "nome": "Disfarce",
+      "nh": 16,
+      "tipo": "IQ/M",
+      "custo": 2,
+      "categoria": "Espionagem"
+    },
+    {
+      "nome": "Detecção de Mentiras",
+      "nh": 15,
+      "tipo": "IQ/D",
+      "custo": 2,
+      "categoria": "Espionagem"
+    },
+    {
+      "nome": "Interrogatório",
+      "nh": 15,
+      "tipo": "IQ/M",
+      "custo": 1,
+      "categoria": "Espionagem"
+    },
+    {
+      "nome": "Sombra",
+      "nh": 15,
+      "tipo": "IQ/M",
+      "custo": 1,
+      "categoria": "Espionagem"
+    },
+    {
+      "nome": "Heráldica",
+      "nh": 15,
+      "tipo": "IQ/M",
+      "custo": 1,
+      "categoria": "Espionagem"
+    },
+    {
+      "nome": "Venefício",
+      "nh": 15,
+      "tipo": "IQ/D",
+      "custo": 2,
+      "categoria": "Espionagem"
+    },
+    {
+      "nome": "Captação",
+      "nh": 16,
+      "tipo": "IQ/F",
+      "custo": 1,
+      "categoria": "Espionagem"
+    },
+    {
+      "nome": "Ânglico (nativa)",
+      "nh": 16,
+      "tipo": "IQ/M",
+      "custo": 0,
+      "categoria": "Línguas"
+    },
+    {
+      "nome": "Élfico",
+      "nh": 15,
+      "tipo": "IQ/M",
+      "custo": 1,
+      "categoria": "Línguas"
+    }
+  ],
+  "magias": [
+    {
+      "nome": "Percepção de Inimigos",
+      "classe": "I/A",
+      "nh": 16,
+      "tempo": "1 seg",
+      "duracao": "—",
+      "custo_fazer": "2 (mín. 2)",
+      "custo_manter": "—",
+      "obs": "Básica; avisa hostilidade",
+      "pag": "M",
+      "custo": 0.5,
+      "categoria": "Comunicação e Empatia"
+    },
+    {
+      "nome": "Percepção de Emoção",
+      "classe": "R",
+      "nh": 16,
+      "tempo": "1 seg",
+      "duracao": "—",
+      "custo_fazer": "1 (2-1)",
+      "custo_manter": "—",
+      "obs": "Pré: Percep. de Inimigos",
+      "pag": "M",
+      "custo": 0.5,
+      "categoria": "Comunicação e Empatia"
+    },
+    {
+      "nome": "Percepção da Veracidade",
+      "classe": "I",
+      "nh": 17,
+      "tempo": "1 seg",
+      "duracao": "—",
+      "custo_fazer": "1 (2-1)",
+      "custo_manter": "—",
+      "obs": "Pré: Percep. Emoção; resiste IQ",
+      "pag": "M",
+      "custo": 1,
+      "categoria": "Comunicação e Empatia"
+    },
+    {
+      "nome": "Persuasão",
+      "classe": "R",
+      "nh": 17,
+      "tempo": "1 seg",
+      "duracao": "1 min",
+      "custo_fazer": "2×bônus -1",
+      "custo_manter": "—",
+      "obs": "Pré: Percep. Emoção; resiste IQ",
+      "pag": "M",
+      "custo": 1,
+      "categoria": "Comunicação e Empatia"
+    },
+    {
+      "nome": "Medo",
+      "classe": "A",
+      "nh": 16,
+      "tempo": "1 seg",
+      "duracao": "10 min",
+      "custo_fazer": "0 (1-1)",
+      "custo_manter": "—",
+      "obs": "Pré: Percep. Emoção; resiste IQ",
+      "pag": "M",
+      "custo": 0.5,
+      "categoria": "Controle da Mente"
+    },
+    {
+      "nome": "Pânico",
+      "classe": "A",
+      "nh": 16,
+      "tempo": "1 seg",
+      "duracao": "1 min",
+      "custo_fazer": "3 (4-1)",
+      "custo_manter": "1 (2-1)",
+      "obs": "Pré: Medo; resiste IQ",
+      "pag": "M",
+      "custo": 0.5,
+      "categoria": "Controle da Mente"
+    },
+    {
+      "nome": "Bravura",
+      "classe": "A",
+      "nh": 16,
+      "tempo": "1 seg",
+      "duracao": "1 hora",
+      "custo_fazer": "1 (2-1)",
+      "custo_manter": "—",
+      "obs": "Pré: Medo; resiste IQ",
+      "pag": "M",
+      "custo": 0.5,
+      "categoria": "Controle da Mente"
+    },
+    {
+      "nome": "Inépcia",
+      "classe": "R",
+      "nh": 16,
+      "tempo": "1 seg",
+      "duracao": "1 min",
+      "custo_fazer": "1/pt IQ -1",
+      "custo_manter": "metade",
+      "obs": "Pré: IQ 12+; resiste IQ",
+      "pag": "M",
+      "custo": 0.5,
+      "categoria": "Controle da Mente"
+    },
+    {
+      "nome": "Amnésia",
+      "classe": "R",
+      "nh": 18,
+      "tempo": "10 seg",
+      "duracao": "1 hora",
+      "custo_fazer": "2 (3-1)",
+      "custo_manter": "2 (3-1)",
+      "obs": "Pré: Apt., Inépcia; IQ ou NH",
+      "pag": "M",
+      "custo": 2,
+      "categoria": "Controle da Mente"
+    },
+    {
+      "nome": "Lealdade",
+      "classe": "R",
+      "nh": 18,
+      "tempo": "2 seg",
+      "duracao": "1 hora",
+      "custo_fazer": "1 (2-1); ×2 estranho",
+      "custo_manter": "1 (2-1)",
+      "obs": "Pré: Bravura + 4 de Mente; resiste IQ",
+      "pag": "M",
+      "custo": 2,
+      "categoria": "Controle da Mente"
+    },
+    {
+      "nome": "Controle de Emoções",
+      "classe": "A",
+      "nh": 17,
+      "tempo": "1 seg",
+      "duracao": "1 hora",
+      "custo_fazer": "1 (2-1)",
+      "custo_manter": "—",
+      "obs": "Pré: Lealdade; resiste IQ",
+      "pag": "M",
+      "custo": 1,
+      "categoria": "Controle da Mente"
+    },
+    {
+      "nome": "Sugestão",
+      "classe": "R",
+      "nh": 19,
+      "tempo": "10 seg",
+      "duracao": "10 min",
+      "custo_fazer": "3 (4-1)",
+      "custo_manter": "2 (3-1)",
+      "obs": "Pré: Contr. Emoções, Amnésia; IQ",
+      "pag": "M",
+      "custo": 4,
+      "categoria": "Controle da Mente"
+    },
+    {
+      "nome": "Ilusão Simples",
+      "classe": "A",
+      "nh": 16,
+      "tempo": "1 seg",
+      "duracao": "1 min",
+      "custo_fazer": "0 (1-1)",
+      "custo_manter": "metade",
+      "obs": "Só visão; exige IQ 11+",
+      "pag": "M",
+      "custo": 0.5,
+      "categoria": "Ilusão e Criação"
+    },
+    {
+      "nome": "Som",
+      "classe": "R",
+      "nh": 16,
+      "tempo": "1 seg",
+      "duracao": "5 s a 1 min",
+      "custo_fazer": "0 (5 s); 1 (1 min)",
+      "custo_manter": "0/min (1-1)",
+      "obs": "Básica; sons sem sentido",
+      "pag": "M",
+      "custo": 0.5,
+      "categoria": "Som"
+    },
+    {
+      "nome": "Ilusão Complexa",
+      "classe": "A",
+      "nh": 18,
+      "tempo": "1 seg",
+      "duracao": "1 min",
+      "custo_fazer": "1 (2-1)",
+      "custo_manter": "metade",
+      "obs": "Pré: Som, Ilusão Simples",
+      "pag": "M",
+      "custo": 2,
+      "categoria": "Ilusão e Criação"
+    },
+    {
+      "nome": "Ilusão Perfeita",
+      "classe": "A",
+      "nh": 18,
+      "tempo": "1 seg",
+      "duracao": "1 min",
+      "custo_fazer": "2 (3-1)",
+      "custo_manter": "metade",
+      "obs": "Pré: Apt., Ilusão Complexa",
+      "pag": "M",
+      "custo": 2,
+      "categoria": "Ilusão e Criação"
+    },
+    {
+      "nome": "Vozes",
+      "classe": "R",
+      "nh": 17,
+      "tempo": "1 seg",
+      "duracao": "1 min",
+      "custo_fazer": "2 (3-1)",
+      "custo_manter": "1 (2-1)",
+      "obs": "Pré: Som; imita vozes",
+      "pag": "M",
+      "custo": 1,
+      "categoria": "Som"
+    },
+    {
+      "nome": "Escudo",
+      "classe": "R",
+      "nh": 18,
+      "tempo": "1 seg",
+      "duracao": "1 min",
+      "custo_fazer": "2/DP -1 (máx. 5 DP)",
+      "custo_manter": "metade",
+      "obs": "Pré: Apt. 2; soma DP",
+      "pag": "M",
+      "custo": 2,
+      "categoria": "Proteção"
+    },
+    {
+      "nome": "Contra-Mágicas",
+      "classe": "R",
+      "nh": 17,
+      "tempo": "5 seg",
+      "duracao": "—",
+      "custo_fazer": "½ da mágica",
+      "custo_manter": "—",
+      "obs": "Pré: Apt.; resiste pela mágica",
+      "pag": "M",
+      "custo": 1,
+      "categoria": "Meta-Mágicas"
+    },
+    {
+      "nome": "Detecção de Magia",
+      "classe": "R",
+      "nh": 16,
+      "tempo": "5 seg",
+      "duracao": "—",
+      "custo_fazer": "1 (2-1)",
+      "custo_manter": "—",
+      "obs": "Pré: Aptidão Mágica",
+      "pag": "M",
+      "custo": 0.5,
+      "categoria": "Reconhecimento"
+    },
+    {
+      "nome": "Luz",
+      "classe": "R",
+      "nh": 16,
+      "tempo": "1 seg",
+      "duracao": "1 min",
+      "custo_fazer": "0 (1-1)",
+      "custo_manter": "0 (1-1)",
+      "obs": "Básica",
+      "pag": "M",
+      "custo": 0.5,
+      "categoria": "Luz e Trevas"
+    },
+    {
+      "nome": "Visão da Morte",
+      "classe": "R",
+      "nh": 16,
+      "tempo": "3 seg",
+      "duracao": "1 seg",
+      "custo_fazer": "1 (2-1)",
+      "custo_manter": "—",
+      "obs": "Pré: Aptidão Mágica",
+      "pag": "M",
+      "custo": 0.5,
+      "categoria": "Necromancia"
+    },
+    {
+      "nome": "Coceira",
+      "classe": "R",
+      "nh": 16,
+      "tempo": "1 seg",
+      "duracao": "até se coçar",
+      "custo_fazer": "1 (2-1)",
+      "custo_manter": "—",
+      "obs": "Resiste HT; DX -2",
+      "pag": "M",
+      "custo": 0.5,
+      "categoria": "Controle do Corpo"
+    },
+    {
+      "nome": "Encantar",
+      "classe": "Enc",
+      "nh": 15,
+      "tempo": "ver MM",
+      "duracao": "permanente",
+      "custo_fazer": "ver livro",
+      "custo_manter": "—",
+      "obs": "Pré: Apt. 2 + 1 mágica de 10 escolas",
+      "pag": "M",
+      "custo": 0.5,
+      "categoria": "Encantamento"
+    },
+    {
+      "nome": "Cajado",
+      "classe": "Enc",
+      "nh": 16,
+      "tempo": "ver MM",
+      "duracao": "permanente",
+      "custo_fazer": "30 (energia)",
+      "custo_manter": "—",
+      "obs": "Pré: Encantar; foco do cajado",
+      "pag": "M",
+      "custo": 0.5,
+      "categoria": "Encantamento"
+    }
+  ],
+  "resumo": {
+    "atributos": 90,
+    "vantagens": 75,
+    "desvantagens": -55,
+    "peculiaridades": -5,
+    "pericias": 60,
+    "total": 165
+  }
+}
