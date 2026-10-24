@@ -98,6 +98,14 @@ NPC que vai entrar em cena existe também no roll6 (skill `roll6`):
   subir-imagem ... --formato png --lado 512` → `create_token`), `life` = PV, `energy` =
   Fadiga, `move` = Deslocamento e `sheet` = o bloco.
 - **Pôr em cena**: `add_npc_to_campaign` → `place_npc_on_map`.
+- **Categoria e comandante** (todo NPC entra como Inimigo): `list_campaign_npcs` → `campaignNpcId`, depois
+  `update_campaign_npc` com `category` 1 Inimigo, 2 Neutro ou 3 Aliado e, só para aliado,
+  `masterCampaignCharacterId` = o `campaignCharacterId` do personagem aprovado cujo jogador o comanda
+  (`list_campaign_characters`). Ex.: o zumbi de Sae'Varyn é Aliado com o mestre-personagem dele.
+- **A ferramenta não aparece na sessão?** (sessão sem o MCP `roll6`, ou com a lista de ferramentas antiga) Use
+  o mesmo nome pelo script, que fala com o servidor direto: `python .claude/skills/roll6/scripts/roll6.py chamar
+  update_campaign_npc '{"campaignNpcId": 48, "category": 3, "masterCampaignCharacterId": 12}'`. **Nunca**
+  diga que uma ferramenta do roll6 não existe sem tentar pelo `roll6.py chamar`.
 - **Um NPC por figura com nome**: Morto 1, Morto 3, Goblin do portão. Ocorrências
   múltiplas de um NPC só servem para figurante sem identidade.
 - **Nome diferente do repositório**: grave o apelido em `campanha/roll6.json`.

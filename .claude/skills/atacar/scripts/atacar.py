@@ -230,7 +230,8 @@ def atributo(ficha, nome):
 def estado_da_arma(desb, st, arma, extra=0, quem="", uso="atacar"):
     """(linha do terminal, linha da mesa) sobre a arma depois de usada — MB, p. 104.
 
-    Arma desbalanceada fica despreparada ao atacar ou aparar; a Preparação Rápida por ST
+    Arma desbalanceada fica despreparada ao atacar ou aparar e se prepara SOZINHA no turno
+    seguinte (regra da casa: sem manobra; só os turnos além do primeiro exigem Preparar); a Preparação Rápida por ST
     (5 acima da mínima = 1 turno a menos) é o que deixa um ogro de ST 20 golpear todo turno
     com o machado de duas mãos e obriga um orc de ST 13 a preparar o dele a cada golpe."""
     if not desb:
@@ -244,10 +245,15 @@ def estado_da_arma(desb, st, arma, extra=0, quem="", uso="atacar"):
                 f"_{nome}{dono}: Preparação Rápida (ST {st} ≥ mín {desb['st_min']}+5), "
                 f"segue pronto para o próximo golpe_")
     aviso_st = "" if st else " ST não informada: sem Preparação Rápida (passe --st)."
-    return (f"  ⇒ ARMA DESPREPARADA: {nome}{dono} (desbalanceada, MB, p. 104) — {turnos} "
-            f"turno(s) de Preparar antes de atacar ou aparar com ela de novo.{aviso_st}",
-            f"*Arma despreparada: {nome}{dono}* — {turnos} turno(s) de Preparar antes do "
-            f"próximo golpe" + (" (+1 pelo erro crítico)" if extra else "")
+    manual = max(turnos - 1, 0)
+    resto = (f" Depois dele, mais {manual} turno(s) de Preparar (manobra)." if manual else "")
+    return (f"  ⇒ ARMA DESPREPARADA: {nome}{dono} (desbalanceada, MB, p. 104; regra da casa) — "
+            f"no turno seguinte ela se prepara SOZINHA, sem manobra: nele não ataca nem apara com "
+            f"a arma, mas age livremente (desloca-se etc.).{resto}{aviso_st}",
+            f"*Arma despreparada: {nome}{dono}* — prepara sozinha no próximo turno (sem manobra; "
+            f"não ataca nem apara nele)"
+            + (f"; depois mais {manual} turno(s) de Preparar" if manual else "")
+            + (" (+1 pelo erro crítico)" if extra else "")
             + (f" (ao {uso})" if uso != "atacar" else ""))
 
 
@@ -307,8 +313,8 @@ def main():
     ap.add_argument("--st", type=int, default=0,
                     help="ST de quem ataca (NPC sem ficha), para a Preparação Rápida")
     ap.add_argument("--arma-despreparada", action="store_true",
-                    help="A arma está DESPREPARADA: o script recusa o ataque; a manobra é "
-                         "Preparar (MB, p. 104)")
+                    help="A arma está DESPREPARADA: o script recusa o ataque; ela se prepara "
+                         "sozinha neste turno (regra da casa, MB p. 104)")
     ap.add_argument("--arma-desbalanceada", action="store_true",
                     help="Força: a arma fica despreparada depois de usada (não está no catálogo)")
     ap.add_argument("--balanceada", action="store_true",
@@ -408,8 +414,10 @@ def main():
         print("=" * 70)
         print(f"{atacante} NÃO PODE ATACAR: {arma_nome or 'a arma'} está DESPREPARADA "
               f"(MB, p. 104 — «você não pode atacar se sua arma não estiver preparada»).")
-        print(f"A manobra deste turno é PREPARAR ({max(falta, 1)} turno(s)); o golpe fica para "
-              f"o turno seguinte. Nada foi rolado.")
+        print("Regra da casa: a arma se prepara SOZINHA neste turno (sem manobra); ele pode se "
+              "deslocar ou fazer outra ação, mas não ataca nem apara com ela agora."
+              + (f" Ainda faltam {falta - 1} turno(s) de Preparar (manobra) depois." if falta > 1 else "")
+              + " Nada foi rolado.")
         print("=" * 70)
         return
     ARMA["terminal"], ARMA["mesa"] = estado_da_arma(desb, st_atacante, arma_nome)

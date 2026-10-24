@@ -148,7 +148,9 @@ def contexto(args):
     elif mesa.get("pendentes"):
         veredito, codigo = "FALTAM AÇÕES de: " + ", ".join(mesa["pendentes"]), 2
     else:
-        veredito, codigo = "PRONTO — todo personagem aprovado declarou ação.", 0
+        veredito, codigo = "PRONTO — todo personagem que deve ação declarou.", 0
+    if mesa.get("em_andamento") and mesa.get("fora_de_combate"):
+        veredito += " Fora de combate (não esperados): " + ", ".join(mesa["fora_de_combate"]) + "."
     if args.json:
         print(json.dumps({"campaignId": cid, "veredito": veredito, "pronto": codigo == 0, "mesa": mesa,
                           "movimentos": movimentos, "situacao": sit, "voltam": quem_volta}, ensure_ascii=False, indent=2))

@@ -41,7 +41,7 @@ python .claude/skills/fintar/scripts/fintar.py \
 | Quanto vale | **Uma rodada**, só no **próximo ataque do fintador** (no Ataque Total com dois golpes, nos dois). **Aliados não aproveitam** |
 | Armas | A finta **não** deixa a arma despreparada |
 | Visão | De nada vale contra quem não vê o fintador: no escuro, por trás. O alvo que dá as costas depois **não** anula o bônus; o fintador que **perde o alvo de vista** perde |
-| Estragos | Se o fintador apara depois com arma desbalanceada, deixando-a despreparada, **não ataca no turno seguinte** e a finta se perde |
+| Estragos | Se o fintador apara depois com arma desbalanceada, deixando-a despreparada, **não ataca no turno seguinte** (a arma se prepara sozinha nele) e a finta se perde |
 | Com o escudo | Só depois de já ter **atacado com o escudo** uma vez. O NH é o de Escudo |
 
 **Arte marcial.** `livros/gurps-artes-marciais-3ed/04-combate-manobras.md`, "Finta

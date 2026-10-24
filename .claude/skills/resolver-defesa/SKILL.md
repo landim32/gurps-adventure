@@ -97,12 +97,12 @@ Esta folha rola o número que recebe; **se o alvo pode aparar é decisão de que
 Duas regras do livro que o `atacar` aplica antes de chegar aqui:
 
 - **Não se apara com arma despreparada.** Quem atacou ou aparou com machado, maça ou
-  mangual no turno anterior e não Preparou **não tem Aparar**: `atacar --alvo-arma-despreparada`
-  cai na Esquiva.
+  mangual no turno anterior **não tem Aparar neste turno** (a arma se prepara sozinha nele, regra
+  da casa): `atacar --alvo-arma-despreparada` cai na Esquiva.
 - **Aparar com arma desbalanceada a deixa despreparada** (salvo arma de haste, que apara
   com o fuste, e salvo Preparação Rápida por ST). O `atacar` imprime isso no bloco logo
-  depois da defesa, e a linha vai para o `status` do defensor: ele **não ataca no próximo
-  turno** sem Preparar.
+  depois da defesa, e a linha vai para o `status` do defensor: ele **não ataca nem apara no
+  próximo turno**, em que a arma se prepara sozinha.
 
 ## O que esta folha nunca faz
 

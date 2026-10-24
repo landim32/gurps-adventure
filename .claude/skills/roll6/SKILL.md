@@ -126,6 +126,11 @@ python $R saude --pj "Jah Kagadu" [--com-estado]                  # reempurra PV
 Use o MCP direto para chamadas pequenas; `roll6.py` para o que leva arquivo (a imagem em
 base64 não cabe numa chamada de ferramenta) e para refazer uma sincronização.
 
+**Ferramenta que não aparece entre as `mcp__roll6__*`** (sessão sem o MCP, lista de ferramentas antiga, run do
+console): toda ferramenta do servidor responde pelo `python $R chamar <nome> '<json>'` — por exemplo
+`update_campaign_npc` (categoria do NPC na campanha e o personagem-mestre de um aliado). Nunca conclua que uma
+ferramenta do roll6 não existe sem tentar por aí; `get_roll6_guide` lista o que o servidor oferece.
+
 ## Regras
 
 - **Repositório primeiro, roll6 depois.** A ficha, o `saude.md` e o plano

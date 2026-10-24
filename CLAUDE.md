@@ -276,8 +276,9 @@ As **regras de combate autônomo** vieram das duas aventuras originais do dono d
   WhatsApp. A narração mostra o que o NPC faz, nunca o motivo que denuncia a reação;
 - pontos de impacto decididos nos dados;
 - **arma desbalanceada fica despreparada ao atacar ou aparar** (MB, p. 104: machado,
-  maça, mangual, picareta, cutelo, arma de haste), e quem está assim **Prepara** em vez de
-  atacar — salvo Preparação Rápida por ST (5 acima da mínima da arma). O `atacar` diz o
+  maça, mangual, picareta, cutelo, arma de haste) e **se prepara sozinha** no turno seguinte,
+  sem manobra — a regra da casa está logo abaixo, junto com a do pescoço. Salvo Preparação
+  Rápida por ST (5 acima da mínima da arma), que nem chega a despreparar. O `atacar` diz o
   estado da arma na última linha do bloco, o `status` do roll6 o guarda com a palavra
   "despreparad", e o `contexto` do `processar-turno` avisa antes de rolar;
 - **andou, não bate** (MB, p. 104-105; decisão do Mestre): Avançar e Atacar deixa andar **1
@@ -291,6 +292,33 @@ As **regras de combate autônomo** vieram das duas aventuras originais do dono d
   pontos de dano **antes da RD**, teste de DX para não cair. A `causar-dano` conta, a
   `arbitrar-ferimento` rola o DX, a `calcular-alcance --projetar` diz o hexágono, e a
   `processar-turno` leva a posição (e a queda) ao `process_turn`.
+
+**Preparação de arma desbalanceada: regra da casa** (decisão do Mestre; vale **só** para
+arma desbalanceada — machado, maça, mangual, picareta, cutelo, arma de haste. As outras formas de
+preparar arma, como sacar, armar besta ou encaixar flecha, seguem o MB como sempre):
+
+- **Entra em combate preparada**, a menos que o personagem seja **pego de surpresa**.
+- **Despreparar continua igual:** atacar ou aparar com a arma a deixa despreparada, e nesse
+  turno seguinte ele **não ataca nem apara** com ela (nem por ação repetida).
+- **A diferença é o preparo:** ele **acontece sozinho** no turno seguinte, **sem gastar manobra**.
+  O personagem usa o turno como quiser (desloca-se, faz outra ação) e a arma está preparada
+  ao fim dele. Só os turnos **além do primeiro** exigem a manobra **Preparar**.
+- A Preparação Rápida por ST (5 acima da mínima = 1 turno a menos) segue valendo.
+
+Exemplos (machado, 1 turno para preparar; seguido pela alabarda, 2 turnos):
+
+| | Turno 1 | Turno 2 | Turno 3 | Turno 4 |
+|---|---|---|---|---|
+| Machado, golpes seguidos (igual a antes) | ataca | prepara (sozinha; só espera) | ataca | |
+| Machado, ataca-desloca-ataca | ataca | **desloca e prepara sozinha** | ataca | |
+| Alabarda, ataca-desloca-ataca | ataca | **desloca**; 1º turno de preparo, automático | **Preparar** (2º turno, manobra) | ataca |
+
+No `status` do roll6: com 1 turno a preparar, `"Machado despreparado: prepara sozinho no
+próximo turno"`; com 2, `"Alabarda despreparada: prepara sozinha no próximo turno; depois mais 1
+turno de Preparar"`. Ao fechar o turno automático, o status passa a `"preparado"` — ou, na haste,
+a `"Alabarda despreparada: falta 1 turno de Preparar (manobra)"`. A palavra **manobra** é o que o
+`contexto` do `processar-turno` procura para avisar que aquele turno é de Preparar de verdade;
+sem ela, o aviso é o do preparo automático.
 
 **Golpe no pescoço segue a 4ª edição** (decisão do Mestre). A 3ª edição não tem pescoço na
 Tabela de Partes do Corpo; vale a regra do *GURPS 4ª Edição* (*Módulo Básico: Campanhas*,

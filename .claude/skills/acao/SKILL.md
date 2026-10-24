@@ -102,12 +102,16 @@ segue a mesma régua.
 ### A arma está preparada? (MB, p. 104)
 
 Antes de mandar violência para o `atacar`, olhe o **status** de quem ataca. Machado, maça,
-mangual, picareta, cutelo e arma de haste ficam **despreparados** depois de atacar **ou
-aparar**, e quem está assim **não ataca nem apara**: a ação dele é **Preparar** (1 turno; 2
-para haste em balanço), salvo Preparação Rápida por ST (5 acima da mínima da arma). "Vou
-atacar de novo" com o machado despreparado vira Preparar, e isso é dito ao jogador **antes**
-de rolar — `atacar --arma-despreparada` recusa o golpe e explica. O `atacar` imprime o estado
-da arma na última linha do bloco, e é ela que vai para o status do próximo turno.
+mangual, picareta, cutelo e arma de haste **entram em combate preparados** (salvo surpresa) e
+ficam **despreparados** depois de atacar **ou aparar**; quem está assim **não ataca nem
+apara** nesse turno. **Regra da casa:** a arma **se prepara sozinha** no turno seguinte, sem
+manobra — o personagem pode se deslocar ou fazer outra coisa, e a arma volta pronta; só os
+turnos além do primeiro (haste: 2) exigem a manobra **Preparar**. Vale só para arma
+desbalanceada. Salvo Preparação Rápida por ST (5 acima da mínima da arma), que nem despreparam.
+"Vou atacar de novo" logo depois de atacar com o machado não sai: ele se prepara nesse turno
+(pode andar e agir) e ataca no seguinte; isso é dito ao jogador **antes** de rolar —
+`atacar --arma-despreparada` recusa o golpe e explica. O `atacar` imprime o estado da arma
+na última linha do bloco, e é ela que vai para o status do próximo turno.
 
 ### Escolher a perícia e o modificador
 
@@ -277,7 +281,8 @@ registra no repositório e prepara as chamadas do roll6. Quem altera o MCP é a
   `get_participation`), NPC por `update_map_npc` com o `currentLife`/`currentEnergy`
   atuais. Entra: **arma preparada ou despreparada** (a última linha do bloco do `atacar`:
   machado, maça, mangual e haste ficam despreparados ao atacar ou aparar, MB p. 104 —
-  escreva "despreparad" no status para o turno seguinte cobrar o Preparar), caído, de
+  escreva "despreparad" no status; ela se prepara sozinha no turno seguinte, e só a palavra
+  "manobra" faz o turno seguinte ser de Preparar), caído, de
   joelhos, atordoado, redutor de choque do próximo turno, apontando, sem defesa por Ataque
   Total, cavalo exausto, desarmado, **posição nova de quem foi projetado** (MB, p. 106).
   Até 260 caracteres.

@@ -35,7 +35,7 @@ python .claude/skills/processar-turno/scripts/processar_turno.py contexto
 
 Uma chamada ao `get_turn_data` e ao `get_turn_state`, cruzada com o repositório, mostra:
 
-- **VEREDITO**: `PRONTO` (todo personagem aprovado declarou ação), `FALTAM AÇÕES de: ...`
+- **VEREDITO**: `PRONTO` (todo personagem aprovado que deve ação declarou), `FALTAM AÇÕES de: ...`
   ou `SÓ LEITURA` (turno já encerrado, `--turno N`).
 - **Cada personagem**: `characterId`, PV e Fadiga no roll6, hex local (`P7`) e xy,
   frente, status, **as ações declaradas** (cada uma com o **alvo**, quando foi declarada
@@ -50,12 +50,35 @@ Uma chamada ao `get_turn_data` e ao `get_turn_state`, cruzada com o repositório
 - **A lista de arquivos** a ler: `mundo.md`, o plano do capítulo, os `npcs.md`,
   `grupo.md`, `lugares.md`, o log do capítulo e o `reacoes.json`.
 
+### Avise a mesa (101)
+
+Com `VEREDITO: PRONTO`, **antes** de ler arquivos e resolver, avise o roll6 que o turno está em processamento — a mesa
+vê a linha azul "O mestre começou a processar o turno N." e o selo "Processando o turno N…":
+
+```bash
+python .claude/skills/processar-turno/scripts/processar_turno.py processando [--campanha N]
+```
+
+O `process_turn` fecha o turno e retira o aviso sozinho. Se você **parar sem chamar o `process_turn`** (dúvida para o
+Mestre, erro, ordem dele), retire o aviso dizendo o porquê em poucas palavras:
+
+```bash
+python .claude/skills/processar-turno/scripts/processar_turno.py parei [--campanha N] --motivo "dúvida sobre o ataque do Bram"
+```
+
+O aviso não trava nada (os jogadores ainda podem agir) e expira sozinho em 30 minutos. Faltando alguém, não avise.
+
 ### Se faltar alguém
 
 **Não processe.** Diga quem falta e pare. Mover a peça não é declarar ação: quem só se
 moveu aparece à parte, e o Mestre decide se isso basta. Só siga com pendentes se o
 Mestre mandar ("processe assim mesmo"). Nesse caso, quem não declarou faz a manobra
 **Aguardar**, ou o que o Mestre disser, e isso vai dito na narração.
+
+**Fora de combate não falta.** Personagem com postura `3` (inconsciente, morto) não deve ação: não entra
+em `FALTAM`, e o roll6 também não o cobra (aviso do chat, "Falta…", cutucar, Modo GM). O veredito o lista à
+parte; resolva só o que acontece com ele (sangramento, testes de HT para não morrer, ser socorrido). Se ele
+declarou algo mesmo assim, trate como qualquer ação impossível para quem está desacordado.
 
 ### Se houver divergência
 
@@ -237,10 +260,12 @@ Escreva para si o plano da rodada inteira:
 5. **Estado herdado.** Status do turno anterior que cobra agora entra na conta:
    - teste de HT de quem está atordoado;
    - redutor de choque, que vale só neste turno;
-   - **arma despreparada que precisa de Preparar** — o `contexto` imprime `⚠ ARMA
-     DESPREPARADA` debaixo do status: **esse personagem não ataca nem apara com ela neste
-     turno**, por mais que a declaração (ou a ação repetida) diga "ataco". A ação dele é
-     Preparar, e a narração diz isso. Ver a seção 3a;
+   - **arma despreparada** — o `contexto` imprime `⚠ ARMA DESPREPARADA` debaixo do status:
+     **esse personagem não ataca nem apara com ela neste turno**, por mais que a declaração
+     (ou a ação repetida) diga "ataco". Pela regra da casa ela **se prepara sozinha** neste
+     turno, sem manobra: ele age livremente (desloca-se, faz outra ação), e a narração diz que
+     a arma voltou a estar pronta. Só o 2º turno de arma de 2 turnos exige Preparar. Ver a
+     seção 3a;
    - Precisão acumulada de quem apontou;
    - Ataque Total do turno passado, que deixa sem defesa.
 6. **Falha crítica decidida antes**, para cada ação que rola.
@@ -254,23 +279,34 @@ Escreva para si o plano da rodada inteira:
 Duas regras do MB que a mesa deixou passar turno após turno, e que agora os scripts
 cobram. **São obrigação de quem fecha o turno, não detalhe:**
 
-**Arma preparada (MB, p. 104).** Machado, maça, mangual, picareta, cutelo, martelo, malho e
-arma de haste são **desbalanceados**: ficam **despreparados** depois de **atacar ou aparar**,
-e Preparar leva 1 turno (2 para haste em balanço). Espada, faca, bastão e lança não.
+**Arma preparada (MB, p. 104, com a regra da casa do `CLAUDE.md`).** Machado, maça, mangual,
+picareta, cutelo, martelo, malho e arma de haste são **desbalanceados**: **entram em combate
+preparados** (salvo surpresa) e ficam **despreparados** depois de **atacar ou aparar**. No
+turno seguinte a arma **se prepara sozinha, sem manobra**: ele não ataca nem apara nesse
+turno, mas pode se deslocar ou agir; só os turnos **além do primeiro** (haste em balanço: 2)
+exigem a manobra Preparar. Espada, faca, bastão e lança não despreparam. A regra vale **só
+para armas desbalanceadas**; sacar, armar besta e encaixar flecha seguem o MB.
 **Preparação Rápida por ST**: ST 5 acima da mínima da arma = 1 turno a menos (Gorbag, ST 20
 com o cutelo de duas mãos, golpeia todo turno; Urzog, ST 13 com o machado, só em turnos
 alternados). O `atacar` calcula e imprime isso na **última linha do bloco**. O fluxo:
 
-1. **Antes de rolar**: o status do atacante diz "despreparad"? Então a ação deste turno
-   **é Preparar** — não rode o `atacar`; se rodar, use `--arma-despreparada`, que recusa.
-   Vale para ação repetida ("ataque até morrerem" = ataca em turnos alternados). Quem apara
-   com a arma despreparada não apara: `--alvo-arma-despreparada`.
-2. **Depois do golpe**: a última linha do bloco (`*Arma despreparada: Machado* — 1 turno(s)
-   de Preparar...`) **vai para o `status`** do `process_turn` — `"Machado despreparado:
-   Preparar no T26"`. Quem aparou com arma desbalanceada ganha a mesma linha. Quem tem
-   Preparação Rápida ganha `segue pronto` e nada muda no status.
-3. **No turno seguinte**, quem Preparou ganha `"Machado preparado"` no status e volta a
-   atacar no outro.
+1. **Antes de rolar**: o status do atacante diz "despreparad"? Então **ele não ataca neste
+   turno** — não rode o `atacar`; se rodar, use `--arma-despreparada`, que recusa. Mas a arma
+   se prepara **sozinha** neste turno: o personagem age livremente (a menos que o status diga
+   "manobra": aí a ação é Preparar). Vale para ação repetida ("ataque até morrerem" = ataca
+   em turnos alternados, com o turno do meio livre). Quem apara com a arma despreparada não
+   apara: `--alvo-arma-despreparada`.
+2. **Depois do golpe**: a última linha do bloco (`*Arma despreparada: Machado* — prepara
+   sozinha no próximo turno...`) **vai para o `status`** do `process_turn` — `"Machado
+   despreparado: prepara sozinho no próximo turno"`; arma de 2 turnos: `"Alabarda
+   despreparada: prepara sozinha no próximo turno; depois mais 1 turno de Preparar"`. Quem
+   aparou com arma desbalanceada ganha a mesma linha. Quem tem Preparação Rápida ganha
+   `segue pronto` e nada muda no status.
+3. **Ao fechar o turno do preparo automático**, o status passa a `"Machado preparado"`; na
+   haste, a `"Alabarda despreparada: falta 1 turno de Preparar (manobra)"` — e é a palavra
+   **manobra** que faz o `contexto` mandar Preparar no turno seguinte. Quem estava no turno
+   automático e **atacou** mesmo assim (declaração, ação repetida) **não ataca**: a narração
+   diz que a arma ainda se prepara.
 
 **Projeção (MB, p. 106).** Golpe de **corte ou contusão** (ou bala) empurra o alvo **1
 hexágono a cada 8 pontos de dano antes da RD**; perfuração não. A `causar-dano` imprime
@@ -301,9 +337,11 @@ Defender não gasta o turno dele. Só não defende quem não pode: surpreendido,
 defesa, em Ataque Total, inconsciente.
 
 **Primeiro o que o estado impõe**, antes de qualquer escolha:
-- **Arma despreparada:** Preparar. E o NPC de machado, maça ou mangual que **atacou ou
-  aparou** no turno passado **está** com ela despreparada, salvo Preparação Rápida por ST
-  (seção 3a) — mesmo que o status não diga, porque alguém esqueceu de escrever.
+- **Arma despreparada:** o NPC não ataca nem apara com ela neste turno, e ela se prepara
+  sozinha (ele pode se mover ou fazer outra coisa). O NPC de machado, maça ou mangual que
+  **atacou ou aparou** no turno passado **está** assim, salvo Preparação Rápida por ST
+  (seção 3a) — mesmo que o status não diga, porque alguém esqueceu de escrever. NPC que
+  entra em combate de surpresa pelo Mestre começa despreparado; os demais, preparado.
 - **Caído ou de bruços:** levantar, que são dois turnos de bruços a de pé, e em pé pode
   atacar no mesmo turno pela exceção do livro.
 - **Atordoado:** teste de HT, e só isso.
@@ -492,8 +530,9 @@ Monte a chamada com **só o que mudou**:
   caracteres:
   - **arma preparada ou despreparada** — a última linha do bloco do `atacar` decide: quem
     atacou ou aparou com arma desbalanceada sem Preparação Rápida entra com `"Machado
-    despreparado: Preparar"`; a palavra **despreparad** é o que o `contexto` procura no
-    turno seguinte (seção 3a);
+    despreparado: prepara sozinho no próximo turno"`; a palavra **despreparad** é o que o
+    `contexto` procura no turno seguinte, e a palavra **manobra** diz que o turno é de
+    Preparar de verdade (seção 3a);
   - caído, de joelhos, atordoado (com o teste que falta);
   - **projetado**: só a posição nova (`x`, `y`) e, se caiu, `posture: 2`;
   - redutor de choque do próximo turno;

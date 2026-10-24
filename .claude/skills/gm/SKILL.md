@@ -63,6 +63,9 @@ Uma tela só, em três partes, tudo lido do roll6:
   personagem e NPC, PV, Fadiga, posição e **status** — o status é o que vale neste turno (ferido, caído, arma na
   mão, apontando, atordoado, condição que ficou). **Esta é a sua memória**; não há outra.
 
+Personagem **fora de combate** (postura `3`) não deve ação: nunca entra em `FALTAM` (o roll6 também não o espera
+para chamar o GM) e só se resolve o que acontece com ele (sangramento, testes de HT, ser socorrido).
+
 `FALTAM` → diga quem falta e **pare**. Para a ficha inteira de alguém: `roll6.py chamar get_participation
 '{"campaignCharacterId": N}'` (campo `sheet`) ou `roll6.py chamar get_npc '{"npcId": N}'`; para o mapa,
 `get_map`/`list_map_tokens`; para o log mais antigo, `list_chat_messages` com `kind: "narration"` e `before`.
@@ -152,11 +155,14 @@ ele faz quando o Mestre não lançou nada:
 - **Neutro:** age pelo que a cena e o status dele dizem; não ataca sem ser atacado ou provocado.
 - **Aliado:** age a favor do grupo; sem ordem, protege ou acompanha, nunca ataca o grupo.
 - Ele sempre se defende com a melhor defesa ativa (regra de `processar-turno`).
-- **Defensiva só quando o estado impõe**: arma despreparada (Preparar), caído (levantar), atordoado, ou sem
+- **Defensiva só quando o estado impõe**: arma despreparada (não ataca nem apara, mas se prepara sozinha e ele
+  pode agir), caído (levantar), atordoado, ou sem
   alvo possível. "Estão atentos e não saem do lugar" para um Inimigo com alvo à vista é erro.
-- **Arma desbalanceada (MB, p. 104)**: machado, maça, mangual, picareta e haste ficam **despreparados** depois
-  de atacar ou aparar — quem usou uma no turno passado **Prepara agora** e ataca no seguinte (salvo
-  Preparação Rápida: ST 5 acima da mínima). O `contexto` avisa `⚠ ARMA DESPREPARADA` debaixo do status; o
+- **Arma desbalanceada (MB, p. 104 + regra da casa)**: machado, maça, mangual, picareta e haste **entram em
+  combate preparados** (salvo surpresa) e ficam **despreparados** depois de atacar ou aparar — quem usou uma
+  no turno passado **não ataca nem apara agora**, mas a arma **se prepara sozinha** neste turno (sem
+  manobra; ele pode se deslocar ou agir) e ele ataca no seguinte; só o 2º turno da haste exige Preparar
+  (salvo Preparação Rápida: ST 5 acima da mínima). O `contexto` avisa `⚠ ARMA DESPREPARADA` debaixo do status; o
   `atacar --arma-despreparada` recusa o golpe; a última linha do bloco do `atacar` diz o estado da arma e
   **vai para o `status`**. Vale para PJ e NPC, e para ação repetida. Ver `processar-turno`, seção 3a.
 - **Projeção (MB, p. 106)**: corte, contusão ou bala empurra 1 hexágono a cada 8 pontos **antes da RD**;
@@ -174,7 +180,7 @@ Não há registro no repositório. O que a mesa precisa lembrar vai **inteiro** 
 - **`status`** de cada personagem e NPC que mudou: o estado tático que vale **até o fim do próximo turno**, em até
   260 caracteres — ferimentos que importam (PV baixos, membro inutilizado), caído/ajoelhado, atordoado (com o
   teste que falta), **arma preparada/despreparada** (a última linha do bloco do `atacar` manda — "Machado
-  despreparado: Preparar"), apontando (Precisão acumulada), sem defesa ativa, montado,
+  despreparado: prepara sozinho no próximo turno"), apontando (Precisão acumulada), sem defesa ativa, montado,
   condição que o próximo GM precisa saber. Tire o que já passou; `clearStatus: true` quando não sobrou nada.
 - **`currentLife`/`currentEnergy`**: o total menos o dano e a fadiga acumulados — o roll6 é a conta corrente;
   nunca passam do total.

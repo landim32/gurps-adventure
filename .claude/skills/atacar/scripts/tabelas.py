@@ -289,7 +289,9 @@ TIPOS_DANO = {
 #   - espada, faca, bastao, lanca: balanceadas, nao precisam ser preparadas de novo;
 #   - arma de mao DESBALANCEADA (machado, maca, mangual, picareta, martelo, malho...)
 #     fica DESPREPARADA depois de usada para ATACAR ou para APARAR; 1 turno para
-#     prepara-la de novo (so se ataca em turnos alternados);
+#     prepara-la de novo (so se ataca em turnos alternados). REGRA DA CASA (CLAUDE.md):
+#     entra em combate preparada (salvo surpresa) e o preparo acontece SOZINHO no turno
+#     seguinte, sem manobra; so os turnos alem do primeiro exigem a manobra Preparar;
 #   - arma de haste (alcance 3): 2 turnos para preparar apos golpe em balanco, 1 apos
 #     golpe de ponta; NAO fica despreparada ao aparar (apara-se com o fuste);
 #   - cimitarra de uma mao: 1 turno para preparar apos golpear (nao apos aparar).

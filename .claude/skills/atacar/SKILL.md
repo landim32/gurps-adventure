@@ -36,7 +36,7 @@ python .claude/skills/atacar/scripts/atacar.py \
 
 | # | Passo | Regra |
 |---|---|---|
-| 0 | **A arma está preparada?** | Arma despreparada **não ataca** (MB, p. 104): `--arma-despreparada` faz o script recusar, e a manobra do turno é Preparar. Ver **A arma precisa estar preparada**, abaixo |
+| 0 | **A arma está preparada?** | Arma despreparada **não ataca** (MB, p. 104): `--arma-despreparada` faz o script recusar; pela regra da casa ela **se prepara sozinha** nesse turno (o personagem age livremente) e só o 2º turno da haste exige Preparar. Ver **A arma precisa estar preparada**, abaixo |
 | 1 | **NH efetivo** | NH da perícia + bônus da manobra + redutor do local + condições adversas + ferimento da rodada anterior |
 | 2 | **Jogada de ataque** | 3d. Recusa a jogada se o NH efetivo cair a 3 ou menos |
 | 3 | **Golpe fulminante** | 3-4 sempre; 5 com NH 15+; 6 com NH 16+. **Sem jogada de defesa** e sorteio na Tabela de Golpes Fulminantes — ou na **Tabela na Cabeça**, se o alvo era cabeça, cérebro ou olhos. O efeito sorteado sai no bloco da mesa: ver **Explicar o crítico** |
@@ -91,13 +91,19 @@ desbalanceada, como um machado, fica despreparada quando você a usa, por isso e
 ser usada em turnos alternados."* E aparar cobra o mesmo: *"Você não pode aparar com um
 machado na mesma rodada em que atacou com ele; é necessário reprepará-lo antes."*
 
+**Regra da casa (decisão do Mestre, `CLAUDE.md`, junto com a do pescoço):** a arma
+desbalanceada **entra em combate preparada** (salvo surpresa) e, despreparada por ataque ou
+aparar, **se prepara sozinha no turno seguinte, sem manobra** — nesse turno ele não ataca nem
+apara com ela, mas desloca-se ou age como quiser. Só os turnos **além do primeiro** (haste em
+balanço: 2) exigem Preparar. Vale **só** para arma desbalanceada.
+
 | Arma (pela perícia e pelo nome do item) | Depois de **atacar** | Depois de **aparar** |
 |---|---|---|
 | espada, faca, bastão, lança, porrete, montante | continua preparada | continua preparada |
-| **Machado/Maça** (machado, machadinha, maça, picareta, **cutelo**), **de uma ou duas mãos** (martelo de combate, malho, foice de guerra) | **despreparada**, 1 turno de Preparar | **despreparada**, 1 turno |
-| **Mangual** (mangual, morningstar) | despreparada, 1 turno | despreparada, 1 turno |
-| **Arma de haste** (alabarda, acha d'armas, falcione) | despreparada: **2 turnos** após balanço, 1 após golpe de ponta | continua preparada (apara-se com o fuste) |
-| **Cimitarra de uma mão** | despreparada, 1 turno | continua preparada |
+| **Machado/Maça** (machado, machadinha, maça, picareta, **cutelo**), **de uma ou duas mãos** (martelo de combate, malho, foice de guerra) | **despreparada**, 1 turno (**automático**) | **despreparada**, 1 turno (automático) |
+| **Mangual** (mangual, morningstar) | despreparada, 1 turno (automático) | despreparada, 1 turno (automático) |
+| **Arma de haste** (alabarda, acha d'armas, falcione) | despreparada: **2 turnos** após balanço (1º automático, 2º Preparar), 1 após golpe de ponta (automático) | continua preparada (apara-se com o fuste) |
+| **Cimitarra de uma mão** | despreparada, 1 turno (automático) | continua preparada |
 
 **Preparação Rápida por ST** (MB, p. 104): ST **5 acima da mínima** da arma = **um turno a
 menos** de preparo; **10 acima** = ataca todo turno com qualquer arma de mão. É o que separa
@@ -107,19 +113,20 @@ quem aparar com o machado dele também o deixa despreparado.
 
 O script faz a conta sozinho a partir da perícia, do item da ficha e da ST de quem ataca:
 
-- **A última linha do bloco diz o estado da arma** — `*Arma despreparada: Machado* — 1
-  turno(s) de Preparar antes do próximo golpe` ou `_Preparação Rápida (ST 20 ≥ mín 13+5),
+- **A última linha do bloco diz o estado da arma** — `*Arma despreparada: Machado* — prepara
+  sozinha no próximo turno (sem manobra; não ataca nem apara nele)` ou `_Preparação Rápida (ST 20 ≥ mín 13+5),
   segue pronto_`. Ela sai **sempre**, tenha o golpe acertado, errado ou sido defendido:
   a arma fica despreparada por ter sido **usada**. **Copie essa linha para o `status`** do
   `process_turn` (`processar-turno`, seção 6) — é assim que o turno seguinte sabe.
 - **Aparar com arma desbalanceada**: quando `--alvo-defesa aparar`, o script lê a arma do
   alvo da ficha (ou de `--alvo-apara-com "Machado"`, com `--alvo-st` para NPC) e avisa que
-  ela ficou despreparada — o alvo **não ataca no turno seguinte** sem Preparar.
+  ela ficou despreparada — o alvo **não ataca nem apara no turno seguinte**, em que a arma
+  se prepara sozinha.
 - **Erro crítico 8 ou 12** ("a arma gira na mão") soma **um turno a mais** ao preparo.
 
 | Opção | Para quê |
 |---|---|
-| `--arma-despreparada` | O status diz que a arma está despreparada: o script **recusa o ataque** e diz que a manobra é Preparar. Use **antes** de rolar qualquer golpe de quem atacou ou aparou com arma desbalanceada no turno anterior |
+| `--arma-despreparada` | O status diz que a arma está despreparada: o script **recusa o ataque** e diz que a arma se prepara sozinha neste turno. Use **antes** de rolar qualquer golpe de quem atacou ou aparou com arma desbalanceada no turno anterior |
 | `--st N` | ST de NPC sem ficha, para a Preparação Rápida |
 | `--arma-st-min N` | ST mínima da arma, por cima do catálogo |
 | `--arma-desbalanceada` / `--balanceada` | Forçar o veredito quando o catálogo não conhece a arma (ou a pegou por engano) |
@@ -127,7 +134,9 @@ O script faz a conta sozinho a partir da perícia, do item da ficha e da ST de q
 | `--alvo-apara-com`, `--alvo-st` | Com que arma o NPC apara, e a ST dele |
 
 Quem fecha o turno (`processar-turno`) lê o `status` antes de rolar: **"despreparad" no
-status = a ação é Preparar**, mesmo numa ação repetida que diga "ataque até morrerem".
+status = não ataca nem apara neste turno** (a arma se prepara sozinha; só a palavra
+**manobra** no status faz o turno ser de Preparar), mesmo numa ação repetida que diga "ataque
+até morrerem".
 
 ## Projeção (MB, p. 106)
 
