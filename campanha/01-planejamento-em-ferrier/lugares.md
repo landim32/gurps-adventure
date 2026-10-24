@@ -56,3 +56,31 @@ _(o que de fato aconteceu com o lugar, os objetos e o que se sabe durante o jogo
 
 - **20/10/2026 21:01** · _estado_ — Estimativa do grupo (Tática, todos falharam): 90 turnos até os guardas voltarem aos salões. Número do Mestre; o grupo não sabe o valor real.
 - **20/10/2026 21:14** · _estado_ — ERRATA (Mestre): o grupo acha que são 90 turnos (Tática falhou), mas o real é 60. Passados 60 turnos (contados do turno 18, ou seja, no turno 78), os guardas entram pela porta dos salões. SEGREDO do Mestre: os PJs não sabem.
+
+## Corredor da armadilha
+
+- **22/10/2026 23:46** · _estado_ — Turno 38: a armadilha mágica disparou. Escuridão não natural, quase absoluta: -9 em visão para quem não tem Visão Noturna. As armaduras junto às paredes se movem (só Gorbag as vê).
+
+## Torre do Grã-Mago, térreo
+
+- **23/10/2026 12:38** · _lugar_ — Sala redonda de pedra, sem janelas. Fonte no meio, buraco no teto acima dela, escada de mão que sobe. Cela apertada no canto superior esquerdo com um meio-elfo preso.
+- **23/10/2026 12:39** · _lugar_ — ERRATA: a sala é QUADRADA (não redonda). Sem janelas; fonte redonda no meio, buraco no teto acima dela, escada de mão que sobe; cela apertada no canto superior esquerdo com um meio-elfo.
+- **23/10/2026 12:50** · _estado_ — T41: Gorbag chegou à sala da fonte. As duas Armadura Animadas (golens de barro, alabardas) lutam no corredor; a Armadura 1 está em (7,3), a 2 em (15,1).
+
+## Armadura Animada
+
+- **23/10/2026 14:19** · _estado_ — T43: Armadura 1 destruída por Encontrão de Gorbag (projetada 4 hex até (11,5), desmontou; só barro dentro). Armadura 2 em (15,1) com alabarda preparada; ataca a partir do T44. Varyn e Urzog sem defesa ativa até o T44 (Ataque Total); machado de Urzog despreparado.
+- **23/10/2026 14:40** · _regra_ — ERRATA do Mestre (T44): o NH das armaduras com a alabarda é Armas de Haste = DX = 12, não 7 (pré-definido DX-5). Vale a partir do T44; ataques anteriores (T41) usaram 7. Ficha do NPC corrigida no roll6.
+- **23/10/2026 15:13** · _estado_ — T45: Armadura 2 destruída (projetada 1 hex por golpe de Urzog, 3 PV perdidos, desmontou). As duas armaduras da sala estão destruídas.
+
+## Cela de Tann'athar
+
+- **23/10/2026 17:14** · _estado_ — Cadeado da cela quebrado por Gorbag (T47): a cela está aberta.
+
+## Escuridão mágica
+
+- **23/10/2026 22:04** · _estado_ — Dissipada por Tann'athar na fonte do térreo (T48, Luz improvisada com -5, sucesso por 2). O -9 em visão acabou para todos.
+
+## Efeitos mágicos do grupo
+
+- **23/10/2026 23:58** · _estado_ — T49: todos os seis (Gorbag, Krag, Sae'Varyn, Tann'athar, Urzog, Farejo) com Escudo +5 DP por 1 minuto (e o Farejo com sucesso decisivo) e Bravura por 1 hora (IQ para evitar a bravura quando a situação pede cautela). Curas feitas: Gorbag 15/15, Tann'athar 11/11, Farejo 15/15.

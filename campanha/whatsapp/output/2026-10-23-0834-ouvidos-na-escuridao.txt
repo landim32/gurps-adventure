@@ -1,0 +1,17 @@
+*OUVIDOS NA ESCURIDÃO*
+
+Sem enxergar nada, os que não têm olhos para o escuro se apoiam no que ainda funciona. A treva não abafa o som.
+
+Krag prende a respiração e escuta. Metal contra pedra, passos pesados e arrastados, cada pisada acompanhada de um ranger de juntas. O barulho vem de perto, muito perto do grupo, do lado do norte, e outro, mais fraco, soa ao longe.
+> Audição Krag: NH 12
+> 3d [3, 2, 3] = *8* → sucesso por 4
+
+Sae'Varyn, de ouvido fino, separa o ruído com facilidade: são dois conjuntos de passos. Um se aproxima rente ao grupo, ao norte, a poucos hexágonos. O outro vem de longe, de trás, a oeste do corredor, ainda distante, mas caminhando na mesma direção.
+> Audição Sae'Varyn: NH 15
+> 3d [2, 4, 3] = *9* → sucesso por 6
+
+Urzog vira a cabeça de um lado para o outro e só escuta o próprio sangue nos ouvidos e o eco do corredor, que vem de todos os lados ao mesmo tempo. Não consegue dizer de onde vem o barulho.
+> Audição Urzog: NH 8
+> 3d [6, 3, 4] = *13* → falhou por 5
+
+O que vocês fazem?

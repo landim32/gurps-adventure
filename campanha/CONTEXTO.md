@@ -2,7 +2,7 @@
 
 _(**gerado** por `campanha.py elenco` a partir de `personagens/*/personagem.json` — não edite aqui: mude a ficha e regere. É lido em **toda** execução: antes de decidir o que um personagem faz, sofre ou diz, confira as **desvantagens, peculiaridades e vantagens dele** abaixo. Só entra o que influencia a cena. Atributos, perícias e equipamento estão na ficha (a `contexto` os traz a cada jogada); PV, Fadiga, bolsa e ferimento, em `saude.md`, `bolsa.md` e `mundo.md`. Onde o grupo está e o que vale ali (mana), em `ambiente.md`.)_
 
-_5 personagem(ns). Atualizado em 21/10/2026._
+_6 personagem(ns). Atualizado em 23/10/2026._
 
 ## Onde estão e a magia
 
@@ -67,6 +67,20 @@ Henrique · Elfo Negro (Fantasy) · Clérigo/Curandeiro caído → Necromante (F
 **Línguas:** Élfico (nativa) 15, Ânglico 14, Latim 14  
 **Mágicas:** Dar Força, Dar Vitalidade, Cura Superficial, Cura Profunda, Despertar, Detecção de Magia, Aura, Identificação de Mágica, Escudo, Contra-Mágicas, Visão da Morte, Percepção de Espíritos, Convocar Espíritos, Roubar Força, Roubar Vitalidade, Zumbi, Controle de Zumbi  
 *Ficha completa: `personagens/sae-varyn/personagem.md`*
+
+## Tann'athar Goras
+
+Ricardo · Meio-Elfo (Fantasy) · Espião (Fantasy) + Espião mágico (Magia) · 42 anos
+
+**Aparência:** 1,75 m; 68,1 kg; 42 anos, esbelto, pele escura, orelhas pontudas, cabelo longo preso  
+**Quem é:** Vendido pela mãe e criado pelo pai, Sethros Tanna'thos, como espião da Seita Lych  
+**Reação fixa:** +2  
+**Vantagens:** Raça: Meio-Elfo (+30); Aptidão Mágica 3 (racial 1 +2) (+20); Alfabetização (+10); Voz Melodiosa (+10) — +2 em reação de quem o ouve e +2 em Política, Trato Social, Diplomacia, Atuação; Prontidão +1 (+5)  
+**Desvantagens:** Dever: Seita Lych (quase sempre) (-15) — Alma presa por Sethros Tanna'thos, o pai: a seita chama e ele vai; Intolerância (fora da Seita) (-10) — -3 de reação a quem não é da Seita; frio e reservado, trata como inferior; Sadismo (-15) — Gosta de causar sofrimento; Vontade para se conter; sádico conhecido: -3 de reação; Fantasia (o pai o ama) (-10) — Crê que Sethros o protege e que a prisão da alma foi cuidado; defende o pai; o Mestre decide a verdade; Compulsão (colecionar segredos) (-5) — Vontade para não bisbilhotar e anotar segredos de todos a quem se aproxima  
+**Peculiaridades:** Cala-se ao ouvir "filho" ou "pai"; Conta até três antes de obedecer; Sorri só quando alguém sofre; Fala sozinho numa voz mais jovem; Tem lacunas na memória da infância  
+**Línguas:** Ânglico (nativa) 16, Élfico 15  
+**Mágicas:** Percepção de Inimigos, Percepção de Emoção, Percepção da Veracidade, Persuasão, Medo, Pânico, Bravura, Inépcia, Amnésia, Lealdade, Controle de Emoções, Sugestão, Ilusão Simples, Som, Ilusão Complexa, Ilusão Perfeita, Vozes, Escudo, Contra-Mágicas, Detecção de Magia, Luz, Visão da Morte, Coceira, Encantar, Cajado  
+*Ficha completa: `personagens/tann-athar-goras/personagem.md`*
 
 ## Urzog, o Bigorna
 

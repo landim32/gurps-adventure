@@ -8,6 +8,17 @@ script, e rode `campanha.py mundo`.)_
 <!-- indice:mundo -->
 ## NPCs
 
+### Armadura Animada
+
+- **23/10/2026 10:39** · _estado_ — Turno 39: golem de barro dentro de armadura, alabarda despreparada. 1º turno de preparo (automático) feito; falta 1 turno de Preparar (manobra) no T40. Duas ocorrências: Armadura Animada em (6,3) e Armadura Animada 2 em (15,1).  _(cap. 01)_
+- **23/10/2026 12:26** · _regra_ — Regra do Mestre (T40): se a armadura for projetada por Gorbag (ou outro), ela se desmonta, pois não há nada dentro. Alabardas preparadas ao fim do T40.  _(cap. 01)_
+- **23/10/2026 13:18** · _estado_ — T42: Armadura 1 em (7,3), alabarda despreparada (1º turno de preparo feito; T43 exige Preparar). Armadura 2 em (15,1), alabarda preparada ao fim do T42.  _(cap. 01)_
+
+### Barão Nabbick
+
+- **22/10/2026 20:11** · _estado_ — Turno 33: mordido na perna por Farejo (-3 PV, 7/10) e derrubado; DX 9 é valor provisório (ficha ainda não criada).  _(cap. 01)_
+- **22/10/2026 21:29** · _morte_ — Turno 36, ordem do Mestre: morto por Gorbag com um golpe de cutelo, no estrado, caído sob o Farejo. Ferrier fica sem barão.  _(cap. 01)_
+
 ### Cozinha do castelo
 
 - **20/10/2026 12:25** · _informação_ — Os criados e cozinheiros ficam olhando estranho para Krag, Pumba'h e Gorbag (turno 15).  _(cap. 01)_
@@ -41,6 +52,9 @@ script, e rode `campanha.py mundo`.)_
 - **22/10/2026 10:57** · _estado_ — Turno 24: ouviu o assobio da flecha de Krag (errou a cabeça dela) e chamou os guardas ('Guardas! Comigo, em formação!'). Ainda não viu quem atirou.  _(cap. 01)_
 - **22/10/2026 11:06** · _estado_ — Turno 25: avança pelo salão do trono com escudo e espada sacados, em (35,5), com os dois guardas (34,6) e (36,6).  _(cap. 01)_
 - **22/10/2026 12:03** · _estado_ — Turno 26: cercou o javali de Pumba'h em (32,8) com os guardas em (33,8) e (33,9). Ainda não viu Krag.  _(cap. 01)_
+- **22/10/2026 17:57** · _estado_ — Turno 29: avançou para (32,9) e atacou o javali de Pumba'h (defendeu). Ainda não viu Krag.  _(cap. 01)_
+- **22/10/2026 20:22** · _estado_ — ERRATA T33: inconsciente a -3 PV em (33,9), atingida na cabeça por Gorbag; segue desmaiada no T34 (HT para acordar).  _(cap. 01)_
+- **22/10/2026 20:29** · _estado_ — T34: flechada na cabeça por Krag enquanto inconsciente: -11 PV (limite de morte -13). Só acorda em 3 horas, se ninguém a ferir mais.  _(cap. 01)_
 
 ### Farejo
 
@@ -59,6 +73,15 @@ script, e rode `campanha.py mundo`.)_
 - **21/10/2026 17:51** · _estado_ — Turno 23: os dois guardas do salão (87 e 88) responderam à Capitã e se formaram ao lado dela, em (35,3) e (36,3).  _(cap. 01)_
 - **21/10/2026 18:03** · _estado_ — ERRATA turno 23: os guardas 87 e 88 não se formaram com a Capitã; seguem em (30,1) e (31,1). A nota anterior está anulada.  _(cap. 01)_
 - **22/10/2026 10:57** · _estado_ — Turno 24: os guardas 87 e 88 correram até a Capitã e se formaram em (35,3) e (36,3).  _(cap. 01)_
+- **22/10/2026 16:50** · _estado_ — Turno 28: guarda 2 ajoelhado a 9/12 com Farejo mordendo o braço; guarda 87 e Capitã atacaram o javali e erraram.  _(cap. 01)_
+- **22/10/2026 16:53** · _ferimento_ — ERRATA turno 28: o guarda 87 levou flecha de Krag na cabeça (14 de dano), a -2 PV, caído e atordoado; não atacou. O guarda 2 está ajoelhado a 9/12 com Farejo no braço. Anotação anterior do T28 sobre o guarda 87 anulada.  _(cap. 01)_
+- **22/10/2026 17:57** · _estado_ — Turno 29: guarda 87 segue caído e atordoado a -2 PV; guarda 2 se levantou (9/12) com Farejo no braço.  _(cap. 01)_
+
+### Guarda do Castelo 2
+
+- **22/10/2026 19:59** · _estado_ — Turno 32: recuperou do atordoamento; 1 PV; está em (31,9), adjacente a Gorbag (ataca no T33). Deslocamento pela metade (PV 1 a 3).  _(cap. 01)_
+- **22/10/2026 20:29** · _estado_ — T34: a -21 PV por golpe de Gorbag na cabeça; atordoado, em (31,8).  _(cap. 01)_
+- **22/10/2026 21:18** · _morte_ — Turno 35: morto por Gorbag, golpe no pescoço (22 de corte); corpo em (31,7).  _(cap. 01)_
 
 ### Marden Quill
 
@@ -86,6 +109,8 @@ script, e rode `campanha.py mundo`.)_
 ### Zumbi do guarda
 
 - **18/10/2026 23:19** · _morte_ — Guarda do portão morto reanimado por Sae'Varyn (Zumbi, sucesso decisivo, turno 12). Obedece a Varyn; escondido entre as carnes na caçamba da carroça. Conserva o corpo e a força do guarda, sem alma nem memória.  _(cap. 01)_
+- **22/10/2026 18:02** · _estado_ — Em cena no roll6 (mapNpcId 89, token Morto (Guarda)), ao lado de Sae'Varyn em (7,21). Sem armadura (cota e capacete com Varyn); gládio e escudo médio. ST 13, DX 12, IQ 8, HT 16 (PV 16), Deslocamento 7; Esquiva 7, Aparar 7, Bloqueio 7; não sente dor nem fica atordoado. Obedece a Varyn.  _(cap. 01)_
+- **22/10/2026 19:13** · _estado_ — Turno 30: acompanha Sae'Varyn, em (3,21).  _(cap. 01)_
 
 ## Grupo
 
@@ -102,6 +127,9 @@ script, e rode `campanha.py mundo`.)_
 - **19/10/2026 14:44** · _estado_ — Sujo do sangue de Perrin Holt (turno 13).  _(cap. 01)_
 - **19/10/2026 21:25** · _item_ — Guarda no avental os pertences de Perrin (turno 14): ~$12, dois dados de osso e a promissória de Sam Ludd. Picou o corpo no açougue.  _(cap. 01)_
 - **22/10/2026 10:57** · _estado_ — Turno 24: dentro da despensa, em (9,11); matou a Criada 2. Restam a Cozinheira (a -9) e o Criado 85.  _(cap. 01)_
+- **22/10/2026 20:22** · _estado_ — ERRATA T33: 11/15 PV, de pé em (31,10); -4 no ataque no T34 (ferimento do guarda 2 no braço do escudo).  _(cap. 01)_
+- **23/10/2026 17:14** · _item_ — Cutelo colossal QUEBRADO ao abrir o cadeado da cela (T47, arma barata). Fica só com o facão de desossar (1D+2 máx.) e a faca (1D+1 máx.). Retirado do inventário a pedido do Mestre.  _(cap. 01)_
+- **23/10/2026 22:04** · _item_ — Pegou o machado de Urzog (T48), com o cutelo colossal quebrado. NH com a arma de uma mão a definir pelo Mestre.  _(cap. 01)_
 
 ### Krag Trilhanegra
 
@@ -118,6 +146,9 @@ script, e rode `campanha.py mundo`.)_
 - **21/10/2026 18:03** · _estado_ — ERRATA turno 23: não atirou. Está apontando a flecha na cabeça da Capitã (1º turno de mira), flecha encaixada, em (25,16), com Farejo e Pumba'h ao lado. A nota anterior ('atirou, sem flecha') está anulada.  _(cap. 01)_
 - **22/10/2026 10:57** · _estado_ — Turno 24: atirou na cabeça da Capitã depois de 1 turno de mira e errou. Sem flecha encaixada.  _(cap. 01)_
 - **22/10/2026 11:06** · _estado_ — Turno 25: flecha encaixada (Sacar Rápido) e miramos de novo na Capitã (1º turno de mira). Em (25,16).  _(cap. 01)_
+- **22/10/2026 16:50** · _estado_ — Turno 28: Ataque Total com o arco (errata do Mestre), errou o guarda 87; sem defesa ativa até o T29, sem flecha encaixada, mira perdida. Em (27,16).  _(cap. 01)_
+- **22/10/2026 16:53** · _estado_ — ERRATA turno 28: acertou o guarda 87 na cabeça (Ataque Total, sem Tiro Rápido). Sem defesa ativa até o T29, sem flecha encaixada, mira perdida.  _(cap. 01)_
+- **22/10/2026 17:57** · _estado_ — Turno 29: flecha encaixada (Sacar Rápido) e Apontar no guarda 2 (1º turno de mira); volta para (28,15) (Apontar deixa 2 hex).  _(cap. 01)_
 
 ### Pumba'h Fed
 
@@ -130,6 +161,9 @@ script, e rode `campanha.py mundo`.)_
 - **22/10/2026 11:06** · _estado_ — Turno 25: investiu pelo corredor até (30,13); sem contato com a Capitã (a uns 8 hex).  _(cap. 01)_
 - **22/10/2026 12:03** · _estado_ — Turno 26: em (32,9), cercado pela Capitã e dois guardas; Farejo a seu lado em (31,9).  _(cap. 01)_
 - **22/10/2026 12:27** · _ferimento_ — Turno 27: encontrão derrubou o guarda 2; montante da Capitã no braço do escudo (6 de dano). PV 6/12, cercado em (32,9).  _(cap. 01)_
+- **22/10/2026 16:50** · _estado_ — Turno 28: Defesa Total com recuo, defendeu Capitã e guarda 87; recuou para (32,10). Esquiva do javali = 8 (errata). PV 6/12.  _(cap. 01)_
+- **22/10/2026 19:13** · _estado_ — Turno 30: a Capitã acertou a cabeça do javali, 10 de dano; PV -4, atordoado, projetado para (32,11). HT para recuperar e para não desmaiar no T31.  _(cap. 01)_
+- **22/10/2026 19:29** · _morte_ — Turno 31: morto pela Capitã Isolda; o javali cruzou -12 PV (-14) e falhou no HT 12 contra a morte (15). Corpo em (32,12).  _(cap. 01)_
 
 ### Sae'Varyn
 
@@ -142,6 +176,12 @@ script, e rode `campanha.py mundo`.)_
 - **20/10/2026 12:25** · _relação_ — Reparou na criada desconfiada tentando sair da cozinha às escondidas (turno 15; Percepção 13, passou por 1, contra Furtividade 9 dela, falhou por 5); ela travou no meio da cozinha. Ainda sem veneno: Venefício falhou por 2 na despensa.  _(cap. 01)_
 - **21/10/2026 14:32** · _estado_ — Turno 22: andou pela passagem estreita até (4,15) rumo à carroça; não deu a ordem ao zumbi (decisão do Mestre).  _(cap. 01)_
 - **22/10/2026 10:57** · _estado_ — Turno 24: em (2,22), lá fora, rumo à carroça; ainda faltam turnos (chega no fim do T27, decisão do Mestre) antes de dar a ordem ao zumbi.  _(cap. 01)_
+- **23/10/2026 12:50** · _item_ — T41: perdeu o servo Zumbi (Paravotto), destruído pela Armadura Animada 2 no escuro. Para outro zumbi, precisa lançar Zumbi de novo em outro cadáver.  _(cap. 01)_
+
+### Tann'athar Goras
+
+- **23/10/2026 15:46** · _relação_ — Contou ao grupo: a espada está na caixa de ferro negro, num pedestal de granito, na Câmara do Cofre perto do topo da torre, logo abaixo do quarto de Orvin; porta de ferro com fechadura mágica (Rouxinol); armadilha de peso (~12 kg) sela a sala; Orvin dorme leve; os andares mudam. Pede para ser libertado da cela.  _(cap. 01)_
+- **23/10/2026 15:47** · _regra_ — ERRATA do Mestre: Tann'athar NÃO fala da armadilha do pedestal nem do contrapeso; só diz onde está a espada (Câmara do Cofre, perto do topo, caixa de ferro negro no centro da sala, porta de ferro com fechadura mágica), que Orvin dorme leve e que os andares mudam. Vale a Narração 77; substitui a 76.  _(cap. 01)_
 
 ### Urzog, o Bigorna
 
@@ -161,8 +201,16 @@ script, e rode `campanha.py mundo`.)_
 - **21/10/2026 14:32** · _estado_ — Turno 22: machado preparado, ao lado da Cozinheira que chora; com as chaves de Perrin.  _(cap. 01)_
 - **22/10/2026 12:03** · _estado_ — Turno 26: Preparou o machado (despreparado desde o T25, sem Preparação Rápida: ST 13, mín 12). Ataca no T27.  _(cap. 01)_
 - **22/10/2026 12:27** · _estado_ — Turno 27: golpeou a Cozinheira (morreu). Machado DESPREPARADO: Prepara no T28, ataca no T29.  _(cap. 01)_
+- **22/10/2026 16:50** · _estado_ — Turno 28: entrou na cozinha (11,11); machado ainda despreparado (decisão do Mestre).  _(cap. 01)_
+- **23/10/2026 22:04** · _item_ — Entregou o machado a Gorbag (T48, a pedido dele); está desarmado.  _(cap. 01)_
 
 ## Lugares e coisas
+
+### Armadura Animada
+
+- **23/10/2026 14:19** · _estado_ — T43: Armadura 1 destruída por Encontrão de Gorbag (projetada 4 hex até (11,5), desmontou; só barro dentro). Armadura 2 em (15,1) com alabarda preparada; ataca a partir do T44. Varyn e Urzog sem defesa ativa até o T44 (Ataque Total); machado de Urzog despreparado.  _(cap. 01)_
+- **23/10/2026 14:40** · _regra_ — ERRATA do Mestre (T44): o NH das armaduras com a alabarda é Armas de Haste = DX = 12, não 7 (pré-definido DX-5). Vale a partir do T44; ataques anteriores (T41) usaram 7. Ficha do NPC corrigida no roll6.  _(cap. 01)_
+- **23/10/2026 15:13** · _estado_ — T45: Armadura 2 destruída (projetada 1 hex por golpe de Urzog, 3 PV perdidos, desmontou). As duas armaduras da sala estão destruídas.  _(cap. 01)_
 
 ### Açougue do castelo
 
@@ -176,6 +224,14 @@ script, e rode `campanha.py mundo`.)_
 
 - **20/10/2026 16:03** · _estado_ — Turno 17: o Troll solto no pátio berra e o sino do alarme toca. Os guardas saem para o pátio, os convidados vão à porta do Salão olhar. O Barão fica no trono e a Capitã ao lado dele, de espada na mão. O Grã-Mago Orvin vai para fora ver. Na cozinha os criados exigem que Sae'Varyn e Gorbag saiam.  _(cap. 01)_
 
+### Cela de Tann'athar
+
+- **23/10/2026 17:14** · _estado_ — Cadeado da cela quebrado por Gorbag (T47): a cela está aberta.  _(cap. 01)_
+
+### Corredor da armadilha
+
+- **22/10/2026 23:46** · _estado_ — Turno 38: a armadilha mágica disparou. Escuridão não natural, quase absoluta: -9 em visão para quem não tem Visão Noturna. As armaduras junto às paredes se movem (só Gorbag as vê).  _(cap. 01)_
+
 ### Cozinha do castelo
 
 - **19/10/2026 21:25** · _informação_ — Sete pessoas na cozinha (3 cozinheiros, 2 criadas, 2 criados), de avental e túnica parda; sem roupa sobrando nos cestos de roupa suja (turno 14).  _(cap. 01)_
@@ -188,6 +244,14 @@ script, e rode `campanha.py mundo`.)_
 ### Despensa da cozinha
 
 - **20/10/2026 12:25** · _informação_ — Turno 15: Sae'Varyn (falha por 2), Pumba'h (por 1) e Krag (por 4) procuraram ingrediente de veneno e não identificaram nenhum; Gorbag não pôde rolar (NH 3). Nova tentativa leva -1.  _(cap. 01)_
+
+### Efeitos mágicos do grupo
+
+- **23/10/2026 23:58** · _estado_ — T49: todos os seis (Gorbag, Krag, Sae'Varyn, Tann'athar, Urzog, Farejo) com Escudo +5 DP por 1 minuto (e o Farejo com sucesso decisivo) e Bravura por 1 hora (IQ para evitar a bravura quando a situação pede cautela). Curas feitas: Gorbag 15/15, Tann'athar 11/11, Farejo 15/15.  _(cap. 01)_
+
+### Escuridão mágica
+
+- **23/10/2026 22:04** · _estado_ — Dissipada por Tann'athar na fonte do térreo (T48, Luz improvisada com -5, sucesso por 2). O -9 em visão acabou para todos.  _(cap. 01)_
 
 ### Gota Seca
 
@@ -217,4 +281,10 @@ script, e rode `campanha.py mundo`.)_
 
 - **16/10/2026 17:54** · _lugar_ — Noite do banquete: 16 pilastras, mesas postas ao longo das fileiras, galeria com músicos, braseiros; Barão ranzinza no trono; uma mulher alta de gala, rosto cruzado de cicatrizes, de espada sob a capa e sem beber, observa os estrangeiros (a Capitã); porta de ferro ao lado do estrado com dois guardas. Os contratados passam rente à parede até a portinha de criados do canto, depois uma passagem estreita até a cozinha.  _(cap. 01)_
 - **16/10/2026 17:57** · _lugar_ — ERRATA (Mestre): os convidados ainda não chegaram; o salão está sendo armado (criados nas mesas e braseiros, músicos afinando). À esquerda do trono, porta de madeira aberta para a escadaria dos aposentos, com um homem-de-armas ao pé; do outro lado, porta de ferro fechada com dois homens. Barão e Capitã ainda não estão no salão.  _(cap. 01)_
+
+### Torre do Grã-Mago, térreo
+
+- **23/10/2026 12:38** · _lugar_ — Sala redonda de pedra, sem janelas. Fonte no meio, buraco no teto acima dela, escada de mão que sobe. Cela apertada no canto superior esquerdo com um meio-elfo preso.  _(cap. 01)_
+- **23/10/2026 12:39** · _lugar_ — ERRATA: a sala é QUADRADA (não redonda). Sem janelas; fonte redonda no meio, buraco no teto acima dela, escada de mão que sobe; cela apertada no canto superior esquerdo com um meio-elfo.  _(cap. 01)_
+- **23/10/2026 12:50** · _estado_ — T41: Gorbag chegou à sala da fonte. As duas Armadura Animadas (golens de barro, alabardas) lutam no corredor; a Armadura 1 está em (7,3), a 2 em (15,1).  _(cap. 01)_
 <!-- /indice:mundo -->

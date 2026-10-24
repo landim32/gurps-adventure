@@ -1,0 +1,49 @@
+*TURNO 33 — O CÃO E O BARÃO*
+
+Farejo salta o último trecho do estrado e, por trás do velho, fecha os dentes na perna dele. O Barão solta um grito seco, perde o apoio e cai de lado nas tábuas, o cão ainda pendurado na panturrilha.
+> Ataque Farejo (Avançar e Atacar, 1 hex): NH 12, -2 perna = *10*
+> 3d [5, 1, 4] = *10* → sucesso por 0
+> Defesa do Barão: nenhuma (golpe pelas costas)
+> Dano: 1D-1: [3] - 1 = *2*
+> RD 0 → 2 passam
+> Corte: ×1,5 → *3*
+> *O Barão perde 3 pontos de vida.*
+> Teste de DX do Barão para não cair (decisão do Mestre): DX 9
+> 3d [1, 6, 6] = *13* → falhou: *CAIU*
+
+Gorbag ergue o cutelo e desce na perna da Capitã. Ela abaixa o escudo, apara o aço contra a caneleira e o golpe escorrega.
+> Ataque Gorbag: Machado de Duas Mãos NH 18, -2 perna = *16*
+> 3d [6, 2, 6] = *14* → sucesso por 2
+> Defesa Capitã: aparar 9 +4 DP caneleira +3 DP escudo = *16*
+> 3d [5, 4, 4] = *13* → defendeu por 3
+> *A Capitã se defendeu.* Sem dano.
+> _Preparação Rápida (ST 20 ≥ 13+5): o cutelo segue pronto._
+
+Krag mantém o arco firme, a flecha na corda, o olho na cabeça descoberta da Capitã. Segura a respiração.
+
+Urzog entra no salão pelo corredor, o machado ainda solto.
+
+A Capitã aproveita o descuido e crava o montante no flanco do ogro. Ele ergue o cutelo tarde demais, e o golpe o apanha em cheio no peito. O ogro cambaleia, perde o chão e é jogado para trás, caindo de costas nas lajes.
+> Ataque Capitã: NH 16 (tronco, sorteado: 3d [6, 3, 2] = 11; sem redutor de local) = *16*
+> 3d [4, 5, 6] = *15* → sucesso por 1
+> Defesa de Gorbag: aparar 9 +1 Reflexos em Combate = *10*
+> 3d [5, 5, 4] = *14* → falhou por 4
+> Dano: 2D+3: [5, 4] = 9 + 3 = *12*
+> Projeção: 12 antes da RD → *1 hex para trás*
+> RD 0 → 12 passam
+> Corte: ×1,5 → *18*
+> Perdeu mais de HT/2: teste de HT 15 para não cair, 3d [6, 5, 6] = *17* → *CAIU*; *ATORDOADO* (-4 nas defesas)
+> *Gorbag perde 18 pontos de vida* (fica a -3).
+
+O soldado a um passo vê o ogro caído e avança, descendo o montante nas pernas dele. O couro das calças segura o golpe.
+> Ataque Guarda 2 (Avançar e Atacar): NH 14, perna distante (sorteada: 3d [2, 4, 6] = 12; sem redutor) = *14*
+> 3d [2, 2, 1] = *5* → sucesso por 9
+> Defesa de Gorbag: aparar 9 +1 Reflexos em Combate +2 DP calças -4 atordoado = *8*
+> 3d [5, 5, 2] = *12* → falhou por 4
+> Dano: 1D: [1] = *1*
+> RD 5 (calças de couro) → 0 passam
+> *A armadura segurou o golpe.*
+
+No fundo do salão, Sae'Varyn avança pelo capim com o morto de pele cinzenta ao lado.
+
+O que vocês fazem?

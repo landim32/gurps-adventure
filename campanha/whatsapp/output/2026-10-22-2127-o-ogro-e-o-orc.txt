@@ -1,0 +1,12 @@
+*O OGRO E O ORC*
+
+Urzog ergue o machado na direção do estrado, a boca já aberta num sorriso de dentes de orc, pronto para acabar com o velho. Gorbag atravessa o salão em três passadas e para diante dele, a sombra do ogro cobrindo-o por inteiro. O cutelo pinga na laje, e o avental de florzinhas está duro de sangue. Ele baixa o rosto até o do orc e o encara em silêncio, o tipo de olhar que um açougueiro dá ao animal que já escolheu.
+
+— Ainda não — rosna Gorbag. — O Barão vale mais vivo.
+
+Urzog sustenta o olhar por um segundo, com o orgulho de quem não costuma recuar. Depois sente o peso daquela presença e baixa o machado, mas não larga a presa de vista.
+> Intimidação Gorbag: NH 11, +4 altura (2,45 m contra 1,78 m, +1 por 15 cm), +2 sede de sangue e cutelo pingando = *17*
+> 3d [2, 5, 3] = *10* → sucesso por 7
+> Vontade Urzog (IQ 8 + Força de Vontade +4): NH 12
+> 3d [2, 3, 4] = *9* → sucesso por 3
+> *Gorbag vence a disputa*: Urzog não mata o Barão por ora.

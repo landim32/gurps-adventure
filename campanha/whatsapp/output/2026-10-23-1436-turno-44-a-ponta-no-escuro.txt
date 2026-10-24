@@ -1,0 +1,13 @@
+*TURNO 44 — A PONTA NO ESCURO*
+
+Gorbag cruza a sala pelo lado da parede, as passadas largas, os olhos de ogro varrendo a treva, e para a dois passos do orc, bem perto de onde o ferro range. Krag segue o Farejo, que contorna a quina e some na sala ao lado, e o rastreador vai atrás, o arco armado, tateando o escuro.
+
+Sae'Varyn dá um passo de lado e outro para trás, a guarda fechada, e grita: "Orc, ela vai atacar de novo!". De algum canto da sala, a voz rouca do prisioneiro ainda berra: "Me tirem da cela! Eu posso acabar com essa escuridão!"
+
+Urzog não consegue golpear: o machado ainda pesa na mão, e ele usa o turno para firmar a guarda, o escudo à frente, ouvindo o ferro. A armadura ao lado dele vem com a ponta da alabarda, baixa, na direção da perna do orc. A lâmina corta o ar e raspa a laje, a um palmo.
+> Ataque Armadura Animada 2 (ponta): Armas de Haste NH 7 (pré-definido DX-5) = *7*
+> Ponto de impacto sorteado: 3d [6, 4, 3] = *13* → Perna
+> 3d [3, 5, 5] = *13* → falha por 6
+> *Errou.* A alabarda fica despreparada: prepara sozinha no próximo turno.
+
+O que vocês fazem?

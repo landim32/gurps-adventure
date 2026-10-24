@@ -1,0 +1,32 @@
+*TURNO 41 — A SALA DA FONTE*
+
+Gorbag segue o corredor até o fim e entra em uma sala quadrada de pedra nua, sem janela alguma, onde o ar tem o frio parado de lugar fechado há muito tempo. Os olhos de ogro enxergam na treva o que os outros não alcançam. No meio da sala fica uma fonte baixa, um tanque de pedra redondo cheio de água escura e parada, o fio que a alimenta pingando em intervalos longos. Acima dela, no teto, abre-se um buraco redondo, e junto à beira do tanque uma escada de mão de madeira escura sobe até ele e se perde no andar de cima.
+
+No canto superior esquerdo, no ângulo de duas paredes, há uma cela apertada de grades de ferro, estreita demais até para um homem se deitar. Dentro dela está um sujeito magro de orelhas levemente pontudas, as roupas rasgadas, os cabelos sujos sobre o rosto. Ele ergue a cabeça devagar ao ouvir os passos pesados do ogro e o encara por entre as grades, sem dizer nada.
+
+Atrás, no corredor, Krag segue os latidos baixos do Farejo, que vai à frente guiando o caminho, e Urzog e Sae'Varyn ficam firmes onde estão, em guarda, com o morto de pele cinzenta junto a Sae'Varyn. Os três apuram o ouvido na treva, mas o eco do corredor mistura os passos pesados e os ranger de metal e nenhum deles separa de onde vêm.
+> Audição Krag: NH 12
+> 3d [3, 6, 6] = *15* → falhou por 3
+> Audição Urzog: NH 8
+> 3d [2, 6, 3] = *11* → falhou por 3
+> Audição Sae'Varyn: NH 15
+> 3d [4, 6, 6] = *16* → falhou por 1
+
+A armadura mais distante dá um passo à frente e abate a alabarda sobre o pé do cão. A lâmina bate no vazio e o Farejo salta de lado, ileso.
+> Ataque Armadura Animada (Avançar e Atacar, 1 hex): Armas de Haste NH 7 (pré-definido DX-5)
+> 3d [4, 1, 6] = *11* → falhou por 4
+> *Errou.* A alabarda fica despreparada: prepara sozinha no próximo turno.
+
+A outra armadura, perto do grupo, enfia a ponta da alabarda na perna do morto de Sae'Varyn. No escuro, o morto não vê a lâmina chegar. Ergue o escudo tarde demais, errando o ângulo, e a segunda tentativa também falha. O aço atravessa a coxa de lado a lado. O corpo seco se desfaz, a mágica que o mantinha em pé se rompe, e o morto desaba em pedaços no chão.
+> Ataque Armadura Animada 2 (ponta): Armas de Haste NH 7 (pré-definido DX-5)
+> 3d [3, 3, 1] = *7* → sucesso por 0
+> Defesa do Zumbi (Defesa Total, 1ª): bloqueio 7 +3 DP escudo -9 escuridão = *1*
+> 3d [2, 2, 3] = *7* → falhou por 6
+> Defesa do Zumbi (Defesa Total, 2ª): aparar 7 +3 DP escudo -9 escuridão = *1*
+> 3d [3, 3, 6] = *12* → falhou por 11
+> Dano: 1D+4: [4] + 4 = *8*
+> RD 0 → 8 passam
+> Perfuração: ×2 depois da armadura → *16*
+> *O Zumbi perde 16 pontos de vida* (fica a 0): *destruído*.
+
+O que vocês fazem?

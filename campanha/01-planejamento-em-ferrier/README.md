@@ -1202,6 +1202,1119 @@ Sae'Varyn chega ao fim do capim molhado e vê a carroça escura à frente, as ro
 
 O que vocês fazem?
 
+### Narração 43 — 22/10/2026 16:53
+
+_Turno 28: flecha de Krag derruba o guarda 87, Farejo morde o guarda 2, Pumba'h recua em defesa total_
+
+*TURNO 28 — A FLECHA PERDIDA*
+
+Farejo salta e fecha os dentes no braço do soldado caído, por trás, onde a cota não cobre. O homem urra e tenta sacudir o cão, de joelhos no chão.
+> Ataque Farejo: NH 12, -2 braço = *10*
+> 3d [2, 2, 3] = *7* → sucesso por 3
+> Defesa: nenhuma (golpe pelas costas, de quem está no chão)
+> Dano: 1D-1: [3] - 1 = *2*
+> RD 0 → 2 passam
+> Corte: ×1,5 → *3*
+> *O guarda perde 3 pontos de vida.*
+
+Pumba'h abaixa a cabeça, encolhe o corpo e só espera o aço. O javali recua um passo, o lombo quase na parede, os olhos miúdos nos dois homens de armas.
+
+Gorbag atravessa a cozinha em passos largos, por entre os corpos e os sacos rasgados, e para junto da porta sul, o cutelo pingando.
+
+Krag solta a corda na carreira, sem tempo de mirar. A flecha cruza o salão e entra no elmo aberto do soldado de pé, sobre o olho, antes que o escudo suba. O homem larga o montante, os joelhos dobram e ele desaba de costas.
+> Ataque Krag (Ataque Total, decisão do Mestre): Arco NH 17, -5 velocidade/distância (11 m → linha dos 13,5 m), -5 cabeça, +4 Ataque Total = *11*
+> 3d [6, 2, 1] = *9* → sucesso por 2
+> Defesa de Guarda: bloqueio 7 +3 DP escudo = *10*
+> 3d [5, 5, 4] = *14* → falhou por 4
+> Dano: 1D+1: [6] + 1 = *7*
+> RD 0 → 7 passam
+> Perfuração: ×2 → *14*
+> Perdeu mais de HT/2: teste de HT 12 para não cair, 3d [2, 5, 6] = *13* → *CAIU*; *ATORDOADO* (-4 nas defesas)
+> Teste de HT 12 contra nocaute: 3d [3, 5, 2] = *10* → aguentou
+> *O guarda perde 14 pontos de vida* (fica a -2) e Krag fica sem defesa ativa até o próximo turno.
+
+Urzog cruza a porta da despensa e entra na cozinha, o machado ainda solto na mão, sem tempo de firmá-lo.
+
+A Capitã avança o montante na pata traseira do javali. O bicho se joga para trás e a lâmina risca as lajes.
+> Ataque Capitã: NH 16 (perna distante, sorteada: 3d [2, 5, 5] = 12) = *16*
+> 3d [3, 3, 4] = *10* → sucesso por 6
+> Defesa de Pumba'h: esquiva 8 +1 Reflexos em Combate +1 DP +3 recuo = *13*
+> 3d [2, 2, 3] = *7* → defendeu por 6
+> *Pumba'h se defendeu.* Sem dano.
+
+O soldado atingido não chega a erguer a espada: está caído e atordoado, a cabeça sangrando, sem saber onde está.
+
+O soldado derrubado, com o cão pendurado no braço, apoia o escudo nas lajes e se ergue de joelhos.
+
+Sae'Varyn segue pelo capim escuro, a carroça já à vista, mas ainda fora de alcance.
+
+O que vocês fazem?
+
+### Narração 44 — 22/10/2026 17:57
+
+_Turno 29: Pumba'h e Farejo no guarda 2, Capitã ataca o javali, Krag mira de novo_
+
+*TURNO 29 — A PRESA E O ESCUDO*
+
+Farejo morde de novo o braço do soldado ajoelhado, sacudindo a cabeça para fazê-lo soltar a espada, mas os dentes só pegam o ar: o homem recolhe o braço na hora.
+> Ataque Farejo: NH 12, -2 braço = *10*
+> 3d [6, 6, 1] = *13* → falhou por 3
+> *Errou.*
+
+Pumba'h avança as presas no mesmo soldado, ainda sobre um joelho. O homem enfia o escudo no caminho e a ponta raspa o aço sem entrar na cota.
+> Ataque Pumba'h (javali): NH 15 = *15*
+> 3d [4, 6, 2] = *12* → sucesso por 3
+> Defesa de Guarda: bloqueio 7 +3 DP cota +3 DP escudo -2 ajoelhado = *11*
+> 3d [1, 5, 5] = *11* → defendeu no limite
+> *O guarda se defendeu.* Sem dano.
+
+Gorbag cruza a cozinha, sai pela porta sul e entra no corredor dos lampiões, o cutelo pingando, rumo ao salão.
+
+Krag, quando a corda afrouxa, saca outra flecha num gesto só e volta a erguer o arco, o olhar no soldado que se apoia na espada para ficar de pé.
+> Sacar Rápido (Flecha) Krag: NH 14 +1 (Reflexos em Combate) = *15*
+> 3d [1, 5, 2] = *8* → sucesso por 7
+> *Flecha encaixada de graça.* Ele só mira, sem atirar. (O terceiro hexágono que Krag andou não cabe em Apontar, que deixa 2: ele fica um passo atrás.)
+
+Urzog sai da cozinha pela porta e segue o corredor atrás de Gorbag, o machado balançando na mão sem firmar.
+
+A Capitã dá um passo à frente e crava o montante no flanco do javali, mas o couro grosso e a coura de Pumba'h seguram a lâmina, e o bicho esquiva o resto.
+> Ataque Capitã: NH 16 (tronco, sorteado: 3d [4, 1, 6] = 11) = *16*
+> 3d [2, 4, 3] = *9* → sucesso por 7
+> Defesa de Pumba'h: esquiva 8 +1 Reflexos em Combate +1 DP coura = *10*
+> 3d [2, 2, 5] = *9* → defendeu por 1
+> *Pumba'h se defendeu.* Sem dano.
+
+O soldado caído com a cabeça aberta tenta se erguer e não acha o chão. O outro, ajoelhado, firma o escudo nas lajes e se põe de pé.
+> HT Guarda caído (recuperar do atordoamento): NH 12 = *12*
+> 3d [6, 6, 6] = *18* → falhou
+> HT Guarda caído (não desmaiar, PV 0 ou menos): NH 12 = *12*
+> 3d [3, 1, 5] = *9* → passou por 3
+> *O guarda segue acordado e atordoado.*
+
+No estrado, o Barão dá um passo na direção das portas, a mão no braço da cadeira.
+
+Sae'Varyn aperta o passo pelo capim molhado. A carroça está tão perto que ele já sente o cheiro das carnes.
+
+O que vocês fazem?
+
+### Narração 45 — 22/10/2026 19:13
+
+_Turno 30: Capitã acerta a cabeça do javali (Pumba'h a -4 PV, atordoado); Farejo erra; zumbi acompanha Sae'Varyn_
+
+*TURNO 30 — O GOLPE NA CABEÇA*
+
+Farejo dá a volta pelo flanco do soldado de pé e salta no braço da espada, mas o homem puxa o braço e os dentes só fecham no ar.
+> Ataque Farejo (Avançar e Atacar, 1 hex): NH 12, -2 braço = *10*
+> 3d [6, 1, 4] = *11* → falhou por 1
+> *Errou.*
+
+Pumba'h abaixa a cabeça e enfia as presas na perna da Capitã. Ela abaixa o montante a tempo e a lâmina desvia o bote.
+> Ataque Pumba'h (javali): NH 15, -2 perna = *13*
+> 3d [3, 3, 4] = *10* → sucesso por 3
+> Defesa Capitã: aparar 9 +4 DP caneleira +3 DP escudo = *16*
+> 3d [3, 4, 1] = *8* → defendeu por 8
+> *A Capitã se defendeu.* Sem dano.
+
+Gorbag desce o corredor dos lampiões, o cutelo pingando, e para na entrada do salão.
+
+Krag dá dois passos de lado e volta a erguer o arco, a flecha encaixada e o olho no soldado que se levantou.
+
+Urzog segue pelo corredor com o machado ainda pendendo da mão, sem firmá-lo.
+
+A Capitã gira o corpo e desce o montante na cabeça do javali. O bicho tenta se jogar de lado e não chega: a lâmina o pega no alto do crânio e o arremessa um passo para trás. Ele cambaleia, mas fica de pé.
+> Ataque Capitã: NH 16 (cabeça, sorteado: 3d [2, 1, 2] = 5; sem redutor de local) = *16*
+> 3d [6, 1, 1] = *8* → sucesso por 8
+> Defesa de Pumba'h: esquiva 8 +1 Reflexos em Combate +1 DP = *10*
+> 3d [4, 4, 6] = *14* → falhou por 4
+> Dano: 2D+3: [5, 2] = 7 + 3 = *10*
+> Projeção: 10 antes da RD → *1 hex para trás*
+> RD 3 → 7 passam
+> Corte: ×1,5 depois da armadura → *10*
+> Perdeu mais de HT/2: teste de HT 12 para não cair, 3d [1, 1, 4] = *6* → de pé; *ATORDOADO* (-4 nas defesas)
+> Teste de HT 12 contra nocaute, 3d [2, 2, 6] = *10* → aguentou
+> Projetado 1 hex: teste de DX 15, 3d [6, 1, 6] = *13* → de pé
+> *Pumba'h perde 10 pontos de vida* (fica a -4).
+
+O soldado de pé não perde a chance: golpeia o cão com a lâmina de plano e acerta o costado, mas o bicho só ganiu.
+> Ataque Guarda: NH 14 = *14*
+> 3d [4, 1, 2] = *7* → sucesso por 7
+> Defesa de Farejo: esquiva 7 = *7*
+> 3d [1, 6, 1] = *8* → falhou por 1
+> Dano: 1D: [1] = *1* (RD 0)
+> *Farejo perde 1 ponto de vida.*
+
+O soldado caído se agarra ao cabo da espada, o rosto cinzento, e recobra o sentido.
+> HT Guarda caído (recuperar do atordoamento): NH 12
+> 3d [2, 2, 4] = *8* → passou
+> HT Guarda caído (não desmaiar, PV 0 ou menos): NH 12
+> 3d [2, 2, 6] = *10* → passou
+
+No estrado, o Barão dá alguns passos, sem tirar os olhos da luta. Sae'Varyn segue pelo capim, e o morto de pele cinzenta vem logo atrás dele.
+
+O que vocês fazem?
+
+### Narração 46 — 22/10/2026 19:29
+
+_Turno 31: Krag acerta o guarda 2; Pumba'h morre pela Capitã (HT contra a morte falhou); guarda 87 desmaia_
+
+*TURNO 31 — A BARREIRA DOS DOZE*
+
+Farejo morde de novo o braço do soldado que o acertou, mas o homem recua o ombro e os dentes escorregam no aço do escudo.
+> Ataque Farejo: NH 12, -2 braço, -1 ferimento da rodada anterior = *9*
+> 3d [2, 6, 3] = *11* → falhou por 2
+> *Errou.*
+
+O javali treme sobre as patas, a cabeça em sangue, e tenta se firmar na defesa total sem enxergar direito.
+> HT Pumba'h (recuperar do atordoamento): NH 12
+> 3d [4, 3, 6] = *13* → falhou: segue *atordoado*
+> HT Pumba'h (não desmaiar, PV 0 ou menos): NH 12
+> 3d [3, 1, 3] = *7* → passou por 5
+
+Gorbag atravessa o corredor a passos largos e entra no salão, o cutelo na mão.
+
+Krag respira fundo, solta a corda e a flecha cruza o salão por cima do lombo baixo do javali. Ela pega o soldado de pé na testa, sob a borda do elmo aberto. Ele cambaleia, o escudo caído do lado, e fica ali parado, sem saber onde está.
+> Ataque Krag: Arco NH 17, -3 velocidade/distância (6 m), +3 Precisão da arma, +1 por 1 turno extra apontando, -5 cabeça = *13*
+> 3d [6, 1, 6] = *13* → sucesso por 0
+> Defesa de Guarda: bloqueio 7 +3 DP escudo = *10*
+> 3d [5, 3, 4] = *12* → falhou por 2
+> Dano: 1D+1: [3] + 1 = *4*
+> RD 0 → 4 passam
+> Perfuração: ×2 → *8*
+> Perdeu mais de HT/2: teste de HT 12 para não cair, 3d [2, 6, 4] = *12* → de pé; *ATORDOADO* (-4 nas defesas)
+> Teste de HT 12 contra nocaute, 3d [1, 3, 3] = *7* → aguentou
+> *O guarda perde 8 pontos de vida* (fica com 1).
+
+Urzog segue o corredor com o machado ainda solto na mão, sem firmá-lo.
+
+A Capitã vê o javali cambaleando, dá um passo à frente e desce o montante no flanco dele. O bicho nem ergue a cabeça: a lâmina o pega no tronco e o joga mais um passo para trás.
+> Ataque Capitã (Avançar e Atacar, 1 hex): NH 16 (tronco, sorteado: 3d [4, 3, 2] = 9; sem redutor de local) = *16*
+> 3d [2, 3, 4] = *9* → sucesso por 7
+> Defesa de Pumba'h: esquiva 8 +1 Reflexos em Combate +1 DP -4 atordoado = *6*
+> 3d [4, 4, 4] = *12* → falhou por 6
+> Dano: 2D+3: [4, 3] = 7 + 3 = *10*
+> Projeção: 10 antes da RD → *1 hex para trás*
+> RD 3 → 7 passam
+> Corte: ×1,5 depois da armadura → *10*
+> Perdeu mais de HT/2: teste de HT 12 para não cair, 3d [6, 4, 2] = *12* → de pé; *ATORDOADO*
+> Projetado 1 hex: teste de DX 15, 3d [1, 1, 3] = *5* → de pé
+> *Pumba'h perde 10 pontos de vida* (fica a -14: cruzou a barreira de -12).
+> HT 12 contra a morte: 3d [6, 6, 3] = *15* → *FALHOU por 3*
+
+O javali dá mais um passo e os joelhos cedem. Cai de lado nas lajes, o peito arfando uma última vez, e não se levanta.
+
+O soldado atordoado tenta se endireitar e não consegue.
+> HT Guarda 2 (recuperar do atordoamento): NH 12
+> 3d [2, 6, 6] = *14* → falhou: segue *atordoado*
+
+O soldado caído no chão perde a luta contra o sono e apaga, o braço solto sobre a espada.
+> HT Guarda caído (não desmaiar, PV -2): NH 12
+> 3d [5, 5, 4] = *14* → falhou: *inconsciente*
+
+No estrado, o Barão não sai do lugar. Sae'Varyn avança pelo capim e o morto de pele cinzenta o segue de perto.
+
+O que vocês fazem?
+
+### Narração 47 — 22/10/2026 19:59
+
+_Turno 32: Gorbag e a Capitã se defendem; Krag aponta na Capitã; guarda 2 se recupera_
+
+*TURNO 32 — O OGRO E A CAPITÃ*
+
+Ao assobio de Krag, Farejo dispara latindo pelo salão atrás do Barão. O dono manda e ele corre, mas o estrado ainda está longe: o cão só chega perto, sem morder.
+
+Gorbag dá um passo à frente e desce o cutelo da casa no tronco da Capitã. Ela ergue o montante de través e o aço range, o golpe morre na guarda.
+> Ataque Gorbag (Avançar e Atacar, 1 hex): Machado de Duas Mãos NH 18 = *18*
+> 3d [4, 4, 6] = *14* → sucesso por 4
+> Defesa Capitã: aparar 9 +4 DP armadura +3 DP escudo = *16*
+> 3d [1, 6, 6] = *13* → defendeu por 3
+> *A Capitã se defendeu.* Sem dano.
+> _Preparação Rápida (ST 20 ≥ 13+5): o cutelo segue pronto._
+
+Krag saca outra flecha num gesto só, encaixa e firma o arco, o olho na cabeça descoberta da Capitã.
+> Sacar Rápido (Flecha) Krag: NH 14 +1 Reflexos em Combate = *15*
+> 3d [1, 5, 6] = *12* → sucesso por 3
+> *Flecha encaixada de graça.* Ele só mira, sem atirar.
+
+Urzog segue pelo corredor, o machado ainda solto, rumo ao salão.
+
+A Capitã não se afasta. Responde na hora, o montante em arco para o flanco do ogro. Ele recolhe o cutelo na linha da lâmina dela e a pancada morre contra o ferro.
+> Ataque Capitã (Avançar e Atacar): NH 16 (tronco, sorteado: 3d [1, 5, 4] = 10; sem redutor de local) = *16*
+> 3d [6, 3, 4] = *13* → sucesso por 3
+> Defesa de Gorbag: aparar 9 +1 Reflexos em Combate = *10*
+> 3d [1, 5, 4] = *10* → defendeu por 0
+> *Gorbag se defendeu.* Sem dano.
+
+O soldado de pé ergue a cabeça, sacode o sangue dos olhos e dá uns passos tortos contornando a Capitã, a espada em riste, na direção do ogro.
+> HT Guarda 2 (recuperar do atordoamento): NH 12
+> 3d [3, 6, 1] = *10* → passou: *recuperado*
+
+O Barão se afasta pelo estrado sem pressa. Sae'Varyn atravessa o capim e o morto de pele cinzenta se adianta com ele.
+
+O que vocês fazem?
+
+### Narração 48 — 22/10/2026 20:05
+
+_Urzog vê o javali morto e resiste à fúria (Vontade 7 contra 12)_
+
+*URZOG E O JAVALI CAÍDO*
+
+Do fim do corredor, Urzog vê o salão e, no meio das lajes, o corpo do javali de lado, as patas moles, o sangue escorrendo da cabeça aberta. Um peso estranho lhe sobe pela garganta. O punho aperta o cabo do machado até os nós ficarem brancos, e o sangue lhe bate nas têmporas como um tambor.
+
+Ele respira fundo, engole o rugido e segura a fúria. Dá mais um passo, o olhar duro, e a raiva fica guardada para quando for hora de usá-la.
+> Vontade Urzog (Fúria: viu o companheiro morto): IQ 8 + Força de Vontade +4 = *12*
+> 3d [2, 4, 1] = *7* → sucesso por 5
+> *Urzog mantém a cabeça fria.*
+
+### Narração 49 — 22/10/2026 20:12
+
+_Turno 33: Farejo derruba o Barão; a Capitã derruba Gorbag (PV -3); Krag mira a Capitã_
+
+*TURNO 33 — O CÃO E O BARÃO*
+
+Farejo salta o último trecho do estrado e, por trás do velho, fecha os dentes na perna dele. O Barão solta um grito seco, perde o apoio e cai de lado nas tábuas, o cão ainda pendurado na panturrilha.
+> Ataque Farejo (Avançar e Atacar, 1 hex): NH 12, -2 perna = *10*
+> 3d [5, 1, 4] = *10* → sucesso por 0
+> Defesa do Barão: nenhuma (golpe pelas costas)
+> Dano: 1D-1: [3] - 1 = *2*
+> RD 0 → 2 passam
+> Corte: ×1,5 → *3*
+> *O Barão perde 3 pontos de vida.*
+> Teste de DX do Barão para não cair (decisão do Mestre): DX 9
+> 3d [1, 6, 6] = *13* → falhou: *CAIU*
+
+Gorbag ergue o cutelo e desce na perna da Capitã. Ela abaixa o escudo, apara o aço contra a caneleira e o golpe escorrega.
+> Ataque Gorbag: Machado de Duas Mãos NH 18, -2 perna = *16*
+> 3d [6, 2, 6] = *14* → sucesso por 2
+> Defesa Capitã: aparar 9 +4 DP caneleira +3 DP escudo = *16*
+> 3d [5, 4, 4] = *13* → defendeu por 3
+> *A Capitã se defendeu.* Sem dano.
+> _Preparação Rápida (ST 20 ≥ 13+5): o cutelo segue pronto._
+
+Krag mantém o arco firme, a flecha na corda, o olho na cabeça descoberta da Capitã. Segura a respiração.
+
+Urzog entra no salão pelo corredor, o machado ainda solto.
+
+A Capitã aproveita o descuido e crava o montante no flanco do ogro. Ele ergue o cutelo tarde demais, e o golpe o apanha em cheio no peito. O ogro cambaleia, perde o chão e é jogado para trás, caindo de costas nas lajes.
+> Ataque Capitã: NH 16 (tronco, sorteado: 3d [6, 3, 2] = 11; sem redutor de local) = *16*
+> 3d [4, 5, 6] = *15* → sucesso por 1
+> Defesa de Gorbag: aparar 9 +1 Reflexos em Combate = *10*
+> 3d [5, 5, 4] = *14* → falhou por 4
+> Dano: 2D+3: [5, 4] = 9 + 3 = *12*
+> Projeção: 12 antes da RD → *1 hex para trás*
+> RD 0 → 12 passam
+> Corte: ×1,5 → *18*
+> Perdeu mais de HT/2: teste de HT 15 para não cair, 3d [6, 5, 6] = *17* → *CAIU*; *ATORDOADO* (-4 nas defesas)
+> *Gorbag perde 18 pontos de vida* (fica a -3).
+
+O soldado a um passo vê o ogro caído e avança, descendo o montante nas pernas dele. O couro das calças segura o golpe.
+> Ataque Guarda 2 (Avançar e Atacar): NH 14, perna distante (sorteada: 3d [2, 4, 6] = 12; sem redutor) = *14*
+> 3d [2, 2, 1] = *5* → sucesso por 9
+> Defesa de Gorbag: aparar 9 +1 Reflexos em Combate +2 DP calças -4 atordoado = *8*
+> 3d [5, 5, 2] = *12* → falhou por 4
+> Dano: 1D: [1] = *1*
+> RD 5 (calças de couro) → 0 passam
+> *A armadura segurou o golpe.*
+
+No fundo do salão, Sae'Varyn avança pelo capim com o morto de pele cinzenta ao lado.
+
+O que vocês fazem?
+
+### Narração 50 — 22/10/2026 20:22
+
+_Turno 33 refeito (errata): Gorbag acerta a cabeça da Capitã, que desmaia a -3 PV; substitui a Narração 49_
+
+*TURNO 33 — O CÃO E O BARÃO*
+
+Farejo salta o último trecho do estrado e, por trás do velho, fecha os dentes na perna dele. O Barão solta um grito seco, perde o apoio e cai de lado nas tábuas, o cão ainda pendurado na panturrilha.
+> Ataque Farejo (Avançar e Atacar, 1 hex): NH 12, -2 perna = *10*
+> 3d [5, 1, 4] = *10* → sucesso por 0
+> Defesa do Barão: nenhuma (golpe pelas costas)
+> Dano: 1D-1: [3] - 1 = *2*
+> RD 0 → 2 passam
+> Corte: ×1,5 → *3*
+> *O Barão perde 3 pontos de vida.*
+> Teste de DX do Barão para não cair (decisão do Mestre): DX 9
+> 3d [1, 6, 6] = *13* → falhou: *CAIU*
+
+Gorbag ergue o cutelo e desce na cabeça descoberta da Capitã. Ela tenta firmar o escudo no alto, mas chega tarde: a lâmina larga a pega no crânio e a empurra um passo para trás. Ela cambaleia, o sangue escorrendo pela testa, e se mantém de pé por teimosia.
+> Ataque Gorbag: Machado de Duas Mãos NH 18, -5 cabeça = *13*
+> 3d [2, 4, 2] = *8* → sucesso por 5
+> Defesa Capitã: aparar 9 +3 DP escudo = *12*
+> 3d [5, 4, 4] = *13* → falhou por 1
+> Dano: 3D+3: [5, 1, 2] = 8 + 3 = *11*
+> Projeção: 11 antes da RD → *1 hex para trás*
+> RD 0 → 11 passam
+> Corte: ×1,5 → *16*
+> Perdeu mais de HT/2: teste de HT 13 para não cair, 3d [1, 6, 3] = *10* → de pé; *ATORDOADA* (-4 nas defesas)
+> Teste de HT 13 contra nocaute, 3d [4, 3, 6] = *13* → aguentou
+> Projetada 1 hex: teste de DX 12 para não cair, 3d [2, 3, 3] = *8* → de pé
+> *A Capitã perde 16 pontos de vida* (fica a -3).
+> _Preparação Rápida (ST 20 ≥ 13+5): o cutelo segue pronto._
+
+Krag mantém o arco firme, a flecha na corda, o olho na cabeça descoberta da Capitã, que agora cambaleia. Segura a respiração.
+
+Urzog entra no salão pelo corredor, o machado ainda solto.
+
+A Capitã tenta se endireitar e o chão foge sob os pés dela. Os olhos reviram, o montante desliza da mão e ela desaba de lado nas lajes, desacordada.
+> HT Capitã (recuperar do atordoamento): NH 13
+> 3d [6, 6, 3] = *15* → falhou: segue *atordoada*
+> HT Capitã (não desmaiar, PV -3): NH 13
+> 3d [4, 4, 6] = *14* → falhou: *inconsciente*
+
+O soldado a um passo vê o ogro de pé e fecha com ele, descendo o montante no braço do escudo.
+> Ataque Guarda 2: NH 14 (braço do escudo, sorteado: 3d [2, 3, 1] = 6; sem redutor) = *14*
+> 3d [3, 1, 6] = *10* → sucesso por 4
+> Defesa de Gorbag: aparar 9 +1 Reflexos em Combate = *10*
+> 3d [5, 6, 2] = *13* → falhou por 3
+> Dano: 1D: [4] = *4*
+> RD 0 → 4 passam
+> *Gorbag perde 4 pontos de vida.*
+
+No fundo do salão, Sae'Varyn avança pelo capim com o morto de pele cinzenta ao lado.
+
+O que vocês fazem?
+
+### Narração 51 — 22/10/2026 20:29
+
+_Turno 34: Gorbag deixa o guarda 2 a -21 PV; Krag flecha a Capitã inconsciente (-11 PV)_
+
+*TURNO 34 — O SOLDADO E A FLECHA*
+
+Farejo trepa no peito do Barão caído e o prende às tábuas com o peso do corpo, os dentes à mostra, rosnando a um palmo do rosto dele. O velho se debate sob o cão e grita pela Capitã e pelos soldados, mas ninguém responde.
+
+Gorbag não espera o soldado se recompor. O cutelo sobe e desce na cabeça dele. O escudo vem tarde, e a lâmina larga o pega acima da sobrancelha e o atira um passo para trás, de pé por pura teimosia.
+> Ataque Gorbag: Machado de Duas Mãos NH 18, -5 cabeça = *13*
+> 3d [1, 4, 6] = *11* → sucesso por 2
+> Defesa de Guarda: bloqueio 7 +3 DP escudo = *10*
+> 3d [5, 4, 5] = *14* → falhou por 4
+> Dano: 3D+3: [6, 2, 4] = 12 + 3 = *15*
+> Projeção: 15 antes da RD → *1 hex para trás*
+> RD 0 → 15 passam
+> Corte: ×1,5 → *22*
+> Perdeu mais de HT/2: teste de HT 12 para não cair, 3d [1, 2, 6] = *9* → de pé; *ATORDOADO* (-4 nas defesas)
+> Teste de HT 12 contra nocaute, 3d [1, 2, 6] = *9* → aguentou
+> Projetado 1 hex: teste de DX 12, 3d [6, 3, 2] = *11* → de pé
+> *O guarda perde 22 pontos de vida* (fica a -21).
+> HT 12 ao cruzar -12 PV: 3d [4, 1, 2] = *7* → passou
+> HT 12 ao cruzar -17 PV: 3d [5, 1, 4] = *10* → passou
+> _Preparação Rápida (ST 20 ≥ 13+5): o cutelo segue pronto._
+
+Krag solta a corda. A flecha cruza o salão sem pressa e entra no crânio da Capitã caída, acima da orelha, onde o cabelo ralo deixa o couro à mostra. O corpo dela sacode uma vez e fica de novo parado.
+> Ataque Krag: Arco NH 17, -3 velocidade/distância (5 m), +3 Precisão da arma, +1 por 1 turno extra apontando, -5 cabeça = *13*
+> 3d [2, 2, 1] = *5* → sucesso por 8
+> Defesa da Capitã: nenhuma (inconsciente)
+> Dano: 1D+1: [3] + 1 = *4*
+> RD 0 → 4 passam
+> Perfuração: ×2 → *8*
+> *A Capitã perde 8 pontos de vida* (fica a -11).
+
+Urzog cruza o último trecho do salão e para ao lado da Capitã caída, o machado ainda solto na mão.
+
+O soldado atordoado oscila, o sangue lhe escorrendo pelo rosto, e não consegue erguer a espada.
+> HT Guarda 2 (recuperar do atordoamento): NH 12
+> 3d [6, 3, 6] = *15* → falhou: segue *atordoado*
+> HT Guarda 2 (não desmaiar, PV -21): NH 12
+> 3d [1, 2, 4] = *7* → passou por 5
+
+Sae'Varyn escuta o ruído de aço no salão adiante, e o morto de pele cinzenta espera junto dele.
+
+O que vocês fazem?
+
+### Narração 52 — 22/10/2026 21:18
+
+_Turno 35: Gorbag mata o guarda 2 com um golpe no pescoço; Krag e Urzog se preparam_
+
+*TURNO 35 — O PESCOÇO DO SOLDADO*
+
+Farejo não cede um palmo. O cão segue por cima do peito do Barão, as patas cravadas no gibão, rosnando cada vez que o velho tenta erguer a cabeça.
+
+Gorbag dá um passo à frente, coloca-se diante do soldado atordoado e desce o cutelo de lado, na altura do colarinho. O escudo nem sobe: a lâmina entra no pescoço, o homem é atirado um passo para trás e despenca de costas nas lajes, a boca aberta sem fazer som.
+> Ataque Gorbag (Avançar e Atacar, 1 hex): Machado de Duas Mãos NH 18, -5 pescoço = *13*
+> 3d [1, 1, 4] = *6* → sucesso por 7
+> Defesa de Guarda: bloqueio 7 +3 DP escudo -4 atordoado = *6*
+> 3d [2, 1, 4] = *7* → falhou por 1
+> Dano: 3D+3: [1, 3, 4] = 8 + 3 = *11*
+> Projeção: 11 antes da RD → *1 hex para trás*
+> RD 0 → 11 passam
+> Corte no pescoço: ×2 → *22*
+> Perdeu mais de HT/2: teste de HT 12 para não cair, 3d [6, 1, 1] = *8* → de pé; *ATORDOADO*
+> Projetado 1 hex: teste de DX 12, 3d [6, 3, 6] = *15* → *CAIU*
+> *O guarda perde 22 pontos de vida* (fica a -43).
+> HT 12 ao cruzar -22 PV: 3d [5, 4, 5] = *14* → *FALHOU por 2*: *morre*
+> _Preparação Rápida (ST 20 ≥ 13+5): o cutelo segue pronto._
+
+Krag baixa o arco, leva a mão à aljava e puxa outra flecha. Ajeita-se na posição para encaixá-la, mas o gesto o faz perder terreno e ele para um passo atrás do ponto onde queria chegar.
+
+Urzog dá um passo para junto da Capitã caída e firma o machado nas duas mãos, o cabo no lugar, pronto para o golpe.
+
+No estrado, o Barão não consegue se levantar: o cão mantém o peso no peito dele. Sae'Varyn atravessa o capim, e o morto de pele cinzenta o acompanha de perto.
+
+O que vocês fazem?
+
+### Narração 53 — 22/10/2026 21:23
+
+_Testes de Vontade (Sanguinolência/Sadismo) com o Barão indefeso: Gorbag falha, Sae'Varyn passa_
+
+*A SEDE DE SANGUE*
+
+Do outro lado do salão, o Barão se debate sob o cão, velho e ferido, sem ter para onde ir. Os olhos de Gorbag descem até ele e não largam mais. Cheira o medo do homem, e o cutelo parece pesar menos na mão. Ele sabe que devia segurar o golpe e segura por um instante. Depois o instante passa, e a vontade de cortar fala mais alto.
+> Vontade Gorbag (Sanguinolência e Sadismo): NH 9
+> 3d [2, 2, 6] = *10* → *FALHOU por 1*
+> *Gorbag quer o Barão morto.*
+
+Sae'Varyn também sente o cheiro do sangue no salão e conhece bem o prazer de ver um homem indefeso. Mas segura o desejo, frio como o gelo dos olhos, e deixa a ideia passar.
+> Vontade Sae'Varyn (Sadismo): NH 15
+> 3d [6, 4, 3] = *13* → sucesso por 2
+> *Sae'Varyn mantém o controle.*
+
+### Narração 54 — 22/10/2026 21:27
+
+_Gorbag intimida Urzog para não matar o Barão ainda (disputa Intimidação x Vontade)_
+
+*O OGRO E O ORC*
+
+Urzog ergue o machado na direção do estrado, a boca já aberta num sorriso de dentes de orc, pronto para acabar com o velho. Gorbag atravessa o salão em três passadas e para diante dele, a sombra do ogro cobrindo-o por inteiro. O cutelo pinga na laje, e o avental de florzinhas está duro de sangue. Ele baixa o rosto até o do orc e o encara em silêncio, o tipo de olhar que um açougueiro dá ao animal que já escolheu.
+
+— Ainda não — rosna Gorbag. — O Barão vale mais vivo.
+
+Urzog sustenta o olhar por um segundo, com o orgulho de quem não costuma recuar. Depois sente o peso daquela presença e baixa o machado, mas não larga a presa de vista.
+> Intimidação Gorbag: NH 11, +4 altura (2,45 m contra 1,78 m, +1 por 15 cm), +2 sede de sangue e cutelo pingando = *17*
+> 3d [2, 5, 3] = *10* → sucesso por 7
+> Vontade Urzog (IQ 8 + Força de Vontade +4): NH 12
+> 3d [2, 3, 4] = *9* → sucesso por 3
+> *Gorbag vence a disputa*: Urzog não mata o Barão por ora.
+
+### Narração 55 — 22/10/2026 21:29
+
+_Gorbag mata o Barão Nabbick (decisão do Mestre)_
+
+*A MORTE DO BARÃO*
+
+Gorbag desvia de Urzog sem pressa e segue sozinho pelo salão, o cutelo arrastando a ponta nas lajes, o ruído de metal contra pedra anunciando a chegada dele. Sobe os degraus do estrado. O Farejo, que prende o velho no chão, recua um passo ao ver o ogro, sem soltar o rosnado.
+
+O Barão ergue o rosto queimado de sol, a perna ensanguentada, e tenta dizer alguma coisa, um nome, um preço, uma ordem. Gorbag não escuta. Planta um pé de cada lado do velho, ergue o cutelo com as duas mãos e o deixa cair uma vez só.
+
+O barulho é o de um machado num tronco. O castelo de Ferrier perde o senhor.
+
+— Gorbag disse que valia mais vivo — resmunga o ogro, limpando a lâmina no avental de florzinhas. — Valia. Mas agora vale mais assim.
+
+### Narração 56 — 22/10/2026 22:54
+
+_Testes de Visão -6 e de Aptidão Mágica para perceber uma armadilha mágica: ninguém percebe_
+
+*OLHOS ABERTOS*
+
+Gorbag varre o salão com os olhos pequenos de açougueiro, mas está acostumado a ver carne, não o que se esconde nas pedras. Nada chama a atenção dele. Para o que está oculto assim, a vista dele não alcança.
+> Visão Gorbag: NH 9, -6 armadilha mágica difícil de ver = *3*
+> NH efetivo 3 ou menos: o livro não permite a jogada. *Não percebe nada.*
+
+Krag olha as lajes, as juntas do piso, o que um batedor veria. As sombras do salão não lhe contam nada fora do lugar.
+> Visão Krag: NH 12, -6 armadilha mágica difícil de ver = *6*
+> 3d [3, 3, 5] = *11* → *falhou por 5*
+
+Sae'Varyn passa os olhos frios pelo chão e quase repara em alguma coisa, um brilho que some quando ele tenta fixá-lo. Quase. O olhar de gelo desliza e segue adiante.
+> Visão Sae'Varyn: NH 15, -6 armadilha mágica difícil de ver = *9*
+> 3d [3, 2, 5] = *10* → *falhou por 1*
+
+Ele ainda deixa a atenção correr pelo ar, em busca do que só um mago sente: a oscilação sutil do mana, o peso da magia pelos cantos. O salão é grande e carregado, e a sensação se dilui antes de virar certeza.
+> Aptidão Mágica 3 (perceber mana e magia) Sae'Varyn: NH 13
+> 3d [5, 5, 6] = *16* → *falhou por 3*
+
+Urzog caminha de olho no inimigo e na saída, o instinto de brigão atento à próxima pancada, não ao chão. Não vê nada.
+> Visão Urzog: NH 8, -6 armadilha mágica difícil de ver = *2*
+> NH efetivo 3 ou menos: o livro não permite a jogada. *Não percebe nada.*
+
+Ninguém percebe nada de estranho no salão. Se há algo ali, continua escondido.
+
+### Narração 57 — 22/10/2026 22:55
+
+_Testes de Visão -6 e de Aptidão Mágica (versão sem o motivo): ninguém percebe nada; substitui a Narração 56_
+
+*OLHOS ABERTOS*
+
+Gorbag varre o salão com os olhos pequenos de açougueiro, mais acostumado a ver carne que detalhe. Nada chama a atenção dele.
+> Visão Gorbag: NH 9, -6 dificuldade = *3*
+> NH efetivo 3 ou menos: o livro não permite a jogada. *Não percebe nada.*
+
+Krag olha as lajes, as juntas do piso, o que um batedor veria. As sombras do salão não lhe contam nada fora do lugar.
+> Visão Krag: NH 12, -6 dificuldade = *6*
+> 3d [3, 3, 5] = *11* → *falhou por 5*
+
+Sae'Varyn passa os olhos frios pelo chão, devagar, sem pressa. O olhar de gelo desliza e segue adiante.
+> Visão Sae'Varyn: NH 15, -6 dificuldade = *9*
+> 3d [3, 2, 5] = *10* → *falhou por 1*
+
+Ele ainda deixa a atenção correr pelo ar, atento ao que só quem tem o dom sente. A sensação se dilui antes de virar certeza.
+> Aptidão Mágica 3 Sae'Varyn: NH 13
+> 3d [5, 5, 6] = *16* → *falhou por 3*
+
+Urzog caminha de olho no inimigo e na saída, o instinto de brigão atento à próxima pancada. Não vê nada.
+> Visão Urzog: NH 8, -6 dificuldade = *2*
+> NH efetivo 3 ou menos: o livro não permite a jogada. *Não percebe nada.*
+
+Ninguém percebe nada de estranho.
+
+### Narração 58 — 22/10/2026 22:58
+
+_Testes de Armadilhas (-6) e de Aptidão Mágica: ninguém percebe nada; substitui a Narração 57_
+
+*OLHOS ABERTOS*
+
+Gorbag varre o salão com os olhos pequenos de açougueiro, mais acostumado a ver carne que detalhe. Nada chama a atenção dele.
+> Teste especial Gorbag: NH 9 (pré-definido), -6 dificuldade = *3*
+> NH efetivo 3 ou menos: o livro não permite a jogada. *Não percebe nada.*
+
+Krag olha as lajes, as juntas do piso, o que um batedor veria. As sombras do salão não lhe contam nada fora do lugar.
+> Teste especial Krag: NH 9 (pré-definido), -6 dificuldade = *3*
+> NH efetivo 3 ou menos: o livro não permite a jogada. *Não percebe nada.*
+
+Sae'Varyn passa os olhos frios pelo chão, devagar, sem pressa. O olhar de gelo desliza e segue adiante.
+> Teste especial Sae'Varyn: NH 10 (pré-definido), -6 dificuldade = *4*
+> 3d [5, 4, 1] = *10* → *falhou por 6*
+
+Ele ainda deixa a atenção correr pelo ar, atento ao que só quem tem o dom sente. A sensação se dilui antes de virar certeza.
+> Aptidão Mágica 3 Sae'Varyn: NH 13
+> 3d [5, 5, 6] = *16* → *falhou por 3*
+
+Urzog caminha de olho no inimigo e na saída, o instinto de brigão atento à próxima pancada. Não vê nada.
+> Teste especial Urzog: NH 6 (pré-definido), -6 dificuldade = *0*
+> NH efetivo 3 ou menos: o livro não permite a jogada. *Não percebe nada.*
+
+Ninguém percebe nada de estranho.
+
+### Narração 59 — 22/10/2026 23:00
+
+_Testes especiais sem redutor: só Sae'Varyn passa (por 0) e sente algo errado no piso; substitui a Narração 58_
+
+*OLHOS ABERTOS*
+
+Gorbag varre o salão com os olhos pequenos de açougueiro, mais acostumado a ver carne que detalhe. Nada chama a atenção dele.
+> Teste especial Gorbag: NH 9 (pré-definido)
+> 3d [3, 2, 5] = *10* → *falhou por 1*
+
+Krag olha as lajes, as juntas do piso, o que um batedor veria. As sombras do salão não lhe contam nada fora do lugar.
+> Teste especial Krag: NH 9 (pré-definido)
+> 3d [5, 5, 4] = *14* → *falhou por 5*
+
+Sae'Varyn passa os olhos frios pelo chão, devagar, sem pressa. Quase desliza adiante, mas algo o faz parar: uma junta, um detalhe, uma sensação de que o piso ali não está como deveria estar. Ele não sabe dizer o quê.
+> Teste especial Sae'Varyn: NH 10 (pré-definido)
+> 3d [5, 4, 1] = *10* → *sucesso por 0*
+
+Ele ainda deixa a atenção correr pelo ar, atento ao que só quem tem o dom sente. A sensação se dilui antes de virar certeza.
+> Aptidão Mágica 3 Sae'Varyn: NH 13
+> 3d [5, 5, 6] = *16* → *falhou por 3*
+
+Urzog caminha de olho no inimigo e na saída, o instinto de brigão atento à próxima pancada. Não vê nada.
+> Teste especial Urzog: NH 6 (pré-definido)
+> 3d [3, 5, 3] = *11* → *falhou por 5*
+
+### Narração 60 — 22/10/2026 23:47
+
+_Turno 38: a armadilha dispara e o corredor fica numa escuridão não natural (-9 sem Visão Noturna); Gorbag vê as armaduras se moverem_
+
+*TURNO 38 — A ESCURIDÃO NO CORREDOR*
+
+Urzog e Gorbag seguem na frente, o orc na dianteira e o ogro um passo atrás dele, as botas batendo no piso. Krag acompanha o grupo, de arco em punho. Sae'Varyn fica para trás com o morto de pele cinzenta, observando os outros se afastarem.
+
+Então a armadilha dispara. Não há estalo nem faísca: de uma vez só, a luz do corredor inteiro se apaga. Não é a escuridão comum de um lugar fechado. É pesada, parada, de um negrume estranho que parece engolir o contorno das paredes e até o brilho dos próprios olhos. Em instantes, os que estão no corredor não enxergam a ponta do próprio braço.
+
+Gorbag pisca devagar. Os olhos de ogro, acostumados ao escuro, ainda distinguem formas na treva: os ombros do orc adiante, a linha da parede, o vulto do cão. E, junto às paredes do corredor, as armaduras começam a se mover. Primeiro um ranger de metal, depois os elmos virando, as manoplas se erguendo, os passos pesados que ninguém mais vê. Para os outros, o corredor desapareceu.
+> Escuridão: -9 em tudo que depende de visão (Krag, Sae'Varyn, Urzog e o Zumbi)
+> Gorbag e Farejo, com Visão Noturna: sem o redutor
+
+O que vocês fazem?
+
+### Narração 61 — 23/10/2026 08:34
+
+_Testes de Audição na escuridão: Krag e Sae'Varyn ouvem os passos metálicos, Urzog não_
+
+*OUVIDOS NA ESCURIDÃO*
+
+Sem enxergar nada, os que não têm olhos para o escuro se apoiam no que ainda funciona. A treva não abafa o som.
+
+Krag prende a respiração e escuta. Metal contra pedra, passos pesados e arrastados, cada pisada acompanhada de um ranger de juntas. O barulho vem de perto, muito perto do grupo, do lado do norte, e outro, mais fraco, soa ao longe.
+> Audição Krag: NH 12
+> 3d [3, 2, 3] = *8* → sucesso por 4
+
+Sae'Varyn, de ouvido fino, separa o ruído com facilidade: são dois conjuntos de passos. Um se aproxima rente ao grupo, ao norte, a poucos hexágonos. O outro vem de longe, de trás, a oeste do corredor, ainda distante, mas caminhando na mesma direção.
+> Audição Sae'Varyn: NH 15
+> 3d [2, 4, 3] = *9* → sucesso por 6
+
+Urzog vira a cabeça de um lado para o outro e só escuta o próprio sangue nos ouvidos e o eco do corredor, que vem de todos os lados ao mesmo tempo. Não consegue dizer de onde vem o barulho.
+> Audição Urzog: NH 8
+> 3d [6, 3, 4] = *13* → falhou por 5
+
+O que vocês fazem?
+
+### Narração 62 — 23/10/2026 08:52
+
+_Gorbag tenta medir o corredor com Matemática (NH 3, falha automática) e dá uma resposta absurda_
+
+*A MATEMÁTICA DO AÇOUGUEIRO*
+
+Gorbag para no meio do corredor e franze a testa enorme. Estende o cutelo à frente, depois o braço, depois o outro braço, e começa a contar em voz baixa, movendo os lábios como quem pesa uma peça de carne.
+
+— Gorbag mede com cutelos — resmunga. — Um cutelo, dois cutelos, um cutelo e meio... e um osso de palito.
+
+Ele pensa mais um pouco, ergue o queixo e anuncia, orgulhoso:
+
+— O corredor tem... *sete cutelos e uma costela de porco*. Mais ou menos. Se for porco magro.
+> Matemática Gorbag (sem treino): NH 3 (pré-definido)
+> NH efetivo 3 ou menos: o livro não permite a jogada. *Falha: dá uma resposta sem pé nem cabeça.*
+
+### Narração 63 — 23/10/2026 10:39
+
+_Turno 39: Gorbag avança e vê a armadura; Krag e Urzog em Defesa Total; as armaduras começam a preparar as alabardas_
+
+*TURNO 39 — O RANGER NO ESCURO*
+
+Gorbag avança pelo corredor às cegas dos outros, os olhos de ogro abrindo caminho na treva. Cinco passos largos o levam para a frente do grupo, e ali, no fundo da escuridão, ele distingue a armadura que vem andando a seu encontro, o elmo virado na direção dele, a alabarda arrastando a ponta nas lajes sem estar pronta para o golpe.
+
+Krag e Urzog ficam de guarda no escuro, de olhos inúteis e ouvidos tensos. Um firma o arco e se encolhe atrás da própria sombra, o outro planta os pés e prende o machado com as duas mãos, esperando o primeiro som de metal vindo de qualquer lado.
+
+Sae'Varyn recua o passo, avança outro, e manda o morto que chama de Paravotto ficar junto dele, guardando a retaguarda. O morto obedece em silêncio, os passos molhados abafados pelo eco do corredor.
+
+Perto do grupo, a segunda armadura para. Ela ajeita a alabarda nas manoplas, a haste girando devagar, e as duas começam a prepará-las, o cabo ranger nas mãos de ferro, a lâmina ainda baixa. Nenhuma ataca neste turno.
+
+O que vocês fazem?
+
+### Narração 64 — 23/10/2026 10:41
+
+_Audição no escuro (T40): só Sae'Varyn acha a direção dos inimigos_
+
+*O SOM DA ESCURIDÃO*
+
+No negrume do corredor, o ouvido é o único olho que resta. Krag força a escuta, mas o eco devolve pedaços de ruído de todos os lados e ele não separa um som do outro. Sente o cão encostado nas costas dele, não à frente, e sem o guia diante do corpo não se arrisca a dar o passo.
+> Audição Krag: NH 12
+> 3d [6, 3, 6] = *15* → *falhou por 3*
+
+Urzog gira a cabeça e só ouve o próprio sangue e o ranger da armadura de couro. Fica onde está, o machado firme, sem saber para onde apontá-lo.
+> Audição Urzog: NH 8
+> 3d [6, 3, 1] = *10* → *falhou por 2*
+
+Sae'Varyn fecha os olhos que de nada servem e escuta. O primeiro conjunto de passos metálicos está a poucos passos de distância, ao noroeste, rente à parede. O outro, mais arrastado, vem de longe, a oeste. Sabe agora de onde vêm os dois, e o suficiente para dar um passo com segurança.
+> Audição Sae'Varyn: NH 15
+> 3d [3, 4, 4] = *11* → *sucesso por 4*: *sabe a direção dos inimigos e pode mover 1 hexágono*
+
+### Narração 65 — 23/10/2026 12:26
+
+_Turno 40: o Encontrão de Gorbag falha, as armaduras terminam de preparar as alabardas, Krag e Varyn ouvem a direção_
+
+*TURNO 40 — O ENCONTRÃO NO VAZIO*
+
+Gorbag não espera. Três passos largos o põem diante da armadura, o ombro baixo e o peso todo de ogro lançado de frente, pronto para derrubá-la. Mas a armadura se mexe antes que ele chegue. Um passo curto de lado, a alabarda girando no alto, e o ogro passa varrendo o ar, sem encontrar nada, e segue ainda dois passos pelo corredor até perder o impulso, as costas voltadas para a coisa.
+> Encontrão Gorbag (parte do Deslocamento): Disputa Rápida de DX
+> Gorbag DX 14: 3d [2, 6, 5] = *13* → sucesso por 1
+> Armadura DX 12: 3d [2, 6, 2] = *10* → sucesso por 2
+> *A armadura desvia.* Gorbag passa direto e se desloca mais 2 hexágonos.
+
+Krag e Urzog seguem de guarda no escuro, os corpos firmes, as armas de prontidão. Krag aguça o ouvido e separa o ruído: um som metálico bem junto dele, à direita e atrás, e o ranger de uma haste sendo erguida acima da cabeça de alguém. Sabe de onde vem. Urzog só ouve o próprio sangue.
+> Audição Krag: NH 12
+> 3d [5, 1, 1] = *7* → sucesso por 5
+> Audição Urzog: NH 8
+> 3d [3, 6, 4] = *13* → falhou por 5
+
+Sae'Varyn, a mão na parede fria, escuta o mesmo ranger e o mesmo passo pesado, e dá um passo curto na direção dele, o morto colado ao ombro, os dois guiados mais pelo som que pelo tato.
+> Audição Sae'Varyn: NH 15
+> 3d [4, 4, 6] = *14* → sucesso por 1
+
+Em silêncio, as duas armaduras terminam de armar as alabardas. As hastes sobem acima dos elmos e a lâmina fica pairando no alto, pronta para cair.
+
+O que vocês fazem?
+
+### Narração 66 — 23/10/2026 12:38
+
+_Descrição do térreo da torre: sala redonda sem janelas, fonte, buraco no teto, escada de mão e cela com um meio-elfo_
+
+*O TÉRREO DA TORRE*
+
+A sala é redonda, de pedra nua, sem janela alguma, e o ar tem o frio parado de lugar fechado há muito tempo. Não há móvel, tapete nem tocha à vista. O chão é de lajes gastas no centro, onde tantos pés já passaram, e o eco devolve cada passo um instante depois.
+
+No meio da sala fica uma fonte baixa, um tanque de pedra redondo cheio de água escura e parada, o fio d'água que a alimenta pingando em intervalos longos. Acima dela, no teto, abre-se um buraco redondo, do tamanho do tanque, e dentro dele só se vê a treva do andar de cima. Junto à beira da fonte, uma escada de mão de madeira escura sobe até o buraco e se perde na escuridão.
+
+No canto superior esquerdo, encostada à parede curva, há uma cela apertada de grades de ferro, estreita demais até para um homem se deitar. Dentro dela, encolhido, está um sujeito magro de orelhas levemente pontudas, as roupas rasgadas, os cabelos sujos caindo sobre o rosto. Ele levanta a cabeça devagar quando percebe vocês e os observa por entre as grades, sem dizer nada.
+
+O que vocês fazem?
+
+### Narração 67 — 23/10/2026 12:39
+
+_Térreo da torre corrigido: a sala é quadrada; substitui a Narração 66_
+
+*O TÉRREO DA TORRE*
+
+A sala é quadrada, de pedra nua, sem janela alguma, e o ar tem o frio parado de lugar fechado há muito tempo. Não há móvel, tapete nem tocha à vista. O chão é de lajes gastas no centro, onde tantos pés já passaram, e o eco devolve cada passo um instante depois.
+
+No meio da sala fica uma fonte baixa, um tanque de pedra redondo cheio de água escura e parada, o fio d'água que a alimenta pingando em intervalos longos. Acima dela, no teto, abre-se um buraco redondo, do tamanho do tanque, e dentro dele só se vê a treva do andar de cima. Junto à beira da fonte, uma escada de mão de madeira escura sobe até o buraco e se perde na escuridão.
+
+No canto superior esquerdo, no ângulo de duas paredes retas, há uma cela apertada de grades de ferro, estreita demais até para um homem se deitar. Dentro dela, encolhido, está um sujeito magro de orelhas levemente pontudas, as roupas rasgadas, os cabelos sujos caindo sobre o rosto. Ele levanta a cabeça devagar quando percebe vocês e os observa por entre as grades, sem dizer nada.
+
+O que vocês fazem?
+
+### Narração 68 — 23/10/2026 12:50
+
+_Turno 41: Gorbag chega à sala da fonte; a Armadura 2 destrói o Zumbi no escuro; testes de Audição falham_
+
+*TURNO 41 — A SALA DA FONTE*
+
+Gorbag segue o corredor até o fim e entra em uma sala quadrada de pedra nua, sem janela alguma, onde o ar tem o frio parado de lugar fechado há muito tempo. Os olhos de ogro enxergam na treva o que os outros não alcançam. No meio da sala fica uma fonte baixa, um tanque de pedra redondo cheio de água escura e parada, o fio que a alimenta pingando em intervalos longos. Acima dela, no teto, abre-se um buraco redondo, e junto à beira do tanque uma escada de mão de madeira escura sobe até ele e se perde no andar de cima.
+
+No canto superior esquerdo, no ângulo de duas paredes, há uma cela apertada de grades de ferro, estreita demais até para um homem se deitar. Dentro dela está um sujeito magro de orelhas levemente pontudas, as roupas rasgadas, os cabelos sujos sobre o rosto. Ele ergue a cabeça devagar ao ouvir os passos pesados do ogro e o encara por entre as grades, sem dizer nada.
+
+Atrás, no corredor, Krag segue os latidos baixos do Farejo, que vai à frente guiando o caminho, e Urzog e Sae'Varyn ficam firmes onde estão, em guarda, com o morto de pele cinzenta junto a Sae'Varyn. Os três apuram o ouvido na treva, mas o eco do corredor mistura os passos pesados e os ranger de metal e nenhum deles separa de onde vêm.
+> Audição Krag: NH 12
+> 3d [3, 6, 6] = *15* → falhou por 3
+> Audição Urzog: NH 8
+> 3d [2, 6, 3] = *11* → falhou por 3
+> Audição Sae'Varyn: NH 15
+> 3d [4, 6, 6] = *16* → falhou por 1
+
+A armadura mais distante dá um passo à frente e abate a alabarda sobre o pé do cão. A lâmina bate no vazio e o Farejo salta de lado, ileso.
+> Ataque Armadura Animada (Avançar e Atacar, 1 hex): Armas de Haste NH 7 (pré-definido DX-5) [ERRATA: o NH correto é 12 (= DX)]
+> 3d [4, 1, 6] = *11* → falhou por 4
+> *Errou.* A alabarda fica despreparada: prepara sozinha no próximo turno.
+
+A outra armadura, perto do grupo, enfia a ponta da alabarda na perna do morto de Sae'Varyn. No escuro, o morto não vê a lâmina chegar. Ergue o escudo tarde demais, errando o ângulo, e a segunda tentativa também falha. O aço atravessa a coxa de lado a lado. O corpo seco se desfaz, a mágica que o mantinha em pé se rompe, e o morto desaba em pedaços no chão.
+> Ataque Armadura Animada 2 (ponta): Armas de Haste NH 7 (pré-definido DX-5) [ERRATA: o NH correto é 12 (= DX)]
+> 3d [3, 3, 1] = *7* → sucesso por 0
+> Defesa do Zumbi (Defesa Total, 1ª): bloqueio 7 +3 DP escudo -9 escuridão = *1*
+> 3d [2, 2, 3] = *7* → falhou por 6
+> Defesa do Zumbi (Defesa Total, 2ª): aparar 7 +3 DP escudo -9 escuridão = *1*
+> 3d [3, 3, 6] = *12* → falhou por 11
+> Dano: 1D+4: [4] + 4 = *8*
+> RD 0 → 8 passam
+> Perfuração: ×2 depois da armadura → *16*
+> *O Zumbi perde 16 pontos de vida* (fica a 0): *destruído*.
+
+O que vocês fazem?
+
+### Narração 69 — 23/10/2026 13:18
+
+_Turno 42: Gorbag volta, Krag segue o Farejo, as armaduras preparam as alabardas_
+
+*TURNO 42 — AS HASTES NO ALTO*
+
+Gorbag dá meia-volta na sala da fonte e retorna pelo corredor, quatro passos pesados que o põem de novo perto do grupo, a poucos hexágonos da armadura que o deixou passar.
+
+Krag segue o cão pela treva, o corpo baixo, o arco armado, tateando o escuro um passo atrás do focinho do Farejo, que avança cheirando o caminho. Urzog e Sae'Varyn permanecem onde estão, em guarda, ouvindo o corredor sem poder enxergá-lo.
+
+Perto do grupo, as duas armaduras param de atacar. O ranger de metal volta, lento e deliberado. As alabardas giram nas manoplas, as lâminas sobem acima dos elmos, as hastes se firmam. Começam a armar as armas outra vez, sem atacar neste turno.
+
+O que vocês fazem?
+
+### Narração 70 — 23/10/2026 13:20
+
+_Turno 42 com os testes de Audição de Krag, Urzog e Sae'Varyn; substitui a Narração 69_
+
+*TURNO 42 — AS HASTES NO ALTO*
+
+Gorbag dá meia-volta na sala da fonte e retorna pelo corredor, quatro passos pesados que o põem de novo perto do grupo, a poucos hexágonos da armadura que o deixou passar.
+
+Krag segue o cão pela treva, o corpo baixo, o arco armado, tateando o escuro um passo atrás do focinho do Farejo, que avança cheirando o caminho. Urzog e Sae'Varyn permanecem onde estão, em guarda. Na cegueira, os três se apoiam no ouvido, e a treva não abafa o som: o ranger lento de metal sendo armado.
+
+Krag escuta, com a respiração presa, um ruído de ferro e de haste bem junto dele, dois passos ao sul, e outro mais fraco, longe, a sudeste.
+> Audição Krag: NH 12
+> 3d [3, 5, 4] = *12* → sucesso por 0
+
+Urzog separa o ranger perto, a nordeste, a dois passos, e o outro, distante, a sudoeste. Sabe agora de onde vem cada um.
+> Audição Urzog: NH 8
+> 3d [2, 1, 4] = *7* → sucesso por 1
+
+Sae'Varyn escuta os dois conjuntos: o primeiro a noroeste, rente ao grupo, o segundo a sudoeste, muito longe, ainda parado. Sente também, no tom do metal, o cuidado de quem arma uma lâmina.
+> Audição Sae'Varyn: NH 15
+> 3d [4, 1, 4] = *9* → sucesso por 6
+
+Perto do grupo, as duas armaduras param de atacar. As alabardas giram nas manoplas, as lâminas sobem acima dos elmos, as hastes se firmam. Começam a armar as armas outra vez, sem atacar neste turno.
+
+O que vocês fazem?
+
+### Narração 71 — 23/10/2026 14:19
+
+_T43: Gorbag destrói a Armadura 1 com um Encontrão; Varyn acerta e Urzog erra a Armadura 2, que termina de preparar a alabarda_
+
+*TURNO 43 — O ENCONTRÃO*
+
+Gorbag atravessa a treva em dois passos que fazem as lajes tremer e se joga, ombro à frente, contra a armadura que arma a alabarda no meio da sala. O choque ecoa como um sino rachado. O elmo voa, o corselete se abre e a armadura inteira é lançada para trás, quicando nas lajes, até parar em pedaços longe dali. Dentro dela só havia barro.
+> Encontrão Gorbag: DX 14, 3d [6, 3, 6] = *15* → falhou por 1
+> Armadura: DX 12, -2 (entrada por hex lateral) = *10*, 3d [4, 1, 6] = *11* → falhou por 1
+> Empate: o Encontrão acerta
+> ST Gorbag: 20 +2 (andou mais de 1 hex) = *22*, 3d [3, 3, 1] = *7* → passou por 15
+> ST Armadura: 15, 3d [1, 1, 6] = *8* → passou por 7
+> Gorbag vence por 8: a armadura cai e é projetada *4 hexágonos*
+> Gorbag, teste de ST 22 para não cair: 3d [2, 1, 4] = *7* → ficou em pé
+> *A armadura se desmonta* (não havia ninguém dentro)
+
+Sae'Varyn avança um passo e desce o bastão no tronco da outra armadura, ainda armando a alabarda. O golpe bate seco no aço e escorrega sem deixar marca.
+> Ataque Sae'Varyn (Ataque Total): Bastão NH 11, +4 Ataque Total, -9 escuridão mágica = *6*
+> 3d [1, 4, 1] = *6* → sucesso por 0
+> Defesa da armadura: esquiva 3 +4 DP armadura -9 escuridão mágica = *-2*
+> 3d [4, 2, 5] = *11* → falhou por 13
+> Dano: 1D+2: [3] + 2 = *5*
+> RD 6 → 0 passam
+> *A armadura segurou o golpe.*
+
+Urzog ergue o machado e avança, mas o escuro engole a mira: o fio passa raspando o elmo e arranca faíscas da parede.
+> Ataque Urzog (Ataque Total): Machado/Maça NH 14, +4 Ataque Total, -9 escuridão mágica = *9*
+> 3d [5, 3, 4] = *12* → falha por 3
+> *Errou.* O machado fica despreparado: prepara sozinho no próximo turno.
+
+Krag segue o Farejo pela treva, o arco armado, o corpo baixo. De um canto da sala vem uma voz rouca, de homem que não bebe há dias: "Ei! Aqui! Por aqui! Essa escuridão é mágica! Me ajudem a sair que eu posso ajudar!". Sae'Varyn berra mais alto, por cima do metal: "TEMOS QUE ACHAR A FONTE DA MAGIA! ALGUM OBJETO ENCANTADO OU UM MAGO QUE ESTÁ CONJURANDO ESSES ENCANTOS!"
+
+A armadura que sobrou termina de armar a alabarda: a lâmina sobe, a haste se firma. Não ataca neste turno, mas já está pronta.
+
+O que vocês fazem?
+
+### Narração 72 — 23/10/2026 14:22
+
+_Testes de audição do T44: Varyn sucesso decisivo, Krag e Urzog falham_
+
+*A ESCURIDÃO TEM OUVIDOS*
+
+Na treva, o eco do salão mistura tudo. Krag apura o ouvido, e só o que alcança é um ranger de ferro por toda parte, sem direção nem distância. Urzog também fecha os olhos inúteis e escuta, mas o metal ressoa nas paredes e nada se separa.
+> Audição Krag: NH 12
+> 3d [3, 6, 6] = *15* → falhou por 3
+> Audição Urzog: NH 8
+> 3d [2, 6, 3] = *11* → falhou por 3
+
+Sae'Varyn escuta com precisão fria. Rente a ele, a noroeste, uma armadura firma a haste da alabarda, o metal estalando a cada ajuste, a lâmina já no alto. O outro ruído de ferro, que antes vinha do salão, não volta: só pedaços de metal assentando no chão, sem ninguém para movê-los. De longe, a oeste, uma voz rouca de homem ainda chama, e sob ela a respiração curta do cão que o grupo segue.
+> Audição Sae'Varyn: NH 15
+> 3d [1, 3, 1] = *5* → *SUCESSO DECISIVO* (por 10)
+
+O que vocês fazem?
+
+### Narração 73 — 23/10/2026 14:36
+
+_T44: armadura erra a ponta em Urzog (Defesa Total por errata); Gorbag, Krag e Varyn se movem_
+
+*TURNO 44 — A PONTA NO ESCURO*
+
+Gorbag cruza a sala pelo lado da parede, as passadas largas, os olhos de ogro varrendo a treva, e para a dois passos do orc, bem perto de onde o ferro range. Krag segue o Farejo, que contorna a quina e some na sala ao lado, e o rastreador vai atrás, o arco armado, tateando o escuro.
+
+Sae'Varyn dá um passo de lado e outro para trás, a guarda fechada, e grita: "Orc, ela vai atacar de novo!". De algum canto da sala, a voz rouca do prisioneiro ainda berra: "Me tirem da cela! Eu posso acabar com essa escuridão!"
+
+Urzog não consegue golpear: o machado ainda pesa na mão, e ele usa o turno para firmar a guarda, o escudo à frente, ouvindo o ferro. A armadura ao lado dele vem com a ponta da alabarda, baixa, na direção da perna do orc. A lâmina corta o ar e raspa a laje, a um palmo.
+> Ataque Armadura Animada 2 (ponta): Armas de Haste NH 7 (pré-definido DX-5) = *7* [ERRATA: NH 12 (= DX), falha por 1; vale a Narração 74]
+> Ponto de impacto sorteado: 3d [6, 4, 3] = *13* → Perna
+> 3d [3, 5, 5] = *13* → falha por 6
+> *Errou.* A alabarda fica despreparada: prepara sozinha no próximo turno.
+
+O que vocês fazem?
+
+### Narração 74 — 23/10/2026 14:40
+
+_T44 refeito: ERRATA, NH da armadura em Armas de Haste é 12 (= DX); mesmo erro, falha por 1_
+
+*TURNO 44 — A PONTA NO ESCURO*
+
+Gorbag cruza a sala pelo lado da parede, as passadas largas, os olhos de ogro varrendo a treva, e para a dois passos do orc, bem perto de onde o ferro range. Krag segue o Farejo, que contorna a quina e some na sala ao lado, e o rastreador vai atrás, o arco armado, tateando o escuro.
+
+Sae'Varyn dá um passo de lado e outro para trás, a guarda fechada, e grita: "Orc, ela vai atacar de novo!". De algum canto da sala, a voz rouca do prisioneiro ainda berra: "Me tirem da cela! Eu posso acabar com essa escuridão!"
+
+Urzog não consegue golpear: o machado ainda pesa na mão, e ele usa o turno para firmar a guarda, o escudo à frente, ouvindo o ferro. A armadura ao lado dele vem com a ponta da alabarda, baixa, na direção da perna do orc. A lâmina corta o ar e raspa a laje, a um palmo.
+> Ataque Armadura Animada 2 (ponta): Armas de Haste NH 12 (= DX) = *12*
+> Ponto de impacto sorteado: 3d [6, 4, 3] = *13* → Perna
+> 3d [3, 5, 5] = *13* → falha por 1
+> *Errou.* A alabarda fica despreparada: prepara sozinha no próximo turno.
+
+O que vocês fazem?
+
+### Narração 75 — 23/10/2026 15:13
+
+_T45: Gorbag erra o Encontrão e bate na parede; Urzog destrói a Armadura 2_
+
+*TURNO 45 — O ENCONTRÃO ERRADO*
+
+Gorbag corre pela treva, ombro à frente, mirando a armadura que ainda se ajeita no escuro. No último passo, a armadura dá um meio-giro sobre o calcanhar, o ogro raspa o aço e passa direto, contornando-a pela direita, sem conseguir frear, até bater de cara na parede de pedra com um estrondo que sacode a sala. Ele balança a cabeça, atordoado só de orgulho, e fica em pé.
+> Encontrão Gorbag: DX 14, 3d [5, 5, 3] = *13* → passou por 1
+> Armadura: DX 12, 3d [1, 5, 4] = *10* → passou por 2
+> A armadura vence: evita o Encontrão e Gorbag passa direto
+> Batida na parede (ordem do Mestre): dano 2D-8: [6, 1] = 7 - 8 = *-1* → *0 pontos de vida*
+> ST 20 +2 (correu mais de 1 hex) = *22*, 3d [3, 6, 4] = *13* → passou por 9: ficou em pé
+
+Urzog aproveita a brecha. O machado desce de lado, no escuro, e pega a armadura no braço, onde ela não esperava. O aço grita, a lâmina se enterra na junta, e o golpe a arranca do chão e a lança contra a parede, onde ela se desmonta em pedaços, o barro escorrendo pelas frestas do elmo.
+> Ataque Urzog (Ataque Total): Machado/Maça NH 14, +4 Ataque Total, -9 escuridão mágica = *9*
+> Ponto de impacto sorteado: 3d [3, 1, 4] = *8* → Braço
+> 3d [1, 4, 1] = *6* → sucesso por 3
+> Defesa da armadura: esquiva 3 +4 DP armadura -9 escuridão mágica = *-2*
+> 3d [1, 3, 6] = *10* → falhou por 12
+> Dano: 2D+1: [4, 3] = 7 + 1 = *8*
+> RD 6 → 2 passam
+> Corte: ×1,5 depois que passar da armadura → *3*
+> Projeção: 8 antes da RD → *1 hexágono*; DX 12 para não cair: 3d [6, 6, 5] = *17* → *CAIU*
+> *A armadura se desmonta* (não havia ninguém dentro). Perde 3 pontos de vida.
+
+Sae'Varyn fecha a guarda, o bastão à frente, sem se mexer. Krag entra com o Farejo na sala ao lado, o cão na frente, o arco armado, rumo à voz que chama. Do fundo, o prisioneiro grita: "A fonte próxima é a fonte da magia!"
+
+O que vocês fazem?
+
+### Narração 76 — 23/10/2026 15:46
+
+_Tann'athar conta aos PJs onde está a espada (Câmara do Cofre) e a armadilha de peso_
+
+*A VOZ NA CELA*
+
+Atrás das grades, o prisioneiro se agarra aos ferros: um meio-elfo magro, pele escura de tom acinzentado, orelhas pontudas, o cabelo longo preso, a túnica de mago rasgada nas mangas e escurecida nos braços. Vocês o reconhecem pelo nome antes de ele dizê-lo. É *Tann'athar Goras*, o espião da Seita Lych, filho do mestre *Sethros Tanna'thos* com uma humana que o vendeu ao pai, criado desde menino para mentir nas cortes de Yrth. A seita o mandou a Ferrier semanas atrás, atrás justamente do que vocês vieram buscar. Ninguém mais o viu.
+
+Ele fala baixo e depressa, a voz bonita e rouca de quem gritou demais, e há algo errado no jeito como sorri, como se o sofrimento dos outros o animasse. "Orvin me pegou na vila. Me trouxe pela torre e me pôs aqui. Quis saber quem manda, quem vem, e não ouviu nada. Meu pai vai me buscar. Ele me ama." E continua, sem esperar resposta: "A espada está na *Câmara do Cofre*, perto do topo da torre, numa sala sem janela, logo abaixo do quarto de Orvin. A caixa de ferro negro fica sobre um pedestal de granito, no centro. A porta da sala é de ferro, com fechadura mágica que ranje, e a caixa pesa uns doze quilos, com a espada dentro."
+
+"Cuidado com o pedestal: se a caixa sair dali sem outro peso no lugar, as portas de pedra descem e a sala sela. O ar dura pouco. Ponham no pedestal algo de uns doze quilos no mesmo instante, ou segurem a caixa enquanto outro troca o peso. Orvin dorme leve. A torre toda o avisa. E os andares mudam, ele os troca de tempos em tempos, nem eu sei o que há em cada um." Ele aperta os ferros. "Tirem-me daqui, e eu mostro o caminho."
+
+O que vocês fazem?
+
+### Narração 77 — 23/10/2026 15:47
+
+_Refeita sem a armadilha do pedestal; substitui a Narração 76_
+
+*A VOZ NA CELA*
+
+Atrás das grades, o prisioneiro se agarra aos ferros: um meio-elfo magro, pele escura de tom acinzentado, orelhas pontudas, o cabelo longo preso, a túnica de mago rasgada nas mangas e escurecida nos braços. Vocês o reconhecem pelo nome antes de ele dizê-lo. É *Tann'athar Goras*, o espião da Seita Lych, filho do mestre *Sethros Tanna'thos* com uma humana que o vendeu ao pai, criado desde menino para mentir nas cortes de Yrth. A seita o mandou a Ferrier semanas atrás, atrás justamente do que vocês vieram buscar. Ninguém mais o viu.
+
+Ele fala baixo e depressa, a voz bonita e rouca de quem gritou demais, e há algo errado no jeito como sorri, como se o sofrimento dos outros o animasse. "Orvin me pegou na vila. Me trouxe pela torre e me pôs aqui. Quis saber quem manda, quem vem, e não ouviu nada. Meu pai vai me buscar. Ele me ama." E continua, sem esperar resposta: "A espada está na *Câmara do Cofre*, perto do topo da torre, numa sala sem janela, logo abaixo do quarto de Orvin. A caixa de ferro negro fica no centro dela. A porta da sala é de ferro, com fechadura mágica que ranje, e a caixa pesa uns doze quilos, com a espada dentro."
+
+"Cuidado com Orvin: ele dorme leve. A torre toda o avisa. E os andares mudam, ele os troca de tempos em tempos, nem eu sei o que há em cada um." Ele aperta os ferros. "Tirem-me daqui, e eu mostro o caminho."
+
+O que vocês fazem?
+
+### Narração 78 — 23/10/2026 17:14
+
+_T47: Gorbag quebra o cadeado e o cutelo quebra; Tann'athar oferece guiar o grupo_
+
+*TURNO 47 — O CADEADO*
+
+Gorbag ergue o cutelo colossal com as duas mãos e o abate de cima sobre o cadeado da cela. O ferro grita, o cadeado salta em dois pedaços pelo chão, e a lâmina, de aço ruim, estala ao meio na mão do ogro. Ele fica olhando o cabo, o resto da lâmina tilintando no piso.
+> Ataque ao cadeado: Machado de Duas Mãos/Maça NH 18, objeto parado, sem redutor = *18*
+> 3d [2, 3, 3] = *8* → sucesso por 10
+> Dano: 3D+5: [4, 5, 3] = 12 + 5 = *17*
+> RD 4 (cadeado de ferro) → 13 passam; sem bônus de corte em objeto
+> Cadeado (12 pontos de vida): *QUEBRADO*
+> Arma barata, teste de quebra (1d, 1 a 4 quebra): 1d [2] = *2* → *QUEBROU*
+
+A porta da cela se solta das grades. Tann'athar levanta a cabeça, a voz rouca e baixa: "Eu mostro o caminho, até onde eu sei. E vocês ganham um mago a mais, com habilidade de tirar informação de quem não quer falar."
+
+Krag avisa, olhando para a escuridão: "Temos que tomar cuidado. Os soldados e os convidados devem estar voltando logo." Sae'Varyn encara o meio-elfo e pergunta, seco: "A fonte da magia de trevas é esta fonte? Como podemos anulá-la?" Urzog espera de braços cruzados e rosna: "E agora, chefe?"
+
+O que vocês fazem?
+
+### Narração 79 — 23/10/2026 22:04
+
+_T48: Tann'athar dissipa as trevas na fonte; Urzog entrega o machado a Gorbag_
+
+*TURNO 48 — A LUZ NA FONTE*
+
+Gorbag estende a mão enorme para Urzog: "Me dá sua arma." O orc entrega o machado, resmungando "Tá aí, chefe!" e murmurando um xingamento por entre as presas. Krag segue na direção da torre onde a espada está guardada, e Sae'Varyn avisa, seco: "Prossiga, mestiço… mas não demore, pois temos que pegar a espada logo."
+
+Tann'athar caminha até a fonte e para na beira do tanque, onde a água escura e parada parece vibrar. "Eu quero tentar uma coisa que nunca fiz antes, se vocês me permitem. Aqui a mana é poderosa." Ele estende as mãos para a água e chama uma luz, mas puxa o feitiço além do que ele conhece: uma luz que não clareia, mas rasga.
+> Magia de improviso (Dissipar Escuridão, a partir de Luz): Luz NH 16, -5 magia de improviso = *11*
+> 3d [2, 3, 4] = *9* → sucesso por 2
+> Mana muito alta: sem custo de Fadiga
+
+A água se acende por baixo, azul, e a luz sobe pelo ar em ondas. Onde ela passa, a escuridão se desfaz como fumaça, e os cantos da sala voltam a existir, de pedra nua e sombra comum. Quando o brilho some, o grupo enxerga outra vez.
+
+O que vocês fazem?
+
+### Narração 80 — 23/10/2026 23:58
+
+_T49: banho de mana na fonte: curas, Escudo +5 DP e Bravura no grupo inteiro_
+
+*TURNO 49 — BANHO DE MANA*
+
+O grupo se junta em volta da fonte. Sae'Varyn entra na água escura até os joelhos, Tann'athar fica sobre a borda do tanque, e a mana sobe pelos corpos como calor. Gorbag, Krag, Urzog e o Farejo fecham a roda. Em cinco segundos, os dois magos trabalham sem parar.
+
+No primeiro segundo, Sae'Varyn põe a mão no peito de Gorbag e a carne fecha sob os dedos. Tann'athar ergue as mãos, e uma coragem fria e boa corre pela roda.
+> Cura Profunda (Sae'Varyn em Gorbag): Cura Profunda NH 16
+> 3d [4, 4, 1] = *9* → sucesso por 7
+> Gorbag recupera 4 PV (11 → 15/15)
+> Bravura (Tann'athar, área): Bravura NH 16
+> 3d [6, 4, 2] = *12* → sucesso por 4
+
+No segundo, Sae'Varyn cura Tann'athar, e Tann'athar cobre Gorbag de uma pele de luz que chia no ar.
+> Cura Profunda (Sae'Varyn em Tann'athar): Cura Profunda NH 16
+> 3d [5, 5, 2] = *12* → sucesso por 4
+> Tann'athar recupera 3 PV (8 → 11/11)
+> Escudo (Tann'athar em Gorbag): Escudo NH 18, +5 DP
+> 3d [4, 1, 6] = *11* → sucesso por 7
+
+No terceiro, o Farejo ganha a mão curadora, e Urzog, o escudo de luz.
+> Cura Profunda (Sae'Varyn no Farejo): Cura Profunda NH 16
+> 3d [3, 4, 2] = *9* → sucesso por 7
+> Farejo recupera 1 PV (14 → 15/15)
+> Escudo (Tann'athar em Urzog): Escudo NH 18, +5 DP
+> 3d [1, 3, 6] = *10* → sucesso por 8
+
+No quarto, Sae'Varyn se cobre com a luz, e Krag também.
+> Escudo (Sae'Varyn em si): Escudo NH 17, +5 DP
+> 3d [3, 4, 1] = *8* → sucesso por 9
+> Escudo (Tann'athar em Krag): Escudo NH 18, +5 DP
+> 3d [3, 2, 4] = *9* → sucesso por 9
+
+No quinto, o Farejo brilha inteiro, e Tann'athar fecha o círculo em si mesmo.
+> Escudo (Sae'Varyn no Farejo): Escudo NH 17, +5 DP
+> 3d [2, 1, 3] = *6* → *SUCESSO DECISIVO* (por 11)
+> Escudo (Tann'athar em si): Escudo NH 18, +5 DP
+> 3d [4, 6, 2] = *12* → sucesso por 6
+> Mana muito alta: nenhuma das mágicas custou Fadiga
+
+A roda se desfaz. A água da fonte volta a ficar parada, mas ainda guarda o brilho.
+
+O que vocês fazem?
+
+### Narração 81 — 24/10/2026 00:09
+
+_Andar das runas: testes de detecção e Detecção de Magia de Varyn e Tann'athar_
+
+*O ANDAR DAS RUNAS*
+
+O grupo sobe e se vê num andar quadrado, de pedra nua, com o poço aberto no meio e a luz azul da torre parada sobre as lajes. Ao pé da escada, o piso parece igual ao resto. Mas há algo errado no ar, uma pressão leve nos ouvidos de quem tem sangue de mago.
+
+Krag reconhece o que não deveria estar ali: um traço fino, quase invisível, riscado no chão a poucos passos da escada, que brilha de leve quando ele não olha direto. Sae'Varyn e Tann'athar notam o mesmo brilho de lado e param, a mão erguida. Gorbag e Urzog olham a mesma pedra e só veem pedra.
+> Detectar a runa: Krag, IQ 11 -4, +1 Prontidão = NH 8, 3d [1, 3, 1] = *5* → sucesso por 3
+> Detectar a runa: Sae'Varyn, Aptidão Mágica 3 = NH 13, 3d [3, 1, 4] = *8* → sucesso por 5
+> Detectar a runa: Tann'athar, Aptidão Mágica 3, +1 Prontidão = NH 14, 3d [3, 6, 3] = *12* → sucesso por 2
+> Detectar a runa: Gorbag, IQ 9 -4 = NH 5, 3d [3, 3, 5] = *11* → falhou por 6
+> Detectar a runa: Urzog, IQ 8 -4 = NH 4, 3d [2, 5, 4] = *11* → falhou por 7
+
+Sae'Varyn e Tann'athar não se contentam com um brilho. Cada um fecha os olhos e conjura, cinco segundos de concentração de quem lê as pedras. O piso inteiro ao pé da escada responde: a laje está encantada, ativa, com um desenho mágico preso nela. Qual é, nenhum dos dois consegue dizer.
+> Detecção de Magia (Sae'Varyn, 5 s): Detecção de Magia NH 16
+> 3d [2, 5, 1] = *8* → sucesso por 8
+> Detecção de Magia (Tann'athar, 5 s): Detecção de Magia NH 16
+> 3d [4, 6, 3] = *13* → sucesso por 3
+> Custo: 2 -1 (NH 16) = 1 de Fadiga cada um
+
+O que vocês fazem?
+
+### Narração 82 — 24/10/2026 00:10
+
+_Andar das runas: só os testes de detecção passivos; refeita sem a Detecção de Magia, substitui a Narração 81_
+
+*O ANDAR DAS RUNAS*
+
+O grupo sobe e se vê num andar quadrado, de pedra nua, com o poço aberto no meio e a luz azul da torre parada sobre as lajes. Ao pé da escada, o piso parece igual ao resto. Mas há algo errado no ar, uma pressão leve nos ouvidos de quem tem sangue de mago.
+
+Krag reconhece o que não deveria estar ali: um traço fino, quase invisível, riscado no chão a poucos passos da escada, que brilha de leve quando ele não olha direto. Sae'Varyn e Tann'athar notam o mesmo brilho de lado e param, a mão erguida. Gorbag e Urzog olham a mesma pedra e só veem pedra.
+> Detectar a runa: Krag, IQ 11 -4, +1 Prontidão = NH 8, 3d [1, 3, 1] = *5* → sucesso por 3
+> Detectar a runa: Sae'Varyn, Aptidão Mágica 3 = NH 13, 3d [3, 1, 4] = *8* → sucesso por 5
+> Detectar a runa: Tann'athar, Aptidão Mágica 3, +1 Prontidão = NH 14, 3d [3, 6, 3] = *12* → sucesso por 2
+> Detectar a runa: Gorbag, IQ 9 -4 = NH 5, 3d [3, 3, 5] = *11* → falhou por 6
+> Detectar a runa: Urzog, IQ 8 -4 = NH 4, 3d [2, 5, 4] = *11* → falhou por 7
+
+O que vocês fazem?
+
+### Narração 83 — 24/10/2026 00:12
+
+_Andar estranho: três percebem algo, sem saber o quê; refeita sem citar runa, substitui as Narrações 81 e 82_
+
+*UM ANDAR ESTRANHO*
+
+O grupo sobe e se vê num andar quadrado, de pedra nua, com o poço aberto no meio e a luz azul da torre parada sobre as lajes. Nada à vista parece fora do lugar.
+
+Mas Krag para, a cabeça inclinada: há algo errado neste andar, perto da escada, que ele não sabe nomear. Sae'Varyn e Tann'athar sentem o mesmo, uma pressão leve nos ouvidos, de quem tem sangue de mago, e ficam parados, a mão erguida. Gorbag e Urzog olham a mesma pedra e não veem nem sentem nada.
+> Perceber algo estranho: Krag, IQ 11 -4, +1 Prontidão = NH 8, 3d [1, 3, 1] = *5* → sucesso por 3
+> Perceber algo estranho: Sae'Varyn, Aptidão Mágica 3 = NH 13, 3d [3, 1, 4] = *8* → sucesso por 5
+> Perceber algo estranho: Tann'athar, Aptidão Mágica 3, +1 Prontidão = NH 14, 3d [3, 6, 3] = *12* → sucesso por 2
+> Perceber algo estranho: Gorbag, IQ 9 -4 = NH 5, 3d [3, 3, 5] = *11* → falhou por 6
+> Perceber algo estranho: Urzog, IQ 8 -4 = NH 4, 3d [2, 5, 4] = *11* → falhou por 7
+
+O que vocês fazem?
+
 ## Acontecimentos
 
 <!-- indice:acontecimentos -->
@@ -1260,4 +2373,41 @@ O que vocês fazem?
 - **22/10/2026 12:03** — TURNO 26 (roll6) — Cozinheira 80: HT 10 p/ recuperar do atordoamento 3d 9 passou; HT p/ não desmaiar 3d 8 passou (PV -19, caída, acordada). Criado 85: HT 11 p/ recuperar 3d 12 falhou por 1 (segue atordoado); HT p/ não desmaiar 3d 5 passou (PV -17). Gorbag (ação repetida) atacou o pescoço do Criado atordoado: Machado 2 Mãos/Maça NH 18-5=13, 3d 15, errou por 2; Preparação Rápida (ST 20 >= mín 13+5): cutelo segue preparado. Urzog PREPAROU o machado (atacou no T25 com ST 13 vs mín 12, sem Preparação Rápida: despreparado, MB p. 104; ataca no T27). Krag: 2º turno de mira na Capitã (16 hex), sem disparo; assobiou e Farejo seguiu Pumba'h. Pumba'h: corrida para encontrão, (30,13)->(32,9), custo 5, sem contato (guarda a 4 hex). Capitã (32,8), guarda 87 (33,8), guarda 88 (33,9) cercaram o javali (só movimento); Farejo foi a (31,9). Sae'Varyn parado, carroça no fim do T27.
 - **22/10/2026 12:27** — TURNO 27 (roll6) — Cozinheira 80: HT p/ não desmaiar 3d 7 passou. Criado 85: HT p/ recuperar 3d 16 falhou; não desmaiar 3d 7 passou. Farejo (lançado pelo Mestre) moveu (31,9)->(34,10) e FICOU ÀS COSTAS do guarda 2, sem morder. ERRATA (Mestre) turno 27: a mordida que eu resolvi como Avançar e Atacar (3d 5, 1 de dano) foi anulada: atacar durante Deslocamento é golpe Molinete (MB p. 105); decisão do Mestre: Farejo só se move. Pumba'h (javali) encontrão no guarda 2: Disputa Rápida de DX 15 vs 12, 3d 8 vs 3d 8 (passou por 7 x 4), Pumba'h vence; ST 16+2-2=16 vs 12, 3d 11 vs 3d 12 (por 5 x 0), margem 5: guarda cai e é projetado 2 hex, mas Farejo bloqueia o caminho e ele fica em (33,9); teste de ST do javali 3d 14 passou; teste de DX+3 do Farejo 3d 10 passou. Gorbag (ST 20, Preparação Rápida) pescoço do Criado atordoado: NH 13, 3d 12; Esquiva 5-4=1, 3d 12 falhou; 3D+3=17 x2 = 34 (pescoço acumulado 62 > 33); projeção 2 hex, Criado de (8,12) para (6,13); HT 3d 12 caiu; HT contra a morte em -21,-26,-31,-36,-41,-46,-51 (3d 4,7,11,6,8,11,9) passou em todos: vivo a -51. Urzog (machado preparado no T26) tronco da Cozinheira: NH 14, 3d 8; Esquiva 5, 3d 8 falhou; 2D+1=4 x1,5 = 6; HT 3d 10 de pé; morte em -20 3d 12 falhou: Cozinheira MORTA (-25). Machado de Urzog DESPREPARADO (ST 13 vs mín 12): Preparar no T28, ataca no T29. Capitã (montante 2D+3, NH 16): braço do escudo de Pumba'h (sorteado), NH 12, 3d 5; esquiva 8, 3d 13 falhou; 7, RD 3 = 4, x1,5 = 6: Pumba'h a 6/12. Guarda 87 (montante 1D cont): mão (sorteada), NH 10, 3d 10; esquiva 8, 3d 10 falhou; 2, RD 3: 0, sem dano. Guarda 2 caído, só se levanta. Krag: 3º turno de mira na Capitã (16 hex), sem disparo. Sae'Varyn chega à carroça no fim do T27 (zumbi só recebe ordem no T28).
 - **22/10/2026 12:34** — ERRATA (Mestre) turno 27: o Criado do Castelo (HT 11) recebeu 34 de corte no pescoço num golpe só; 33 ou mais num golpe só é DECAPITAÇÃO AUTOMÁTICA (morte, sem teste de HT). Os sete testes de HT contra a morte que o modelo rolou (-21 a -51) não valem. O Criado morreu decapitado por Gorbag; corpo em (6,13). Regra do Mestre: corte no pescoço com dano ≥ 3xHT num golpe só decapita e mata na hora (vale também para o acumulado já registrado do pescoço, como antes).
+- **22/10/2026 16:50** — TURNO 28 (roll6) — Farejo avançou 1 hex para (34,10) e mordeu o braço do guarda 2 caído, por trás (NH 12-2=10, 3d 7; sem defesa): 1D-1=2 x1,5 = 3; guarda 2 a 9/12. Pumba'h Defesa Total com recuo (só Esquiva; +3 do recuo), recua para (32,10) no fim. Gorbag Deslocamento (9,11)->(13,11). Krag: ATAQUE TOTAL COM ARCO (ERRATA do Mestre, p. 99/104 só deixa arma de mão), andou 2 hex e atirou na cabeça do guarda 87 a 11 m: Arco 17-5 (13,5 m)-5 cabeça+4 Ataque Total-4 Tiro Rápido (NH 11 < TR 13) = 7, 3d 9, falhou por 2; mira de 3 turnos na Capitã perdida (mudou de alvo e andou); alvo errado: a linha passa pelo hex de Pumba'h, 3d contra 8 (pior entre 9 e o NH contra ele) tirou 11, não acerta ninguém; Krag sem defesa ativa até o T29, sem flecha encaixada. Urzog só se deslocou (10,11)->(11,11), machado segue DESPREPARADO (decisão do Mestre). Capitã (montante 2D+3, NH 16, perna distante sorteada sem redutor) 3d 10; esquiva de Pumba'h 8+1 Reflexos+1 DP+3 recuo = 13, 3d 7 defendeu. Guarda 87 (montante 1D cont, NH 14, perna distante sorteada) 3d 8; esquiva 13, 3d 10 defendeu. Guarda 2 de caído a ajoelhado. Sae'Varyn a caminho da carroça (decisão do Mestre: ainda faltam turnos). ERRATA (Mestre): Esquiva do javali de Pumba'h é 8 (Velocidade 8), não 6; vale do T27 em diante sem mudar o resultado do T27.
+- **22/10/2026 16:53** — ERRATA (Mestre) turno 28: Krag NÃO deu Tiro Rápido; a linha do turno 28 registrada antes está corrigida. Krag (Ataque Total com arco, errata) atirou na cabeça do guarda 87 a 11 m: Arco 17-5 (13,5 m)-5 cabeça+4 Ataque Total = 11, 3d [6,2,1]=9, SUCESSO por 2; bloqueio do guarda 7+3 escudo = 10, 3d 14 falhou; 1D+1 = 7, RD 0, perfuração x2 = 14; HT 12 para não cair 3d 13 caiu (atordoado); HT contra nocaute 3d 10 aguentou. Guarda 87 a -2 PV, caído e atordoado, e NÃO atacou o javali neste turno (agia depois de Krag). Sem a regra do alvo errado (acertou). Farejo não se moveu (já estava adjacente em (35,10): o guarda 2 caído ocupa (33,9) e (34,10)). Krag sem defesa ativa até o T29, sem flecha encaixada.
+- **22/10/2026 17:57** — TURNO 29 (roll6) — Farejo (lançado pelo Mestre) mordeu de novo o braço do guarda 2 ajoelhado, por trás, sem mover: NH 12-2=10, 3d 13, errou por 3. Pumba'h (javali), decisão do Mestre: alvo guarda 2 ajoelhado; Avançar e Atacar sem mover, tronco, 1D+1 corte NH 15, 3d 12; bloqueio 7+3 DP cota+3 DP escudo-2 ajoelhado = 11, 3d 11 defendeu no limite. Gorbag Deslocamento (13,11)->(20,15), 7 de 7. Urzog Deslocamento (11,11)->(15,13), 4 de 4; machado segue DESPREPARADO. Krag: Sacar Rápido (Flecha) 14+1=15, 3d 8, sucesso; Apontar no guarda 2, 1º turno de mira; andou 3 hex e Apontar deixa 2: peça volta de (29,14) para (28,15). Capitã avançou para (32,9) e atacou o javali (montante 2D+3, NH 16, tronco sorteado sem redutor) 3d 9; esquiva 8+1+1 = 10, 3d 9 defendeu por 1. Guarda 87 (PV -2): HT p/ recuperar do atordoamento 3d 18 falhou; HT p/ não desmaiar 3d 9 passou. Guarda 2 levantou (ajoelhado -> de pé), sem atacar. Barão movido pelo Mestre para (37,3). Sae'Varyn junto da carroça.
+- **22/10/2026 18:02** — Zumbi do guarda de Sae'Varyn posto em cena no roll6 por pedido do Mestre (NPC 47, mapNpcId 89) em (7,21), ao lado de Varyn em (6,21); sem armadura, com gládio e escudo.
+- **22/10/2026 19:13** — Turno 30: Farejo errou a mordida no guarda 2; Pumba'h (javali) foi aparado pela Capitã; a Capitã acertou a cabeça do javali (10 de dano, projetado 1 hex, atordoado); o guarda 2 feriu Farejo (-1); o guarda 87 recuperou o atordoamento. Zumbi acompanha Sae'Varyn.
+- **22/10/2026 19:29** — Turno 31: Krag acerta a cabeça do guarda 2 (8 de dano, atordoado, 1 PV); a Capitã acerta o javali atordoado (10 de dano, projetado) e Pumba'h fica a -14 PV: falha no HT 12 contra a morte (15) e MORRE. Guarda 87 desmaia. Farejo erra.
+- **22/10/2026 19:59** — Turno 32: Gorbag (Avançar e Atacar, NH 18) ataca a Capitã no tronco e ela apara (16 contra 13); a Capitã ataca Gorbag no tronco e ele apara (Aparar 10, dado 10: por 0; o script usou só a esquiva, corrigido com o mesmo dado); Krag saca rápido a flecha e aponta na cabeça da Capitã; guarda 2 se recupera do atordoamento (HT 10) e contorna até (31,9); Farejo corre atrás do Barão, só se desloca.
+- **22/10/2026 20:05** — Urzog viu Pumba'h morto e testou Vontade 12 contra a Fúria (decisão do Mestre): 3d [2,4,1] = 7, sucesso por 5. Não enfureceu.
+- **22/10/2026 20:11** — Turno 33: Farejo morde a perna do Barão por trás (3 de dano; Barão falha DX 9 provisório, cai); Gorbag ataca a perna da Capitã e ela apara; Krag mira (2º turno) na cabeça da Capitã; a Capitã acerta o tronco de Gorbag (18 de dano, projetado, caído, atordoado, PV -3); o guarda 2 ataca Gorbag e as calças seguram.
+- **22/10/2026 20:22** — ERRATA turno 33 (Mestre): Gorbag atacou a CABEÇA da Capitã, não a perna. Defesa dela 12 (sem caneleira) com o 13 rolado: falhou por 1. Dano 16, PV -3, atordoada, projetada para (33,9), falhou nos HT (15 e 14) e ficou inconsciente. Gorbag não foi atingido por ela; o guarda 2 o acertou no braço do escudo (4): 11/15. Substitui a Narração 49.
+- **22/10/2026 20:29** — Turno 34: Gorbag (Avançar e Atacar, NH 18, -5 cabeça) acerta o guarda 2 (22 de dano, a -21 PV, passou nos HT de -12 e -17, atordoado, projetado para (31,8)); Krag (mira de 2 turnos) acerta a cabeça da Capitã inconsciente (8, a -11 PV); Farejo prende o Barão; Urzog só se desloca. Capitã só acorda em 3 horas (MB, Voltando à Consciência). Hipoalgia de Gorbag ignora o redutor de ferimento.
+- **22/10/2026 21:18** — Turno 35: Gorbag (Avançar e Atacar, NH 18, -5 pescoço) acerta o guarda 2 atordoado (22 de dano, a -43 PV); ele cai (DX 15) e MORRE ao falhar o HT 12 (14) na barreira de -22. Krag saca outra flecha (corrigido para (33,13): Avançar e Preparar só permite 1 hex); Urzog prepara o machado; Farejo mantém o Barão no chão.
+- **22/10/2026 21:22** — Teste de Vontade pedido pelo Mestre (Sanguinolência/Sadismo, Barão indefeso e preso por Farejo): Gorbag NH 9, 3d [2,2,6] = 10, FALHOU por 1 (quer matar o Barão); Sae'Varyn NH 15, 3d [6,4,3] = 13, passou por 2.
+- **22/10/2026 21:26** — Gorbag intimida Urzog para não matar o Barão ainda (decisão do Mestre): Intimidação 11 +4 altura +2 sede de sangue = 17, 3d [2,5,3] = 10 (por 7) contra Vontade 12 de Urzog, 3d [2,3,4] = 9 (por 3). Gorbag vence: Urzog não mata o Barão por ora.
+- **22/10/2026 21:29** — ORDEM DO MESTRE (turno 36, ainda aberto): Gorbag mata o Barão Nabbick, caído e preso por Farejo no estrado. Sem jogada: decisão do Mestre. Fora da regra de movimento (Gorbag estava a 7 hex), por ordem expressa.
+- **22/10/2026 22:54** — [narração 56] Testes de Visão -6 e de Aptidão Mágica para perceber uma armadilha mágica: ninguém percebe
+- **22/10/2026 23:00** — Testes de Armadilhas (pré-definido, sem redutor, decisão do Mestre): Sae'Varyn NH 10, 3d [5,4,1] = 10, sucesso por 0 (sente algo errado no piso); Gorbag NH 9, 10, falhou por 1; Krag NH 9, 14, falhou por 5; Urzog NH 6, 11, falhou por 5. Aptidão Mágica 3 de Sae'Varyn: NH 13, 16, falhou.
+- **22/10/2026 23:46** — Turno 38: o grupo avança pelo corredor (mapa 12); a armadilha mágica dispara e o corredor fica numa escuridão não natural, quase absoluta: -9 em visão para quem não tem Visão Noturna (Krag, Sae'Varyn, Urzog, Zumbi); Gorbag e Farejo (Visão Noturna) ignoram o redutor. Gorbag vê as armaduras do corredor se moverem. Decisão do Mestre.
+- **23/10/2026 08:34** — [narração 61] Testes de Audição na escuridão: Krag e Sae'Varyn ouvem os passos metálicos, Urzog não
+- **23/10/2026 08:46** — Fadiga do combate do salão (turnos ~14 a 37), MB cap. 15 'Cálculo da Fadiga': Carga +1 por luta. Gorbag -1 (Nenhuma), Krag -2 (Leve), Urzog -3 (Média). Sae'Varyn não lutou (e mago não gasta fadiga em combate): 0. Pumba'h morto.
+- **23/10/2026 08:52** — [narração 62] Gorbag tenta medir o corredor com Matemática (NH 3, falha automática) e dá uma resposta absurda
+- **23/10/2026 10:39** — Turno 39 (mapa 12, corredor): Gorbag avança 5 hex até (10,3) e vê a Armadura Animada 1 vindo em sua direção; Krag e Urzog em Defesa Total; Sae'Varyn avança 2 hex (Deslocamento) e manda o Zumbi (Paravotto) guardar a retaguarda; as duas Armaduras Animadas (golens de barro, alabardas) começam a preparar as alabardas: 1º turno automático, o 2º exige Preparar (ordem do Mestre). Ninguém ataca.
+- **23/10/2026 10:41** — [narração 64] Audição no escuro (T40): só Sae'Varyn acha a direção dos inimigos
+- **23/10/2026 12:26** — Turno 40 (mapa 12): Gorbag tenta Encontrão na Armadura Animada 1 e perde a Disputa Rápida de DX (13 contra 10): passa direto e vai a (5,3). Armaduras terminam de preparar as alabardas (2º turno). Audição: Krag passa (7, por 5), Sae'Varyn passa (14, por 1), Urzog falha (13). Krag e Urzog em Defesa Total; Sae'Varyn avança 1 hex.
+- **23/10/2026 12:38** — [narração 66] Descrição do térreo da torre: sala redonda sem janelas, fonte, buraco no teto, escada de mão e cela com um meio-elfo
+- **23/10/2026 12:50** — Turno 41 (mapa 12): Gorbag chega à sala quadrada do térreo da torre (fonte, buraco no teto, escada de mão, cela com um meio-elfo); Krag segue o Farejo; Urzog e Sae'Varyn em Defesa Total; testes de Audição de Krag, Urzog e Sae'Varyn falham. A Armadura Animada 1 avança 1 hex e erra o Farejo (alabarda em balanço); a Armadura Animada 2 acerta o Zumbi com a ponta: defesas com -9 de escuridão (decisão do Mestre) falham (1 e 1), 16 de dano na perna e o Zumbi é DESTRUÍDO (0 PV).
+- **23/10/2026 13:18** — Turno 42 (mapa 12): Gorbag volta pelo corredor (0,2) -> (4,3); Krag segue o Farejo até (7,1); Urzog e Sae'Varyn em Defesa Total; as Armaduras Animadas começam a preparar as alabardas (ordem do Mestre): a 1 no 1º turno automático (falta 1 turno de Preparar), a 2 termina o preparo. Ninguém ataca.
+- **23/10/2026 13:20** — T42: testes de Audição das armaduras preparando as alabardas: Krag NH 12, 3d [3,5,4] = 12, sucesso por 0; Urzog NH 8, 3d [2,1,4] = 7, sucesso por 1; Sae'Varyn NH 15, 3d [4,1,4] = 9, sucesso por 6. Os três sabem de onde vêm os ruídos.
+- **23/10/2026 14:19** — [narração 71] T43: Gorbag destrói a Armadura 1 com um Encontrão; Varyn acerta e Urzog erra a Armadura 2, que termina de preparar a alabarda
+- **23/10/2026 14:36** — TURNO 44 (roll6) — ERRATA do Mestre: Urzog declarou Ataque Total, mas o machado se prepara sozinho e o golpe não sai; vira Defesa Total. Armadura 2 ataca Urzog (ponta, 1D+4 perf, NH 7, perna sorteada 13): 3d 13, falha por 6; alabarda despreparada (prepara sozinha no T45). Gorbag (12,3); Krag (1,2) seguindo o Farejo; Varyn Defesa Total com Recuar (17,3).
+- **23/10/2026 14:40** — ERRATA do Mestre (T44): o NH das Armaduras Animadas com a alabarda é Armas de Haste = DX = 12, e não 7 (pré-definido DX-5). Ataque da Armadura 2 em Urzog no T44 refeito: 3d 13 contra 12, falha por 1 (continua erro). Narração 74 substitui a 73. Ficha do NPC corrigida no roll6. Ataques do T41 (Narrações 62-ss) usaram NH 7 e ficam anotados com errata.
+- **23/10/2026 15:13** — TURNO 45 (roll6) — Gorbag erra o Encontrão na Armadura 2 (DX 13 contra 10: ela vence) e bate na parede em (16,0): ERRATA do Mestre, 2D-8 = -1 (0 PV) e teste de ST 22 (3d 13, em pé); sem regra no MB. Urzog (Ataque Total, NH 9) acerta o braço da Armadura 2: 8 de dano, RD 6, 3 PV (17/20), projetada 1 hex para (16,1), caiu e se desmontou (regra do T40). Varyn Defesa Total; Krag e Farejo rumo à cela.
+- **23/10/2026 15:46** — [narração 76] Tann'athar conta aos PJs onde está a espada (Câmara do Cofre) e a armadilha de peso
+- **23/10/2026 17:14** — TURNO 47 (roll6) — Gorbag quebra o cadeado da cela com o cutelo (Machado 2 Mãos NH 18, 3d 8, sucesso por 10; dano 3D+5 = 17, RD 4, 13 passam, cadeado de 12 PV quebrado). Teste de arma barata (ordem do Mestre, 2/3): 1d 2, o cutelo QUEBRA. Krag, Varyn, Urzog e Tann'athar só falam.
+- **23/10/2026 22:04** — TURNO 48 (roll6) — Tann'athar, na fonte (mana muito alta), improvisa Dissipar Escuridão a partir de Luz com -5 (ordem do Mestre): Luz NH 16-5 = 11, 3d 9, sucesso por 2 (falhar seria falha crítica): a escuridão mágica acaba. Sem custo de Fadiga. Urzog entrega o machado a Gorbag. Krag rumo à torre; Varyn manda Tann'athar prosseguir.
+- **23/10/2026 23:58** — TURNO 49 (roll6) — Banho de mana na fonte (mana muito alta, sem custo de Fadiga), 5 segundos, uma mágica por mago por segundo (ordem do Mestre): Varyn Cura Profunda NH16 em Gorbag (3d 9), Tann'athar (3d 12) e Farejo (3d 9); Escudo NH17 em si (3d 8) e no Farejo (3d 6, decisivo). Tann'athar Bravura NH16 em área (3d 12) e Escudo NH18 em Gorbag (3d 11), Urzog (3d 10), Krag (3d 9) e si (3d 12). Todos com Escudo +5 DP por 1 minuto e Bravura por 1 hora.
+- **24/10/2026 00:09** — [narração 81] Andar das runas: testes de detecção e Detecção de Magia de Varyn e Tann'athar
 <!-- /indice:acontecimentos -->

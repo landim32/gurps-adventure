@@ -37,6 +37,8 @@ _(o que de fato aconteceu com estes NPCs durante o jogo — ferimento que ficou,
 ## Zumbi do guarda
 
 - **18/10/2026 23:19** · _morte_ — Guarda do portão morto reanimado por Sae'Varyn (Zumbi, sucesso decisivo, turno 12). Obedece a Varyn; escondido entre as carnes na caçamba da carroça. Conserva o corpo e a força do guarda, sem alma nem memória.
+- **22/10/2026 18:02** · _estado_ — Em cena no roll6 (mapNpcId 89, token Morto (Guarda)), ao lado de Sae'Varyn em (7,21). Sem armadura (cota e capacete com Varyn); gládio e escudo médio. ST 13, DX 12, IQ 8, HT 16 (PV 16), Deslocamento 7; Esquiva 7, Aparar 7, Bloqueio 7; não sente dor nem fica atordoado. Obedece a Varyn.
+- **22/10/2026 19:13** · _estado_ — Turno 30: acompanha Sae'Varyn, em (3,21).
 
 ## Cozinha do castelo
 
@@ -55,12 +57,18 @@ _(o que de fato aconteceu com estes NPCs durante o jogo — ferimento que ficou,
 - **22/10/2026 10:57** · _estado_ — Turno 24: ouviu o assobio da flecha de Krag (errou a cabeça dela) e chamou os guardas ('Guardas! Comigo, em formação!'). Ainda não viu quem atirou.
 - **22/10/2026 11:06** · _estado_ — Turno 25: avança pelo salão do trono com escudo e espada sacados, em (35,5), com os dois guardas (34,6) e (36,6).
 - **22/10/2026 12:03** · _estado_ — Turno 26: cercou o javali de Pumba'h em (32,8) com os guardas em (33,8) e (33,9). Ainda não viu Krag.
+- **22/10/2026 17:57** · _estado_ — Turno 29: avançou para (32,9) e atacou o javali de Pumba'h (defendeu). Ainda não viu Krag.
+- **22/10/2026 20:22** · _estado_ — ERRATA T33: inconsciente a -3 PV em (33,9), atingida na cabeça por Gorbag; segue desmaiada no T34 (HT para acordar).
+- **22/10/2026 20:29** · _estado_ — T34: flechada na cabeça por Krag enquanto inconsciente: -11 PV (limite de morte -13). Só acorda em 3 horas, se ninguém a ferir mais.
 
 ## Guarda do Castelo
 
 - **21/10/2026 17:51** · _estado_ — Turno 23: os dois guardas do salão (87 e 88) responderam à Capitã e se formaram ao lado dela, em (35,3) e (36,3).
 - **21/10/2026 18:03** · _estado_ — ERRATA turno 23: os guardas 87 e 88 não se formaram com a Capitã; seguem em (30,1) e (31,1). A nota anterior está anulada.
 - **22/10/2026 10:57** · _estado_ — Turno 24: os guardas 87 e 88 correram até a Capitã e se formaram em (35,3) e (36,3).
+- **22/10/2026 16:50** · _estado_ — Turno 28: guarda 2 ajoelhado a 9/12 com Farejo mordendo o braço; guarda 87 e Capitã atacaram o javali e erraram.
+- **22/10/2026 16:53** · _ferimento_ — ERRATA turno 28: o guarda 87 levou flecha de Krag na cabeça (14 de dano), a -2 PV, caído e atordoado; não atacou. O guarda 2 está ajoelhado a 9/12 com Farejo no braço. Anotação anterior do T28 sobre o guarda 87 anulada.
+- **22/10/2026 17:57** · _estado_ — Turno 29: guarda 87 segue caído e atordoado a -2 PV; guarda 2 se levantou (9/12) com Farejo no braço.
 
 ## Criada do Castelo 2
 
@@ -81,3 +89,20 @@ _(o que de fato aconteceu com estes NPCs durante o jogo — ferimento que ficou,
 ## Farejo
 
 - **22/10/2026 12:27** · _estado_ — Turno 27: atrás do guarda 2 em (34,10), sem morder (errata do Mestre).
+
+## Guarda do Castelo 2
+
+- **22/10/2026 19:59** · _estado_ — Turno 32: recuperou do atordoamento; 1 PV; está em (31,9), adjacente a Gorbag (ataca no T33). Deslocamento pela metade (PV 1 a 3).
+- **22/10/2026 20:29** · _estado_ — T34: a -21 PV por golpe de Gorbag na cabeça; atordoado, em (31,8).
+- **22/10/2026 21:18** · _morte_ — Turno 35: morto por Gorbag, golpe no pescoço (22 de corte); corpo em (31,7).
+
+## Barão Nabbick
+
+- **22/10/2026 20:11** · _estado_ — Turno 33: mordido na perna por Farejo (-3 PV, 7/10) e derrubado; DX 9 é valor provisório (ficha ainda não criada).
+- **22/10/2026 21:29** · _morte_ — Turno 36, ordem do Mestre: morto por Gorbag com um golpe de cutelo, no estrado, caído sob o Farejo. Ferrier fica sem barão.
+
+## Armadura Animada
+
+- **23/10/2026 10:39** · _estado_ — Turno 39: golem de barro dentro de armadura, alabarda despreparada. 1º turno de preparo (automático) feito; falta 1 turno de Preparar (manobra) no T40. Duas ocorrências: Armadura Animada em (6,3) e Armadura Animada 2 em (15,1).
+- **23/10/2026 12:26** · _regra_ — Regra do Mestre (T40): se a armadura for projetada por Gorbag (ou outro), ela se desmonta, pois não há nada dentro. Alabardas preparadas ao fim do T40.
+- **23/10/2026 13:18** · _estado_ — T42: Armadura 1 em (7,3), alabarda despreparada (1º turno de preparo feito; T43 exige Preparar). Armadura 2 em (15,1), alabarda preparada ao fim do T42.

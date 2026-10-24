@@ -16,6 +16,9 @@ _(o que de fato aconteceu com os personagens dos jogadores durante o jogo — fe
 - **19/10/2026 14:44** · _estado_ — Sujo do sangue de Perrin Holt (turno 13).
 - **19/10/2026 21:25** · _item_ — Guarda no avental os pertences de Perrin (turno 14): ~$12, dois dados de osso e a promissória de Sam Ludd. Picou o corpo no açougue.
 - **22/10/2026 10:57** · _estado_ — Turno 24: dentro da despensa, em (9,11); matou a Criada 2. Restam a Cozinheira (a -9) e o Criado 85.
+- **22/10/2026 20:22** · _estado_ — ERRATA T33: 11/15 PV, de pé em (31,10); -4 no ataque no T34 (ferimento do guarda 2 no braço do escudo).
+- **23/10/2026 17:14** · _item_ — Cutelo colossal QUEBRADO ao abrir o cadeado da cela (T47, arma barata). Fica só com o facão de desossar (1D+2 máx.) e a faca (1D+1 máx.). Retirado do inventário a pedido do Mestre.
+- **23/10/2026 22:04** · _item_ — Pegou o machado de Urzog (T48), com o cutelo colossal quebrado. NH com a arma de uma mão a definir pelo Mestre.
 
 ## Krag Trilhanegra
 
@@ -32,6 +35,9 @@ _(o que de fato aconteceu com os personagens dos jogadores durante o jogo — fe
 - **21/10/2026 18:03** · _estado_ — ERRATA turno 23: não atirou. Está apontando a flecha na cabeça da Capitã (1º turno de mira), flecha encaixada, em (25,16), com Farejo e Pumba'h ao lado. A nota anterior ('atirou, sem flecha') está anulada.
 - **22/10/2026 10:57** · _estado_ — Turno 24: atirou na cabeça da Capitã depois de 1 turno de mira e errou. Sem flecha encaixada.
 - **22/10/2026 11:06** · _estado_ — Turno 25: flecha encaixada (Sacar Rápido) e miramos de novo na Capitã (1º turno de mira). Em (25,16).
+- **22/10/2026 16:50** · _estado_ — Turno 28: Ataque Total com o arco (errata do Mestre), errou o guarda 87; sem defesa ativa até o T29, sem flecha encaixada, mira perdida. Em (27,16).
+- **22/10/2026 16:53** · _estado_ — ERRATA turno 28: acertou o guarda 87 na cabeça (Ataque Total, sem Tiro Rápido). Sem defesa ativa até o T29, sem flecha encaixada, mira perdida.
+- **22/10/2026 17:57** · _estado_ — Turno 29: flecha encaixada (Sacar Rápido) e Apontar no guarda 2 (1º turno de mira); volta para (28,15) (Apontar deixa 2 hex).
 
 ## Sae'Varyn
 
@@ -44,6 +50,7 @@ _(o que de fato aconteceu com os personagens dos jogadores durante o jogo — fe
 - **20/10/2026 12:25** · _relação_ — Reparou na criada desconfiada tentando sair da cozinha às escondidas (turno 15; Percepção 13, passou por 1, contra Furtividade 9 dela, falhou por 5); ela travou no meio da cozinha. Ainda sem veneno: Venefício falhou por 2 na despensa.
 - **21/10/2026 14:32** · _estado_ — Turno 22: andou pela passagem estreita até (4,15) rumo à carroça; não deu a ordem ao zumbi (decisão do Mestre).
 - **22/10/2026 10:57** · _estado_ — Turno 24: em (2,22), lá fora, rumo à carroça; ainda faltam turnos (chega no fim do T27, decisão do Mestre) antes de dar a ordem ao zumbi.
+- **23/10/2026 12:50** · _item_ — T41: perdeu o servo Zumbi (Paravotto), destruído pela Armadura Animada 2 no escuro. Para outro zumbi, precisa lançar Zumbi de novo em outro cadáver.
 
 ## Urzog, o Bigorna
 
@@ -63,6 +70,8 @@ _(o que de fato aconteceu com os personagens dos jogadores durante o jogo — fe
 - **21/10/2026 14:32** · _estado_ — Turno 22: machado preparado, ao lado da Cozinheira que chora; com as chaves de Perrin.
 - **22/10/2026 12:03** · _estado_ — Turno 26: Preparou o machado (despreparado desde o T25, sem Preparação Rápida: ST 13, mín 12). Ataca no T27.
 - **22/10/2026 12:27** · _estado_ — Turno 27: golpeou a Cozinheira (morreu). Machado DESPREPARADO: Prepara no T28, ataca no T29.
+- **22/10/2026 16:50** · _estado_ — Turno 28: entrou na cozinha (11,11); machado ainda despreparado (decisão do Mestre).
+- **23/10/2026 22:04** · _item_ — Entregou o machado a Gorbag (T48, a pedido dele); está desarmado.
 
 ## Pumba'h Fed
 
@@ -75,3 +84,11 @@ _(o que de fato aconteceu com os personagens dos jogadores durante o jogo — fe
 - **22/10/2026 11:06** · _estado_ — Turno 25: investiu pelo corredor até (30,13); sem contato com a Capitã (a uns 8 hex).
 - **22/10/2026 12:03** · _estado_ — Turno 26: em (32,9), cercado pela Capitã e dois guardas; Farejo a seu lado em (31,9).
 - **22/10/2026 12:27** · _ferimento_ — Turno 27: encontrão derrubou o guarda 2; montante da Capitã no braço do escudo (6 de dano). PV 6/12, cercado em (32,9).
+- **22/10/2026 16:50** · _estado_ — Turno 28: Defesa Total com recuo, defendeu Capitã e guarda 87; recuou para (32,10). Esquiva do javali = 8 (errata). PV 6/12.
+- **22/10/2026 19:13** · _estado_ — Turno 30: a Capitã acertou a cabeça do javali, 10 de dano; PV -4, atordoado, projetado para (32,11). HT para recuperar e para não desmaiar no T31.
+- **22/10/2026 19:29** · _morte_ — Turno 31: morto pela Capitã Isolda; o javali cruzou -12 PV (-14) e falhou no HT 12 contra a morte (15). Corpo em (32,12).
+
+## Tann'athar Goras
+
+- **23/10/2026 15:46** · _relação_ — Contou ao grupo: a espada está na caixa de ferro negro, num pedestal de granito, na Câmara do Cofre perto do topo da torre, logo abaixo do quarto de Orvin; porta de ferro com fechadura mágica (Rouxinol); armadilha de peso (~12 kg) sela a sala; Orvin dorme leve; os andares mudam. Pede para ser libertado da cela.
+- **23/10/2026 15:47** · _regra_ — ERRATA do Mestre: Tann'athar NÃO fala da armadilha do pedestal nem do contrapeso; só diz onde está a espada (Câmara do Cofre, perto do topo, caixa de ferro negro no centro da sala, porta de ferro com fechadura mágica), que Orvin dorme leve e que os andares mudam. Vale a Narração 77; substitui a 76.

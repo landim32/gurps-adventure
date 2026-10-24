@@ -1,0 +1,23 @@
+*OLHOS ABERTOS*
+
+Gorbag varre o salão com os olhos pequenos de açougueiro, mas está acostumado a ver carne, não o que se esconde nas pedras. Nada chama a atenção dele. Para o que está oculto assim, a vista dele não alcança.
+> Visão Gorbag: NH 9, -6 armadilha mágica difícil de ver = *3*
+> NH efetivo 3 ou menos: o livro não permite a jogada. *Não percebe nada.*
+
+Krag olha as lajes, as juntas do piso, o que um batedor veria. As sombras do salão não lhe contam nada fora do lugar.
+> Visão Krag: NH 12, -6 armadilha mágica difícil de ver = *6*
+> 3d [3, 3, 5] = *11* → *falhou por 5*
+
+Sae'Varyn passa os olhos frios pelo chão e quase repara em alguma coisa, um brilho que some quando ele tenta fixá-lo. Quase. O olhar de gelo desliza e segue adiante.
+> Visão Sae'Varyn: NH 15, -6 armadilha mágica difícil de ver = *9*
+> 3d [3, 2, 5] = *10* → *falhou por 1*
+
+Ele ainda deixa a atenção correr pelo ar, em busca do que só um mago sente: a oscilação sutil do mana, o peso da magia pelos cantos. O salão é grande e carregado, e a sensação se dilui antes de virar certeza.
+> Aptidão Mágica 3 (perceber mana e magia) Sae'Varyn: NH 13
+> 3d [5, 5, 6] = *16* → *falhou por 3*
+
+Urzog caminha de olho no inimigo e na saída, o instinto de brigão atento à próxima pancada, não ao chão. Não vê nada.
+> Visão Urzog: NH 8, -6 armadilha mágica difícil de ver = *2*
+> NH efetivo 3 ou menos: o livro não permite a jogada. *Não percebe nada.*
+
+Ninguém percebe nada de estranho no salão. Se há algo ali, continua escondido.

@@ -1,0 +1,56 @@
+*TURNO 31 — A BARREIRA DOS DOZE*
+
+Farejo morde de novo o braço do soldado que o acertou, mas o homem recua o ombro e os dentes escorregam no aço do escudo.
+> Ataque Farejo: NH 12, -2 braço, -1 ferimento da rodada anterior = *9*
+> 3d [2, 6, 3] = *11* → falhou por 2
+> *Errou.*
+
+O javali treme sobre as patas, a cabeça em sangue, e tenta se firmar na defesa total sem enxergar direito.
+> HT Pumba'h (recuperar do atordoamento): NH 12
+> 3d [4, 3, 6] = *13* → falhou: segue *atordoado*
+> HT Pumba'h (não desmaiar, PV 0 ou menos): NH 12
+> 3d [3, 1, 3] = *7* → passou por 5
+
+Gorbag atravessa o corredor a passos largos e entra no salão, o cutelo na mão.
+
+Krag respira fundo, solta a corda e a flecha cruza o salão por cima do lombo baixo do javali. Ela pega o soldado de pé na testa, sob a borda do elmo aberto. Ele cambaleia, o escudo caído do lado, e fica ali parado, sem saber onde está.
+> Ataque Krag: Arco NH 17, -3 velocidade/distância (6 m), +3 Precisão da arma, +1 por 1 turno extra apontando, -5 cabeça = *13*
+> 3d [6, 1, 6] = *13* → sucesso por 0
+> Defesa de Guarda: bloqueio 7 +3 DP escudo = *10*
+> 3d [5, 3, 4] = *12* → falhou por 2
+> Dano: 1D+1: [3] + 1 = *4*
+> RD 0 → 4 passam
+> Perfuração: ×2 → *8*
+> Perdeu mais de HT/2: teste de HT 12 para não cair, 3d [2, 6, 4] = *12* → de pé; *ATORDOADO* (-4 nas defesas)
+> Teste de HT 12 contra nocaute, 3d [1, 3, 3] = *7* → aguentou
+> *O guarda perde 8 pontos de vida* (fica com 1).
+
+Urzog segue o corredor com o machado ainda solto na mão, sem firmá-lo.
+
+A Capitã vê o javali cambaleando, dá um passo à frente e desce o montante no flanco dele. O bicho nem ergue a cabeça: a lâmina o pega no tronco e o joga mais um passo para trás.
+> Ataque Capitã (Avançar e Atacar, 1 hex): NH 16 (tronco, sorteado: 3d [4, 3, 2] = 9; sem redutor de local) = *16*
+> 3d [2, 3, 4] = *9* → sucesso por 7
+> Defesa de Pumba'h: esquiva 8 +1 Reflexos em Combate +1 DP -4 atordoado = *6*
+> 3d [4, 4, 4] = *12* → falhou por 6
+> Dano: 2D+3: [4, 3] = 7 + 3 = *10*
+> Projeção: 10 antes da RD → *1 hex para trás*
+> RD 3 → 7 passam
+> Corte: ×1,5 depois da armadura → *10*
+> Perdeu mais de HT/2: teste de HT 12 para não cair, 3d [6, 4, 2] = *12* → de pé; *ATORDOADO*
+> Projetado 1 hex: teste de DX 15, 3d [1, 1, 3] = *5* → de pé
+> *Pumba'h perde 10 pontos de vida* (fica a -14: cruzou a barreira de -12).
+> HT 12 contra a morte: 3d [6, 6, 3] = *15* → *FALHOU por 3*
+
+O javali dá mais um passo e os joelhos cedem. Cai de lado nas lajes, o peito arfando uma última vez, e não se levanta.
+
+O soldado atordoado tenta se endireitar e não consegue.
+> HT Guarda 2 (recuperar do atordoamento): NH 12
+> 3d [2, 6, 6] = *14* → falhou: segue *atordoado*
+
+O soldado caído no chão perde a luta contra o sono e apaga, o braço solto sobre a espada.
+> HT Guarda caído (não desmaiar, PV -2): NH 12
+> 3d [5, 5, 4] = *14* → falhou: *inconsciente*
+
+No estrado, o Barão não sai do lugar. Sae'Varyn avança pelo capim e o morto de pele cinzenta o segue de perto.
+
+O que vocês fazem?

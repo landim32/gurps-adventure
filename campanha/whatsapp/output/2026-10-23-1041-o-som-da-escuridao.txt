@@ -1,0 +1,13 @@
+*O SOM DA ESCURIDÃO*
+
+No negrume do corredor, o ouvido é o único olho que resta. Krag força a escuta, mas o eco devolve pedaços de ruído de todos os lados e ele não separa um som do outro. Sente o cão encostado nas costas dele, não à frente, e sem o guia diante do corpo não se arrisca a dar o passo.
+> Audição Krag: NH 12
+> 3d [6, 3, 6] = *15* → *falhou por 3*
+
+Urzog gira a cabeça e só ouve o próprio sangue e o ranger da armadura de couro. Fica onde está, o machado firme, sem saber para onde apontá-lo.
+> Audição Urzog: NH 8
+> 3d [6, 3, 1] = *10* → *falhou por 2*
+
+Sae'Varyn fecha os olhos que de nada servem e escuta. O primeiro conjunto de passos metálicos está a poucos passos de distância, ao noroeste, rente à parede. O outro, mais arrastado, vem de longe, a oeste. Sabe agora de onde vêm os dois, e o suficiente para dar um passo com segurança.
+> Audição Sae'Varyn: NH 15
+> 3d [3, 4, 4] = *11* → *sucesso por 4*: *sabe a direção dos inimigos e pode mover 1 hexágono*
