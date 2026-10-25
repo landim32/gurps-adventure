@@ -66,6 +66,9 @@ _(o que de fato aconteceu com o lugar, os objetos e o que se sabe durante o jogo
 - **23/10/2026 12:38** · _lugar_ — Sala redonda de pedra, sem janelas. Fonte no meio, buraco no teto acima dela, escada de mão que sobe. Cela apertada no canto superior esquerdo com um meio-elfo preso.
 - **23/10/2026 12:39** · _lugar_ — ERRATA: a sala é QUADRADA (não redonda). Sem janelas; fonte redonda no meio, buraco no teto acima dela, escada de mão que sobe; cela apertada no canto superior esquerdo com um meio-elfo.
 - **23/10/2026 12:50** · _estado_ — T41: Gorbag chegou à sala da fonte. As duas Armadura Animadas (golens de barro, alabardas) lutam no corredor; a Armadura 1 está em (7,3), a 2 em (15,1).
+- **24/10/2026 07:32** · _lugar_ — Andar das runas (mapa 14): buraco no meio cai na fonte do térreo; escada de chegada a nordeste, de subida a sudoeste. Krag achou uma marca riscada no piso entre a escada e o buraco (armadilha, efeito desconhecido) e conhece um caminho seguro rente à parede.
+- **24/10/2026 11:53** · _lugar_ — Andar das runas: a marca no piso é uma laje encantada e ativa (Detecção de Magia de Tann'athar), efeito desconhecido. O grupo atravessou pelo caminho seguro de Krag até a escada sudoeste, que sobe.
+- **24/10/2026 11:57** · _lugar_ — ERRATA (Mestre): só a fonte do térreo tem mana muito alta; o resto da torre é de mana baixa (−5, só magos lançam).
 
 ## Armadura Animada
 
@@ -84,3 +87,8 @@ _(o que de fato aconteceu com o lugar, os objetos e o que se sabe durante o jogo
 ## Efeitos mágicos do grupo
 
 - **23/10/2026 23:58** · _estado_ — T49: todos os seis (Gorbag, Krag, Sae'Varyn, Tann'athar, Urzog, Farejo) com Escudo +5 DP por 1 minuto (e o Farejo com sucesso decisivo) e Bravura por 1 hora (IQ para evitar a bravura quando a situação pede cautela). Curas feitas: Gorbag 15/15, Tann'athar 11/11, Farejo 15/15.
+
+## Cadeado da gaiola de Faelar
+
+- **24/10/2026 21:37** · _estado_ — Quase rompido: sofreu 11 de 12 pontos (RD 4, PV 12) no turno 58; qualquer golpe o abre. Gorbag está com a maça de Sae'Varyn, emprestada.
+- **25/10/2026 05:23** · _estado_ — ROMPIDO por Gorbag (T59, maça de Sae'Varyn, 14 de dano): a gaiola está aberta. Gorbag segue com a maça emprestada.

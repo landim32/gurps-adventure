@@ -12,7 +12,7 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 | Krag Trilhanegra | PJ | 14/14 | 10/12 | — |
 | Pumba'h Fed | PJ | -14/12 | 8/8 | Javali atordoado (-4 defesas); PV -4: HT para não desmaiar a cada turno; MORTO: falhou no HT 12 contra a morte ao cruzar -12 PV (T31) |
 | Sae'Varyn | PJ | 13/13 | 4/10 | — |
-| Tann'athar Goras | PJ | 11/11 | 10/10 | Preso numa cela; torturado pelo Grã-Mago |
+| Tann'athar Goras | PJ | 11/11 | 9/10 | Preso numa cela; torturado pelo Grã-Mago |
 | Urzog, o Bigorna | PJ | 17/17 | 8/13 | — |
 | Barão Nabbick | NPC | -10 | — | Caído (DX falhou); perna mordida; MORTO: cutelo de Gorbag (turno 36, ordem do Mestre) |
 | Cozinheira do Castelo | NPC | -35 | — | Caída, atordoada (-4 defesas); PV -9: HT p/ não desmaiar no turno 25; Caída, atordoada (-4 defesas); PV -19: HT p/ não desmaiar no turno 26; MORTA — machadada de Urzog (turno 27) |
@@ -75,11 +75,12 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 
 ### Tann'athar Goras
 
-**PV 11/11 · Fadiga 10/10**  ·  **Preso numa cela; torturado pelo Grã-Mago**
+**PV 11/11 · Fadiga 9/10**  ·  **Preso numa cela; torturado pelo Grã-Mago**
 
 - **23/10/2026 13:36** · PV -3 — Torturado pelo Grã-Mago (preso na torre)
 - **23/10/2026 13:36** · estado — Preso numa cela; torturado pelo Grã-Mago
 - **23/10/2026 23:58** · PV +3 — Cura Profunda de Sae'Varyn (T49)
+- **24/10/2026 11:53** · FAD -1 — Detecção de Magia (T55)
 
 ### Urzog, o Bigorna
 

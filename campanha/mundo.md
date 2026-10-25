@@ -56,6 +56,11 @@ script, e rode `campanha.py mundo`.)_
 - **22/10/2026 20:22** · _estado_ — ERRATA T33: inconsciente a -3 PV em (33,9), atingida na cabeça por Gorbag; segue desmaiada no T34 (HT para acordar).  _(cap. 01)_
 - **22/10/2026 20:29** · _estado_ — T34: flechada na cabeça por Krag enquanto inconsciente: -11 PV (limite de morte -13). Só acorda em 3 horas, se ninguém a ferir mais.  _(cap. 01)_
 
+### Faelar Lírio-Branco
+
+- **24/10/2026 18:22** · _informação_ — Preso na gaiola do andar do prisioneiro, cadeado grosso que as chaves de Perrin não abrem. Disse: Orvin pratica Mente, Corpo, Movimento e Encantamento; a ele ensinou Luz, Reparar e Sono; nasceu nas matas ao norte de Caithness. Sabe da espada e onde fica, mas só conta depois de solto. Tann'athar não conseguiu dizer se mente.  _(cap. 01)_
+- **25/10/2026 05:23** · _informação_ — Solto no T59. Contou a Tann'athar que foi pego de noite folheando o livro das palavras que Orvin nunca lhe ensinou, e foi trancado 'até a curiosidade passar'. Não se comprometeu a ir com o grupo (pediu ar e chão firme primeiro). Ainda não deu a informação útil nem a localização da espada.  _(cap. 01)_
+
 ### Farejo
 
 - **22/10/2026 12:27** · _estado_ — Turno 27: atrás do guarda 2 em (34,10), sem morder (errata do Mestre).  _(cap. 01)_
@@ -216,6 +221,11 @@ script, e rode `campanha.py mundo`.)_
 
 - **16/10/2026 18:14** · _lugar_ — Quarto de pedra frio ao fundo da cozinha, com cepo grosso, laje de cortar, meias reses de bois, carneiros e dois porcos em ganchos e um suporte com cutelos da casa, contados.  _(cap. 01)_
 
+### Cadeado da gaiola de Faelar
+
+- **24/10/2026 21:37** · _estado_ — Quase rompido: sofreu 11 de 12 pontos (RD 4, PV 12) no turno 58; qualquer golpe o abre. Gorbag está com a maça de Sae'Varyn, emprestada.  _(cap. 01)_
+- **25/10/2026 05:23** · _estado_ — ROMPIDO por Gorbag (T59, maça de Sae'Varyn, 14 de dano): a gaiola está aberta. Gorbag segue com a maça emprestada.  _(cap. 01)_
+
 ### Casa de apostas do mercado
 
 - **15/10/2026 20:48** · _lugar_ — Taverna de apostas sem tabuleta, só um dado de osso na porta, na ponta do mercado de Ferrier. O grupo chegou e achou Perrin Holt jogando numa mesa de canto, no fundo, com uma pilha pequena de moedas contra uma grande.  _(cap. 01)_
@@ -287,4 +297,7 @@ script, e rode `campanha.py mundo`.)_
 - **23/10/2026 12:38** · _lugar_ — Sala redonda de pedra, sem janelas. Fonte no meio, buraco no teto acima dela, escada de mão que sobe. Cela apertada no canto superior esquerdo com um meio-elfo preso.  _(cap. 01)_
 - **23/10/2026 12:39** · _lugar_ — ERRATA: a sala é QUADRADA (não redonda). Sem janelas; fonte redonda no meio, buraco no teto acima dela, escada de mão que sobe; cela apertada no canto superior esquerdo com um meio-elfo.  _(cap. 01)_
 - **23/10/2026 12:50** · _estado_ — T41: Gorbag chegou à sala da fonte. As duas Armadura Animadas (golens de barro, alabardas) lutam no corredor; a Armadura 1 está em (7,3), a 2 em (15,1).  _(cap. 01)_
+- **24/10/2026 07:32** · _lugar_ — Andar das runas (mapa 14): buraco no meio cai na fonte do térreo; escada de chegada a nordeste, de subida a sudoeste. Krag achou uma marca riscada no piso entre a escada e o buraco (armadilha, efeito desconhecido) e conhece um caminho seguro rente à parede.  _(cap. 01)_
+- **24/10/2026 11:53** · _lugar_ — Andar das runas: a marca no piso é uma laje encantada e ativa (Detecção de Magia de Tann'athar), efeito desconhecido. O grupo atravessou pelo caminho seguro de Krag até a escada sudoeste, que sobe.  _(cap. 01)_
+- **24/10/2026 11:57** · _lugar_ — ERRATA (Mestre): só a fonte do térreo tem mana muito alta; o resto da torre é de mana baixa (−5, só magos lançam).  _(cap. 01)_
 <!-- /indice:mundo -->

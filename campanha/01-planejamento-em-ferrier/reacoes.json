@@ -191,7 +191,135 @@
       "local": "Casa de apostas, mercado de Ferrier",
       "quando": "15/10/2026 22:22",
       "atencao": "ficha de Sae'Varyn: «+2 (Carisma/Aparência); -3 sádico/renegado conhecido» — confira se a parte condicional vale aqui"
+    },
+    {
+      "npc": "Faelar Lírio-Branco",
+      "pj": "Gorbag, o Moedor",
+      "dados": [
+        3,
+        2,
+        5
+      ],
+      "mod": -5,
+      "total": 5,
+      "faixa": "Ruim",
+      "peso": "nota",
+      "texto": "O NPC não se importa com os PCs e agirá contra eles se isto lhe trouxer algum benefício.",
+      "conta": "3d [3, 2, 5] = 10 - 5 = 5",
+      "detalhe": [
+        "-5 ficha de Gorbag, o Moedor"
+      ],
+      "contexto": "ajuda",
+      "local": "Torre do Grã-Mago, andar do prisioneiro",
+      "quando": "24/10/2026 18:19",
+      "atencao": "ficha de Gorbag, o Moedor: «-5; -3 sádico conhecido» — confira se a parte condicional vale aqui"
+    },
+    {
+      "npc": "Faelar Lírio-Branco",
+      "pj": "Urzog, o Bigorna",
+      "dados": [
+        3,
+        1,
+        6
+      ],
+      "mod": -3,
+      "total": 7,
+      "faixa": "Fraca",
+      "peso": "nota",
+      "texto": "O NPC não se deixará impressionar. Pode se tornar hostil se isso lhe der lucro grande ou houver pouco perigo.",
+      "conta": "3d [3, 1, 6] = 10 - 3 = 7",
+      "detalhe": [
+        "-3 ficha de Urzog, o Bigorna"
+      ],
+      "contexto": "ajuda",
+      "local": "Torre do Grã-Mago, andar do prisioneiro",
+      "quando": "24/10/2026 18:19"
+    },
+    {
+      "npc": "Faelar Lírio-Branco",
+      "pj": "Krag Trilhanegra",
+      "dados": [
+        3,
+        3,
+        4
+      ],
+      "mod": -2,
+      "total": 8,
+      "faixa": "Fraca",
+      "peso": "nota",
+      "texto": "O NPC não se deixará impressionar. Pode se tornar hostil se isso lhe der lucro grande ou houver pouco perigo.",
+      "conta": "3d [3, 3, 4] = 10 - 2 = 8",
+      "detalhe": [
+        "-2 ficha de Krag Trilhanegra"
+      ],
+      "contexto": "ajuda",
+      "local": "Torre do Grã-Mago, andar do prisioneiro",
+      "quando": "24/10/2026 18:19"
+    },
+    {
+      "npc": "Faelar Lírio-Branco",
+      "pj": "Pumba'h Fed",
+      "dados": [
+        6,
+        6,
+        1
+      ],
+      "mod": -1,
+      "total": 12,
+      "faixa": "Neutra",
+      "peso": "calado",
+      "texto": "O NPC ignora os personagens tanto quanto possível. Está totalmente desinteressado.",
+      "conta": "3d [6, 6, 1] = 13 - 1 = 12",
+      "detalhe": [
+        "-1 ficha de Pumba'h Fed"
+      ],
+      "contexto": "ajuda",
+      "local": "Torre do Grã-Mago, andar do prisioneiro",
+      "quando": "24/10/2026 18:19"
+    },
+    {
+      "npc": "Faelar Lírio-Branco",
+      "pj": "Sae'Varyn",
+      "dados": [
+        3,
+        1,
+        1
+      ],
+      "mod": 2,
+      "total": 7,
+      "faixa": "Fraca",
+      "peso": "nota",
+      "texto": "O NPC não se deixará impressionar. Pode se tornar hostil se isso lhe der lucro grande ou houver pouco perigo.",
+      "conta": "3d [3, 1, 1] = 5 + 2 = 7",
+      "detalhe": [
+        "+2 ficha de Sae'Varyn"
+      ],
+      "contexto": "ajuda",
+      "local": "Torre do Grã-Mago, andar do prisioneiro",
+      "quando": "24/10/2026 18:19",
+      "atencao": "ficha de Sae'Varyn: «+2 (Carisma/Aparência); -3 sádico/renegado conhecido» — confira se a parte condicional vale aqui"
+    },
+    {
+      "npc": "Faelar Lírio-Branco",
+      "pj": "Tann'athar Goras",
+      "dados": [
+        1,
+        6,
+        5
+      ],
+      "mod": 2,
+      "total": 14,
+      "faixa": "Boa",
+      "peso": "nota",
+      "texto": "O NPC gosta dos personagens e será prestativo dentro do razoável.",
+      "conta": "3d [1, 6, 5] = 12 + 2 = 14",
+      "detalhe": [
+        "+2 ficha de Tann'athar Goras"
+      ],
+      "contexto": "informacao",
+      "local": "Torre do Grã-Mago, andar do prisioneiro",
+      "quando": "25/10/2026 00:13"
     }
   ],
-  "local": "Casa de apostas, mercado de Ferrier"
+  "local": "Torre do Grã-Mago, andar do prisioneiro"
 }
