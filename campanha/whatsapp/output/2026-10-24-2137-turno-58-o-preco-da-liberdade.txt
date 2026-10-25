@@ -1,0 +1,16 @@
+*TURNO 58 — O PREÇO DA LIBERDADE*
+
+Sae'Varyn se inclina até as grades e fala devagar, a voz fria, sem levantar o tom: se o libertarem e ele os trair, vai sugar a vida do elfo até secar, e depois os amigos o estripam enquanto ele aprecia os gritos. Krag solta o cão: Farejo encosta o focinho nas barras e rosna baixo, de dentes à mostra. Faelar encolhe o corpo contra o fundo da gaiola e fica branco; engole em seco, mas não desvia o olhar. Tann'athar, atrás dos dois, sorri de lado, vendo a cena na cabeça.
+
+Urzog dá um passo à frente e descarrega o escudo no cadeado, de ombro. O ferro estala, a gaiola inteira treme e o cadeado balança na argola. Nada se parte.
+> Escudada: acerta o cadeado (objeto parado, sem defesa)
+> Dano: 1D [2] = *2* contusão
+> RD 4 do cadeado (ferro, 6 mm) → *0 passam*
+
+Gorbag espera o resultado, grunhe e pega a maça que Sae'Varyn lhe estende. Pesa-a na mão e desce o golpe na argola do cadeado. O barulho corre pela torre inteira: a argola entorta e racha, mas ainda se segura.
+> Dano: 3D+2 +3 (maça) [3, 4, 3] = *15* contusão
+> RD 4 do cadeado → *11 passam* (12 de resistência, falta 1)
+
+O cadeado pende torto, preso por um fio de ferro. Mais um golpe, qualquer um, e ele cai. Faelar olha a lasca, depois para o grupo.
+
+O que vocês fazem?

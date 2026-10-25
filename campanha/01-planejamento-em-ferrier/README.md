@@ -2315,6 +2315,158 @@ Mas Krag para, a cabeça inclinada: há algo errado neste andar, perto da escada
 
 O que vocês fazem?
 
+### Narração 84 — 24/10/2026 07:32
+
+_T54: Krag acha a marca no piso e guia por caminho seguro; Varyn sente o mana; Tann'athar vê a escada de subida_
+
+*TURNO 54 — O ANDAR ESTRANHO*
+
+Tann'athar passa os olhos pelo andar sem sair do lugar. Nenhuma porta nas paredes de pedra nua, só o buraco no meio, que desce até a água da fonte lá embaixo, e as escadas: a que fica logo atrás deles, no canto nordeste, por onde chegaram, e outra no canto oposto, a sudoeste, do outro lado do poço, que dobra num ângulo e sobe para o andar de cima. Daqui até lá são uns quinze passos largos, rodeando a borda.
+
+Krag abaixa o corpo e lê o piso devagar, laje por laje, como lê chão de mata. A poucos passos à frente, entre o pé da escada e o poço, uma marca fina riscada na pedra brilha de leve quando ele a pega de lado. Não é arranhão de bota nem rachadura: foi feita de propósito, e ele reconhece o jeito de armadilha. Para que serve, ele não sabe dizer, mas vê por onde o chão está limpo: rente à parede, contornando a marca e a borda do buraco, há um caminho seguro até a escada do outro canto, e ele se oferece para guiar o grupo por ele.
+> Armadilhas (pré-definido DX 14 -5): NH *9*
+> 3d [1, 1, 6] = *8* → sucesso por 1
+
+Sae'Varyn fecha os olhos e escuta o andar com o corpo. A mana aqui é bem mais fraca do que a da sala da fonte lá embaixo, e parelha de um lado a outro do quadrado. Nada que ele consiga medir além disso.
+> Sensibilidade ao Mana: Aptidão Mágica 3 = 13, +3 por sentir de propósito = NH *16*
+> 3d [6, 5, 3] = *14* → sucesso por 2
+
+Gorbag e Urzog colam em Tann'athar e esperam que ele escolha o caminho, os olhos no mesmo ponto que ele. Farejo fica rente à perna de Krag, as orelhas em pé, quieto.
+
+O que vocês fazem?
+
+### Narração 85 — 24/10/2026 11:53
+
+_T55: Detecção de Magia de Tann'athar na marca; Krag guia o grupo pelo caminho seguro até a escada sudoeste_
+
+*TURNO 55 — O CAMINHO SEGURO*
+
+Tann'athar não se fia só no olho de Krag. Fecha os olhos, estende a mão sobre a marca no piso e conjura, cinco segundos de concentração de quem lê as pedras. A laje responde: está encantada, com um desenho mágico preso nela e ativo. Que mágica é, ele não consegue dizer. Pelo caminho que Krag aponta, rente à parede, as outras lajes não respondem a nada.
+> Detecção de Magia (Tann'athar, 5 s): NH *16*
+> 3d [1, 6, 3] = *10* → sucesso por 6
+> Custo: 2 -1 (NH 16) = *1 de Fadiga*
+
+Ele abre os olhos e, olhando para Sae'Varyn, diz sem pressa: "Indique o caminho, senhor Krag. Você tem talento para armadilhas. Deixe o que for mágico conosco."
+
+Sae'Varyn espera a checagem terminar, assente uma vez e se põe atrás do meio-elfo. Krag vai à frente, abaixado, a flecha no arco e os olhos no chão, e passa a mão em cada laje antes de pôr o peso nela. Contorna a marca bem longe, desce rente à parede leste e dobra pelo lado sul do buraco. De dentro dele sobe o frio úmido da água parada lá embaixo, e os passos do grupo ecoam fundo.
+
+Urzog vai colado em Krag, pisando onde ele pisou. Gorbag segue Tann'athar com o machado de Urzog na mão, e Farejo trota rente à perna do dono, o focinho baixo. Ninguém tropeça em nada, nada se acende sob as botas e nada se move: o grupo atravessa o andar inteiro sem problema e para ao pé da escada do canto sudoeste, a que sobe.
+
+O que vocês fazem?
+
+### Narração 86 — 24/10/2026 11:59
+
+_Introdução do andar do prisioneiro: o elfo Faelar Lírio-Branco, aprendiz preso numa gaiola_
+
+*O ANDAR DO PRISIONEIRO*
+
+A escada termina num novo andar quadrado, de pedra nua, com o buraco aberto no meio e a mesma luz azul parada sobre as lajes. O ar aqui é mais pesado, e o zumbido da torre quase some dos ouvidos de quem tem sangue de mago.
+
+No canto à direita de quem sobe, encostada na parede, há uma gaiola de grades de ferro, baixa demais para um homem ficar de pé. Dentro dela, sentado de pernas encolhidas, está um elfo magro de cabelos prateados sujos de poeira, a túnica de aprendiz rasgada nos cotovelos e os pulsos esfolados por argolas de ferro. Uma tranca simples, de cadeado grosso, prende a porta da gaiola.
+
+Ele ergue a cabeça ao ouvir as botas e não grita nem se mexe, só olha, com olhos de quem já esperou demais. Quando vê o grupo inteiro, a voz sai rouca, baixa, de quem gasta pouco ar:
+
+— Não sou da guarda dele. Chamo-me *Faelar Lírio-Branco*, fui aprendiz do Grã-Mago e me trancaram aqui por dizer que não. Se me tirarem daqui, conto o que sei. Ele não vai demorar a descer.
+
+Do buraco no meio do andar sobe, longe, o pingar lento da água.
+
+O que vocês fazem?
+
+### Narração 87 — 24/10/2026 18:22
+
+_Turno 56: chaves não servem, Faelar responde e guarda o segredo, mana da fonte sentida_
+
+*TURNO 56 — O PRISIONEIRO DA GAIOLA*
+
+Krag se abaixa diante da gaiola e prova, uma a uma, as chaves do molho que Urzog lhe estende. São chaves de estalagem, finas e gastas, e o cadeado de ferro grosso nem as aceita direito: nenhuma gira, nenhuma sequer entra até o fim. Ele sacode a cabeça, calado, e devolve o molho.
+
+Gorbag se curva até o elfo, a sombra enorme cobrindo a gaiola, e pergunta se o orelhudo pode ajudar a achar a espada necromante. Faelar encolhe as pernas contra o peito, mas sustenta o olhar. "Sei de que espada fala, e sei onde ele a guarda. Digo tudo no minuto em que eu estiver fora desta caixa. Antes, não."
+
+Sae'Varyn cochicha no ouvido de Tann'athar para que ele veja se o prisioneiro mente, e depois fala em voz baixa e seca. O elfo responde sem pressa, medindo cada palavra: o Grã-Mago pratica as escolas da Mente, do Corpo, do Movimento e a do Encantamento, que ele tem por maior, e foi ela que ergueu a torre. A ele, o aprendiz, ensinou Luz, Reparar e as palavras do Sono, nunca as que importam. Nasceu entre os elfos das matas ao norte de Caithness. E tem outra utilidade: conhece a rotina do mestre, as escadas e os andares que se repetem. Tann'athar o escuta de olhos semicerrados. A voz soa firme, o olhar não foge, mas ele não tem como cravar se é a verdade inteira ou só a parte conveniente.
+
+Depois Tann'athar fecha os olhos e escuta o andar com o corpo, voltado para o poço. A mana daqui é fraca e parelha. Mais embaixo, lá no fim do buraco, onde a água pinga, ela sobe de novo, grossa e viva, igual à da fonte da sala por onde começaram. É a mesma fonte, e a torre inteira respira em cima dela.
+> Sensibilidade ao Mana: Aptidão Mágica 3 = 13, +3 por sentir de propósito = NH *16*
+> 3d [2, 1, 2] = *5* → *SUCESSO DECISIVO* (por 11)
+
+Urzog fica colado em Gorbag, com o molho nas mãos enormes, e não sai de onde ele está. Farejo cheira as grades de focinho baixo, o rabo parado.
+
+O que vocês fazem?
+
+### Narração 88 — 24/10/2026 20:45
+
+_Turno 57: Krag falha no cadeado, Varyn oferece a maça a Gorbag_
+
+*TURNO 57 — O CADEADO TEIMOSO*
+
+Krag se ajoelha de novo diante da gaiola, enfia a ponta da faca no buraco do cadeado e tenta o que sabe de fechaduras, que não é muito. Os pinos arranham o ferro, nada cede, e a lâmina escorrega duas vezes. Ele puxa a faca com um muxoxo: o cadeado é grosso e não é para quem não tem ofício.
+> Arrombamento: sem a perícia, pré-definido IQ-5 (IQ 11) = NH *6*
+> 3d [3, 1, 6] = *10* → *FALHA* por 4
+
+Gorbag cruza os braços e avisa que não vai quebrar o machado em cadeado outra vez. Pede que alguém ache outra coisa para quebrar aquilo. Sae'Varyn, sem pressa, solta a maça do cinto e a oferece pelo cabo: Gorbag pode usá-la, desde que a devolva depois.
+
+Tann'athar se vira para os dois e fala baixo. Até onde ouviu, o prisioneiro diz a verdade, pelo menos sobre o que disse. E há mais: a fonte lá embaixo é a mesma de cima a baixo, e parece ser o alicerce mágico da torre inteira. Pergunta, com a polidez de sempre, se o senhor Varyn faria a gentileza de lhe restaurar a energia. Varyn, com a maça estendida, ainda não responde.
+
+Urzog não se afasta de Gorbag. Farejo fareja a gaiola em volta, devagar, sem rosnar. Dentro das grades, Faelar acompanha tudo de olhos grandes e não diz nada.
+
+O que vocês fazem?
+
+### Narração 89 — 24/10/2026 21:37
+
+_Turno 58: ameaça a Faelar, cadeado quase rompido pela maça de Gorbag_
+
+*TURNO 58 — O PREÇO DA LIBERDADE*
+
+Sae'Varyn se inclina até as grades e fala devagar, a voz fria, sem levantar o tom: se o libertarem e ele os trair, vai sugar a vida do elfo até secar, e depois os amigos o estripam enquanto ele aprecia os gritos. Krag solta o cão: Farejo encosta o focinho nas barras e rosna baixo, de dentes à mostra. Faelar encolhe o corpo contra o fundo da gaiola e fica branco; engole em seco, mas não desvia o olhar. Tann'athar, atrás dos dois, sorri de lado, vendo a cena na cabeça.
+
+Urzog dá um passo à frente e descarrega o escudo no cadeado, de ombro. O ferro estala, a gaiola inteira treme e o cadeado balança na argola. Nada se parte.
+> Escudada: acerta o cadeado (objeto parado, sem defesa)
+> Dano: 1D [2] = *2* contusão
+> RD 4 do cadeado (ferro, 6 mm) → *0 passam*
+
+Gorbag espera o resultado, grunhe e pega a maça que Sae'Varyn lhe estende. Pesa-a na mão e desce o golpe na argola do cadeado. O barulho corre pela torre inteira: a argola entorta e racha, mas ainda se segura.
+> Dano: 3D+2 +3 (maça) [3, 4, 3] = *15* contusão
+> RD 4 do cadeado → *11 passam* (12 de resistência, falta 1)
+
+O cadeado pende torto, preso por um fio de ferro. Mais um golpe, qualquer um, e ele cai. Faelar olha a lasca, depois para o grupo.
+
+O que vocês fazem?
+
+### Narração 90 — 25/10/2026 05:23
+
+_Turno 59: Gorbag rompe o cadeado, Faelar sai da gaiola e conta a Tann'athar por que caiu_
+
+*TURNO 59 — A GAIOLA ABERTA*
+
+Gorbag não espera: planta o braço na frente de Urzog, empurra o orc para trás com o ombro e desce a maça de Sae'Varyn na argola torta antes que o outro chegue com o escudo. O fio de ferro estala, o cadeado salta e rola pelo piso até parar contra uma bota. A porta da gaiola cede para fora, com um rangido comprido.
+> Dano: 3D+2 +3 (maça) [4, 2, 3] = *14* contusão
+> RD 4 do cadeado → *10 passam* (falta 1 dos 12 de resistência) → *cadeado ROMPIDO*
+
+Urzog já vinha com o ombro armado para o golpe e só encontra o ar e a costa larga de Gorbag. Rosna, baixa o escudo e fica onde está, de olho no ogro.
+
+Krag se curva diante da porta aberta e fala seco: o elfo vai com eles atrás da espada, depois de solto. Faelar passa a mão pelo pulso, hesita na soleira e responde só o que cabe: que primeiro precisa de ar e de chão firme, e que depois a gente vê. Farejo se aproxima, fareja a barra da túnica dele e não rosna.
+
+Tann'athar chega mais perto e pergunta, quase em sussurro, o que o fez cair em desgraça com o Grã-Mago. Faelar o olha um momento, sai de quatro da gaiola, e é a ele que responde, a voz baixa: foi pego de noite na escrivaninha de Orvin, folheando o livro das palavras que o mestre nunca lhe ensinou. Orvin não gritou; mandou trancá-lo ali "até a curiosidade passar". Já faz mais tempo do que ele consegue contar.
+
+Sae'Varyn espera de braços cruzados, sem se mexer, os olhos frios no elfo que se levanta.
+
+O que vocês fazem?
+
+### Narração 91 — 25/10/2026 07:28
+
+_Faelar agradece e oferece uma dica sobre um de três andares acima: experimentos, cofre ou aposentos de Orvin_
+
+*A DÍVIDA DE FAELAR*
+
+Faelar fica de pé no meio do andar e estica as costas devagar, como quem esqueceu como se faz. Olha a gaiola aberta, o cadeado torto no piso, depois um por um para os rostos em volta. Esfrega os pulsos magros e, por fim, inclina a cabeça: "Eu devia isto a vocês. Não vou fingir que não devo."
+
+Ele afasta uma mecha do cabelo claro e baixa a voz, de ouvido atento à escada. Acima deste andar restam três lugares que valem a pena conhecer: a sala onde Orvin faz os seus experimentos, a câmara onde ele guarda o cofre, e os aposentos onde ele dorme. Dos três, Faelar conhece bem as entranhas.
+
+"Posso dar uma dica sobre um deles, uma só, pela minha liberdade. Escolham com cuidado: não tenho fôlego para mais. Qual vocês querem?"
+
+Farejo senta aos pés de Krag e olha o elfo sem rosnar. Sae'Varyn, de braços cruzados, espera a resposta do grupo.
+
+O que vocês fazem?
+
 ## Acontecimentos
 
 <!-- indice:acontecimentos -->
@@ -2410,4 +2562,15 @@ O que vocês fazem?
 - **23/10/2026 22:04** — TURNO 48 (roll6) — Tann'athar, na fonte (mana muito alta), improvisa Dissipar Escuridão a partir de Luz com -5 (ordem do Mestre): Luz NH 16-5 = 11, 3d 9, sucesso por 2 (falhar seria falha crítica): a escuridão mágica acaba. Sem custo de Fadiga. Urzog entrega o machado a Gorbag. Krag rumo à torre; Varyn manda Tann'athar prosseguir.
 - **23/10/2026 23:58** — TURNO 49 (roll6) — Banho de mana na fonte (mana muito alta, sem custo de Fadiga), 5 segundos, uma mágica por mago por segundo (ordem do Mestre): Varyn Cura Profunda NH16 em Gorbag (3d 9), Tann'athar (3d 12) e Farejo (3d 9); Escudo NH17 em si (3d 8) e no Farejo (3d 6, decisivo). Tann'athar Bravura NH16 em área (3d 12) e Escudo NH18 em Gorbag (3d 11), Urzog (3d 10), Krag (3d 9) e si (3d 12). Todos com Escudo +5 DP por 1 minuto e Bravura por 1 hora.
 - **24/10/2026 00:09** — [narração 81] Andar das runas: testes de detecção e Detecção de Magia de Varyn e Tann'athar
+- **24/10/2026 07:32** — TURNO 54 (roll6, mapa 14, andar das runas) — Tann'athar olhou em volta: sem portas, buraco no meio até a fonte, escada de subida a sudoeste (sem teste). Krag procurou armadilhas (Armadilhas pré-definido DX-5 = 9, 3d 8, sucesso por 1): achou a marca riscada no piso entre a escada e o poço, efeito desconhecido, e guia por caminho seguro rente à parede. Sae'Varyn Sensibilidade ao Mana (Aptidão 3 = 13 +3 = 16, 3d 14, sucesso por 2): mana menor que na fonte. Gorbag e Urzog seguem Tann'athar (ninguém andou). Farejo ao lado de Krag.
+- **24/10/2026 11:53** — TURNO 55 (roll6, mapa 14) — Tann'athar conjurou Detecção de Magia (NH 16, 3d 10, sucesso por 6; custo 2-1 = 1 de Fadiga) na marca do piso: laje encantada e ativa, efeito desconhecido; o caminho de Krag não responde. Krag guiou o grupo por caminho seguro (sem novo teste, ordem do Mestre); o grupo atravessou o andar sem problema até a escada sudoeste, que sobe (peças movidas: Krag 3,11; Farejo 4,11; Tann'athar 3,12; Urzog 4,12; Gorbag 4,13; Varyn 3,13).
+- **24/10/2026 11:57** — ERRATA (Mestre) T55: só a mana da fonte do térreo é muito alta; o resto da torre é de mana BAIXA (−5 nas mágicas, só magos lançam). Plano (2a/2b) e ambiente.md corrigidos. Efeito no T55: Detecção de Magia de Tann'athar NH 16 −5 = 11, mesmo dado 3d [1,6,3] = 10, continua SUCESSO, agora por 1 (não por 6); custo de Fadiga igual (1). Narração 85 traz NH 16 e margem 6, que ficam substituídos por esta errata.
+- **24/10/2026 11:59** — [narração 86] Introdução do andar do prisioneiro: o elfo Faelar Lírio-Branco, aprendiz preso numa gaiola
+- **24/10/2026 18:19** — Testes de reação em Torre do Grã-Mago, andar do prisioneiro: Faelar Lírio-Branco→Gorbag, o Moedor Ruim (5); Faelar Lírio-Branco→Urzog, o Bigorna Fraca (7); Faelar Lírio-Branco→Krag Trilhanegra Fraca (8); Faelar Lírio-Branco→Sae'Varyn Fraca (7). Outras 1 neutras.
+- **24/10/2026 18:22** — TURNO 56 (roll6, mapa 14, andar do prisioneiro) — Krag provou o molho de 12 chaves de Perrin na gaiola de Faelar: nenhuma serve (decisão do Mestre, sem rolagem). Gorbag perguntou pela espada: Faelar só fala depois de solto. Sae'Varyn interrogou Faelar (escolas de Orvin: Mente, Corpo, Movimento, Encantamento; ensinou-lhe Luz, Reparar, Sono; origem: matas ao norte de Caithness; conhece rotina e andares). Tann'athar Detecção de Mentiras NH 15 vs IQ 13: 10 x 8, empate, sem como saber. Sensibilidade ao Mana NH 16, 3d 5, decisivo: mana baixa aqui, muito alta no fim do poço (a mesma fonte do térreo). Urzog segue Gorbag. Reações de Faelar (locais): todas Fraca/Ruim, não acompanharia o grupo.
+- **24/10/2026 20:45** — TURNO 57 (roll6, mapa 14) — Krag tentou arrombar o cadeado de Faelar: Arrombamento pré-definido IQ-5 = NH 6, 3d 10, falha por 4. Gorbag recusou quebrar o machado em cadeado e pediu outra coisa; Sae'Varyn ofereceu a maça, com devolução (Gorbag ainda não aceitou). Tann'athar relatou que Faelar parece dizer a verdade (Detecção empatada) e que a fonte é o alicerce mágico da torre; pediu a Varyn que restaurasse sua energia (sem resposta nem lançamento). Urzog segue Gorbag.
+- **24/10/2026 21:37** — TURNO 58 (roll6, mapa 14) — Sae'Varyn ameaçou Faelar (sugar a vida e estripar se trair); Krag fez Farejo rosnar; Tann'athar sorriu. Urzog escudada no cadeado: 1D=2 contra RD 4, nada passa. Gorbag, com a maça emprestada de Sae'Varyn (Balanço 3D+2 +3 = 15, RD 4, 11 passam de 12): cadeado quase rompido, falta 1 ponto. Dados do cadeado por decisão de narrador: placa de ferro 6 mm, RD 4, PV 12 (MB, objetos).
+- **25/10/2026 00:13** — Testes de reação em Torre do Grã-Mago, andar do prisioneiro: Faelar Lírio-Branco→Tann'athar Goras Boa (14).
+- **25/10/2026 05:23** — TURNO 59 (roll6) — Gorbag, agindo antes de Urzog, rompe o cadeado da gaiola de Faelar com a maça de Sae'Varyn: 3D+2 +3 = 14, RD 4, 10 passam (total 21 de 12). Urzog não chega a golpear. Krag diz a Faelar que ele irá com o grupo atrás da espada; Faelar não se compromete. Tann'athar pergunta por que Faelar caiu em desgraça: reação Boa (local), e ele conta que foi pego folheando o grimório de Orvin e preso 'até a curiosidade passar'. Sae'Varyn espera.
+- **25/10/2026 07:28** — [narração 91] Faelar agradece e oferece uma dica sobre um de três andares acima: experimentos, cofre ou aposentos de Orvin
 <!-- /indice:acontecimentos -->

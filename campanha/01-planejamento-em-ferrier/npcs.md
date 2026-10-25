@@ -106,3 +106,8 @@ _(o que de fato aconteceu com estes NPCs durante o jogo — ferimento que ficou,
 - **23/10/2026 10:39** · _estado_ — Turno 39: golem de barro dentro de armadura, alabarda despreparada. 1º turno de preparo (automático) feito; falta 1 turno de Preparar (manobra) no T40. Duas ocorrências: Armadura Animada em (6,3) e Armadura Animada 2 em (15,1).
 - **23/10/2026 12:26** · _regra_ — Regra do Mestre (T40): se a armadura for projetada por Gorbag (ou outro), ela se desmonta, pois não há nada dentro. Alabardas preparadas ao fim do T40.
 - **23/10/2026 13:18** · _estado_ — T42: Armadura 1 em (7,3), alabarda despreparada (1º turno de preparo feito; T43 exige Preparar). Armadura 2 em (15,1), alabarda preparada ao fim do T42.
+
+## Faelar Lírio-Branco
+
+- **24/10/2026 18:22** · _informação_ — Preso na gaiola do andar do prisioneiro, cadeado grosso que as chaves de Perrin não abrem. Disse: Orvin pratica Mente, Corpo, Movimento e Encantamento; a ele ensinou Luz, Reparar e Sono; nasceu nas matas ao norte de Caithness. Sabe da espada e onde fica, mas só conta depois de solto. Tann'athar não conseguiu dizer se mente.
+- **25/10/2026 05:23** · _informação_ — Solto no T59. Contou a Tann'athar que foi pego de noite folheando o livro das palavras que Orvin nunca lhe ensinou, e foi trancado 'até a curiosidade passar'. Não se comprometeu a ir com o grupo (pediu ar e chão firme primeiro). Ainda não deu a informação útil nem a localização da espada.

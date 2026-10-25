@@ -1,0 +1,15 @@
+*TURNO 54 — O ANDAR ESTRANHO*
+
+Tann'athar passa os olhos pelo andar sem sair do lugar. Nenhuma porta nas paredes de pedra nua, só o buraco no meio, que desce até a água da fonte lá embaixo, e as escadas: a que fica logo atrás deles, no canto nordeste, por onde chegaram, e outra no canto oposto, a sudoeste, do outro lado do poço, que dobra num ângulo e sobe para o andar de cima. Daqui até lá são uns quinze passos largos, rodeando a borda.
+
+Krag abaixa o corpo e lê o piso devagar, laje por laje, como lê chão de mata. A poucos passos à frente, entre o pé da escada e o poço, uma marca fina riscada na pedra brilha de leve quando ele a pega de lado. Não é arranhão de bota nem rachadura: foi feita de propósito, e ele reconhece o jeito de armadilha. Para que serve, ele não sabe dizer, mas vê por onde o chão está limpo: rente à parede, contornando a marca e a borda do buraco, há um caminho seguro até a escada do outro canto, e ele se oferece para guiar o grupo por ele.
+> Armadilhas (pré-definido DX 14 -5): NH *9*
+> 3d [1, 1, 6] = *8* → sucesso por 1
+
+Sae'Varyn fecha os olhos e escuta o andar com o corpo. A mana aqui é bem mais fraca do que a da sala da fonte lá embaixo, e parelha de um lado a outro do quadrado. Nada que ele consiga medir além disso.
+> Sensibilidade ao Mana: Aptidão Mágica 3 = 13, +3 por sentir de propósito = NH *16*
+> 3d [6, 5, 3] = *14* → sucesso por 2
+
+Gorbag e Urzog colam em Tann'athar e esperam que ele escolha o caminho, os olhos no mesmo ponto que ele. Farejo fica rente à perna de Krag, as orelhas em pé, quieto.
+
+O que vocês fazem?

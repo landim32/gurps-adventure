@@ -1,0 +1,14 @@
+*TURNO 55 — O CAMINHO SEGURO*
+
+Tann'athar não se fia só no olho de Krag. Fecha os olhos, estende a mão sobre a marca no piso e conjura, cinco segundos de concentração de quem lê as pedras. A laje responde: está encantada, com um desenho mágico preso nela e ativo. Que mágica é, ele não consegue dizer. Pelo caminho que Krag aponta, rente à parede, as outras lajes não respondem a nada.
+> Detecção de Magia (Tann'athar, 5 s): NH *16*
+> 3d [1, 6, 3] = *10* → sucesso por 6
+> Custo: 2 -1 (NH 16) = *1 de Fadiga*
+
+Ele abre os olhos e, olhando para Sae'Varyn, diz sem pressa: "Indique o caminho, senhor Krag. Você tem talento para armadilhas. Deixe o que for mágico conosco."
+
+Sae'Varyn espera a checagem terminar, assente uma vez e se põe atrás do meio-elfo. Krag vai à frente, abaixado, a flecha no arco e os olhos no chão, e passa a mão em cada laje antes de pôr o peso nela. Contorna a marca bem longe, desce rente à parede leste e dobra pelo lado sul do buraco. De dentro dele sobe o frio úmido da água parada lá embaixo, e os passos do grupo ecoam fundo.
+
+Urzog vai colado em Krag, pisando onde ele pisou. Gorbag segue Tann'athar com o machado de Urzog na mão, e Farejo trota rente à perna do dono, o focinho baixo. Ninguém tropeça em nada, nada se acende sob as botas e nada se move: o grupo atravessa o andar inteiro sem problema e para ao pé da escada do canto sudoeste, a que sobe.
+
+O que vocês fazem?
