@@ -1,0 +1,10 @@
+*TURNO 76 — O ÚLTIMO NO ANDAR*
+
+Não resta mais ninguém à vista no andar dos experimentos além de Krag, que dispara rente à parede com Farejo à frente. Os outros já se foram escada acima, e só o eco dos passos lá em cima ainda desce pelos degraus. A mulher alada fica agarrada às grades, guinchando para a figura que se afasta.
+
+Do outro lado do poço, o basilisco vira a cabeça e fixa o olhar nas costas do arqueiro. Krag sente uma pontada atrás dos olhos, e nada além disso.
+> Olhar do basilisco: NH 16 −11 (11 hexágonos de distância) = *5*
+> 3d [3, 6, 6] = *15* → falhou por 10
+> Sem dano. Krag sente só uma leve dor de cabeça.
+
+O que vocês fazem?

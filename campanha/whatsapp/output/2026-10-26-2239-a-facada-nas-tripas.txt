@@ -1,0 +1,37 @@
+*A FACADA NAS TRIPAS*
+
+Krag mantém a flecha encaixada e fala sem baixar o arco: "Ele vale mais vivo do que morto." Sae'Varyn não diz nada. Os olhos frios seguem o elfo suspenso, e o quase sorriso volta.
+
+Tann'athar abre os braços e começa a puxar a calma para os dois ao mesmo tempo, a voz firme demais para ser súplica: "Acalmem-se os dois, agora!" A mágica pede um segundo de concentração, e só fecha no próximo turno.
+
+Gorbag não espera. Com a faca na mão e o elfo no ar pelo pescoço, enfia a lâmina de baixo para cima, na barriga.
+> Ataque: Faca NH 16 = *16*
+> 3d [6, 2, 3] = *11* → sucesso por 5
+> Defesa de Faelar: Esquiva 5 = *5*
+> 3d [1, 4, 4] = *9* → falhou por 4
+> Dano: 1D+1 perfuração: [5] + 1 = *6*
+> RD 0 → 6 passam
+> Perfuração: ×2 depois que passar da armadura → *12*
+> Perdeu mais de HT/2 (5): teste de HT 10 para não cair, 3d [4, 4, 2] = *10* → de pé; *ATORDOADO* (−4 nas defesas e teste de HT para se recuperar no próximo turno)
+> *Faelar perde 12 pontos de vida.*
+
+Urzog chega logo depois e enfia o pé nas costelas do elfo, que já não tem o que se desviar.
+> Ataque: Chute NH 13 (Briga−2) = *13*
+> 3d [3, 3, 2] = *8* → sucesso por 5
+> Defesa de Faelar: Esquiva 5 = *5*
+> 3d [2, 4, 6] = *12* → falhou por 7
+> Dano: 1D+1 contusão: [1] + 1 = *2*
+> RD 0 → 2 passam
+> *Faelar perde 2 pontos de vida.*
+
+O sangue escorre quente pelo punho de Gorbag. Faelar ainda levanta a mão para o antebraço do ogro, e o ar em volta fica frio, mas o frio não encontra de onde sair. Ele tenta gastar o que não tem, a vida inteira em uma só palavra.
+> Toque Mortal: 3 pontos de energia (1 de Fadiga + 2 de PV). Os 2 de PV levam Faelar a −10 PV, o negativo completo da HT 10, e a Magia (Trocando a Perda de ST por HT) exige um teste de HT para não morrer
+> Faelar: HT 10 = *10*
+> 3d [3, 6, 5] = *14* → falhou por 4
+> A energia destinada à mágica não é gasta. Faelar desmaia em vez de morrer, a mágica é interrompida e não há teste de lançamento nem dano.
+
+A mão dele escorrega do antebraço de Gorbag. A cabeça cai para o lado, e o elfo fica pendurado pelo pescoço, mole, pelo punho que ainda o segura.
+
+Farejo rosna baixo, sem tirar os olhos do ogro.
+
+O que vocês fazem?

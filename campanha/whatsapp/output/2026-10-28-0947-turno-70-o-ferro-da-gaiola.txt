@@ -1,0 +1,30 @@
+*TURNO 70 — O FERRO DA GAIOLA*
+
+Gorbag, Tann'athar e Urzog seguem rumo à escada do outro lado do andar, sem olhar para trás. Urzog anda com o rosto franzido, como quem sente um aperto estranho atrás dos olhos.
+
+Krag, preso ao olhar da mulher alada, dá um passo e chuta a porta da gaiola com toda a perna. O ferro treme e o estalo corre pelo andar, mas a barra grossa só amassa de leve.
+> Chute: Briga −2 (DX 14) = *12*
+> 3d [3, 5, 4] = *12* → sucesso por 0
+> Dano: 1D−1 contusão: [6] − 1 = *5*
+> Gaiola (barra de ferro de 1 pol): RD 3 → 2 passam; sobram 18 de 20 pontos de vida da porta
+
+O estalo faz Krag respirar mais fundo, e o ar traz o cheiro: carniça, doce e velha, vindo dela. Ele cerra o nariz, mas a mulher alada puxa o canto outra vez.
+> Olfato de Krag: IQ 11 +1 Prontidão −2 = *10*
+> 3d [3, 4, 3] = *10* → sucesso por 0
+> Sex Appeal da mulher alada (disputa rápida contra a IQ): NH 13
+> Krag, IQ 11 +4 pelo cheiro de carniça = 15: 3d [2, 1, 4] = *7* → passou por 8. Ela: 3d [1, 6, 4] = *11* → passou por 2. *Ele vence.*
+
+O encanto se parte. Krag recua um passo com a flecha na corda e os olhos de volta ao lugar. A mulher alada percebe. A voz doce vira um guincho, e ela se joga contra as grades, as asas batendo no ferro, as unhas curvas passando entre as barras.
+
+Sae'Varyn avança até a gaiola e desce o bastão no tronco dela, entre as barras. O golpe sai torto e bate no ferro.
+> Ataque: Bastão NH 11, −2 golpe pelas grades = *9*
+> 3d [6, 1, 6] = *13* → falha por 4
+
+Do outro lado do poço, o basilisco ergue a cabeça e fixa o olhar no meio-elfo, que ainda está parado perto das grades. Tann'athar sente uma pontada seca atrás dos olhos, e nada mais.
+> Olhar do basilisco: NH 16 −10 (10 hexágonos de distância) = *6*
+> 3d [1, 2, 4] = *7* → falhou por 1
+> Sem dano. Tann'athar sente só uma leve dor de cabeça.
+
+Farejo rosna sem parar ao lado de Krag, os pelos eriçados.
+
+O que vocês fazem?

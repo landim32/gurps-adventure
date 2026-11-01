@@ -1,0 +1,25 @@
+*TURNO 69 — CARNIÇA*
+
+Sae'Varyn contorna o poço com as mãos coladas nas orelhas e berra para o grupo: "Tapem os ouvidos, se não quiserem ser controlados! Temos que calar essa criatura!" Gorbag nem olha para as jaulas: "Vamos, cambada. A gente tem que achar a espada, e soltar bicho não combina com discrição." Urzog sai do lugar sem dizer nada, rumo ao canto da escada.
+
+Tann'athar aperta as mãos nos ouvidos e murmura uma mágica de proteção que não encontra nada para barrar. Mas, a um braço das grades, o vento do andar muda e traz até ele um fedor doce e podre, de carne esquecida ao sol. Vem dela. Tão perto, Krag só sente o calor das grades e o brilho dos olhos dela.
+> Olfato de Krag: IQ 11 +1 Prontidão = *12*
+> 3d [3, 6, 6] = *15* → falhou por 3
+> Olfato de Tann'athar: IQ 16 +1 Prontidão = *17*
+> 3d [6, 1, 1] = *8* → sucesso por 9
+
+A mulher alada puxa o canto outra vez, mais grave, com os olhos presos nos dois.
+> Sex Appeal da mulher alada (disputa rápida contra a IQ): NH 13
+> Krag, IQ 11: 3d [6, 5, 1] = *12* → falhou por 1. Ela: 3d [3, 4, 5] = *12* → passou por 1. *Ela vence.*
+> Tann'athar, IQ 16 +4 pelo cheiro de carniça = 20: 3d [5, 3, 6] = *14* → passou por 6. Ela: 3d [5, 3, 5] = *13* → passou por 0. *Ele vence.*
+
+Tann'athar pisca, sacode a cabeça e recua um passo da jaula, os olhos agora frios. Krag segue ali, a flecha na corda, o arco baixo, mas as mãos não sobem até o ferrolho. Algo nele não quer abrir aquela porta.
+
+Do outro lado do poço, na penumbra, o basilisco ergue a cabeça e fixa o olhar no orc que cruza o andar. Urzog sente uma pontada seca atrás dos olhos, só isso, que logo passa.
+> Olhar do basilisco: NH 16 −8 (8 hexágonos de distância) = *8*
+> 3d [4, 5, 6] = *15* → falhou por 7
+> Sem dano. Urzog sente só uma leve dor de cabeça.
+
+Farejo rosna baixo ao lado de Krag, sem se mexer.
+
+O que vocês fazem?

@@ -41,6 +41,6 @@ Os cinco personagens de [Tormento Vil](../historico/campanhas/tormento-vil/READM
 ## Histórico
 
 <!-- indice:historico -->
-- [1. Planejamento em Ferrier — como aconteceu](01-planejamento-em-ferrier/) — 15/10/2026 · 103 acontecimento(s) · 4 arquivo(s) de mesa
+- [1. Planejamento em Ferrier — como aconteceu](01-planejamento-em-ferrier/) — 15/10/2026 · 139 acontecimento(s) · 4 arquivo(s) de mesa
 - [Exportações do grupo de WhatsApp](whatsapp/)
 <!-- /indice:historico -->

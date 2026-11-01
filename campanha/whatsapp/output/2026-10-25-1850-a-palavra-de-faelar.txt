@@ -1,0 +1,16 @@
+*A PALAVRA DE FAELAR*
+
+Tann'athar fecha os olhos por um instante, escuta o elfo da escada como quem escuta uma corda afinada e acompanha cada sílaba que ele deu: o andar, o guardião de pedra, a frase dita devagar. Nada falseia. Faelar disse a verdade, e Tann'athar sabe disso.
+> Detecção de Mentiras de Tann'athar: NH 15 (ficha), sem redutores (meio-elfo, sem penalidade de espécie)
+> 3d [1, 6, 2] = *9* → sucesso por 6
+> Resistência de Faelar: IQ 14 (Disputa Rápida)
+> 3d [6, 4, 5] = *15* → falhou por 1
+> *Tann'athar vence a disputa*: a história de Faelar é verdadeira
+
+Gorbag baixa a maça um dedo e não precisa dizer nada. Sae'Varyn solta o ar, devagar, sem tirar os olhos do elfo. Urzog olha de um para o outro, coça a barriga sob o escudo e espera que alguém lhe diga o que fazer.
+
+Krag dá um passo na direção da escada e fala sem rodeio: Faelar vem com eles, para falar com o guardião de pedra. Faelar vira o rosto só o bastante para ouvir. Não desce nem sobe. "Eu dei o que prometi", responde, sem raiva. "A pedra é de vocês. Eu fico aqui, onde o chão é firme." Os olhos dele passam por Krag e pousam por um momento em Tann'athar, depois voltam ao escuro do poço.
+
+Farejo se deita de novo aos pés de Krag, com um suspiro curto.
+
+O que vocês fazem?

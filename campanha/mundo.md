@@ -19,6 +19,11 @@ script, e rode `campanha.py mundo`.)_
 - **22/10/2026 20:11** · _estado_ — Turno 33: mordido na perna por Farejo (-3 PV, 7/10) e derrubado; DX 9 é valor provisório (ficha ainda não criada).  _(cap. 01)_
 - **22/10/2026 21:29** · _morte_ — Turno 36, ordem do Mestre: morto por Gorbag com um golpe de cutelo, no estrado, caído sob o Farejo. Ferrier fica sem barão.  _(cap. 01)_
 
+### Basilisco
+
+- **31/10/2026 14:36** · _estado_ — Imune a magia (decisão do Mestre, T83/T84, lembrado por Mor'Dhaun após Naturalista passar por 4). A Bola de Fogo e qualquer outra mágica não o afetam.  _(cap. 01)_
+- **01/11/2026 01:46** · _estado_ — T84: NPC 52 no roll6 (mapNpc 101, mapa 15), PV 4. Manteve o olhar em Gorbag (mais próximo, 5 hex).  _(cap. 01)_
+
 ### Cozinha do castelo
 
 - **20/10/2026 12:25** · _informação_ — Os criados e cozinheiros ficam olhando estranho para Krag, Pumba'h e Gorbag (turno 15).  _(cap. 01)_
@@ -60,6 +65,15 @@ script, e rode `campanha.py mundo`.)_
 
 - **24/10/2026 18:22** · _informação_ — Preso na gaiola do andar do prisioneiro, cadeado grosso que as chaves de Perrin não abrem. Disse: Orvin pratica Mente, Corpo, Movimento e Encantamento; a ele ensinou Luz, Reparar e Sono; nasceu nas matas ao norte de Caithness. Sabe da espada e onde fica, mas só conta depois de solto. Tann'athar não conseguiu dizer se mente.  _(cap. 01)_
 - **25/10/2026 05:23** · _informação_ — Solto no T59. Contou a Tann'athar que foi pego de noite folheando o livro das palavras que Orvin nunca lhe ensinou, e foi trancado 'até a curiosidade passar'. Não se comprometeu a ir com o grupo (pediu ar e chão firme primeiro). Ainda não deu a informação útil nem a localização da espada.  _(cap. 01)_
+- **25/10/2026 12:08** · _informação_ — Pagou a liberdade dando ao grupo a palavra que desliga o guardião de pedra do andar do cofre: 'Anno nin i megil, mellon' (élfico, 'dê-me a espada, por favor'), dita devagar, sem raiva e sem tremer. Ouviu Orvin dizê-la sem que ele soubesse. Disse que é só isso que dá.  _(cap. 01)_
+- **25/10/2026 12:13** · _estado_ — Agradeceu e foi até a escada que desce; parou no primeiro degrau, sem descer, esperando se o grupo diz mais algo. Pode ser interrompido.  _(cap. 01)_
+- **25/10/2026 18:50** · _informação_ — T61: Tann'athar confirmou por Detecção de Mentiras (vitória por 6 contra IQ 14) que ele falou a verdade sobre o andar do cofre, o guardião de pedra e a frase. Krag exigiu que viesse; recusou sem hostilidade e fica no andar, perto da escada que desce.  _(cap. 01)_
+- **25/10/2026 20:50** · _estado_ — T62: lançou Cegar em Gorbag ao ser seguro pelo braço (NH 21 -5 mana -1 Abascanto = 15, sucesso por 7); Gorbag resistiu (HT 15 +1 Abascanto = 16, sucesso por 8), sem cegueira (errata). Fadiga 6/10 (gastou 4). PV 10/10. Criado como NPC no roll6 (mapNpcId 96) em (11,15).  _(cap. 01)_
+- **26/10/2026 07:12** · _estado_ — T63: suspenso pelo pescoço por Gorbag (segura o fôlego por 10 turnos). Chute de Urzog: -4 PV (6/10), -4 em DX e IQ no T64. Lançou Toque Mortal em Gorbag (NH 15 efetivo, 4 de dano), Fadiga 5/10. Atributos provisórios: ST 10, DX 12, HT 10, 55 kg.  _(cap. 01)_
+- **26/10/2026 20:44** · _estado_ — T64: segue suspenso (2º de 10 turnos sem ar). Toque Mortal em Gorbag com 3 pontos (NH 21-4-5-1=11, sucesso por 0): 5 de dano. Fadiga 2/10, PV 6/10. Urzog errou o chute.  _(cap. 01)_
+- **26/10/2026 22:38** · _ferimento_ — T65: facada de Gorbag na barriga (12) e chute de Urzog (2): PV -8, atordoado. Tentou Toque Mortal queimando 2 PV (-10), falhou no HT 10 (14) e desmaiou; mágica interrompida, energia não gasta. Inconsciente, segue erguido pelo pescoço (3º de 10 turnos sem ar). Fadiga 2/10.  _(cap. 01)_
+- **26/10/2026 22:42** · _morte_ — T66: MORTO. Gorbag falhou na Vontade 9 (15) e o esfaqueou inconsciente (faca, 14 de dano); morte automática por decisão do Mestre (MB, inconsciente atacado de modo letal). Peça no roll6 ainda em -8 PV até o process_turn do T66.  _(cap. 01)_
+- **27/10/2026 06:02** · _estado_ — Corpo caído em M17 (T66), sem nada de útil: Sae'Varyn revistou e Tann'athar vasculhou a cela e o andar (decisão do Mestre).  _(cap. 01)_
 
 ### Farejo
 
@@ -68,6 +82,15 @@ script, e rode `campanha.py mundo`.)_
 ### Forasteiro
 
 - **15/10/2026 18:58** · _informação_ — Decisão do Mestre: é espião da Capitã Isolda. Disciplinado, vigilante, sem magia. Notou a Aura de Sae'Varyn (turno 1) e fica de olho nele.  _(cap. 01)_
+
+### Golem de Pedra
+
+- **30/10/2026 19:45** · _estado_ — T81: obedeceu a Mor'Dhaun ('Dadno i haew!'), pulou no poço e foi DESTRUÍDO na queda até a fonte do térreo (decisão do Mestre). Não guarda mais o quarto.  _(cap. 01)_
+
+### Grumel
+
+- **27/10/2026 20:21** · _estado_ — Zumbi na gaiola pequena do 3º andar (nome dado pelo Mestre no T68). Fala, mas o mínimo e totalmente desinteressado dos PJs: 'Falo.', 'Grumel.', 'Morto.'. Não disse se tem mestre. Olha os próprios joelhos.  _(cap. 01)_
+- **01/11/2026 01:46** · _informação_ — T84: Sae'Varyn o encara e pergunta se mata a serpente; responde só 'Morto.'. Não obedeceu ao grito de Mor'Dhaun (era para o grupo, decisão do Mestre).  _(cap. 01)_
 
 ### Guarda da carroça
 
@@ -92,6 +115,15 @@ script, e rode `campanha.py mundo`.)_
 
 - **15/10/2026 18:58** · _relação_ — Foi intimidado por Gorbag no balcão (turno 1). Deu a Krag só a informação pública sobre o castelo; o resto cobra.  _(cap. 01)_
 - **15/10/2026 19:43** · _informação_ — Recebeu $100 de Krag e indicou Perrin Holt como quem recruta gente de fora para o banquete; avisou que não se cite o nome dele.  _(cap. 01)_
+
+### Mor'Dhaun
+
+- **30/10/2026 19:45** · _informação_ — T81: apresentou-se a Krag pelo corpo de Urzog ('Vaelrith Mor'Dhaun'); disse que sair é fácil, sem dar o caminho.  _(cap. 01)_
+- **31/10/2026 14:19** · _informação_ — T83: disse a Sae'Varyn que controla o zumbi Grumel, se chegar perto o bastante para vê-lo. Concentra Bola de Fogo (lança no T84, NH 16 com mana baixa); Gorbag tem Fobia de Fogo.  _(cap. 01)_
+
+### Mulher alada (harpia)
+
+- **31/10/2026 14:19** · _estado_ — T83: decisão do Mestre, o Sex Appeal dela não adianta mais; canta e se agita sem efeito.  _(cap. 01)_
 
 ### Perrin Holt
 
@@ -119,6 +151,10 @@ script, e rode `campanha.py mundo`.)_
 
 ## Grupo
 
+### Gorbag
+
+- **01/11/2026 01:46** · _estado_ — T84: preso no olhar do basilisco (contato mantido, 2D+2 por turno enquanto o basilisco o vir). PV -2: HT 15 no início de cada turno para não desmaiar. Atordoado (-4 defesas), ataca com -8.  _(cap. 01)_
+
 ### Gorbag, o Moedor
 
 - **15/10/2026 17:00** · _relação_ — É o líder do grupo (teste de Liderança, cap. 01: NH 15, tirou 13). Único a passar; os outros quatro falharam ou nem puderam jogar.  _(cap. 01)_
@@ -135,6 +171,13 @@ script, e rode `campanha.py mundo`.)_
 - **22/10/2026 20:22** · _estado_ — ERRATA T33: 11/15 PV, de pé em (31,10); -4 no ataque no T34 (ferimento do guarda 2 no braço do escudo).  _(cap. 01)_
 - **23/10/2026 17:14** · _item_ — Cutelo colossal QUEBRADO ao abrir o cadeado da cela (T47, arma barata). Fica só com o facão de desossar (1D+2 máx.) e a faca (1D+1 máx.). Retirado do inventário a pedido do Mestre.  _(cap. 01)_
 - **23/10/2026 22:04** · _item_ — Pegou o machado de Urzog (T48), com o cutelo colossal quebrado. NH com a arma de uma mão a definir pelo Mestre.  _(cap. 01)_
+- **25/10/2026 20:50** · _estado_ — T62: segura Faelar pelo braço; resistiu ao Cegar de Faelar (HT 15 +1 Abascanto = 16 contra NH 15 do lançador). NÃO ficou cego (errata: a primeira versão esqueceu o Abascanto +1 do ogro).  _(cap. 01)_
+- **26/10/2026 07:12** · _estado_ — T63: ergue Faelar pelo pescoço com uma mão (a outra segura o machado de Urzog). Levou Toque Mortal de Faelar: -4 PV (11/15), sem redutor por Hipoalgia.  _(cap. 01)_
+- **26/10/2026 20:44** · _estado_ — T64: largou o machado de Urzog no chão e sacou a faca (DX 14, sucesso por 1); golpe sai no T65. Segue com uma mão no pescoço de Faelar. Toque Mortal de Faelar: -5 PV (6/15). ERRATA/regra: sacar arma em combate de perto é manobra inteira com teste de DX (MB); sem Sacar Rápido.  _(cap. 01)_
+- **26/10/2026 22:38** · _estado_ — T65: esfaqueou Faelar (faca, 12 de dano). Faca na mão, segura o elfo inconsciente pelo pescoço. PV 6/15.  _(cap. 01)_
+- **26/10/2026 22:42** · _estado_ — T66: falhou na Vontade 9 (15) e matou Faelar a facadas, inconsciente. Faca suja de sangue, ainda segura o corpo pelo pescoço.  _(cap. 01)_
+- **27/10/2026 13:17** · _item_ — T67: devolveu a maça a Sae'Varyn.  _(cap. 01)_
+- **30/10/2026 14:14** · _informação_ — Achou a espada no baú de madeira escura (T79); não a pegou, decide no T80.  _(cap. 01)_
 
 ### Krag Trilhanegra
 
@@ -154,6 +197,13 @@ script, e rode `campanha.py mundo`.)_
 - **22/10/2026 16:50** · _estado_ — Turno 28: Ataque Total com o arco (errata do Mestre), errou o guarda 87; sem defesa ativa até o T29, sem flecha encaixada, mira perdida. Em (27,16).  _(cap. 01)_
 - **22/10/2026 16:53** · _estado_ — ERRATA turno 28: acertou o guarda 87 na cabeça (Ataque Total, sem Tiro Rápido). Sem defesa ativa até o T29, sem flecha encaixada, mira perdida.  _(cap. 01)_
 - **22/10/2026 17:57** · _estado_ — Turno 29: flecha encaixada (Sacar Rápido) e Apontar no guarda 2 (1º turno de mira); volta para (28,15) (Apontar deixa 2 hex).  _(cap. 01)_
+- **27/10/2026 20:21** · _estado_ — T68: perdeu a disputa de Sex Appeal da mulher alada (IQ 11 contra NH 13) e foi até as grades dela, em (14,14).  _(cap. 01)_
+- **28/10/2026 07:24** · _estado_ — Continua encantado pela mulher alada (perdeu o Sex Appeal no T69): não quer abrir a jaula dela.  _(cap. 01)_
+- **28/10/2026 09:47** · _estado_ — Livre do encanto da mulher alada (T70): venceu o Sex Appeal com +4 do cheiro de carniça. Ela ficou agressiva.  _(cap. 01)_
+- **28/10/2026 18:17** · _estado_ — T71: atirou a flecha encaixada na mulher alada; arco sem flecha encaixada.  _(cap. 01)_
+- **29/10/2026 09:00** · _ferimento_ — T72: levou 8 PV do olhar do basilisco (6/14).  _(cap. 01)_
+- **29/10/2026 10:18** · _estado_ — T73: leve dor de cabeça do olhar do basilisco (sem dano).  _(cap. 01)_
+- **29/10/2026 10:38** · _estado_ — T76: leve dor de cabeça do olhar do basilisco (sem dano).  _(cap. 01)_
 
 ### Pumba'h Fed
 
@@ -182,11 +232,25 @@ script, e rode `campanha.py mundo`.)_
 - **21/10/2026 14:32** · _estado_ — Turno 22: andou pela passagem estreita até (4,15) rumo à carroça; não deu a ordem ao zumbi (decisão do Mestre).  _(cap. 01)_
 - **22/10/2026 10:57** · _estado_ — Turno 24: em (2,22), lá fora, rumo à carroça; ainda faltam turnos (chega no fim do T27, decisão do Mestre) antes de dar a ordem ao zumbi.  _(cap. 01)_
 - **23/10/2026 12:50** · _item_ — T41: perdeu o servo Zumbi (Paravotto), destruído pela Armadura Animada 2 no escuro. Para outro zumbi, precisa lançar Zumbi de novo em outro cadáver.  _(cap. 01)_
+- **27/10/2026 13:17** · _item_ — T67: recuperou a maça (Gorbag devolveu); achou molho de chaves de ferro (jaulas do andar dos experimentos) e gema de 2 pontos de energia DESCARREGADA.  _(cap. 01)_
+- **29/10/2026 10:32** · _estado_ — T74: leve dor de cabeça do olhar do basilisco (sem dano).  _(cap. 01)_
+
+### Tann'athar
+
+- **01/11/2026 01:46** · _estado_ — T84: concentra Lealdade sobre a harpia (NH 13 com mana baixa, sucesso por 1); 2 s, fecha no fim do T85; custo 6 de Fadiga e resistência IQ da harpia rolados então.  _(cap. 01)_
 
 ### Tann'athar Goras
 
 - **23/10/2026 15:46** · _relação_ — Contou ao grupo: a espada está na caixa de ferro negro, num pedestal de granito, na Câmara do Cofre perto do topo da torre, logo abaixo do quarto de Orvin; porta de ferro com fechadura mágica (Rouxinol); armadilha de peso (~12 kg) sela a sala; Orvin dorme leve; os andares mudam. Pede para ser libertado da cela.  _(cap. 01)_
 - **23/10/2026 15:47** · _regra_ — ERRATA do Mestre: Tann'athar NÃO fala da armadilha do pedestal nem do contrapeso; só diz onde está a espada (Câmara do Cofre, perto do topo, caixa de ferro negro no centro da sala, porta de ferro com fechadura mágica), que Orvin dorme leve e que os andares mudam. Vale a Narração 77; substitui a 76.  _(cap. 01)_
+- **26/10/2026 07:12** · _estado_ — T63: concentra Lealdade em Faelar (2 s). A rolagem e a resistência de IQ de Faelar saem no T64; o custo de Fadiga só se paga ao fechar.  _(cap. 01)_
+- **26/10/2026 20:44** · _estado_ — T64: desistiu da Lealdade em Faelar antes de lançar; sem custo de Fadiga.  _(cap. 01)_
+- **26/10/2026 22:38** · _estado_ — T65: concentra Controle de Emoções (área raio 2 centrada em Faelar, 4 de Fadiga ao fechar). Rolagem NH 17-5-1=11 no T66.  _(cap. 01)_
+- **27/10/2026 13:17** · _item_ — T67: achou uma vara de madeira de 1,5 m (de cutucar bicho nas gaiolas), serve de bastão.  _(cap. 01)_
+- **27/10/2026 20:21** · _estado_ — T68: perdeu a disputa de Sex Appeal da mulher alada (IQ 16 contra NH 13, ela passou por 2 contra 1) e foi até as grades dela, em (14,13).  _(cap. 01)_
+- **28/10/2026 09:47** · _estado_ — Leve dor de cabeça do olhar do basilisco (T70), sem dano.  _(cap. 01)_
+- **28/10/2026 18:17** · _estado_ — T71: segue com leve dor de cabeça (olhar do basilisco, falhou).  _(cap. 01)_
+- **29/10/2026 10:35** · _estado_ — T75: leve dor de cabeça do olhar do basilisco (sem dano).  _(cap. 01)_
 
 ### Urzog, o Bigorna
 
@@ -208,8 +272,19 @@ script, e rode `campanha.py mundo`.)_
 - **22/10/2026 12:27** · _estado_ — Turno 27: golpeou a Cozinheira (morreu). Machado DESPREPARADO: Prepara no T28, ataca no T29.  _(cap. 01)_
 - **22/10/2026 16:50** · _estado_ — Turno 28: entrou na cozinha (11,11); machado ainda despreparado (decisão do Mestre).  _(cap. 01)_
 - **23/10/2026 22:04** · _item_ — Entregou o machado a Gorbag (T48, a pedido dele); está desarmado.  _(cap. 01)_
+- **27/10/2026 06:02** · _item_ — Recuperou o machado (Gorbag o devolveu, T66).  _(cap. 01)_
+- **28/10/2026 07:24** · _estado_ — Leve dor de cabeça do olhar do basilisco (T69), sem dano.  _(cap. 01)_
+- **30/10/2026 17:35** · _ferimento_ — POSSUÍDO PERMANENTEMENTE por Vaelrith Mor'Dhaun (T80): o necromante controla o corpo, usa a voz e a vontade dele; só sai por exorcismo; dano em Urzog força o Mor'Dhaun a testar HT contra o mesmo dano. Empunha a espada de pedra roxa.  _(cap. 01)_
 
 ## Lugares e coisas
+
+### Andar dos experimentos
+
+- **27/10/2026 13:17** · _lugar_ — 3º andar acima da fonte: poço no meio até a fonte do térreo; gaiolas soltas no piso. Perto da escada: gaiola pequena vazia e gaiola com mulher alada (olhar sedutor). Do outro lado: gaiola grande com ave de 3 m, gaiola com zumbi sentado que FALA ('Falo.', sem empolgação; magos estranham) e gaiola com serpente de ~1 m.  _(cap. 01)_
+- **27/10/2026 20:21** · _lugar_ — T68: a mulher alada seduz o grupo (cantarola, olhar demorado); Krag e Tann'athar perderam e foram até as grades dela (15,13). A boca da escada que sobe fica no canto oposto. O zumbi se chama Grumel.  _(cap. 01)_
+- **31/10/2026 05:18** · _lugar_ — ERRATA (Mestre, T82): o poço no meio é um buraco sem água; a água só está na fonte do térreo, 2 andares abaixo. O grupo chegou pela escada do canto superior direito (T82).  _(cap. 01)_
+- **31/10/2026 05:18** · _lugar_ — T82: o golem de pedra destruído não está neste andar; caiu até a fonte do térreo.  _(cap. 01)_
+- **31/10/2026 14:19** · _lugar_ — T83: decisão do Mestre, não há espelho (nem metal polido) no andar.  _(cap. 01)_
 
 ### Armadura Animada
 
@@ -258,10 +333,21 @@ script, e rode `campanha.py mundo`.)_
 ### Efeitos mágicos do grupo
 
 - **23/10/2026 23:58** · _estado_ — T49: todos os seis (Gorbag, Krag, Sae'Varyn, Tann'athar, Urzog, Farejo) com Escudo +5 DP por 1 minuto (e o Farejo com sucesso decisivo) e Bravura por 1 hora (IQ para evitar a bravura quando a situação pede cautela). Curas feitas: Gorbag 15/15, Tann'athar 11/11, Farejo 15/15.  _(cap. 01)_
+- **31/10/2026 14:19** · _estado_ — T83: por ordem do Mestre, Escudo +5 DP e Bravura do T49 acabaram e saíram do status de todos.  _(cap. 01)_
 
 ### Escuridão mágica
 
 - **23/10/2026 22:04** · _estado_ — Dissipada por Tann'athar na fonte do térreo (T48, Luz improvisada com -5, sucesso por 2). O -9 em visão acabou para todos.  _(cap. 01)_
+
+### Gaiola da mulher alada
+
+- **28/10/2026 09:47** · _estado_ — Porta (barra de ferro, RD 3, 20 PV) com 18/20 depois do chute de Krag no T70. Quando chegar a 0, a gaiola abre.  _(cap. 01)_
+- **28/10/2026 18:17** · _estado_ — T71: a mulher alada levou flecha de Krag no tronco (-6 PV, 8/14 estimado; -6 no próximo turno). Porta segue com 18/20 PV.  _(cap. 01)_
+
+### Golem de Pedra
+
+- **29/10/2026 11:04** · _estado_ — Guarda o quarto com a porta de ferro antiga no andar 1 da torre (mapa 14). Avançou contra o grupo ao vê-los. NPC 51 no roll6, PV 30, DP 2/RD 4, punhos 2D-1.  _(cap. 01)_
+- **29/10/2026 11:39** · _estado_ — Obedeceu à senha de Faelar: parou, abriu a porta de ferro e ficou parado ao lado dela. Não ataca o grupo enquanto valer a senha.  _(cap. 01)_
 
 ### Gota Seca
 
@@ -286,6 +372,12 @@ script, e rode `campanha.py mundo`.)_
 
 - **16/10/2026 17:57** · _lugar_ — Visto da entrada: cisterna aberta no lado oeste (poço redondo de pedra, corda e dois baldes) e, no canto noroeste, uma torre quadrada alta, de parede lisa e sem janelas, sem porta à vista.  _(cap. 01)_
 - **20/10/2026 15:54** · _estado_ — Turno 16: Krag abriu a grade de ferro com o molho de Perrin e o Troll do Fosso dos Reptantes saiu para o pátio, arrastando a corrente. Krag escapou sem ser visto (Furtividade). O Troll está solto.  _(cap. 01)_
+
+### Quarto da porta de ferro
+
+- **29/10/2026 11:39** · _lugar_ — Aberto pelo golem após a senha 'Anno nin i megil, mellon' (élfico). Contém: baú de madeira escura, caixa de ferro, 5 frascos de poção (3 vermelhos, 1 amarelo, 1 verde) e as roupas e itens de Tann'athar. Nada foi pego ainda.  _(cap. 01)_
+- **30/10/2026 14:14** · _item_ — ERRATA (Mestre, T79): a espada montante de pedra roxa está no baú de madeira escura; a caixa de ferro está trancada. Nada foi pego ainda. Sem armadilha no quarto.  _(cap. 01)_
+- **30/10/2026 17:35** · _item_ — T80: a espada de pedra roxa saiu do baú de madeira escura e está com Urzog (possuído por Mor'Dhaun). Nenhuma chave do molho de Sae'Varyn abre a caixa de ferro, que segue trancada.  _(cap. 01)_
 
 ### Salão do Trono
 

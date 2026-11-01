@@ -87,8 +87,33 @@ _(o que de fato aconteceu com o lugar, os objetos e o que se sabe durante o jogo
 ## Efeitos mágicos do grupo
 
 - **23/10/2026 23:58** · _estado_ — T49: todos os seis (Gorbag, Krag, Sae'Varyn, Tann'athar, Urzog, Farejo) com Escudo +5 DP por 1 minuto (e o Farejo com sucesso decisivo) e Bravura por 1 hora (IQ para evitar a bravura quando a situação pede cautela). Curas feitas: Gorbag 15/15, Tann'athar 11/11, Farejo 15/15.
+- **31/10/2026 14:19** · _estado_ — T83: por ordem do Mestre, Escudo +5 DP e Bravura do T49 acabaram e saíram do status de todos.
 
 ## Cadeado da gaiola de Faelar
 
 - **24/10/2026 21:37** · _estado_ — Quase rompido: sofreu 11 de 12 pontos (RD 4, PV 12) no turno 58; qualquer golpe o abre. Gorbag está com a maça de Sae'Varyn, emprestada.
 - **25/10/2026 05:23** · _estado_ — ROMPIDO por Gorbag (T59, maça de Sae'Varyn, 14 de dano): a gaiola está aberta. Gorbag segue com a maça emprestada.
+
+## Andar dos experimentos
+
+- **27/10/2026 13:17** · _lugar_ — 3º andar acima da fonte: poço no meio até a fonte do térreo; gaiolas soltas no piso. Perto da escada: gaiola pequena vazia e gaiola com mulher alada (olhar sedutor). Do outro lado: gaiola grande com ave de 3 m, gaiola com zumbi sentado que FALA ('Falo.', sem empolgação; magos estranham) e gaiola com serpente de ~1 m.
+- **27/10/2026 20:21** · _lugar_ — T68: a mulher alada seduz o grupo (cantarola, olhar demorado); Krag e Tann'athar perderam e foram até as grades dela (15,13). A boca da escada que sobe fica no canto oposto. O zumbi se chama Grumel.
+- **31/10/2026 05:18** · _lugar_ — ERRATA (Mestre, T82): o poço no meio é um buraco sem água; a água só está na fonte do térreo, 2 andares abaixo. O grupo chegou pela escada do canto superior direito (T82).
+- **31/10/2026 05:18** · _lugar_ — T82: o golem de pedra destruído não está neste andar; caiu até a fonte do térreo.
+- **31/10/2026 14:19** · _lugar_ — T83: decisão do Mestre, não há espelho (nem metal polido) no andar.
+
+## Gaiola da mulher alada
+
+- **28/10/2026 09:47** · _estado_ — Porta (barra de ferro, RD 3, 20 PV) com 18/20 depois do chute de Krag no T70. Quando chegar a 0, a gaiola abre.
+- **28/10/2026 18:17** · _estado_ — T71: a mulher alada levou flecha de Krag no tronco (-6 PV, 8/14 estimado; -6 no próximo turno). Porta segue com 18/20 PV.
+
+## Golem de Pedra
+
+- **29/10/2026 11:04** · _estado_ — Guarda o quarto com a porta de ferro antiga no andar 1 da torre (mapa 14). Avançou contra o grupo ao vê-los. NPC 51 no roll6, PV 30, DP 2/RD 4, punhos 2D-1.
+- **29/10/2026 11:39** · _estado_ — Obedeceu à senha de Faelar: parou, abriu a porta de ferro e ficou parado ao lado dela. Não ataca o grupo enquanto valer a senha.
+
+## Quarto da porta de ferro
+
+- **29/10/2026 11:39** · _lugar_ — Aberto pelo golem após a senha 'Anno nin i megil, mellon' (élfico). Contém: baú de madeira escura, caixa de ferro, 5 frascos de poção (3 vermelhos, 1 amarelo, 1 verde) e as roupas e itens de Tann'athar. Nada foi pego ainda.
+- **30/10/2026 14:14** · _item_ — ERRATA (Mestre, T79): a espada montante de pedra roxa está no baú de madeira escura; a caixa de ferro está trancada. Nada foi pego ainda. Sem armadilha no quarto.
+- **30/10/2026 17:35** · _item_ — T80: a espada de pedra roxa saiu do baú de madeira escura e está com Urzog (possuído por Mor'Dhaun). Nenhuma chave do molho de Sae'Varyn abre a caixa de ferro, que segue trancada.

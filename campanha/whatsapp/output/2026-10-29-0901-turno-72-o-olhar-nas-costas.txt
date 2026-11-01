@@ -1,0 +1,15 @@
+*TURNO 72 — O OLHAR NAS COSTAS*
+
+Gorbag chega primeiro à boca da escada e começa a subir, os degraus rangendo sob o peso. Urzog vem logo atrás, de machado na mão, e Tann'athar e Sae'Varyn atravessam o andar na direção da mesma boca de pedra, sem olhar para trás.
+
+Krag baixa o arco sem flecha e sai correndo atrás dos outros, com Farejo colado nos calcanhares. A mulher alada fica na gaiola, ferida, guinchando e batendo as asas contra as grades, mas já não alcança ninguém.
+
+Do outro lado do poço, o basilisco fixa o olhar nas costas do caçador que corre. Krag sente o olhar pesar na nuca e algo se rasga por dentro, seco, como um soco sem mão.
+> Olhar do basilisco: NH 16 −11 (11 hexágonos de distância) = *5*
+> 3d [1, 2, 1] = *4* → sucesso por 1
+> Dano: 2D+2: [1, 5] + 2 = *8* (direto, sem RD)
+> *Krag perde 8 pontos de vida.*
+
+O guincho da harpia some atrás dele quando alcança o grupo.
+
+O que vocês fazem?

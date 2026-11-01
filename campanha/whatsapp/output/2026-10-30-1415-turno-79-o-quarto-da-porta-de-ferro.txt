@@ -1,0 +1,18 @@
+*TURNO 79 — O QUARTO DA PORTA DE FERRO*
+
+Gorbag revira o quarto com as patas enormes. Afasta as roupas, bate o dedo no baú de madeira escura e abre a tampa. Lá dentro, deitada sobre o forro, está a espada de pedra roxa. A outra caixa, a de ferro, não cede: está trancada. Gorbag para com a mão perto do cabo, rosna baixo e não toca nela. Vai decidir isso no próximo turno.
+
+Krag corre os olhos pelas paredes e pelo piso em busca de um cofre. Encontra a caixa de ferro, de fecho firme e fechadura pequena. Está trancada.
+
+Tann'athar recolhe as roupas e os pertences e junta os cinco frascos (três vermelhos, um amarelo, um verde). Fecha os olhos e puxa a mágica de Detecção de Magia. A mana fraca da torre dá a ela pouco para trabalhar, e o fio se desfaz antes de dizer qualquer coisa. Ele não fica sabendo se os líquidos são mágicos.
+> Detecção de Magia: NH 16, -5 mana baixa (Torre) = *11*
+> 3d [6, 4, 2] = *12* → falhou por 1
+> Custo: -1 de Fadiga (falha)
+
+Sae'Varyn avança pelo corredor em direção à sala que o golem guardava e avisa: "Devemos tomar cuidado com armadilhas." Examina o caminho e as paredes. Não vê nada, mas também não tem certeza.
+> Armadilhas (pré-definido IQ-5): IQ 15 -5 = *10*
+> 3d [6, 4, 3] = *13* → falhou por 3
+
+Urzog se levanta, olha em volta e espera.
+
+O golem de pedra continua parado ao lado da porta aberta.

@@ -1,0 +1,21 @@
+*A MÃO NO BRAÇO DO ELFO*
+
+Krag e Sae'Varyn falam quase ao mesmo tempo. Krag acha que é hora de subir, mas quer Faelar obrigado a vir ou mandado atrás de Orvin para atrasá-lo. Sae'Varyn propõe levá-lo junto: se ele disser as palavras erradas diante do guardião, que seja o primeiro alvo da pedra. Tann'athar e Urzog apenas se levantam e seguem o chefe.
+
+Gorbag não espera o fim da conversa. Atravessa o andar em três passadas pesadas, estica a mão e fecha os dedos no braço magro de Faelar, no primeiro degrau. "Gorbag quer que você venha junto."
+
+Faelar não tenta se soltar. Vira o rosto devagar, os lábios se movendo sem som, e a mão livre sobe até o rosto do ogro, dois dedos abertos diante dos olhos. O ar ali se enche de um cheiro seco de ferro quente.
+> Cegar (Magia, Comum, Resistível por HT). Faelar: NH 21, −5 mana baixa de Caithness, −1 Abascanto do ogro (subtrai direto do NH de quem lança) = *15*
+> 3d [1, 1, 6] = *8* → sucesso por 7 (não é decisivo, o alvo pode resistir)
+> Resistência de Gorbag: HT 15 + 1 Abascanto = *16*
+> 3d [3, 2, 3] = *8* → sucesso por 8
+> Margem do alvo (8) maior ou igual à do lançador (7): *Gorbag resiste*. Custo: 4 de Fadiga para Faelar (a mágica foi lançada, só não pegou).
+> *Gorbag NÃO fica cego.*
+
+O cheiro de ferro quente morre antes de chegar aos olhos do ogro. Gorbag pisca uma vez, devagar, e a pele grossa dele sacode a magia como quem sacode uma mosca. Não solta o braço. Aperta mais. "Gorbag viu. Gorbag não gostou."
+
+Faelar fica com a mão no ar, um pouco mais pálido, o fôlego gasto à toa. Os dois ficam colados na boca da escada.
+
+Farejo ergue as orelhas, mostra os dentes e não sai do lado de Krag.
+
+O que vocês fazem?

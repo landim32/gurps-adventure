@@ -19,6 +19,13 @@ _(o que de fato aconteceu com os personagens dos jogadores durante o jogo — fe
 - **22/10/2026 20:22** · _estado_ — ERRATA T33: 11/15 PV, de pé em (31,10); -4 no ataque no T34 (ferimento do guarda 2 no braço do escudo).
 - **23/10/2026 17:14** · _item_ — Cutelo colossal QUEBRADO ao abrir o cadeado da cela (T47, arma barata). Fica só com o facão de desossar (1D+2 máx.) e a faca (1D+1 máx.). Retirado do inventário a pedido do Mestre.
 - **23/10/2026 22:04** · _item_ — Pegou o machado de Urzog (T48), com o cutelo colossal quebrado. NH com a arma de uma mão a definir pelo Mestre.
+- **25/10/2026 20:50** · _estado_ — T62: segura Faelar pelo braço; resistiu ao Cegar de Faelar (HT 15 +1 Abascanto = 16 contra NH 15 do lançador). NÃO ficou cego (errata: a primeira versão esqueceu o Abascanto +1 do ogro).
+- **26/10/2026 07:12** · _estado_ — T63: ergue Faelar pelo pescoço com uma mão (a outra segura o machado de Urzog). Levou Toque Mortal de Faelar: -4 PV (11/15), sem redutor por Hipoalgia.
+- **26/10/2026 20:44** · _estado_ — T64: largou o machado de Urzog no chão e sacou a faca (DX 14, sucesso por 1); golpe sai no T65. Segue com uma mão no pescoço de Faelar. Toque Mortal de Faelar: -5 PV (6/15). ERRATA/regra: sacar arma em combate de perto é manobra inteira com teste de DX (MB); sem Sacar Rápido.
+- **26/10/2026 22:38** · _estado_ — T65: esfaqueou Faelar (faca, 12 de dano). Faca na mão, segura o elfo inconsciente pelo pescoço. PV 6/15.
+- **26/10/2026 22:42** · _estado_ — T66: falhou na Vontade 9 (15) e matou Faelar a facadas, inconsciente. Faca suja de sangue, ainda segura o corpo pelo pescoço.
+- **27/10/2026 13:17** · _item_ — T67: devolveu a maça a Sae'Varyn.
+- **30/10/2026 14:14** · _informação_ — Achou a espada no baú de madeira escura (T79); não a pegou, decide no T80.
 
 ## Krag Trilhanegra
 
@@ -38,6 +45,13 @@ _(o que de fato aconteceu com os personagens dos jogadores durante o jogo — fe
 - **22/10/2026 16:50** · _estado_ — Turno 28: Ataque Total com o arco (errata do Mestre), errou o guarda 87; sem defesa ativa até o T29, sem flecha encaixada, mira perdida. Em (27,16).
 - **22/10/2026 16:53** · _estado_ — ERRATA turno 28: acertou o guarda 87 na cabeça (Ataque Total, sem Tiro Rápido). Sem defesa ativa até o T29, sem flecha encaixada, mira perdida.
 - **22/10/2026 17:57** · _estado_ — Turno 29: flecha encaixada (Sacar Rápido) e Apontar no guarda 2 (1º turno de mira); volta para (28,15) (Apontar deixa 2 hex).
+- **27/10/2026 20:21** · _estado_ — T68: perdeu a disputa de Sex Appeal da mulher alada (IQ 11 contra NH 13) e foi até as grades dela, em (14,14).
+- **28/10/2026 07:24** · _estado_ — Continua encantado pela mulher alada (perdeu o Sex Appeal no T69): não quer abrir a jaula dela.
+- **28/10/2026 09:47** · _estado_ — Livre do encanto da mulher alada (T70): venceu o Sex Appeal com +4 do cheiro de carniça. Ela ficou agressiva.
+- **28/10/2026 18:17** · _estado_ — T71: atirou a flecha encaixada na mulher alada; arco sem flecha encaixada.
+- **29/10/2026 09:00** · _ferimento_ — T72: levou 8 PV do olhar do basilisco (6/14).
+- **29/10/2026 10:18** · _estado_ — T73: leve dor de cabeça do olhar do basilisco (sem dano).
+- **29/10/2026 10:38** · _estado_ — T76: leve dor de cabeça do olhar do basilisco (sem dano).
 
 ## Sae'Varyn
 
@@ -51,6 +65,8 @@ _(o que de fato aconteceu com os personagens dos jogadores durante o jogo — fe
 - **21/10/2026 14:32** · _estado_ — Turno 22: andou pela passagem estreita até (4,15) rumo à carroça; não deu a ordem ao zumbi (decisão do Mestre).
 - **22/10/2026 10:57** · _estado_ — Turno 24: em (2,22), lá fora, rumo à carroça; ainda faltam turnos (chega no fim do T27, decisão do Mestre) antes de dar a ordem ao zumbi.
 - **23/10/2026 12:50** · _item_ — T41: perdeu o servo Zumbi (Paravotto), destruído pela Armadura Animada 2 no escuro. Para outro zumbi, precisa lançar Zumbi de novo em outro cadáver.
+- **27/10/2026 13:17** · _item_ — T67: recuperou a maça (Gorbag devolveu); achou molho de chaves de ferro (jaulas do andar dos experimentos) e gema de 2 pontos de energia DESCARREGADA.
+- **29/10/2026 10:32** · _estado_ — T74: leve dor de cabeça do olhar do basilisco (sem dano).
 
 ## Urzog, o Bigorna
 
@@ -72,6 +88,9 @@ _(o que de fato aconteceu com os personagens dos jogadores durante o jogo — fe
 - **22/10/2026 12:27** · _estado_ — Turno 27: golpeou a Cozinheira (morreu). Machado DESPREPARADO: Prepara no T28, ataca no T29.
 - **22/10/2026 16:50** · _estado_ — Turno 28: entrou na cozinha (11,11); machado ainda despreparado (decisão do Mestre).
 - **23/10/2026 22:04** · _item_ — Entregou o machado a Gorbag (T48, a pedido dele); está desarmado.
+- **27/10/2026 06:02** · _item_ — Recuperou o machado (Gorbag o devolveu, T66).
+- **28/10/2026 07:24** · _estado_ — Leve dor de cabeça do olhar do basilisco (T69), sem dano.
+- **30/10/2026 17:35** · _ferimento_ — POSSUÍDO PERMANENTEMENTE por Vaelrith Mor'Dhaun (T80): o necromante controla o corpo, usa a voz e a vontade dele; só sai por exorcismo; dano em Urzog força o Mor'Dhaun a testar HT contra o mesmo dano. Empunha a espada de pedra roxa.
 
 ## Pumba'h Fed
 
@@ -92,3 +111,19 @@ _(o que de fato aconteceu com os personagens dos jogadores durante o jogo — fe
 
 - **23/10/2026 15:46** · _relação_ — Contou ao grupo: a espada está na caixa de ferro negro, num pedestal de granito, na Câmara do Cofre perto do topo da torre, logo abaixo do quarto de Orvin; porta de ferro com fechadura mágica (Rouxinol); armadilha de peso (~12 kg) sela a sala; Orvin dorme leve; os andares mudam. Pede para ser libertado da cela.
 - **23/10/2026 15:47** · _regra_ — ERRATA do Mestre: Tann'athar NÃO fala da armadilha do pedestal nem do contrapeso; só diz onde está a espada (Câmara do Cofre, perto do topo, caixa de ferro negro no centro da sala, porta de ferro com fechadura mágica), que Orvin dorme leve e que os andares mudam. Vale a Narração 77; substitui a 76.
+- **26/10/2026 07:12** · _estado_ — T63: concentra Lealdade em Faelar (2 s). A rolagem e a resistência de IQ de Faelar saem no T64; o custo de Fadiga só se paga ao fechar.
+- **26/10/2026 20:44** · _estado_ — T64: desistiu da Lealdade em Faelar antes de lançar; sem custo de Fadiga.
+- **26/10/2026 22:38** · _estado_ — T65: concentra Controle de Emoções (área raio 2 centrada em Faelar, 4 de Fadiga ao fechar). Rolagem NH 17-5-1=11 no T66.
+- **27/10/2026 13:17** · _item_ — T67: achou uma vara de madeira de 1,5 m (de cutucar bicho nas gaiolas), serve de bastão.
+- **27/10/2026 20:21** · _estado_ — T68: perdeu a disputa de Sex Appeal da mulher alada (IQ 16 contra NH 13, ela passou por 2 contra 1) e foi até as grades dela, em (14,13).
+- **28/10/2026 09:47** · _estado_ — Leve dor de cabeça do olhar do basilisco (T70), sem dano.
+- **28/10/2026 18:17** · _estado_ — T71: segue com leve dor de cabeça (olhar do basilisco, falhou).
+- **29/10/2026 10:35** · _estado_ — T75: leve dor de cabeça do olhar do basilisco (sem dano).
+
+## Gorbag
+
+- **01/11/2026 01:46** · _estado_ — T84: preso no olhar do basilisco (contato mantido, 2D+2 por turno enquanto o basilisco o vir). PV -2: HT 15 no início de cada turno para não desmaiar. Atordoado (-4 defesas), ataca com -8.
+
+## Tann'athar
+
+- **01/11/2026 01:46** · _estado_ — T84: concentra Lealdade sobre a harpia (NH 13 com mana baixa, sucesso por 1); 2 s, fecha no fim do T85; custo 6 de Fadiga e resistência IQ da harpia rolados então.

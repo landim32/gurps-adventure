@@ -111,3 +111,35 @@ _(o que de fato aconteceu com estes NPCs durante o jogo — ferimento que ficou,
 
 - **24/10/2026 18:22** · _informação_ — Preso na gaiola do andar do prisioneiro, cadeado grosso que as chaves de Perrin não abrem. Disse: Orvin pratica Mente, Corpo, Movimento e Encantamento; a ele ensinou Luz, Reparar e Sono; nasceu nas matas ao norte de Caithness. Sabe da espada e onde fica, mas só conta depois de solto. Tann'athar não conseguiu dizer se mente.
 - **25/10/2026 05:23** · _informação_ — Solto no T59. Contou a Tann'athar que foi pego de noite folheando o livro das palavras que Orvin nunca lhe ensinou, e foi trancado 'até a curiosidade passar'. Não se comprometeu a ir com o grupo (pediu ar e chão firme primeiro). Ainda não deu a informação útil nem a localização da espada.
+- **25/10/2026 12:08** · _informação_ — Pagou a liberdade dando ao grupo a palavra que desliga o guardião de pedra do andar do cofre: 'Anno nin i megil, mellon' (élfico, 'dê-me a espada, por favor'), dita devagar, sem raiva e sem tremer. Ouviu Orvin dizê-la sem que ele soubesse. Disse que é só isso que dá.
+- **25/10/2026 12:13** · _estado_ — Agradeceu e foi até a escada que desce; parou no primeiro degrau, sem descer, esperando se o grupo diz mais algo. Pode ser interrompido.
+- **25/10/2026 18:50** · _informação_ — T61: Tann'athar confirmou por Detecção de Mentiras (vitória por 6 contra IQ 14) que ele falou a verdade sobre o andar do cofre, o guardião de pedra e a frase. Krag exigiu que viesse; recusou sem hostilidade e fica no andar, perto da escada que desce.
+- **25/10/2026 20:50** · _estado_ — T62: lançou Cegar em Gorbag ao ser seguro pelo braço (NH 21 -5 mana -1 Abascanto = 15, sucesso por 7); Gorbag resistiu (HT 15 +1 Abascanto = 16, sucesso por 8), sem cegueira (errata). Fadiga 6/10 (gastou 4). PV 10/10. Criado como NPC no roll6 (mapNpcId 96) em (11,15).
+- **26/10/2026 07:12** · _estado_ — T63: suspenso pelo pescoço por Gorbag (segura o fôlego por 10 turnos). Chute de Urzog: -4 PV (6/10), -4 em DX e IQ no T64. Lançou Toque Mortal em Gorbag (NH 15 efetivo, 4 de dano), Fadiga 5/10. Atributos provisórios: ST 10, DX 12, HT 10, 55 kg.
+- **26/10/2026 20:44** · _estado_ — T64: segue suspenso (2º de 10 turnos sem ar). Toque Mortal em Gorbag com 3 pontos (NH 21-4-5-1=11, sucesso por 0): 5 de dano. Fadiga 2/10, PV 6/10. Urzog errou o chute.
+- **26/10/2026 22:38** · _ferimento_ — T65: facada de Gorbag na barriga (12) e chute de Urzog (2): PV -8, atordoado. Tentou Toque Mortal queimando 2 PV (-10), falhou no HT 10 (14) e desmaiou; mágica interrompida, energia não gasta. Inconsciente, segue erguido pelo pescoço (3º de 10 turnos sem ar). Fadiga 2/10.
+- **26/10/2026 22:42** · _morte_ — T66: MORTO. Gorbag falhou na Vontade 9 (15) e o esfaqueou inconsciente (faca, 14 de dano); morte automática por decisão do Mestre (MB, inconsciente atacado de modo letal). Peça no roll6 ainda em -8 PV até o process_turn do T66.
+- **27/10/2026 06:02** · _estado_ — Corpo caído em M17 (T66), sem nada de útil: Sae'Varyn revistou e Tann'athar vasculhou a cela e o andar (decisão do Mestre).
+
+## Grumel
+
+- **27/10/2026 20:21** · _estado_ — Zumbi na gaiola pequena do 3º andar (nome dado pelo Mestre no T68). Fala, mas o mínimo e totalmente desinteressado dos PJs: 'Falo.', 'Grumel.', 'Morto.'. Não disse se tem mestre. Olha os próprios joelhos.
+- **01/11/2026 01:46** · _informação_ — T84: Sae'Varyn o encara e pergunta se mata a serpente; responde só 'Morto.'. Não obedeceu ao grito de Mor'Dhaun (era para o grupo, decisão do Mestre).
+
+## Golem de Pedra
+
+- **30/10/2026 19:45** · _estado_ — T81: obedeceu a Mor'Dhaun ('Dadno i haew!'), pulou no poço e foi DESTRUÍDO na queda até a fonte do térreo (decisão do Mestre). Não guarda mais o quarto.
+
+## Mor'Dhaun
+
+- **30/10/2026 19:45** · _informação_ — T81: apresentou-se a Krag pelo corpo de Urzog ('Vaelrith Mor'Dhaun'); disse que sair é fácil, sem dar o caminho.
+- **31/10/2026 14:19** · _informação_ — T83: disse a Sae'Varyn que controla o zumbi Grumel, se chegar perto o bastante para vê-lo. Concentra Bola de Fogo (lança no T84, NH 16 com mana baixa); Gorbag tem Fobia de Fogo.
+
+## Mulher alada (harpia)
+
+- **31/10/2026 14:19** · _estado_ — T83: decisão do Mestre, o Sex Appeal dela não adianta mais; canta e se agita sem efeito.
+
+## Basilisco
+
+- **31/10/2026 14:36** · _estado_ — Imune a magia (decisão do Mestre, T83/T84, lembrado por Mor'Dhaun após Naturalista passar por 4). A Bola de Fogo e qualquer outra mágica não o afetam.
+- **01/11/2026 01:46** · _estado_ — T84: NPC 52 no roll6 (mapNpc 101, mapa 15), PV 4. Manteve o olhar em Gorbag (mais próximo, 5 hex).

@@ -2467,6 +2467,659 @@ Farejo senta aos pés de Krag e olha o elfo sem rosnar. Sae'Varyn, de braços cr
 
 O que vocês fazem?
 
+### Narração 92 — 25/10/2026 12:08
+
+_Faelar escolhida a dica do andar do cofre: dá a palavra que desliga o guardião de pedra (Anno nin i megil, mellon)_
+
+*A PALAVRA DO COFRE*
+
+Faelar escuta a escolha do grupo sem pestanejar e assente devagar, como quem já esperava por ela. Chega mais perto, olha a escada, e fala quase sem mexer os lábios: no andar do cofre há um guardião de pedra, parado de pé diante da porta da câmara. Não dorme, não come, não cansa. Só obedece a uma palavra.
+
+"Ouvi Orvin dizer isso uma vez, sem saber que eu escutava do outro lado da porta. É élfico, da língua antiga das matas, e tem de ser dita assim, devagar, sem pressa e sem tremer."
+
+Ele fecha os olhos um instante e pronuncia, em voz baixa, a cada sílaba:
+
+_Anno nin i megil, mellon._
+
+"Quer dizer: dê-me a espada, por favor. É delicado, como o mestre gosta. Diga errado, diga rápido demais ou diga com raiva, e a pedra não ouve." Abre os olhos e encara cada um do grupo, devagar, por último Sae'Varyn. "É só isso que eu dou. O resto vocês descobrem lá em cima."
+
+Farejo ergue as orelhas. Ninguém na gaiola, no andar ou na escada acima diz nada.
+
+O que vocês fazem?
+
+### Narração 93 — 25/10/2026 12:12
+
+_Faelar agradece e vai até a escada de descida, mas para no primeiro degrau sem descer_
+
+*FAELAR AGRADECE*
+
+Faelar cala-se, junta as mãos diante do peito e inclina a cabeça numa reverência curta, à moda das matas. "Que a sombra de vocês seja leve", diz, em voz baixa. "Eu não esquecerei." Ajeita a túnica surrada, passa o polegar pela borda do cadeado torto caído no piso, como quem despede de uma velha dor, e dá as costas ao grupo.
+
+Os pés descalços quase não fazem som na pedra. Ele atravessa o andar até a escada que desce, a mesma por onde vocês subiram, e para no primeiro degrau, a mão na parede fria. O ar que sobe do poço lhe move os cabelos claros. Ele não desce: fica ali, de costas, escutando o escuro lá embaixo, e a cabeça gira um pouco, como se esperasse que alguém dissesse mais alguma coisa.
+
+Farejo faz menção de segui-lo e olha para Krag. Gorbag, de maça na mão, e Urzog, de escudo erguido, não se mexem. Sae'Varyn aperta os lábios e acompanha o elfo com os olhos.
+
+O que vocês fazem?
+
+### Narração 94 — 25/10/2026 18:50
+
+_T61: Detecção de Mentiras confirma Faelar; ele recusa subir com o grupo_
+
+*A PALAVRA DE FAELAR*
+
+Tann'athar fecha os olhos por um instante, escuta o elfo da escada como quem escuta uma corda afinada e acompanha cada sílaba que ele deu: o andar, o guardião de pedra, a frase dita devagar. Nada falseia. Faelar disse a verdade, e Tann'athar sabe disso.
+> Detecção de Mentiras de Tann'athar: NH 15 (ficha), sem redutores (meio-elfo, sem penalidade de espécie)
+> 3d [1, 6, 2] = *9* → sucesso por 6
+> Resistência de Faelar: IQ 14 (Disputa Rápida)
+> 3d [6, 4, 5] = *15* → falhou por 1
+> *Tann'athar vence a disputa*: a história de Faelar é verdadeira
+
+Gorbag baixa a maça um dedo e não precisa dizer nada. Sae'Varyn solta o ar, devagar, sem tirar os olhos do elfo. Urzog olha de um para o outro, coça a barriga sob o escudo e espera que alguém lhe diga o que fazer.
+
+Krag dá um passo na direção da escada e fala sem rodeio: Faelar vem com eles, para falar com o guardião de pedra. Faelar vira o rosto só o bastante para ouvir. Não desce nem sobe. "Eu dei o que prometi", responde, sem raiva. "A pedra é de vocês. Eu fico aqui, onde o chão é firme." Os olhos dele passam por Krag e pousam por um momento em Tann'athar, depois voltam ao escuro do poço.
+
+Farejo se deita de novo aos pés de Krag, com um suspiro curto.
+
+O que vocês fazem?
+
+### Narração 95 — 25/10/2026 20:50
+
+_T62: Faelar lança Cegar em Gorbag ao ser seguro pelo braço; o ogro resiste (errata: Abascanto +1 de Gorbag, versão anterior dava cegueira)_
+
+*A MÃO NO BRAÇO DO ELFO*
+
+Krag e Sae'Varyn falam quase ao mesmo tempo. Krag acha que é hora de subir, mas quer Faelar obrigado a vir ou mandado atrás de Orvin para atrasá-lo. Sae'Varyn propõe levá-lo junto: se ele disser as palavras erradas diante do guardião, que seja o primeiro alvo da pedra. Tann'athar e Urzog apenas se levantam e seguem o chefe.
+
+Gorbag não espera o fim da conversa. Atravessa o andar em três passadas pesadas, estica a mão e fecha os dedos no braço magro de Faelar, no primeiro degrau. "Gorbag quer que você venha junto."
+
+Faelar não tenta se soltar. Vira o rosto devagar, os lábios se movendo sem som, e a mão livre sobe até o rosto do ogro, dois dedos abertos diante dos olhos. O ar ali se enche de um cheiro seco de ferro quente.
+> Cegar (Magia, Comum, Resistível por HT). Faelar: NH 21, −5 mana baixa de Caithness, −1 Abascanto do ogro (subtrai direto do NH de quem lança) = *15*
+> 3d [1, 1, 6] = *8* → sucesso por 7 (não é decisivo, o alvo pode resistir)
+> Resistência de Gorbag: HT 15 + 1 Abascanto = *16*
+> 3d [3, 2, 3] = *8* → sucesso por 8
+> Margem do alvo (8) maior ou igual à do lançador (7): *Gorbag resiste*. Custo: 4 de Fadiga para Faelar (a mágica foi lançada, só não pegou).
+> *Gorbag NÃO fica cego.*
+
+O cheiro de ferro quente morre antes de chegar aos olhos do ogro. Gorbag pisca uma vez, devagar, e a pele grossa dele sacode a magia como quem sacode uma mosca. Não solta o braço. Aperta mais. "Gorbag viu. Gorbag não gostou."
+
+Faelar fica com a mão no ar, um pouco mais pálido, o fôlego gasto à toa. Os dois ficam colados na boca da escada.
+
+Farejo ergue as orelhas, mostra os dentes e não sai do lado de Krag.
+
+O que vocês fazem?
+
+### Narração 96 — 26/10/2026 07:13
+
+_T63: Gorbag ergue Faelar pelo pescoço; Urzog chuta; Faelar lança Toque Mortal em Gorbag (4 de dano)_
+
+*O ELFO NO ALTO*
+
+Krag encaixa a flecha no arco e fala sem levantar a voz: "Ou você vem, ou você morre." Sae'Varyn assiste com um quase sorriso. "Eu disse o que aconteceria se nos traísse. Pessoal, tenho uma ideia melhor: já que ele não quer colaborar, amarramos o elfo, deixamos na gaiola de novo, e eu sugo a energia dele. Seguimos para o andar de cima. Já temos as palavras."
+
+Gorbag solta o braço e fecha a mão inteira no pescoço de Faelar. Num só movimento, o levanta do chão como quem levanta um coelho pelo cangote. "Gorbag pergunta mais uma vez: você vem junto."
+> Segurar pelo pescoço (MB, combate de perto): Gorbag DX 14, +3 Segurar = *17*
+> 3d [4, 3, 6] = *13* → sucesso por 4
+> Resistência de Faelar: DX 12 = *12*
+> 3d [3, 4, 4] = *11* → sucesso por 1
+> Margem de Gorbag (4) maior que a de Faelar (1): *Gorbag vence e o segura pela garganta*
+> Erguer: uma mão de ST 20 levanta até 3 × ST = 60 kg; Faelar pesa 55 kg, sem teste de ST. Com o ar cortado, ele prende a respiração por HT 10 turnos antes de perder Fadiga.
+
+Urzog chega perto e enfia o pé no tronco do elfo suspenso. O elfo nem tem onde se desviar direito.
+> Ataque: Chute NH 13 (Briga-2) = *13*
+> 3d [4, 3, 2] = *9* → sucesso por 4
+> Defesa de Faelar: Esquiva 5 = *5*
+> 3d [3, 2, 3] = *8* → falhou por 3
+> Dano: 1D+1 contusão: [3] + 1 = *4*
+> RD 0 → 4 passam
+> *Faelar perde 4 pontos de vida.* No próximo turno ataca e lança com −4 (redutor por ferimento).
+
+Tann'athar levanta as mãos e começa a tecer Lealdade, as palavras baixas, a voz mansa. "Venha conosco. Quem sabe descobrimos juntos as palavras que você tanto quer?" A mágica pede dois segundos de concentração e só fecha no próximo turno.
+
+Pendurado, sem ar e sem apoio, Faelar já não consegue dizer nada. Mas a mão livre sobe e pousa no antebraço que o prende, e o ar em volta ganha um cheiro de ferro frio.
+> Toque Mortal (Magia, Comum, toque): Faelar NH 21, −5 mana baixa de Caithness, −1 Abascanto de Gorbag = *15*
+> 3d [2, 6, 1] = *9* → sucesso por 6
+> Toque: em combate de perto, com a mão livre e a mágica dominada, o toque é automático (Magia, "O Toque do Mago em Combate de Perto")
+> Dano: 1D por ponto de Fadiga aplicado (1 ponto): [4] = *4*. DP e RD não protegem contra a mágica
+> Hipoalgia de Gorbag: sem redutor por ferimento no próximo turno
+> *Gorbag perde 4 pontos de vida.* Faelar gasta 1 de Fadiga.
+
+Um frio seco corre pelo braço do ogro e some debaixo da pele grossa. Gorbag grunhe, olha o antebraço como quem olha uma mosca que mordeu, e não solta.
+
+Farejo rosna ao lado de Krag, os olhos no elfo.
+
+O que vocês fazem?
+
+### Narração 97 — 26/10/2026 20:45
+
+_T64: Gorbag saca a faca; Urzog erra o chute; Faelar lança Toque Mortal com 3 pontos (5 de dano em Gorbag)_
+
+*A FACA NA MÃO*
+
+Tann'athar baixa as mãos e deixa a Lealdade morrer na boca. Sem a mágica, a voz mansa some do corredor. Krag segura a flecha encaixada e só observa, o olhar no elfo suspenso. Sae'Varyn dá um passo à frente, a voz arrastada: "Não mate ele ainda. Deixe um pouco para que eu sugue…"
+
+Gorbag solta o machado de Urzog no chão para livrar a mão e leva os dedos à bainha da faca, sem afrouxar o pescoço do elfo. Ele não tem o treino de sacar rápido, então o saque é um movimento inteiro do turno, feito de perto, com o braço do elfo quase no peito dele.
+> Regra (MB, "Sacar uma arma", combate de perto): sacar a arma é uma manobra inteira e exige teste de DX; falha crítica (17 ou 18) deixa a arma cair. Quem tem Sacar Rápido saca sem gastar a manobra, mas Gorbag não tem, então não ataca neste turno.
+> Sacar a faca: DX 14 = *14*
+> 3d [3, 6, 4] = *13* → sucesso por 1
+> *Faca sacada e preparada.* O golpe sai no próximo turno.
+
+Urzog dá o passo, ergue o pé e chuta o ar. O tronco do elfo balança fora do alcance por um palmo, e a bota do orc passa sem tocar.
+> Ataque: Chute NH 13 (Briga-2) = *13*
+> 3d [6, 6, 3] = *15* → falhou por 2
+> *Errou.* Faelar nem precisou se defender.
+
+Pendurado, o rosto roxo, Faelar espalma a mão no antebraço que o prende. O ar fica pesado, e o cheiro de ferro frio volta, mais forte que antes. Ele não derrama nada além do que tem: três pontos de força saem dele de uma vez.
+> Toque Mortal (Magia, Comum, toque; o livro não dá tempo de execução, vale o padrão de 1 s, e com NH 21 a mágica sai sem concentração): Faelar NH 21, −4 choque em IQ (chute do T63), −5 mana baixa, −1 Abascanto de Gorbag = *11*
+> 3d [3, 3, 5] = *11* → sucesso por 0
+> Toque: em combate de perto, com a mão livre e a mágica dominada, o toque é automático (Magia, "O Toque do Mago em Combate de Perto")
+> Dano: 1D por ponto de Fadiga aplicado (3 pontos): 3d [3, 1, 1] = *5*. DP e RD não protegem contra a mágica
+> Hipoalgia de Gorbag: sem redutor por ferimento no próximo turno
+> *Gorbag perde 5 pontos de vida.* Faelar gasta 3 de Fadiga.
+
+O frio sobe pelo braço do ogro e some de novo debaixo do couro grosso. Gorbag arreganha os dentes, pesa a faca na palma e não solta o pescoço.
+
+Farejo rosna baixo ao lado de Krag, as orelhas coladas na cabeça.
+
+O que vocês fazem?
+
+### Narração 98 — 26/10/2026 22:39
+
+_T65: Gorbag esfaqueia Faelar (12); Urzog chuta (2); Faelar desmaia ao queimar PV; Tann'athar concentra Controle de Emoções_
+
+*A FACADA NAS TRIPAS*
+
+Krag mantém a flecha encaixada e fala sem baixar o arco: "Ele vale mais vivo do que morto." Sae'Varyn não diz nada. Os olhos frios seguem o elfo suspenso, e o quase sorriso volta.
+
+Tann'athar abre os braços e começa a puxar a calma para os dois ao mesmo tempo, a voz firme demais para ser súplica: "Acalmem-se os dois, agora!" A mágica pede um segundo de concentração, e só fecha no próximo turno.
+
+Gorbag não espera. Com a faca na mão e o elfo no ar pelo pescoço, enfia a lâmina de baixo para cima, na barriga.
+> Ataque: Faca NH 16 = *16*
+> 3d [6, 2, 3] = *11* → sucesso por 5
+> Defesa de Faelar: Esquiva 5 = *5*
+> 3d [1, 4, 4] = *9* → falhou por 4
+> Dano: 1D+1 perfuração: [5] + 1 = *6*
+> RD 0 → 6 passam
+> Perfuração: ×2 depois que passar da armadura → *12*
+> Perdeu mais de HT/2 (5): teste de HT 10 para não cair, 3d [4, 4, 2] = *10* → de pé; *ATORDOADO* (−4 nas defesas e teste de HT para se recuperar no próximo turno)
+> *Faelar perde 12 pontos de vida.*
+
+Urzog chega logo depois e enfia o pé nas costelas do elfo, que já não tem o que se desviar.
+> Ataque: Chute NH 13 (Briga−2) = *13*
+> 3d [3, 3, 2] = *8* → sucesso por 5
+> Defesa de Faelar: Esquiva 5 = *5*
+> 3d [2, 4, 6] = *12* → falhou por 7
+> Dano: 1D+1 contusão: [1] + 1 = *2*
+> RD 0 → 2 passam
+> *Faelar perde 2 pontos de vida.*
+
+O sangue escorre quente pelo punho de Gorbag. Faelar ainda levanta a mão para o antebraço do ogro, e o ar em volta fica frio, mas o frio não encontra de onde sair. Ele tenta gastar o que não tem, a vida inteira em uma só palavra.
+> Toque Mortal: 3 pontos de energia (1 de Fadiga + 2 de PV). Os 2 de PV levam Faelar a −10 PV, o negativo completo da HT 10, e a Magia (Trocando a Perda de ST por HT) exige um teste de HT para não morrer
+> Faelar: HT 10 = *10*
+> 3d [3, 6, 5] = *14* → falhou por 4
+> A energia destinada à mágica não é gasta. Faelar desmaia em vez de morrer, a mágica é interrompida e não há teste de lançamento nem dano.
+
+A mão dele escorrega do antebraço de Gorbag. A cabeça cai para o lado, e o elfo fica pendurado pelo pescoço, mole, pelo punho que ainda o segura.
+
+Farejo rosna baixo, sem tirar os olhos do ogro.
+
+O que vocês fazem?
+
+### Narração 99 — 27/10/2026 06:02
+
+_T66: Gorbag solta o corpo de Faelar; nada no cadáver nem na cela; seguem em frente_
+
+*SEM NADA PARA LEVAR*
+
+Gorbag abre a mão. O corpo de Faelar escorrega do punho e cai molhado na pedra. O ogro guarda a faca, apanha o machado de Urzog do chão e o enfia de volta nas mãos do próprio dono, sem muita cerimônia: "Gorbag disse: seguimos em frente."
+
+Krag desarma o arco sem pressa e olha o elfo caído, depois os três. "Já perdemos tempo demais aqui. Vocês mataram a nossa garantia de passar pelo Golem de pedra. Vamos em frente e vemos o que acontece."
+
+Sae'Varyn se ajoelha ao lado do cadáver e passa as mãos pelas vestes, pelas botas, pelo cinto, atrás de um pergaminho, de uma gema com fio de mana. Não há nada. Só sangue, linho e um corpo que esfria.
+
+Tann'athar solta a mágica que vinha puxando, sem lançá-la: a calma que ele ia espalhar já não tem a quem servir. Revira a cela por dentro e por fora, a palha, os cantos da gaiola e o chão em volta.
+> Captação: NH 16 = *16*
+> 3d [5, 3, 4] = *12* → sucesso por 4
+> Ele acha o que já sabia que havia: o cadeado rompido, os restos do cativeiro. Nenhum objeto útil, nem na cela nem no andar.
+
+Urzog pega o machado, pesa o cabo e se põe atrás de Gorbag, em silêncio de quem segue o chefe. Farejo rosna uma vez para o corpo e vem para junto de Krag.
+
+O que vocês fazem?
+
+### Narração 100 — 27/10/2026 06:34
+
+_Chegada ao 3º andar, a sala de experimentos: gaiolas com criaturas (mulher-pássaro, ave de 3 m, zumbi, serpente)_
+
+*O ANDAR DOS EXPERIMENTOS*
+
+A escada termina em mais um andar quadrado, de pedra nua, com o buraco aberto no meio e a mesma luz azul parada sobre as lajes. O ar aqui é denso e tem cheiro de palha suja, de bicho e de coisa velha, e de todos os lados vêm ruídos baixos: um arrastar de garras, uma respiração pesada, um estalar de ferro.
+
+Logo à frente de vocês ficam duas gaiolas de grades grossas, encostadas na parede. A menor está vazia, a porta fechada, a palha do chão revirada. Na outra, mais larga, uma criatura de corpo de mulher, bela e pálida, agarra as grades com mãos de dedos longos e unhas curvas. Das costas saem asas de penas escuras, dobradas contra o corpo, e os pés terminam em garras de ave. Ela vira o rosto devagar para a escada, e os olhos acompanham cada um de vocês.
+
+Do outro lado do poço, na parede oposta, a luz azul mostra mais jaulas. A maior abriga uma ave enorme, de uns três metros de altura, de bico curvo e penas eriçadas, que mal cabe entre as grades e se mexe de um pé para o outro. Junto dela, duas gaiolas pequenas: numa, um zumbi sentado no chão, a cabeça baixa, imóvel, olhando para os próprios joelhos; na outra, uma serpente de cerca de um metro de comprimento, enrolada num canto, com a língua provando o ar.
+
+O que vocês fazem?
+
+### Narração 101 — 27/10/2026 06:35
+
+_Refeita sem as gaiolas encostadas na parede; substitui a Narração 100_
+
+*O ANDAR DOS EXPERIMENTOS*
+
+A escada termina em mais um andar quadrado, de pedra nua, com o buraco aberto no meio e a mesma luz azul parada sobre as lajes. O ar aqui é denso e tem cheiro de palha suja, de bicho e de coisa velha, e de todos os lados vêm ruídos baixos: um arrastar de garras, uma respiração pesada, um estalar de ferro.
+
+Logo à frente de vocês, soltas no piso, ficam duas gaiolas de grades grossas. A menor está vazia, a porta fechada, a palha do chão revirada. Na outra, mais larga, uma criatura de corpo de mulher, bela e pálida, agarra as grades com mãos de dedos longos e unhas curvas. Das costas saem asas de penas escuras, dobradas contra o corpo, e os pés terminam em garras de ave. Ela vira o rosto devagar para a escada, e os olhos acompanham cada um de vocês.
+
+Do outro lado do poço, a luz azul mostra mais jaulas. A maior abriga uma ave enorme, de uns três metros de altura, de bico curvo e penas eriçadas, que mal cabe entre as grades e se mexe de um pé para o outro. Junto dela, duas gaiolas pequenas: numa, um zumbi sentado no chão, a cabeça baixa, imóvel, olhando para os próprios joelhos; na outra, uma serpente de cerca de um metro de comprimento, enrolada num canto, com a língua provando o ar.
+
+O que vocês fazem?
+
+### Narração 102 — 27/10/2026 13:17
+
+_T67: zumbi responde 'Falo.'; magos estranham; chaves, gema descarregada e vara achadas; maça devolvida_
+
+*TURNO 67 — A VOZ NA GAIOLA*
+
+Gorbag larga o pé da escada e atravessa o andar, contornando o poço, de olho na parede do fundo atrás de qualquer sinal de cofre. Sae'Varyn o alcança no caminho e estende a mão pela maça. O ogro a devolve sem parar de andar, e o elfo negro a prende de volta ao cinto. Urzog vai atrás do chefe, no mesmo passo pesado.
+
+Krag fica onde está, a mão no cão, e fala para o andar inteiro: "Alguma dessas criaturas consegue falar?" A mulher alada não responde, mas o olhar dela passeia pelo grupo devagar, quente e demorado, e os lábios se entreabrem num convite mudo, de quem sabe o que faz com o rosto que tem. A ave enorme bufa, e a serpente não ergue a cabeça. Do fundo do andar, da gaiola pequena, o zumbi responde sem levantar o rosto, a voz arrastada e sem cor: "Falo."
+
+Nada mais. Ele volta a olhar os próprios joelhos, e o silêncio do andar fecha de novo.
+
+Sae'Varyn e Tann'athar param um instante, ao mesmo tempo. Os dois magos reparam: zumbi não fala.
+> IQ de Sae'Varyn: IQ 15 +3 Aptidão Mágica = *18*
+> 3d [2, 6, 6] = *14* → sucesso por 4: ele estranha o zumbi que fala
+> IQ de Tann'athar: IQ 16 +3 Aptidão Mágica = *19*
+> 3d [5, 5, 1] = *11* → sucesso por 8: ele estranha o zumbi que fala
+
+Sae'Varyn, enquanto anda, varre o andar com o olho de quem cata o que os outros deixam passar: o chão, os cantos, as grades das jaulas.
+> Visão (procurar gema de mana e chaves): NH 15 = *15*
+> 3d [1, 2, 1] = *4* → *SUCESSO DECISIVO* (por 11)
+Pendurado numa grade, perto da gaiola vazia, há um molho de chaves de ferro, e na palha do chão há uma gema escura, fria ao toque: uma gema de dois pontos, descarregada. Ele guarda as duas.
+
+Tann'athar revira o chão junto à gaiola vazia, afastando a palha com a ponta do pé, atrás de uma faca ou de um pau que sirva de bastão.
+> Captação (achar ou improvisar um objeto): NH 16 = *16*
+> 3d [5, 3, 6] = *14* → sucesso por 2
+Faca não há. Mas encostada na grade da gaiola vazia ele acha uma vara de madeira escura, de um metro e meio, lisa de uso: o pau com que se cutuca bicho preso. Serve de bastão.
+
+Farejo trota junto de Krag, o focinho baixo, a orelha virada para a voz do fundo.
+
+O que vocês fazem?
+
+### Narração 103 — 27/10/2026 20:22
+
+_Turno 68: Grumel responde o mínimo; a mulher alada seduz Krag e Tann'athar_
+
+*TURNO 68 — GRUMEL*
+
+Gorbag fica onde está e passa o olhar pelas paredes e pelas grades, pedra por pedra, atrás de uma porta, de um cofre, de qualquer coisa que valha a pena. Não há nada disso aqui: só as gaiolas, o poço aberto e, lá longe, no canto oposto, a boca de outra escada que sobe.
+
+Krag chega junto do ogro e fala baixo, sem tirar os olhos das jaulas: "Soltem os bichos. Uma confusão dessas no castelo nos compra tempo até a sala do cofre." Urzog, sem dizer palavra, vem se pôr atrás de Gorbag.
+
+Sae'Varyn contorna o poço pela borda, a maça no cinto, e grita para o fundo do andar: "Nunca vi um morto-vivo que fala! O que é você? Por acaso tem um mestre?" Tann'athar toma a vara de cutucar bicho, firma-a como bastão e caminha atrás dele, a voz mansa de quem passeia: "Ora, mas o que temos aqui? Que curioso... Como se chama, meu caro?"
+
+Do fundo, na gaiola pequena, o zumbi não levanta o rosto. Fala ao chão, a voz arrastada, sem cor, como quem responde por obrigação: "Grumel."
+
+Passa um tempo. Ao elfo, sobre o mestre, ele só diz: "Morto." E volta a olhar os próprios joelhos, como se ninguém tivesse perguntado nada.
+
+Mas a mulher alada, na gaiola ao lado deles, não ficou quieta. Desdobra as asas escuras só até a metade, encosta o rosto pálido nas grades e começa a cantarolar, baixo, uma melodia sem palavras que se enrola no ouvido. Os olhos dela passam de um em um, demorados, e os lábios se entreabrem.
+> Sex Appeal da mulher alada (disputa rápida contra a IQ de cada um): NH 13
+> Gorbag, IQ 9: 3d [4, 1, 6] = *11* → falhou por 2. Ela: 3d [6, 3, 6] = *15* → falhou por 2. *Empate, ninguém leva a melhor.*
+> Krag, IQ 11: 3d [6, 3, 4] = *13* → falhou por 2. Ela: 3d [4, 1, 3] = *8* → passou por 5. *Ela vence.*
+> Sae'Varyn, IQ 15: 3d [4, 3, 4] = *11* → passou por 4. Ela: 3d [6, 6, 2] = *14* → falhou por 1. *Ele vence.*
+> Tann'athar, IQ 16: 3d [5, 5, 5] = *15* → passou por 1. Ela: 3d [6, 3, 2] = *11* → passou por 2. *Ela vence.*
+> Urzog, IQ 8 +4 Força de Vontade = 12: 3d [4, 4, 1] = *9* → passou por 3. Ela: 3d [6, 6, 1] = *13* → passou por 0. *Ele vence.*
+
+Gorbag franze a testa e desvia o olhar, sem efeito. Sae'Varyn faz uma careta fria, e Urzog cospe no chão e dá as costas à gaiola.
+
+Krag e Tann'athar, não. O arqueiro baixa o arco desarmado e anda, passo a passo, os olhos presos nos dela, até parar a um braço das grades. O meio-elfo deixa morrer no meio a pergunta que fazia ao zumbi e vai pelo mesmo caminho, a vara frouxa na mão, até as grades.
+
+Farejo late uma vez, seco, para os dois, e não vai atrás.
+
+O que vocês fazem?
+
+### Narração 104 — 28/10/2026 07:24
+
+_T69: cheiro de carniça, Krag preso ao encanto, Tann'athar livre, basilisco erra Urzog_
+
+*TURNO 69 — CARNIÇA*
+
+Sae'Varyn contorna o poço com as mãos coladas nas orelhas e berra para o grupo: "Tapem os ouvidos, se não quiserem ser controlados! Temos que calar essa criatura!" Gorbag nem olha para as jaulas: "Vamos, cambada. A gente tem que achar a espada, e soltar bicho não combina com discrição." Urzog sai do lugar sem dizer nada, rumo ao canto da escada.
+
+Tann'athar aperta as mãos nos ouvidos e murmura uma mágica de proteção que não encontra nada para barrar. Mas, a um braço das grades, o vento do andar muda e traz até ele um fedor doce e podre, de carne esquecida ao sol. Vem dela. Tão perto, Krag só sente o calor das grades e o brilho dos olhos dela.
+> Olfato de Krag: IQ 11 +1 Prontidão = *12*
+> 3d [3, 6, 6] = *15* → falhou por 3
+> Olfato de Tann'athar: IQ 16 +1 Prontidão = *17*
+> 3d [6, 1, 1] = *8* → sucesso por 9
+
+A mulher alada puxa o canto outra vez, mais grave, com os olhos presos nos dois.
+> Sex Appeal da mulher alada (disputa rápida contra a IQ): NH 13
+> Krag, IQ 11: 3d [6, 5, 1] = *12* → falhou por 1. Ela: 3d [3, 4, 5] = *12* → passou por 1. *Ela vence.*
+> Tann'athar, IQ 16 +4 pelo cheiro de carniça = 20: 3d [5, 3, 6] = *14* → passou por 6. Ela: 3d [5, 3, 5] = *13* → passou por 0. *Ele vence.*
+
+Tann'athar pisca, sacode a cabeça e recua um passo da jaula, os olhos agora frios. Krag segue ali, a flecha na corda, o arco baixo, mas as mãos não sobem até o ferrolho. Algo nele não quer abrir aquela porta.
+
+Do outro lado do poço, na penumbra, o basilisco ergue a cabeça e fixa o olhar no orc que cruza o andar. Urzog sente uma pontada seca atrás dos olhos, só isso, que logo passa.
+> Olhar do basilisco: NH 16 −8 (8 hexágonos de distância) = *8*
+> 3d [4, 5, 6] = *15* → falhou por 7
+> Sem dano. Urzog sente só uma leve dor de cabeça.
+
+Farejo rosna baixo ao lado de Krag, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 105 — 28/10/2026 09:47
+
+_T70: chute na gaiola, Krag livre do encanto, harpia agressiva, basilisco erra Tann'athar_
+
+*TURNO 70 — O FERRO DA GAIOLA*
+
+Gorbag, Tann'athar e Urzog seguem rumo à escada do outro lado do andar, sem olhar para trás. Urzog anda com o rosto franzido, como quem sente um aperto estranho atrás dos olhos.
+
+Krag, preso ao olhar da mulher alada, dá um passo e chuta a porta da gaiola com toda a perna. O ferro treme e o estalo corre pelo andar, mas a barra grossa só amassa de leve.
+> Chute: Briga −2 (DX 14) = *12*
+> 3d [3, 5, 4] = *12* → sucesso por 0
+> Dano: 1D−1 contusão: [6] − 1 = *5*
+> Gaiola (barra de ferro de 1 pol): RD 3 → 2 passam; sobram 18 de 20 pontos de vida da porta
+
+O estalo faz Krag respirar mais fundo, e o ar traz o cheiro: carniça, doce e velha, vindo dela. Ele cerra o nariz, mas a mulher alada puxa o canto outra vez.
+> Olfato de Krag: IQ 11 +1 Prontidão −2 = *10*
+> 3d [3, 4, 3] = *10* → sucesso por 0
+> Sex Appeal da mulher alada (disputa rápida contra a IQ): NH 13
+> Krag, IQ 11 +4 pelo cheiro de carniça = 15: 3d [2, 1, 4] = *7* → passou por 8. Ela: 3d [1, 6, 4] = *11* → passou por 2. *Ele vence.*
+
+O encanto se parte. Krag recua um passo com a flecha na corda e os olhos de volta ao lugar. A mulher alada percebe. A voz doce vira um guincho, e ela se joga contra as grades, as asas batendo no ferro, as unhas curvas passando entre as barras.
+
+Sae'Varyn avança até a gaiola e desce o bastão no tronco dela, entre as barras. O golpe sai torto e bate no ferro.
+> Ataque: Bastão NH 11, −2 golpe pelas grades = *9*
+> 3d [6, 1, 6] = *13* → falha por 4
+
+Do outro lado do poço, o basilisco ergue a cabeça e fixa o olhar no meio-elfo, que ainda está parado perto das grades. Tann'athar sente uma pontada seca atrás dos olhos, e nada mais.
+> Olhar do basilisco: NH 16 −10 (10 hexágonos de distância) = *6*
+> 3d [1, 2, 4] = *7* → falhou por 1
+> Sem dano. Tann'athar sente só uma leve dor de cabeça.
+
+Farejo rosna sem parar ao lado de Krag, os pelos eriçados.
+
+O que vocês fazem?
+
+### Narração 106 — 28/10/2026 18:19
+
+_Turno 71: Krag flecha na mulher alada; basilisco falha em Tann'athar_
+
+*TURNO 71 — A FLECHA NAS GRADES*
+
+Urzog e Gorbag cruzam o andar rumo à boca da escada, de costas para as gaiolas. Tann'athar vem pelo mesmo caminho, a vara de bastão na mão, e Sae'Varyn avisa a todos, em voz alta e seca, que agora que o juízo voltou é hora de seguir. Passa pelo meio das jaulas sem desviar os olhos para a serpente.
+
+Krag, que ficou para trás, termina de encaixar a flecha e solta a corda quase colado nas grades. A ponta entra no tronco da mulher alada entre duas barras. Ela recua num guincho agudo, as asas batendo no ferro, e para de arranhar o ar por um instante.
+> Tiro: Arco NH 17, +1 velocidade/distância (1 m), −2 grades da gaiola = *16*
+> 3d [3, 1, 6] = *10* → sucesso por 6
+> Defesa de Mulher alada: Esquiva 7 +1 DP = *8*
+> 3d [4, 2, 4] = *10* → falhou por 2
+> Dano: 1D+1 perfuração: [3] + 1 = *4*
+> RD 1 → 3 passam
+> Perfuração: ×2 depois que passar da armadura → *6*
+> *Mulher alada perde 6 pontos de vida.*
+
+Do outro lado do poço, o basilisco ergue a cabeça e fixa o olhar no meio-elfo, que atravessa o andar. Tann'athar sente a pontada seca atrás dos olhos de novo, e nada além disso.
+> Olhar do basilisco: NH 16 −10 (10 hexágonos de distância) = *6*
+> 3d [2, 5, 5] = *12* → falhou por 6
+> Sem dano. Tann'athar sente só uma leve dor de cabeça.
+
+Farejo rosna, os pelos eriçados, sem sair do lado de Krag.
+
+O que vocês fazem?
+
+### Narração 107 — 29/10/2026 09:01
+
+_Turno 72: grupo rumo à escada; olhar do basilisco acerta Krag (-8 PV)_
+
+*TURNO 72 — O OLHAR NAS COSTAS*
+
+Gorbag chega primeiro à boca da escada e começa a subir, os degraus rangendo sob o peso. Urzog vem logo atrás, de machado na mão, e Tann'athar e Sae'Varyn atravessam o andar na direção da mesma boca de pedra, sem olhar para trás.
+
+Krag baixa o arco sem flecha e sai correndo atrás dos outros, com Farejo colado nos calcanhares. A mulher alada fica na gaiola, ferida, guinchando e batendo as asas contra as grades, mas já não alcança ninguém.
+
+Do outro lado do poço, o basilisco fixa o olhar nas costas do caçador que corre. Krag sente o olhar pesar na nuca e algo se rasga por dentro, seco, como um soco sem mão.
+> Olhar do basilisco: NH 16 −11 (11 hexágonos de distância) = *5*
+> 3d [1, 2, 1] = *4* → sucesso por 1
+> Dano: 2D+2: [1, 5] + 2 = *8* (direto, sem RD)
+> *Krag perde 8 pontos de vida.*
+
+O guincho da harpia some atrás dele quando alcança o grupo.
+
+O que vocês fazem?
+
+### Narração 108 — 29/10/2026 10:18
+
+_T73: corrida para a escada; olhar do basilisco falha contra Krag (leve dor de cabeça)_
+
+*TURNO 73 — A CORRIDA PARA A ESCADA*
+
+Urzog chega à ponta do andar e segue rumo à escada, o machado batendo no ombro a cada passo. Sae'Varyn sobe a lateral do poço em passos largos, a maça no cinto, e Tann'athar corre pelo mesmo caminho, a vara de bastão firme na mão. Gorbag já não está mais no andar: o ranger dos degraus lá em cima é o que sobrou dele.
+
+Krag dispara pelo meio do andar com Farejo colado nos calcanhares, sem olhar para trás. A mulher alada se arrasta pela gaiola até o outro lado das grades, os dedos longos esticados para fora, e guincha atrás dele sem alcançar nada.
+
+Do outro lado do poço, o basilisco vira a cabeça para o arqueiro que corre e fixa o olhar nele. Krag sente uma pontada atrás dos olhos, e nada além disso.
+> Olhar do basilisco: NH 16 −13 (13 hexágonos de distância) = *3*
+> 3d [2, 1, 5] = *8* → falhou por 5
+> Sem dano. Krag sente só uma leve dor de cabeça.
+
+Farejo rosna baixo, os pelos eriçados, e corre junto do dono.
+
+O que vocês fazem?
+
+### Narração 109 — 29/10/2026 10:32
+
+_T74: corrida para a escada; olhar do basilisco falha contra Sae'Varyn (leve dor de cabeça)_
+
+*TURNO 74 — A BOCA DA ESCADA*
+
+Urzog chega à boca da escada e vira o corpo para o andar, o machado na mão, esperando os outros. Sae'Varyn alcança o pé dos degraus logo atrás, e Tann'athar vem pelo mesmo corredor de pedra, a vara de bastão batendo na coxa a cada passo. Lá em cima, os degraus rangem sob o peso de Gorbag.
+
+Krag corre pelo meio do andar, Farejo disparado à frente dele. A mulher alada fica agarrada às grades, guinchando, sem poder ir a lugar nenhum.
+
+Do outro lado do poço, o basilisco vira a cabeça para o elfo de cabelos brancos trançados que corre rente à parede e fixa o olhar nele. Sae'Varyn sente um aperto seco atrás dos olhos, e só isso.
+> Olhar do basilisco: NH 16 −12 (12 hexágonos de distância) = *4*
+> 3d [2, 1, 6] = *9* → falhou por 5
+> Sem dano. Sae'Varyn sente só uma leve dor de cabeça.
+
+O guincho da harpia vai ficando para trás.
+
+O que vocês fazem?
+
+### Narração 110 — 29/10/2026 10:35
+
+_T75: últimos no andar; olhar do basilisco falha contra Tann'athar (leve dor de cabeça)_
+
+*TURNO 75 — OS ÚLTIMOS NO ANDAR*
+
+Gorbag, Sae'Varyn e Urzog já sumiram escada acima; só o ranger dos degraus e o eco das botas descem até o andar dos experimentos.
+
+Krag atravessa o canto do andar em disparada, Farejo à frente, e Tann'athar o segue rente à parede, a vara de bastão firme na mão. Atrás deles, a mulher alada continua agarrada às grades, guinchando para as costas de quem foge.
+
+Do outro lado do poço, o basilisco vira a cabeça para o meio-elfo que corre e fixa o olhar nele. Tann'athar sente uma pontada seca atrás dos olhos, e nada além disso.
+> Olhar do basilisco: NH 16 −12 (12 hexágonos de distância) = *4*
+> 3d [6, 3, 4] = *13* → falhou por 9
+> Sem dano. Tann'athar sente só uma leve dor de cabeça.
+
+O que vocês fazem?
+
+### Narração 111 — 29/10/2026 10:38
+
+_T76: Krag sozinho no andar; olhar do basilisco falha (leve dor de cabeça)_
+
+*TURNO 76 — O ÚLTIMO NO ANDAR*
+
+Não resta mais ninguém à vista no andar dos experimentos além de Krag, que dispara rente à parede com Farejo à frente. Os outros já se foram escada acima, e só o eco dos passos lá em cima ainda desce pelos degraus. A mulher alada fica agarrada às grades, guinchando para a figura que se afasta.
+
+Do outro lado do poço, o basilisco vira a cabeça e fixa o olhar nas costas do arqueiro. Krag sente uma pontada atrás dos olhos, e nada além disso.
+> Olhar do basilisco: NH 16 −11 (11 hexágonos de distância) = *5*
+> 3d [3, 6, 6] = *15* → falhou por 10
+> Sem dano. Krag sente só uma leve dor de cabeça.
+
+O que vocês fazem?
+
+### Narração 112 — 29/10/2026 11:04
+
+_Andar da torre: golem de pedra guarda o quarto da porta de ferro e avança contra o grupo_
+
+*O GOLEM DA PORTA DE FERRO*
+
+A escada termina em mais um andar de pedra nua, frio e de ar parado, que cheira a poeira velha e a rocha molhada. A luz azul de sempre cai sem sombra sobre as lajes, e do outro lado do salão, bem no meio do caminho, há uma figura enorme e imóvel.
+
+Parece uma estátua: uns dois metros e meio de altura, largo como um barril, feito de blocos de pedra cinzenta mal polidos, com braços grossos que quase tocam o chão e uma cabeça lisa, sem rosto, afundada entre os ombros. Atrás dele, ao fundo, abre-se um quarto estreito, fechado por uma porta de ferro antiga, escurecida pela ferrugem e cheia de rebites.
+
+Então a pedra se mexe. A cabeça gira devagar na direção de vocês, e os braços se erguem com um rangido de rocha contra rocha. O chão treme sob o primeiro passo, depois sob o segundo, e a coisa vem para cima do grupo, cada vez mais rápida.
+
+O que vocês fazem?
+
+### Narração 113 — 29/10/2026 11:39
+
+_T78: a senha de Faelar para o golem, que abre a porta de ferro_
+
+*TURNO 78 — A SENHA DO MEGIL*
+
+O golem vem de braços erguidos, e o chão trepida a cada passo. Tann'athar não recua. Com a vara de bastão baixa e a voz mansa, sem pressa e sem tremer, diz em élfico as palavras que Faelar ensinou: _"Anno nin i megil, mellon."_ Krag as repete logo depois, na mesma toada, e Urzog, de machado na mão, só resmunga "e agora, chefe?".
+
+A pedra para. O corpo enorme ainda oscila, como se a inércia custasse a ceder, e os braços descem devagar. A cabeça lisa gira para o meio-elfo, fica um instante parada, e então o golem dá meia-volta, rangendo, e caminha até a porta de ferro. Agarra o ferro com as duas mãos e a empurra para dentro, com um gemido de dobradiças que não se mexiam há muito tempo.
+
+Do outro lado há um quarto estreito e sem janela, com cheiro de coisa guardada. Contra a parede do fundo, um baú de madeira escura e uma caixa de ferro. Numa prateleira baixa, cinco frascos de vidro: três de líquido vermelho, um amarelo e um verde. Sobre uma tábua ao lado, dobradas e arrumadas com cuidado, as roupas e as coisas de Tann'athar, tudo o que tinham tirado dele.
+
+O golem se coloca ao lado da porta, parado, e fica olhando para a frente.
+
+O que vocês fazem?
+
+### Narração 114 — 30/10/2026 14:15
+
+_T79: espada no baú escuro, caixa de ferro trancada; Detecção de Magia falha_
+
+*TURNO 79 — O QUARTO DA PORTA DE FERRO*
+
+Gorbag revira o quarto com as patas enormes. Afasta as roupas, bate o dedo no baú de madeira escura e abre a tampa. Lá dentro, deitada sobre o forro, está a espada de pedra roxa. A outra caixa, a de ferro, não cede: está trancada. Gorbag para com a mão perto do cabo, rosna baixo e não toca nela. Vai decidir isso no próximo turno.
+
+Krag corre os olhos pelas paredes e pelo piso em busca de um cofre. Encontra a caixa de ferro, de fecho firme e fechadura pequena. Está trancada.
+
+Tann'athar recolhe as roupas e os pertences e junta os cinco frascos (três vermelhos, um amarelo, um verde). Fecha os olhos e puxa a mágica de Detecção de Magia. A mana fraca da torre dá a ela pouco para trabalhar, e o fio se desfaz antes de dizer qualquer coisa. Ele não fica sabendo se os líquidos são mágicos.
+> Detecção de Magia: NH 16, -5 mana baixa (Torre) = *11*
+> 3d [6, 4, 2] = *12* → falhou por 1
+> Custo: -1 de Fadiga (falha)
+
+Sae'Varyn avança pelo corredor em direção à sala que o golem guardava e avisa: "Devemos tomar cuidado com armadilhas." Examina o caminho e as paredes. Não vê nada, mas também não tem certeza.
+> Armadilhas (pré-definido IQ-5): IQ 15 -5 = *10*
+> 3d [6, 4, 3] = *13* → falhou por 3
+
+Urzog se levanta, olha em volta e espera.
+
+O golem de pedra continua parado ao lado da porta aberta.
+
+### Narração 115 — 30/10/2026 17:36
+
+_T80: Urzog pega a espada e é possuído por Mor'Dhaun_
+
+*TURNO 80 — A ESPADA DE PEDRA ROXA*
+
+Krag olha para o ogro e para a caixa de ferro. "Você consegue abrir na força? Talvez use a espada?" Gorbag nem se mexe. "Gorbag não mexe com espada", rosna, e aponta o queixo para o orc. "Urzog, você pode."
+
+Tann'athar se vira para Sae'Varyn. "E aquelas chaves da sala das jaulas? A chance é pequena, mas será que alguma abre uma dessas caixas?" Sae'Varyn já está de joelhos diante da caixa de metal, com o molho na mão. Prova uma chave, depois outra, depois todas. Nenhuma encaixa.
+
+Urzog dá um passo à frente. "Deixa eu pegar a espada? Eu tô sem arma." Não espera resposta. Mete a mão no baú e levanta o montante de pedra roxa. Assim que a lâmina sai do forro, a pedra pulsa e a luz roxa sobe pelo cabo, pelo braço, pela nuca. Os olhos dele reviram. Uma voz que não é a dele, fina e arrastada, mastiga as palavras com nojo:
+
+— Ahh, que nojo... logo um orc nojento. Agora vamos sair daqui, seus idiotas!
+
+Farejo recua com o pelo eriçado e rosna. O golem de pedra continua parado ao lado da porta.
+> Possessão Permanente (Mor'Dhaun): NH 21, -5 mana baixa (Torre) = *16*
+> 3d [6, 2, 2] = *10* → sucesso por 6
+> Resistência de Urzog: IQ 8 +4 Força de Vontade = *12*
+> 3d [2, 6, 2] = *10* → sucesso por 2
+> Disputa rápida: *Mor'Dhaun vence* (margem 6 contra 2). Urzog não se livra da possessão.
+
+### Narração 116 — 30/10/2026 19:45
+
+_Turno 81: o golem pula no poço e é destruído; Mor'Dhaun se apresenta a Krag_
+
+*TURNO 81 — O POÇO*
+
+Urzog abre a boca e a voz que sai não é a dele. As sílabas élficas rolam secas, sem pressa: "Dadno i haew!". O golem de pedra, parado ao lado da porta aberta, vira a cabeça com um rangido de rocha contra rocha. Atravessa o piso em passos que fazem a poeira saltar das juntas, chega à borda de mármore claro e não hesita. Um segundo de silêncio. Depois, lá embaixo, um estrondo de pedra se partindo em mil pedaços sobe pelo poço e faz tremer a laje sob os pés de todos. Depois, só o eco, e o rolar de cascalho.
+
+Gorbag contorna Tann'athar e Sae'Varyn e ocupa o flanco de Urzog, de olho no orc que já não é um orc.
+
+Krag encara o amigo e pergunta à voz estranha quem é e se sabe sair dali. Urzog vira só a cabeça, devagar, com um sorriso que não é dele: "Mor'Dhaun. Vaelrith Mor'Dhaun. Decore, meio-orc, porque vai dizer muitas vezes. Sair? Sair é fácil. Difícil é aguentar vocês até lá."
+
+Sae'Varyn lembra a rota das cabras e dos pastores pelas montanhas: por fora, a torre não mostra janela nem porta no topo, então o caminho é voltar e procurar essa passagem. Tann'athar propõe descer as escadas até a fonte e abrir dali o portal. Farejo rosna baixo, de longe, sem tirar os olhos da espada.
+
+### Narração 117 — 31/10/2026 05:18
+
+_Turno 82: o grupo desce ao andar dos experimentos, Urzog na frente_
+
+*TURNO 82 — A DESCIDA*
+
+Urzog desce primeiro, a espada de pedra roxa à frente, cada degrau pisado como quem já conhece o caminho. Atrás dele vêm Gorbag, Tann'athar e Krag, o cão rente aos calcanhares do meio-orc, e Sae'Varyn fecha a fila. A escada faz a curva do canto e o ar muda: mais frio, com cheiro de ferro, de palha velha e de bicho.
+
+Lá embaixo, o andar se abre: o buraco escuro no meio, sem fundo à vista, e as gaiolas espalhadas pelo piso. De algum lugar do outro lado, a harpia cantarola baixo. Sae'Varyn tapa os ouvidos com as mãos e desvia os olhos do canto onde o basilisco se agita, sem tirar a serpente do canto do olho.
+
+### Narração 118 — 31/10/2026 14:19
+
+_T83: Mor'Dhaun concentra Bola de Fogo, basilisco falha em Gorbag, sem espelho_
+
+*TURNO 83 — MATEM O BASILISCO*
+
+Urzog vira o corpo para o fundo do andar e a voz que sai dele não é a dele: "Matem o basilisco!". Depois os olhos se perdem no vazio e os dedos grossos abrem e fecham devagar. Alguma coisa quente começa a se juntar na palma, ainda sem forma.
+
+Gorbag atravessa o piso a passos largos, desviando das gaiolas, e para junto da grade do zumbi, de cara para o canto onde a serpente se agita.
+
+Krag corre os olhos pelo andar à procura de um espelho. Não há vidro, nem metal polido, nem nada que devolva uma imagem. Ele desce até o meio da sala e o cão vem rente aos calcanhares dele, sem tirar os olhos da espada de pedra roxa.
+
+Sae'Varyn chega rente à parede e fala baixo com o orc que já não é um orc: conta do morto que fala, Grumel, e pergunta se ele o controlaria. Mor'Dhaun vira só a cabeça, com um meio sorriso: "Controlar um morto? Claro que controlo. Leve-me perto o bastante para vê-lo."
+
+Tann'athar avança entre as gaiolas e grita: "Vou tentar controlar a Harpia!". A mulher alada agarra as grades e canta mais alto, mas o canto já não prende ninguém.
+
+Do outro lado do poço, o basilisco vira a cabeça e fixa o olhar no ogro que atravessa o andar. Gorbag sente uma pontada seca atrás dos olhos, e nada além disso.
+> Olhar do basilisco: NH 16 −9 (9 hexágonos de distância) = *7*
+> 3d [5, 1, 2] = *8* → falhou por 1
+> Leve dor de cabeça, sem dano.
+
+### Narração 119 — 31/10/2026 14:36
+
+_Mor'Dhaun (Urzog, IQ 18) passa em Naturalista e lembra que o basilisco é imune a magia_
+
+*O QUE MOR'DHAUN SABE — O BASILISCO*
+
+Urzog franze a testa e a voz que não é a dele resmunga, baixa, só para quem está perto. Os olhos fixos no canto onde a serpente se agita ganham o brilho de quem já estudou aquilo e esqueceu de contar. "Basilisco. Pele fria, olhar que mata... e nenhuma magia o alcança. Fogo, raio, feitiço: nada disso o toca."
+> Naturalista: IQ 18 (possuído por Mor'Dhaun) −6 pré-definido = *12*
+> 3d [5, 2, 1] = *8* → sucesso por 4
+
+A chama que se juntava na palma do orc fica ali, tremeluzindo, sem alvo certo. Do outro lado do poço, o basilisco ainda não desviou o olhar do grupo.
+
+O que vocês fazem?
+
+### Narração 120 — 01/11/2026 01:46
+
+_T84: olhar do basilisco derruba Gorbag a -2 PV; Tann'athar começa Lealdade na harpia_
+
+*TURNO 84 — O OLHAR NO OGRO*
+
+Urzog fecha a mão e a chama que se juntava na palma morre num fio de fumaça. A voz que não é a dele berra para o andar inteiro: "Obedeçam, seus insetos! Matem o basilisco!". Depois dá dois passos para o lado da serpente e para, a espada de pedra roxa baixa.
+
+Krag fala ao grupo sem tirar os olhos da gaiola da mulher alada: o melhor é soltar o pássaro gigante e deixar que ele coma o basilisco. O cão fica rente à bota dele.
+
+Sae'Varyn cruza o piso até a grade do zumbi, perto demais para qualquer golpe, e diz sem virar a cabeça: "Aqui está o morto, Mor'Dhaun." Pergunta a Grumel se ele consegue matar a serpente. O morto não levanta o rosto. "Morto", diz ao chão.
+
+Tann'athar tenta correr até a gaiola e conjurar ao mesmo tempo, mas as duas coisas não cabem num turno: dá um passo só e para, a vara cruzada no peito, os lábios mexendo na língua das emoções, os olhos na mulher alada. A magia pede dois segundos; ela fecha no fim do próximo turno.
+> Lealdade: NH 18 −5 (mana baixa) = *13*
+> 3d [3, 5, 4] = *12* → sucesso por 1
+
+Gorbag atravessa o andar a passos largos, rosnando que Gorbag já viu galinha gigante comer serpente. No meio do caminho o basilisco vira a cabeça e crava os olhos nele. Uma lâmina fria entra pelos olhos e abre o crânio por dentro. O ogro cambaleia, os joelhos dobram e não chegam ao chão, mas o sangue já escorre do nariz.
+> Olhar do basilisco: NH 16 −5 (5 hexágonos) = *11*
+> 3d [1, 2, 3] = *6* → sucesso por 5
+> Dano: 2D+2: [5, 1] +2 = *8* (sem RD, sem defesa)
+> Gorbag: 6 → *−2 PV*
+> Mais de metade da HT num golpe só: teste de HT 15, 3d [2, 4, 3] = *9* → continua de pé
+> Gorbag fica *ATORDOADO* (−4 nas defesas) e ataca com −8 no próximo turno
+
+O olhar não solta o ogro. O basilisco segue de cabeça erguida, e a dor não passou.
+
+O que vocês fazem?
+
 ## Acontecimentos
 
 <!-- indice:acontecimentos -->
@@ -2573,4 +3226,40 @@ O que vocês fazem?
 - **25/10/2026 00:13** — Testes de reação em Torre do Grã-Mago, andar do prisioneiro: Faelar Lírio-Branco→Tann'athar Goras Boa (14).
 - **25/10/2026 05:23** — TURNO 59 (roll6) — Gorbag, agindo antes de Urzog, rompe o cadeado da gaiola de Faelar com a maça de Sae'Varyn: 3D+2 +3 = 14, RD 4, 10 passam (total 21 de 12). Urzog não chega a golpear. Krag diz a Faelar que ele irá com o grupo atrás da espada; Faelar não se compromete. Tann'athar pergunta por que Faelar caiu em desgraça: reação Boa (local), e ele conta que foi pego folheando o grimório de Orvin e preso 'até a curiosidade passar'. Sae'Varyn espera.
 - **25/10/2026 07:28** — [narração 91] Faelar agradece e oferece uma dica sobre um de três andares acima: experimentos, cofre ou aposentos de Orvin
+- **25/10/2026 12:08** — [narração 92] Faelar escolhida a dica do andar do cofre: dá a palavra que desliga o guardião de pedra (Anno nin i megil, mellon)
+- **25/10/2026 12:12** — [narração 93] Faelar agradece e vai até a escada de descida, mas para no primeiro degrau sem descer
+- **25/10/2026 18:50** — TURNO 61 (roll6) — Tann'athar: Detecção de Mentiras NH 15 contra IQ 14 de Faelar (Mestre), Disputa Rápida. 3d [1,6,2]=9 (sucesso por 6) x 3d [6,4,5]=15 (falhou por 1): Tann'athar vence, Faelar disse a verdade sobre o andar, o guardião e a frase. Gorbag não intimida (condicional a mentira). Krag exige que Faelar venha: recusa sem hostilidade, fica no andar. Sem dano.
+- **25/10/2026 18:50** — [narração 94] T61: Detecção de Mentiras confirma Faelar; ele recusa subir com o grupo
+- **25/10/2026 20:50** — TURNO 62 (roll6) — Gorbag segura Faelar pelo braço; Faelar lança Cegar em Gorbag (ordem do Mestre): NH 21 -5 mana baixa -1 Abascanto de Gorbag = 15, 3d [1,1,6]=8 (sucesso por 7, não decisivo); Gorbag resiste por HT 15 +1 Abascanto = 16, 3d [3,2,3]=8 (sucesso por 8). Margem do alvo 8 >= 7: Gorbag RESISTE, não fica cego (errata do T62: a versão primeira esqueceu o Abascanto +1 do ogro e dava cegueira de 10 s). Faelar gasta 4 de Fadiga (10 -> 6). Krag e Sae'Varyn propõem levar Faelar junto ou mandá-lo atrás de Orvin; Tann'athar e Urzog seguem Gorbag. Faelar (NPC criado no roll6, id 96) substitui a peça-objeto do elfo em (11,15).
+- **25/10/2026 20:50** — [narração 95] T62: Faelar lança Cegar em Gorbag ao ser seguro pelo braço; o ogro resiste (errata: Abascanto)
+- **26/10/2026 07:12** — TURNO 63 (roll6) — Gorbag segura Faelar pelo pescoço e o ergue (Disputa Rápida de DX: Gorbag 14+3=17, 3d [4,3,6]=13, por 4; Faelar DX 12 provisório, 3d [3,4,4]=11, por 1; uma mão de ST 20 ergue 60 kg, Faelar 55 kg). Urzog chuta o tronco de Faelar: Chute NH 13, 3d [4,3,2]=9 (por 4); Esquiva 5, 3d [3,2,3]=8 (falhou por 3); 1D+1=4, Faelar 10->6 PV, -4 no próximo turno. Tann'athar começa Lealdade em Faelar (2 s, NH 18-5=13): rolagem e resistência de IQ 14 só no T64. Faelar usa Toque Mortal em Gorbag (ordem do Mestre): NH 21 -5 mana -1 Abascanto = 15, 3d [2,6,1]=9 (por 6); toque automático em combate de perto; 1 Fadiga = 1D = [4] = 4, sem DP nem RD; Gorbag 15->11 PV, Hipoalgia sem redutor. Faelar Fadiga 6->5. Krag (flecha encaixada, ameaça) e Sae'Varyn (propõe amarrar e sugar a energia) só falam; Farejo rosna ao lado de Krag.
+- **26/10/2026 20:44** — TURNO 64 (roll6) — Tann'athar desiste da Lealdade (sem custo). Gorbag larga o machado de Urzog e saca a faca (DX 14, 3d [3,6,4]=13, sucesso por 1; manobra inteira, sem Sacar Rápido). Urzog chuta Faelar (NH 13, 3d [6,6,3]=15, falha por 2). Faelar lança Toque Mortal em Gorbag com 3 de Fadiga (NH 21 -4 choque -5 mana -1 Abascanto = 11, 3d [3,3,5]=11, sucesso por 0; dano 3d [3,1,1]=5). Gorbag PV 6, Faelar PV 6 e Fadiga 2. Krag observa; Sae'Varyn pede que não o matem ainda; Farejo rosna.
+- **26/10/2026 22:38** — TURNO 65 (roll6) — Gorbag fura a barriga de Faelar com a faca (Faca NH 16, 3d [6,2,3]=11; Esquiva 5, 3d [1,4,4]=9 falhou; 1D+1 perf [5]+1=6 x2 = 12; HT 10 para não cair 3d [4,4,2]=10, de pé, atordoado). Urzog chuta (NH 13, 3d [3,3,2]=8; Esquiva 3d [2,4,6]=12 falhou; 1D+1 = 2). Faelar vai a PV -8; tenta Toque Mortal com 1 Fadiga + 2 PV, HT 10 contra a morte em -10, 3d [3,6,5]=14 falhou: desmaia, mágica interrompida, energia não gasta. Tann'athar concentra Controle de Emoções (raio 2, centro em Faelar, rolagem no T66, 4 de Fadiga ao fechar). Krag e Sae'Varyn só falam; Farejo rosna. Obs.: o script atacar pegou o facão; dano recalculado com a faca (mesmo dado).
+- **26/10/2026 22:42** — TURNO 66 (roll6), antes de processar — Vontade dos sádicos por ordem do Mestre: Gorbag (Vontade 9) 3d [5,4,6]=15 FALHOU; Tann'athar (16) 3d [3,6,4]=13 passou; Sae'Varyn (15) 3d [4,3,3]=10 passou. Gorbag esfaqueia Faelar inconsciente: Faca NH 16, 3d [5,2,2]=9, sem defesa; 1D+1 perf [6]+1=7 x2 = 14 (10 contam, teto HT). ERRATA/decisão do Mestre: Faelar MORRE automaticamente (MB, inconsciente atacado de modo letal).
+- **27/10/2026 06:02** — TURNO 66 (roll6) — Gorbag soltou o corpo de Faelar, recolheu o machado de Urzog (devolvido ao dono) e mandou seguir em frente. Krag apoiou. Sae'Varyn vasculhou o corpo do elfo: nada (decisão do Mestre, sem teste). Tann'athar largou o Controle de Emoções sem lançar (sem custo) e vasculhou a cela e o andar: Captação NH 16, 3d [5,3,4]=12, sucesso por 4; nada útil (decisão do Mestre estendida ao andar). Urzog seguiu o chefe.
+- **27/10/2026 06:34** — [narração 100] Chegada ao 3º andar, a sala de experimentos: gaiolas com criaturas (mulher-pássaro, ave de 3 m, zumbi, serpente)
+- **27/10/2026 13:17** — TURNO 67 (roll6, mapa 15, andar dos experimentos) — PJs movidos pelo Mestre dentro do Deslocamento: Gorbag (8,17)->(13,13) buscando a sala do cofre; Urzog (5,16)->(9,15) seguindo; Sae'Varyn (6,17)->(10,16); Tann'athar (5,17)->(9,16); Krag e Farejo parados. Gorbag devolveu a maça a Sae'Varyn (decisão do Mestre). Krag perguntou se as criaturas falam: só o zumbi respondeu ('Falo.'), sem empolgação (Mestre). Sae'Varyn IQ 15+3 Aptidão=18, 3d 14, sucesso por 4; Tann'athar IQ 16+3=19, 3d 11, sucesso por 8: estranham zumbi que fala. Sae'Varyn Visão NH 15, 3d 4, SUCESSO DECISIVO: achou gema de 2 pontos descarregada e molho de chaves (decisão do Mestre). Tann'athar Captação NH 16, 3d 14, sucesso por 2: vara de cutucar bicho (bastão), sem faca (Mestre). Mulher alada lança olhar sedutor; nenhum PJ tem Lascívia, ninguém prendeu o olhar.
+- **27/10/2026 20:21** — TURNO 68 (roll6) — Gorbag busca a sala do cofre no 3º andar: nada (o cofre é no 4º). Krag propõe soltar os bichos. Urzog segue o chefe. Sae'Varyn e Tann'athar interrogam o zumbi: nome Grumel (criado pelo Mestre), responde o mínimo e desinteressado ('Grumel.', 'Morto.'). A mulher alada seduz (Sex Appeal NH 13 do Mestre, disputa rápida contra IQ): Gorbag empate (15 x 11, ambos falham por 2), Krag perde (8 x 13), Sae'Varyn vence (14 x 11), Tann'athar perde (11 x 15, ela passou por 2 contra 1), Urzog vence (13 x 9, IQ 8+4 Vontade). Krag e Tann'athar vão até as grades dela: Krag (14,14), Tann'athar (14,13).
+- **28/10/2026 07:24** — TURNO 69 (roll6) — Olfato (IQ+Prontidão): Krag 12, tirou 15, falhou; Tann'athar 17, tirou 8, passou (cheiro de carniça da harpia, +4 contra o Sex Appeal). Nova disputa de Sex Appeal NH 13: Krag IQ 11 (12) perdeu para ela (12); Tann'athar IQ 16+4=20 (14) venceu (13), saiu do encanto. Só um perdeu o interesse, a harpia não ficou agressiva; Krag não quer abrir a jaula. Basilisco ataca Urzog, o mais próximo (8 hex): NH 16-8=8, 3d 15, falhou; leve dor de cabeça, sem dano. Gorbag e Urzog rumo à escada; Sae'Varyn gritou para tapar os ouvidos.
+- **28/10/2026 07:24** — [narração 104] T69: cheiro de carniça, Krag preso ao encanto, Tann'athar livre, basilisco erra Urzog
+- **28/10/2026 09:47** — TURNO 70 (roll6) — Krag chuta a porta da gaiola da mulher alada: Briga-2 NH 12, 3d 12, acerta; 1D-1 = 5, RD 3 da barra de ferro (1 pol, 20 PV) -> 2; porta com 18/20 (regra do Mestre: objeto inanimado, abre quando destruída). Olfato de Krag NH 12-2=10, 3d 10, passa; +4 contra Sex Appeal: IQ 15, 3d 7 vence ela (NH 13, 3d 11); Krag livre do encanto e a harpia fica agressiva. Sae'Varyn ataca o tronco dela pelas grades: Bastão NH 11-2=9, 3d 13, erra. Basilisco ataca Tann'athar (mais próximo, 10 hex): NH 16-10=6, 3d 7, erra por 1; leve dor de cabeça. Gorbag, Tann'athar e Urzog rumo à escada.
+- **28/10/2026 09:47** — [narração 105] T70: chute na gaiola, Krag livre do encanto, harpia agressiva, basilisco erra Tann'athar
+- **28/10/2026 18:17** — TURNO 71 (roll6) — Krag atira na mulher alada pelas grades: Arco NH 17 +1 distância -2 grades = 16, 3d [3,1,6]=10, sucesso por 6; Esquiva 7 +1 DP = 8, 3d [4,2,4]=10, falhou por 2; dano 1D+1 = 4, RD 1 -> 3, perfuração x2 = 6; ela perde 6 PV (8/14, PV estimado), age com -6 no próximo turno. Basilisco olha Tann'athar (10 hex): NH 16-10 = 6, 3d [2,5,5]=12, falhou por 6; leve dor de cabeça. Gorbag (18,6), Urzog (18,7), Sae'Varyn (15,10) e Tann'athar (14,11) rumo à escada.
+- **28/10/2026 18:19** — [narração 106] Turno 71: Krag flecha na mulher alada; basilisco falha em Tann'athar
+- **29/10/2026 09:00** — TURNO 72 (roll6) — Grupo rumo à escada (Gorbag e Urzog subindo). Olhar do basilisco em Krag (11 hex, o mais próximo): NH 16-11 = 5, 3d [1,2,1]=4, sucesso por 1; sem defesa (decisão do Mestre); dano 2D+2 [1,5]+2 = 8, direto sem RD; Krag perde 8 PV. A mulher alada, presa, fica sem alvo ao alcance.
+- **29/10/2026 09:01** — [narração 107] Turno 72: grupo rumo à escada; olhar do basilisco acerta Krag (-8 PV)
+- **29/10/2026 10:18** — TURNO 73 (roll6) — Todos correm para a escada; Gorbag já está no outro andar. Basilisco contra Krag (PJ mais próximo, 13 hex): NH 16-13 = 3, 3d [2,1,5] = 8, falhou por 5; sem dano, leve dor de cabeça. Mulher alada presa, sem alvo ao alcance.
+- **29/10/2026 10:32** — TURNO 74 (roll6) — Todos seguem para a escada; Gorbag no andar de cima. Basilisco contra Sae'Varyn (PJ mais próximo, 12 hex): NH 16-12 = 4, 3d [2,1,6] = 9, falhou por 5; sem dano, leve dor de cabeça. Mulher alada presa, sem alvo ao alcance.
+- **29/10/2026 10:35** — TURNO 75 (roll6) — Gorbag, Sae'Varyn e Urzog já no andar de cima (Gorbag e Sae'Varyn Aguardar, por ordem do Mestre). Basilisco contra Tann'athar (PJ mais próximo no mapa, 12 hex): NH 16-12 = 4, 3d [6,3,4] = 13, falhou por 9; sem dano, leve dor de cabeça. Mulher alada presa, sem alvo ao alcance.
+- **29/10/2026 10:38** — TURNO 76 (roll6) — Só Krag visível no andar; Gorbag e Sae'Varyn Aguardar (fora do mapa), por ordem do Mestre. Basilisco contra Krag (11 hex): NH 16-11 = 5, 3d [3,6,6] = 15, falhou por 10 (falha crítica pelo livro; Mestre manteve só a leve dor de cabeça); sem dano. Mulher alada presa, sem alvo ao alcance.
+- **29/10/2026 11:04** — [narração 112] Andar da torre: golem de pedra guarda o quarto da porta de ferro e avança contra o grupo
+- **29/10/2026 11:39** — TURNO 78 (roll6) — Tann'athar diz em élfico a senha de Faelar ('Anno nin i megil, mellon'); Krag a repete. Por decisão do Mestre a senha funciona (sem rolagem): o golem de pedra para, se vira e abre a porta de ferro. Gorbag e Sae'Varyn sem ação declarada (Aguardar). Dentro do quarto: baú de madeira escura, caixa de ferro, 5 frascos de poção (3 vermelhos, 1 amarelo, 1 verde) e as roupas e itens de Tann'athar.
+- **30/10/2026 14:14** — TURNO 79 (roll6) — Gorbag procura a espada: ERRATA do Mestre, a espada está no baú de madeira escura e a caixa de ferro está trancada; Gorbag não pega ainda, decide no T80. Krag acha a caixa de ferro trancada (sem rolagem). Tann'athar recolhe pertences e 5 frascos; Detecção de Magia NH 16-5 (mana baixa) = 11, 3d [6,4,2]=12, falhou por 1, -1 Fadiga (um teste só para os 5 frascos, decisão do Mestre; elixires são detectáveis, Magia p. Alquimia). Sae'Varyn anda (12,3)->(14,6) e procura armadilhas: IQ 15-5 = 10, 3d [6,4,3]=13, falhou por 3 (não há armadilha, decisão do Mestre). Urzog Aguardar. Golem e Farejo parados.
+- **30/10/2026 17:35** — TURNO 80 (roll6) — Krag pergunta ao Gorbag se abre a caixa de ferro na força ou com a espada; Gorbag recusa a espada e manda Urzog pegá-la. Tann'athar sugere as chaves; Sae'Varyn tenta o molho inteiro na caixa de ferro: nenhuma serve (decisão do Mestre). Urzog pega a espada e a tira do baú: Mor'Dhaun (Vaelrith, elfo negro necromante, NH 21 informado pelo Mestre) lança Possessão Permanente, disputa rápida: Mor'Dhaun 3d [6,2,2]=10 (sucesso por 11) x Urzog IQ 8 +4 Força de Vontade = 12, 3d [2,6,2]=10 (sucesso por 2); Mor'Dhaun vence, Urzog possuído: 'Ahh, que nojo, logo um orc nojento. Agora vamos sair daqui, seus idiotas!'. Farejo recua rosnando; golem parado.
+- **30/10/2026 17:36** — ERRATA T80 (Mestre): a Possessão Permanente do Mor'Dhaun leva -5 de mana baixa: NH 21-5 = 16, 3d [6,2,2]=10, sucesso por 6 (não 11) contra o 12 de Urzog (sucesso por 2); o resultado não muda, Mor'Dhaun vence.
+- **30/10/2026 19:45** — TURNO 81 (roll6) — Urzog (possuído por Mor'Dhaun) diz em élfico 'Dadno i haew!' ao golem; por decisão do Mestre o golem obedece sem rolagem, pula no poço e é DESTRUÍDO na queda até a fonte do térreo. Gorbag segue Urzog: (18,17)->(17,14). Krag pergunta quem é a voz: Mor'Dhaun se apresenta. Sae'Varyn propõe a rota das montanhas; Tann'athar propõe descer à fonte e abrir o portal. Farejo parado, rosnando.
+- **31/10/2026 05:18** — TURNO 82 (roll6) — Por ordem do Mestre, o grupo desce ao andar dos experimentos (mapa 15), na escada do canto superior direito, Urzog na frente: Urzog (18,6), Gorbag (18,5), Tann'athar (18,4), Krag (18,3), Sae'Varyn (18,2), Farejo (19,3), todos olhando S. Sem rolagem. Sae'Varyn tapa os ouvidos e evita olhar o basilisco (só narração). ERRATA (Mestre): o poço do andar dos experimentos é um buraco no meio, sem água; a água só está na fonte do térreo, 2 andares abaixo.
+- **31/10/2026 14:19** — TURNO 83 (roll6) — Grupo avança pelo andar dos experimentos: Gorbag (13,6), Krag (15,5), Sae'Varyn (14,4), Tann'athar (17,6), todos só Deslocamento. Krag procura espelho: decisão do Mestre, não há (sem rolagem). Sae'Varyn conta a Mor'Dhaun do zumbi Grumel e pergunta se ele o controlaria: Mor'Dhaun diz que sim (decisão do Mestre), sem lançar nada. Tann'athar grita que vai controlar a harpia, só intenção; a harpia não rola Sex Appeal (decisão do Mestre: não adianta mais). Urzog/Mor'Dhaun: 'Matem o basilisco' e Concentração para Bola de Fogo (lança no início do T84; NH 21-5 mana baixa = 16). Basilisco olha Gorbag (mais próximo, 9 hex): NH 16-9 = 7, 3d [5,1,2] = 8, falhou por 1; leve dor de cabeça, sem dano. Farejo acompanha Krag, (16,5). Status do T49 (Escudo +5 DP e Bravura) limpos por ordem do Mestre.
+- **31/10/2026 14:36** — [narração 119] Mor'Dhaun (Urzog, IQ 18) passa em Naturalista e lembra que o basilisco é imune a magia
+- **01/11/2026 01:46** — TURNO 84 (roll6) — Urzog/Mor'Dhaun cancela a Bola de Fogo (sem custo) e grita 'Matem o basilisco' ao grupo (decisão do Mestre: não era ordem a Grumel); fica em (16,6). Krag sugere soltar a harpia para comer o basilisco (só fala). Sae'Varyn vai a (11,5), junto da gaiola de Grumel (Deslocamento, sem golpe), diz 'Aqui está o morto, Mor'Dhaun' e pergunta se Grumel mata a serpente; Grumel: 'Morto.'. Tann'athar: postura 'fora de combate' corrigida para em pé e peça devolvida de (17,10) para (17,7) (Avançar e se Concentrar = 1 hex); Lealdade na harpia, NH 18-5 mana baixa = 13, 3d [3,5,4] = 12, sucesso por 1; tempo 2 s, fecha no fim do T85 (resistência IQ da harpia e 6 de Fadiga ficam para lá). Gorbag vai a (8,5). Basilisco (NPC 52, mapNpc 101) olha Gorbag a 5 hex: NH 16-5 = 11, 3d [1,2,3] = 6, sucesso por 5; dano 2D+2 [5,1]+2 = 8; Gorbag 6 -> -2 PV; HT 15, 3d [2,4,3] = 9, de pé; atordoado (-4 defesas), ataca com -8; contato do olhar mantido (2D+2 por turno).
 <!-- /indice:acontecimentos -->

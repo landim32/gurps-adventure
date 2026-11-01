@@ -1,0 +1,27 @@
+*TURNO 67 — A VOZ NA GAIOLA*
+
+Gorbag larga o pé da escada e atravessa o andar, contornando o poço, de olho na parede do fundo atrás de qualquer sinal de cofre. Sae'Varyn o alcança no caminho e estende a mão pela maça. O ogro a devolve sem parar de andar, e o elfo negro a prende de volta ao cinto. Urzog vai atrás do chefe, no mesmo passo pesado.
+
+Krag fica onde está, a mão no cão, e fala para o andar inteiro: "Alguma dessas criaturas consegue falar?" A mulher alada não responde, mas o olhar dela passeia pelo grupo devagar, quente e demorado, e os lábios se entreabrem num convite mudo, de quem sabe o que faz com o rosto que tem. A ave enorme bufa, e a serpente não ergue a cabeça. Do fundo do andar, da gaiola pequena, o zumbi responde sem levantar o rosto, a voz arrastada e sem cor: "Falo."
+
+Nada mais. Ele volta a olhar os próprios joelhos, e o silêncio do andar fecha de novo.
+
+Sae'Varyn e Tann'athar param um instante, ao mesmo tempo. Os dois magos reparam: zumbi não fala.
+> IQ de Sae'Varyn: IQ 15 +3 Aptidão Mágica = *18*
+> 3d [2, 6, 6] = *14* → sucesso por 4: ele estranha o zumbi que fala
+> IQ de Tann'athar: IQ 16 +3 Aptidão Mágica = *19*
+> 3d [5, 5, 1] = *11* → sucesso por 8: ele estranha o zumbi que fala
+
+Sae'Varyn, enquanto anda, varre o andar com o olho de quem cata o que os outros deixam passar: o chão, os cantos, as grades das jaulas.
+> Visão (procurar gema de mana e chaves): NH 15 = *15*
+> 3d [1, 2, 1] = *4* → *SUCESSO DECISIVO* (por 11)
+Pendurado numa grade, perto da gaiola vazia, há um molho de chaves de ferro, e na palha do chão há uma gema escura, fria ao toque: uma gema de dois pontos, descarregada. Ele guarda as duas.
+
+Tann'athar revira o chão junto à gaiola vazia, afastando a palha com a ponta do pé, atrás de uma faca ou de um pau que sirva de bastão.
+> Captação (achar ou improvisar um objeto): NH 16 = *16*
+> 3d [5, 3, 6] = *14* → sucesso por 2
+Faca não há. Mas encostada na grade da gaiola vazia ele acha uma vara de madeira escura, de um metro e meio, lisa de uso: o pau com que se cutuca bicho preso. Serve de bastão.
+
+Farejo trota junto de Krag, o focinho baixo, a orelha virada para a voz do fundo.
+
+O que vocês fazem?
