@@ -175,4 +175,12 @@ O que vocês fazem?
 - **30/09/2026 11:31** — JAH FAZ ATADURAS SIMPLES EM SI MESMO, na mesma meia hora do Kaelric e do Comam. Sem teste: MB 12 devolve 1 PV em 30 minutos. De 2/12 para 3/12. Deslocamento segue à metade. Continua montado no deserto, Negrum na garupa, uma adaga na mão.
 - **30/09/2026 11:56** — [narração 6] Vurkash e o exército chegaram à linha do deserto; alguns mortos caíram ao tentar passar, ele não cruzou e gritou vingança contra William, e a carroça seguiu devagar para dentro do deserto ainda carregada.
 - **30/09/2026 11:56** — Capítulo 6 encerrado na linha do deserto. A caravana seguiu para dentro, carregada; Vurkash e o exército ficaram do lado de Caithness.
+- **21/09/2026 12:33** — [export WhatsApp de 30/10] O cavalo do Kaelric se chama Pé de Pano. Henrique perguntou se podia voltar ao esgoto pela armadura e pelo escudo; o Mestre disse que é aventura suicida só dele (a armadura já foi jogada no pátio).
+- **22/09/2026 10:27** — [export WhatsApp de 30/10] Mestre: o Jah vai a cavalo, porque a carroça está cheia.
+- **24/09/2026 16:11** — [export WhatsApp de 30/10] Confirmado como decisão do Mestre: Cavalgar dos mortos sobe de 11 para 14 a partir da rodada 3 (a fala não está no chat; vale o registro).
+- **25/09/2026 17:37** — [export WhatsApp de 30/10] Regra do Mestre: com sucesso no Cavalgar inicial, o cavaleiro pode mover de lado ou até 10 hex para trás sem rolar. 26/09 15:58 e 29/09 12:49: acelerar o cavalo exige sucesso por margem maior (10 + a margem).
+- **25/09/2026 19:30** — [export WhatsApp de 30/10] Rodada 6: o Mestre diz ao André que o lugar certo dele é Q10 (o barril foi posto onde ele estava).
+- **26/09/2026 17:07** — [export WhatsApp de 30/10] Rodada 11, "A arrancada" (testes de equilíbrio): Comam 14 (por 0); William 3d 4, decisivo, agarra um ferido que escorregava; André 9; Negrum 12 (por 1); o Morto 3 tirou 13 e falhou, a espada saiu da guarda (não ataca nem apara).
+- **29/09/2026 12:36** — [export WhatsApp de 30/10] Mestre sobre a besta do Comam: tiro de longe com carroça em fuga é "tiro de sniper" (NH 1 sem apontar). 30/09 10:44: no deserto a magia também não funciona, a cura é por Primeiros Socorros.
+- **30/09/2026 12:51** — [export WhatsApp de 30/10] Mestre publica a regra "Cura ao longo dos dias" (Medicina NH 12+ dá +1, rolagem semanal no NT 3; Fadiga, fome e água: 2 L em clima temperado, 3 no calor, 5 no calor do deserto). 13:04: os barris têm comida e água.
 <!-- /indice:acontecimentos -->

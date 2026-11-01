@@ -111,6 +111,6 @@ _"Então?"_
 <!-- indice:acontecimentos -->
 - **20/09/2026 21:04** — [narração 1] Abertura do cap. 5: a chuva para, o aríete aparece pronto na rampa e a mesa entende que o orc também estava ganhando tempo. Vurkash chama William
 - **20/09/2026 21:09** — [narração 3] William revela a passagem que sai no estábulo de fora, diz que era isso que comprava com o orc, e explica o deserto sem mana
-- **20/09/2026 21:32** — Negociação com William: NelsOwned (Trovador 20 -1) tirou 16 contra 14 do lorde (Trato Social 13). Margem 3 — 00 por cabeça, pagos ADIANTADO do cofre da guarnição. O grupo aceitou segurar o pátio até o último civil descer a passagem.
-- **20/09/2026 21:34** — CORREÇÃO: o acerto com William foi de .000 por cabeça, metade adiantada (.000 cada) e metade a pagar do outro lado. O lorde ficou devendo .000 ao grupo.
+- **20/09/2026 21:32** — Negociação com William: NelsOwned (Trovador 20 -1) tirou 16 contra 14 do lorde (Trato Social 13). Margem 3 — $2.000 por cabeça, pagos ADIANTADO do cofre da guarnição. O grupo aceitou segurar o pátio até o último civil descer a passagem.
+- **20/09/2026 21:34** — CORREÇÃO: o acerto com William foi de $2.000 por cabeça, metade adiantada ($1.000 cada) e metade a pagar do outro lado. O lorde ficou devendo $1.000 por cabeça ao grupo.
 <!-- /indice:acontecimentos -->
