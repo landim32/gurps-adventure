@@ -2,11 +2,11 @@
 name: pensar-acao
 description: >
   Lê a cena atual (o roll6 primeiro, o repositório como apoio) e sugere 3 ações que um
-  personagem pode declarar nela — por padrão o Gorbag, o Moedor, do André —, cada uma
+  personagem pode declarar nela, cada uma
   amarrada a uma desvantagem, peculiaridade, vantagem ou perícia da ficha, com a fala em
   personagem, o teste que o Mestre provavelmente pede e o risco. Só sugere: não rola dado,
   não declara nada no roll6, não escreve em lugar nenhum e não lê o que é segredo do Mestre.
-  Use when the user asks "/pensar-acao", "o que o Gorbag pode fazer", "sugira ações",
+  Use when the user asks "/pensar-acao", "o que o meu personagem pode fazer", "sugira ações",
   "me dá ideias para a cena", "o que meu personagem faria agora".
 ---
 
@@ -19,9 +19,12 @@ menos duas das três sugestões têm de **custar alguma coisa** ao personagem.
 
 ## De quem
 
-- Sem argumento: **Gorbag, o Moedor** (André).
-- Com argumento (`/pensar-acao Krag`, `/pensar-acao Bruno`): o personagem que a folha
+- Com argumento (`/pensar-acao <personagem ou jogador>`): o personagem que a folha
   `contexto` resolver. Ela aceita nome de jogador ou de personagem, inteiro ou em parte.
+- Sem argumento: **pergunte de quem é** antes de ler qualquer coisa. Não escolha um
+  personagem por conta própria. Se a conversa já deixou claro quem o usuário joga (ele
+  disse o nome do personagem ou do jogador), use esse e diga qual foi usado na primeira
+  linha da resposta.
 
 ## 1. A ficha
 
@@ -38,7 +41,8 @@ Isso dá atributos, defesas, Deslocamento e as perícias com NH. Depois leia:
 
 ## 2. A cena
 
-**O roll6 é onde a mesa joga.** Ache a campanha ativa com `list_my_table_campaigns`. Se
+**O roll6 é onde a mesa joga.** Esta skill só **consulta** o roll6, como manda a regra do
+projeto: as chamadas abaixo são todas de leitura, e nada é escrito lá. Ache a campanha ativa com `list_my_table_campaigns`. Se
 `campanha/roll6.json` existir, ele diz qual é. Depois:
 
 | Chamada MCP | Para quê |
@@ -57,8 +61,8 @@ saber como o personagem **está**: ferido, sem dinheiro, devendo a alguém.
 Ela pensa como o jogador, então lê só o que o personagem pode saber:
 
 - **nada de `campanha/plano/`** (o plano secreto do Mestre);
-- **nada de `reacoes.json` nem `segredos.json`**: reação de NPC é segredo, e o jogador
-  descobre pelo jeito que o NPC trata ele;
+- **nada de `reacoes.json` nem de qualquer outro arquivo de segredo do Mestre**: reação de
+  NPC é segredo, e o jogador descobre pelo jeito que o NPC trata ele;
 - nada de `create_campaign_plan`/`get_campaign_plan` no roll6.
 
 Se uma sugestão depender de algo que o personagem não tem como saber, ela não serve.
@@ -82,9 +86,9 @@ Monte as três com estas regras:
 Para cada uma, entregue:
 
 - **Título curto** e o **traço** que a move;
-- **a declaração pronta para colar no roll6**, em personagem e na voz dele (o Gorbag fala
-  de si na terceira pessoa);
-- **o teste provável**, com o NH da ficha (`Intimidação 11`, `Vontade 9 contra a Gula`).
+- **a declaração pronta para colar no roll6**, em personagem e na voz dele (respeite as
+  peculiaridades de fala da ficha, como falar de si na terceira pessoa);
+- **o teste provável**, com o NH da ficha (`<perícia> <NH>`, `Vontade <NH> contra <desvantagem>`).
   O Mestre é quem decide; isto é só para o jogador não ser pego de surpresa;
 - **o risco**, numa linha: o que dá errado se falhar, ou o que a desvantagem cobra.
 
@@ -93,19 +97,18 @@ Feche com **uma linha de recomendação**: qual das três você declararia agora
 ## Formato da resposta
 
 ```
-*Cena:* Gota Seca, Ferrier, noite. Krag está no balcão com o Marden; o forasteiro de
-capuz olha para vocês.
+*Cena:* <onde estão, quem está ali, o que acabou de acontecer>
 
-*1. Afiar o cutelo no balcão* — Afia o cutelo enquanto falam · Intimidação 11
-> "Gorbag escuta. Marden fala. Gorbag não pergunta duas vezes."
-Teste provável: Intimidação 11 (o Mestre pode dar bônus pelo tamanho)
-Risco: falhou, o taberneiro se assusta e se fecha, ou chama a guarda.
+*1. <título>* — <traço da ficha> · <teste e NH>
+> "<declaração em personagem>"
+Teste provável: <perícia ou atributo e NH, com o modificador que o Mestre deve dar>
+Risco: <o que dá errado se falhar, ou o que a desvantagem cobra>
 
-*2. ...*
+*2. <título>* — ...
 
-*3. ...*
+*3. <título>* — ...
 
-*Eu iria de:* 1. Ajuda o Krag e mantém o Gorbag como líder sem gastar nada.
+*Eu iria de:* <número>. <por quê, numa linha>
 ```
 
 Nada de bloco para o WhatsApp: a sugestão é para o jogador, não para a mesa.
