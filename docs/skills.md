@@ -350,6 +350,7 @@ flowchart TB
 | **campanha** | Dona do formato de `campanha/`: plano × histórico, capítulos, capítulo atual, acontecimentos, anotações (`npcs`/`grupo`/`lugares` → `mundo.md`), `bolsa`, `saude`, índices, encerramento. |
 | **roll6** | Espelho na mesa virtual: `campanha/roll6.json`, `roll6.py` (`estado`, `chamar`, `subir-imagem`, `subir-documento`, `alinhar`, `mapa`, `saude`) e a tabela do que cada skill empurra. |
 | **status-atual** | Bloco do WhatsApp com dinheiro, PV, Fadiga e estados de cada PJ, lendo `bolsa.md`, `saude.md` e as fichas. Só lê. |
+| **pensar-acao** | Para o jogador: lê a cena no roll6 (narrações, turno, chat) e a ficha via `contexto`, e sugere 3 ações amarradas a desvantagens, peculiaridades e perícias, com fala, teste provável e risco. Não lê o plano nem as reações, não rola e não declara. Só lê. |
 
 ### Material (fora do fluxo de jogo)
 
