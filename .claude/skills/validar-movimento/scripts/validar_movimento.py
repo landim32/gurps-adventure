@@ -728,6 +728,8 @@ def turno(args):
                 cod = "deslocamento"
             if cod not in MANOBRAS:
                 raise SystemExit(f"Manobra desconhecida: {cod}. Use uma de: {', '.join(MANOBRAS)}")
+            if not mov:
+                continue
             primeiro, ultimo = mov[0], mov[-1]
             ocup = [[list(k), v] for k, v in ocupados.items() if v != nome]
             parametros = {"de": [primeiro["beforeX"], primeiro["beforeY"]], "look_de": primeiro.get("beforeLook"),
