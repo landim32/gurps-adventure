@@ -1,8 +1,18 @@
 # Contexto da campanha — Tormento Vil 2
 
-_(**gerado** por `campanha.py elenco` a partir de `personagens/*/personagem.json` — não edite aqui: mude a ficha e regere. É lido em **toda** execução: antes de decidir o que um personagem faz, sofre ou diz, confira as **desvantagens, peculiaridades e vantagens dele** abaixo. Só entra o que influencia a cena. Atributos, perícias e equipamento estão na ficha (a `contexto` os traz a cada jogada); PV, Fadiga, bolsa e ferimento, em `saude.md`, `bolsa.md` e `mundo.md`.)_
+_(**gerado** por `campanha.py elenco` a partir de `personagens/*/personagem.json` — não edite aqui: mude a ficha e regere. É lido em **toda** execução: antes de decidir o que um personagem faz, sofre ou diz, confira as **desvantagens, peculiaridades e vantagens dele** abaixo. Só entra o que influencia a cena. Atributos, perícias e equipamento estão na ficha (a `contexto` os traz a cada jogada); PV, Fadiga, bolsa e ferimento, em `saude.md`, `bolsa.md` e `mundo.md`. Onde o grupo está e o que vale ali (mana), em `ambiente.md`.)_
 
-_5 personagem(ns). Atualizado em 21/10/2026._
+_6 personagem(ns). Atualizado em 24/10/2026._
+
+## Onde estão e a magia
+
+- O grupo está em **Caithness**, no baronato de **Ferrier**, na orla do Grande Deserto.
+- **Em Caithness a mana é baixa.** Todo teste para lançar mágica sofre **−5**: vale para as mágicas de Sae'Varyn e de
+  qualquer mago ou item mágico da região. Custo em Fadiga e tempo de execução seguem normais. Conte o redutor em toda
+  jogada de mágica fora da torre.
+- **Torre do Grã-Mago, em Ferrier: a mana é baixa, como em Caithness (−5), e só a fonte do térreo tem mana muito alta** (errata do Mestre, T55). Na sala da fonte qualquer um lança o que sabe, o mago sem custo de Fadiga, e falha comum conta como crítica. Em todo o resto da torre vale o −5.
+
+_(de `ambiente.md` — edite lá e regere.)_
 
 ## Gorbag, o Moedor
 
@@ -12,7 +22,7 @@ André · Ogro (Fantasy) · Guerreiro (Módulo Básico) · 34 anos
 **Quem é:** Açougueiro ogro; Lorde Valthor, da Seita Lych, prendeu a alma dele num pote de picles  
 **Reação fixa:** -5; -3 sádico conhecido  
 **Vantagens:** Raça: Ogro (+90); Reflexos em Combate (+15)  
-**Desvantagens:** Dever: Seita Lych (quase sempre) (-15) — A alma dele está no pote de Valthor: a seita chama e ele vai; Sadismo (-15) — Vontade (9) para se conter quando não deve fazer sofrer; quem sabe reage -3; Sanguinolência (-10) — Vontade (9) para aceitar rendição ou fazer prisioneiro; Fobia suave: Fogo (-10) — Pânico (Vontade) diante de fogo; controlado, -2 em DX e IQ; Gula (-5) — Vontade para resistir a iguaria; cheiro de sangue o distrai  
+**Desvantagens:** Dever: Seita Lych (quase sempre) (-15) — A alma dele está no pote de Valthor: a seita chama e ele vai; Sadismo (-15) — Vontade (9) para não ser cruel com quem deve sair ileso; -3 de reação de quem o conhece; Sanguinolência (-10) — Vontade (9) para aceitar rendição ou fazer prisioneiro; Fobia suave: Fogo (-10) — Pânico (Vontade) diante de fogo; controlado, -2 em DX e IQ; Gula (-5) — Vontade para resistir a iguaria; cheiro de sangue o distrai  
 **Peculiaridades:** Afia o cutelo enquanto falam; Avental minúsculo de florzinhas; Ossos humanoides de palito; Fala de si na 3ª pessoa; Ofendido se desperdiçam carne  
 **Línguas:** Órquico (nativa) 9, Ânglico 9  
 *Ficha completa: `personagens/gorbag-o-moedor/personagem.md`*
@@ -25,7 +35,7 @@ Bruno · Meio-Orc (Magia) · Ranger (Fantasy) · 35 anos
 **Quem é:** Meio-orc rastreador e caçador de recompensas; a Seita Lych tem a alma dele num frasco  
 **Reação fixa:** -2 (Meio-Orc)  
 **Vantagens:** Raça: Meio-Orc; Reflexos em Combate (+15); Senso de Direção (+5); Empatia com Animais (+5); Prontidão +1 (+5); Aliado: Farejo (aparece ≤15) (+15)  
-**Desvantagens:** Dever: Seita Lych (quase sempre) (-15); Cobiça (-15); Paranóia (-10); Voto: destruir o frasco da alma (-15)  
+**Desvantagens:** Dever: Seita Lych (quase sempre) (-15) — A alma dele está no frasco de Nekhar, o Embalsamador: a seita chama e ele vai; Cobiça (-15) — Autocontrole (12) quando há dinheiro ou tesouro em jogo; aceita risco e trapaça por ouro; Paranóia (-10) — Desconfia de todos, até da Seita; -2 nas reações que faz a quem não conhece há muito tempo; Voto: destruir o frasco da alma (-15) — Encontrar e destruir o frasco com a própria alma; não larga pista que leve a ele  
 **Peculiaridades:** Dorme com a faca sob a cabeça; Fala baixo com o cão; Conta o dinheiro duas vezes; Evita olhar a Seita nos olhos; Guarda troféu de cada contrato  
 **Línguas:** Órquico (nativa) 11, Ânglico 10  
 *Ficha completa: `personagens/krag-trilhanegra/personagem.md`*
@@ -51,11 +61,25 @@ Henrique · Elfo Negro (Fantasy) · Clérigo/Curandeiro caído → Necromante (F
 **Quem é:** Elfo que foi templário e mentor do jovem Kaelric; questionou a fé em voz alta, caiu e serve a Seita Lych. A alma está presa num terço profanado.  
 **Reação fixa:** +2 (Carisma/Aparência); -3 sádico/renegado conhecido  
 **Vantagens:** Raça: Elfo Negro (+30); Hipoalgia (Limiar de Dor) (+10); Aptidão Mágica 3 (racial 1 +2) (+20); Clericato (Seita Lych) (+5)  
-**Desvantagens:** Dever: Seita Lych (quase sempre) (-15); Sadismo (-15); Excesso de Confiança (-10); Megalomania (-10); Má Reputação (necromante renegado) (-5)  
+**Desvantagens:** Dever: Seita Lych (quase sempre) (-15) — A alma está presa num terço profanado: a seita chama e ele vai; Sadismo (-15) — Autocontrole (12) para não ser cruel com quem está indefeso; -3 de reação de quem o conhece; Excesso de Confiança (-10) — Autocontrole (6) para recuar, negociar ou pedir ajuda; acha que vence qualquer desafio; Megalomania (-10) — Quer poder e domínio; topa qualquer plano que o engrandeça e trata os outros como peões; Má Reputação (necromante renegado) (-5) — -1 de reação de quem o reconhece como o templário que virou necromante  
 **Peculiaridades:** Reza em latim por hábito, mesmo renegado; Nunca pronuncia o nome do Kaelric; Cataloga cada cadáver que levanta; Chama os vivos de 'os de um dia'; Toca o peito onde pendia o terço  
 **Línguas:** Élfico (nativa) 15, Ânglico 14, Latim 14  
 **Mágicas:** Dar Força, Dar Vitalidade, Cura Superficial, Cura Profunda, Despertar, Detecção de Magia, Aura, Identificação de Mágica, Escudo, Contra-Mágicas, Visão da Morte, Percepção de Espíritos, Convocar Espíritos, Roubar Força, Roubar Vitalidade, Zumbi, Controle de Zumbi  
 *Ficha completa: `personagens/sae-varyn/personagem.md`*
+
+## Tann'athar Goras
+
+Ricardo · Meio-Elfo (Fantasy) · Espião (Fantasy) + Espião mágico (Magia) · 42 anos
+
+**Aparência:** 1,75 m; 68,1 kg; 42 anos, esbelto, pele escura, orelhas pontudas, cabelo longo preso  
+**Quem é:** Vendido pela mãe e criado pelo pai, Sethros Tanna'thos, como espião da Seita Lych  
+**Reação fixa:** +2  
+**Vantagens:** Raça: Meio-Elfo (+30); Aptidão Mágica 3 (racial 1 +2) (+20); Alfabetização (+10); Voz Melodiosa (+10) — +2 em reação de quem o ouve e +2 em Política, Trato Social, Diplomacia, Atuação; Prontidão +1 (+5)  
+**Desvantagens:** Dever: Seita Lych (quase sempre) (-15) — Alma presa por Sethros Tanna'thos, o pai: a seita chama e ele vai; Intolerância (fora da Seita) (-10) — -3 de reação a quem não é da Seita; frio e reservado, trata como inferior; Sadismo (-15) — Gosta de causar sofrimento; Vontade para se conter; sádico conhecido: -3 de reação; Fantasia (o pai o ama) (-10) — Crê que Sethros o protege e que a prisão da alma foi cuidado; defende o pai; o Mestre decide a verdade; Compulsão (colecionar segredos) (-5) — Vontade para não bisbilhotar e anotar segredos de todos a quem se aproxima  
+**Peculiaridades:** Cala-se ao ouvir "filho" ou "pai"; Conta até três antes de obedecer; Sorri só quando alguém sofre; Fala sozinho numa voz mais jovem; Tem lacunas na memória da infância  
+**Línguas:** Ânglico (nativa) 16, Élfico 15  
+**Mágicas:** Percepção de Inimigos, Percepção de Emoção, Percepção da Veracidade, Persuasão, Medo, Pânico, Bravura, Inépcia, Amnésia, Lealdade, Controle de Emoções, Sugestão, Ilusão Simples, Som, Ilusão Complexa, Ilusão Perfeita, Vozes, Escudo, Contra-Mágicas, Detecção de Magia, Luz, Visão da Morte, Coceira, Encantar, Cajado  
+*Ficha completa: `personagens/tann-athar-goras/personagem.md`*
 
 ## Urzog, o Bigorna
 

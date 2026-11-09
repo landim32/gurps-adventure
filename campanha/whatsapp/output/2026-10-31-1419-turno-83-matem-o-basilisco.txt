@@ -1,0 +1,16 @@
+*TURNO 83 — MATEM O BASILISCO*
+
+Urzog vira o corpo para o fundo do andar e a voz que sai dele não é a dele: "Matem o basilisco!". Depois os olhos se perdem no vazio e os dedos grossos abrem e fecham devagar. Alguma coisa quente começa a se juntar na palma, ainda sem forma.
+
+Gorbag atravessa o piso a passos largos, desviando das gaiolas, e para junto da grade do zumbi, de cara para o canto onde a serpente se agita.
+
+Krag corre os olhos pelo andar à procura de um espelho. Não há vidro, nem metal polido, nem nada que devolva uma imagem. Ele desce até o meio da sala e o cão vem rente aos calcanhares dele, sem tirar os olhos da espada de pedra roxa.
+
+Sae'Varyn chega rente à parede e fala baixo com o orc que já não é um orc: conta do morto que fala, Grumel, e pergunta se ele o controlaria. Mor'Dhaun vira só a cabeça, com um meio sorriso: "Controlar um morto? Claro que controlo. Leve-me perto o bastante para vê-lo."
+
+Tann'athar avança entre as gaiolas e grita: "Vou tentar controlar a Harpia!". A mulher alada agarra as grades e canta mais alto, mas o canto já não prende ninguém.
+
+Do outro lado do poço, o basilisco vira a cabeça e fixa o olhar no ogro que atravessa o andar. Gorbag sente uma pontada seca atrás dos olhos, e nada além disso.
+> Olhar do basilisco: NH 16 −9 (9 hexágonos de distância) = *7*
+> 3d [5, 1, 2] = *8* → falhou por 1
+> Leve dor de cabeça, sem dano.

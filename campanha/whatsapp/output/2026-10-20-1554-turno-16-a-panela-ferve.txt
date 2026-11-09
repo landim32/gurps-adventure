@@ -1,0 +1,24 @@
+*TURNO 16 — A PANELA FERVE*
+
+Sae'Varyn se põe no caminho da criada, de uniforme de guarda e queixo erguido, e fala firme: "Senhora, volte para seu lugar e continue a cozinhar." A voz sai um fio rouca demais para um soldado de verdade. A mulher aperta o avental no punho, olha de lado para a porta lateral e não se mexe do lugar onde está. Quer sair, e agora todo mundo viu.
+> Trato Social, Sae'Varyn: NH 16, -6 situação muito suspeita = *10*
+> 3d [5, 3, 3] = *11* → falhou por 1
+
+Gorbag larga o pano de prato e dá um passo para o meio da cozinha, o cutelo da casa pendendo da mão, o avental ainda duro de sangue. Bate a lâmina na laje, uma vez, e o barulho corta o vapor. Os sete param. Um cozinheiro de braços grossos não recua: desencosta da mesa com uma faca de desossar na mão, olha o ogre de baixo para cima e diz alto: "Aqui quem manda é o despenseiro!" Atrás dele, os criados pegam panelas e a criada corre para a porta.
+> Intimidação, Gorbag: NH *11*
+> 3d [3, 3, 2] = *8* → passou por 3
+> Vontade da cozinha: NH *10*
+> 3d [1, 2, 1] = *4* → passou por 6 (*SUCESSO DECISIVO*)
+> *A cozinha vence a disputa: ninguém se acua, e a cozinha se revolta.*
+
+Do outro lado do castelo, Krag cruza o pátio rente à parede, com as chaves do despenseiro no punho para não tilintarem. A grade de ferro no chão fede a bicho molhado e carne velha. Ele encaixa uma chave, outra, a terceira gira, e a grade sobe sem um ranger. Das trevas vem um bufar e uma corrente arrastando. Krag se achata atrás da boca da cisterna, no escuro, e vê uma sombra enorme, de braços compridos, sair do buraco e se arrastar pelo pátio, farejando.
+> Furtividade, Krag: NH *15*
+> 3d [3, 3, 3] = *9* → passou por 6
+
+O troll passa a três passos dele sem virar a cabeça. Krag espera o vulto dobrar a torre, desliza de sombra em sombra até a porta dos fundos e volta para dentro, o coração batendo no pescoço.
+> Furtividade, Krag (escapar do troll): NH *15*
+> 3d [1, 1, 4] = *6* → passou por 9
+
+Na despensa, Pumba'h se encolhe entre dois sacos de farinha e cochicha: "E se eu virar javali e fizer uma comoção? É só vocês acharem um jeito de me salvar depois, hehe!" Ninguém responde ainda. No corredor, Urzog espera quieto, uma mão na coleira de Farejo, que fareja o ar e rosna baixo.
+
+O que vocês fazem?

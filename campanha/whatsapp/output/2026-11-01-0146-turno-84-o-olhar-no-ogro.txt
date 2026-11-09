@@ -1,0 +1,23 @@
+*TURNO 84 — O OLHAR NO OGRO*
+
+Urzog fecha a mão e a chama que se juntava na palma morre num fio de fumaça. A voz que não é a dele berra para o andar inteiro: "Obedeçam, seus insetos! Matem o basilisco!". Depois dá dois passos para o lado da serpente e para, a espada de pedra roxa baixa.
+
+Krag fala ao grupo sem tirar os olhos da gaiola da mulher alada: o melhor é soltar o pássaro gigante e deixar que ele coma o basilisco. O cão fica rente à bota dele.
+
+Sae'Varyn cruza o piso até a grade do zumbi, perto demais para qualquer golpe, e diz sem virar a cabeça: "Aqui está o morto, Mor'Dhaun." Pergunta a Grumel se ele consegue matar a serpente. O morto não levanta o rosto. "Morto", diz ao chão.
+
+Tann'athar tenta correr até a gaiola e conjurar ao mesmo tempo, mas as duas coisas não cabem num turno: dá um passo só e para, a vara cruzada no peito, os lábios mexendo na língua das emoções, os olhos na mulher alada. A magia pede dois segundos; ela fecha no fim do próximo turno.
+> Lealdade: NH 18 −5 (mana baixa) = *13*
+> 3d [3, 5, 4] = *12* → sucesso por 1
+
+Gorbag atravessa o andar a passos largos, rosnando que Gorbag já viu galinha gigante comer serpente. No meio do caminho o basilisco vira a cabeça e crava os olhos nele. Uma lâmina fria entra pelos olhos e abre o crânio por dentro. O ogro cambaleia, os joelhos dobram e não chegam ao chão, mas o sangue já escorre do nariz.
+> Olhar do basilisco: NH 16 −5 (5 hexágonos) = *11*
+> 3d [1, 2, 3] = *6* → sucesso por 5
+> Dano: 2D+2: [5, 1] +2 = *8* (sem RD, sem defesa)
+> Gorbag: 6 → *−2 PV*
+> Mais de metade da HT num golpe só: teste de HT 15, 3d [2, 4, 3] = *9* → continua de pé
+> Gorbag fica *ATORDOADO* (−4 nas defesas) e ataca com −8 no próximo turno
+
+O olhar não solta o ogro. O basilisco segue de cabeça erguida, e a dor não passou.
+
+O que vocês fazem?

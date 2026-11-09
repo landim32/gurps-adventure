@@ -1,0 +1,28 @@
+*A FACA NA MÃO*
+
+Tann'athar baixa as mãos e deixa a Lealdade morrer na boca. Sem a mágica, a voz mansa some do corredor. Krag segura a flecha encaixada e só observa, o olhar no elfo suspenso. Sae'Varyn dá um passo à frente, a voz arrastada: "Não mate ele ainda. Deixe um pouco para que eu sugue…"
+
+Gorbag solta o machado de Urzog no chão para livrar a mão e leva os dedos à bainha da faca, sem afrouxar o pescoço do elfo. Ele não tem o treino de sacar rápido, então o saque é um movimento inteiro do turno, feito de perto, com o braço do elfo quase no peito dele.
+> Regra (MB, "Sacar uma arma", combate de perto): sacar a arma é uma manobra inteira e exige teste de DX; falha crítica (17 ou 18) deixa a arma cair. Quem tem Sacar Rápido saca sem gastar a manobra, mas Gorbag não tem, então não ataca neste turno.
+> Sacar a faca: DX 14 = *14*
+> 3d [3, 6, 4] = *13* → sucesso por 1
+> *Faca sacada e preparada.* O golpe sai no próximo turno.
+
+Urzog dá o passo, ergue o pé e chuta o ar. O tronco do elfo balança fora do alcance por um palmo, e a bota do orc passa sem tocar.
+> Ataque: Chute NH 13 (Briga-2) = *13*
+> 3d [6, 6, 3] = *15* → falhou por 2
+> *Errou.* Faelar nem precisou se defender.
+
+Pendurado, o rosto roxo, Faelar espalma a mão no antebraço que o prende. O ar fica pesado, e o cheiro de ferro frio volta, mais forte que antes. Ele não derrama nada além do que tem: três pontos de força saem dele de uma vez.
+> Toque Mortal (Magia, Comum, toque; o livro não dá tempo de execução, vale o padrão de 1 s, e com NH 21 a mágica sai sem concentração): Faelar NH 21, −4 choque em IQ (chute do T63), −5 mana baixa, −1 Abascanto de Gorbag = *11*
+> 3d [3, 3, 5] = *11* → sucesso por 0
+> Toque: em combate de perto, com a mão livre e a mágica dominada, o toque é automático (Magia, "O Toque do Mago em Combate de Perto")
+> Dano: 1D por ponto de Fadiga aplicado (3 pontos): 3d [3, 1, 1] = *5*. DP e RD não protegem contra a mágica
+> Hipoalgia de Gorbag: sem redutor por ferimento no próximo turno
+> *Gorbag perde 5 pontos de vida.* Faelar gasta 3 de Fadiga.
+
+O frio sobe pelo braço do ogro e some de novo debaixo do couro grosso. Gorbag arreganha os dentes, pesa a faca na palma e não solta o pescoço.
+
+Farejo rosna baixo ao lado de Krag, as orelhas coladas na cabeça.
+
+O que vocês fazem?

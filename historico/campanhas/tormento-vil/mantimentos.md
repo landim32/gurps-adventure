@@ -256,8 +256,8 @@ Marque ao fim de cada dia, no mesmo momento da noite em que o número é dito em
 | **1** | não rolado (rota do William) | **13, tirou 6 — decisivo** | **30** | 80 | **220** | 8 | marcha inteira; nada virou na caçamba |
 | **2** | não rolado (rota do William) | **13, tirou 6 — decisivo** | **30** | **85** | **135** | 8 | +5 L do esforço pesado do Negrum no sol, e ele voltou sem água. Caravana avistada no fim do dia |
 | **+ reforço** | William consegue três dias de água e comida, na véspera | — | — | **+240** | **375** | **+24** | 7 barris e meio de água, 68 pessoas-dia de comida — e **75 litros sem barril** onde caber |
-| 3 | rota do William (sem teste) | Comam 13, tirou 8 — SUCESSO por 5 | 0 (parados na barra) | 80 | 295 | 8 | dia de compras: bebeu-se sem andar um passo |
-| **4** | **Negrum 9 (= 11 -2), 3d [4,4,2] = 10 → FALHA por 1** | Comam 13, tirou 6 — SUCESSO por 7 | **0** — o dia foi perdido | 80 − **50** (poço amargo) | **265** | 8 | rumo errado custa 80 litros e nenhum quilômetro |
+| 3 | rota do William (sem teste) | sem Carreiro (carroça parada na barra) | 0 (parados na barra) | 80 | 295 | 8 | dia de compras: bebeu-se sem andar um passo |
+| **4** | **Negrum 9 (= 11 -2), 3d [4,4,2] = 10 → FALHA por 1** | Comam 13, tirou 8 — SUCESSO por 5 | **0** — o dia foi perdido | 80 − **50** (poço amargo) | **265** | 8 | rumo errado custa 80 litros e nenhum quilômetro |
 | **5** | Negrum 9 (= 11 -2), 3d [1,3,5] = 9 → **SUCESSO por 0** | Comam 13, 3d [2,5,3] = 10 → SUCESSO por 3 | **+30** → **90 km andados** | 80 | **185** | 8 | tabela deu 10: **nada**. Andou, suou, bebeu |
 | **6** | **Negrum 9, 3d [6,3,1] = 10 → FALHA por 1** | Comam 13, 3d [1,3,3] = 7 → SUCESSO por 6 | **0** — rumo errado | 80 (e **+115** da cisterna, até a boca dos 6 barris) | **220** | 8 | cisterna enterrada: 240 L disponíveis, 115 cabiam |
 | **7** | **Negrum 9, 3d [2,6,4] = 12 → FALHA por 3** | Comam 13, 3d [4,3,3] = 10 → SUCESSO por 3 | **0** — terceiro dia perdido | 80 (e o meio-dia de sede que o odre do viajante devolve a UM homem) | **140** | 8 | linha 9: viajante de Caithness; peste em Blythe e Ferrier não abre sem pedir passagem |

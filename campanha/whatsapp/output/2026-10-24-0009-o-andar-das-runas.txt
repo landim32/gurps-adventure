@@ -1,0 +1,19 @@
+*O ANDAR DAS RUNAS*
+
+O grupo sobe e se vê num andar quadrado, de pedra nua, com o poço aberto no meio e a luz azul da torre parada sobre as lajes. Ao pé da escada, o piso parece igual ao resto. Mas há algo errado no ar, uma pressão leve nos ouvidos de quem tem sangue de mago.
+
+Krag reconhece o que não deveria estar ali: um traço fino, quase invisível, riscado no chão a poucos passos da escada, que brilha de leve quando ele não olha direto. Sae'Varyn e Tann'athar notam o mesmo brilho de lado e param, a mão erguida. Gorbag e Urzog olham a mesma pedra e só veem pedra.
+> Detectar a runa: Krag, IQ 11 -4, +1 Prontidão = NH 8, 3d [1, 3, 1] = *5* → sucesso por 3
+> Detectar a runa: Sae'Varyn, Aptidão Mágica 3 = NH 13, 3d [3, 1, 4] = *8* → sucesso por 5
+> Detectar a runa: Tann'athar, Aptidão Mágica 3, +1 Prontidão = NH 14, 3d [3, 6, 3] = *12* → sucesso por 2
+> Detectar a runa: Gorbag, IQ 9 -4 = NH 5, 3d [3, 3, 5] = *11* → falhou por 6
+> Detectar a runa: Urzog, IQ 8 -4 = NH 4, 3d [2, 5, 4] = *11* → falhou por 7
+
+Sae'Varyn e Tann'athar não se contentam com um brilho. Cada um fecha os olhos e conjura, cinco segundos de concentração de quem lê as pedras. O piso inteiro ao pé da escada responde: a laje está encantada, ativa, com um desenho mágico preso nela. Qual é, nenhum dos dois consegue dizer.
+> Detecção de Magia (Sae'Varyn, 5 s): Detecção de Magia NH 16
+> 3d [2, 5, 1] = *8* → sucesso por 8
+> Detecção de Magia (Tann'athar, 5 s): Detecção de Magia NH 16
+> 3d [4, 6, 3] = *13* → sucesso por 3
+> Custo: 2 -1 (NH 16) = 1 de Fadiga cada um
+
+O que vocês fazem?

@@ -1,0 +1,33 @@
+*TURNO 32 — O OGRO E A CAPITÃ*
+
+Ao assobio de Krag, Farejo dispara latindo pelo salão atrás do Barão. O dono manda e ele corre, mas o estrado ainda está longe: o cão só chega perto, sem morder.
+
+Gorbag dá um passo à frente e desce o cutelo da casa no tronco da Capitã. Ela ergue o montante de través e o aço range, o golpe morre na guarda.
+> Ataque Gorbag (Avançar e Atacar, 1 hex): Machado de Duas Mãos NH 18 = *18*
+> 3d [4, 4, 6] = *14* → sucesso por 4
+> Defesa Capitã: aparar 9 +4 DP armadura +3 DP escudo = *16*
+> 3d [1, 6, 6] = *13* → defendeu por 3
+> *A Capitã se defendeu.* Sem dano.
+> _Preparação Rápida (ST 20 ≥ 13+5): o cutelo segue pronto._
+
+Krag saca outra flecha num gesto só, encaixa e firma o arco, o olho na cabeça descoberta da Capitã.
+> Sacar Rápido (Flecha) Krag: NH 14 +1 Reflexos em Combate = *15*
+> 3d [1, 5, 6] = *12* → sucesso por 3
+> *Flecha encaixada de graça.* Ele só mira, sem atirar.
+
+Urzog segue pelo corredor, o machado ainda solto, rumo ao salão.
+
+A Capitã não se afasta. Responde na hora, o montante em arco para o flanco do ogro. Ele recolhe o cutelo na linha da lâmina dela e a pancada morre contra o ferro.
+> Ataque Capitã (Avançar e Atacar): NH 16 (tronco, sorteado: 3d [1, 5, 4] = 10; sem redutor de local) = *16*
+> 3d [6, 3, 4] = *13* → sucesso por 3
+> Defesa de Gorbag: aparar 9 +1 Reflexos em Combate = *10*
+> 3d [1, 5, 4] = *10* → defendeu por 0
+> *Gorbag se defendeu.* Sem dano.
+
+O soldado de pé ergue a cabeça, sacode o sangue dos olhos e dá uns passos tortos contornando a Capitã, a espada em riste, na direção do ogro.
+> HT Guarda 2 (recuperar do atordoamento): NH 12
+> 3d [3, 6, 1] = *10* → passou: *recuperado*
+
+O Barão se afasta pelo estrado sem pressa. Sae'Varyn atravessa o capim e o morto de pele cinzenta se adianta com ele.
+
+O que vocês fazem?

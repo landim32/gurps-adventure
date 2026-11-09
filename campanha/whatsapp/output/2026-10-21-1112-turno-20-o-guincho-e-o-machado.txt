@@ -1,0 +1,31 @@
+*TURNO 20 — O GUINCHO E O MACHADO*
+
+Pumba'h para no meio do corredor, vira o focinho para os outros e guincha, apontando a tromba para o salão, batendo o casco, girando a cabeça como quem chama. O que sai é uma dança de porco furioso. Ninguém entende nada.
+> Mímica/Pantomima: pré-definido IQ 12 -4 = 8, -6 (sem língua comum, em forma de javali) = *2*
+> NH efetivo 3 ou menos: não se rola, *falha automática*
+
+Gorbag fecha os olhos e tenta puxar a cabeça para o salão do trono, mas o cheiro de sangue na cozinha é forte demais. O ogro não passa.
+> Vontade Gorbag: IQ 9 -2 Sanguinolência = *7*
+> 3d [1, 6, 4] = *11* → falhou por 4
+
+Então ele se vira para a criada caída aos pés das panelas, que olha o cutelo pingando e o avental encharcado. Gorbag senta de cócoras ao lado dela, a sombra cobrindo a cozinha inteira, e sorri com as presas à mostra. A criada tapa a boca com as duas mãos para não gritar.
+> Intimidação Gorbag: NH 11 +4 (cutelo ensanguentado, cozinha massacrada, ogro de 2,45 m) = *15*
+> 3d [2, 6, 6] = *14* → passou por 1
+> Vontade da criada: 10 = *10*
+> 3d [5, 5, 1] = *11* → falhou por 1
+> *Gorbag vence: a criada se encolhe, aterrorizada*
+
+Urzog avança um passo, cospe de lado e abaixa o machado como quem racha lenha. A lâmina entra no pescoço do criado que já estava caído, atravessa o osso, e a cabeça rola até bater numa panela. O corpo estremece uma vez e para.
+> Ataque Urzog: Machado/Maça NH 14, -5 pescoço, +4 Ataque Total = *13*
+> 3d [3, 3, 4] = *10* → sucesso por 3
+> Defesa: nenhuma (caído e atordoado)
+> Dano: 2D+1: [1, 5] = 6 + 1 = *7*
+> RD 0 → 7 passam
+> Corte no pescoço: ×2 → *14*
+> Ferida mortal (abaixo de -PV): teste de HT 11, 3d [5, 3, 5] = *13* → falhou por 2
+> Acumulado no pescoço: 36, mais de 3×HT (33)
+> *O criado morre, decapitado.*
+
+Krag saca outra flecha, encaixa na corda e avança um passo em direção ao salão. Sae'Varyn dá meia volta e desce pela passagem rumo à carroça. Pelas paredes, o sino do pátio continua.
+
+O que vocês fazem?

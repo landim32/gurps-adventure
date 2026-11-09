@@ -1,0 +1,18 @@
+*TURNO 10 — A EMBOSCADA*
+
+No açougue, Gorbag corta carne, meias reses de boi, uma por uma, e não olha para a porta.
+
+Do lado de fora, a carroça segue pela vila com Perrin no meio, Urzog na garupa e o guarda nas rédeas, e Sae'Varyn, Pumba'h e Krag vêm atrás, de longe, rente às paredes. Em Ferrier, perto das últimas casas, onde só há celeiros fechados e uma viela sem lampião, o elfo cochicha o plano: ele ataca o guarda, o orc o segura, e Perrin fica na mão. Krag se afasta sem dizer palavra, rumo ao mercado, atrás de um barril. A carroça entra na viela. Sae'Varyn murmura uma palavra e risca dois dedos no ar. O guarda sente um frio na nuca e vê, num lampejo, a própria morte: o próprio corpo no chão da viela, com a lança do lado. Larga as rédeas, o olhar vazio.
+> Visão da Morte de Sae'Varyn: NH 16, -1 (alvo a 1 hexágono, sem tocar) = *15*
+> 3d [4, 3, 2] = *9* → sucesso por 6
+> Custo: 1 de Fadiga (2, menos 1 por NH 15 ou mais) → Fadiga 7/10
+> *O guarda fica atordoado até passar num teste de IQ*
+
+Urzog, que já estava atrás dele, passa os braços grossos pelo pescoço do homem e aperta. O guarda abre a boca sem som, as botas raspam o banco, e os braços do orc fecham como uma gola de ferro. Perrin Holt levanta as duas mãos, branco como cal, e diz que se entrega, que não precisa de mais nada, que faz o que mandarem.
+> Mata-Leão de Urzog (pré-definido Luta Livre-3 = 10), +2 (guarda atordoado e de costas) = *12*
+> 3d [2, 4, 1] = *7* → sucesso por 5
+> *O guarda está seguro e sem ar*
+
+Krag volta pela viela, rolando um barril de vinho pela borda, e encontra a carroça parada, o boi mastigando capim, Perrin de mãos para o alto e o guarda pendurado no braço de Urzog. Abre o barril, despeja parte do vinho no chão e começa a esvaziar o que tinha lá dentro.
+
+O que vocês fazem?

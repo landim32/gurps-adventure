@@ -1,0 +1,22 @@
+*TURNO 71 — A FLECHA NAS GRADES*
+
+Urzog e Gorbag cruzam o andar rumo à boca da escada, de costas para as gaiolas. Tann'athar vem pelo mesmo caminho, a vara de bastão na mão, e Sae'Varyn avisa a todos, em voz alta e seca, que agora que o juízo voltou é hora de seguir. Passa pelo meio das jaulas sem desviar os olhos para a serpente.
+
+Krag, que ficou para trás, termina de encaixar a flecha e solta a corda quase colado nas grades. A ponta entra no tronco da mulher alada entre duas barras. Ela recua num guincho agudo, as asas batendo no ferro, e para de arranhar o ar por um instante.
+> Tiro: Arco NH 17, +1 velocidade/distância (1 m), −2 grades da gaiola = *16*
+> 3d [3, 1, 6] = *10* → sucesso por 6
+> Defesa de Mulher alada: Esquiva 7 +1 DP = *8*
+> 3d [4, 2, 4] = *10* → falhou por 2
+> Dano: 1D+1 perfuração: [3] + 1 = *4*
+> RD 1 → 3 passam
+> Perfuração: ×2 depois que passar da armadura → *6*
+> *Mulher alada perde 6 pontos de vida.*
+
+Do outro lado do poço, o basilisco ergue a cabeça e fixa o olhar no meio-elfo, que atravessa o andar. Tann'athar sente a pontada seca atrás dos olhos de novo, e nada além disso.
+> Olhar do basilisco: NH 16 −10 (10 hexágonos de distância) = *6*
+> 3d [2, 5, 5] = *12* → falhou por 6
+> Sem dano. Tann'athar sente só uma leve dor de cabeça.
+
+Farejo rosna, os pelos eriçados, sem sair do lado de Krag.
+
+O que vocês fazem?

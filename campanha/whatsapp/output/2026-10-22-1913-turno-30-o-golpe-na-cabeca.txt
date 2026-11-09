@@ -1,0 +1,51 @@
+*TURNO 30 — O GOLPE NA CABEÇA*
+
+Farejo dá a volta pelo flanco do soldado de pé e salta no braço da espada, mas o homem puxa o braço e os dentes só fecham no ar.
+> Ataque Farejo (Avançar e Atacar, 1 hex): NH 12, -2 braço = *10*
+> 3d [6, 1, 4] = *11* → falhou por 1
+> *Errou.*
+
+Pumba'h abaixa a cabeça e enfia as presas na perna da Capitã. Ela abaixa o montante a tempo e a lâmina desvia o bote.
+> Ataque Pumba'h (javali): NH 15, -2 perna = *13*
+> 3d [3, 3, 4] = *10* → sucesso por 3
+> Defesa Capitã: aparar 9 +4 DP caneleira +3 DP escudo = *16*
+> 3d [3, 4, 1] = *8* → defendeu por 8
+> *A Capitã se defendeu.* Sem dano.
+
+Gorbag desce o corredor dos lampiões, o cutelo pingando, e para na entrada do salão.
+
+Krag dá dois passos de lado e volta a erguer o arco, a flecha encaixada e o olho no soldado que se levantou.
+
+Urzog segue pelo corredor com o machado ainda pendendo da mão, sem firmá-lo.
+
+A Capitã gira o corpo e desce o montante na cabeça do javali. O bicho tenta se jogar de lado e não chega: a lâmina o pega no alto do crânio e o arremessa um passo para trás. Ele cambaleia, mas fica de pé.
+> Ataque Capitã: NH 16 (cabeça, sorteado: 3d [2, 1, 2] = 5; sem redutor de local) = *16*
+> 3d [6, 1, 1] = *8* → sucesso por 8
+> Defesa de Pumba'h: esquiva 8 +1 Reflexos em Combate +1 DP = *10*
+> 3d [4, 4, 6] = *14* → falhou por 4
+> Dano: 2D+3: [5, 2] = 7 + 3 = *10*
+> Projeção: 10 antes da RD → *1 hex para trás*
+> RD 3 → 7 passam
+> Corte: ×1,5 depois da armadura → *10*
+> Perdeu mais de HT/2: teste de HT 12 para não cair, 3d [1, 1, 4] = *6* → de pé; *ATORDOADO* (-4 nas defesas)
+> Teste de HT 12 contra nocaute, 3d [2, 2, 6] = *10* → aguentou
+> Projetado 1 hex: teste de DX 15, 3d [6, 1, 6] = *13* → de pé
+> *Pumba'h perde 10 pontos de vida* (fica a -4).
+
+O soldado de pé não perde a chance: golpeia o cão com a lâmina de plano e acerta o costado, mas o bicho só ganiu.
+> Ataque Guarda: NH 14 = *14*
+> 3d [4, 1, 2] = *7* → sucesso por 7
+> Defesa de Farejo: esquiva 7 = *7*
+> 3d [1, 6, 1] = *8* → falhou por 1
+> Dano: 1D: [1] = *1* (RD 0)
+> *Farejo perde 1 ponto de vida.*
+
+O soldado caído se agarra ao cabo da espada, o rosto cinzento, e recobra o sentido.
+> HT Guarda caído (recuperar do atordoamento): NH 12
+> 3d [2, 2, 4] = *8* → passou
+> HT Guarda caído (não desmaiar, PV 0 ou menos): NH 12
+> 3d [2, 2, 6] = *10* → passou
+
+No estrado, o Barão dá alguns passos, sem tirar os olhos da luta. Sae'Varyn segue pelo capim, e o morto de pele cinzenta vem logo atrás dele.
+
+O que vocês fazem?

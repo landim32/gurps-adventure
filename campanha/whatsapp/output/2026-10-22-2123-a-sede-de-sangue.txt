@@ -1,0 +1,11 @@
+*A SEDE DE SANGUE*
+
+Do outro lado do salão, o Barão se debate sob o cão, velho e ferido, sem ter para onde ir. Os olhos de Gorbag descem até ele e não largam mais. Cheira o medo do homem, e o cutelo parece pesar menos na mão. Ele sabe que devia segurar o golpe e segura por um instante. Depois o instante passa, e a vontade de cortar fala mais alto.
+> Vontade Gorbag (Sanguinolência e Sadismo): NH 9
+> 3d [2, 2, 6] = *10* → *FALHOU por 1*
+> *Gorbag quer o Barão morto.*
+
+Sae'Varyn também sente o cheiro do sangue no salão e conhece bem o prazer de ver um homem indefeso. Mas segura o desejo, frio como o gelo dos olhos, e deixa a ideia passar.
+> Vontade Sae'Varyn (Sadismo): NH 15
+> 3d [6, 4, 3] = *13* → sucesso por 2
+> *Sae'Varyn mantém o controle.*

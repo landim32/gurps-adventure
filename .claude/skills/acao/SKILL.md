@@ -89,6 +89,30 @@ hexágono estiver ocupado ou for água funda, **diga ao Mestre** antes de gravar
 **Nunca role de cabeça, nunca invente NH.** As skills acima é que rolam; esta aqui decide
 qual chamar e com que número.
 
+### Andou e quer bater? (MB, p. 104-105)
+
+Golpe só sai dentro do que a manobra deixa andar: **Avançar e Atacar, 1 hexágono**; **Ataque
+Total, o maior entre 2 e metade do Deslocamento**, só para a frente e sem virar no fim; quem
+andou mais fez **Deslocamento**, e no Deslocamento **só se golpeia de Molinete, declarado**
+(pior entre −5 e NH máximo 9, local sorteado). "Corro até ele e ataco" com 4 hexágonos é **só
+o deslocamento**: ele chega, não bate, e isso é dito ao jogador antes de rolar — ou ele declara
+"golpe molinete" e aceita o −5. A `validar-movimento` imprime a linha `ATAQUE` que decide; NPC
+segue a mesma régua.
+
+### A arma está preparada? (MB, p. 104)
+
+Antes de mandar violência para o `atacar`, olhe o **status** de quem ataca. Machado, maça,
+mangual, picareta, cutelo e arma de haste **entram em combate preparados** (salvo surpresa) e
+ficam **despreparados** depois de atacar **ou aparar**; quem está assim **não ataca nem
+apara** nesse turno. **Regra da casa:** a arma **se prepara sozinha** no turno seguinte, sem
+manobra — o personagem pode se deslocar ou fazer outra coisa, e a arma volta pronta; só os
+turnos além do primeiro (haste: 2) exigem a manobra **Preparar**. Vale só para arma
+desbalanceada. Salvo Preparação Rápida por ST (5 acima da mínima da arma), que nem despreparam.
+"Vou atacar de novo" logo depois de atacar com o machado não sai: ele se prepara nesse turno
+(pode andar e agir) e ataca no seguinte; isso é dito ao jogador **antes** de rolar —
+`atacar --arma-despreparada` recusa o golpe e explica. O `atacar` imprime o estado da arma
+na última linha do bloco, e é ela que vai para o status do próximo turno.
+
 ### Escolher a perícia e o modificador
 
 1. **A perícia sai da ficha**, da lista que o `contexto` imprimiu. Se ele não a tem, o teste
@@ -255,9 +279,13 @@ registra no repositório e prepara as chamadas do roll6. Quem altera o MCP é a
 - **O status tático é decidido aqui, escrito lá.** O que vale até o próximo turno entra no
   ato — PJ por `update_participation` (devolvendo o `sheet` que veio do
   `get_participation`), NPC por `update_map_npc` com o `currentLife`/`currentEnergy`
-  atuais. Entra: arma preparada ou despreparada, caído, de joelhos, atordoado, redutor de
-  choque do próximo turno, apontando, sem defesa por Ataque Total, cavalo exausto,
-  desarmado. Até 260 caracteres.
+  atuais. Entra: **arma preparada ou despreparada** (a última linha do bloco do `atacar`:
+  machado, maça, mangual e haste ficam despreparados ao atacar ou aparar, MB p. 104 —
+  escreva "despreparad" no status; ela se prepara sozinha no turno seguinte, e só a palavra
+  "manobra" faz o turno seguinte ser de Preparar), caído, de
+  joelhos, atordoado, redutor de choque do próximo turno, apontando, sem defesa por Ataque
+  Total, cavalo exausto, desarmado, **posição nova de quem foi projetado** (MB, p. 106).
+  Até 260 caracteres.
 - **Posição e frente: consulte** `list_map_tokens` (peças com posição e frente) e `get_map`
   (tamanho da grade). Distância, lado e ângulo de visão **não se contam de cabeça**: são da
   folha `calcular-alcance`, que aceita a casa em rótulo (`Q30`), `x,y` ou nome de peça.

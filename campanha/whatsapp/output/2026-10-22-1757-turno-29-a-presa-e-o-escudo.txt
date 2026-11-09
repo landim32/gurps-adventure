@@ -1,0 +1,42 @@
+*TURNO 29 — A PRESA E O ESCUDO*
+
+Farejo morde de novo o braço do soldado ajoelhado, sacudindo a cabeça para fazê-lo soltar a espada, mas os dentes só pegam o ar: o homem recolhe o braço na hora.
+> Ataque Farejo: NH 12, -2 braço = *10*
+> 3d [6, 6, 1] = *13* → falhou por 3
+> *Errou.*
+
+Pumba'h avança as presas no mesmo soldado, ainda sobre um joelho. O homem enfia o escudo no caminho e a ponta raspa o aço sem entrar na cota.
+> Ataque Pumba'h (javali): NH 15 = *15*
+> 3d [4, 6, 2] = *12* → sucesso por 3
+> Defesa de Guarda: bloqueio 7 +3 DP cota +3 DP escudo -2 ajoelhado = *11*
+> 3d [1, 5, 5] = *11* → defendeu no limite
+> *O guarda se defendeu.* Sem dano.
+
+Gorbag cruza a cozinha, sai pela porta sul e entra no corredor dos lampiões, o cutelo pingando, rumo ao salão.
+
+Krag, quando a corda afrouxa, saca outra flecha num gesto só e volta a erguer o arco, o olhar no soldado que se apoia na espada para ficar de pé.
+> Sacar Rápido (Flecha) Krag: NH 14 +1 (Reflexos em Combate) = *15*
+> 3d [1, 5, 2] = *8* → sucesso por 7
+> *Flecha encaixada de graça.* Ele só mira, sem atirar. (O terceiro hexágono que Krag andou não cabe em Apontar, que deixa 2: ele fica um passo atrás.)
+
+Urzog sai da cozinha pela porta e segue o corredor atrás de Gorbag, o machado balançando na mão sem firmar.
+
+A Capitã dá um passo à frente e crava o montante no flanco do javali, mas o couro grosso e a coura de Pumba'h seguram a lâmina, e o bicho esquiva o resto.
+> Ataque Capitã: NH 16 (tronco, sorteado: 3d [4, 1, 6] = 11) = *16*
+> 3d [2, 4, 3] = *9* → sucesso por 7
+> Defesa de Pumba'h: esquiva 8 +1 Reflexos em Combate +1 DP coura = *10*
+> 3d [2, 2, 5] = *9* → defendeu por 1
+> *Pumba'h se defendeu.* Sem dano.
+
+O soldado caído com a cabeça aberta tenta se erguer e não acha o chão. O outro, ajoelhado, firma o escudo nas lajes e se põe de pé.
+> HT Guarda caído (recuperar do atordoamento): NH 12 = *12*
+> 3d [6, 6, 6] = *18* → falhou
+> HT Guarda caído (não desmaiar, PV 0 ou menos): NH 12 = *12*
+> 3d [3, 1, 5] = *9* → passou por 3
+> *O guarda segue acordado e atordoado.*
+
+No estrado, o Barão dá um passo na direção das portas, a mão no braço da cadeira.
+
+Sae'Varyn aperta o passo pelo capim molhado. A carroça está tão perto que ele já sente o cheiro das carnes.
+
+O que vocês fazem?

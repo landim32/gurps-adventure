@@ -274,7 +274,51 @@ As **regras de combate autônomo** vieram das duas aventuras originais do dono d
   Hostil com todos e não rola reação;
 - **as reações são segredo**: ficam no `reacoes.json` local e nunca vão ao roll6 nem ao
   WhatsApp. A narração mostra o que o NPC faz, nunca o motivo que denuncia a reação;
-- pontos de impacto decididos nos dados.
+- pontos de impacto decididos nos dados;
+- **arma desbalanceada fica despreparada ao atacar ou aparar** (MB, p. 104: machado,
+  maça, mangual, picareta, cutelo, arma de haste) e **se prepara sozinha** no turno seguinte,
+  sem manobra — a regra da casa está logo abaixo, junto com a do pescoço. Salvo Preparação
+  Rápida por ST (5 acima da mínima da arma), que nem chega a despreparar. O `atacar` diz o
+  estado da arma na última linha do bloco, o `status` do roll6 o guarda com a palavra
+  "despreparad", e o `contexto` do `processar-turno` avisa antes de rolar;
+- **andou, não bate** (MB, p. 104-105; decisão do Mestre): Avançar e Atacar deixa andar **1
+  hexágono**; Ataque Total, o maior entre **2 e metade do Deslocamento**, só para a frente e sem
+  virar no fim; quem andou mais fez **Deslocamento**, e no Deslocamento só se golpeia de **Molinete
+  declarado** (pior entre −5 e NH máximo 9, local sorteado). Sem a palavra "molinete", a
+  `processar-turno` e a `gm` **executam só o deslocamento e a narração explica**; vale para PJ, NPC
+  e ação repetida. A `validar-movimento` imprime `ATAQUE: cabe` ou `ATAQUE: NÃO ACONTECE`, e
+  nunca recua a peça para o golpe caber. Local sorteado não leva redutor de ponto de impacto;
+- **golpe forte projeta** (MB, p. 106): corte, contusão ou bala, 1 hexágono a cada 8
+  pontos de dano **antes da RD**, teste de DX para não cair. A `causar-dano` conta, a
+  `arbitrar-ferimento` rola o DX, a `calcular-alcance --projetar` diz o hexágono, e a
+  `processar-turno` leva a posição (e a queda) ao `process_turn`.
+
+**Preparação de arma desbalanceada: regra da casa** (decisão do Mestre; vale **só** para
+arma desbalanceada — machado, maça, mangual, picareta, cutelo, arma de haste. As outras formas de
+preparar arma, como sacar, armar besta ou encaixar flecha, seguem o MB como sempre):
+
+- **Entra em combate preparada**, a menos que o personagem seja **pego de surpresa**.
+- **Despreparar continua igual:** atacar ou aparar com a arma a deixa despreparada, e nesse
+  turno seguinte ele **não ataca nem apara** com ela (nem por ação repetida).
+- **A diferença é o preparo:** ele **acontece sozinho** no turno seguinte, **sem gastar manobra**.
+  O personagem usa o turno como quiser (desloca-se, faz outra ação) e a arma está preparada
+  ao fim dele. Só os turnos **além do primeiro** exigem a manobra **Preparar**.
+- A Preparação Rápida por ST (5 acima da mínima = 1 turno a menos) segue valendo.
+
+Exemplos (machado, 1 turno para preparar; seguido pela alabarda, 2 turnos):
+
+| | Turno 1 | Turno 2 | Turno 3 | Turno 4 |
+|---|---|---|---|---|
+| Machado, golpes seguidos (igual a antes) | ataca | prepara (sozinha; só espera) | ataca | |
+| Machado, ataca-desloca-ataca | ataca | **desloca e prepara sozinha** | ataca | |
+| Alabarda, ataca-desloca-ataca | ataca | **desloca**; 1º turno de preparo, automático | **Preparar** (2º turno, manobra) | ataca |
+
+No `status` do roll6: com 1 turno a preparar, `"Machado despreparado: prepara sozinho no
+próximo turno"`; com 2, `"Alabarda despreparada: prepara sozinha no próximo turno; depois mais 1
+turno de Preparar"`. Ao fechar o turno automático, o status passa a `"preparado"` — ou, na haste,
+a `"Alabarda despreparada: falta 1 turno de Preparar (manobra)"`. A palavra **manobra** é o que o
+`contexto` do `processar-turno` procura para avisar que aquele turno é de Preparar de verdade;
+sem ela, o aviso é o do preparo automático.
 
 **Golpe no pescoço segue a 4ª edição** (decisão do Mestre). A 3ª edição não tem pescoço na
 Tabela de Partes do Corpo; vale a regra do *GURPS 4ª Edição* (*Módulo Básico: Campanhas*,
@@ -286,8 +330,18 @@ p. 552), já aplicada pelas skills `atacar` e `atacar-distancia` (`--local pesco
 - **asfixia**: contusão **vinda da frente** que cause mais que **metade dos PV** do alvo
   (HT/2 nas fichas da 3ª edição) é lesão incapacitante — **esmaga a traqueia e o alvo
   sufoca**;
-- **decapitação**: corte que cause, num golpe só, ferimento acima de **3× os PV** do alvo
-  (3×HT) permite ao Mestre declarar o alvo decapitado — **morte automática**.
+- **decapitação automática num golpe só (errata do Mestre, turno 27)**: **corte no pescoço cujo
+  ferimento, num golpe só, seja ≥ 3×HT do alvo** (HT 11: 33 ou mais) **decapita e mata na hora, sem
+  teste de HT**. O `causar-dano` avisa; o modelo não rola testes de morte, declara a morte. O Criado de HT 11
+  que levou 34 num golpe morreu decapitado, e não sobreviveu a −51 como o modelo tinha rolado.
+- **decapitação acumulada (só narrativa, decisão do Mestre)**: vale para o que **não** passou do limite num golpe só. Não muda a mecânica nem mata sozinha. A morte vem
+  sempre do teste de HT (PV abaixo de −PV, ou do próprio dano), como em qualquer ferimento. A decapitação é
+  **só o modo de contar** a morte de quem morre com **corte no pescoço** quando o ferimento **acumulado no
+  pescoço**, golpe após golpe, passou de **3× os PV** (3×HT). Exemplo, alvo com HT 10 (limite 30): recebe 12
+  no pescoço, nada; depois 20 (acumulado 32, PV em −22), passa no teste de HT e **não morre**; depois 4
+  (acumulado 36), **falha no teste de HT**: morre, e a narração diz que foi **decapitado**. Passou no teste,
+  vive, por mais ferimento que tenha no pescoço. Não há morte automática. Anote o acumulado do pescoço de
+  cada alvo (`saude.md`/status) enquanto durar a luta, só para saber como narrar.
 
 **Depois da luta, o que ficou no chão volta sozinho** (decisão do Mestre). Todo objeto
 largado em combate — arma derrubada por erro crítico, besta deixada para correr, escudo

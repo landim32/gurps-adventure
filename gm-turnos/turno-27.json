@@ -1,0 +1,10 @@
+{
+  "characters": [
+    {"characterId": 1, "status": "De pé, cimitarra na mão. Duas picaretas no chão. Sem ferimentos. Ataque Total no turno anterior: sem defesa ativa até agir de novo."}
+  ],
+  "npcs": [
+    {"mapNpcId": 2, "currentLife": -25, "posture": 3, "status": "MORTO — pescoço aberto; gládio e escudo ao lado."},
+    {"mapNpcId": 1, "status": "Flecha encaixada no arco; pode disparar no próximo turno."}
+  ],
+  "narration": "*TURNO 27 — ARENA*\n\nComam não perde tempo com piedade. Com o goblin estendido na areia, ele ergue a cimitarra com as duas forças do corpo e desce a lâmina no pescoço exposto. O corte é limpo e fundo; o goblin não chega a gemer. O peito que subia e descia devagar fica parado.\n> Ataque: Espadas de Lâmina Larga NH 18, -5 Pescoço, -1 Zarolho = *12*\n> 3d [3, 3, 3] = *9* → sucesso por 3\n> Defesa: Goblin guerreiro inconsciente, sem defesa ativa e sem DP\n> Dano: 2D: [4, 5] = *9* +2 Ataque Total = *11*\n> RD 0 → 11 passam\n> Corte no pescoço: ×2 do que passar da armadura → *22*\n> *Goblin guerreiro perde 22 ponto(s) de vida* (de -3 para -25)\n> Teste de HT 11 por ter passado de -1×PV: 3d [4, 6, 4] = *14* → falhou\n> Teste de HT 11 por ter passado de -2×PV: 3d [3, 5, 4] = *12* → falhou\n> *Goblin guerreiro MORRE.*\n\nA poucos passos, Aelthir observa o fim do goblin sem mudar de expressão. Os dedos longos assentam a nova flecha na corda e a ponta se alinha, calma, com o peito de Comam. O elfo ainda não solta.\n\nO que vocês fazem?"
+}

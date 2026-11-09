@@ -1,0 +1,28 @@
+*TURNO 22 — A GARGANTA DA CRIADA*
+
+A criada tenta se erguer apoiada numa mão, mas o corpo não obedece. Os joelhos cedem, a cabeça tomba de lado e ela desaba sobre as lajes, de olhos virados.
+> HT Criada (não desmaiar, PV 0 ou menos): NH 11 = *11*
+> 3d [2, 6, 6] = *14* → falhou por 3
+> *A criada desmaia.*
+
+Gorbag não desvia os olhos dela. O cutelo da casa sobe e desce de lado, na garganta da moça caída, e só para quando o osso do pescoço range. A cabeça fica presa ao tronco por um fio de carne. O ogro puxa a lâmina com um estalo molhado, e o sangue corre por mais um veio entre as lajes.
+> Ataque Gorbag: Machado/Maça NH 18, -5 pescoço = *13*
+> 3d [1, 5, 6] = *12* → sucesso por 1
+> Defesa: nenhuma (desmaiada)
+> Dano: 3D+3: [1, 6, 6] = 13 + 3 = *16*
+> RD 0 → 16 passam
+> Corte no pescoço: ×2 → *32*
+> Pescoço acumulado 32, abaixo de 3×HT (33): não decapita
+> Teste de HT contra a morte (PV em -11, igual a -HT): NH 11 = *11*
+> 3d [5, 1, 6] = *12* → falhou por 1
+> *A criada perde 32 pontos de vida e morre.*
+
+Pumba'h, de focinho erguido no corredor do salão, não se mexe. O javali raspa o casco nas lajes e escuta o sino do pátio, esperando que alguém venha junto.
+
+Krag avança mais três passos sob os lampiões, rente à parede, a flecha encaixada e o arco baixo. Farejo cola no calcanhar dele, as orelhas em pé.
+
+Urzog dá um passo para dentro da cozinha, na direção da cozinheira que soluça junto à porta da despensa, e leva o machado ao ponto de bater. As chaves de Perrin tilintam no punho dele. A mulher nem levanta a cabeça.
+
+Sae'Varyn segue pela passagem estreita, o bastão contra o peito, o ombro roçando a pedra. As paredes devolvem o badalar do sino.
+
+O que vocês fazem?

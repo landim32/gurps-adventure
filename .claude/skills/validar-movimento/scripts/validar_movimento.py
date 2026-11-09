@@ -72,11 +72,21 @@ MANOBRAS = {
     "aguardar": ("Avançar e Aguardar", "MB 11, Avançar e Aguardar: 1 hexágono (ou ficar parado)."),
     "concentrar": ("Avançar e se Concentrar", "MB 11, Avançar e se Concentrar: 1 hexágono."),
     "posicao": ("Mudança de Posição", "MB 11, Mudança de Posição: não se desloca no turno."),
+    "molinete": ("Deslocamento com golpe Molinete",
+                 "MB 11, Deslocamento + Golpe Molinete (p. 105): gasta o Deslocamento; o golpe é de arma de "
+                 "mão, leva o pior de -5 ou NH máximo 9 e o ponto de impacto é sorteado."),
 }
+# Manobras que atacam, e quantos hexágonos cada uma deixa andar ANTES do golpe (MB, p. 104-105):
+# Avançar e Atacar/Fintar 1; Ataque Total o maior entre 2 e metade do Deslocamento, só para a
+# frente e sem virar no fim; Deslocamento só golpeia como Molinete, e tem de ser declarado assim.
+# Passou do teto: o movimento vale como Deslocamento e O ATAQUE NÃO ACONTECE.
+MANOBRAS_DE_ATAQUE = ("atacar", "finta", "ataque-total")
+RE_TIRO = re.compile(r"\batir|dispar|flecha|virote|arremess|\bfunda\b|besta|arco\b")
 # ordem de proposta quando a declaração mistura manobras (a mais restritiva e explícita primeiro)
-PRIORIDADE = ["defesa-total", "ataque-total", "apontar", "finta", "preparar", "atacar", "aguardar",
+PRIORIDADE = ["molinete", "defesa-total", "ataque-total", "apontar", "finta", "preparar", "atacar", "aguardar",
               "concentrar", "posicao", "deslocamento"]
 PADROES = {
+    "molinete": r"molinet",
     "defesa-total": r"defesa total",
     "ataque-total": r"ataque total",
     "apontar": r"\bmir(a|o|ar|ando|ei)\b|\bapont",
@@ -84,11 +94,16 @@ PADROES = {
     "preparar": r"\bprepar|\bsac(o|a|ar|ue|ando)\b|saque|desembainh|empunh|\bpego\b|\bapanh",
     "finta": r"\bfint",
     "concentrar": r"concentr|conjur|\blanco\b.*m[aá]gica",
-    "atacar": r"\batac|\bgolpe|arremess|\batir|dispar|flecha|\bbato\b|\bacerto\b|\bataco\b",
+    "atacar": r"\batac|\bgolpe|arremess|\batir|dispar|flecha|\bbato\b|\bacerto\b|\bataco\b|"
+              r"\bmord|\brasg|\bcrav|\bcort(o|a|ar|ando)\b|\bespet|apunhal|\bchut|\bsoc(o|a|ar|ando)\b|"
+              r"\bmachad|\bcutel|\bespad|\bestoc|\bderrub",
     "posicao": r"levant|ajoelh|\bdeit|agach|\bsent(o|ar)\b|muda(r)? de posi",
     "deslocamento": r"\bs[oó] (me )?(ando|movo|movi|mover|move)\b|\bapenas (me )?(ando|anda|move|movo)\b|"
                     r"\bdesloc|\bcorr(o|er|endo)\b|\bvou (em dire|ate|at[eé])|\bando\b|\bmoveu\b|\bmovo\b|"
-                    r"\bso (ando|move)\b",
+                    r"\bso (ando|move)\b|"
+                    # Encontrão e investida são parte da manobra Deslocamento (MB p. 112): o choque
+                    # acontece ao entrar no hexágono do alvo, com o movimento inteiro — não é golpe
+                    r"\bencontr[aã]o|\binvest(e|ida|ir|indo)\b",
 }
 
 
@@ -108,6 +123,9 @@ def classificar_manobra(textos):
                     achadas.append(cod)
                 trechos.setdefault(cod, t.strip())
     achadas = [c for c in PRIORIDADE if c in achadas]
+    # "golpe molinete" é Deslocamento + ataque numa manobra só: não é ambíguo, é a regra
+    if "molinete" in achadas:
+        achadas = [c for c in achadas if c not in ("atacar", "finta", "deslocamento")] or achadas
     # "Ataque Total" com "arremesso" ou "finta" é só o ataque dentro do Ataque Total
     if "ataque-total" in achadas:
         achadas = [c for c in achadas if c not in ("atacar", "finta")] or achadas
@@ -123,7 +141,7 @@ def classificar_manobra(textos):
 
 def teto_hex(cod, desl):
     """Hexágonos que a manobra permite (None = pontos de movimento, só o Deslocamento)."""
-    if cod == "deslocamento":
+    if cod in ("deslocamento", "molinete"):
         return None
     if cod == "posicao":
         return 0
@@ -380,12 +398,28 @@ def validar(p):
     if ini == fim:
         res.update(veredito="sem_movimento", posicao_valida=list(ini), look_valido=look_fim,
                    corrigido=False, custo=0, rota=[list(ini)])
+        if cod in MANOBRAS_DE_ATAQUE or cod == "molinete":
+            res["ataque"] = regra_de_ataque(cod, 0, desl, None, look_fim, p.get("tiro"))
         return res
 
     dist_hex = hexes_entre(ini, fim)
     teto = teto_hex(cod, desl)
     if teto_pos is not None and teto is not None:
         teto = min(teto, teto_pos)
+
+    # Andou mais do que a manobra de ataque deixa: o movimento VALE (como Deslocamento, pelos
+    # pontos), e o que cai é o golpe — MB p. 104: só o Deslocamento gasta pontos, e durante um
+    # Deslocamento só se golpeia de Molinete, declarado. Nada de recuar a peça para 1 hexágono e
+    # deixar bater: a mesa executa só o deslocamento e a narração explica.
+    if cod in MANOBRAS_DE_ATAQUE and teto is not None and dist_hex > teto:
+        r2 = validar(dict(p, manobra="deslocamento", avisos=[]))
+        r2.update(manobra=cod, manobra_rotulo=rotulo, regra=regra, teto_hex=teto,
+                  manobra_de_movimento="deslocamento",
+                  reclassificada=f"{rotulo} deixa andar {teto} hexágono(s) e a peça andou {dist_hex}: "
+                                 f"o movimento vale como Deslocamento e o ATAQUE NÃO ACONTECE")
+        r2["avisos"] = avisos + r2["avisos"]
+        r2["ataque"] = regra_de_ataque(cod, dist_hex, desl, None, look_fim, p.get("tiro"), teto=teto)
+        return r2
 
     # terreno
     tipos = {}
@@ -395,7 +429,9 @@ def validar(p):
             tipos[f"{pt[0]},{pt[1]}"] = t
     res["terreno_na_rota"] = tipos
 
-    if cod == "deslocamento":
+    if cod in ("deslocamento", "molinete"):
+        if cod == "molinete":
+            res["ataque"] = regra_de_ataque(cod, dist_hex, desl, None, look_fim, p.get("tiro"))
         r = rota_minima(ini, look_ini if look_ini is not None else 0, fim, desl, terreno,
                         extra_hex=extra_pos, ocupados=ocupados)
         if r is None:
@@ -481,7 +517,56 @@ def validar(p):
                       "só amigos dividem hexágono (até 4).")
     if tipo_do_hex(terreno, *res["posicao_valida"]) == "funda":
         res["natacao"] = True
+    if cod in MANOBRAS_DE_ATAQUE:
+        rumo = None
+        if cod == "ataque-total" and len(reta) >= 2:
+            # Ataque Total: "não é permitido mudar de direção no fim do deslocamento" (MB p. 104):
+            # a frente é o rumo do último passo, e o golpe só alcança quem está nesse rumo.
+            rumo = _alc.look_de(tuple(reta[-2]), tuple(reta[-1]))
+            if look_fim is not None and rumo is not None and look_fim != rumo:
+                res["look_valido"] = rumo
+                res["corrigido"] = True
+                avisos.append(f"Ataque Total não vira no fim: a frente declarada ({NOME_LOOK.get(look_fim)}) "
+                              f"vira o rumo do avanço ({NOME_LOOK.get(rumo)}); o golpe só alcança quem "
+                              "estiver à frente nesse rumo.")
+        res["ataque"] = regra_de_ataque(cod, dist_hex, desl, rumo, look_fim, p.get("tiro"), teto=teto)
     return res
+
+
+def regra_de_ataque(cod, dist_hex, desl, rumo, look_fim, tiro=False, teto=None):
+    """O golpe cabe no que a peça andou? (MB p. 104-105 e, para tiro, p. 117.)
+
+    Devolve {"permitido", "modo", "motivo", "nota"}: `permitido` False = a mesa executa só o
+    deslocamento e a narração diz que ele chegou e não golpeou."""
+    if teto is None:
+        teto = teto_hex(cod, desl)
+    if cod == "molinete":
+        if tiro:
+            return {"permitido": False, "modo": "molinete",
+                    "motivo": "Molinete é golpe de arma de mão (MB p. 105); para tiro em movimento vale "
+                              "Disparo em Movimento (MB p. 117): -1 andando, -2 correndo, ×3 besta, ×6 arco — "
+                              "só com o Mestre mandando",
+                    "nota": ""}
+        return {"permitido": True, "modo": "molinete",
+                "motivo": f"golpe Molinete declarado durante o Deslocamento ({dist_hex} hex)",
+                "nota": "atacar.py --manobra molinete: pior de -5 ou NH máximo 9, ponto de impacto "
+                        "sorteado, não visa parte do corpo (MB p. 105)"}
+    rotulo = MANOBRAS[cod][0]
+    if dist_hex <= (teto or 0):
+        nota = ""
+        if cod == "ataque-total" and dist_hex and rumo is not None:
+            nota = f"só para a frente, sem virar no fim: frente {NOME_LOOK.get(rumo)}"
+        return {"permitido": True, "modo": cod,
+                "motivo": f"{rotulo}: andou {dist_hex} de {teto} hexágono(s)", "nota": nota}
+    extra = ""
+    if tiro:
+        extra = (" Para tiro existe Disparo em Movimento (MB p. 117: -1 andando, -2 correndo, ×3 besta, "
+                 "×6 arco), mas só se o Mestre mandar.")
+    return {"permitido": False, "modo": cod,
+            "motivo": f"andou {dist_hex} hexágono(s) e {rotulo} deixa {teto} (MB p. 104): o movimento "
+                      f"vale como Deslocamento e o golpe NÃO acontece. Durante um Deslocamento só se "
+                      f"golpeia de Molinete, e o jogador não declarou molinete (MB p. 105).{extra}",
+            "nota": "só o deslocamento; a narração diz que ele chegou e não golpeou"}
 
 
 # ---------------------------------------------------------------- Recuar
@@ -546,23 +631,39 @@ def _contexto():
     return _carregar("contexto", CONTEXTO_PY)
 
 
-def entradas_de_movimento(entradas, character_id, map_id):
-    """Movimentos do personagem neste mapa, na ordem, e os que foram parar em outro mapa."""
+def entradas_de_movimento(entradas, ator_id, map_id, chave="characterId"):
+    """Movimentos do ator neste mapa, na ordem, e os que foram parar em outro mapa.
+    `chave` é "characterId" (PJ) ou "mapNpcId" (ocorrência de NPC)."""
     mov, fora = [], []
     for e in entradas:
-        if e.get("characterId") != character_id or e.get("turnType") != 1:
+        if e.get(chave) != ator_id or e.get("turnType") != 1:
             continue
         (mov if e.get("mapId") == map_id else fora).append(e)
     return mov, fora
 
 
+def deslocamento_do_roll6(move, pv, fadiga, status=""):
+    """Só pelo MCP (sem ficha local): parte do Deslocamento da campanha no roll6 e aplica as regras de PV e Fadiga."""
+    d = deslocamento_atual({"deslocamento": int(move or 1)}, pv, fadiga, status)
+    d["conta"][0] = f"Deslocamento do roll6 (campanha): {int(move or 1)}"
+    return d
+
+
 def turno(args):
     raiz = Path(args.raiz).resolve()
     roll6, ctx = _roll6(), _contexto()
-    mapa = roll6.mapeamento(raiz)
-    if not mapa:
-        raise SystemExit("Sem campanha/roll6.json — a campanha ativa não está ligada ao roll6.")
-    cid = mapa["campaignId"]
+    # Só pelo MCP (097): a campanha vem do argumento; nada do repositório é lido (mapeamento, terreno, ficha).
+    so_mcp = bool(getattr(args, "so_mcp", False))
+    if so_mcp:
+        if getattr(args, "campanha", None) is None:
+            print("campanha não informada (--so-mcp exige --campanha N).")
+            raise SystemExit(3)
+        mapa, cid = {}, int(args.campanha)
+    else:
+        mapa = roll6.mapeamento(raiz)
+        if not mapa:
+            raise SystemExit("Sem campanha/roll6.json — a campanha ativa não está ligada ao roll6.")
+        cid = mapa["campaignId"]
     c = roll6.cliente()
     dados = c.chamar("get_turn_data", {"campaignId": cid, "turnNo": args.turno})
     em_andamento = dados["turnNo"] == dados["currentTurn"]
@@ -570,7 +671,7 @@ def turno(args):
                 else roll6.lista(c.chamar("list_turn_entries", {"campaignId": cid, "turnNo": dados["turnNo"]})))
     map_id = dados.get("mapId")
     indice = next((i for i, l in (mapa.get("mapas") or {}).items() if l.get("mapId") == map_id), None)
-    terreno = ler_terreno(raiz, indice) if indice else {}
+    terreno = ler_terreno(raiz, indice) if indice and not so_mcp else {}
     forcadas = {}
     for f in args.manobra or []:
         nome, _, cod = f.partition("=")
@@ -582,9 +683,65 @@ def turno(args):
     for n in dados["npcs"]:
         if n.get("x") is not None:
             ocupados[(n["x"], n["y"])] = n["name"]
+    # Deslocamento de cada ocorrência de NPC (currentMove): o get_turn_data não o traz
+    desl_npc = {}
+    try:
+        for n in roll6.lista(c.chamar("list_map_npcs", {"mapId": map_id})):
+            if n.get("currentMove") is not None:
+                desl_npc[n["mapNpcId"]] = int(n["currentMove"])
+    except Exception:
+        pass
+    for f in getattr(args, "desl_npc", None) or []:
+        nome, _, val = f.partition("=")
+        desl_npc[simples(nome)] = int(val)
     saida = []
-    for ch in dados["characters"]:
+    # PJs e, depois, os NPCs que se moveram: a regra de ataque vale igual para os dois lados —
+    # foi um NPC (o cão) que andou 10 hexágonos e "mordeu" sem ninguém conferir.
+    atores = [("pj", ch) for ch in dados["characters"]]
+    for n in dados["npcs"]:
+        if any(e.get("mapNpcId") == n["mapNpcId"] and e.get("turnType") == 1 for e in entradas):
+            atores.append(("npc", n))
+    for lado, ch in atores:
         nome = ch["name"]
+        if lado == "npc":
+            mov, fora = entradas_de_movimento(entradas, ch["mapNpcId"], map_id, chave="mapNpcId")
+            acoes = [e["description"] for e in entradas
+                     if e.get("mapNpcId") == ch["mapNpcId"] and e.get("turnType") == 2 and e.get("description")]
+            item = {"nome": nome, "npc": True, "mapNpcId": ch["mapNpcId"], "acoes": acoes,
+                    "movimentos": [{"de": [e["beforeX"], e["beforeY"]], "para": [e["x"], e["y"]],
+                                    "look_de": e.get("beforeLook"), "look_para": e.get("look"),
+                                    "pontos_roll6": e.get("moved"), "mapId": e.get("mapId")} for e in mov],
+                    "outro_mapa": []}
+            avisos = []
+            move_npc = desl_npc.get(ch["mapNpcId"], desl_npc.get(simples(nome)))
+            if move_npc is None:
+                move_npc = 99
+                avisos.append("Deslocamento do NPC desconhecido (sem currentMove): os pontos não foram "
+                              "conferidos, só a regra de ataque. Passe --desl-npc \"Nome=N\".")
+            d = deslocamento_do_roll6(move_npc, ch.get("currentLife"), ch.get("currentEnergy"), ch.get("status") or "")
+            status_posicao = (ch.get("status") or "")
+            postura = {1: "em pe", 2: "caido", 3: "fora de combate"}.get(ch.get("posture"), "em pe")
+            man = classificar_manobra(acoes)
+            cod = forcadas.get(simples(nome)) or man["proposta"]
+            item.update(manobra_detectada=man, deslocamento=d)
+            if cod is None:
+                cod = "deslocamento"
+            if cod not in MANOBRAS:
+                raise SystemExit(f"Manobra desconhecida: {cod}. Use uma de: {', '.join(MANOBRAS)}")
+            primeiro, ultimo = mov[0], mov[-1]
+            ocup = [[list(k), v] for k, v in ocupados.items() if v != nome]
+            parametros = {"de": [primeiro["beforeX"], primeiro["beforeY"]], "look_de": primeiro.get("beforeLook"),
+                          "para": [ultimo["x"], ultimo["y"]], "look_para": ultimo.get("look"),
+                          "manobra": cod, "desl": d["valor"], "terreno": terreno,
+                          "posicao": "caido" if postura == "caido" else "",
+                          "ocupados": ocup, "avisos": avisos + d.get("avisos", []),
+                          "custo_roll6": sum(int(e.get("moved") or 0) for e in mov),
+                          "tiro": any(RE_TIRO.search(simples(a)) for a in acoes)}
+            r = validar(parametros)
+            item.update(r)
+            item["desl_conta"] = d["conta"]
+            saida.append(item)
+            continue
         mov, fora = entradas_de_movimento(entradas, ch["characterId"], map_id)
         acoes = [e["description"] for e in entradas
                  if e.get("characterId") == ch["characterId"] and e.get("turnType") == 2 and e.get("description")]
@@ -607,11 +764,14 @@ def turno(args):
                                              ch.get("status") or "", trecho_recuo)
             saida.append(item)
             continue
-        ficha = ctx.ler_ficha(nome, raiz) or {}
-        d = deslocamento_atual(ficha, ch.get("currentLife"), ch.get("currentEnergy"), ch.get("status") or "",
-                               peso=args.peso_atual.get(simples(nome)) if args.peso_atual else None) \
-            if ficha else {"valor": int(ch.get("move") or 1), "conta": ["sem ficha local: usei o move do roll6"],
-                           "avisos": ["Sem ficha local."]}
+        ficha = {} if so_mcp else (ctx.ler_ficha(nome, raiz) or {})
+        if so_mcp:
+            d = deslocamento_do_roll6(ch.get("move"), ch.get("currentLife"), ch.get("currentEnergy"), ch.get("status") or "")
+        else:
+            d = deslocamento_atual(ficha, ch.get("currentLife"), ch.get("currentEnergy"), ch.get("status") or "",
+                                   peso=args.peso_atual.get(simples(nome)) if args.peso_atual else None) \
+                if ficha else {"valor": int(ch.get("move") or 1), "conta": ["sem ficha local: usei o move do roll6"],
+                               "avisos": ["Sem ficha local."]}
         status_posicao = (ch.get("status") or "")
         postura = {1: "em pe", 2: "caido", 3: "fora de combate"}.get(ch.get("posture"), "em pe")
         man = classificar_manobra(acoes)
@@ -631,7 +791,8 @@ def turno(args):
                                   else "ajoelhado" if re.search(r"ajoelhad", simples(status_posicao))
                                   else "caido" if postura == "caido" else ""),
                       "ocupados": ocup, "avisos": avisos + d.get("avisos", []),
-                      "custo_roll6": sum(int(e.get("moved") or 0) for e in mov)}
+                      "custo_roll6": sum(int(e.get("moved") or 0) for e in mov),
+                      "tiro": any(RE_TIRO.search(simples(a)) for a in acoes)}
         if len(mov) > 1:
             parametros["avisos"].append(f"{len(mov)} movimentos no turno; tratei início do 1º e fim do último.")
         r = validar(parametros)
@@ -674,12 +835,24 @@ def _imprime_recuo(rc):
         print(f"    ! {a}")
 
 
+def _imprime_ataque(at):
+    """A linha que decide se o golpe declarado acontece depois do que a peça andou."""
+    if not at:
+        return
+    if at["permitido"]:
+        print(f"  ATAQUE: cabe — {at['motivo']}" + (f"; {at['nota']}" if at.get("nota") else ""))
+    else:
+        print(f"  ATAQUE: NÃO ACONTECE — {at['motivo']}")
+        if at.get("nota"):
+            print(f"    → {at['nota']}")
+
+
 def imprimir_turno(r):
     print(f"VALIDAR MOVIMENTO · campanha {r['campaignId']} · turno {r['turno']} · mapa {r['mapId']}"
           + (f" ({r['indice_local']})" if r.get("indice_local") else "")
           + ("" if r.get("terreno_arquivo") else " · sem terreno.json (água e terreno não conferidos)"))
     for p in r["personagens"]:
-        print(f"\n## {p['nome']}")
+        print(f"\n## {p['nome']}" + (" (NPC)" if p.get("npc") else ""))
         for a in p.get("acoes", []):
             print(f"  declarou: {a}")
         for o in p.get("outro_mapa", []):
@@ -688,12 +861,15 @@ def imprimir_turno(r):
             print("  sem movimento neste mapa")
             if p.get("recuar"):
                 _imprime_recuo(p["recuar"])
+            _imprime_ataque(p.get("ataque"))
             for a in p.get("avisos", []):
                 print(f"  ! {a}")
             continue
         for linha in p.get("desl_conta", []):
             print(f"    - {linha}")
         print(f"  manobra: {p['manobra_rotulo']}  ({p['regra']})")
+        if p.get("reclassificada"):
+            print(f"  ! {p['reclassificada']}")
         print(f"  Deslocamento válido: {p['deslocamento']}"
               + (f" · teto {p['teto_hex']} hex" if p.get("teto_hex") is not None else ""))
         print(f"  andou: {rotulo(p['de'])} -> {rotulo(p['para_declarado'], p.get('look_declarado'))}; "
@@ -709,6 +885,7 @@ def imprimir_turno(r):
         else:
             print(f"  VEREDITO: CORRIGIR -> {rotulo(p['posicao_valida'], p.get('look_valido'))}"
                   f" ({p.get('motivo', '')})")
+        _imprime_ataque(p.get("ataque"))
         if p.get("recuar"):
             _imprime_recuo(p["recuar"])
         if p.get("natacao"):
@@ -729,6 +906,7 @@ def calcular(args):
         return [int(a), int(b)]
     p = {"de": xy(args.de), "para": xy(args.para), "look_de": args.look_de, "look_para": args.look_para,
          "manobra": args.manobra, "desl": args.desl, "terreno": terreno, "posicao": args.posicao,
+         "tiro": bool(getattr(args, "tiro", False)),
          "ocupados": [[xy(o.split("=")[0]), o.split("=")[1]] for o in (args.ocupado or [])]}
     return validar(p)
 
@@ -785,7 +963,11 @@ def main():
     t = sub.add_parser("turno", help="Valida os movimentos do turno em andamento do roll6")
     t.add_argument("--turno", type=int, default=None)
     t.add_argument("--manobra", action="append", help='"Nome=codigo" força a manobra de um personagem')
+    t.add_argument("--desl-npc", action="append",
+                   help='"Nome=N" Deslocamento de uma ocorrência de NPC, quando o roll6 não o traz')
     t.add_argument("--peso-atual", type=json.loads, default=None, help='{"jah": 14.5}: peso carregado hoje')
+    t.add_argument("--so-mcp", action="store_true", help="só pelo MCP (097): nada do repositório; o Deslocamento é o da campanha no roll6")
+    t.add_argument("--campanha", type=int, default=None, help="campaignId do roll6 (obrigatório com --so-mcp)")
     t.add_argument("--json", action="store_true")
     c = sub.add_parser("calcular", help="Uma conta avulsa, sem o roll6")
     c.add_argument("--de", required=True)
@@ -797,6 +979,8 @@ def main():
     c.add_argument("--posicao", default="")
     c.add_argument("--mapa", default=None)
     c.add_argument("--ocupado", action="append", help='"x,y=Nome"')
+    c.add_argument("--tiro", action="store_true",
+                   help="a declaração é tiro/arremesso (Disparo em Movimento, MB p. 117, não Molinete)")
     c.add_argument("--json", action="store_true")
     rr = sub.add_parser("recuar", help="O hexágono do Recuar de uma peça (também para NPC)")
     rr.add_argument("--de", required=True)

@@ -1,0 +1,47 @@
+*TURNO 18 — O JAVALI E O CUTELO*
+
+O javali de farinha no pelo sai da despensa em disparada, sem um grunhido, e pega a criada de costas. Ela voa por cima do próprio avental e cai sentada entre as panelas, sem fôlego.
+> Encontrão, Pumba'h (javali): pelas costas, o choque acerta sem disputa de DX
+> Disputa de ST, Pumba'h: ST 16 +2 (correu mais de 1 hex) +2 (pelas costas) = *20*
+> 3d [4, 5, 1] = *10* → passou por 10
+> Criada: ST 10 = *10*
+> 3d [2, 6, 2] = *10* → passou por 0
+> *Pumba'h vence por 10: a criada cai*
+
+Gorbag nem olha para trás. O cutelo desce de novo no pescoço da cozinheira que já estava caída. Ela tenta levar a mão à garganta e não chega.
+> Ataque Gorbag: Machado/Maça NH 18, -5 pescoço = *13*
+> 3d [1, 2, 3] = *6* → sucesso por 7
+> Defesa: nenhuma (caída e atordoada)
+> Dano: 3D+3: [1, 6, 1] = 8 + 3 = *11*
+> RD 0 → 11 passam
+> Corte no pescoço: ×2 → *22*
+> Mais de metade da HT num golpe: teste de HT 10, 3d [3, 6, 4] = *13* → *CAIU*
+> Ferida mortal: teste de HT 10, 3d [6, 4, 4] = *14* → falhou por 4
+> *A cozinheira morre.*
+
+Krag solta a flecha, e o cozinheiro de faca na mão cambaleia com ela cravada no peito. Antes que ele caia, o meio-orc grita, a corda ainda vibrando:
+"Quietos! Todo mundo para a despensa, ou o próximo leva uma flecha na cara!"
+> Tiro Krag: Arco NH 17, -3 distância (6 m), -4 Tiro Rápido = *10*
+> 3d [2, 3, 1] = *6* → sucesso por 4
+> Defesa do cozinheiro: esquiva 5 = *5*
+> 3d [4, 6, 1] = *11* → falhou por 6
+> Dano: 1D+1: [5] + 1 = *6*
+> RD 0 → 6 passam
+> Perfuração: ×2 → *12* (teto do local: 10; 2 desperdiçados)
+> Mais de metade da HT num tiro: teste de HT 10, 3d [4, 1, 5] = *10* → de pé, *ATORDOADO*
+> *O cozinheiro perde 10 pontos de vida.*
+> Intimidação Krag: pré-definido IQ-5 = 6, +3 (arco apontado, feridos no chão, cozinheiro flechado) = *9*
+> 3d [2, 3, 3] = *8* → passou por 1
+> Cozinha: Vontade 10 = *10*
+> 3d [4, 3, 6] = *13* → falhou por 3
+> *Krag vence: a cozinha obedece*
+
+Sae'Varyn gira o bastão contra a criada caída, mas ela rola de lado e o bastão estala nas lajes.
+> Ataque Sae'Varyn: Bastão NH 11 = *11*
+> 3d [4, 4, 6] = *14* → falha por 3
+
+Urzog, de olho na porta do corredor, tira o escudo do braço e o machado da cintura. O ferro raspa no couro. Os dois já estão na mão.
+
+Ninguém mais ataca. Os criados largam as panelas, a cozinheira que ficou de pé arrasta o corpo da amiga um passo para o fundo, e o ar cheira a sangue e a sebo queimado. Pelas paredes, o sino do pátio continua.
+
+O que vocês fazem?

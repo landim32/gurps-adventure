@@ -90,19 +90,23 @@
     },
     {
       "nome": "Dever: Seita Lych (quase sempre)",
-      "custo": -15
+      "custo": -15,
+      "lembrete": "A alma dele está no frasco de Nekhar, o Embalsamador: a seita chama e ele vai"
     },
     {
       "nome": "Cobiça",
-      "custo": -15
+      "custo": -15,
+      "lembrete": "Autocontrole (12) quando há dinheiro ou tesouro em jogo; aceita risco e trapaça por ouro"
     },
     {
       "nome": "Paranóia",
-      "custo": -10
+      "custo": -10,
+      "lembrete": "Desconfia de todos, até da Seita; -2 nas reações que faz a quem não conhece há muito tempo"
     },
     {
       "nome": "Voto: destruir o frasco da alma",
-      "custo": -15
+      "custo": -15,
+      "lembrete": "Encontrar e destruir o frasco com a própria alma; não larga pista que leve a ele"
     }
   ],
   "peculiaridades": [

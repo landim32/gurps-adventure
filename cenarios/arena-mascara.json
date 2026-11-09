@@ -1,0 +1,12 @@
+{
+  "largura": 1199,
+  "altura": 781,
+  "paredes": [
+    {"tipo": "retangulo", "x": 0, "y": 0, "w": 1199, "h": 781, "nome": "arquibancadas, torres e camarote: tudo fora do fosso"}
+  ],
+  "aberturas": [
+    {"tipo": "elipse", "x": 207, "y": 148, "w": 796, "h": 504, "nome": "areia da arena"},
+    {"tipo": "retangulo", "x": 0, "y": 350, "w": 260, "h": 100, "nome": "portão e túnel oeste"},
+    {"tipo": "retangulo", "x": 940, "y": 350, "w": 259, "h": 100, "nome": "portão e túnel leste"}
+  ]
+}

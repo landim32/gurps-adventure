@@ -1,0 +1,25 @@
+*TURNO 23 — A FLECHA E O GRITO*
+
+Urzog descarrega o machado no pescoço da cozinheira que soluça junto à despensa. A lâmina passa rente à garganta e arranca faísca da pedra. Ela cobre a boca com o avental e recua um passo para dentro do escuro.
+> Ataque Urzog: Machado/Maça NH 14, -5 pescoço = *9*
+> 3d [1, 5, 5] = *11* → falhou por 2
+> *Errou.* A cozinheira não precisou se defender.
+
+Gorbag atravessa a cozinha por entre os corpos, o cutelo da casa pingando, e para no vão da despensa, ao lado de Urzog. De dentro vêm soluços e panos arrastados.
+
+Krag firma o pé e solta a flecha que já esperava na corda. Ela cruza a sala do trono de ponta a ponta, sem aviso, e bate no peitoral da Capitã com um estalo de sino. A ponta resvala no aço e cai tinindo nas lajes.
+> Ataque Krag: Arco NH 17, -6 velocidade/distância (19 m → linha dos 20 m), -4 Tiro Rápido (NH ajustado 11 não alcançou o TR 13) = *7*
+> 3d [1, 1, 1] = *3* → *SUCESSO DECISIVO* (por 4)
+> *GOLPE FULMINANTE!* Sem defesa possível.
+> Tabela de Golpes Fulminantes: 3d [1, 5, 3] = *9* → dano normal
+> Dano: 1D+1: [2] + 1 = *3*
+> RD 6 (corselete) → 0 passam
+> *A armadura segurou o tiro.* Nenhum dano.
+
+A Capitã vira o rosto cruzado de cicatrizes para o corredor, a espada já erguida, e o grito corta o salão: "Guardas! Comigo, em formação!" Os dois homens de armas junto à parede norte largam o posto e correm, armaduras tinindo. O Barão fica onde está, de olho na porta.
+
+Pumba'h trota até o flanco de Krag e para ali, o focinho para a frente, sem fechar porta nenhuma. Farejo continua sentado ao lado do arqueiro.
+
+Sae'Varyn chega ao fim da escada, onde a passagem se abre para fora. O ar frio traz o cheiro de terra e de estrebaria. A carroça ainda está longe.
+
+O que vocês fazem?

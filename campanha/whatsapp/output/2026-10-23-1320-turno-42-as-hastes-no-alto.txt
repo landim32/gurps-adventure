@@ -1,0 +1,21 @@
+*TURNO 42 — AS HASTES NO ALTO*
+
+Gorbag dá meia-volta na sala da fonte e retorna pelo corredor, quatro passos pesados que o põem de novo perto do grupo, a poucos hexágonos da armadura que o deixou passar.
+
+Krag segue o cão pela treva, o corpo baixo, o arco armado, tateando o escuro um passo atrás do focinho do Farejo, que avança cheirando o caminho. Urzog e Sae'Varyn permanecem onde estão, em guarda. Na cegueira, os três se apoiam no ouvido, e a treva não abafa o som: o ranger lento de metal sendo armado.
+
+Krag escuta, com a respiração presa, um ruído de ferro e de haste bem junto dele, dois passos ao sul, e outro mais fraco, longe, a sudeste.
+> Audição Krag: NH 12
+> 3d [3, 5, 4] = *12* → sucesso por 0
+
+Urzog separa o ranger perto, a nordeste, a dois passos, e o outro, distante, a sudoeste. Sabe agora de onde vem cada um.
+> Audição Urzog: NH 8
+> 3d [2, 1, 4] = *7* → sucesso por 1
+
+Sae'Varyn escuta os dois conjuntos: o primeiro a noroeste, rente ao grupo, o segundo a sudoeste, muito longe, ainda parado. Sente também, no tom do metal, o cuidado de quem arma uma lâmina.
+> Audição Sae'Varyn: NH 15
+> 3d [4, 1, 4] = *9* → sucesso por 6
+
+Perto do grupo, as duas armaduras param de atacar. As alabardas giram nas manoplas, as lâminas sobem acima dos elmos, as hastes se firmam. Começam a armar as armas outra vez, sem atacar neste turno.
+
+O que vocês fazem?

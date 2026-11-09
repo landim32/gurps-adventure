@@ -1,0 +1,23 @@
+*OLHOS ABERTOS*
+
+Gorbag varre o salão com os olhos pequenos de açougueiro, mais acostumado a ver carne que detalhe. Nada chama a atenção dele.
+> Teste especial Gorbag: NH 9 (pré-definido), -6 dificuldade = *3*
+> NH efetivo 3 ou menos: o livro não permite a jogada. *Não percebe nada.*
+
+Krag olha as lajes, as juntas do piso, o que um batedor veria. As sombras do salão não lhe contam nada fora do lugar.
+> Teste especial Krag: NH 9 (pré-definido), -6 dificuldade = *3*
+> NH efetivo 3 ou menos: o livro não permite a jogada. *Não percebe nada.*
+
+Sae'Varyn passa os olhos frios pelo chão, devagar, sem pressa. O olhar de gelo desliza e segue adiante.
+> Teste especial Sae'Varyn: NH 10 (pré-definido), -6 dificuldade = *4*
+> 3d [5, 4, 1] = *10* → *falhou por 6*
+
+Ele ainda deixa a atenção correr pelo ar, atento ao que só quem tem o dom sente. A sensação se dilui antes de virar certeza.
+> Aptidão Mágica 3 Sae'Varyn: NH 13
+> 3d [5, 5, 6] = *16* → *falhou por 3*
+
+Urzog caminha de olho no inimigo e na saída, o instinto de brigão atento à próxima pancada. Não vê nada.
+> Teste especial Urzog: NH 6 (pré-definido), -6 dificuldade = *0*
+> NH efetivo 3 ou menos: o livro não permite a jogada. *Não percebe nada.*
+
+Ninguém percebe nada de estranho.

@@ -51,7 +51,7 @@
   },
   "defesas_ativas": {
     "esquiva": 7,
-    "aparar": 9,
+    "aparar": 8,
     "bloqueio": 0
   },
   "reacao": "-5; -3 sádico conhecido",
@@ -105,7 +105,7 @@
     {
       "nome": "Sadismo",
       "custo": -15,
-      "lembrete": "Vontade (9) para se conter quando não deve fazer sofrer; quem sabe reage -3"
+      "lembrete": "Vontade (9) para não ser cruel com quem deve sair ileso; -3 de reação de quem o conhece"
     },
     {
       "nome": "Sanguinolência",
@@ -131,14 +131,6 @@
     "Ofendido se desperdiçam carne"
   ],
   "armas_objetos": [
-    {
-      "item": "Cutelo colossal (2 mãos)",
-      "dano": "3D+5",
-      "tipo": "corte",
-      "qtd": 1,
-      "peso": 4.0,
-      "categoria": "Armas"
-    },
     {
       "item": "Facão de desossar",
       "dano": "1D+2",
@@ -220,8 +212,8 @@
       "categoria": "Equipamento"
     }
   ],
-  "peso_total": 13.75,
-  "custo_total": 395,
+  "peso_total": 9.75,
+  "custo_total": 295,
   "dinheiro": 605,
   "pericias": [
     {

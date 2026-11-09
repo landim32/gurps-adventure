@@ -94,9 +94,93 @@ def indice_local(mapa, map_id):
     return None
 
 
-def montar(raiz, turno, campanha_id=None):
+def alvo_de(roll6, entrada, desloc=(0, 0)):
+    """O alvo de uma ação declarada com "Agir sobre…" no roll6 (098): o hex, a distância em
+    hexágonos e, quando havia uma peça no hex, a cópia dela feita na hora da declaração
+    (nunca relida). None quando a ação não tem alvo."""
+    a = entrada.get("target")
+    if not a:
+        return None
+    alvo = {"xy": [a["x"], a["y"]], "hex": roll6.xy_para_rotulo(a["x"], a["y"], desloc),
+            "distancia": a.get("distance", 0), "mapTokenId": a.get("mapTokenId")}
+    if a.get("mapTokenId") is not None:
+        alvo.update({"tipo": a.get("kindLabel") or a.get("kind"), "lado": a.get("sideLabel") or a.get("side"),
+                     "nome": a.get("name"), "characterId": a.get("characterId"), "mapNpcId": a.get("mapNpcId"),
+                     "frente": a.get("lookName"), "postura": a.get("postureLabel"), "status": a.get("status"),
+                     "pv": [a.get("currentLife"), a.get("totalLife")] if a.get("totalLife") is not None else None,
+                     "fadiga": [a.get("currentEnergy"), a.get("totalEnergy")] if a.get("totalEnergy") is not None else None})
+    return alvo
+
+
+def linha_alvo(alvo):
+    """'Goblin (inimigo, NPC) em J8 (9,7), a 3 hexes, olhando Sudeste, Caído, PV 5/12, Fadiga 3/10,
+    status: atordoado' ou 'o hex M5 (12,4), a 5 hexes'."""
+    d = alvo["distancia"]
+    hexes = "1 hex" if d == 1 else f"{d} hexes"
+    onde = f'{alvo["hex"]} ({alvo["xy"][0]},{alvo["xy"][1]})'
+    if alvo.get("mapTokenId") is None:
+        return f"o hex {onde}, a {hexes}"
+    if alvo.get("lado") in ("si mesmo", "self"):
+        return f"si mesmo em {onde}"
+    partes = [f'{alvo.get("nome")} ({alvo.get("lado")}, {alvo.get("tipo")}) em {onde}', f"a {hexes}"]
+    if alvo.get("frente"):
+        partes.append(f'olhando {alvo["frente"]}')
+    if alvo.get("postura") and alvo["postura"] != "Em pé":
+        partes.append(alvo["postura"])
+    if alvo.get("pv"):
+        partes.append(f'PV {alvo["pv"][0]}/{alvo["pv"][1]}')
+    if alvo.get("fadiga"):
+        partes.append(f'Fadiga {alvo["fadiga"][0]}/{alvo["fadiga"][1]}')
+    if alvo.get("status"):
+        partes.append(f'status: {alvo["status"]}')
+    return ", ".join(partes)
+
+
+def arma_despreparada(status):
+    """O status do roll6 diz que a arma está despreparada? Regra da casa (sobre o MB, p. 104):
+    a arma desbalanceada se prepara SOZINHA no turno seguinte ao ataque ou ao aparar — não
+    ataca nem apara com ela nesse turno, mas o personagem age livremente. Só os turnos além
+    do primeiro (haste: 2) exigem a manobra Preparar. É o aviso que faltava na tela: o modelo
+    lia «machado despreparado» no status e rolava o ataque assim mesmo."""
+    return bool(status) and "despreparad" in status.lower()
+
+
+def aviso_despreparada(status):
+    s = (status or "").lower()
+    if "manobra" in s:
+        return AVISO_DESPREPARADA_MANUAL
+    return AVISO_DESPREPARADA
+
+
+AVISO_DESPREPARADA = ("    ⚠ ARMA DESPREPARADA no status: neste turno ela se PREPARA SOZINHA (regra da casa, sem "
+                      "manobra). Não role ataque nem aparar com ela — nem por ação repetida —, mas o "
+                      "personagem age livremente (desloca-se, faz outra ação). Ao fechar, o status passa a "
+                      "«preparada»; arma de 2 turnos: «despreparada: o 2º turno exige Preparar (manobra)».")
+AVISO_DESPREPARADA_MANUAL = ("    ⚠ ARMA DESPREPARADA (2º turno): a ação deste turno é PREPARAR (manobra), a "
+                             "que falta depois do turno automático. Não role ataque nem aparar com ela; o "
+                             "golpe fica para o turno seguinte.")
+
+
+def acoes_de(roll6, entradas, desloc):
+    """[{texto, alvo}] das ações declaradas (turnType 2), na ordem do roll6."""
+    return [{"texto": e["description"], "alvo": alvo_de(roll6, e, desloc),
+             "repetida": REPETIDA.get(e.get("repeated"))} for e in entradas if e["turnType"] == 2]
+
+
+# Ação repetida (099): "declared" = registrada quando o jogador a ativou; "turnStart" = aplicada no início do turno.
+REPETIDA = {"declared": "declarada", "turnStart": "inicio"}
+
+
+def montar(raiz, turno, campanha_id=None, so_mcp=False):
     roll6, acao, campanha = importar(raiz)
-    mapa = roll6.mapeamento(raiz)
+    # Só pelo MCP (097): a campanha vem do argumento e o mapeamento nem é lido — tudo "fora do repositório".
+    if so_mcp:
+        if campanha_id is None:
+            print("campanha não informada (--so-mcp exige --campanha N).")
+            raise SystemExit(3)
+        mapa = None
+    else:
+        mapa = roll6.mapeamento(raiz)
     if not mapa and campanha_id is None:
         raise SystemExit("Sem campanha/roll6.json — a campanha ativa não está ligada ao roll6 (skill roll6).")
     # Outra campanha do roll6 (teste, one-shot): nada do repositório vale para ela —
@@ -108,11 +192,12 @@ def montar(raiz, turno, campanha_id=None):
     c = roll6.cliente()
     dados = c.chamar("get_turn_data", {"campaignId": cid, "turnNo": turno})
     em_andamento = dados["turnNo"] == dados["currentTurn"]
+    livre = bool(c.chamar("get_campaign", {"campaignId": cid}).get("freeMode"))
     entradas = (c.chamar("get_turn_state", {"campaignId": cid})["entries"] if em_andamento
                 else roll6.lista(c.chamar("list_turn_entries", {"campaignId": cid, "turnNo": dados["turnNo"]})))
     indice = indice_local(mapa, dados.get("mapId"))
     desloc = tuple(((mapa.get("mapas") or {}).get(indice) or {}).get("deslocamento") or (0, 0))
-    est = acao.estado(raiz)
+    est = {} if so_mcp else acao.estado(raiz)
     divergencias = []
 
     def posicao(x, y, look):
@@ -123,20 +208,21 @@ def montar(raiz, turno, campanha_id=None):
     pjs = []
     for ch in dados["characters"]:
         minhas = [e for e in entradas if e.get("characterId") == ch["characterId"]]
-        acoes = [e["description"] for e in minhas if e["turnType"] == 2]
+        acoes = acoes_de(roll6, minhas, desloc)
         moveu = [e for e in minhas if e["turnType"] == 1]
-        pasta, ficha = ficha_local(acao, raiz, ch["name"])
+        pasta, ficha = (None, None) if so_mcp else ficha_local(acao, raiz, ch["name"])
         s = None if fora_do_repo else saude_local(roll6, campanha, raiz, mapa, "pj", ch["name"])
         pos = posicao(ch.get("x"), ch.get("y"), ch.get("look"))
         pj = {"nome": ch["name"], "jogador": ch.get("playerName"), "characterId": ch["characterId"],
               "campaignCharacterId": ch.get("campaignCharacterId"), "mapTokenId": ch.get("mapTokenId"),
               "ficha": (pasta / "personagem.md").as_posix() if pasta else None,
               "pv": [ch["currentLife"], ch["totalLife"]], "fadiga": [ch["currentEnergy"], ch["totalEnergy"]],
-              "status": ch.get("status"), "posicao": pos,
+              "status": ch.get("status"), "posicao": pos, "repeticao": ch.get("repeatedAction"),
+              "fora_de_combate": ch.get("posture") == 3,
               "acoes": acoes, "movimentos": [f'({e.get("beforeX")},{e.get("beforeY")}) → ({e.get("x")},{e.get("y")})'
                                              for e in moveu],
               "reacoes": [] if fora_do_repo else acao.reacoes_do_pj(est.get("capitulo_atual_pasta"), ch["name"])}
-        if not pasta:
+        if not pasta and not so_mcp:
             divergencias.append(f"{ch['name']}: sem ficha em personagens/ — leia a ficha pelo get_participation (characterSheet)")
         if s and (s["pv"], s["fadiga"]) != (ch["currentLife"], ch["currentEnergy"]):
             divergencias.append(f"{ch['name']}: roll6 PV {ch['currentLife']} / Fadiga {ch['currentEnergy']}, "
@@ -152,9 +238,10 @@ def montar(raiz, turno, campanha_id=None):
         npcs.append({"nome": n["name"], "mapNpcId": n["mapNpcId"], "npcId": n.get("npcId"),
                      "mapTokenId": n.get("mapTokenId"),
                      "pv": [n["currentLife"], n["totalLife"]], "fadiga": [n["currentEnergy"], n["totalEnergy"]],
-                     "status": n.get("status"), "posicao": pos,
+                     "status": n.get("status"), "posicao": pos, "repeticao": n.get("repeatedAction"),
+                     "categoria": n.get("npcCategory") or n.get("category"),
                      "nome_no_saude": s["nome_local"] if s else None,
-                     "acoes": [e["description"] for e in minhas if e["turnType"] == 2],
+                     "acoes": acoes_de(roll6, minhas, desloc),
                      "moveu": any(e["turnType"] == 1 for e in minhas),
                      "reacoes": {p["nome"]: reacoes.get((roll6.slug(n["name"]), roll6.slug(p["nome"])))
                                  for p in pjs}})
@@ -162,16 +249,18 @@ def montar(raiz, turno, campanha_id=None):
             divergencias.append(f"{n['name']}: roll6 PV {n['currentLife']}, saude.md "
                                 f"{n['totalLife'] + s['pv_acumulado']} ({s['pv_acumulado']:+d} sobre {n['totalLife']})")
 
-    pendentes = [p["nome"] for p in pjs if not p["acoes"]]
-    so_moveu = [p["nome"] for p in pjs if not p["acoes"] and p["movimentos"]]
-    arquivos = [(k, v.as_posix(), d) for k, v, d in acao.arquivos_de_contexto(raiz, est, Path("."))
-                if k != "ficha"]
+    # Fora de combate (postura 3) não deve ação: o turno não espera por ele (como o roll6 no "Falta…" e no Modo GM).
+    fora_de_combate = [p["nome"] for p in pjs if p["fora_de_combate"] and not p["acoes"]]
+    pendentes = [p["nome"] for p in pjs if not p["acoes"] and not p["fora_de_combate"]]
+    so_moveu = [p["nome"] for p in pjs if not p["acoes"] and p["movimentos"] and not p["fora_de_combate"]]
+    arquivos = [] if so_mcp else [(k, v.as_posix(), d) for k, v, d in acao.arquivos_de_contexto(raiz, est, Path("."))
+                                   if k != "ficha"]
     if fora_do_repo:
         arquivos, est = [], {}
-    return {"campaignId": cid, "fora_do_repositorio": fora_do_repo, "turno": dados["turnNo"], "turno_atual": dados["currentTurn"],
-            "em_andamento": em_andamento, "mapId": dados.get("mapId"), "indice_local": indice,
+    return {"campaignId": cid, "fora_do_repositorio": fora_do_repo, "so_mcp": bool(so_mcp), "turno": dados["turnNo"], "turno_atual": dados["currentTurn"],
+            "em_andamento": em_andamento, "turno_livre": livre, "mapId": dados.get("mapId"), "indice_local": indice,
             "personagens": pjs, "npcs": npcs, "acoes_md": dados.get("actions") or "",
-            "pendentes": pendentes, "so_moveu": so_moveu, "divergencias": divergencias,
+            "pendentes": pendentes, "so_moveu": so_moveu, "fora_de_combate": fora_de_combate, "divergencias": divergencias,
             "arquivos": arquivos, "reacoes_json": (Path(est["capitulo_atual_pasta"]) / "reacoes.json").as_posix()
             if est.get("capitulo_atual_pasta") else None}
 
@@ -180,9 +269,15 @@ def imprimir(r):
     print(f"Campanha {r['campaignId']} · turno {r['turno']}"
           + ("" if r["em_andamento"] else f" (encerrado; o atual é {r['turno_atual']})")
           + f" · mapa {r['mapId']} ↔ {r['indice_local'] or '(sem índice local ligado)'}")
-    if r.get("fora_do_repositorio"):
+    if r.get("so_mcp"):
+        print("SÓ MCP — tudo vem do roll6; nada do repositório é lido ou gravado. Fichas pelo get_participation (sheet)\n"
+              "  e get_npc (sheet); a situação (status, PV, posições, narração) só pelo process_turn.")
+    elif r.get("fora_do_repositorio"):
         print("ATENÇÃO: campanha fora do repositório — sem saúde, mapa local, reações nem log locais.\n"
               "  Não registre com campanha.py (cairia na campanha ativa); o registro é só o process_turn.")
+    if r.get("turno_livre"):
+        print("TURNO LIVRE (freeMode): não valide o posicionamento nem o Deslocamento; "
+              "mova as peças para onde a ação precisar.")
     print()
     if not r["em_andamento"]:
         veredito = "SÓ LEITURA — turno já encerrado; process_turn só vale para o turno em andamento."
@@ -191,7 +286,10 @@ def imprimir(r):
                     + (f"  (só se moveram: {', '.join(r['so_moveu'])})" if r["so_moveu"] else "")
                     + "\n  → não processe; espere, ou só com ordem do Mestre.")
     else:
-        veredito = "PRONTO — todo personagem aprovado declarou ação."
+        veredito = "PRONTO — todo personagem que deve ação declarou."
+    if r["em_andamento"] and r.get("fora_de_combate"):
+        veredito += ("; fora de combate (não esperados, sem ação): " + ", ".join(r["fora_de_combate"])
+                     + " — resolva só o que acontece com eles (sangramento, testes de HT etc.).")
     print(f"VEREDITO: {veredito}\n")
 
     print("## Personagens")
@@ -200,10 +298,19 @@ def imprimir(r):
         print(f"- {p['nome']} ({p['jogador']}) · characterId {p['characterId']} · "
               f"PV {p['pv'][0]}/{p['pv'][1]} · Fadiga {p['fadiga'][0]}/{p['fadiga'][1]} · "
               + (f"{pos['hex']} {pos['xy']} olhando {pos['frente']}" if pos else "fora do mapa"))
-        print(f"    ficha: {p['ficha'] or '— (get_participation → characterSheet)'}")
+        ficha = p['ficha'] or (f"get_participation {p.get('campaignCharacterId')} (sheet)" if r.get("so_mcp")
+                               else "— (get_participation → characterSheet)")
+        print(f"    ficha: {ficha}")
         print(f"    status: {p['status'] or '—'}")
+        if arma_despreparada(p["status"]):
+            print(aviso_despreparada(p["status"]))
+        if p.get("repeticao"):
+            print(f"    REPETIÇÃO ATIVA: {p['repeticao']}")
+            print("      → ao fechar, se o objetivo foi cumprido: clearRepeatedAction: true neste personagem")
         for a in p["acoes"]:
-            print(f"    AÇÃO: {a}")
+            print(f"    AÇÃO{' (repetida)' if a.get('repetida') else ''}: {a['texto']}")
+            if a.get("alvo"):
+                print(f"      → sobre {linha_alvo(a['alvo'])}")
         for m in p["movimentos"]:
             print(f"    moveu: {m}")
         if not p["acoes"]:
@@ -215,15 +322,26 @@ def imprimir(r):
         pos = n["posicao"]
         print(f"- {n['nome']} · mapNpcId {n['mapNpcId']} · PV {n['pv'][0]}/{n['pv'][1]} · "
               + (f"{pos['hex']} {pos['xy']} olhando {pos['frente']}" if pos else "fora do mapa")
+              + (f" · categoria: {n['categoria']}" if n.get("categoria") else "")
               + (f" · no saude.md: {n['nome_no_saude']}" if n["nome_no_saude"] else ""))
+        if r.get("so_mcp"):
+            print(f"    ficha: get_npc {n.get('npcId')} (sheet)")
         print(f"    status: {n['status'] or '—'}")
+        if arma_despreparada(n["status"]):
+            print(aviso_despreparada(n["status"]))
+        if n.get("repeticao"):
+            print(f"    REPETIÇÃO ATIVA: {n['repeticao']}")
+            print("      → ao fechar, se o objetivo foi cumprido: clearRepeatedAction: true neste NPC")
         for a in n["acoes"]:
-            print(f"    AÇÃO (lançada no roll6): {a}")
+            print(f"    AÇÃO{' (repetida)' if a.get('repetida') else ' (lançada no roll6)'}: {a['texto']}")
+            if a.get("alvo"):
+                print(f"      → sobre {linha_alvo(a['alvo'])}")
         if not n["acoes"] and not n["moveu"]:
             print("    SEM AÇÃO NEM MOVIMENTO — você decide (passo 3 da skill)")
-        rs = [f"{pj} {r['faixa']} {r['total']} (cap. {r['capitulo']})" if r else f"{pj} —"
-              for pj, r in n["reacoes"].items()]
-        print("    reações [LOCAL, não vai ao roll6]: " + "; ".join(rs))
+        if not r.get("so_mcp"):
+            rs = [f"{pj} {r['faixa']} {r['total']} (cap. {r['capitulo']})" if r else f"{pj} —"
+                  for pj, r in n["reacoes"].items()]
+            print("    reações [LOCAL, não vai ao roll6]: " + "; ".join(rs))
     print("\n## Divergências roll6 × repositório")
     print("\n".join(f"- {d}" for d in r["divergencias"]) or "- nenhuma")
     print("\n## O que a mesa fez neste turno (roll6)")
@@ -237,6 +355,31 @@ def imprimir(r):
     print("\n× = ainda não existe; siga sem ele.")
 
 
+def avisar(raiz, campanha_id, processando, motivo=None):
+    """101: avisa a mesa no roll6 que o turno está sendo processado (linha azul + selo) ou que parou sem fechar."""
+    roll6, _, _ = importar(raiz)
+    if campanha_id is None:
+        mapa = roll6.mapeamento(raiz)
+        if not mapa:
+            print("campanha não informada (use --campanha N).")
+            raise SystemExit(3)
+        campanha_id = mapa["campaignId"]
+    args = {"campaignId": campanha_id, "processing": processando}
+    if motivo:
+        args["reason"] = motivo[:200]
+    try:
+        r = roll6.cliente().chamar("set_turn_processing", args)
+    except roll6.Roll6Erro as e:
+        print(f"Não consegui avisar o roll6: {e}")
+        raise SystemExit(4)
+    if isinstance(r, dict) and r.get("ignored") == "gm":
+        print("Ignorado: o Modo GM está processando este turno.")
+    elif processando:
+        print(f"Processando o turno {r.get('processingTurn') if isinstance(r, dict) else '?'} avisado ao roll6.")
+    else:
+        print("Aviso de processamento retirado.")
+
+
 def main():
     ap = argparse.ArgumentParser(description="Contexto para processar um turno do roll6.")
     ap.add_argument("--raiz", default=".")
@@ -245,10 +388,20 @@ def main():
     s.add_argument("--turno", type=int, default=None)
     s.add_argument("--campanha", type=int, default=None,
                    help="campaignId de outra campanha do roll6 (padrão: a do campanha/roll6.json)")
+    s.add_argument("--so-mcp", action="store_true",
+                   help="só pelo MCP (097): nada do repositório é lido ou gravado; exige --campanha")
     s.add_argument("--json", action="store_true")
+    p = sub.add_parser("processando", help="Avisa a mesa que o turno em andamento está sendo processado (101)")
+    p.add_argument("--campanha", type=int, default=None, help="campaignId (padrão: a do campanha/roll6.json)")
+    q = sub.add_parser("parei", help="Retira o aviso: parou sem fechar o turno (101)")
+    q.add_argument("--campanha", type=int, default=None, help="campaignId (padrão: a do campanha/roll6.json)")
+    q.add_argument("--motivo", default=None, help="por que parou (até 200 caracteres), aparece no chat")
     a = ap.parse_args()
     raiz = Path(a.raiz).resolve()
-    r = montar(raiz, a.turno, a.campanha)
+    if a.cmd in ("processando", "parei"):
+        avisar(raiz, a.campanha, a.cmd == "processando", getattr(a, "motivo", None))
+        return
+    r = montar(raiz, a.turno, a.campanha, a.so_mcp)
     if a.json:
         print(json.dumps(r, ensure_ascii=False, indent=2))
     else:

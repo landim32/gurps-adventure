@@ -135,6 +135,32 @@ def rela_frente(frente, lado):
             3: "por trás"}.get(giro), giro
 
 
+def projetar(de, para, n, ocupadas=None):
+    """Para onde vai quem é projetado `n` hexágonos pelo golpe de `de` em `para` (MB, p. 106).
+
+    O rumo é o de quem bateu para quem apanhou (`look_de`), hexágono a hexágono, e para
+    **antes** do primeiro hexágono ocupado — «bater em algo grande o para ali». `ocupadas`
+    é {(x, y): nome}; o próprio alvo não conta. Quem decide o que aconteceu com o que
+    bloqueou é o Mestre (MB, "Arremessando Objetos").
+    """
+    lado = look_de(de, para)
+    saida = {"lado": lado, "lado_nome": NOME_LOOK.get(lado), "hexagonos_pedidos": n,
+             "hexagonos_andados": 0, "caminho": [], "final": list(para), "bloqueado_por": None}
+    if lado is None or n <= 0:
+        return saida
+    atual = tuple(para)
+    for _ in range(n):
+        prox = vizinho(atual[0], atual[1], lado)
+        if ocupadas and prox in ocupadas and prox != tuple(para):
+            saida["bloqueado_por"] = {"xy": list(prox), "quem": ocupadas[prox]}
+            break
+        saida["caminho"].append(list(prox))
+        atual = prox
+    saida["hexagonos_andados"] = len(saida["caminho"])
+    saida["final"] = list(atual)
+    return saida
+
+
 def calcular(p):
     a = p.get("de")
     b = p.get("para")
@@ -201,6 +227,9 @@ def main():
     ap.add_argument("--desloc-x", type=int, default=0)
     ap.add_argument("--desloc-y", type=int, default=0)
     ap.add_argument("--tokens", default="", help="JSON do list_map_tokens, ou '-' p/ stdin")
+    ap.add_argument("--projetar", type=int, default=0,
+                    help="hexágonos que --para é projetado para trás pelo golpe de --de "
+                         "(MB, p. 106); com --tokens, para antes de peça no caminho")
     ap.add_argument("--json", action="store_true")
     a = ap.parse_args()
 
@@ -212,6 +241,14 @@ def main():
     r = calcular({"de": de, "para": para, "frente": a.frente,
                   "metro_por_hex": a.metro_por_hex,
                   "desloc": (a.desloc_x, a.desloc_y)})
+    if a.projetar:
+        ocupadas = {}
+        if tokens:
+            lista = tokens if isinstance(tokens, list) else (tokens.get("items") or [])
+            ocupadas = {(t["x"], t["y"]): t.get("name") for t in lista
+                        if t.get("x") is not None and t.get("y") is not None}
+        r["projecao"] = projetar(tuple(r["de"]["xy"]), tuple(r["para"]["xy"]), a.projetar,
+                                 ocupadas)
     if a.json:
         print(json.dumps(r, ensure_ascii=False, indent=2))
         return
@@ -225,6 +262,17 @@ def main():
     if r.get("angulo_visao"):
         print(f"  em relação à frente informada: {r['angulo_visao']} (giro {r['giro']})"
               + (" — FORA do ângulo de visão" if r.get("fora_do_angulo") else ""))
+    if r.get("projecao"):
+        pj = r["projecao"]
+        rumo = " → ".join(f"({x},{y})" for x, y in pj["caminho"]) or "(não sai do lugar)"
+        print(f"  PROJEÇÃO de {pj['hexagonos_pedidos']} hex rumo a {pj['lado_nome']} "
+              f"(look {pj['lado']}): {rumo}")
+        print(f"    fica em {tuple(pj['final'])} ({para_rotulo(*pj['final'])}), andou "
+              f"{pj['hexagonos_andados']} de {pj['hexagonos_pedidos']}"
+              + (f" — BLOQUEADO por {pj['bloqueado_por']['quem']} em "
+                 f"{tuple(pj['bloqueado_por']['xy'])}: para no hexágono anterior; o que "
+                 "bateu nele é arbitragem do Mestre" if pj.get("bloqueado_por") else "")
+              + ("" if tokens else "  (sem --tokens não conferi peças nem paredes no caminho)"))
 
 
 if __name__ == "__main__":

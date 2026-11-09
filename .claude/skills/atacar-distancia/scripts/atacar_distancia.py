@@ -143,6 +143,9 @@ def main():
     # o alvo
     ap.add_argument("--alvo", required=True)
     ap.add_argument("--alvo-ht", type=int, default=0)
+    ap.add_argument("--alvo-dx", type=int, default=0,
+                    help="DX do alvo (NPC sem ficha): teste de queda se for PROJETADO "
+                         "(bala e pedra de funda projetam; flecha não)")
     ap.add_argument("--alvo-defesa", default="esquiva",
                     choices=["esquiva", "bloqueio", "nenhuma"])
     ap.add_argument("--alvo-esquiva", type=int, default=0)
@@ -477,7 +480,11 @@ def main():
         p(linha)
     MEC.extend(dano["mec"])
     ferimento, perdido = dano["resultado"]["ferimento"], dano["resultado"]["perdido"]
-    if dano["resultado"]["armadura_segurou"]:
+    segurou = dano["resultado"]["armadura_segurou"]
+    # Projeção (MB, p. 106): bala e pedra de funda empurram mesmo que a armadura segure;
+    # flecha e virote (perfuração) não projetam.
+    proj = int(dano["resultado"].get("projecao_hex") or 0)
+    if segurou and not proj:
         _fecha(saida, avisos, args, raiz, atacante, alvo, local, arma_nome, distancia,
                "não passou da armadura", 0, nh=nh, ataque=ta, fulminante=fulminante,
                critico_tipo="fulminante" if fulminante else "",
@@ -487,10 +494,12 @@ def main():
 
     # ---------------------------------------------------------- consequências
     # A mesma folha do corpo a corpo. O que muda é a palavra: aqui é tiro, não golpe.
+    dx_alvo = args.alvo_dx or int(((fd or {}).get("atributos") or {})
+                                  .get("DX", {}).get("valor") or 0)
     fer = C.af.calcular({
         "alvo": alvo, "ferimento": ferimento, "ht_alvo": ht_alvo, "chave": chave,
         "tipo": tipo, "efeito": efeito, "ficha": fd, "hipoalgia": args.alvo_hipoalgia,
-        "projetil": True,
+        "projetil": True, "projecao_hex": proj, "dx_alvo": dx_alvo,
     })
     for linha in fer["saida"]:
         p(linha)
@@ -498,7 +507,8 @@ def main():
 
 
     _fecha(saida, avisos, args, raiz, atacante, alvo, local, arma_nome, distancia,
-           f"acertou {local['nome'].lower()}", ferimento, nh=nh, ataque=ta,
+           "não passou da armadura" if segurou else f"acertou {local['nome'].lower()}",
+           ferimento, nh=nh, ataque=ta,
            fulminante=fulminante, critico_tipo="fulminante" if fulminante else "",
            critico_total=critico_total, critico_txt=critico_txt)
 

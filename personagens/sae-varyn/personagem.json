@@ -72,23 +72,28 @@
     },
     {
       "nome": "Dever: Seita Lych (quase sempre)",
-      "custo": -15
+      "custo": -15,
+      "lembrete": "A alma está presa num terço profanado: a seita chama e ele vai"
     },
     {
       "nome": "Sadismo",
-      "custo": -15
+      "custo": -15,
+      "lembrete": "Autocontrole (12) para não ser cruel com quem está indefeso; -3 de reação de quem o conhece"
     },
     {
       "nome": "Excesso de Confiança",
-      "custo": -10
+      "custo": -10,
+      "lembrete": "Autocontrole (6) para recuar, negociar ou pedir ajuda; acha que vence qualquer desafio"
     },
     {
       "nome": "Megalomania",
-      "custo": -10
+      "custo": -10,
+      "lembrete": "Quer poder e domínio; topa qualquer plano que o engrandeça e trata os outros como peões"
     },
     {
       "nome": "Má Reputação (necromante renegado)",
-      "custo": -5
+      "custo": -5,
+      "lembrete": "-1 de reação de quem o reconhece como o templário que virou necromante"
     }
   ],
   "peculiaridades": [

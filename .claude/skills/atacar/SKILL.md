@@ -6,8 +6,12 @@ description: >
   ou erro crítico nas tabelas, defesa ativa mais passiva do alvo — número e dado na folha
   `resolver-defesa`, a mesma da arma de longe. A avaliação de dano — RD
   por região, bônus por tipo de dano, tetos do local e membro — é da folha `causar-dano`,
-  que esta chama; as consequências do ferimento — queda, atordoamento, nocaute — são da
-  folha `arbitrar-ferimento`, a mesma da arma de longe. Entrega o texto para
+  que esta chama; as consequências do ferimento — queda, atordoamento, nocaute, a queda de
+  quem foi projetado — são da folha `arbitrar-ferimento`, a mesma da arma de longe. Aplica
+  a preparação de arma (MB, p. 104): recusa o golpe de arma despreparada e diz, na última
+  linha do bloco, que o machado, a maça, o mangual ou a haste ficaram despreparados ao
+  atacar ou aparar, salvo Preparação Rápida por ST; e a projeção (MB, p. 106), 1 hexágono a
+  cada 8 pontos antes da RD. Entrega o texto para
   o WhatsApp e devolve o resultado à `registrar-acao`. Use when the user asks "ataque total
   no pescoço do morto-vivo", "ele ataca com a espada", "o orc golpeia o Kaelric", "aparar",
   "esquiva", ou /atacar.
@@ -32,14 +36,16 @@ python .claude/skills/atacar/scripts/atacar.py \
 
 | # | Passo | Regra |
 |---|---|---|
+| 0 | **A arma está preparada?** | Arma despreparada **não ataca** (MB, p. 104): `--arma-despreparada` faz o script recusar; pela regra da casa ela **se prepara sozinha** nesse turno (o personagem age livremente) e só o 2º turno da haste exige Preparar. Ver **A arma precisa estar preparada**, abaixo |
 | 1 | **NH efetivo** | NH da perícia + bônus da manobra + redutor do local + condições adversas + ferimento da rodada anterior |
 | 2 | **Jogada de ataque** | 3d. Recusa a jogada se o NH efetivo cair a 3 ou menos |
 | 3 | **Golpe fulminante** | 3-4 sempre; 5 com NH 15+; 6 com NH 16+. **Sem jogada de defesa** e sorteio na Tabela de Golpes Fulminantes — ou na **Tabela na Cabeça**, se o alvo era cabeça, cérebro ou olhos. O efeito sorteado sai no bloco da mesa: ver **Explicar o crítico** |
 | 4 | **Erro crítico** | 18 sempre; 17 com NH abaixo de 16; margem de 10 ou mais. Sorteia na Tabela de Erros Críticos e o golpe acaba ali — com o efeito dito por extenso |
 | 5 | **Defesa** | Defesa ativa escolhida + Reflexos em Combate + DP da peça daquele local + DP do escudo + recuar (+3). 3 ou 4 sempre defende; 17 ou 18 é falha desastrosa |
-| 6 | **Dano** | Rola o dano, tira a RD **daquela região**, aplica o bônus do tipo de dano |
+| 6 | **Dano** | Rola o dano, **conta a projeção antes da RD** (MB, p. 106), tira a RD **daquela região**, aplica o bônus do tipo de dano |
 | 7 | **Local** | Multiplicadores e tetos: vitais, cérebro, membros, **pescoço** (regra da casa, abaixo) |
-| 8 | **Consequências** | Redutor por ferimento, teste de queda, atordoamento, nocaute |
+| 8 | **Consequências** | Redutor por ferimento, teste de queda, atordoamento, nocaute, **teste de DX de quem foi projetado** |
+| 9 | **A arma depois do golpe** | Machado, maça, mangual, picareta e haste ficam **despreparados** por terem sido usados (acertando, errando ou defendidos); a última linha do bloco diz isso, e ela **vai para o `status`** |
 
 ## Traduzir a declaração
 
@@ -70,11 +76,84 @@ A 3ª edição não tem pescoço na Tabela de Partes do Corpo. **O Mestre adotou
 - **contusão pela frente acima de HT/2** (nas fichas desta campanha os PV são a HT): lesão
   incapacitante, **traqueia esmagada, o alvo sufoca**. Vindo do lado ou de trás, passe
   `--nao-frontal`;
-- **corte acima de 3×HT num golpe só**: o Mestre **pode** declarar decapitação (morte
-  automática). O script avisa; quem decide é o Mestre.
+- **corte de 3×HT ou mais num golpe só** (HT 11: 33+): **decapitação automática, morte na
+  hora, sem teste de HT** (errata do Mestre, turno 27). O script imprime `DECAPITADO` e
+  **você não rola teste de morte nenhum**: declara a morte e põe `posture: 3`.
 
 A armadura do pescoço é a peça da ficha com *pescoço*, *gorjal*, *camal* ou *gola* no nome;
 sem ela, RD 0 — ou passe `--alvo-rd`/`--alvo-dp` na mão.
+
+## A arma precisa estar preparada (MB, p. 104)
+
+**A regra que a mesa mais esqueceu.** O livro é curto e sem exceção: *"Você não pode atacar
+se sua arma não estiver preparada. Uma espada ou faca está sempre preparada. Uma arma
+desbalanceada, como um machado, fica despreparada quando você a usa, por isso ela só pode
+ser usada em turnos alternados."* E aparar cobra o mesmo: *"Você não pode aparar com um
+machado na mesma rodada em que atacou com ele; é necessário reprepará-lo antes."*
+
+**Regra da casa (decisão do Mestre, `CLAUDE.md`, junto com a do pescoço):** a arma
+desbalanceada **entra em combate preparada** (salvo surpresa) e, despreparada por ataque ou
+aparar, **se prepara sozinha no turno seguinte, sem manobra** — nesse turno ele não ataca nem
+apara com ela, mas desloca-se ou age como quiser. Só os turnos **além do primeiro** (haste em
+balanço: 2) exigem Preparar. Vale **só** para arma desbalanceada.
+
+| Arma (pela perícia e pelo nome do item) | Depois de **atacar** | Depois de **aparar** |
+|---|---|---|
+| espada, faca, bastão, lança, porrete, montante | continua preparada | continua preparada |
+| **Machado/Maça** (machado, machadinha, maça, picareta, **cutelo**), **de uma ou duas mãos** (martelo de combate, malho, foice de guerra) | **despreparada**, 1 turno (**automático**) | **despreparada**, 1 turno (automático) |
+| **Mangual** (mangual, morningstar) | despreparada, 1 turno (automático) | despreparada, 1 turno (automático) |
+| **Arma de haste** (alabarda, acha d'armas, falcione) | despreparada: **2 turnos** após balanço (1º automático, 2º Preparar), 1 após golpe de ponta (automático) | continua preparada (apara-se com o fuste) |
+| **Cimitarra de uma mão** | despreparada, 1 turno (automático) | continua preparada |
+
+**Preparação Rápida por ST** (MB, p. 104): ST **5 acima da mínima** da arma = **um turno a
+menos** de preparo; **10 acima** = ataca todo turno com qualquer arma de mão. É o que separa
+os dois machados desta mesa: **Gorbag** (ST 20, cutelo de duas mãos, ST mín 13) golpeia
+**todo turno**; **Urzog** (ST 13, machado, ST mín 12) golpeia **em turnos alternados** — e
+quem aparar com o machado dele também o deixa despreparado.
+
+O script faz a conta sozinho a partir da perícia, do item da ficha e da ST de quem ataca:
+
+- **A última linha do bloco diz o estado da arma** — `*Arma despreparada: Machado* — prepara
+  sozinha no próximo turno (sem manobra; não ataca nem apara nele)` ou `_Preparação Rápida (ST 20 ≥ mín 13+5),
+  segue pronto_`. Ela sai **sempre**, tenha o golpe acertado, errado ou sido defendido:
+  a arma fica despreparada por ter sido **usada**. **Copie essa linha para o `status`** do
+  `process_turn` (`processar-turno`, seção 6) — é assim que o turno seguinte sabe.
+- **Aparar com arma desbalanceada**: quando `--alvo-defesa aparar`, o script lê a arma do
+  alvo da ficha (ou de `--alvo-apara-com "Machado"`, com `--alvo-st` para NPC) e avisa que
+  ela ficou despreparada — o alvo **não ataca nem apara no turno seguinte**, em que a arma
+  se prepara sozinha.
+- **Erro crítico 8 ou 12** ("a arma gira na mão") soma **um turno a mais** ao preparo.
+
+| Opção | Para quê |
+|---|---|
+| `--arma-despreparada` | O status diz que a arma está despreparada: o script **recusa o ataque** e diz que a arma se prepara sozinha neste turno. Use **antes** de rolar qualquer golpe de quem atacou ou aparou com arma desbalanceada no turno anterior |
+| `--st N` | ST de NPC sem ficha, para a Preparação Rápida |
+| `--arma-st-min N` | ST mínima da arma, por cima do catálogo |
+| `--arma-desbalanceada` / `--balanceada` | Forçar o veredito quando o catálogo não conhece a arma (ou a pegou por engano) |
+| `--alvo-arma-despreparada` | A arma do alvo está despreparada: ele **não pode aparar** (MB, p. 99) — o script cai na Esquiva |
+| `--alvo-apara-com`, `--alvo-st` | Com que arma o NPC apara, e a ST dele |
+
+Quem fecha o turno (`processar-turno`) lê o `status` antes de rolar: **"despreparad" no
+status = não ataca nem apara neste turno** (a arma se prepara sozinha; só a palavra
+**manobra** no status faz o turno ser de Preparar), mesmo numa ação repetida que diga "ataque
+até morrerem".
+
+## Projeção (MB, p. 106)
+
+*"Seu oponente será deslocado um hexágono para cada 8 pontos completos de dano provocados
+por uma bala, ou golpe com uma arma cortante ou contundente. Calcule este impulso antes de
+descontar a RD."* Perfuração (estocada, flecha) **não** projeta; a armadura segura a lesão,
+**não o empurrão**. Quem é projetado **testa DX para não cair**; se bater em algo grande,
+para ali.
+
+- A conta é da folha `causar-dano` (linha `Projeção: 17 antes da RD → *2 hex para trás*`),
+  o teste de DX é da `arbitrar-ferimento` (`--alvo-dx` para NPC; PJ lê a ficha), e **para
+  onde a peça vai** é da `calcular-alcance --projetar N --de atacante --para alvo
+  --tokens ...`, que anda no rumo do golpe e para antes de peça no caminho.
+- Quem já caiu pelo golpe (teste de HT) não testa DX de novo: vai para trás caído.
+- O deslocamento **entra no `process_turn`** (`x`, `y` do alvo; `posture: 2` se caiu) — ver
+  `processar-turno`, seção 3a. Projeção que não cabe na cena (alvo preso, encostado na
+  parede) é arbitragem do Mestre: `causar_dano.py --sem-projecao` registra a decisão.
 
 ## O atacante
 
@@ -113,6 +192,7 @@ NPC sem peça listada, `--alvo-escudo-dp`.
 | Opção | |
 |---|---|
 | `--alvo-ht` | **Passe sempre.** Sem HT não há teste de queda, nocaute nem teto de local |
+| `--alvo-dx` | DX do NPC: sem ela não há teste de queda de quem foi **projetado** |
 | `--alvo-esquiva` / `--alvo-aparar` / `--alvo-bloqueio` | A defesa ativa |
 | `--alvo-dp` / `--alvo-rd` | Defesa passiva e RD naquele local |
 | `--alvo-defesa` | Qual das três ele usa, ou `nenhuma` |
@@ -133,7 +213,7 @@ NPC sem peça listada, `--alvo-escudo-dp`.
 | `ataque-total-duplo` | Dois ataques — **rode o comando duas vezes**. Só com duas armas preparadas |
 | `ataque-total-finta` | A finta é Disputa Rápida: resolva na skill **`fintar`** (`--manobra ataque-total`) e traga o redutor como `--alvo-defesa-mod` negativo |
 | `aguardar` | Ataque normal quando o inimigo entra no alcance |
-| `movimento-e-ataque` | Golpe de molinete de quem gastou a rodada andando |
+| `molinete` (= `movimento-e-ataque`) | **Golpe Molinete** (MB, p. 105): o único golpe de quem gastou a rodada em **Deslocamento**, e só quando o jogador **declarou "molinete"**. O pior entre **−5** e **NH máximo 9**; o ponto de impacto é **sorteado** (o `--local` pedido cai, sem redutor); só arma de mão. Quem andou mais de 1 hexágono (Avançar e Atacar) ou mais que o teto do Ataque Total **sem declarar molinete não ataca**: a `validar-movimento` imprime `ATAQUE: NÃO ACONTECE`, e o `atacar` não é chamado |
 | `precipitado` | -4, ataque com a mão inábil |
 
 **O Ataque Total é a decisão mais cara da mesa** e a que mais se esquece: quem escolhe não
@@ -154,7 +234,7 @@ lembre-se dele quando o inimigo revidar — `--alvo-manobra ataque-total`.
 | `mao` / `pe` | -4 | Teto **HT/3** |
 | `braco-escudo` | -4 | Como o braço |
 | `mao-escudo` | -8 | Como a mão |
-| `aleatorio` | — | Sorteia 3d na Tabela de Partes do Corpo |
+| `aleatorio` | **0** | Sorteia 3d na Tabela de Partes do Corpo. **Local sorteado não leva o redutor da tabela** (ele é de quem *escolhe* o local, MB p. 203): o golpe foi ao corpo e o dado disse onde bateu |
 
 **Perfurante em membro não ganha bônus de dano** — flecha no pé é incômodo, flecha na
 cabeça mata. O script aplica sozinho.
@@ -255,7 +335,8 @@ de cada jogada*.
 
 O que **é** desta skill dizer, fora do bloco: quem ficou atordoado, quem perdeu a defesa
 ativa até o próximo turno, quem precisa testar HT no começo do turno, que membro ficou
-inutilizado, quanto de dano ainda dá para aguentar.
+inutilizado, quanto de dano ainda dá para aguentar, **que arma ficou despreparada** e
+**quem foi projetado e para onde**.
 
 ## Mostrar e gravar
 

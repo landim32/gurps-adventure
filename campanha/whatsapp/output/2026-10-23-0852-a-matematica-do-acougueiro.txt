@@ -1,0 +1,11 @@
+*A MATEMÁTICA DO AÇOUGUEIRO*
+
+Gorbag para no meio do corredor e franze a testa enorme. Estende o cutelo à frente, depois o braço, depois o outro braço, e começa a contar em voz baixa, movendo os lábios como quem pesa uma peça de carne.
+
+— Gorbag mede com cutelos — resmunga. — Um cutelo, dois cutelos, um cutelo e meio... e um osso de palito.
+
+Ele pensa mais um pouco, ergue o queixo e anuncia, orgulhoso:
+
+— O corredor tem... *sete cutelos e uma costela de porco*. Mais ou menos. Se for porco magro.
+> Matemática Gorbag (sem treino): NH 3 (pré-definido)
+> NH efetivo 3 ou menos: o livro não permite a jogada. *Falha: dá uma resposta sem pé nem cabeça.*

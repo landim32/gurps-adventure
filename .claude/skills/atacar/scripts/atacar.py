@@ -58,6 +58,11 @@ for _fluxo in (sys.stdout, sys.stderr):
 # golpe e despejada no bloco do WhatsApp por _fecha().
 MEC = []
 
+# O que a arma de quem atacou ficou depois de usada (MB, p. 104): a linha do terminal e a
+# da mesa. Sai no fim do bloco, haja o golpe acertado, errado ou sido defendido — a arma
+# desbalanceada fica despreparada por ter sido USADA, nao por ter acertado.
+ARMA = {"terminal": None, "mesa": None}
+
 
 def dados_txt(dados):
     return "[" + ", ".join(map(str, dados)) + "]"
@@ -151,11 +156,11 @@ def efeitos_pescoco(chave, tipo, ferimento, ht, alvo, frontal=True):
                     f"Lesão incapacitante: {alvo} está SUFOCANDO (regra da casa, 4ª ed.).",
                     f"*TRAQUEIA ESMAGADA* (contusão pela frente > HT/2 = {meia}) — "
                     f"{alvo} está *sufocando*"))
-    if tipo == "corte" and ferimento > 3 * ht:
-        out.append((f"  ⇒ DECAPITAÇÃO POSSÍVEL: corte acima de 3×HT ({3 * ht}) num golpe só. "
-                    f"O Mestre pode declarar {alvo} decapitado: morte automática.",
-                    f"*Corte acima de 3×HT ({3 * ht})* — o Mestre pode declarar "
-                    f"*DECAPITAÇÃO*"))
+    if tipo == "corte" and ferimento >= 3 * ht:
+        out.append((f"  ⇒ DECAPITADO: corte de {ferimento}, 3×HT ({3 * ht}) ou mais num golpe só "
+                    f"(errata do Mestre). {alvo} MORRE na hora, sem teste de HT.",
+                    f"*Corte de {ferimento} ≥ 3×HT ({3 * ht}) num golpe só: DECAPITADO* — "
+                    f"{alvo} *morre na hora*, sem teste de HT"))
     return out
 
 
@@ -218,6 +223,50 @@ def tipo_dano_chave(txt):
     return "cont"
 
 
+def atributo(ficha, nome):
+    return int((((ficha or {}).get("atributos") or {}).get(nome) or {}).get("valor") or 0)
+
+
+def estado_da_arma(desb, st, arma, extra=0, quem="", uso="atacar"):
+    """(linha do terminal, linha da mesa) sobre a arma depois de usada — MB, p. 104.
+
+    Arma desbalanceada fica despreparada ao atacar ou aparar e se prepara SOZINHA no turno
+    seguinte (regra da casa: sem manobra; só os turnos além do primeiro exigem Preparar); a Preparação Rápida por ST
+    (5 acima da mínima = 1 turno a menos) é o que deixa um ogro de ST 20 golpear todo turno
+    com o machado de duas mãos e obriga um orc de ST 13 a preparar o dele a cada golpe."""
+    if not desb:
+        return None, None
+    turnos = T.turnos_para_preparar(desb, st, extra)
+    nome = arma or desb.get("nome") or "a arma"
+    dono = f" de {quem}" if quem else ""
+    if turnos == 0:
+        return (f"  {nome}{dono}: ST {st} ≥ ST mín {desb['st_min']}+5 — Preparação Rápida "
+                f"(MB, p. 104): continua PREPARADA depois de {uso}.",
+                f"_{nome}{dono}: Preparação Rápida (ST {st} ≥ mín {desb['st_min']}+5), "
+                f"segue pronto para o próximo golpe_")
+    aviso_st = "" if st else " ST não informada: sem Preparação Rápida (passe --st)."
+    manual = max(turnos - 1, 0)
+    resto = (f" Depois dele, mais {manual} turno(s) de Preparar (manobra)." if manual else "")
+    return (f"  ⇒ ARMA DESPREPARADA: {nome}{dono} (desbalanceada, MB, p. 104; regra da casa) — "
+            f"no turno seguinte ela se prepara SOZINHA, sem manobra: nele não ataca nem apara com "
+            f"a arma, mas age livremente (desloca-se etc.).{resto}{aviso_st}",
+            f"*Arma despreparada: {nome}{dono}* — prepara sozinha no próximo turno (sem manobra; "
+            f"não ataca nem apara nele)"
+            + (f"; depois mais {manual} turno(s) de Preparar" if manual else "")
+            + (" (+1 pelo erro crítico)" if extra else "")
+            + (f" (ao {uso})" if uso != "atacar" else ""))
+
+
+def arma_desbalanceada_da_ficha(ficha):
+    """A primeira arma desbalanceada que a ficha lista — para saber com que ele apara."""
+    for o in (ficha or {}).get("armas_objetos") or []:
+        if (o.get("categoria") or "").lower() not in ("armas", "arma"):
+            continue
+        if T.arma_desbalanceada(o.get("item", ""), ""):
+            return o.get("item")
+    return None
+
+
 def entregar(ato):
     """Passa o ato à `registrar-acao` — esta skill não escreve em lugar nenhum.
 
@@ -247,7 +296,8 @@ def main():
     ap.add_argument("--dano", default="", help="Dano na mão: 2D+2")
     ap.add_argument("--tipo", default="", help="corte, perf ou cont")
     ap.add_argument("--modo", default="balanco", choices=["balanco", "estocada", "gdp"])
-    ap.add_argument("--manobra", default="ataque", choices=sorted(T.MANOBRAS))
+    ap.add_argument("--manobra", default="ataque", choices=sorted(T.MANOBRAS) + ["molinete"],
+                    help="«molinete» é o golpe de quem gastou a rodada em Deslocamento (MB, p. 105)")
     ap.add_argument("--local", default="tronco", help="Ponto de impacto, ou «aleatorio»")
     ap.add_argument("--de-cima", action="store_true", help="Ataque vindo de cima (-3 no sorteio)")
     ap.add_argument("--nao-frontal", action="store_true",
@@ -259,9 +309,31 @@ def main():
                     help="Condição adversa; pode repetir")
     ap.add_argument("--ferimento", type=int, default=0,
                     help="Pontos de vida perdidos na rodada anterior (redutor no ataque)")
+    # a arma esta preparada? (MB, p. 104)
+    ap.add_argument("--st", type=int, default=0,
+                    help="ST de quem ataca (NPC sem ficha), para a Preparação Rápida")
+    ap.add_argument("--arma-despreparada", action="store_true",
+                    help="A arma está DESPREPARADA: o script recusa o ataque; ela se prepara "
+                         "sozinha neste turno (regra da casa, MB p. 104)")
+    ap.add_argument("--arma-desbalanceada", action="store_true",
+                    help="Força: a arma fica despreparada depois de usada (não está no catálogo)")
+    ap.add_argument("--balanceada", action="store_true",
+                    help="Força: a arma NÃO fica despreparada (o catálogo a pegou por engano)")
+    ap.add_argument("--arma-st-min", type=int, default=0,
+                    help="ST mínima da arma, por cima do catálogo")
     # alvo
     ap.add_argument("--alvo", required=True)
     ap.add_argument("--alvo-ht", type=int, default=0)
+    ap.add_argument("--alvo-dx", type=int, default=0,
+                    help="DX do alvo (NPC sem ficha): teste de queda se for PROJETADO")
+    ap.add_argument("--alvo-st", type=int, default=0,
+                    help="ST do alvo (NPC sem ficha): Preparação Rápida da arma com que apara")
+    ap.add_argument("--alvo-apara-com", default="",
+                    help="Arma com que o alvo apara («Machado»): se desbalanceada, fica "
+                         "despreparada (MB, p. 104). PJ: lida da ficha")
+    ap.add_argument("--alvo-arma-despreparada", action="store_true",
+                    help="A arma do alvo está despreparada: ele NÃO pode aparar (MB, p. 99); "
+                         "cai na esquiva")
     ap.add_argument("--alvo-defesa", default="esquiva",
                     choices=["esquiva", "aparar", "bloqueio", "nenhuma"])
     ap.add_argument("--alvo-defesa-valor", type=int, default=0, help="Sobrepõe a ficha")
@@ -294,7 +366,13 @@ def main():
     # ---------------------------------------------------------- quem ataca
     fa = tn.ler_ficha(args.atacante, raiz)
     atacante = (fa or {}).get("nome", args.atacante)
+    if args.manobra == "molinete":
+        args.manobra = "movimento-e-ataque"
     manobra = T.MANOBRAS[args.manobra]
+    if manobra.get("local_sorteado") and tn.slug(args.local) not in ("aleatorio", "aleatoria", "random"):
+        # Molinete não visa parte do corpo (MB, p. 105): o local pedido cai e o dado escolhe
+        avisos.append(f"Golpe Molinete não escolhe o ponto de impacto: «{args.local}» caiu, sorteei.")
+        args.local = "aleatorio"
 
     nh_base, rotulo = args.nh, args.pericia or "ataque"
     if not nh_base:
@@ -319,13 +397,39 @@ def main():
         dano_txt, tipo_bruto = escolhe_dano(arma, args.modo, fa)
         tipo = tipo_dano_chave(args.tipo or tipo_bruto)
 
+    # ---------------------------------------------------------- a arma está preparada?
+    # MB, p. 104: machado, maça, mangual, picareta, haste... ficam despreparados depois de
+    # atacar (e de aparar); espada e faca não. Quem ataca com arma despreparada não ataca.
+    st_atacante = args.st or atributo(fa, "ST")
+    desb = None
+    if not args.balanceada:
+        desb = T.arma_desbalanceada(arma_nome or args.arma, args.pericia or rotulo, args.modo)
+        if desb is None and args.arma_desbalanceada:
+            desb = {"familia": "informada", "nome": arma_nome or "arma", "turnos": 1,
+                    "aparar": True, "st_min": args.arma_st_min}
+        if desb and args.arma_st_min:
+            desb["st_min"] = args.arma_st_min
+    if args.arma_despreparada:
+        falta = T.turnos_para_preparar(desb, st_atacante) if desb else 1
+        print("=" * 70)
+        print(f"{atacante} NÃO PODE ATACAR: {arma_nome or 'a arma'} está DESPREPARADA "
+              f"(MB, p. 104 — «você não pode atacar se sua arma não estiver preparada»).")
+        print("Regra da casa: a arma se prepara SOZINHA neste turno (sem manobra); ele pode se "
+              "deslocar ou fazer outra ação, mas não ataca nem apara com ela agora."
+              + (f" Ainda faltam {falta - 1} turno(s) de Preparar (manobra) depois." if falta > 1 else "")
+              + " Nada foi rolado.")
+        print("=" * 70)
+        return
+    ARMA["terminal"], ARMA["mesa"] = estado_da_arma(desb, st_atacante, arma_nome)
+
     # ---------------------------------------------------------- ponto de impacto
-    if tn.slug(args.local) in ("aleatorio", "aleatoria", "random"):
+    sorteado = tn.slug(args.local) in ("aleatorio", "aleatoria", "random")
+    if sorteado:
         chave, dados_loc, tot = local_aleatorio(args.de_cima)
         local = T.LOCAIS[chave]
         aviso_local = (f"Ponto de impacto sorteado: 3d [{', '.join(map(str, dados_loc))}]"
                        + (" -3 (de cima)" if args.de_cima else "") + f" = {tot} → "
-                       + local["nome"])
+                       + local["nome"] + " (sorteado: sem o redutor de ponto de impacto)")
         avisos.append(aviso_local)
     else:
         chave, local, aviso_local = local_pedido(args.local)
@@ -334,7 +438,9 @@ def main():
 
     # ---------------------------------------------------------- NH do ataque
     partes, mod = [], 0
-    if local["redutor"]:
+    # O redutor da Tabela de Partes do Corpo é de quem ESCOLHE o local (MB, p. 203). Local
+    # sorteado não leva redutor nenhum: o golpe foi ao corpo, e o dado disse onde bateu.
+    if local["redutor"] and not sorteado:
         mod += local["redutor"]
         partes.append(f"{local['redutor']:+d} {local['nome']}")
     if manobra["nh"]:
@@ -351,6 +457,11 @@ def main():
         mod += args.mod
         partes.append(com_motivo(args.mod, args.mod_motivo))
     nh_ef = nh_base + mod
+    if manobra.get("nh_maximo") and nh_ef > manobra["nh_maximo"]:
+        # o pior das duas condições do Molinete: -5 já entrou; o teto de 9 corta o resto
+        partes.append(f"NH máximo {manobra['nh_maximo']} no Molinete (pior entre -5 e 9)")
+        mod -= nh_ef - manobra["nh_maximo"]
+        nh_ef = manobra["nh_maximo"]
     MEC.append(f"_{manobra['nome']}_ · " + (f"{arma_nome}, " if arma_nome else "") + f"{dano_txt} "
                f"{T.TIPOS_DANO[tipo]['nome'].lower()}")
     if tn.slug(args.local) in ("aleatorio", "aleatoria", "random"):
@@ -391,6 +502,9 @@ def main():
     if res_ataque == "falha crítica":
         de = _roll.d6(3)
         te = sum(de)
+        if desb and te in (8, 12):
+            # «a arma gira na mão: um turno extra para prepará-la» soma ao preparo normal
+            ARMA["terminal"], ARMA["mesa"] = estado_da_arma(desb, st_atacante, arma_nome, extra=1)
         p(f"\nERRO CRÍTICO — Tabela de Erros Críticos, 3d [{', '.join(map(str, de))}] = {te}")
         p(f"  {T.ERRO_CRITICO[te]}")
         MEC.append(f"*ERRO CRÍTICO!* Tabela de Erros Críticos: 3d {dados_txt(de)} = *{te}*")
@@ -443,12 +557,18 @@ def main():
     alvo = (fd or {}).get("nome", args.alvo)
     ht_alvo = args.alvo_ht or int(((fd or {}).get("atributos") or {})
                                   .get("HT", {}).get("valor") or 0)
+    defesa_alvo = args.alvo_defesa
+    if defesa_alvo == "aparar" and args.alvo_arma_despreparada:
+        # MB, p. 99: «não é possível aparar se sua arma não estiver preparada»
+        p(f"\n{alvo} NÃO PODE APARAR: a arma dele está despreparada (MB, p. 99). Fica a Esquiva.")
+        MEC.append(f"{alvo} não apara (arma despreparada, MB p. 99): esquiva")
+        defesa_alvo = "esquiva"
     na_mao = args.alvo_defesa_valor or {
         "esquiva": args.alvo_esquiva, "aparar": args.alvo_aparar,
-        "bloqueio": args.alvo_bloqueio}.get(args.alvo_defesa, 0)
+        "bloqueio": args.alvo_bloqueio}.get(defesa_alvo, 0)
     dfe = dv.calcular({
         "alvo": alvo, "ficha": fd, "local": local, "tipo": tipo, "ht_alvo": ht_alvo,
-        "defesa": args.alvo_defesa, "defesa_valor": na_mao,
+        "defesa": defesa_alvo, "defesa_valor": na_mao,
         "md": T.MANOBRAS_DEFESA[args.alvo_manobra],
         "mod": args.alvo_defesa_mod, "mod_motivo": args.alvo_defesa_mod_motivo,
         "recuar": args.recuar, "sem_escudo": args.sem_escudo,
@@ -466,6 +586,16 @@ def main():
     rdef = dfe["resultado"]
     rd_local, rd_total, peca = rdef["rd_local"], rdef["rd_total"], rdef["peca"]
     dp_escudo, nome_escudo = rdef["dp_escudo"], rdef["nome_escudo"]
+    # Aparou com machado, maça ou mangual? A arma dele fica despreparada (MB, p. 104),
+    # tenha o aparar dado certo ou não — ele não ataca no próximo turno sem Preparar.
+    if defesa_alvo == "aparar" and rdef.get("total_defesa") is not None:
+        apara_com = args.alvo_apara_com or arma_desbalanceada_da_ficha(fd)
+        desb_alvo = T.arma_desbalanceada(apara_com, "") if apara_com else None
+        if desb_alvo and desb_alvo.get("aparar"):
+            st_alvo = args.alvo_st or atributo(fd, "ST")
+            term, mesa = estado_da_arma(desb_alvo, st_alvo, apara_com, quem=alvo, uso="aparar")
+            p(term)
+            MEC.append(mesa)
     if rdef["defendeu"]:
         p(f"\n{alvo} se defendeu. Sem dano.")
         _fecha(saida, avisos, args, raiz, atacante, alvo, local, "defendeu o golpe",
@@ -488,19 +618,24 @@ def main():
         p(linha)
     MEC.extend(dano["mec"])
     ferimento, perdido = dano["resultado"]["ferimento"], dano["resultado"]["perdido"]
-    if dano["resultado"]["armadura_segurou"]:
+    segurou = dano["resultado"]["armadura_segurou"]
+    # A projeção (MB, p. 106) é contada antes da RD: a armadura pode ter segurado o dano e
+    # o alvo ainda assim voar para trás — e testar DX para não cair.
+    proj = int(dano["resultado"].get("projecao_hex") or 0)
+    if segurou and not proj:
         _fecha(saida, avisos, args, raiz, atacante, alvo, local,
                "não passou da armadura", 0, nh_ef=nh_ef, ataque=ta, arma=arma_nome,
                fulminante=fulminante)
         return
 
     # ---------------------------------------------------------- consequências
-    # Queda, atordoamento, nocaute e o crânio exposto: a mesma folha dos dois lados do
-    # alcance. Devolve também o estado tático pronto (caiu, atordoado, nocauteado), que é
-    # o que vai para o ato entregue à registrar-acao.
+    # Queda, atordoamento, nocaute, o crânio exposto e a queda de quem foi projetado: a
+    # mesma folha dos dois lados do alcance. Devolve também o estado tático pronto (caiu,
+    # atordoado, nocauteado, projetado), que é o que vai para o ato da registrar-acao.
     fer = af.calcular({
         "alvo": alvo, "ferimento": ferimento, "ht_alvo": ht_alvo, "chave": chave,
         "tipo": tipo, "efeito": efeito, "ficha": fd, "hipoalgia": args.alvo_hipoalgia,
+        "projecao_hex": proj, "dx_alvo": args.alvo_dx or atributo(fd, "DX"),
     })
     for linha in fer["saida"]:
         p(linha)
@@ -508,7 +643,8 @@ def main():
 
 
     _fecha(saida, avisos, args, raiz, atacante, alvo, local,
-           f"acertou {local['nome'].lower()}", ferimento, fulminante=fulminante,
+           "não passou da armadura" if segurou else f"acertou {local['nome'].lower()}",
+           ferimento, fulminante=fulminante,
            critico_tipo="fulminante" if fulminante else "",
            critico_total=critico_total, critico_txt=critico_txt,
            dano_txt=dano_txt, arma=arma_nome, nh_ef=nh_ef, ataque=ta, tipo=tipo)
@@ -519,6 +655,8 @@ def _fecha(saida, avisos, args, raiz, atacante, alvo, local, desfecho, ferimento
            extra_w=None, critico_tipo="", critico_total=None, critico_txt=""):
     """Imprime tudo, monta o bloco do WhatsApp e registra na campanha."""
     print("\n".join(l for l in saida if l))
+    if ARMA["terminal"]:
+        print("\n" + ARMA["terminal"])
     for a in avisos:
         print(f"\nATENÇÃO: {a}")
 
@@ -535,6 +673,9 @@ def _fecha(saida, avisos, args, raiz, atacante, alvo, local, desfecho, ferimento
         w.append("*A armadura segurou o golpe.* Nenhum dano.")
     else:
         w.append(f"*{alvo} perde {ferimento} ponto(s) de vida.*")
+    # a ultima linha e o estado da arma: e o que vai para o status do proximo turno
+    if ARMA["mesa"]:
+        w.append(ARMA["mesa"])
 
     risco = "-" * 70
     print("\n" + risco)
@@ -551,6 +692,8 @@ def _fecha(saida, avisos, args, raiz, atacante, alvo, local, desfecho, ferimento
             txt += f" — {rotulo} ({critico_total}): {critico_txt.rstrip('.')}"
         if ferimento:
             txt += f", {ferimento} pontos de vida"
+        if ARMA["mesa"] and "despreparada" in ARMA["mesa"]:
+            txt += f"; {arma or 'a arma'} ficou despreparada"
         ok, msg = entregar({"resumo": txt + "."})
         print(("\nEntregue à registrar-acao:\n        " + msg) if ok
               else f"\nAVISO: não gravei — {msg}")

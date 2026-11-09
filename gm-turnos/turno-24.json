@@ -1,0 +1,9 @@
+{
+  "characters": [
+    {"characterId": 1, "posture": 2, "status": "Ajoelhado, alcançando a cimitarra caída (falta 1 turno para empunhá-la); duas picaretas no chão. Sem ferimentos."}
+  ],
+  "npcs": [
+    {"mapNpcId": 1, "status": "Encaixando nova flecha no arco (1 de 2 turnos); a próxima flecha só fica pronta no fim do turno seguinte."}
+  ],
+  "narration": "*TURNO 24 — ARENA*\n\nComam dobra os joelhos na areia e estica o braço para a cimitarra que o pulso traiu. Os dedos roçam o punho de couro, mas a lâmina ainda jaz fora de alcance seguro; mais um instante e ela estará de volta à mão dele. O sorriso, agora menor, não sai do rosto.\n\nAelthir recua meio passo e tira uma flecha da aljava. Os dedos finos correm a haste, murmuram um nome baixo, e a ponta é guiada com calma para a corda. O arco ainda não está pronto, mas está quase.\n\nO goblin segue imóvel sobre a areia, o peito subindo e descendo devagar, o gládio e o escudo largados ao lado. Ninguém mais se mexe.\n\nO que vocês fazem?"
+}

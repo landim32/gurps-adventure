@@ -1,0 +1,15 @@
+*TURNO 47 — O CADEADO*
+
+Gorbag ergue o cutelo colossal com as duas mãos e o abate de cima sobre o cadeado da cela. O ferro grita, o cadeado salta em dois pedaços pelo chão, e a lâmina, de aço ruim, estala ao meio na mão do ogro. Ele fica olhando o cabo, o resto da lâmina tilintando no piso.
+> Ataque ao cadeado: Machado de Duas Mãos/Maça NH 18, objeto parado, sem redutor = *18*
+> 3d [2, 3, 3] = *8* → sucesso por 10
+> Dano: 3D+5: [4, 5, 3] = 12 + 5 = *17*
+> RD 4 (cadeado de ferro) → 13 passam; sem bônus de corte em objeto
+> Cadeado (12 pontos de vida): *QUEBRADO*
+> Arma barata, teste de quebra (1d, 1 a 4 quebra): 1d [2] = *2* → *QUEBROU*
+
+A porta da cela se solta das grades. Tann'athar levanta a cabeça, a voz rouca e baixa: "Eu mostro o caminho, até onde eu sei. E vocês ganham um mago a mais, com habilidade de tirar informação de quem não quer falar."
+
+Krag avisa, olhando para a escuridão: "Temos que tomar cuidado. Os soldados e os convidados devem estar voltando logo." Sae'Varyn encara o meio-elfo e pergunta, seco: "A fonte da magia de trevas é esta fonte? Como podemos anulá-la?" Urzog espera de braços cruzados e rosna: "E agora, chefe?"
+
+O que vocês fazem?

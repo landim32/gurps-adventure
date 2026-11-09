@@ -1,0 +1,16 @@
+*TURNO 80 — A ESPADA DE PEDRA ROXA*
+
+Krag olha para o ogro e para a caixa de ferro. "Você consegue abrir na força? Talvez use a espada?" Gorbag nem se mexe. "Gorbag não mexe com espada", rosna, e aponta o queixo para o orc. "Urzog, você pode."
+
+Tann'athar se vira para Sae'Varyn. "E aquelas chaves da sala das jaulas? A chance é pequena, mas será que alguma abre uma dessas caixas?" Sae'Varyn já está de joelhos diante da caixa de metal, com o molho na mão. Prova uma chave, depois outra, depois todas. Nenhuma encaixa.
+
+Urzog dá um passo à frente. "Deixa eu pegar a espada? Eu tô sem arma." Não espera resposta. Mete a mão no baú e levanta o montante de pedra roxa. Assim que a lâmina sai do forro, a pedra pulsa e a luz roxa sobe pelo cabo, pelo braço, pela nuca. Os olhos dele reviram. Uma voz que não é a dele, fina e arrastada, mastiga as palavras com nojo:
+
+— Ahh, que nojo... logo um orc nojento. Agora vamos sair daqui, seus idiotas!
+
+Farejo recua com o pelo eriçado e rosna. O golem de pedra continua parado ao lado da porta.
+> Possessão Permanente (Mor'Dhaun): NH 21, -5 mana baixa (Torre) = *16*
+> 3d [6, 2, 2] = *10* → sucesso por 6
+> Resistência de Urzog: IQ 8 +4 Força de Vontade = *12*
+> 3d [2, 6, 2] = *10* → sucesso por 2
+> Disputa rápida: *Mor'Dhaun vence* (margem 6 contra 2). Urzog não se livra da possessão.

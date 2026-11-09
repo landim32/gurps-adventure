@@ -1,0 +1,27 @@
+*TURNO 14 — O PICADINHO E AS CHAVES*
+
+Nas escadas, Gorbag vira os bolsos de Perrin Holt como quem confere uma rês: o molho grosso de chaves no cinto (doze, cada uma com uma tirinha de couro riscada a faca), uma bolsa magra com uns doze dos tostões, dois dados de osso gastos e uma promissória dobrada, em nome de um certo Sam Ludd. Nada mais. O molho muda de mãos, e o resto vai para o avental de florzinhas.
+
+Pumba'h quer saber se a cozinha tem muito garçom para roubar uniforme. Gorbag, que já viu aquilo por dentro, não precisa pensar: "Sete. Gorbag contou. Aventais e túnica parda, ninguém de libré. Roubou roupa, o dono dá fé na hora." Urzog resmunga a pergunta dele de novo, sem resposta que preste: qual o plano, chefe?
+
+Gorbag põe o corpo num saco de aniagem e o leva nas costas pelo corredor e pela cozinha. Ninguém ergue os olhos: carniceiro com saco pesado é a coisa mais natural da noite. No açougue, entre as meias reses nos ganchos, o cutelo faz o que sempre fez.
+> Picar o corpo: Profissão (Açougueiro) NH *12*
+> 3d [3, 5, 1] = *9* → sucesso por 3
+
+Em vinte minutos não há osso à vista, só uma bacia grande de carne moída. O sangue nas escadas, esse, ficou onde caiu.
+
+Sae'Varyn entra na cozinha de guarda, mas o uniforme é de outro homem e o rosto que sai dele é cinza-pálido, esguio, estrangeiro demais. Uma criada de braços cruzados o encara um instante a mais que o devido: o guarda não tem cara de gente de Ferrier. Não diz nada, só cochicha com a colega do lado e volta ao trabalho, sem desgrudar o olho dele.
+> Disfarce (pré-definido IQ-5): NH 10, -2 elfo negro de pele pálida num uniforme alheio, capacete cobrindo as orelhas = *8*
+> 3d [5, 5, 4] = *14* → falhou por 6
+> Criada da cozinha: IQ 10
+> 3d [4, 6, 5] = *15* → falhou por 5 (vence a disputa pela menor falha)
+
+Com ela de olho, ele fuça os cestos de roupa suja e só acha panos de cozinha, aventais e toucas, nada de túnica sobrando.
+> Observação (pré-definido IQ-5): NH *10*
+> 3d [5, 2, 4] = *11* → falha por 1
+
+Krag, com o molho no cinto, sai pelo pátio rente às sombras. Os lampiões estão a cada poucos passos e quase não há sombra. Passa por um fio: a patrulha dobra a esquina de costas, os mastins latem abafados no canil. Ele vê a cisterna aberta a oeste, a torre quadrada sem porta, a grade de ferro com cadeado no chão, que fede a bicho. A espada, nem sombra.
+> Furtividade: NH 15, -2 pátio iluminado por lampiões = *13*
+> 3d [5, 5, 3] = *13* → sucesso por 0
+
+O que vocês fazem?

@@ -1,0 +1,32 @@
+*TURNO 21 — A PORTA DA DESPENSA*
+
+O cozinheiro caído tenta erguer a cabeça das lajes, o pescoço aberto e o avental duro de sangue. Os olhos reviram, a mão escorrega da ferida e ele desaba de lado, sem um som.
+> HT Cozinheiro (recuperar do atordoamento): NH 10 = *10*
+> 3d [5, 4, 3] = *12* → falhou por 2
+> HT Cozinheiro (não desmaiar, PV 0 ou menos): NH 10 = *10*
+> 3d [4, 1, 6] = *11* → falhou por 1
+> *O cozinheiro desmaia.*
+
+Pumba'h, de focinho erguido no corredor do salão, não sai do lugar. O javali raspa o casco nas lajes e espera que alguém venha junto.
+
+Gorbag não tira os olhos da criada que se arrasta pelas lajes. O cutelo da casa desce de cima para baixo e abre o avental dela do ombro ao quadril. O sangue empoça debaixo do corpo. Ela solta o ar numa lufada só, sem gritar, os olhos vidrados no ogro.
+> Ataque Gorbag: Machado/Maça NH 18, tronco (o cutelo corta, não alcança vitais) = *18*
+> 3d [1, 1, 1] = *3* → *SUCESSO DECISIVO* (por 15)
+> Defesa: nenhuma (caída e aterrorizada)
+> *GOLPE FULMINANTE!* Tabela: 3d [3, 1, 4] = *8* → dano normal no tronco
+> Dano: 3D+3: [2, 1, 4] = 7 + 3 = *10*
+> RD 0 → 10 passam
+> Corte: ×1,5 → *15*
+> Perdeu mais de HT/2: teste de HT 11, 3d [6, 3, 1] = *10* → continua, *ATORDOADA* (-4 nas defesas)
+> *A criada perde 15 pontos de vida.*
+
+Krag segue pelo corredor sob os lampiões, rente à parede, a flecha encaixada e o arco baixo, rumo à sala do trono. Farejo fica na retaguarda, orelhas em pé.
+
+Urzog passa por cima da criada caída em três passadas largas e para ao lado da porta da despensa, o molho de chaves de Perrin pesado no punho (ele o agarrou no ar quando Krag o atirou). Do outro lado, soluços de gente encolhida. A chave certa está ali, a fechadura também, mas o que ferve no sangue dele é outra coisa. A mão não obedece: a porta continua aberta.
+> Vontade Urzog: IQ 8 +4 Força de Vontade = *12*
+> 3d [4, 5, 5] = *14* → falhou por 2
+> *Urzog não tranca a porta* (só se desloca neste turno)
+
+Sae'Varyn desce a passagem estreita, raspando o ombro na pedra, rumo à carroça. Pelas paredes, o sino do pátio continua.
+
+O que vocês fazem?

@@ -1,0 +1,27 @@
+*TURNO 68 — GRUMEL*
+
+Gorbag fica onde está e passa o olhar pelas paredes e pelas grades, pedra por pedra, atrás de uma porta, de um cofre, de qualquer coisa que valha a pena. Não há nada disso aqui: só as gaiolas, o poço aberto e, lá longe, no canto oposto, a boca de outra escada que sobe.
+
+Krag chega junto do ogro e fala baixo, sem tirar os olhos das jaulas: "Soltem os bichos. Uma confusão dessas no castelo nos compra tempo até a sala do cofre." Urzog, sem dizer palavra, vem se pôr atrás de Gorbag.
+
+Sae'Varyn contorna o poço pela borda, a maça no cinto, e grita para o fundo do andar: "Nunca vi um morto-vivo que fala! O que é você? Por acaso tem um mestre?" Tann'athar toma a vara de cutucar bicho, firma-a como bastão e caminha atrás dele, a voz mansa de quem passeia: "Ora, mas o que temos aqui? Que curioso... Como se chama, meu caro?"
+
+Do fundo, na gaiola pequena, o zumbi não levanta o rosto. Fala ao chão, a voz arrastada, sem cor, como quem responde por obrigação: "Grumel."
+
+Passa um tempo. Ao elfo, sobre o mestre, ele só diz: "Morto." E volta a olhar os próprios joelhos, como se ninguém tivesse perguntado nada.
+
+Mas a mulher alada, na gaiola ao lado deles, não ficou quieta. Desdobra as asas escuras só até a metade, encosta o rosto pálido nas grades e começa a cantarolar, baixo, uma melodia sem palavras que se enrola no ouvido. Os olhos dela passam de um em um, demorados, e os lábios se entreabrem.
+> Sex Appeal da mulher alada (disputa rápida contra a IQ de cada um): NH 13
+> Gorbag, IQ 9: 3d [4, 1, 6] = *11* → falhou por 2. Ela: 3d [6, 3, 6] = *15* → falhou por 2. *Empate, ninguém leva a melhor.*
+> Krag, IQ 11: 3d [6, 3, 4] = *13* → falhou por 2. Ela: 3d [4, 1, 3] = *8* → passou por 5. *Ela vence.*
+> Sae'Varyn, IQ 15: 3d [4, 3, 4] = *11* → passou por 4. Ela: 3d [6, 6, 2] = *14* → falhou por 1. *Ele vence.*
+> Tann'athar, IQ 16: 3d [5, 5, 5] = *15* → passou por 1. Ela: 3d [6, 3, 2] = *11* → passou por 2. *Ela vence.*
+> Urzog, IQ 8 +4 Força de Vontade = 12: 3d [4, 4, 1] = *9* → passou por 3. Ela: 3d [6, 6, 1] = *13* → passou por 0. *Ele vence.*
+
+Gorbag franze a testa e desvia o olhar, sem efeito. Sae'Varyn faz uma careta fria, e Urzog cospe no chão e dá as costas à gaiola.
+
+Krag e Tann'athar, não. O arqueiro baixa o arco desarmado e anda, passo a passo, os olhos presos nos dela, até parar a um braço das grades. O meio-elfo deixa morrer no meio a pergunta que fazia ao zumbi e vai pelo mesmo caminho, a vara frouxa na mão, até as grades.
+
+Farejo late uma vez, seco, para os dois, e não vai atrás.
+
+O que vocês fazem?

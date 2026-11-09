@@ -1,0 +1,9 @@
+{
+  "characters": [
+    {"characterId": 1, "posture": 2, "status": "Ajoelhado, cimitarra de volta na mão, em defesa total; ainda precisa de um turno para ficar de pé. Duas picaretas no chão. Sem ferimentos."}
+  ],
+  "npcs": [
+    {"mapNpcId": 1, "status": "Flecha encaixada e arco pronto para disparar neste turno."}
+  ],
+  "narration": "*TURNO 25 — ARENA*\n\nComam fecha os dedos no punho de couro e a cimitarra volta à mão. Ele a gira uma vez, testando o pulso, e mantém o corpo baixo, a lâmina e o olhar atentos ao arqueiro. Levantar de uma vez seria pedir uma flecha no peito; ele prefere ganhar o chão aos poucos, o sorriso miúdo ainda no rosto.\n\nAelthir termina o que começou. A flecha batizada assenta na corda, o arco se curva sem pressa e a ponta acompanha cada movimento do mercenário. Ele não solta; apenas espera, elegante, a respiração contida.\n\nO goblin continua estendido na areia, o peito subindo e descendo devagar, gládio e escudo ao lado. Ninguém mais se mexe.\n\nO que vocês fazem?"
+}

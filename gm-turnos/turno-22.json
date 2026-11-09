@@ -1,0 +1,10 @@
+{
+  "characters": [
+    {"characterId": 1, "look": 2, "x": 20, "y": 5, "status": "Cimitarra na mão; as duas picaretas ficaram no chão. Sem ferimentos."}
+  ],
+  "npcs": [
+    {"mapNpcId": 1, "status": "Arco armado, flecha encaixada e pronta; colado em Comam."},
+    {"mapNpcId": 2, "posture": 3, "status": "Inconsciente (falhou o teste de HT com PV -3); perna incapacitada, braço da arma ferido, pescoço aberto. Gládio e escudo ao lado."}
+  ],
+  "narration": "*TURNO 22 — ARENA*\n\nComam dá a volta pela areia e para junto do goblin caído, a cimitarra baixa, o sorriso intacto. Ao lado dele, Aelthir termina de encaixar a flecha e puxa a corda: o arco está pronto, e a arqueira o encara a um passo de distância.\n\nO goblin tenta se manter acordado, mas a teimosia que o sustentava acaba. Os olhos reviram, a respiração fica curta e a cabeça tomba na areia. Ele não se mexe mais.\n> Teste de HT para continuar consciente (PV ≤ 0): HT 11\n> 3d [6, 2, 4] = *12* → falhou por 1\n> *Goblin guerreiro desmaia.*\n\nO silêncio pesa na arena. O que vocês fazem?"
+}

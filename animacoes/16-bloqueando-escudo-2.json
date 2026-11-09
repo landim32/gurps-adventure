@@ -1,0 +1,565 @@
+{
+  "format": "roll6-animation",
+  "version": 1,
+  "name": "Bloqueando",
+  "type": "defend",
+  "description": "Pose única de combate defensiva: agachado de lado, se protegendo atrás do escudo erguido, machado recuado na mão direita.",
+  "duration": 1,
+  "loop": true,
+  "tracks": [
+    {
+      "bone": "LeftArm",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          83,
+          -28,
+          97.9
+        ]
+      ]
+    },
+    {
+      "bone": "LeftForeArm",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          32.4,
+          -55.5,
+          90.6
+        ]
+      ]
+    },
+    {
+      "bone": "RightArm",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          57.4,
+          52.2,
+          -67.6
+        ]
+      ]
+    },
+    {
+      "bone": "RightForeArm",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          -70,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "Spine",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          15,
+          -15,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "Spine1",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          5,
+          -10,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "Spine2",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          0,
+          -10,
+          0
+        ]
+      ]
+    },
+    {
+      "bone": "Neck",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          -12.8,
+          24.5,
+          7.4
+        ]
+      ]
+    },
+    {
+      "bone": "LeftUpLeg",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          -39.4,
+          -7.3,
+          18.7
+        ]
+      ]
+    },
+    {
+      "bone": "RightUpLeg",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          -24.3,
+          4.2,
+          -21.3
+        ]
+      ]
+    },
+    {
+      "bone": "LeftLeg",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          51.2,
+          -2.5,
+          -12.8
+        ]
+      ]
+    },
+    {
+      "bone": "RightLeg",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          36,
+          3.2,
+          16
+        ]
+      ]
+    },
+    {
+      "bone": "LeftHandThumb1",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          0,
+          38.3,
+          -17
+        ]
+      ]
+    },
+    {
+      "bone": "LeftHandThumb2",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          0,
+          17,
+          -25.5
+        ]
+      ]
+    },
+    {
+      "bone": "LeftHandThumb3",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          0,
+          0,
+          -34
+        ]
+      ]
+    },
+    {
+      "bone": "LeftHandIndex1",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          0,
+          0,
+          -59.5
+        ]
+      ]
+    },
+    {
+      "bone": "LeftHandIndex2",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          0,
+          0,
+          -76.5
+        ]
+      ]
+    },
+    {
+      "bone": "LeftHandIndex3",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          0,
+          0,
+          -51
+        ]
+      ]
+    },
+    {
+      "bone": "LeftHandMiddle1",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          0,
+          0,
+          -59.5
+        ]
+      ]
+    },
+    {
+      "bone": "LeftHandMiddle2",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          0,
+          0,
+          -76.5
+        ]
+      ]
+    },
+    {
+      "bone": "LeftHandMiddle3",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          0,
+          0,
+          -51
+        ]
+      ]
+    },
+    {
+      "bone": "LeftHandRing1",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          0,
+          0,
+          -59.5
+        ]
+      ]
+    },
+    {
+      "bone": "LeftHandRing2",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          0,
+          0,
+          -76.5
+        ]
+      ]
+    },
+    {
+      "bone": "LeftHandRing3",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          0,
+          0,
+          -51
+        ]
+      ]
+    },
+    {
+      "bone": "LeftHandPinky1",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          0,
+          0,
+          -59.5
+        ]
+      ]
+    },
+    {
+      "bone": "LeftHandPinky2",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          0,
+          0,
+          -76.5
+        ]
+      ]
+    },
+    {
+      "bone": "LeftHandPinky3",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          0,
+          0,
+          -51
+        ]
+      ]
+    },
+    {
+      "bone": "RightHandThumb1",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          0,
+          -38.2,
+          17
+        ]
+      ]
+    },
+    {
+      "bone": "RightHandThumb2",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          0,
+          -17,
+          25.5
+        ]
+      ]
+    },
+    {
+      "bone": "RightHandThumb3",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          0,
+          0,
+          34
+        ]
+      ]
+    },
+    {
+      "bone": "RightHandIndex1",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          0,
+          0,
+          59.5
+        ]
+      ]
+    },
+    {
+      "bone": "RightHandIndex2",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          0,
+          0,
+          76.5
+        ]
+      ]
+    },
+    {
+      "bone": "RightHandIndex3",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          0,
+          0,
+          51
+        ]
+      ]
+    },
+    {
+      "bone": "RightHandMiddle1",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          0,
+          0,
+          59.5
+        ]
+      ]
+    },
+    {
+      "bone": "RightHandMiddle2",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          0,
+          0,
+          76.5
+        ]
+      ]
+    },
+    {
+      "bone": "RightHandMiddle3",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          0,
+          0,
+          51
+        ]
+      ]
+    },
+    {
+      "bone": "RightHandRing1",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          0,
+          0,
+          59.5
+        ]
+      ]
+    },
+    {
+      "bone": "RightHandRing2",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          0,
+          0,
+          76.5
+        ]
+      ]
+    },
+    {
+      "bone": "RightHandRing3",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          0,
+          0,
+          51
+        ]
+      ]
+    },
+    {
+      "bone": "RightHandPinky1",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          0,
+          0,
+          59.5
+        ]
+      ]
+    },
+    {
+      "bone": "RightHandPinky2",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          0,
+          0,
+          76.5
+        ]
+      ]
+    },
+    {
+      "bone": "RightHandPinky3",
+      "times": [
+        0
+      ],
+      "degrees": [
+        [
+          0,
+          0,
+          51
+        ]
+      ]
+    }
+  ],
+  "hipsLift": {
+    "times": [
+      0
+    ],
+    "values": [
+      -0.07
+    ]
+  }
+}

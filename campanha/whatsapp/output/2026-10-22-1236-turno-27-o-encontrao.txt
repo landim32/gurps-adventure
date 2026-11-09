@@ -1,0 +1,67 @@
+*TURNO 27 — O ENCONTRÃO*
+
+Farejo contorna o cerco colado ao chão e para às costas do soldado de escudo, os dentes à mostra, sem ainda cravá-los. O homem nem percebe.
+
+Pumba'h arranca em linha reta contra o mesmo soldado, de cabeça baixa, as presas na frente, o peso todo do javali atrás do ombro. O guarda tenta se firmar, mas o choque o levanta do chão. Ele voa para trás e bate no cão, que aguenta o impacto, e cai de costas entre as lajes.
+> Encontrão Pumba'h (javali): DX 15 contra DX 12 do guarda (Disputa Rápida)
+> 3d [1, 4, 3] = *8* → passou por 7
+> 3d [5, 1, 2] = *8* → guarda passou por 4
+> ST 16 +2 (correu no turno passado e andou 1 hex) -2 (escudo médio do guarda) = *16* contra ST 12
+> 3d [2, 6, 3] = *11* → passou por 5
+> 3d [4, 2, 6] = *12* → guarda passou por 0
+> *Pumba'h vence por 5: o guarda cai e é projetado, mas Farejo o segura no caminho.*
+> Teste de ST do javali para não cair: ST 16, 3d [4, 5, 5] = *14* → continua de pé
+> Teste de DX do Farejo (DX+3 = 15), 3d [5, 2, 3] = *10* → continua de pé
+
+Gorbag desce o cutelo da casa no criado encolhido junto à parede. A lâmina atravessa o pescoço de lado a lado. A cabeça salta e rola pelas lajes, e o corpo é arremessado dois passos para trás, contra os sacos, e cai sem mais um som.
+> Ataque Gorbag: Machado 2 Mãos/Maça NH 18, -5 pescoço = *13*
+> 3d [3, 6, 3] = *12* → sucesso por 1
+> Defesa de Criado: esquiva 5 -4 atordoado = *1*
+> 3d [4, 3, 5] = *12* → falhou por 11
+> Dano: 3D+3: [6, 3, 5] = 14 + 3 = *17*
+> Projeção: 17 antes da RD → *2 hex para trás*
+> RD 0 → 17 passam
+> Corte no pescoço: ×2 → *34*
+> *Corte de 34 ≥ 3×HT (33) num golpe só: DECAPITADO* — o criado *morre na hora*, sem teste de HT
+> *O criado perde 34 pontos de vida e morre decapitado.*
+
+Krag mantém o arco no ponto, a corda no queixo, a flecha firme na Capitã, e não solta.
+
+Urzog baixa o machado no flanco da cozinheira caída. O golpe entra entre as costelas. Ela estremece, solta o ar e não levanta mais.
+> Ataque Urzog: Machado/Maça NH 14 = *14*
+> 3d [4, 3, 1] = *8* → sucesso por 6
+> Defesa de Cozinheira: esquiva 5 = *5*
+> 3d [3, 2, 3] = *8* → falhou por 3
+> Dano: 2D+1: [1, 2] = 3 + 1 = *4*
+> RD 0 → 4 passam
+> Corte: ×1,5 → *6*
+> Perdeu mais de HT/2: teste de HT 10 para não cair, 3d [6, 2, 2] = *10* → de pé; *ATORDOADA* (-4 nas defesas)
+> HT contra a morte em -20: NH 10 = *10*
+> 3d [4, 6, 2] = *12* → falhou por 2
+> *A cozinheira perde 6 pontos de vida e morre* (-25).
+> *Arma despreparada: Machado de Urzog* — 1 turno de Preparar antes do próximo golpe
+
+A Capitã, com o escudo erguido, avança o montante no braço do escudo do javali. O aço rasga o couro e arranca sangue. O javali grunhe e não recua.
+> Ataque Capitã: NH 16, -4 braço do escudo (sorteado: 3d [1, 3, 2] = 6) = *12*
+> 3d [2, 1, 2] = *5* → sucesso por 7
+> Defesa de Pumba'h: esquiva 6 +1 Reflexos em Combate +1 DP = *8*
+> 3d [2, 5, 6] = *13* → falhou por 5
+> Dano: 2D+3: [3, 1] = 4 + 3 = *7*
+> RD 3 → 4 passam
+> Corte: ×1,5 → *6*
+> *Pumba'h perde 6 pontos de vida.*
+
+O soldado do escudo que ainda está de pé desfere o montante no que o javali deixa à mostra. O golpe bate seco na pata e quica no couro grosso.
+> Ataque Guarda: NH 14, -4 mão (sorteada: 3d [4, 1, 2] = 7) = *10*
+> 3d [2, 2, 6] = *10* → sucesso por 0
+> Defesa de Pumba'h: esquiva 6 +1 Reflexos em Combate +1 DP = *8*
+> 3d [4, 5, 1] = *10* → falhou por 2
+> Dano: 1D contusão: [2] = *2*
+> RD 3 → 0 passam
+> *A armadura segurou o golpe.* Nenhum dano.
+
+O soldado derrubado se arrasta de joelhos, o braço sangrando, procurando firmar o escudo no chão.
+
+Sae'Varyn chega ao fim do capim molhado e vê a carroça escura à frente, as rodas afundadas na lama. O zumbi ainda está entre as carnes.
+
+O que vocês fazem?

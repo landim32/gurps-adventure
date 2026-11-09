@@ -58,4 +58,5 @@ ilustrações). O que elas mostravam costuma estar descrito no texto em volta.
 | Arquivo | Período coberto | Processada em | O que trouxe |
 |---|---|---|---|
 | [`processados/2026-09-16.txt`](processados/2026-09-16.txt) | 07/09 16:49 → 16/09 07:34 | 16/09/2026 | Campanha inteira até aqui: capítulo 1 completo (a taberna, o braço-de-ferro, o furto da bolsa do Giles, a morte de Hoel Meia-Orelha, os quatro mortos que entraram pela porta, o incêndio) e o capítulo 2 até a rampa do castelo. **Duas correções grandes:** Donnwulf está vivo e ajudando o grupo, não é morto-vivo; e Wallace não tem porto — é cidade de pastores na orla do Grande Deserto. |
+| [`processados/2026-10-30.txt`](processados/2026-10-30.txt) | 07/09 16:49 → 30/10 08:34 (campanha fechada: até 11/10 00:14) | 30/10/2026 | Cap. 2 a 8 conferidos contra o log: negociações do cap. 4, regras de Cavalgar e do deserto, gastos de pontos, mortes dos reptantes R1 e R3 e do Piqueiro, e erratas (espada do Osric, corda, contas do Mestre, turnos 39/40). Da linha 8985 em diante o arquivo é da campanha seguinte e não foi lido aqui. |
 <!-- /indice:whatsapp -->

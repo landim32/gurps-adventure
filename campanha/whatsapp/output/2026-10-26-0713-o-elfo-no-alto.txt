@@ -1,0 +1,36 @@
+*O ELFO NO ALTO*
+
+Krag encaixa a flecha no arco e fala sem levantar a voz: "Ou você vem, ou você morre." Sae'Varyn assiste com um quase sorriso. "Eu disse o que aconteceria se nos traísse. Pessoal, tenho uma ideia melhor: já que ele não quer colaborar, amarramos o elfo, deixamos na gaiola de novo, e eu sugo a energia dele. Seguimos para o andar de cima. Já temos as palavras."
+
+Gorbag solta o braço e fecha a mão inteira no pescoço de Faelar. Num só movimento, o levanta do chão como quem levanta um coelho pelo cangote. "Gorbag pergunta mais uma vez: você vem junto."
+> Segurar pelo pescoço (MB, combate de perto): Gorbag DX 14, +3 Segurar = *17*
+> 3d [4, 3, 6] = *13* → sucesso por 4
+> Resistência de Faelar: DX 12 = *12*
+> 3d [3, 4, 4] = *11* → sucesso por 1
+> Margem de Gorbag (4) maior que a de Faelar (1): *Gorbag vence e o segura pela garganta*
+> Erguer: uma mão de ST 20 levanta até 3 × ST = 60 kg; Faelar pesa 55 kg, sem teste de ST. Com o ar cortado, ele prende a respiração por HT 10 turnos antes de perder Fadiga.
+
+Urzog chega perto e enfia o pé no tronco do elfo suspenso. O elfo nem tem onde se desviar direito.
+> Ataque: Chute NH 13 (Briga-2) = *13*
+> 3d [4, 3, 2] = *9* → sucesso por 4
+> Defesa de Faelar: Esquiva 5 = *5*
+> 3d [3, 2, 3] = *8* → falhou por 3
+> Dano: 1D+1 contusão: [3] + 1 = *4*
+> RD 0 → 4 passam
+> *Faelar perde 4 pontos de vida.* No próximo turno ataca e lança com −4 (redutor por ferimento).
+
+Tann'athar levanta as mãos e começa a tecer Lealdade, as palavras baixas, a voz mansa. "Venha conosco. Quem sabe descobrimos juntos as palavras que você tanto quer?" A mágica pede dois segundos de concentração e só fecha no próximo turno.
+
+Pendurado, sem ar e sem apoio, Faelar já não consegue dizer nada. Mas a mão livre sobe e pousa no antebraço que o prende, e o ar em volta ganha um cheiro de ferro frio.
+> Toque Mortal (Magia, Comum, toque): Faelar NH 21, −5 mana baixa de Caithness, −1 Abascanto de Gorbag = *15*
+> 3d [2, 6, 1] = *9* → sucesso por 6
+> Toque: em combate de perto, com a mão livre e a mágica dominada, o toque é automático (Magia, "O Toque do Mago em Combate de Perto")
+> Dano: 1D por ponto de Fadiga aplicado (1 ponto): [4] = *4*. DP e RD não protegem contra a mágica
+> Hipoalgia de Gorbag: sem redutor por ferimento no próximo turno
+> *Gorbag perde 4 pontos de vida.* Faelar gasta 1 de Fadiga.
+
+Um frio seco corre pelo braço do ogro e some debaixo da pele grossa. Gorbag grunhe, olha o antebraço como quem olha uma mosca que mordeu, e não solta.
+
+Farejo rosna ao lado de Krag, os olhos no elfo.
+
+O que vocês fazem?

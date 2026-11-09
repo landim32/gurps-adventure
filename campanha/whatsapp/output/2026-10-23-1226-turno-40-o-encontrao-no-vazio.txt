@@ -1,0 +1,21 @@
+*TURNO 40 — O ENCONTRÃO NO VAZIO*
+
+Gorbag não espera. Três passos largos o põem diante da armadura, o ombro baixo e o peso todo de ogro lançado de frente, pronto para derrubá-la. Mas a armadura se mexe antes que ele chegue. Um passo curto de lado, a alabarda girando no alto, e o ogro passa varrendo o ar, sem encontrar nada, e segue ainda dois passos pelo corredor até perder o impulso, as costas voltadas para a coisa.
+> Encontrão Gorbag (parte do Deslocamento): Disputa Rápida de DX
+> Gorbag DX 14: 3d [2, 6, 5] = *13* → sucesso por 1
+> Armadura DX 12: 3d [2, 6, 2] = *10* → sucesso por 2
+> *A armadura desvia.* Gorbag passa direto e se desloca mais 2 hexágonos.
+
+Krag e Urzog seguem de guarda no escuro, os corpos firmes, as armas de prontidão. Krag aguça o ouvido e separa o ruído: um som metálico bem junto dele, à direita e atrás, e o ranger de uma haste sendo erguida acima da cabeça de alguém. Sabe de onde vem. Urzog só ouve o próprio sangue.
+> Audição Krag: NH 12
+> 3d [5, 1, 1] = *7* → sucesso por 5
+> Audição Urzog: NH 8
+> 3d [3, 6, 4] = *13* → falhou por 5
+
+Sae'Varyn, a mão na parede fria, escuta o mesmo ranger e o mesmo passo pesado, e dá um passo curto na direção dele, o morto colado ao ombro, os dois guiados mais pelo som que pelo tato.
+> Audição Sae'Varyn: NH 15
+> 3d [4, 4, 6] = *14* → sucesso por 1
+
+Em silêncio, as duas armaduras terminam de armar as alabardas. As hastes sobem acima dos elmos e a lâmina fica pairando no alto, pronta para cair.
+
+O que vocês fazem?

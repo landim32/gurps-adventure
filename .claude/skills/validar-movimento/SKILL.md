@@ -36,8 +36,28 @@ python .../validar_movimento.py terreno --mapa oasis-1 --imagem cenarios/oasis.j
 python .../validar_movimento.py terreno --mapa oasis-1 --decidir "9,12=margem"
 ```
 
-Manobras (`--manobra`): `deslocamento`, `defesa-total`, `ataque-total`, `apontar`, `atacar`,
-`preparar`, `finta`, `aguardar`, `concentrar`, `posicao`.
+Manobras (`--manobra`): `deslocamento`, `molinete` (Deslocamento com golpe Molinete), `defesa-total`,
+`ataque-total`, `apontar`, `atacar`, `preparar`, `finta`, `aguardar`, `concentrar`, `posicao`.
+`--tiro` (modo `calcular`) diz que a declaração é tiro ou arremesso; no modo `turno` a folha deduz.
+`--desl-npc "Nome=N"` informa o Deslocamento de uma ocorrência de NPC que o roll6 não trouxe.
+
+## Andou e quer bater: a linha `ATAQUE`
+
+A folha valida **PJs e NPCs que se moveram** (o NPC entra marcado `(NPC)`), e para quem declarou
+golpe ela imprime uma linha a mais, que é a regra do MB p. 104-105 aplicada ao que a peça andou:
+
+| A declaração | Até quantos hexágonos o golpe ainda sai | Passou disso |
+|---|---|---|
+| ataca, golpeia, morde, finta (**Avançar e Atacar**) | **1** | `ATAQUE: NÃO ACONTECE` |
+| **Ataque Total** | o maior entre **2** e **metade do Deslocamento**, só para a frente; a frente no fim é o rumo do avanço (a folha corrige o `look` e avisa) | `ATAQUE: NÃO ACONTECE` |
+| **"molinete"** na declaração | o Deslocamento inteiro | `ATAQUE: cabe` — `atacar --manobra molinete` (pior entre −5 e NH máximo 9, ponto de impacto sorteado, só arma de mão) |
+| tiro, arremesso | 1 (Avançar e Atacar) | `NÃO ACONTECE`, com a nota de Disparo em Movimento (p. 117: −1 andando, −2 correndo, ×3 besta, ×6 arco) — só o Mestre liga |
+| encontrão, investida | o Deslocamento inteiro: é parte da manobra Deslocamento (p. 112) | — |
+
+**`NÃO ACONTECE` não recua a peça.** O movimento passa a valer como **Deslocamento** (conferido pelos
+pontos: `reclassificada` diz isso), a peça fica onde os pontos a levam, e **o golpe cai**. Quem fecha
+o turno (`processar-turno`, `gm`) executa só o deslocamento e explica na narração. A versão antiga
+desta folha recuava a peça para 1 hexágono e deixava bater — o livro não deixa, e o Mestre também não.
 
 ## O que ela confere
 
@@ -111,3 +131,11 @@ Quem vale é o custo da folha para a **manobra declarada**.
 - A água é lida da **cor da imagem** (`terreno --imagem`): serve de triagem, e o que fica entre
   15% e 70% de água sai como `incerta` para o Mestre decidir.
 - Fadiga e PV baixos juntos: aplica uma metade só.
+
+## Só pelo MCP (097)
+
+`turno --so-mcp --campanha N` confere os movimentos de uma campanha do roll6 **sem o repositório**: a campanha
+vem do argumento (o `campanha/roll6.json` não é lido), não há `campanha/terreno.json` nem ficha local, e o
+Deslocamento parte do `move` da peça no roll6 — o Deslocamento da campanha — com as regras de PV e Fadiga do
+livro aplicadas por cima (a conta diz `Deslocamento do roll6 (campanha): N`). A manobra, o custo da rota, o ponto
+legal mais avançado e o recuo são calculados como sempre. É a forma que a skill `gm` (Modo GM do Roll6) usa.

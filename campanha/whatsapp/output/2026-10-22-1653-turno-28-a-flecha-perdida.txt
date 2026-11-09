@@ -1,0 +1,43 @@
+*TURNO 28 — A FLECHA PERDIDA*
+
+Farejo salta e fecha os dentes no braço do soldado caído, por trás, onde a cota não cobre. O homem urra e tenta sacudir o cão, de joelhos no chão.
+> Ataque Farejo: NH 12, -2 braço = *10*
+> 3d [2, 2, 3] = *7* → sucesso por 3
+> Defesa: nenhuma (golpe pelas costas, de quem está no chão)
+> Dano: 1D-1: [3] - 1 = *2*
+> RD 0 → 2 passam
+> Corte: ×1,5 → *3*
+> *O guarda perde 3 pontos de vida.*
+
+Pumba'h abaixa a cabeça, encolhe o corpo e só espera o aço. O javali recua um passo, o lombo quase na parede, os olhos miúdos nos dois homens de armas.
+
+Gorbag atravessa a cozinha em passos largos, por entre os corpos e os sacos rasgados, e para junto da porta sul, o cutelo pingando.
+
+Krag solta a corda na carreira, sem tempo de mirar. A flecha cruza o salão e entra no elmo aberto do soldado de pé, sobre o olho, antes que o escudo suba. O homem larga o montante, os joelhos dobram e ele desaba de costas.
+> Ataque Krag (Ataque Total, decisão do Mestre): Arco NH 17, -5 velocidade/distância (11 m → linha dos 13,5 m), -5 cabeça, +4 Ataque Total = *11*
+> 3d [6, 2, 1] = *9* → sucesso por 2
+> Defesa de Guarda: bloqueio 7 +3 DP escudo = *10*
+> 3d [5, 5, 4] = *14* → falhou por 4
+> Dano: 1D+1: [6] + 1 = *7*
+> RD 0 → 7 passam
+> Perfuração: ×2 → *14*
+> Perdeu mais de HT/2: teste de HT 12 para não cair, 3d [2, 5, 6] = *13* → *CAIU*; *ATORDOADO* (-4 nas defesas)
+> Teste de HT 12 contra nocaute: 3d [3, 5, 2] = *10* → aguentou
+> *O guarda perde 14 pontos de vida* (fica a -2) e Krag fica sem defesa ativa até o próximo turno.
+
+Urzog cruza a porta da despensa e entra na cozinha, o machado ainda solto na mão, sem tempo de firmá-lo.
+
+A Capitã avança o montante na pata traseira do javali. O bicho se joga para trás e a lâmina risca as lajes.
+> Ataque Capitã: NH 16 (perna distante, sorteada: 3d [2, 5, 5] = 12) = *16*
+> 3d [3, 3, 4] = *10* → sucesso por 6
+> Defesa de Pumba'h: esquiva 8 +1 Reflexos em Combate +1 DP +3 recuo = *13*
+> 3d [2, 2, 3] = *7* → defendeu por 6
+> *Pumba'h se defendeu.* Sem dano.
+
+O soldado atingido não chega a erguer a espada: está caído e atordoado, a cabeça sangrando, sem saber onde está.
+
+O soldado derrubado, com o cão pendurado no braço, apoia o escudo nas lajes e se ergue de joelhos.
+
+Sae'Varyn segue pelo capim escuro, a carroça já à vista, mas ainda fora de alcance.
+
+O que vocês fazem?

@@ -8,10 +8,13 @@ Chamada depois da `causar-dano`, com o número pronto. Decide, na ordem:
 2. teste de HT para não cair, quando o golpe passou de metade da HT;
 3. atordoamento (-4 nas defesas ativas) que vem junto da queda, ou do golpe fulminante;
 4. teste de HT contra nocaute na cabeça, ou contundente nos órgãos vitais;
-5. pelo crânio exposto: nocaute acima de HT/2, atordoamento acima de HT/3.
+5. pelo crânio exposto: nocaute acima de HT/2, atordoamento acima de HT/3;
+6. **projeção** (MB, p. 106): quem a `causar-dano` disse que foi projetado testa DX para
+   não cair — e cai mesmo que a armadura tenha segurado o dano.
 
     arbitrar_ferimento.py --alvo "Morto 3" --ferimento 7 --ht-alvo 12 --chave cabeca \
       --tipo cont
+    arbitrar_ferimento.py --alvo "Morto 3" --ferimento 0 --projecao 2 --dx-alvo 11
 
 Não rola ataque, não resolve defesa, não calcula dano, não escreve em lugar nenhum.
 Quem rola dado é a skill `roll`; quem lança o que sobrou no capítulo é a `registrar-acao`.
@@ -76,25 +79,28 @@ def calcular(p):
     verbo2 = "tiro" if proje else "golpe"
     saida, mec = [], []
     res = {"hipoalgia": False, "redutor_ferimento": 0, "caiu": False,
-           "atordoado": False, "nocauteado": False}
+           "atordoado": False, "nocauteado": False, "projetado": 0}
+    proj = int(p.get("projecao_hex") or 0)
 
     if not ht:
         saida.append(f"\nSem a HT de {alvo} não dá para testar "
                      + ("queda, nocaute nem os tetos do local." if proje
                         else "queda, atordoamento nem os tetos do local.")
                      + " Passe --alvo-ht (está no npcs.md).")
+        _projecao(p, alvo, proj, saida, mec, res)
         return {"saida": saida, "mec": mec, "resultado": res}
 
     saida.append(f"\nCONSEQUÊNCIAS (HT {ht}):")
 
-    # 1. redutor por ferimento
+    # 1. redutor por ferimento (não há o que reduzir quando a armadura segurou tudo)
     hipo = bool(p.get("hipoalgia")) or (fd is not None
                                         and ctx.nivel_vantagem(fd, "hipoalgia") is not None)
     if hipo:
         res["hipoalgia"] = True
-        saida.append(f"  {alvo} tem Hipoalgia: **não** sofre o redutor por ferimento."
-                     + ("" if proje else " Continua atacando com o NH cheio."))
-    else:
+        if fer:
+            saida.append(f"  {alvo} tem Hipoalgia: **não** sofre o redutor por ferimento."
+                         + ("" if proje else " Continua atacando com o NH cheio."))
+    elif fer:
         res["redutor_ferimento"] = fer
         saida.append(f"  No próximo turno, {alvo} {'age' if proje else 'ataca'} com -{fer} "
                      f"(redutor por ferimento).")
@@ -134,7 +140,7 @@ def calcular(p):
         mec.append("*ATORDOADO* pelo golpe fulminante (-4 nas defesas)")
 
     # 4. nocaute na cabeça / contundente nos vitais
-    if chave in ("cabeca", "cerebro") or (chave == "orgaos-vitais" and tipo == "cont"):
+    if fer and (chave in ("cabeca", "cerebro") or (chave == "orgaos-vitais" and tipo == "cont")):
         d = p.get("dado_nocaute")
         dn = d if isinstance(d, (list, tuple)) else _rola_d6()
         tnk = sum(dn)
@@ -158,7 +164,45 @@ def calcular(p):
             saida.append("  Perda acima de HT/3 pelo crânio: ATORDOADO.")
             mec.append("Perda acima de HT/3 pelo crânio: *ATORDOADO*")
 
+    # 6. projeção: teste de DX para não cair (MB, p. 106)
+    _projecao(p, alvo, proj, saida, mec, res)
+
     return {"saida": saida, "mec": mec, "resultado": res}
+
+
+def _projecao(p, alvo, proj, saida, mec, res):
+    """Quem foi projetado N hexágonos testa DX para não cair (MB, cap. 14, "Projetar").
+
+    O número de hexágonos vem da `causar-dano`; para onde a peça vai é da
+    `calcular-alcance --projetar`. Aqui só o dado — e quem já caiu pelo golpe não testa de
+    novo: já está no chão."""
+    if not proj:
+        return
+    res["projetado"] = proj
+    if res.get("caiu"):
+        saida.append(f"  Projetado {proj} hexágono(s) para trás — já caiu pelo golpe, não testa "
+                     "DX de novo.")
+        mec.append(f"Projetado *{proj} hex* para trás (já caído)")
+        return
+    dx = int(p.get("dx_alvo") or 0)
+    fd = p.get("ficha")
+    if not dx and fd:
+        dx = int(((fd.get("atributos") or {}).get("DX") or {}).get("valor") or 0)
+    if not dx:
+        saida.append(f"  Projetado {proj} hexágono(s) para trás: sem a DX de {alvo} não dá para "
+                     "testar se cai. Passe --alvo-dx (está no npcs.md).")
+        mec.append(f"Projetado *{proj} hex* para trás — teste de DX pendente (DX não informada)")
+        return
+    d = p.get("dado_dx")
+    dd = d if isinstance(d, (list, tuple)) else _rola_d6()
+    tq = sum(dd)
+    ok = tq <= dx
+    res["caiu"] = not ok
+    saida.append(f"  Projetado {proj} hexágono(s) para trás: teste de DX para não cair.")
+    saida.append(f"    3d [{', '.join(map(str, dd))}] = {tq} contra DX {dx} — "
+                 + ("fica de pé" if ok else "CAIU"))
+    mec.append(f"Projetado {proj} hex: teste de DX {dx} para não cair, 3d {_txt_dados(dd)} = "
+               f"*{tq}* → " + ("de pé" if ok else "*CAIU*"))
 
 
 def main():
@@ -175,6 +219,10 @@ def main():
     ap.add_argument("--efeito", default="{}")
     ap.add_argument("--dado-queda", default="", help="3d já rolados, p/ testar sem sorte")
     ap.add_argument("--dado-nocaute", default="", help="3d já rolados, p/ testar sem sorte")
+    ap.add_argument("--projecao", type=int, default=0,
+                    help="hexágonos que a causar-dano disse que o alvo foi projetado")
+    ap.add_argument("--dx-alvo", type=int, default=0, help="DX do alvo, p/ o teste de queda")
+    ap.add_argument("--dado-dx", default="", help="3d já rolados, p/ testar sem sorte")
     a = ap.parse_args()
 
     r = calcular({
@@ -183,6 +231,7 @@ def main():
         "efeito": json.loads(a.efeito),
         "ficha": json.loads(a.ficha) if a.ficha else None,
         "dado_queda": _trio(a.dado_queda), "dado_nocaute": _trio(a.dado_nocaute),
+        "projecao_hex": a.projecao, "dx_alvo": a.dx_alvo, "dado_dx": _trio(a.dado_dx),
     })
     print("\n".join(r["saida"]))
     if r["mec"]:
