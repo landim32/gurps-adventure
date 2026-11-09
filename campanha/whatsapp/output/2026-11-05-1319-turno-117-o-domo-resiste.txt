@@ -1,0 +1,61 @@
+*TURNO 117 — O DOMO RESISTE*
+
+O velho mantém a bolha clara em volta dos pés e junta as mãos no peito, os lábios se mexendo sem som. O ar estremece de leve, como sobre brasas, e nada se fecha ainda.
+> Orvin: concentra-se em mágica (o teste sai no início do próximo turno)
+
+Farejo larga o braço do guarda e salta para a jugular pelo flanco. Os dentes batem no ar, longe do pescoço.
+> Farejo: Mordida NH 12, -5 Pescoço = *7*
+> 3d [3, 3, 6] = *12* → falha por 5
+
+Grumel manda a bota no braço do escudo do guarda, por trás. O pé passa longe e só encontra o vento.
+> Grumel: Chute NH 12 (ponto de impacto sorteado: 3d [2, 2, 2] = 6, braço do escudo, sem redutor) = *12*
+> 3d [5, 5, 6] = *16* → falha por 4
+
+O morto de olhos baços ergue a perna e chuta para o braço do guarda. A bota passa curta e ele quase perde o equilíbrio.
+> Faelar Zumbi: Chute NH 10 (ponto de impacto sorteado: 3d [5, 1, 2] = 8, braço, sem redutor) = *10*
+> 3d [3, 6, 5] = *14* → falha por 4
+
+A mulher alada firma as asas no chão, o fôlego curto, e o olhar se mantém. Ela desce as garras no peito do guarda. O escudo sobe tarde, mas a loriga de couro segura o corte.
+> Mulher alada: HT 13 para seguir consciente a -10 PV, 3d [1, 1, 4] = *6* → sucesso por 7
+> Mulher alada: Garras NH 14 (ponto de impacto sorteado: 3d [6, 2, 2] = 10, tronco, sem redutor) = *14*
+> 3d [3, 2, 3] = *8* → sucesso por 6
+> Defesa do Guarda: bloqueio 7 +3 DP escudo = *10*
+> 3d [5, 5, 2] = *12* → falhou por 2
+> Dano: 1D [1] = *1*
+> RD 2 (loriga de couro) → 0 passam
+> *A armadura segurou o golpe.* Nenhum dano.
+
+Krag tira outra flecha da aljava num só movimento, encaixa e firma a ponta no velho, atrás da bolha clara.
+> Krag: Sacar Rápido (Flecha) NH 14
+> 3d [4, 2, 6] = *12* → sucesso por 2
+> 1º turno de mira em Orvin
+
+O guarda olha o gládio no chão, aos próprios pés, e se abaixa de ombro para alcançá-lo. A mão ainda não fecha no cabo.
+
+No corredor sul, o arqueiro de gibão azul e torre branca solta a corda. A flecha cruza a sala e bate nas costas do orc, rasga o couro e não passa da coura. Ao lado, o arqueiro que perdeu o arco se abaixa para pegá-lo do chão. O terceiro puxa uma flecha, encaixa e ergue o arco, a ponta acompanhando o orc.
+> Arqueiro da torre: Arco NH 12, -5 distância (10 m), +1 Precisão = *8*
+> 3d [4, 3, 1] = *8* → sucesso por 0
+> Defesa de Urzog: sem defesa ativa (de costas); DP passiva 4
+> 3d [3, 3, 2] = *8* → não segurou
+> Dano: 1D-2 [3] - 2 = *1*
+> RD 3 (coura 1 + Rijeza 2) → 0 passam
+> *A armadura segurou o golpe.* Nenhum dano.
+> Arqueiro da torre 3: Sacar Rápido (Flecha) NH 12
+> 3d [3, 5, 1] = *9* → sucesso por 3
+> 1º turno de mira em Urzog
+
+Sae'Varyn destampa o frasco azul e bebe tudo de um gole. Um calor leve percorre o peito dele e a dor das costelas some. Ele aperta o bastão e respira fundo, bem.
+> Frasco azul (Æsculapius): restaura 2 pontos de vida; Sae'Varyn 12 → *13/13*
+
+Tann'athar avança pela pedra em direção à fonte, entre as colunas.
+
+Urzog estende a palma aberta para o velho e solta uma sílaba áspera. A luz fraca corre pela bolha clara e vacila, mas o Domo não se desfaz.
+> Urzog (Mor'Dhaun): Anulação de Magia (1 hex, sobre o Domo de Orvin) NH 21 (fonte, sem -5) = *21*
+> 3d [5, 2, 6] = *13* → sucesso por 8
+> Resistência de Orvin (Domo de Força) NH 20 = *20*
+> 3d [3, 1, 6] = *10* → sucesso por 10
+> *A resistência vence a Disputa (10 contra 8):* o Domo de Força se mantém
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?

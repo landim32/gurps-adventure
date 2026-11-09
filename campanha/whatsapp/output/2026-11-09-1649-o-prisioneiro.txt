@@ -1,0 +1,19 @@
+*O PRISIONEIRO*
+
+O último soldado em pé solta o gládio, que tilinta na rocha, e levanta a mão aberta. A outra tenta cobrir o peito que mal sustenta. Ele diz num fio de voz que se rende, olhando para o ogro e para os outros, com os olhos de quem sabe que não aguenta mais um golpe.
+
+Gorbag escuta, e o que sente não é piedade. A mão boa abre e fecha no punho do machado, e a língua passa pelos dentes que faltam. Carne que se rende ainda é carne. A ideia de poupar o soldado soa estranha, e o ogro quer ouvir o osso estalar.
+> Gorbag, Sanguinolência: Vontade (9) para aceitar a rendição, 3d [6, 4, 4] = *14* → falha por 5
+> Gorbag, Sadismo: Vontade (9) para não ser cruel com quem deve sair ileso, 3d [6, 4, 6] = *16* → falha por 7
+> *Gorbag não aceita a rendição e quer matar o prisioneiro*
+
+Sae'Varyn olha o soldado de cima, em silêncio, o cajado firme na mão. Há uma crueldade antiga em ver alguém tão pequeno e indefeso, mas ele a reconhece e a mantém no lugar.
+> Sae'Varyn, Sadismo: Autocontrole (12) para não ser cruel com quem está indefeso, 3d [1, 4, 2] = *7* → sucesso por 5
+> *Sae'Varyn se contém*
+
+O ogro dá um passo, ignora a mão erguida e o pedido que o soldado tenta terminar. O machado de Urzog sobe na única mão boa e desce de uma vez. O som é curto e seco, e o vento leva o resto. O soldado cai de lado sobre a rocha, com a mão ainda aberta, e não se mexe mais.
+> Decisão do Mestre: *Gorbag mata o prisioneiro* (Guarda do Castelo 2)
+
+Gorbag limpa a lâmina na perna da calça, sem pressa, e fala sozinho de carne que não presta. Tann'athar continua caído, sem se mexer.
+
+O que vocês fazem?

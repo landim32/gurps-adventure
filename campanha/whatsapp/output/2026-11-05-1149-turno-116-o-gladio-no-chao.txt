@@ -1,0 +1,45 @@
+*TURNO 116 — O GLÁDIO NO CHÃO*
+
+O velho abre as mãos sobre o peito e a cor volta ao rosto dele de uma vez. O ar em volta vibra como sobre brasas e a palidez some. Ele respira fundo, mais firme.
+> Orvin: Cura Profunda em si mesmo NH 20 (fonte do térreo, sem -5) = *20*
+> 3d [6, 2, 6] = *14* → sucesso por 6
+> Cura: 8 pontos de vida (custo 4, o dobro volta ao paciente); Orvin 3 → *10/10*
+
+Farejo trava as mandíbulas no braço da espada e sacode a cabeça com toda a força do pescoço. Os dedos do guarda se abrem e o gládio cai tinindo na pedra.
+> Farejo × Guarda do Castelo: disputa rápida de ST
+> Farejo: ST segurando a mordida NH 12 = *12*
+> 3d [2, 2, 1] = *5* → sucesso por 7
+> Guarda do Castelo: ST para manter a espada NH 12 = *12*
+> 3d [3, 1, 6] = *10* → sucesso por 2
+> *Farejo vence:* o guarda larga o gládio
+
+Grumel manda a bota na perna do guarda, por trás. O pé passa raspando o couro e só encontra o ar.
+> Grumel: Chute NH 12 (ponto de impacto sorteado: 3d [4, 4, 5] = 13, perna, sem redutor) = *12*
+> 3d [5, 3, 5] = *13* → falha por 1
+
+O morto de olhos baços tenta chutar o pé do guarda e a bota passa longe.
+> Faelar Zumbi: Chute NH 10 (ponto de impacto sorteado: 3d [6, 4, 5] = 15, pé, sem redutor) = *10*
+> 3d [6, 4, 2] = *12* → falha por 2
+
+A mulher alada ergue a cabeça, o fôlego curto, e mesmo assim arremete com as garras no rosto do guarda. Ele desvia o rosto e as unhas riscam só o ar.
+> Mulher alada: HT 13 para seguir consciente a -10 PV, 3d [1, 6, 2] = *9* → sucesso por 4
+> Mulher alada: Garras NH 14 -4 choque do turno anterior (ponto de impacto sorteado: 3d [1, 2, 2] = 5, cabeça, sem redutor) = *10*
+> 3d [6, 6, 1] = *13* → falha por 3
+
+Krag solta a corda de cima. A flecha passa por cima da cabeça do morto de olhos baços, mira as costas do guarda e se perde na pedra, a um palmo do alvo.
+> Krag: Arco NH 17, -4 distância (8 m), +3 Precisão, -3 órgãos vitais = *13*
+> 3d [4, 6, 5] = *15* → falha por 2
+
+O guarda fica com a mão aberta, olhando o gládio caído. Ele não tem como estocar de mãos vazias.
+
+No corredor sul, os três arqueiros de gibão azul e torre branca fecham o turno de uma vez. Dois arcos cantam. O do meio escorrega da mão do arqueiro e bate na pedra. A flecha do outro corta o ar longe demais do orc e se perde. O terceiro arqueiro termina de encaixar a flecha e ergue o arco, mirando.
+> Arqueiro da torre 2: Arco NH 12, -4 distância (9 m), +1 Precisão = *9*
+> 3d [5, 6, 6] = *17* → *FALHA CRÍTICA* (por 8)
+> *ERRO CRÍTICO!* Tabela de Erros Críticos: 3d [2, 2, 5] = *9*
+> _Você DERRUBOU a arma._
+> Arqueiro da torre 3: Arco NH 12, -5 distância (10 m), +1 Precisão, -2 braço (ponto de impacto sorteado: 3d [1, 1, 6] = 8) = *6*
+> 3d [2, 5, 3] = *10* → falha por 4
+
+Tann'athar estende o frasco azul e Sae'Varyn o toma da mão dele. Urzog segue parado, os lábios se mexendo sem som.
+
+O que vocês fazem?

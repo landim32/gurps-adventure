@@ -1,0 +1,18 @@
+*TURNO 153 (FIM) — O TOPO DA MONTANHA*
+
+A luz branca se apaga, e o piso de pedra da sala some. No lugar dele há rocha nua, vento cortante e um frio que morde as narinas. O ar é fino e o céu está perto demais. Abaixo, a montanha desce em degraus de pedra e nuvem. Todos que estavam na sala da fonte foram carregados juntos: os fugitivos, o cão, o zumbi e os soldados.
+
+O ogro dobra os joelhos e firma a mão grande na rocha, com o mundo girando em volta. O elfo de pele cinza e o orc de olhar vazio cambaleiam, e o cão rola de lado, ganindo. Os três soldados que vieram junto perdem o equilíbrio e se agarram ao chão. Só o meio-orc dos arcos e o zumbi seguem de pé e firmes, como se o chão tivesse se mexido a favor deles. Tann'athar continua caído, sem se mexer.
+> Teleportar Outros: todos os que estavam na sala da fonte vão para o topo de uma montanha. Cada um faz um teste de Percepção do Corpo (Magia, pág. 94; pré-definido DX-6 ou Acrobacia-3, +3 Senso de Direção). Falha = desorientado: no T154 só pode se defender. Falha crítica = cai e fica fisicamente atordoado. Sem mudança de direção nem de posição: sem redutor
+> Gorbag: NH 8 (DX 14-6), 3d [1, 4, 5] = *10* → falha por 2, desorientado
+> Krag: NH 11 (DX 14-6 +3 Senso de Direção), 3d [2, 3, 4] = *9* → sucesso por 2, age normalmente
+> Sae'Varyn: NH 5 (DX 11-6), 3d [2, 1, 5] = *8* → falha por 3, desorientado
+> Urzog: NH 5 (DX 11-6), 3d [6, 1, 1] = *8* → falha por 3, desorientado
+> Farejo: NH 6 (DX 12-6), 3d [4, 5, 6] = *15* → falha por 9, desorientado
+> Guarda do Castelo 124: NH 6 (DX 12-6), 3d [2, 1, 5] = *8* → falha por 2, desorientado
+> Guarda do Castelo 2: NH 6 (DX 12-6), 3d [4, 3, 4] = *11* → falha por 5, desorientado
+> Guarda do Castelo 7: NH 6 (DX 12-6), 3d [3, 5, 5] = *13* → falha por 7, desorientado
+> Zumbi Grumel: NH 6 (DX 12-6), 3d [1, 1, 4] = *6* → sucesso por 0, age normalmente
+> Tann'athar: inconsciente, não faz teste
+
+O que vocês fazem?

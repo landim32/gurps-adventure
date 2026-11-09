@@ -1,0 +1,56 @@
+*TURNO 130 — O ELFO ABRE OS OLHOS*
+
+Os guardas de loriga seguem onde estão, escudos baixos, de olho na bolha clara. Mais um soldado de gibão azul chega ao corredor sul e para atrás dos arqueiros, sem dizer nada.
+
+O cão de Krag firma as patas na pedra e puxa a manga do elfo. Krag agarra o cinto, os dois puxam juntos, e o corpo mole cede um hex em direção à escada.
+> Farejo: ST 12, 3d [6, 1, 5] = *12* → sucesso por 0
+> Krag: ST 12, 3d [2, 3, 3] = *8* → sucesso por 4
+> Margens somadas: 4 → *1 hex arrastado* (a cada 3 de margem, 1 hex)
+
+No corredor sul, os arqueiros soltam as flechas que prepararam, todos contra o orc dentro da bolha. O agachado de trás atira por cima do ombro do companheiro; a flecha passa rente a ele e se perde na pedra, ao longe.
+> Arqueiro 3: Arco NH 12, -5 distância (10 m), +1 Precisão, +1 mira (2º turno), -4 (uma figura na linha de tiro) = *5*
+> 3d [4, 5, 1] = *10* → falhou por 5
+> Flecha perdida no Arqueiro 4: Arco NH 5 (pior entre 9 e o NH do tiro), +1 distância (1 m) = *6*
+> 3d [5, 3, 2] = *10* → falhou por 4
+
+O de barba grisalha solta a corda. A flecha cruza o corredor e estala na parede da bolha, sem passar, e cai na pedra.
+> Arqueiro 4: Arco NH 16, -4 distância (9 m), +1 Precisão, +1 mira (2º turno) = *14*
+> 3d [5, 2, 4] = *11* → sucesso por 3
+> A bolha barra o tiro. Nenhum dano.
+
+A arqueira de tranças, a mais perto, atira em linha reta. A flecha bate na bolha com um estalo seco e cai.
+> Arqueira 5: Arco NH 16, -3 distância (7 m), +1 Precisão, +1 mira (2º turno) = *15*
+> 3d [6, 4, 2] = *12* → sucesso por 3
+> A bolha barra o tiro. Nenhum dano.
+
+O de touca de couro erra o orc por um fio, e a flecha, em vez de seguir para a bolha, entra nas costas do veterano que está à frente dele.
+> Arqueiro 6: Arco NH 16, -4 distância (9 m), +1 Precisão, +1 mira (2º turno), -4 (uma figura na linha de tiro) = *10*
+> 3d [3, 4, 4] = *11* → falhou por 1
+> Flecha perdida no Arqueiro 7: Arco NH 9 (pior entre 9 e o NH do tiro), +1 distância (1 m) = *10*
+> 3d [4, 2, 1] = *7* → sucesso por 3 (de costas e mirando, sem defesa)
+> Ponto de impacto sorteado: 3d [3, 6, 1] = 10, tronco
+> Dano: 1D+1 [1] + 1 = *2*
+> RD 1 → 1 passa
+> Perfuração: ×2 depois da armadura → *2*
+> *Arqueiro 7 perde 2 pontos de vida:* 10 → *8*
+
+O arqueiro veterano de barba cortada rosna, o couro rasgado entre as omoplatas, mas não solta a corda. Aponta de novo e atira. A flecha dele também morre na bolha.
+> Arqueiro 7: Vontade 10 para não perder a mira ferido, 3d [4, 5, 1] = *10* → sucesso por 0
+> Arqueiro 7: Arco NH 16, -4 distância (8 m, linha dos 9 m), +1 Precisão, +1 mira (2º turno) = *14*
+> 3d [1, 5, 6] = *12* → sucesso por 2
+> A bolha barra o tiro. Nenhum dano.
+
+Sae'Varyn encosta o bastão no peito do elfo, a palavra sai limpa da boca dele, e o ar esquenta em volta do cajado. Tann'athar tosse, o peito sobe, e os olhos se abrem, sem foco.
+> Sae'Varyn: Despertar NH 16, -5 mana baixa = *11*
+> 3d [1, 1, 5] = *7* → sucesso por 4
+> Custo: 1 ponto de Fadiga (2 → 1)
+> Tann'athar: HT 11, +4 margem do Despertar, -3 inconsciente por ferimento = *12*
+> 3d [3, 5, 2] = *10* → sucesso por 2, *ACORDA*
+
+Tann'athar respira fundo, ainda de bruços, o rosto grudado na pedra, e não consegue se levantar.
+
+Urzog não se mexe. Os olhos seguem no vazio, o ar da fonte estala em volta dele, e a luz roxa do cabo pulsa devagar. Os lábios se mexem no mesmo murmúrio.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?

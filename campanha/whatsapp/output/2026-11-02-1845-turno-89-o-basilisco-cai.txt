@@ -1,0 +1,25 @@
+*TURNO 89 — O BASILISCO CAI*
+
+Krag puxa uma flecha da aljava num só gesto, encaixa na corda e ergue o arco, o olho colado na serpente. Não solta: ainda mira.
+> Sacar Rápido (Flecha): Krag, NH 14
+> 3d [6, 1, 2] = *9* → sucesso por 5
+
+Urzog balança, o sangue pingando do nariz, o chão girando sob os pés. Range os dentes e a voz que não é a dele segura o corpo de pé.
+> Urzog (HT 18) para seguir consciente a −2 PV: 3d [6, 1, 5] = *12* → sucesso por 6
+
+Então ele vira o montante e desce tudo sobre a serpente, sem se proteger. O basilisco tenta se enroscar para o lado, mas é tarde. A lâmina de pedra roxa o pega no corpo e o parte quase ao meio, e o impacto o arremessa dois passos para trás, contra o canto da parede. A cabeça cristada tomba. Os olhos se apagam.
+> Ataque Total de Urzog (+2 no dano): Montante encantado, NH 14, −2 tamanho diminuto do basilisco = *12*
+> 3d [5, 5, 1] = *11* → sucesso por 1
+> Defesa do basilisco: esquiva 6 +1 DP da pele = *7*
+> 3d [4, 4, 6] = *14* → falhou por 7
+> Dano: 2D+8: [5, 2] = 7 + 8 = *15*, +2 do Ataque Total = *17*
+> RD 0 → 17 passam
+> Corte: ×1,5 depois da armadura → *25*
+> Projeção: 17 antes da RD → 2 hexágonos para trás
+> *Basilisco: 4 → −21 PV. MORTO.* Urzog fica sem defesa ativa até o próximo turno
+
+Sae'Varyn avança rente à parede com o bastão erguido, os olhos baixos, mas o golpe nem chega a sair: a serpente já está caída. Ele para ali, o bastão no ar. O andar inteiro silencia, só o ogro respira no chão.
+
+Tann'athar segue para a gaiola com o molho de chaves tilintando, mas o cansaço o prende outra vez e ele para antes da grade, a uns passos dela. A mulher alada o acompanha com os olhos, calada.
+
+O que vocês fazem?

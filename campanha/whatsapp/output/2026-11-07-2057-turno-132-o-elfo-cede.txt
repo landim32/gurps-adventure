@@ -1,0 +1,28 @@
+*TURNO 132 — O ELFO CEDE*
+
+Os soldados de loriga contornam a bolha clara pelo lado oeste: um chega até a borda dela, o outro avança uns passos pelo corredor. Os arqueiros de touca, de tranças e o agachado vão atrás, arcos baixos, e mais um soldado de gibão azul surge no fundo do corredor sul e para.
+
+Krag ajeita o elfo entre ele e o cão e vira o rosto para a escada.
+
+O soldado de loriga que chegou à borda enfia o gládio na direção do orc. A lâmina morre na parede da bolha, sem passar.
+> Guarda do Castelo: Espadas Curtas NH 12, 3d [6, 4, 4] = *14* → falhou por 2
+> A bolha barra o golpe. Nenhum dano.
+
+No corredor sul, o arqueiro de barba grisalha e o veterano de barba cortada soltam as cordas, um contra o elfo de cabelos brancos, o outro contra o elfo ferido. As flechas cruzam o salão e estalam na parede da bolha, no meio do caminho, e caem na pedra.
+> Arqueiro 4: Arco NH 16, -6 distância (14 m), +1 Precisão, +1 mira (2º turno) = *12*
+> 3d [5, 3, 2] = *10* → sucesso por 2
+> A bolha barra o tiro. Nenhum dano.
+> Arqueiro 7: Arco NH 16, -6 distância (15 m), +1 Precisão, +1 mira (2º turno) = *12*
+> 3d [1, 5, 3] = *9* → sucesso por 3
+> A bolha barra o tiro. Nenhum dano.
+
+Sae'Varyn corre dois passos pela borda norte, o bastão batendo na coxa, o fôlego já curto, rumo à escada.
+
+Tann'athar leva a mão ao manto e a palavra morre na garganta. O sangue some do rosto dele, os olhos reviram, e o corpo cede, mole, nos braços de Krag e do cão.
+> Tann'athar: HT 11 para seguir consciente a 0 PV, 3d [5, 5, 4] = *14* → falhou por 3, *INCONSCIENTE*
+
+Urzog não se mexe. Os olhos seguem no vazio, o ar da fonte estala em volta dele, e a luz roxa do cabo pulsa devagar. Os lábios se mexem no mesmo murmúrio.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?

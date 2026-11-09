@@ -1,0 +1,8 @@
+*ERRATA DO TURNO 151 — A DEFESA DE QUEM DORME*
+
+O soldado que caiu ao lado de Tann'athar desce o gládio no peito do elfo desacordado. O corpo mole não levanta guarda nenhuma, mas a pele, o manto e o acaso ainda tentam o que podem, mesmo de olhos fechados. Não bastam: a lâmina entra.
+> Defesa passiva de Tann'athar (errata do Mestre: quem está inconsciente ainda rola a defesa passiva): DP 0 (sem armadura)
+> 3d [5, 2, 4] = *11* → *falhou por 11*
+> O golpe do Guarda 7 segue valendo: *9 de dano* (1 → -8 PV), Tann'athar continua inconsciente.
+
+O que vocês fazem?

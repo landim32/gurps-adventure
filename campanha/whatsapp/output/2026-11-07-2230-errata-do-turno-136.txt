@@ -1,0 +1,10 @@
+*ERRATA DO TURNO 136*
+
+No turno 136, Sae'Varyn apenas se concentrou para fazer a Cura Superficial: a mágica não foi lançada. A rolagem daquele turno e o custo da falha ficam anulados, e o ponto de vida que ele perdeu volta.
+> Sae'Varyn: Cura Superficial do T136 (3d [4, 5, 4] = 13) anulada, era só concentração
+> Sae'Varyn: 7 → *8/13 PV*
+> Tann'athar: segue a 0 PV, inconsciente
+
+Sae'Varyn continua ao lado do elfo caído, o bastão erguido, a concentração ainda de pé.
+
+O que vocês fazem?

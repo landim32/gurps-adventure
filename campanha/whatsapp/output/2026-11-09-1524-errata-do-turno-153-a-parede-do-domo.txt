@@ -1,0 +1,9 @@
+*ERRATA DO TURNO 153 — A PAREDE DO DOMO*
+
+O soldado que Gorbag prensou não desliza até o corredor sul. A força do ogro o arremessa de costas contra a parede de luz do Domo, que não cede. Ele bate com o corpo inteiro, o ar sai do peito, e o escudo e o gládio rolam pelas lajes. Fica caído junto da borda do Domo, zonzo, mal conseguindo se mexer.
+> Errata do Mestre: a projeção de 6 hexágonos do Guarda 124 terminou contra a parede do Domo (em (10,12)), e não em (10,17)
+> Colisão, como arremesso (ST 20 de Gorbag, alvo com mais de 50 kg): 2D contusão, 2d [2, 6] = *8*
+> RD 2 da loriga de couro → *6* de dano (6 → *0 PV*)
+> Dano abaixo da metade da HT (6): sem teste de queda; ele já estava caído. A 0 PV, faz HT a cada turno
+
+O que vocês fazem?

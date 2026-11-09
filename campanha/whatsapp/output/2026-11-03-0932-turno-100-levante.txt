@@ -1,0 +1,18 @@
+*TURNO 100 — LEVANTE*
+
+Gorbag arrasta o corpo enorme atrás do orc, o sangue ainda pingando do nariz. Passa pelo cadáver do elfo sem olhar para ele.
+> Gorbag (HT 15) para seguir consciente a −6 PV: 3d [1, 4, 5] = *10* → sucesso por 5
+
+Urzog atravessa o andar e, ao passar pelo corpo do elfo caído, encosta a ponta da espada de pedra roxa no peito dele. A voz que não é a dele diz uma palavra só: "Levante." A pedra roxa pulsa, e o ar em volta do cadáver fica frio. O corpo estremece uma vez e para. Algo começa a se mexer por dentro dele.
+> Zumbi (espada de pedra roxa, toque em Faelar): NH 25, −5 mana baixa = *20*
+> 3d [4, 2, 1] = *7* → sucesso por 13
+> Custo: 0 (a espada conjura sozinha)
+> Tempo: 3 segundos para o morto se levantar
+
+Sae'Varyn dá um passo e meio e para, o bastão firme, o fôlego curto.
+
+Tann'athar anda dois passos, a harpia voando à frente, e para: o cansaço pesa nas pernas.
+
+Krag segue o orc de perto, o cão no calcanhar, e chega perto dele. Não há golpe nem tiro a dar.
+
+O que vocês fazem?

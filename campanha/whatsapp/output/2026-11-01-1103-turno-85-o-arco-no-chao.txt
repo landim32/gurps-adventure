@@ -1,0 +1,31 @@
+*TURNO 85 — O ARCO NO CHÃO*
+
+Gorbag vira as costas para a serpente e dá o primeiro passo, mas o crânio pesa como chumbo e o chão sobe ao encontro dele. O ogro tomba de lado, o sangue do nariz pingando na pedra, e não se mexe mais.
+> Gorbag (−2 PV): HT 15 para não desmaiar
+> 3d [5, 5, 6] = *16* → falhou por 1
+> Gorbag fica *INCONSCIENTE* e a peça volta ao hexágono onde ele estava
+
+O basilisco não solta a presa: entre os que estão ao alcance do olhar, o ogro caído, indefeso, está tão perto quanto qualquer um. A pontada atrás dos olhos volta, mais curta.
+> Olhar do basilisco em Gorbag: NH 16 −5 (5 hexágonos) = *11*
+> 3d [2, 2, 6] = *10* → sucesso por 1
+> Dano: 2D+2: [1, 1] +2 = *4* (sem RD, sem defesa)
+> Gorbag: −2 → *−6 PV*
+
+Urzog berra para o andar inteiro, com a voz que não é a dele: "Matem o basilisco, idiotas, esqueçam o resto!". Anda quatro passos e para, a espada de pedra roxa erguida.
+
+Krag puxa uma flecha da aljava num só gesto, a encaixa e atira de onde está, sem apontar. A corda estala, mas a mão falha e o arco escapa dos dedos, voando para a frente dele e caindo a uns três metros.
+> Sacar Rápido (Flecha): NH 14, 3d [2, 4, 6] = *12* → sucesso por 2
+> Ataque: Arco NH 17, −5 velocidade/distância (11 m), −2 tamanho diminuto do basilisco, −4 Tiro Rápido (NH ajustado 10 não alcançou o TR 15) = *6*
+> 3d [6, 4, 6] = *16* → *FALHA CRÍTICA* (por 10)
+> *ERRO CRÍTICO!* Tabela de Erros Críticos: 3d [4, 4, 6] = *14*
+> _A arma voa da mão e cai a 1d metros (50% para frente, 50% para trás)._ 1d = *3* (3 m); 1d = *1* (para a frente)
+> Flecha perfurante: o arco só foi derrubado
+
+Sae'Varyn avança dois hexágonos rente à parede, os olhos baixos, a maça na mão.
+
+Tann'athar termina a conjuração, os lábios mexendo na língua das emoções. A mulher alada solta as grades, o canto morre e ela vira o rosto pálido para o meio-elfo, mansa como cão que reconhece o dono.
+> Lealdade (iniciada no T84): sucesso por 1
+> Resistência da mulher alada: IQ 5, 3d [1, 6, 3] = *10* → falhou por 5
+> Custo: 2 de Fadiga ×3 (alvo adversário) = *6*; Fadiga 8 → *2*
+
+O que vocês fazem?

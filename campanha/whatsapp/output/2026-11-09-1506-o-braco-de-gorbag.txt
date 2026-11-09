@@ -1,0 +1,10 @@
+*O BRAÇO DE GORBAG*
+
+Gorbag olha o braço esquerdo pendurado ao lado do corpo. Fecha a mão grande uma vez, devagar, e sente os dedos responderem de longe, como se pertencessem a outro ogro. Não há osso para fora nem carne aberta. O couro grosso segurou o que tinha de segurar, e o mal ficou nos nervos e nos músculos, que se recusam a obedecer.
+> Teste de HT de Gorbag para a lesão incapacitante (braço esquerdo): HT 15
+> 3d [6, 2, 3] = *11* → sucesso por 4
+> *Lesão TEMPORÁRIA:* o braço volta ao normal quando Gorbag recuperar todos os PV perdidos. Até lá, segue maneta
+
+Ele resmunga algo sobre carne que não presta e troca o machado de Urzog para a mão boa.
+
+O que vocês fazem?

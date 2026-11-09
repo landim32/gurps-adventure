@@ -69,6 +69,18 @@ _(o que de fato aconteceu com estes NPCs durante o jogo — ferimento que ficou,
 - **22/10/2026 16:50** · _estado_ — Turno 28: guarda 2 ajoelhado a 9/12 com Farejo mordendo o braço; guarda 87 e Capitã atacaram o javali e erraram.
 - **22/10/2026 16:53** · _ferimento_ — ERRATA turno 28: o guarda 87 levou flecha de Krag na cabeça (14 de dano), a -2 PV, caído e atordoado; não atacou. O guarda 2 está ajoelhado a 9/12 com Farejo no braço. Anotação anterior do T28 sobre o guarda 87 anulada.
 - **22/10/2026 17:57** · _estado_ — Turno 29: guarda 87 segue caído e atordoado a -2 PV; guarda 2 se levantou (9/12) com Farejo no braço.
+- **03/11/2026 22:28** · _estado_ — T106: guarda de Orvin no térreo (mapNpc 111, PV 12/12) em Defesa Total; recebe Armadura +5 RD no T107.
+- **03/11/2026 23:12** · _estado_ — T107: com Armadura +5 RD ativa por 1 min (tronco RD 9, resto RD 5), em Defesa Total. Guarda de Orvin no térreo (mapNpc 111).
+- **04/11/2026 09:47** · _estado_ — ERRATA (Mestre, T108): o guarda de Orvin (mapNpc 111) e os guardas da guarnição usam loriga de couro (tronco DP 2/RD 2), espada curta (gládio, Espadas Curtas NH 12) e escudo de madeira (médio, DP 3); NÃO cota de malha nem montante. Com Armadura +5: tronco RD 7, resto RD 5. T108: golpe Molinete na harpia, errou; virado a SW.
+- **05/11/2026 00:15** · _estado_ — T114: Armadura +5 RD ANULADA por Mor'Dhaun (perdida para sempre); só loriga de couro (tronco RD 2). Golpeou a harpia (-6).
+- **05/11/2026 10:56** · _ferimento_ — T115: mordida de Farejo no braço (3) e chute de Grumel no tronco (3): 6/12 PV; choque -4 no T116.
+- **05/11/2026 11:48** · _estado_ — T116: Farejo prendeu o braço da espada e venceu a Disputa de ST; o guarda largou o gládio (no chão em 9,8). 6/12 PV, só escudo e loriga (tronco RD 2).
+- **05/11/2026 13:19** · _estado_ — T117: sem gládio, começa a apanhá-lo do chão (1º de 2 turnos); 6/12 PV.
+- **05/11/2026 16:57** · _ferimento_ — T118: nocauteado por Grumel (cabeça); perna incapacitada pela harpia; -4/12 PV, inconsciente, sem gládio na mão.
+- **09/11/2026 12:25** · _estado_ — ERRATA (Mestre, pós-T151): os Guardas do Castelo usam armadura de couro COMPLETA, só o rosto (cabeça, área 5) sem proteção: crânio/cérebro (áreas 3-4) capacete de couro DP 2/RD 2 (+RD 2 do crânio no cérebro); tronco, órgãos vitais, braços, pernas: loriga de couro DP 2/RD 2; mãos: cesto de couro DP 2/RD 2; pés: coturnos DP 2/RD 2; rosto DP 0/RD 0. Escudo médio (DP 3) e gládio como antes. Substitui a errata do T108, que só dava RD 2 ao tronco. Vale para todos os guardas da guarnição (Arqueiros seguem como estavam).
+- **09/11/2026 15:19** — T153: derrubado pelo Encontrão de Gorbag e projetado 6 hex, de (10,11) para (10,17), caído, 6/12 PV; marcas do mapa indicam o círculo de fogo (dúvida do Mestre). Desnorteado pelo Teleportar Outros.
+- **09/11/2026 15:22** — ERRATA (Mestre, T153): a projeção do Encontrão de Gorbag (6 hex) terminou contra a parede do Domo de Mor'Dhaun, não em (10,17); dano de colisão 2D contusão (MB, Arremessando Objetos) 2d [2,6]=8, RD 2 -> 6 passam: 6 -> 0 PV, caído, em (10,12) junto ao Domo. HT a cada turno a 0 PV. Substitui a projeção até (10,17) e o fogo.
+- **09/11/2026 15:52** — T154: falhou o HT a 0 PV (14 vs 12) e ficou inconsciente, caído no topo da montanha, em (10,5).
 
 ## Criada do Castelo 2
 
@@ -89,12 +101,19 @@ _(o que de fato aconteceu com estes NPCs durante o jogo — ferimento que ficou,
 ## Farejo
 
 - **22/10/2026 12:27** · _estado_ — Turno 27: atrás do guarda 2 em (34,10), sem morder (errata do Mestre).
+- **04/11/2026 13:06** · _ferimento_ — levou o Toque Mortal de Orvin no T109: 5/15 PV, atordoado; ataca com -10 no T110
+- **04/11/2026 14:49** · _ferimento_ — T110: 5/15 PV; andou ate o guarda, sem morder
+- **06/11/2026 10:43** · _estado_ — T121: Ataque Total em Faelar Zumbi; curado por Sae'Varyn, 13/15 PV.
+- **08/11/2026 21:20** · _estado_ — T146: Encontrão no Guarda 5 falhou (ST 11 vs 7); caído, projetado para (16,11), ao lado do Guarda 3. Krag parou de empurrar Gorbag (acumulado 3/5 guardado).
 
 ## Guarda do Castelo 2
 
 - **22/10/2026 19:59** · _estado_ — Turno 32: recuperou do atordoamento; 1 PV; está em (31,9), adjacente a Gorbag (ataca no T33). Deslocamento pela metade (PV 1 a 3).
 - **22/10/2026 20:29** · _estado_ — T34: a -21 PV por golpe de Gorbag na cabeça; atordoado, em (31,8).
 - **22/10/2026 21:18** · _morte_ — Turno 35: morto por Gorbag, golpe no pescoço (22 de corte); corpo em (31,7).
+- **09/11/2026 12:40** · _ferimento_ — T152: pulou do andar de cima; caiu em (11,11) a 0 PV, atordoado (mapNpc novo no mapa 13).
+- **09/11/2026 12:58** · _errata_ — ERRATA (Mestre, T152): o Guarda 2 falhou no salto e não caiu em pé: ficou CAÍDO e ATORDOADO em (11,11), a 0 PV. Vale o HT de atordoamento no início de cada turno.
+- **09/11/2026 16:49** — T157 (decisão do Mestre): rendeu-se e foi morto por Gorbag com o machado de Urzog, em (11,5), no topo da montanha. MORTO.
 
 ## Barão Nabbick
 
@@ -120,11 +139,17 @@ _(o que de fato aconteceu com estes NPCs durante o jogo — ferimento que ficou,
 - **26/10/2026 22:38** · _ferimento_ — T65: facada de Gorbag na barriga (12) e chute de Urzog (2): PV -8, atordoado. Tentou Toque Mortal queimando 2 PV (-10), falhou no HT 10 (14) e desmaiou; mágica interrompida, energia não gasta. Inconsciente, segue erguido pelo pescoço (3º de 10 turnos sem ar). Fadiga 2/10.
 - **26/10/2026 22:42** · _morte_ — T66: MORTO. Gorbag falhou na Vontade 9 (15) e o esfaqueou inconsciente (faca, 14 de dano); morte automática por decisão do Mestre (MB, inconsciente atacado de modo letal). Peça no roll6 ainda em -8 PV até o process_turn do T66.
 - **27/10/2026 06:02** · _estado_ — Corpo caído em M17 (T66), sem nada de útil: Sae'Varyn revistou e Tann'athar vasculhou a cela e o andar (decisão do Mestre).
+- **03/11/2026 09:32** · _estado_ — T100: Urzog/Mor'Dhaun tocou o corpo com a espada (Zumbi NH 25-5=20, sucesso por 13). Levanta como zumbi em 3 s, ao fim do T102 (de pé no T103), servo de Mor'Dhaun. Sem alma, sem perícias mentais nem memórias.
+- **03/11/2026 09:42** · _estado_ — T100 (pedido do Mestre): criado o NPC 'Faelar Zumbi' no roll6 (npcId 54, campaignNpcId 55, Aliado, token Mago Elfo). ST 11, DX 12, IQ 12, HT 15 (base ST 10 DX 12 IQ 14 HT 10 + Zumbi); PV 15, Fadiga 11, Desl. 6, Esquiva 6, desarmado, sem armadura, não lança mágicas. Ocorrência do corpo (105) trocada por mapNpcId 106 em (11,15), deitada: só levanta ao fim do T102 (de pé no T103).
+- **03/11/2026 09:51** · _estado_ — T102: ao fim do turno o zumbi de Faelar (NPC 'Faelar Zumbi', mapNpcId 106) se levanta, em (11,15), desarmado, servo de Mor'Dhaun. Age a partir do T103. Sem ordem do Mestre, não segue ninguém.
+- **03/11/2026 09:53** · _estado_ — ERRATA (Mestre, T102): Faelar Zumbi está animado, mas AINDA NÃO está de pé; a anotação anterior ('se levanta ao fim do T102') e a Narração 138 ('se põe de pé') estão corrigidas por esta. No roll6, mapNpcId 106 em (11,15), postura caído (2), desarmado. Quando fica de pé fica a critério do Mestre.
+- **03/11/2026 10:03** · _estado_ — T104: o zumbi de Faelar (mapNpcId 106) está de pé em (11,15), desarmado, servo de Mor'Dhaun (animado no T100, caído até o T102, ajoelhado no T103, de pé no T104 por decisão do Mestre). Age a partir do T105.
 
 ## Grumel
 
 - **27/10/2026 20:21** · _estado_ — Zumbi na gaiola pequena do 3º andar (nome dado pelo Mestre no T68). Fala, mas o mínimo e totalmente desinteressado dos PJs: 'Falo.', 'Grumel.', 'Morto.'. Não disse se tem mestre. Olha os próprios joelhos.
 - **01/11/2026 01:46** · _informação_ — T84: Sae'Varyn o encara e pergunta se mata a serpente; responde só 'Morto.'. Não obedeceu ao grito de Mor'Dhaun (era para o grupo, decisão do Mestre).
+- **04/11/2026 13:06** · _relação_ — no T109 ficou atrás do guarda, fora da vista; finta sem efeito; desarmado
 
 ## Golem de Pedra
 
@@ -134,12 +159,84 @@ _(o que de fato aconteceu com estes NPCs durante o jogo — ferimento que ficou,
 
 - **30/10/2026 19:45** · _informação_ — T81: apresentou-se a Krag pelo corpo de Urzog ('Vaelrith Mor'Dhaun'); disse que sair é fácil, sem dar o caminho.
 - **31/10/2026 14:19** · _informação_ — T83: disse a Sae'Varyn que controla o zumbi Grumel, se chegar perto o bastante para vê-lo. Concentra Bola de Fogo (lança no T84, NH 16 com mana baixa); Gorbag tem Fobia de Fogo.
+- **02/11/2026 19:03** · _estado_ — T90: ao pedido de Sae'Varyn para curar Gorbag, responde que não há tempo: a guarnição já deve estar entrando na torre. Cura Profunda dele: NH 21 -5 (mana baixa) = 16 (Mestre).
+- **05/11/2026 00:15** · _estado_ — T114: Anulação de Magia NH 21 (1 hex, custo 3-2=1 da gema da espada) sobre o guarda; venceu a resistência de Orvin.
 
 ## Mulher alada (harpia)
 
 - **31/10/2026 14:19** · _estado_ — T83: decisão do Mestre, o Sex Appeal dela não adianta mais; canta e se agita sem efeito.
+- **01/11/2026 11:03** — T85: Lealdade de Tann'athar pegou (IQ 5 falhou por 5); leal a ele por 1 hora (ate ~T85 + 1 h), ainda na gaiola.
+- **04/11/2026 21:35** · _ferimento_ — T113: gládio do guarda no tronco, -7 PV (0/14 no roll6), atordoada (-4 nas defesas); HT 13 no início do T114.
+- **05/11/2026 10:56** · _ferimento_ — T115: recuperou-se do atordoamento (HT 13) e gastou o turno; estocada do guarda -4: -10/14 PV; choque -4 no T116; HT de consciência no início do turno.
+- **06/11/2026 07:20** · _estado_ — T120: Terror de Orvin, Pânico falhou por 1: atordoada T120-T121 (Vontade a partir do T122), 2 de Fadiga (11/13). -10/14 PV, consciente (HT 11).
 
 ## Basilisco
 
 - **31/10/2026 14:36** · _estado_ — Imune a magia (decisão do Mestre, T83/T84, lembrado por Mor'Dhaun após Naturalista passar por 4). A Bola de Fogo e qualquer outra mágica não o afetam.
 - **01/11/2026 01:46** · _estado_ — T84: NPC 52 no roll6 (mapNpc 101, mapa 15), PV 4. Manteve o olhar em Gorbag (mais próximo, 5 hex).
+- **02/11/2026 18:45** · _estado_ — T89: MORTO por Urzog (montante, 25 de dano); corpo em (2,9).
+
+## Mulher alada
+
+- **02/11/2026 19:31** · _estado_ — T91: solta da gaiola por Tann'athar (chaves); leal a ele pela Lealdade (cerca de 1 h desde o T85).
+- **04/11/2026 13:06** · _ferimento_ — levou o gládio do guarda no tronco no T109: 7/14 PV, atordoada; ataca com -7 no T110
+- **04/11/2026 14:49** · _ferimento_ — T110: saiu do atordoamento (HT 13); 7/14 PV
+- **07/11/2026 12:50** · _ferimento_ — T127: -24 PV no roll6, braço incapacitado, atordoada; flechas dos Arqueiros 4 e 5.
+
+## Zumbi Grumel
+
+- **02/11/2026 20:33** · _estado_ — T92: Controle de Zumbi de Mor'Dhaun falhou (criador, sucesso decisivo por 12); segue preso na jaula (11,4), sob o criador.
+- **02/11/2026 21:01** · _estado_ — T93: solto da jaula por Krag; diz que luta pelo grupo; sob o criador (Controle de Zumbi de Mor'Dhaun falhou no T92).
+- **05/11/2026 21:28** · _estado_ — T119: agachado, apanhando gládio e escudo do guarda caído (1º de 2 turnos). Faelar Zumbi, agora inimigo (servo de Orvin), o chutou e errou.
+
+## Grã-Mago Orvin Thale
+
+- **03/11/2026 22:28** · _estado_ — T106: no térreo, toca o guarda e se concentra em Armadura +5 RD (teste no T107; NH 20 provisório, fonte sem custo e sem -5).
+- **03/11/2026 23:12** · _estado_ — T107: fechou Armadura +5 RD no guarda (NH 20 provisório, 3d 12, sucesso por 8; fonte sem custo). Mantém a mágica (1 min).
+- **04/11/2026 09:47** · _ferimento_ — T108: mordido no pé por Farejo (1 PV, 9/10); -1 no ataque no turno seguinte. Só Concentrou, mantém Armadura no guarda.
+- **04/11/2026 21:17** · _estado_ — T112: passou no HT 10 (8) e saiu do atordoamento; 3/10 PV; Armadura +5 RD mantida no guarda; Domo perdido.
+- **04/11/2026 21:34** · _estado_ — T113: Concentra em Domo (ordem do Mestre); teste no início do T114. Raio/tipo do Domo a definir pelo Mestre. 3/10 PV.
+- **05/11/2026 00:15** · _estado_ — T114: Domo de Força de 1 hex em volta dele (9,9), 10 min; nada físico ou projétil entra (flecha de Krag barrada). Armadura +5 RD do guarda anulada por Mor'Dhaun.
+- **06/11/2026 07:20** · _estado_ — T120: lançou Terror (NH 20-4=16, por 6). Domo de Força ANULADO por Urzog (8 contra 7). Sem mágica ativa, 10/10 PV.
+- **06/11/2026 10:43** · _estado_ — T121: MORTO. Flecha de Krag nos órgãos vitais (21, -11 PV, inconsciente) e estocada de Urzog/Mor'Dhaun (30, -41 PV); falhou HT ao cruzar -20. Controle de Zumbi sobre Faelar Zumbi acabou: aguarda decisão do Mestre sobre quem o comanda.
+
+## Orvin
+
+- **04/11/2026 13:06** · _item_ — mantém Armadura (+5 RD) no guarda; usou Toque Mortal em Farejo no T109
+- **04/11/2026 14:49** · _ferimento_ — T110: flecha de Krag na cabeça, 3/10 PV, atordoado (HT no início do turno), -6; concentrando em Domo (mantida, -6 na mágica)
+- **04/11/2026 15:07** · _ferimento_ — T111: falhou o HT 10 (16), segue atordoado a 3/10 PV; o Domo se perdeu; mantém Armadura +5 RD no guarda
+- **05/11/2026 10:56** · _estado_ — T115: Concentra em Cura Profunda em si mesmo; teste no início do T116. Domo de Força de 1 hex mantido. 3/10 PV.
+- **05/11/2026 11:48** · _estado_ — T116: Cura Profunda em si mesmo (NH 20, sucesso por 6; 8 PV): 10/10 PV. Domo de Força de 1 hex mantido.
+- **05/11/2026 13:19** · _estado_ — T117: Domo de Força de 1 hex mantido (resistiu à Anulação de Urzog, 10 contra 8); Orvin concentra em nova mágica (teste no início do T118).
+
+## Faelar Zumbi
+
+- **05/11/2026 00:15** · _ferimento_ — T114: falha crítica no chute, acertou a própria perna esquerda (-4 PV, 11/15).
+- **05/11/2026 16:57** · _estado_ — T118: Orvin venceu a disputa de Controle de Zumbi (10 contra 9); passa a servir Orvin, parado até receber ordem. Ação repetida de Mor'Dhaun removida.
+- **06/11/2026 07:20** · _ferimento_ — T120: mordido por Farejo (3), 8/15 PV; falha crítica no chute, desequilibrado: sem ação e defesas -2 até o T121, -3 no ataque do T121.
+- **06/11/2026 10:43** · _ferimento_ — T121: mordido por Farejo na perna (6), 2/15 PV; ataca com -6 no T122. Sem dono desde a morte de Orvin (decisão do Mestre pendente).
+- **06/11/2026 14:28** · _estado_ — T122: DESTRUÍDO por Grumel (-11 PV), caído em (10,8) com o gládio cravado.
+
+## Arqueiro da torre
+
+- **05/11/2026 10:56** · _estado_ — T115: três arqueiros NH 12 em (11,19), (9,19), (10,20); ação repetida: sacar, apontar e atirar no inimigo mais próximo (Urzog, 9-10 hex). Arqueiro 1 falhou o Sacar Rápido; 2 e 3 em 1º turno de mira.
+- **05/11/2026 11:48** · _estado_ — T116: arqueiro 2 derrubou o arco (erro crítico); arqueiro 3 errou o tiro; arqueiro 1 começa a mirar em Urzog.
+- **06/11/2026 07:31** · _estado_ — Narração 157 (Mestre): o Arqueiro 1 (mapNpc 113, em 11,19) foi trocado pelo Arqueiro da torre 4, veterano, Arco NH 16 (os demais seguem NH 12). Mesma ação repetida; PV 10, sem flecha encaixada, saca e mira no T121. Os arqueiros 2 e 3 serão trocados nos turnos seguintes, um por turno.
+- **06/11/2026 10:45** · _estado_ — Narração (Mestre, T122): Arqueiro 2 (mapNpc 114, em 9,19) trocado pela Arqueira 5, veterana, Arco NH 16 (mesma ação repetida, PV 10, sem flecha, saca no T122). Arqueiros 3 (NH 12) e 4 (NH 16) seguem.
+- **06/11/2026 10:53** · _estado_ — ERRATA (Mestre, T122, narração refeita): surge o Arqueiro 6 onde estava o Arqueiro 3 (10,20); o Arqueiro 3 se agacha (à frente). NH do Arqueiro 6 não informado.
+- **06/11/2026 17:15** · _estado_ — T123: A4, A5, A6 erraram (defendidos) em Urzog; Arqueiro 7 (mapNpc 121, veterano NH 16, em 9,19) entra; A3 e A7 com flecha encaixada, 1º turno de mira em Urzog. Domo de Mor'Dhaun passa a barrar os tiros.
+
+## Arqueiro da torre 3
+
+- **05/11/2026 16:57** · _estado_ — T118: falha crítica, derrubou o arco; leva 2 turnos para apanhar. Arq1 sem flecha (Sacar Rápido falhou); Arq2 com o arco na mão, sem flecha.
+- **06/11/2026 14:28** · _estado_ — T122: agachado, errou o tiro em Urzog (NH 7); sem flecha, saca no T123. Arqueiros 4, 5 e 6 com flecha encaixada, 1º turno de mira em Urzog.
+
+## Arqueiro 3
+
+- **06/11/2026 22:19** — T124: arqueiros 3, 4, 5 e 6 miram em Tann'athar (mais próximo, fora do Domo); Arqueiro 7 atirou em Urzog e o Domo barrou.
+- **07/11/2026 05:16** — T125: arqueiros 3-6 atiraram em Tann'athar; Arqueiro 3 acertou (fulminante). Arqueiro 7 mira nele (1º turno).
+- **07/11/2026 11:58** · _estado_ — T126: arqueiros 3, 4, 5 e 6 miram a harpia (1º turno); Arqueiro 7 atirou em Tann'athar (errou) e saca no T127.
+
+## Guarda do Castelo 7
+
+- **09/11/2026 16:42** — T156: braço esquerdo (do escudo) incapacitado por Grumel, 4 PV; flecha de Krag nos órgãos vitais: -5 PV; inconsciente (HT 14 vs 12), em (12,4).

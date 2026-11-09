@@ -1,0 +1,20 @@
+*TURNO 86 — AS CHAVES NO CHÃO*
+
+Urzog berra "Lerooooooy jenkins!" na voz que não é a dele e dispara andar adentro, três passos largos, a espada de pedra roxa balançando. Para rente ao elfo, ainda a uma boa distância da serpente.
+
+O basilisco não larga o ogro caído. A pontada atrás dos olhos tenta voltar, mas o olhar escorrega. Gorbag continua no chão, sangrando do nariz, sem se mexer.
+> Olhar do basilisco em Gorbag: NH 16 −4 (4 hexágonos) = *12*
+> 3d [3, 6, 5] = *14* → falhou por 2
+> Sem dano
+
+Krag solta o ar pelos dentes e atravessa o andar a passo de caça, o cão colado na bota, até parar ao lado do arco jogado no piso. Ainda não se abaixou: apanhá-lo vai levar o próximo par de segundos.
+
+Tann'athar grita para o elfo: "Varyn! Joga as chaves das jaulas!". Sae'Varyn gira o corpo, mede o vão com o olhar e arremessa o molho de ferro por cima das gaiolas.
+> Arremesso: Sae'Varyn, DX 11 = *11*
+> 3d [3, 4, 1] = *8* → sucesso por 3
+As chaves cruzam o andar tilintando, direto para as mãos do meio-elfo.
+> Apanhar no ar: Tann'athar, DX 12 = *12*
+> 3d [6, 6, 3] = *15* → falhou por 3
+Os dedos fecham tarde demais. O molho bate no piso aos pés dele, com um estalo de ferro. A mulher alada, na gaiola, não tira os olhos dele.
+
+O que vocês fazem?

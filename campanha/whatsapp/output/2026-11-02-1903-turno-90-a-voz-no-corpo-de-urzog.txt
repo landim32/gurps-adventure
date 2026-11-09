@@ -1,0 +1,18 @@
+*TURNO 90 — A VOZ NO CORPO DE URZOG*
+
+Urzog ainda está de pé, sangrando do nariz, a espada de pedra roxa apoiada no chão. A voz que não é a dele resmunga e o corpo teima em não tombar.
+> Urzog (HT 18) para seguir consciente a −2 PV: 3d [4, 4, 3] = *11* → sucesso por 7
+
+Sae'Varyn chega junto do ogro caído e fala para o orc, sem tirar os olhos do chão: o ogro é valioso para sair dali, ele mesmo está quase esgotado, e pode despertá-lo, mas não terá fôlego para curá-lo. Pergunta se o necromante pode fazê-lo.
+
+A voz dentro de Urzog não olha para o ogro. "Não há tempo para isso. A guarnição já deve estar entrando na torre." Em vez de socorrer o ogro, a mão suja de sangue de Urzog toca o próprio peito e a pedra roxa do montante pulsa. As feridas se fecham como cera quente, e o orc respira fundo.
+> Cura Profunda (Mor'Dhaun em Urzog): NH 21, −5 mana baixa = *16*
+> 3d [2, 6, 3] = *11* → sucesso por 5
+> Custo: 4 de Fadiga (Urzog 8 → *4*); restitui o dobro: 8 PV
+> Urzog: −2 → *6 PV*
+
+Krag atravessa o andar a passo largo, o arco com a flecha ainda na corda, mas a mira se perde na corrida. Para a dois passos do ogro, perto demais para ouvir o orc e longe demais para tocá-lo. Quem dirige o corpo de Urzog já decidiu: o socorro não vem.
+
+Tann'athar fecha o último passo até a gaiola, o molho de chaves na mão. A mulher alada o encara de dentro das grades, os olhos presos no meio-elfo, e abre a mão magra por entre as barras.
+
+O que vocês fazem?

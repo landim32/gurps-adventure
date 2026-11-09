@@ -1,0 +1,25 @@
+*TURNO 92 — AS CHAVES CRUZAM O ANDAR*
+
+Urzog atravessa o piso em quatro passos largos e estende a mão suja de sangue para a jaula do zumbi. A pedra roxa do montante pulsa, a voz que não é a dele murmura na língua dos mortos, e o ar fica frio. Do outro lado das barras, o morto estremece, mas a vontade que o prende é mais velha e mais forte. Ele não obedece.
+> Controle de Zumbi (Mor'Dhaun em Urzog): NH 21, −5 mana baixa = *16*
+> 3d [3, 2, 3] = *8* → sucesso por 8
+> Resistência da mágica Zumbi do criador: NH 15, +2 criador a menos de 100 m = *17*
+> 3d [1, 2, 2] = *5* → *SUCESSO DECISIVO* por 12
+> Disputa Rápida: 12 contra 8, o criador vence. O zumbi segue preso a quem o criou
+> Custo: 3 de Fadiga (Urzog 4 → *1*)
+
+Sae'Varyn encosta a ponta do bastão no peito do ogro caído e solta a magia. O fôlego dele falha: a faísca estala na palma, queima a pele e morre sem acordar ninguém.
+> Despertar (Sae'Varyn em Gorbag): NH 16, −5 mana baixa = *11*
+> 3d [6, 5, 6] = *17* → *FALHA CRÍTICA* por 6
+> Tabela de falhas críticas em magia: 3d [2, 1, 6] = *9* → a mágica falha completamente e o operador sofre 1 ponto de dano
+> Custo: 1 de Fadiga (Sae'Varyn 4 → *3*); 1 PV de dano (13 → *12*)
+
+Krag cola as mãos na boca e grita por cima das gaiolas para o meio-elfo atirar as chaves. Tann'athar não vem: faz girar o molho de ferro na mão e o arremessa por cima do andar. As chaves cortam o ar tilintando.
+> Arremesso das chaves: Tann'athar, DX 12 = *12*
+> 3d [3, 1, 2] = *6* → sucesso por 6
+> Apanhar no ar: Krag, DX 14 = *14*
+> 3d [1, 1, 4] = *6* → sucesso por 8
+
+O molho cai na mão aberta do caçador. Ele fecha os dedos e o ferro estala. As chaves estão com ele.
+
+O que vocês fazem?

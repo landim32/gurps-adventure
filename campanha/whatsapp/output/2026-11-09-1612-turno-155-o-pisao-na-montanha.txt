@@ -1,0 +1,42 @@
+*TURNO 155 — O PISÃO NA MONTANHA*
+
+Farejo avança sobre o soldado desacordado e fecha os dentes no braço da espada. A mordida escorrega no couro e não pega.
+> Ataque de Farejo: Mordida NH 12, -2 Braço = *10*
+> 3d [5, 2, 4] = *11* → falha por 1
+
+Gorbag aguenta de pé, ergue a bota de bico de aço sobre a cabeça do soldado caído e desce o pé com todo o peso. O vento assobia, mas o ogro erra o ponto: a bota bate na pedra ao lado do capacete, e ele precisa se firmar para não cair.
+> Gorbag: HT 15, 3d [2, 3, 6] = *11* → sucesso por 4, segue consciente a -5 PV
+> Pisão de Gorbag (Chute): Briga 15 -2 (chute) = NH 13, -5 Cabeça = *8*
+> 3d [6, 4, 6] = *16* → falha por 8
+> Chute errado: DX 14, 3d [5, 2, 1] = *8* → sucesso por 6, não cai
+
+O zumbi de gládio e escudo corta o pé do soldado ao lado dele. O soldado põe o escudo na frente e o golpe morre na madeira.
+> Ataque do Zumbi Grumel: Espadas Curtas NH 12 = *12* (ponto de impacto sorteado: 3d [6, 6, 4] = 16, pé, sem redutor)
+> 3d [1, 6, 5] = *12* → sucesso por 0
+> Defesa do Guarda 7: esquiva 5 +2 DP armadura +3 DP escudo = *10*
+> 3d [2, 1, 5] = *8* → defendeu por 2
+
+Krag dá um passo curto, tira outra flecha da aljava num só movimento e a encaixa, com o olhar preso no soldado do outro lado do zumbi.
+> Sacar Rápido (Flecha) de Krag: NH 14, 3d [4, 3, 2] = *9* → sucesso por 5, flecha sacada e encaixada
+> Apontar: 1º turno, sem tiro (o tiro sai no T156)
+> Deslocamento: 1 hexágono, de (9,2) para (10,2)
+
+O orc de olhar vazio dá um passo para o lado, firmando os pés na rocha fria.
+> Deslocamento: 1 hexágono, de (8,4) para (8,5)
+
+Sae'Varyn fecha a guarda, de cajado na frente do corpo, sem tirar os olhos dos soldados.
+> Defesa Total
+
+O soldado caído ao lado respira fundo, firma a mão no chão e consegue erguer o tronco, ainda sem forças para ficar de pé.
+> Guarda do Castelo 2 (0 PV): HT 12, 3d [3, 3, 3] = *9* → sucesso por 3, segue consciente
+> Levanta: de deitado a ajoelhado, 1º turno (de pé no T156)
+
+O soldado ao lado do zumbi tenta uma estocada na perna dele. O morto levanta o escudo e a lâmina morre na madeira.
+> Ataque do Guarda 7: Espadas Curtas NH 12 = *12* (ponto de impacto sorteado: 3d [3, 5, 5] = 13, perna, sem redutor)
+> 3d [4, 3, 1] = *8* → sucesso por 4
+> Defesa do Zumbi Grumel: esquiva 7 +3 DP escudo = *10*
+> 3d [2, 2, 3] = *7* → defendeu por 3
+
+O soldado que desmaiou continua estendido, e Tann'athar segue caído, sem se mexer.
+
+O que vocês fazem?

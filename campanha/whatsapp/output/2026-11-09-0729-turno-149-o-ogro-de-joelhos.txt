@@ -1,0 +1,23 @@
+*TURNO 149 — O OGRO DE JOELHOS*
+
+Gorbag apoia as mãos nas pedras, o sangue ainda escorrendo, e ergue o tronco até ficar de joelhos. Falta o resto para chegar em pé.
+> Gorbag: HT 15, 3d [2, 3, 1] = *6* → sucesso por 9, segue consciente a -12 PV
+> Levantar: de bruços a de pé são 2 turnos; este é o 1º (ajoelha)
+
+Krag corre pela sala até a borda norte do domo, a flecha ainda encaixada, mas o turno vai todo na corrida e ele não chega a mirar.
+> Deslocamento: 4 hexágonos (Deslocamento 5), de (11,10) para (9,7); sem Apontar neste turno
+
+Sae'Varyn recua um passo para o centro do domo, de costas, os lábios se mexendo nas palavras do Despertar. A mágica só sai no turno seguinte.
+> Avançar e se Concentrar: 1 hexágono
+
+Em cima, os soldados chegam perto da borda e olham os quatro metros de pedra lá embaixo. Nenhum salta.
+> Guarda 5: IQ 10, 3d [3, 2, 3] = *8* → sucesso por 2 (não pula)
+> Guarda 3: IQ 10, 3d [4, 2, 4] = *10* → sucesso por 0 (não pula)
+
+Os arqueiros apontam as flechas, sem soltar a corda.
+
+O orc de olhar vazio segue no mesmo murmúrio, a luz roxa do cabo pulsando devagar.
+
+Tann'athar continua caído, sem se mexer.
+
+O que vocês fazem?

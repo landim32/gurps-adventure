@@ -1,0 +1,24 @@
+*TURNO 88 — O MONTANTE E A SERPENTE*
+
+Urzog dá um passo para dentro, a espada de pedra roxa lampejando no alto, e desce o montante inteiro sobre a serpente, sem guardar nada para a defesa. O basilisco se contorce de lado e a lâmina morde só a pedra do chão, num estalo de faíscas roxas.
+> Ataque Total de Urzog: Montante encantado, NH 14 (DX 11 +3 da espada), +4 Ataque Total, −2 tamanho diminuto do basilisco = *16*
+> 3d [5, 1, 4] = *10* → sucesso por 6
+> Defesa do basilisco: esquiva 6 +1 DP da pele = *7*
+> 3d [2, 2, 2] = *6* → defendeu por 1
+> Sem dano. Urzog fica sem defesa ativa até o próximo turno
+
+A serpente vira a cabeça cristada e crava os olhos no orc, perto demais para errar. A pontada que antes era um alfinete agora é um prego. O sangue escorre do nariz de Urzog, o joelho dobra, mas a voz dentro dele, a de Mor'Dhaun, segura o corpo de pé.
+> Olhar do basilisco em Urzog: NH 16 −1 (1 hexágono) = *15*
+> 3d [5, 2, 1] = *8* → sucesso por 7
+> Dano: 2D+2: [6, 4] +2 = *12* (sem RD, sem defesa)
+> Urzog: 10 → *−2 PV*
+> Mor'Dhaun (HT 18: 15 do corpo +3 da espada) contra os 12 de dano: 3d [2, 1, 1] = *4* → sucesso por 14, sem efeito
+> Urzog (HT 18) para não desmaiar a −2 PV: 3d [6, 2, 4] = *12* → sucesso por 6, segue de pé
+
+Krag fecha a mão na madeira do arco e o ergue do piso, a corda ainda frouxa, sem flecha encaixada. O cão se encosta nele e rosna baixo para o fundo do andar.
+
+Sae'Varyn guarda a maça, empunha o bastão e dá um passo para o lado, sem tirar os olhos do chão, rente ao ogro que não se mexe.
+
+Tann'athar gira o corpo e segue para a gaiola com o molho de chaves tilintando na mão, mas o cansaço o prende: gasta o fôlego num passo curto e para, ainda longe da grade. A mulher alada o acompanha com os olhos, calada.
+
+O que vocês fazem?

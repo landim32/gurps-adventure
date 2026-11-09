@@ -1,0 +1,38 @@
+*TURNO 126 — O ELFO NÃO SE LEVANTA*
+
+O cão de Krag atravessa a borda da sala em trote curto e para junto do elfo caído, o pelo eriçado. O morto de gibão e escudo, Grumel, sai de perto do orc, cruza a pedra em passos duros e para mais ao norte. A voz dele sai seca e sem fôlego: "O domo está aberto por cima".
+
+A mulher alada continua caída contra o corredor sul, as asas arrastando, a cabeça pendendo. O medo não solta, mas ela respira e não apaga.
+> Mulher alada: HT 13 para seguir consciente a -14 PV, 3d [4, 1, 2] = *7* → sucesso por 6
+> Mulher alada: Vontade 5 para sair do atordoamento, 3d [4, 2, 3] = *9* → falhou por 4
+
+Krag enfia a flecha de volta na aljava e corre pela borda leste, o arco batendo na coxa. Para a dois passos do elfo, ainda sem alcançá-lo.
+
+O guarda de loriga tenta cravar o gládio na mulher alada outra vez. A ponta passa raspando o braço dela e acha só a pedra.
+> Ataque: Espadas Curtas NH 12 = *12* (ponto de impacto sorteado: 3d [3, 3, 2] = 8, braço, sem redutor)
+> 3d [6, 4, 4] = *14* → falhou por 2
+
+No corredor sul, o arqueiro veterano de barba cortada solta a corda. A flecha cruza a sala em arco e vai bater na pedra, perto da perna do elfo caído.
+> Arqueiro 7: Arco NH 16, -5 distância (11 m), +1 Precisão, +1 mira (2º turno), -4 alvo deitado, -2 Perna = *7*
+> 3d [2, 5, 1] = *8* → falhou por 1
+
+Os outros quatro tiram flechas novas, encaixam e miram a mulher alada, colada no canto do corredor.
+> Arqueiro 3: Sacar Rápido (Flecha) NH 12, 3d [2, 4, 3] = *9* → sucesso por 3
+> Arqueiro 3: 1º turno de mira na mulher alada (3 m)
+> Arqueiro 4: Sacar Rápido (Flecha) NH 16, 3d [3, 5, 1] = *9* → sucesso por 7
+> Arqueiro 4: 1º turno de mira na mulher alada (4 m)
+> Arqueira 5: Sacar Rápido (Flecha) NH 16, 3d [5, 4, 6] = *15* → sucesso por 1
+> Arqueira 5: 1º turno de mira na mulher alada (2 m)
+> Arqueiro 6: Sacar Rápido (Flecha) NH 16, 3d [3, 3, 6] = *12* → sucesso por 4
+> Arqueiro 6: 1º turno de mira na mulher alada (3 m)
+
+Sae'Varyn avança dois passos pela borda norte e grita para Krag: "O fogo ainda deve queimar por uns 40 segundos, caso não seja apagado com água. Temos que tentar acordar o Tann'athar com alguma das poções dele ou minha magia."
+
+Tann'athar tenta se mexer, mas os braços não respondem. O ar sai dele num chiado, os olhos reviram, e ele pende de bruços na pedra, sem sentidos.
+> Tann'athar: HT 11 para seguir consciente a 0 PV, 3d [4, 5, 6] = *15* → falhou por 4, *INCONSCIENTE*
+
+Urzog não se mexe. Os olhos seguem no vazio, o ar da fonte estala em volta dele, e a luz roxa do cabo pulsa devagar. Os lábios se mexem no mesmo murmúrio.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?

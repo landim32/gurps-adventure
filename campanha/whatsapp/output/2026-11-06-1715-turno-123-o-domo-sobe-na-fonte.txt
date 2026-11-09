@@ -1,0 +1,54 @@
+*TURNO 123 — O DOMO SOBE NA FONTE*
+
+O cão de Krag recua alguns passos pela pedra, o pelo eriçado, e fica de olho no corredor sul sem rosnar. O morto de gibão e escudo, Grumel, também não se mexe, o gládio baixo.
+
+A mulher alada segue de joelhos, as asas abertas sem força. O medo ainda não solta, mas ela respira e não cai.
+> Mulher alada: Vontade 5 para sair do atordoamento, 3d [1, 6, 1] = *8* → falhou por 3
+> Mulher alada: HT 13 para seguir consciente a -10 PV, 3d [4, 1, 4] = *9* → sucesso por 4
+
+Krag larga o degrau da escada num pulo. O pé encontra a quina do último degrau, a bota escorrega e ele cai de lado na pedra, o arco ainda na mão. A mira no corredor sul se perde.
+> Krag: pulo da escada, DX 14, 3d [5, 6, 5] = *16* → falhou por 2
+> Queda de cerca de 2 m: 2D-10 → sem dano
+
+O guarda de loriga continua caído de lado, imóvel.
+
+No corredor sul, o arqueiro agachado tira outra flecha da aljava com um só gesto. O de touca de couro, que acabou de entrar, também saca e encaixa. Os dois erguem o arco e miram no orc.
+> Arqueiro 3: Sacar Rápido (Flecha) NH 12, 3d [5, 1, 6] = *12* → sucesso por 0
+> 1º turno de mira em Urzog
+> Arqueiro 7: Sacar Rápido (Flecha) NH 16, 3d [6, 3, 5] = *14* → sucesso por 2
+> 1º turno de mira em Urzog
+
+O de barba grisalha solta a corda. A flecha cruza a sala rente ao chão e bate na perna do orc, mas ele desvia a haste com o escudo no último instante e ela raspa a pedra.
+> Arqueiro 4: Arco NH 16, -5 distância (10 m), +1 Precisão, +1 mira (2º turno), -2 Perna distante = *11*
+> 3d [4, 2, 2] = *8* → sucesso por 3
+> Defesa de Urzog: esquiva 4 +2 DP loriga (pernas) +3 DP escudo +5 Escudo mágico = *14*
+> 3d [2, 6, 6] = *14* → defendeu no limite
+> Sem dano
+
+A arqueira de tranças atira no peito do orc. O escudo sobe a tempo e a flecha racha a madeira sem passar.
+> Arqueira 5: Arco NH 16, -4 distância (8 m), +1 Precisão, +1 mira (2º turno) = *14*
+> 3d [4, 3, 5] = *12* → sucesso por 2
+> Defesa de Urzog: esquiva 4 +1 DP couraça +3 DP escudo +5 Escudo mágico = *13*
+> 3d [4, 2, 1] = *7* → defendeu por 6
+> Sem dano
+
+O arqueiro de touca de couro do canto solta a sua. A flecha vai no braço do escudo, e o orc a empurra de lado na borda do escudo.
+> Arqueiro 6: Arco NH 16, -5 distância (10 m), +1 Precisão, +1 mira (2º turno), -4 Braço do escudo = *9*
+> 3d [1, 3, 1] = *5* → sucesso por 4
+> Defesa de Urzog: esquiva 4 +3 DP escudo +5 Escudo mágico = *12*
+> 3d [4, 4, 4] = *12* → defendeu no limite
+> Sem dano
+
+Sae'Varyn dá um passo de lado, longe da linha das flechas, fecha os olhos e começa a murmurar a cura. O ar em volta da mão dele esquenta devagar.
+> Sae'Varyn: Concentração 1 (Cura Profunda), lança no próximo turno
+
+Tann'athar corre pela borda da fonte, a película clara colada ao peito, e para a dois passos do orc.
+
+Urzog fica olhando o vazio, e o ar da fonte estala. Uma bolha clara, quase invisível, sobe do chão em volta da pedra caída do golem e se fecha por cima, como vidro grosso assentando. O cheiro de ozônio sobe da pedra. Dentro dela ficam o orc, os mortos e o velho caído. A bolha não alcança o elfo moreno.
+> Mor'Dhaun: Domo de Força (raio 3 hexágonos, centro no hexágono do golem) NH 21 (fonte do térreo, sem -5) = *21*
+> 3d [4, 6, 3] = *13* → sucesso por 8
+> Custo 9, de graça na fonte; dura 10 minutos; nada físico nem projétil atravessa
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?

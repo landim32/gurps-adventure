@@ -1,0 +1,22 @@
+*TURNO 134 — O SOPRO QUE FALHA*
+
+O cão de Krag crava os dentes na manga do elfo e puxa, as patas arranhando a pedra. Krag agarra o cinto, firma os pés e os dois arrastam o corpo mole mais um trecho em direção à escada.
+> Farejo: ST 12, 3d [1, 6, 3] = *10* → sucesso por 2
+> Krag: ST 12, 3d [2, 4, 1] = *7* → sucesso por 5
+> Margens somadas: 7 → *2 hexes arrastados* (a cada 3 de margem, 1 hex)
+
+O soldado de loriga parado junto à borda da bolha franze a testa para a parede clara, como quem finalmente percebe por que o golpe dele não passou. Ele se vira, e os olhos seguem os companheiros que dão a volta pelo oeste.
+> Guarda do Castelo: IQ 10 para entender o Domo e ir atrás dos outros, 3d [2, 3, 1] = *6* → sucesso por 4
+
+Os outros soldados e os arqueiros sobem pelo lado oeste da sala, de passo curto, arcos baixos. O arqueiro de barba grisalha e o veterano de barba cortada andam com a flecha ainda na corda e perdem a mira, e o soldado que chegou por último ao corredor sul segue o grupo.
+
+Sae'Varyn dá um passo até o elfo caído, encosta o bastão no peito dele e fecha os olhos. O ar esquenta em volta do cajado, mas a palavra falha na boca, e ele aperta o flanco com a mão livre. Tann'athar não se mexe.
+> Sae'Varyn: Despertar NH 16, -5 mana baixa, -1 por 1 PV gasto no lugar da Fadiga = *10*
+> 3d [4, 4, 4] = *12* → falhou por 2
+> Custo da falha: 1 ponto de vida (10 → 9)
+
+Urzog não se mexe. Os olhos seguem no vazio, o ar da fonte estala em volta dele, e a luz roxa do cabo pulsa devagar. Os lábios se mexem no mesmo murmúrio.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?

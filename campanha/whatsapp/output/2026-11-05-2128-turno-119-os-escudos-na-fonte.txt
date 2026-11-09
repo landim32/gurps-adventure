@@ -1,0 +1,45 @@
+*TURNO 119 — OS ESCUDOS NA FONTE*
+
+O velho mantém a bolha clara em volta dos pés e junta as mãos no peito, os lábios se mexendo sem som. O ar estremece de leve, como sobre brasas, e nada se fecha ainda.
+> Orvin: concentra-se em mágica (o teste sai no início do próximo turno)
+
+Farejo corta a sala em linha reta, as unhas arranhando a pedra, e para junto da elfa e do meio-elfo que acabaram de entrar na fonte. O pelo do pescoço continua arrepiado.
+
+Grumel se agacha ao lado do guarda caído e fecha a mão no cabo do gládio. A lâmina ainda raspa o chão e a correia do escudo não cede.
+> Grumel: apanha o gládio e o escudo do guarda (1º de 2 turnos)
+
+O morto de olhos baços ergue a perna e chuta para a perna de Grumel. A bota passa curta e ele quase perde o equilíbrio.
+> Faelar Zumbi: Chute NH 10 (ponto de impacto sorteado: 3d [3, 6, 3] = 12, perna distante, sem redutor) = *10*
+> 3d [3, 4, 5] = *12* → falha por 2
+
+A mulher alada firma as asas no chão, o fôlego curto, e se arrasta para o lado de Tann'athar. O olhar se mantém.
+> Mulher alada: HT 13 para seguir consciente a -10 PV, 3d [1, 1, 5] = *7* → sucesso por 6
+
+Krag mantém a corda tensa e a ponta firme no velho, atrás da bolha clara.
+> Krag: 3º turno de mira em Orvin
+
+No corredor sul, o arqueiro de gibão azul e torre branca puxa uma flecha, encaixa e ergue o arco. O que apanhou o arco do chão faz o mesmo, devagar. O terceiro se abaixa para pegar o seu, do outro lado do corredor.
+> Arqueiro da torre: Sacar Rápido (Flecha) NH 12
+> 3d [5, 2, 2] = *9* → sucesso por 3
+> 1º turno de mira em Urzog
+> Arqueiro da torre 2: Sacar Rápido (Flecha) NH 12
+> 3d [5, 5, 2] = *12* → sucesso por 0
+> 1º turno de mira em Urzog
+> Arqueiro da torre 3: apanha o arco (1º de 2 turnos); sem flecha encaixada
+
+Sae'Varyn firma o bastão e fala baixo, em latim. A mana da fonte sobe pela pedra, e uma película clara, quase invisível, se fecha sobre o peito e os ombros dele.
+> Sae'Varyn: Escudo (DP +5) NH 17 (fonte do térreo, sem -5) = *17*
+> 3d [6, 4, 5] = *15* → sucesso por 2
+> Custo 0 (fonte do térreo); DP de Sae'Varyn 3 (gibão 2, broquel 1) +5 = *8*
+
+Tann'athar entra no círculo da fonte, ergue as mãos para o orc e solta uma sílaba curta. Um brilho passa pelas costas largas de Urzog e some.
+> Tann'athar: Escudo (DP +5) em Urzog, NH 18, -4 distância (4 hex) (fonte do térreo, sem -5) = *14*
+> 3d [2, 1, 5] = *8* → sucesso por 6
+> Custo 0 (fonte do térreo); DP de Urzog 4 +5 = *9* (1 min)
+
+Urzog mantém a palma voltada para o velho e murmura sem parar. A luz fraca corre pela lâmina e já passou da ponta.
+> Urzog (Mor'Dhaun): Concentração 2 de 2 (Anulação de Magia sobre o Domo de Orvin, lança no T120)
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?

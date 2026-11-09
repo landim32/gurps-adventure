@@ -117,3 +117,65 @@ _(o que de fato aconteceu com o lugar, os objetos e o que se sabe durante o jogo
 - **29/10/2026 11:39** · _lugar_ — Aberto pelo golem após a senha 'Anno nin i megil, mellon' (élfico). Contém: baú de madeira escura, caixa de ferro, 5 frascos de poção (3 vermelhos, 1 amarelo, 1 verde) e as roupas e itens de Tann'athar. Nada foi pego ainda.
 - **30/10/2026 14:14** · _item_ — ERRATA (Mestre, T79): a espada montante de pedra roxa está no baú de madeira escura; a caixa de ferro está trancada. Nada foi pego ainda. Sem armadilha no quarto.
 - **30/10/2026 17:35** · _item_ — T80: a espada de pedra roxa saiu do baú de madeira escura e está com Urzog (possuído por Mor'Dhaun). Nenhuma chave do molho de Sae'Varyn abre a caixa de ferro, que segue trancada.
+
+## Montante de pedra roxa
+
+- **02/11/2026 17:16** · _item_ — Status da espada (Mestre, T88): Montante de qualidade altíssima (+2 dano), encantado com +3 ST, +3 DX, +3 HT (a quem empunha) e +3 dano. NH de Mor'Dhaun com ela = DX de Urzog (11) +3 = 14. Dano com ST 16: 2D+8 corte.
+- **02/11/2026 20:37** · _item_ — ERRATA (Mestre, T92): a espada tem uma gema de energia de 60 pontos; as magias de Mor'Dhaun saem dela, não da Fadiga de Urzog. Desde a possessão (T80): Cura Profunda 4 (T90) + Controle de Zumbi 3 (T92) = 7 gastos; Bola de Fogo cancelada, sem custo. Restam 53 de 60 na gema (23 se a Possessão Permanente, custo 30, também saiu dela). Fadiga de Urzog devolvida: 1 → 8.
+- **03/11/2026 08:44** · _item_ — T96: Visão da Morte gastou 1 de energia da gema. Saldo: 52 de 60 (ou 22, se a Possessão Permanente de custo 30 saiu da gema).
+- **03/11/2026 09:32** · _item_ — ERRATA (Mestre, T100): a espada tem a magia Zumbi com NH 25, custo 0 de mana/energia, basta tocar o corpo e ele se levanta em 3 s. Em Caithness vale -5 de mana baixa (NH 20). Usada em Faelar no T100.
+- **05/11/2026 13:19** · _item_ — T117: Anulação de Magia de Mor'Dhaun sobre o Domo de Orvin custou 3 da gema (saldo estimado 49 de 60, ou 19 se a Possessão Permanente saiu dela). O Domo resistiu.
+
+## Frascos de poção
+
+- **02/11/2026 21:09** · _item_ — T94: Tann'athar tem os 5 frascos (3 vermelhos, 1 amarelo, 1 verde). Sae'Varyn não sabe identificar se algum cura (decisão do Mestre). Detecção de Magia falhou no T79.
+- **05/11/2026 13:19** · _item_ — ERRATA (Mestre, T117): o frasco azul de Tann'athar é Æsculapius (Elixir da Vitalidade): restaura 2 PV e o bebedor se sente bem. Sae'Varyn bebeu o frasco inteiro no T117 (12 -> 13/13); consumido.
+
+## Guarnição de Ferrier
+
+- **03/11/2026 08:44** · _perigo_ — Visão da Morte de Mor'Dhaun (T96, decisão do Mestre): a guarnição já entrou no castelo, encontrou o barão morto e a capitã muito ferida; no turno 108 atravessa o corredor, entra na torre e mata todos. Mor'Dhaun já contou isso ao grupo.
+
+## Corredor da guarnição (térreo)
+
+- **04/11/2026 13:06** · _informação_ — Mor'Dhaun criou um círculo de fogo (raio 3, centro 12,16) no T109; dura 1 minuto; 1D-1 por turno a quem ficar nele; bloqueia a guarnição
+
+## Líquido amarelo (frasco de Tann'athar)
+
+- **04/11/2026 21:17** · _errata_ — ERRATA (Mestre, T112): o líquido amarelo cura 5D PV e toda a Fadiga. Tann'athar bebeu o frasco inteiro no T112 (5d=22, PV já cheios; Fadiga 2 -> 10/10). Frasco consumido.
+
+## Errata Mestre T116
+
+- **05/11/2026 11:48** · _errata_ — ERRATA (Mestre, T116): Krag está em posição mais alta que o zumbi; tiro sem o -4 por figura na linha de tiro.
+
+## Urzog
+
+- **06/11/2026 07:20** · _estado_ — T120: Anulação de Magia venceu o Domo de Orvin (gema -3, ~46/60). Ação repetida encerrada.
+
+## Guarnição
+
+- **06/11/2026 07:29** · _estado_ — Narração 157 (Mestre): a guarnição troca os arqueiros por veteranos, um por turno, e leva água em baldes para apagar o Criar Fogo no corredor sul.
+- **06/11/2026 07:33** · _estado_ — ERRATA (Mestre, Narração 158 substitui a 157): só UM arqueiro foi trocado (o Arqueiro 1, agora Arqueiro 4); o fogo do corredor sul NÃO foi apagado; os soldados ainda estão indo buscar água, sem baldes derramados.
+
+## Corredor sul
+
+- **06/11/2026 10:45** · _estado_ — Narração (Mestre, T122): os guardas apagaram UM hexágono de fogo (borda); o resto do fogo de Urzog segue aceso.
+
+## Regra zumbi
+
+- **06/11/2026 14:28** · _regra_ — ERRATA (T122): zumbi nunca sofre redutor de NH por ferimento (Magia, entidades mágicas); os -3/-6/-4 aplicados nos T120-T121 estão anulados.
+
+## Fonte do térreo
+
+- **06/11/2026 17:15** · _estado_ — T123: Domo de Força de Mor'Dhaun (raio 3, centro 10,9; cobre Urzog, Grumel, Orvin, guarda, Faelar e Golem; fora: Tann'athar, Sae'Varyn, harpia, Farejo). 10 min; nada físico nem projétil atravessa.
+
+## Queda sobre pedras
+
+- **08/11/2026 16:17** · _errata_ — Errata do Mestre (T143): queda sobre pedras usa (1D-2) por metro, em vez de (1D-3) para 3 ou 4 m (MB, Quedas). Queda de 4 m = 4D-8.
+
+## Domo de Mor'Dhaun
+
+- **09/11/2026 10:29** · _estado_ — ERRATA (Mestre, T151): o Domo NÃO barra tiros vindos do andar de cima (primeiro andar); barra os do térreo.
+
+## Regras da mesa
+
+- **09/11/2026 10:44** · _errata_ — ERRATA (Mestre, T151): alvo inconsciente ou sem defesa ativa AINDA TEM defesa passiva: rola-se 3d contra a DP da região. Vale para toda jogada futura. Aplicado a Tann'athar no T151 (golpe do Guarda 7): DP 0, 3d [5,2,4] = 11 contra 0, falhou por 11; o golpe segue valendo (9 de dano, 1 → -8 PV).

@@ -1,0 +1,27 @@
+*TURNO 129 — O CORPO QUE SOBE A ESCADA*
+
+Dois guardas de loriga entram em cena. Um chega ao corredor sul, junto dos arqueiros; o outro aparece ao lado da bolha clara, parado, de olho no orc. Nenhum dos dois se mexe depois disso.
+
+O cão de Krag chega à borda leste da sala em trote curto e crava os dentes na manga do elfo caído. Krag agarra o elfo pelo cinto e os dois puxam juntos o corpo mole pela pedra.
+> Krag: ST 12, 3d [5, 1, 4] = *10* → sucesso por 2
+> Farejo: ST 12, 3d [6, 3, 1] = *10* → sucesso por 2
+> Margens somadas: 4 → *1 hex arrastado* (a cada 3 de margem, 1 hex)
+
+No corredor sul, os arqueiros param de mirar a mulher alada, caída e sem sentidos, e viram o arco para o inimigo mais próximo que enxergam: o orc dentro da bolha. O arqueiro veterano de barba cortada tira uma flecha nova da aljava e encaixa; os outros quatro já têm a flecha na corda.
+> Arqueiro 7: Sacar Rápido (Flecha) NH 16, 3d [6, 3, 2] = *11* → sucesso por 5
+> Arqueiro 3: 1º turno de mira em Urzog (10 m)
+> Arqueiro 4: 1º turno de mira em Urzog (9 m)
+> Arqueira 5: 1º turno de mira em Urzog (7 m)
+> Arqueiro 6: 1º turno de mira em Urzog (9 m)
+> Arqueiro 7: 1º turno de mira em Urzog (8 m)
+
+Sae'Varyn estica o bastão até o peito do elfo, já puxado um passo para longe. A ponta toca, e o ar esquenta em volta do cajado, mas a palavra falha na boca dele. Tann'athar não se mexe.
+> Sae'Varyn: Despertar NH 16, -5 mana baixa, -1 por 1 PV gasto no lugar da Fadiga = *10*
+> 3d [4, 3, 5] = *12* → falhou por 2
+> Custo da falha: 1 ponto de vida (12 → 11)
+
+Urzog não se mexe. Os olhos seguem no vazio, o ar da fonte estala em volta dele, e a luz roxa do cabo pulsa devagar. Os lábios se mexem no mesmo murmúrio.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?

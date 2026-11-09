@@ -1,0 +1,47 @@
+*TURNO 109 — O TOQUE QUE NÃO PROTEGE*
+
+O velho gira sobre o pé mordido, estende a mão aberta e toca o cão no ombro. Um frio seco corre pelo pelo de Farejo, que solta o manto, e o uivo morre no meio. Nem o brilho cinza do escudo mágico segura isso.
+> Orvin: Toque Mortal (Magia, 3 pontos de energia, de graça na fonte) NH 20, -1 choque (mordida no pé, T108) = *19*
+> 3d [1, 3, 4] = *8* → sucesso por 11 (toque em combate de perto, automático)
+> Dano: 3D [3, 4, 3] = *10*
+> DP e RD não protegem contra o Toque Mortal
+> Perdeu mais de HT/2: teste de HT 15 para não cair, 3d [6, 5, 2] = *13* → de pé; *ATORDOADO* (-4 nas defesas)
+> *Farejo perde 10 pontos de vida.*
+
+Grumel dá um passo e ergue o braço para a finta, mas está às costas do guarda, e o guarda nem o vê. O golpe falso se perde no ar.
+> Finta de Grumel: impossível, o guarda não o vê (fora do ângulo de visão, atrás dele)
+
+A mulher alada desce as garras no braço da espada do guarda. O escudo de madeira sobe tarde, mas a couraça mágica de Orvin aguenta.
+> Harpia: Garras NH 14, -2 Braço = *12*
+> 3d [6, 1, 3] = *10* → sucesso por 2
+> Defesa do Guarda: bloqueio 7 +3 DP escudo = *10*
+> 3d [3, 5, 4] = *12* → falhou por 2
+> Dano: 1D [1] = *1*
+> RD 5 (Armadura mágica) → 0 passam
+> *A armadura segurou o golpe.* Nenhum dano.
+
+O guarda recolhe o gládio e crava a ponta no peito dela. A mulher alada tenta se torcer e não escapa; o ferro rasga a pele pálida e ela cambaleia.
+> Guarda do Castelo: Espadas Curtas NH 12 = *12* (tronco, sem redutor)
+> 3d [2, 3, 3] = *8* → sucesso por 4
+> Defesa da harpia: esquiva 7 +1 DP = *8*
+> 3d [2, 4, 5] = *11* → falhou por 3
+> Dano: 1D+3 [3] + 3 = *6*
+> RD 1 → 5 passam
+> Corte: ×1,5 → *7*
+> Perdeu mais de HT/2: teste de HT 13 para não cair, 3d [1, 6, 1] = *8* → de pé; *ATORDOADA* (-4 nas defesas)
+> *Mulher alada perde 7 pontos de vida.*
+
+Farejo balança a cabeça, tonto, as patas abertas, e não puxa mais ninguém: gasta o turno em firmar o corpo.
+> Farejo: HT 15 para sair do atordoamento, 3d [3, 3, 3] = *9* → sucesso por 6
+
+Krag não solta a corda, a ponta da flecha ainda sobre a cabeça do velho. O morto de olhos baços salta do último degrau da escada e cai de pé ao lado dele, sem erguer a mão. Gorbag arrasta o corpo enorme pelo chão, a mão no flanco.
+> Gorbag (HT 15) para seguir consciente a −6 PV: 3d [3, 1, 3] = *7* → sucesso por 8
+
+Sae'Varyn e Tann'athar avançam dois passos cada um, o fôlego curto.
+
+Urzog fica olhando o vazio, sem gesto nem palavra, e o ar do fundo da sala estala. Diante da boca do corredor sobe um círculo de chamas de uns cinco metros, alto e sem fumaça. O calor chega até a fonte. Do outro lado, o bater de botas e de ferro hesita.
+> Mor'Dhaun: Criar Fogo (Magia, Área, raio de 3 hexágonos, custo 6, de graça na fonte) NH 21, -6 distância até o hex mais próximo da área = *15*
+> 3d [3, 2, 4] = *9* → sucesso por 6
+> Dura 1 minuto; quem ficar no fogo sofre 1D-1 por turno
+
+O que vocês fazem?

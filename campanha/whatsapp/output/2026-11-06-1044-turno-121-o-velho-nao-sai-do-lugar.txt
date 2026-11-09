@@ -1,0 +1,75 @@
+*TURNO 121 — O VELHO NÃO SAI DO LUGAR*
+
+O velho firma os pés ao lado da bolha que já não existe e junta as palmas diante do peito. Os lábios formam uma palavra curta e ele espera o aço chegar, pronto para sumir de onde estiver.
+> Orvin: aguarda com Translocação preparada (defesa contra golpe de perto; só entraria se alguém o golpeasse de perto)
+
+O cão de Krag salta de novo sobre o morto de olhos baços e fecha a mandíbula na perna dele. O morto não sai do lugar: os dentes pegam a coxa e rasgam a carne sem sangue.
+> Farejo: Mordida NH 12, +4 Ataque Total = *16* (ponto de impacto sorteado: 3d [6, 3, 3] = 12, perna distante, sem redutor)
+> 3d [3, 4, 6] = *13* → sucesso por 3
+> Defesa de Faelar Zumbi: esquiva 6 -2 desequilibrado = *4*
+> 3d [1, 2, 3] = *6* → falhou por 2
+> Dano: 1D-1 [5] - 1 = *4*
+> RD 0 → 4 passam
+> Corte: ×1,5 depois da armadura → *6*
+> *Faelar Zumbi perde 6 pontos de vida.*
+
+O morto de gibão e escudo, Grumel, enfia a ponta do gládio na direção do outro morto. A lâmina passa rente à perna dele e raspa a pedra.
+> Zumbi Grumel: Espadas Curtas NH 12 (ponto de impacto sorteado: 3d [5, 5, 2] = 12, perna distante, sem redutor) = *12*
+> 3d [4, 4, 5] = *13* → falha por 1
+
+O morto de olhos baços ainda tonto escora o pé e solta um chute seco no peito do outro morto. O golpe pega embaixo do escudo, onde ele não consegue cobrir. Grumel dobra o corpo e recua meio passo, o gládio caído na mão.
+> Faelar Zumbi: Chute NH 10, -3 ferimento da rodada anterior = *7* (ponto de impacto sorteado: 3d [2, 3, 4] = 9, tronco, sem redutor)
+> 3d [1, 1, 1] = *3* → *SUCESSO DECISIVO* (por 4)
+> *GOLPE FULMINANTE!* Sem defesa possível. Tabela de Golpes Fulminantes: 3d [3, 5, 6] = *14*
+> _Em outro lugar que não braço, perna, mão ou pé, dano normal._
+> Dano: 1D+1 [3] + 1 = *4*
+> RD 0 → 4 passam
+> *Zumbi Grumel perde 4 pontos de vida.*
+
+A mulher alada segue de joelhos, as asas abertas sem força, o olhar vazio. Ainda respira.
+> Mulher alada: HT 13 para seguir consciente a -10 PV, 3d [1, 6, 3] = *10* → sucesso por 3
+
+Krag solta o ar e a corda estala. A flecha cruza a sala em linha reta e entra fundo no flanco do velho, abaixo das costelas. Ele não ergue as mãos a tempo. Cambaleia, a boca aberta, e cai de lado sobre a pedra, a palavra que vinha dizendo cortada no meio.
+> Krag: Arco NH 17, -4 distância (8 m → linha dos 9 m), +3 Precisão, +3 mira (turnos extras apontando), -3 Órgãos vitais = *16*
+> 3d [5, 5, 2] = *12* → sucesso por 4
+> Defesa de Orvin: esquiva 8 = *8*
+> 3d [2, 6, 3] = *11* → falhou por 3
+> Dano: 1D+1 [6] + 1 = *7*
+> RD 0 → 7 passam
+> Perfuração nos órgãos vitais: ×3 → *21*
+> *Orvin perde 21 pontos de vida:* 10 → *-11 PV*
+> Perdeu mais de HT/2: HT 10 para não cair, 3d [3, 4, 4] = *11* → falhou por 1, *CAIU*
+> HT 10 contra a morte (passou de -PV), 3d [2, 2, 2] = *6* → sucesso por 4, vivo
+> HT 10 para seguir consciente a -11 PV, 3d [1, 6, 6] = *13* → falhou por 3, *INCONSCIENTE*
+
+O guarda de loriga continua caído de lado, imóvel.
+
+No corredor sul, o arqueiro de gibão azul e torre branca puxa a flecha e a haste escapa dos dedos. O de barba grisalha e cicatriz no queixo tira a sua, mas o dedo escorrega na farpa e a flecha não encaixa. O terceiro, do outro lado do corredor, encaixa a dele com calma e ergue o arco na direção do orc.
+> Arqueiro 2: Sacar Rápido (Flecha) NH 12, 3d [4, 6, 3] = *13* → falha por 1
+> Arqueiro 3: Sacar Rápido (Flecha) NH 12, 3d [3, 1, 4] = *8* → sucesso por 4; 1º turno de mira em Urzog
+> Arqueiro 4: Sacar Rápido (Flecha) NH 16, 3d [6, 6, 5] = *17* → falha por 1
+
+Sae'Varyn troca de lugar com a mulher alada, que cede o passo sem ver, e põe a mão aberta sobre o flanco do cão. O pelo rasgado se fecha sob a palma e o bicho sacode a cabeça.
+> Sae'Varyn: Cura Profunda NH 16 (fonte do térreo, sem -5) = *16*
+> 3d [1, 4, 3] = *8* → sucesso por 8
+> Custo 0 (fonte do térreo); cura 8 PV: Farejo 5 → *13*
+
+Tann'athar fecha os olhos e uma película clara, quase invisível, se fecha sobre o peito e os ombros dele.
+> Tann'athar: Escudo (DP +5) em si NH 18 (fonte do térreo, sem -5) = *18*
+> 3d [3, 2, 2] = *7* → sucesso por 11
+> Custo 0 (fonte do térreo); DP +5 (1 min)
+
+Urzog dá um passo curto e cai sobre o velho com a espada de pedra roxa. Orvin já está no chão, sem defesa. A ponta entra pelo peito e sai pelas costas, e a luz roxa do cabo sobe pelo braço do orc.
+> Urzog (Mor'Dhaun): Montante encantado NH 14, -3 Órgãos vitais = *11*
+> 3d [1, 6, 4] = *11* → sucesso por 0
+> Defesa de Orvin: nenhuma (inconsciente)
+> Dano: 1D+8 [5] + 8 = *13*
+> RD 0 → 13 passam
+> Perfuração nos órgãos vitais: ×3 → *39*
+> Teto do local (HT×3 = 30): 9 desperdiçado(s)
+> *Orvin perde 30 pontos de vida:* -11 → *-41 PV*
+> HT 10 contra a morte ao cruzar -20 PV, 3d [5, 5, 2] = *12* → falhou por 2, *MORTO*
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?

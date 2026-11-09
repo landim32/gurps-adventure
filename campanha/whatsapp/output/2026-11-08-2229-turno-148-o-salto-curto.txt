@@ -1,0 +1,25 @@
+*TURNO 148 — O SALTO CURTO*
+
+Krag encaixa a flecha num gesto só e ergue o olhar para a boca do buraco, o arco meio tenso. Dali de baixo ele não alcança soldado nenhum.
+> Sacar Rápido (Flecha): NH 14, 3d [2, 1, 5] = *8* → sucesso por 6
+
+Gorbag se arrasta até a borda e se deixa cair. O ogro bate nas pedras do térreo com um som surdo e fica caído, ainda consciente, o sangue escorrendo.
+> Gorbag: HT 15, 3d [4, 4, 3] = *11* → sucesso por 4, segue consciente a -6 PV
+> Queda: 4 m sobre pedras, (1D − 2) por metro = 4D − 8
+> 4d [6, 3, 5, 3] = *17* → 17 − 8 = *9*
+> RD 3 do couro de ogro (queda: máx. 3) → *6* de dano (Gorbag: -6 → -12 PV)
+
+Sae'Varyn toma impulso e salta rumo à água, mas o pulo sai curto: os pés pousam firmes nas pedras ao lado da fonte, o Escudo estalando de luz azul, e o couro da loriga come o impacto.
+> Salto em distância de 3 m: sem impulso o limite é (ST 10 − 3) × 33 = 2,31 m; esforço extra: DX 11 -1 = *10* (paga 1 PV no lugar da Fadiga: 6 → 5)
+> 3d [4, 5, 2] = *11* → falhou por 1 (não alcança a água)
+> Aterrissar de pé: DX 11, 3d [5, 1, 2] = *8* → sucesso por 3, cai de pé
+> Queda: 4 m sobre pedras, 4D − 8; 4d [1, 3, 4, 2] = *10* → 10 − 8 = *2*
+> RD 2 da loriga de couro (queda: máx. 3) → *0* de dano
+
+O soldado que o perseguia desfere o golpe no ar onde o elfo estava, e fica olhando o buraco.
+
+Em cima, o cerco aperta. Os soldados chegam de passo largo, os arqueiros correm junto e nenhum deles para para mirar.
+
+O orc de olhar vazio segue no mesmo murmúrio, a luz roxa do cabo pulsando devagar.
+
+O que vocês fazem?

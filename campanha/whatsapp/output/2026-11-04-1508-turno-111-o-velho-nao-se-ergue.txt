@@ -1,0 +1,47 @@
+*TURNO 111 — O VELHO NÃO SE ERGUE*
+
+O velho tenta se endireitar, a mão na cabeça, a boca se movendo sem som. As pernas não obedecem e o que ele começava a dizer morre na garganta.
+> Orvin: HT 10 para sair do atordoamento, 3d [5, 5, 6] = *16* → falhou por 6; segue *ATORDOADO*
+
+Farejo salta no flanco do guarda e crava os dentes na altura das costelas. O guarda ergue o escudo tarde demais, mas a couraça mágica de Orvin segura a mordida.
+> Farejo: Mordida NH 12 (ponto de impacto sorteado: 3d [6, 6, 6] = 18, órgãos vitais, sem redutor) = *12*
+> 3d [5, 5, 2] = *12* → sucesso por 0
+> Defesa do Guarda: bloqueio 7 +3 DP escudo = *10*
+> 3d [6, 5, 2] = *13* → falhou por 3
+> Dano: 1D-1 [2] - 1 = *1*
+> RD 5 (Armadura mágica) → 0 passam
+> *A armadura segurou o golpe.* Nenhum dano.
+
+Grumel chuta o guarda pelas costas, no tronco. O guarda nem o vê, mas a couraça mágica engole o golpe.
+> Grumel: Chute NH 12 (ponto de impacto sorteado: 3d [3, 6, 2] = 11, tronco, sem redutor) = *12*
+> 3d [6, 1, 1] = *8* → sucesso por 4
+> Defesa do Guarda: nenhuma (golpe pelas costas, fora do ângulo de visão)
+> Dano: 1D+1 [1] + 1 = *2*
+> RD 5 (Armadura mágica) → 0 passam
+> *A armadura segurou o golpe.* Nenhum dano.
+
+O morto de olhos baços tenta chutar o pé do guarda, por trás, e a bota passa no vazio.
+> Faelar Zumbi: Chute NH 10 (ponto de impacto sorteado: 3d [5, 5, 5] = 15, pé, sem redutor) = *10*
+> 3d [6, 4, 4] = *14* → falha por 4
+
+A mulher alada desce as garras no braço da espada do guarda. A lâmina sobe para aparar e chega tarde; a couraça mágica aguenta.
+> Mulher alada: Garras NH 14, -2 Braço = *12*
+> 3d [5, 3, 2] = *10* → sucesso por 2
+> Defesa do Guarda: aparar 7 = *7*
+> 3d [3, 5, 2] = *10* → falhou por 3
+> Dano: 1D [2] = *2*
+> RD 5 (Armadura mágica) → 0 passam
+> *A armadura segurou o golpe.* Nenhum dano.
+
+Krag baixa o arco, tira outra flecha da aljava num só movimento e a encaixa sem tirar o olho do velho. Depois ergue a corda e firma a ponta na cabeça dele.
+> Krag: Sacar Rápido (Flecha) NH 14
+> 3d [1, 1, 3] = *5* → sucesso por 9
+> 1º turno de mira em Orvin
+
+O guarda manda a ponta do gládio no peito da mulher alada. Ela recua o tronco e o ferro corta só o ar.
+> Guarda do Castelo: Espadas Curtas NH 12 = *12* (tronco, sem redutor)
+> 3d [5, 6, 3] = *14* → falha por 2
+
+Tann'athar tira do manto um frasco de líquido amarelo e o segura fechado na mão. Urzog atravessa a sala com passo curto, o rosto vazio. Sae'Varyn segue escada abaixo, o fôlego curto. Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?

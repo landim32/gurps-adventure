@@ -3120,6 +3120,2910 @@ O olhar não solta o ogro. O basilisco segue de cabeça erguida, e a dor não pa
 
 O que vocês fazem?
 
+### Narração 121 — 01/11/2026 11:03
+
+_T85: Gorbag desmaia a -6 PV sob o olhar do basilisco; Krag derruba o arco; Lealdade pega na harpia_
+
+*TURNO 85 — O ARCO NO CHÃO*
+
+Gorbag vira as costas para a serpente e dá o primeiro passo, mas o crânio pesa como chumbo e o chão sobe ao encontro dele. O ogro tomba de lado, o sangue do nariz pingando na pedra, e não se mexe mais.
+> Gorbag (−2 PV): HT 15 para não desmaiar
+> 3d [5, 5, 6] = *16* → falhou por 1
+> Gorbag fica *INCONSCIENTE* e a peça volta ao hexágono onde ele estava
+
+O basilisco não solta a presa: entre os que estão ao alcance do olhar, o ogro caído, indefeso, está tão perto quanto qualquer um. A pontada atrás dos olhos volta, mais curta.
+> Olhar do basilisco em Gorbag: NH 16 −5 (5 hexágonos) = *11*
+> 3d [2, 2, 6] = *10* → sucesso por 1
+> Dano: 2D+2: [1, 1] +2 = *4* (sem RD, sem defesa)
+> Gorbag: −2 → *−6 PV*
+
+Urzog berra para o andar inteiro, com a voz que não é a dele: "Matem o basilisco, idiotas, esqueçam o resto!". Anda quatro passos e para, a espada de pedra roxa erguida.
+
+Krag puxa uma flecha da aljava num só gesto, a encaixa e atira de onde está, sem apontar. A corda estala, mas a mão falha e o arco escapa dos dedos, voando para a frente dele e caindo a uns três metros.
+> Sacar Rápido (Flecha): NH 14, 3d [2, 4, 6] = *12* → sucesso por 2
+> Ataque: Arco NH 17, −5 velocidade/distância (11 m), −2 tamanho diminuto do basilisco, −4 Tiro Rápido (NH ajustado 10 não alcançou o TR 15) = *6*
+> 3d [6, 4, 6] = *16* → *FALHA CRÍTICA* (por 10)
+> *ERRO CRÍTICO!* Tabela de Erros Críticos: 3d [4, 4, 6] = *14*
+> _A arma voa da mão e cai a 1d metros (50% para frente, 50% para trás)._ 1d = *3* (3 m); 1d = *1* (para a frente)
+> Flecha perfurante: o arco só foi derrubado
+
+Sae'Varyn avança dois hexágonos rente à parede, os olhos baixos, a maça na mão.
+
+Tann'athar termina a conjuração, os lábios mexendo na língua das emoções. A mulher alada solta as grades, o canto morre e ela vira o rosto pálido para o meio-elfo, mansa como cão que reconhece o dono.
+> Lealdade (iniciada no T84): sucesso por 1
+> Resistência da mulher alada: IQ 5, 3d [1, 6, 3] = *10* → falhou por 5
+> Custo: 2 de Fadiga ×3 (alvo adversário) = *6*; Fadiga 8 → *2*
+
+O que vocês fazem?
+
+### Narração 122 — 02/11/2026 00:54
+
+_T86: olhar do basilisco falha em Gorbag; chaves arremessadas caem aos pés de Tann'athar; Krag chega ao arco_
+
+*TURNO 86 — AS CHAVES NO CHÃO*
+
+Urzog berra "Lerooooooy jenkins!" na voz que não é a dele e dispara andar adentro, três passos largos, a espada de pedra roxa balançando. Para rente ao elfo, ainda a uma boa distância da serpente.
+
+O basilisco não larga o ogro caído. A pontada atrás dos olhos tenta voltar, mas o olhar escorrega. Gorbag continua no chão, sangrando do nariz, sem se mexer.
+> Olhar do basilisco em Gorbag: NH 16 −4 (4 hexágonos) = *12*
+> 3d [3, 6, 5] = *14* → falhou por 2
+> Sem dano
+
+Krag solta o ar pelos dentes e atravessa o andar a passo de caça, o cão colado na bota, até parar ao lado do arco jogado no piso. Ainda não se abaixou: apanhá-lo vai levar o próximo par de segundos.
+
+Tann'athar grita para o elfo: "Varyn! Joga as chaves das jaulas!". Sae'Varyn gira o corpo, mede o vão com o olhar e arremessa o molho de ferro por cima das gaiolas.
+> Arremesso: Sae'Varyn, DX 11 = *11*
+> 3d [3, 4, 1] = *8* → sucesso por 3
+As chaves cruzam o andar tilintando, direto para as mãos do meio-elfo.
+> Apanhar no ar: Tann'athar, DX 12 = *12*
+> 3d [6, 6, 3] = *15* → falhou por 3
+Os dedos fecham tarde demais. O molho bate no piso aos pés dele, com um estalo de ferro. A mulher alada, na gaiola, não tira os olhos dele.
+
+O que vocês fazem?
+
+### Narração 123 — 02/11/2026 14:18
+
+_T87: basilisco olha Urzog (7 de dano); Krag começa a apanhar o arco; Tann'athar pega as chaves_
+
+*TURNO 87 — O ORC NO OLHAR*
+
+Urzog corre com a espada de pedra roxa erguida, quatro passos largos, e para a dois passos do basilisco, o peito arfando. Gastou o fôlego na corrida: o golpe fica para o próximo turno.
+
+A serpente solta o ogro caído. A cabeça gira devagar e os olhos fixam o orc que chegou perto demais. Uma lâmina fria entra pelos olhos de Urzog e corre pelo crânio. Ele range os dentes, mas a dor não o derruba: a voz dentro dele, a de Mor'Dhaun, aguenta o tranco.
+> Olhar do basilisco em Urzog: NH 16 −2 (2 hexágonos) = *14*
+> 3d [2, 6, 2] = *10* → sucesso por 4
+> Dano: 2D+2: [1, 4] +2 = *7* (sem RD, sem defesa)
+> Urzog: 17 → *10 PV*
+> Mor'Dhaun (HT 15, o do corpo de Urzog) contra os 7 de dano: 3d [6, 1, 2] = *9* → sucesso por 6, sem efeito
+
+Krag se ajoelha sobre o arco caído e passa os dedos pela madeira, procurando a pegada. O cão se deita rente à bota dele. Vai levar mais um turno inteiro para o arco voltar à mão.
+
+Sae'Varyn atravessa o andar a passos longos e para junto do ogro caído, a maça na mão, os olhos baixos para não encarar a serpente.
+
+Tann'athar gira o corpo, se agacha e fecha a mão no molho de chaves de ferro. A mulher alada, na gaiola, acompanha cada movimento dele.
+
+O que vocês fazem?
+
+### Narração 124 — 02/11/2026 17:17
+
+_T88: Urzog erra o basilisco, olhar leva Urzog a -2 PV_
+
+*TURNO 88 — O MONTANTE E A SERPENTE*
+
+Urzog dá um passo para dentro, a espada de pedra roxa lampejando no alto, e desce o montante inteiro sobre a serpente, sem guardar nada para a defesa. O basilisco se contorce de lado e a lâmina morde só a pedra do chão, num estalo de faíscas roxas.
+> Ataque Total de Urzog: Montante encantado, NH 14 (DX 11 +3 da espada), +4 Ataque Total, −2 tamanho diminuto do basilisco = *16*
+> 3d [5, 1, 4] = *10* → sucesso por 6
+> Defesa do basilisco: esquiva 6 +1 DP da pele = *7*
+> 3d [2, 2, 2] = *6* → defendeu por 1
+> Sem dano. Urzog fica sem defesa ativa até o próximo turno
+
+A serpente vira a cabeça cristada e crava os olhos no orc, perto demais para errar. A pontada que antes era um alfinete agora é um prego. O sangue escorre do nariz de Urzog, o joelho dobra, mas a voz dentro dele, a de Mor'Dhaun, segura o corpo de pé.
+> Olhar do basilisco em Urzog: NH 16 −1 (1 hexágono) = *15*
+> 3d [5, 2, 1] = *8* → sucesso por 7
+> Dano: 2D+2: [6, 4] +2 = *12* (sem RD, sem defesa)
+> Urzog: 10 → *−2 PV*
+> Mor'Dhaun (HT 18: 15 do corpo +3 da espada) contra os 12 de dano: 3d [2, 1, 1] = *4* → sucesso por 14, sem efeito
+> Urzog (HT 18) para não desmaiar a −2 PV: 3d [6, 2, 4] = *12* → sucesso por 6, segue de pé
+
+Krag fecha a mão na madeira do arco e o ergue do piso, a corda ainda frouxa, sem flecha encaixada. O cão se encosta nele e rosna baixo para o fundo do andar.
+
+Sae'Varyn guarda a maça, empunha o bastão e dá um passo para o lado, sem tirar os olhos do chão, rente ao ogro que não se mexe.
+
+Tann'athar gira o corpo e segue para a gaiola com o molho de chaves tilintando na mão, mas o cansaço o prende: gasta o fôlego num passo curto e para, ainda longe da grade. A mulher alada o acompanha com os olhos, calada.
+
+O que vocês fazem?
+
+### Narração 125 — 02/11/2026 18:45
+
+_T89: Urzog mata o basilisco_
+
+*TURNO 89 — O BASILISCO CAI*
+
+Krag puxa uma flecha da aljava num só gesto, encaixa na corda e ergue o arco, o olho colado na serpente. Não solta: ainda mira.
+> Sacar Rápido (Flecha): Krag, NH 14
+> 3d [6, 1, 2] = *9* → sucesso por 5
+
+Urzog balança, o sangue pingando do nariz, o chão girando sob os pés. Range os dentes e a voz que não é a dele segura o corpo de pé.
+> Urzog (HT 18) para seguir consciente a −2 PV: 3d [6, 1, 5] = *12* → sucesso por 6
+
+Então ele vira o montante e desce tudo sobre a serpente, sem se proteger. O basilisco tenta se enroscar para o lado, mas é tarde. A lâmina de pedra roxa o pega no corpo e o parte quase ao meio, e o impacto o arremessa dois passos para trás, contra o canto da parede. A cabeça cristada tomba. Os olhos se apagam.
+> Ataque Total de Urzog (+2 no dano): Montante encantado, NH 14, −2 tamanho diminuto do basilisco = *12*
+> 3d [5, 5, 1] = *11* → sucesso por 1
+> Defesa do basilisco: esquiva 6 +1 DP da pele = *7*
+> 3d [4, 4, 6] = *14* → falhou por 7
+> Dano: 2D+8: [5, 2] = 7 + 8 = *15*, +2 do Ataque Total = *17*
+> RD 0 → 17 passam
+> Corte: ×1,5 depois da armadura → *25*
+> Projeção: 17 antes da RD → 2 hexágonos para trás
+> *Basilisco: 4 → −21 PV. MORTO.* Urzog fica sem defesa ativa até o próximo turno
+
+Sae'Varyn avança rente à parede com o bastão erguido, os olhos baixos, mas o golpe nem chega a sair: a serpente já está caída. Ele para ali, o bastão no ar. O andar inteiro silencia, só o ogro respira no chão.
+
+Tann'athar segue para a gaiola com o molho de chaves tilintando, mas o cansaço o prende outra vez e ele para antes da grade, a uns passos dela. A mulher alada o acompanha com os olhos, calada.
+
+O que vocês fazem?
+
+### Narração 126 — 02/11/2026 19:03
+
+_T90: Mor'Dhaun cura Urzog e recusa socorrer Gorbag_
+
+*TURNO 90 — A VOZ NO CORPO DE URZOG*
+
+Urzog ainda está de pé, sangrando do nariz, a espada de pedra roxa apoiada no chão. A voz que não é a dele resmunga e o corpo teima em não tombar.
+> Urzog (HT 18) para seguir consciente a −2 PV: 3d [4, 4, 3] = *11* → sucesso por 7
+
+Sae'Varyn chega junto do ogro caído e fala para o orc, sem tirar os olhos do chão: o ogro é valioso para sair dali, ele mesmo está quase esgotado, e pode despertá-lo, mas não terá fôlego para curá-lo. Pergunta se o necromante pode fazê-lo.
+
+A voz dentro de Urzog não olha para o ogro. "Não há tempo para isso. A guarnição já deve estar entrando na torre." Em vez de socorrer o ogro, a mão suja de sangue de Urzog toca o próprio peito e a pedra roxa do montante pulsa. As feridas se fecham como cera quente, e o orc respira fundo.
+> Cura Profunda (Mor'Dhaun em Urzog): NH 21, −5 mana baixa = *16*
+> 3d [2, 6, 3] = *11* → sucesso por 5
+> Custo: 4 de Fadiga (Urzog 8 → *4*); restitui o dobro: 8 PV
+> Urzog: −2 → *6 PV*
+
+Krag atravessa o andar a passo largo, o arco com a flecha ainda na corda, mas a mira se perde na corrida. Para a dois passos do ogro, perto demais para ouvir o orc e longe demais para tocá-lo. Quem dirige o corpo de Urzog já decidiu: o socorro não vem.
+
+Tann'athar fecha o último passo até a gaiola, o molho de chaves na mão. A mulher alada o encara de dentro das grades, os olhos presos no meio-elfo, e abre a mão magra por entre as barras.
+
+O que vocês fazem?
+
+### Narração 127 — 02/11/2026 19:31
+
+_T91: Tann'athar solta a harpia; Krag vai à jaula do zumbi_
+
+*TURNO 91 — A GAIOLA ABERTA*
+
+Urzog dá dois passos pelo piso frio, a espada de pedra roxa pendendo da mão, e rosna para o andar inteiro na voz que não é a dele: "Soltem o zumbi, curem o ogro ou deixem ele aí. Para mim tanto faz."
+
+Sae'Varyn se ajoelha junto do ogro caído, fecha os olhos e murmura baixo, juntando o que lhe resta de fôlego. Ainda não conjura: o feitiço vai ficar pronto no próximo instante.
+
+Krag atravessa o corredor entre as gaiolas e para rente à jaula do zumbi, o cão trotando atrás dele. As mãos passam pelas barras, procurando a fechadura. O molho de chaves não está com ele.
+
+Tann'athar enfia a chave de ferro na fechadura da gaiola e gira. A tranca estala, a porta de ferro range e se abre, e a mulher alada dá um passo para fora, ainda de olho no meio-elfo, as asas encolhidas junto do corpo.
+
+O que vocês fazem?
+
+### Narração 128 — 02/11/2026 20:33
+
+_T92: Controle de Zumbi falha; Despertar falha crítica; chaves chegam a Krag_
+
+*TURNO 92 — AS CHAVES CRUZAM O ANDAR*
+
+Urzog atravessa o piso em quatro passos largos e estende a mão suja de sangue para a jaula do zumbi. A pedra roxa do montante pulsa, a voz que não é a dele murmura na língua dos mortos, e o ar fica frio. Do outro lado das barras, o morto estremece, mas a vontade que o prende é mais velha e mais forte. Ele não obedece.
+> Controle de Zumbi (Mor'Dhaun em Urzog): NH 21, −5 mana baixa = *16*
+> 3d [3, 2, 3] = *8* → sucesso por 8
+> Resistência da mágica Zumbi do criador: NH 15, +2 criador a menos de 100 m = *17*
+> 3d [1, 2, 2] = *5* → *SUCESSO DECISIVO* por 12
+> Disputa Rápida: 12 contra 8, o criador vence. O zumbi segue preso a quem o criou
+> Custo: 3 de Fadiga (Urzog 4 → *1*)
+
+Sae'Varyn encosta a ponta do bastão no peito do ogro caído e solta a magia. O fôlego dele falha: a faísca estala na palma, queima a pele e morre sem acordar ninguém.
+> Despertar (Sae'Varyn em Gorbag): NH 16, −5 mana baixa = *11*
+> 3d [6, 5, 6] = *17* → *FALHA CRÍTICA* por 6
+> Tabela de falhas críticas em magia: 3d [2, 1, 6] = *9* → a mágica falha completamente e o operador sofre 1 ponto de dano
+> Custo: 1 de Fadiga (Sae'Varyn 4 → *3*); 1 PV de dano (13 → *12*)
+
+Krag cola as mãos na boca e grita por cima das gaiolas para o meio-elfo atirar as chaves. Tann'athar não vem: faz girar o molho de ferro na mão e o arremessa por cima do andar. As chaves cortam o ar tilintando.
+> Arremesso das chaves: Tann'athar, DX 12 = *12*
+> 3d [3, 1, 2] = *6* → sucesso por 6
+> Apanhar no ar: Krag, DX 14 = *14*
+> 3d [1, 1, 4] = *6* → sucesso por 8
+
+O molho cai na mão aberta do caçador. Ele fecha os dedos e o ferro estala. As chaves estão com ele.
+
+O que vocês fazem?
+
+### Narração 129 — 02/11/2026 21:01
+
+_T93: Grumel solto; Despertar acorda Gorbag_
+
+*TURNO 93 — O MORTO NA PORTA*
+
+Krag enfia a chave de ferro na fechadura da jaula e gira. A tranca cede com um estalo seco e a porta abre. De dentro, o morto de pele cinzenta ergue o rosto vazio, e uma voz rouca, arrastada, sai da boca dele: "Me tire daqui e eu luto por vocês!"
+
+Krag vira a cabeça para Urzog e pede ao necromante que cure o ogro caído. O orc nem desacelera. A voz que não é a dele responde sem olhar para trás: "Vamos seguir." Ele dá meio passo na direção da escada, a espada de pedra roxa pendendo da mão, e espera os outros.
+
+Sae'Varyn fica de joelhos ao lado do ogro, o bastão encostado no peito dele, os olhos fechados. Os lábios mexem sem fazer barulho. Desta vez a faísca pega: o ar esquenta sob a palma e o corpo enorme estremece.
+> Despertar (Sae'Varyn em Gorbag): NH 16, −5 mana baixa = *11*
+> 3d [5, 2, 2] = *9* → sucesso por 2
+> Custo: 1 de Fadiga (Sae'Varyn 3 → *2*)
+> Gorbag (HT 15) para acordar: +2 pela margem da mágica, −3 inconsciente por ferimento = *14*
+> 3d [1, 5, 5] = *11* → sucesso por 3
+
+Gorbag solta um ronco, tosse sangue e abre os olhos. Fica deitado de lado, o peito arfando, ainda sem forças para se levantar.
+
+Tann'athar olha o orc possuído e diz à mulher alada que o siga. Ela inclina a cabeça, as asas encolhidas, e fica junto dele. Ele ainda não saiu do lugar.
+
+O que vocês fazem?
+
+### Narração 130 — 02/11/2026 21:10
+
+_T94: Gorbag ajoelha; frascos sem identificação; Urzog se concentra_
+
+*TURNO 94 — BOM DIA, BELA ADORMECIDA*
+
+Gorbag cospe sangue, aperta a cabeça enorme com a mão e se arrasta até ficar de joelhos. O andar gira, mas o ogro não deixa o escuro voltar.
+> Gorbag (HT 15) para seguir consciente a −6 PV: 3d [1, 1, 3] = *5* → *SUCESSO DECISIVO* por 10
+
+Sae'Varyn olha o ogro de joelhos e diz, seco, sem tirar os olhos do chão: "Bom dia, bela adormecida! Vamos seguir descendo."
+
+Tann'athar vira para o elfo, o saco de frascos na mão, e pergunta com cuidado se algum daqueles líquidos tem poder de cura, que talvez ajude o grande amigo a se recuperar. Sae'Varyn gira um frasco contra a luz, cheira a rolha e balança a cabeça. São líquidos de cores diferentes: vermelho, amarelo, verde. Dali não tira nada.
+
+Urzog deixa o necromante falar por ele. Dá um passo atravessado pelo piso, a espada de pedra roxa baixa, e para com o olhar vazio. A voz que não é a dele mexe os lábios sem som, juntando a magia na cabeça. Ainda não solta.
+
+Krag ajeita o arco no braço e fica de olho no orc, o cão colado nas botas, pronto para ir atrás dele. O zumbi solto fica de pé na porta da jaula, os braços caídos, esperando uma ordem que ninguém dá.
+
+O que vocês fazem?
+
+### Narração 131 — 02/11/2026 21:28
+
+_T95: Gorbag de pé; Urzog segue concentrado_
+
+*TURNO 95 — O OGRO DE PÉ*
+
+Gorbag firma a mão na pedra e empurra o corpo para cima. Os joelhos tremem, o sangue ainda escorre do nariz, mas o ogro fica de pé, maior que qualquer outro no andar.
+> Gorbag (HT 15) para seguir consciente a −6 PV: 3d [3, 3, 1] = *7* → sucesso por 8
+
+Urzog dá um passo curto e para, o montante apoiado no chão. A voz que não é a dele mexe os lábios sem som, o olhar vazio fixo em nada. A magia ainda está se juntando.
+
+Sae'Varyn desce o andar de lado, o bastão firme na mão, mas o cansaço pesa e ele avança só um passo e meio antes de ter de parar para respirar.
+
+Tann'athar sai do canto da gaiola atrás do orc, chamando a mulher alada e o morto com a mão. O fôlego curto o segura: dá dois passos e para. A mulher alada o acompanha com os olhos. O zumbi, que já saiu da jaula por conta própria, anda pelo meio do andar e para perto de onde Krag e o cão esperam.
+
+Krag mantém o arco com a flecha na corda e acompanha o orc com o olhar, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 132 — 03/11/2026 08:45
+
+_Turno 96: Visão da Morte de Mor'Dhaun em si; guarnição entra na torre no T108_
+
+*TURNO 96 — A VISÃO DA MORTE*
+
+Gorbag fica onde está, apoiado na pedra, o peito subindo e descendo devagar. O descer ainda não saiu do pensamento. O sangue no nariz já coagulou.
+> Gorbag (HT 15) para seguir consciente a −6 PV: 3d [4, 4, 1] = *9* → sucesso por 6
+
+Urzog fecha os olhos e encosta a mão enorme no próprio peito. A pedra roxa do montante pulsa três vezes. A voz que não é a dele murmura na língua dos mortos, e o ar em volta do orc fica frio. Por um instante o rosto cinza-esverdeado se contrai. Ele abre os olhos sem pressa, e o que vê não o prende.
+> Visão da Morte (Mor'Dhaun em Urzog, sobre si mesmo): NH 21, −5 mana baixa = *16*
+> 3d [6, 2, 3] = *11* → sucesso por 5
+> Custo: 1 de energia da gema do montante (2, −1 pelo NH alto)
+> Resistir à visão: IQ de Mor'Dhaun 18
+> 3d [3, 1, 1] = *5* → *SUCESSO DECISIVO* por 13. A visão não prende a mente dele
+
+A voz que não é a dele conta o que viu, seca, sem tirar os olhos do vazio: a guarnição já entrou no castelo. Encontrou o barão morto e a capitã muito ferida. Daqui a doze rodadas ela atravessa o corredor, entra na torre e mata todo mundo.
+
+Sae'Varyn desce mais um passo e meio de lado, o bastão firme, respirando curto. O cansaço não o deixa ir além disso.
+
+Tann'athar sai de trás da gaiola, a harpia voando baixa ao lado dele, e arrasta os pés atrás do orc.
+
+Krag acompanha o orc de perto, o cão no calcanhar e o zumbi andando atrás, até ficar rente à escada. Chega e para. Não há golpe nem tiro a dar.
+
+O que vocês fazem?
+
+### Narração 133 — 03/11/2026 08:51
+
+_Turno 97: Vamos rápido; grupo desce atrás de Mor'Dhaun_
+
+*TURNO 97 — VAMOS RÁPIDO*
+
+Gorbag cambaleia atrás do orc, a mão no flanco, e o corpo enorme obedece. Passa pelo meio da sala sem soltar o necromante de vista.
+> Gorbag (HT 15) para seguir consciente a −6 PV: 3d [5, 6, 1] = *12* → sucesso por 3
+
+Urzog vai à frente, o montante pendendo da mão, e a voz que não é a dele corta o andar sem olhar para trás: "Vamos rápido." O orc não espera ninguém.
+
+Sae'Varyn desce dois passos de lado, o bastão firme, e para: o fôlego curto não deixa ir mais longe.
+
+Tann'athar arrasta os pés atrás do grupo, a harpia voando baixa. Anda dois passos e perde o resto do caminho para o cansaço.
+
+Krag corre atrás do orc, o cão colado nas botas, e chega perto dele. Não há golpe nem tiro a dar.
+
+O que vocês fazem?
+
+### Narração 134 — 03/11/2026 09:02
+
+_Turno 98: o grupo desce atrás de Mor'Dhaun_
+
+*TURNO 98 — O ANDAR DE BAIXO*
+
+Gorbag dá um passo curto atrás do orc e deixa o corpo pesar na parede. O sangue ainda pinga, mas ele segue em pé, os olhos presos nas costas do necromante.
+> Gorbag (HT 15) para seguir consciente a −6 PV: 3d [4, 6, 4] = *14* → sucesso por 1
+
+Urzog segue à frente, o montante pendendo da mão, e a voz que não é a dele corta o ar sem olhar para trás: "Vamos rápido." O orc não espera ninguém.
+
+Sae'Varyn tenta descer mais, mas o fôlego curto o segura depois de dois passos.
+
+Tann'athar anda dois passos, a harpia voando baixa atrás dele, e para: o cansaço pesa nas pernas.
+
+Krag fica onde está, o arco com a flecha na corda, olhando o orc se afastar sem se mexer.
+
+O que vocês fazem?
+
+### Narração 135 — 03/11/2026 09:24
+
+_Turno 99: o grupo no primeiro andar; corpo de Faelar em (11,15)_
+
+*TURNO 99 — O PRIMEIRO ANDAR*
+
+Gorbag arrasta os pés pelo piso do primeiro andar atrás do orc, o peito chiando. O sangue pinga, mas o ogro ainda se mantém em pé.
+> Gorbag (HT 15) para seguir consciente a −6 PV: 3d [3, 2, 6] = *11* → sucesso por 4
+
+Urzog vai à frente, o montante pendendo da mão, e a voz que não é a dele corta o andar sem olhar para trás: "Vamos rápido." O orc segue o passo sem esperar ninguém.
+
+Sae'Varyn dá um passo e meio de lado, o bastão firme, e para: o fôlego curto não deixa ir além.
+
+Tann'athar anda dois passos, a harpia voando à frente, e para: o cansaço pesa nas pernas.
+
+Krag corre atrás do orc, o cão colado nas botas, e chega perto dele. Não há golpe nem tiro a dar.
+
+Num canto do andar, o corpo do elfo Faelar continua caído no chão, onde Gorbag o largou.
+
+O que vocês fazem?
+
+### Narração 136 — 03/11/2026 09:32
+
+_Turno 100: Urzog toca o corpo de Faelar com a espada; Zumbi NH 25_
+
+*TURNO 100 — LEVANTE*
+
+Gorbag arrasta o corpo enorme atrás do orc, o sangue ainda pingando do nariz. Passa pelo cadáver do elfo sem olhar para ele.
+> Gorbag (HT 15) para seguir consciente a −6 PV: 3d [1, 4, 5] = *10* → sucesso por 5
+
+Urzog atravessa o andar e, ao passar pelo corpo do elfo caído, encosta a ponta da espada de pedra roxa no peito dele. A voz que não é a dele diz uma palavra só: "Levante." A pedra roxa pulsa, e o ar em volta do cadáver fica frio. O corpo estremece uma vez e para. Algo começa a se mexer por dentro dele.
+> Zumbi (espada de pedra roxa, toque em Faelar): NH 25, −5 mana baixa = *20*
+> 3d [4, 2, 1] = *7* → sucesso por 13
+> Custo: 0 (a espada conjura sozinha)
+> Tempo: 3 segundos para o morto se levantar
+
+Sae'Varyn dá um passo e meio e para, o bastão firme, o fôlego curto.
+
+Tann'athar anda dois passos, a harpia voando à frente, e para: o cansaço pesa nas pernas.
+
+Krag segue o orc de perto, o cão no calcanhar, e chega perto dele. Não há golpe nem tiro a dar.
+
+O que vocês fazem?
+
+### Narração 137 — 03/11/2026 09:46
+
+_Turno 101: o grupo sobe atrás de Mor'Dhaun; Faelar ainda deitado_
+
+*TURNO 101 — A SUBIDA*
+
+Gorbag desliza a mão pela parede e segue o orc, o passo curto, o sangue seco no queixo. O corpo teima em ficar de pé.
+> Gorbag (HT 15) para seguir consciente a −6 PV: 3d [5, 6, 3] = *14* → sucesso por 1
+
+Urzog segue à frente, o montante pendendo da mão, e a voz que não é a dele corta o andar: "Vamos rápido." O orc não espera ninguém.
+
+Sae'Varyn e Tann'athar avançam dois passos, um atrás do outro, e param para recuperar o fôlego. A harpia voa baixa à frente do meio-elfo.
+
+Krag corre atrás do orc, o cão e o zumbi-guarda colados nele, e para perto dele. Não há golpe nem tiro a dar.
+
+Para trás, no canto do andar, o cadáver do elfo continua deitado, sem se mexer. Mas o ar em volta dele ainda está frio.
+
+O que vocês fazem?
+
+### Narração 138 — 03/11/2026 09:52
+
+_Turno 102: Faelar levanta como zumbi; grupo segue Mor'Dhaun_
+
+*TURNO 102 — O CADÁVER SE MEXE*
+
+Gorbag arrasta o corpo enorme atrás do orc, a mão no flanco, o passo curto. O sangue seco racha no queixo, mas ele segue de pé.
+> Gorbag (HT 15) para seguir consciente a −6 PV: 3d [3, 2, 4] = *9* → sucesso por 6
+
+Urzog segue à frente, o montante pendendo da mão, e a voz que não é a dele corta o andar sem olhar para trás: "Vamos rápido."
+
+Sae'Varyn e Tann'athar avançam dois passos cada um e param, o fôlego curto, a harpia à frente do meio-elfo. Krag corre atrás do orc, o cão e o zumbi-guarda colados nele, e para perto dele. Não há golpe nem tiro a dar.
+
+Lá atrás, no canto do andar, o cadáver do elfo estremece e a mão pálida se fecha sobre o chão. Os olhos se abrem, baços. Ele se apoia nos braços e, devagar, se põe de pé.
+
+O que vocês fazem?
+
+### Narração 139 — 03/11/2026 09:57
+
+_Turno 103: o grupo segue Mor'Dhaun; Faelar ajoelhado_
+
+*TURNO 103 — O ELFO DE JOELHOS*
+
+Gorbag arrasta o corpo enorme atrás do orc, a mão no flanco. O sangue seco já nem racha mais, mas o ogro segue de pé.
+> Gorbag (HT 15) para seguir consciente a −6 PV: 3d [2, 3, 5] = *10* → sucesso por 5
+
+Urzog segue à frente, o montante pendendo da mão, sem olhar para trás.
+
+Sae'Varyn e Tann'athar avançam dois passos cada um e param, o fôlego curto, a harpia voando à frente deles. Krag corre atrás do orc, o cão e o zumbi-guarda colados nele, e para perto dele. Não há golpe nem tiro a dar.
+
+Lá atrás, o elfo morto se apoia num joelho. A cabeça pende, os braços tremem, e ele fica ali, agachado no chão, sem se levantar.
+
+O que vocês fazem?
+
+### Narração 140 — 03/11/2026 10:03
+
+_Turno 104: Faelar zumbi se levanta; grupo segue Mor'Dhaun_
+
+*TURNO 104 — O ELFO SE LEVANTA*
+
+Gorbag arrasta o corpo enorme atrás do orc, a mão no flanco, os olhos presos nas costas do necromante. O sangue seco ainda marca o queixo, mas o ogro segue de pé.
+> Gorbag (HT 15) para seguir consciente a −6 PV: 3d [1, 3, 5] = *9* → sucesso por 6
+
+Urzog avança em linha reta, o montante pendendo da mão, e passa por Krag sem parar. A voz que não é a dele não diz nada desta vez.
+
+Sae'Varyn e Tann'athar avançam dois passos cada um e param, o fôlego curto, o elfo-negro à frente do meio-elfo. Krag corre atrás do orc, o cão e o zumbi-guarda colados nele, e para perto dele. Não há golpe nem tiro a dar.
+
+Lá atrás, o elfo morto apoia as duas mãos no chão, empurra o corpo para cima e fica de pé, os braços caídos, os olhos baços fixos em nada.
+
+O que vocês fazem?
+
+### Narração 141 — 03/11/2026 11:58
+
+_O térreo: Orvin e um guarda na fonte, golem destruído, guardas se aproximam; Sae'Varyn e Tann'athar a 5 rodadas, Faelar zumbi a 2_
+
+*O TÉRREO — A FONTE*
+
+A escada termina numa sala de pedra clara, e o ar muda: frio, úmido, com cheiro de água parada e de rocha moída. No meio dela fica a fonte redonda, a água ainda tremendo. Dentro da bacia, e em volta, jazem os pedaços do golem: braços de pedra partidos, um torso rachado, pó cinzento boiando na superfície. Não se mexe nada ali.
+
+Ao lado da bacia, de pé, está o velho de manto cinza e bastão de madeira escura, os olhos fundos fixos em vocês. É o Grã-Mago Orvin Thale, o mesmo que vocês viram no salão do castelo. Não diz nada, e o bastão fica parado na mão. Perto dele, um guarda da guarnição, de elmo e cota de malha, de espada fora da bainha, o olhar indo de um a outro.
+
+Pelo corredor, do outro lado, vem barulho: botas em marcha, metal batendo em metal, uma voz de comando abafada pela pedra. Estão se aproximando.
+
+Atrás de vocês, na escada, ainda se ouvem os passos curtos de Sae'Varyn e Tann'athar: levarão cinco rodadas para chegar. O morto de olhos baços, o elfo que se levantou, vem mais perto: duas rodadas.
+
+O que vocês fazem?
+
+### Narração 142 — 03/11/2026 22:28
+
+_T106: Urzog e Grumel pulam a escada; Orvin toca o guarda (Armadura); Krag mira_
+
+*TURNO 106 — A MÃO NO OMBRO*
+
+Urzog não desce a escada: salta os últimos degraus e cai de pé no piso de pedra, o montante pendendo da mão. O morto que um dia foi o guarda Grumel pula logo atrás e se firma nas duas pernas.
+> Urzog: DX 11, +3 DX da espada encantada = *14*
+> 3d [1, 1, 2] = *4* → *SUCESSO DECISIVO* por 10
+> Zumbi Grumel: DX *12*
+> 3d [2, 2, 2] = *6* → sucesso por 6
+
+Gorbag desliza até o pé da escada com a mão no flanco, o sangue seco no queixo. O corpo teima em ficar de pé.
+> Gorbag (HT 15) para seguir consciente a −6 PV: 3d [3, 2, 6] = *11* → sucesso por 4
+
+Krag dá um passo e ergue o arco com a flecha já na corda, a ponta sobre o velho de manto cinza, do outro lado da sala. Farejo cola nas pernas dele. A harpia fica ao lado do orc de espada brilhante: lá de cima, a voz de Tann'athar manda que ela vá na frente, e ela já está.
+
+Junto à fonte, o velho pousa a mão no ombro do guarda e murmura, os lábios mal se mexendo, os olhos fundos ainda presos nos intrusos. O guarda crava os pés, encolhe-se atrás do escudo e não tira os olhos deles. No corredor, as botas e o ferro soam mais perto.
+
+Lá em cima, os passos curtos de Sae'Varyn e Tann'athar seguem escada abaixo.
+
+O que vocês fazem?
+
+### Narração 143 — 03/11/2026 23:12
+
+_T107: Orvin fecha Armadura +5 RD no guarda; Urzog e Gorbag cruzam a sala; Krag segue mirando_
+
+*TURNO 107 — A MALHA ESCURECE*
+
+Junto à fonte, o velho de manto cinza termina de murmurar, e a mão no ombro do guarda aperta uma vez. O ar em volta da cota de malha estremece, e um brilho cinza corre pelos elos como óleo na água. O guarda cerra a mandíbula, firma os pés e mantém o escudo à frente, sem dar um passo.
+> Orvin: Armadura +5 RD no guarda, NH *20* (sala da fonte: mana muito alta, sem o −5 da mana baixa)
+> 3d [4, 4, 4] = *12* → sucesso por 8
+
+Urzog corre para a porta, o montante pendendo da mão, e vara a sala sem olhar para trás. Gorbag arrasta o corpo enorme atrás do orc, a mão no flanco; o sangue seco ainda marca o queixo, mas o ogro segue de pé.
+> Gorbag (HT 15) para seguir consciente a −6 PV: 3d [5, 2, 4] = *11* → sucesso por 4
+
+Krag fica onde está, o arco armado e a ponta da flecha ainda sobre o velho, sem soltar a corda. A harpia cruza a sala em voo e pousa a um passo do velho e do guarda. Farejo corre rente ao chão. Atrás deles, o elfo morto de olhos baços chega pela escada e se arrasta para dentro da sala.
+
+No corredor, o metal bate cada vez mais perto: a marcha chega ao fim do caminho.
+
+Lá em cima, os passos curtos de Sae'Varyn e Tann'athar seguem descendo.
+
+O que vocês fazem?
+
+### Narração 144 — 04/11/2026 09:47
+
+_T108: Orvin concentra; guarda erra molinete na harpia; harpia revida sem dano; Farejo morde Orvin_
+
+*TURNO 108 — O GOLPE QUE NÃO ACHA*
+
+O velho de manto cinza fecha os olhos e volta a se concentrar, o bastão imóvel na mão e os lábios mexendo sem som. O brilho cinza ainda corre pelo couro do guarda.
+> Orvin: apenas Concentrar, sem mágica nova (Armadura +5 RD segue ativa por 1 min)
+
+O guarda gira o corpo inteiro e varre o gládio em arco contra a mulher alada que pousou colada às suas costas. O golpe sai torto e corta só o ar.
+> Guarda do Castelo: Espadas Curtas NH 12 (Espadas de Lâmina Larga 14 −2), −5 Deslocamento e golpe Molinete = *7*
+> Ponto de impacto sorteado: 3d [3, 4, 4] = 11 → Tronco
+> 3d [4, 6, 6] = *16* → falha por 9
+
+A harpia responde na hora. As garras descem no peito do guarda, mas a loriga de couro endurecida pela magia segura o golpe, e o escudo de madeira se agita um palmo tarde.
+> Harpia: Garras NH 14 = *14*
+> Ponto de impacto sorteado: 3d [3, 6, 2] = 11 → Tronco
+> 3d [1, 3, 1] = *5* → sucesso por 9
+> Defesa do Guarda: bloqueio 7 +3 DP escudo = *10*
+> 3d [1, 4, 6] = *11* → falhou por 1
+> Dano: 1D [5] = *5*
+> RD 7 (loriga 2 + Armadura 5) → 0 passam
+> *A armadura segurou o golpe.* Nenhum dano.
+
+Farejo avança e crava os dentes no pé do velho, que não consegue tirá-lo a tempo.
+> Farejo: Mordida NH 12 = *12*
+> Ponto de impacto sorteado: 3d [6, 6, 4] = 16 → Pé
+> 3d [3, 2, 5] = *10* → sucesso por 2
+> Defesa de Orvin: esquiva 5 = *5*
+> 3d [6, 6, 3] = *15* → falhou por 10
+> Dano: 1D−1 [2] − 1 = *1*
+> RD 0 → 1 passa
+> Corte: ×1,5 → *1*
+> *Orvin perde 1 ponto de vida.*
+
+Krag não solta a corda, a ponta da flecha ainda sobre o velho. O morto de olhos baços cruza a sala e para ao lado dele, sem erguer a mão.
+
+Gorbag arrasta o corpo até a fonte, a mão no flanco e o sangue seco no queixo.
+> Gorbag (HT 15) para seguir consciente a −6 PV: 3d [2, 1, 3] = *6* → sucesso por 9
+
+Urzog para e fica parado, sem dizer nada. O Grumel recua um passo, os braços erguidos, e fica ali. Sae'Varyn e Tann'athar entram na sala, o fôlego curto.
+
+No corredor, o metal bate cada vez mais perto.
+
+O que vocês fazem?
+
+### Narração 145 — 04/11/2026 13:06
+
+_T109: Toque Mortal em Farejo, guarda fere a harpia, Criar Fogo de Mor'Dhaun no corredor_
+
+*TURNO 109 — O TOQUE QUE NÃO PROTEGE*
+
+O velho gira sobre o pé mordido, estende a mão aberta e toca o cão no ombro. Um frio seco corre pelo pelo de Farejo, que solta o manto, e o uivo morre no meio. Nem o brilho cinza do escudo mágico segura isso.
+> Orvin: Toque Mortal (Magia, 3 pontos de energia, de graça na fonte) NH 20, -1 choque (mordida no pé, T108) = *19*
+> 3d [1, 3, 4] = *8* → sucesso por 11 (toque em combate de perto, automático)
+> Dano: 3D [3, 4, 3] = *10*
+> DP e RD não protegem contra o Toque Mortal
+> Perdeu mais de HT/2: teste de HT 15 para não cair, 3d [6, 5, 2] = *13* → de pé; *ATORDOADO* (-4 nas defesas)
+> *Farejo perde 10 pontos de vida.*
+
+Grumel dá um passo e ergue o braço para a finta, mas está às costas do guarda, e o guarda nem o vê. O golpe falso se perde no ar.
+> Finta de Grumel: impossível, o guarda não o vê (fora do ângulo de visão, atrás dele)
+
+A mulher alada desce as garras no braço da espada do guarda. O escudo de madeira sobe tarde, mas a couraça mágica de Orvin aguenta.
+> Harpia: Garras NH 14, -2 Braço = *12*
+> 3d [6, 1, 3] = *10* → sucesso por 2
+> Defesa do Guarda: bloqueio 7 +3 DP escudo = *10*
+> 3d [3, 5, 4] = *12* → falhou por 2
+> Dano: 1D [1] = *1*
+> RD 5 (Armadura mágica) → 0 passam
+> *A armadura segurou o golpe.* Nenhum dano.
+
+O guarda recolhe o gládio e crava a ponta no peito dela. A mulher alada tenta se torcer e não escapa; o ferro rasga a pele pálida e ela cambaleia.
+> Guarda do Castelo: Espadas Curtas NH 12 = *12* (tronco, sem redutor)
+> 3d [2, 3, 3] = *8* → sucesso por 4
+> Defesa da harpia: esquiva 7 +1 DP = *8*
+> 3d [2, 4, 5] = *11* → falhou por 3
+> Dano: 1D+3 [3] + 3 = *6*
+> RD 1 → 5 passam
+> Corte: ×1,5 → *7*
+> Perdeu mais de HT/2: teste de HT 13 para não cair, 3d [1, 6, 1] = *8* → de pé; *ATORDOADA* (-4 nas defesas)
+> *Mulher alada perde 7 pontos de vida.*
+
+Farejo balança a cabeça, tonto, as patas abertas, e não puxa mais ninguém: gasta o turno em firmar o corpo.
+> Farejo: HT 15 para sair do atordoamento, 3d [3, 3, 3] = *9* → sucesso por 6
+
+Krag não solta a corda, a ponta da flecha ainda sobre a cabeça do velho. O morto de olhos baços salta do último degrau da escada e cai de pé ao lado dele, sem erguer a mão. Gorbag arrasta o corpo enorme pelo chão, a mão no flanco.
+> Gorbag (HT 15) para seguir consciente a −6 PV: 3d [3, 1, 3] = *7* → sucesso por 8
+
+Sae'Varyn e Tann'athar avançam dois passos cada um, o fôlego curto.
+
+Urzog fica olhando o vazio, sem gesto nem palavra, e o ar do fundo da sala estala. Diante da boca do corredor sobe um círculo de chamas de uns cinco metros, alto e sem fumaça. O calor chega até a fonte. Do outro lado, o bater de botas e de ferro hesita.
+> Mor'Dhaun: Criar Fogo (Magia, Área, raio de 3 hexágonos, custo 6, de graça na fonte) NH 21, -6 distância até o hex mais próximo da área = *15*
+> 3d [3, 2, 4] = *9* → sucesso por 6
+> Dura 1 minuto; quem ficar no fogo sofre 1D-1 por turno
+
+O que vocês fazem?
+
+### Narração 146 — 04/11/2026 14:50
+
+_T110: flecha de Krag na cabeça de Orvin, Gorbag cai inconsciente_
+
+*TURNO 110 — A FLECHA NO MAGO*
+
+Farejo larga o pé do velho, rodeia a mulher alada em quatro saltos e para colado ao guarda, os dentes à mostra e o fôlego curto. Chegou perto demais para morder.
+> Farejo: andou mais de 1 hexágono (Deslocamento 12), a manobra é Deslocamento: a mordida não sai
+
+Grumel gira o corpo morto e chuta a mão da espada do guarda, pelas costas. A bota acerta, mas a couraça mágica de Orvin engole o impacto.
+> Grumel: Chute NH 12, -4 Mão = *8*
+> 3d [3, 2, 3] = *8* → sucesso por 0
+> Defesa do Guarda: nenhuma (golpe pelas costas, fora do ângulo de visão)
+> Dano: 1D+1 [1] + 1 = *2*
+> RD 5 (Armadura mágica) → 0 passam
+> *A armadura segurou o golpe.* Nenhum dano.
+
+Krag não solta o ar até a corda estalar. A flecha cruza a sala em linha reta e crava na cabeça do velho, por trás. Ele cambaleia, a mão no ferimento, e não solta a palavra que vinha dizendo.
+> Krag: Arco NH 17, -4 distância (8 m → linha dos 9 m), +3 Precisão, +3 mira (4º turno), -5 Cabeça = *14*
+> 3d [3, 6, 1] = *10* → sucesso por 4
+> Defesa de Orvin: nenhuma (tiro vindo de trás, fora do ângulo de visão)
+> Dano: 1D+1 [2] + 1 = *3*
+> RD 0 → 3 passam
+> Perfuração: ×2 depois da armadura → *6*
+> Perdeu mais de HT/2: teste de HT 10 para não cair, 3d [2, 1, 3] = *6* → de pé; *ATORDOADO* (-4 nas defesas)
+> Tiro na cabeça: teste de HT 10 contra nocaute, 3d [1, 6, 1] = *8* → aguentou
+> *Orvin perde 6 pontos de vida.*
+> Orvin: manter a concentração, Vontade 16 (provisória) -3 = *13*, 3d [4, 1, 1] = *6* → sucesso por 7; ferido durante a concentração: -6 na mágica (1 por ponto perdido)
+
+A mulher alada sacode a cabeça, as penas eriçadas, e se firma nas pernas.
+> Mulher alada: HT 13 para sair do atordoamento, 3d [2, 4, 4] = *10* → sucesso por 3
+
+O guarda crava a ponta do gládio no peito dela. A mulher alada se joga de lado e o ferro passa raspando.
+> Guarda do Castelo: Espadas Curtas NH 12 = *12* (tronco, sem redutor)
+> 3d [2, 3, 3] = *8* → sucesso por 4
+> Defesa da harpia: esquiva 7 +1 DP = *8*
+> 3d [1, 2, 2] = *5* → defendeu por 3
+> *Mulher alada se defendeu.* Sem dano.
+
+Gorbag tenta se arrastar para a frente, a mão no flanco, mas as pernas cedem e o ogro desaba no chão, sem um som.
+> Gorbag (HT 15) para seguir consciente a −6 PV: 3d [6, 6, 4] = *16* → falhou por 1
+> *Gorbag cai INCONSCIENTE.*
+
+Urzog avança com passo curto, o rosto vazio. O morto de olhos baços encosta no guarda sem erguer a mão. Sae'Varyn e Tann'athar seguem escada abaixo, o fôlego curto.
+
+O que vocês fazem?
+
+### Narração 147 — 04/11/2026 15:08
+
+_T111: Orvin segue atordoado, o Domo se perde; guarda segura os golpes_
+
+*TURNO 111 — O VELHO NÃO SE ERGUE*
+
+O velho tenta se endireitar, a mão na cabeça, a boca se movendo sem som. As pernas não obedecem e o que ele começava a dizer morre na garganta.
+> Orvin: HT 10 para sair do atordoamento, 3d [5, 5, 6] = *16* → falhou por 6; segue *ATORDOADO*
+
+Farejo salta no flanco do guarda e crava os dentes na altura das costelas. O guarda ergue o escudo tarde demais, mas a couraça mágica de Orvin segura a mordida.
+> Farejo: Mordida NH 12 (ponto de impacto sorteado: 3d [6, 6, 6] = 18, órgãos vitais, sem redutor) = *12*
+> 3d [5, 5, 2] = *12* → sucesso por 0
+> Defesa do Guarda: bloqueio 7 +3 DP escudo = *10*
+> 3d [6, 5, 2] = *13* → falhou por 3
+> Dano: 1D-1 [2] - 1 = *1*
+> RD 5 (Armadura mágica) → 0 passam
+> *A armadura segurou o golpe.* Nenhum dano.
+
+Grumel chuta o guarda pelas costas, no tronco. O guarda nem o vê, mas a couraça mágica engole o golpe.
+> Grumel: Chute NH 12 (ponto de impacto sorteado: 3d [3, 6, 2] = 11, tronco, sem redutor) = *12*
+> 3d [6, 1, 1] = *8* → sucesso por 4
+> Defesa do Guarda: nenhuma (golpe pelas costas, fora do ângulo de visão)
+> Dano: 1D+1 [1] + 1 = *2*
+> RD 5 (Armadura mágica) → 0 passam
+> *A armadura segurou o golpe.* Nenhum dano.
+
+O morto de olhos baços tenta chutar o pé do guarda, por trás, e a bota passa no vazio.
+> Faelar Zumbi: Chute NH 10 (ponto de impacto sorteado: 3d [5, 5, 5] = 15, pé, sem redutor) = *10*
+> 3d [6, 4, 4] = *14* → falha por 4
+
+A mulher alada desce as garras no braço da espada do guarda. A lâmina sobe para aparar e chega tarde; a couraça mágica aguenta.
+> Mulher alada: Garras NH 14, -2 Braço = *12*
+> 3d [5, 3, 2] = *10* → sucesso por 2
+> Defesa do Guarda: aparar 7 = *7*
+> 3d [3, 5, 2] = *10* → falhou por 3
+> Dano: 1D [2] = *2*
+> RD 5 (Armadura mágica) → 0 passam
+> *A armadura segurou o golpe.* Nenhum dano.
+
+Krag baixa o arco, tira outra flecha da aljava num só movimento e a encaixa sem tirar o olho do velho. Depois ergue a corda e firma a ponta na cabeça dele.
+> Krag: Sacar Rápido (Flecha) NH 14
+> 3d [1, 1, 3] = *5* → sucesso por 9
+> 1º turno de mira em Orvin
+
+O guarda manda a ponta do gládio no peito da mulher alada. Ela recua o tronco e o ferro corta só o ar.
+> Guarda do Castelo: Espadas Curtas NH 12 = *12* (tronco, sem redutor)
+> 3d [5, 6, 3] = *14* → falha por 2
+
+Tann'athar tira do manto um frasco de líquido amarelo e o segura fechado na mão. Urzog atravessa a sala com passo curto, o rosto vazio. Sae'Varyn segue escada abaixo, o fôlego curto. Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 148 — 04/11/2026 21:17
+
+_T112: Orvin sai do atordoamento; guarda defende a harpia; Tann'athar bebe o líquido amarelo (Fadiga 10/10)_
+
+*TURNO 112 — O LÍQUIDO AMARELO*
+
+O velho firma os pés no chão, a mão ainda no ferimento da cabeça, e o olhar volta a focar. Ainda não ergue o bastão.
+> Orvin: HT 10 para sair do atordoamento, 3d [4, 2, 2] = *8* → sucesso por 2; *recuperou-se do atordoamento*
+
+Farejo salta e tenta a jugular do guarda, pelo flanco. Os dentes fecham no ar, a um palmo do pescoço.
+> Farejo: Mordida NH 12, -5 Pescoço = *7*
+> 3d [4, 6, 1] = *11* → falha por 4
+
+Grumel manda o pé no meio das costas do guarda. O golpe acerta em cheio, mas a couraça mágica não cede.
+> Grumel: Chute NH 12 (ponto de impacto sorteado: 3d [3, 4, 2] = 9, tronco, sem redutor) = *12*
+> 3d [1, 6, 5] = *12* → sucesso por 0
+> Defesa do Guarda: nenhuma (golpe pelas costas, fora do ângulo de visão)
+> Dano: 1D+1 [6] + 1 = *7*
+> RD 7 (loriga de couro 2 + Armadura mágica 5) → 0 passam
+> *A armadura segurou o golpe.* Nenhum dano.
+
+O morto de olhos baços chuta o guarda por trás, e a bota bate no tronco sem arrancar um gemido.
+> Faelar Zumbi: Chute NH 10 (ponto de impacto sorteado: 3d [1, 6, 3] = 10, tronco, sem redutor) = *10*
+> 3d [4, 3, 3] = *10* → sucesso por 0
+> Defesa do Guarda: nenhuma (golpe pelas costas, fora do ângulo de visão)
+> Dano: 1D+1 [1] + 1 = *2*
+> RD 7 (loriga de couro 2 + Armadura mágica 5) → 0 passam
+> *A armadura segurou o golpe.* Nenhum dano.
+
+A mulher alada desce as garras no tronco do guarda. O escudo de madeira sobe a tempo e as unhas riscam só a madeira.
+> Mulher alada: Garras NH 14 = *14*
+> 3d [6, 4, 3] = *13* → sucesso por 1
+> Defesa do Guarda: bloqueio 7 +3 DP escudo = *10*
+> 3d [1, 3, 4] = *8* → defendeu por 2
+> *Guarda do Castelo se defendeu.* Sem dano.
+
+Krag não afrouxa a corda. A ponta da flecha acompanha o velho, que mal se mexe, e a mão do ranger não treme.
+> Krag: continua mirando em Orvin (2º turno de mira)
+
+O guarda estoca o gládio no peito da mulher alada. Ela se joga para trás e o ferro passa raspando a pena.
+> Guarda do Castelo: Espadas Curtas NH 12 = *12* (tronco, sem redutor)
+> 3d [2, 6, 6] = *14* → falha por 2
+
+Tann'athar destampa o frasco e bebe o líquido amarelo de um gole, dando um passo à frente. O cansaço some do corpo dele de uma vez, como se nunca tivesse existido, e o gosto de mel queimado fica na boca.
+> Líquido amarelo: cura 5d [5, 2, 3, 6, 6] = *22* pontos de vida (Tann'athar já tem 11/11: nada a curar) e recupera toda a Fadiga (2 → 10/10)
+
+Urzog dá um passo curto e fica parado, o rosto vazio, os lábios se mexendo sem som. Sae'Varyn avança dois passos pela pedra, o fôlego curto. Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 149 — 04/11/2026 21:35
+
+_T113: Orvin se concentra no Domo; guarda fere a harpia (0/14, atordoada); Tann'athar corre ao encontro de Sae'Varyn_
+
+*TURNO 113 — O AR QUE ESTREMECE*
+
+O velho ergue as duas mãos abertas à altura do peito e começa a murmurar, os olhos fixos no vazio. O ar em volta dele estremece como sobre brasas, mas nada se fecha ainda.
+> Orvin: concentra-se em mágica (o teste sai no início do próximo turno)
+
+Farejo salta de novo atrás da jugular do guarda. Os dentes batem no ar, a um palmo do pescoço.
+> Farejo: Mordida NH 12, -5 Pescoço = *7*
+> 3d [3, 3, 3] = *9* → falha por 2
+
+Grumel manda o pé na mão da espada do guarda, por trás. A bota passa longe e só encontra o vento.
+> Grumel: Chute NH 12 (ponto de impacto sorteado: 3d [4, 1, 2] = 7, mão), -4 Mão = *8*
+> 3d [5, 6, 3] = *14* → falha por 6
+
+O morto de olhos baços tenta chutar o tronco do guarda e erra por um dedo, tropeçando no próprio pé.
+> Faelar Zumbi: Chute NH 10 (ponto de impacto sorteado: 3d [4, 2, 3] = 9, tronco, sem redutor) = *10*
+> 3d [3, 6, 2] = *11* → falha por 1
+
+A mulher alada desce as garras na mão da espada do guarda. O escudo de madeira sobe tarde e as unhas riscam a luva, mas a couraça mágica segura.
+> Mulher alada: Garras NH 14 (ponto de impacto sorteado: 3d [2, 3, 2] = 7, mão), -4 Mão = *10*
+> 3d [1, 4, 1] = *6* → sucesso por 4
+> Defesa do Guarda: bloqueio 7 +3 DP escudo = *10*
+> 3d [6, 1, 4] = *11* → falhou por 1
+> Dano: 1D [2] = *2*
+> RD 5 (Armadura mágica) → 0 passam
+> *A armadura segurou o golpe.* Nenhum dano.
+
+Krag não afrouxa a corda. A ponta da flecha acompanha o velho e a respiração do ranger fica curta e firme.
+> Krag: continua mirando em Orvin (3º turno de mira)
+
+O guarda crava o gládio no peito da mulher alada. Ela tenta se esquivar e não sai a tempo: o ferro entra fundo e ela cambaleia, as penas eriçadas.
+> Guarda do Castelo: Espadas Curtas NH 12 = *12* (tronco, sem redutor)
+> 3d [2, 1, 4] = *7* → sucesso por 5
+> Defesa da harpia: esquiva 7 +1 DP = *8*
+> 3d [6, 6, 1] = *13* → falhou por 5
+> Dano: 1D+3 [3] + 3 = *6*
+> RD 1 → 5 passam
+> Corte: ×1,5 → *7*
+> Perdeu mais de HT/2: teste de HT 13 para não cair, 3d [4, 3, 1] = *8* → de pé; *ATORDOADA* (-4 nas defesas)
+> *Mulher alada perde 7 pontos de vida.*
+
+Tann'athar grita "Agora sim!" e sai correndo pela pedra, abrindo caminho até o ranger. Sae'Varyn avança um passo, o fôlego curto. Urzog fica parado, virado para o velho, os lábios mexendo sem som. Gorbag continua caído.
+
+O que vocês fazem?
+
+### Narração 150 — 05/11/2026 00:15
+
+_T114: Domo de Força de Orvin (1 hex), Anulação de Urzog desfaz a Armadura do guarda, harpia a -6_
+
+*TURNO 114 — O DOMO DE FORÇA*
+
+O velho baixa as mãos de uma vez e o ar em volta dele se fecha com um estalo seco, como vidro grosso assentando. Uma bolha clara, quase invisível, cobre só o espaço onde ele pisa, e o cheiro de ozônio sobe da pedra da fonte.
+> Orvin: Domo de Força (1 hex) NH 20 (fonte do térreo, sem -5) = *20*
+> 3d [3, 4, 2] = *9* → sucesso por 11
+
+Farejo salta no flanco do guarda e crava os dentes no tronco. A couraça mágica não cede, e o cão cai de volta no chão, rosnando.
+> Farejo: Mordida NH 12 (tronco, sem redutor) = *12*
+> 3d [5, 3, 3] = *11* → sucesso por 1
+> Defesa do Guarda: aparar 7 -2 golpe pelo lado direito = *5*
+> 3d [4, 6, 1] = *11* → falhou por 6
+> Dano: 1D-1 [6] - 1 = *5*
+> RD 7 (loriga de couro 2 + Armadura mágica 5) → 0 passam
+> *A armadura segurou o golpe.* Nenhum dano.
+
+Grumel manda a bota na mão da espada do guarda, por trás. O pé passa longe e só encontra o vento.
+> Grumel: Chute NH 12 (ponto de impacto sorteado: 3d [2, 1, 4] = 7, mão), -4 Mão = *8*
+> 3d [4, 5, 2] = *11* → falha por 3
+
+O morto de olhos baços tenta chutar o guarda pelas costas e erra feio: a bota volta num arco torto e acerta a própria perna esquerda. Ele não geme, mas o joelho dobra.
+> Faelar Zumbi: Chute NH 10 (ponto de impacto sorteado: 3d [6, 3, 2] = 11, tronco, sem redutor) = *10*
+> 3d [6, 6, 5] = *17* → *FALHA CRÍTICA* (por 7)
+> *ERRO CRÍTICO!* Tabela de Erros Críticos: 3d [1, 1, 3] = *5* — acerta a si mesmo, num braço ou perna
+> Lado: 1d [3] = esquerdo; membro: 1d [6] = perna (1-3 braço, 4-6 perna)
+> Dano: 1D+1 [3] + 1 = *4*
+> RD 0 → 4 passam
+> Contusão: ×1 → *4*
+> *Faelar Zumbi perde 4 pontos de vida.*
+
+A mulher alada tenta se erguer. As asas batem sem força e ela volta a cair de joelhos, o peito arfando, os olhos sem foco.
+> Mulher alada: HT 13 para sair do atordoamento, 3d [5, 6, 5] = *16* → falhou por 3; segue *ATORDOADA*
+> Mulher alada: HT 13 para seguir consciente a 0 PV, 3d [3, 1, 1] = *5* → sucesso por 8
+
+Krag solta a corda. A flecha cruza a sala em linha reta e bate, a um palmo do velho, em algo que não se vê: um estalo claro, e a haste cai quebrada no chão de pedra.
+> Krag: tiro em Orvin (4º turno de mira), a flecha bate no Domo de Força e cai (nada físico atravessa)
+
+O guarda enfia o gládio no peito da mulher alada, caída de joelhos. Ela não consegue se esquivar, e o ferro entra fundo.
+> Guarda do Castelo: Espadas Curtas NH 12 = *12* (tronco, sem redutor)
+> 3d [2, 3, 2] = *7* → sucesso por 5
+> Defesa da harpia: esquiva 7 +1 DP -4 atordoada = *4*
+> 3d [4, 2, 6] = *12* → falhou por 8
+> Dano: 1D+3 [2] + 3 = *5*
+> RD 1 → 4 passam
+> Corte: ×1,5 → *6*
+> *Mulher alada perde 6 pontos de vida.*
+
+Sae'Varyn avança mais um passo pela pedra, o fôlego curto. Tann'athar repete o grito e vem atrás, passando entre as colunas.
+
+Urzog estende a palma aberta para o guarda e murmura uma sílaba áspera. A luz fraca que corria pela couraça do homem se desfaz como fumaça, e sobra só o couro velho, riscado de arranhões. Gorbag continua caído.
+> Urzog (Mor'Dhaun): Anulação de Magia (1 hex, sobre o guarda) NH 21 (fonte, sem -5) = *21*
+> 3d [3, 1, 3] = *7* → sucesso por 14
+> Resistência de Orvin (Armadura +5 RD) NH 20 = *20*
+> 3d [5, 2, 2] = *9* → sucesso por 11
+> *A Anulação vence a Disputa (14 contra 11):* a Armadura +5 RD do guarda se perde para sempre
+
+O que vocês fazem?
+
+### Narração 151 — 05/11/2026 10:57
+
+_T115: Orvin concentra em Cura Profunda; guarda 6/12, harpia -10/14; arqueiros sacam flecha e miram em Urzog_
+
+*TURNO 115 — AS FLECHAS NA CORDA*
+
+O velho cruza as mãos sobre o próprio peito e murmura em voz baixa, os olhos fechados. A bolha clara continua em volta dele e nada se fecha ainda.
+
+Farejo salta pelo flanco do guarda e crava os dentes no braço da espada. O guarda tenta aparar tarde demais e o couro se rasga.
+> Farejo: Mordida NH 12, -2 Braço = *10*
+> 3d [5, 2, 2] = *9* → sucesso por 1
+> Defesa do Guarda: aparar 7 -2 golpe pelo lado direito = *5*
+> 3d [3, 4, 3] = *10* → falhou por 5
+> Dano: 1D-1 [3] - 1 = *2*
+> RD 0 → 2 passam
+> Corte: ×1,5 depois da armadura → *3*
+> *Guarda do Castelo perde 3 pontos de vida.*
+
+Grumel enfia a bota nas costas do guarda. O homem nem vê o golpe chegar.
+> Grumel: Chute NH 12 (ponto de impacto sorteado: 3d [5, 5, 1] = 11, tronco, sem redutor) = *12*
+> 3d [3, 2, 2] = *7* → sucesso por 5
+> Defesa do Guarda: nenhuma (golpe pelas costas, fora do ângulo de visão)
+> Dano: 1D+1 [4] + 1 = *5*
+> RD 2 (loriga de couro) → 3 passam
+> *Guarda do Castelo perde 3 pontos de vida.*
+
+O morto de olhos baços ergue o pé alto, mirando a cabeça do guarda por trás. O chute passa por cima e ele quase cai de costas.
+> Faelar Zumbi: Chute NH 10 -4 choque do turno anterior (ponto de impacto sorteado: 3d [2, 1, 1] = 4, cabeça) = *6*
+> 3d [6, 1, 3] = *10* → falha por 4
+
+A mulher alada firma as asas contra o chão e o olhar volta a focar. Ela respira fundo e se recompõe, sem força para atacar.
+> Mulher alada: HT 13 para sair do atordoamento, 3d [3, 2, 2] = *7* → sucesso por 6; *recuperou-se do atordoamento*
+> Mulher alada: HT 13 para seguir consciente a -6 PV, 3d [5, 4, 3] = *12* → sucesso por 1
+
+Krag tira outra flecha da aljava num só movimento, encaixa e firma a ponta no guarda.
+> Krag: Sacar Rápido (Flecha) NH 14
+> 3d [1, 1, 6] = *8* → sucesso por 6
+> 1º turno de mira no Guarda do Castelo
+
+O guarda estoca o gládio no peito da mulher alada. Ela tenta sair do caminho e não consegue: o ferro entra raso, mas entra.
+> Guarda do Castelo: Espadas Curtas NH 12 = *12* (tronco, sem redutor)
+> 3d [3, 6, 2] = *11* → sucesso por 1
+> Defesa da harpia: esquiva 7 +1 DP = *8*
+> 3d [6, 4, 4] = *14* → falhou por 6
+> Dano: 1D-1 [4] - 1 = *3*
+> RD 1 → 2 passam
+> Perfuração: ×2 → *4*
+> *Mulher alada perde 4 pontos de vida.*
+
+No corredor sul, três arqueiros de gibão azul e torre branca puxam uma flecha da aljava. Um atrapalha a haste e perde o tempo. Os outros dois encaixam e erguem os arcos, as pontas acompanhando o orc que fala com a espada.
+> Arqueiro da torre: Sacar Rápido (Flecha) NH 12
+> 3d [6, 3, 4] = *13* → falha por 1
+> Arqueiro da torre 2: Sacar Rápido (Flecha) NH 12
+> 3d [6, 1, 2] = *9* → sucesso por 3
+> Arqueiro da torre 3: Sacar Rápido (Flecha) NH 12
+> 3d [3, 1, 3] = *7* → sucesso por 5
+
+Sae'Varyn dá um passo de lado e espera. Tann'athar saca do manto um frasco azul e avança, mas o elfo já recuou: ainda há dois passos entre eles. Urzog fica parado, os lábios se mexendo sem som.
+
+O que vocês fazem?
+
+### Narração 152 — 05/11/2026 11:49
+
+_T116: Orvin se cura (10/10); Farejo faz o guarda largar o gládio; arqueiro 2 derruba o arco_
+
+*TURNO 116 — O GLÁDIO NO CHÃO*
+
+O velho abre as mãos sobre o peito e a cor volta ao rosto dele de uma vez. O ar em volta vibra como sobre brasas e a palidez some. Ele respira fundo, mais firme.
+> Orvin: Cura Profunda em si mesmo NH 20 (fonte do térreo, sem -5) = *20*
+> 3d [6, 2, 6] = *14* → sucesso por 6
+> Cura: 8 pontos de vida (custo 4, o dobro volta ao paciente); Orvin 3 → *10/10*
+
+Farejo trava as mandíbulas no braço da espada e sacode a cabeça com toda a força do pescoço. Os dedos do guarda se abrem e o gládio cai tinindo na pedra.
+> Farejo × Guarda do Castelo: disputa rápida de ST
+> Farejo: ST segurando a mordida NH 12 = *12*
+> 3d [2, 2, 1] = *5* → sucesso por 7
+> Guarda do Castelo: ST para manter a espada NH 12 = *12*
+> 3d [3, 1, 6] = *10* → sucesso por 2
+> *Farejo vence:* o guarda larga o gládio
+
+Grumel manda a bota na perna do guarda, por trás. O pé passa raspando o couro e só encontra o ar.
+> Grumel: Chute NH 12 (ponto de impacto sorteado: 3d [4, 4, 5] = 13, perna, sem redutor) = *12*
+> 3d [5, 3, 5] = *13* → falha por 1
+
+O morto de olhos baços tenta chutar o pé do guarda e a bota passa longe.
+> Faelar Zumbi: Chute NH 10 (ponto de impacto sorteado: 3d [6, 4, 5] = 15, pé, sem redutor) = *10*
+> 3d [6, 4, 2] = *12* → falha por 2
+
+A mulher alada ergue a cabeça, o fôlego curto, e mesmo assim arremete com as garras no rosto do guarda. Ele desvia o rosto e as unhas riscam só o ar.
+> Mulher alada: HT 13 para seguir consciente a -10 PV, 3d [1, 6, 2] = *9* → sucesso por 4
+> Mulher alada: Garras NH 14 -4 choque do turno anterior (ponto de impacto sorteado: 3d [1, 2, 2] = 5, cabeça, sem redutor) = *10*
+> 3d [6, 6, 1] = *13* → falha por 3
+
+Krag solta a corda de cima. A flecha passa por cima da cabeça do morto de olhos baços, mira as costas do guarda e se perde na pedra, a um palmo do alvo.
+> Krag: Arco NH 17, -4 distância (8 m), +3 Precisão, -3 órgãos vitais = *13*
+> 3d [4, 6, 5] = *15* → falha por 2
+
+O guarda fica com a mão aberta, olhando o gládio caído. Ele não tem como estocar de mãos vazias.
+
+No corredor sul, os três arqueiros de gibão azul e torre branca fecham o turno de uma vez. Dois arcos cantam. O do meio escorrega da mão do arqueiro e bate na pedra. A flecha do outro corta o ar longe demais do orc e se perde. O terceiro arqueiro termina de encaixar a flecha e ergue o arco, mirando.
+> Arqueiro da torre 2: Arco NH 12, -4 distância (9 m), +1 Precisão = *9*
+> 3d [5, 6, 6] = *17* → *FALHA CRÍTICA* (por 8)
+> *ERRO CRÍTICO!* Tabela de Erros Críticos: 3d [2, 2, 5] = *9*
+> _Você DERRUBOU a arma._
+> Arqueiro da torre 3: Arco NH 12, -5 distância (10 m), +1 Precisão, -2 braço (ponto de impacto sorteado: 3d [1, 1, 6] = 8) = *6*
+> 3d [2, 5, 3] = *10* → falha por 4
+
+Tann'athar estende o frasco azul e Sae'Varyn o toma da mão dele. Urzog segue parado, os lábios se mexendo sem som.
+
+O que vocês fazem?
+
+### Narração 153 — 05/11/2026 13:19
+
+_T117: Domo de Orvin resiste à Anulação de Urzog (10 contra 8); Æsculapius no Sae'Varyn; guarda apanha o gládio_
+
+*TURNO 117 — O DOMO RESISTE*
+
+O velho mantém a bolha clara em volta dos pés e junta as mãos no peito, os lábios se mexendo sem som. O ar estremece de leve, como sobre brasas, e nada se fecha ainda.
+> Orvin: concentra-se em mágica (o teste sai no início do próximo turno)
+
+Farejo larga o braço do guarda e salta para a jugular pelo flanco. Os dentes batem no ar, longe do pescoço.
+> Farejo: Mordida NH 12, -5 Pescoço = *7*
+> 3d [3, 3, 6] = *12* → falha por 5
+
+Grumel manda a bota no braço do escudo do guarda, por trás. O pé passa longe e só encontra o vento.
+> Grumel: Chute NH 12 (ponto de impacto sorteado: 3d [2, 2, 2] = 6, braço do escudo, sem redutor) = *12*
+> 3d [5, 5, 6] = *16* → falha por 4
+
+O morto de olhos baços ergue a perna e chuta para o braço do guarda. A bota passa curta e ele quase perde o equilíbrio.
+> Faelar Zumbi: Chute NH 10 (ponto de impacto sorteado: 3d [5, 1, 2] = 8, braço, sem redutor) = *10*
+> 3d [3, 6, 5] = *14* → falha por 4
+
+A mulher alada firma as asas no chão, o fôlego curto, e o olhar se mantém. Ela desce as garras no peito do guarda. O escudo sobe tarde, mas a loriga de couro segura o corte.
+> Mulher alada: HT 13 para seguir consciente a -10 PV, 3d [1, 1, 4] = *6* → sucesso por 7
+> Mulher alada: Garras NH 14 (ponto de impacto sorteado: 3d [6, 2, 2] = 10, tronco, sem redutor) = *14*
+> 3d [3, 2, 3] = *8* → sucesso por 6
+> Defesa do Guarda: bloqueio 7 +3 DP escudo = *10*
+> 3d [5, 5, 2] = *12* → falhou por 2
+> Dano: 1D [1] = *1*
+> RD 2 (loriga de couro) → 0 passam
+> *A armadura segurou o golpe.* Nenhum dano.
+
+Krag tira outra flecha da aljava num só movimento, encaixa e firma a ponta no velho, atrás da bolha clara.
+> Krag: Sacar Rápido (Flecha) NH 14
+> 3d [4, 2, 6] = *12* → sucesso por 2
+> 1º turno de mira em Orvin
+
+O guarda olha o gládio no chão, aos próprios pés, e se abaixa de ombro para alcançá-lo. A mão ainda não fecha no cabo.
+
+No corredor sul, o arqueiro de gibão azul e torre branca solta a corda. A flecha cruza a sala e bate nas costas do orc, rasga o couro e não passa da coura. Ao lado, o arqueiro que perdeu o arco se abaixa para pegá-lo do chão. O terceiro puxa uma flecha, encaixa e ergue o arco, a ponta acompanhando o orc.
+> Arqueiro da torre: Arco NH 12, -5 distância (10 m), +1 Precisão = *8*
+> 3d [4, 3, 1] = *8* → sucesso por 0
+> Defesa de Urzog: sem defesa ativa (de costas); DP passiva 4
+> 3d [3, 3, 2] = *8* → não segurou
+> Dano: 1D-2 [3] - 2 = *1*
+> RD 3 (coura 1 + Rijeza 2) → 0 passam
+> *A armadura segurou o golpe.* Nenhum dano.
+> Arqueiro da torre 3: Sacar Rápido (Flecha) NH 12
+> 3d [3, 5, 1] = *9* → sucesso por 3
+> 1º turno de mira em Urzog
+
+Sae'Varyn destampa o frasco azul e bebe tudo de um gole. Um calor leve percorre o peito dele e a dor das costelas some. Ele aperta o bastão e respira fundo, bem.
+> Frasco azul (Æsculapius): restaura 2 pontos de vida; Sae'Varyn 12 → *13/13*
+
+Tann'athar avança pela pedra em direção à fonte, entre as colunas.
+
+Urzog estende a palma aberta para o velho e solta uma sílaba áspera. A luz fraca corre pela bolha clara e vacila, mas o Domo não se desfaz.
+> Urzog (Mor'Dhaun): Anulação de Magia (1 hex, sobre o Domo de Orvin) NH 21 (fonte, sem -5) = *21*
+> 3d [5, 2, 6] = *13* → sucesso por 8
+> Resistência de Orvin (Domo de Força) NH 20 = *20*
+> 3d [3, 1, 6] = *10* → sucesso por 10
+> *A resistência vence a Disputa (10 contra 8):* o Domo de Força se mantém
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 154 — 05/11/2026 16:58
+
+_T118: Orvin toma Faelar Zumbi de Mor'Dhaun; guarda nocauteado; arqueiro 3 derruba o arco_
+
+*TURNO 118 — O ZUMBI TROCA DE DONO*
+
+O velho estende a mão aberta para o morto de olhos baços e fecha o punho devagar, como quem puxa uma corda. O cheiro de ozônio sobe da fonte, e o morto para com o pé no ar, a cabeça virando para o velho.
+> Orvin: Controle de Zumbi NH 20 (fonte do térreo, sem -5), -2 distância (2 hex) = *18*
+> 3d [1, 1, 6] = *8* → sucesso por 10
+> Resistência de Faelar Zumbi (Zumbi de Mor'Dhaun) NH 21, +2 (operador a menos de 100 m) = *23*
+> 3d [5, 4, 5] = *14* → sucesso por 9
+> *A mágica de Orvin vence a Disputa (10 contra 9):* Faelar Zumbi passa ao controle dele
+
+Farejo salta pelo flanco do guarda e vai direto ao pescoço. O escudo sobe tarde. Os dentes pegam a pele e o sangue escorre pela gola.
+> Farejo: Mordida NH 12, -5 Pescoço, +4 Ataque Total = *11*
+> 3d [1, 1, 6] = *8* → sucesso por 3
+> Defesa do Guarda: bloqueio 7 +3 DP escudo -2 golpe pelo lado direito = *8*
+> 3d [3, 6, 6] = *15* → falhou por 7
+> Dano: 1D-1 [1] - 1 = 0 → mínimo 1
+> RD 0 → 1 passa
+> Corte no pescoço: ×2 → *2*
+> *Guarda do Castelo perde 2 pontos de vida.*
+
+Grumel enfia a bota na nuca do guarda, por trás. O homem não vê o golpe chegar. Os joelhos dobram e ele cai de lado sobre o escudo.
+> Grumel: Chute NH 12 (ponto de impacto sorteado: 3d [3, 1, 1] = 5, cabeça, sem redutor) = *12*
+> 3d [5, 1, 4] = *10* → sucesso por 2
+> Defesa do Guarda: nenhuma (golpe pelas costas, fora do ângulo de visão)
+> Dano: 1D+1 [1] + 1 = *2*
+> RD 0 → 2 passam
+> Contusão: ×1 → *2*
+> HT 12 contra nocaute: 3d [6, 5, 3] = *14* → *NOCAUTEADO*
+> *Guarda do Castelo perde 2 pontos de vida.*
+
+Faelar Zumbi baixa o pé e fica parado, olhando o velho, sem chutar.
+
+A mulher alada firma as asas no chão e o olhar se mantém. Ela desce as garras na perna do guarda caído, que não reage.
+> Mulher alada: HT 13 para seguir consciente a -10 PV, 3d [3, 2, 1] = *6* → sucesso por 7
+> Mulher alada: Garras NH 14 (ponto de impacto sorteado: 3d [3, 3, 6] = 12, perna distante, sem redutor) = *14*
+> 3d [4, 3, 2] = *9* → sucesso por 5
+> Defesa do Guarda: nenhuma (inconsciente)
+> Dano: 1D [5] = *5*
+> RD 0 → 5 passam
+> Corte: ×1,5 → *7*
+> Teto do local (HT/2 = 6): 1 desperdiçado
+> *Perna INCAPACITADA*
+> *Guarda do Castelo perde 6 pontos de vida.*
+
+Krag mantém a corda tensa e a ponta firme no velho, atrás da bolha clara.
+> Krag: 2º turno de mira em Orvin
+
+O guarda não terminou de apanhar o gládio. Está caído de lado, imóvel, a mão a um palmo do cabo.
+
+No corredor sul, o arqueiro de gibão azul e torre branca puxa uma flecha, atrapalha a haste e perde o tempo. O que perdeu o arco o ergue do chão e fica de mãos vazias. O terceiro firma a mira no orc e solta a corda. A flecha sai torta, a corda estala no antebraço dele e o arco cai na pedra.
+> Arqueiro da torre: Sacar Rápido (Flecha) NH 12
+> 3d [6, 2, 5] = *13* → falha por 1
+> Arqueiro da torre 2: apanha o arco (2º de 2 turnos); sem flecha encaixada
+> Arqueiro da torre 3: Arco NH 12, -5 distância (10 m), +1 Precisão, -2 Perna = *6*
+> 3d [6, 6, 6] = *18* → *FALHA CRÍTICA* (por 12)
+> *ERRO CRÍTICO!* Tabela de Erros Críticos: 3d [1, 6, 2] = *9*
+> _Derrubou a arma._
+
+Sae'Varyn dá um passo de lado e fecha os olhos, os lábios se mexendo sem som, a mana da fonte subindo pela pedra até ele. Tann'athar avança um passo entre as colunas e para, as mãos erguidas na direção do orc.
+> Sae'Varyn: Concentração (Escudo em si), lança no T119
+> Tann'athar: Concentração (Escudo em Urzog), lança no T119
+
+Urzog baixa o queixo e murmura uma sílaba áspera, os olhos fixos na bolha clara. A luz fraca corre pela lâmina e se junta na ponta.
+> Urzog (Mor'Dhaun): Concentração 1 de 2 (Anulação de Magia sobre o Domo de Orvin)
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 155 — 05/11/2026 21:28
+
+_T119: Escudo em Sae'Varyn e Urzog; arqueiros miram; Urzog conclui a concentração_
+
+*TURNO 119 — OS ESCUDOS NA FONTE*
+
+O velho mantém a bolha clara em volta dos pés e junta as mãos no peito, os lábios se mexendo sem som. O ar estremece de leve, como sobre brasas, e nada se fecha ainda.
+> Orvin: concentra-se em mágica (o teste sai no início do próximo turno)
+
+Farejo corta a sala em linha reta, as unhas arranhando a pedra, e para junto da elfa e do meio-elfo que acabaram de entrar na fonte. O pelo do pescoço continua arrepiado.
+
+Grumel se agacha ao lado do guarda caído e fecha a mão no cabo do gládio. A lâmina ainda raspa o chão e a correia do escudo não cede.
+> Grumel: apanha o gládio e o escudo do guarda (1º de 2 turnos)
+
+O morto de olhos baços ergue a perna e chuta para a perna de Grumel. A bota passa curta e ele quase perde o equilíbrio.
+> Faelar Zumbi: Chute NH 10 (ponto de impacto sorteado: 3d [3, 6, 3] = 12, perna distante, sem redutor) = *10*
+> 3d [3, 4, 5] = *12* → falha por 2
+
+A mulher alada firma as asas no chão, o fôlego curto, e se arrasta para o lado de Tann'athar. O olhar se mantém.
+> Mulher alada: HT 13 para seguir consciente a -10 PV, 3d [1, 1, 5] = *7* → sucesso por 6
+
+Krag mantém a corda tensa e a ponta firme no velho, atrás da bolha clara.
+> Krag: 3º turno de mira em Orvin
+
+No corredor sul, o arqueiro de gibão azul e torre branca puxa uma flecha, encaixa e ergue o arco. O que apanhou o arco do chão faz o mesmo, devagar. O terceiro se abaixa para pegar o seu, do outro lado do corredor.
+> Arqueiro da torre: Sacar Rápido (Flecha) NH 12
+> 3d [5, 2, 2] = *9* → sucesso por 3
+> 1º turno de mira em Urzog
+> Arqueiro da torre 2: Sacar Rápido (Flecha) NH 12
+> 3d [5, 5, 2] = *12* → sucesso por 0
+> 1º turno de mira em Urzog
+> Arqueiro da torre 3: apanha o arco (1º de 2 turnos); sem flecha encaixada
+
+Sae'Varyn firma o bastão e fala baixo, em latim. A mana da fonte sobe pela pedra, e uma película clara, quase invisível, se fecha sobre o peito e os ombros dele.
+> Sae'Varyn: Escudo (DP +5) NH 17 (fonte do térreo, sem -5) = *17*
+> 3d [6, 4, 5] = *15* → sucesso por 2
+> Custo 0 (fonte do térreo); DP de Sae'Varyn 3 (gibão 2, broquel 1) +5 = *8*
+
+Tann'athar entra no círculo da fonte, ergue as mãos para o orc e solta uma sílaba curta. Um brilho passa pelas costas largas de Urzog e some.
+> Tann'athar: Escudo (DP +5) em Urzog, NH 18, -4 distância (4 hex) (fonte do térreo, sem -5) = *14*
+> 3d [2, 1, 5] = *8* → sucesso por 6
+> Custo 0 (fonte do térreo); DP de Urzog 4 +5 = *9* (1 min)
+
+Urzog mantém a palma voltada para o velho e murmura sem parar. A luz fraca corre pela lâmina e já passou da ponta.
+> Urzog (Mor'Dhaun): Concentração 2 de 2 (Anulação de Magia sobre o Domo de Orvin, lança no T120)
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 156 — 06/11/2026 07:21
+
+_T120: Terror de Orvin atordoa a harpia; Urzog anula o Domo_
+
+*TURNO 120 — O TERROR NA FONTE*
+
+O velho abre as mãos de uma vez. Uma onda fria sai dele e varre o círculo da fonte, sem som, como um sopro de cova aberta. A bolha clara em volta dos pés dele não se mexe.
+> Orvin: Terror (raio 2 hex, centro em Sae'Varyn) NH 20, -4 distância (4 hex) (fonte do térreo, sem -5) = *16*
+> 3d [2, 2, 6] = *10* → sucesso por 6
+> Resistência de Sae'Varyn: IQ 15, 3d [2, 3, 5] = *10* → sucesso por 5 → *não resistiu* (6 contra 5)
+> Resistência de Tann'athar: IQ 16, 3d [4, 5, 4] = *13* → sucesso por 3 → *não resistiu* (6 contra 3)
+> Resistência da mulher alada: IQ 5, 3d [5, 2, 2] = *9* → falhou por 4 → *não resistiu*
+> Verificação de Pânico de Sae'Varyn: Vontade 15, -3 Terror, +5 calor da batalha, +2 Reflexos em Combate = *19*
+> 3d [3, 3, 4] = *10* → sucesso por 9
+> Verificação de Pânico de Tann'athar: Vontade 16, -3 Terror, +5 calor da batalha = *18*
+> 3d [3, 5, 3] = *11* → sucesso por 7
+
+O cão de Krag arreganha os dentes e não recua. O frio passa por ele como se fosse vento. Ele crava a mordida no flanco do morto de olhos baços, onde o couro da pele se abre sem sangue.
+> Farejo: Mordida NH 12 (ponto de impacto sorteado: 3d [5, 6, 6] = 17, órgãos vitais, sem redutor) = *12*
+> 3d [1, 5, 2] = *8* → sucesso por 4
+> Defesa de Faelar Zumbi: esquiva 6 = *6*
+> 3d [2, 3, 6] = *11* → falhou por 5
+> Dano: 1D-1 [3] - 1 = *2*
+> RD 0 → 2 passam
+> Corte: ×1,5 → *3*
+> *Faelar Zumbi perde 3 pontos de vida.*
+
+Grumel fecha a mão no gládio, enfia o braço na correia do escudo e se levanta, o escudo de madeira batendo no joelho. O frio da fonte não o toca.
+
+O morto de olhos baços ergue a perna para o cão, tropeça no próprio pé e rola de lado, braços abertos. Fica de joelho no chão, tentando recuperar o prumo.
+> Faelar Zumbi: Chute NH 10 (ponto de impacto sorteado: 3d [2, 4, 2] = 8, braço, sem redutor) = *10*
+> 3d [5, 6, 6] = *17* → *FALHA CRÍTICA* (por 7)
+> *ERRO CRÍTICO!* Tabela de Erros Críticos: 3d [3, 2, 2] = *7*
+> _Perdeu o equilíbrio: não faz nada até o próximo turno, e todas as defesas ativas ficam com -2 até lá._
+
+A mulher alada deixa as garras caírem e solta um grito rouco, os olhos virados para cima. Os joelhos dobram, as asas se abrem sem força e ela fica ali, tremendo, o olhar vazio.
+> Mulher alada: HT 13 para seguir consciente a -10 PV, 3d [4, 4, 3] = *11* → sucesso por 2
+> Mulher alada: Verificação de Pânico, Vontade 5, -3 Terror, +5 calor da batalha = *7*
+> 3d [2, 1, 5] = *8* → falhou por 1
+> Tabela de Verificação de Pânico: 3d [5, 2, 6] = *13* + 1 de margem = *14*
+> _Sofre 1D de Fadiga e 1D turnos de atordoamento._ Fadiga: 1D [2] = *2*; atordoamento: 1D [2] = *2 turnos*
+
+Krag mantém a corda tensa e a ponta firme no velho, atrás da bolha clara.
+> Krag: 4º turno de mira em Orvin
+
+O guarda de loriga continua caído de lado, imóvel.
+
+No corredor sul, o arqueiro de gibão azul e torre branca solta a corda. A flecha cruza a sala e passa rente ao ombro do orc, sem tocar. O segundo atira baixo e a flecha morre no chão, a um palmo da bota do orc. O terceiro ergue o arco do chão e fica de mãos vazias, procurando uma flecha.
+> Arqueiro da torre: Arco NH 12, -5 distância (10 m), +1 Precisão = *8*
+> 3d [3, 5, 2] = *10* → falha por 2
+> Arqueiro da torre 2: Arco NH 12, -4 distância (9 m), +1 Precisão, -2 Perna = *7*
+> 3d [6, 4, 2] = *12* → falha por 5
+> Arqueiro da torre 3: apanha o arco (2º de 2 turnos); sem flecha encaixada
+
+Sae'Varyn dá um passo de lado, na beira do círculo da fonte, e firma o bastão. Os lábios se mexem em latim, e a mana sobe pela pedra até as mãos dele.
+> Sae'Varyn: Concentração (Cura Profunda, lança no T121)
+
+Tann'athar fecha os olhos por um instante e junta os dedos diante do peito. O ar em volta dele estremece.
+> Tann'athar: Concentração (Escudo DP +5 em si, lança no T121)
+
+Urzog estende a palma aberta para o velho. A luz fraca que corria pela lâmina chega à bolha clara e a bolha racha como gelo fino. Estilhaços de luz caem no chão e somem, e o velho fica sem o escudo de força.
+> Urzog (Mor'Dhaun): Anulação de Magia (1 hex, sobre o Domo de Orvin) NH 21 (fonte, sem -5) = *21*
+> 3d [6, 3, 4] = *13* → sucesso por 8
+> Resistência de Orvin (Domo de Força) NH 20 = *20*
+> 3d [3, 5, 5] = *13* → sucesso por 7
+> *A Anulação vence a Disputa (8 contra 7):* o Domo de Força se desfaz
+> Com o Domo anulado, Urzog baixa a palma.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 157 — 06/11/2026 07:29
+
+_Guarnição troca os arqueiros por veteranos, um por turno, e traz água para apagar o fogo_
+
+*A GUARNIÇÃO SE MEXE*
+
+No corredor sul, o fogo de Urzog ainda estala e joga uma luz alaranjada nas paredes. Por trás dele ouvem-se botas em marcha curta e o tilintar de baldes de couro e de madeira batendo uns nos outros. Homens de gibão azul e torre branca gritam ordens, e o cheiro de fumaça e de pano queimado chega até a fonte.
+
+Os três arqueiros que vinham atirando recuam um de cada vez, sem pressa, e somem na sombra do corredor. Em cada lugar que fica vago entra um homem mais velho, de barba grisalha e cicatriz no queixo. Ele apoia o joelho no chão, confere a corda com o polegar e encaixa a flecha sem olhar para as próprias mãos. Depois escolhe o orc com a ponta e fica parado. O primeiro já está no posto. Os outros dois ainda não.
+
+Os demais soldados dão as costas ao grupo e correm em fila para o fundo do corredor, onde deve haver um poço ou uma cisterna. Voltam logo, curvados sob o peso dos baldes, a água batendo na borda e molhando as pedras. O primeiro balde cai sobre as chamas com um chiado alto, e uma nuvem de vapor sobe e esconde metade do corredor.
+
+O que vocês fazem?
+
+### Narração 158 — 06/11/2026 07:33
+
+_Errata: só um arqueiro foi trocado por veterano; o fogo não foi apagado_
+
+*A GUARNIÇÃO SE MEXE*
+
+No corredor sul, o fogo de Urzog ainda estala e joga uma luz alaranjada nas paredes. Por trás dele ouvem-se botas em marcha curta e o tilintar de baldes de couro e de madeira batendo uns nos outros. Homens de gibão azul e torre branca gritam ordens, e o cheiro de fumaça e de pano queimado chega até a fonte.
+
+Um dos arqueiros recua e some na sombra do corredor. No lugar dele entra um homem mais velho, de barba grisalha e cicatriz no queixo. Ele apoia o joelho no chão, confere a corda com o polegar e encaixa a flecha sem olhar para as próprias mãos. Depois escolhe o orc com a ponta e fica parado. Os outros dois arqueiros seguem onde estavam.
+
+Os demais soldados dão as costas ao grupo e correm para o fundo do corredor, onde deve haver um poço ou uma cisterna. Os baldes ainda não voltaram, e as chamas seguem acesas, estalando e soltando fumaça escura.
+
+O que vocês fazem?
+
+### Narração 159 — 06/11/2026 10:44
+
+_T121: Krag e Urzog matam Orvin; Farejo curado; arqueiros falham o saque_
+
+*TURNO 121 — O VELHO NÃO SAI DO LUGAR*
+
+O velho firma os pés ao lado da bolha que já não existe e junta as palmas diante do peito. Os lábios formam uma palavra curta e ele espera o aço chegar, pronto para sumir de onde estiver.
+> Orvin: aguarda com Translocação preparada (defesa contra golpe de perto; só entraria se alguém o golpeasse de perto)
+
+O cão de Krag salta de novo sobre o morto de olhos baços e fecha a mandíbula na perna dele. O morto não sai do lugar: os dentes pegam a coxa e rasgam a carne sem sangue.
+> Farejo: Mordida NH 12, +4 Ataque Total = *16* (ponto de impacto sorteado: 3d [6, 3, 3] = 12, perna distante, sem redutor)
+> 3d [3, 4, 6] = *13* → sucesso por 3
+> Defesa de Faelar Zumbi: esquiva 6 -2 desequilibrado = *4*
+> 3d [1, 2, 3] = *6* → falhou por 2
+> Dano: 1D-1 [5] - 1 = *4*
+> RD 0 → 4 passam
+> Corte: ×1,5 depois da armadura → *6*
+> *Faelar Zumbi perde 6 pontos de vida.*
+
+O morto de gibão e escudo, Grumel, enfia a ponta do gládio na direção do outro morto. A lâmina passa rente à perna dele e raspa a pedra.
+> Zumbi Grumel: Espadas Curtas NH 12 (ponto de impacto sorteado: 3d [5, 5, 2] = 12, perna distante, sem redutor) = *12*
+> 3d [4, 4, 5] = *13* → falha por 1
+
+O morto de olhos baços ainda tonto escora o pé e solta um chute seco no peito do outro morto. O golpe pega embaixo do escudo, onde ele não consegue cobrir. Grumel dobra o corpo e recua meio passo, o gládio caído na mão.
+> Faelar Zumbi: Chute NH 10, -3 ferimento da rodada anterior = *7* (ponto de impacto sorteado: 3d [2, 3, 4] = 9, tronco, sem redutor)
+> 3d [1, 1, 1] = *3* → *SUCESSO DECISIVO* (por 4)
+> *GOLPE FULMINANTE!* Sem defesa possível. Tabela de Golpes Fulminantes: 3d [3, 5, 6] = *14*
+> _Em outro lugar que não braço, perna, mão ou pé, dano normal._
+> Dano: 1D+1 [3] + 1 = *4*
+> RD 0 → 4 passam
+> *Zumbi Grumel perde 4 pontos de vida.*
+
+A mulher alada segue de joelhos, as asas abertas sem força, o olhar vazio. Ainda respira.
+> Mulher alada: HT 13 para seguir consciente a -10 PV, 3d [1, 6, 3] = *10* → sucesso por 3
+
+Krag solta o ar e a corda estala. A flecha cruza a sala em linha reta e entra fundo no flanco do velho, abaixo das costelas. Ele não ergue as mãos a tempo. Cambaleia, a boca aberta, e cai de lado sobre a pedra, a palavra que vinha dizendo cortada no meio.
+> Krag: Arco NH 17, -4 distância (8 m → linha dos 9 m), +3 Precisão, +3 mira (turnos extras apontando), -3 Órgãos vitais = *16*
+> 3d [5, 5, 2] = *12* → sucesso por 4
+> Defesa de Orvin: esquiva 8 = *8*
+> 3d [2, 6, 3] = *11* → falhou por 3
+> Dano: 1D+1 [6] + 1 = *7*
+> RD 0 → 7 passam
+> Perfuração nos órgãos vitais: ×3 → *21*
+> *Orvin perde 21 pontos de vida:* 10 → *-11 PV*
+> Perdeu mais de HT/2: HT 10 para não cair, 3d [3, 4, 4] = *11* → falhou por 1, *CAIU*
+> HT 10 contra a morte (passou de -PV), 3d [2, 2, 2] = *6* → sucesso por 4, vivo
+> HT 10 para seguir consciente a -11 PV, 3d [1, 6, 6] = *13* → falhou por 3, *INCONSCIENTE*
+
+O guarda de loriga continua caído de lado, imóvel.
+
+No corredor sul, o arqueiro de gibão azul e torre branca puxa a flecha e a haste escapa dos dedos. O de barba grisalha e cicatriz no queixo tira a sua, mas o dedo escorrega na farpa e a flecha não encaixa. O terceiro, do outro lado do corredor, encaixa a dele com calma e ergue o arco na direção do orc.
+> Arqueiro 2: Sacar Rápido (Flecha) NH 12, 3d [4, 6, 3] = *13* → falha por 1
+> Arqueiro 3: Sacar Rápido (Flecha) NH 12, 3d [3, 1, 4] = *8* → sucesso por 4; 1º turno de mira em Urzog
+> Arqueiro 4: Sacar Rápido (Flecha) NH 16, 3d [6, 6, 5] = *17* → falha por 1
+
+Sae'Varyn troca de lugar com a mulher alada, que cede o passo sem ver, e põe a mão aberta sobre o flanco do cão. O pelo rasgado se fecha sob a palma e o bicho sacode a cabeça.
+> Sae'Varyn: Cura Profunda NH 16 (fonte do térreo, sem -5) = *16*
+> 3d [1, 4, 3] = *8* → sucesso por 8
+> Custo 0 (fonte do térreo); cura 8 PV: Farejo 5 → *13*
+
+Tann'athar fecha os olhos e uma película clara, quase invisível, se fecha sobre o peito e os ombros dele.
+> Tann'athar: Escudo (DP +5) em si NH 18 (fonte do térreo, sem -5) = *18*
+> 3d [3, 2, 2] = *7* → sucesso por 11
+> Custo 0 (fonte do térreo); DP +5 (1 min)
+
+Urzog dá um passo curto e cai sobre o velho com a espada de pedra roxa. Orvin já está no chão, sem defesa. A ponta entra pelo peito e sai pelas costas, e a luz roxa do cabo sobe pelo braço do orc.
+> Urzog (Mor'Dhaun): Montante encantado NH 14, -3 Órgãos vitais = *11*
+> 3d [1, 6, 4] = *11* → sucesso por 0
+> Defesa de Orvin: nenhuma (inconsciente)
+> Dano: 1D+8 [5] + 8 = *13*
+> RD 0 → 13 passam
+> Perfuração nos órgãos vitais: ×3 → *39*
+> Teto do local (HT×3 = 30): 9 desperdiçado(s)
+> *Orvin perde 30 pontos de vida:* -11 → *-41 PV*
+> HT 10 contra a morte ao cruzar -20 PV, 3d [5, 5, 2] = *12* → falhou por 2, *MORTO*
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 160 — 06/11/2026 10:45
+
+_Arqueiro 2 trocado pela Arqueira 5 (NH 16); guardas apagam um hex de fogo_
+
+*A GUARNIÇÃO TROCA MAIS UM*
+
+No corredor sul, o fogo de Urzog ainda estala, mas uma nesga da borda apaga com um chiado longo. Dois soldados de gibão azul e torre branca despejam baldes de água na pedra, e a fumaça preta sobe fedendo a pano molhado queimado. Atrás deles, outros dois correm de volta ao fundo do corredor com os baldes vazios batendo nas pernas.
+
+Um dos arqueiros recua e some na sombra. No lugar dele entra uma arqueira alta, de tranças presas na nuca e luva de couro no braço da corda. Ela apoia o joelho na pedra, passa o polegar pela corda e escolhe o orc com a ponta, sem pressa. Os outros dois seguem onde estavam.
+
+O que vocês fazem?
+
+### Narração 161 — 06/11/2026 10:53
+
+_Refeita: entra o Arqueiro 6 onde estava o 3, que se agacha_
+
+*A GUARNIÇÃO TROCA MAIS UM*
+
+No corredor sul, o fogo de Urzog ainda estala, mas uma nesga da borda apaga com um chiado longo. Dois soldados de gibão azul e torre branca despejam baldes de água na pedra, e a fumaça preta sobe fedendo a pano molhado queimado. Atrás deles, outros dois correm de volta ao fundo do corredor com os baldes vazios batendo nas pernas.
+
+Um dos arqueiros recua e some na sombra. No lugar dele entra uma arqueira alta, de tranças presas na nuca e luva de couro no braço da corda. Ela apoia o joelho na pedra, passa o polegar pela corda e escolhe o orc com a ponta, sem pressa.
+
+Do outro lado, o arqueiro de flecha encaixada se agacha de um golpe, o arco rente ao peito. Atrás dele surge outro, de ombros estreitos e touca de couro, que se firma na altura onde o primeiro estava e ergue o arco por cima. Os dois miram no orc. O terceiro, de barba grisalha, segue onde estava.
+
+O que vocês fazem?
+
+### Narração 162 — 06/11/2026 14:29
+
+_T122: Faelar Zumbi destruído por Grumel; arqueiros veteranos começam a mira em Urzog_
+
+*TURNO 122 — O MORTO DE OLHOS BAÇOS CAI*
+
+O cão de Krag salta de novo sobre o morto de olhos baços e fecha a mandíbula no braço do escudo dele. Os dentes rasgam o couro seco, sem sangue, e o morto nem vira a cabeça.
+> Farejo: Mordida NH 12, +4 Ataque Total = *16* (ponto de impacto sorteado: 3d [1, 4, 1] = 6, braço do escudo, sem redutor)
+> 3d [4, 4, 2] = *10* → sucesso por 6
+> Defesa de Faelar Zumbi: esquiva 6 = *6*
+> 3d [5, 4, 3] = *12* → falhou por 6
+> Dano: 1D-1 [2] - 1 = *1*
+> RD 0 → 1 passa
+> Corte: ×1,5 depois da armadura → *1*
+> *Faelar Zumbi perde 1 ponto de vida:* 2 → *1 PV*
+
+O morto de gibão e escudo, Grumel, não perde o tempo que o outro lhe deu. Firma o pé e crava o gládio no meio do peito do morto de olhos baços. A ponta entra pelas costelas secas e sai do outro lado. O morto de olhos baços cai de joelhos, depois de lado, e fica no chão com o gládio ainda enfiado nele. Não se mexe mais.
+> Zumbi Grumel: Espadas Curtas NH 12 (ponto de impacto sorteado: 3d [4, 1, 6] = 11, tronco, sem redutor) = *12*
+> 3d [3, 1, 6] = *10* → sucesso por 2
+> Defesa de Faelar Zumbi: esquiva 6 = *6*
+> 3d [1, 1, 5] = *7* → falhou por 1
+> Dano: 1D perfuração [6] = *6*
+> RD 0 → 6 passam
+> Perfuração: ×2 depois da armadura → *12*
+> *Faelar Zumbi perde 12 pontos de vida:* 1 → *-11 PV*, *DESTRUÍDO*
+
+A mulher alada segue de joelhos, as asas abertas sem força, o olhar vazio. Os lábios se mexem, mas o medo ainda não solta. Ela respira.
+> Mulher alada: Vontade 5 para sair do atordoamento, 3d [3, 3, 3] = *9* → falhou por 4
+> Mulher alada: HT 13 para seguir consciente a -10 PV, 3d [2, 4, 1] = *7* → sucesso por 6
+
+Krag tira outra flecha da aljava com um só movimento, encaixa e ergue o arco na direção do corredor sul. A ponta procura o arqueiro agachado, o do meio, e para nele.
+> Krag: Sacar Rápido (Flecha) NH 14
+> 3d [2, 4, 6] = *12* → sucesso por 2
+> 1º turno de mira no Arqueiro 3 (17 m)
+
+O guarda de loriga continua caído de lado, imóvel.
+
+No corredor sul, o arqueiro agachado solta a corda. A flecha cruza a sala e passa por cima do ombro do orc, sem tocar. Ao lado dele, o de barba grisalha, a arqueira de tranças e o de touca de couro puxam suas flechas e encaixam. Os três erguem o arco e miram no orc.
+> Arqueiro 3: Arco NH 12, -4 distância (9 m), +1 Precisão, -2 agachado = *7*
+> 3d [5, 5, 2] = *12* → falha por 5
+> Arqueiro 4: Sacar Rápido (Flecha) NH 16
+> 3d [4, 4, 3] = *11* → sucesso por 5
+> 1º turno de mira em Urzog
+> Arqueiro 5: Sacar Rápido (Flecha) NH 16
+> 3d [1, 5, 4] = *10* → sucesso por 6
+> 1º turno de mira em Urzog
+> Arqueiro 6: Sacar Rápido (Flecha) NH 16
+> 3d [6, 4, 6] = *16* → sucesso por 0
+> 1º turno de mira em Urzog
+
+Sae'Varyn ergue o bastão para o golpe, mas o morto de olhos baços já está no chão, aberto pelo gládio de Grumel. O elfo baixa o bastão devagar e olha para o corredor sul.
+
+Tann'athar dá um passo para dentro do círculo da fonte, a película clara ainda colada ao peito e aos ombros dele. O orc está mais adiante.
+
+Urzog mantém a espada baixa e a mente fechada. A luz roxa do cabo pulsa devagar, sem rumo, e nenhuma palavra sai da boca dele.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 163 — 06/11/2026 17:15
+
+_T123: Domo de Força de Mor'Dhaun cobre a fonte; arqueiros erram em Urzog; Krag cai do pulo_
+
+*TURNO 123 — O DOMO SOBE NA FONTE*
+
+O cão de Krag recua alguns passos pela pedra, o pelo eriçado, e fica de olho no corredor sul sem rosnar. O morto de gibão e escudo, Grumel, também não se mexe, o gládio baixo.
+
+A mulher alada segue de joelhos, as asas abertas sem força. O medo ainda não solta, mas ela respira e não cai.
+> Mulher alada: Vontade 5 para sair do atordoamento, 3d [1, 6, 1] = *8* → falhou por 3
+> Mulher alada: HT 13 para seguir consciente a -10 PV, 3d [4, 1, 4] = *9* → sucesso por 4
+
+Krag larga o degrau da escada num pulo. O pé encontra a quina do último degrau, a bota escorrega e ele cai de lado na pedra, o arco ainda na mão. A mira no corredor sul se perde.
+> Krag: pulo da escada, DX 14, 3d [5, 6, 5] = *16* → falhou por 2
+> Queda de cerca de 2 m: 2D-10 → sem dano
+
+O guarda de loriga continua caído de lado, imóvel.
+
+No corredor sul, o arqueiro agachado tira outra flecha da aljava com um só gesto. O de touca de couro, que acabou de entrar, também saca e encaixa. Os dois erguem o arco e miram no orc.
+> Arqueiro 3: Sacar Rápido (Flecha) NH 12, 3d [5, 1, 6] = *12* → sucesso por 0
+> 1º turno de mira em Urzog
+> Arqueiro 7: Sacar Rápido (Flecha) NH 16, 3d [6, 3, 5] = *14* → sucesso por 2
+> 1º turno de mira em Urzog
+
+O de barba grisalha solta a corda. A flecha cruza a sala rente ao chão e bate na perna do orc, mas ele desvia a haste com o escudo no último instante e ela raspa a pedra.
+> Arqueiro 4: Arco NH 16, -5 distância (10 m), +1 Precisão, +1 mira (2º turno), -2 Perna distante = *11*
+> 3d [4, 2, 2] = *8* → sucesso por 3
+> Defesa de Urzog: esquiva 4 +2 DP loriga (pernas) +3 DP escudo +5 Escudo mágico = *14*
+> 3d [2, 6, 6] = *14* → defendeu no limite
+> Sem dano
+
+A arqueira de tranças atira no peito do orc. O escudo sobe a tempo e a flecha racha a madeira sem passar.
+> Arqueira 5: Arco NH 16, -4 distância (8 m), +1 Precisão, +1 mira (2º turno) = *14*
+> 3d [4, 3, 5] = *12* → sucesso por 2
+> Defesa de Urzog: esquiva 4 +1 DP couraça +3 DP escudo +5 Escudo mágico = *13*
+> 3d [4, 2, 1] = *7* → defendeu por 6
+> Sem dano
+
+O arqueiro de touca de couro do canto solta a sua. A flecha vai no braço do escudo, e o orc a empurra de lado na borda do escudo.
+> Arqueiro 6: Arco NH 16, -5 distância (10 m), +1 Precisão, +1 mira (2º turno), -4 Braço do escudo = *9*
+> 3d [1, 3, 1] = *5* → sucesso por 4
+> Defesa de Urzog: esquiva 4 +3 DP escudo +5 Escudo mágico = *12*
+> 3d [4, 4, 4] = *12* → defendeu no limite
+> Sem dano
+
+Sae'Varyn dá um passo de lado, longe da linha das flechas, fecha os olhos e começa a murmurar a cura. O ar em volta da mão dele esquenta devagar.
+> Sae'Varyn: Concentração 1 (Cura Profunda), lança no próximo turno
+
+Tann'athar corre pela borda da fonte, a película clara colada ao peito, e para a dois passos do orc.
+
+Urzog fica olhando o vazio, e o ar da fonte estala. Uma bolha clara, quase invisível, sobe do chão em volta da pedra caída do golem e se fecha por cima, como vidro grosso assentando. O cheiro de ozônio sobe da pedra. Dentro dela ficam o orc, os mortos e o velho caído. A bolha não alcança o elfo moreno.
+> Mor'Dhaun: Domo de Força (raio 3 hexágonos, centro no hexágono do golem) NH 21 (fonte do térreo, sem -5) = *21*
+> 3d [4, 6, 3] = *13* → sucesso por 8
+> Custo 9, de graça na fonte; dura 10 minutos; nada físico nem projétil atravessa
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 164 — 06/11/2026 22:19
+
+_T124: Domo de pé, Mor'Dhaun concentra o teleporte até o T154; arqueiros miram em Tann'athar_
+
+*TURNO 124 — O ELFO FORA DA BOLHA*
+
+O cão de Krag fica onde está, o pelo ainda eriçado, de olho no corredor sul. O morto de gibão e escudo, Grumel, atravessa a sala em passos duros e para ao lado do orc, dentro da bolha clara, o gládio baixo.
+
+A mulher alada recua de joelhos para o canto oeste, as asas arrastando na pedra. O medo ainda não solta, mas ela respira e não cai.
+> Mulher alada: Vontade 5 para sair do atordoamento, 3d [2, 4, 5] = *11* → falhou por 6
+> Mulher alada: HT 13 para seguir consciente a -10 PV, 3d [5, 4, 1] = *10* → sucesso por 3
+
+Krag apoia a mão na pedra, puxa a perna para baixo do corpo e fica de joelhos, o arco ainda na mão. Falta ainda um impulso para ficar de pé.
+
+No corredor sul, um guarda de loriga, chegado com os arqueiros, fica onde está, a mão no cabo da espada.
+
+O arqueiro agachado muda a mira. A ponta da flecha deixa o orc e sobe para o elfo moreno que parou junto à borda da bolha. Os outros três arqueiros tiram flechas novas, encaixam e miram no mesmo elfo.
+> Arqueiro 3: flecha já encaixada, muda a mira para Tann'athar
+> Arqueiro 3: 1º turno de mira em Tann'athar (8 m)
+> Arqueiro 4: Sacar Rápido (Flecha) NH 16, 3d [3, 3, 3] = *9* → sucesso por 7
+> Arqueiro 4: 1º turno de mira em Tann'athar (8 m)
+> Arqueira 5: Sacar Rápido (Flecha) NH 16, 3d [2, 3, 6] = *11* → sucesso por 5
+> Arqueira 5: 1º turno de mira em Tann'athar (8 m)
+> Arqueiro 6: Sacar Rápido (Flecha) NH 16, 3d [3, 4, 2] = *9* → sucesso por 7
+> Arqueiro 6: 1º turno de mira em Tann'athar (9 m)
+
+O arqueiro veterano de barba cortada solta a corda. A flecha cruza a sala rente ao chão e bate na bolha clara com um estalo seco, escorrega e cai aos pés do orc sem passar.
+
+Sae'Varyn está fora da água da fonte. A mão dele para de esquentar, e ele deixa a cura se desfazer.
+> Sae'Varyn: interrompe a concentração de Cura Profunda (fora da fonte); mágica não lançada
+
+Tann'athar fica parado à borda da bolha, a película clara no peito, e fala alto para o orc: "Meu senhor! Por favor, leve-nos com você! Podemos ser úteis para seus fins!". Nenhuma resposta vem de dentro.
+
+Urzog não se mexe. Os olhos seguem no vazio, o ar da fonte estala em volta dele, e a luz roxa do cabo pulsa devagar. Os lábios se mexem num murmúrio que ninguém mais ouve.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 165 — 07/11/2026 05:16
+
+_T125: flecha fulminante derruba Tann'athar a 0 PV; harpia a -14; arqueiros 4-6 erram_
+
+*TURNO 125 — A FLECHA NO ELFO*
+
+O cão de Krag fica onde está, atento ao corredor sul. O morto de gibão e escudo, Grumel, não sai do lado do orc, dentro da bolha clara.
+
+A mulher alada voa baixo pela sala até o corredor sul, as asas pesadas, e cai quase nos braços do guarda de loriga. O medo ainda não solta, mas ela respira.
+> Mulher alada: Vontade 5 para sair do atordoamento, 3d [6, 3, 3] = *12* → falhou por 7
+> Mulher alada: HT 13 para seguir consciente a -10 PV, 3d [4, 4, 1] = *9* → sucesso por 4
+
+Krag termina de se erguer sobre os pés, o arco ainda na mão, a flecha já encaixada na corda.
+
+O guarda de loriga enfia o gládio no peito da mulher alada. Ela não consegue sair do caminho, e o ferro entra fundo.
+> Ataque: Espadas Curtas NH 12 = *12* (ponto de impacto sorteado: 3d [4, 4, 1] = 9, tronco, sem redutor)
+> 3d [1, 6, 1] = *8* → sucesso por 4
+> Defesa da mulher alada: esquiva 7 +1 DP -4 atordoada = *4*
+> 3d [4, 5, 3] = *12* → falhou por 8
+> Dano: 1D-1 [4] - 1 = *3*
+> RD 1 → 2 passam
+> Perfuração: ×2 depois da armadura → *4*
+> *Mulher alada perde 4 pontos de vida:* -10 → *-14 PV*
+> Mulher alada: HT 13 para não morrer, 3d [5, 1, 5] = *11* → sucesso por 2
+
+No corredor sul, os cinco arqueiros miram o elfo moreno que corre pela borda leste da sala. O arqueiro agachado solta a corda. A flecha cruza a sala e entra no peito do elfo, rente à túnica, antes que ele erga um dedo.
+> Arqueiro 3: Arco NH 12, -5 distância (11 m), +1 Precisão, +1 mira (2º turno), -2 agachado = *7*
+> 3d [1, 2, 1] = *4* → *SUCESSO DECISIVO* (por 3), *GOLPE FULMINANTE*, sem defesa
+> Tabela de Golpes Fulminantes: 3d [2, 6, 2] = *10* → dano normal
+> Dano: 1D+1 [6] + 1 = *7*
+> RD 0 → 7 passam
+> Perfuração: ×2 depois da armadura → *14*
+> Teto do local (HT 11): 3 desperdiçado(s), a flecha trespassa
+> *Tann'athar perde 11 pontos de vida:* 11 → *0 PV*
+> Tann'athar: HT 11 para não cair, 3d [6, 6, 5] = *17* → *CAIU*, e fica *ATORDOADO* (-4 nas defesas)
+
+O de barba grisalha solta a sua. A flecha vai alta e passa por cima do elfo caído, que já está no chão.
+> Arqueiro 4: Arco NH 16, -5 distância (11 m), +1 Precisão, +1 mira (2º turno), -5 Cabeça, -4 alvo caído = *4*
+> 3d [3, 4, 2] = *9* → falhou por 5
+
+A arqueira de tranças atira no braço dele e a flecha raspa a pedra.
+> Arqueira 5: Arco NH 16, -5 distância (11 m), +1 Precisão, +1 mira (2º turno), -2 Braço, -4 alvo caído = *7*
+> 3d [4, 5, 1] = *10* → falhou por 3
+
+O de touca de couro tenta a perna, e a flecha estala na pedra, curta.
+> Arqueiro 6: Arco NH 16, -5 distância (12 m), +1 Precisão, +1 mira (2º turno), -2 Perna, -4 alvo caído = *7*
+> 3d [5, 1, 3] = *9* → falhou por 2
+
+O arqueiro veterano de barba cortada tira uma flecha nova da aljava, encaixa e mira no elfo.
+> Arqueiro 7: Sacar Rápido (Flecha) NH 16, 3d [6, 3, 3] = *12* → sucesso por 4
+> 1º turno de mira em Tann'athar (12 m)
+
+Sae'Varyn grita para todos: "Acho que temos que tentar encontrar uma saída por cima! Vamos voltar a subir, até o topo. Quem sabe encontramos uma saída por lá!". Ele olha o fogo que ainda vive no corredor sul e conta o que lembra do feitiço.
+> Sae'Varyn: IQ 15, 3d [5, 6, 3] = *14* → sucesso por 1
+> Ele calcula que o fogo ainda queima uns 40 segundos, sem ajuda de fora
+
+Tann'athar tinha gritado "Sim! Vamos subir, vou tentar acordar o ogro com um dos frascos que restam!" e corrido até a borda leste. Agora está de bruços na pedra, a mão no peito, a respiração curta, e não se levanta.
+
+Urzog não se mexe. Os olhos seguem no vazio, o ar da fonte estala em volta dele, e a luz roxa do cabo pulsa devagar. Os lábios se mexem no mesmo murmúrio.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 166 — 07/11/2026 11:58
+
+_T126: Tann'athar apaga a 0 PV; harpia segue atordoada; arqueiros miram a harpia_
+
+*TURNO 126 — O ELFO NÃO SE LEVANTA*
+
+O cão de Krag atravessa a borda da sala em trote curto e para junto do elfo caído, o pelo eriçado. O morto de gibão e escudo, Grumel, sai de perto do orc, cruza a pedra em passos duros e para mais ao norte. A voz dele sai seca e sem fôlego: "O domo está aberto por cima".
+
+A mulher alada continua caída contra o corredor sul, as asas arrastando, a cabeça pendendo. O medo não solta, mas ela respira e não apaga.
+> Mulher alada: HT 13 para seguir consciente a -14 PV, 3d [4, 1, 2] = *7* → sucesso por 6
+> Mulher alada: Vontade 5 para sair do atordoamento, 3d [4, 2, 3] = *9* → falhou por 4
+
+Krag enfia a flecha de volta na aljava e corre pela borda leste, o arco batendo na coxa. Para a dois passos do elfo, ainda sem alcançá-lo.
+
+O guarda de loriga tenta cravar o gládio na mulher alada outra vez. A ponta passa raspando o braço dela e acha só a pedra.
+> Ataque: Espadas Curtas NH 12 = *12* (ponto de impacto sorteado: 3d [3, 3, 2] = 8, braço, sem redutor)
+> 3d [6, 4, 4] = *14* → falhou por 2
+
+No corredor sul, o arqueiro veterano de barba cortada solta a corda. A flecha cruza a sala em arco e vai bater na pedra, perto da perna do elfo caído.
+> Arqueiro 7: Arco NH 16, -5 distância (11 m), +1 Precisão, +1 mira (2º turno), -4 alvo deitado, -2 Perna = *7*
+> 3d [2, 5, 1] = *8* → falhou por 1
+
+Os outros quatro tiram flechas novas, encaixam e miram a mulher alada, colada no canto do corredor.
+> Arqueiro 3: Sacar Rápido (Flecha) NH 12, 3d [2, 4, 3] = *9* → sucesso por 3
+> Arqueiro 3: 1º turno de mira na mulher alada (3 m)
+> Arqueiro 4: Sacar Rápido (Flecha) NH 16, 3d [3, 5, 1] = *9* → sucesso por 7
+> Arqueiro 4: 1º turno de mira na mulher alada (4 m)
+> Arqueira 5: Sacar Rápido (Flecha) NH 16, 3d [5, 4, 6] = *15* → sucesso por 1
+> Arqueira 5: 1º turno de mira na mulher alada (2 m)
+> Arqueiro 6: Sacar Rápido (Flecha) NH 16, 3d [3, 3, 6] = *12* → sucesso por 4
+> Arqueiro 6: 1º turno de mira na mulher alada (3 m)
+
+Sae'Varyn avança dois passos pela borda norte e grita para Krag: "O fogo ainda deve queimar por uns 40 segundos, caso não seja apagado com água. Temos que tentar acordar o Tann'athar com alguma das poções dele ou minha magia."
+
+Tann'athar tenta se mexer, mas os braços não respondem. O ar sai dele num chiado, os olhos reviram, e ele pende de bruços na pedra, sem sentidos.
+> Tann'athar: HT 11 para seguir consciente a 0 PV, 3d [4, 5, 6] = *15* → falhou por 4, *INCONSCIENTE*
+
+Urzog não se mexe. Os olhos seguem no vazio, o ar da fonte estala em volta dele, e a luz roxa do cabo pulsa devagar. Os lábios se mexem no mesmo murmúrio.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 167 — 07/11/2026 12:54
+
+_T127: arqueiros ferem a harpia (-24, braço incapacitado); Krag arrasta Tann'athar 1 hex_
+
+*TURNO 127 — A FLECHA NA MULHER ALADA*
+
+O cão de Krag morde a manga do elfo caído e puxa, as patas escorregando na pedra. O morto de gibão e escudo, Grumel, fica onde está, de olho na escada.
+
+A mulher alada continua encostada no canto do corredor sul, a cabeça pendendo, as asas moles. O medo não solta, mas ela respira e não apaga.
+> Mulher alada: HT 13 para seguir consciente a -14 PV, 3d [1, 3, 1] = *5* → sucesso por 8
+> Mulher alada: Vontade 5 para sair do atordoamento, 3d [3, 3, 2] = *8* → falhou por 3
+
+Krag chega ao lado do elfo, agarra-o pelo cinto e pelo ombro, e com o cão arrasta o corpo mole um hex pela pedra, rumo à escada.
+> Krag: ST 12, 3d [2, 6, 1] = *9* → sucesso por 3
+> Farejo: ST 12, 3d [3, 4, 3] = *10* → sucesso por 2
+> Margens somadas: 5 → *1 hex arrastado* (a cada 3 de margem, 1 hex)
+
+O guarda de loriga estoca a mulher alada na perna. A ponta acha o couro e a escama e quase não entra.
+> Ataque: Espadas Curtas NH 12 = *12* (ponto de impacto sorteado: 3d [4, 5, 4] = 13, perna, sem redutor)
+> 3d [4, 1, 5] = *10* → sucesso por 2
+> Defesa da mulher alada: esquiva 7 +1 DP -4 atordoada = *4*
+> 3d [3, 6, 4] = *13* → falhou por 9
+> Dano: 1D-1 [1] - 1 = 0 → mínimo *1*
+> RD 1 → 0 passam
+> *Armadura segurou o golpe.* Nenhum dano.
+
+No corredor sul, os arqueiros soltam as flechas que prepararam. O arqueiro agachado de trás não acha vão: o arqueiro veterano e o guarda estão na frente dele, e ele baixa o arco sem atirar, a corda ainda esticada.
+> Arqueiro 3: Arco NH 12, -1 distância (3 m), +1 Precisão, +1 mira (2º turno), -8 (duas figuras na linha de tiro), -2 Perna (sorteada) = *3*
+> O livro não permite o tiro com NH efetivo 3; o arqueiro mantém a mira e não atira
+
+O de barba grisalha, mais atrás, atira por cima do ombro de dois companheiros. A flecha entra no peito da mulher alada, rente à escama.
+> Arqueiro 4: Arco NH 16, -2 distância (4 m), +1 Precisão, +1 mira (2º turno), -8 (duas figuras na linha de tiro) = *8*
+> 3d [1, 2, 5] = *8* → sucesso por 0
+> Defesa da mulher alada: esquiva 7 +1 DP -4 atordoada = *4*
+> 3d [6, 1, 5] = *12* → falhou por 8
+> Dano: 1D+1 [3] + 1 = *4*
+> RD 1 → 3 passam
+> Perfuração: ×2 depois da armadura → *6*
+> Ponto de impacto sorteado: 3d [1, 3, 5] = 9, tronco
+> *Mulher alada perde 6 pontos de vida:* -14 → *-20 PV*
+
+A arqueira de tranças, mais perto, solta a sua e acerta o braço dela. O braço pende.
+> Arqueira 5: Arco NH 16, +0 distância (2 m), +1 Precisão, +1 mira (2º turno), -2 Braço = *16*
+> 3d [3, 5, 3] = *11* → sucesso por 5
+> Defesa da mulher alada: esquiva 7 +1 DP -4 atordoada = *4*
+> 3d [2, 2, 2] = *6* → falhou por 2
+> Dano: 1D+1 [4] + 1 = *5*
+> RD 1 → 4 passam
+> Perfuração em membro: sem bônus de dano → *4*
+> *Braço INCAPACITADO*
+> *Mulher alada perde 4 pontos de vida:* -20 → *-24 PV*
+
+O de touca de couro atira na perna dela por trás do guarda. A flecha erra e passa rente ao ombro do guarda, que não se mexe, e bate na pedra mais adiante.
+> Arqueiro 6: Arco NH 16, -1 distância (3 m), +1 Precisão, +1 mira (2º turno), -4 (uma figura na linha de tiro), -2 Perna = *11*
+> 3d [6, 2, 5] = *13* → falhou por 2
+> Flecha perdida no guarda: Arco NH 9 (piso do livro), 3d [6, 5, 5] = *16* → falhou por 7
+
+O arqueiro veterano de barba cortada tira uma flecha nova da aljava, encaixa e mira na mulher alada.
+> Arqueiro 7: Sacar Rápido (Flecha) NH 16, 3d [3, 2, 2] = *7* → sucesso por 9
+> 1º turno de mira na mulher alada (2 m)
+
+Sae'Varyn avança pela borda norte, fecha os olhos e começa a murmurar. O ar em volta da mão dele esquenta.
+
+Tann'athar não se mexe, arrastado pela pedra com a cabeça pendendo.
+
+Urzog não se mexe. Os olhos seguem no vazio, o ar da fonte estala em volta dele, e a luz roxa do cabo pulsa devagar. Os lábios se mexem no mesmo murmúrio.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 168 — 07/11/2026 13:15
+
+_T128: harpia apaga a -24; Despertar de Sae'Varyn não acorda Tann'athar; arrasto de 1 hex_
+
+*TURNO 128 — O DESPERTAR QUE NÃO PEGA*
+
+O cão de Krag solta a manga do elfo e volta a morder mais acima, as patas arranhando a pedra. O morto de gibão e escudo, Grumel, cruza a borda da sala em passos duros e para mais perto da escada.
+
+A mulher alada tenta se manter acordada contra o canto do corredor sul, mas o ar sai dela num chiado curto. Os olhos reviram, as asas caem, e ela escorrega de lado na pedra, sem sentidos.
+> Mulher alada: HT 13 para seguir consciente a -24 PV, 3d [6, 5, 3] = *14* → falhou por 1, *INCONSCIENTE*
+
+Krag agarra o elfo pelo cinto e puxa. O corpo mole só cede um passo, o cão ajudando a puxar, e Krag recua em direção à escada.
+> Krag: ST 12, 3d [6, 3, 6] = *15* → falhou por 3
+> Farejo: ST 12, 3d [3, 3, 3] = *9* → sucesso por 3
+> Margens somadas: 3 → *1 hex arrastado* (a cada 3 de margem, 1 hex)
+
+O guarda de loriga enfia o gládio no tronco da mulher alada caída. A ponta acha o couro e a escama e não passa.
+> Ataque: Espadas Curtas NH 12 = *12* (ponto de impacto sorteado: 3d [6, 1, 2] = 9, tronco, sem redutor)
+> 3d [2, 3, 3] = *8* → sucesso por 4
+> Defesa da mulher alada: inconsciente, só a DP 1 da pele
+> 3d [6, 2, 6] = *14* → não segurou
+> Dano: 1D-1 [2] - 1 = *1*
+> RD 1 → 0 passam
+> *Armadura segurou o golpe.* Nenhum dano.
+
+No corredor sul, o arqueiro agachado de trás continua sem vão: dois companheiros e o guarda estão na frente dele, e ele mantém a corda esticada sem soltar.
+> Arqueiro 3: Arco NH 12, -1 distância (3 m), +1 Precisão, +2 mira (3º turno), -8 (duas figuras na linha de tiro), -4 alvo deitado, -2 Perna (sorteada) = *0*
+> O livro não permite o tiro com NH efetivo 0; o arqueiro mantém a mira e não atira
+
+O arqueiro veterano de barba cortada atira por trás do ombro do guarda, na mão da mulher alada. A flecha passa raspando o ombro do guarda, que não se mexe, e bate na pedra mais adiante.
+> Arqueiro 7: Arco NH 16, +0 distância (2 m), +1 Precisão, +1 mira (2º turno), -4 (uma figura na linha de tiro), -4 alvo deitado, -4 Mão = *6*
+> 3d [3, 3, 4] = *10* → falhou por 4
+> Flecha perdida no guarda: Arco NH 6 (pior entre 9 e o NH do tiro), +1 distância (1 m) = *7*
+> 3d [4, 5, 6] = *15* → falhou por 8
+
+Os três de trás tiram flechas novas da aljava, encaixam e miram a mulher alada.
+> Arqueiro 4: Sacar Rápido (Flecha) NH 16, 3d [1, 3, 5] = *9* → sucesso por 7
+> Arqueiro 4: 1º turno de mira na mulher alada (4 m)
+> Arqueira 5: Sacar Rápido (Flecha) NH 16, 3d [4, 1, 1] = *6* → *SUCESSO DECISIVO* (por 10)
+> Arqueira 5: 1º turno de mira na mulher alada (2 m)
+> Arqueiro 6: Sacar Rápido (Flecha) NH 16, 3d [3, 6, 5] = *14* → sucesso por 2
+> Arqueiro 6: 1º turno de mira na mulher alada (3 m)
+
+Sae'Varyn estica a mão para o elfo caído, a três passos de distância, e a palavra sai da boca dele. O ar esquenta em volta de Tann'athar, mas o corpo não responde: ele fica de bruços, mole, sem acordar.
+> Sae'Varyn: Despertar NH 16, -5 mana baixa, -1 por 1 PV gasto no lugar da Fadiga = *10*
+> 3d [3, 1, 3] = *7* → sucesso por 3
+> Custo: 1 ponto de vida (13 → 12)
+> Tann'athar: HT 11, +3 margem do Despertar, -3 inconsciente por ferimento = *11*
+> 3d [4, 6, 6] = *16* → falhou por 5
+
+Urzog não se mexe. Os olhos seguem no vazio, o ar da fonte estala em volta dele, e a luz roxa do cabo pulsa devagar. Os lábios se mexem no mesmo murmúrio.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 169 — 07/11/2026 13:58
+
+_T129: arqueiros passam a mirar Urzog; Despertar falha; arrasto de 1 hex_
+
+*TURNO 129 — O CORPO QUE SOBE A ESCADA*
+
+Dois guardas de loriga entram em cena. Um chega ao corredor sul, junto dos arqueiros; o outro aparece ao lado da bolha clara, parado, de olho no orc. Nenhum dos dois se mexe depois disso.
+
+O cão de Krag chega à borda leste da sala em trote curto e crava os dentes na manga do elfo caído. Krag agarra o elfo pelo cinto e os dois puxam juntos o corpo mole pela pedra.
+> Krag: ST 12, 3d [5, 1, 4] = *10* → sucesso por 2
+> Farejo: ST 12, 3d [6, 3, 1] = *10* → sucesso por 2
+> Margens somadas: 4 → *1 hex arrastado* (a cada 3 de margem, 1 hex)
+
+No corredor sul, os arqueiros param de mirar a mulher alada, caída e sem sentidos, e viram o arco para o inimigo mais próximo que enxergam: o orc dentro da bolha. O arqueiro veterano de barba cortada tira uma flecha nova da aljava e encaixa; os outros quatro já têm a flecha na corda.
+> Arqueiro 7: Sacar Rápido (Flecha) NH 16, 3d [6, 3, 2] = *11* → sucesso por 5
+> Arqueiro 3: 1º turno de mira em Urzog (10 m)
+> Arqueiro 4: 1º turno de mira em Urzog (9 m)
+> Arqueira 5: 1º turno de mira em Urzog (7 m)
+> Arqueiro 6: 1º turno de mira em Urzog (9 m)
+> Arqueiro 7: 1º turno de mira em Urzog (8 m)
+
+Sae'Varyn estica o bastão até o peito do elfo, já puxado um passo para longe. A ponta toca, e o ar esquenta em volta do cajado, mas a palavra falha na boca dele. Tann'athar não se mexe.
+> Sae'Varyn: Despertar NH 16, -5 mana baixa, -1 por 1 PV gasto no lugar da Fadiga = *10*
+> 3d [4, 3, 5] = *12* → falhou por 2
+> Custo da falha: 1 ponto de vida (12 → 11)
+
+Urzog não se mexe. Os olhos seguem no vazio, o ar da fonte estala em volta dele, e a luz roxa do cabo pulsa devagar. Os lábios se mexem no mesmo murmúrio.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 170 — 07/11/2026 15:05
+
+_T130: Despertar acorda Tann'athar; flecha perdida fere o Arqueiro 7_
+
+*TURNO 130 — O ELFO ABRE OS OLHOS*
+
+Os guardas de loriga seguem onde estão, escudos baixos, de olho na bolha clara. Mais um soldado de gibão azul chega ao corredor sul e para atrás dos arqueiros, sem dizer nada.
+
+O cão de Krag firma as patas na pedra e puxa a manga do elfo. Krag agarra o cinto, os dois puxam juntos, e o corpo mole cede um hex em direção à escada.
+> Farejo: ST 12, 3d [6, 1, 5] = *12* → sucesso por 0
+> Krag: ST 12, 3d [2, 3, 3] = *8* → sucesso por 4
+> Margens somadas: 4 → *1 hex arrastado* (a cada 3 de margem, 1 hex)
+
+No corredor sul, os arqueiros soltam as flechas que prepararam, todos contra o orc dentro da bolha. O agachado de trás atira por cima do ombro do companheiro; a flecha passa rente a ele e se perde na pedra, ao longe.
+> Arqueiro 3: Arco NH 12, -5 distância (10 m), +1 Precisão, +1 mira (2º turno), -4 (uma figura na linha de tiro) = *5*
+> 3d [4, 5, 1] = *10* → falhou por 5
+> Flecha perdida no Arqueiro 4: Arco NH 5 (pior entre 9 e o NH do tiro), +1 distância (1 m) = *6*
+> 3d [5, 3, 2] = *10* → falhou por 4
+
+O de barba grisalha solta a corda. A flecha cruza o corredor e estala na parede da bolha, sem passar, e cai na pedra.
+> Arqueiro 4: Arco NH 16, -4 distância (9 m), +1 Precisão, +1 mira (2º turno) = *14*
+> 3d [5, 2, 4] = *11* → sucesso por 3
+> A bolha barra o tiro. Nenhum dano.
+
+A arqueira de tranças, a mais perto, atira em linha reta. A flecha bate na bolha com um estalo seco e cai.
+> Arqueira 5: Arco NH 16, -3 distância (7 m), +1 Precisão, +1 mira (2º turno) = *15*
+> 3d [6, 4, 2] = *12* → sucesso por 3
+> A bolha barra o tiro. Nenhum dano.
+
+O de touca de couro erra o orc por um fio, e a flecha, em vez de seguir para a bolha, entra nas costas do veterano que está à frente dele.
+> Arqueiro 6: Arco NH 16, -4 distância (9 m), +1 Precisão, +1 mira (2º turno), -4 (uma figura na linha de tiro) = *10*
+> 3d [3, 4, 4] = *11* → falhou por 1
+> Flecha perdida no Arqueiro 7: Arco NH 9 (pior entre 9 e o NH do tiro), +1 distância (1 m) = *10*
+> 3d [4, 2, 1] = *7* → sucesso por 3 (de costas e mirando, sem defesa)
+> Ponto de impacto sorteado: 3d [3, 6, 1] = 10, tronco
+> Dano: 1D+1 [1] + 1 = *2*
+> RD 1 → 1 passa
+> Perfuração: ×2 depois da armadura → *2*
+> *Arqueiro 7 perde 2 pontos de vida:* 10 → *8*
+
+O arqueiro veterano de barba cortada rosna, o couro rasgado entre as omoplatas, mas não solta a corda. Aponta de novo e atira. A flecha dele também morre na bolha.
+> Arqueiro 7: Vontade 10 para não perder a mira ferido, 3d [4, 5, 1] = *10* → sucesso por 0
+> Arqueiro 7: Arco NH 16, -4 distância (8 m, linha dos 9 m), +1 Precisão, +1 mira (2º turno) = *14*
+> 3d [1, 5, 6] = *12* → sucesso por 2
+> A bolha barra o tiro. Nenhum dano.
+
+Sae'Varyn encosta o bastão no peito do elfo, a palavra sai limpa da boca dele, e o ar esquenta em volta do cajado. Tann'athar tosse, o peito sobe, e os olhos se abrem, sem foco.
+> Sae'Varyn: Despertar NH 16, -5 mana baixa = *11*
+> 3d [1, 1, 5] = *7* → sucesso por 4
+> Custo: 1 ponto de Fadiga (2 → 1)
+> Tann'athar: HT 11, +4 margem do Despertar, -3 inconsciente por ferimento = *12*
+> 3d [3, 5, 2] = *10* → sucesso por 2, *ACORDA*
+
+Tann'athar respira fundo, ainda de bruços, o rosto grudado na pedra, e não consegue se levantar.
+
+Urzog não se mexe. Os olhos seguem no vazio, o ar da fonte estala em volta dele, e a luz roxa do cabo pulsa devagar. Os lábios se mexem no mesmo murmúrio.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 171 — 07/11/2026 15:59
+
+_T131: Tann'athar de pé com ajuda; arqueiros miram os elfos_
+
+*TURNO 131 — DE PÉ, A DURAS PENAS*
+
+Os soldados de loriga se mexem: um sobe pela borda oeste da sala, outro avança uns passos pelo corredor, e o terceiro, vindo do fundo, cobre o lugar deixado atrás dos arqueiros. No corredor sul, o arqueiro agachado dá um passo de lado, e a arqueira de tranças gira o corpo, sem soltar a corda.
+
+O cão de Krag enfia o ombro sob o braço do elfo, e Krag o agarra pelo cinto e pelo colete. Os dois erguem Tann'athar juntos. Ele geme, as pernas tremem, e a cabeça pende, mas fica de pé, escorado neles.
+> Tann'athar: HT 11 para seguir consciente a 0 PV, 3d [3, 6, 2] = *11* → sucesso por 0
+> Com a ajuda de Krag e Farejo, levanta-se em um turno (decisão do Mestre).
+
+O arqueiro de barba grisalha tira uma flecha da aljava, encaixa e aponta para o elfo de cabelos brancos. O veterano de barba cortada, com o couro rasgado ainda sangrando entre as omoplatas, aponta para o elfo ferido. O de touca de couro baixa o arco e espera.
+
+Sae'Varyn dá um passo de lado, o bastão atravessado diante do peito, e cospe as palavras por cima do ombro: "Malditos seres de um dia."
+
+Urzog não se mexe. Os olhos seguem no vazio, o ar da fonte estala em volta dele, e a luz roxa do cabo pulsa devagar. Os lábios se mexem no mesmo murmúrio.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 172 — 07/11/2026 20:57
+
+_T132: Domo barra tiros e golpe; Tann'athar apaga a 0 PV_
+
+*TURNO 132 — O ELFO CEDE*
+
+Os soldados de loriga contornam a bolha clara pelo lado oeste: um chega até a borda dela, o outro avança uns passos pelo corredor. Os arqueiros de touca, de tranças e o agachado vão atrás, arcos baixos, e mais um soldado de gibão azul surge no fundo do corredor sul e para.
+
+Krag ajeita o elfo entre ele e o cão e vira o rosto para a escada.
+
+O soldado de loriga que chegou à borda enfia o gládio na direção do orc. A lâmina morre na parede da bolha, sem passar.
+> Guarda do Castelo: Espadas Curtas NH 12, 3d [6, 4, 4] = *14* → falhou por 2
+> A bolha barra o golpe. Nenhum dano.
+
+No corredor sul, o arqueiro de barba grisalha e o veterano de barba cortada soltam as cordas, um contra o elfo de cabelos brancos, o outro contra o elfo ferido. As flechas cruzam o salão e estalam na parede da bolha, no meio do caminho, e caem na pedra.
+> Arqueiro 4: Arco NH 16, -6 distância (14 m), +1 Precisão, +1 mira (2º turno) = *12*
+> 3d [5, 3, 2] = *10* → sucesso por 2
+> A bolha barra o tiro. Nenhum dano.
+> Arqueiro 7: Arco NH 16, -6 distância (15 m), +1 Precisão, +1 mira (2º turno) = *12*
+> 3d [1, 5, 3] = *9* → sucesso por 3
+> A bolha barra o tiro. Nenhum dano.
+
+Sae'Varyn corre dois passos pela borda norte, o bastão batendo na coxa, o fôlego já curto, rumo à escada.
+
+Tann'athar leva a mão ao manto e a palavra morre na garganta. O sangue some do rosto dele, os olhos reviram, e o corpo cede, mole, nos braços de Krag e do cão.
+> Tann'athar: HT 11 para seguir consciente a 0 PV, 3d [5, 5, 4] = *14* → falhou por 3, *INCONSCIENTE*
+
+Urzog não se mexe. Os olhos seguem no vazio, o ar da fonte estala em volta dele, e a luz roxa do cabo pulsa devagar. Os lábios se mexem no mesmo murmúrio.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 173 — 07/11/2026 21:08
+
+_T133: Despertar de Sae'Varyn pago com PV não acorda Tann'athar_
+
+*TURNO 133 — O ELFO NÃO ACORDA*
+
+O cão de Krag firma as patas e morde a manga do elfo caído. Krag o agarra pelo cinto e os dois puxam juntos o corpo mole pela pedra, rumo à escada.
+> Farejo: ST 12, 3d [2, 3, 1] = *6* → sucesso por 6
+> Krag: ST 12, 3d [5, 5, 5] = *15* → falhou por 3
+> Margens que contam: 6 → *2 hexes arrastados* (a cada 3 de margem, 1 hex; a falha não soma)
+
+O soldado de loriga que está junto à borda da bolha para, olha a parede clara e não acha o que fazer. Os outros dois soldados e os arqueiros seguem contornando o lado oeste, e mais um soldado de gibão azul aparece no fundo do corredor sul.
+> Guarda do Castelo: IQ 10 para entender o Domo e ir atrás dos outros, 3d [5, 4, 4] = *13* → falhou por 3
+
+No corredor sul, o arqueiro de barba grisalha e o veterano de barba cortada tiram flechas novas da aljava e encaixam nas cordas.
+> Arqueiro 4: Sacar Rápido (Flecha) NH 16, 3d [4, 1, 1] = *6* → sucesso por 10
+> Arqueiro 7: Sacar Rápido (Flecha) NH 16, 3d [2, 2, 5] = *9* → sucesso por 7
+
+Sae'Varyn fecha os olhos e murmura, o cajado erguido na direção do elfo ferido. O ar esquenta em volta do bastão, e a palavra sai da boca dele, mas o sopro custa sangue: ele franze o rosto e aperta o flanco.
+> Sae'Varyn: Despertar NH 16, -5 mana baixa, -1 por 1 PV gasto no lugar da Fadiga = *10*
+> 3d [4, 4, 1] = *9* → sucesso por 1
+> Custo: 1 ponto de vida (11 → 10)
+> Tann'athar: HT 11, +1 margem do Despertar, -3 inconsciente por ferimento = *9*
+> 3d [5, 4, 3] = *12* → falhou por 3, *segue inconsciente*
+
+Tann'athar não se mexe, arrastado pela pedra com a cabeça pendendo.
+
+Urzog não se mexe. Os olhos seguem no vazio, o ar da fonte estala em volta dele, e a luz roxa do cabo pulsa devagar. Os lábios se mexem no mesmo murmúrio.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 174 — 07/11/2026 21:15
+
+_T134: Despertar de Sae'Varyn falha; arrasto de 2 hexes_
+
+*TURNO 134 — O SOPRO QUE FALHA*
+
+O cão de Krag crava os dentes na manga do elfo e puxa, as patas arranhando a pedra. Krag agarra o cinto, firma os pés e os dois arrastam o corpo mole mais um trecho em direção à escada.
+> Farejo: ST 12, 3d [1, 6, 3] = *10* → sucesso por 2
+> Krag: ST 12, 3d [2, 4, 1] = *7* → sucesso por 5
+> Margens somadas: 7 → *2 hexes arrastados* (a cada 3 de margem, 1 hex)
+
+O soldado de loriga parado junto à borda da bolha franze a testa para a parede clara, como quem finalmente percebe por que o golpe dele não passou. Ele se vira, e os olhos seguem os companheiros que dão a volta pelo oeste.
+> Guarda do Castelo: IQ 10 para entender o Domo e ir atrás dos outros, 3d [2, 3, 1] = *6* → sucesso por 4
+
+Os outros soldados e os arqueiros sobem pelo lado oeste da sala, de passo curto, arcos baixos. O arqueiro de barba grisalha e o veterano de barba cortada andam com a flecha ainda na corda e perdem a mira, e o soldado que chegou por último ao corredor sul segue o grupo.
+
+Sae'Varyn dá um passo até o elfo caído, encosta o bastão no peito dele e fecha os olhos. O ar esquenta em volta do cajado, mas a palavra falha na boca, e ele aperta o flanco com a mão livre. Tann'athar não se mexe.
+> Sae'Varyn: Despertar NH 16, -5 mana baixa, -1 por 1 PV gasto no lugar da Fadiga = *10*
+> 3d [4, 4, 4] = *12* → falhou por 2
+> Custo da falha: 1 ponto de vida (10 → 9)
+
+Urzog não se mexe. Os olhos seguem no vazio, o ar da fonte estala em volta dele, e a luz roxa do cabo pulsa devagar. Os lábios se mexem no mesmo murmúrio.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 175 — 07/11/2026 21:38
+
+_T135: Despertar de Sae'Varyn passa por 0, Tann'athar falha o HT por 1_
+
+*TURNO 135 — POR UM PONTO*
+
+O cão de Krag morde a manga do elfo e puxa, Krag agarra o cinto e os dois arrastam o corpo mole mais um pouco em direção à escada.
+> Farejo: ST 12, 3d [3, 5, 3] = *11* → sucesso por 1
+> Krag: ST 12, 3d [2, 4, 4] = *10* → sucesso por 2
+> Margens somadas: 3 → *1 hex arrastado* (a cada 3 de margem, 1 hex)
+
+O soldado de loriga parado junto à parede clara bate nela com a mão aberta e grita para os outros: "Tem uma parede aqui, peguem os outros!" Os soldados e os arqueiros seguem subindo pelo lado oeste, de passo curto, e mais um soldado de gibão azul aparece no fundo do corredor sul. Os dois arqueiros que ainda traziam a flecha na corda perdem a mira outra vez, andando.
+
+Sae'Varyn alcança o elfo caído, encosta o bastão no peito dele e fecha os olhos. O ar esquenta em volta do cajado, a palavra sai da boca por um fio, e o sopro custa sangue: ele cerra os dentes e aperta o flanco. Tann'athar tosse seco, o peito sobe uma vez, mas os olhos não se abrem.
+> Sae'Varyn: Despertar NH 16, -5 mana baixa, -1 por 1 PV gasto no lugar da Fadiga = *10*
+> 3d [2, 3, 5] = *10* → sucesso por 0
+> Custo: 1 ponto de vida (9 → 8)
+> Tann'athar: HT 11, +0 margem do Despertar, -3 inconsciente por ferimento = *8*
+> 3d [1, 5, 3] = *9* → falhou por 1, *segue inconsciente*
+
+Urzog não se mexe. Os olhos seguem no vazio, o ar da fonte estala em volta dele, e a luz roxa do cabo pulsa devagar. Os lábios se mexem no mesmo murmúrio.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 176 — 07/11/2026 22:22
+
+_T136: Cura Superficial de Sae'Varyn falha; arrasto de 0 hex_
+
+*TURNO 136 — A CURA QUE ESCORREGA*
+
+O cão de Krag arranha a pedra e puxa a manga do elfo, Krag agarra o cinto e os dois forçam, mas o peso morto só se arrasta um palmo, e o corpo não chega a sair do lugar.
+> Farejo: ST 12, 3d [4, 2, 6] = *12* → sucesso por 0
+> Krag: ST 12, 3d [4, 1, 6] = *11* → sucesso por 1
+> Margens somadas: 1 → *0 hex arrastado* (a cada 3 de margem, 1 hex)
+
+Os soldados de loriga e de gibão azul e os arqueiros seguem subindo pelo lado oeste, de passo curto. Um dos soldados contorna o fim da parede clara pelo lado leste, e mais um soldado de gibão azul surge no fundo do corredor sul. Os dois arqueiros que traziam a flecha na corda perdem a mira outra vez, andando.
+
+Sae'Varyn se ajoelha ao lado do elfo caído, encosta o bastão no peito dele e fecha os olhos. O ar esquenta em volta do cajado, mas a palavra escorrega na boca, e ele aperta o flanco. A ferida de Tann'athar não fecha.
+> Sae'Varyn: Cura Superficial NH 17, -5 mana baixa, -1 por 1 PV gasto no lugar da Fadiga = *11*
+> 3d [4, 5, 4] = *13* → falhou por 2
+> Custo da falha: 1 ponto de vida (8 → 7)
+
+Urzog não se mexe. Os olhos seguem no vazio, o ar da fonte estala em volta dele, e a luz roxa do cabo pulsa devagar. Os lábios se mexem no mesmo murmúrio.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 177 — 07/11/2026 22:25
+
+_Sae'Varyn tenta escalar por ali: Escalada DX-5 = 6, tirou 8, falhou por 2_
+
+*A SUBIDA QUE NÃO PEGA*
+
+Sae'Varyn firma o bastão na dobra do braço, agarra a pedra com as duas mãos e tenta subir por ali. Os dedos escorregam na superfície fria, o fôlego curto não ajuda, e ele não consegue ganhar altura.
+> Sae'Varyn: Escalada, pré-definido DX-5 (não tem a perícia) = *6*
+> 3d [6, 1, 1] = *8* → *falhou por 2*
+
+Os outros esperam, o ar da fonte estalando ao longe.
+
+O que vocês fazem?
+
+### Narração 178 — 07/11/2026 22:30
+
+_Errata do T136: Cura Superficial era só concentração; PV devolvido_
+
+*ERRATA DO TURNO 136*
+
+No turno 136, Sae'Varyn apenas se concentrou para fazer a Cura Superficial: a mágica não foi lançada. A rolagem daquele turno e o custo da falha ficam anulados, e o ponto de vida que ele perdeu volta.
+> Sae'Varyn: Cura Superficial do T136 (3d [4, 5, 4] = 13) anulada, era só concentração
+> Sae'Varyn: 7 → *8/13 PV*
+> Tann'athar: segue a 0 PV, inconsciente
+
+Sae'Varyn continua ao lado do elfo caído, o bastão erguido, a concentração ainda de pé.
+
+O que vocês fazem?
+
+### Narração 179 — 07/11/2026 22:33
+
+_T137: Cura Superficial de Sae'Varyn pega; Tann'athar a 1 PV_
+
+*TURNO 137 — O FÔLEGO VOLTA*
+
+O cão de Krag crava os dentes na manga do elfo e puxa, e Krag agarra o cinto, mas o pé dele escorrega na pedra e quase todo o esforço sai do cão. Ainda assim o corpo mole cede mais um trecho em direção à escada.
+> Farejo: ST 12, 3d [1, 2, 2] = *5* → sucesso por 7
+> Krag: ST 12, 3d [5, 6, 4] = *15* → falhou por 3
+> Margens que contam: 7 → *2 hexes arrastados* (a cada 3 de margem, 1 hex; a falha não soma)
+
+Os soldados de loriga e de gibão azul e os arqueiros seguem subindo pelo lado oeste e contornando a parede clara, de passo curto, arcos baixos. Os dois arqueiros que traziam a flecha na corda perdem a mira outra vez, andando.
+
+Sae'Varyn termina a concentração que começou no turno passado, encosta o bastão no peito do elfo ferido e deixa a palavra sair. O ar esquenta em volta do cajado, o sopro custa sangue, e ele cerra os dentes e aperta o flanco. Debaixo da mão dele, a pele do elfo ferido fecha um palmo de carne, e o peito sobe um pouco mais fundo. Ele não abre os olhos.
+> Sae'Varyn: Cura Superficial NH 17, -5 mana baixa, -1 por 1 PV gasto no lugar da Fadiga = *11*
+> 3d [1, 2, 6] = *9* → sucesso por 2
+> Custo: 1 ponto de vida (8 → 7)
+> Tann'athar: 0 → *1/11 PV*
+
+Urzog não se mexe. Os olhos seguem no vazio, o ar da fonte estala em volta dele, e a luz roxa do cabo pulsa devagar. Os lábios se mexem no mesmo murmúrio.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 180 — 07/11/2026 23:24
+
+_T138: arqueiros 3, 5 e 6 apontam em Sae'Varyn; arrasto de 0 hex_
+
+*TURNO 138 — OS ARCOS SE LEVANTAM*
+
+O cão de Krag escorrega na pedra e perde a manga do elfo no meio do puxão. Krag agarra o cinto e arrasta sozinho o peso, mas o corpo mole mal se mexe, e o ganho se perde no atrito.
+> Farejo: ST 12, 3d [6, 4, 3] = *13* → falhou por 1
+> Krag: ST 12, 3d [6, 3, 1] = *10* → sucesso por 2
+> Margens que contam: 2 → *0 hex arrastado* (a cada 3 de margem, 1 hex; a falha não soma)
+
+Os soldados de loriga e de gibão azul continuam subindo pelo lado oeste e contornando a parede clara. Dois arqueiros, o de barba grisalha e o veterano de barba cortada, andam de novo com a flecha na corda e perdem a mira.
+
+Os outros três arqueiros, o agachado, a de tranças e o de touca de couro, param no meio do lado oeste, tiram flechas novas da aljava, encaixam e viram o arco para o elfo de cabelos brancos que corre ao norte.
+> Arqueiro 3: Sacar Rápido (Flecha) NH 12, 3d [1, 2, 5] = *8* → sucesso por 4
+> Arqueiro 5: Sacar Rápido (Flecha) NH 16, 3d [4, 5, 2] = *11* → sucesso por 5
+> Arqueiro 6: Sacar Rápido (Flecha) NH 16, 3d [3, 5, 4] = *12* → sucesso por 4
+> Arqueiros 3, 5 e 6: 1º turno de mira em Sae'Varyn (9 m)
+
+Sae'Varyn corre mais um passo para o fundo da sala, de olho na escada, o bastão batendo na coxa e o fôlego curto.
+
+Urzog não se mexe. Os olhos seguem no vazio, o ar da fonte estala em volta dele, e a luz roxa do cabo pulsa devagar. Os lábios se mexem no mesmo murmúrio.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 181 — 08/11/2026 07:21
+
+_T139: arrasto de 1 hex rumo ao buraco; flecha do Arqueiro 6 defendida pelo Escudo_
+
+*TURNO 139 — O ESCUDO SEGURA*
+
+Krag puxa o elfo ferido para longe da escada, de frente para o buraco que se abre no meio do andar, mas o pé escorrega e quase nada do esforço dele sai do chão. Quem arrasta de verdade é o cão: os dentes na manga do elfo, ele recua um passo e leva o corpo mole junto. O buraco continua longe demais para qualquer arremesso.
+> Farejo: ST 12, 3d [1, 2, 6] = *9* → sucesso por 3
+> Krag: ST 12, 3d [3, 6, 4] = *13* → falhou por 1
+> Margens que contam: 3 → *1 hex arrastado* (a cada 3 de margem, 1 hex; a falha não soma)
+
+Embaixo, o orc de olhar vazio não se mexe além de um passo curto, a bolha clara em volta dele e do morto de gibão, e os lábios seguem no mesmo murmúrio. A luz roxa do cabo pulsa devagar. Os soldados de loriga e de gibão azul continuam fechando o cerco pelo oeste e pelo norte, de passo curto, sem alcançar ninguém. Os dois arqueiros que vinham de arco baixo andam de novo e perdem a mira.
+
+O agachado e a de tranças mantêm a flecha na corda e o olho no elfo de cabelos brancos, mas um soldado de loriga cruza a linha de tiro, bem no meio do caminho, e eles seguram o disparo.
+
+O arqueiro de touca de couro tem a linha livre. Solta a corda. A flecha cruza o andar e vai direto ao peito do elfo, mas o ar se dobra diante dele e ele se joga de lado no último instante; a ponta raspa a túnica e quebra no chão.
+> Arqueiro 6: Arco NH 16, -5 distância (11 m), +1 Precisão, +1 mira (2º turno) = *13*
+> 3d [4, 4, 3] = *11* → sucesso por 2
+> Defesa de Sae'Varyn: esquiva 6 + DP 8 (armadura 2, broquel 1, Escudo +5) = *14*
+> 3d [4, 6, 2] = *12* → sucesso por 2, *flecha defendida*
+
+Sae'Varyn corre um passo em direção à escada, o bastão batendo na coxa, o fôlego curto. Falta chegar.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 182 — 08/11/2026 10:43
+
+_T140: arrasto de 1 hex, arqueiros de vista tapada_
+
+*TURNO 140 — A LINHA TAPADA*
+
+O cão fecha os dentes na manga do elfo e recua, e desta vez o meio-orc também acerta a pegada. O corpo mole desliza um passo pelo piso, na direção do buraco. Ainda falta chão demais para qualquer arremesso.
+> Farejo: ST 12, 3d [1, 4, 6] = *11* → sucesso por 1
+> Krag: ST 12, 3d [6, 1, 1] = *8* → sucesso por 4
+> Margens somadas: 1 + 4 = 5 → *1 hex arrastado* (a cada 3 de margem, 1 hex)
+
+Embaixo, o cerco continua fechando. Os soldados de loriga e de gibão azul avançam de passo largo; um deles já está a três passos do elfo de cabelos brancos, mas não chega a ele. Os dois arqueiros que vinham de arco baixo andam de novo e perdem a mira outra vez.
+
+O agachado e a de tranças seguem com a flecha na corda e o olho no elfo, mas um soldado de loriga ainda está plantado no meio da linha de tiro, e eles seguram o disparo. Mais atrás, o de touca de couro também não tem vista: outro soldado cruza à frente dele. Ele aproveita o tempo e saca uma flecha nova do aljava.
+
+Sae'Varyn dá mais um passo curto rumo à escada, sem fôlego. Falta chegar.
+
+O orc de olhar vazio continua no mesmo murmúrio, a luz roxa do cabo pulsando devagar.
+
+Gorbag segue caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 183 — 08/11/2026 13:43
+
+_T141: arrasto de 1 hex, duas flechas defendidas_
+
+*TURNO 141 — O ESCUDO DE NOVO*
+
+O cão cerra os dentes na manga do elfo e puxa, e o corpo mole rasteja mais um passo para o oeste. O meio-orc agarra a gola, mas o pé escorrega no piso liso e a pegada se solta. Quem arrasta de verdade é Farejo. O buraco continua longe demais para qualquer arremesso.
+> Farejo: ST 12, 3d [6, 2, 1] = *9* → sucesso por 3
+> Krag: ST 12, 3d [5, 6, 6] = *17* → *FALHA CRÍTICA* (por 5): perde a pegada e quase cai
+> Margens que contam: 3 (só Farejo) → *1 hex arrastado* (a cada 3 de margem, 1 hex; a falha não soma)
+
+Embaixo, o cerco aperta. Os soldados de loriga e de gibão azul andam de passo largo; o mais próximo do elfo de cabelos brancos já está a dois passos dele, sem alcançá-lo. Os dois arqueiros que vinham de arco baixo andam de novo e perdem a mira outra vez. O de touca de couro, atrás do cerco, encaixa a flecha na corda.
+
+A de tranças e o agachado têm a linha livre desta vez, e soltam a corda quase juntos. As duas flechas cruzam o andar rumo ao elfo, mas o ar se dobra diante dele e ele se joga de lado, uma, duas vezes, sem parar de correr.
+> Arqueira de tranças: Arco curto NH 16, -5 distância (12 m), +1 Precisão, +2 mira (3º turno) = *14*
+> 3d [1, 4, 5] = *10* → sucesso por 4
+> Defesa de Sae'Varyn: esquiva 6 + DP 8 (armadura 2, broquel 1, Escudo +5) = *14*
+> 3d [5, 3, 6] = *14* → defendeu por 0, *flecha defendida*
+> Arqueiro agachado: Arco curto NH 12, -5 distância (12 m), +1 Precisão, +2 mira (3º turno) = *10*
+> 3d [1, 1, 5] = *7* → sucesso por 3
+> Defesa de Sae'Varyn: esquiva 6 + DP 8 (armadura 2, broquel 1, Escudo +5) = *14*
+> 3d [1, 3, 3] = *7* → defendeu por 7, *flecha defendida*
+
+Sae'Varyn corre dois passos rumo à escada, o bastão batendo na coxa, o fôlego quase no fim. Falta chegar.
+
+O orc de olhar vazio segue no mesmo murmúrio, a luz roxa do cabo pulsando devagar.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 184 — 08/11/2026 16:13
+
+_Turno 142: Tann'athar arrastado 1 hex (13,8); sem tiros; Sae'Varyn corre 2 hex_
+
+*TURNO 142 — O CERCO SE FECHA*
+
+Desta vez é o meio-orc que firma os pés e arranca o corpo mole do chão, e o elfo ferido desliza mais um passo para o oeste, para perto da borda. Farejo cravou os dentes na manga, mas a manga rasga e a pegada dele não ajuda. O buraco já está à vista, mas ainda não ao alcance de um arremesso.
+> Farejo: ST 12, 3d [5, 5, 3] = *13* → falhou por 1
+> Krag: ST 12, 3d [5, 3, 1] = *9* → sucesso por 3
+> Margens que contam: 3 (só Krag) → *1 hex arrastado* (a cada 3 de margem, 1 hex; a falha não soma)
+
+Embaixo, a linha de soldados avança de passo largo pelo norte e pelo oeste, e dois deles já estão a três passos do elfo de cabelos brancos, sem alcançá-lo. Os cinco arqueiros correm junto com eles, as flechas na corda ou ainda na aljava, e nenhum para para mirar.
+
+Sae'Varyn corre mais dois passos rumo à escada, a respiração rasgada. Falta chegar.
+
+O orc de olhar vazio segue no mesmo murmúrio, a luz roxa do cabo pulsando devagar.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 185 — 08/11/2026 16:26
+
+_Turno 143: Tann'athar lançado ao térreo sem dano; Krag corre até Gorbag; sem tiros_
+
+*TURNO 143 — O ARREMESSO*
+
+Krag agarra o elfo mole pela gola e pelo cinto, gira o corpo e o solta sobre a borda. Tann'athar cai sem um som, os cabelos abertos no ar, e bate nas pedras do andar de baixo, a poucos passos da fonte. O choque ecoa na sala. Ele não se mexe, mas o peito ainda sobe e desce.
+> Queda: 4 m sobre pedras, (1D − 2) por metro = 4D − 8
+> 4d [3, 2, 1, 1] = *7* → 7 − 8 = *−1* → *0 de dano*
+> Tann'athar está *inconsciente a 1 PV* (sem Acrobacia, inconsciente)
+
+Krag corre dois passos até o ogro caído, mas o turno acaba na corrida: o corpanzil continua onde estava, e Farejo trota até lá e fareja a gola do gigante.
+
+Embaixo, o cerco aperta. Os soldados de gibão azul avançam de passo largo; um deles já está a dois passos do elfo caído, sem alcançá-lo. Os arqueiros também correm e nenhum para para mirar: os que tinham flecha encaixada perdem a mira, e os outros ainda saqueiam a aljava.
+
+Sae'Varyn dá um passo curto, a respiração rasgada. Falta chegar.
+
+O orc de olhar vazio segue no mesmo murmúrio, a luz roxa do cabo pulsando devagar.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 186 — 08/11/2026 17:10
+
+_Turno 144: empurrão em Gorbag, 2/5 sucessos; sem tiros_
+
+*TURNO 144 — O PESO DO OGRO*
+
+Krag se planta ao lado do ogro caído, o ombro contra a carcaça imensa, e Farejo crava as patas no piso liso. Os dois empurram juntos. A massa se agita, rola um palmo, e para. O buraco continua longe demais.
+> Farejo: ST 12, 3d [1, 1, 4] = *6* → sucesso por 6
+> Krag: ST 12, 3d [3, 2, 1] = *6* → sucesso por 6
+> Sucessos neste turno: 2. Acumulado para o 1º hex: *2 de 5* (5 sucessos por hex empurrado)
+
+Embaixo, o cerco não para. Os soldados de loriga e de gibão azul seguem de passo largo e os arqueiros correm junto, sem parar para mirar. Um deles já está a dois passos do elfo caído, sem alcançá-lo.
+
+Sae'Varyn corre mais dois passos rumo ao buraco, a respiração rasgada.
+
+O orc de olhar vazio segue no mesmo murmúrio, a luz roxa do cabo pulsando devagar.
+
+O que vocês fazem?
+
+### Narração 187 — 08/11/2026 21:07
+
+_T145: empurrão 3/5; Sae'Varyn concentra Despertar_
+
+*TURNO 145 — O TOQUE DO BASTÃO*
+
+Farejo crava as patas no piso liso e o ombro de Krag escorrega no couro suado do ogro. A carcaça se mexe um dedo e para. O buraco continua longe.
+> Farejo: ST 12, 3d [5, 2, 3] = *10* → sucesso por 2
+> Krag: ST 12, 3d [4, 5, 6] = *15* → falhou por 3
+> Sucessos neste turno: 1. Acumulado para o 1º hex: *3 de 5* (5 sucessos por hex empurrado)
+
+Sae'Varyn dá um passo, estende o bastão até a testa do ogro e fecha os olhos, murmurando em latim. A mágica ainda não sai: ele se concentra, e o toque vem no próximo turno.
+
+Embaixo, o cerco não para. Um soldado de loriga já está a dois passos do elfo de cabelos brancos, sem alcançá-lo. Dois arqueiros sacam uma flecha da aljava, outro firma o arco já armado, e os dois que vinham correndo perdem a mira de novo.
+
+O orc de olhar vazio segue no mesmo murmúrio, a luz roxa do cabo pulsando devagar.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 188 — 08/11/2026 21:20
+
+_T146: encontrão de Farejo falha; Despertar acorda Gorbag_
+
+*TURNO 146 — O ENCONTRÃO*
+
+Krag saca e encaixa a flecha num gesto só e solta a corda por cima do ombro do elfo. A ponta morde o escudo do soldado mais próximo e morre no couro.
+> Sacar Rápido (Flecha): NH 14, 3d [4, 5, 2] = *11* → sucesso por 3
+> Ataque: Arco NH 17, -1 velocidade/distância (3 m) = *16*
+> 3d [2, 5, 5] = *12* → sucesso por 4
+> Defesa do Guarda 5: bloqueio 7 +2 DP loriga +3 DP escudo = *12*
+> 3d [4, 1, 6] = *11* → defendeu por 1, *flecha bloqueada*
+
+Farejo cruza o piso e se joga de lado contra o soldado, no flanco desprotegido. O choque acerta, mas o homem firma os pés atrás do escudo e é o cão que rola para longe, dois hexes para o leste, ficando caído a um passo de outro soldado.
+> Encontrão, disputa rápida de DX: Farejo DX 12, 3d [3, 2, 4] = *9* → sucesso por 3
+> Guarda 5: DX 12 -2 (atingido por hex lateral) = 10, 3d [3, 5, 6] = *14* → falhou por 4
+> Disputa rápida de ST: Farejo ST 12 +2 (andou mais de 1 hex) -2 (escudo médio) = *12*, 3d [2, 6, 3] = *11* → sucesso por 1
+> Guarda 5: ST 12, 3d [1, 3, 3] = *7* → sucesso por 5. O guarda vence e continua de pé
+> Projeção do perdedor: Farejo ST 12, 3d [3, 3, 6] = *12* → sucesso por 0; Guarda 5, 3d [1, 2, 2] = *5* → sucesso por 7
+> Margem 7 = 3 hexes, mas quem dá o encontrão ricocheteia no máximo 2 → *2 hexes para trás*; Farejo cai (sem dano)
+
+Sae'Varyn estende o bastão e toca a testa do ogro, e o latim sai sem tremer. O corpo enorme estremece e o ar volta aos pulmões.
+> Despertar: NH 16, -5 mana baixa, -1 por 1 PV gasto no lugar da Fadiga = *10*
+> 3d [3, 1, 4] = *8* → sucesso por 2
+> Sae'Varyn paga *1 ponto de vida* (7 → 6)
+> Gorbag: HT 15, +2 margem do Despertar, -3 inconsciente por ferimento = *14*
+> 3d [1, 3, 4] = *8* → sucesso por 6, *Gorbag acorda*
+
+Gorbag abre os olhos e tosse um rosnado, ainda caído e sangrando.
+
+O soldado, que chegou pelas costas, desce o gládio no tronco do elfo. Sae'Varyn não vê o golpe, e o ferro morde a loriga e a luz azul do Escudo, e para.
+> Ataque do Guarda 5: Espadas Curtas NH 12 = *12*
+> 3d [5, 5, 2] = *12* → sucesso por 0
+> Sae'Varyn está de costas: sem defesa ativa e sem DP do broquel. Só a defesa passiva: DP 2 (loriga) +5 (Escudo mágico) = *7*
+> 3d [1, 1, 2] = *4* → defendeu pela DP passiva
+
+Atrás deles o cerco fecha. Os arqueiros e os soldados avançam em fila e perdem a mira ao andar. Os que sacaram a flecha ainda não a encaixaram.
+
+O orc de olhar vazio segue no mesmo murmúrio, a luz roxa do cabo pulsando devagar.
+
+O que vocês fazem?
+
+### Narração 189 — 08/11/2026 22:06
+
+_T147: Krag e Farejo pulam no térreo; Gorbag rasteja_
+
+*TURNO 147 — A QUEDA NA FONTE*
+
+Gorbag arrasta a carcaça um hex pelo piso liso, rumo à borda do buraco. O corpo ferido aguenta.
+> Gorbag: HT 15, 3d [4, 1, 1] = *6* → sucesso por 9, segue consciente a -6 PV
+
+Sae'Varyn escorrega em diagonal e se planta entre o ogro e o cerco, o bastão cruzado à frente. O soldado alcança o elfo e desce o gládio, e a madeira recebe o ferro.
+> Ataque do Guarda 5: Espadas Curtas NH 12 = *12*
+> 3d [1, 2, 3] = *6* → sucesso por 6
+> Defesa de Sae'Varyn (Defesa Total): Aparar 8 (Bastão ⅔ + Reflexos) +2 Defesa Total +1 DP broquel +5 Escudo = *16*
+> 3d [1, 2, 5] = *8* → defendeu por 8
+
+Krag corre até a borda e berra: "Pula na fonte!". Farejo chega antes dele e os dois mergulham no vazio, e batem nas pedras do térreo com um estalo. O ranger se levanta com o ombro esfolado, e o cão se arrasta, ofegante, mas de pé.
+> Queda de Krag: 4 m sobre pedras, (1D − 2) por metro = 4D − 8 (sem Acrobacia)
+> 4d [2, 2, 3, 3] = *10* → 10 − 8 = *2* de dano (Krag: 6 → 4 PV)
+> Queda de Farejo: 4d [5, 2, 6, 5] = *18* → 18 − 8 = *10* de dano (Farejo: 15 → 5 PV)
+> Farejo: HT 15 (dano maior que metade da HT), 3d [3, 1, 2] = *6* → sucesso por 9, não cai
+
+Em cima, o cerco aperta. Os soldados chegam de passo largo, os arqueiros correm junto e nenhum deles para para mirar.
+
+O orc de olhar vazio segue no mesmo murmúrio, a luz roxa do cabo pulsando devagar.
+
+O que vocês fazem?
+
+### Narração 190 — 08/11/2026 22:29
+
+_T148: Gorbag e Sae'Varyn caem no térreo; Krag sem alvo_
+
+*TURNO 148 — O SALTO CURTO*
+
+Krag encaixa a flecha num gesto só e ergue o olhar para a boca do buraco, o arco meio tenso. Dali de baixo ele não alcança soldado nenhum.
+> Sacar Rápido (Flecha): NH 14, 3d [2, 1, 5] = *8* → sucesso por 6
+
+Gorbag se arrasta até a borda e se deixa cair. O ogro bate nas pedras do térreo com um som surdo e fica caído, ainda consciente, o sangue escorrendo.
+> Gorbag: HT 15, 3d [4, 4, 3] = *11* → sucesso por 4, segue consciente a -6 PV
+> Queda: 4 m sobre pedras, (1D − 2) por metro = 4D − 8
+> 4d [6, 3, 5, 3] = *17* → 17 − 8 = *9*
+> RD 3 do couro de ogro (queda: máx. 3) → *6* de dano (Gorbag: -6 → -12 PV)
+
+Sae'Varyn toma impulso e salta rumo à água, mas o pulo sai curto: os pés pousam firmes nas pedras ao lado da fonte, o Escudo estalando de luz azul, e o couro da loriga come o impacto.
+> Salto em distância de 3 m: sem impulso o limite é (ST 10 − 3) × 33 = 2,31 m; esforço extra: DX 11 -1 = *10* (paga 1 PV no lugar da Fadiga: 6 → 5)
+> 3d [4, 5, 2] = *11* → falhou por 1 (não alcança a água)
+> Aterrissar de pé: DX 11, 3d [5, 1, 2] = *8* → sucesso por 3, cai de pé
+> Queda: 4 m sobre pedras, 4D − 8; 4d [1, 3, 4, 2] = *10* → 10 − 8 = *2*
+> RD 2 da loriga de couro (queda: máx. 3) → *0* de dano
+
+O soldado que o perseguia desfere o golpe no ar onde o elfo estava, e fica olhando o buraco.
+
+Em cima, o cerco aperta. Os soldados chegam de passo largo, os arqueiros correm junto e nenhum deles para para mirar.
+
+O orc de olhar vazio segue no mesmo murmúrio, a luz roxa do cabo pulsando devagar.
+
+O que vocês fazem?
+
+### Narração 191 — 09/11/2026 07:29
+
+_T149: Gorbag ajoelha, Krag corre, Sae'Varyn concentra Despertar_
+
+*TURNO 149 — O OGRO DE JOELHOS*
+
+Gorbag apoia as mãos nas pedras, o sangue ainda escorrendo, e ergue o tronco até ficar de joelhos. Falta o resto para chegar em pé.
+> Gorbag: HT 15, 3d [2, 3, 1] = *6* → sucesso por 9, segue consciente a -12 PV
+> Levantar: de bruços a de pé são 2 turnos; este é o 1º (ajoelha)
+
+Krag corre pela sala até a borda norte do domo, a flecha ainda encaixada, mas o turno vai todo na corrida e ele não chega a mirar.
+> Deslocamento: 4 hexágonos (Deslocamento 5), de (11,10) para (9,7); sem Apontar neste turno
+
+Sae'Varyn recua um passo para o centro do domo, de costas, os lábios se mexendo nas palavras do Despertar. A mágica só sai no turno seguinte.
+> Avançar e se Concentrar: 1 hexágono
+
+Em cima, os soldados chegam perto da borda e olham os quatro metros de pedra lá embaixo. Nenhum salta.
+> Guarda 5: IQ 10, 3d [3, 2, 3] = *8* → sucesso por 2 (não pula)
+> Guarda 3: IQ 10, 3d [4, 2, 4] = *10* → sucesso por 0 (não pula)
+
+Os arqueiros apontam as flechas, sem soltar a corda.
+
+O orc de olhar vazio segue no mesmo murmúrio, a luz roxa do cabo pulsando devagar.
+
+Tann'athar continua caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 192 — 09/11/2026 07:38
+
+_T150: Gorbag em pé, Despertar na fonte falha o HT, guardas pulam_
+
+*TURNO 150 — O DESPERTAR NA FONTE*
+
+Gorbag apoia a mão enorme no chão, junta os pés e se ergue. O ogro fica de pé outra vez, sangrando, e a pedra sob ele range.
+> Gorbag: HT 15, 3d [4, 1, 3] = *8* → sucesso por 7, segue consciente a -12 PV
+> Levantar: de joelhos a de pé, 2º turno (sem teste)
+
+Sae'Varyn estica o bastão até o meio-elfo caído e murmura o último verso. A fonte da torre responde: a mana aqui é alta, o feitiço sai sem custo e sem esforço. O corpo de Tann'athar estremece, mas os olhos não abrem.
+> Despertar: NH 16 (sem o -5: a sala da fonte tem mana muito alta; sem custo de energia)
+> 3d [4, 3, 4] = *11* → sucesso por 5
+> Tann'athar: HT 11 +5 (margem) -3 (inconsciente por ferimento) = *13*
+> 3d [4, 5, 5] = *14* → falhou por 1, segue inconsciente a 1 PV
+
+Krag fixa o olhar no arqueiro mais próximo da borda, a flecha encaixada, e deixa a corda tensa. O primeiro turno de mira.
+> Apontar: sem tiro neste turno
+
+Em cima, os soldados chegam à borda e encaram o buraco. Dois deles perdem a cabeça e se jogam atrás dos fugitivos.
+> Guarda do Castelo (124): IQ 10, 3d [6, 6, 5] = *17* → *FALHA CRÍTICA* (por 7), pula
+> Guarda do Castelo 7: IQ 10, 3d [5, 5, 2] = *12* → falhou por 2, pula
+
+Os arqueiros miram. Um deles segue com a flecha no orc de olhar vazio, que continua no mesmo murmúrio, a luz roxa do cabo pulsando devagar.
+
+Tann'athar continua caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 193 — 09/11/2026 10:29
+
+_T151: guardas 124 e 7 caem na fonte; Gorbag perde o braço esquerdo, Tann'athar a -8 PV_
+
+*TURNO 151 — OS SOLDADOS CAEM NA FONTE*
+
+Gorbag range os dentes, fecha a guarda e se firma de pé, o sangue pingando nas pedras.
+> Gorbag: HT 15, 3d [4, 2, 3] = *9* → sucesso por 6, segue consciente a -12 PV
+
+Dois soldados perdem a cabeça de vez e se jogam na boca do buraco. O de gibão e escudo bate nas pedras junto da fonte e perde o fôlego. O outro cai mais atrás, e a loriga de couro come um pouco do impacto.
+> Queda do Guarda 124: 4 m sobre pedras, 4D − 8; 4d [3, 3, 5, 5] = *16* → 16 − 8 = *8*
+> RD 2 da loriga de couro (queda: máx. 3) → *6* de dano (12 → 6 PV)
+> Queda do Guarda 7: 4d [5, 4, 1, 2] = *12* → 12 − 8 = *4*
+> RD 2 da loriga → *2* de dano (12 → 10 PV)
+
+O soldado que caiu junto do ogro levanta o gládio num ataque sem guarda nenhuma e acerta o braço esquerdo dele. A lâmina corta o couro grosso, mas pouco.
+> Ataque do Guarda 124: Espadas Curtas NH 12, +4 Ataque Total = *16*
+> 3d [1, 2, 1] = *4* → *SUCESSO DECISIVO* (por 12)
+> *GOLPE FULMINANTE:* sem defesa possível. Tabela: 3d [3, 6, 5] = *14* → membro incapacitado
+> Local sorteado: 3d [1, 5, 2] = 8 → braço (esquerdo: 1d [4])
+> Dano: 1D+1: [3] + 1 = *4* → RD 3 do couro de ogro → 1 passa → corte ×1,5 → *1*
+> *Braço esquerdo de Gorbag INCAPACITADO.* Gorbag perde 1 PV (-12 → -13)
+
+O outro soldado cai ao lado do elfo desacordado e desce o gládio no peito dele, sem que ele se mexa.
+> Ataque do Guarda 7: Espadas Curtas NH 12 = *12*
+> 3d [1, 5, 3] = *9* → sucesso por 3
+> Defesa de Tann'athar: inconsciente, sem defesa ativa e sem DP
+> Local sorteado: 3d [3, 2, 5] = 10 → tronco
+> Dano: 1D+1: [5] + 1 = *6* → RD 0 → corte ×1,5 → *9*
+> *Tann'athar perde 9 PV* (1 → -8), segue inconsciente
+
+Sae'Varyn dá um passo de lado, o bastão erguido na direção do ogro, e começa o verso da cura. A mágica só sai no turno seguinte.
+> Avançar e se Concentrar: 1 hexágono
+
+Krag ergue o arco e prende o olhar no soldado que caiu junto do elfo.
+> Apontar: 1º turno, sem tiro
+
+Farejo salta por trás da fila de aliados e corre para o soldado que atacou o ogro, mas gasta o fôlego todo na corrida e chega sem morder.
+> Deslocamento: 5 hexágonos, de (8,8) para (9,10); sem golpe neste turno
+
+Em cima, um terceiro soldado chega à borda e encara o buraco. Não pula.
+> Guarda do Castelo 4: IQ 10, 3d [6, 1, 1] = *8* → sucesso por 2 (não pula)
+
+Dois arqueiros soltam as cordas. A flecha que desce pelo buraco passa zunindo ao lado do orc e se perde na pedra. A outra, vinda do fundo do salão, morre na parede clara do Domo.
+> Arqueiro 4 (de cima, no orc): Arco NH 16, -3 distância (5 m), +3 Precisão, -4 mão = *12*
+> 3d [6, 2, 6] = *14* → falha por 2 (o Domo não barra tiro vindo do andar de cima)
+> Arqueiro 6 (do térreo, em Tann'athar): Arco NH 16, -3 distância (6 m), +3 Precisão, +1 mira (2º turno) = *17*
+> 3d [5, 4, 4] = *13* → sucesso por 4
+> A bolha barra o tiro. Nenhum dano.
+
+Os outros arqueiros encaixam e miram. O soldado de fora avança pelo salão.
+
+O orc de olhar vazio segue no mesmo murmúrio, a luz roxa do cabo pulsando devagar.
+
+O que vocês fazem?
+
+### Narração 194 — 09/11/2026 10:37
+
+_Gorbag passa no HT: braço esquerdo incapacitado é temporário_
+
+*O BRAÇO DE GORBAG*
+
+O braço esquerdo do ogro pende mole ao lado do corpo, os dedos grossos abertos e sem força, e o sangue desce até a ponta deles. Gorbag olha o membro como quem olha um corte de carne que não escolheu. Mexe o ombro, sente a carne sob o couro grosso responder, devagar, com um calor surdo. Nada quebrou de vez. O braço dói, mas está inteiro, só desligado por enquanto.
+> Recuperação da lesão incapacitante (MB, p. 129): Gorbag, HT 15, 3d [2, 4, 1] = *7* → *sucesso por 8*
+> A lesão é *temporária*: o braço esquerdo volta quando Gorbag recuperar todos os pontos de vida perdidos. Até lá ele é Maneta.
+
+O que vocês fazem?
+
+### Narração 195 — 09/11/2026 10:46
+
+_Errata T151: defesa passiva de Tann'athar inconsciente, falhou_
+
+*ERRATA DO TURNO 151 — A DEFESA DE QUEM DORME*
+
+O soldado que caiu ao lado de Tann'athar desce o gládio no peito do elfo desacordado. O corpo mole não levanta guarda nenhuma, mas a pele, o manto e o acaso ainda tentam o que podem, mesmo de olhos fechados. Não bastam: a lâmina entra.
+> Defesa passiva de Tann'athar (errata do Mestre: quem está inconsciente ainda rola a defesa passiva): DP 0 (sem armadura)
+> 3d [5, 2, 4] = *11* → *falhou por 11*
+> O golpe do Guarda 7 segue valendo: *9 de dano* (1 → -8 PV), Tann'athar continua inconsciente.
+
+O que vocês fazem?
+
+### Narração 196 — 09/11/2026 10:47
+
+_Errata T151 corrigida: defesa passiva de Tann'athar com Escudo +5 (DP 5), falhou por 6_
+
+*ERRATA DO TURNO 151 — A DEFESA DE QUEM DORME (CORRIGIDA)*
+
+O soldado que caiu ao lado de Tann'athar desce o gládio no peito do elfo desacordado. O corpo mole não levanta guarda nenhuma, mas a película clara do Escudo ainda cobre os ombros dele, e é nela que a lâmina tenta se perder. Não basta: a ponta atravessa.
+> Defesa passiva de Tann'athar (errata do Mestre: quem está inconsciente ainda rola a defesa passiva): DP 0 +5 do Escudo mágico (lançado no T121, dura 1 min) = *5*
+> 3d [5, 2, 4] = *11* → *falhou por 6*
+> O golpe do Guarda 7 segue valendo: *9 de dano* (1 → -8 PV), Tann'athar continua inconsciente.
+
+O que vocês fazem?
+
+### Narração 197 — 09/11/2026 12:41
+
+_T152: Cura Profunda em Gorbag (-13 para -5), machado de Urzog erra o pescoço, tiros defendidos, Guarda 2 pula e cai a 0 PV_
+
+*TURNO 152 — A CURA NA FONTE*
+
+Farejo salta sobre o soldado que caiu junto do ogro e fecha os dentes no braço da espada. A mordida não pega, e ele escorrega pelo couro da manga.
+> Ataque de Farejo: Mordida NH 12, -2 Braço = *10*
+> 3d [4, 3, 4] = *11* → falha por 1
+> O Guarda não tinha defesa ativa (Ataque Total do turno passado), mas o golpe nem chegou à armadura
+
+Gorbag range os dentes, firma os pés e aguenta de pé. Depois balança o machado de Urzog numa mão só no pescoço do soldado, que está sem guarda nenhuma. A arma pequena demais para a pegada dele passa longe da gola de couro e corta o ar.
+> Gorbag: HT 15, 3d [6, 3, 6] = *15* → sucesso por 0, segue consciente a -13 PV
+> Ataque de Gorbag: Machado/Maça (pré-definido DX-5, ele só tem a perícia de duas mãos) NH 9, -5 Pescoço = *4*
+> 3d [6, 2, 4] = *12* → falha por 8
+> Machado: Preparação Rápida (ST 20 ≥ 12+5), segue pronto
+
+O zumbi de gládio e escudo avança sobre o soldado que caiu junto do elfo, e o golpe morre no escudo dele.
+> Ataque do Zumbi Grumel: Espadas Curtas NH 12 = *12* (ponto de impacto sorteado: 3d [3, 5, 1] = 9, tronco, sem redutor)
+> 3d [6, 5, 3] = *14* → falha por 2
+
+Krag solta a corda sobre a cabeça do zumbi, mirando fundo no peito do mesmo soldado. A flecha passa rente ao morto, e o soldado levanta o escudo a tempo. A ponta se perde na madeira.
+> Ataque de Krag: Arco NH 17, +0 distância (2 m), +3 Precisão, +1 mira (2º turno), -4 figura na linha de tiro (o zumbi), -3 Órgãos vitais = *14*
+> 3d [2, 6, 3] = *11* → sucesso por 3
+> Defesa do Guarda 7: esquiva 5 +2 DP armadura +3 DP escudo = *10*
+> 3d [4, 1, 1] = *6* → defendeu por 4
+
+Do alto do buraco, um arqueiro solta a corda. A flecha desce rente à perna do orc de olhar vazio, que ergue o escudo sem mudar o murmúrio. O outro arqueiro saca uma flecha nova e encaixa na corda, os olhos presos nele.
+> Ataque do Arqueiro 7: Arco NH 16, -3 distância (5 m), +1 Precisão, +3 mira (turnos extras), -2 Perna (ponto de impacto sorteado: 3d [5, 4, 5] = 14) = *15*
+> 3d [3, 2, 1] = *6* → sucesso por 9
+> Defesa de Urzog: esquiva 4 +2 DP loriga (pernas) +3 DP escudo +5 Escudo mágico = *14*
+> 3d [1, 6, 2] = *9* → defendeu por 5
+> Arqueiro 4: Sacar Rápido (Flecha) NH 16, 3d [1, 5, 3] = *9* → sucesso por 7, 1º turno de mira
+
+Sae'Varyn encosta o bastão no ombro do ogro e sopra o verso da cura. A fonte responde a ele sem cobrar nada. A pele cinza se fecha, o sangue para de escorrer e o ogro respira fundo, ainda com o braço esquerdo pendurado.
+> Cura Profunda de Sae'Varyn: NH 16 (a sala da fonte tem mana muito alta: sem o -5 e sem custo de Fadiga)
+> 3d [6, 4, 2] = *12* → sucesso por 4
+> Restitui 8 pontos de vida a Gorbag (-13 → *-5 PV*)
+
+O soldado que caiu junto do ogro tenta uma estocada no peito dele. O golpe sai torto, ainda com o corpo dolorido da queda.
+> Ataque do Guarda 124: Espadas Curtas NH 12, -6 ferimento da rodada anterior = *6* (ponto de impacto sorteado: 3d [2, 4, 5] = 11, tronco, sem redutor)
+> 3d [2, 6, 1] = *9* → falha por 3
+
+O soldado que caiu junto do elfo vira o gládio contra o zumbi que o cutuca e mira na mão dele. O golpe sai curto, e o zumbi nem precisa erguer o escudo.
+> Ataque do Guarda 7: Espadas Curtas NH 12, -2 ferimento da rodada anterior = *10* (ponto de impacto sorteado: 3d [3, 1, 3] = 7, mão, sem redutor)
+> 3d [5, 4, 4] = *13* → falha por 3
+
+Na borda do buraco, outro soldado olha os quatro metros de pedra e perde a cabeça. Ele pula. Cai de lado perto do fundo da sala, com o gládio batendo na pedra.
+> Guarda do Castelo 2: IQ 10, 3d [3, 6, 2] = *11* → falha por 1, pula
+> Queda do Guarda 2: 4 m sobre pedras, 4D − 8; 4d [6, 6, 5, 5] = *22* → 22 − 8 = *14*
+> RD 2 da loriga de couro (queda: máx. 3) → *12* de dano (12 → *0 PV*)
+> Guarda 2: HT 12 para não cair (perdeu mais de metade da HT), 3d [5, 1, 1] = *7* → sucesso por 5, de pé, *ATORDOADO*
+
+O orc de olhar vazio segue no mesmo murmúrio, a luz roxa do cabo pulsando devagar. Tann'athar continua caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 198 — 09/11/2026 12:58
+
+_Errata T152: Guarda 2 caiu deitado e atordoado_
+
+*ERRATA DO TURNO 152 — O SALTO DO GUARDA 2*
+
+O soldado que pulou da borda não aterrissa de pé. Ele bate de lado nas pedras, o gládio escapa pelo chão e o fôlego sai todo de uma vez. Fica estendido e zonzo, sem conseguir se levantar nem erguer a guarda.
+> Errata do Mestre: o Guarda 2 falhou no salto e caiu *deitado*, além de *ATORDOADO* (-4 nas defesas; HT no início do turno para se recuperar)
+> A queda continua valendo: *12 de dano* (12 → *0 PV*)
+
+O que vocês fazem?
+
+### Narração 199 — 09/11/2026 15:06
+
+_Teste de HT do braço incapacitado de Gorbag: sucesso por 4, lesão temporária_
+
+*O BRAÇO DE GORBAG*
+
+Gorbag olha o braço esquerdo pendurado ao lado do corpo. Fecha a mão grande uma vez, devagar, e sente os dedos responderem de longe, como se pertencessem a outro ogro. Não há osso para fora nem carne aberta. O couro grosso segurou o que tinha de segurar, e o mal ficou nos nervos e nos músculos, que se recusam a obedecer.
+> Teste de HT de Gorbag para a lesão incapacitante (braço esquerdo): HT 15
+> 3d [6, 2, 3] = *11* → sucesso por 4
+> *Lesão TEMPORÁRIA:* o braço volta ao normal quando Gorbag recuperar todos os PV perdidos. Até lá, segue maneta
+
+Ele resmunga algo sobre carne que não presta e troca o machado de Urzog para a mão boa.
+
+O que vocês fazem?
+
+### Narração 200 — 09/11/2026 15:19
+
+_T153: encontrão de Gorbag projeta o Guarda 124 a 6 hex; Teleportar Outros no fim do turno, todos desnorteados_
+
+*TURNO 153 — O ENCONTRÃO DO OGRO*
+
+Farejo salta de novo no braço da espada do soldado que caiu junto do ogro. Os dentes batem no ar, e o soldado nem precisa mexer o escudo.
+> Ataque de Farejo: Mordida NH 12, -2 Braço = *10*
+> 3d [6, 3, 5] = *14* → falha por 4
+
+Gorbag range os dentes, aguenta de pé e, em vez de brandir o machado, abaixa o ombro e se joga contra o soldado. O choque é de pedra contra pedra. O soldado perde o chão, o escudo não segura nada, e o ogro o empurra pelas lajes, mais e mais longe, até o corpo sumir para o lado do corredor sul, onde as chamas ainda lambem o piso.
+> Gorbag: HT 15, 3d [3, 1, 5] = *9* → sucesso por 6, segue consciente a -5 PV
+> Encontrão de Gorbag (Deslocamento, 1 hexágono): Disputa Rápida de DX
+> Gorbag DX 14, 3d [4, 6, 1] = *11* → sucesso por 3
+> Guarda 124 DX 12, 3d [3, 3, 3] = *9* → sucesso por 3 (empate: o ogro se choca com ele)
+> Disputa Rápida de ST para ver quem cai: Gorbag ST 20 -2 (escudo médio do guarda) = 18, 3d [5, 1, 4] = *10* → sucesso por 8
+> Guarda 124 ST 12, 3d [3, 2, 4] = *9* → sucesso por 3
+> *O Guarda 124 cai.* Gorbag segue em pé (ST 18, tirou 10). Margem de 5: sem pisoteio (exige mais de 5). Encontrão não causa dano
+> Projeção do Guarda 124: Gorbag ST 20, 3d [1, 5, 2] = *8* → sucesso por 12; Guarda ST 12, 3d [4, 6, 2] = *12* → sucesso por 0
+> Margem 12 ÷ 2 = *6 hexágonos para trás* (de (10,11) para (10,17)); Gorbag ocupa o hexágono vago (10,11)
+
+O zumbi de gládio e escudo golpeia o soldado que está ao lado dele. O gládio resvala no escudo.
+> Ataque do Zumbi Grumel: Espadas Curtas NH 12 = *12* (ponto de impacto sorteado: 3d [4, 1, 6] = 11, tronco, sem redutor)
+> 3d [4, 2, 3] = *9* → sucesso por 3
+> Defesa do Guarda 7: esquiva 5 +2 DP armadura +3 DP escudo = *10*
+> 3d [1, 5, 1] = *7* → defendeu por 3
+
+Krag larga a corda e, num só movimento, tira uma flecha da aljava e a encaixa. O tiro fica para o turno seguinte: ele prende o olhar no peito do soldado que atacou o zumbi e começa a mirar.
+> Sacar Rápido (Flecha) de Krag: NH 14, 3d [6, 5, 3] = *14* → sucesso por 0, flecha sacada e encaixada
+> Apontar: 1º turno, sem tiro (o Sacar Rápido gasta o resto do turno)
+
+Do alto, o arqueiro que mirava solta a corda. A flecha desce rente à barriga do orc, que ergue o escudo sem parar o murmúrio. O outro arqueiro saca uma flecha nova e a encaixa, os olhos presos nele.
+> Ataque do Arqueiro 4: Arco NH 16, -3 distância (5 m), +1 Precisão, +1 mira (2º turno), -3 Órgãos vitais (ponto de impacto sorteado: 3d [6, 6, 5] = 17) = *12*
+> 3d [3, 6, 1] = *10* → sucesso por 2
+> Defesa de Urzog: esquiva 4 +1 DP couro +3 DP escudo +5 Escudo mágico = *13*
+> 3d [1, 5, 5] = *11* → defendeu por 2
+> Arqueiro 7: Sacar Rápido (Flecha) NH 16, 3d [5, 6, 1] = *12* → sucesso por 4, 1º turno de mira
+
+Sae'Varyn encosta o bastão no chão, ergue a outra mão na direção do ogro e começa o verso da cura. A mágica só sai no turno seguinte.
+> Avançar e se Concentrar: Cura Profunda, 1º turno (lança no T154)
+
+O soldado jogado pelo ogro desliza de costas até parar, deitado, sem ar. Começa a se virar para levantar.
+> Guarda 124: caído; começa a levantar
+
+O soldado que despencou do alto sacode a cabeça, e a zonzeira passa. Apoia a mão no chão e tenta se erguer.
+> Guarda do Castelo 2: HT 12 contra o atordoamento, 3d [2, 1, 4] = *7* → sucesso por 5, deixa de estar atordoado
+> Guarda do Castelo 2: HT 12 para seguir consciente a 0 PV, 3d [1, 6, 4] = *11* → sucesso por 1
+> Começa a levantar
+
+O soldado do lado do zumbi tenta de novo a cabeça dele. O golpe sai curto e nem chega perto.
+> Ataque do Guarda 7: Espadas Curtas NH 12 = *12* (ponto de impacto sorteado: 3d [1, 1, 2] = 4, cérebro, sem redutor)
+> 3d [5, 5, 6] = *16* → falha por 4
+
+Na borda de cima, mais um soldado chega perto do buraco e fica olhando. Tann'athar continua caído, sem se mexer.
+
+No fim da rodada, o murmúrio do orc de olhar vazio chega à última sílaba, e a luz roxa do cabo explode. Um clarão branco engole a sala, o buraco, os soldados, o zumbi e os fugitivos. Não há som, nem chão, nem peso. Quando a luz passa, o estômago de todos ainda gira, os olhos ardem e ninguém sabe dizer para onde está olhando.
+> Urzog (Mor'Dhaun): Teleportar Outros, NH 21 -6 = *15* (jogada do Mestre)
+> 3d [4, 5, 6] = *15* → sucesso por 0
+> Todos ficam *desnorteados* com o teletransporte
+
+O que vocês fazem?
+
+### Narração 201 — 09/11/2026 15:24
+
+_Errata T153: o Guarda 124 bate na parede do Domo (colisão 6 de dano, 0 PV)_
+
+*ERRATA DO TURNO 153 — A PAREDE DO DOMO*
+
+O soldado que Gorbag prensou não desliza até o corredor sul. A força do ogro o arremessa de costas contra a parede de luz do Domo, que não cede. Ele bate com o corpo inteiro, o ar sai do peito, e o escudo e o gládio rolam pelas lajes. Fica caído junto da borda do Domo, zonzo, mal conseguindo se mexer.
+> Errata do Mestre: a projeção de 6 hexágonos do Guarda 124 terminou contra a parede do Domo (em (10,12)), e não em (10,17)
+> Colisão, como arremesso (ST 20 de Gorbag, alvo com mais de 50 kg): 2D contusão, 2d [2, 6] = *8*
+> RD 2 da loriga de couro → *6* de dano (6 → *0 PV*)
+> Dano abaixo da metade da HT (6): sem teste de queda; ele já estava caído. A 0 PV, faz HT a cada turno
+
+O que vocês fazem?
+
+### Narração 202 — 09/11/2026 15:35
+
+_T153 (fim): todos teleportados para o topo de uma montanha; Percepção do Corpo: Krag e Grumel passam, os demais ficam desorientados_
+
+*TURNO 153 (FIM) — O TOPO DA MONTANHA*
+
+A luz branca se apaga, e o piso de pedra da sala some. No lugar dele há rocha nua, vento cortante e um frio que morde as narinas. O ar é fino e o céu está perto demais. Abaixo, a montanha desce em degraus de pedra e nuvem. Todos que estavam na sala da fonte foram carregados juntos: os fugitivos, o cão, o zumbi e os soldados.
+
+O ogro dobra os joelhos e firma a mão grande na rocha, com o mundo girando em volta. O elfo de pele cinza e o orc de olhar vazio cambaleiam, e o cão rola de lado, ganindo. Os três soldados que vieram junto perdem o equilíbrio e se agarram ao chão. Só o meio-orc dos arcos e o zumbi seguem de pé e firmes, como se o chão tivesse se mexido a favor deles. Tann'athar continua caído, sem se mexer.
+> Teleportar Outros: todos os que estavam na sala da fonte vão para o topo de uma montanha. Cada um faz um teste de Percepção do Corpo (Magia, pág. 94; pré-definido DX-6 ou Acrobacia-3, +3 Senso de Direção). Falha = desorientado: no T154 só pode se defender. Falha crítica = cai e fica fisicamente atordoado. Sem mudança de direção nem de posição: sem redutor
+> Gorbag: NH 8 (DX 14-6), 3d [1, 4, 5] = *10* → falha por 2, desorientado
+> Krag: NH 11 (DX 14-6 +3 Senso de Direção), 3d [2, 3, 4] = *9* → sucesso por 2, age normalmente
+> Sae'Varyn: NH 5 (DX 11-6), 3d [2, 1, 5] = *8* → falha por 3, desorientado
+> Urzog: NH 5 (DX 11-6), 3d [6, 1, 1] = *8* → falha por 3, desorientado
+> Farejo: NH 6 (DX 12-6), 3d [4, 5, 6] = *15* → falha por 9, desorientado
+> Guarda do Castelo 124: NH 6 (DX 12-6), 3d [2, 1, 5] = *8* → falha por 2, desorientado
+> Guarda do Castelo 2: NH 6 (DX 12-6), 3d [4, 3, 4] = *11* → falha por 5, desorientado
+> Guarda do Castelo 7: NH 6 (DX 12-6), 3d [3, 5, 5] = *13* → falha por 7, desorientado
+> Zumbi Grumel: NH 6 (DX 12-6), 3d [1, 1, 4] = *6* → sucesso por 0, age normalmente
+> Tann'athar: inconsciente, não faz teste
+
+O que vocês fazem?
+
+### Narração 203 — 09/11/2026 15:52
+
+_T154: todos desorientados na montanha; Guarda 124 apaga; tiro de Krag falha_
+
+*TURNO 154 — A MONTANHA*
+
+O vento uiva pela crista e leva as palavras de cada um. O ogro mal fica de pé: sangra, o mundo gira, e ele se agarra à pedra com a mão boa e aguenta.
+> Gorbag: HT 15, 3d [3, 2, 1] = *6* → sucesso por 9, segue consciente a -5 PV
+> Desorientado (Percepção do Corpo falhou no T153): só pode se defender neste turno
+
+O soldado caído a seus pés revira os olhos, solta o ar e apaga de vez. O outro, caído ao lado, aguenta a vista turva e fica acordado, sem forças para se mexer.
+> Guarda do Castelo 124 (0 PV): HT 12, 3d [5, 6, 3] = *14* → falha por 2, *inconsciente*
+> Guarda do Castelo 2 (0 PV): HT 12, 3d [1, 6, 4] = *11* → sucesso por 1, segue consciente
+> Os dois estão desorientados: só podem se defender
+
+O zumbi de gládio e escudo não perdeu o passo. Ele golpeia o soldado que está ao lado dele e só encontra o escudo.
+> Ataque do Zumbi Grumel: Espadas Curtas NH 12 = *12* (ponto de impacto sorteado: 3d [3, 5, 2] = 10, tronco, sem redutor)
+> 3d [3, 1, 1] = *5* → sucesso por 7
+> Defesa do Guarda 7 (desorientado, só defesa): esquiva 5 +2 DP armadura +3 DP escudo = *10*
+> 3d [5, 2, 3] = *10* → defendeu no limite
+
+Krag firma os pés no chão gelado e solta a flecha que trazia encaixada. O zumbi está na frente do soldado, e a ponta passa raspando o ombro dele sem pegar. O vento dá o resto, e a flecha se perde na encosta. A pontaria que ele vinha fazendo se desfez no clarão.
+> Ataque de Krag: Arco NH 17, +0 distância (2 m), sem mira (o teletransporte desfez a pontaria: sem Precisão), -3 Órgãos vitais, -4 figura na linha de tiro (o zumbi) = *10*
+> 3d [2, 6, 6] = *14* → falha por 4
+> Tiro que erra (MB, pág. 117): o zumbi estava na linha. Ataque contra ele com 9: 3d [6, 4, 5] = *15* → falha, a flecha segue e se perde
+
+Sae'Varyn, o orc de olhar vazio e o cão ainda tentam achar o chão debaixo dos pés, e o soldado do lado do zumbi cambaleia sem sair do lugar. Tann'athar continua caído, sem se mexer.
+> Sae'Varyn, Urzog, Farejo e Guarda 7: desorientados, só podem se defender
+
+O que vocês fazem?
+
+### Narração 204 — 09/11/2026 16:12
+
+_T155: Gorbag erra o pisão no Guarda 124 inconsciente; Krag saca e mira; Guarda 2 ajoelha_
+
+*TURNO 155 — O PISÃO NA MONTANHA*
+
+Farejo avança sobre o soldado desacordado e fecha os dentes no braço da espada. A mordida escorrega no couro e não pega.
+> Ataque de Farejo: Mordida NH 12, -2 Braço = *10*
+> 3d [5, 2, 4] = *11* → falha por 1
+
+Gorbag aguenta de pé, ergue a bota de bico de aço sobre a cabeça do soldado caído e desce o pé com todo o peso. O vento assobia, mas o ogro erra o ponto: a bota bate na pedra ao lado do capacete, e ele precisa se firmar para não cair.
+> Gorbag: HT 15, 3d [2, 3, 6] = *11* → sucesso por 4, segue consciente a -5 PV
+> Pisão de Gorbag (Chute): Briga 15 -2 (chute) = NH 13, -5 Cabeça = *8*
+> 3d [6, 4, 6] = *16* → falha por 8
+> Chute errado: DX 14, 3d [5, 2, 1] = *8* → sucesso por 6, não cai
+
+O zumbi de gládio e escudo corta o pé do soldado ao lado dele. O soldado põe o escudo na frente e o golpe morre na madeira.
+> Ataque do Zumbi Grumel: Espadas Curtas NH 12 = *12* (ponto de impacto sorteado: 3d [6, 6, 4] = 16, pé, sem redutor)
+> 3d [1, 6, 5] = *12* → sucesso por 0
+> Defesa do Guarda 7: esquiva 5 +2 DP armadura +3 DP escudo = *10*
+> 3d [2, 1, 5] = *8* → defendeu por 2
+
+Krag dá um passo curto, tira outra flecha da aljava num só movimento e a encaixa, com o olhar preso no soldado do outro lado do zumbi.
+> Sacar Rápido (Flecha) de Krag: NH 14, 3d [4, 3, 2] = *9* → sucesso por 5, flecha sacada e encaixada
+> Apontar: 1º turno, sem tiro (o tiro sai no T156)
+> Deslocamento: 1 hexágono, de (9,2) para (10,2)
+
+O orc de olhar vazio dá um passo para o lado, firmando os pés na rocha fria.
+> Deslocamento: 1 hexágono, de (8,4) para (8,5)
+
+Sae'Varyn fecha a guarda, de cajado na frente do corpo, sem tirar os olhos dos soldados.
+> Defesa Total
+
+O soldado caído ao lado respira fundo, firma a mão no chão e consegue erguer o tronco, ainda sem forças para ficar de pé.
+> Guarda do Castelo 2 (0 PV): HT 12, 3d [3, 3, 3] = *9* → sucesso por 3, segue consciente
+> Levanta: de deitado a ajoelhado, 1º turno (de pé no T156)
+
+O soldado ao lado do zumbi tenta uma estocada na perna dele. O morto levanta o escudo e a lâmina morre na madeira.
+> Ataque do Guarda 7: Espadas Curtas NH 12 = *12* (ponto de impacto sorteado: 3d [3, 5, 5] = 13, perna, sem redutor)
+> 3d [4, 3, 1] = *8* → sucesso por 4
+> Defesa do Zumbi Grumel: esquiva 7 +3 DP escudo = *10*
+> 3d [2, 2, 3] = *7* → defendeu por 3
+
+O soldado que desmaiou continua estendido, e Tann'athar segue caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 205 — 09/11/2026 16:43
+
+_T156: Grumel incapacita o braço do Guarda 7, flecha de Krag o derruba; pisão no Guarda 124_
+
+*TURNO 156 — O PISÃO NO TRONCO*
+
+Farejo se joga sobre o soldado desacordado sem pensar na própria guarda e crava os dentes no braço da espada. A mordida só arranha o couro.
+> Ataque de Farejo: Mordida NH 12, -2 Braço, +4 Ataque Total = *14*
+> 3d [5, 4, 5] = *14* → sucesso por 0
+> Defesa do Guarda 124: inconsciente, sem defesa ativa, só a DP 2 da loriga: 3d [2, 1, 1] = *4* → defendeu (3 e 4 sempre seguram)
+> Farejo fica sem defesa ativa até o próximo turno (Ataque Total)
+
+Gorbag aguenta de pé, ergue a bota de bico de aço e desce o pé no peito do soldado caído. As costelas estalam sob a loriga de couro, e o golpe passa em parte.
+> Gorbag: HT 15, 3d [2, 1, 3] = *6* → sucesso por 9, segue consciente a -5 PV
+> Pisão de Gorbag (Chute): Briga 15 -2 (chute) = NH *13*, tronco (sem redutor)
+> 3d [3, 3, 6] = *12* → sucesso por 1
+> Defesa do Guarda 124: inconsciente, só a DP 2: 3d [1, 1, 6] = *8* → não segurou
+> Dano: 2D+1 contusão (GDP 2D-1, +1 bota pesada, +1 Briga): [1, 2] = 3 + 1 = *4*
+> RD 2 da loriga de couro → *2* passam
+> *Guarda do Castelo 124 perde 2 ponto(s) de vida* (0 → *-2 PV*), segue inconsciente
+
+O zumbi de gládio e escudo desce a lâmina no braço do soldado ao lado dele. O escudo sobe tarde. O gládio corta o couro, o braço cai inútil e o escudo escorrega da mão dele. O golpe o empurra um passo para trás, e ele mal se mantém de pé.
+> Ataque do Zumbi Grumel: Espadas Curtas NH 12 = *12* (ponto de impacto sorteado: 3d [2, 3, 3] = 8, braço, sem redutor)
+> 3d [1, 1, 6] = *8* → sucesso por 4
+> Defesa do Guarda 7: esquiva 5 +2 DP armadura +3 DP escudo = *10*
+> 3d [6, 3, 6] = *15* → falhou por 5
+> Dano: 2D-2: [4, 6] = 10 - 2 = *8*
+> RD 2 da loriga → 6 passam → corte ×1,5 → *9*
+> Teto do local (HT/2 = 6): 3 desperdiçado(s)
+> *Braço esquerdo INCAPACITADO* (1d [4]: o do escudo) — Guarda 7 solta o escudo e fica *ATORDOADO*
+> *Guarda do Castelo 7 perde 6 ponto(s) de vida* (10 → *4 PV*)
+> Projeção: 8 antes da RD → 1 hexágono para trás, de (11,3) para (12,4). Teste de DX 12: 3d [5, 2, 1] = *8* → fica de pé
+
+Krag solta a corda, com a pontaria que vinha fazendo desde o turno passado. A flecha cruza o espaço entre os dois e entra pelo flanco do soldado, que está zonzo, sem escudo e sem forças para tirar o corpo.
+> Ataque de Krag: Arco NH 17, -1 distância (3 m), +3 Precisão, +1 mira (2º turno), -3 Órgãos vitais = *17*
+> 3d [3, 2, 2] = *7* → sucesso por 10
+> Defesa do Guarda 7 (atordoado, sem escudo): esquiva 5 +2 DP armadura -4 atordoado = *3*
+> 3d [1, 1, 4] = *6* → falhou por 3
+> Dano: 1D+1: [4] + 1 = *5*
+> RD 2 da loriga → 3 passam → perfurante nos órgãos vitais ×3 → *9*
+> Perdeu mais de HT/2 num tiro só: HT 12 para não cair, 3d [1, 6, 4] = *11* → sucesso por 1, de pé
+> *Guarda do Castelo 7 perde 9 ponto(s) de vida* (4 → *-5 PV*)
+
+O orc de olhar vazio caminha um passo na rocha fria, para mais perto do ogro.
+> Deslocamento: 1 hexágono, de (8,5) para (9,6)
+
+Sae'Varyn aperta o cajado, fecha os olhos e começa o verso da cura. A mágica só sai no turno seguinte.
+> Concentrar: Cura Profunda, 1º turno (lança no T157)
+
+O soldado que estava ajoelhado firma o pé na pedra e consegue se pôr de pé, ofegante, sem tirar os olhos dos fugitivos.
+> Guarda do Castelo 2 (0 PV): HT 12, 3d [2, 1, 5] = *8* → sucesso por 4, segue consciente
+> Levanta: de ajoelhado a de pé, 2º turno
+
+O soldado que perdeu o escudo e levou a flecha cambaleia, tenta erguer a espada com o braço bom e desaba de lado, sem forças.
+> Guarda do Castelo 7 (-5 PV, atordoado): HT 12, 3d [4, 6, 4] = *14* → falha por 2, *inconsciente*
+
+Tann'athar continua caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 206 — 09/11/2026 16:47
+
+_T157 (antes): o último guarda se rende; Gorbag falha Sanguinolência e Sadismo e quer matar; Sae'Varyn se contém_
+
+*O PRISIONEIRO*
+
+O último soldado em pé solta o gládio, que tilinta na rocha, e levanta a mão aberta. A outra tenta cobrir o peito que mal sustenta. Ele diz num fio de voz que se rende, olhando para o ogro e para os outros, com os olhos de quem sabe que não aguenta mais um golpe.
+
+Gorbag escuta, e o que sente não é piedade. A mão boa abre e fecha no punho do machado, e a língua passa pelos dentes que faltam. Carne que se rende ainda é carne. A ideia de poupar o soldado soa estranha, e o ogro quer ouvir o osso estalar.
+> Gorbag, Sanguinolência: Vontade (9) para aceitar a rendição, 3d [6, 4, 4] = *14* → falha por 5
+> Gorbag, Sadismo: Vontade (9) para não ser cruel com quem deve sair ileso, 3d [6, 4, 6] = *16* → falha por 7
+> *Gorbag não aceita a rendição e quer matar o prisioneiro*
+
+Sae'Varyn olha o soldado de cima, em silêncio, o cajado firme na mão. Há uma crueldade antiga em ver alguém tão pequeno e indefeso, mas ele a reconhece e a mantém no lugar.
+> Sae'Varyn, Sadismo: Autocontrole (12) para não ser cruel com quem está indefeso, 3d [1, 4, 2] = *7* → sucesso por 5
+> *Sae'Varyn se contém*
+
+Tann'athar continua caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 207 — 09/11/2026 16:49
+
+_T157 (antes): o último guarda se rende e Gorbag o mata (substitui a Narração 206)_
+
+*O PRISIONEIRO*
+
+O último soldado em pé solta o gládio, que tilinta na rocha, e levanta a mão aberta. A outra tenta cobrir o peito que mal sustenta. Ele diz num fio de voz que se rende, olhando para o ogro e para os outros, com os olhos de quem sabe que não aguenta mais um golpe.
+
+Gorbag escuta, e o que sente não é piedade. A mão boa abre e fecha no punho do machado, e a língua passa pelos dentes que faltam. Carne que se rende ainda é carne. A ideia de poupar o soldado soa estranha, e o ogro quer ouvir o osso estalar.
+> Gorbag, Sanguinolência: Vontade (9) para aceitar a rendição, 3d [6, 4, 4] = *14* → falha por 5
+> Gorbag, Sadismo: Vontade (9) para não ser cruel com quem deve sair ileso, 3d [6, 4, 6] = *16* → falha por 7
+> *Gorbag não aceita a rendição e quer matar o prisioneiro*
+
+Sae'Varyn olha o soldado de cima, em silêncio, o cajado firme na mão. Há uma crueldade antiga em ver alguém tão pequeno e indefeso, mas ele a reconhece e a mantém no lugar.
+> Sae'Varyn, Sadismo: Autocontrole (12) para não ser cruel com quem está indefeso, 3d [1, 4, 2] = *7* → sucesso por 5
+> *Sae'Varyn se contém*
+
+O ogro dá um passo, ignora a mão erguida e o pedido que o soldado tenta terminar. O machado de Urzog sobe na única mão boa e desce de uma vez. O som é curto e seco, e o vento leva o resto. O soldado cai de lado sobre a rocha, com a mão ainda aberta, e não se mexe mais.
+> Decisão do Mestre: *Gorbag mata o prisioneiro* (Guarda do Castelo 2)
+
+Gorbag limpa a lâmina na perna da calça, sem pressa, e fala sozinho de carne que não presta. Tann'athar continua caído, sem se mexer.
+
+O que vocês fazem?
+
+### Narração 208 — 09/11/2026 16:52
+
+_Fim da campanha: todos vivos; Mor'Dhaun, no corpo de Urzog, agradece e promete a escolha dos recipientes das almas_
+
+*FIM DA CAMPANHA — O NOVO MUNDO*
+
+O vento da montanha amansa. O sol rasga as nuvens por baixo dos pés de vocês, e a luz roxa do cabo da espada pulsa uma última vez, devagar, até ficar só um brilho no punho. Ninguém morreu entre vocês. Tann'athar respira fraco, mas respira, e o ogro, o meio-orc, o elfo de pele cinza e o cão estão de pé, feridos e inteiros.
+
+O orc de olhar vazio ergue a cabeça. O murmúrio acabou. Quando ele fala, a voz já não é a de Urzog: é calma, antiga, de quem passou séculos esperando um corpo. Ele passa os olhos por cada um, sem pressa.
+
+— Vocês me trouxeram até aqui, e eu agradeço. Quem cruzou aquela torre comigo tem o meu respeito.
+
+O vento carrega o cheiro de pedra e de sangue seco, e a voz não se altera.
+
+— Vocês terão um futuro grandioso no meu novo mundo. E quando voltarmos para a Seita, cada um de vocês poderá escolher onde guardar a própria alma, em um recipiente à altura: cristal, prata, osso lavrado, o que desejarem. É uma honra que a Seita dá a poucos.
+
+Ele sorri com os dentes de Urzog e olha para o horizonte, onde o mundo se abre em degraus de nuvem. Atrás de vocês, a luz da espada se apaga. A campanha termina aqui.
+
+*Fim.*
+
 ## Acontecimentos
 
 <!-- indice:acontecimentos -->
@@ -3262,4 +6166,92 @@ O que vocês fazem?
 - **31/10/2026 14:19** — TURNO 83 (roll6) — Grupo avança pelo andar dos experimentos: Gorbag (13,6), Krag (15,5), Sae'Varyn (14,4), Tann'athar (17,6), todos só Deslocamento. Krag procura espelho: decisão do Mestre, não há (sem rolagem). Sae'Varyn conta a Mor'Dhaun do zumbi Grumel e pergunta se ele o controlaria: Mor'Dhaun diz que sim (decisão do Mestre), sem lançar nada. Tann'athar grita que vai controlar a harpia, só intenção; a harpia não rola Sex Appeal (decisão do Mestre: não adianta mais). Urzog/Mor'Dhaun: 'Matem o basilisco' e Concentração para Bola de Fogo (lança no início do T84; NH 21-5 mana baixa = 16). Basilisco olha Gorbag (mais próximo, 9 hex): NH 16-9 = 7, 3d [5,1,2] = 8, falhou por 1; leve dor de cabeça, sem dano. Farejo acompanha Krag, (16,5). Status do T49 (Escudo +5 DP e Bravura) limpos por ordem do Mestre.
 - **31/10/2026 14:36** — [narração 119] Mor'Dhaun (Urzog, IQ 18) passa em Naturalista e lembra que o basilisco é imune a magia
 - **01/11/2026 01:46** — TURNO 84 (roll6) — Urzog/Mor'Dhaun cancela a Bola de Fogo (sem custo) e grita 'Matem o basilisco' ao grupo (decisão do Mestre: não era ordem a Grumel); fica em (16,6). Krag sugere soltar a harpia para comer o basilisco (só fala). Sae'Varyn vai a (11,5), junto da gaiola de Grumel (Deslocamento, sem golpe), diz 'Aqui está o morto, Mor'Dhaun' e pergunta se Grumel mata a serpente; Grumel: 'Morto.'. Tann'athar: postura 'fora de combate' corrigida para em pé e peça devolvida de (17,10) para (17,7) (Avançar e se Concentrar = 1 hex); Lealdade na harpia, NH 18-5 mana baixa = 13, 3d [3,5,4] = 12, sucesso por 1; tempo 2 s, fecha no fim do T85 (resistência IQ da harpia e 6 de Fadiga ficam para lá). Gorbag vai a (8,5). Basilisco (NPC 52, mapNpc 101) olha Gorbag a 5 hex: NH 16-5 = 11, 3d [1,2,3] = 6, sucesso por 5; dano 2D+2 [5,1]+2 = 8; Gorbag 6 -> -2 PV; HT 15, 3d [2,4,3] = 9, de pé; atordoado (-4 defesas), ataca com -8; contato do olhar mantido (2D+2 por turno).
+- **01/11/2026 11:03** — TURNO 85 (roll6) — Gorbag falha o HT 15 de inicio de turno (3d 16, por 1) e desmaia a -2 PV; peca volta a (8,5). Basilisco (decisao do Mestre: ataca o mais perto, com jogada) mira Gorbag, indefeso: NH 16-5 = 11, 3d 10, sucesso por 1, 2D+2 = 4, Gorbag -6 PV. Krag: Sacar Rapido (Flecha) 14, 3d 12, ok; tiro rapido NH 6, 3d 16 FALHA CRITICA, arco cai a 3 m a frente. Tann'athar fecha Lealdade na harpia: IQ 5, 3d 10, falha por 5; custo 6 Fadiga (8 -> 2). Urzog grita e anda; Sae'Varyn anda.
+- **02/11/2026 00:54** — TURNO 86 (roll6) — Urzog avança 3 hex até (10,6). Olhar do basilisco em Gorbag (inconsciente, -6 PV): NH 16 -4 (4 hex) = 12, 3d [3,6,5] = 14, falhou por 2, sem dano. Krag vai a (13,7), ao lado do arco (12,7); apanhar começa no T87. Sae'Varyn arremessa as chaves das jaulas a Tann'athar (DX 11, 3d [3,4,1] = 8, sucesso por 3); Tann'athar tenta apanhar no ar (DX 12, 3d [6,6,3] = 15, falhou por 3): as chaves caem no hex dele, (17,7).
+- **02/11/2026 14:18** — TURNO 87 (roll6) — Urzog corre 4 hex até (6,8), a 2 do basilisco; Avançar e Atacar só deixa 1 hex, sem molinete: golpe não acontece. Olhar do basilisco em Urzog (mais perto): NH 16 -2 = 14, 3d [2,6,2] = 10, sucesso por 4, 2D+2 [1,4] = 7, Urzog 17 -> 10 PV; Mor'Dhaun HT 15 (HT de Urzog, escolha do Mestre) 3d [6,1,2] = 9, passou. Krag em (12,7) começa a apanhar o arco (1º de 2 turnos, passo aceito pelo Mestre). Sae'Varyn vai a (7,4) junto de Gorbag. Tann'athar apanha o molho de chaves (Preparar).
+- **02/11/2026 17:16** — TURNO 88 (roll6) — Urzog (possuído) Ataque Total no basilisco com o montante encantado: NH 14 (DX 11 +3 da espada) +4 -2 tamanho = 16, 3d 10 sucesso por 6; basilisco esquivou (6 +1 DP = 7, 3d 6). Olhar do basilisco em Urzog (1 hex): NH 15, 3d 8, dano 2D+2 = 12; Urzog 10 → -2 PV. Mor'Dhaun HT 18 (15 +3 espada) 3d 4: sem efeito; HT 18 para não desmaiar 3d 12: de pé. Krag termina de apanhar o arco. Sae'Varyn (Preparar bastão, passo vale) vai a (6,5). Tann'athar corrigido a (17,8): Deslocamento 2 por Fadiga 2/10.
+- **02/11/2026 18:45** — TURNO 89 (roll6) — Krag Sacar Rápido (Flecha) NH 14, 3d 9: flecha encaixada, mira. Urzog HT 18 a -2 PV, 3d 12: de pé; Ataque Total +2 dano no basilisco: NH 14 -2 tamanho = 12, 3d 11 sucesso por 1; esquiva 7, 3d 14 falhou; dano 2D+8 [5,2] = 15 +2 = 17, corte x1,5 = 25: BASILISCO MORTO (4 → -21 PV), projetado a (2,9). Sae'Varyn (Ataque Total, frente S liberada pelo Mestre) avança a (4,6), alvo já morto. Tann'athar corrigido a (16,10): Deslocamento 2 por Fadiga 2/10.
+- **02/11/2026 19:03** — TURNO 90 (roll6) — Urzog HT 18 a -2 PV, 3d 11: de pé. Sae'Varyn (6,6) pede a Mor'Dhaun que cure Gorbag; Mor'Dhaun (voz de Urzog, Mestre): não há tempo, a guarnição já deve estar entrando na torre. Mor'Dhaun lança Cura Profunda em Urzog: NH 21 -5 mana baixa = 16 (Mestre), 3d 11 sucesso por 5; 4 de Fadiga, +8 PV: Urzog -2 → 6 PV, Fadiga 8 → 4. Krag corre a (9,5), a 2 hex de Gorbag: Primeiros Socorros não saem, mira perdida. Tann'athar chega à gaiola da harpia (16,12): ação repetida cumprida.
+- **02/11/2026 19:31** — TURNO 91 (roll6) — Urzog (6,8) fala: soltem o zumbi, curem o ogro ou deixem. Sae'Varyn se concentra para lançar Despertar em Gorbag no T92. Krag vai à jaula do zumbi Grumel (10,5), sem chave. Tann'athar abre a gaiola da harpia com o molho de chaves (sem rolagem); ela sai, leal. Farejo (11,5) segue Krag. Sem dado.
+- **02/11/2026 20:33** — TURNO 92 (roll6) — Urzog (10,6) lança Controle de Zumbi (Mor'Dhaun NH 21 -5 mana = 16, 3d 8, sucesso por 8) no zumbi Grumel; resistência da mágica Zumbi do criador NH 15 +2 = 17, 3d 5 sucesso decisivo por 12: o criador vence, Grumel segue preso a ele; 3 de Fadiga (4 → 1). Sae'Varyn Despertar em Gorbag: NH 16 -5 = 11, 3d 17 FALHA CRÍTICA; tabela 3d 9: falha e 1 de dano; Fadiga 4 → 3, PV 13 → 12. Tann'athar arremessa as chaves (DX 12, 3d 6) e Krag apanha (DX 14, 3d 6): Krag está com o molho em (10,5).
+- **02/11/2026 21:01** — TURNO 93 (roll6) — Krag abre a jaula do zumbi Grumel com o molho de chaves (automático) e pede a Mor'Dhaun que cure Gorbag; Mor'Dhaun/Urzog responde 'Vamos seguir', sem curar. Urzog (9,6). Sae'Varyn Despertar em Gorbag: NH 16 -5 mana = 11, 3d 9, sucesso por 2; 1 de Fadiga (3 → 2); Gorbag HT 15 +2 margem -3 inconsciente = 14, 3d 11, sucesso por 3: acorda a -6 PV, caído. Tann'athar só fala (segue Mor'Dhaun, a harpia o segue), sem mover a peça. Grumel solto, quer lutar pelo grupo.
+- **02/11/2026 21:09** — TURNO 94 (roll6) — Gorbag ajoelha; HT 15 para seguir consciente a -6 PV, 3d 5, sucesso decisivo por 10. Sae'Varyn fala ('Bom dia, bela adormecida') e, perguntado por Tann'athar sobre os 5 frascos, não sabe dizer se algum cura (decisão do Mestre, sem rolagem). Urzog/Mor'Dhaun se concentra em Visão da Morte (sai no T95; NH 21-5 = 16, 1 de energia da gema); movimento corrigido de (6,8) para (8,7) (Avançar e se Concentrar: 1 hex). Krag e Tann'athar só declaram, sem mover.
+- **02/11/2026 21:28** — TURNO 95 (roll6) — Gorbag levanta; HT 15 a -6 PV, 3d 7, sucesso por 8. Urzog/Mor'Dhaun 2º turno de Concentração em Visão da Morte (sai no T96; NH 21-5 = 16; 1 de energia da gema), (7,7). Sae'Varyn (ação repetida de descer) e Tann'athar têm o Deslocamento cortado a 2 pela Fadiga 2/10 (decisão do Mestre: aplica o corte pelo MB): Sae'Varyn (6,7), Tann'athar (14,12). Krag só declara seguir, sem mover. Grumel (9,5) por ação do Mestre.
+- **03/11/2026 08:44** — TURNO 96 (roll6) — Gorbag não move a peça; HT 15 a -6 PV, 3d 9, sucesso por 6. Urzog/Mor'Dhaun lança Visão da Morte em si mesmo (decisão do Mestre: IQ 18 enquanto possuído): NH 21-5 mana baixa = 16, 3d 11, sucesso por 5; custo 1 de energia da gema; IQ 18 para resistir, 3d 5, sucesso decisivo por 13. Visão (decisão do Mestre): a guarnição já entrou no castelo, achou o barão morto e a capitã muito ferida, e no turno 108 atravessa o corredor, entra na torre e mata todos. Sae'Varyn (5,8) e Tann'athar (12,11) andam 2 hex (Fadiga 2/10; Tann'athar mantido em (12,11) por decisão do Mestre; postura de volta a de pé, o 'fora de combate' foi engano). Krag (8,6) andou 2 hex em Avançar e Atacar: sem golpe, só deslocamento. Grumel, Farejo e harpia movidos pelo Mestre.
+- **03/11/2026 08:51** — TURNO 97 (roll6) — Gorbag segue o necromante (ação repetida), (7,5)->(4,9); HT 15 a -6 PV, 3d 12, sucesso por 3. Urzog/Mor'Dhaun diz 'Vamos rápido' e anda (7,7)->(5,9). Krag (6,9): 4 hex em Avançar e Atacar, só deslocamento. Sae'Varyn e Tann'athar passaram do Deslocamento 2 (Fadiga 2/10): peças corrigidas para (3,8) e (10,11), olhando SO. Harpia (6,13), Grumel (2,10) e Farejo (6,8) movidos pelo Mestre.
+- **03/11/2026 09:02** — TURNO 98 (roll6) — Gorbag segue o necromante, (4,9)->(3,10); HT 15 a -6 PV, 3d 14, sucesso por 1. Urzog/Mor'Dhaun 'Vamos rápido', (5,9)->(2,11). Tann'athar (8,12), 2 hex. Krag não move a peça, fica em (6,9). Sae'Varyn passou do Deslocamento 2 (Fadiga 2/10): peça corrigida de (1,10) para (1,8). Farejo, harpia e Grumel parados.
+- **03/11/2026 09:23** — TURNO 99 (roll6, mapa torre-andar-1; grupo no primeiro andar; Faelar morto recolocado em (11,15) a pedido do Mestre) — Gorbag segue o necromante, (3,17)->(6,16); HT 15 a -6 PV, 3d 11, sucesso por 4. Urzog/Mor'Dhaun (ação repetida 'Vamos rápido') (4,17)->(7,16), vira só 1 lado (NE). Krag (5,16): 3 hex em Avançar e Atacar, só deslocamento. Sae'Varyn e Tann'athar passaram do Deslocamento 2 (Fadiga 2/10): peças corrigidas para (3,17) e (2,16). Harpia (Desl. 20) em (11,12), Grumel (9,14), Farejo (4,16) movidos pelo Mestre.
+- **03/11/2026 09:32** — TURNO 100 (roll6, torre-andar-1) — Gorbag (6,16)->(10,15); HT 15 a -6 PV, 3d 10, sucesso por 5. Urzog/Mor'Dhaun passa e toca o corpo de Faelar (11,15) com a espada dizendo 'Levante': peça mantida em (11,14) por decisão do Mestre (o validador mandava (10,16)). DECISÃO DO MESTRE: a espada tem a magia Zumbi NH 25, custo 0, basta tocar o corpo, levanta em 3 s. NH 25-5 mana baixa = 20, 3d [4,2,1]=7, sucesso por 13. Krag (9,15): 4 hex em Avançar e Atacar, só deslocamento. Sae'Varyn e Tann'athar passaram do Deslocamento 2 (Fadiga 2/10): corrigidos para (5,17) e (4,17). Farejo (8,15) movido pelo Mestre.
+- **03/11/2026 09:46** — TURNO 101 (roll6, torre-andar-1) — Gorbag segue o necromante (Deslocamento 3 pela metade, decisão do Mestre: PV -6), (10,15)->(13,13); HT 15 a -6 PV, 3d 14, sucesso por 1. Urzog/Mor'Dhaun 'Vamos rápido': corrigido de (15,12) para (14,13) (rota 5 contra Desl. 4). Krag (12,13): 4 hex em Avançar e Atacar, só deslocamento. Sae'Varyn (7,16) e Tann'athar (5,16): Desl. 2 pela Fadiga, dentro do limite. Farejo (11,13), harpia (14,11), Grumel (13,14) movidos pelo Mestre. Faelar Zumbi segue deitado em (11,15), levanta ao fim do T102.
+- **03/11/2026 09:51** — TURNO 102 (roll6, torre-andar-1) — Gorbag (13,13)->(16,12) (Desl. 3); HT 15 a -6 PV, 3d 9, sucesso por 6. Urzog/Mor'Dhaun 'Vamos rápido': corrigido de (18,11) para (18,12) (rota 5 contra Desl. 4). Krag (16,11): 4 hex em Avançar e Atacar, só deslocamento. Sae'Varyn (9,15) e Tann'athar (7,15): Desl. 2 pela Fadiga. Farejo (15,11) e Grumel (19,11) movidos pelo Mestre; harpia parada em (14,11). Ao fim do turno, Faelar Zumbi (3 s depois do toque do T100) levanta, de pé em (11,15).
+- **03/11/2026 09:56** — TURNO 103 (roll6, torre-andar-1) — Gorbag (16,12)->(16,10) (Desl. 3); HT 15 a -6 PV, 3d 10, sucesso por 5. Urzog/Mor'Dhaun segue 'Vamos rápido' (18,12)->(18,9). Krag (17,9): 2 hex em Avançar e Atacar, só deslocamento. Sae'Varyn (11,14) e Tann'athar (9,14): Desl. 2 pela Fadiga. Farejo (17,10), harpia (17,7), Grumel (19,9) movidos pelo Mestre. Faelar Zumbi (ação do Mestre) fica AJOELHADO em (11,15), ainda levantando; peça caída no roll6.
+- **03/11/2026 10:03** — TURNO 104 (roll6, torre-andar-1) — Gorbag (16,10)->(17,8) (Desl. 3); HT 15 a -6 PV, 3d 9, sucesso por 6. Urzog/Mor'Dhaun (18,9)->(18,5): o validador o devolveria a (18,7), ocupado por Farejo; por decisão do Mestre a peça fica em (18,5). Krag (18,6): 4 hex em Avançar e Atacar, só deslocamento. Sae'Varyn (13,13) e Tann'athar (11,13): Desl. 2 pela Fadiga. Farejo (18,7), harpia (17,5), Grumel (19,5) movidos pelo Mestre. Faelar Zumbi (ação do Mestre 'Levanta') fica de pé em (11,15).
+- **03/11/2026 11:58** — [narração 141] O térreo: Orvin e um guarda na fonte, golem destruído, guardas se aproximam; Sae'Varyn e Tann'athar a 5 rodadas, Faelar zumbi a 2
+- **03/11/2026 22:28** — TURNO 106 (roll6, térreo) — Orvin toca o guarda e se concentra em Armadura +5 RD (decisão do Mestre; livro: concentra no T106, teste no T107; NH 20 provisório, sem -5 na fonte); guarda em Defesa Total. Urzog (16,5) e Zumbi Grumel (16,4) pularam a escada: DX 11 +3 da espada = 14, 3d [1,1,2] = 4, sucesso decisivo por 10; Grumel DX 12, 3d [2,2,2] = 6, sucesso por 6. Gorbag (18,6): HT 15 a -6 PV, 3d [3,2,6] = 11, sucesso por 4. Krag (17,5) mira Orvin (arco, flecha encaixada), sem tiro. Harpia junto de Urzog.
+- **03/11/2026 23:12** — TURNO 107 (roll6, térreo) — Orvin fecha Armadura +5 RD no guarda (NH 20 provisório, sala da fonte sem -5 e sem custo), 3d [4,4,4] = 12, sucesso por 8; guarda em Defesa Total, RD +5 por 1 min (tronco 4+5 = 9; resto 0+5 = 5), Orvin mantém. Urzog (16,5)->(16,8) correndo para a porta (3 hex, Desl 4). Gorbag (18,6)->(18,8) (2 hex, Desl 3), HT 15 a -6 PV, 3d [5,2,4] = 11, sucesso por 4. Krag segue mirando em Orvin (2º turno de mira), sem tiro. Harpia (8,9), Grumel (11,6), Farejo (10,11) e Faelar Zumbi (16,9) movidos pelo Mestre; Sae'Varyn (17,11) e Tann'athar (15,11) descendo (peças movidas pelo Mestre, fora do log do turno).
+- **04/11/2026 09:47** — TURNO 108 (roll6) — Orvin só Concentra (Armadura +5 RD segue). Guarda de Orvin (loriga de couro DP2/RD2 +5, gládio, escudo de madeira — ERRATA do Mestre: guarnição não usa cota de malha) golpe Molinete na harpia: Espadas Curtas NH 12-5=7, 3d 16, falha por 9. Harpia revida (garras NH 14, 3d 5), bloqueio do guarda 10 vs 11 falha, dano 5 contra RD 7: 0. Farejo morde o pé de Orvin: NH 12, 3d 10; esquiva 5 vs 15; 1 de dano (Orvin 9/10). Gorbag HT 15, 3d 6, segue de pé a -6 PV. Krag 3º turno de mira. Faelar Zumbi junto de Krag, sem ataque (deslocou-se).
+- **04/11/2026 13:06** — TURNO 109 (roll6) — Orvin toca Farejo com Toque Mortal (10 de dano, Farejo 5/15, atordoado); Grumel não consegue fintar o guarda (atrás dele); a harpia falha no braço do guarda (RD 5 segura); o guarda acerta o tronco da harpia (7, harpia 7/14, atordoada); Mor'Dhaun (Urzog) cria um círculo de fogo (raio 3) diante do corredor da guarnição.
+- **04/11/2026 14:49** — TURNO 110 (roll6) — Krag acerta a cabeça de Orvin (6 de dano, 3/10, atordoado; concentração no Domo mantida, -6); Farejo anda e não morde; Grumel chuta a mão do guarda (RD 5, 0 dano); a harpia sai do atordoamento; o guarda erra a harpia; Gorbag falha o HT (16) e cai inconsciente a -6 PV.
+- **04/11/2026 15:07** — TURNO 111 (roll6) — Orvin falha o HT 10 (16) e segue atordoado, o Domo se perde; Farejo, Grumel, Faelar e a harpia atacam o guarda de Orvin sem passar a RD 5 (Faelar erra); o guarda erra a harpia; Krag saca outra flecha e mira Orvin (1º turno); Tann'athar saca um frasco de líquido amarelo.
+- **04/11/2026 21:17** — TURNO 112 (roll6) — Orvin passou no HT 10 (8, sucesso por 2) e saiu do atordoamento. Farejo mordeu o pescoço do guarda (NH 12-5=7, 11, falhou). Grumel (tronco, 12 sucesso por 0) e Faelar Zumbi (tronco, 10 sucesso por 0) chutaram o guarda pelas costas: RD 7, sem dano. Harpia acertou o tronco (13 vs 14) e o guarda bloqueou (10, rolou 8). Guarda atacou a harpia no tronco e errou (14 vs 12). Krag no 2º turno de mira em Orvin. Tann'athar bebeu o líquido amarelo: ERRATA do Mestre, o líquido cura 5D PV e toda a Fadiga; 5d=22 (PV já cheio), Fadiga 2->10. Urzog Concentra (1 hex); Sae'Varyn 2 hex no térreo; Gorbag inconsciente -6/15.
+- **04/11/2026 21:34** — TURNO 113 (roll6) — Orvin Concentra em Domo (teste no T114). Farejo mordida no pescoço do guarda NH 12-5=7, 9, falhou. Grumel chute na mão NH 12-4=8, 14, falhou. Faelar Zumbi chute no tronco NH 10, 11, falhou. Harpia garras na mão NH 14-4=10, 6, sucesso; guarda bloqueou (10, rolou 11, falhou); 2 de dano, RD 5, 0 passam. Guarda estoca a harpia no tronco: NH 12, 7; esquiva 8, 13 falhou; 6-1 RD=5 x1,5=7; HT 13 8 de pé, ATORDOADA; harpia 7->0/14. Krag 3º turno de mira em Orvin. Urzog Concentração 2/3. Sae'Varyn (17,4)->(16,5); Tann'athar (19,7)->(18,4), ação repetida segue. Gorbag inconsciente -6/15.
+- **05/11/2026 00:15** — TURNO 114 (roll6) — Orvin: Domo de Força 1 hex (9,9), NH 20, 3d 9. Farejo mordida no tronco do guarda (aparar 5 falhou), RD 7, 0. Grumel chute na mão errou. Faelar Zumbi falha crítica (17): chutou a própria perna esquerda, -4 PV. Harpia: HT 16 falhou (segue atordoada), consciente a 0 PV (5). Krag: flecha em Orvin barrada pelo Domo. Guarda gládio na harpia: 6 PV (agora -6). Urzog/Mor'Dhaun: Anulação de Magia NH 21 (7) vence a resistência de Orvin (9, NH 20): Armadura +5 RD do guarda anulada; custo 1 da gema.
+- **05/11/2026 10:56** — TURNO 115 (roll6) — Orvin Concentra em Cura Profunda em si mesmo (teste no início do T116; Domo mantido). Farejo mordida no braço do guarda (NH 12-2=10, 9, sucesso por 1; aparar 7-2=5, 10, falhou): 2 x1,5 = 3. Grumel chute no tronco (NH 12, 7, sucesso por 5, sem defesa pelas costas): 5, RD 2, 3 passam. Faelar Zumbi chute NH 10-4=6, 10, falhou. Harpia passou o HT 13 do atordoamento (7) e o de consciência a -6 (12), gastou o turno recuperando. Krag Sacar Rápido NH 14 (8), 1º turno de mira no guarda. Guarda estoca a harpia (NH 12, 11; esquiva 8, rolou 14 falhou): 1D-1=3, RD 1, 2 x2 = 4 (harpia -10/14). Arqueiros da torre (NH 12): Sacar Rápido 13 (falhou por 1), 9, 7; os dois que sacaram mirando em Urzog (1º turno). Sae'Varyn (14,5) espera o frasco; Tann'athar (16,5) sacou o frasco azul, a 2 hexes: entrega no T116. Urzog Concentração 1/3 (mágica a definir).
+- **05/11/2026 11:48** — TURNO 116 (roll6) — Orvin Cura Profunda em si (NH 20, 14, sucesso por 6; custo 4, 8 PV): 3 -> 10/10. Farejo vence Disputa Rápida de ST contra o guarda (12 vs 12; 5 vs 10): o guarda larga o gládio. Grumel chute na perna NH 12, 13, falhou por 1. Faelar Zumbi chute no pé NH 10, 12, falhou. Harpia HT 13 consciência a -10 PV (9, sucesso); garras na cabeça NH 14-4=10, 13, falhou. Krag tiro nos órgãos vitais do guarda (Arco 17 -4 dist. +3 Prec. -3 vitais = 13; 15, falhou por 2); ERRATA do Mestre: Krag está mais alto, sem o -4 de figura na linha (Faelar Zumbi). Guarda sem gládio, sem ataque. Arqueiro 2: Arco NH 9, 17, FALHA CRÍTICA, derrubou o arco. Arqueiro 3: NH 6 (braço), 10, falhou. Arqueiro 1 começa a mirar. Tann'athar entrega o frasco azul e Sae'Varyn o pega. Urzog Concentração 2/3 (mágica a definir).
+- **05/11/2026 13:19** — TURNO 117 (roll6) — Orvin concentra em nova mágica (Domo mantido). Farejo largou o braço e mordeu o pescoço do guarda (NH 12-5=7, 12, falhou por 5). Grumel chute no braço do escudo (NH 12, 16, falhou) e Faelar Zumbi chute no braço (NH 10, 14, falhou), ambos por trás. Harpia HT 13 consciência a -10 PV (6, sucesso); garras no tronco do guarda (NH 14, 8; bloqueio 7+3=10, rolou 12 falhou): dano 1, RD 2, 0 passam. Krag Sacar Rápido NH 14 (12), 1º turno de mira em Orvin (Domo no caminho). Guarda sem gládio começa a apanhá-lo (1º de 2 turnos). Arqueiro 1 atirou em Urzog (NH 12-5+1=8, 8, sucesso por 0; DP 4 não segurou): dano 1, RD 3 (coura 1 + Rijeza 2), 0 passam. Arqueiro 2 apanha o arco (1º de 2). Arqueiro 3 Sacar Rápido NH 12 (9), 1º turno de mira em Urzog. Sae'Varyn bebeu o frasco azul = Æsculapius (decisão do Mestre): +2 PV, 12 -> 13/13, Fadiga 2/10. Tann'athar (14,7), Sae'Varyn (13,6). Urzog (Mor'Dhaun) Anulação de Magia NH 21 (13, por 8) contra o Domo de Orvin NH 20 (10, por 10): o Domo resiste e se mantém; custo 3 da gema.
+- **05/11/2026 16:57** — TURNO 118 (roll6) — Orvin: Controle de Zumbi em Faelar Zumbi (NH 20-2=18, 8, por 10) vence a Zumbi de Mor'Dhaun (21+2=23, 14, por 9): Faelar passa a Orvin e fica parado. Farejo (Ataque Total, pescoço) 2 no guarda; Grumel chuta a cabeça por trás: 2, guarda NOCAUTEADO (HT 14 vs 12); harpia (HT 6 ok) garras na perna: 6, perna incapacitada, guarda -4/12. Krag 2º turno de mira em Orvin. Arq1 Sacar Rápido falhou (13); Arq2 apanhou o arco; Arq3 falha crítica (18) derrubou o arco. Sae'Varyn e Tann'athar concentram Escudo (Tann'athar corrigido para (13,7)); Urzog concentra 1/2 Anulação (lança T120).
+- **05/11/2026 21:28** — TURNO 119 (roll6) — Orvin concentra (mágica nova, teste no T120). Farejo e harpia só se movem (harpia HT 7 ok, -10/14). Grumel apanha gládio e escudo do guarda (1º de 2 turnos). Faelar Zumbi (inimigo, servo de Orvin) chuta Grumel: NH 10, 12, errou. Krag 3º turno de mira em Orvin. Arq1 Sacar Rápido 9 ok, Arq2 12 ok (1º turno de mira em Urzog), Arq3 apanha o arco (1º de 2). Sae'Varyn Escudo em si NH 17, 15, ok: DP 8. Tann'athar Escudo em Urzog NH 18-4=14, 8, ok: DP 9. Urzog concentra 2/2 (Anulação no T120). Fonte: sem -5 e sem custo.
+- **06/11/2026 07:20** — TURNO 120 (roll6) — Orvin lançou Terror (NH 20-4=16, 3d 10, por 6; centro 11,6 raio 2): Sae'Varyn (IQ 15, por 5) e Tann'athar (IQ 16, por 3) não resistiram mas passaram na Verificação de Pânico (19 e 18; 10 e 11); harpia (IQ 5) falhou o Pânico por 1 (tabela 14): 2 de Fadiga e atordoada 2 turnos (T120-T121). Zumbis imunes e Farejo destemido (Bravura), decisões do Mestre/assistente. Farejo mordeu Faelar Zumbi (vitais, 3 de dano, 8/15). Faelar Zumbi chutou Farejo: falha crítica, perdeu o equilíbrio. Grumel Zumbi levantou com gládio e escudo. Arqueiros 1 e 2 erraram (por 2 e 5). Krag 4º turno de mira. Urzog (Mor'Dhaun NH 21, 13, por 8) anulou o Domo de Orvin (resistência NH 20, 13, por 7). Sae'Varyn e Tann'athar concentram (Cura Profunda; Escudo em si, saem no T121).
+- **06/11/2026 07:29** — [narração 157] Guarnição troca os arqueiros por veteranos, um por turno, e traz água para apagar o fogo
+- **06/11/2026 10:43** — TURNO 121 (roll6) — Orvin aguarda com Translocação. Farejo (Ataque Total) morde Faelar Zumbi na perna: 6 (2/15). Grumel erra a estocada em Faelar. Faelar acerta chute decisivo no tronco de Grumel: 4 (13/17). Harpia mantém consciência (HT 13, 10). Krag acerta flecha nos órgãos vitais de Orvin (NH 16, tirou 12; esquiva 8 falhou): 21, -11 PV, caiu, HT 10 contra morte ok (6), falhou consciência (13): inconsciente. Arqueiros 2 e 4 falham Sacar Rápido; Arqueiro 3 saca e mira em Urzog. Sae'Varyn troca de lugar com a harpia (10,7) e cura Farejo 8 (5→13, NH 16 tirou 8). Tann'athar Escudo +5 em si (NH 18, tirou 7). Urzog/Mor'Dhaun estoca Orvin inconsciente nos órgãos vitais (NH 11, tirou 11): 39, teto 30, -41 PV; HT 10 ao cruzar -20 falhou (12): ORVIN MORTO.
+- **06/11/2026 10:45** — [narração 160] Arqueiro 2 trocado pela Arqueira 5 (NH 16); guardas apagam um hex de fogo
+- **06/11/2026 14:28** — TURNO 122 (roll6) — Farejo (Ataque Total) morde Faelar Zumbi no braço do escudo (1; 1/15). Grumel estoca o tronco de Faelar (NH 12, 10; esquiva 6 falhou; 6 x2 = 12): Faelar DESTRUÍDO a -11. Harpia falhou Vontade 5 (9), segue atordoada; HT 13 passou. Krag Sacar Rápido NH 14 (12), 1º turno de mira no Arqueiro 3 (17 m; desempate 1d=6). Arqueiro 3 errou o tiro em Urzog (NH 12-4+1-2 agachado = 7, tirou 12). Arqueiros 4, 5, 6 sacaram flecha NH 16 (11, 10, 16), 1º turno de mira em Urzog. Sae'Varyn não ataca (alvo já destruído): Aguardar. Tann'athar anda a (13,9). Urzog (Mor'Dhaun) só aguarda. ERRATA: zumbi não sofre redutor por ferimento (Magia, entidades mágicas); redutores aplicados nos T120-T121 não valem mais.
+- **06/11/2026 17:15** — TURNO 123 (roll6) — Krag pula da escada: DX 14, 3d 16, falha por 2; cai (queda ~2 m, sem dano), mira perdida. Harpia: Vontade 5 falhou (8), HT 13 passou (9). Arqueiros 4/5/6 (2º turno de mira, NH 16) atiram em Urzog: A4 sucesso por 3, defesa 14 (esquiva 4+2+3+5 Escudo) com 14, defendeu; A5 sucesso por 2, defesa 13 com 7; A6 sucesso por 4 (braço do escudo), defesa 12 com 12. Sem dano. Arqueiro 3 (NH 12) e 7 (NH 16) sacam e miram. Sae'Varyn move e concentra Cura Profunda (lança no T124). Tann'athar a (11,11). Urzog/Mor'Dhaun: Domo de Força raio 3 centro (10,9), NH 21, 3d 13, 10 min. Farejo, Grumel e harpia aguardam.
+- **06/11/2026 22:19** — TURNO 124 (roll6) — Urzog/Mor'Dhaun concentra Teleportar Outros (30 s, resolve no T154; Mestre, livro daria 15 s). Sae'Varyn fora da fonte aborta Cura Profunda. Tann'athar fala ao orc, sem resposta. Krag ajoelha (fica de pé no T125). Harpia: Vontade 5 falhou (11), HT 13 passou (10). Arqueiros 3-6 miram em Tann'athar (mais próximo, fora do Domo); Arqueiro 7 atira em Urzog, barrado pelo Domo. Guarda (npc 124) e Farejo aguardam.
+- **07/11/2026 05:16** — TURNO 125 (roll6) — Tann'athar corre a (14,10) e leva flecha fulminante do Arqueiro 3 (sucesso decisivo 4 contra 7; 14 de dano, teto 11): 0/11 PV, caído (HT 17 falhou), atordoado. Arqueiros 4, 5 e 6 erram (refeitos contra alvo caído, -4). Arqueiro 7 saca e mira (1º turno). Guarda estoca a harpia (4): -14/14, HT 13 contra a morte passou (11). Harpia: Vontade 5 falhou (12), HT 13 passou (9). Krag de pé. Sae'Varyn: IQ 15 passou por 1, fogo ainda queima uns 40 s. Urzog concentra Teleportar Outros (turno 2 de 30).
+- **07/11/2026 11:58** — TURNO 126 (roll6) — Harpia: HT 13 passou (7), segue consciente a -14, Vontade 5 falhou (9), atordoada. Krag guarda a flecha e corre 3 hexes até (15,8), a 2 de Tann'athar. Guarda 124 estoca a harpia, NH 12, tirou 14, errou. Arqueiro 7 (2ª mira) atira em Tann'athar caído: NH 7, tirou 8, errou. Arqueiros 3, 4, 5 e 6 sacam e miram a harpia (1º turno). Sae'Varyn avança a (11,5) e avisa do fogo. Tann'athar: HT 11 para seguir consciente a 0 PV, tirou 15, falhou: inconsciente. Urzog concentra, turno 3 de 30 (T154).
+- **07/11/2026 12:50** — TURNO 127 (roll6) — Harpia: HT 13 passou (5), segue consciente a -14; Vontade 5 falhou (8), atordoada. Krag arrasta Tann'athar (inconsciente) 1 hex rumo à escada, com Farejo: Krag em (15,8), Tann'athar em (14,9). Guarda 124 estoca a harpia (perna), acerta, armadura segura (0). Arqueiro 3 sem tiro (duas figuras na linha, NH 3), mantém a mira. Arqueiro 4 acerta o tronco da harpia (-6, a -20); Arqueira 5 acerta o braço (-4, braço incapacitado, a -24); Arqueiro 6 erra, flecha perdida erra o guarda; Arqueiro 7 saca e mira a harpia. Sae'Varyn avança a (12,6) e concentra Despertar (lança no T128). Urzog concentra, turno 4 de 30.
+- **07/11/2026 13:14** — TURNO 128 (roll6) — Harpia: HT 13 falhou por 1 (14), inconsciente a -24. Arrasto de Krag (ST falhou) e Farejo (passou por 3): 1 hex, Tann'athar (14,8)->(15,7), Krag (15,6), Farejo (16,7). Guarda 124 estoca a harpia (tronco), 0 de dano. Arqueiro 3 sem tiro (NH 0); Arqueiro 7 erra, flecha perdida erra o guarda; Arqueiros 4, 5 e 6 sacam e miram a harpia. Sae'Varyn lança Despertar em Tann'athar à distância (ERRATA do Mestre), pagando 1 PV com -1 no NH (NH 10, 7, sucesso por 3); Tann'athar HT 11 tirou 16 e segue inconsciente. Urzog concentra, turno 5 de 30.
+- **07/11/2026 13:58** — TURNO 129 (roll6) — Harpia desmaiou e saiu do mapa (decisão do Mestre). Guardas 2 e 3 aparecem e aguardam. Arrasto de Tann'athar: Krag ST passou por 2, Farejo passou por 2, margem 4 = 1 hex rumo à escada (posição das peças movida pelo Mestre). Arqueiros 3, 4, 5, 6 e 7 passam a mirar o mais próximo visível, Urzog (1º turno), sem atirar; Arqueiro 7 saca (passou por 5). Sae'Varyn tenta Despertar com o bastão em Tann'athar pagando PV: NH 10, tirou 12, falhou por 2 (-1 PV, 11/13). Urzog concentra, turno 6 de 30.
+- **07/11/2026 15:05** — TURNO 130 (roll6) — Krag (ST 8, por 4) e Farejo (ST 12, por 0) arrastam Tann'athar: margens 4 = 1 hex (peças movidas pelo Mestre). Arqueiros em Urzog (2ª mira, +1 Prec +1 mira): A4 NH 14 tirou 11, A5 NH 15 tirou 12, A7 NH 14 tirou 12 — Domo barra; A3 NH 5 tirou 10 falhou, flecha perdida no A4 (NH 6, 10) errou; A6 NH 10 tirou 11 falhou por 1, flecha perdida no A7 (NH 10, 7) acertou o tronco: 1D+1=2, RD 1 (assumida), x2 = 2, A7 10 -> 8; A7 Vontade 10 (assumida) tirou 10, mantém a mira. Guardas (124, 125, 127, 129) e Grumel só aguardam. Sae'Varyn Despertar em Tann'athar: NH 16-5 = 11, 3d 7 sucesso por 4, custo 1 Fadiga (2->1) por declaração/ordem do Mestre; Tann'athar HT 11+4-3 = 12, tirou 10, ACORDA a 0 PV. Urzog concentra, turno 7 de 30 (T154).
+- **07/11/2026 15:59** — TURNO 131 (roll6) — Tann'athar HT 11 para seguir consciente a 0 PV: 3d 11, sucesso por 0; ERRATA/decisão do Mestre: com a ajuda de Krag e Farejo ele fica de pé em um turno (sem arrasto e sem teste de ST). Sae'Varyn anda para (14,7) e xinga 'Malditos seres de um dia' (sem mágica). Arqueiros sem ação repetida, ordens soltas do Mestre: A3 anda, A5 vira, A6 aguarda, A4 mira Sae'Varyn (13 m) e A7 mira Tann'athar (15 m), 1º turno de mira, sem tiro. Guardas 124, 127 e 129 andam (Deslocamento 3); Guarda 2 saiu do mapa. Urzog concentra, turno 8 de 30 (T154).
+- **07/11/2026 20:57** — TURNO 132 (roll6) — Guarda 124 (8,11) ataca Urzog: Espadas Curtas NH 12, 3d 14, falhou por 2; Domo barra. Arqueiros 4 (Sae'Varyn, 14 m) e 7 (Tann'athar, 15 m), 2ª mira: Arco NH 16 -6 distância +1 Precisão +1 mira = 12; A4 tirou 10 e A7 tirou 9, sucessos barrados pelo Domo (linhas cruzam o raio 3 de (10,9)). Tann'athar: HT 11 para seguir consciente a 0 PV, 3d 14, falhou por 3: INCONSCIENTE (não saca o frasco vermelho nem fala; o Despertar não dá bônus para se manter acordado, só para acordar). Sae'Varyn (13,5)->(13,3), 2 hexes (Fadiga 1/10: Deslocamento 5 cai à metade). Guardas 3 e 5 e Arqueiros 3, 5 e 6 movidos pelo Mestre rumo ao oeste; Guarda 2 (npc 130) reaparece em (9,18) e aguarda. Krag e Farejo sem peça movida. Urzog concentra, turno 9 de 30 (T154).
+- **07/11/2026 21:08** — TURNO 133 (roll6) — Mestre manda repetir o Despertar de Sae'Varyn em Tann'athar (à distância, errata T128); custo pago com 1 PV por escolha do Mestre (errata T128: -1 no NH; Fadiga 1/10 iria a 0 e desmaiaria): NH 16 -5 mana baixa -1 PV = 10, 3d 9, sucesso por 1; Sae'Varyn 11 -> 10/13. Tann'athar HT 11 +1 margem -3 inconsciente = 9, 3d 12, falhou por 3: segue inconsciente a 0 PV. Krag e Farejo arrastam Tann'athar: Farejo ST 12 tirou 6 (por 6), Krag tirou 15 (falhou por 3); só a margem de quem passa conta: 6 = 2 hexes (peças movidas pelo Mestre). Guarda 124: IQ 10 (assumido) tirou 13, falhou por 3, fica confuso com o Domo. Arqueiros 4 e 7: Sacar Rápido NH 16 (6 e 9) e 1º turno de mira em Sae'Varyn e Tann'athar. Guardas 3, 5 e 2 e Arqueiro 5 movidos pelo Mestre; Guarda 4 (npc 131) aparece e aguarda. Urzog concentra, turno 10 de 30 (T154).
+- **07/11/2026 21:15** — TURNO 134 (roll6) — Sae'Varyn (14,4) repete o Despertar em Tann'athar (14,3), custo pago com PV: NH 16 -5 mana baixa -1 PV = 10, 3d 12, falhou por 2; custo da falha 1 PV (10 -> 9/13); Tann'athar segue inconsciente a 0 PV (sem teste de HT). Krag e Farejo arrastam Tann'athar: Farejo ST 12 tirou 10 (por 2), Krag tirou 7 (por 5); margens 7 = 2 hexes (peças movidas pelo Mestre). Guarda 124: IQ 10 (assumido) tirou 6, passou por 4, entende o Domo e vai atrás dos outros (ação repetida limpa). Arqueiros 4 e 7 andaram 2 hexes cada por ordem do Mestre: sem tiro, mira perdida, refazem o 1º turno no T135. Guardas 2, 4 e 5 e Arqueiros 3, 5 e 6 movidos pelo Mestre; Guardas 3 e 6 (npc 132, novo) e Grumel aguardam. Urzog concentra, turno 11 de 30 (T154).
+- **07/11/2026 21:38** — TURNO 135 (roll6) — Sae'Varyn (16,3) repete o Despertar em Tann'athar (16,2), custo pago com PV: NH 16 -5 mana baixa -1 PV = 10, 3d 10, sucesso por 0; Sae'Varyn 9 -> 8/13. Tann'athar HT 11 +0 margem -3 inconsciente = 8, 3d 9, falhou por 1: segue inconsciente a 0 PV. Krag e Farejo arrastam Tann'athar (ação repetida): Farejo ST 12 tirou 11 (por 1), Krag tirou 10 (por 2); margens 3 = 1 hex (peças movidas pelo Mestre). Guarda 124 grita 'Tem uma parede aqui, peguem os outros' (ordem do Mestre). Arqueiros 4 e 7 andaram 3 hexes: sem tiro, mira perdida. Guardas 2, 3, 4 e 5 e Arqueiros 3, 5 e 6 movidos pelo Mestre; Guarda 6 e Grumel aguardam; Guarda 7 (npc 133, novo) aparece e aguarda. Urzog concentra, turno 12 de 30 (T154).
+- **07/11/2026 22:22** — TURNO 136 (roll6) — Sae'Varyn (17,2) tenta Cura Superficial em Tann'athar (18,3), custo 1 pago com PV: NH 17 -5 mana baixa -1 PV = 11, 3d 13, falhou por 2; custo da falha 1 PV (8 -> 7/13); Tann'athar segue inconsciente a 0 PV. Krag e Farejo arrastam Tann'athar (ação repetida): Farejo ST 12 tirou 12 (por 0), Krag tirou 11 (por 1); margens 1 = 0 hex. Arqueiros 4 e 7 andaram 3 hexes: sem tiro, mira perdida. Guardas 124, 2, 3, 4, 5, 6 e 7 e Arqueiros 3, 5 e 6 movidos pelo Mestre; Guarda 8 (npc 134, novo) aparece e aguarda; Grumel aguarda. Urzog concentra, turno 13 de 30 (T154).
+- **07/11/2026 22:25** — [narração 177] Sae'Varyn tenta escalar por ali: Escalada DX-5 = 6, tirou 8, falhou por 2
+- **07/11/2026 22:30** — ERRATA (Mestre, T136 -> T137): a Cura Superficial de Sae'Varyn no T136 era apenas concentração e não devia ter sido lançada. Rolagem (NH 11, 3d 13, falhou por 2) e custo da falha anulados; 1 PV devolvido (7 -> 8/13). Roll6 corrigido pela participação.
+- **07/11/2026 22:33** — TURNO 137 (roll6) — Sae'Varyn (16,2) lança a Cura Superficial em Tann'athar (concentração do T136, ERRATA): custo 1 pago com PV por escolha do Mestre: NH 17 -5 mana baixa -1 PV = 11, 3d 9, sucesso por 2; Sae'Varyn 8 -> 7/13; Tann'athar 0 -> 1/11 PV, segue inconsciente (falta o Despertar). Krag e Farejo arrastam Tann'athar (ação repetida): Farejo ST 12 tirou 5 (por 7), Krag tirou 15 (falhou por 3); margem que conta 7 = 2 hexes (peças movidas pelo Mestre). Arqueiros 4 e 7 andaram 3 hexes: sem tiro, mira perdida. Guardas 2, 3, 4, 5, 6, 7, 8 e 124 e Arqueiros 3, 5 e 6 movidos pelo Mestre; Grumel aguarda. Urzog concentra, turno 14 de 30 (T154).
+- **07/11/2026 23:24** — TURNO 138 (roll6) — Krag e Farejo (npc 135, ocorrência nova em (19,6)) arrastam Tann'athar (ação repetida): Farejo ST 12 tirou 13 (falhou por 1), Krag tirou 10 (por 2); margem que conta 2 = 0 hex (peças movidas pelo Mestre). Sae'Varyn (17,1) corre para subir (1 hex, sem teste). Arqueiros 3, 5 e 6 apontam em Sae'Varyn (9 m): Sacar Rápido NH 12 (3d 8), 16 (11) e 16 (12), todos com sucesso, 1º turno de mira; atiram no T139. Arqueiros 4 e 7 andaram 3 hexes: sem tiro, mira perdida. Guardas 2, 3, 4, 5, 6, 7, 8 e 124 movidos pelo Mestre; Grumel aguarda. Tann'athar segue a 1 PV, inconsciente. Urzog concentra, turno 15 de 30 (T154).
+- **08/11/2026 07:20** — TURNO 139 (roll6) — Krag e Farejo arrastam Tann'athar rumo ao buraco: Farejo ST 12 tirou 9 (por 3), Krag tirou 13 (falhou por 1); margem 3 = 1 hex, Tann'athar (18,6)->(17,6); o arremesso no buraco não cabe (centro ~10,9). Arqueiro 6 atira em Sae'Varyn (11 m): Arco NH 16 -5 distância +1 Precisão +1 mira = 13, 3d 11 sucesso por 2; defesa esquiva 6 + DP 8 (armadura 2, broquel 1, Escudo +5) = 14, 3d 12, sucesso por 2: flecha defendida (script não somou o Escudo; dados mantidos). Arqueiros 3 e 5 seguram o tiro (Guarda 3 em 13,3 na linha), mantêm a mira. Arqueiros 4 e 7 movidos 3 hexes: sem tiro, mira perdida. Guardas e Grumel movidos pelo Mestre. Sae'Varyn (18,2) corre 1 passo rumo à escada. Urzog concentra, turno 16 de 30 (T154).
+- **08/11/2026 10:42** — TURNO 140 (roll6) — Krag e Farejo arrastam Tann'athar (inconsciente, 1 PV): Farejo ST 12, 3d=11 (sucesso por 1); Krag ST 12, 3d=8 (sucesso por 4); margens somadas 5 = 1 hex; (16,7)->(15,7), a 5 hexes do centro do buraco; a jogada no buraco não cabe no turno. Sae'Varyn corre 1 hex até (19,2). Arqueiros 3 e 5 (mira mantida) e 6 (saca flecha) com a vista tapada pelos Guardas 1 e 2: sem tiro. Arqueiros 4 e 7 moveram 3 hex: sem tiro, mira perdida. Guardas só se moveram. Urzog concentra, turno 17 de 30 (T154).
+- **08/11/2026 10:43** — [narração 182] T140: arrasto de 1 hex, arqueiros de vista tapada
+- **08/11/2026 13:43** — TURNO 141 (roll6) — Arrasto de Tann'athar (inconsciente, 1 PV): Farejo ST 12, 3d=9 (sucesso por 3); Krag ST 12, 3d=17 (FALHA CRÍTICA, perde a pegada; consequência proposta pelo modelo e aprovada pelo Mestre); só a margem de Farejo conta = 1 hex; (15,7)->(14,8), a 4 hexes do centro do buraco. Arqueira 5 (Arco curto NH 16, 12 m, +1 Prec, +2 mira): 3d=10, sucesso por 4; Sae'Varyn defende (esquiva 6 + DP 8 = 14), 3d=14, defendeu por 0. Arqueiro 3 (NH 12 -> 10): 3d=7, sucesso por 3; defesa 3d=7, defendeu por 7. Arqueiro 6 encaixa flecha; Arqueiros 4 e 7 andaram, sem mira. Sae'Varyn corre 2 hex até (19,4). Urzog concentra, turno 18 de 30 (T154).
+- **08/11/2026 13:43** — [narração 183] T141: arrasto de 1 hex, duas flechas defendidas
+- **08/11/2026 16:13** — Turno 142: Krag e Farejo arrastam Tann'athar (inconsciente, 1 PV) mais 1 hex rumo ao buraco, agora em (13,8); arqueiros e guardas avançam sem atirar; Sae'Varyn corre 2 hex até (19,6); Urzog no turno 19 de 30 da concentração.
+- **08/11/2026 16:13** — [narração 184] Turno 142: Tann'athar arrastado 1 hex (13,8); sem tiros; Sae'Varyn corre 2 hex
+- **08/11/2026 16:26** — Turno 143: Krag lança Tann'athar (inconsciente, 1 PV) ao térreo; queda de 4 m sobre pedras (4D-8 = 7-8) sem dano; Krag corre 2 hex até Gorbag sem rolá-lo; arqueiros e guardas avançam sem atirar; Urzog no turno 20 de 30.
+- **08/11/2026 16:26** — [narração 185] Turno 143: Tann'athar lançado ao térreo sem dano; Krag corre até Gorbag; sem tiros
+- **08/11/2026 17:10** — Turno 144: Krag e Farejo empurram Gorbag (ST 12, 3d [1,1,4]=6 e [3,2,1]=6, 2 sucessos; errata: 5 sucessos por hex, acumulado 2/5); sem movimento da peça; arqueiros e guardas avançam sem atirar; Sae'Varyn corre até (14,9); Urzog no turno 21 de 30.
+- **08/11/2026 21:07** — Turno 145: Krag e Farejo empurram Gorbag (ST 12, 3d [5,2,3]=10 sucesso e [4,5,6]=15 falha; 1 sucesso, acumulado 3/5 para o 1º hex). Sae'Varyn avança 1 hex e se concentra no Despertar em Gorbag (toque do bastão a 2 hexes, 1 PV; lança no T146). Guarda 8 avança para (13,6); arqueiros 3 e 5 sacam flecha, 6 mira, 4 e 7 perdem a mira.
+- **08/11/2026 21:20** — Turno 146: Krag saca e atira no Guarda 5 (Arco NH 16, 3d 12; bloqueio 12, 3d 11: flecha bloqueada). Farejo dá Encontrão no Guarda 5 (DX 9 vs 14; ST 11 vs 7: perde), cai e é projetado 2 hexes para (16,11). Sae'Varyn lança Despertar em Gorbag (NH 10, 3d 8; paga 1 PV, 7->6); Gorbag acorda a -6 PV (HT 14, 3d 8), caído. Guarda 5 ataca Sae'Varyn pelas costas (NH 12, 3d 12): sem defesa ativa, DP passiva 7 (loriga 2 + Escudo 5), 3d 4, defendeu.
+- **08/11/2026 22:06** — Turno 147: Gorbag rasteja 1 hex para (11,11) e passa no HT (3d 6). Sae'Varyn anda 1 hex em Defesa Total e apara o Guarda 5 (NH 12, 3d 6; Aparar 16, 3d 8). Krag e Farejo pulam no buraco e caem 4 m no térreo (4D-8): Krag 10 -> 2 de dano (4/14), Farejo 18 -> 10 de dano (5/15, HT passou).
+- **08/11/2026 22:29** — Turno 148: Krag saca flecha (NH 14, 3d 8) e mira o buraco, sem alvo (ordem do Mestre). Gorbag cai 4 m no térreo (HT 3d 11 ok; 4D-8: 17 -> 9, RD 3 -> 6 de dano; -12 PV). Sae'Varyn salta 3 m (DX-1 = 10, 3d 11: falha por 1; esforço extra pago com 1 PV), aterrissa de pé (DX 3d 8) e cai 4 m nas pedras (4D-8 = 2, RD 2 -> 0). ERRATA/decisões do Mestre: salto horizontal, esforço extra pago em PV.
+- **09/11/2026 07:29** — TURNO 149 (roll6) — Gorbag HT 15, 3d [2,3,1]=6, sucesso por 9, consciente a -12 PV; ajoelha (levanta no T150). Krag correu 4 hex (11,10)->(9,7), Deslocamento, sem mirar (ordem do Mestre: anda o que andou). Sae'Varyn Avançar e se Concentrar (10,9), concentra Despertar para lançar no T150. Urzog/Mor'Dhaun turno 26 de 30 do Teleportar Outros (T154). Guardas 5 e 3 (andar de cima): IQ 10, 3d 8 e 10, passaram, não pulam (critério do Mestre: passou = não pula). Arqueiros apontam. Farejo e Grumel parados.
+- **09/11/2026 07:38** — TURNO 150 (roll6) — Gorbag HT 15, 3d [4,1,3]=8, sucesso por 7; levanta (2º turno), em pé a -12 PV. Sae'Varyn lança Despertar em Tann'athar (toque com bastão, 2 hex): sala da fonte, mana muito alta (errata T55), NH 16 sem -5 e sem custo, 3d [4,3,4]=11, sucesso por 5; Tann'athar HT 11 +5 -3 = 13, 3d [4,5,5]=14, falhou por 1, segue inconsciente a 1 PV. Krag Apontar no Arqueiro 4 (1º turno, sem tiro). Urzog turno 27 de 30 (T154). Guardas 124 e 7 (andar de cima): IQ 10, 3d 17 (falha crítica) e 12, falharam, pulam (queda por conta do Mestre). Arqueiro 4 mira no orc (Mestre); Arqueiros 3 e 5 encaixam; Arqueiro 6 2º turno de mira; Guarda 8 avança (15,2)->(15,5). Farejo e Grumel parados.
+- **09/11/2026 10:29** — TURNO 151 (roll6) — Gorbag HT 15, 3d 9, consciente a -12 PV, Defesa Total. Guardas 124 e 7 pulam (ordem do Mestre): quedas 4D-8 = 8 e 4, RD 2 -> 6 e 2 (PV 6/12 e 10/12). Guarda 124 (10,11) Ataque Total em Gorbag: NH 16, 3d 4 sucesso decisivo, fulminante (3d 14), braço esquerdo incapacitado, dano 4 - RD 3 = 1. Guarda 7 (11,8) ataca Tann'athar inconsciente: NH 12, 3d 9, tronco, 6 x1,5 = 9 (1 -> -8 PV). Sae'Varyn Avançar e se Concentrar (9,9), Cura Profunda em Gorbag no T152. Krag Apontar no Guarda 7 (1o turno). Farejo Deslocamento (8,8)->(9,10). Guarda 4 IQ 10, 3d 8, não pula. Arqueiro 4 (andar de cima) NH 12, 3d 14, errou Urzog; Arqueiro 6 (térreo) acertou Tann'athar mas o Domo barrou. Arqueiros 3 e 5 apontam. ERRATA (Mestre): o Domo NÃO barra tiros vindos do andar de cima. Urzog turno 28 de 30 (T154).
+- **09/11/2026 10:37** — [narração 194] Gorbag passa no HT: braço esquerdo incapacitado é temporário
+- **09/11/2026 10:44** — ERRATA T151 (Mestre): inconsciente ainda rola defesa passiva (3d vs DP). Tann'athar DP 0, 3d 11, falhou; golpe do Guarda 7 mantido (9 de dano, -8 PV).
+- **09/11/2026 12:40** — TURNO 152 (roll6) — Farejo morde o braço do Guarda 124 (sem defesa ativa): NH 12-2=10, 3d 11, falha. Gorbag HT 15, 3d 15, consciente a -13 PV; machado de uma mão de Urzog, Machado/Maça pré-definido DX-5 = 9 (decisão do Mestre), pescoço -5 = 4, 3d 12, errou. Grumel ataca o Guarda 7: NH 12, 3d 14, errou. Krag (2º turno de mira) tiro nos órgãos vitais do Guarda 7: Arco 17 +3 Prec +1 mira -4 figura na linha (Grumel) -3 = 14, 3d 11, sucesso; defesa esquiva 5+2+3=10, 3d 6, defendeu. Arqueiro 7 atira em Urzog (perna): NH 15, 3d 6; defesa 14, 3d 9, defendeu. Arqueiro 4 Sacar Rápido 16, 3d 9, 1º turno de mira. Sae'Varyn Cura Profunda em Gorbag: NH 16 (mana muito alta), 3d 12, +8 PV (-13 -> -5). Guarda 124 ataca Gorbag: NH 12-6 ferimento=6, 3d 9, errou. Guarda 7 ataca o Grumel (ordem do Mestre): NH 12-2=10, 3d 13, errou. Guarda 2 (andar de cima): IQ 10, 3d 11, pula; queda 4D-8 = 22-8=14, RD 2 -> 12 (12 -> 0 PV), HT 12 passou (7), atordoado, em (11,11). Urzog turno 29 de 30 (T154). Tann'athar segue a -8 PV.
+- **09/11/2026 12:58** — ERRATA T152 (Mestre): Guarda 2 caiu deitado e atordoado em (11,11), a 0 PV (não ficou de pé).
+- **09/11/2026 15:06** — [narração 199] Teste de HT do braço incapacitado de Gorbag: sucesso por 4, lesão temporária
+- **09/11/2026 15:19** — TURNO 153 (roll6) — Farejo errou a mordida no Guarda 124 (10 vs 14). Gorbag (HT 9, ok a -5 PV) deu Encontrão no Guarda 124: DX 11 x 9 (empate, choque), ST 18 (20-2 escudo) 10 x ST 12 9: guarda cai; projeção ST 8 x 12: margem 12, 6 hex, (10,11)->(10,17); Gorbag ocupa (10,11). Grumel errou o Guarda 7 (defendeu 7 vs 10). Krag: Sacar Rápido NH 14 (14), 1º turno de mira. Arqueiro 4 atirou em Urzog (12, 10) e foi defendido (13, 11); Arqueiro 7 Sacar Rápido (12), mira. Sae'Varyn concentra Cura Profunda (1º turno). Guarda 2: HT 7 sai do atordoamento, HT 11 consciente a 0 PV, começa a levantar. Guarda 7 errou o Grumel (16 vs 12). Urzog/Mor'Dhaun lançou Teleportar Outros no fim do turno (jogada do Mestre: NH 21-6=15, 3d 4+5+6=15, sucesso por 0): clarão, todos desnorteados; peças ficam onde estão, o Mestre as move.
+- **09/11/2026 15:35** — [narração 202] T153 (fim): todos teleportados para o topo de uma montanha; Percepção do Corpo: Krag e Grumel passam, os demais ficam desorientados
+- **09/11/2026 15:52** — TURNO 154 (roll6) — Todos desorientados (Percepção do Corpo T153) exceto Krag e Grumel; só defesa. Gorbag HT 6 (ok a -5 PV). Guarda 124 HT 14 vs 12: falha, inconsciente a 0 PV; Guarda 2 HT 11: ok, consciente a 0 PV. Grumel acertou o Guarda 7 (5 vs 12) e ele defendeu (10 vs 10). Krag atirou no Guarda 7 sem mira (NH 17 -3 órgãos -4 zumbi na linha = 10): 14, falha; tiro errante contra o Grumel (9): 15, falha, flecha perdida. Sae'Varyn, Urzog, Farejo e Guarda 7 desorientados, sem ação. Tann'athar inconsciente a -8.
+- **09/11/2026 16:12** — TURNO 155 (roll6) — Farejo errou o Guarda 124 inconsciente (11 vs 10). Gorbag HT 11 (ok a -5 PV); pisão na cabeça do Guarda 124 (Briga 15-2=13, -5 cabeça = 8): 16, falha; DX 8 (ok), não cai. Grumel x Guarda 7: acertou (12), defendido (8 vs 10). Krag: Sacar Rápido NH 14 (9), 1º turno de mira, andou (9,2)->(10,2). Urzog andou (8,4)->(8,5). Sae'Varyn em Defesa Total. Guarda 2: HT 9 (ok a 0 PV), ajoelha (1º turno de levantar). Guarda 7 x Grumel: acertou (8), defendido (7 vs 10). Guarda 124 e Tann'athar inconscientes.
+- **09/11/2026 16:42** — TURNO 156 (roll6) — Farejo (Ataque Total) mordeu o Guarda 124 inconsciente (14 vs 14): DP passiva 4 segurou. Gorbag HT 6 (ok a -5 PV); pisão no tronco do Guarda 124 (Briga-2 = 13, tirou 12): DP 8 não segurou, 2D+1 = 4, RD 2 -> 2: 0 -> -2 PV. Grumel acertou o Guarda 7 no braço (8 vs 12), defesa 15 vs 10 falhou: 8 -> 6 pelo teto HT/2, braço esquerdo incapacitado, atordoado, projetado 1 hex a (12,4) (DX ok); 10 -> 4 PV. Krag atirou no Guarda 7 (NH 17, 7): defesa 6 vs 3 falhou, 9 de dano: 4 -> -5 PV. Urzog andou (8,5)->(9,6). Sae'Varyn concentra Cura Profunda (lança no T157). Guarda 2: HT 8 (ok), de pé a 0 PV. Guarda 7: HT 14 vs 12, falha: inconsciente a -5 PV.
+- **09/11/2026 16:47** — [narração 206] T157 (antes): o último guarda se rende; Gorbag falha Sanguinolência e Sadismo e quer matar; Sae'Varyn se contém
+- **09/11/2026 16:49** — [narração 207] T157 (antes): o último guarda se rende e Gorbag o mata (substitui a Narração 206)
+- **09/11/2026 16:52** — [narração 208] Fim da campanha: todos vivos; Mor'Dhaun, no corpo de Urzog, agradece e promete a escolha dos recipientes das almas
 <!-- /indice:acontecimentos -->

@@ -1,0 +1,51 @@
+*TURNO 151 — OS SOLDADOS CAEM NA FONTE*
+
+Gorbag range os dentes, fecha a guarda e se firma de pé, o sangue pingando nas pedras.
+> Gorbag: HT 15, 3d [4, 2, 3] = *9* → sucesso por 6, segue consciente a -12 PV
+
+Dois soldados perdem a cabeça de vez e se jogam na boca do buraco. O de gibão e escudo bate nas pedras junto da fonte e perde o fôlego. O outro cai mais atrás, e a loriga de couro come um pouco do impacto.
+> Queda do Guarda 124: 4 m sobre pedras, 4D − 8; 4d [3, 3, 5, 5] = *16* → 16 − 8 = *8*
+> RD 2 da loriga de couro (queda: máx. 3) → *6* de dano (12 → 6 PV)
+> Queda do Guarda 7: 4d [5, 4, 1, 2] = *12* → 12 − 8 = *4*
+> RD 2 da loriga → *2* de dano (12 → 10 PV)
+
+O soldado que caiu junto do ogro levanta o gládio num ataque sem guarda nenhuma e acerta o braço esquerdo dele. A lâmina corta o couro grosso, mas pouco.
+> Ataque do Guarda 124: Espadas Curtas NH 12, +4 Ataque Total = *16*
+> 3d [1, 2, 1] = *4* → *SUCESSO DECISIVO* (por 12)
+> *GOLPE FULMINANTE:* sem defesa possível. Tabela: 3d [3, 6, 5] = *14* → membro incapacitado
+> Local sorteado: 3d [1, 5, 2] = 8 → braço (esquerdo: 1d [4])
+> Dano: 1D+1: [3] + 1 = *4* → RD 3 do couro de ogro → 1 passa → corte ×1,5 → *1*
+> *Braço esquerdo de Gorbag INCAPACITADO.* Gorbag perde 1 PV (-12 → -13)
+
+O outro soldado cai ao lado do elfo desacordado e desce o gládio no peito dele, sem que ele se mexa.
+> Ataque do Guarda 7: Espadas Curtas NH 12 = *12*
+> 3d [1, 5, 3] = *9* → sucesso por 3
+> Defesa de Tann'athar: inconsciente, sem defesa ativa e sem DP
+> Local sorteado: 3d [3, 2, 5] = 10 → tronco
+> Dano: 1D+1: [5] + 1 = *6* → RD 0 → corte ×1,5 → *9*
+> *Tann'athar perde 9 PV* (1 → -8), segue inconsciente
+
+Sae'Varyn dá um passo de lado, o bastão erguido na direção do ogro, e começa o verso da cura. A mágica só sai no turno seguinte.
+> Avançar e se Concentrar: 1 hexágono
+
+Krag ergue o arco e prende o olhar no soldado que caiu junto do elfo.
+> Apontar: 1º turno, sem tiro
+
+Farejo salta por trás da fila de aliados e corre para o soldado que atacou o ogro, mas gasta o fôlego todo na corrida e chega sem morder.
+> Deslocamento: 5 hexágonos, de (8,8) para (9,10); sem golpe neste turno
+
+Em cima, um terceiro soldado chega à borda e encara o buraco. Não pula.
+> Guarda do Castelo 4: IQ 10, 3d [6, 1, 1] = *8* → sucesso por 2 (não pula)
+
+Dois arqueiros soltam as cordas. A flecha que desce pelo buraco passa zunindo ao lado do orc e se perde na pedra. A outra, vinda do fundo do salão, morre na parede clara do Domo.
+> Arqueiro 4 (de cima, no orc): Arco NH 16, -3 distância (5 m), +3 Precisão, -4 mão = *12*
+> 3d [6, 2, 6] = *14* → falha por 2 (o Domo não barra tiro vindo do andar de cima)
+> Arqueiro 6 (do térreo, em Tann'athar): Arco NH 16, -3 distância (6 m), +3 Precisão, +1 mira (2º turno) = *17*
+> 3d [5, 4, 4] = *13* → sucesso por 4
+> A bolha barra o tiro. Nenhum dano.
+
+Os outros arqueiros encaixam e miram. O soldado de fora avança pelo salão.
+
+O orc de olhar vazio segue no mesmo murmúrio, a luz roxa do cabo pulsando devagar.
+
+O que vocês fazem?

@@ -1,0 +1,37 @@
+*TURNO 146 — O ENCONTRÃO*
+
+Krag saca e encaixa a flecha num gesto só e solta a corda por cima do ombro do elfo. A ponta morde o escudo do soldado mais próximo e morre no couro.
+> Sacar Rápido (Flecha): NH 14, 3d [4, 5, 2] = *11* → sucesso por 3
+> Ataque: Arco NH 17, -1 velocidade/distância (3 m) = *16*
+> 3d [2, 5, 5] = *12* → sucesso por 4
+> Defesa do Guarda 5: bloqueio 7 +2 DP loriga +3 DP escudo = *12*
+> 3d [4, 1, 6] = *11* → defendeu por 1, *flecha bloqueada*
+
+Farejo cruza o piso e se joga de lado contra o soldado, no flanco desprotegido. O choque acerta, mas o homem firma os pés atrás do escudo e é o cão que rola para longe, dois hexes para o leste, ficando caído a um passo de outro soldado.
+> Encontrão, disputa rápida de DX: Farejo DX 12, 3d [3, 2, 4] = *9* → sucesso por 3
+> Guarda 5: DX 12 -2 (atingido por hex lateral) = 10, 3d [3, 5, 6] = *14* → falhou por 4
+> Disputa rápida de ST: Farejo ST 12 +2 (andou mais de 1 hex) -2 (escudo médio) = *12*, 3d [2, 6, 3] = *11* → sucesso por 1
+> Guarda 5: ST 12, 3d [1, 3, 3] = *7* → sucesso por 5. O guarda vence e continua de pé
+> Projeção do perdedor: Farejo ST 12, 3d [3, 3, 6] = *12* → sucesso por 0; Guarda 5, 3d [1, 2, 2] = *5* → sucesso por 7
+> Margem 7 = 3 hexes, mas quem dá o encontrão ricocheteia no máximo 2 → *2 hexes para trás*; Farejo cai (sem dano)
+
+Sae'Varyn estende o bastão e toca a testa do ogro, e o latim sai sem tremer. O corpo enorme estremece e o ar volta aos pulmões.
+> Despertar: NH 16, -5 mana baixa, -1 por 1 PV gasto no lugar da Fadiga = *10*
+> 3d [3, 1, 4] = *8* → sucesso por 2
+> Sae'Varyn paga *1 ponto de vida* (7 → 6)
+> Gorbag: HT 15, +2 margem do Despertar, -3 inconsciente por ferimento = *14*
+> 3d [1, 3, 4] = *8* → sucesso por 6, *Gorbag acorda*
+
+Gorbag abre os olhos e tosse um rosnado, ainda caído e sangrando.
+
+O soldado, que chegou pelas costas, desce o gládio no tronco do elfo. Sae'Varyn não vê o golpe, e o ferro morde a loriga e a luz azul do Escudo, e para.
+> Ataque do Guarda 5: Espadas Curtas NH 12 = *12*
+> 3d [5, 5, 2] = *12* → sucesso por 0
+> Sae'Varyn está de costas: sem defesa ativa e sem DP do broquel. Só a defesa passiva: DP 2 (loriga) +5 (Escudo mágico) = *7*
+> 3d [1, 1, 2] = *4* → defendeu pela DP passiva
+
+Atrás deles o cerco fecha. Os arqueiros e os soldados avançam em fila e perdem a mira ao andar. Os que sacaram a flecha ainda não a encaixaram.
+
+O orc de olhar vazio segue no mesmo murmúrio, a luz roxa do cabo pulsando devagar.
+
+O que vocês fazem?

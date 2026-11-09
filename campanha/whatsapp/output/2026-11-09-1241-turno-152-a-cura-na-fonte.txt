@@ -1,0 +1,52 @@
+*TURNO 152 — A CURA NA FONTE*
+
+Farejo salta sobre o soldado que caiu junto do ogro e fecha os dentes no braço da espada. A mordida não pega, e ele escorrega pelo couro da manga.
+> Ataque de Farejo: Mordida NH 12, -2 Braço = *10*
+> 3d [4, 3, 4] = *11* → falha por 1
+> O Guarda não tinha defesa ativa (Ataque Total do turno passado), mas o golpe nem chegou à armadura
+
+Gorbag range os dentes, firma os pés e aguenta de pé. Depois balança o machado de Urzog numa mão só no pescoço do soldado, que está sem guarda nenhuma. A arma pequena demais para a pegada dele passa longe da gola de couro e corta o ar.
+> Gorbag: HT 15, 3d [6, 3, 6] = *15* → sucesso por 0, segue consciente a -13 PV
+> Ataque de Gorbag: Machado/Maça (pré-definido DX-5, ele só tem a perícia de duas mãos) NH 9, -5 Pescoço = *4*
+> 3d [6, 2, 4] = *12* → falha por 8
+> Machado: Preparação Rápida (ST 20 ≥ 12+5), segue pronto
+
+O zumbi de gládio e escudo avança sobre o soldado que caiu junto do elfo, e o golpe morre no escudo dele.
+> Ataque do Zumbi Grumel: Espadas Curtas NH 12 = *12* (ponto de impacto sorteado: 3d [3, 5, 1] = 9, tronco, sem redutor)
+> 3d [6, 5, 3] = *14* → falha por 2
+
+Krag solta a corda sobre a cabeça do zumbi, mirando fundo no peito do mesmo soldado. A flecha passa rente ao morto, e o soldado levanta o escudo a tempo. A ponta se perde na madeira.
+> Ataque de Krag: Arco NH 17, +0 distância (2 m), +3 Precisão, +1 mira (2º turno), -4 figura na linha de tiro (o zumbi), -3 Órgãos vitais = *14*
+> 3d [2, 6, 3] = *11* → sucesso por 3
+> Defesa do Guarda 7: esquiva 5 +2 DP armadura +3 DP escudo = *10*
+> 3d [4, 1, 1] = *6* → defendeu por 4
+
+Do alto do buraco, um arqueiro solta a corda. A flecha desce rente à perna do orc de olhar vazio, que ergue o escudo sem mudar o murmúrio. O outro arqueiro saca uma flecha nova e encaixa na corda, os olhos presos nele.
+> Ataque do Arqueiro 7: Arco NH 16, -3 distância (5 m), +1 Precisão, +3 mira (turnos extras), -2 Perna (ponto de impacto sorteado: 3d [5, 4, 5] = 14) = *15*
+> 3d [3, 2, 1] = *6* → sucesso por 9
+> Defesa de Urzog: esquiva 4 +2 DP loriga (pernas) +3 DP escudo +5 Escudo mágico = *14*
+> 3d [1, 6, 2] = *9* → defendeu por 5
+> Arqueiro 4: Sacar Rápido (Flecha) NH 16, 3d [1, 5, 3] = *9* → sucesso por 7, 1º turno de mira
+
+Sae'Varyn encosta o bastão no ombro do ogro e sopra o verso da cura. A fonte responde a ele sem cobrar nada. A pele cinza se fecha, o sangue para de escorrer e o ogro respira fundo, ainda com o braço esquerdo pendurado.
+> Cura Profunda de Sae'Varyn: NH 16 (a sala da fonte tem mana muito alta: sem o -5 e sem custo de Fadiga)
+> 3d [6, 4, 2] = *12* → sucesso por 4
+> Restitui 8 pontos de vida a Gorbag (-13 → *-5 PV*)
+
+O soldado que caiu junto do ogro tenta uma estocada no peito dele. O golpe sai torto, ainda com o corpo dolorido da queda.
+> Ataque do Guarda 124: Espadas Curtas NH 12, -6 ferimento da rodada anterior = *6* (ponto de impacto sorteado: 3d [2, 4, 5] = 11, tronco, sem redutor)
+> 3d [2, 6, 1] = *9* → falha por 3
+
+O soldado que caiu junto do elfo vira o gládio contra o zumbi que o cutuca e mira na mão dele. O golpe sai curto, e o zumbi nem precisa erguer o escudo.
+> Ataque do Guarda 7: Espadas Curtas NH 12, -2 ferimento da rodada anterior = *10* (ponto de impacto sorteado: 3d [3, 1, 3] = 7, mão, sem redutor)
+> 3d [5, 4, 4] = *13* → falha por 3
+
+Na borda do buraco, outro soldado olha os quatro metros de pedra e perde a cabeça. Ele pula. Cai de lado perto do fundo da sala, com o gládio batendo na pedra.
+> Guarda do Castelo 2: IQ 10, 3d [3, 6, 2] = *11* → falha por 1, pula
+> Queda do Guarda 2: 4 m sobre pedras, 4D − 8; 4d [6, 6, 5, 5] = *22* → 22 − 8 = *14*
+> RD 2 da loriga de couro (queda: máx. 3) → *12* de dano (12 → *0 PV*)
+> Guarda 2: HT 12 para não cair (perdeu mais de metade da HT), 3d [5, 1, 1] = *7* → sucesso por 5, de pé, *ATORDOADO*
+
+O orc de olhar vazio segue no mesmo murmúrio, a luz roxa do cabo pulsando devagar. Tann'athar continua caído, sem se mexer.
+
+O que vocês fazem?

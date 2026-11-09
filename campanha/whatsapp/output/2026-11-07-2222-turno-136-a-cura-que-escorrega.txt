@@ -1,0 +1,19 @@
+*TURNO 136 — A CURA QUE ESCORREGA*
+
+O cão de Krag arranha a pedra e puxa a manga do elfo, Krag agarra o cinto e os dois forçam, mas o peso morto só se arrasta um palmo, e o corpo não chega a sair do lugar.
+> Farejo: ST 12, 3d [4, 2, 6] = *12* → sucesso por 0
+> Krag: ST 12, 3d [4, 1, 6] = *11* → sucesso por 1
+> Margens somadas: 1 → *0 hex arrastado* (a cada 3 de margem, 1 hex)
+
+Os soldados de loriga e de gibão azul e os arqueiros seguem subindo pelo lado oeste, de passo curto. Um dos soldados contorna o fim da parede clara pelo lado leste, e mais um soldado de gibão azul surge no fundo do corredor sul. Os dois arqueiros que traziam a flecha na corda perdem a mira outra vez, andando.
+
+Sae'Varyn se ajoelha ao lado do elfo caído, encosta o bastão no peito dele e fecha os olhos. O ar esquenta em volta do cajado, mas a palavra escorrega na boca, e ele aperta o flanco. A ferida de Tann'athar não fecha.
+> Sae'Varyn: Cura Superficial NH 17, -5 mana baixa, -1 por 1 PV gasto no lugar da Fadiga = *11*
+> 3d [4, 5, 4] = *13* → falhou por 2
+> Custo da falha: 1 ponto de vida (8 → 7)
+
+Urzog não se mexe. Os olhos seguem no vazio, o ar da fonte estala em volta dele, e a luz roxa do cabo pulsa devagar. Os lábios se mexem no mesmo murmúrio.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?

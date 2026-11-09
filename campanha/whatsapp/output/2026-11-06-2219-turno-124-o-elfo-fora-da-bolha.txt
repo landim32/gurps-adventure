@@ -1,0 +1,34 @@
+*TURNO 124 — O ELFO FORA DA BOLHA*
+
+O cão de Krag fica onde está, o pelo ainda eriçado, de olho no corredor sul. O morto de gibão e escudo, Grumel, atravessa a sala em passos duros e para ao lado do orc, dentro da bolha clara, o gládio baixo.
+
+A mulher alada recua de joelhos para o canto oeste, as asas arrastando na pedra. O medo ainda não solta, mas ela respira e não cai.
+> Mulher alada: Vontade 5 para sair do atordoamento, 3d [2, 4, 5] = *11* → falhou por 6
+> Mulher alada: HT 13 para seguir consciente a -10 PV, 3d [5, 4, 1] = *10* → sucesso por 3
+
+Krag apoia a mão na pedra, puxa a perna para baixo do corpo e fica de joelhos, o arco ainda na mão. Falta ainda um impulso para ficar de pé.
+
+No corredor sul, um guarda de loriga, chegado com os arqueiros, fica onde está, a mão no cabo da espada.
+
+O arqueiro agachado muda a mira. A ponta da flecha deixa o orc e sobe para o elfo moreno que parou junto à borda da bolha. Os outros três arqueiros tiram flechas novas, encaixam e miram no mesmo elfo.
+> Arqueiro 3: flecha já encaixada, muda a mira para Tann'athar
+> Arqueiro 3: 1º turno de mira em Tann'athar (8 m)
+> Arqueiro 4: Sacar Rápido (Flecha) NH 16, 3d [3, 3, 3] = *9* → sucesso por 7
+> Arqueiro 4: 1º turno de mira em Tann'athar (8 m)
+> Arqueira 5: Sacar Rápido (Flecha) NH 16, 3d [2, 3, 6] = *11* → sucesso por 5
+> Arqueira 5: 1º turno de mira em Tann'athar (8 m)
+> Arqueiro 6: Sacar Rápido (Flecha) NH 16, 3d [3, 4, 2] = *9* → sucesso por 7
+> Arqueiro 6: 1º turno de mira em Tann'athar (9 m)
+
+O arqueiro veterano de barba cortada solta a corda. A flecha cruza a sala rente ao chão e bate na bolha clara com um estalo seco, escorrega e cai aos pés do orc sem passar.
+
+Sae'Varyn está fora da água da fonte. A mão dele para de esquentar, e ele deixa a cura se desfazer.
+> Sae'Varyn: interrompe a concentração de Cura Profunda (fora da fonte); mágica não lançada
+
+Tann'athar fica parado à borda da bolha, a película clara no peito, e fala alto para o orc: "Meu senhor! Por favor, leve-nos com você! Podemos ser úteis para seus fins!". Nenhuma resposta vem de dentro.
+
+Urzog não se mexe. Os olhos seguem no vazio, o ar da fonte estala em volta dele, e a luz roxa do cabo pulsa devagar. Os lábios se mexem num murmúrio que ninguém mais ouve.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?

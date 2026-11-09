@@ -1,0 +1,26 @@
+*TURNO 141 — O ESCUDO DE NOVO*
+
+O cão cerra os dentes na manga do elfo e puxa, e o corpo mole rasteja mais um passo para o oeste. O meio-orc agarra a gola, mas o pé escorrega no piso liso e a pegada se solta. Quem arrasta de verdade é Farejo. O buraco continua longe demais para qualquer arremesso.
+> Farejo: ST 12, 3d [6, 2, 1] = *9* → sucesso por 3
+> Krag: ST 12, 3d [5, 6, 6] = *17* → *FALHA CRÍTICA* (por 5): perde a pegada e quase cai
+> Margens que contam: 3 (só Farejo) → *1 hex arrastado* (a cada 3 de margem, 1 hex; a falha não soma)
+
+Embaixo, o cerco aperta. Os soldados de loriga e de gibão azul andam de passo largo; o mais próximo do elfo de cabelos brancos já está a dois passos dele, sem alcançá-lo. Os dois arqueiros que vinham de arco baixo andam de novo e perdem a mira outra vez. O de touca de couro, atrás do cerco, encaixa a flecha na corda.
+
+A de tranças e o agachado têm a linha livre desta vez, e soltam a corda quase juntos. As duas flechas cruzam o andar rumo ao elfo, mas o ar se dobra diante dele e ele se joga de lado, uma, duas vezes, sem parar de correr.
+> Arqueira de tranças: Arco curto NH 16, -5 distância (12 m), +1 Precisão, +2 mira (3º turno) = *14*
+> 3d [1, 4, 5] = *10* → sucesso por 4
+> Defesa de Sae'Varyn: esquiva 6 + DP 8 (armadura 2, broquel 1, Escudo +5) = *14*
+> 3d [5, 3, 6] = *14* → defendeu por 0, *flecha defendida*
+> Arqueiro agachado: Arco curto NH 12, -5 distância (12 m), +1 Precisão, +2 mira (3º turno) = *10*
+> 3d [1, 1, 5] = *7* → sucesso por 3
+> Defesa de Sae'Varyn: esquiva 6 + DP 8 (armadura 2, broquel 1, Escudo +5) = *14*
+> 3d [1, 3, 3] = *7* → defendeu por 7, *flecha defendida*
+
+Sae'Varyn corre dois passos rumo à escada, o bastão batendo na coxa, o fôlego quase no fim. Falta chegar.
+
+O orc de olhar vazio segue no mesmo murmúrio, a luz roxa do cabo pulsando devagar.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?

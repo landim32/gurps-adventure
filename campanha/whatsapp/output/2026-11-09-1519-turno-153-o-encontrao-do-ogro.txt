@@ -1,0 +1,57 @@
+*TURNO 153 — O ENCONTRÃO DO OGRO*
+
+Farejo salta de novo no braço da espada do soldado que caiu junto do ogro. Os dentes batem no ar, e o soldado nem precisa mexer o escudo.
+> Ataque de Farejo: Mordida NH 12, -2 Braço = *10*
+> 3d [6, 3, 5] = *14* → falha por 4
+
+Gorbag range os dentes, aguenta de pé e, em vez de brandir o machado, abaixa o ombro e se joga contra o soldado. O choque é de pedra contra pedra. O soldado perde o chão, o escudo não segura nada, e o ogro o empurra pelas lajes, mais e mais longe, até o corpo sumir para o lado do corredor sul, onde as chamas ainda lambem o piso.
+> Gorbag: HT 15, 3d [3, 1, 5] = *9* → sucesso por 6, segue consciente a -5 PV
+> Encontrão de Gorbag (Deslocamento, 1 hexágono): Disputa Rápida de DX
+> Gorbag DX 14, 3d [4, 6, 1] = *11* → sucesso por 3
+> Guarda 124 DX 12, 3d [3, 3, 3] = *9* → sucesso por 3 (empate: o ogro se choca com ele)
+> Disputa Rápida de ST para ver quem cai: Gorbag ST 20 -2 (escudo médio do guarda) = 18, 3d [5, 1, 4] = *10* → sucesso por 8
+> Guarda 124 ST 12, 3d [3, 2, 4] = *9* → sucesso por 3
+> *O Guarda 124 cai.* Gorbag segue em pé (ST 18, tirou 10). Margem de 5: sem pisoteio (exige mais de 5). Encontrão não causa dano
+> Projeção do Guarda 124: Gorbag ST 20, 3d [1, 5, 2] = *8* → sucesso por 12; Guarda ST 12, 3d [4, 6, 2] = *12* → sucesso por 0
+> Margem 12 ÷ 2 = *6 hexágonos para trás* (de (10,11) para (10,17)); Gorbag ocupa o hexágono vago (10,11)
+
+O zumbi de gládio e escudo golpeia o soldado que está ao lado dele. O gládio resvala no escudo.
+> Ataque do Zumbi Grumel: Espadas Curtas NH 12 = *12* (ponto de impacto sorteado: 3d [4, 1, 6] = 11, tronco, sem redutor)
+> 3d [4, 2, 3] = *9* → sucesso por 3
+> Defesa do Guarda 7: esquiva 5 +2 DP armadura +3 DP escudo = *10*
+> 3d [1, 5, 1] = *7* → defendeu por 3
+
+Krag larga a corda e, num só movimento, tira uma flecha da aljava e a encaixa. O tiro fica para o turno seguinte: ele prende o olhar no peito do soldado que atacou o zumbi e começa a mirar.
+> Sacar Rápido (Flecha) de Krag: NH 14, 3d [6, 5, 3] = *14* → sucesso por 0, flecha sacada e encaixada
+> Apontar: 1º turno, sem tiro (o Sacar Rápido gasta o resto do turno)
+
+Do alto, o arqueiro que mirava solta a corda. A flecha desce rente à barriga do orc, que ergue o escudo sem parar o murmúrio. O outro arqueiro saca uma flecha nova e a encaixa, os olhos presos nele.
+> Ataque do Arqueiro 4: Arco NH 16, -3 distância (5 m), +1 Precisão, +1 mira (2º turno), -3 Órgãos vitais (ponto de impacto sorteado: 3d [6, 6, 5] = 17) = *12*
+> 3d [3, 6, 1] = *10* → sucesso por 2
+> Defesa de Urzog: esquiva 4 +1 DP couro +3 DP escudo +5 Escudo mágico = *13*
+> 3d [1, 5, 5] = *11* → defendeu por 2
+> Arqueiro 7: Sacar Rápido (Flecha) NH 16, 3d [5, 6, 1] = *12* → sucesso por 4, 1º turno de mira
+
+Sae'Varyn encosta o bastão no chão, ergue a outra mão na direção do ogro e começa o verso da cura. A mágica só sai no turno seguinte.
+> Avançar e se Concentrar: Cura Profunda, 1º turno (lança no T154)
+
+O soldado jogado pelo ogro desliza de costas até parar, deitado, sem ar. Começa a se virar para levantar.
+> Guarda 124: caído; começa a levantar
+
+O soldado que despencou do alto sacode a cabeça, e a zonzeira passa. Apoia a mão no chão e tenta se erguer.
+> Guarda do Castelo 2: HT 12 contra o atordoamento, 3d [2, 1, 4] = *7* → sucesso por 5, deixa de estar atordoado
+> Guarda do Castelo 2: HT 12 para seguir consciente a 0 PV, 3d [1, 6, 4] = *11* → sucesso por 1
+> Começa a levantar
+
+O soldado do lado do zumbi tenta de novo a cabeça dele. O golpe sai curto e nem chega perto.
+> Ataque do Guarda 7: Espadas Curtas NH 12 = *12* (ponto de impacto sorteado: 3d [1, 1, 2] = 4, cérebro, sem redutor)
+> 3d [5, 5, 6] = *16* → falha por 4
+
+Na borda de cima, mais um soldado chega perto do buraco e fica olhando. Tann'athar continua caído, sem se mexer.
+
+No fim da rodada, o murmúrio do orc de olhar vazio chega à última sílaba, e a luz roxa do cabo explode. Um clarão branco engole a sala, o buraco, os soldados, o zumbi e os fugitivos. Não há som, nem chão, nem peso. Quando a luz passa, o estômago de todos ainda gira, os olhos ardem e ninguém sabe dizer para onde está olhando.
+> Urzog (Mor'Dhaun): Teleportar Outros, NH 21 -6 = *15* (jogada do Mestre)
+> 3d [4, 5, 6] = *15* → sucesso por 0
+> Todos ficam *desnorteados* com o teletransporte
+
+O que vocês fazem?

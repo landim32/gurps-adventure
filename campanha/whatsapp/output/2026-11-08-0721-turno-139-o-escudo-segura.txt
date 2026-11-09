@@ -1,0 +1,22 @@
+*TURNO 139 — O ESCUDO SEGURA*
+
+Krag puxa o elfo ferido para longe da escada, de frente para o buraco que se abre no meio do andar, mas o pé escorrega e quase nada do esforço dele sai do chão. Quem arrasta de verdade é o cão: os dentes na manga do elfo, ele recua um passo e leva o corpo mole junto. O buraco continua longe demais para qualquer arremesso.
+> Farejo: ST 12, 3d [1, 2, 6] = *9* → sucesso por 3
+> Krag: ST 12, 3d [3, 6, 4] = *13* → falhou por 1
+> Margens que contam: 3 → *1 hex arrastado* (a cada 3 de margem, 1 hex; a falha não soma)
+
+Embaixo, o orc de olhar vazio não se mexe além de um passo curto, a bolha clara em volta dele e do morto de gibão, e os lábios seguem no mesmo murmúrio. A luz roxa do cabo pulsa devagar. Os soldados de loriga e de gibão azul continuam fechando o cerco pelo oeste e pelo norte, de passo curto, sem alcançar ninguém. Os dois arqueiros que vinham de arco baixo andam de novo e perdem a mira.
+
+O agachado e a de tranças mantêm a flecha na corda e o olho no elfo de cabelos brancos, mas um soldado de loriga cruza a linha de tiro, bem no meio do caminho, e eles seguram o disparo.
+
+O arqueiro de touca de couro tem a linha livre. Solta a corda. A flecha cruza o andar e vai direto ao peito do elfo, mas o ar se dobra diante dele e ele se joga de lado no último instante; a ponta raspa a túnica e quebra no chão.
+> Arqueiro 6: Arco NH 16, -5 distância (11 m), +1 Precisão, +1 mira (2º turno) = *13*
+> 3d [4, 4, 3] = *11* → sucesso por 2
+> Defesa de Sae'Varyn: esquiva 6 + DP 8 (armadura 2, broquel 1, Escudo +5) = *14*
+> 3d [4, 6, 2] = *12* → sucesso por 2, *flecha defendida*
+
+Sae'Varyn corre um passo em direção à escada, o bastão batendo na coxa, o fôlego curto. Falta chegar.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?

@@ -1,0 +1,26 @@
+*TURNO 154 — A MONTANHA*
+
+O vento uiva pela crista e leva as palavras de cada um. O ogro mal fica de pé: sangra, o mundo gira, e ele se agarra à pedra com a mão boa e aguenta.
+> Gorbag: HT 15, 3d [3, 2, 1] = *6* → sucesso por 9, segue consciente a -5 PV
+> Desorientado (Percepção do Corpo falhou no T153): só pode se defender neste turno
+
+O soldado caído a seus pés revira os olhos, solta o ar e apaga de vez. O outro, caído ao lado, aguenta a vista turva e fica acordado, sem forças para se mexer.
+> Guarda do Castelo 124 (0 PV): HT 12, 3d [5, 6, 3] = *14* → falha por 2, *inconsciente*
+> Guarda do Castelo 2 (0 PV): HT 12, 3d [1, 6, 4] = *11* → sucesso por 1, segue consciente
+> Os dois estão desorientados: só podem se defender
+
+O zumbi de gládio e escudo não perdeu o passo. Ele golpeia o soldado que está ao lado dele e só encontra o escudo.
+> Ataque do Zumbi Grumel: Espadas Curtas NH 12 = *12* (ponto de impacto sorteado: 3d [3, 5, 2] = 10, tronco, sem redutor)
+> 3d [3, 1, 1] = *5* → sucesso por 7
+> Defesa do Guarda 7 (desorientado, só defesa): esquiva 5 +2 DP armadura +3 DP escudo = *10*
+> 3d [5, 2, 3] = *10* → defendeu no limite
+
+Krag firma os pés no chão gelado e solta a flecha que trazia encaixada. O zumbi está na frente do soldado, e a ponta passa raspando o ombro dele sem pegar. O vento dá o resto, e a flecha se perde na encosta. A pontaria que ele vinha fazendo se desfez no clarão.
+> Ataque de Krag: Arco NH 17, +0 distância (2 m), sem mira (o teletransporte desfez a pontaria: sem Precisão), -3 Órgãos vitais, -4 figura na linha de tiro (o zumbi) = *10*
+> 3d [2, 6, 6] = *14* → falha por 4
+> Tiro que erra (MB, pág. 117): o zumbi estava na linha. Ataque contra ele com 9: 3d [6, 4, 5] = *15* → falha, a flecha segue e se perde
+
+Sae'Varyn, o orc de olhar vazio e o cão ainda tentam achar o chão debaixo dos pés, e o soldado do lado do zumbi cambaleia sem sair do lugar. Tann'athar continua caído, sem se mexer.
+> Sae'Varyn, Urzog, Farejo e Guarda 7: desorientados, só podem se defender
+
+O que vocês fazem?

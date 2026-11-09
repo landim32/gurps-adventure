@@ -1,0 +1,9 @@
+*A SUBIDA QUE NÃO PEGA*
+
+Sae'Varyn firma o bastão na dobra do braço, agarra a pedra com as duas mãos e tenta subir por ali. Os dedos escorregam na superfície fria, o fôlego curto não ajuda, e ele não consegue ganhar altura.
+> Sae'Varyn: Escalada, pré-definido DX-5 (não tem a perícia) = *6*
+> 3d [6, 1, 1] = *8* → *falhou por 2*
+
+Os outros esperam, o ar da fonte estalando ao longe.
+
+O que vocês fazem?

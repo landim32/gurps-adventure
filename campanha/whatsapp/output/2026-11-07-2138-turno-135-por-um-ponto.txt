@@ -1,0 +1,21 @@
+*TURNO 135 — POR UM PONTO*
+
+O cão de Krag morde a manga do elfo e puxa, Krag agarra o cinto e os dois arrastam o corpo mole mais um pouco em direção à escada.
+> Farejo: ST 12, 3d [3, 5, 3] = *11* → sucesso por 1
+> Krag: ST 12, 3d [2, 4, 4] = *10* → sucesso por 2
+> Margens somadas: 3 → *1 hex arrastado* (a cada 3 de margem, 1 hex)
+
+O soldado de loriga parado junto à parede clara bate nela com a mão aberta e grita para os outros: "Tem uma parede aqui, peguem os outros!" Os soldados e os arqueiros seguem subindo pelo lado oeste, de passo curto, e mais um soldado de gibão azul aparece no fundo do corredor sul. Os dois arqueiros que ainda traziam a flecha na corda perdem a mira outra vez, andando.
+
+Sae'Varyn alcança o elfo caído, encosta o bastão no peito dele e fecha os olhos. O ar esquenta em volta do cajado, a palavra sai da boca por um fio, e o sopro custa sangue: ele cerra os dentes e aperta o flanco. Tann'athar tosse seco, o peito sobe uma vez, mas os olhos não se abrem.
+> Sae'Varyn: Despertar NH 16, -5 mana baixa, -1 por 1 PV gasto no lugar da Fadiga = *10*
+> 3d [2, 3, 5] = *10* → sucesso por 0
+> Custo: 1 ponto de vida (9 → 8)
+> Tann'athar: HT 11, +0 margem do Despertar, -3 inconsciente por ferimento = *8*
+> 3d [1, 5, 3] = *9* → falhou por 1, *segue inconsciente*
+
+Urzog não se mexe. Os olhos seguem no vazio, o ar da fonte estala em volta dele, e a luz roxa do cabo pulsa devagar. Os lábios se mexem no mesmo murmúrio.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?

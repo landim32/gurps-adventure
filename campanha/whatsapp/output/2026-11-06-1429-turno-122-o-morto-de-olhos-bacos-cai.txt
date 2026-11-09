@@ -1,0 +1,55 @@
+*TURNO 122 — O MORTO DE OLHOS BAÇOS CAI*
+
+O cão de Krag salta de novo sobre o morto de olhos baços e fecha a mandíbula no braço do escudo dele. Os dentes rasgam o couro seco, sem sangue, e o morto nem vira a cabeça.
+> Farejo: Mordida NH 12, +4 Ataque Total = *16* (ponto de impacto sorteado: 3d [1, 4, 1] = 6, braço do escudo, sem redutor)
+> 3d [4, 4, 2] = *10* → sucesso por 6
+> Defesa de Faelar Zumbi: esquiva 6 = *6*
+> 3d [5, 4, 3] = *12* → falhou por 6
+> Dano: 1D-1 [2] - 1 = *1*
+> RD 0 → 1 passa
+> Corte: ×1,5 depois da armadura → *1*
+> *Faelar Zumbi perde 1 ponto de vida:* 2 → *1 PV*
+
+O morto de gibão e escudo, Grumel, não perde o tempo que o outro lhe deu. Firma o pé e crava o gládio no meio do peito do morto de olhos baços. A ponta entra pelas costelas secas e sai do outro lado. O morto de olhos baços cai de joelhos, depois de lado, e fica no chão com o gládio ainda enfiado nele. Não se mexe mais.
+> Zumbi Grumel: Espadas Curtas NH 12 (ponto de impacto sorteado: 3d [4, 1, 6] = 11, tronco, sem redutor) = *12*
+> 3d [3, 1, 6] = *10* → sucesso por 2
+> Defesa de Faelar Zumbi: esquiva 6 = *6*
+> 3d [1, 1, 5] = *7* → falhou por 1
+> Dano: 1D perfuração [6] = *6*
+> RD 0 → 6 passam
+> Perfuração: ×2 depois da armadura → *12*
+> *Faelar Zumbi perde 12 pontos de vida:* 1 → *-11 PV*, *DESTRUÍDO*
+
+A mulher alada segue de joelhos, as asas abertas sem força, o olhar vazio. Os lábios se mexem, mas o medo ainda não solta. Ela respira.
+> Mulher alada: Vontade 5 para sair do atordoamento, 3d [3, 3, 3] = *9* → falhou por 4
+> Mulher alada: HT 13 para seguir consciente a -10 PV, 3d [2, 4, 1] = *7* → sucesso por 6
+
+Krag tira outra flecha da aljava com um só movimento, encaixa e ergue o arco na direção do corredor sul. A ponta procura o arqueiro agachado, o do meio, e para nele.
+> Krag: Sacar Rápido (Flecha) NH 14
+> 3d [2, 4, 6] = *12* → sucesso por 2
+> 1º turno de mira no Arqueiro 3 (17 m)
+
+O guarda de loriga continua caído de lado, imóvel.
+
+No corredor sul, o arqueiro agachado solta a corda. A flecha cruza a sala e passa por cima do ombro do orc, sem tocar. Ao lado dele, o de barba grisalha, a arqueira de tranças e o de touca de couro puxam suas flechas e encaixam. Os três erguem o arco e miram no orc.
+> Arqueiro 3: Arco NH 12, -4 distância (9 m), +1 Precisão, -2 agachado = *7*
+> 3d [5, 5, 2] = *12* → falha por 5
+> Arqueiro 4: Sacar Rápido (Flecha) NH 16
+> 3d [4, 4, 3] = *11* → sucesso por 5
+> 1º turno de mira em Urzog
+> Arqueiro 5: Sacar Rápido (Flecha) NH 16
+> 3d [1, 5, 4] = *10* → sucesso por 6
+> 1º turno de mira em Urzog
+> Arqueiro 6: Sacar Rápido (Flecha) NH 16
+> 3d [6, 4, 6] = *16* → sucesso por 0
+> 1º turno de mira em Urzog
+
+Sae'Varyn ergue o bastão para o golpe, mas o morto de olhos baços já está no chão, aberto pelo gládio de Grumel. O elfo baixa o bastão devagar e olha para o corredor sul.
+
+Tann'athar dá um passo para dentro do círculo da fonte, a película clara ainda colada ao peito e aos ombros dele. O orc está mais adiante.
+
+Urzog mantém a espada baixa e a mente fechada. A luz roxa do cabo pulsa devagar, sem rumo, e nenhuma palavra sai da boca dele.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?

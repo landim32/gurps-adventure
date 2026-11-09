@@ -1,0 +1,18 @@
+*TURNO 93 — O MORTO NA PORTA*
+
+Krag enfia a chave de ferro na fechadura da jaula e gira. A tranca cede com um estalo seco e a porta abre. De dentro, o morto de pele cinzenta ergue o rosto vazio, e uma voz rouca, arrastada, sai da boca dele: "Me tire daqui e eu luto por vocês!"
+
+Krag vira a cabeça para Urzog e pede ao necromante que cure o ogro caído. O orc nem desacelera. A voz que não é a dele responde sem olhar para trás: "Vamos seguir." Ele dá meio passo na direção da escada, a espada de pedra roxa pendendo da mão, e espera os outros.
+
+Sae'Varyn fica de joelhos ao lado do ogro, o bastão encostado no peito dele, os olhos fechados. Os lábios mexem sem fazer barulho. Desta vez a faísca pega: o ar esquenta sob a palma e o corpo enorme estremece.
+> Despertar (Sae'Varyn em Gorbag): NH 16, −5 mana baixa = *11*
+> 3d [5, 2, 2] = *9* → sucesso por 2
+> Custo: 1 de Fadiga (Sae'Varyn 3 → *2*)
+> Gorbag (HT 15) para acordar: +2 pela margem da mágica, −3 inconsciente por ferimento = *14*
+> 3d [1, 5, 5] = *11* → sucesso por 3
+
+Gorbag solta um ronco, tosse sangue e abre os olhos. Fica deitado de lado, o peito arfando, ainda sem forças para se levantar.
+
+Tann'athar olha o orc possuído e diz à mulher alada que o siga. Ela inclina a cabeça, as asas encolhidas, e fica junto dele. Ele ainda não saiu do lugar.
+
+O que vocês fazem?

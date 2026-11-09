@@ -1,0 +1,24 @@
+*TURNO 150 — O DESPERTAR NA FONTE*
+
+Gorbag apoia a mão enorme no chão, junta os pés e se ergue. O ogro fica de pé outra vez, sangrando, e a pedra sob ele range.
+> Gorbag: HT 15, 3d [4, 1, 3] = *8* → sucesso por 7, segue consciente a -12 PV
+> Levantar: de joelhos a de pé, 2º turno (sem teste)
+
+Sae'Varyn estica o bastão até o meio-elfo caído e murmura o último verso. A fonte da torre responde: a mana aqui é alta, o feitiço sai sem custo e sem esforço. O corpo de Tann'athar estremece, mas os olhos não abrem.
+> Despertar: NH 16 (sem o -5: a sala da fonte tem mana muito alta; sem custo de energia)
+> 3d [4, 3, 4] = *11* → sucesso por 5
+> Tann'athar: HT 11 +5 (margem) -3 (inconsciente por ferimento) = *13*
+> 3d [4, 5, 5] = *14* → falhou por 1, segue inconsciente a 1 PV
+
+Krag fixa o olhar no arqueiro mais próximo da borda, a flecha encaixada, e deixa a corda tensa. O primeiro turno de mira.
+> Apontar: sem tiro neste turno
+
+Em cima, os soldados chegam à borda e encaram o buraco. Dois deles perdem a cabeça e se jogam atrás dos fugitivos.
+> Guarda do Castelo (124): IQ 10, 3d [6, 6, 5] = *17* → *FALHA CRÍTICA* (por 7), pula
+> Guarda do Castelo 7: IQ 10, 3d [5, 5, 2] = *12* → falhou por 2, pula
+
+Os arqueiros miram. Um deles segue com a flecha no orc de olhar vazio, que continua no mesmo murmúrio, a luz roxa do cabo pulsando devagar.
+
+Tann'athar continua caído, sem se mexer.
+
+O que vocês fazem?

@@ -1,0 +1,8 @@
+*ERRATA DO TURNO 151 — A DEFESA DE QUEM DORME (CORRIGIDA)*
+
+O soldado que caiu ao lado de Tann'athar desce o gládio no peito do elfo desacordado. O corpo mole não levanta guarda nenhuma, mas a película clara do Escudo ainda cobre os ombros dele, e é nela que a lâmina tenta se perder. Não basta: a ponta atravessa.
+> Defesa passiva de Tann'athar (errata do Mestre: quem está inconsciente ainda rola a defesa passiva): DP 0 +5 do Escudo mágico (lançado no T121, dura 1 min) = *5*
+> 3d [5, 2, 4] = *11* → *falhou por 6*
+> O golpe do Guarda 7 segue valendo: *9 de dano* (1 → -8 PV), Tann'athar continua inconsciente.
+
+O que vocês fazem?

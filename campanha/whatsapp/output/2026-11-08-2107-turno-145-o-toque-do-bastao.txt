@@ -1,0 +1,16 @@
+*TURNO 145 — O TOQUE DO BASTÃO*
+
+Farejo crava as patas no piso liso e o ombro de Krag escorrega no couro suado do ogro. A carcaça se mexe um dedo e para. O buraco continua longe.
+> Farejo: ST 12, 3d [5, 2, 3] = *10* → sucesso por 2
+> Krag: ST 12, 3d [4, 5, 6] = *15* → falhou por 3
+> Sucessos neste turno: 1. Acumulado para o 1º hex: *3 de 5* (5 sucessos por hex empurrado)
+
+Sae'Varyn dá um passo, estende o bastão até a testa do ogro e fecha os olhos, murmurando em latim. A mágica ainda não sai: ele se concentra, e o toque vem no próximo turno.
+
+Embaixo, o cerco não para. Um soldado de loriga já está a dois passos do elfo de cabelos brancos, sem alcançá-lo. Dois arqueiros sacam uma flecha da aljava, outro firma o arco já armado, e os dois que vinham correndo perdem a mira de novo.
+
+O orc de olhar vazio segue no mesmo murmúrio, a luz roxa do cabo pulsando devagar.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?

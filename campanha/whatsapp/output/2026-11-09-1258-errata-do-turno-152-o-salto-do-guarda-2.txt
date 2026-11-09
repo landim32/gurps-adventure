@@ -1,0 +1,7 @@
+*ERRATA DO TURNO 152 — O SALTO DO GUARDA 2*
+
+O soldado que pulou da borda não aterrissa de pé. Ele bate de lado nas pedras, o gládio escapa pelo chão e o fôlego sai todo de uma vez. Fica estendido e zonzo, sem conseguir se levantar nem erguer a guarda.
+> Errata do Mestre: o Guarda 2 falhou no salto e caiu *deitado*, além de *ATORDOADO* (-4 nas defesas; HT no início do turno para se recuperar)
+> A queda continua valendo: *12 de dano* (12 → *0 PV*)
+
+O que vocês fazem?

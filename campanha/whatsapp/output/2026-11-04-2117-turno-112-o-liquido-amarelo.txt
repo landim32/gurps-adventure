@@ -1,0 +1,45 @@
+*TURNO 112 — O LÍQUIDO AMARELO*
+
+O velho firma os pés no chão, a mão ainda no ferimento da cabeça, e o olhar volta a focar. Ainda não ergue o bastão.
+> Orvin: HT 10 para sair do atordoamento, 3d [4, 2, 2] = *8* → sucesso por 2; *recuperou-se do atordoamento*
+
+Farejo salta e tenta a jugular do guarda, pelo flanco. Os dentes fecham no ar, a um palmo do pescoço.
+> Farejo: Mordida NH 12, -5 Pescoço = *7*
+> 3d [4, 6, 1] = *11* → falha por 4
+
+Grumel manda o pé no meio das costas do guarda. O golpe acerta em cheio, mas a couraça mágica não cede.
+> Grumel: Chute NH 12 (ponto de impacto sorteado: 3d [3, 4, 2] = 9, tronco, sem redutor) = *12*
+> 3d [1, 6, 5] = *12* → sucesso por 0
+> Defesa do Guarda: nenhuma (golpe pelas costas, fora do ângulo de visão)
+> Dano: 1D+1 [6] + 1 = *7*
+> RD 7 (loriga de couro 2 + Armadura mágica 5) → 0 passam
+> *A armadura segurou o golpe.* Nenhum dano.
+
+O morto de olhos baços chuta o guarda por trás, e a bota bate no tronco sem arrancar um gemido.
+> Faelar Zumbi: Chute NH 10 (ponto de impacto sorteado: 3d [1, 6, 3] = 10, tronco, sem redutor) = *10*
+> 3d [4, 3, 3] = *10* → sucesso por 0
+> Defesa do Guarda: nenhuma (golpe pelas costas, fora do ângulo de visão)
+> Dano: 1D+1 [1] + 1 = *2*
+> RD 7 (loriga de couro 2 + Armadura mágica 5) → 0 passam
+> *A armadura segurou o golpe.* Nenhum dano.
+
+A mulher alada desce as garras no tronco do guarda. O escudo de madeira sobe a tempo e as unhas riscam só a madeira.
+> Mulher alada: Garras NH 14 = *14*
+> 3d [6, 4, 3] = *13* → sucesso por 1
+> Defesa do Guarda: bloqueio 7 +3 DP escudo = *10*
+> 3d [1, 3, 4] = *8* → defendeu por 2
+> *Guarda do Castelo se defendeu.* Sem dano.
+
+Krag não afrouxa a corda. A ponta da flecha acompanha o velho, que mal se mexe, e a mão do ranger não treme.
+> Krag: continua mirando em Orvin (2º turno de mira)
+
+O guarda estoca o gládio no peito da mulher alada. Ela se joga para trás e o ferro passa raspando a pena.
+> Guarda do Castelo: Espadas Curtas NH 12 = *12* (tronco, sem redutor)
+> 3d [2, 6, 6] = *14* → falha por 2
+
+Tann'athar destampa o frasco e bebe o líquido amarelo de um gole, dando um passo à frente. O cansaço some do corpo dele de uma vez, como se nunca tivesse existido, e o gosto de mel queimado fica na boca.
+> Líquido amarelo: cura 5d [5, 2, 3, 6, 6] = *22* pontos de vida (Tann'athar já tem 11/11: nada a curar) e recupera toda a Fadiga (2 → 10/10)
+
+Urzog dá um passo curto e fica parado, o rosto vazio, os lábios se mexendo sem som. Sae'Varyn avança dois passos pela pedra, o fôlego curto. Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?

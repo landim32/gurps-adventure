@@ -26,6 +26,16 @@ _(o que de fato aconteceu com os personagens dos jogadores durante o jogo — fe
 - **26/10/2026 22:42** · _estado_ — T66: falhou na Vontade 9 (15) e matou Faelar a facadas, inconsciente. Faca suja de sangue, ainda segura o corpo pelo pescoço.
 - **27/10/2026 13:17** · _item_ — T67: devolveu a maça a Sae'Varyn.
 - **30/10/2026 14:14** · _informação_ — Achou a espada no baú de madeira escura (T79); não a pegou, decide no T80.
+- **01/11/2026 11:03** — T85: INCONSCIENTE a -6 PV, caido em (8,5), preso no olhar do basilisco.
+- **02/11/2026 21:01** · _estado_ — T93: acordou com o Despertar de Sae'Varyn; segue a -6 PV, caído; HT a cada turno para continuar consciente.
+- **02/11/2026 21:09** · _estado_ — T94: ajoelhado a -6 PV; HT a cada turno para seguir consciente (passou com sucesso decisivo).
+- **02/11/2026 21:28** · _estado_ — T95: de pé a -6 PV; HT a cada turno para seguir consciente.
+- **08/11/2026 21:20** · _estado_ — T146: acordou com o Despertar de Sae'Varyn (HT 14, 3d 8); segue a -6 PV, caído; HT a cada turno para continuar consciente.
+- **09/11/2026 10:29** · _ferimento_ — T151: braço esquerdo incapacitado (fulminante do Guarda 124); -13/15 PV. Cutelo de duas mãos inutilizável sem o braço.
+- **09/11/2026 10:37** · _ferimento_ — T151: HT 15, 3d 7, sucesso por 8: braço esquerdo incapacitado é TEMPORÁRIO; cura quando recuperar todos os PV perdidos (Maneta até lá).
+- **09/11/2026 12:40** · _item_ — T152: luta com o machado de uma mão de Urzog (Machado/Maça pré-definido DX-5 = NH 9, errata do Mestre); Preparação Rápida por ST 20. Braço esquerdo ainda incapacitado (temporário); a -5 PV após Cura Profunda.
+- **09/11/2026 15:06** — Teste do Mestre (T153): HT 15, 3d [6,2,3]=11, sucesso por 4: a lesão do braço esquerdo é TEMPORÁRIA (MB, Recuperação de Lesões Incapacitantes); cura completa ao recuperar todos os PV perdidos.
+- **09/11/2026 16:49** — T157: falhou Sanguinolência (14 vs 9) e Sadismo (16 vs 9) e matou o guarda que se rendeu (decisão do Mestre).
 
 ## Krag Trilhanegra
 
@@ -52,6 +62,17 @@ _(o que de fato aconteceu com os personagens dos jogadores durante o jogo — fe
 - **29/10/2026 09:00** · _ferimento_ — T72: levou 8 PV do olhar do basilisco (6/14).
 - **29/10/2026 10:18** · _estado_ — T73: leve dor de cabeça do olhar do basilisco (sem dano).
 - **29/10/2026 10:38** · _estado_ — T76: leve dor de cabeça do olhar do basilisco (sem dano).
+- **01/11/2026 11:03** — T85: falha critica no tiro rapido; arco longo caido a 3 m a frente dele (apanhar: 2 turnos).
+- **02/11/2026 00:54** · _estado_ — T86: em (13,7), ao lado do arco caído em (12,7); apanhar leva 2 turnos, começa no T87.
+- **02/11/2026 14:18** · _estado_ — T87: em (12,7) sobre o arco, 1º de 2 turnos de apanhar; arco na mão ao fim do T88.
+- **02/11/2026 17:16** · _item_ — T88: arco apanhado e empunhado, sem flecha encaixada.
+- **02/11/2026 19:31** · _estado_ — T91: junto da jaula do zumbi Grumel (10,5); sem chave (o molho está com Tann'athar).
+- **02/11/2026 20:33** · _item_ — T92: apanhou no ar o molho de chaves das jaulas, arremessado por Tann'athar; está com ele junto da jaula do zumbi (10,5).
+- **06/11/2026 17:15** · _estado_ — T123: caiu ao pular da escada (DX falhou por 2), sem dano; em (16,6), mira perdida.
+- **06/11/2026 22:19** · _grupo_ — T124: ajoelhado (1º de 2 turnos para levantar); de pé no T125.
+- **08/11/2026 21:07** · _estado_ — T145: empurra Gorbag com Farejo, acumulado 3/5 sucessos para o 1º hex (5 por hex, errata do Mestre).
+- **08/11/2026 22:06** · _estado_ — T147: pulou no buraco com Farejo, caiu no térreo (2 de dano, 4/14 PV).
+- **09/11/2026 07:29** · _estado_ — T149: corrido 4 hex até (9,7), sem mirar; flecha encaixada. ERRATA do Mestre: anda o que andou, sem Apontar.
 
 ## Sae'Varyn
 
@@ -67,6 +88,15 @@ _(o que de fato aconteceu com os personagens dos jogadores durante o jogo — fe
 - **23/10/2026 12:50** · _item_ — T41: perdeu o servo Zumbi (Paravotto), destruído pela Armadura Animada 2 no escuro. Para outro zumbi, precisa lançar Zumbi de novo em outro cadáver.
 - **27/10/2026 13:17** · _item_ — T67: recuperou a maça (Gorbag devolveu); achou molho de chaves de ferro (jaulas do andar dos experimentos) e gema de 2 pontos de energia DESCARREGADA.
 - **29/10/2026 10:32** · _estado_ — T74: leve dor de cabeça do olhar do basilisco (sem dano).
+- **02/11/2026 00:54** · _item_ — T86: arremessou o molho de chaves de ferro das jaulas a Tann'athar; não está mais com ele.
+- **02/11/2026 14:18** · _estado_ — T87: em (7,4), junto de Gorbag caído.
+- **02/11/2026 17:16** · _item_ — T88: empunha o bastão; maça guardada. Em (6,5), junto de Gorbag.
+- **02/11/2026 19:31** · _estado_ — T91: concentrado para lançar Despertar em Gorbag no T92 (mana baixa -5; Fadiga 4/10).
+- **05/11/2026 21:28** · _estado_ — T119: Escudo +5 em si (DP 3 -> 8, 1 min), sem custo (fonte do térreo).
+- **06/11/2026 10:43** · _estado_ — T121: trocou de lugar com a harpia (10,7) e curou Farejo 8 PV (Cura Profunda NH 16, custo 0 na fonte).
+- **07/11/2026 13:14** · _regra_ — ERRATA (Mestre, T128): Sae'Varyn paga mágica com PV no lugar da Fadiga, com -1 no NH por ponto gasto. No T128 o Despertar foi lançado em Tann'athar à distância, por decisão do Mestre.
+- **07/11/2026 22:30** · _errata_ — ERRATA (Mestre, T136): 'Me concentro para fazer Cura Superficial' era só a concentração, a mágica não foi lançada. A rolagem do T136 (NH 11, 3d 13) e o custo da falha (1 PV) são anulados: Sae'Varyn volta a 8/13 PV. Tann'athar segue a 0 PV, inconsciente. 'Me concentro para X' = concentração, lança no turno seguinte (diferente do Despertar dos T133-T135, lançado direto por ordem do Mestre).
+- **08/11/2026 22:29** · _regra_ — ERRATA (Mestre, T148): esforço extra de salto (MB p.89) é pago em PV no lugar da Fadiga quando a Fadiga é 1; salto em distância de 3 m com ST 10 = DX-1.
 
 ## Urzog, o Bigorna
 
@@ -91,6 +121,11 @@ _(o que de fato aconteceu com os personagens dos jogadores durante o jogo — fe
 - **27/10/2026 06:02** · _item_ — Recuperou o machado (Gorbag o devolveu, T66).
 - **28/10/2026 07:24** · _estado_ — Leve dor de cabeça do olhar do basilisco (T69), sem dano.
 - **30/10/2026 17:35** · _ferimento_ — POSSUÍDO PERMANENTEMENTE por Vaelrith Mor'Dhaun (T80): o necromante controla o corpo, usa a voz e a vontade dele; só sai por exorcismo; dano em Urzog força o Mor'Dhaun a testar HT contra o mesmo dano. Empunha a espada de pedra roxa.
+- **02/11/2026 18:45** · _estado_ — T89: segue a -2 PV (HT 18 passou); sem defesa ativa até o T90.
+- **05/11/2026 21:28** · _estado_ — T119: Escudo +5 de Tann'athar (DP 4 -> 9, 1 min); concentra 2 de 2, Anulação de Magia no Domo de Orvin no T120.
+- **06/11/2026 22:19** · _grupo_ — T124: Mor'Dhaun concentra Teleportar Outros em tudo na fonte; 30 turnos (T124-T153), resolve no início do T154 (decisão do Mestre; o livro daria 15 s com NH 21). Domo de Força raio 3 em (10,9).
+- **09/11/2026 15:19** — T153: no fim do turno, Mor'Dhaun lançou Teleportar Outros (NH 21-6=15, 3d 15, sucesso por 0): clarão, todos desnorteados; destino a cargo do Mestre. Custo na gema não descontado.
+- **09/11/2026 15:35** — T153 (fim): Teleportar Outros levou todos os da sala da fonte ao topo de uma montanha (mapa montanha-1). Percepção do Corpo (DX-6, +3 Senso de Direção): passaram Krag (11, tirou 9) e o Grumel (6, tirou 6); desorientados (só defesa no T154): Gorbag, Sae'Varyn, Urzog, Farejo, Guardas 124, 2 e 7. Tann'athar inconsciente.
 
 ## Pumba'h Fed
 
@@ -119,11 +154,40 @@ _(o que de fato aconteceu com os personagens dos jogadores durante o jogo — fe
 - **28/10/2026 09:47** · _estado_ — Leve dor de cabeça do olhar do basilisco (T70), sem dano.
 - **28/10/2026 18:17** · _estado_ — T71: segue com leve dor de cabeça (olhar do basilisco, falhou).
 - **29/10/2026 10:35** · _estado_ — T75: leve dor de cabeça do olhar do basilisco (sem dano).
+- **02/11/2026 00:54** · _item_ — T86: não apanhou o molho de chaves das jaulas no ar (DX 12, falhou por 3); estão no piso aos pés dele, em (17,7). Apanhar: Preparar, 1 turno.
+- **02/11/2026 14:18** · _item_ — T87: apanhou o molho de chaves das jaulas (Preparar).
+- **02/11/2026 17:16** · _estado_ — T88: Fadiga 2/10, Deslocamento 2; segue com as chaves rumo à gaiola da harpia, em (17,8).
+- **02/11/2026 18:47** · _estado_ — ERRATA (Mestre, T89): o movimento de Tann'athar não é cortado pela Fadiga; a peça fica em (16,12), olhando S, junto da gaiola da harpia.
+- **02/11/2026 19:03** · _estado_ — T90: junto da gaiola da harpia (16,12), com o molho de chaves.
+- **02/11/2026 20:33** · _item_ — T92: arremessou o molho de chaves das jaulas a Krag; não o tem mais.
+- **02/11/2026 21:28** · _estado_ — ERRATA (Mestre, T95): com Fadiga 2/10 o Deslocamento cai a 2 (corte pelo MB); vale a regra do MB, e o T89 foi exceção. Vale para Sae'Varyn também. Tann'athar em (14,12).
+- **07/11/2026 05:16** · _grupo_ — T125: 0/11 PV, caído e atordoado em (14,10) por flecha fulminante; HT para seguir consciente a cada turno; ataca com -11 no T126.
+- **07/11/2026 11:58** · _estado_ — T126: inconsciente a 0/11 PV (HT falhou por 4), de bruços em (14,10). Krag vem arrastá-lo para trás do Domo.
+- **07/11/2026 12:50** · _estado_ — T127: inconsciente a 0/11, arrastado por Krag e Farejo para (14,9), rumo à escada. Sae'Varyn concentra Despertar para lançar no T128.
+- **07/11/2026 12:54** · _estado_ — ERRATA T127 (decisão do Mestre): o arrasto se resolve por teste de ST de Krag e Farejo, 1 hex a cada 3 de margem somada (3+2=5, 1 hex). Tann'athar ficou em (15,9) e Krag em (15,8), não em (14,9). Nota anterior anulada.
+- **07/11/2026 13:14** · _estado_ — T128: segue inconsciente a 0/11 em (15,7); Despertar de Sae'Varyn não o acordou (HT 16). Arrastado por Krag (15,6) e Farejo (16,7).
+- **07/11/2026 13:58** · _estado_ — T129: segue inconsciente a 0/11; Despertar de Sae'Varyn falhou por 2. Arrastado 1 hex rumo à escada por Krag e Farejo (posição acertada pelo Mestre no roll6).
+- **07/11/2026 15:05** · _estado_ — T130: acordou do Despertar de Sae'Varyn, a 0 PV, caído; HT a cada turno para seguir consciente.
+- **07/11/2026 15:59** · _estado_ — T131: de pé a 0 PV, escorado em Krag e Farejo (ficou de pé em um turno, decisão do Mestre); HT a cada turno para seguir consciente.
+- **07/11/2026 20:57** · _estado_ — T132: apagou a 0 PV (HT 11, tirou 14), amparado por Krag e Farejo. Segue com 3 frascos vermelhos de efeito desconhecido; chegou a sacar a ideia de testá-los, mas não chegou a sacar.
+- **08/11/2026 07:20** · _estado_ — T139: arrastado 1 hex rumo ao buraco por Farejo (Krag falhou por 1); em (17,6), inconsciente a 1/11 PV.
+- **08/11/2026 10:42** · _estado_ — T140: arrastado 1 hex rumo ao buraco por Farejo e Krag; em (15,7), inconsciente a 1/11 PV.
+- **08/11/2026 13:43** · _estado_ — T141: arrastado 1 hex rumo ao buraco por Farejo (Krag falhou crítico); em (14,8), inconsciente a 1/11 PV.
+- **08/11/2026 16:13** · _estado_ — No T142 segue inconsciente a 1 PV, arrastado por Krag e Farejo até (13,8), a 3 hexes do buraco do andar das runas.
+- **08/11/2026 16:26** · _estado_ — No T143 foi lançado ao térreo (queda de 4 m sobre pedras, 0 de dano); em (12,8), inconsciente a 1/11 PV.
+- **09/11/2026 07:38** · _estado_ — T150: Despertar de Sae'Varyn funcionou (NH 16, mana muito alta da fonte) mas HT 13 tirou 14: segue inconsciente a 1 PV.
+- **09/11/2026 10:29** · _ferimento_ — T151: gládio do Guarda 7 no tronco, 9 de dano; -8/11 PV, inconsciente (limite -11).
+- **09/11/2026 10:47** · _estado_ — ERRATA T151: Escudo +5 (lançado no T121, 1 min) ainda ativo no T151: DP passiva 5, não 0. Defesa passiva do golpe do Guarda 7: 3d 11 contra 5, falhou por 6; golpe mantido (9 de dano, -8 PV). Vale até ~T181.
 
 ## Gorbag
 
 - **01/11/2026 01:46** · _estado_ — T84: preso no olhar do basilisco (contato mantido, 2D+2 por turno enquanto o basilisco o vir). PV -2: HT 15 no início de cada turno para não desmaiar. Atordoado (-4 defesas), ataca com -8.
+- **04/11/2026 14:49** · _ferimento_ — T110: falhou o HT 15 (16) para seguir consciente a -6 PV e caiu inconsciente em (14,11)
 
 ## Tann'athar
 
 - **01/11/2026 01:46** · _estado_ — T84: concentra Lealdade sobre a harpia (NH 13 com mana baixa, sucesso por 1); 2 s, fecha no fim do T85; custo 6 de Fadiga e resistência IQ da harpia rolados então.
+
+## Urzog
+
+- **02/11/2026 17:16** · _estado_ — T88: a -2 PV, segue de pé (HT 18 com a espada). Ataque Total sem defesa ativa até o T89.

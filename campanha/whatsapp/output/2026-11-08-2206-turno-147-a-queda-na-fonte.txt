@@ -1,0 +1,22 @@
+*TURNO 147 — A QUEDA NA FONTE*
+
+Gorbag arrasta a carcaça um hex pelo piso liso, rumo à borda do buraco. O corpo ferido aguenta.
+> Gorbag: HT 15, 3d [4, 1, 1] = *6* → sucesso por 9, segue consciente a -6 PV
+
+Sae'Varyn escorrega em diagonal e se planta entre o ogro e o cerco, o bastão cruzado à frente. O soldado alcança o elfo e desce o gládio, e a madeira recebe o ferro.
+> Ataque do Guarda 5: Espadas Curtas NH 12 = *12*
+> 3d [1, 2, 3] = *6* → sucesso por 6
+> Defesa de Sae'Varyn (Defesa Total): Aparar 8 (Bastão ⅔ + Reflexos) +2 Defesa Total +1 DP broquel +5 Escudo = *16*
+> 3d [1, 2, 5] = *8* → defendeu por 8
+
+Krag corre até a borda e berra: "Pula na fonte!". Farejo chega antes dele e os dois mergulham no vazio, e batem nas pedras do térreo com um estalo. O ranger se levanta com o ombro esfolado, e o cão se arrasta, ofegante, mas de pé.
+> Queda de Krag: 4 m sobre pedras, (1D − 2) por metro = 4D − 8 (sem Acrobacia)
+> 4d [2, 2, 3, 3] = *10* → 10 − 8 = *2* de dano (Krag: 6 → 4 PV)
+> Queda de Farejo: 4d [5, 2, 6, 5] = *18* → 18 − 8 = *10* de dano (Farejo: 15 → 5 PV)
+> Farejo: HT 15 (dano maior que metade da HT), 3d [3, 1, 2] = *6* → sucesso por 9, não cai
+
+Em cima, o cerco aperta. Os soldados chegam de passo largo, os arqueiros correm junto e nenhum deles para para mirar.
+
+O orc de olhar vazio segue no mesmo murmúrio, a luz roxa do cabo pulsando devagar.
+
+O que vocês fazem?

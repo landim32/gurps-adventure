@@ -1,0 +1,66 @@
+*TURNO 127 — A FLECHA NA MULHER ALADA*
+
+O cão de Krag morde a manga do elfo caído e puxa, as patas escorregando na pedra. O morto de gibão e escudo, Grumel, fica onde está, de olho na escada.
+
+A mulher alada continua encostada no canto do corredor sul, a cabeça pendendo, as asas moles. O medo não solta, mas ela respira e não apaga.
+> Mulher alada: HT 13 para seguir consciente a -14 PV, 3d [1, 3, 1] = *5* → sucesso por 8
+> Mulher alada: Vontade 5 para sair do atordoamento, 3d [3, 3, 2] = *8* → falhou por 3
+
+Krag chega ao lado do elfo, agarra-o pelo cinto e pelo ombro, e com o cão arrasta o corpo mole um hex pela pedra, rumo à escada.
+> Krag: ST 12, 3d [2, 6, 1] = *9* → sucesso por 3
+> Farejo: ST 12, 3d [3, 4, 3] = *10* → sucesso por 2
+> Margens somadas: 5 → *1 hex arrastado* (a cada 3 de margem, 1 hex)
+
+O guarda de loriga estoca a mulher alada na perna. A ponta acha o couro e a escama e quase não entra.
+> Ataque: Espadas Curtas NH 12 = *12* (ponto de impacto sorteado: 3d [4, 5, 4] = 13, perna, sem redutor)
+> 3d [4, 1, 5] = *10* → sucesso por 2
+> Defesa da mulher alada: esquiva 7 +1 DP -4 atordoada = *4*
+> 3d [3, 6, 4] = *13* → falhou por 9
+> Dano: 1D-1 [1] - 1 = 0 → mínimo *1*
+> RD 1 → 0 passam
+> *Armadura segurou o golpe.* Nenhum dano.
+
+No corredor sul, os arqueiros soltam as flechas que prepararam. O arqueiro agachado de trás não acha vão: o arqueiro veterano e o guarda estão na frente dele, e ele baixa o arco sem atirar, a corda ainda esticada.
+> Arqueiro 3: Arco NH 12, -1 distância (3 m), +1 Precisão, +1 mira (2º turno), -8 (duas figuras na linha de tiro), -2 Perna (sorteada) = *3*
+> O livro não permite o tiro com NH efetivo 3; o arqueiro mantém a mira e não atira
+
+O de barba grisalha, mais atrás, atira por cima do ombro de dois companheiros. A flecha entra no peito da mulher alada, rente à escama.
+> Arqueiro 4: Arco NH 16, -2 distância (4 m), +1 Precisão, +1 mira (2º turno), -8 (duas figuras na linha de tiro) = *8*
+> 3d [1, 2, 5] = *8* → sucesso por 0
+> Defesa da mulher alada: esquiva 7 +1 DP -4 atordoada = *4*
+> 3d [6, 1, 5] = *12* → falhou por 8
+> Dano: 1D+1 [3] + 1 = *4*
+> RD 1 → 3 passam
+> Perfuração: ×2 depois da armadura → *6*
+> Ponto de impacto sorteado: 3d [1, 3, 5] = 9, tronco
+> *Mulher alada perde 6 pontos de vida:* -14 → *-20 PV*
+
+A arqueira de tranças, mais perto, solta a sua e acerta o braço dela. O braço pende.
+> Arqueira 5: Arco NH 16, +0 distância (2 m), +1 Precisão, +1 mira (2º turno), -2 Braço = *16*
+> 3d [3, 5, 3] = *11* → sucesso por 5
+> Defesa da mulher alada: esquiva 7 +1 DP -4 atordoada = *4*
+> 3d [2, 2, 2] = *6* → falhou por 2
+> Dano: 1D+1 [4] + 1 = *5*
+> RD 1 → 4 passam
+> Perfuração em membro: sem bônus de dano → *4*
+> *Braço INCAPACITADO*
+> *Mulher alada perde 4 pontos de vida:* -20 → *-24 PV*
+
+O de touca de couro atira na perna dela por trás do guarda. A flecha erra e passa rente ao ombro do guarda, que não se mexe, e bate na pedra mais adiante.
+> Arqueiro 6: Arco NH 16, -1 distância (3 m), +1 Precisão, +1 mira (2º turno), -4 (uma figura na linha de tiro), -2 Perna = *11*
+> 3d [6, 2, 5] = *13* → falhou por 2
+> Flecha perdida no guarda: Arco NH 9 (piso do livro), 3d [6, 5, 5] = *16* → falhou por 7
+
+O arqueiro veterano de barba cortada tira uma flecha nova da aljava, encaixa e mira na mulher alada.
+> Arqueiro 7: Sacar Rápido (Flecha) NH 16, 3d [3, 2, 2] = *7* → sucesso por 9
+> 1º turno de mira na mulher alada (2 m)
+
+Sae'Varyn avança pela borda norte, fecha os olhos e começa a murmurar. O ar em volta da mão dele esquenta.
+
+Tann'athar não se mexe, arrastado pela pedra com a cabeça pendendo.
+
+Urzog não se mexe. Os olhos seguem no vazio, o ar da fonte estala em volta dele, e a luz roxa do cabo pulsa devagar. Os lábios se mexem no mesmo murmúrio.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?

@@ -1,0 +1,67 @@
+*TURNO 118 — O ZUMBI TROCA DE DONO*
+
+O velho estende a mão aberta para o morto de olhos baços e fecha o punho devagar, como quem puxa uma corda. O cheiro de ozônio sobe da fonte, e o morto para com o pé no ar, a cabeça virando para o velho.
+> Orvin: Controle de Zumbi NH 20 (fonte do térreo, sem -5), -2 distância (2 hex) = *18*
+> 3d [1, 1, 6] = *8* → sucesso por 10
+> Resistência de Faelar Zumbi (Zumbi de Mor'Dhaun) NH 21, +2 (operador a menos de 100 m) = *23*
+> 3d [5, 4, 5] = *14* → sucesso por 9
+> *A mágica de Orvin vence a Disputa (10 contra 9):* Faelar Zumbi passa ao controle dele
+
+Farejo salta pelo flanco do guarda e vai direto ao pescoço. O escudo sobe tarde. Os dentes pegam a pele e o sangue escorre pela gola.
+> Farejo: Mordida NH 12, -5 Pescoço, +4 Ataque Total = *11*
+> 3d [1, 1, 6] = *8* → sucesso por 3
+> Defesa do Guarda: bloqueio 7 +3 DP escudo -2 golpe pelo lado direito = *8*
+> 3d [3, 6, 6] = *15* → falhou por 7
+> Dano: 1D-1 [1] - 1 = 0 → mínimo 1
+> RD 0 → 1 passa
+> Corte no pescoço: ×2 → *2*
+> *Guarda do Castelo perde 2 pontos de vida.*
+
+Grumel enfia a bota na nuca do guarda, por trás. O homem não vê o golpe chegar. Os joelhos dobram e ele cai de lado sobre o escudo.
+> Grumel: Chute NH 12 (ponto de impacto sorteado: 3d [3, 1, 1] = 5, cabeça, sem redutor) = *12*
+> 3d [5, 1, 4] = *10* → sucesso por 2
+> Defesa do Guarda: nenhuma (golpe pelas costas, fora do ângulo de visão)
+> Dano: 1D+1 [1] + 1 = *2*
+> RD 0 → 2 passam
+> Contusão: ×1 → *2*
+> HT 12 contra nocaute: 3d [6, 5, 3] = *14* → *NOCAUTEADO*
+> *Guarda do Castelo perde 2 pontos de vida.*
+
+Faelar Zumbi baixa o pé e fica parado, olhando o velho, sem chutar.
+
+A mulher alada firma as asas no chão e o olhar se mantém. Ela desce as garras na perna do guarda caído, que não reage.
+> Mulher alada: HT 13 para seguir consciente a -10 PV, 3d [3, 2, 1] = *6* → sucesso por 7
+> Mulher alada: Garras NH 14 (ponto de impacto sorteado: 3d [3, 3, 6] = 12, perna distante, sem redutor) = *14*
+> 3d [4, 3, 2] = *9* → sucesso por 5
+> Defesa do Guarda: nenhuma (inconsciente)
+> Dano: 1D [5] = *5*
+> RD 0 → 5 passam
+> Corte: ×1,5 → *7*
+> Teto do local (HT/2 = 6): 1 desperdiçado
+> *Perna INCAPACITADA*
+> *Guarda do Castelo perde 6 pontos de vida.*
+
+Krag mantém a corda tensa e a ponta firme no velho, atrás da bolha clara.
+> Krag: 2º turno de mira em Orvin
+
+O guarda não terminou de apanhar o gládio. Está caído de lado, imóvel, a mão a um palmo do cabo.
+
+No corredor sul, o arqueiro de gibão azul e torre branca puxa uma flecha, atrapalha a haste e perde o tempo. O que perdeu o arco o ergue do chão e fica de mãos vazias. O terceiro firma a mira no orc e solta a corda. A flecha sai torta, a corda estala no antebraço dele e o arco cai na pedra.
+> Arqueiro da torre: Sacar Rápido (Flecha) NH 12
+> 3d [6, 2, 5] = *13* → falha por 1
+> Arqueiro da torre 2: apanha o arco (2º de 2 turnos); sem flecha encaixada
+> Arqueiro da torre 3: Arco NH 12, -5 distância (10 m), +1 Precisão, -2 Perna = *6*
+> 3d [6, 6, 6] = *18* → *FALHA CRÍTICA* (por 12)
+> *ERRO CRÍTICO!* Tabela de Erros Críticos: 3d [1, 6, 2] = *9*
+> _Derrubou a arma._
+
+Sae'Varyn dá um passo de lado e fecha os olhos, os lábios se mexendo sem som, a mana da fonte subindo pela pedra até ele. Tann'athar avança um passo entre as colunas e para, as mãos erguidas na direção do orc.
+> Sae'Varyn: Concentração (Escudo em si), lança no T119
+> Tann'athar: Concentração (Escudo em Urzog), lança no T119
+
+Urzog baixa o queixo e murmura uma sílaba áspera, os olhos fixos na bolha clara. A luz fraca corre pela lâmina e se junta na ponta.
+> Urzog (Mor'Dhaun): Concentração 1 de 2 (Anulação de Magia sobre o Domo de Orvin)
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?

@@ -1,0 +1,20 @@
+*TURNO 137 — O FÔLEGO VOLTA*
+
+O cão de Krag crava os dentes na manga do elfo e puxa, e Krag agarra o cinto, mas o pé dele escorrega na pedra e quase todo o esforço sai do cão. Ainda assim o corpo mole cede mais um trecho em direção à escada.
+> Farejo: ST 12, 3d [1, 2, 2] = *5* → sucesso por 7
+> Krag: ST 12, 3d [5, 6, 4] = *15* → falhou por 3
+> Margens que contam: 7 → *2 hexes arrastados* (a cada 3 de margem, 1 hex; a falha não soma)
+
+Os soldados de loriga e de gibão azul e os arqueiros seguem subindo pelo lado oeste e contornando a parede clara, de passo curto, arcos baixos. Os dois arqueiros que traziam a flecha na corda perdem a mira outra vez, andando.
+
+Sae'Varyn termina a concentração que começou no turno passado, encosta o bastão no peito do elfo ferido e deixa a palavra sair. O ar esquenta em volta do cajado, o sopro custa sangue, e ele cerra os dentes e aperta o flanco. Debaixo da mão dele, a pele do elfo ferido fecha um palmo de carne, e o peito sobe um pouco mais fundo. Ele não abre os olhos.
+> Sae'Varyn: Cura Superficial NH 17, -5 mana baixa, -1 por 1 PV gasto no lugar da Fadiga = *11*
+> 3d [1, 2, 6] = *9* → sucesso por 2
+> Custo: 1 ponto de vida (8 → 7)
+> Tann'athar: 0 → *1/11 PV*
+
+Urzog não se mexe. Os olhos seguem no vazio, o ar da fonte estala em volta dele, e a luz roxa do cabo pulsa devagar. Os lábios se mexem no mesmo murmúrio.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?

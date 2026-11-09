@@ -1,0 +1,67 @@
+*TURNO 120 — O TERROR NA FONTE*
+
+O velho abre as mãos de uma vez. Uma onda fria sai dele e varre o círculo da fonte, sem som, como um sopro de cova aberta. A bolha clara em volta dos pés dele não se mexe.
+> Orvin: Terror (raio 2 hex, centro em Sae'Varyn) NH 20, -4 distância (4 hex) (fonte do térreo, sem -5) = *16*
+> 3d [2, 2, 6] = *10* → sucesso por 6
+> Resistência de Sae'Varyn: IQ 15, 3d [2, 3, 5] = *10* → sucesso por 5 → *não resistiu* (6 contra 5)
+> Resistência de Tann'athar: IQ 16, 3d [4, 5, 4] = *13* → sucesso por 3 → *não resistiu* (6 contra 3)
+> Resistência da mulher alada: IQ 5, 3d [5, 2, 2] = *9* → falhou por 4 → *não resistiu*
+> Verificação de Pânico de Sae'Varyn: Vontade 15, -3 Terror, +5 calor da batalha, +2 Reflexos em Combate = *19*
+> 3d [3, 3, 4] = *10* → sucesso por 9
+> Verificação de Pânico de Tann'athar: Vontade 16, -3 Terror, +5 calor da batalha = *18*
+> 3d [3, 5, 3] = *11* → sucesso por 7
+
+O cão de Krag arreganha os dentes e não recua. O frio passa por ele como se fosse vento. Ele crava a mordida no flanco do morto de olhos baços, onde o couro da pele se abre sem sangue.
+> Farejo: Mordida NH 12 (ponto de impacto sorteado: 3d [5, 6, 6] = 17, órgãos vitais, sem redutor) = *12*
+> 3d [1, 5, 2] = *8* → sucesso por 4
+> Defesa de Faelar Zumbi: esquiva 6 = *6*
+> 3d [2, 3, 6] = *11* → falhou por 5
+> Dano: 1D-1 [3] - 1 = *2*
+> RD 0 → 2 passam
+> Corte: ×1,5 → *3*
+> *Faelar Zumbi perde 3 pontos de vida.*
+
+Grumel fecha a mão no gládio, enfia o braço na correia do escudo e se levanta, o escudo de madeira batendo no joelho. O frio da fonte não o toca.
+
+O morto de olhos baços ergue a perna para o cão, tropeça no próprio pé e rola de lado, braços abertos. Fica de joelho no chão, tentando recuperar o prumo.
+> Faelar Zumbi: Chute NH 10 (ponto de impacto sorteado: 3d [2, 4, 2] = 8, braço, sem redutor) = *10*
+> 3d [5, 6, 6] = *17* → *FALHA CRÍTICA* (por 7)
+> *ERRO CRÍTICO!* Tabela de Erros Críticos: 3d [3, 2, 2] = *7*
+> _Perdeu o equilíbrio: não faz nada até o próximo turno, e todas as defesas ativas ficam com -2 até lá._
+
+A mulher alada deixa as garras caírem e solta um grito rouco, os olhos virados para cima. Os joelhos dobram, as asas se abrem sem força e ela fica ali, tremendo, o olhar vazio.
+> Mulher alada: HT 13 para seguir consciente a -10 PV, 3d [4, 4, 3] = *11* → sucesso por 2
+> Mulher alada: Verificação de Pânico, Vontade 5, -3 Terror, +5 calor da batalha = *7*
+> 3d [2, 1, 5] = *8* → falhou por 1
+> Tabela de Verificação de Pânico: 3d [5, 2, 6] = *13* + 1 de margem = *14*
+> _Sofre 1D de Fadiga e 1D turnos de atordoamento._ Fadiga: 1D [2] = *2*; atordoamento: 1D [2] = *2 turnos*
+
+Krag mantém a corda tensa e a ponta firme no velho, atrás da bolha clara.
+> Krag: 4º turno de mira em Orvin
+
+O guarda de loriga continua caído de lado, imóvel.
+
+No corredor sul, o arqueiro de gibão azul e torre branca solta a corda. A flecha cruza a sala e passa rente ao ombro do orc, sem tocar. O segundo atira baixo e a flecha morre no chão, a um palmo da bota do orc. O terceiro ergue o arco do chão e fica de mãos vazias, procurando uma flecha.
+> Arqueiro da torre: Arco NH 12, -5 distância (10 m), +1 Precisão = *8*
+> 3d [3, 5, 2] = *10* → falha por 2
+> Arqueiro da torre 2: Arco NH 12, -4 distância (9 m), +1 Precisão, -2 Perna = *7*
+> 3d [6, 4, 2] = *12* → falha por 5
+> Arqueiro da torre 3: apanha o arco (2º de 2 turnos); sem flecha encaixada
+
+Sae'Varyn dá um passo de lado, na beira do círculo da fonte, e firma o bastão. Os lábios se mexem em latim, e a mana sobe pela pedra até as mãos dele.
+> Sae'Varyn: Concentração (Cura Profunda, lança no T121)
+
+Tann'athar fecha os olhos por um instante e junta os dedos diante do peito. O ar em volta dele estremece.
+> Tann'athar: Concentração (Escudo DP +5 em si, lança no T121)
+
+Urzog estende a palma aberta para o velho. A luz fraca que corria pela lâmina chega à bolha clara e a bolha racha como gelo fino. Estilhaços de luz caem no chão e somem, e o velho fica sem o escudo de força.
+> Urzog (Mor'Dhaun): Anulação de Magia (1 hex, sobre o Domo de Orvin) NH 21 (fonte, sem -5) = *21*
+> 3d [6, 3, 4] = *13* → sucesso por 8
+> Resistência de Orvin (Domo de Força) NH 20 = *20*
+> 3d [3, 5, 5] = *13* → sucesso por 7
+> *A Anulação vence a Disputa (8 contra 7):* o Domo de Força se desfaz
+> Com o Domo anulado, Urzog baixa a palma.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?

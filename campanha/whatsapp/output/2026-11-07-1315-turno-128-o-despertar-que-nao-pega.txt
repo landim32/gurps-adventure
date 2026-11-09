@@ -1,0 +1,51 @@
+*TURNO 128 — O DESPERTAR QUE NÃO PEGA*
+
+O cão de Krag solta a manga do elfo e volta a morder mais acima, as patas arranhando a pedra. O morto de gibão e escudo, Grumel, cruza a borda da sala em passos duros e para mais perto da escada.
+
+A mulher alada tenta se manter acordada contra o canto do corredor sul, mas o ar sai dela num chiado curto. Os olhos reviram, as asas caem, e ela escorrega de lado na pedra, sem sentidos.
+> Mulher alada: HT 13 para seguir consciente a -24 PV, 3d [6, 5, 3] = *14* → falhou por 1, *INCONSCIENTE*
+
+Krag agarra o elfo pelo cinto e puxa. O corpo mole só cede um passo, o cão ajudando a puxar, e Krag recua em direção à escada.
+> Krag: ST 12, 3d [6, 3, 6] = *15* → falhou por 3
+> Farejo: ST 12, 3d [3, 3, 3] = *9* → sucesso por 3
+> Margens somadas: 3 → *1 hex arrastado* (a cada 3 de margem, 1 hex)
+
+O guarda de loriga enfia o gládio no tronco da mulher alada caída. A ponta acha o couro e a escama e não passa.
+> Ataque: Espadas Curtas NH 12 = *12* (ponto de impacto sorteado: 3d [6, 1, 2] = 9, tronco, sem redutor)
+> 3d [2, 3, 3] = *8* → sucesso por 4
+> Defesa da mulher alada: inconsciente, só a DP 1 da pele
+> 3d [6, 2, 6] = *14* → não segurou
+> Dano: 1D-1 [2] - 1 = *1*
+> RD 1 → 0 passam
+> *Armadura segurou o golpe.* Nenhum dano.
+
+No corredor sul, o arqueiro agachado de trás continua sem vão: dois companheiros e o guarda estão na frente dele, e ele mantém a corda esticada sem soltar.
+> Arqueiro 3: Arco NH 12, -1 distância (3 m), +1 Precisão, +2 mira (3º turno), -8 (duas figuras na linha de tiro), -4 alvo deitado, -2 Perna (sorteada) = *0*
+> O livro não permite o tiro com NH efetivo 0; o arqueiro mantém a mira e não atira
+
+O arqueiro veterano de barba cortada atira por trás do ombro do guarda, na mão da mulher alada. A flecha passa raspando o ombro do guarda, que não se mexe, e bate na pedra mais adiante.
+> Arqueiro 7: Arco NH 16, +0 distância (2 m), +1 Precisão, +1 mira (2º turno), -4 (uma figura na linha de tiro), -4 alvo deitado, -4 Mão = *6*
+> 3d [3, 3, 4] = *10* → falhou por 4
+> Flecha perdida no guarda: Arco NH 6 (pior entre 9 e o NH do tiro), +1 distância (1 m) = *7*
+> 3d [4, 5, 6] = *15* → falhou por 8
+
+Os três de trás tiram flechas novas da aljava, encaixam e miram a mulher alada.
+> Arqueiro 4: Sacar Rápido (Flecha) NH 16, 3d [1, 3, 5] = *9* → sucesso por 7
+> Arqueiro 4: 1º turno de mira na mulher alada (4 m)
+> Arqueira 5: Sacar Rápido (Flecha) NH 16, 3d [4, 1, 1] = *6* → *SUCESSO DECISIVO* (por 10)
+> Arqueira 5: 1º turno de mira na mulher alada (2 m)
+> Arqueiro 6: Sacar Rápido (Flecha) NH 16, 3d [3, 6, 5] = *14* → sucesso por 2
+> Arqueiro 6: 1º turno de mira na mulher alada (3 m)
+
+Sae'Varyn estica a mão para o elfo caído, a três passos de distância, e a palavra sai da boca dele. O ar esquenta em volta de Tann'athar, mas o corpo não responde: ele fica de bruços, mole, sem acordar.
+> Sae'Varyn: Despertar NH 16, -5 mana baixa, -1 por 1 PV gasto no lugar da Fadiga = *10*
+> 3d [3, 1, 3] = *7* → sucesso por 3
+> Custo: 1 ponto de vida (13 → 12)
+> Tann'athar: HT 11, +3 margem do Despertar, -3 inconsciente por ferimento = *11*
+> 3d [4, 6, 6] = *16* → falhou por 5
+
+Urzog não se mexe. Os olhos seguem no vazio, o ar da fonte estala em volta dele, e a luz roxa do cabo pulsa devagar. Os lábios se mexem no mesmo murmúrio.
+
+Gorbag continua caído, sem se mexer.
+
+O que vocês fazem?
