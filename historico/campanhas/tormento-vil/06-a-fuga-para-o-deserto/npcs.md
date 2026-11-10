@@ -9,7 +9,7 @@ _(o que de fato aconteceu com estes NPCs durante o jogo — ferimento que ficou,
 
 ## Lorde William de Wallace
 
-- **24/09/2026 14:59** · _relação_ — RESPONDEU AO NELSOWNED SEM OLHAR e cobrou a balada de Arzog na cara dele ('se tiver ideia melhor, trovador, dessa vez canta baixo') — a reação Fraca (9) do capítulo 5 continua valendo e agora é visível na mesa. MAS DEU A INFORMAÇÃO INTEIRA E VERDADEIRA: dois quilômetros até a linha, e nenhum morto passa dela, nem Vurkash. Ele não sabota a fuga por antipatia. DETALHE QUE A MESA VIU: uma das mãos dele ficou apoiada num barril de água, a outra no ombro de um ferido — se alguém puxar esse fio, a conta dos barris entra em cena pelas mãos dos jogadores.
+- **22/09/2026 16:23** · _relação_ — RESPONDEU AO NELSOWNED SEM OLHAR e cobrou a balada de Arzog na cara dele ('se tiver ideia melhor, trovador, dessa vez canta baixo') — a reação Fraca (9) do capítulo 5 continua valendo e agora é visível na mesa. MAS DEU A INFORMAÇÃO INTEIRA E VERDADEIRA: dois quilômetros até a linha, e nenhum morto passa dela, nem Vurkash. Ele não sabota a fuga por antipatia. DETALHE QUE A MESA VIU: uma das mãos dele ficou apoiada num barril de água, a outra no ombro de um ferido — se alguém puxar esse fio, a conta dos barris entra em cena pelas mãos dos jogadores. _(data conferida com o WhatsApp L4638; o registro dizia 24/09/2026 14:59)_
 - **30/09/2026 11:56** · _informação_ — OUVIU O GRITO DE VURKASH PELO NOME, da caçamba, enquanto a carroça seguia devagar para dentro do deserto. O grito foi de vingança contra ele. Continua entre os barris e os feridos; não conduz.
 
 ## Morto 3 (montado)

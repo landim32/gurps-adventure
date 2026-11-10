@@ -10,6 +10,8 @@ _(o que de fato aconteceu com o lugar, os objetos e o que se sabe durante o jogo
 ## A estrada do leste, fora de Wallace
 
 - **22/09/2026 11:03** · _informação_ — OS CAMINHOS SE PARTIRAM NO DESCAMPADO: William mandou a população inteira pelo caminho do NORTE, a pé, com ordem de andar a noite toda e não parar em lugar visível da estrada; a carroça, os personagens e os três guardas montados foram para o LESTE. Ele não explicou o motivo e ninguém perguntou. Logo depois surgiram OITO OU NOVE MORTOS MONTADOS na curva atrás da carroça.
+- **22/09/2026 14:30** · _informação_ — O DIA ESTÁ AMANHECENDO. O Henrique perguntou se vinham mais atrás dos cavaleiros, e o Mestre respondeu: _"O dia está amanhecendo, dá pra ver uma poeira se levantando"_ (WhatsApp L4631–4634). É o primeiro sinal da horda que aparece na rodada 11.
+- **29/09/2026 15:12** · _informação_ — PRAZO DA HORDA, decisão do Mestre: _"em 12 turnos o exército alcança eles"_, contado a partir da rodada 19 (WhatsApp L6025).
 - **26/09/2026 16:58** · _informação_ — A HORDA A PÉ APARECEU NA ESTRADA, ao longe, descendo atrás do grupo — foi o que o Comam viu da boleia na rodada 11 e o que o fez arrancar com a carroça sem pedir licença. É a massa que o plano do capítulo previa: 'atrás deles, a cidade inteira a pé, que não alcança ninguém e existe para tornar parar impossível'. EFEITO DE MESA: parar de novo deixou de ser opção. A manobra de travar a carroça, que a mesa usou na rodada 8, não se repete — quem parar agora é alcançado pela massa, não pelos cinco montados.
 
 ## A corrida até a linha do deserto
