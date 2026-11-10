@@ -18,18 +18,24 @@ _(o que de fato aconteceu com estes NPCs durante o jogo — ferimento que ficou,
 
 ## Lorde William de Wallace
 
+- **30/09/2026 14:58** · _informação_ — Logo depois da linha, disse que existe um posto comercial a dois dias de viagem que pode ajudar. O grupo acampou logo à frente, e ele propôs descansar de dia e viajar à noite. _(conferido com o WhatsApp L6363)_
+- **02/10/2026 12:01** · _relação_ — Na caravana, ofereceu recomprar qualquer peça de armadura que o Kaelric tivesse perdido ("mas tem q lembrar do calor do deserto"), e cumpriu. _(conferido com o WhatsApp L6956 e L7046)_
 - **03/10/2026 17:50** · _item_ — ERRATA DO MESTRE (roll6, 03/10/2026): a ficha de William troca Espadas de Lâmina Larga 13 e Escudo 15 por Espadas de Duas Mãos 13 (Aparar 6, sem Bloqueio). Empunha um Montante com as duas mãos, ponta romba: 1D+4 corte / 1D+1 contusão (BAL+2 / GDP+2; MB, tabela de armas, Cimitarra 'idêntico ao Montante, mas usado c/ 2 mãos'). Sem escudo. Cota de malha, camal e coturnos seguem na sela do cavalo do Kaelric, não vestidos: Esquiva 5, DP 0, RD 0. Vel. Básica 5,50, Deslocamento 5.
 - **03/10/2026 17:52** · _item_ — ERRATA DO MESTRE (roll6, 03/10/2026), substitui a anotação do Montante: a arma de William é um ESPADÃO de duas mãos, ponta romba, 3,5 kg: 1D+5 corte (BAL+3) / 1D+1 contusão (GDP+2), alcance 1 e 2, ST mínima 12 (ele tem 12). Espadas de Duas Mãos 13, Aparar 6, sem escudo.
 - **03/10/2026 23:51** · _ferimento_ — Turno 20: levou uma adaga do Reptante 4 e perdeu 2 PV (9/11). Age com -2 no próximo turno. Está em (10,9) com o espadão preparado.
 - **05/10/2026 14:32** · _ferimento_ — Turno 23: PV -6, caído e atordoado em (10,8) (garras do Reptante 4 nos órgãos vitais). Testa HT 11 a cada turno para seguir consciente; espadão preparado.
+- **05/10/2026 20:47** · _informação_ — Por que desceu da carroça (resposta do Mestre ao Bruno): "vcs estão sendo atacados, ele ia ajudar. Não foi contra os mortos pq tem um trauma de zumbi, mas ele era um cavaleiro." _(conferido com o WhatsApp L8142)_
 - **05/10/2026 20:23** · _morte_ — Turno 24: MORREU em (10,8). O Reptante 2 incapacitou a perna dele (PV -11) e ele falhou o teste de HT 11 contra a morte (tirou 13).
 - **06/10/2026 12:57** · _morte_ — Dia 13: os PJs o enterraram no deserto. A bolsa de moedas dele tinha $5.000, recolhida do corpo e dividida entre os 5 PJs da mesa ($1.000 cada).
+- **06/10/2026 11:26** · _informação_ — Tinha descendentes. O Henrique quis saber quem era o próximo na linha de sucessão de Wallace, e o Mestre respondeu: "Tinha, o guarda sabe e explica". Edric sabe quem é o herdeiro. _(conferido com o WhatsApp L8278-8282)_
+- **06/10/2026 12:41** · _morte_ — Como foi o enterro: enquete "Enterra" 2 × "Leva o corpo na carroça" 2 (cortar a cabeça e outra coisa: 0). Empate; o André, líder, tem o voto de minerva, e o corpo foi ENTERRADO ali. O Kaelric fez os ritos fúnebres, com Edric como testemunha ("Caso nós o enterremos, eu farei os ritos fúnebres, com esse soldado como testemunha"). _(conferido com o WhatsApp L8284-8328)_
 
 ## Edric Halloway
 
 - **03/10/2026 18:00** · _informação_ — Guarda do castelo de Wallace, NPC de 75 pontos (ST 12 DX 12 IQ 10 HT 11, PV 11, Fadiga 12, Deslocamento 5). Espada curta 1D+3 corte (Espadas Curtas 14, Aparar 7) e escudo médio DP 3 (Escudo 14, Bloqueio 7); sem armadura no deserto. Cadastrado no roll6 (npcId 13, token Guarda) e colocado no mapa 3 em x9 y11, de frente para o norte (mapNpcId 19). Ainda não entrou em cena na narração.
 - **05/10/2026 20:23** · _item_ — Turno 24: Ataque Total, estocada de espada curta (perfurante, dano estimado 1D GDP) matou o Reptante 2. Sem defesa ativa até o próximo turno.
 - **05/10/2026 22:56** · _informação_ — Presenciou a morte de Lorde William no turno 24 e ficou desesperado: ajoelhou ao lado do corpo, tentou acordá-lo e perdeu o ânimo; o castelo caído e o senhor morto. Sem ordem de quem seguir.
+- **06/10/2026 11:26** · _informação_ — Sabe quem é o herdeiro de William e a linha de sucessão de Wallace, e explica a quem perguntar (resposta do Mestre ao Henrique). _(conferido com o WhatsApp L8282)_
 - **06/10/2026 14:56** · _ferimento_ — Dia 16: Fadiga 3/12 e PV 6/11 por sede e fome (a fome o cobrou em PV: 3).
 
 ## Reptante 3
@@ -39,6 +45,7 @@ _(o que de fato aconteceu com estes NPCs durante o jogo — ferimento que ficou,
 
 ## Reptante 1
 
+- **05/10/2026 23:01** · _informação_ — Ao fim do turno 25 o Mestre escreveu "Um dos reptante está vivo, mas inconsciente"; a narração publicada logo depois (Narração 25) fala em dois vultos caídos, o R1 e o R3. Vale a narração: os dois estavam vivos e inconscientes. _(conferido com o WhatsApp L8182)_
 - **05/10/2026 14:32** · _ferimento_ — Turno 23: PV -16, inconsciente (HT 12 tirou 15) em (5,5), perna incapacitada. Novo teste de HT contra a morte ao chegar a -17.
 
 ## Reptante 2

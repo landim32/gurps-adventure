@@ -80,6 +80,8 @@ No repouso da tarde, porém, o corpo fez o que corpo faz quando come, bebe e dor
 > NelsOwned 3d [5, 5, 4] = *14* → *falha por 2* · continua *−4/13*, deitado, inteiro de
 > vontade e quebrado de corpo
 
+_(errata, conferido com o WhatsApp L6879-6882: o Negrum passou 3 horas procurando água, e o Mestre tinha avisado antes que quem fizesse isso não recuperava vida no dia — "Tudo bem..", respondeu o Bruno. O crítico não cura: ele **segue 9/12**, e não 10. A conta certa vale daqui em diante em `saude.md`.)_
+
 E foi quando o terceiro dia estava quase batendo na porta que o céu começou a cuspir fumaça.
 Um dardo, depois outro, cada um no seu pedaço de azul. E depois, o que ninguém espera ouvir
 no meio do nada: um sino de camelo, e uma voz humana reclamando de algo em árabe, com
@@ -171,9 +173,9 @@ portões de Ferrier.
 Quem leva a carroça amanhã, o que se faz antes de o sol esquentar e se a armadura de Reptante
 sai da carroça para as costas do bárbaro — me digam hoje à noite.
 
-### Narração 4 — 02/10/2026 19:44
+### Narração 4 — 02/10/2026 18:28
 
-_Dia 4: rumo errado do Negrum custa o dia inteiro, e o poço amargo devolve um barril; sem cura baixada neste dia_
+_Dia 4: rumo errado do Negrum custa o dia inteiro, e o poço amargo devolve um barril; cura natural rolada para os quatro feridos_
 
 *DIA 4 — O POÇO QUE NÃO PRESTA*
 
@@ -201,11 +203,13 @@ No repouso, quem podia, dormiu o suficiente. O templário tentou e não consegui
 > Negrum: HT 12, 3d [1,2,4] = 7 → SUCESSO por 5 → **11/12**
 > NelsOwned: HT 13, 3d [1,5,5] = 11 → SUCESSO por 2 → **-2/13**, acamado; não levanta enquanto a vitalidade não passar de zero
 
+_(errata, conferido com o WhatsApp L7141-7144: esta cura vale. O histórico tinha baixado o dia 4 "sem cura"; agora está lançada em `saude.md`. Com a errata do dia 2, o Negrum chega aqui a **10/12**, não 11.)_
+
 Lorde William olhou para o poço um tempo longo demais e disse uma coisa só, para o bárbaro, sem levantar a voz: que o deserto não cobra de quem anda, cobra de quem erra. Amanhã é outro dia, outro rumo, e a conta de água agora é de três dias e três quartos para cinco dias de areia.
 
 *Decidam esta noite, antes de eu apagar a fogueira:* **Enche-se o barril no poço amargo, ou não se enche?** E amanhã, **quem vai na frente lendo o chão** — o bárbaro de novo, com a cara dele depois de hoje, ou outro?
 
-### Narração 5 — 02/10/2026 19:44
+### Narração 5 — 02/10/2026 19:49
 
 _Dia 5: a tabela deu 10, nada; rumo acertado no fio da navalha, 30 km andados e os quatro feridos curando 1 PV_
 
@@ -264,6 +268,8 @@ RESOLVIDO DEPOIS DISSO (a mesa respondeu, e os dados saíram):
 > Cura natural, HT: Negrum 3d [2,6,1] = 9 → SUCESSO por 3 → **11/12**
 > Cura natural, HT: NelsOwned 3d [1,1,6] = 8 → SUCESSO por 5 → **-2/13**, continua acamado
 
+_(errata, conferido com o WhatsApp L7210-7233: as quatro curas deram certo, mas o caderno do dia 4 já tinha somado o ponto e o do dia 5 não somou o seu. Valem **Jah 9/12**, **Negrum 11/12** (10 do dia 4 com a errata do dia 2, +1) e **NelsOwned −1/13** — este último o próprio Mestre confirmou: "eu ja tava com -2/13" / "Tava mesmo". Daqui até o dia 11 o Jah está 1 PV acima do que as narrações mostram.)_
+
 ### Narração 6 — 02/10/2026 20:47
 
 _Dia 6: rumo errado de novo custa o dia inteiro; cisterna enterrada enche os seis barris (220 L no fim do dia) e quatro feridos curam; NelsOwned a um ponto de levantar_
@@ -281,6 +287,8 @@ escada para dentro.
 > a linha do livro diz um dia)
 > Carreiro: Comam, NH 13 (= pré-definido Cavalgar 15 -2), 3d [1,3,3] = 7 → SUCESSO por 3
 > Jah gastou a **Sorte** para virar o resultado do dia, e ela virou
+
+_(errata, conferido com o WhatsApp L7214-7223: o Jah **não** gastou a Sorte. Ele pediu ("deixa eu tentar e usar a Sorte"), o Mestre perguntou "Mas pra q?", e ele desistiu: "Então blza, bora confiar. Fico na minha, tratando minhas facas novas". A Sorte segue disponível.)_
 
 A tarde inteira foi corda e balde. Os quatro animais beberam até a barriga bater no chão e o
 restante subiu em couro para dentro dos barris, um por um, enquanto o cocheiro xingava a
@@ -472,7 +480,7 @@ se bebe.
 > **Deixar a carroça**: quem tem força segue a pé com um odre. O templário não tem: ele está
 > em 8/12 e não anda, e o cavalo dele é a única coisa entre ele e o chão.
 
-### Narração 10 — 02/10/2026 23:34
+### Narração 10 — 03/10/2026 08:19
 
 _Dia 10: oásis fora do mapa enche os seis barris (300 L) e a comida fica intacta; o rumo falha outra vez, e a conta deixa de ser água — é guia_
 
@@ -509,6 +517,8 @@ No repouso, e com a barriga cheia de água limpa, quatro dos cinco corpos subira
 > Cura natural, HT 13: NelsOwned 3d [5,3,1] = 9 → SUCESSO por 4 → **3/13**
 > Cura natural, HT 12: Jah 3d [6,5,5] = 16 → **FALHA por 4, terceira noite seguida** → **9/12**
 > Sem sede hoje: ninguém perde Fadiga nem PV
+
+_(errata, conferido com o WhatsApp L7487: na véspera, às 23:21, o Mestre anunciou o oásis com "descanso de verdade (**Fadiga e PV de sede voltam hoje**)". Esta narração não devolveu. Volta a todos o −1 de Fadiga e o −1 de PV da sede do dia 9: **Kaelric 10/12**, **Jah 11/12** (com as erratas dos dias 4 e 5), **NelsOwned 4/13**; Comam e Negrum já estavam cheios de PV pela cura e só recuperam a Fadiga. A água fica nos **300 L** desta narração, publicada depois e base da conta do dia 11 — o "mais um barril cheio" do aviso de 23:21 foi superado por ela.)_
 
 E aqui está o que a mesa precisa saber, dito com o número na mão e sem rodeio: **a água não era
 o problema.** Trezentos litros é o máximo que esta carroça carrega, e ainda assim não chega.
@@ -961,6 +971,8 @@ Jah aperta as pernas no cavalo e toma o resto da duna em galope, saca uma faca d
 > 3d [4, 6, 3] = *13* → sucesso por 2
 > Jah mira o Reptante 4: sem disparo neste turno
 
+_(errata, conferido com o WhatsApp L8164-8168: o Ricardo declarou "Avançar com o cavalo o máximo que der, sacar rápido adaga e mirar no Reptante 2", e o Mestre respondeu que "O cavalo andou 3 no turno passado, agora ele pode andar **6**". O movimento lançado foi de 1 hex; o declarado era o máximo, 6. O alvo passou ao R4 porque o R2 já estava morto. As posições do turno não foram refeitas.)_
+
 Comam sacode a vertigem da cabeça e arranca a cimitarra com a mão esquerda, largando uma picareta. Do chão mesmo, sentado, abre a perna do reptante.
 > Sair do atordoamento: HT 13, 3d [4, 2, 2] = *8* → sucesso por 5
 > Sacar Rápido (Espada) NH 15, 3d [5, 4, 2] = *11* → sucesso por 4
@@ -981,6 +993,8 @@ Negrum salta sobre o corpo de Lorde William e desce em cima do reptante, de espa
 > Dano: 2D+2: [6, 3] = *11* · RD 1 → *10* · Corte ×1,5 → *15*
 > *Reptante 4 perde 15 pontos de vida (PV -9) e MORRE, empalado* — decisão do Mestre
 > Negrum fez Ataque Total: sem defesa ativa até o próximo turno.
+
+_(errata, conferido com o WhatsApp L8123-8125: o Bruno declarou "ataque total e com a espada na frente" e "Mirar a espada onde der.. no corpo mesmo" — o alvo declarado era o **tronco**, e não a cabeça. No tronco o NH seria 17 +4 = 21. O resultado do turno não foi refeito: o reptante morreu do mesmo jeito, por decisão do Mestre.)_
 
 Kaelric empurra o cavalo meio hexágono para frente e prepara a maça.
 
@@ -1197,18 +1211,18 @@ Não há água nos barris nem ração nos sacos. O dia passa em seco.
 <!-- indice:acontecimentos -->
 - **30/09/2026 11:58** — A travessia começou com a caravana já dentro do deserto, logo depois da linha. A carroça segue devagar, carregada, com o Comam nas rédeas. Vurkash e o exército ficaram do lado de Caithness. O primeiro dia de marcha ainda não foi rolado.
 - **30/09/2026 12:06** — Fim da luta, teste de HT da perna do Kaelric (MB 12): HT 12 tirou 11, sucesso por 1. Lesão temporária — coxo até voltar a 12 PV. A pé não caminha; montado, -1 em Cavalgar.
-- **30/09/2026 12:06** — Fim da luta, teste de HT do braço do machado do NelsOwned (MB 12): HT 12 tirou 16, falha por 4. Lesão permanente. O machado grande não serve. Amputação ou dano permanente ainda não foi escolhida.
+- **30/09/2026 12:06** — Fim da luta, teste de HT do braço do machado do NelsOwned (MB 12): HT 12 tirou 16, falha por 4. Lesão permanente. O machado grande não serve. _(errata, conferido com o WhatsApp L6407: às 15:46 o Mestre decidiu — "se tua aceita, a gente vai cortar essa mão, por enquanto ela só tá morta! Mas um mago faz crescer de novo". Foi amputação.)_
 - **30/09/2026 12:37** — NelsOwned lançado na ficha como Maneta (mão esquerda), desvantagem adquirida em jogo a custo 0. O total permanece 150.
 - **02/10/2026 09:20** — [narração 1] Dia 1 da travessia: Carreiro do Comam decisivo, 30 km andados, 80 litros descontados (sobram 220) e NelsOwned acorda acamado
 - **02/10/2026 11:46** — [narração 2] Dia 2: marcha cheia, Negrum nao acha agua, caravana encontrada com preco +50% e servico cobrado antes; curas por teste de HT
 - **02/10/2026 17:14** — [narração 3] Dia 3 na barra: reacoes do Comercio, armadura de Reptante no Negrum, machado de uma mao no NelsOwned, tres tratados pelo curandeiro; a rota do William acabou aqui
-- **02/10/2026 19:44** — [narração 4] Dia 4: rumo errado do Negrum custa o dia inteiro, e o poço amargo devolve um barril; sem cura baixada neste dia
-- **02/10/2026 19:44** — [narração 5] Dia 5: a tabela deu 10, nada; rumo acertado no fio da navalha, 30 km andados e os quatro feridos curando 1 PV
+- **02/10/2026 18:28** — [narração 4] Dia 4: rumo errado do Negrum custa o dia inteiro, e o poço amargo devolve um barril; cura natural rolada (Jah e Negrum +1, NelsOwned +1, Kaelric falha) _(errata, conferido com o WhatsApp L7120-7144: antes constava "sem cura baixada neste dia" e o horário 19:44)_
+- **02/10/2026 19:49** — [narração 5] Dia 5: a tabela deu 10, nada; rumo acertado no fio da navalha, 30 km andados e os quatro feridos curando 1 PV
 - **02/10/2026 20:47** — [narração 6] Dia 6: rumo errado de novo custa o dia inteiro; cisterna enterrada enche os seis barris (220 L no fim do dia) e quatro feridos curam; NelsOwned a um ponto de levantar
 - **02/10/2026 20:57** — [narração 7] Dia 7: rumo errado de novo, viajante de Caithness entrega peste em Blythe e que Ferrier não abre sem pedir passagem, e NelsOwned passa de zero e levanta
 - **02/10/2026 22:46** — [narração 8] Dia 8: um Moa atravessa o claro e eles contornam; rumo errado de novo (quarto dia perdido), sobram 60 litros contra 110 km de areia
 - **02/10/2026 23:16** — [narração 9] Dia 9: nada aconteceu e a água acabou — 75 litros de despesa contra 60, todos bebem 2,85 L e perdem 1 Fadiga e 1 PV; rumo errado pela quinta vez
-- **02/10/2026 23:34** — [narração 10] Dia 10: oásis fora do mapa enche os seis barris (300 L) e a comida fica intacta; o rumo falha outra vez, e a conta deixa de ser água — é guia
+- **03/10/2026 08:19** — [narração 10] Dia 10: oásis fora do mapa enche os seis barris (300 L) e a comida fica intacta; a Fadiga e o PV da sede do dia 9 voltam; o rumo falha outra vez, e a conta deixa de ser água — é guia _(errata, conferido com o WhatsApp L7487 e L7495: horário era 02/10 23:34, e faltava a devolução da sede)_
 - **03/10/2026 08:24** — DIA 11 (turno 17, roll6) — tabela do dia: 10, nada. Água 300 -75 = 225 L; comida 15 -7 = 8 pessoas-dia. Carreiro do Comam 13, 3d [4,5,2] = 11, sucesso por 2. Rumo do Negrum 9, 3d [6,3,4] = 13, FALHA por 4: 0 km, sexto erro de rumo; seguem 90 km andados, faltam 110. Cura natural: Kaelric HT 12 tirou 13 (falha, 9/12); Jah HT 12 tirou 9 (10/12); NelsOwned HT 13 tirou 10 (4/13). Comam e Negrum inteiros. ERRATA: tabela havia sido informada como 4 (oásis) e foi corrigida para 10; todos os dados refeitos por ordem do Mestre.
 - **03/10/2026 08:27** — [narração 11] Dia 11: tabela deu 10, nada; rumo errado de novo (0 km, 90 andados), 225 L e 8 pessoas-dia restam; Kaelric falha a cura, Jah e NelsOwned curam 1 PV
 - **03/10/2026 08:31** — [narração 12] Teste de Visão do grupo: Kaelric e Jah avistam uma caravana pequena no horizonte; Comam, Negrum e NelsOwned não
@@ -1231,7 +1245,7 @@ Não há água nos barris nem ração nos sacos. O dia passa em seco.
 - **05/10/2026 20:22** — TURNO 24 (roll6) — Ordem por Velocidade Básica. Jah: Cavalgar 14, 3d [2,4,6]=12, cavalo salta o corpo caído (decisão do Mestre), 6 de movimento. Comam: Ataque Total duplo com picaretas na cabeça do R4: 16-5=11, 3d [1,6,6]=13 errou; 16-5-4 mão inábil=7, 3d [6,4,2]=12 errou; 3 de movimento contra limite 2,5, aceito como jogado. Negrum: 3 pontos de movimento (limite do Ataque Total 3) mas parou a 3 hex do R2: só moveu, sem Ataque Total. Kaelric: golpe com escudo (MB p.123, empurrão por ST decidido pelo Mestre) Escudo 16, 3d [3,4,2]=9; R2 esquiva 6, 3d [1,1,2]=4 defesa decisiva, sem erro crítico (errata do turno 22). NelsOwned só move 5. R2 em William (atordoado, indefeso): Garras 12-2 perna=10, 3d [1,6,3]=10; esquiva 5-4=1, 3d [1,5,2]=8 falhou; 1D+2=8, x1,5=12, teto 5: perna incapacitada, William 5 PV (PV -11); HT 11 contra a morte 3d [2,5,6]=13 MORRE. R4 em Comam (Ataque Total, indefeso; dado antes rolado contra William descartado por William já estar morto): Garras 12-2=10, 3d [3,1,1]=5; DP 2, 3d [2,5,5]=12 falhou; 1D+2=8, RD 2, x1,5=9, teto 6: perna incapacitada, Comam -6 PV (7/13), atordoado, sem redutor por Hipoalgia. Edric Ataque Total órgãos vitais em R2: ERRATA/DECISÃO DO MESTRE: estocada perfurante (1D GDP estimado), 14+4-3=15, 3d [1,3,3]=7; esquiva 6, 3d [6,2,4]=12 falhou; 1D=6, RD 1 =5, x3=15; HT 12 3d [4,4,1]=9 de pé; HT 12 contra a morte 3d [3,5,6]=14 MORRE. R1 e R3 inconscientes.
 - **05/10/2026 20:23** — [narração 21] Turno 24: Reptante 2 mata Lorde William, Reptante 4 aleija Comam, Edric mata o Reptante 2 com estocada nos órgãos vitais
 - **05/10/2026 20:29** — [narração 22] Comam passa no HT da perna incapacitada (HT 13, tirou 7): lesão temporária, cura quando recuperar todos os PV
-- **05/10/2026 22:50** — TURNO 25 (roll6) — Ordem por Velocidade Básica. Jah: Sacar Rápido (Adaga) 15 com faca (decisão do Mestre), 3d [4,6,3]=13; mira o R4, move para (8,3) (decisão do Mestre: um hex à frente). Comam: HT 13 3d [4,2,2]=8 sai do atordoamento; larga uma picareta, Sacar Rápido (Espada) 15, 3d [5,4,2]=11; Espadas de Lâmina Larga 18 -2 perna -2 sentado = 14, 3d [3,5,3]=11 em R4; esquiva 6, 3d [3,2,2]=7 falhou; 2D=10, RD 1, x1,5=13, teto 6: perna incapacitada, R4 6 PV, atordoado. Negrum: Ataque Total, Espadas 17 -5 cabeça +4 = 16, 3d [4,3,5]=12; esquiva 6-4=2, 3d [3,6,4]=13 falhou; 2D+2=11, RD 1, x1,5=15; R4 PV -9. DECISÃO DO MESTRE (ERRATA): R4 MORRE empalado pela espada do Negrum. NelsOwned alcança o Comam (decisão do Mestre) e ST 13, 3d [4,5,6]=15, falha em arrastá-lo; termina em (9,5). Kaelric prepara a maça. Edric sem alvo: não ataca (dados descartados). R1 e R3 inconscientes.
+- **05/10/2026 22:50** — TURNO 25 (roll6) — Ordem por Velocidade Básica. Jah: Sacar Rápido (Adaga) 15 com faca (decisão do Mestre), 3d [4,6,3]=13; mira o R4, move para (8,3) (decisão do Mestre: um hex à frente). Comam: HT 13 3d [4,2,2]=8 sai do atordoamento; larga uma picareta, Sacar Rápido (Espada) 15, 3d [5,4,2]=11; Espadas de Lâmina Larga 18 -2 perna -2 sentado = 14, 3d [3,5,3]=11 em R4; esquiva 6, 3d [3,2,2]=7 falhou; 2D=10, RD 1, x1,5=13, teto 6: perna incapacitada, R4 6 PV, atordoado. Negrum: Ataque Total, Espadas 17 -5 cabeça +4 = 16, 3d [4,3,5]=12; esquiva 6-4=2, 3d [3,6,4]=13 falhou; 2D+2=11, RD 1, x1,5=15; R4 PV -9. DECISÃO DO MESTRE (ERRATA): R4 MORRE empalado pela espada do Negrum. NelsOwned alcança o Comam (decisão do Mestre) e ST 13, 3d [4,5,6]=15, falha em arrastá-lo; termina em (9,5). Kaelric prepara a maça. Edric sem alvo: não ataca (dados descartados). R1 e R3 inconscientes. _(errata, conferido com o WhatsApp L8123-8125 e L8165-8168: o Negrum declarou Ataque Total "no corpo mesmo", isto é, no tronco (NH 21), e não na cabeça; o Jah declarou "avançar com o cavalo o máximo que der", e o Mestre disse que o cavalo podia andar 6, não 1. O turno não foi refeito.)_
 - **05/10/2026 22:50** — [narração 23] Turno 25: Comam aleija o Reptante 4 e Negrum o empala; não há mais reptante de pé
 - **05/10/2026 22:56** — [narração 24] Edric, desesperado, chora a morte de Lorde William na areia
 - **05/10/2026 23:15** — [narração 25] Negrum falha no teste de Vontade contra a Sanguinolência e avança sobre os dois reptantes caídos
@@ -1240,20 +1254,73 @@ Não há água nos barris nem ração nos sacos. O dia passa em seco.
 - **06/10/2026 12:57** — [narração 28] Fim do dia 13: William enterrado, bolsa de $5.000 dividida, Jah dirige a carroça, Fadiga recuperada; 90 L e 5 pessoas-dia
 - **06/10/2026 13:11** — DIA 14 (turno 26, roll6; o dia vale um turno por ordem do Mestre) — tabela do dia: 9, corpo na areia já saqueado. Carreiro do Jah (Cavalgar 14-2) 12, 3d [4,1,6]=11, sucesso por 1. Navegação do Yusuf 12 em terra, 3d [4,5,4]=13, FALHA por 1: 0 km, rumo errado; 120 km andados, faltam 80. Água 90 -75 (7 bocas x5 + 4 montarias x10) = 15 L. Comida 5 -5 = 0 (feridos primeiro: Nels, Comam, Kaelric e Jah comem o dia; Negrum, Edric e Yusuf dividem 3 refeições, 1 cada: -2 Fadiga). Cura natural só para quem comeu: Nels HT 13 3d [1,4,5]=10 +1 PV; Comam HT 13 3d [4,3,2]=9 +1 PV; Kaelric HT 12 3d [3,6,6]=15 falha; Jah HT 12 3d [6,5,5]=16 falha.
 - **06/10/2026 13:11** — [narração 29] Dia 14: rumo errado de novo (Yusuf 13 contra NH 12), 0 km; 15 L de água e zero comida, Fadiga de fome em Negrum, Edric e Yusuf
-- **06/10/2026 14:47** — DIA 15 (turno 27, roll6; o dia vale um turno por ordem do Mestre) — tabela do dia: 10, nada. Carreiro do Jah (Cavalgar 14-2) 12, 3d [5,1,5]=11, sucesso por 1. Navegação do Yusuf 12 em terra, 3d [6,3,4]=13, FALHA por 1: 0 km, rumo errado; 120 km andados, faltam 80. Água 15 -> 0: montarias primeiro (decisão do Mestre, precedente do dia 9): 15 L / 4 = 3,75 L de 10 cada (37,5%), -1 PV e -1 Fadiga por animal (proporcional à regra dos homens); pessoas com menos de 1 L: -2 Fadiga e -2 PV cada. Comida 0: todos -3 Fadiga (3 refeições). Ninguém cura. Por pessoa: -5 Fadiga e -2 PV.
+- **06/10/2026 14:47** — DIA 15 (turno 27, roll6; o dia vale um turno por ordem do Mestre) — tabela do dia: 10, nada. Carreiro do Jah (Cavalgar 14-2) 12, 3d [5,1,5]=11, sucesso por 1. Navegação do Yusuf 12 em terra, 3d [6,3,4]=13, FALHA por 1: 0 km, rumo errado; 120 km andados, faltam 80. Água 15 -> 0: montarias primeiro (ENQUETE dos jogadores, 3 votos a 1, com o Ricardo votando às 14:42 — _errata, conferido com o WhatsApp L8384-8393: antes constava "decisão do Mestre"_): 15 L / 4 = 3,75 L de 10 cada (37,5%), -1 PV e -1 Fadiga por animal (proporcional à regra dos homens); pessoas com menos de 1 L: -2 Fadiga e -2 PV cada. Comida 0: todos -3 Fadiga (3 refeições). Ninguém cura. Por pessoa: -5 Fadiga e -2 PV.
 - **06/10/2026 14:47** — [narração 30] Dia 15: rumo errado de novo (Yusuf 13 contra NH 12), 0 km; água zerada e sem comida; sede e fome nos homens e nas montarias
 - **06/10/2026 14:56** — DIA 16 (turno 28, roll6; o dia vale um turno por ordem do Mestre; o Mestre disse 'dia 17', e eu confirmei que era o 16) — tabela do dia: 11, nada, mas escutam barulhos. Carreiro do Jah (Cavalgar 14-2) 12, 3d [1,4,6]=11, sucesso por 1. Navegação do Yusuf 12, 3d [4,6,2]=12, SUCESSO por 0: +30 km, 150 andados, faltam 50. Água 0, comida 0. Sede (0 L): -2 Fadiga e -2 PV por pessoa; fome: -3 Fadiga que PARA EM ST 3 e o resto vira perda de PV (MB cap. 12, Inanição; Mestre mandou conferir). Ordem: sede primeiro, depois fome. Comam F3 PV5; Kaelric F3 PV6; Jah F2 PV4 (fome 3 em PV); Negrum F3 PV8; Nels F5 PV2; Edric F3 PV6. Montarias 0 L (<20%): -2 PV e -2 Fadiga cada: tiro PV 9/12 F57/60; batalha PV 12/15 F47/50. Ninguém cura.
 - **06/10/2026 14:56** — [narração 31] Dia 16: rumo certo (Yusuf 12), +30 km (150 andados, faltam 50); sem água e sem comida, a fome passa a custar PV
 - **06/10/2026 15:12** — CAPÍTULO 7 ENCERRADO (ordem do Mestre): A Travessia do Grande Deserto. Fecha no dia 16 com 150 km andados dos 200, sem água nem comida, e o rumo certo do Yusuf (NH 12, 3d 8) que leva a comitiva ao oásis na manhã do dia 17. Mortes do capítulo: Lorde William de Wallace (turno 24) e os Reptantes 2 e 4; os Reptantes 1 e 3 ficaram inconscientes. Bolsa de William ($5.000) dividida entre os 5 PJs. Jah passou a dirigir a carroça.
 - **30/09/2026 14:55** — [export WhatsApp de 30/10] Regras de gasto de pontos (Mestre): um atributo por vez, o segundo custa o dobro; perícia sobe só +1 NH e só as usadas na campanha; perícia nova custa ½ ponto; subir atributo sobe de graça as perícias dele; escudo exige treino. Treino pelo livro seria 200 h por ponto (800 h sem professor), mas a mesa libera pela experiência intensa.
 - **30/09/2026 17:00** — [export WhatsApp de 30/10] Maneta do NelsOwned: se um mago curar a mão, ele recebe de volta os 15 pontos da desvantagem (exceção ao teto de -40). Gancho (André): anão trovador frustrado que procura um mago para recuperar o braço.
-- **30/09/2026 18:22** — [export WhatsApp de 30/10] Pedido de Henrique: Escudo +1 e Cavalgar +1 com os 6 pontos de Kaelric. Pedido, sem confirmação escrita do Mestre; fica como pedido, a ficha não foi tocada. 01/10 21:40: Bruno pediu Espadas +1, Corrida nova e Briga 16 (sobra ½); mesma situação.
+- **30/09/2026 18:22** — [export WhatsApp de 30/10] Pedido de Henrique: Escudo +1 e Cavalgar +1 com os 6 pontos de Kaelric. CONFIRMADO pelo Mestre em 01/10 06:54: "Bom dia, todos estão atualizados, as fichas estão lá no roll6" _(errata, conferido com o WhatsApp L6596: antes constava "sem confirmação escrita")_. 01/10 21:40-21:49: Bruno pediu Escudo, Corrida e Briga; o Mestre lembrou que só sobe +1 NH no que foi usado na campanha e que ele não usou escudo; ficou Espadas +1 (8 pts), Corrida nova (½) e Briga +1 (2), sobra ½ — sem resposta escrita do Mestre a este último pedido.
 - **01/10/2026 22:07** — [export WhatsApp de 30/10] Discurso de William na areia: 200 km até Ferrier (feudo do barão Nabbick), 7 dias a 30 km/dia, 300 L de água, 4 sacos de comida, 8 bocas; a caravana do Nasir está a 2 dias, com 43 camelos (um camelo = 5 dias de água); William repaga o que se perder e ainda deve metade do combinado. 22:18: conta de mantimentos do fim do dia 1.
 - **02/10/2026 12:00** — [export WhatsApp de 30/10] Dia 2 (caravana, linha 12 da tabela): preço +50% por perder camelo e dois homens, camelo a $1.200 ($1.800 com o ágio). William já conseguiu água e comida para mais 3 dias.
 - **02/10/2026 14:09** — [export WhatsApp de 30/10] Pagamento da segunda metade de William (+$1.000 por PJ): os saldos de 14:06 do chat batem com a conta, mas a fala do Mestre sobre o pagamento não foi localizada. Mantida como decisão do Mestre.
 - **02/10/2026 12:20** — [export WhatsApp de 30/10] ERRATAS de conta do Mestre (vale o resultado do chat, a conta certa fica aqui): dia 2, Negrum Sobrevivência 11 com 3d [6,1,1] = 8 (sucesso por 3; o chat imprimiu 13, falha por 2), e a água não foi achada; dia 6, Carreiro 13 com 3d 7 é sucesso por 6 (o chat disse 3); dia 2, NelsOwned HT 13 com 3d 14 é falha por 1 (o chat disse 2).
 - **02/10/2026 17:38** — [export WhatsApp de 30/10] Dia 3, Jah com o médico: Medicina 15, 3d 6 é sucesso comum por 9 (o crítico vai até 5), cura 2 PV. Sem "sucesso crítico".
-- **03/10/2026 12:00** — [export WhatsApp de 30/10] Dia 8, enquete do Moa: 2 a 2; o André, líder, usa o voto de minerva e decide não caçar (Bruno ficou fora e depois disse que votaria sim). Dia 7: o ferido que morreu foi o Piqueiro (pernas amputadas no portão), na madrugada, o que explica a despesa de 75 L do dia 9. Nome fixado ao processar o export; o chat só diz "um dos feridos".
+- **03/10/2026 12:00** — [export WhatsApp de 30/10] Dia 8, enquete do Moa: 2 a 2; o André, líder, usa o voto de minerva e decide não caçar (Bruno ficou fora e depois disse que votaria sim; o Mestre: "Não ia adiantar, o André tem o voto de minerva e ele votou não"). Dia 7: o ferido que morreu foi o Piqueiro (pernas amputadas no portão), na madrugada, o que explica a despesa de 75 L do dia 9. Nome fixado ao processar o export; o chat só diz "um dos feridos".
 - **05/10/2026 23:17** — [export WhatsApp de 30/10] Reptantes R1 e R3 (inconscientes): Negrum falha na Vontade contra Sanguinolência (14, falha por 5) e os mata. O Mestre fecha com "Não tem mais quem interrogar...". Ficam mortos, e não "inconscientes" como diziam o grupo.md e o npcs.md.
 - **06/10/2026 13:12** — [export WhatsApp de 30/10] Observação: o Mestre disse às 11:48 que quem guia a carroça não tem cura natural, mas Jah (carreiro) rolou a dele no dia 14 (HT 12, 3d 16, falhou). Engano do Mestre sem efeito no resultado.
+- **30/09/2026 11:19** — [conferência do WhatsApp, 10/11] Henrique (Kaelric), já curado a 1 PV: "Então, assim que der, vou fazer primeiros socorros no Jah e no Nelsow." Ficou na intenção; o Comam atou o Nels e o Jah atou a si mesmo na mesma meia hora. (L6217)
+- **30/09/2026 14:58** — [conferência do WhatsApp, 10/11] Mestre: "O Sir William disse que existe um posto comercial a dois dias de viagem q pode ajudar. Logo a frente vcs acamparam. Ele deu a ideia para descansar de dia e viajar a noite. Nesse acampamento o André pode ajustar o machado." (L6363)
+- **30/09/2026 15:41** — [conferência do WhatsApp, 10/11] Maneta do NelsOwned. André: "se eu assumir que sou maneta e ganhar os 15 pontos, tenho que devolvê-los depois que achar um mágico pra me curar?" Mestre: "Sim"; "Aceita logo essa maneta, e a aventura q molda o personagem. Ai tu treina o escudo depois"; "coloca um gancho"; "ou uma mão de machado, kkk"; e às 15:46: "pq se tua aceita, a gente vai cortar essa mão, por enquanto ela só tá morta! Mas um mago faz crescer de novo". A mão foi amputada. (L6399-6407)
+- **01/10/2026 21:07** — [conferência do WhatsApp, 10/11] Mestre ao Jah, sobre as manobras de volta ao pré-definido: o caminho para elas existirem de verdade é uma escola de artes marciais — "tem conversa de dojô, viagem e mestre para isso, e eu gosto mais dessa versão do que de você comprando um número". 02/10 08:46, Ricardo: "Depois, quando der, eu gostaria sim de buscar alguma escola de artes marciais, hehehe." (L6666, L6827)
+- **02/10/2026 09:15** — [conferência do WhatsApp, 10/11] Antes do fim do dia 1. Henrique: o esquema é achar a caravana do Nasir e arranjar quantos camelos der, talvez trocando o cavalo, "embora eu não queira me desfazer do Pé-de-Pano". Kaelric: "Irmãos, Deus nos guiará pelo caminho de nosso destino, mesmo que soframos provações ao longo do caminho. Rezo para que nosso destino, no momento, seja um oásis, ou a caravana, com água, comida e camelos suficientes para nos dar algum descanso e ajudar nossa travessia." Henrique: "Será que o Negrum consegue nos guiar até a caravana?" Negrum: "Posso tentar, mas o problema é que eu nao sou muito inteligente.. haha / Mas tenho a perícia, pelo menos." Mestre: "O Sir William sabe chegar até lá, até lá não precisa de teste. E a pericia certa é Navegação." (L6829-6834)
+- **02/10/2026 09:29** — [conferência do WhatsApp, 10/11] Declarações para o dia 2. Jah: "Eu vou fazer minhas coisinhas: afiar facas e o dardo. Ainda tenho a bolsa que roubei do ricaço lá, né?" Kaelric (09:41): "Vou rezar, limpar meu escudo e minha maça. Se eu puder fazer primeiros socorros em alguém que precise, eu faço isso primeiro." Negrum (09:56): Sobrevivência no deserto por 3-4 h atrás de água e comida, depois descansa; Mestre: "se fizer isso não vai conseguir recuperar vida no dia"; Negrum: "Tudo bem.. / Não tem problema nao.. so hj.. vai q dá sorte". NelsOwned (10:37): "Eu canto, pra elevar a moral do grupo." (L6869-6888)
+- **02/10/2026 12:01** — [conferência do WhatsApp, 10/11] Na caravana. Mestre ao Henrique: o Sir William pode recomprar qualquer peça de armadura perdida, "mas tem q lembrar do calor do deserto". Pedidos: Kaelric quer cota de malha, coturnos e camal, "não para andar vestido", no cavalo (12:27); Jah quer dardos de arremesso até o limite da Carga Nenhuma (12:55); Negrum quer armadura de couro "e se o kagadu estiver disponível, gostaria de aprender acrobacia tbm" (12:58); André pergunta se pode agir acamado. Regras do Mestre (13:23-13:25): o acamado pode agir, mas nada físico; quem fizer algo físico não faz o teste de HT do dia; um médico dá 1d-2 de cura a mais, mas é pago. André: "Eu quero médico, machado de uma mão e escudo pra adaptar no outro braço"; Jah: médico para tratar o grupo. (L6956-6974)
+- **02/10/2026 14:39** — [conferência do WhatsApp, 10/11] Regra do Mestre depois da tabela de preços: "Pra esperar o escudo ficar pronto, tem q ficar outro dia." O André desiste do escudo: "Quero só o médico e o machado de 1 mão" (15:16). Negrum, sem couro comum à venda: "Vai de reptante mesmo.." (15:18). Jah: "2 Dardos e 8 Facas" e o médico (15:25-15:31). Kaelric: "Putz, não tem minhas armaduras… Então vou querer só o atendimento médico mesmo" (16:19); Mestre: "Tem poh, a tua o Sir William já resolveu" (16:26). (L7011-7047)
+- **02/10/2026 17:23** — [conferência do WhatsApp, 10/11] Negrum: "Não vou vestir a armadura nao. Vou carregar na mochila ou deixar na carroça por enquanto.." e "só vou usar depois q sair do deserto.. carregar 13kg a mais for no reason". (L7115-7118)
+- **02/10/2026 18:40** — [conferência do WhatsApp, 10/11] Resposta à pergunta do poço amargo. Negrum: "Enche o barril pra dar pros animais e a gente toma da água boa"; "E se alguém tiver nh pré-definido melhor q o meu, pode ir aí.. 9 é ruim, mas não impossível." Mestre: "O seu é o melhor." Negrum: "Então vamos denovo ué.. vou tentar durante o dia denovo.. enquanto o pessoal descansa.." (L7153-7158)
+- **02/10/2026 19:51** — [conferência do WhatsApp, 10/11] Dia 6, a cisterna. Jah: "Cara, deixa eu tentar e usar a Sorte"; Mestre: "Mas pra q?" e, às 19:56: a cisterna enterrada dá para armazenar 3 dias de água, mas tirar a água leva a tarde e o dia anda só metade; "Se falhar na navegação, é metade de nada". Jah (20:05): "Então blza, bora confiar. Fico na minha, tratando minhas facas novas" — **não gastou a Sorte**. André (20:36-20:38): "Oxi, eu ja tava com -2/13" (Mestre: "Tava mesmo") e "Bora levar. Vamos perder meio dia pra ganhar 3". (L7214-7233)
+- **02/10/2026 21:15** — [conferência do WhatsApp, 10/11] Kaelric: "Só vou ficar com roupa, maça e escudo. O resto da armadura que comprarei, fica no cavalo, por enquanto." Mestre: "Ninguem comprou camelo, teve atendimento sim, vc tá com 7/12. O andré tá com 1." (L7333-7335)
+- **02/10/2026 21:27** — [conferência do WhatsApp, 10/11] O Moa. André: "Eu só falo 'oooo ema bonita'" / "To fora de tentar qq coisa". Henrique propõe caçar ("Alguém tem caça?? Podíamos tentar abater esse bicho aí") e procurar o ninho e os ovos; "Pô, Coman, dá um tiro de besta na cabeça dessa besta!". O Mestre rolou Naturalista: NelsOwned NH 8, 3d [4,6,4] = 14, falha por 6; Negrum NH 7, 3d [1,3,3] = 7, sucesso por 0; Kaelric NH 7, 3d [2,2,5] = 9, falha por 2; Jah NH 7, 3d [1,1,1] = 3, SUCESSO DECISIVO; Comam NH 6, 3d [3,5,5] = 13, falha por 7 — e mostrou a ficha do Moa. Mestre: "Tá muito longe, tem q chegar o mais perto possível e mirar bem." Enquete "Vai caçar o bicho?": Sim 2, Não 2. Henrique votou sim ("Vou vestir minha armadura pra ajudar na caça. Mas vou ter que ir de cavalo, pois tô coxo"); Jah: "Mano, eu não vou enfrentar essa porcaria não kkkkkk! Quase morri para dois ou três zumbis, tá doido"; André: "Vai nao, relaxa. O ser humano passa muito tempo sem comer / Água que é o problema no deserto". Mestre (22:34): "Acho q é não, o André é o Líder, ele tem q ter o voto de minerva." (L7339-7392)
+- **03/10/2026 00:12** — [conferência do WhatsApp, 10/11] Diante do oásis anunciado. Henrique: "Vamos acampar aqui até nos recuperarmos. Enchemos todos os barris e depois voltamos a viajar. Não rola?"; Ricardo: "Porra! Finalmente! Com certeza!". O Mestre não respondeu à proposta e o dia 11 marchou. Bruno (00:34-00:36): "toda vez falho por 1 ou 2.. sacanagem.." e "ia querer caçar a moa!". (L7488-7493)
+- **03/10/2026 15:30** — [conferência do WhatsApp, 10/11] Os reptantes. Kaelric fala a todos, discretamente, dos 4 reptantes que ele e o Jah viram, e pede ao Comam que diga ao Rato-de-Duna para evitar o bando. Mestre (15:40): "Vc esta em um cavalo, Comam na carroça, ele saem e avançam de forma agressiva, estão a nordeste e noroeste da carroça. O q vcs fazem?" Enquete (16:09): "Luta" 3 votos, "Foge (disparando com os cavalos)" 0. (L7664-7670)
+- **03/10/2026 16:57** — [conferência do WhatsApp, 10/11] Regra do Mestre para cavalo: "Quando o cavalo larga ele começa com uma velocidade 1/3, no segundo turno atinge 2/3 e só no terceiro chega a 100% da velocidade. O mesmo pra frear. Essa regra tá valendo aqui." O cavalo do Jah tem Deslocamento 10: 3 no primeiro turno. (L7673-7680; ver também 04/10 18:58 e 05/10 22:15)
+- **03/10/2026 18:15** — [conferência do WhatsApp, 10/11] Declarações do turno 19. Jah grita: "Reptantes!" e começa a acelerar o cavalo ("Se alguém entrar na frente eu vejo o que acontece"). Negrum (18:41): "eu pularia da carroça e ia pra porrada, mas nao vou ficar aqui sozinho contra os 4... fico na carroça e saco minha espada e equipo o escudo". Kaelric (19:07): prepara o escudo e, se der, a maça no mesmo turno. NelsOwned (19:14): "Eu saco o meu machado". Mestre (19:27): Edric Halloway "é o guarda q tá vivo, q sobrou. O guia tá se escondendo, é um moleque". (L7678-7699)
+- **03/10/2026 19:46** — [conferência do WhatsApp, 10/11] Regra do Mestre: pular da carroça gasta movimento, a menos que se faça uma Acrobacia. (L7731)
+- **04/10/2026 01:00** — [conferência do WhatsApp, 10/11] O Mestre posta a regra do Ataque Total (sem defesa ativa; anda antes até 2 hex ou metade do Deslocamento; escolher entre dois ataques, finta e ataque, +4 no NH ou +2 no dano) e cobra: "Quando for fazer ataque total, tem q falar o q vai fazer" e, com espada, se é corte ou perfuração. Bruno: "Okay. Vou no nh+4. Em corte… Vou ser mais disciplinado daqui pra frente." Henrique, turno 21: "Fico ao lado do soldado, olhando para os reptantes, em **defesa total**." (L7796-7818)
+- **04/10/2026 17:38** — [conferência do WhatsApp, 10/11] Turno 22. Negrum: "Ataque com a espada. Normal. Sem ataque total." Henrique (18:54): "Cavalgo até ficar nas costas do reptante que estava na minha frente, olhando diretamente para as costas dele"; Mestre: "O seu é 4, o deslocamento dele é 12" — Henrique moveu os 4 montado. (L7845-7859)
+- **05/10/2026 20:30** — [conferência do WhatsApp, 10/11] Depois do turno 24. Bruno: não foi no reptante das picaretas porque estava de costas e "nao achei q o Comam fosse errar"; o Mestre: "Nem eu, kkk". Bruno, turno 25: "Vou pular da carroça em cima do reptante q matou o lord William.. ataque total e com a espada na frente!" e "Mirar a espada onde der.. no corpo mesmo". Mestre (20:39): "Vou ter q repensar o enredo todo..."; à pergunta do Bruno sobre por que William desceu: "vcs estão sendo atacados, ele ia ajudar. Não foi contra os mortos pq tem um trauma de zumbi, mas ele era um cavaleiro". André (21:06): "Vou puxar o Comam pra longe do reptante". Henrique (22:28): manobra para terminar com a cabeça do cavalo no hexágono que queria, "E preparo minha maça". (L8118-8178)
+- **05/10/2026 23:01** — [conferência do WhatsApp, 10/11] Fim da luta. Mestre: "Acabou, o q vcs fazem agora? Um dos reptante está vivo, mas inconsciente" (a Narração 25 fala em dois: R1 e R3, e é ela que vale). Negrum: "Ué, as vezes é melhor tentar interrogar ele.. Sei la se ele fala nossa língua. Na pior das hipóteses, levar ele como prisioneiro.." — e em seguida falha na Vontade contra a Sanguinolência. (L8182-8204)
+- **05/10/2026 23:10** — [conferência do WhatsApp, 10/11] O Mestre posta o bloco "MANTIMENTOS — DIA 13", copiado abaixo em "Do WhatsApp, fora das narrações". A comida achada nos reptantes no dia seguinte cancelou a fome do dia 13. (L8206-8224)
+- **06/10/2026 11:16** — [conferência do WhatsApp, 10/11] Depois da luta. André: "Vamos ver o que tem de valor nos corpos dos reptantes (e do Sir William). Depois enterrar o Sir William e continuar a viagem. Curar quem precisar..." Henrique: "Se der, acho melhor a gente levar o corpo para enterrar em um lugar cristão, não?" André: "ou levar a cabeça dele de volta pro orc kkkk / ele é gordo, a carroça vai ficar mais pesada desnecessariamente". Henrique: "Acho que a gente tb deve averiguar se ele tinha descendentes e qual era o próximo na linha de sucessão de Wallace." Mestre: achou 12 rações e 20 L nos reptantes; "Henrique fez primeiros socorros no comam"; "Tinha, o guarda sabe e explica". Henrique: "Se for possível e der tempo, faço tb em quem mais precisar." Enquete (11:29): Enterra 2, Leva o corpo na carroça 2, Corta a cabeça e leva 0, Outra coisa 0. Henrique: "Caso nós o enterremos, eu farei os ritos fúnebres, com esse soldado como testemunha." Mestre (12:41): "Empatou, mas o André tem o voto de minerva, então enterra." (L8270-8328)
+- **06/10/2026 12:39** — [conferência do WhatsApp, 10/11] Jah: "Ow, antes de a gente sair quero resgatar o que der das minhas adagas" — o grupo não saiu às pressas, e pela regra da casa as adagas e as facas arremessadas voltam. Regras do Mestre sobre a fome: "com fome não vai ter cura natural, a comida ja não da pro próximo dia completo"; a Fadiga "de hoje recupera, mas amanhã começa a debitar a de fome"; racionar não resolve: "tem 5 refeições, precisa de 3 pra cada, são 7 pessoas - 21 por dia". (L8325-8337)
+- **06/10/2026 13:18** — [conferência do WhatsApp, 10/11] Enquete da água do dia 15: "Montarias primeiro" 3 votos, "Pessoas primeiro" 1, "Divide proporcionalmente" 0. André: "Putz, dificil decisao. Mas só faltam 80km. Eu iria na gente. Se os bichos morrerem, continuamos a pé." O Ricardo votou às 14:42. A divisão do dia 15 é decisão da mesa, não do Mestre. (L8384-8393)
+- **06/10/2026 15:16** — [conferência do WhatsApp, 10/11] Jah, ao Kaelric, no fim do dia 15: "Se o seu Deus existe, agora é uma ótima hora para ele fazer um milagre..." (L8422)
 <!-- /indice:acontecimentos -->
+
+## Do WhatsApp, fora das narrações
+
+### Mantimentos — Dia 13 (05/10/2026 23:10)
+
+_(bloco do Mestre copiado do WhatsApp, L8206-8224. A comida achada nos reptantes no dia seguinte cancelou essa fome; a Fadiga "atual" listada é a do caderno do Mestre naquela hora, antes das erratas dos dias 4 e 10.)_
+
+*MANTIMENTOS — DIA 13*
+
+*Água:* 145 L no fim do dia 12. Hoje a comitiva bebe uns 75 L, então devem sobrar *cerca de 70 L* ao cair da noite.
+
+*Comida:* *acabou* no fim do dia 12. Ninguém comeu hoje.
+
+*Fome (MB, cap. 12):*
+> Cada refeição perdida custa 1 de ST, tratado como Fadiga. Um dia sem comer são 3 refeições: *-3 de Fadiga* por pessoa.
+> Essa Fadiga só volta com 1 dia de descanso (sem viagem nem luta) e 3 refeições completas. Cada dia assim recupera 3 refeições perdidas.
+> Se a ST chegar a 3 por inanição, a pessoa começa a perder PV no mesmo ritmo.
+
+*Quem está com fome:* todos. Fadiga atual e como fica com a fome de hoje:
+> Comam: 12/13 → 9/13
+> Kaelric: 12/13 → 9/13
+> Jah: 8/9 → 5/9
+> Negrum: 14/15 → 11/15
+> NelsOwned: 14/15 → 11/15
+
+Ninguém chega a ST 3 por enquanto, mas o Jah é quem mais perde.

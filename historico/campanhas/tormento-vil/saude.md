@@ -9,10 +9,10 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 | Quem | | PV | Fadiga | Estado |
 |---|---|---:|---:|---|
 | Comam Obabaroy | PJ | 13/13 | 13/13 | — |
-| Irmão Kaelric | PJ | 10/12 | 13/13 | PV 1 de 12: Deslocamento à metade (MB 12). MONTADO, seguindo a carroça no deserto, maça na mão. Sem teste de consciência: saiu de 0 PV.; Perna COXA, temporária: HT 12 tirou 11, sucesso por 1. Sara quando a vitalidade voltar a 12. Até lá, a pé não caminha; montado, -1 em Cavalgar.; PV 2 de 12: Deslocamento à metade. MONTADO junto da carroça, maça na mão, consciente.; Perna COXA, temporária: sara quando os PV voltarem a 12. A pé não caminha; montado, -1 em Cavalgar. |
+| Irmão Kaelric | PJ | 11/12 | 13/13 | PV 1 de 12: Deslocamento à metade (MB 12). MONTADO, seguindo a carroça no deserto, maça na mão. Sem teste de consciência: saiu de 0 PV.; Perna COXA, temporária: HT 12 tirou 11, sucesso por 1. Sara quando a vitalidade voltar a 12. Até lá, a pé não caminha; montado, -1 em Cavalgar.; PV 2 de 12: Deslocamento à metade. MONTADO junto da carroça, maça na mão, consciente.; Perna COXA, temporária: sara quando os PV voltarem a 12. A pé não caminha; montado, -1 em Cavalgar. |
 | Jah Kagadu | PJ | 12/12 | 5/10 | PV 3 de 12: Deslocamento à metade. MONTADO no deserto, junto da carroça, com o Negrum na garupa. Uma adaga na mão, a outra guardada.; PV 4 de 12: Deslocamento à metade (ainda no terço de HT/3 = 4). MONTADO no deserto junto da carroça, com o Negrum na garupa. Uma adaga na mão, a outra guardada. |
 | Negrum Carneiriums | PJ | 11/12 | 15/15 | — |
-| NelsOwned | PJ | 10/13 | 15/15 | DESMAIADO na caçamba, no deserto. PV -5 de 13. Acorda em 6 horas, ainda a -5. Morre se chegar a -13 sem teste de HT. Deslocamento à metade.; Maneta da mão esquerda, permanente, -15 na ficha. A direita segue inteira. Machado grande não empunha.; PV -4 de 13: INCONSCIENTE na caçamba. Pela regra da casa (cap. 6: '1 ponto que seja acima de 0, e ele levanta') faltam 5 pontos de cura para ele acordar. Sangramento do braço tratado como estancado, senão já teria ido a -13.; PV -4 de 13: ACORDADO e acamado na caçamba. Levanta a cabeça, fala baixo, pede água, não fica de pé nem sai da maca de carga. Consciente, não curado.; PV 5/13: fora do terço de HT/3 (4), Deslocamento inteiro de novo. Sem mão esquerda; machado grande fora de uso, machado de uma mão servindo. |
+| NelsOwned | PJ | 11/13 | 15/15 | DESMAIADO na caçamba, no deserto. PV -5 de 13. Acorda em 6 horas, ainda a -5. Morre se chegar a -13 sem teste de HT. Deslocamento à metade.; Maneta da mão esquerda, permanente, -15 na ficha. A direita segue inteira. Machado grande não empunha.; PV -4 de 13: INCONSCIENTE na caçamba. Pela regra da casa (cap. 6: '1 ponto que seja acima de 0, e ele levanta') faltam 5 pontos de cura para ele acordar. Sangramento do braço tratado como estancado, senão já teria ido a -13.; PV -4 de 13: ACORDADO e acamado na caçamba. Levanta a cabeça, fala baixo, pede água, não fica de pé nem sai da maca de carga. Consciente, não curado.; PV 5/13: fora do terço de HT/3 (4), Deslocamento inteiro de novo. Sem mão esquerda; machado grande fora de uso, machado de uma mão servindo. |
 | Donnwulf | NPC | -27 | — | FALECEU no pátio do portão, em L6. Vitalidade -15 de 12: a terceira machadada do NelsOwned sobre o membro preso tirou os 4 pontos do teto (HT/3) e cruzou a barreira de -HT. Teste de HT 12 contra a morte (MB pág. 126): tirou 13, falhou por um. Estava inconsciente e sem nada para gastar a favor |
 | Edric Halloway | NPC | — | — | — |
 | Hoel Meia-Orelha | NPC | -21 | — | MORTO — espancado até a morte pelo Negrum enquanto estava inconsciente (MB pág. 128: pessoa indefesa atacada de maneira letal morre sem jogada); **DECAPITADO** em L5 pelo machado grande de NelsOwned (cap. 01), no turno seguinte ao em que se levantou. Mesmo critério do Morto-Vivo 1: 15 pontos, 1,5 x HT, numa criatura de HT 10. Destruído de vez: não se levanta, não volta |
@@ -54,12 +54,13 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **02/10/2026 23:16** · PV -1 — Dia 9: a agua acabou no meio do dia - despesa real 75 litros (7 bocas x 5 + 4 montarias x 10) contra 60 que havia. Todos bebem 2,85 litros: menos de 5, entao -1 de Fadiga e -1 de PV, MB. Ele nao precisava curar nada.
 - **02/10/2026 23:16** · FAD -1 — Dia 9: a agua acabou no meio do dia - despesa real 75 litros (7 bocas x 5 + 4 montarias x 10) contra 60 que havia. Todos bebem 2,85 litros: menos de 5, entao -1 de Fadiga e -1 de PV, MB. Ele nao precisava curar nada.
 - **02/10/2026 23:34** · PV +1 — Dia 10: cura natural, HT 13, 3d [6,1,4] = 11, SUCESSO por 2. Volta ao cheio em 13/13.
+- **03/10/2026 08:19** · FAD +1 — Dia 10, oásis: a Fadiga perdida por sede no dia 9 volta hoje (o PV de sede já voltou pela cura: 13/13). _(errata, conferido com o WhatsApp L7487)_
 - **05/10/2026 20:23** · PV -6 — Turno 24: garras do R4 na perna (sem defesa por Ataque Total)
 - **05/10/2026 20:23** · estado — Perna incapacitada, atordoado, caído (sem redutor por Hipoalgia)
 - **05/10/2026 22:50** · curado — Perna incapacitada
 - **05/10/2026 22:50** · estado — Perna incapacitada, sentado, sem atordoamento (sem redutor por Hipoalgia)
 - **05/10/2026 23:25** · PV +1 — Primeiros Socorros do Kaelric (NH 14 +1 kit = 15, 3d [5,3,3]=11, sucesso por 4); 1D-3 deu -2, mínimo 1 PV (MB cap. 12, NT 3)
-- **06/10/2026 12:57** · FAD +1 — Dia 13: ERRATA/DECISÃO DO MESTRE: Fadiga de cansaço e de fome totalmente recuperada no fim do dia
+- **06/10/2026 12:57** · FAD +0 — Dia 13: ERRATA/DECISÃO DO MESTRE: Fadiga de cansaço e de fome totalmente recuperada no fim do dia _(o ponto de Fadiga da sede do dia 9, que antes voltava aqui, já voltou no dia 10: WhatsApp L7487)_
 - **06/10/2026 13:11** · PV +1 — Dia 14: cura natural HT 13 tirou 9 (comeu o dia inteiro)
 - **06/10/2026 14:47** · PV -2 — Dia 15: sede (menos de 1 L: -2 Fadiga, -2 PV) e fome total (-3 Fadiga)
 - **06/10/2026 14:47** · FAD -5 — Dia 15: sede (menos de 1 L: -2 Fadiga, -2 PV) e fome total (-3 Fadiga)
@@ -72,7 +73,7 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 
 ### Irmão Kaelric
 
-**PV 10/12 · Fadiga 13/13**  ·  **PV 1 de 12: Deslocamento à metade (MB 12). MONTADO, seguindo a carroça no deserto, maça na mão. Sem teste de consciência: saiu de 0 PV.**; **Perna COXA, temporária: HT 12 tirou 11, sucesso por 1. Sara quando a vitalidade voltar a 12. Até lá, a pé não caminha; montado, -1 em Cavalgar.**; **PV 2 de 12: Deslocamento à metade. MONTADO junto da carroça, maça na mão, consciente.; Perna COXA, temporária: sara quando os PV voltarem a 12. A pé não caminha; montado, -1 em Cavalgar.**
+**PV 11/12 · Fadiga 13/13**  ·  **PV 1 de 12: Deslocamento à metade (MB 12). MONTADO, seguindo a carroça no deserto, maça na mão. Sem teste de consciência: saiu de 0 PV.**; **Perna COXA, temporária: HT 12 tirou 11, sucesso por 1. Sara quando a vitalidade voltar a 12. Até lá, a pé não caminha; montado, -1 em Cavalgar.**; **PV 2 de 12: Deslocamento à metade. MONTADO junto da carroça, maça na mão, consciente.; Perna COXA, temporária: sara quando os PV voltarem a 12. A pé não caminha; montado, -1 em Cavalgar.**
 
 - **09/09/2026 12:21** · FAD -3 — Fadiga de batalha contra os mortos-vivos: Carga média, nível 2 +1 — a cota de malha e o escudo grande cobram (MB pág. 134)
 - **15/09/2026 20:16** · FAD -1 — Falha no teste de ST para erguer a carroça tombada (MB pág. 89: falha em teste de esforço custa 1 ponto de ST por Fadiga)
@@ -109,7 +110,8 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **02/10/2026 11:46** · PV +1 — Dia 2 da travessia: cura natural com teste de HT 12, 3d [6,2,4] = 12, sucesso. Fadiga realocada para 13/13 para bater com o roll6 (o reset de 02/10 so aveu no site).
 - **02/10/2026 11:46** · FAD +8 — Dia 2 da travessia: cura natural com teste de HT 12, 3d [6,2,4] = 12, sucesso. Fadiga realocada para 13/13 para bater com o roll6 (o reset de 02/10 so aveu no site).
 - **02/10/2026 17:04** · PV +1 — Dia 3, caravana: cura natural HT 12, 3d [4,4,2] = 10 sucesso; e o curandeiro testou Medicina 15, 3d [2,6,4] = 12 sucesso, cura 1D-2 com d6=3 = 1. Nao acumulo no mesmo dia: vale o maior, +1. Perna coxa segue ate os 12.
-- **02/10/2026 19:44** · PV +1 — Dia 5 da travessia (turno 11): cura natural, HT 12, 3d [5,2,2] = 9, SUCESSO por 3. O dia 4 foi baixado SEM cura: os dados de ontem nao foram processados e eu nao reuso rolagem antiga para cobrir um dia perdido.
+- **02/10/2026 18:28** · FAD +0 — Dia 4: cura natural, HT 12, 3d [4,5,5] = 14, FALHA por 2 — sem cura, segue 4/12. _(errata, conferido com o WhatsApp L7141: o dia 4 teve cura rolada; antes constava "baixado sem cura")_
+- **02/10/2026 19:44** · PV +1 — Dia 5 da travessia (turno 11): cura natural, HT 12, 3d [5,2,2] = 9, SUCESSO por 3. _(errata, conferido com o WhatsApp L7141-7144: o dia 4 teve cura rolada e está lançado na linha do dia 4; a nota antiga de "dia 4 sem cura" estava errada)_
 - **02/10/2026 20:47** · PV +1 — Dia 6 da travessia (turno 12): cura natural, HT 12, 3d [4,5,1] = 10, SUCESSO por 2.
 - **02/10/2026 20:57** · PV +1 — Dia 7: cura natural, HT 12, 3d [5,1,6] = 12, SUCESSO por 0 (no fio). Perna coxa segue ate os 12 voltarem.
 - **02/10/2026 22:46** · PV +1 — Dia 8: cura natural, HT 12, 3d [3,5,1] = 9, SUCESSO por 3. Perna coxa segue ate os 12 voltarem.
@@ -117,9 +119,11 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **02/10/2026 23:16** · PV -1 — Dia 9: a agua acabou no meio do dia - despesa real 75 litros (7 bocas x 5 + 4 montarias x 10) contra 60 que havia. Todos bebem 2,85 litros: menos de 5, entao -1 de Fadiga e -1 de PV, MB. No fim das contas o dia dele nao sai do lugar: 8/12.
 - **02/10/2026 23:16** · FAD -1 — Dia 9: a agua acabou no meio do dia - despesa real 75 litros (7 bocas x 5 + 4 montarias x 10) contra 60 que havia. Todos bebem 2,85 litros: menos de 5, entao -1 de Fadiga e -1 de PV, MB. No fim das contas o dia dele nao sai do lugar: 8/12.
 - **02/10/2026 23:34** · PV +1 — Dia 10: cura natural, HT 12, 3d [2,1,4] = 7, SUCESSO por 5 - melhor noite dele desde Wallace. Perna coxa segue.
+- **03/10/2026 08:19** · PV +1 — Dia 10, oásis: o PV perdido por sede no dia 9 volta hoje — 10/12. _(errata, conferido com o WhatsApp L7487: "Fadiga e PV de sede voltam hoje"; a Narração 10 não tinha devolvido)_
+- **03/10/2026 08:19** · FAD +1 — Dia 10, oásis: a Fadiga perdida por sede no dia 9 volta hoje. _(errata, conferido com o WhatsApp L7487)_
 - **03/10/2026 08:25** · FAD +0 — Dia 11: cura natural, HT 12, 3d [4,3,6] = 13, FALHA por 1 - sem cura hoje. Permanece 9/12.
 - **03/10/2026 10:03** · PV +1 — Dia 12: cura natural, HT 12, 3d [5,1,3] = 9, SUCESSO por 3. Perna coxa segue até os 12.
-- **06/10/2026 12:57** · FAD +1 — Dia 13: ERRATA/DECISÃO DO MESTRE: Fadiga de cansaço e de fome totalmente recuperada no fim do dia
+- **06/10/2026 12:57** · FAD +0 — Dia 13: ERRATA/DECISÃO DO MESTRE: Fadiga de cansaço e de fome totalmente recuperada no fim do dia _(o ponto de Fadiga da sede do dia 9, que antes voltava aqui, já voltou no dia 10: WhatsApp L7487)_
 - **06/10/2026 14:47** · PV -2 — Dia 15: sede (menos de 1 L: -2 Fadiga, -2 PV) e fome total (-3 Fadiga)
 - **06/10/2026 14:47** · FAD -5 — Dia 15: sede (menos de 1 L: -2 Fadiga, -2 PV) e fome total (-3 Fadiga)
 - **06/10/2026 14:56** · PV -2 — Dia 16: sede -2/-2; fome -3 Fadiga (para em ST 3)
@@ -161,23 +165,26 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **02/10/2026 11:46** · PV +1 — Dia 2: HT 12, 3d [4,4,4] = 12, sucesso. Fadiga 9/9 no site porque o teto da biblioteca dele ainda e 9 (ST 9); a ficha local diz 10 desde o ST 10 de 01/10.
 - **02/10/2026 11:46** · FAD +2 — Dia 2: HT 12, 3d [4,4,4] = 12, sucesso. Fadiga 9/9 no site porque o teto da biblioteca dele ainda e 9 (ST 9); a ficha local diz 10 desde o ST 10 de 01/10.
 - **02/10/2026 17:04** · PV +2 — Dia 3: HT 12, 3d [3,6,6] = 15 FALHOU a cura natural; o curandeiro Medicina 15, 3d [1,1,4] = 6 sucesso, cura 1D-2 com d6=4 = 2 PV. Vale o do medico.
-- **02/10/2026 19:44** · PV +1 — Dia 5 da travessia (turno 11): cura natural, HT 12, 3d [5,2,1] = 8, SUCESSO por 4. O dia 4 foi baixado SEM cura: os dados de ontem nao foram processados e eu nao reuso rolagem antiga para cobrir um dia perdido.
+- **02/10/2026 18:28** · PV +1 — Dia 4: cura natural, HT 12, 3d [2,3,1] = 6, SUCESSO por 6 → 8/12. _(errata, conferido com o WhatsApp L7142: o dia 4 teve cura rolada; antes constava "baixado sem cura". A partir daqui o Jah fica 1 PV acima do que as narrações dos dias 5 a 12 mostram)_
+- **02/10/2026 19:44** · PV +1 — Dia 5 da travessia (turno 11): cura natural, HT 12, 3d [5,2,1] = 8, SUCESSO por 4. _(errata, conferido com o WhatsApp L7141-7144: o dia 4 teve cura rolada e está lançado na linha do dia 4; a nota antiga de "dia 4 sem cura" estava errada)_
 - **02/10/2026 20:47** · PV +1 — Dia 6 da travessia (turno 12): cura natural, HT 12, 3d [1,4,5] = 10, SUCESSO por 2.
 - **02/10/2026 20:57** · PV +1 — Dia 7: cura natural, HT 12, 3d [3,3,3] = 9, SUCESSO por 3.
 - **02/10/2026 22:46** · FAD +0 — Dia 8: HT 12, 3d [4,5,4] = 13, FALHA por 1 - sem cura hoje. Permanece 10/12.
 - **02/10/2026 23:16** · PV -1 — Dia 9: a agua acabou no meio do dia - despesa real 75 litros (7 bocas x 5 + 4 montarias x 10) contra 60 que havia. Todos bebem 2,85 litros: menos de 5, entao -1 de Fadiga e -1 de PV, MB. E a cura falhou (HT 12, 3d [4,4,5] = 13, FALHA por 1, segunda noite seguida): 10 -> 9/12.
 - **02/10/2026 23:16** · FAD -1 — Dia 9: a agua acabou no meio do dia - despesa real 75 litros (7 bocas x 5 + 4 montarias x 10) contra 60 que havia. Todos bebem 2,85 litros: menos de 5, entao -1 de Fadiga e -1 de PV, MB. E a cura falhou (HT 12, 3d [4,4,5] = 13, FALHA por 1, segunda noite seguida): 10 -> 9/12.
 - **02/10/2026 23:34** · FAD +0 — Dia 10: HT 12, 3d [6,5,5] = 16, FALHA por 4 - terceira noite seguida sem curar. Permanece 9/12. Sem sede hoje, entao nao perde PV nem Fadiga.
-- **03/10/2026 08:25** · PV +1 — Dia 11: cura natural, HT 12, 3d [2,5,2] = 9, SUCESSO por 3.
-- **03/10/2026 10:03** · PV +1 — Dia 12: cura natural, HT 12, 3d [4,2,4] = 10, SUCESSO por 2.
-- **06/10/2026 12:57** · FAD +1 — Dia 13: ERRATA/DECISÃO DO MESTRE: Fadiga de cansaço e de fome totalmente recuperada no fim do dia
+- **03/10/2026 08:19** · PV +1 — Dia 10, oásis: o PV perdido por sede no dia 9 volta hoje — 11/12 (com a errata do dia 4). _(errata, conferido com o WhatsApp L7487)_
+- **03/10/2026 08:19** · FAD +1 — Dia 10, oásis: a Fadiga perdida por sede no dia 9 volta hoje. _(errata, conferido com o WhatsApp L7487)_
+- **03/10/2026 08:25** · PV +1 — Dia 11: cura natural, HT 12, 3d [2,5,2] = 9, SUCESSO por 3. Inteiro: 12/12.
+- **03/10/2026 10:03** · PV +0 — Dia 12: cura natural, HT 12, 3d [4,2,4] = 10, SUCESSO por 2, mas já estava em 12/12 depois das erratas dos dias 4 e 10: sem efeito.
+- **06/10/2026 12:57** · FAD +0 — Dia 13: ERRATA/DECISÃO DO MESTRE: Fadiga de cansaço e de fome totalmente recuperada no fim do dia _(o ponto de Fadiga da sede do dia 9, que antes voltava aqui, já voltou no dia 10: WhatsApp L7487)_
 - **06/10/2026 14:47** · PV -2 — Dia 15: sede (menos de 1 L: -2 Fadiga, -2 PV) e fome total (-3 Fadiga)
 - **06/10/2026 14:47** · FAD -5 — Dia 15: sede (menos de 1 L: -2 Fadiga, -2 PV) e fome total (-3 Fadiga)
 - **06/10/2026 14:56** · PV -5 — Dia 16: sede -2/-2; fome: ST já abaixo de 3, -3 vira PV
 - **06/10/2026 14:56** · FAD -2 — Dia 16: sede -2/-2; fome: ST já abaixo de 3, -3 vira PV
 - **09/10/2026 12:16** · FAD +8 — ERRATA/DECISÃO DO MESTRE (turno 43, oásis): Fadiga totalmente recuperada depois da luta (bebeu à vontade, comeu fruta, descansou à sombra)
 - **09/10/2026 14:39** · PV +1 — Cura natural do dia 18 (HT, MB Cura Natural)
-- **09/10/2026 22:18** · PV +7 — Turno 47, Ferrier: Cura Profunda NH 15, 3d=11, sucesso por 4 (sobram 3, passa do máximo)
+- **09/10/2026 22:18** · PV +6 — Turno 47, Ferrier: Cura Profunda NH 15, 3d=11, sucesso por 4 (cura 7; com as erratas dos dias 4 e 10 ele estava em 6/12, então só 6 entram e 1 passa do máximo)
 - **09/10/2026 22:18** · FAD -5 — Turno 47: Esconder com 4 de energia (-4); Fadiga alinhada ao máximo 9 do roll6: 5/9
 
 ### Negrum Carneiriums
@@ -198,13 +205,15 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **20/09/2026 20:33** · FAD +8 — 80 min de descanso, cap. 04
 - **29/09/2026 07:34** · PV -3 — Espada curta do Morto 5 no tronco, rodada 16 do cap. 6 (1D+1 corte deu 3, RD 1 da Rijeza, +50% = 3; sem defesa ativa pelo Ataque Total)
 - **01/10/2026 22:42** · PV +1 — Cura natural no fim do dia 1 da travessia: +1 PV concedido pelo Mestre sem teste.
-- **02/10/2026 11:46** · PV +1 — Dia 2: HT 12, 3d [1,1,1] = 3, sucesso critico.
-- **02/10/2026 19:44** · PV +1 — Dia 5 da travessia (turno 11): cura natural, HT 12, 3d [2,6,1] = 9, SUCESSO por 3. O dia 4 foi baixado SEM cura: os dados de ontem nao foram processados e eu nao reuso rolagem antiga para cobrir um dia perdido.
+- **02/10/2026 11:46** · PV +0 — Dia 2: HT 12, 3d [1,1,1] = 3, sucesso crítico, mas SEM cura: ele passou 3 h procurando água, e o Mestre avisou que quem fizesse isso não recuperava vida no dia; ele aceitou. Segue 9/12. _(errata, conferido com o WhatsApp L6879-6882; antes constava +1)_
+- **02/10/2026 18:28** · PV +1 — Dia 4: cura natural, HT 12, 3d [1,2,4] = 7, SUCESSO por 5 → 10/12. _(errata, conferido com o WhatsApp L7143: o dia 4 teve cura rolada; com a errata do dia 2 ele vai a 10, não aos 11 da narração)_
+- **02/10/2026 19:44** · PV +1 — Dia 5 da travessia (turno 11): cura natural, HT 12, 3d [2,6,1] = 9, SUCESSO por 3. _(errata, conferido com o WhatsApp L7141-7144: o dia 4 teve cura rolada e está lançado na linha do dia 4; a nota antiga de "dia 4 sem cura" estava errada)_
 - **02/10/2026 20:47** · PV +1 — Dia 6 da travessia (turno 12): cura natural, HT 12, 3d [4,2,5] = 11, SUCESSO por 1.
 - **02/10/2026 23:16** · PV -1 — Dia 9: a agua acabou no meio do dia - despesa real 75 litros (7 bocas x 5 + 4 montarias x 10) contra 60 que havia. Todos bebem 2,85 litros: menos de 5, entao -1 de Fadiga e -1 de PV, MB. Estava inteiro: 12 -> 11/12.
 - **02/10/2026 23:16** · FAD -1 — Dia 9: a agua acabou no meio do dia - despesa real 75 litros (7 bocas x 5 + 4 montarias x 10) contra 60 que havia. Todos bebem 2,85 litros: menos de 5, entao -1 de Fadiga e -1 de PV, MB. Estava inteiro: 12 -> 11/12.
 - **02/10/2026 23:34** · PV +1 — Dia 10: cura natural, HT 12, 3d [4,4,3] = 11, SUCESSO por 1. Inteiro outra vez, e continua sendo o guia que erra.
-- **06/10/2026 12:57** · FAD +1 — Dia 13: ERRATA/DECISÃO DO MESTRE: Fadiga de cansaço e de fome totalmente recuperada no fim do dia
+- **03/10/2026 08:19** · FAD +1 — Dia 10, oásis: a Fadiga perdida por sede no dia 9 volta hoje (o PV de sede já voltou pela cura: 12/12). _(errata, conferido com o WhatsApp L7487)_
+- **06/10/2026 12:57** · FAD +0 — Dia 13: ERRATA/DECISÃO DO MESTRE: Fadiga de cansaço e de fome totalmente recuperada no fim do dia _(o ponto de Fadiga da sede do dia 9, que antes voltava aqui, já voltou no dia 10: WhatsApp L7487)_
 - **06/10/2026 13:11** · FAD -2 — Dia 14: fome, comeu 1 de 3 refeições (comida só deu para os feridos)
 - **06/10/2026 14:47** · PV -2 — Dia 15: sede (menos de 1 L: -2 Fadiga, -2 PV) e fome total (-3 Fadiga)
 - **06/10/2026 14:47** · FAD -5 — Dia 15: sede (menos de 1 L: -2 Fadiga, -2 PV) e fome total (-3 Fadiga)
@@ -217,7 +226,7 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 
 ### NelsOwned
 
-**PV 10/13 · Fadiga 15/15**  ·  **DESMAIADO na caçamba, no deserto. PV -5 de 13. Acorda em 6 horas, ainda a -5. Morre se chegar a -13 sem teste de HT. Deslocamento à metade.**; **Maneta da mão esquerda, permanente, -15 na ficha. A direita segue inteira. Machado grande não empunha.**; **PV -4 de 13: INCONSCIENTE na caçamba. Pela regra da casa (cap. 6: '1 ponto que seja acima de 0, e ele levanta') faltam 5 pontos de cura para ele acordar. Sangramento do braço tratado como estancado, senão já teria ido a -13.**; **PV -4 de 13: ACORDADO e acamado na caçamba. Levanta a cabeça, fala baixo, pede água, não fica de pé nem sai da maca de carga. Consciente, não curado.**; **PV 5/13: fora do terço de HT/3 (4), Deslocamento inteiro de novo. Sem mão esquerda; machado grande fora de uso, machado de uma mão servindo.**
+**PV 11/13 · Fadiga 15/15**  ·  **DESMAIADO na caçamba, no deserto. PV -5 de 13. Acorda em 6 horas, ainda a -5. Morre se chegar a -13 sem teste de HT. Deslocamento à metade.**; **Maneta da mão esquerda, permanente, -15 na ficha. A direita segue inteira. Machado grande não empunha.**; **PV -4 de 13: INCONSCIENTE na caçamba. Pela regra da casa (cap. 6: '1 ponto que seja acima de 0, e ele levanta') faltam 5 pontos de cura para ele acordar. Sangramento do braço tratado como estancado, senão já teria ido a -13.**; **PV -4 de 13: ACORDADO e acamado na caçamba. Levanta a cabeça, fala baixo, pede água, não fica de pé nem sai da maca de carga. Consciente, não curado.**; **PV 5/13: fora do terço de HT/3 (4), Deslocamento inteiro de novo. Sem mão esquerda; machado grande fora de uso, machado de uma mão servindo.**
 
 - **09/09/2026 09:52** · PV -2 — Chute do Hoel Meia-Orelha reanimado, ataque total no tronco (cap. 01)
 - **09/09/2026 12:21** · FAD -1 — Fadiga de batalha contra os mortos-vivos: Carga nenhuma, nível 0 +1 (MB pág. 134)
@@ -260,8 +269,9 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **01/10/2026 22:42** · estado — PV -4 de 13: INCONSCIENTE na caçamba. Pela regra da casa (cap. 6: '1 ponto que seja acima de 0, e ele levanta') faltam 5 pontos de cura para ele acordar. Sangramento do braço tratado como estancado, senão já teria ido a -13.
 - **02/10/2026 07:50** · estado — PV -4 de 13: ACORDADO e acamado na caçamba. Levanta a cabeça, fala baixo, pede água, não fica de pé nem sai da maca de carga. Consciente, não curado.
 - **02/10/2026 17:04** · PV +1 — Dia 3: HT 13, 3d [5,3,6] = 14 falhou a cura natural; Medicina 15, 3d [2,2,5] = 9 sucesso, cura 1D-2 = d6 2 -> +1 PV. O dado da cura foi relancado porque o script anterior rolava duas vezes e rotulava errado.
-- **02/10/2026 19:44** · PV +1 — Dia 5 da travessia (turno 11): cura natural, HT 13, 3d [1,1,6] = 8, SUCESSO por 5. O dia 4 foi baixado SEM cura: os dados de ontem nao foram processados e eu nao reuso rolagem antiga para cobrir um dia perdido.
-- **02/10/2026 20:47** · PV +2 — Dia 6: o Mestre alinhou o fim do dia 5 em -1 (o caderno estava em -2) SEM reescrever o passado e, com o +1 da cura natural de hoje (HT 13, 3d [2,2,5] = 9, sucesso por 4), ele chega a 0/13. A zero ele nao levanta sem cura de verdade.
+- **02/10/2026 18:28** · PV +1 — Dia 4: cura natural, HT 13, 3d [1,5,5] = 11, SUCESSO por 2 → -2/13, acamado. _(errata, conferido com o WhatsApp L7144: o dia 4 teve cura rolada; antes constava "baixado sem cura")_
+- **02/10/2026 19:44** · PV +1 — Dia 5 da travessia (turno 11): cura natural, HT 13, 3d [1,1,6] = 8, SUCESSO por 5. _(errata, conferido com o WhatsApp L7141-7144: o dia 4 teve cura rolada e está lançado na linha do dia 4; a nota antiga de "dia 4 sem cura" estava errada)_
+- **02/10/2026 20:47** · PV +1 — Dia 6: o Mestre alinhou o fim do dia 5 em -1 (WhatsApp L7230-7233: "eu ja tava com -2/13" / "Tava mesmo"); o ponto que faltava era a cura do dia 4, hoje lançada na linha própria, e por isso esta linha passa de +2 a +1. Com o +1 da cura natural de hoje (HT 13, 3d [2,2,5] = 9, sucesso por 4), ele chega a 0/13. A zero ele nao levanta sem cura de verdade.
 - **02/10/2026 20:57** · PV +1 — Dia 7: cura natural, HT 13, 3d [4,2,1] = 7, SUCESSO por 6. Passou de 0 para 1 pela regra da casa (cap. 6): um ponto acima de zero, e ele levanta.
 - **02/10/2026 20:57** · estado — PV 1/13: LEVANTA da maca de carga - primeira vez desde o patio de Wallace. Senta, fala, canta. Deslocamento a metade (1 cai no terco de 4). Sem mao esquerda; machado grande fora de uso, machado de uma mao servindo.
 - **02/10/2026 22:46** · PV +1 — Dia 8: cura natural, HT 13, 3d [3,4,6] = 13, SUCESSO por 0 (no fio). Ainda dentro do terco de 4: Deslocamento a metade.
@@ -269,11 +279,13 @@ e o que a mesa gastou mora aqui. Lance com `campanha.py saude --pj "Nome"
 - **02/10/2026 23:16** · PV -1 — Dia 9: a agua acabou no meio do dia - despesa real 75 litros (7 bocas x 5 + 4 montarias x 10) contra 60 que havia. Todos bebem 2,85 litros: menos de 5, entao -1 de Fadiga e -1 de PV, MB. Fecha o dia onde comecou: 2/13.
 - **02/10/2026 23:16** · FAD -1 — Dia 9: a agua acabou no meio do dia - despesa real 75 litros (7 bocas x 5 + 4 montarias x 10) contra 60 que havia. Todos bebem 2,85 litros: menos de 5, entao -1 de Fadiga e -1 de PV, MB. Fecha o dia onde comecou: 2/13.
 - **02/10/2026 23:34** · PV +1 — Dia 10: cura natural, HT 13, 3d [5,3,1] = 9, SUCESSO por 4. 3/13, ainda dentro do terco de 4: Deslocamento a metade.
-- **03/10/2026 08:24** · PV +1 — Dia 11: cura natural, HT 13, 3d [3,4,3] = 10, SUCESSO por 3. 4/13, ainda no terço de 4: Deslocamento à metade.
+- **03/10/2026 08:19** · PV +1 — Dia 10, oásis: o PV perdido por sede no dia 9 volta hoje — 4/13. _(errata, conferido com o WhatsApp L7487)_
+- **03/10/2026 08:19** · FAD +1 — Dia 10, oásis: a Fadiga perdida por sede no dia 9 volta hoje. _(errata, conferido com o WhatsApp L7487)_
+- **03/10/2026 08:24** · PV +1 — Dia 11: cura natural, HT 13, 3d [3,4,3] = 10, SUCESSO por 3. 5/13 com a errata do dia 10: sai do terço de 4 e o Deslocamento volta inteiro já hoje.
 - **03/10/2026 10:03** · PV +1 — Dia 12: cura natural, HT 13, 3d [6,2,2] = 10, SUCESSO por 3.
 - **03/10/2026 10:03** · estado — PV 5/13: fora do terço de HT/3 (4), Deslocamento inteiro de novo. Sem mão esquerda; machado grande fora de uso, machado de uma mão servindo.
 - **03/10/2026 10:03** · curado — PV 1/13: LEVANTA
-- **06/10/2026 12:57** · FAD +1 — Dia 13: ERRATA/DECISÃO DO MESTRE: Fadiga de cansaço e de fome totalmente recuperada no fim do dia
+- **06/10/2026 12:57** · FAD +0 — Dia 13: ERRATA/DECISÃO DO MESTRE: Fadiga de cansaço e de fome totalmente recuperada no fim do dia _(o ponto de Fadiga da sede do dia 9, que antes voltava aqui, já voltou no dia 10: WhatsApp L7487)_
 - **06/10/2026 13:11** · PV +1 — Dia 14: cura natural HT 13 tirou 10 (comeu o dia inteiro)
 - **06/10/2026 14:47** · PV -2 — Dia 15: sede (menos de 1 L: -2 Fadiga, -2 PV) e fome total (-3 Fadiga)
 - **06/10/2026 14:47** · FAD -5 — Dia 15: sede (menos de 1 L: -2 Fadiga, -2 PV) e fome total (-3 Fadiga)
