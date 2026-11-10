@@ -12,6 +12,17 @@ Elements de imagem funcionam em `image_to_image` (inclusive `kling-image-o1`) e 
 | Jah Kagadu | `326313418650992` | `historico/personagens/jah-kagadu/foto.jpg` | recorte do rosto da mesma foto |
 | Negrum Carneiriums | `326313426317293` | `historico/personagens/negrum-carneiriums/foto-old.png` (de tanga, como na ficha) | `tokens/negrum/negrum.png`, `negrum-front.png`, `negrum-back.png` |
 | NelsOwned | `326313431668218` | `historico/personagens/nelsowned/foto.png` | `corpo-inteiro.png`, `foto-original.png` |
+| Donnwulf (NPC) | `326326476651447` | `video/elements/donnwulf/retrato.png` | `frente.png`, `perfil.png`, `costas.png` (mesma pasta) |
+
+**URLs no Kling para usar como imagem de referência** (o element sozinho não segura o rosto,
+veja abaixo). Donnwulf — retrato:
+`https://s15-kling.klingai.com/kimg/EMXN1y8qSAoGdXBsb2FkEg55bGFiLXN0dW50LXNncBouYWdlbnRfdXBsb2FkLzE3OTQzNTQ5NjMveDhkZFpDUThVSS9yZXRyYXRvLnBuZw.origin?x-kcdn-pid=112372`
+
+O Donnwulf foi feito a partir do que já estava filmado (`cenas/01/05-donnwulf-vence.mp4`,
+recortes em `video/elements/donnwulf/ref-*`), e não do plano: saiu **grisalho, com cara de
+uns 45-50 anos e de peito nu** com avental de pedreiro. O plano dizia 30 anos e túnica sem
+mangas; o filme fica com o visual do element. Depois do braço-de-ferro com o Negrum (cena 4)
+ele passa o resto do filme com o **braço direito quebrado, na tala** — peça isso no prompt.
 
 ## Como gerar imagens que saiam fiéis (aprendido em 10/11/2026)
 
