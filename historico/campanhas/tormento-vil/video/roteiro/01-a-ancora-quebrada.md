@@ -45,37 +45,47 @@ mortos da cidade começam a entrar pela porta.
 
 ---
 
-## ATO I — A CHEGADA
+## ATO I — O SHOW
 
-### CENA 1 — EXT. ESTRADA DE WALLACE — FIM DE TARDE
+### CENA 1 — INT. A ÂNCORA QUEBRADA — SALÃO — NOITE · **ABERTURA**
 
-Poeira dourada. Uma caravana de carroças se arrasta pela estrada depois de quatro dias de
-viagem. No horizonte cresce a muralha de pedra de Wallace e, acima dela, o castelo do Lorde
-William, já com luz nas seteiras.
+Preto. Primeiro vem o som: um acorde de alaúde, e logo uma voz grave atacando o primeiro
+verso.
 
-Na carroça de trás, cinco silhuetas: o colosso de branco (**KAELRIC**), o gigante de tanga
-(**NEGRUM**), o anão de veludo com o alaúde no colo (**NELSOWNED**), o homem magro de coque
-(**JAH**) e o zarolho (**COMAM**), que já está bebendo de um odre.
+Abre em **NELSOWNED**, em pé num banco perto da lareira, alaúde no peito, cantando de cabeça
+jogada para trás. Calor, fumaça, serragem no chão. A taberna inteira já sabe o refrão: os
+camponeses balançam, batem palmas e cantam junto, errando a letra alto, entre risadas.
 
-> **Kling:** plano aberto, câmera baixa no nível das rodas; quadro já pronto em
-> `video/abertura/01-chegada-a-wallace.jpg` → `image_to_video`.
+A câmera se aproxima devagar dele durante a canção. **No acorde final** ele abre os braços,
+o salão explode, e **só então** chovem moedas de cobre no assoalho em volta do banco.
 
-### CENA 2 — EXT. RUA DOS CURRAIS — NOITE
+> **Kling:** quadro `video/cenas/01/01-show-do-nelsowned.png` (a variação v2-a, com as
+> moedas suspensas apagadas), vídeo `01-show-do-nelsowned.mp4`, 10 s com áudio. Element:
+> NelsOwned.
 
-Chuva fina. Os carroceiros ficam dormindo junto das carroças. Os cinco descem a rua dos
-currais, lama e cercados de carneiros, até a última taberna antes do portão oeste: uma placa
-de madeira com uma âncora partida. **A ÂNCORA QUEBRADA.** Janelas âmbar e barulho de festa
-lá dentro.
+### CENA 2 — INT. SALÃO — A MESA DO GRUPO — CONTÍNUO
 
-### CENA 3 — INT. A ÂNCORA QUEBRADA — SALÃO — NOITE
+Ainda com a música ao fundo, corte para uma mesa lateral, perto da parede. Quatro
+forasteiros com a poeira de quatro dias de estrada na roupa, recém-chegados com a caravana.
+É a primeira vez que o filme os mostra juntos:
 
-Calor, fumaça de lareira, cheiro de caldo de carneiro e cerveja derramada. Serragem no chão.
+- **KAELRIC**, enorme mesmo sentado, a sobreveste branca com a cruz vermelha, o escudo
+  encostado na parede. Bebe devagar e olha o salão como quem pesa almas.
+- **NEGRUM**, sem camisa, os braços sobre a mesa, rindo do anão e batendo o caneco no ritmo.
+- **JAH**, quieto, de costas para a parede, olhando para os anéis do mercador do tapete
+  vermelho e para a bolsa no cinto dele.
+- **COMAM**, o tapa-olho e o sorriso de sempre, virando o caneco e erguendo a mão para pedir
+  mais um. E mais um.
 
-NELSOWNED está em pé num banco perto da lareira, alaúde no peito, e a taberna inteira já sabe
-o refrão: os canecos batem na mesa no tempo certo, e a letra sai errada e alta, entre
-risadas. A canção acaba e chovem moedas de cobre no assoalho.
+NELSOWNED desce do banco, recolhe as moedas com uma reverência exagerada e se junta a eles.
+Os cinco à mesma mesa.
 
-A câmera passeia pelo salão e apresenta a casa:
+> **Kling:** quadro novo com os elements de Kaelric, Negrum, Jah e Comam (até 3 elements por
+> vídeo no `kling-video-v3_0`; gerar o quadro com `image_to_image`, que aceita até 10).
+
+### CENA 3 — INT. SALÃO — A CASA — CONTÍNUO
+
+Do ponto de vista da mesa do grupo, a câmera passeia pelo salão e apresenta a casa:
 
 - Atrás do balcão, **HOEL MEIA-ORELHA** larga o pano de secar e bate palmas. É a primeira
   vez na noite.
@@ -87,9 +97,8 @@ A câmera passeia pelo salão e apresenta a casa:
 - No balcão, **OSRIC**, de capa e cota de malha, bebe sozinho e depressa.
 - No canto, de costas para a parede, **TERESSY** bebe devagar, com a bolsa de couro presa
   entre as botas.
-- Numa mesa lateral, **COMAM** pede mais uma, e depois mais uma.
 
-> **Kling:** `video/abertura/02-a-cancao.jpg` como quadro inicial. Elements: NelsOwned.
+Fora, chuva fina e, longe, os cães dos currais.
 
 ---
 
@@ -455,8 +464,9 @@ tombada.
 
 | # | Cena | Elements | Ferramenta sugerida |
 |---|---|---|---|
-| 1 | Chegada a Wallace | todos | `image_to_video` a partir de `abertura/01-…jpg` |
-| 3 | A canção | NelsOwned | `image_to_video` a partir de `abertura/02-…jpg` |
+| 1 | O show do NelsOwned (abertura) | NelsOwned | **pronto**: `cenas/01/03-show-do-nelsowned` |
+| 2 | Os outros quatro na mesa | Kaelric, Negrum, Jah, Comam | `image_to_image` (quadro) → `image_to_video` |
+| 3 | A casa (Hoel, Giles, Bronwyn, Donnwulf, Osric, Teressy) | — | panorâmica |
 | 4 | Braço-de-ferro e o estalo | Negrum | `image_to_video` a partir de `abertura/03-…jpg` |
 | 5 | Furto da bolsa | Jah | `image_to_image` (quadro) → `image_to_video` |
 | 10 | A briga, 5 trocas | Negrum | 5 clipes curtos |
