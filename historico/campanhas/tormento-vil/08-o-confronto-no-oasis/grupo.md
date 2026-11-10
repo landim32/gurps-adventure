@@ -42,5 +42,6 @@ _(o que de fato aconteceu com os personagens dos jogadores durante o jogo — fe
 - **09/10/2026 23:10** · _item_ — Turno 49: segue com o montante embrulhado, agora em (26,2) (passo para trás em Defesa Total); a 2ª mentira ('cera para lustrar') só adiou o Comam.
 - **09/10/2026 23:20** · _promessa_ — Turno 50: prometeu ao Comam abrir o embrulho e deixar o montante no quarto do NelsOwned, 'para ficarem quites'; está em (27,3), a 2 hex do Nels. Ainda não cumpriu.
 - **10/10/2026 09:44** · _informação_ — Turno 52: tentou passar pelo hex do Comam (Evasão, DX 13 contra 14) e foi interceptado; peça volta para (27,3), olhando NW. Sem o montante, que ficou no quarto do Nels.
+- **10/10/2026 18:06** · _estado_ — Percebeu que ele mesmo está sob o efeito de alguma maldição (WhatsApp L8966, declaração do jogador antes do turno 57).
 - **10/10/2026 20:45** · _estado_ — Segundo Orvin Thale: está sob Condicionamento posto pela espada de Mor'Dhaun (ordem: obter/guardar a espada). Orvin se oferece para remover (Remoção de Maldição); ainda não aceito.
 - **10/10/2026 22:08** · _estado_ — Condicionamento removido por Orvin Thale (turno 59).

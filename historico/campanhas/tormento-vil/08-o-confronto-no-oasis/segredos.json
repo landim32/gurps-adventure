@@ -1,10 +1,10 @@
 {
- "_leia": "SEGREDO DO MESTRE: nunca vai ao roll6 nem ao WhatsApp antes de o Mestre revelar. Resultados da Sugestão lançada pelo mago de Lych ao cruzar a saída do Grande Deserto (dia 19, começo).",
+ "_leia": "SEGREDO DO MESTRE: nunca vai ao roll6 nem ao WhatsApp antes de o Mestre revelar. Resultados do Condicionamento lançado pelo mago de Lych ao cruzar a saída do Grande Deserto (dia 19, começo). (Errata, conferido com o WhatsApp L8987-8989: a mágica é Condicionamento, permanente, e não Sugestão; o Mestre revelou em 11/10 00:13.)",
  "lore": {
   "montante": "Tormento Vil. A alma de um mago elfo negro da seita de Lych está presa na pedra roxa do pomo (mágica Aprisionar Alma). Os PJs não sabem. A pedra começa a brilhar assim que a comitiva sai do deserto (zona de mana nulo), e os PJs não sabem disso.",
-  "mago": "Mago elfo negro de Lych. Sugestão NH 21, -5 por mana baixa (16 contra ser vivo, teto da disputa), resistência com +5 (decisão do Mestre).",
-  "sugestao": "A espada deve ser minha, eu mereço. Tenho que fugir para ficar com ela.",
-  "plano": "O Mestre vai alterar o plano da campanha e desenvolver essa narrativa depois."
+  "mago": "Mago elfo negro de Lych. Condicionamento NH 21, -5 por mana baixa (16 contra ser vivo, teto da disputa), resistência com +5 (decisão do Mestre).",
+  "plano": "Revelado pelo Mestre no fim da campanha (WhatsApp 11/10 00:11-00:13): 'Magia, vcs resistiram. Quem não resistiu foi o jah, comam e o guarda. Magia Condicionamento - coloca uma ideia fixa da cabeça da pessoa, permanente'. Removido por Orvin Thale no turno 59.",
+  "condicionamento": "A espada deve ser minha, eu mereço. Tenho que fugir para ficar com ela."
  },
  "disputa": {
   "regra": "Magia, Mágicas Resistíveis: o operador rola primeiro; sucesso simples pede Disputa Rápida contra IQ do alvo. NH do mago 21 -5 = 16. Alvo: IQ +5.",
@@ -52,6 +52,6 @@
     "alvo": "IQ 11+5=16, 3d [4,1,1]=6 (SUCESSO DECISIVO)"
    }
   ],
-  "duracao": "Sugestão dura 10 minutos (Magia), a menos que o Mestre mande outra coisa; quem resistiu sentiu o pensamento como algo estranho."
+  "duracao": "Condicionamento é permanente (decisão do Mestre, WhatsApp L8989): uma ideia fixa na cabeça da pessoa, até ser removida (Orvin Thale a removeu de Edric, Comam e Jah no turno 59). Quem resistiu sentiu o pensamento como algo estranho."
  }
 }
