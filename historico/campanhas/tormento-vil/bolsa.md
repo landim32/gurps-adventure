@@ -54,7 +54,7 @@ saldos e os totais são recalculados a partir dos lançamentos.)_
 - **07/09/2026 20:06** · +690 — Saldo inicial: Riqueza Média ($1.000, cenário de fantasia) menos $310 de equipamento da ficha
 - **07/09/2026 20:02** · +300 — Bolsa furtada de Giles Mão-de-Prata na comoção do braço quebrado (cap. 01)
 - **07/09/2026 20:37** · -50 — Apostou no Hoel contra o Negrum e deixou as moedas na mesa (cap. 01) — aposta em aberto
-- **16/09/2026 08:57** · +39 — Banca de apostas que ele mesmo organizou na briga Negrum x Hoel (Lábia 13, passou por 1): cobres de tropeiros, prata de dois carroceiros e a bolsinha de uma lavadeira. NÃO É DINHEIRO DELE — é dos fregueses, e um deles exigiu em voz alta que o bolo ficasse à vista, na madeira, e não na bolsa do estrangeiro. O taberneiro morreu antes de a aposta se resolver e a casa pegou fogo; o dinheiro saiu de lá com o Jah. Dívida em aberto com quem apostou (cap. 01)
+- **16/09/2026 08:57** · +39 — Banca de apostas que ele mesmo organizou na briga Negrum x Hoel (Lábia 13, passou por 1): cobres de tropeiros, prata de dois carroceiros e a bolsinha de uma lavadeira. NÃO É DINHEIRO DELE — é dos fregueses, e um deles [errata, conferido com o WhatsApp L336 e L851: os $39 ficaram com o Jah desde a noite da taberna, 07/09, e não no assoalho] exigiu em voz alta que o bolo ficasse à vista, na madeira, e não na bolsa do estrangeiro. O taberneiro morreu antes de a aposta se resolver e a casa pegou fogo; o dinheiro saiu de lá com o Jah. Dívida em aberto com quem apostou (cap. 01)
 - **20/09/2026 21:32** · +1000 — Metade adiantada de William; $2.000 combinados, o resto do outro lado do deserto (cap. 05)
 - **02/10/2026 14:09** · +1000 — Segunda metade do combinado de Wallace paga por decisao do GM, na véspera do dia 3 da travessia: mais $1.000 por cabeca, dos $2.000 acertados cada. Quita a divida de $5.000 de William sem o grupo pisar em Ferrier.
 - **02/10/2026 17:04** · -525 — 2 dardos ($60 -> $90), 8 facas ($240 -> $360) e 1 diaria de tratamento ($75)
@@ -74,10 +74,10 @@ saldos e os totais são recalculados a partir dos lançamentos.)_
 **Saldo: $6890**
 
 - **07/09/2026 20:06** · +260 — Saldo inicial: Riqueza Média ($1.000) menos $740 de equipamento da ficha
-- **07/09/2026 20:02** · +40 — Ganhou o braço-de-ferro contra Donnwulf (cap. 01) — as moedas caíram no assoalho quando o braço quebrou
+- **07/09/2026 20:02** · +40 — Ganhou o braço-de-ferro contra Donnwulf (cap. 01): a vitória rendeu 40 moedas, e os apostadores dividiram com ele (errata, conferido com o WhatsApp L73: não ficaram no assoalho)
 - **20/09/2026 21:32** · +1000 — Metade adiantada de William; $2.000 combinados, o resto do outro lado do deserto (cap. 05)
 - **02/10/2026 14:09** · +1000 — Segunda metade do combinado de Wallace paga por decisao do GM, na véspera do dia 3 da travessia: mais $1.000 por cabeca, dos $2.000 acertados cada. Quita a divida de $5.000 de William sem o grupo pisar em Ferrier.
-- **02/10/2026 17:04** · -1020 — Jogo completo de armadura de couro de Reptante: DP3/RD3, $680 de tabela (dobro do couro comum, peca por peca) com o agio de +50% do dia. 13,5 kg a mais no corpo
+- **02/10/2026 17:04** · -1020 — Jogo completo de armadura de couro de Reptante: DP3/RD3, $680 de tabela (dobro do couro comum, peca por peca) com o agio de +50% do dia. NÃO vestida: vai na mochila/carroça até sair do deserto (errata, conferido com o WhatsApp L7115 e L7118)
 - **03/10/2026 10:05** · -90 — Adiantamento do guia Yusuf ibn Harun, rateado (dia 12)
 - **06/10/2026 12:57** · +1000 — Dia 13: bolsa de moedas de Lorde William, $5.000 achados no corpo e divididos entre os 5 PJs da mesa
 - **09/10/2026 22:18** · -300 — Ferrier: Cura Superficial NH 15 (enquete do curandeiro)
