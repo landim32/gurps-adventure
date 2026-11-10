@@ -116,6 +116,11 @@ Do ponto de vista da mesa do grupo, a câmera passeia pelo salão e apresenta a 
   olhos do prato.
 - Perto da lareira, **DONNWULF** bate mais um braço contra a mesa e grita o próprio nome, e o
   círculo de apostadores grita junto. Umas quarenta moedas de prata em cima da madeira.
+
+  > **Kling:** pronto, como plano próprio. Quadro `cenas/01/05-donnwulf.png`, vídeo
+  > `05-donnwulf-vence.mp4` (10 s): ele derruba o braço de um tropeiro de capuz, ergue os
+  > punhos e a roda comemora. No quadro ele saiu de peito nu e com cara de uns 50 anos (no
+  > plano tem 30 e usa túnica de linho sem mangas e avental de pedreiro).
 - No balcão, **OSRIC**, de capa e cota de malha, bebe sozinho e depressa.
 - No canto, de costas para a parede, **TERESSY** bebe devagar, com a bolsa de couro presa
   entre as botas.
