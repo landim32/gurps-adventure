@@ -13,6 +13,21 @@ Elements de imagem funcionam em `image_to_image` (inclusive `kling-image-o1`) e 
 | Negrum Carneiriums | `326313426317293` | `historico/personagens/negrum-carneiriums/foto-old.png` (de tanga, como na ficha) | `tokens/negrum/negrum.png`, `negrum-front.png`, `negrum-back.png` |
 | NelsOwned | `326313431668218` | `historico/personagens/nelsowned/foto.png` | `corpo-inteiro.png`, `foto-original.png` |
 
+## Como gerar imagens que saiam fiéis (aprendido em 10/11/2026)
+
+- **O element sozinho não segura o rosto.** Com só o `<<<id>>>` no prompt, o Kling devolveu
+  pessoas genéricas (o Kaelric virou um monge careca). O que funciona:
+  1. `kling-image-o1` (o `kling-image-v3_0_omni` mistura personagens quando há mais de um);
+  2. **a foto do personagem como imagem de referência** (`image_2`, `image_3`…) e o prompt
+     dizendo "o homem de 图片2…", com o element junto como apoio;
+  3. o cenário como `image_1` **sem nenhum personagem**: use `cenas/01/00-taberna-vazia.png`
+     para a Âncora Quebrada. Um cenário com gente passa traços para os outros (a barba ruiva
+     com contas do NelsOwned foi parar no Kaelric);
+  4. no `bindName`, o nome exato do element no Kling (`Irmão Kaelric`, `Comam Obabaroy`…).
+- Peça o estilo das ilustrações dos elements (pintura de fantasia sombria), não
+  "fotorrealista".
+- Sem a palavra "sheep"/"shepherd" no prompt da taberna: o modelo põe ovelha dentro do salão.
+
 Notas de continuidade:
 
 - **NelsOwned** perde a **mão esquerda** no cap. 6 (Maneta, amputada). As imagens do element

@@ -65,23 +65,24 @@ o salão explode, e **só então** chovem moedas de cobre no assoalho em volta d
 
 ### CENA 2 — INT. SALÃO — A MESA DO GRUPO — CONTÍNUO
 
-Ainda com a música ao fundo, corte para uma mesa lateral, perto da parede. Quatro
-forasteiros com a poeira de quatro dias de estrada na roupa, recém-chegados com a caravana.
-É a primeira vez que o filme os mostra juntos:
+Ainda com a música ao fundo, corte para uma mesa lateral, perto da lareira. Três
+forasteiros com a poeira de quatro dias de estrada na roupa, recém-chegados com a caravana:
 
-- **KAELRIC**, enorme mesmo sentado, a sobreveste branca com a cruz vermelha, o escudo
-  encostado na parede. Bebe devagar e olha o salão como quem pesa almas.
-- **NEGRUM**, sem camisa, os braços sobre a mesa, rindo do anão e batendo o caneco no ritmo.
-- **JAH**, quieto, de costas para a parede, olhando para os anéis do mercador do tapete
-  vermelho e para a bolsa no cinto dele.
-- **COMAM**, o tapa-olho e o sorriso de sempre, virando o caneco e erguendo a mão para pedir
-  mais um. E mais um.
+- **COMAM**, o tapa-olho e o sorriso de sempre, vira o caneco de madeira de uma vez, bate o
+  caneco vazio na mesa, limpa a boca com as costas da mão, ri e ergue o braço pedindo mais
+  um. E pega o próximo.
+- **KAELRIC**, um gigante de mais de dois metros que, mesmo sentado, fica uma cabeça e um
+  ombro acima dos outros. Camal, tranças, sobreveste com a cruz, o escudo ao lado. Não
+  bebe: reza de olhos fechados, passando as contas do terço.
+- **JAH**, de manto escuro, braços cruzados, não toca no caneco. Só os olhos se mexem,
+  correndo o salão; param nos anéis do mercador do tapete vermelho e na bolsa no cinto dele.
 
-NELSOWNED desce do banco, recolhe as moedas com uma reverência exagerada e se junta a eles.
-Os cinco à mesma mesa.
+O **NEGRUM** não está na mesa: já foi para o círculo do braço-de-ferro, perto da lareira
+(cena 4).
 
-> **Kling:** quadro novo com os elements de Kaelric, Negrum, Jah e Comam (até 3 elements por
-> vídeo no `kling-video-v3_0`; gerar o quadro com `image_to_image`, que aceita até 10).
+> **Kling:** pronto. Quadro `video/cenas/01/02-a-mesa.png`, vídeo `02-a-mesa.mp4`, 10 s com
+> áudio. Veja em `video/elements-kling.md` como o quadro foi feito: as fotos dos
+> personagens entram como imagens de referência, o element sozinho não segura o rosto.
 
 ### CENA 3 — INT. SALÃO — A CASA — CONTÍNUO
 
@@ -465,7 +466,7 @@ tombada.
 | # | Cena | Elements | Ferramenta sugerida |
 |---|---|---|---|
 | 1 | O show do NelsOwned (abertura) | NelsOwned | **pronto**: `cenas/01/03-show-do-nelsowned` |
-| 2 | Os outros quatro na mesa | Kaelric, Negrum, Jah, Comam | `image_to_image` (quadro) → `image_to_video` |
+| 2 | Comam, Kaelric e Jah na mesa | Comam, Kaelric, Jah | **pronto**: `cenas/01/02-a-mesa` |
 | 3 | A casa (Hoel, Giles, Bronwyn, Donnwulf, Osric, Teressy) | — | panorâmica |
 | 4 | Braço-de-ferro e o estalo | Negrum | `image_to_video` a partir de `abertura/03-…jpg` |
 | 5 | Furto da bolsa | Jah | `image_to_image` (quadro) → `image_to_video` |
