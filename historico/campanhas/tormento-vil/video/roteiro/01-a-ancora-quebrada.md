@@ -84,6 +84,27 @@ O **NEGRUM** não está na mesa: já foi para o círculo do braço-de-ferro, per
 > áudio. Veja em `video/elements-kling.md` como o quadro foi feito: as fotos dos
 > personagens entram como imagens de referência, o element sozinho não segura o rosto.
 
+### CENA 2B — INT. SALÃO — A MESA DO GRUPO — CONTÍNUO
+
+JAH descruza os braços, levanta-se sem barulho, puxa o capuz e sai pela esquerda, passando
+diante da mesa. O Comam nem levanta os olhos do caneco; o Kaelric não para de rezar.
+
+> **Kling:** a fazer. A primeira tentativa (`cenas/01/03-jah-sai.mp4`, a partir do último
+> quadro de `02-a-mesa.mp4`) acertou o Jah até os 6 s e depois tirou o Comam da mesa. Refazer
+> com 6 s e uma imagem final (`tail_image`) com o Comam ainda sentado.
+
+### CENA 2C — INT. SALÃO — O BALCÃO — CONTÍNUO
+
+No balcão, HOEL enche um caneco na torneira do barril e o empurra para o JAH, que encostou
+ao lado de GILES MÃO-DE-PRATA. O mercador gargalha de cabeça para trás, vira o caneco,
+acena para o salão. O Jah ergue a cerveja num brinde curto e bebe. A outra mão desce por trás
+das costas do mercador, solta o cordão da **bolsa de ouro** do cinto e a some dentro do manto.
+Giles não percebe nada. O Jah bebe de novo, de cara parada, olhando o taberneiro.
+
+> **Kling:** pronto. Quadro `cenas/01/04-balcao.png`, vídeo `04-balcao-furto.mp4`, 10 s com
+> áudio. NPCs só por descrição (Hoel saiu menos corpulento que no plano e sem a meia orelha à
+> vista).
+
 ### CENA 3 — INT. SALÃO — A CASA — CONTÍNUO
 
 Do ponto de vista da mesa do grupo, a câmera passeia pelo salão e apresenta a casa:
@@ -140,15 +161,13 @@ Os apostadores dividem as quarenta moedas com o Negrum, em silêncio.
 ### CENA 5 — INT. SALÃO — MESA DE GILES — CONTÍNUO
 
 Três segundos em que todo mundo olha para o braço do pedreiro. Giles está meio de pé, de
-caneco esquecido na mão.
+caneco esquecido na mão. Leva a mão ao cinto para pegar uma moeda para o barbeiro, franze a
+testa e não entende por que o cinto ficou tão leve. Volta a olhar o braço.
 
-Plano detalhe: os dedos de JAH entram e saem do cinto do mercador. A bolsa some na manga.
-Bronwyn está a um palmo e não vê nada.
+Do outro lado do salão, o Jah toma a cerveja dele sem pressa.
 
-Giles leva a mão ao cinto, franze a testa e não entende por que ele ficou mais leve. Volta a
-olhar o braço.
-
-> **Kling:** câmera lenta, profundidade de campo curta, a bolsa em foco. Elements: Jah.
+_(O furto em si já aconteceu no balcão, cena 2C. No histórico ele foi feito nesta
+comoção do braço quebrado; o filme o antecipa e deixa aqui só a mão do Giles no cinto.)_
 
 ### CENA 6 — INT. SALÃO — NOITE
 
@@ -467,6 +486,8 @@ tombada.
 |---|---|---|---|
 | 1 | O show do NelsOwned (abertura) | NelsOwned | **pronto**: `cenas/01/03-show-do-nelsowned` |
 | 2 | Comam, Kaelric e Jah na mesa | Comam, Kaelric, Jah | **pronto**: `cenas/01/02-a-mesa` |
+| 2B | Jah se levanta e sai da mesa | Jah, Comam, Kaelric | refazer com `tail_image` |
+| 2C | O furto no balcão | Jah | **pronto**: `cenas/01/04-balcao-furto` |
 | 3 | A casa (Hoel, Giles, Bronwyn, Donnwulf, Osric, Teressy) | — | panorâmica |
 | 4 | Braço-de-ferro e o estalo | Negrum | `image_to_video` a partir de `abertura/03-…jpg` |
 | 5 | Furto da bolsa | Jah | `image_to_image` (quadro) → `image_to_video` |
