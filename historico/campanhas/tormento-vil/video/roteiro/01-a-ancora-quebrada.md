@@ -170,6 +170,11 @@ Donnwulf, branco, procura o Negrum por cima do ombro estragado. A voz sai rouca 
 
 **DONNWULF:** Não foi tua culpa, grandão. Esse braço já vinha avisando.
 
+> **Kling:** pronto. Vídeo `cenas/01/08-nao-foi-tua-culpa.mp4`, 10 s, do último quadro de
+> `07-braco-de-ferro.mp4`: o Donnwulf segura o braço machucado, diz a fala em inglês ("It
+> wasn't your fault, big man. This arm had been warning me for a while.") e os dois se
+> cumprimentam. O "Wat, o barbeiro" do Hoel ainda não foi filmado.
+
 Os apostadores dividem as quarenta moedas com o Negrum, em silêncio.
 
 **SOM:** lá fora, os cães dos currais uivam, todos ao mesmo tempo. Ninguém repara.
