@@ -13,6 +13,7 @@ Elements de imagem funcionam em `image_to_image` (inclusive `kling-image-o1`) e 
 | Negrum Carneiriums | `326313426317293` | `historico/personagens/negrum-carneiriums/foto-old.png` (de tanga, como na ficha) | `tokens/negrum/negrum.png`, `negrum-front.png`, `negrum-back.png` |
 | NelsOwned | `326313431668218` | `historico/personagens/nelsowned/foto.png` | `corpo-inteiro.png`, `foto-original.png` |
 | Donnwulf (NPC) | `326326476651447` | `video/elements/donnwulf/retrato.png` | `frente.png`, `perfil.png`, `costas.png` (mesma pasta) |
+| Osric de Bannock (NPC) | `326368830303731` | `video/elements/osric/retrato.png` | `frente.png`, `perfil.png`, `costas.png` (mesma pasta) |
 
 **URLs no Kling para usar como imagem de referência** (o element sozinho não segura o rosto,
 veja abaixo). Donnwulf — retrato:
@@ -23,6 +24,11 @@ recortes em `video/elements/donnwulf/ref-*`), e não do plano: saiu **grisalho, 
 uns 45-50 anos e de peito nu** com avental de pedreiro. O plano dizia 30 anos e túnica sem
 mangas; o filme fica com o visual do element. Depois do braço-de-ferro com o Negrum (cena 4)
 ele passa o resto do filme com o **braço direito quebrado, na tala** — peça isso no prompt.
+
+O **Osric** (criado em 11/11/2026) segue o histórico, não o plano: guarda do castelo de folga,
+uns 35 anos, magro e duro, barba curta escura, capa verde-escura com capuz sobre a cota de
+malha, túnica marrom e **sem espada** ("a mão indo para o cinto onde não há espada", narração 4
+do cap. 1). O plano dava espada curta; a narração da mesa manda. Sem elmo e sem escudo.
 
 ## Como gerar imagens que saiam fiéis (aprendido em 10/11/2026)
 
