@@ -139,6 +139,13 @@ braço.
 
 **DONNWULF:** Senta aí, então.
 
+> **Kling, primeira metade (a chegada):** pronto. Vídeo `cenas/01/06-negrum-chega.mp4`, 10 s,
+> do último quadro de `05-donnwulf-vence.mp4` até a imagem final `06-negrum-chega-fim.png`: o
+> Donnwulf senta e chama o próximo, o Negrum entra afastando os fregueses no ombro, senta e
+> os dois travam as mãos. Só começa; a disputa e o estalo ficam para o próximo clipe.
+> Elements: Donnwulf `326326476651447`, Negrum `326313426317293`.
+
+
 Os cotovelos batem juntos. Alguém conta até três, e depois não acontece nada. Os dois braços
 travam na vertical. **Um minuto. Dois.** A veia do pescoço do pedreiro sobe, o rosto vai do
 vermelho ao roxo e as moedas tremem em cima da mesa.
