@@ -153,11 +153,12 @@ vermelho ao roxo e as moedas tremem em cima da mesa.
 O cotovelo de Donnwulf escorrega no suor. **ESTALO** seco, de galho verde partindo. O braço
 cai num ângulo que braço nenhum faz.
 
-> **Kling, segunda metade (a disputa):** pronto. Vídeo `cenas/01/07-braco-de-ferro-grito.mp4`,
-> 10 s, do último quadro de `06-negrum-chega.mp4` até o close `07-braco-de-ferro-fim.png`: os
-> dois se encarando com raiva, a câmera fechando, e o corte em chicote para o rosto do
-> Donnwulf gritando. **O braço quebrando fica fora de quadro**: o Kling se recusou a desenhar
-> a fratura em quatro tentativas. O estalo vai no som da montagem.
+> **Kling, segunda metade (a disputa):** pronto. Vídeo `cenas/01/07-braco-de-ferro.mp4`,
+> 10 s, de `07-braco-de-ferro-inicio.png` (último quadro de `06-negrum-chega.mp4`) até
+> `07-braco-de-ferro-fim.png`, imagem final feita pelo usuário: os dois fazem força se
+> encarando, o Negrum vai ganhando e força o braço do Donnwulf até quase a mesa, ele grita de
+> dor e a roda comemora. **O estalo e o braço torto ficam fora de quadro**: o Kling não
+> desenha a fratura; vão no som da montagem e no clipe seguinte.
 
 O berro apaga o salão. Os canecos param no ar. Hoel sai de trás do balcão empurrando gente:
 
