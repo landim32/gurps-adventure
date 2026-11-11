@@ -44,6 +44,10 @@ Notas de continuidade:
 - **NelsOwned** perde a **mão esquerda** no cap. 6 (Maneta, amputada). As imagens do element
   mostram as duas mãos; da fuga para o deserto em diante, peça no prompt "sem a mão esquerda,
   coto enfaixado".
+- **Negrum de costas: não use o element.** As imagens secundárias (`negrum-front.png`,
+  `negrum-back.png`) mostram o equipamento, e em plano de costas o Kling pôs mochila, escudo,
+  maça e espada nele (`13-luta-soco`, 1ª versão). Sem o element, descrevendo "costas nuas, só
+  tanga e braceletes, sem mochila nem armas", saiu certo.
 - **Negrum** foi criado com a tanga da ficha. A `foto.png` com armadura de escamas é posterior e
   não entrou: no cap. 7 ele **não vestiu** a armadura dos reptantes.
 - **Jah** só tinha uma imagem utilizável; a secundária é o recorte do rosto da própria foto.
